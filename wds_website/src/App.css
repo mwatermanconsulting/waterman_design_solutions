@@ -2,13 +2,13 @@
 .flex-container100 {
   display: flex;
   flex-flow: column;
-  height: 100%;
-  background-color: blue;
+  height: 450px;
 }
 
 .flex-container50 {
   display: flex;
   flex-flow: column;
+  flex-direction: column;
   width: 50%;
   height: 100%;
 }
