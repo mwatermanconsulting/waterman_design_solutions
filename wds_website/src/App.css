@@ -2,7 +2,7 @@
 .flex-container100 {
   display: flex;
   flex-flow: column;
-  height: 450px;
+  height: 768px;
 }
 
 .flex-container50 {
@@ -27,4 +27,9 @@
 .svg-image {
   height: auto;
   width: auto;
+}
+
+.mdl-layout__header-row .mdl-navigation__link {
+  color: black !important;
+
 }

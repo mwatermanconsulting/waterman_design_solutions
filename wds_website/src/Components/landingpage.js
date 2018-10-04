@@ -9,24 +9,23 @@ class Landing extends Component {
             <div className="flex-container"> 
                 <div className="flex-container100" style={{background: "red"}}>
                    <div>
-                    whaT
+                    1st section
                     </div>
-                </div>
-                    
-            <div className="flex-container100" style={{background: "blue"}}>>
+                </div>  
+            <div className="flex-container100" style={{background: "blue"}}>
             
                 <div className="logo">
-                <img src={logo} />
+                    <div> 2nd section </div>
+                {/* <img src={logo} /> */}
             </div> 
-            
             </div>
 
-    <div className="flex-container100" style={{background: "yellow"}}>
-        <div>
-            whaT
+        <div className="flex-container100" style={{background: "yellow"}}>
+            <div>
+                3rd section 
+            </div>
         </div>
-    </div>
-    </div>
+        </div>
         )
     }
 }
