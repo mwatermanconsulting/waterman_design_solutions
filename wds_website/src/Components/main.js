@@ -6,6 +6,7 @@ import AboutUs from './aboutus';
 import Clients from './clients';
 import Contact from './contact';
 import Services from './services';
+import Portfolio from './portfolio';
 
 
 
@@ -16,6 +17,8 @@ const Main = () => (
     <Route exact path="/contact" component={Contact} />
     <Route exact path="/clients" component={Clients} />
     <Route exact path="/services" component={Services} />
+    <Route exact path="/portfolio" component={Portfolio} />
+
 
   </Switch>
 )
