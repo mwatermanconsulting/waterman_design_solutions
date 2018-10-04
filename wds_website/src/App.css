@@ -23,3 +23,8 @@
 .landing-grid {
   background: red;
 }
+
+.svg-image {
+  height: auto;
+  width: auto;
+}
