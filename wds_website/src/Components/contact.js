@@ -4,7 +4,7 @@ class contact extends Component {
     render () {
         return(
             <div className="flex-container"> 
-            <div className="flex-container100" style={{background: "red"}}>
+            <div className="flex-container100" style={{background: "orange"}}>
                <div>
                 1st section
                 </div>

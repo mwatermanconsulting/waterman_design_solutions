@@ -1,4 +1,5 @@
 import React, { Component } from 'react' ;
+import badHairCut from '../images/badhaircut.gif';
 
 class clients extends Component {
     render () {
@@ -13,7 +14,7 @@ class clients extends Component {
         
             <div className="logo">
                 <div> 2nd section </div>
-            {/* <img src={logo} /> */}
+             <img src={badHairCut} /> 
         </div> 
         </div>
 
