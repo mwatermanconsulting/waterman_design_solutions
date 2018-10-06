@@ -3,6 +3,7 @@ import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import { Footer, FooterSection, FooterDropDownSection, FooterLinkList, } from 'react-mdl';
 import Main from './components/main';
+import logo from './images/WDS-logo.svg'
 import { Link } from 'react-router-dom';
 
 class App extends Component {
@@ -12,9 +13,9 @@ class App extends Component {
       //Header //
 
       <div className="flex-container100">
-        <Layout className="header">
+        <Layout>
             <Header className="header" title={<Link style={{textDecoration: 'none',
-            color: 'black'}} to="/">Waterman Consulting</Link>} scroll>
+            color: 'black'}} to="/"><img src={logo} width="100" height="50" /></Link>} scroll>
                 <Navigation style={{ color: 'black'}}>
                     <Link to="/services">Services</Link>
                     <Link to="/Clients">Clients</Link>
