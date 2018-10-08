@@ -14,7 +14,7 @@ class clients extends Component {
         
             <div className="logo">
                 <div> 2nd section </div>
-             <img src={badHairCut} /> 
+             <img src={badHairCut} alt="bad hair cut"/> 
         </div> 
         </div>
 

@@ -1,12 +1,12 @@
 import React, { Component } from 'react' ;
-import backgroundServices from '../images/background-services.svg';
+import backgroundServices from '../images/couple.png';
 
 class Services extends Component {
     render () {
         return(
             <div className="flex-container"> 
                 <div className="flex-container100">
-                   <img src={backgroundServices} className="services_img" /> 
+                   <img src={backgroundServices} className="couple_img" alt="couple" /> 
                 </div>  
             <div className="flex-container100" style={{background: "blue"}}>
             

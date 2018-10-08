@@ -32,9 +32,14 @@
 
 }
 
-.services_img {
+.services-img {
   width: 1368px;
   height: 768px;
+}
+
+.couples-img {
+  width: 351px;
+  height: 295px;
 }
 
 .mdl-layout__drawer-button {

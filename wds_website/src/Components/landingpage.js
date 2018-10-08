@@ -1,7 +1,7 @@
 import React, { Component } from 'react' ;
 
 //import { Grid, Cell } from 'react-mdl';
-import logo from '../images/WDS-logo.svg';
+
 
 class Landing extends Component {
     render () {

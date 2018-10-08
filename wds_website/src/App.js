@@ -15,7 +15,7 @@ class App extends Component {
       <div className="flex-container100">
         <Layout>
             <Header className="header" title={<Link style={{textDecoration: 'none',
-            color: 'black'}} to="/"><img src={logo} width="100" height="50" /></Link>} scroll>
+            color: 'black'}} to="/"><img src={logo} width="100" height="50" alt="bad hair cut" /></Link>} scroll>
                 <Navigation style={{ color: 'black'}}>
                     <Link to="/services">Services</Link>
                     <Link to="/Clients">Clients</Link>
