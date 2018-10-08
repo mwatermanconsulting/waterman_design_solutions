@@ -6,7 +6,7 @@ class Services extends Component {
         return(
             <div className="flex-container"> 
                 <div className="flex-container100">
-                   <img src={backgroundServices} className="couple_img" alt="couple" /> 
+                   <img className="couple-img" src={backgroundServices}  alt="couple" /> 
                 </div>  
             <div className="flex-container100" style={{background: "blue"}}>
             

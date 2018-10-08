@@ -25,6 +25,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "postcss-normalize": "^7.0.1"
+    "postcss-normalize": "^7.0.1",
+    "react-image-resizer": "^1.3.0"
   }
 }
