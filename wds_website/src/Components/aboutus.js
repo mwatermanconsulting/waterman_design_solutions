@@ -12,7 +12,7 @@ class aboutus extends Component {
         <div className="flex-container100" style={{background: "blue"}}>
         
             <div className="logo">
-                <div> 2nd section </div>
+                <div className="red, rightmargin20, bold"> 2nd section </div>
             {/* <img src={logo} /> */}
         </div> 
         </div>

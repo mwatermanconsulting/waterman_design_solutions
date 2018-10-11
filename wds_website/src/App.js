@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './stylesheets/css/App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import { Footer, FooterSection, FooterDropDownSection, FooterLinkList, } from 'react-mdl';
 import Main from './components/main';
@@ -45,11 +45,15 @@ class App extends Component {
 
       <Footer size="mega">
       <FooterSection type="middle">
-          <FooterDropDownSection title="Features">
+          <FooterDropDownSection title="Services">
               <FooterLinkList>
-                  <a href="./">About</a>
-                  <a href="./">Partners</a>
-                  <a href="./">Updates</a>
+                  <a href="./">User Interface Design</a>
+                  <a href="./">User Experience Reasearch</a>
+                  <a href="./">Design</a>
+                  <a href="./">PaaS</a>
+                  <a href="./">SaaS</a>
+                  <a href="./">Communication</a>
+                  <a href="./">Marketing</a>
               </FooterLinkList>
           </FooterDropDownSection>
           <FooterDropDownSection title="Details">
