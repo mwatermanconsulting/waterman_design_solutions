@@ -1,20 +1,24 @@
+
+
 .flex-container100 {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   height: 768px;
   min-height: 768px;
 }
 
 .flex-container50 {
   display: flex;
-  flex-flow: column;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
   width: 50%;
   height: 100%;
 }
 
 .header {
-  background: #fff !important;
+  font-size: 1.5em;
+  background-color:green;
 }
 
 .landing-grid {
@@ -35,17 +39,25 @@
   height: 768px;
 }
 
-.couple-img {
+.couple img {
+  top: 5px;
+  left: 5px;
   width: 876x;
   height: 595x;
   -webkit-clip-path: polygon(0 1%, 100% 0, 40% 100%, 0% 100%);
   clip-path: polygon(0 1%, 100% 0, 40% 100%, 0% 100%);
+  border: 5px solid black;
 }
 
 .mdl-layout__drawer-button {
   color: gray !important;
 }
 
+.title {
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 42px;
+  margin-bottom: 15px;
+}
 .content-header {
   display: flex;
   width: 100%;
@@ -69,4 +81,27 @@
   margin-right: 75px;
 }
 
+
+
+/*  Colors   */
+
+.lightgreen {
+  background-color: #BDCCD4;
+}
+.purple {
+  background-color: #78738A;
+}
+.lightgreen {
+  background-color: #87A6AB;
+}
+.yellow {
+  background-color: #F4D195;
+}
+.offwhite {
+  background-color: #E3CEB6;
+}
+
+.white {
+  background-color: #fff;
+}
 /*# sourceMappingURL=App.css.map */

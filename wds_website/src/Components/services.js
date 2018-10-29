@@ -18,7 +18,7 @@ class Services extends Component {
                     </div>
                  </div>
                 </div>  
-            <div className="flex-container100" style={{background: "blue"}}>
+            <div className="flex-container100 lightgreen">
             
                 <div className="logo">
                     <div> 2nd section </div>
