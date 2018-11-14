@@ -10,7 +10,7 @@ class Services extends Component {
                         <img className="couple-img" src={backgroundServices}  alt="couple" /> 
                         <div className="content-right-center">
                             <div className="content-header">
-                                <h2>About US</h2>
+                            <div className="title">SERVICES</div>
                             </div>
                         <div className="content-text">
                             <p> End to end design, we take care of it all, from initial UX focus groups to marketing on the web.</p>
@@ -21,7 +21,9 @@ class Services extends Component {
             <div className="flex-container100 lightgreen">
             
                 <div className="logo">
-                    <div> 2nd section </div>
+                    <div className="dots">  
+                        <div className="flex-container50" background src="../images/bloatware.gif" ></div>
+                    </div>
             </div> 
             </div>
             <div className="flex-container"> 

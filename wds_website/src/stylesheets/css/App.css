@@ -104,4 +104,11 @@
 .white {
   background-color: #fff;
 }
+
+.dots {
+  width: 100%;
+  height: 768px;
+  background-position: left top;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAGUlEQVQYV2NkwAIYCQn+Z2BgACsiqBJuEgA0oAEGG0cSmgAAAABJRU5ErkJggg==) repeat, url(../../images/clear.png);
+}
 /*# sourceMappingURL=App.css.map */
