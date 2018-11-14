@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './stylesheets/css/App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import { Footer, FooterSection, FooterDropDownSection, FooterLinkList, } from 'react-mdl';
-import Main from './components/main';
+import Main from './Components/main';
 import logo from './images/WDS-logo.svg'
 import { Link } from 'react-router-dom';
 
