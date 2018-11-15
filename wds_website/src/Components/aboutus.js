@@ -4,8 +4,8 @@ import backgroundServices from '../images/couple.png';
 class aboutus extends Component {
     render () {
         return(
-<div className="flex-container-default"> 
-                <div className="flex-container100">
+            <div className="flex-container-default"> 
+                <div className="flex-containertop">
                     <div className="sevices-background-section1">
                         <img className="couple-img" src={backgroundServices}  alt="couple" /> 
                         <div className="content-right-center">
@@ -19,16 +19,13 @@ class aboutus extends Component {
                  </div>
                 </div>  
             <div className="flex-container100 lightgreen">
-            
-                <div className="logo">
+                <div className="dots">
                     <div> 2nd section </div>
-            </div> 
+                </div> 
             </div>
-            <div className="flex-container"> 
-                <div className="flex-container100 lightgreen">
-            <div>
-                3rd section 
-            </div>
+            <div className="flex-container100 lightgreen">
+                <div className="dots">
+                    <div>3rd section </div>
                 </div>
             </div>
         </div>

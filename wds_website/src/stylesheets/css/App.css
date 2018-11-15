@@ -1,11 +1,11 @@
 
 
-.flex-container100 {
+
+.flex-containertop {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 768px;
-  min-height: 768px;
+  height: 605px;
 }
 
 .flex-container50 {
@@ -22,7 +22,7 @@
 }
 
 .landing-grid {
-  background: red;
+  background: rgb(0, 0, 0);
 }
 
 .svg-image {
@@ -39,14 +39,16 @@
   height: 768px;
 }
 
-.couple img {
-  top: 5px;
+.couple-img {
+  top: 0px;
   left: 5px;
   width: 876x;
   height: 595x;
-  -webkit-clip-path: polygon(0 1%, 100% 0, 40% 100%, 0% 100%);
-  clip-path: polygon(0 1%, 100% 0, 40% 100%, 0% 100%);
-  border: 5px solid black;
+  -webkit-clip-path: polygon(0 0%, 100% 0, 50% 100%, 0% 100%);
+  clip-path: polygon(0 0%, 100% 0, 50% 100%, 0% 100%);
+  border-right-style: outset;
+  border-right-color: black;
+  border-right-width: 5px;
 }
 
 .mdl-layout__drawer-button {
@@ -55,8 +57,9 @@
 
 .title {
   font-family: 'Mouse Memoirs', sans-serif;
-  font-size: 42px;
+  font-size: 62px;
   margin-bottom: 15px;
+  color: #fff
 }
 .content-header {
   display: flex;
@@ -71,6 +74,12 @@
 .sevices-background-section1 {
   display: flex;
   background-color: #87A6AB;
+  border-top-style: outset;
+  border-top-color: black;
+  border-top-width: 5px;
+  border-bottom-style: outset;
+  border-bottom-color: black;
+  border-bottom-width: 5px;
 }
 
 .content-right-center {

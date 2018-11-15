@@ -1,5 +1,5 @@
 import React, { Component } from 'react' ;
-import backgroundServices from '../images/couple.png';
+import backgroundServices from '../images/enchilada.png';
 
 class Services extends Component {
     render () {
@@ -10,7 +10,7 @@ class Services extends Component {
                         <img className="couple-img" src={backgroundServices}  alt="couple" /> 
                         <div className="content-right-center">
                             <div className="content-header">
-                            <div className="title">SERVICES</div>
+                                <div className="title">SERVICES</div>
                             </div>
                         <div className="content-text">
                             <p> End to end design, we take care of it all, from initial UX focus groups to marketing on the web.</p>
