@@ -5,7 +5,7 @@ class Services extends Component {
     render () {
         return(
             <div className="flex-container-default"> 
-                <div className="flex-container100">
+                <div className="flex-containertop">
                     <div className="sevices-background-section1">
                         <img className="couple-img" src={backgroundServices}  alt="couple" /> 
                         <div className="content-right-center">
@@ -22,12 +22,12 @@ class Services extends Component {
             
                 <div className="logo">
                     <div className="dots">  
-                        <div className="flex-container50" background src="../images/bloatware.gif" ></div>
+                        <div className="flex-container50"><img src="../images/bloatware.gif"></img>where's my image</div>
                     </div>
             </div> 
             </div>
             <div className="flex-container"> 
-                <div className="flex-container100" style={{background: "yellow"}}>
+                <div className="flex-container100 lightgreen">
             <div>
                 3rd section 
             </div>

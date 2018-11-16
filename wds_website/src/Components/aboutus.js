@@ -1,5 +1,7 @@
 import React, { Component } from 'react' ;
 import backgroundServices from '../images/couple.png';
+import './images/michael.png';
+import './images/terri.png';
 
 class aboutus extends Component {
     render () {
@@ -20,7 +22,7 @@ class aboutus extends Component {
                 </div>  
             <div className="flex-container100 lightgreen">
                 <div className="dots">
-                    <div> 2nd section </div>
+                    <div> <image src="./images/michael.png"></image> </div>
                 </div> 
             </div>
             <div className="flex-container100 lightgreen">
