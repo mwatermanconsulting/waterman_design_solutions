@@ -12,8 +12,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 50%;
-  height: 100%;
+  
+}
+.flex-container50 img {
+  width: 200px;
+  height: auto;
 }
 
 .header {
@@ -64,6 +67,7 @@
 .content-header {
   display: flex;
   width: 100%;
+  flex-direction: column;
 }
 
 .content-text {
@@ -89,7 +93,13 @@
   align-items: center;
   margin-right: 75px;
 }
-
+.content-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 768px;
+}
 
 
 /*  Colors   */
@@ -121,3 +131,12 @@
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAGUlEQVQYV2NkwAIYCQn+Z2BgACsiqBJuEgA0oAEGG0cSmgAAAABJRU5ErkJggg==) repeat, url(../../images/clear.png);
 }
 /*# sourceMappingURL=App.css.map */
+
+/* margins */
+
+.marginleft30{
+  margin-left: 30px;
+}
+.marginleft50{
+  margin-left: 50px;
+}
