@@ -44,7 +44,8 @@ class App extends Component {
       </Content>
 
 
-      <Footer size="mega">
+   
+      <Footer className="red">
       <FooterSection type="middle">
           <FooterDropDownSection title="Services">
               <FooterLinkList>

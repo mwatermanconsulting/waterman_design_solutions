@@ -1,4 +1,12 @@
-
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: normal !important;
+}
 
 
 .flex-containertop {
@@ -11,12 +19,15 @@
 .flex-container50 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   
 }
 .flex-container50 img {
   width: 200px;
-  height: auto;
+  height: 235px;
+  min-width: 200px;
+  max-height: 235px;
+  margin-right: 20px;
 }
 
 .header {
@@ -49,9 +60,6 @@
   height: 595x;
   -webkit-clip-path: polygon(0 0%, 100% 0, 50% 100%, 0% 100%);
   clip-path: polygon(0 0%, 100% 0, 50% 100%, 0% 100%);
-  border-right-style: outset;
-  border-right-color: black;
-  border-right-width: 5px;
 }
 
 .mdl-layout__drawer-button {
@@ -62,18 +70,32 @@
   font-family: 'Mouse Memoirs', sans-serif;
   font-size: 62px;
   margin-bottom: 15px;
-  color: #fff
+  color: #fff;
+}
+.heading1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #fff;
 }
 .content-header {
   display: flex;
   width: 100%;
-  flex-direction: column;
 }
 
 .content-text {
   display: flex;
   flex-direction: row;
 }
+.textblock{
+  padding: 20px;
+  border: black 3px solid;
+  width: 70%;
+}
+.align-items-center{
+  align-items: center;
+}
+
 
 .sevices-background-section1 {
   display: flex;
@@ -100,6 +122,13 @@
   align-items: center;
   height: 768px;
 }
+.content-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  height: 768px;
+}
 
 
 /*  Colors   */
@@ -109,6 +138,9 @@
 }
 .purple {
   background-color: #78738A;
+}
+.lightpurple{
+  background-color: #b8a9c6;
 }
 .lightgreen {
   background-color: #87A6AB;
@@ -123,12 +155,23 @@
 .white {
   background-color: #fff;
 }
-
+.red{
+  background-color: #DA6154 !important;
+}
 .dots {
+  display: flex;
   width: 100%;
   height: 768px;
   background-position: left top;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAGUlEQVQYV2NkwAIYCQn+Z2BgACsiqBJuEgA0oAEGG0cSmgAAAABJRU5ErkJggg==) repeat, url(../../images/clear.png);
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAHklEQVQoU2NkIAAYqa7gP9REuMnoVhBUgOEkyh0JAA6rAgmckIqQAAAAAElFTkSuQmCC) repeat, url(../../images/clear.png);
+}
+.pinkdots{
+  background-image: url(../../images/pinkdots.png);
+
+}
+.purpledots{
+  background-image: url(../../images/purpledots.png);
+
 }
 /*# sourceMappingURL=App.css.map */
 
@@ -139,4 +182,15 @@
 }
 .marginleft50{
   margin-left: 50px;
+}
+.margintop50{
+  margin-top: 50px;
+}
+
+
+/* footer */
+
+footer {
+  background-color: #daa09a !important;
+  color: black !important;
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react' ;
 import backgroundServices from '../images/enchilada.png';
+import bloatware from '../images/bloatware.gif';
 
 class Services extends Component {
     render () {
@@ -18,13 +19,26 @@ class Services extends Component {
                     </div>
                  </div>
                 </div>  
-            <div className="flex-container100 lightgreen">
-            
-                <div className="logo">
-                    <div className="dots">  
-                        <div className="flex-container50"><img src="../images/bloatware.gif"></img>where's my image</div>
+                <div className="flex-container100 lightgreen">
+                <div className="dots">
+                    <div className="flex-container50 content-top marginleft50"> 
+                        <div className="content-top marginleft30 margintop50"> 
+                            <div className="content-text">
+                                <div className="content-header textblock purple"><img src={bloatware} alt="bloatware"/> 
+                                        </div>
+                            </div>
+                        </div>
                     </div>
-            </div> 
+                    <div className="flex-container50 content-top marginleft50"> 
+                        <div className="content-top marginleft30 margintop50"> 
+                            <div className="content-text">
+                                <div className="content-header  lightgreen">
+                                        <p> fjsi;fu fisu foi;srlf as;ilfj slfj slkfj slkfj slkfj salf ja;lskfj lskrg iurgkj dfvoirugselkrhgieru giier ger gordhg v;ekr hgerg rgh hoeirg ivoeirgjeurgh oeirgh oeirg heroih  </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
             </div>
             <div className="flex-container"> 
                 <div className="flex-container100 lightgreen">
