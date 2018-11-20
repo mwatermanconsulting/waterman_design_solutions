@@ -30,6 +30,11 @@ body {
   margin-right: 20px;
 }
 
+.flex-container-default {
+  display: flex;
+  flex-direction: column;
+}
+
 .header {
   font-size: 1.5em;
   background-color:green;
@@ -90,10 +95,17 @@ body {
 .textblock{
   padding: 20px;
   border: black 3px solid;
-  width: 70%;
 }
+
 .align-items-center{
   align-items: center;
+}
+
+.container-justifyRow-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
 
 
@@ -115,6 +127,7 @@ body {
   align-items: center;
   margin-right: 75px;
 }
+
 .content-center {
   display: flex;
   flex-direction: row;
@@ -122,6 +135,7 @@ body {
   align-items: center;
   height: 768px;
 }
+
 .content-top {
   display: flex;
   flex-direction: row;
@@ -129,6 +143,14 @@ body {
   align-items: flex-start;
   height: 768px;
 }
+
+.container-image-block-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 70%;
+}
+
 
 
 /*  Colors   */
