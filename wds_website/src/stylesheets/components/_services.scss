@@ -1,4 +1,20 @@
-.what{
-    background:$red;
-    margin:400px;
-}
+/*******************************
+          Services
+  *******************************/
+
+
+.sevices-background-section1 {
+    display: flex;
+    background-color: #87A6AB;
+    border-top-style: outset;
+    border-top-color: black;
+    border-top-width: 5px;
+    border-bottom-style: outset;
+    border-bottom-color: black;
+    border-bottom-width: 5px;
+  }
+
+  .services-img {
+    width: 1368px;
+    height: 768px;
+  }

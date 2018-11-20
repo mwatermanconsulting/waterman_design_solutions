@@ -36,6 +36,37 @@ Flexible ratios:
 */
 
   /*******************************
+           Custom Flex
+  *******************************/
+
+  .flex-containertop {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 605px;
+  }
+  
+  .flex-container50 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+  .flex-container50 img {
+    width: 200px;
+    height: 235px;
+    min-width: 200px;
+    max-height: 235px;
+    margin-right: 20px;
+  }
+  
+  .flex-container-default {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  /*******************************
             Flex Layout
   *******************************/
   .layout.horizontal,

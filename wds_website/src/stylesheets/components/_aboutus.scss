@@ -1,4 +1,15 @@
-.text{
-    background:red;
-    margin:400px;
-}
+@import '..//scss/colors';
+
+
+/*******************************
+          About US
+  *******************************/
+
+  .couple-img {
+    top: 0px;
+    left: 5px;
+    width: 876x;
+    height: 595x;
+    -webkit-clip-path: polygon(0 0%, 100% 0, 50% 100%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0, 50% 100%, 0% 100%);
+  }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './stylesheets/css/App.css';
+import './stylesheets/css/main.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import { Footer, FooterSection, FooterDropDownSection, FooterLinkList, } from 'react-mdl';
 import Main from './Components/main';
