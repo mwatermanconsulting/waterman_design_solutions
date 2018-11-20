@@ -1,42 +1,8 @@
 
-.flex-container100 {
-  display: flex;
-  flex-flow: column;
-  height: 768px;
-}
 
-.flex-container50 {
-  display: flex;
-  flex-flow: column;
-  flex-direction: column;
-  width: 50%;
-  height: 100%;
-}
 
-.header {
-  background: #fff !important;
-  
-}
 
-.landing-grid {
-  background: red;
-}
 
-.svg-image {
-  height: auto;
-  width: auto;
-}
 
-.mdl-layout__header-row .mdl-navigation__link {
-  color: black !important;
 
-}
 
-.services_img {
-  width: 1368px;
-  height: 768px;
-}
-
-.mdl-layout__drawer-button {
-  color: gray !important; 
-}

@@ -17,3 +17,17 @@
 .margintop50{
     margin-top: 50px;
 }
+
+.flex-container100 {
+    display: flex;
+    flex-flow: column;
+    height: 768px;
+  }
+  
+  .flex-container50 {
+    display: flex;
+    flex-flow: column;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+  }
