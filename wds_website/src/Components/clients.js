@@ -1,31 +1,36 @@
 import React, { Component } from 'react' ;
-import badHairCut from '../images/badhaircut.gif';
+import backgroundClients from '../images/clients-pic.png';
+import pi from '../images/pi.png';
+import terri from '../images/terri.png';
 
-class clients extends Component {
+class aboutus extends Component {
     render () {
         return(
-            <div className="flex-container"> 
-            <div className="flex-container100" style={{background: "red"}}>
-               <div>
-                1st section
-                </div>
-            </div>  
-        <div className="flex-container100" style={{background: "blue"}}>
-        
-            <div className="logo">
-                <div> 2nd section </div>
-             <img src={badHairCut} alt="bad hair cut"/> 
-        </div> 
-        </div>
+            <div className="flex-container-default"> 
+                <div className="flex-containertop">
+                    <div className="sevices-background-section1">
+                        <img className="clients-pic" src={backgroundClients}  alt="clients-pic" /> 
+                        <div className="content-right-center">
+                            <div className="content-header">
+                                <div className="title">Clients</div>
+                            </div>
+                                <div className="content-text">
+                                    <p>Everybody loves us! We service businesses with all kinds of backgrounds from corporations to small startups. </p>
 
-    <div className="flex-container100" style={{background: "yellow"}}>
-        <div>
-            3rd section 
-        </div>
-    </div>
-    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>  
+                    <div className="container-justifyRow-center offwhitedots">
+                        <div className="flex-container100 content-top "> 
+                            <img className="clientlogo" src={pi}  alt="pi"/>
+                        </div>
+                    </div>
+                </div>
+            
+        
         )
     }
 }
 
-export default clients;
+export default aboutus;
