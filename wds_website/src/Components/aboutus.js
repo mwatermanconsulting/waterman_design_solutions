@@ -15,7 +15,8 @@ class aboutus extends Component {
                                 <div className="title">About US</div>
                             </div>
                                 <div className="content-text">
-                                    <p> We are advocates for the user. End to end design, we take care of it all, from initial UX focus groups to marketing on the web.</p>
+                                    <p>Authentic. Empathetic. Diplomatic. Credibility to the max.</p><p> We are advocates for the user. End to end design, we take care of it all, from initial UX focus groups to marketing on the web.</p>
+
                                 </div>
                         </div>
                     </div>
@@ -25,7 +26,7 @@ class aboutus extends Component {
                             <div className="container-image-block-center margintop50"> 
                                 <div className="content-header">
                                     <div className="content-text">
-                                        <div className="content-header textblock lightpurple"><img src={mike} alt="mike"/> 
+                                        <div className="content-header textblock  lightpurple"><img className="aboutuspic" src={mike} alt="mike"/> 
                                             <p> fjsi;fu fisu foi;srlf as;ilfj slfj slkfj slkfj slkfj salf ja;lskfj lskrg iurgkj dfvoirugselkrhgieru giier ger gordhg v;ekr hgerg rgh hoeirg ivoeirgjeurgh oeirgh oeirg heroih  </p>
                                         </div>
                                     </div>
@@ -36,7 +37,7 @@ class aboutus extends Component {
                             <div className="container-image-block-center margintop50"> 
                                 <div className="content-header">
                                     <div className="content-text">
-                                        <div className="content-header textblock lightpurple"><img src={terri} alt="terri"/> 
+                                        <div className="content-header textblock lightpurple"><img className="aboutuspic" src={terri} alt="terri"/> 
                                             <p> fjsi;fu fisu foi;srlf as;ilfj slfj slkfj slkfj slkfj salf ja;lskfj lskrg iurgkj dfvoirugselkrhgieru giier ger gordhg v;ekr hgerg rgh hoeirg ivoeirgjeurgh oeirgh oeirg heroih  </p>
                                         </div> 
                                     </div>

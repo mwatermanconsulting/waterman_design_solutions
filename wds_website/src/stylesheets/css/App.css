@@ -1,0 +1,257 @@
+<<<<<<< Updated upstream
+=======
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: normal !important;
+}
+
+
+.flex-containertop {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 605px;
+}
+
+.flex-container50 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.aboutuspic {
+  width: 200px;
+  height: 235px;
+  min-width: 200px;
+  max-height: 235px;
+  margin-right: 20px;
+}
+.servicespic {
+  width: 400px;
+    height: 529px;
+    min-width: 400px;
+    max-height: 529px;
+    margin-right: 20px;
+}
+.services-ui-pic{
+  width: 500px;
+    height: 444px;
+    min-width: 500px;
+    max-height: 444px;
+}
+
+.flex-container-default {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-size: 1.5em;
+  background-color:green;
+}
+
+.landing-grid {
+  background: rgb(0, 0, 0);
+}
+
+.svg-image {
+  height: auto;
+  width: auto;
+}
+
+.mdl-layout__header-row .mdl-navigation__link {
+  color: black !important;
+}
+
+.services-img {
+  width: 1368px;
+  height: 768px;
+}
+
+.couple-img {
+  top: 0px;
+  left: 5px;
+  width: 876x;
+  height: 595x;
+  -webkit-clip-path: polygon(0 0%, 100% 0, 50% 100%, 0% 100%);
+  clip-path: polygon(0 0%, 100% 0, 50% 100%, 0% 100%);
+}
+
+.mdl-layout__drawer-button {
+  color: gray !important;
+}
+
+.title {
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 62px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+.heading1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+.content-header {
+  display: flex;
+  width: 100%;
+}
+
+.content-text {
+  display: flex;
+  flex-direction: column;
+}
+.textblock{
+  padding: 20px;
+  border: black 3px solid;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.container-justifyRow-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.sevices-background-section1 {
+  display: flex;
+  background-color: #87A6AB;
+  border-top-style: outset;
+  border-top-color: black;
+  border-top-width: 5px;
+  border-bottom-style: outset;
+  border-bottom-color: black;
+  border-bottom-width: 5px;
+}
+.bottom-border {
+  border-bottom-style: outset;
+  border-bottom-color: black;
+  border-bottom-width: 5px;
+}
+
+.content-right-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 75px;
+}
+
+.content-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 768px;
+}
+
+.content-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  height: 768px;
+}
+
+.container-image-block-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 70%;
+}
+.clientlogo {
+  width: 200px;
+  height: auto;
+}
+
+
+
+/*  Colors   */
+
+.lightgreen {
+  background-color: #BDCCD4;
+}
+.purple {
+  background-color: #78738A;
+}
+.lightpurple{
+  background-color: #b8a9c6;
+}
+.green {
+  background-color: #87A6AB;
+}
+.yellow {
+  background-color: #F4D195;
+}
+.blue {
+  background-color: #aadfe7;
+}
+.offwhite {
+  background-color: #E3CEB6;
+}
+.white {
+  background-color: #fff;
+}
+.red{
+  background-color: #DA6154 !important;
+}
+.pink {
+  background-color: #daa09a;
+}
+.dots {
+  display: flex;
+  width: 100%;
+  height: 768px;
+  background-position: left top;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAHklEQVQoU2NkIAAYqa7gP9REuMnoVhBUgOEkyh0JAA6rAgmckIqQAAAAAElFTkSuQmCC) repeat, url(../../images/clear.png);
+}
+.pinkdots{
+  background-image: url(../../images/pinkdots.png);
+
+}
+.purpledots{
+  background-image: url(../../images/purpledots.png);
+
+}
+.lightgreendots {
+  background-image: url(../../images/lightgreendots.png);
+}
+.bluedots {
+  background-image: url(../../images/bluedots.png)
+}
+.offwhitedots {
+  background-image: url(../../images/offwhitedots.png)
+}
+/*# sourceMappingURL=App.css.map */
+
+/* margins */
+
+.marginleft30{
+  margin-left: 30px;
+}
+.marginleft50{
+  margin-left: 50px;
+}
+.margintop50{
+  margin-top: 50px;
+}
+
+
+/* footer */
+
+footer {
+  background-color: #daa09a !important;
+  color: black !important;
+}
+>>>>>>> Stashed changes
