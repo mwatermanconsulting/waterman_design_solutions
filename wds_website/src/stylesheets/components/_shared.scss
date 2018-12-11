@@ -1,8 +1,5 @@
 @import '..//scss/colors';
 
-
-
-
 /*******************************
            Shared
   *******************************/
@@ -22,7 +19,8 @@
     font-family: 'Mouse Memoirs', sans-serif;
     font-size: 62px;
     margin-bottom: 15px;
-    color: $white;
+    color: #000;
+    line-height: normal;
   }
 
   .content-text {
@@ -32,7 +30,16 @@
   
   .textblock{
     padding: 20px;
-    border: black 3px solid;
+  }
+  .border-3px {
+    border-color: black;
+    border-width: 3px;
+    border: solid;
+  }
+  .bottom-border {
+    border-bottom-style: outset;
+    border-bottom-color: black;
+    border-bottom-width: 5px;
   }
 
   .content-header {
@@ -47,22 +54,7 @@
     color: $white;
   }
 
-  .dots {
-    display: flex;
-    width: 100%;
-    height: 768px;
-    background-position: left top;
-    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAHklEQVQoU2NkIAAYqa7gP9REuMnoVhBUgOEkyh0JAA6rAgmckIqQAAAAAElFTkSuQmCC) repeat, url(../../images/clear.png);
-  }
-  .pinkdots{
-    background-image: url(../../images/pinkdots.png);
-  
-  }
-  .purpledots{
-    background-image: url(../../images/purpledots.png);
-  
-  }
-
+  /*  Alighnment   */
 
   .align-items-center{
     align-items: center;
@@ -86,10 +78,15 @@
   
   .content-center {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
     height: 768px;
+  }
+
+  .content-end {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: flex-end;
   }
   
   .content-top {
@@ -104,9 +101,84 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 70%;
+    width: 100%;
+  }
+
+  /*  Layers and Sizes   */
+
+  .width-100 {
+    width: 100%;
+  }
+  .width-50 {
+    width: 50%;
+  }
+  .height-70{
+    height: 70%;
+  }
+
+  .layer-bottom {
+    z-index: 1;
+    position: absolute;
+  }
+
+  .layer-top {
+    display: flex;
+    z-index: 10;
+    position: absolute;
+    flex-direction: row;
+    align-items: center;
   }
 
   .landing-grid {
     background: red;
   }
+/*  Colors   */
+
+.lightgreen {
+  background-color: #BDCCD4;
+}
+.purple {
+  background-color: #78738A;
+}
+.lightpurple{
+  background-color: #b8a9c6;
+}
+.green {
+  background-color: #87A6AB;
+}
+.yellow {
+  background-color: #F4D195;
+}
+.blue {
+  background-color: #aadfe7;
+}
+.offwhite {
+  background-color: #E3CEB6;
+}
+.white {
+  background-color: #fff;
+}
+.red{
+  background-color: #DA6154 !important;
+}
+.pink {
+  background-color: #daa09a;
+}
+.pinkdots{
+  background-image: url(../../images/pinkdots.png);
+
+}
+.purpledots{
+  background-image: url(../../images/purpledots.png);
+
+}
+.lightgreendots {
+  background-image: url(../../images/lightgreendots.png);
+}
+.bluedots {
+  background-image: url(../../images/bluedots.png)
+}
+.offwhitedots {
+  background-image: url(../../images/offwhitedots.png)
+}
+

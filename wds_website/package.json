@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "node": "^11.3.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-mdl": "^1.11.0",
@@ -14,7 +15,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "build-css": "node-sass --include-path scss src/stylesheets/scss/main.scss src/stylesheets/css/main.css",
-    "watch-css": "nodemon -e scss -x \" npm run build-css\"", 
+    "watch-css": "nodemon -e scss -x \" npm run build-css\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "sass": "sass --watch src/stylesheet/scss:src/styles/css"

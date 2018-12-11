@@ -1,7 +1,7 @@
 import React, { Component } from 'react' ;
-import backgroundServices from '../images/couple.png';
-import mike from '../images/mike.png';
-import terri from '../images/terri.png';
+import backgroundAboutus from '../images/background-aboutus.png';
+import mike from '../images/mike-cartoon.png';
+import terri from '../images/terri-cartoon.png';
 
 class aboutus extends Component {
     render () {
@@ -9,7 +9,7 @@ class aboutus extends Component {
             <div className="flex-container-default"> 
                 <div className="flex-containertop">
                     <div className="sevices-background-section1">
-                        <img className="couple-img" src={backgroundServices}  alt="couple" /> 
+                        <img className="backgroundAboutus" src={backgroundAboutus}  alt="about us" /> 
                         <div className="content-right-center">
                             <div className="content-header">
                                 <div className="title">About US</div>

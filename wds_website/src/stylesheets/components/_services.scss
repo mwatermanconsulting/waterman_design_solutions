@@ -5,7 +5,7 @@
 
 .sevices-background-section1 {
     display: flex;
-    background-color: #87A6AB;
+    background-color: #AFD5DB;
     border-top-style: outset;
     border-top-color: black;
     border-top-width: 5px;
@@ -13,7 +13,11 @@
     border-bottom-color: black;
     border-bottom-width: 5px;
   }
-
+  .servicespic {
+    
+    max-height: 500px;
+    margin-right: 20px;
+  }
   .services-img {
     width: 1368px;
     height: 768px;

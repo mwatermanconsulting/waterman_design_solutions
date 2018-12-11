@@ -117,15 +117,25 @@ footer {
   font-family: 'Mouse Memoirs', sans-serif;
   font-size: 62px;
   margin-bottom: 15px;
-  color: #fff; }
+  color: #000;
+  line-height: normal; }
 
 .content-text {
   display: flex;
   flex-direction: row; }
 
 .textblock {
-  padding: 20px;
-  border: black 3px solid; }
+  padding: 20px; }
+
+.border-3px {
+  border-color: black;
+  border-width: 3px;
+  border: solid; }
+
+.bottom-border {
+  border-bottom-style: outset;
+  border-bottom-color: black;
+  border-bottom-width: 5px; }
 
 .content-header {
   display: flex;
@@ -137,19 +147,7 @@ footer {
   margin-bottom: 15px;
   color: #fff; }
 
-.dots {
-  display: flex;
-  width: 100%;
-  height: 768px;
-  background-position: left top;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAHklEQVQoU2NkIAAYqa7gP9REuMnoVhBUgOEkyh0JAA6rAgmckIqQAAAAAElFTkSuQmCC) repeat, url(../../images/clear.png); }
-
-.pinkdots {
-  background-image: url(../../images/pinkdots.png); }
-
-.purpledots {
-  background-image: url(../../images/purpledots.png); }
-
+/*  Alighnment   */
 .align-items-center {
   align-items: center; }
 
@@ -168,10 +166,14 @@ footer {
 
 .content-center {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
   height: 768px; }
+
+.content-end {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end; }
 
 .content-top {
   display: flex;
@@ -184,10 +186,77 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 70%; }
+  width: 100%; }
+
+/*  Layers and Sizes   */
+.width-100 {
+  width: 100%; }
+
+.width-50 {
+  width: 50%; }
+
+.height-70 {
+  height: 70%; }
+
+.layer-bottom {
+  z-index: 1;
+  position: absolute; }
+
+.layer-top {
+  display: flex;
+  z-index: 10;
+  position: absolute;
+  flex-direction: row;
+  align-items: center; }
 
 .landing-grid {
   background: red; }
+
+/*  Colors   */
+.lightgreen {
+  background-color: #BDCCD4; }
+
+.purple {
+  background-color: #78738A; }
+
+.lightpurple {
+  background-color: #b8a9c6; }
+
+.green {
+  background-color: #87A6AB; }
+
+.yellow {
+  background-color: #F4D195; }
+
+.blue {
+  background-color: #aadfe7; }
+
+.offwhite {
+  background-color: #E3CEB6; }
+
+.white {
+  background-color: #fff; }
+
+.red {
+  background-color: #DA6154 !important; }
+
+.pink {
+  background-color: #daa09a; }
+
+.pinkdots {
+  background-image: url(../../images/pinkdots.png); }
+
+.purpledots {
+  background-image: url(../../images/purpledots.png); }
+
+.lightgreendots {
+  background-image: url(../../images/lightgreendots.png); }
+
+.bluedots {
+  background-image: url(../../images/bluedots.png); }
+
+.offwhitedots {
+  background-image: url(../../images/offwhitedots.png); }
 
 /*******************************
           About US
@@ -196,9 +265,7 @@ footer {
   top: 0px;
   left: 5px;
   width: 876x;
-  height: 595x;
-  -webkit-clip-path: polygon(0 0%, 100% 0, 50% 100%, 0% 100%);
-  clip-path: polygon(0 0%, 100% 0, 50% 100%, 0% 100%); }
+  height: 595x; }
 
 /*******************************
            Clients 
@@ -217,13 +284,17 @@ footer {
   *******************************/
 .sevices-background-section1 {
   display: flex;
-  background-color: #87A6AB;
+  background-color: #AFD5DB;
   border-top-style: outset;
   border-top-color: black;
   border-top-width: 5px;
   border-bottom-style: outset;
   border-bottom-color: black;
   border-bottom-width: 5px; }
+
+.servicespic {
+  max-height: 500px;
+  margin-right: 20px; }
 
 .services-img {
   width: 1368px;

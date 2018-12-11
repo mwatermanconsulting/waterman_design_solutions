@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 body {
   display: flex;
   margin: 0;
@@ -78,8 +77,6 @@ body {
   left: 5px;
   width: 876x;
   height: 595x;
-  -webkit-clip-path: polygon(0 0%, 100% 0, 50% 100%, 0% 100%);
-  clip-path: polygon(0 0%, 100% 0, 50% 100%, 0% 100%);
 }
 
 .mdl-layout__drawer-button {
@@ -254,4 +251,3 @@ footer {
   background-color: #daa09a !important;
   color: black !important;
 }
->>>>>>> Stashed changes
