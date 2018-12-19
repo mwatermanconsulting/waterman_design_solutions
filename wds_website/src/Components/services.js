@@ -11,112 +11,123 @@ class Services extends Component {
         return(
             <div className="flex-container-default"> 
                 <div className="flex-containertop">
-                    <div className="sevices-background-section1">
-                        <img className="backgroundServices" src={backgroundServices}  alt="services" /> 
-                        <div className="content-right-center">
+                    <div className="sevices-background-section1 ">
+                       
+                            <img className="backgroundServices" src={backgroundServices}  alt="services" /> 
+                        
+                        <div className="content-right-center  right">
                             <div className="content-header">
                                 <div className="title">SERVICES</div>
                             </div>
-                        <div className="content-text">
-                            <p> End to end design, we take care of it all, from initial UX focus groups to marketing on the web.</p>
-                        </div>
+                            <div className="content-text">
+                                <p> End to end design, we take care of it all, from initial UX focus groups to marketing on the web.</p>
+                            </div>
+                            <div className="container-spacebetween column">
+                                <div className="button"><a href="#ux">UX Design</a></div>
+                                <div className="button"><a href="#ui">UI Design</a></div>
+                                <div className="button"><a href="#design">Design Solutions</a></div>
+                                <div className="button"><a href="#consulting">Consulting</a></div>
+                            </div>
                     </div>
                  </div>
                 </div>  
         {/* UX DESIGN */}
-                <div className="container-justifyRow-center pinkdots bottom-border">
+                <div className="container-justifyRow-center pinkdots bottom-border id='ui'"><a name="ux"></a>
                         
                         <div className="flex-container100 width-100"> 
                             <div className="container-image-block-center"> 
-                                <div className="content-header">
                                     <div className="content-text width-100">
-                                            <div className=" width-100 content-center">
+                                            <div className=" width-100 content-center height-768">
                                                 <div className="textblock layer-top"> 
                                                     <img className="servicespic" src={uxdesignrelief} alt="uxdesignrelief"/> 
                                                 </div>
                                                 <div className="textblock border-3px pink width-100 content-end">
                                                     <div className="width-50">
-                                                        <div className="title">UX Design</div><p> fjsi;fu fisu foi;srlf as;ilfj slfj slkfj slkfj slkfj salf ja;lskfj lskrg iurgkj dfvoirugselkrhgieru giier ger gordhg v;ekr hgerg rgh hoeirg ivoeirgjeurgh oeirgh oeirg heroih  </p>
+                                                        <div className="title">UX Design</div>
+                                                        <p> fjsi;fu fisu foi;srlf as;ilfj slfj slkfj slkfj slkfj salf ja;lskfj lskrg iurgkj dfvoirugselkrhgieru giier ger gordhg v;ekr hgerg rgh hoeirg ivoeirgjeurgh oeirgh oeirg heroih  </p>
+                                                        <p> fjsi;fu fisu foi;srlf as;ilfj slfj slkfj slkfj slkfj salf ja;lskfj lskrg iurgkj dfvoirugselkrhgieru giier ger gordhg v;ekr hgerg rgh hoeirg ivoeirgjeurgh oeirgh oeirg heroih  </p>
+                                                        <p> fjsi;fu fisu foi;srlf as;ilfj slfj slkfj slkfj slkfj salf ja;lskfj lskrg iurgkj dfvoirugselkrhgieru giier ger gordhg v;ekr hgerg rgh hoeirg ivoeirgjeurgh oeirgh oeirg heroih  </p>
                                                     </div>
                                                 </div>
                                             </div>
                                     </div>
-                                </div>
+                                
                             </div>
                         </div> 
                     </div>
-        {/* UI DESIGN */}
-                    <div className="container-justifyRow-center bluedots bottom-border">
-                        <div className="flex-container50 content-center "> 
+    
+        {/* UI DESIGN new */}
+                <div className="container-justifyRow-center bluedots bottom-border"><a name="ui"></a>
+                        
+                        <div className="flex-container100 width-100"> 
                             <div className="container-image-block-center"> 
-                                <div className="content-header">
-                                    <div className="content-text">
-                                        <div className="textblock blue">
-                                            <div className="title">UI Design</div>
-                                            <p> fjsi;fu fisu foi;srlf as;ilfj slfj slkfj slkfj slkfj salf ja;lskfj lskrg iurgkj dfvoirugselkrhgieru giier ger gordhg v;ekr hgerg rgh hoeirg ivoeirgjeurgh oeirgh oeirg heroih  </p>
-                                        </div> 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="flex-container50 content-center "> 
-                            <div className="container-image-block-center margintop50"> 
-                                <div className="content-header">
-                                    <div className="content-text">
-                                        <div className="content-header "><img className="services-ui-pic" src={uipic} alt="ui-pic"/> 
+                                    <div className="content-text width-100">
+                                            <div className=" width-100 content-center height-768">
+                                                
+                                                <div className="textblock border-3px blue width-100 content-start">
+                                                    <div className="width-50">
+                                                        <div className="title">UI Design</div>
+                                                        <p> fjsi;fu fisu foi;srlf as;ilfj slfj slkfj slkfj slkfj salf ja;lskfj lskrg iurgkj dfvoirugselkrhgieru giier ger gordhg v;ekr hgerg rgh hoeirg ivoeirgjeurgh oeirgh oeirg heroih  </p>
+                                                        <p> fjsi;fu fisu foi;srlf as;ilfj slfj slkfj slkfj slkfj salf ja;lskfj lskrg iurgkj dfvoirugselkrhgieru giier ger gordhg v;ekr hgerg rgh hoeirg ivoeirgjeurgh oeirgh oeirg heroih  </p>
+                                                        <p> fjsi;fu fisu foi;srlf as;ilfj slfj slkfj slkfj slkfj salf ja;lskfj lskrg iurgkj dfvoirugselkrhgieru giier ger gordhg v;ekr hgerg rgh hoeirg ivoeirgjeurgh oeirgh oeirg heroih  </p>
+                                                    </div>
+                                                </div>
+                                                <div className="textblock layer-top  right "> 
+                                                    <img className="services-ui-pic" src={uipic} alt="ui"/> 
+                                                </div>
                                             </div>
                                     </div>
-                                </div>
+                                
                             </div>
                         </div> 
                     </div>
-        {/* MARKETING*/}
-                    <div className="container-justifyRow-center purpledots bottom-border">
-                        <div className="flex-container50 content-center "> 
-                            <div className="container-image-block-center margintop50"> 
-                                <div className="content-header">
-                                    <div className="content-text">
-                                        <div className="content-header "><img className="marketingpic" src={marketingpic} alt="marketing-pic"/> 
+        
+        {/* DESIGN SOLUTIONS*/}
+        <div className="container-justifyRow-center purpledots bottom-border"><a name="design"></a>
+                        
+                        <div className="flex-container100 width-100"> 
+                            <div className="container-image-block-center"> 
+                                    <div className="content-text width-100">
+                                            <div className=" width-100 content-center height-768">
+                                                <div className="textblock layer-top"> 
+                                                    <img className="marketingpic" src={marketingpic} alt="marketing"/> 
+                                                </div>
+                                                <div className="textblock border-3px lightpurple width-100 content-end">
+                                                    <div className="width-50">
+                                                        <div className="title">Design Solutions</div>
+                                                        <p> fjsi;fu fisu foi;srlf as;ilfj slfj slkfj slkfj slkfj salf ja;lskfj lskrg iurgkj dfvoirugselkrhgieru giier ger gordhg v;ekr hgerg rgh hoeirg ivoeirgjeurgh oeirgh oeirg heroih  </p>
+                                                        <p> fjsi;fu fisu foi;srlf as;ilfj slfj slkfj slkfj slkfj salf ja;lskfj lskrg iurgkj dfvoirugselkrhgieru giier ger gordhg v;ekr hgerg rgh hoeirg ivoeirgjeurgh oeirgh oeirg heroih  </p>
+                                                        <p> fo sho! Wow the judges!!!!  lfj slkfj slkfj slkfj salf ja;lskfj lskrg iurgkj dfvoirugselkrhgieru giier ger gordhg v;ekr hgerg rgh hoeirg ivoeirgjeurgh oeirgh oeirg heroih  </p>
+                                                    </div>
+                                                </div>
                                             </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="flex-container50 content-center "> 
-                            <div className="container-image-block-center"> 
-                                <div className="content-header">
-                                    <div className="content-text">
-                                        <div className="textblock lightpurple">
-                                            <div className="title">Marketing</div>
-                                            <p> fjsi;fu fisu foi;srlf as;ilfj slfj slkfj slkfj slkfj salf ja;lskfj lskrg iurgkj dfvoirugselkrhgieru giier ger gordhg v;ekr hgerg rgh hoeirg ivoeirgjeurgh oeirgh oeirg heroih  </p>
-                                        </div> 
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div> 
                     </div>
         {/* CONSULTING */}
-        <div className="container-justifyRow-center offwhitedots bottom-border">
-                        <div className="flex-container50 content-center "> 
+        <div className="container-justifyRow-center offwhitedots bottom-border"><a name="consulting"></a>
+                        
+                        <div className="flex-container100 width-100"> 
                             <div className="container-image-block-center"> 
-                                <div className="content-header">
-                                    <div className="content-text">
-                                        <div className="textblock offwhite">
-                                            <div className="title">Consulting</div>
-                                            <p> fjsi;fu fisu foi;srlf as;ilfj slfj slkfj slkfj slkfj salf ja;lskfj lskrg iurgkj dfvoirugselkrhgieru giier ger gordhg v;ekr hgerg rgh hoeirg ivoeirgjeurgh oeirgh oeirg heroih  </p>
-                                        </div> 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="flex-container50 content-center "> 
-                            <div className="container-image-block-center margintop50"> 
-                                <div className="content-header">
-                                    <div className="content-text">
-                                        <div className="content-header "><img className="consulting-pic" src={consultingpic} alt="consulting-pic"/> 
+                                    <div className="content-text width-100">
+                                            <div className=" width-100 content-center height-768">
+                                                
+                                                <div className="textblock border-3px offwhite width-100 content-start">
+                                                    <div className="width-50">
+                                                        <div className="title">Consulting</div>
+                                                        <p> Design consultations is how we start the conversation.  fjsi;fu fisu foi;srlf as;ilfj slfj slkfj slkfj slkfj salf ja;lskfj lskrg iurgkj dfvoirugselkrhgieru giier ger gordhg v;ekr hgerg rgh hoeirg ivoeirgjeurgh oeirgh oeirg heroih  </p>
+                                                        <p> fjsi;fu fisu foi;srlf as;ilfj slfj slkfj slkfj slkfj salf ja;lskfj lskrg iurgkj dfvoirugselkrhgieru giier ger gordhg v;ekr hgerg rgh hoeirg ivoeirgjeurgh oeirgh oeirg heroih  </p>
+                                                        <p> fjsi;fu fisu foi;srlf as;ilfj slfj slkfj slkfj slkfj salf ja;lskfj lskrg iurgkj dfvoirugselkrhgieru giier ger gordhg v;ekr hgerg rgh hoeirg ivoeirgjeurgh oeirgh oeirg heroih  </p>
+                                                    </div>
+                                                </div>
+                                                <div className="textblock layer-top  right "> 
+                                                    <img className="consultingpic" src={consultingpic} alt="consulting"/> 
+                                                </div>
                                             </div>
                                     </div>
-                                </div>
+                                
                             </div>
                         </div> 
                     </div>
