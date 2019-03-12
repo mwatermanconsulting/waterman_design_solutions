@@ -3,7 +3,6 @@
   *******************************/
 
 
-
 /* margins */
 
 .marginleft30{
@@ -30,4 +29,10 @@
     flex-direction: column;
     width: 50%;
     height: 100%;
+  }
+
+  .flex-justify {
+    display: flex;
+    justify-content: space-between;
+    width: 0px;
   }
