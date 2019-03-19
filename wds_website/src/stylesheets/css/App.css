@@ -45,7 +45,7 @@ body {
     max-height: 444px;
 }
 
-.flex-container-default {
+.flex-layout-vertical {
   display: flex;
   flex-direction: column;
 }
