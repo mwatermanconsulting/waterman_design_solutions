@@ -5,7 +5,10 @@
   "main": "index.js",
   "dependencies": {
     "express": "^4.16.4",
-    "node-sass": "^4.11.0"
+    "node": "^11.12.0",
+    "node-sass": "^4.11.0",
+    "sass": "^1.17.3",
+    "sass-loader": "^7.1.0"
   },
   "devDependencies": {},
   "scripts": {
