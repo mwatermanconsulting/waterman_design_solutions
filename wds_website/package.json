@@ -7,17 +7,17 @@
     "react-dom": "^16.5.2",
     "react-mdl": "^1.11.0",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.0.4",
+    "react-scripts": "^2.1.8",
     "sass-loader": "^7.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "build-css": "node-sass --include-path scss src/stylesheets/scss/main.scss src/stylesheets/css/main.css",
-    "watch-css": "nodemon -e scss -x \" npm run build-css\"", 
+    "watch-css": "nodemon -e scss -x \" npm run build-css\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sass": "sass --watch src/stylesheet/scss:src/styles/css"
+    "sass": "sass --watch src/stylesheet/components/scss:src/styles/css"
   },
   "eslintConfig": {
     "extends": "react-app"

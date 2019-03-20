@@ -1,8 +1,8 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import LandingPage from './landingpage';
-import AboutUs from './aboutus';
+import home from './home';
+import why_wds from './why_wds';
 import Clients from './clients';
 import Contact from './contact';
 import Services from './services';
@@ -12,8 +12,8 @@ import Portfolio from './portfolio';
 
 const Main = () => (
   <Switch>
-    <Route exact path="/" component={LandingPage} />
-    <Route exact path="/aboutus" component={AboutUs} />
+    <Route exact path="/" component={home} />
+    <Route exact path="/why_wds" component={why_wds} />
     <Route exact path="/contact" component={Contact} />
     <Route exact path="/clients" component={Clients} />
     <Route exact path="/services" component={Services} />

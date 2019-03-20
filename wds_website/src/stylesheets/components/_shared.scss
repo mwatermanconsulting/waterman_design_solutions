@@ -8,105 +8,110 @@
   *******************************/
 
 
-  .header {
-    font-size: 1.5em;
-    background-color: $green;
-  }
+.header {
+  font-size: 1.5em;
+  background-color: $green;
+}
 
-  .svg-image {
-    height: auto;
-    width: auto;
-  }
+.svg-image {
+  height: auto;
+  width: auto;
+}
 
-  .title {
-    font-family: 'Mouse Memoirs', sans-serif;
-    font-size: 62px;
-    margin-bottom: 15px;
-    color: $white;
-  }
+.title {
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 62px;
+  margin-bottom: 15px;
+  color: $white;
+}
 
-  .content-text {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .textblock{
-    padding: 20px;
-    border: black 3px solid;
-  }
+.content-text {
+  display: flex;
+  flex-direction: row;
+}
 
-  .content-header {
-    display: flex;
-    width: 100%;
-  }
+.textblock {
+  padding: 20px;
+  border: black 3px solid;
+}
 
-  .heading1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 22px;
-    margin-bottom: 15px;
-    color: $white;
-  }
+.content-header {
+  display: flex;
+  width: 100%;
+}
 
-  .dots {
-    display: flex;
-    width: 100%;
-    height: 768px;
-    background-position: left top;
-    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAHklEQVQoU2NkIAAYqa7gP9REuMnoVhBUgOEkyh0JAA6rAgmckIqQAAAAAElFTkSuQmCC) repeat, url(../../images/clear.png);
-  }
-  .pinkdots{
-    background-image: url(../../images/pinkdots.png);
-  
-  }
-  .purpledots{
-    background-image: url(../../images/purpledots.png);
-  
-  }
+.heading1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: $white;
+}
+
+.dots {
+  display: flex;
+  width: 100%;
+  height: 768px;
+  background-position: left top;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAHklEQVQoU2NkIAAYqa7gP9REuMnoVhBUgOEkyh0JAA6rAgmckIqQAAAAAElFTkSuQmCC) repeat, url(../../images/clear.png);
+}
+
+.pinkdots {
+  background-image: url(../../images/pinkdots.png);
+
+}
+
+.purpledots {
+  background-image: url(../../images/purpledots.png);
+
+}
 
 
-  .align-items-center{
-    align-items: center;
-  }
-  
-  .container-justifyRow-center {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  
-  .content-right-center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-right: 75px;
-  }
-  
-  .content-center {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 768px;
-  }
-  
-  .content-top {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    height: 768px;
-  }
-  
-  .container-image-block-center {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 70%;
-  }
+.align-items-center {
+  align-items: center;
+}
 
-  .landing-grid {
-    background: red;
-  }
+.container-justifyRow-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.content-right-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.content-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 768px;
+}
+
+.content-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  height: 768px;
+}
+
+.container-image-block-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 70%;
+}
+
+.landing-grid {
+  background: red;
+}
+.test {
+  background-color: red;
+}

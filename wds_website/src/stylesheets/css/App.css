@@ -45,7 +45,7 @@ body {
     max-height: 444px;
 }
 
-.flex-container-default {
+.flex-layout-vertical {
   display: flex;
   flex-direction: column;
 }
@@ -91,9 +91,10 @@ body {
   font-size: 62px;
   margin-bottom: 15px;
   color: #fff;
+  margin-bottom: 30px;
 }
 .heading1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Mouse Memoirs', sans-serif;
   font-size: 22px;
   margin-bottom: 15px;
   color: #fff;
@@ -254,4 +255,3 @@ footer {
   background-color: #daa09a !important;
   color: black !important;
 }
->>>>>>> Stashed changes
