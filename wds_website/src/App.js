@@ -19,7 +19,7 @@ class App extends Component {
             <Header className="header" title={<Link style={{textDecoration: 'none',
             color: 'black'}} to="/"><img src={logo} width="100" height="50" alt="bad hair cut" /></Link>} scroll>
                 <Navigation style={{ color: 'black'}}>
-                    <Link to="/services">Services</Link>
+                    <Link to="/why_wds">Why WDS</Link>
                     <Link to="/Clients">Clients</Link>
                     <Link to="/portfolio">Portfolio</Link>
                     <Link to="/aboutus">About US</Link>
