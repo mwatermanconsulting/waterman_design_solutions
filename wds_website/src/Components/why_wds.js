@@ -9,7 +9,7 @@ class why_wds extends Component {
             <div className="flex-layout-column"> 
                 <div className="flex-layout-section">
                     <div className="image-background-border-tb">
-                        <img className="couple-img" src={backgroundServices}  alt="couple" /> 
+                        <img className="img-size" src={backgroundServices}  alt="couple" /> 
                             <div className="content-right-center">
                                 <div className="content-header">
                                     <div className="title">Why WDS?</div>
@@ -144,48 +144,41 @@ class why_wds extends Component {
                                                 <h3 className="content-header">WE'LL GET THERE FASTER, TOGETHER AS A TEAM</h3>
                                                     <div className="layout-center-justified ">
                                                         <p>Blending teams of strategists, designers and developers together will guarantee strong communication, collaboration and team success. 
-                                                        Combined with better understanding of the problem space and validated designs, we can focus on developing secure, modern, scalable software, faster than internal or offshore teams.
-
+                                                           Combined with better understanding of the problem space and validated designs, we can focus on developing secure, modern, scalable software, 
+                                                           faster than internal or offshore teams.
                                                         </p>
                                                     </div>
                                                 </div> 
                                                 <div className="flex-layout-column width-quarter ">
-                                                <h3 className="content-header">YOU'LL HIT CLOSE TO THE MARK THE FIRST TIME.</h3>
-                                                    <div className="layout-center-justified ">
-                                                        <p>We're firm believers in agile and iterative deployments as experiments, but, with longer enterprise launches and even consumer software, 
+                                                    <h3 className="content-header">YOU'LL HIT CLOSE TO THE MARK THE FIRST TIME.</h3>
+                                                        <div className="layout-center-justified ">
+                                                            <p>We're firm believers in agile and iterative deployments as experiments, but, with longer enterprise launches and even consumer software, 
                                                             there's still valuable data to be collected even before that first MVP. Our insights and strategies will get you moving in the right direction, and possibly uncover rewarding new opportunities.
-
-                                                        </p>
-                                                    </div>
+                                                            </p>
+                                                        </div>
                                                 </div> 
                                                 <div className="flex-layout-column width-quarter ">
-                                                <h3 className="content-header">YOUR USERS AND CUSTOMERS WILL LOVE IT.</h3>
-                                                    <div className="layout-center-justified ">
-                                                        <p>In workplace and enterprise solutions, users know when someone understands their needs, making them feel like experts. 
-                                                            They know when there's attention to design details. They know when it's intuitive and visually pleasing - and they love it. 
-                                                            With consumers, if you miss the mark, you'll fail fast, and not in a good way.
-
-                                                        </p>
-                                                    </div>
+                                                    <h3 className="content-header">YOUR USERS AND CUSTOMERS WILL LOVE IT.</h3>
+                                                        <div className="layout-center-justified ">
+                                                            <p>In workplace and enterprise solutions, users know when someone understands their needs, making them feel like experts. 
+                                                                They know when there's attention to design details. They know when it's intuitive and visually pleasing - and they love it. 
+                                                                With consumers, if you miss the mark, you'll fail fast, and not in a good way.
+                                                            </p>
+                                                        </div>
                                                 </div> 
                                                 <div className="flex-layout-column width-quarter ">
                                                 <h3 className="content-header">READY TO IMPROVE YOUR BUSINESS METRICS? WE ARE.</h3>
                                                     <div className="layout-center-justified" >
                                                         <p>We're not only here to build and launch great technology solutions, but to help you and your team improve your business in tangible ways. 
                                                             We've helped increase conversion by 200%, reduced operations time by 15%, and increased channel utilization by 75%. It all leads to millions in revenue and cost savings.
-
                                                         </p>
                                                     </div>
                                                 </div> 
                                             </div>
                                         </div>
-                                        </div>
-                </div>
-                </div>
-                      
-
-            
-        
+                                    </div>
+                                </div>
+                            </div>
         )
     }
 }
