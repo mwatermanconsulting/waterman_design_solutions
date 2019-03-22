@@ -20,7 +20,7 @@ class practices extends Component {
                                     <p>WDS is an end-to-end, experience-driven company that helps organizations navigate complex digital transformations. Our team provides the clarity to better understand 
                                     the needs of your customers and users, and reveal the disconnects in your current customer experience. 
                                     By doing so, we help prioritize and deliver comprehensive experience enhancements to help you exceed your key customer experience and targeted business goals. 
-                                    We work across verticals and technologies - consumer, workplace, financial, health care, customer service, mobile development, ecommerce and more - to make software ma </p>
+                                    We work across verticals and technologies - consumer, workplace, financial, health care, customer service, mobile development, ecommerce and more - to design software interfaces that makes sense. </p>
                                 </div>
                             </div>
                         </div>
