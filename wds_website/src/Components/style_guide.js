@@ -1,10 +1,9 @@
 import React, { Component } from 'react' ;
 import backgroundServices from '../images/couple.png';
-import backgroundClients from '../images/clients-pic.png';
-import pi from '../images/pi.png';
+import mike from '../images/mike.png';
 import terri from '../images/terri.png';
 
-class clients extends Component {
+class style_guide extends Component {
     render () {
         return(
             <div className="flex-layout-column margin-bottom-50"> 
@@ -13,7 +12,7 @@ class clients extends Component {
                     <img className="img-size" src={backgroundServices}  alt="couple" /> 
                         <div className="content-right-center">
                             <div className="content-header">
-                                <div className="title">Clients</div>
+                                <div className="title">Style Guides</div>
                             </div>
                                 <div className="content-text">
                                     <p>WDS is an end-to-end, experience-driven company that helps organizations navigate complex digital transformations. Our team provides the clarity to better understand 
@@ -35,7 +34,7 @@ class clients extends Component {
                                 </div>
                                 <div className="content-header flex-layout-center flex-layout-column">
                                     <div className="title-reverse margintop50">Services Include</div><br/>
-                                    <div className="title-reverse margintop50">STRATEGY & INSIGHT</div>
+                                    <div className="title-reverse margintop50">Design Systems</div>
                                 </div>
                                     <div className="flex-layout-center">
                                         <ul>
@@ -233,9 +232,8 @@ class clients extends Component {
                         </div>
                     </div>
                 </div>
-        
         )
     }
 }
 
-export default clients;
+export default style_guide;

@@ -23,7 +23,7 @@ class App extends Component {
                     <Link to="/why_wds">Why WDS</Link>
                     <Link to="/practices">Practices</Link>
                     <Link to="/methodology">Methodology</Link>
-                    <Link to="/design Solution">Design Solutions</Link>
+                    <Link to="/design_solutions">Design Solutions</Link>
                     <Link to="/contact">Contact</Link>
                 </Navigation>
             </Header>
@@ -48,47 +48,54 @@ class App extends Component {
    
       <Footer className="red">
       <FooterSection type="middle">
-          <FooterDropDownSection title="Services">
+          <FooterDropDownSection title="Why">
               <FooterLinkList>
-                  <a href="./">User Interface Design</a>
-                  <a href="./">User Experience Reasearch</a>
-                  <a href="./">Design</a>
-                  <a href="./">PaaS</a>
-                  <a href="./">SaaS</a>
-                  <a href="./">Communication</a>
-                  <a href="./">Marketing</a>
+                  <a href="./why-wds">Why Waterman Design Solutions</a>
+                  <a href="./case_studies">Success (Case Studies)</a>
+                  <a href="./clients">Clients</a>
+                  <a href="./core_offerings">Core Offerings</a>
+                  <a href="./about">About</a>
               </FooterLinkList>
           </FooterDropDownSection>
-          <FooterDropDownSection title="Details">
+          <FooterDropDownSection title="Practices">
               <FooterLinkList>
-                  <a href="./">Specs</a>
-                  <a href="./">Tools</a>
-                  <a href="./">Resources</a>
+                  <a href="./practices">Practices</a>
+                  <a href="./strategy_insight">Strategy & Insight</a>
+                  <a href="./ux">User Experience</a>
+                  <a href="./style_guide">Style Guides & Design Stystems</a>
+                  <a href="./marketing_telementry">Marketing & Telemetry</a>
               </FooterLinkList>
           </FooterDropDownSection>
-          <FooterDropDownSection title="Technology">
+          <FooterDropDownSection title="Methodology">
               <FooterLinkList>
-                  <a href="./">How it works</a>
-                  <a href="./">Patterns</a>
-                  <a href="./">Usage</a>
-                  <a href="./">Products</a>
-                  <a href="./">Contracts</a>
+                  <a href="./methodology">Overview</a>
+                  <a href="./finding_truth">Finding the Truth</a>
+                  <a href="./innovative_solutions">Innovative Solutions</a>
+                  <a href="./css_solutions">CSS</a>
+                  <a href="./communication_insights">Communications Insights</a>
+                  <a href="./project_management">Project Management</a>
               </FooterLinkList>
           </FooterDropDownSection>
-          <FooterDropDownSection title="FAQ">
+          <FooterDropDownSection title="Design Solutions">
               <FooterLinkList>
-                  <a href="./">Questions</a>
-                  <a href="./">Answers</a>
-                  <a href="./">Contact Us</a>
+                  <a href="./design_solutions">Overview</a>
+                  <a href="./branding">Branding</a>
+                  <a href="./digital_design">Digital Design</a>
+                  <a href="./ui">UI Design</a>
+                  <a href="./marketing">Marketing</a>
+                  <a href="./print">Print Design</a>
+                  <a href="./video">Video</a>
               </FooterLinkList>
           </FooterDropDownSection>
       </FooterSection>
-      <FooterSection type="bottom" logo="Title">
-          <FooterLinkList>
-              <a href="./">Help</a>
-              <a href="./">Privacy & Terms</a>
-          </FooterLinkList>
-      </FooterSection>
+      <FooterDropDownSection title="News & Insights">
+              <FooterLinkList>
+                  <a href="./methodology">Overview</a>
+                  <a href="./">Blog</a>
+                  <a href="./">News</a>
+                  <a href="./">Industry Stuff</a>
+              </FooterLinkList>
+          </FooterDropDownSection>
    </Footer>
  </Layout>
 </div>
