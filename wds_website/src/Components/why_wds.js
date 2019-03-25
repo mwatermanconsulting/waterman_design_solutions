@@ -1,6 +1,8 @@
 import React, { Component } from 'react' ;
 import backgroundWhy from '../images/you-can-do-it.png';
 import tugofwar from '../images/tugofwar.png';
+import racecar from '../images/racecar.png';
+import yogabeach from '../images/yogabeach.png';
 
 class why_wds extends Component {
     render () {
@@ -58,7 +60,6 @@ class why_wds extends Component {
                                    <div className="flex-layout-row flex-layout-center-center">
                                             
                                         <div className="flex-layout-column-half ">
-                                            <img className="handshake imagesizeDesktopSmall" src={tugofwar}  alt="Blended Teams" /> 
                                             <h3 className="content-header">BLENDED TEAMS</h3>
                                             <div className="layout-center-justified ">
                                                     <p>Our multi-disciplined teams work collaboratively to design software solutions based on user needs.  Designers, strategists, marketers and program 
@@ -72,9 +73,8 @@ class why_wds extends Component {
                                     <div className="flex-layout-row">
                                         {/*  <div className="content-header textblock lightpurple"><img className="aboutuspic" src={terri} alt="terri"/>  */}
                                             <div className="flex-layout-column-half">
-                                                <h3 className="content-header"> REMOVING RISK </h3>
-                                                <p> Risk exists in every project. We help our clients mitigate risk by researching and documenting not only the needs and desires of their customers, 
-                                                    but why those needs are important. </p>
+                                            <img className="yogabeach imagesizeDesktop" src={yogabeach}  alt="Blended Teams" /> 
+                                            
                                             </div>
                                         {/*</div> */}
                                     </div>
