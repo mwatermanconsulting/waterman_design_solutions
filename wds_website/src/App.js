@@ -24,6 +24,7 @@ class App extends Component {
                     <Link to="/practices">Practices</Link>
                     <Link to="/methodology">Methodology</Link>
                     <Link to="/design_solutions">Design Solutions</Link>
+                    <Link to="/news_insights">News & Insights</Link>
                     <Link to="/contact">Contact</Link>
                 </Navigation>
             </Header>
@@ -36,16 +37,10 @@ class App extends Component {
                   <Link to="/contact">Contact</Link>
                 </Navigation>
             </Drawer>
-
-
-
       <Content>
           <div className="page-content" />
             <Main/>
       </Content>
-
-
-   
       <Footer className="red">
       <FooterSection type="middle">
           <FooterDropDownSection title="Why">
@@ -83,14 +78,14 @@ class App extends Component {
                   <a href="./digital_design">Digital Design</a>
                   <a href="./ui_design">UI Design</a>
                   <a href="./marketing">Marketing</a>
-                  <a href="./print">Print Design</a>
-                  <a href="./video">Video</a>
+                  <a href="./print_design">Print Design</a>
+                  <a href="./video_production">Video</a>
               </FooterLinkList>
           </FooterDropDownSection>
       </FooterSection>
       <FooterDropDownSection title="News & Insights">
               <FooterLinkList>
-                  <a href="./methodology">Overview</a>
+                  <a href="./news_insights">Overview</a>
                   <a href="./">Blog</a>
                   <a href="./">News</a>
                   <a href="./">Industry Stuff</a>
