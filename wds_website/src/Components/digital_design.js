@@ -1,20 +1,23 @@
 import React, { Component } from 'react' ;
-import backgroundAboutus from '../images/background-aboutus.png';
-import mike from '../images/mike-cartoon.png';
-import terri from '../images/terri-cartoon.png';
+import backgroundServices from '../images/couple.png';
+import mike from '../images/mike.png';
+import terri from '../images/terri.png';
 
-class case_studies extends Component {
+class digital_design extends Component {
     render () {
         return(
+        <div className="flex-layout-column margin-bottom-50"> 
+            <div className="flex-layout-section">
+                <div className="image-background-border-tb">
+                    <img className="img-size" src={backgroundServices}  alt="couple" /> 
                         <div className="content-right-center">
                             <div className="content-header">
-                                <div className="title">Case Studies</div>
+                                <div className="title">Digital Design</div>
                             </div>
                                 <div className="content-text">
-                                    <p>WDS is an end-to-end, experience-driven company that helps organizations navigate complex digital transformations. Our team provides the clarity to better understand 
-                                    the needs of your customers and users, and reveal the disconnects in your current customer experience. 
-                                    By doing so, we help prioritize and deliver comprehensive experience enhancements to help you exceed your key customer experience and targeted business goals. 
-                                    We work across verticals and technologies - consumer, workplace, financial, health care, customer service, mobile development, ecommerce and more - to design software interfaces that makes sense. </p>
+                                    <p>There are three core elements to design. One, obviously, is the craft, the doing of design, which is closer to artisanal, beautiful, creating artifacts, 
+                                        creating experiences. The next is the end product, a product or a service, or, in my world, a digital experience. All of those things are actually design. The third, which is design thinking, many people are familiar with, is the method by which we tackle problems or challenges. And it’s not just design problems. It’s any kind of problem that we can crack with a design-thinking methodology. So those three things come together.
+                                        interfaces that makes sense. </p>
                                 </div>
                             </div>
                         </div>
@@ -24,13 +27,22 @@ class case_studies extends Component {
                             <div className="flex-layout-center-center margintop50"> 
                                 <div className="content-header flex-layout-center">
                                     <div className="content-text width-half">
-                                        <p><b> In todays market desgin is more critical to your business success, competition and user expectations have increased. 
-                                                Your only chance of survival is understanding both your users and competition.</b></p>
+                                        <p><b> As design has evolved, it’s become more cross-functional. Physical, digital, service design have all converged. And that’s great for the end user. 
+                                            But from an organizational point of view, that’s very challenging, indeed, to manage. And because all these different forces have come together at once, it 
+                                            means that that act of making ] stand-out products and services that really delight customers is harder than ever before for many companies out there. <br/>
+
+                                            good design is good for business <br/>
+
+                                            Empathizing with a user or customer is the key method or the key activity in great design that I don’t think is really translatable to data or analytics or 
+                                            any of those things. Design brings empathy into the problem-solving process. That’s the qualitative intangible. <br/>
+
+                                            Design "no longer a luxury"
+
+                                            </b></p>
                                     </div>
                                 </div>
                                 <div className="content-header flex-layout-center flex-layout-column">
-                                    <div className="title-reverse margintop50">Services Include</div><br/>
-                                    <div className="title-reverse margintop50">STRATEGY & INSIGHT</div>
+                                    <div className="title-reverse margintop50">List of services</div>
                                 </div>
                                     <div className="flex-layout-center">
                                         <ul>
@@ -228,10 +240,8 @@ class case_studies extends Component {
                         </div>
                     </div>
                 </div>
-            
-        
+
         )
     }
 }
-
-export default case_studies;
+export default digital_design;

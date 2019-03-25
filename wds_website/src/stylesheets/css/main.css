@@ -101,6 +101,10 @@ a {
 .margintop50 {
   margin-top: 50px; }
 
+.margin-bottom-50 {
+  margin-bottom: 50px;
+}
+
 .flex-container100 {
   display: flex;
   flex-flow: column;
@@ -308,27 +312,6 @@ a:hover {
 /*******************************
           About US
   *******************************/
-.aboutus-background-section1 {
-  display: flex;
-  background-color: #F4D195;
-  border-top-style: outset;
-  border-top-color: black;
-  border-top-width: 5px;
-  border-bottom-style: outset;
-  border-bottom-color: black;
-  border-bottom-width: 5px; }
-
-.couple-img {
-  top: 0px;
-  left: 5px;
-  width: 876x;
-  height: 595x; }
-
-.aboutuspic {
-  width: 200px;
-  height: 235px;
-  min-width: 200px;
-  max-height: 235px; }
 
 /*******************************
            Clients 
@@ -483,8 +466,17 @@ Flexible ratios:
   width:50%;
 }
 
+
+.width-10 {
+  width: 10%;
+}
+
 .width-quarter {
   width: 25%
+}
+
+.section-min-width {
+  min-width: 500px;
 }
 
 .content-header {
@@ -501,4 +493,8 @@ Flexible ratios:
 
   .text-center {
     text-align: center;
+  }
+
+  ul {
+    list-style: circle;
   }
