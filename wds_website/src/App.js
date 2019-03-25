@@ -17,7 +17,7 @@ class App extends Component {
 
       <div className="flex-container100">
         <Layout>
-            <Header className="header" title={<Link style={{textDecoration: 'none',
+            <Header className="header red" title={<Link style={{textDecoration: 'none',
             color: 'black'}} to="/"><img src={logo} width="100" height="50" alt="bad hair cut" /></Link>} scroll>
                 <Navigation style={{ color: 'black'}}>
                     <Link to="/why_wds">Why WDS</Link>

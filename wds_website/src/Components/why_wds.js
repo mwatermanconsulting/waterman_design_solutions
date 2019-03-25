@@ -1,12 +1,23 @@
 import React, { Component } from 'react' ;
-import backgroundServices from '../images/couple.png';
-import mike from '../images/mike.png';
-import terri from '../images/terri.png';
+import backgroundWhy from '../images/you-can-do-it.png';
+import tugofwar from '../images/tugofwar.png';
 
 class why_wds extends Component {
     render () {
         return(
             <div className="flex-layout-column"> 
+                <div className="flex-layout-section flex-layout-row offwhite border-top5px align-items-center ">
+                    <div className=" flex-layout-row ">
+                    <div className="flex-layout-center-center">
+                            <div className="flex-layout-justified-sb flex-layout-center-center ">     
+                                <div className="flex-layout-content-container width-100">
+                                   <div className="flex-layout-row flex-layout-center-center width-100">
+                                        <div className="flex-layout-column-half">
+                                           <div className="layout-center-justified ">
+                                                <img className="backgroundWhy imagesizeDesktop" src={backgroundWhy}  alt="Why WDS" /> 
+                                            </div> 
+                                        </div>
+                                    </div>
                 <div className="flex-layout-section">
                     <div className="image-background-border-tb">
                         <img className="img-size" src={backgroundServices}  alt="couple" /> 
@@ -14,16 +25,28 @@ class why_wds extends Component {
                                 <div className="content-header">
                                     <div className="title">Why WDS?</div>
                                 </div>
-                                    <div className="content-text">
+                                    
+                                <div className="flex-layout-column width-100">
+                                        {/*  <div className="content-header textblock lightpurple"><img className="aboutuspic" src={terri} alt="terri"/>  */}
+                                    <div className="flex-layout-column-half">
+                                        <div className="content-header">
+                                            <div className="title">Why WDS?</div>
+                                        </div>
+                                        <div className="content-text">
                                             <p>We have a unique and established methodology for understanding people in context — we reveal unmet needs — which drives everything we do. This leads to a crisp, clear understanding of the 
                                                 customer, which shapes the design and development of new solutions and experiences. <br/>
                                                 With over 15 years perfecting our approach, we have the experience, teams, skills and scale to deliver sophisticated software solutions that improve any and all 
                                                 touchpoints across the user journey.  </p>
-                                     </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>  
-                    <div className="flex-layout-section-full flex-layout-center-center">
+                            </div>
+                    </div>
+                </div> 
+                   
+
+                    <div className="flex-layout-section-full flex-layout-center-center green">
                         <div className="flex-layout-column"> 
                             <div className="flex-layout-center-center margintop50"> 
                                 <div className="content-header flex-layout-center-center">
@@ -39,10 +62,11 @@ class why_wds extends Component {
                             <div className="flex-layout-justified-sb flex-layout-center-center margintop50">     
                                 <div className="flex-layout-content-container">
                                    <div className="flex-layout-row flex-layout-center-center">
-                                        {/* Need Image */}
+                                            
                                         <div className="flex-layout-column-half ">
+                                            <img className="handshake imagesizeDesktopSmall" src={tugofwar}  alt="Blended Teams" /> 
                                             <h3 className="content-header">BLENDED TEAMS</h3>
-                                                <div className="layout-center-justified ">
+                                            <div className="layout-center-justified ">
                                                     <p>Our multi-disciplined teams work collaboratively to design software solutions based on user needs.  Designers, strategists, marketers and program 
                                                     managers work together to achieve success.  
                                                     </p>
@@ -50,6 +74,7 @@ class why_wds extends Component {
                                             </div> 
                                         </div>
                                     </div>
+
                                     <div className="flex-layout-row">
                                         {/*  <div className="content-header textblock lightpurple"><img className="aboutuspic" src={terri} alt="terri"/>  */}
                                             <div className="flex-layout-column-half">
@@ -61,12 +86,15 @@ class why_wds extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex-layout-center-center">
+
+                        <div className="flex-layout-center-center">
                             <div className="flex-layout-justified-sb flex-layout-center-center margintop50">     
                                 <div className="flex-layout-content-container">
                                    <div className="flex-layout-row flex-layout-center-center">
                                         {/* Need Image */}
                                         <div className="flex-layout-column-half ">
+                                        <img className="handshake imagesizeDesktopSmall" src={tugofwar}  alt="Blended Teams" /> 
+
                                             <h3 className="content-header">Experience</h3>
                                                 <div className="layout-center-justified ">
                                                     <p>We’ve been building great experiences with world-leading brands for over 15 years. Our designs have helped business grow and understand their users. 
@@ -88,7 +116,7 @@ class why_wds extends Component {
                                         {/*</div> */}
                                     </div>
                                 </div>
-                            </div>
+                        </div>
                             <div className="flex-layout-center-center">
                                 <div className="flex-layout-justified-sb flex-layout-center-center margintop50">     
                                     <div className="flex-layout-content-container">

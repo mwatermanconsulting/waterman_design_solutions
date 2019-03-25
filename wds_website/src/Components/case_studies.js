@@ -1,15 +1,11 @@
 import React, { Component } from 'react' ;
-import backgroundServices from '../images/couple.png';
-import mike from '../images/mike.png';
-import terri from '../images/terri.png';
+import backgroundAboutus from '../images/background-aboutus.png';
+import mike from '../images/mike-cartoon.png';
+import terri from '../images/terri-cartoon.png';
 
 class case_studies extends Component {
     render () {
         return(
-            <div className="flex-layout-column margin-bottom-50"> 
-            <div className="flex-layout-section">
-                <div className="image-background-border-tb">
-                    <img className="img-size" src={backgroundServices}  alt="couple" /> 
                         <div className="content-right-center">
                             <div className="content-header">
                                 <div className="title">Case Studies</div>

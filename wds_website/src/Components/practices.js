@@ -8,6 +8,27 @@ import consultingpic from '../images/consulting-pic.png';
 class practices extends Component {
     render () {
         return(
+            <div className="flex-container"> 
+            <div className="flex-container100" style={{background: "orange"}}>
+               <div>
+                1st section
+                </div>
+            </div>  
+        <div className="flex-container100" style={{background: "blue"}}>
+        
+            <div className="logo">
+                <div> 2nd section </div>
+            {/* <img src={logo} /> */}
+        </div> 
+        </div>
+
+    <div className="flex-container100" style={{background: "yellow"}}>
+        <div>
+            3rd section 
+        </div>
+    </div>
+   </div>
+          
         <div className="flex-layout-column margin-bottom-50"> 
             <div className="flex-layout-section">
                 <div className="image-background-border-tb">
@@ -234,7 +255,6 @@ class practices extends Component {
                         </div>
                     </div>
                 </div>
-
         )
     }
 }
