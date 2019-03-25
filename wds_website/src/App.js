@@ -81,7 +81,7 @@ class App extends Component {
                   <a href="./design_solutions">Overview</a>
                   <a href="./branding">Branding</a>
                   <a href="./digital_design">Digital Design</a>
-                  <a href="./ui">UI Design</a>
+                  <a href="./ui_design">UI Design</a>
                   <a href="./marketing">Marketing</a>
                   <a href="./print">Print Design</a>
                   <a href="./video">Video</a>

@@ -20,6 +20,12 @@ class why_wds extends Component {
                                             </div> 
                                         </div>
                                     </div>
+                <div className="flex-layout-section">
+                    <div className="image-background-border-tb">
+                        <img className="img-size" src={backgroundServices}  alt="couple" /> 
+                            <div className="content-right-center">
+                                <div className="content-header">
+                                    <div className="title">Why WDS?</div>
                                 </div>
                                     
                                 <div className="flex-layout-column width-100">
