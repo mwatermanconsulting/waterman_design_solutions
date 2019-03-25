@@ -6,7 +6,9 @@ import practices from './practices';
 import Clients from './clients';
 import Contact from './contact';
 import Services from './services';
-import Portfolio from './portfolio';
+import strategy_insight from './strategy_insight';
+import style_guide from './style_guide';
+import ux from './ux';
 
 
 
@@ -18,8 +20,10 @@ const Main = () => (
     <Route exact path="/practices" component={practices} />
     <Route exact path="/clients" component={Clients} />
     <Route exact path="/services" component={Services} />
-    <Route exact path="/portfolio" component={Portfolio} />
-
+    <Route exact path="/strategy_insight" component={strategy_insight} />
+    <Route exact path="/style_guide" component={style_guide} />
+    <Route exact path="/ux" component={ux} />
+    <Route exact path="/why_wds" component={why_wds} />
 
   </Switch>
 )

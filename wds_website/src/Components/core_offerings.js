@@ -3,7 +3,7 @@ import backgroundServices from '../images/couple.png';
 import mike from '../images/mike.png';
 import terri from '../images/terri.png';
 
-class aboutus extends Component {
+class core_offerings extends Component {
     render () {
         return(
             <div className="flex-container-default"> 
@@ -52,4 +52,4 @@ class aboutus extends Component {
     }
 }
 
-export default aboutus;
+export default core_offerings;

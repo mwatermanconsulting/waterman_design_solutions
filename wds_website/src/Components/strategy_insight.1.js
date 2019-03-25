@@ -1,10 +1,9 @@
 import React, { Component } from 'react' ;
 import backgroundServices from '../images/couple.png';
-import backgroundClients from '../images/clients-pic.png';
-import pi from '../images/pi.png';
+import mike from '../images/mike.png';
 import terri from '../images/terri.png';
 
-class clients extends Component {
+class strategy_insight extends Component {
     render () {
         return(
             <div className="flex-layout-column margin-bottom-50"> 
@@ -13,7 +12,7 @@ class clients extends Component {
                     <img className="img-size" src={backgroundServices}  alt="couple" /> 
                         <div className="content-right-center">
                             <div className="content-header">
-                                <div className="title">Clients</div>
+                                <div className="title">Strategy & Insight</div>
                             </div>
                                 <div className="content-text">
                                     <p>WDS is an end-to-end, experience-driven company that helps organizations navigate complex digital transformations. Our team provides the clarity to better understand 
@@ -233,9 +232,8 @@ class clients extends Component {
                         </div>
                     </div>
                 </div>
-        
         )
     }
 }
 
-export default clients;
+export default strategy_insight;
