@@ -3,7 +3,7 @@ import backgroundServices from '../images/couple.png';
 import mike from '../images/mike.png';
 import terri from '../images/terri.png';
 
-class why_wds extends Component {
+class about extends Component {
     render () {
         return(
             <div className="flex-layout-column"> 
@@ -12,7 +12,7 @@ class why_wds extends Component {
                         <img className="img-size" src={backgroundServices}  alt="couple" /> 
                             <div className="content-right-center">
                                 <div className="content-header">
-                                    <div className="title">Why WDS?</div>
+                                    <div className="title">about</div>
                                 </div>
                                     <div className="content-text">
                                             <p>We have a unique and established methodology for understanding people in context — we reveal unmet needs — which drives everything we do. This leads to a crisp, clear understanding of the 
@@ -183,4 +183,4 @@ class why_wds extends Component {
     }
 }
 
-export default why_wds;
+export default about;

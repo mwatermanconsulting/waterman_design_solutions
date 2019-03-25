@@ -1,19 +1,20 @@
 import React, { Component } from 'react' ;
-import backgroundServices from '../images/couple.png';
-import backgroundClients from '../images/clients-pic.png';
-import pi from '../images/pi.png';
-import terri from '../images/terri.png';
+import backgroundServices from '../images/enchilada.png';
+import uxdesignrelief from '../images/uxdesignrelief.png';
+import uipic from '../images/ui-pic.png';
+import marketingpic from '../images/marketing-pic.png';
+import consultingpic from '../images/consulting-pic.png';
 
-class clients extends Component {
+class practices extends Component {
     render () {
         return(
-            <div className="flex-layout-column margin-bottom-50"> 
+        <div className="flex-layout-column margin-bottom-50"> 
             <div className="flex-layout-section">
                 <div className="image-background-border-tb">
                     <img className="img-size" src={backgroundServices}  alt="couple" /> 
                         <div className="content-right-center">
                             <div className="content-header">
-                                <div className="title">Clients</div>
+                                <div className="title">Practices</div>
                             </div>
                                 <div className="content-text">
                                     <p>WDS is an end-to-end, experience-driven company that helps organizations navigate complex digital transformations. Our team provides the clarity to better understand 
@@ -233,9 +234,9 @@ class clients extends Component {
                         </div>
                     </div>
                 </div>
-        
+
         )
     }
 }
 
-export default clients;
+export default practices;
