@@ -21,6 +21,7 @@ import project_management from './project_management';
 import Services from './services';
 import strategy_insight from './strategy_insight';
 import style_guide from './style_guide';
+import ui_design from './ui_design';
 import ux from './ux';
 import why_wds from './why_wds';
 
@@ -48,6 +49,7 @@ const Main = () => (
     <Route exact path="/services" component={Services} />
     <Route exact path="/strategy_insight" component={strategy_insight} />
     <Route exact path="/style_guide" component={style_guide} />
+    <Route exact path="/ui_design" component={ui_design} />
     <Route exact path="/ux" component={ux} />
     <Route exact path="/why_wds" component={why_wds} />
 
