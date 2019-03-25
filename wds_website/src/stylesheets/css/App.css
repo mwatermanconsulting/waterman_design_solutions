@@ -38,7 +38,7 @@ body {
     max-height: 444px;
 }
 
-.flex-container-default {
+.flex-layout-vertical {
   display: flex;
   flex-direction: column;
 }
@@ -61,34 +61,14 @@ body {
   color: black !important;
 }
 
-.services-img {
-  width: 1368px;
-  height: 768px;
-}
 
-.couple-img {
-  top: 0px;
-  left: 5px;
-  width: 876x;
-  height: 595x;
-}
 
 .mdl-layout__drawer-button {
   color: gray !important;
 }
 
-.title {
-  font-family: 'Mouse Memoirs', sans-serif;
-  font-size: 62px;
-  margin-bottom: 15px;
-  color: #fff;
-}
-.heading1 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 22px;
-  margin-bottom: 15px;
-  color: #fff;
-}
+
+
 .content-header {
   display: flex;
   width: 100%;

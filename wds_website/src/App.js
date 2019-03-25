@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './stylesheets/css/main.css';
+import './stylesheets/css/App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import { Footer, FooterSection, FooterDropDownSection, FooterLinkList, } from 'react-mdl';
 import Main from './Components/main';
@@ -16,13 +17,13 @@ class App extends Component {
 
       <div className="flex-container100">
         <Layout>
-            <Header className="header" title={<Link style={{textDecoration: 'none',
+            <Header className="header red" title={<Link style={{textDecoration: 'none',
             color: 'black'}} to="/"><img src={logo} width="100" height="50" alt="bad hair cut" /></Link>} scroll>
                 <Navigation style={{ color: 'black'}}>
                     <Link to="/why_wds">Why WDS</Link>
-                    <Link to="/Clients">Clients</Link>
-                    <Link to="/portfolio">Portfolio</Link>
-                    <Link to="/aboutus">About US</Link>
+                    <Link to="/practices">Practices</Link>
+                    <Link to="/methodology">Methodology</Link>
+                    <Link to="/design Solution">Design Solutions</Link>
                     <Link to="/contact">Contact</Link>
                 </Navigation>
             </Header>
