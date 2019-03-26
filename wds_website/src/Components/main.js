@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import home from './home';
-import about from './about';
+import about from './history';
 import branding from './branding';
 import case_studies from './case_studies';
 import clients from './clients';
