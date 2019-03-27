@@ -8,7 +8,7 @@ class why_wds extends Component {
     render () {
         return(
             <div className="flex-layout-column"> 
-                <div className="flex-layout-section flex-layout-row offwhite border-top5px align-items-center ">
+                <div className="flex-layout-section flex-layout-column offwhite border-top5px align-items-center ">
                     <div className=" flex-layout-row ">
                     <div className="flex-layout-center-center">
                             <div className="flex-layout-justified-sb flex-layout-center-center ">     
@@ -20,13 +20,7 @@ class why_wds extends Component {
                                             </div> 
                                         </div>
                                     </div>
-                <div className="flex-layout-section">
-                    <div className="image-background-border-tb">
-                        <img className="img-size" src={backgroundServices}  alt="couple" /> 
-                            <div className="content-right-center">
-                                <div className="content-header">
-                                    <div className="title">Why WDS?</div>
-                                </div>
+              
                                     
                                 <div className="flex-layout-column width-100">
                                         {/*  <div className="content-header textblock lightpurple"><img className="aboutuspic" src={terri} alt="terri"/>  */}
@@ -47,7 +41,7 @@ class why_wds extends Component {
                     </div>
                 </div> 
                    
-
+                </div>
                     <div className="flex-layout-section-full flex-layout-center-center green">
                         <div className="flex-layout-column"> 
                             <div className="flex-layout-center-center margintop50"> 
@@ -206,14 +200,12 @@ class why_wds extends Component {
                                                     </div>
                                                 </div> 
                                             </div>
-                                        </div>
-                                        </div>
-                </div>
-                </div>
-                      
+                                            </div>
+                                                </div> 
+                                            </div>
+                                            </div>
 
-            
-        
+                                            
         )
     }
 }

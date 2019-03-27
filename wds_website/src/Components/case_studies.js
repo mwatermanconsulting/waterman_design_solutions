@@ -2,6 +2,7 @@ import React, { Component } from 'react' ;
 import backgroundAboutus from '../images/background-aboutus.png';
 import mike from '../images/mike-cartoon.png';
 import terri from '../images/terri-cartoon.png';
+import backgroundServices from '../images/couple.png';
 
 class case_studies extends Component {
     render () {

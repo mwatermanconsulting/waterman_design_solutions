@@ -22,6 +22,7 @@ import strategy_insight from './strategy_insight';
 import style_guide from './style_guide';
 import ui_design from './ui_design';
 import ux from './ux';
+import why_wds from './why_wds';
 
 
 
