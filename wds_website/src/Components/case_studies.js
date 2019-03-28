@@ -6,78 +6,55 @@ import terri from '../images/terri.png';
 class case_studies extends Component {
     render () {
         return(
-            <div className="flex-layout-column margin-bottom-50"> 
+        <div className="flex-layout-column flex-layout-center-center margin-bottom-50"> 
             <div className="flex-layout-section">
                 <div className="image-background-border-tb">
                     <img className="img-size" src={backgroundServices}  alt="couple" /> 
                         <div className="content-right-center">
-                            <div className="content-header">
-                                <div className="title">Case Studies</div>
+                            <div className="content-heade">
+                                <div className="title">Our Understanding is the key your success</div>
                             </div>
                                 <div className="content-text">
-                                    <p>WDS is an end-to-end, experience-driven company that helps organizations navigate complex digital transformations. Our team provides the clarity to better understand 
-                                    the needs of your customers and users, and reveal the disconnects in your current customer experience. 
-                                    By doing so, we help prioritize and deliver comprehensive experience enhancements to help you exceed your key customer experience and targeted business goals. 
-                                    We work across verticals and technologies - consumer, workplace, financial, health care, customer service, mobile development, ecommerce and more - to design software interfaces that makes sense. </p>
+                                    <p>For over 20 years, we have worked with innovative Startups to the largest Fortune 500 brands. Our understanding and empathizing with the users, through our proven methodology 
+                                        has solved complex problems, that have lead to our success.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                     <div className="flex-layout-section-full">
-                        <div className="flex-layout-column"> 
-                            <div className="flex-layout-center-center margintop50"> 
+                     <div className="flex-layout-section ">
+                        <div className="flex-layout-column ">
+                            <div className="flex-layout-center-center margintop50">
                                 <div className="content-header flex-layout-center">
+                                    <div className="content-text flex-layout-center-center">
+                                        <p><b> Excellent customer experience (CX) skills is rewquired skill to empathize and understanding the users and businesses pain points. Provinding solutions that not only benefits
+                                              the user and the business. WDS doesn't strive for one off success, but works with businesses continued success even when the goal is reached. </b></p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                                <div className="flex-layout-center-center flex-layout-column">
+                                <div className="content-header">
+                                <div className="title-reverse text-center">Client Spotlight</div>
+                            </div>  
+                                    <div className="title-reverse margin-top-150">Product Software UI redesign solves return rate problem, 
+                                    through outstanding UX and thinking outside the box</div>
+
                                     <div className="content-text width-half">
-                                        <p><b> In todays market desgin is more critical to your business success, competition and user expectations have increased. 
-                                                Your only chance of survival is understanding both your users and competition.</b></p>
+                                        <p><b> One of the worlds most reconizable names turned to WDS to find solutions and to redesign their application in their top</b></p>
                                     </div>
-                                </div>
-                                <div className="content-header flex-layout-center flex-layout-column">
-                                    <div className="title-reverse margintop50">Services Include</div><br/>
-                                    <div className="title-reverse margintop50">STRATEGY & INSIGHT</div>
-                                </div>
-                                    <div className="flex-layout-center">
-                                        <ul>
-                                            <li>Digital Transformation</li>
-                                            <li>Journey Maps</li>
-                                            <li>Contextual Inquiry</li>
-                                            <li>Affinity Diagramming</li> 
-                                            <li>Personas</li> 
-                                            <li>Consolidated Workflow Diagrams</li>
-                                            <li>Design Thinking Mentoring</li>
-                                            <li>Communication Workshops</li>
-                                            <li>Engagement Plans</li>
-                                            <li>CSS Methodology, Organization, best practices and mentoring</li>
-                                        </ul>
-                                    </div>
-                                <div className="content-header flex-layout-center flex-layout-column margintop50">
+                                
+                                    <div className="flex-layout-section-sb margin-top-100px">
+    
+                                  <div className="content-header ">  
+
                                     <div className="title-reverse">User Experience Design</div>
+                                <div>
                                 </div>
-                                <div className="flex-layout-center">
-                                    <ul>
-                                        <li>Interaction Design</li>
-                                        <li>Visual Design</li>
-                                        <li>Strategic Ideation</li>
-                                        <li>Protyping</li> 
-                                        <li>Concept Validation</li> 
-                                        <li>Wireframe Key Workflows</li>
-                                        <li>Design Systems</li>
-                                        <li>Style Guides</li>
-                                    </ul>
-                                </div>
-                                <div className="content-header flex-layout-center flex-layout-column margintop50">
+                            </div>
+                                
                                     <div className="title-reverse">Marketing & Analytics</div>
                                 </div>
-                                <div className="flex-layout-center">
-                                    <ul>
-                                        <li>Marketing Strategy</li>
-                                        <li>Content Science & Design</li>
-                                        <li>Experience Data & Analytics</li>
-                                        <li>Social & Influence Strategy</li>
-                                        <li>Marketing Technology Design & Strategy</li>
-                                        <li>Innovation as a Brand</li>
-
-                                    </ul>
+                                </div>
                                 </div>
                                 <div className="content-header flex-layout-center flex-layout-column margintop50">
                                     <div className="title-reverse">Design</div>
@@ -91,8 +68,6 @@ class case_studies extends Component {
                                     </ul>
                                 </div>
                             </div>
-                        </div>
-                    </div>
                     <div className="flex-layout-section">
                         <div className="flex-layout-center-center">
                             <div className="flex-layout-justified-sb flex-layout-center-center margintop50">     
