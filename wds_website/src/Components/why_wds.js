@@ -19,9 +19,7 @@ class why_wds extends Component {
                                                 <img className="backgroundWhy imagesizeDesktop" src={backgroundWhy}  alt="Why WDS" /> 
                                             </div> 
                                         </div>
-                                    </div>
-              
-                                    
+                                    </div>   
                                 <div className="flex-layout-column width-100">
                                         {/*  <div className="content-header textblock lightpurple"><img className="aboutuspic" src={terri} alt="terri"/>  */}
                                     <div className="flex-layout-column-half">
@@ -32,7 +30,7 @@ class why_wds extends Component {
                                             <p>We have a unique and established methodology for understanding people in context — we reveal unmet needs — which drives everything we do. This leads to a crisp, clear understanding of the 
                                                 customer, which shapes the design and development of new solutions and experiences. <br/>
                                                 With over 15 years perfecting our approach, we have the experience, teams, skills and scale to deliver sophisticated software solutions that improve any and all 
-                                                touchpoints across the user journey.  </p>
+                                                touchpoints across the user journey. </p>
                                         </div>
                                     </div>
                                 </div>
