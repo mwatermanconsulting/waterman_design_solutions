@@ -44,6 +44,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+a {
+  color: black !important; }
+
 /*******************************
          Global
   *******************************/
@@ -60,6 +63,30 @@ code {
 
 h1 {
   font-family: 'Mouse Momoirs', sans-serif; }
+
+a {
+  color: black !important; }
+
+.imagesizeDesktop {
+  width: auto;
+  height: auto;
+  max-width: 400px;
+  max-height: 400px;
+
+}
+.imagesizeDesktopSmall {
+  width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+  
+}
+
+.border-top5px {
+  border-top-color: #000;
+  border-top: solid;
+  border-top-width: 5px;
+}
 
 /*******************************
          Helper Classes
@@ -118,6 +145,12 @@ footer {
   font-size: 1.5em;
   background-color: #008000; }
 
+a {
+  color: black; }
+
+a:hover {
+  text-decoration: none; }
+
 .svg-image {
   height: auto;
   width: auto; }
@@ -129,13 +162,23 @@ footer {
   line-height: 55.5px;
   color: #fff; }
 
+
 .flex-layout-row {
   display: flex;
   flex-direction: row; }
 
 .textblock {
-  padding: 20px;
-  border: black 3px solid; }
+  padding: 50px; }
+
+.border-3px {
+  border-color: black;
+  border-width: 3px;
+  border: solid; }
+
+.bottom-border {
+  border-bottom-style: outset;
+  border-bottom-color: black;
+  border-bottom-width: 5px; }
 
 .flex-layout-content-container {
   display: flex; 
@@ -145,22 +188,23 @@ footer {
 .heading1 {
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
-  margin-bottom: 15px;
-  color: #fff; }
+  margin-bottom: 15px; }
 
-.dots {
-  display: flex;
-  width: 100%;
-  height: 768px;
-  background-position: left top;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAHklEQVQoU2NkIAAYqa7gP9REuMnoVhBUgOEkyh0JAA6rAgmckIqQAAAAAElFTkSuQmCC) repeat, url(../../images/clear.png); }
+.button {
+  padding: 10px;
+  border: #000 solid 3px;
+  white-space: nowrap;
+  margin: 5px;
+  font-weight: 800;
+  font-size: 1.2em;
+  background-color: transparent;
+  display: inline-block;
+  text-align: center; }
 
-.pinkdots {
-  background-image: url(../../images/pinkdots.png); }
+.button:hover {
+  background-color: rgba(227, 206, 184, 0.5); }
 
-.purpledots {
-  background-image: url(../../images/purpledots.png); }
-
+/*  Alighnment   */
 .align-items-center {
   align-items: center; }
 
@@ -168,14 +212,16 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   width: 100%; }
 
 .flex-layout-right-center {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin-right: 75px; }
+  align-items: center; 
+}
+
 
 .flex-layout-center {
   display: flex;
@@ -195,10 +241,80 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  width: 100%; }
+
+/*  Layers and Sizes   */
+.width-100 {
+  width: 100%; }
+
+.width-50 {
+  width: 50%; }
+
+.height-70 {
+  height: 70%; }
+
+.layer-bottom {
+  z-index: 1;
+  position: absolute; }
+
+.layer-top {
+  display: flex;
+  z-index: 10;
+  position: absolute;
+  flex-direction: row;
+  align-items: center; }
+
+.width-70 {
   width: 70%; }
 
-.landing-grid {
-  background: red; }
+.floatleft {
+  float: left; }
+
+/*  Colors   */
+.lightgreen {
+  background-color: #BDCCD4; }
+
+.purple {
+  background-color: #78738A; }
+
+.lightpurple {
+  background-color: #b8a9c6; }
+
+.green {
+  background-color: #87A6AB; }
+
+.yellow {
+  background-color: #F4D195; }
+
+.blue {
+  background-color: #aadfe7; }
+
+.offwhite {
+  background-color: #E3CEB6; }
+
+.white {
+  background-color: #fff; }
+
+.red {
+  background-color: #DA6154 !important; }
+
+.pink {
+  background-color: #daa09a; }
+
+.pinkdots {
+  background-image: url(../../images/pinkdots.png); }
+
+.purpledots {
+  background-image: url(../../images/purpledots.png); }
+
+.lightgreendots {
+  background-image: url(../../images/lightgreendots.png); }
+
+.bluedots {
+  background-image: url(../../images/bluedots.png); }
+
+.offwhitedots {
+  background-image: url(../../images/offwhitedots.png); }
 
 /*******************************
           About US
@@ -228,13 +344,17 @@ footer {
   *******************************/
 .image-background-border-tb {
   display: flex;
-  background-color: #87A6AB;
+  background-color: #AFD5DB;
   border-top-style: outset;
   border-top-color: black;
   border-top-width: 5px;
   border-bottom-style: outset;
   border-bottom-color: black;
   border-bottom-width: 5px; }
+
+.servicespic {
+  max-height: 500px;
+  margin-right: 20px; }
 
 .services-img {
   width: 1368px;

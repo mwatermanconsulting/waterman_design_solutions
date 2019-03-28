@@ -23,13 +23,7 @@ body {
   justify-content: center;
   
 }
-.aboutuspic {
-  width: 200px;
-  height: 235px;
-  min-width: 200px;
-  max-height: 235px;
-  margin-right: 20px;
-}
+
 .servicespic {
   width: 400px;
     height: 529px;
@@ -67,37 +61,14 @@ body {
   color: black !important;
 }
 
-.services-img {
-  width: 1368px;
-  height: 768px;
-}
 
-.couple-img {
-  top: 0px;
-  left: 5px;
-  width: 876x;
-  height: 595x;
-  -webkit-clip-path: polygon(0 0%, 100% 0, 50% 100%, 0% 100%);
-  clip-path: polygon(0 0%, 100% 0, 50% 100%, 0% 100%);
-}
 
 .mdl-layout__drawer-button {
   color: gray !important;
 }
 
-.title {
-  font-family: 'Mouse Memoirs', sans-serif;
-  font-size: 62px;
-  margin-bottom: 15px;
-  color: #fff;
-  margin-bottom: 30px;
-}
-.heading1 {
-  font-family: 'Mouse Memoirs', sans-serif;
-  font-size: 22px;
-  margin-bottom: 15px;
-  color: #fff;
-}
+
+
 .content-header {
   display: flex;
   width: 100%;
