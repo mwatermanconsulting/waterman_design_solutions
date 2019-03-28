@@ -1,31 +1,49 @@
 import React, { Component } from 'react' ;
-import backgroundServices from '../images/couple.png';
-import mike from '../images/mike.png';
-import terri from '../images/terri.png';
+import backgroundWhy from '../images/you-can-do-it.png';
+import tugofwar from '../images/tugofwar.png';
+import racecar from '../images/racecar.png';
+import yogabeach from '../images/yogabeach.png';
 
 class why_wds extends Component {
     render () {
         return(
             <div className="flex-layout-column"> 
-                <div className="flex-layout-section">
-                    <div className="image-background-border-tb flex-layout-center-center">
-                        <img className="img-size" src={backgroundServices}  alt="couple" /> 
-                            <div className="content-right-center">
-                                <div className="content-header">
-                                    <div className="title">Why WDS?</div>
-                                </div>
-                                    <div className="content-text">
+                <div className="flex-layout-section flex-layout-column offwhite border-top5px align-items-center ">
+                    <div className=" flex-layout-row ">
+                    <div className="flex-layout-center-center">
+                            <div className="flex-layout-justified-sb flex-layout-center-center ">     
+                                <div className="flex-layout-content-container width-100">
+                                   <div className="flex-layout-row flex-layout-center-center width-100">
+                                        <div className="flex-layout-column-half">
+                                           <div className="layout-center-justified ">
+                                                <img className="backgroundWhy imagesizeDesktop" src={backgroundWhy}  alt="Why WDS" /> 
+                                            </div> 
+                                        </div>
+                                    </div>   
+                                <div className="flex-layout-column width-100">
+                                        {/*  <div className="content-header textblock lightpurple"><img className="aboutuspic" src={terri} alt="terri"/>  */}
+                                    <div className="flex-layout-column-half">
+                                        <div className="content-header">
+                                            <div className="title">Why WDS?</div>
+                                        </div>
+                                        <div className="content-text">
                                             <p>We have a unique and established methodology for understanding people in context — we reveal unmet needs — which drives everything we do. This leads to a crisp, clear understanding of the 
                                                 customer, which shapes the design and development of new solutions and experiences. <br/>
-                                            </p>
-                                     </div>
+                                                With over 15 years perfecting our approach, we have the experience, teams, skills and scale to deliver sophisticated software solutions that improve any and all 
+                                                touchpoints across the user journey. </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>  
-                    <div className="flex-layout-section-full flex-layout-center-center">
-                        <div className="flex-layout-column flex-layout-center-center"> 
-                                <div className="content-header">
-                                    <div className="content-text margintop50">
+                            </div>
+                    </div>
+                </div>
+                </div>
+                    <div className="flex-layout-section-full flex-layout-center-center green">
+                        <div className="flex-layout-column"> 
+                            <div className="flex-layout-center-center margintop50"> 
+                                <div className="content-header flex-layout-center-center">
+                                    <div className="content-text width-half">
                                        {/* <div className="content-header textblock  lightpurple"><img className="aboutuspic" src={mike} alt="mike"/> */}
                                             <p><b> With over 15 years perfecting our approach, we have the experience, teams, skills and scale to deliver sophisticated software solutions that improve any and all 
                                                 touchpoints across the user journey. <br/> In todays market desgin is more critical to your business success, competition and user expectations have increased. 
@@ -37,32 +55,39 @@ class why_wds extends Component {
                         <div className="flex-layout-section-full flex-layout-center-center">
                             <div className="flex-layout-justified-sb margintop50">     
                                 <div className="flex-layout-content-container">
-                                   <div className="flex-layout-row">
-                                        {/* Need Image */}
+                                   <div className="flex-layout-row flex-layout-center-center">
+                                            
                                         <div className="flex-layout-column-half ">
                                             <h3 className="content-header">BLENDED TEAMS</h3>
-                                                <div className="content-container ">
+                                            <div className="layout-center-justified ">
                                                     <p>Our multi-disciplined teams work collaboratively to design software solutions based on user needs.  Designers, strategists, marketers and program 
                                                     managers work together<br/> to achieve success.  
                                                     </p>
                                                 </div>
                                             </div> 
+                                        </div>
+                                    </div>
+
+                                    <div className="flex-layout-row">
+
                                         {/*  <div className="content-header textblock lightpurple"><img className="aboutuspic" src={terri} alt="terri"/>  */}
                                             <div className="flex-layout-column-half">
-                                                <h3 className="content-header"> REMOVING RISK </h3>
-                                                <p> Risk exists in every project. We help our clients mitigate risk by researching and documenting not only the needs and desires of their customers, 
-                                                    but why those needs are important. </p>
+                                            <img className="yogabeach imagesizeDesktopSmall" src={yogabeach}  alt="Blended Teams" /> 
+                                            
                                             </div>
                                         {/*</div> */}
                                     </div>
                              </div>
                             </div>
-                            <div className="flex-layout-center-center">
+
+                        <div className="flex-layout-center-center">
                             <div className="flex-layout-justified-sb flex-layout-center-center margintop50">     
                                 <div className="flex-layout-content-container">
                                    <div className="flex-layout-row flex-layout-center-center">
                                         {/* Need Image */}
                                         <div className="flex-layout-column-half ">
+                                        <img className="handshake imagesizeDesktopSmall" src={tugofwar}  alt="Blended Teams" /> 
+
                                             <h3 className="content-header">Experience</h3>
                                                 <div className="layout-center-justified ">
                                                     <p>We’ve been building great experiences with world-leading brands for over 15 years. Our designs have helped business grow and understand their users. 
@@ -84,7 +109,7 @@ class why_wds extends Component {
                                         {/*</div> */}
                                     </div>
                                 </div>
-                            </div>
+                        </div>
                             <div className="flex-layout-center-center">
                                 <div className="flex-layout-justified-sb flex-layout-center-center margintop50">     
                                     <div className="flex-layout-content-container">
@@ -140,41 +165,46 @@ class why_wds extends Component {
                                                 <h3 className="content-header">WE'LL GET THERE FASTER, TOGETHER AS A TEAM</h3>
                                                     <div className="layout-center-justified ">
                                                         <p>Blending teams of strategists, designers and developers together will guarantee strong communication, collaboration and team success. 
-                                                           Combined with better understanding of the problem space and validated designs, we can focus on developing secure, modern, scalable software, 
-                                                           faster than internal or offshore teams.
+                                                        Combined with better understanding of the problem space and validated designs, we can focus on developing secure, modern, scalable software, faster than internal or offshore teams.
+
                                                         </p>
                                                     </div>
                                                 </div> 
                                                 <div className="flex-layout-column width-quarter ">
-                                                    <h3 className="content-header">YOU'LL HIT CLOSE TO THE MARK THE FIRST TIME.</h3>
-                                                        <div className="layout-center-justified ">
-                                                            <p>We're firm believers in agile and iterative deployments as experiments, but, with longer enterprise launches and even consumer software, 
+                                                <h3 className="content-header">YOU'LL HIT CLOSE TO THE MARK THE FIRST TIME.</h3>
+                                                    <div className="layout-center-justified ">
+                                                        <p>We're firm believers in agile and iterative deployments as experiments, but, with longer enterprise launches and even consumer software, 
                                                             there's still valuable data to be collected even before that first MVP. Our insights and strategies will get you moving in the right direction, and possibly uncover rewarding new opportunities.
-                                                            </p>
-                                                        </div>
+
+                                                        </p>
+                                                    </div>
                                                 </div> 
                                                 <div className="flex-layout-column width-quarter ">
-                                                    <h3 className="content-header">YOUR USERS AND CUSTOMERS WILL LOVE IT.</h3>
-                                                        <div className="layout-center-justified ">
-                                                            <p>In workplace and enterprise solutions, users know when someone understands their needs, making them feel like experts. 
-                                                                They know when there's attention to design details. They know when it's intuitive and visually pleasing - and they love it. 
-                                                                With consumers, if you miss the mark, you'll fail fast, and not in a good way.
-                                                            </p>
-                                                        </div>
+                                                <h3 className="content-header">YOUR USERS AND CUSTOMERS WILL LOVE IT.</h3>
+                                                    <div className="layout-center-justified ">
+                                                        <p>In workplace and enterprise solutions, users know when someone understands their needs, making them feel like experts. 
+                                                            They know when there's attention to design details. They know when it's intuitive and visually pleasing - and they love it. 
+                                                            With consumers, if you miss the mark, you'll fail fast, and not in a good way.
+
+                                                        </p>
+                                                    </div>
                                                 </div> 
                                                 <div className="flex-layout-column width-quarter ">
                                                 <h3 className="content-header">READY TO IMPROVE YOUR BUSINESS METRICS? WE ARE.</h3>
                                                     <div className="layout-center-justified" >
                                                         <p>We're not only here to build and launch great technology solutions, but to help you and your team improve your business in tangible ways. 
                                                             We've helped increase conversion by 200%, reduced operations time by 15%, and increased channel utilization by 75%. It all leads to millions in revenue and cost savings.
+
                                                         </p>
                                                     </div>
                                                 </div> 
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                                            </div>
+                                                </div> 
+                                            </div>
+                                            </div>
+
+                                            
         )
     }
 }

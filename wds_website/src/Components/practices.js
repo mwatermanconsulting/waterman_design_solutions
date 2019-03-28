@@ -5,13 +5,17 @@ import uipic from '../images/ui-pic.png';
 import marketingpic from '../images/marketing-pic.png';
 import consultingpic from '../images/consulting-pic.png';
 
+import stayinyourlane from '../images/stayinyourlane.png';
+
 class practices extends Component {
     render () {
         return(
+            
+          
         <div className="flex-layout-column margin-bottom-50"> 
             <div className="flex-layout-section">
                 <div className="image-background-border-tb">
-                    <img className="img-size" src={backgroundServices}  alt="couple" /> 
+                    <img className="img-size" src={stayinyourlane}  alt="Practices" /> 
                         <div className="content-right-center">
                             <div className="content-header">
                                 <div className="title">Practices</div>
@@ -234,7 +238,6 @@ class practices extends Component {
                         </div>
                     </div>
                 </div>
-
         )
     }
 }
