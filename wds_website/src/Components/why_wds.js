@@ -19,9 +19,7 @@ class why_wds extends Component {
                                                 <img className="backgroundWhy imagesizeDesktop" src={backgroundWhy}  alt="Why WDS" /> 
                                             </div> 
                                         </div>
-                                    </div>
-              
-                                    
+                                    </div>   
                                 <div className="flex-layout-column width-100">
                                         {/*  <div className="content-header textblock lightpurple"><img className="aboutuspic" src={terri} alt="terri"/>  */}
                                     <div className="flex-layout-column-half">
