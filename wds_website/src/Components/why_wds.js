@@ -27,7 +27,7 @@ class why_wds extends Component {
                                 <Button primary>Case Studies</Button> 
                                 <Button primary>Case Studies</Button>
                                 <Button primary>Case Studies</Button>
-                                <Button primary>Case Studies</Button>
+                                <Button primary> Stories</Button>
 
                                 </div>
                             </div>
