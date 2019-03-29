@@ -1,9 +1,9 @@
 import React, { Component } from 'react' ;
-import backgroundWhy from '../images/you-can-do-it.png';
 import { Layout, Button, Header, Navigation, Drawer, Content } from 'react-mdl';
 import tugofwar from '../images/tugofwar.png';
 import racecar from '../images/racecar.png';
 import yogabeach from '../images/yogabeach.png'; 
+import mysvg from '../images/crowgirls.svg';
 
 class why_wds extends Component {
     render () {
@@ -12,11 +12,14 @@ class why_wds extends Component {
                 <div className="flex-layout-section flex-layout-justified-sb">
                     <div className="image-background-border-tb flex-layout-center-center">
                         <div className="flex-image-container flex-layout-center-center">
-                            <img className="backgroundWhy" src={backgroundWhy}  alt="Why WDS" /> 
+                            <img className="img-size" src={mysvg}  alt="Crow girls picture" /> 
                                 </div>
                                 <div className="flex-content-container">
                                 <div className="content-header">
                                     <div className="title">Why WDS?</div>
+                                </div>
+                                 <div className="content-header">
+                                    <div className="sub-title">Need a Good powerful sentence here</div>
                                 </div>
                                     <div className="content-block">
                                         <p>We have a unique and established methodology for understanding people in context — we reveal unmet needs — which drives everything we do. This leads to a crisp, clear understanding of the 
@@ -24,7 +27,7 @@ class why_wds extends Component {
                                         </p>
                                 </div>
                                 <div className="flex-layout-justified-sb margin-top-50">
-                                <Button primary>Case Studies</Button> 
+                                <div className="button">Case Studies</div> 
                                 <Button primary>Case Studies</Button>
                                 <Button primary>Case Studies</Button>
                                 <Button primary> Stories</Button>
