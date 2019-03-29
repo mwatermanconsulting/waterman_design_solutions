@@ -160,7 +160,12 @@ a:hover {
   font-size: 62px;
   margin-bottom: 15px;
   line-height: 55.5px;
-  color: #fff; }
+}
+
+
+.white {
+ color: fff;
+}
 
 
 .flex-layout-row {
@@ -185,12 +190,19 @@ a:hover {
   width: 850px;
 }
 
+.flex-container-button {
+  display: flex;
+  justify-content: space-between;
+  width: 72%;
+  margin-top: 40px;
+}
+
 .heading1 {
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
   margin-bottom: 15px; }
 
-.button {
+Button {
   padding: 10px;
   border: #000 solid 3px;
   white-space: nowrap;
@@ -199,9 +211,41 @@ a:hover {
   font-size: 1.2em;
   background-color: transparent;
   display: inline-block;
-  text-align: center; }
+  text-align: center; 
+}
 
-.button:hover {
+
+
+.mdl-button {
+  background: #000;
+  opacity: 0.4;
+  border: 1px !important; 
+  border-radius: 2px;
+  color: rgb(0,0,0);
+  position: relative;
+  height: 36px;
+  margin: 0;
+  min-width: 64px;
+  padding: 0 16px;
+  display: inline-block;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 0;
+  overflow: hidden;
+  will-change: box-shadow;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  line-height: 36px;
+  vertical-align: middle;
+}
+
+Button:hover {
   background-color: rgba(227, 206, 184, 0.5); }
 
 /*  Alighnment   */
@@ -233,13 +277,13 @@ a:hover {
   display: flex;
   flex-direction: column;
   flex: 1 1 500px;
-  margin-right: 80px
+  margin-left: 70px;
 }
 
 .flex-image-container {
   display: flex;
   flex-direction: column;
-  flex: 1 1 460px;
+  flex: 1 1 420px;
 }
 
 .flex-layout-start {
@@ -357,7 +401,7 @@ a:hover {
 .image-background-border-tb {
   display: flex;
   flex: 1 1 100%;
-  background-color: #AFD5DB;
+  background-color: #E3CEB6;
   border-top-style: outset;
   border-top-color: black;
   border-top-width: 5px;
@@ -412,6 +456,7 @@ Flexible ratios:
 /*******************************
            Custom Flex
   *******************************/
+
 .flex-layout-section-sb {
   display: flex;
   flex-direction: column;
@@ -446,12 +491,12 @@ Flexible ratios:
   max-height: 235px;
   margin-right: 20px; }
 
+
 .flex-layout-vertical {
   display: flex;
   flex-direction: column; 
 
 }
-
 
 .flex-layout-center-center {
     justify-content: center;
@@ -465,25 +510,25 @@ Flexible ratios:
   display: flex;
 
 }
-  .flex-layout-justified-end {
+.flex-layout-justified-end {
     display: flex;
     justify-content: flex-end; 
-  }
+}
 
-  .flex-layout-justified-center {
+.flex-layout-justified-center {
     display: flex;
     justify-content: center; 
-  }
+}
 
-  .flex-layout-justified-sb {
+.flex-layout-justified-sb {
     display: flex;
     justify-content: space-between;
-  }
+}
 
-  .flex-layout-row {
+.flex-layout-row {
     display:flex;
     flex-direction: row;
-  }
+}
 
 .flex-layout-column{
     display:flex;
@@ -499,7 +544,6 @@ Flexible ratios:
 .width-half {
   width:50%;
 }
-
 
 .width-10 {
   width: 10%;
@@ -534,7 +578,11 @@ Flexible ratios:
   }
 
   .content-block {
-    width: 650px
+    font-family: Roboto;
+    font-size: 18px;
+    width: 570px;
+    height: auto;
+    margin-top: 10px;
   }
 
   
