@@ -1,13 +1,28 @@
 import React, { Component } from 'react' ;
-import backgroundWhy from '../images/you-can-do-it.png';
+   import backgroundWhy from '../images/you-can-do-it.png';
 import tugofwar from '../images/tugofwar.png';
 import racecar from '../images/racecar.png';
-import yogabeach from '../images/yogabeach.png';
+import yogabeach from '../images/yogabeach.png'; 
 
 class why_wds extends Component {
     render () {
         return(
-            <div className="flex-layout-column"> 
+            <div className="flex-layout-column">
+                <div className="flex-layout-section">
+                    <div className="image-background-border-tb flex-layout-center-center">
+                        <img className="backgroundWhy imagesizeDesktop" src={backgroundWhy}  alt="Why WDS" /> 
+                            <div className="content-right-center">
+                                <div className="content-header">
+                                    <div className="title">Why WDS?</div>
+                                </div>
+                                    <div className="content-text">
+                                        <p>We have a unique and established methodology for understanding people in context — we reveal unmet needs — which drives everything we do. This leads to a crisp, clear understanding of the 
+                                            customer, which shapes the design and development of new solutions and experiences. <br/>
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
                 <div className="flex-layout-section flex-layout-column offwhite border-top5px align-items-center ">
                     <div className=" flex-layout-row ">
                     <div className="flex-layout-center-center">
@@ -16,12 +31,12 @@ class why_wds extends Component {
                                    <div className="flex-layout-row flex-layout-center-center width-100">
                                         <div className="flex-layout-column-half">
                                            <div className="layout-center-justified ">
-                                                <img className="backgroundWhy imagesizeDesktop" src={backgroundWhy}  alt="Why WDS" /> 
+                                           <img className="img-size" src={yogabeach}  alt="yogabeach" /> 
                                             </div> 
                                         </div>
                                     </div>   
                                 <div className="flex-layout-column width-100">
-                                        {/*  <div className="content-header textblock lightpurple"><img className="aboutuspic" src={terri} alt="terri"/>  */}
+                                    
                                     <div className="flex-layout-column-half">
                                         <div className="content-header">
                                             <div className="title">Why WDS?</div>
@@ -45,26 +60,33 @@ class why_wds extends Component {
                             <div className="flex-layout-center-center margintop50"> 
                                 <div className="content-header flex-layout-center-center">
                                     <div className="content-text width-half">
-                                       {/* <div className="content-header textblock  lightpurple"><img className="aboutuspic" src={mike} alt="mike"/> */}
-                                            <p className="text-align-center"><b> In todays market desgin is more critical to your business success, competition and user expectations have increased. 
+                                            <p><b> With over 15 years perfecting our approach, we have the experience, teams, skills and scale to deliver sophisticated software solutions that improve any and all 
+                                                touchpoints across the user journey. <br/> In todays market desgin is more critical to your business success, competition and user expectations have increased. 
                                                 Your only chance of survival is understanding both your users and competition.</b></p>
-                                        {/* </div> */}
+
                                     </div>
                                 </div>
                             </div>
-                        <div className="flex-layout-center-center">
-                            <div className="flex-layout-justified-sb flex-layout-center-center margintop50">     
+                        <div className="flex-layout-section-full flex-layout-center-center">
+                            <div className="flex-layout-justified-sb margintop50">     
                                 <div className="flex-layout-content-container">
+
+                                   <div className="flex-layout-row">
+                                        {/* Need Image */}
+                                        <div className="flex-layout-column-half ">
+                                            <h3 className="content-header">BLENDED TEAMS</h3>
+                                                <div className="content-container ">
                                    <div className="flex-layout-row flex-layout-center-center">
                                             
                                         <div className="flex-layout-column-half ">
                                             <h3 className="content-header">BLENDED TEAMS</h3>
                                             <div className="layout-center-justified ">
                                                     <p>Our multi-disciplined teams work collaboratively to design software solutions based on user needs.  Designers, strategists, marketers and program 
-                                                    managers work together to achieve success.  
+                                                    managers work together<br/> to achieve success.  
                                                     </p>
                                                 </div>
                                             </div> 
+
                                         </div>
                                     </div>
 
@@ -76,7 +98,7 @@ class why_wds extends Component {
                                             </div>
                                         {/*</div> */}
                                     </div>
-                                </div>
+                             </div>
                             </div>
 
                         <div className="flex-layout-center-center">
@@ -100,7 +122,7 @@ class why_wds extends Component {
                                     <div className="flex-layout-row">
                                         {/*  <div className="content-header textblock lightpurple"><img className="aboutuspic" src={terri} alt="terri"/>  */}
                                             <div className="flex-layout-column-half">
-                                                <h3 className="content-header"> Trend Setters </h3>
+                                                <h3 className="content-header wi"> Trend Setters </h3>
                                                 <p> Benchmarked against offshore and internal teams, our blended teams of strategists, designers and developers work together to understand user needs, 
                                                     translate those needs to design, and then, as a team, take that investment to launch, faster. 
                                                 </p>
@@ -138,7 +160,7 @@ class why_wds extends Component {
                             </div>
                         </div>
                     </div>
-
+               
                      {/*  This Section Needs Images */}
 
                     <div className="flex-layout-center margintop50">
@@ -202,6 +224,10 @@ class why_wds extends Component {
                                                 </div> 
                                             </div>
                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
 
                                             
         )

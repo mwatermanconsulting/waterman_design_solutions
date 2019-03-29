@@ -105,6 +105,11 @@ a {
   margin-bottom: 50px;
 }
 
+.margin-top-150 {
+  margin-top: 150px;
+}
+
+
 .flex-container100 {
   display: flex;
   flex-flow: column;
@@ -154,8 +159,9 @@ a:hover {
   font-family: 'Mouse Memoirs', sans-serif;
   font-size: 62px;
   margin-bottom: 15px;
-  color: #000;
-  line-height: normal; }
+  line-height: 55.5px;
+  color: #fff; }
+
 
 .flex-layout-row {
   display: flex;
@@ -176,6 +182,7 @@ a:hover {
 
 .flex-layout-content-container {
   display: flex; 
+  width: 850px;
 }
 
 .heading1 {
@@ -312,6 +319,13 @@ a:hover {
 /*******************************
           About US
   *******************************/
+.img-size {
+  top: 0px;
+  left: 5px;
+  width: 876px;
+  height: auto;
+  -webkit-clip-path: polygon(0 0%, 100% 0, 50% 100%, 0% 100%);
+  clip-path: polygon(0 0%, 100% 0, 50% 100%, 0% 100%); }
 
 /*******************************
            Clients 
@@ -397,6 +411,13 @@ Flexible ratios:
   flex-direction: column;
   height: 605px; 
 }
+
+.flex-layout-section-row {
+  display: flex;
+  flex-direction: column;
+  height: 605px; 
+}
+
 
 .flex-layout-section-full {
   display: flex;
@@ -497,4 +518,24 @@ Flexible ratios:
 
   ul {
     list-style: circle;
+  }
+
+  
+
+  /*******************************
+           Shapes
+  *******************************/
+
+  .square {
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+  }
+
+   /*******************************
+           Spacer
+  *******************************/
+
+  .spacer-vertical-150px {
+    width: 150px;
   }
