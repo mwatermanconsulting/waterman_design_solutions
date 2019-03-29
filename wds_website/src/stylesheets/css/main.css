@@ -222,12 +222,24 @@ a:hover {
   align-items: center; 
 }
 
-
 .flex-layout-center {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.flex-content-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 500px;
+  margin-right: 80px
+}
+
+.flex-image-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 460px;
 }
 
 .flex-layout-start {
@@ -344,6 +356,7 @@ a:hover {
   *******************************/
 .image-background-border-tb {
   display: flex;
+  flex: 1 1 100%;
   background-color: #AFD5DB;
   border-top-style: outset;
   border-top-color: black;
@@ -518,6 +531,10 @@ Flexible ratios:
 
   ul {
     list-style: circle;
+  }
+
+  .content-block {
+    width: 650px
   }
 
   
