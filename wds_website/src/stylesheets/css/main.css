@@ -190,6 +190,13 @@ a:hover {
   width: 850px;
 }
 
+.flex-container-button {
+  display: flex;
+  justify-content: space-between;
+  width: 72%;
+  margin-top: 40px;
+}
+
 .heading1 {
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
@@ -270,13 +277,13 @@ Button:hover {
   display: flex;
   flex-direction: column;
   flex: 1 1 500px;
-  margin-right: 80px
+  margin-left: 70px;
 }
 
 .flex-image-container {
   display: flex;
   flex-direction: column;
-  flex: 1 1 460px;
+  flex: 1 1 420px;
 }
 
 .flex-layout-start {
@@ -449,6 +456,7 @@ Flexible ratios:
 /*******************************
            Custom Flex
   *******************************/
+
 .flex-layout-section-sb {
   display: flex;
   flex-direction: column;
@@ -483,12 +491,12 @@ Flexible ratios:
   max-height: 235px;
   margin-right: 20px; }
 
+
 .flex-layout-vertical {
   display: flex;
   flex-direction: column; 
 
 }
-
 
 .flex-layout-center-center {
     justify-content: center;
@@ -502,25 +510,25 @@ Flexible ratios:
   display: flex;
 
 }
-  .flex-layout-justified-end {
+.flex-layout-justified-end {
     display: flex;
     justify-content: flex-end; 
-  }
+}
 
-  .flex-layout-justified-center {
+.flex-layout-justified-center {
     display: flex;
     justify-content: center; 
-  }
+}
 
-  .flex-layout-justified-sb {
+.flex-layout-justified-sb {
     display: flex;
     justify-content: space-between;
-  }
+}
 
-  .flex-layout-row {
+.flex-layout-row {
     display:flex;
     flex-direction: row;
-  }
+}
 
 .flex-layout-column{
     display:flex;
@@ -536,7 +544,6 @@ Flexible ratios:
 .width-half {
   width:50%;
 }
-
 
 .width-10 {
   width: 10%;
@@ -574,7 +581,8 @@ Flexible ratios:
     font-family: Roboto;
     font-size: 18px;
     width: 570px;
-    height: 240px;
+    height: auto;
+    margin-top: 10px;
   }
 
   

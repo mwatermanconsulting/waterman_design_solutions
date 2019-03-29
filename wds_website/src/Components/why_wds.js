@@ -1,9 +1,9 @@
 import React, { Component } from 'react' ;
-import { Layout, Button, Header, Navigation, Drawer, Content } from 'react-mdl';
+import { Button } from 'react-mdl';
 import tugofwar from '../images/tugofwar.png';
 import racecar from '../images/racecar.png';
 import yogabeach from '../images/yogabeach.png'; 
-import mysvg from '../images/crowgirls.svg';
+import mysvg from '../images/crowdgirls.svg';
 
 class why_wds extends Component {
     render () {
@@ -12,7 +12,7 @@ class why_wds extends Component {
                 <div className="flex-layout-section flex-layout-justified-sb">
                     <div className="image-background-border-tb flex-layout-center-center">
                         <div className="flex-image-container flex-layout-center-center">
-                            <img className="img-size" src={mysvg}  alt="Crow girls picture" /> 
+                            <img className="flex-image-container" src={mysvg}  alt="Crow girls picture" /> 
                                 </div>
                                 <div className="flex-content-container">
                                 <div className="content-header">
@@ -26,11 +26,11 @@ class why_wds extends Component {
                                             customer, which shapes the design and development of new solutions and experiences. <br/>
                                         </p>
                                 </div>
-                                <div className="flex-layout-justified-sb margin-top-50">
-                                <div className="button">Case Studies</div> 
-                                <Button primary>Case Studies</Button>
-                                <Button primary>Case Studies</Button>
-                                <Button primary> Stories</Button>
+                                <div className="flex-container-button margin-top-50 scr({">
+                                <Button className="button">Core Offerings</Button> 
+                                <Button className="button">About Us</Button>
+                                <Button className="button">Case Studies</Button>
+                                <Button className="button">Clients</Button>
 
                                 </div>
                             </div>
