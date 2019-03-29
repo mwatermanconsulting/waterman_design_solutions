@@ -1,5 +1,6 @@
 import React, { Component } from 'react' ;
-   import backgroundWhy from '../images/you-can-do-it.png';
+import backgroundWhy from '../images/you-can-do-it.png';
+import { Layout, Button, Header, Navigation, Drawer, Content } from 'react-mdl';
 import tugofwar from '../images/tugofwar.png';
 import racecar from '../images/racecar.png';
 import yogabeach from '../images/yogabeach.png'; 
@@ -8,17 +9,26 @@ class why_wds extends Component {
     render () {
         return(
             <div className="flex-layout-column">
-                <div className="flex-layout-section">
+                <div className="flex-layout-section flex-layout-justified-sb">
                     <div className="image-background-border-tb flex-layout-center-center">
-                        <img className="backgroundWhy imagesizeDesktop" src={backgroundWhy}  alt="Why WDS" /> 
-                            <div className="content-right-center">
+                        <div className="flex-image-container flex-layout-center-center">
+                            <img className="backgroundWhy" src={backgroundWhy}  alt="Why WDS" /> 
+                                </div>
+                                <div className="flex-content-container">
                                 <div className="content-header">
                                     <div className="title">Why WDS?</div>
                                 </div>
-                                    <div className="content-text">
+                                    <div className="content-block">
                                         <p>We have a unique and established methodology for understanding people in context — we reveal unmet needs — which drives everything we do. This leads to a crisp, clear understanding of the 
                                             customer, which shapes the design and development of new solutions and experiences. <br/>
                                         </p>
+                                </div>
+                                <div className="flex-layout-justified-sb margin-top-50">
+                                <Button primary>Case Studies</Button> 
+                                <Button primary>Case Studies</Button>
+                                <Button primary>Case Studies</Button>
+                                <Button primary> Stories</Button>
+
                                 </div>
                             </div>
                         </div>
