@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './stylesheets/css/main.css';
-import { Layout, Button, Header, Navigation, Drawer, Content } from 'react-mdl';
+import './stylesheets/css/App.css';
+import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import { Footer, FooterSection, FooterDropDownSection, FooterLinkList, } from 'react-mdl';
 import Main from './Components/main';
 import logo from './images/WDS-logo.svg'
