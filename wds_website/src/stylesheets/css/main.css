@@ -105,6 +105,14 @@ a {
   margin-bottom: 50px;
 }
 
+.margin-top-50 {
+  margin-top: 50px;
+}
+
+.margin-top-100 {
+  margin-top: 100px;
+}
+
 .margin-top-150 {
   margin-top: 150px;
 }
@@ -162,6 +170,14 @@ a:hover {
   line-height: 55.5px;
 }
 
+.title-center {
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 62px;
+  margin-bottom: 15px;
+  line-height: 55.5px;
+  text-align: center;
+}
+
 
 .white {
  color: fff;
@@ -171,6 +187,13 @@ a:hover {
 .flex-layout-row {
   display: flex;
   flex-direction: row; }
+
+.flex-layout-row-reverse {
+  display: flex;
+  flex-direction: row-reverse; 
+  
+}
+  
 
 .textblock {
   padding: 50px; }
@@ -193,7 +216,7 @@ a:hover {
 .flex-container-button {
   display: flex;
   justify-content: space-between;
-  width: 72%;
+  width: 60%;
   margin-top: 40px;
 }
 
@@ -204,7 +227,7 @@ a:hover {
 
 Button {
   padding: 10px;
-  border: #000 solid 3px;
+  border: #000 solid 3px .01;
   white-space: nowrap;
   margin: 5px;
   font-weight: 800;
@@ -214,12 +237,23 @@ Button {
   text-align: center; 
 }
 
+.button {
+  border: #000 solid 3px;
+  white-space: nowrap;
+  margin: 5px;
+  font-weight: 800;
+  font-size: 1.2em;
+  background-color: grey;
+  display: inline-block;
+  text-align: center; 
+}
+
 
 
 .mdl-button {
   background: #000;
-  opacity: 0.4;
-  border: 1px !important; 
+  opacity: 0.4 !important;
+  border: 1px solid rgb(170, 50, 220, .6) !important; 
   border-radius: 2px;
   color: rgb(0,0,0);
   position: relative;
@@ -246,7 +280,9 @@ Button {
 }
 
 Button:hover {
-  background-color: rgba(227, 206, 184, 0.5); }
+  background-color: rgba(227, 206, 184, 0.5);
+  border:
+}
 
 /*  Alighnment   */
 .align-items-center {
@@ -297,8 +333,12 @@ Button:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100%; }
+  width: 100%; 
+}
 
+.container-image-block {
+  display: flex;
+  width: 100%; }
 /*  Layers and Sizes   */
 .width-100 {
   width: 100%; }
@@ -495,7 +535,6 @@ Flexible ratios:
 .flex-layout-vertical {
   display: flex;
   flex-direction: column; 
-
 }
 
 .flex-layout-center-center {
@@ -503,7 +542,9 @@ Flexible ratios:
     align-items: center;
 }
 
-
+.flex-sh-500 {
+  flex: 0 1 624px;
+}
   /* Add these classes to respective partial files */
 
 .flex-container-default {
@@ -549,6 +590,7 @@ Flexible ratios:
   width: 10%;
 }
 
+
 .width-quarter {
   width: 25%
 }
@@ -579,12 +621,20 @@ Flexible ratios:
 
   .content-block {
     font-family: Roboto;
-    font-size: 18px;
+    font-size: 1.2rem;
     width: 570px;
     height: auto;
     margin-top: 10px;
   }
 
+  .content-text-18 {
+    font-family: Roboto;
+    font-size: 1.2rem;
+  }
+
+  .text-white {
+    color: #fff
+  }
   
 
   /*******************************
