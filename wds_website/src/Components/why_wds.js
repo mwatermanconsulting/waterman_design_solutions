@@ -5,7 +5,7 @@ import racecar from '../images/racecar.png';
 import yogabeach from '../images/yogabeach.png'; 
 import mysvg from '../images/crowdgirls.svg';
 import ship from '../images/titanic.svg';
-import fireman from '../images/fireman.svg';
+import firemen from '../images/firemen.svg';
 
 class why_wds extends Component {
     render () {

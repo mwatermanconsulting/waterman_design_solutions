@@ -19,3 +19,28 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+node_modules/
+
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore application configuration
+/config/application.yml
+/public/packs
+/public/packs-test
+/node_modules
+
+# Always include the build script #
+###################################
+!build.sh
+!README.md
+!CHANGELOG.md
+!.gitignore
+view raw
