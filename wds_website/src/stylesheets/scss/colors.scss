@@ -1,6 +1,5 @@
-
-
-$white: #fff; 
+$white: #fff;
+$black: #000; 
 $offwhite: #E3CEB6;
 $green: #008000;
 $lightgreen: #87A6AB;
@@ -8,6 +7,7 @@ $purple: #78738A;
 $lightpurple: #b8a9c6;
 $lightgreen: #87A6AB;
 $yellow: #F4D195;
+$red: #DA6153;
 
 .lightgreen {
     background-color: #BDCCD4; }
@@ -34,10 +34,13 @@ $yellow: #F4D195;
     background-color: #fff; }
   
   .red {
-    background-color: #DA6154 !important; }
+    background-color: $red !important;
+    color: $red;
+}
   
-  .pink {
+.pink {
     background-color: #daa09a; }
+
   
   .pinkdots {
     background-image: url(../../images/pinkdots.png); }

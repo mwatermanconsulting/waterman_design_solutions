@@ -1,11 +1,11 @@
 
 
 /*******************************
-           Whynpm run watch-css
+           Why npm run watch-css
   *******************************/
 
-.text{
-    color:red;
+.text {
+    color: black;
 }
 
 .flex-container-small {
@@ -25,36 +25,36 @@
   justify-content: center;
   align-content: space-between;
   align-items: center;
-  }
+}
 
 .flex-item:nth-child(1) {
   order: 0;
   flex: 0 2 auto;
   align-self: auto;
-  }
+}
 
 .flex-item:nth-child(2) {
   order: 0;
   flex: 0 2 auto;
   align-self: auto;
-  }
+}
 
 .flex-item:nth-child(3) {
   order: 0;
   flex: 0 2 auto;
   align-self: auto;
-  }
+}
 
 .flex-item:nth-child(4) {
   order: 0;
   flex: 0 1 auto;
   align-self: auto;
-  }
+}
 
-  .flex-sh-400 {
+.flex-sh-400 {
     flex: 0 1 400px;
-  }
+}
 
-  .content-block-why {
+.content-block-why {
     width: 550px;
-  }
+}

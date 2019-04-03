@@ -25,15 +25,15 @@ class why_wds extends Component {
                                         <div className="subtitle">Need a Good powerful sentence here</div>
                                     </div>
                                     <div className="content-block-why">
-                                        <p className="content-text-18">We have a unique and established methodology for understanding people in context — we reveal unmet needs — which drives everything we do. This leads to a crisp, clear understanding of the 
+                                        <p className="content-text-18">We have a unique and established <a href="./methodology" target="_blank">methodology</a> for understanding people in context — we reveal unmet needs — which drives everything we do. This leads to a crisp, clear understanding of the 
                                             customer, which shapes the design and development of new solutions and experiences. <br/>
                                         </p>
                                     </div>
-                                    <div className="flex-container-button margin-top-50 scr({">
-                                        <Button className="button">Core Offerings</Button> 
-                                        <Button className="button">About Us</Button>
-                                        <Button className="button">Case Studies</Button>
-                                        <Button className="button">Clients</Button>
+                                    <div className="flex-container-button margin-top-50">
+                                        <Button className="button"><a href="./core_offerings" className="text-black" target="_blank">Core Offerings</a></Button> 
+                                        <Button className="button"><a href="./aboutus" className="text-black" target="_blank">About US</a></Button>
+                                        <Button className="button"><a href="./case_studies" className="text-black" target="_blank">Case Studies</a></Button>
+                                        <Button className="button"><a href="./clients" className="text-black" target="_blank">Clients</a></Button>
                                     </div>
                                 </div>
                             </div>
@@ -61,7 +61,7 @@ class why_wds extends Component {
                                     <div className="content-header flex-layout-column flex-sh-500">
                                         <h3 className="text-white">BLENDED TEAMS</h3>
                                             <div className="content-block">
-                                                    <p className="content-text-18 content-block-why">Our multi-disciplined teams work collaboratively to design software solutions based on user needs.  Designers, strategists, marketers and program 
+                                                    <p className="content-text-18 content-block-why">Our <a href="./core_offerings" target="_blank">multi-disciplined teams</a> teams work collaboratively to design software solutions based on user needs.  Designers, strategists, marketers and program 
                                                         managers work together to achieve success.  
                                                     </p>
                                             </div>
@@ -81,7 +81,7 @@ class why_wds extends Component {
                                             <h3 className="text-white">Experience</h3>
                                                 <div className="content-block">
                                                     <p className="content-text-18 content-block-why">We’ve been building great experiences with world-leading brands for over 15 years. Our designs have helped business grow and understand their users. 
-                                                            All our clients have full confidence that WDS can deliver the right results.
+                                                            All our <a href="./clients" target="_blank">clients</a> have full confidence that WDS can deliver the right results.
                                                     </p>
                                             </div>
                                     </div>
@@ -99,7 +99,7 @@ class why_wds extends Component {
                                         <div className="content-header flex-layout-column flex-sh-500">
                                             <h3 className="text-white">Trend Setters</h3>
                                                 <div className="content-block">
-                                                    <p className="content-text-18 content-block-why">For the last 15 years WDS has been a leading trend setter for the industry. Our solutions and designs have been 
+                                                    <p className="content-text-18 content-block-why">For the last 15 years WDS has been a leading trend setter for the industry. Our <a href="./design_solutions" target="_blank">design solutions</a> have been 
                                                     copied and used across many verticals. 
                                                     </p>
                                             </div>
@@ -135,10 +135,11 @@ class why_wds extends Component {
                                 <div className="flex-layout-section-full green">     
                                     <div className="flex-layout-row flex-layout-center-center margin-top-50"> 
                                         <div className="content-header flex-layout-column flex-sh-500">
-                                            <h3 className="text-white">Speed</h3>
+                                            <h3 className="text-white">Removing Risk</h3>
                                                 <div className="content-block">
-                                                    <p className="content-text-18 content-block-why">We’ve been building great experiences with world-leading brands for over 15 years. Our designs have helped business grow and understand their users. 
-                                                            All our clients have full confidence that WDS can deliver the right results.
+                                                    <p className="content-text-18 content-block-why">Risk exists in every project. 
+                                                    We help our clients mitigate risk, however, by fully researching and documenting not only the needs and desires of their customers, 
+                                                    but the reasons those needs are important. 
                                                     </p>
                                             </div>
                                     </div>
@@ -170,7 +171,7 @@ class why_wds extends Component {
                                 </div>
                              </div>
                                 <div className="flex-layout-center green padding-bottom-50 bottom-border">
-                                    <button type="button">Check Out Our Success Stories</button>
+                                    <button type="button" className="margin-top-50">Check Out Our Success Stories</button>
                                 </div>
                                 <div className="flex-layout-row flex-layout-center-center"> 
                                     <div className="content-header flex-layout-column flex-sh-500">
