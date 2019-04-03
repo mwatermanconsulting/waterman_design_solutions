@@ -1,0 +1,60 @@
+
+
+/*******************************
+           Whynpm run watch-css
+  *******************************/
+
+.text{
+    color:red;
+}
+
+.flex-container-small {
+  display: flex;
+  height: 500px;
+}
+
+.flex-container-text-small {
+  width: 250px;
+  padding: 40px;
+}
+
+.flex-container-services {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+  }
+
+.flex-item:nth-child(1) {
+  order: 0;
+  flex: 0 2 auto;
+  align-self: auto;
+  }
+
+.flex-item:nth-child(2) {
+  order: 0;
+  flex: 0 2 auto;
+  align-self: auto;
+  }
+
+.flex-item:nth-child(3) {
+  order: 0;
+  flex: 0 2 auto;
+  align-self: auto;
+  }
+
+.flex-item:nth-child(4) {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  }
+
+  .flex-sh-400 {
+    flex: 0 1 400px;
+  }
+
+  .content-block-why {
+    width: 550px;
+  }
