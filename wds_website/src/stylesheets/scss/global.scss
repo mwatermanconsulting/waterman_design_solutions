@@ -1,25 +1,26 @@
+@import 'colors';
+
 /*******************************
          Global
   *******************************/
 
 
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
-  body {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
 
-
-  h1 {
-    font-family: 'Mouse Momoirs', sans-serif;
-  }
+h1 {
+  font-family: 'Mouse Momoirs', sans-serif;
+}
   
-  a {
-    color: black !important;
-  }
+a {
+  color: $red;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -54,4 +55,12 @@ p {
 
 .text-align-center {
   text-align: center;
+}
+
+.text-black {
+  color: $black;
+}
+
+.padding-bottom-50 {
+  padding-bottom: 50px;
 }

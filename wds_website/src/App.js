@@ -40,8 +40,8 @@ class App extends Component {
           <div className="page-content" />
             <Main/>
       </Content>
-      <Footer className="red">
-      <FooterSection type="middle">
+      <Footer className="red flex-layout-center-center">
+      <FooterSection className="flex-layout-center-center" type="center">
           <FooterDropDownSection title="Why">
               <FooterLinkList>
                   <a href="./why-wds">Why Waterman Design Solutions</a>

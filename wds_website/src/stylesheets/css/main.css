@@ -142,6 +142,52 @@ footer {
 .header {
   background: #fff !important; }
 
+.lightgreen {
+  background-color: #BDCCD4; }
+
+.purple {
+  background-color: #78738A; }
+
+.lightpurple {
+  background-color: #b8a9c6; }
+
+.green {
+  background-color: #87A6AB; }
+
+.yellow {
+  background-color: #F4D195; }
+
+.blue {
+  background-color: #aadfe7; }
+
+.offwhite {
+  background-color: #E3CEB6; }
+
+.white {
+  background-color: #fff; }
+
+.red {
+  background-color: #DA6153 !important;
+  color: #DA6153; }
+
+.pink {
+  background-color: #daa09a; }
+
+.pinkdots {
+  background-image: url(../../images/pinkdots.png); }
+
+.purpledots {
+  background-image: url(../../images/purpledots.png); }
+
+.lightgreendots {
+  background-image: url(../../images/lightgreendots.png); }
+
+.bluedots {
+  background-image: url(../../images/bluedots.png); }
+
+.offwhitedots {
+  background-image: url(../../images/offwhitedots.png); }
+
 /*******************************
          Helper Classes
   *******************************/
@@ -407,6 +453,55 @@ footer {
 .text-white {
   color: #fff; }
 
+a {
+  color: #DA6153; }
+
+.lightgreen {
+  background-color: #BDCCD4; }
+
+.purple {
+  background-color: #78738A; }
+
+.lightpurple {
+  background-color: #b8a9c6; }
+
+.green {
+  background-color: #87A6AB; }
+
+.yellow {
+  background-color: #F4D195; }
+
+.blue {
+  background-color: #aadfe7; }
+
+.offwhite {
+  background-color: #E3CEB6; }
+
+.white {
+  background-color: #fff; }
+
+.red {
+  background-color: #DA6153 !important;
+  color: #DA6153; }
+
+.pink {
+  background-color: #daa09a; }
+
+.pinkdots {
+  background-image: url(../../images/pinkdots.png); }
+
+.purpledots {
+  background-image: url(../../images/purpledots.png); }
+
+.lightgreendots {
+  background-image: url(../../images/lightgreendots.png); }
+
+.bluedots {
+  background-image: url(../../images/bluedots.png); }
+
+.offwhitedots {
+  background-image: url(../../images/offwhitedots.png); }
+
 /*******************************
          Global
   *******************************/
@@ -422,7 +517,7 @@ h1 {
   font-family: 'Mouse Momoirs', sans-serif; }
 
 a {
-  color: black !important; }
+  color: #DA6153; }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace; }
@@ -451,6 +546,12 @@ p {
 .text-align-center {
   text-align: center; }
 
+.text-black {
+  color: #000; }
+
+.padding-bottom-50 {
+  padding-bottom: 50px; }
+
 .lightgreen {
   background-color: #BDCCD4; }
 
@@ -476,7 +577,8 @@ p {
   background-color: #fff; }
 
 .red {
-  background-color: #DA6154 !important; }
+  background-color: #DA6153 !important;
+  color: #DA6153; }
 
 .pink {
   background-color: #daa09a; }
@@ -503,15 +605,16 @@ p {
   font-size: 1.5em;
   background-color: #008000; }
 
-a {
-  color: black; }
-
 a:hover {
-  text-decoration: none; }
+  text-decoration: none;
+  font-weight: bold; }
 
 .svg-image {
   height: auto;
   width: auto; }
+
+.link-color {
+  color: #DA6153; }
 
 .title {
   font-family: 'Mouse Memoirs', sans-serif;
@@ -696,10 +799,10 @@ Button:hover {
   float: left; }
 
 /*******************************
-           Whynpm run watch-css
+           Why npm run watch-css
   *******************************/
 .text {
-  color: red; }
+  color: black; }
 
 .flex-container-small {
   display: flex;
@@ -801,7 +904,8 @@ Button:hover {
   background-color: #fff; }
 
 .red {
-  background-color: #DA6154 !important; }
+  background-color: #DA6153 !important;
+  color: #DA6153; }
 
 .pink {
   background-color: #daa09a; }

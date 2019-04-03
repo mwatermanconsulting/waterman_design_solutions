@@ -5,93 +5,93 @@
   *******************************/
 
 
-  .header {
-    font-size: 1.5em;
-    background-color: #008000; }
+.header {
+  font-size: 1.5em;
+  background-color: #008000; }
   
-  a {
-    color: black; }
+a:hover {
+  text-decoration: none;
+  font-weight: bold; 
+}
   
-  a:hover {
-    text-decoration: none; }
+.svg-image {
+  height: auto;
+  width: auto; 
+}
+
+.link-color {
+  color: $red;
+}
   
-  .svg-image {
-    height: auto;
-    width: auto; }
+.title {
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 62px;
+  margin-bottom: 15px;
+  line-height: 55.5px;
+}
   
-  .title {
-    font-family: 'Mouse Memoirs', sans-serif;
-    font-size: 62px;
-    margin-bottom: 15px;
-    line-height: 55.5px;
-  }
+.title-center {
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 62px;
+  margin-bottom: 15px;
+  line-height: 55.5px;
+  text-align: center;
+}
   
-  .title-center {
-    font-family: 'Mouse Memoirs', sans-serif;
-    font-size: 62px;
-    margin-bottom: 15px;
-    line-height: 55.5px;
-    text-align: center;
-  }
-  
-  
-  .white {
+.white {
    color: fff;
-  }
+}
   
+.flex-layout-row {
+  display: flex;
+  flex-direction: row; }
   
-  .flex-layout-row {
-    display: flex;
-    flex-direction: row; }
-  
-  .flex-layout-row-reverse {
-    display: flex;
-    flex-direction: row-reverse; 
+.flex-layout-row-reverse {
+  display: flex;
+  flex-direction: row-reverse; 
+}
     
-  }
-    
-  
-  .textblock {
+.textblock {
     padding: 50px; }
   
-  .border-3px {
+.border-3px {
     border-color: black;
     border-width: 3px;
     border: solid; }
   
-  .bottom-border {
+.bottom-border {
     border-bottom-style: outset;
     border-bottom-color: black;
     border-bottom-width: 5px; }
   
-  .flex-layout-content-container {
+.flex-layout-content-container {
     display: flex; 
     width: 850px;
   }
   
-  .flex-container-button {
-    display: flex;
-    justify-content: space-between;
-    width: 60%;
-    margin-top: 40px;
-  }
+.flex-container-button {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: 40px;
+}
   
-  .heading1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 22px;
-    margin-bottom: 15px; }
+.heading1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  margin-bottom: 15px; }
   
-  Button {
-    padding: 10px;
-    border: #000 solid 3px .01;
-    white-space: nowrap;
-    margin: 5px;
-    font-weight: 800;
-    font-size: 1.2em;
-    background-color: transparent;
-    display: inline-block;
-    text-align: center; 
-  }
+Button {
+  padding: 10px;
+  border: #000 solid 3px .01;
+  white-space: nowrap;
+  margin: 5px;
+  font-weight: 800;
+  font-size: 1.2em;
+  background-color: transparent;
+  display: inline-block;
+  text-align: center; 
+}
   
   .button {
     border: #000 solid 3px;
