@@ -1,13 +1,16 @@
-@import '..//css/reset';
+@import 'App';
+@import 'react-overrides';
+@import '/css/reset.css';
+@import '/css/App.css';
+@import 'helper-classes';
 @import 'global';
-@import 'colors';
-@import 'helperClasses';
-@import '..//components/react-overrides';
-@import '..//components/shared';
-@import '..//components/why_wds';
-@import '..//components/clients';
-@import '..//components/methodolgy';
-@import '..//components/landingpage';
-@import '..//components/portfolio';
-@import '..//components/services';
-@import '..//css/flexbox-layout.css;
+@import 'shared';
+@import 'why_wds';
+@import 'practices';
+@import 'services';
+@import 'methodology';
+@import 'landingpage';
+@import 'design-solutions';
+@import 'about-us';
+
+ 

@@ -1,0 +1,220 @@
+@import 'colors';
+
+/*******************************
+           Shared
+  *******************************/
+
+
+  .header {
+    font-size: 1.5em;
+    background-color: #008000; }
+  
+  a {
+    color: black; }
+  
+  a:hover {
+    text-decoration: none; }
+  
+  .svg-image {
+    height: auto;
+    width: auto; }
+  
+  .title {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 62px;
+    margin-bottom: 15px;
+    line-height: 55.5px;
+  }
+  
+  .title-center {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 62px;
+    margin-bottom: 15px;
+    line-height: 55.5px;
+    text-align: center;
+  }
+  
+  
+  .white {
+   color: fff;
+  }
+  
+  
+  .flex-layout-row {
+    display: flex;
+    flex-direction: row; }
+  
+  .flex-layout-row-reverse {
+    display: flex;
+    flex-direction: row-reverse; 
+    
+  }
+    
+  
+  .textblock {
+    padding: 50px; }
+  
+  .border-3px {
+    border-color: black;
+    border-width: 3px;
+    border: solid; }
+  
+  .bottom-border {
+    border-bottom-style: outset;
+    border-bottom-color: black;
+    border-bottom-width: 5px; }
+  
+  .flex-layout-content-container {
+    display: flex; 
+    width: 850px;
+  }
+  
+  .flex-container-button {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 40px;
+  }
+  
+  .heading1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    margin-bottom: 15px; }
+  
+  Button {
+    padding: 10px;
+    border: #000 solid 3px .01;
+    white-space: nowrap;
+    margin: 5px;
+    font-weight: 800;
+    font-size: 1.2em;
+    background-color: transparent;
+    display: inline-block;
+    text-align: center; 
+  }
+  
+  .button {
+    border: #000 solid 3px;
+    white-space: nowrap;
+    margin: 5px;
+    font-weight: 800;
+    font-size: 1.2em;
+    background-color: grey;
+    display: inline-block;
+    text-align: center; 
+  }
+  
+  .mdl-button {
+    background: #000;
+    opacity: 0.4 !important;
+    border: 1px solid rgba(170, 50, 220, .6) !important; 
+    border-radius: 2px;
+    color: rgb(0,0,0);
+    position: relative;
+    height: 36px;
+    margin: 0;
+    min-width: 64px;
+    padding: 0 16px;
+    display: inline-block;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 0;
+    overflow: hidden;
+    will-change: box-shadow;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    line-height: 36px;
+    vertical-align: middle;
+  }
+  
+  Button:hover {
+    background-color: rgba(227, 206, 184, 0.5);
+  }
+  
+  /*  Alighnment   */
+  .align-items-center {
+    align-items: center; }
+  
+  .container-justifyRow-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+  
+  .flex-layout-right-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .flex-layout-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex-content-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 500px;
+    margin-left: 70px;
+  }
+  
+  .flex-image-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 420px;
+  }
+  
+  .flex-layout-start {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    height: 768px; }
+  
+  .container-image-block-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%; 
+  }
+  
+  .container-image-block {
+    display: flex;
+    width: 100%; }
+  /*  Layers and Sizes   */
+  .width-100 {
+    width: 100%; }
+  
+  .width-50 {
+    width: 50%; }
+  
+  .height-70 {
+    height: 70%; }
+  
+  .layer-bottom {
+    z-index: 1;
+    position: absolute; }
+  
+  .layer-top {
+    display: flex;
+    z-index: 10;
+    position: absolute;
+    flex-direction: row;
+    align-items: center; }
+  
+  .width-70 {
+    width: 70%; }
+  
+  .floatleft {
+    float: left; }
