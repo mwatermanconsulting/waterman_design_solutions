@@ -266,6 +266,10 @@ footer {
   justify-content: center;
   align-items: center; }
 
+.flex-layout-column-reverse {
+  display: flex;
+  flex-direction: column-reverse; }
+
 .flex-sh-500 {
   flex: 0 1 624px; }
 
@@ -427,6 +431,9 @@ footer {
 
 .margin-bottom-50 {
   margin-bottom: 50px; }
+
+.margin-bottom-100 {
+  margin-bottom: 100px; }
 
 .margin-top-25 {
   margin-top: 25px; }
