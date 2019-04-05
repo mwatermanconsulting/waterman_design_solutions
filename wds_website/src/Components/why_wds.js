@@ -15,7 +15,7 @@ class why_wds extends Component {
                 <div className="flex-layout-section flex-layout-justified-sb">
                     <div className="image-background-border-tb flex-layout-center-center">
                         <div className="flex-image-container flex-layout-center-center">
-                            <img className="why-top-image" /> 
+                            <img className="flex-image-container" src={mysvg}  alt="girls picture" /> 
                                 </div>
                                 <div className="flex-content-container">
                                     <div className="content-header"> 

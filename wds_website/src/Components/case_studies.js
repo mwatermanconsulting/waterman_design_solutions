@@ -6,7 +6,7 @@ import racecar from '../images/racecar.png';
 import yogabeach from '../images/yogabeach.png'; 
 import mysvg from '../images/crowdgirls.svg';
 import ship from '../images/titanic.svg';
-import joy from '../images/jump-for-joy.gif';
+import computer from '../images/photo-computer.png';
 import firemen from '../images/firemen.svg';
 
 class case_studies extends Component {
@@ -35,7 +35,7 @@ class case_studies extends Component {
                                     <div className="flex-container-button margin-top-50">
                                         <Button className="button"><a href="./core_offerings" className="text-black" target="_blank">Core Offerings</a></Button> 
                                         <Button className="button"><a href="./aboutus" className="text-black" target="_blank">About US</a></Button>
-                                        <Button className="button"><a href="./case_studies" className="text-black" target="_blank">Case Studies</a></Button>
+                                        <Button className="button"><a href="./case_studies" className="text-black" target="_blank">Why WDS</a></Button>
                                         <Button className="button"><a href="./clients" className="text-black" target="_blank">Clients</a></Button>
                                     </div>
                                 </div>
@@ -44,54 +44,48 @@ class case_studies extends Component {
                          <div className="flex-layout-section-full align-items-center green">
                             <div className="flex-layout-content-container margin-top-25 flex-layout-center-center">
                                 <div className="content-header flex-layout-column">    
-                                    <h3 className="subtitle flex-layout-center">Established Methodology and Practices</h3>
+                                    <h3 className="subtitle flex-layout-center">Customer Success Spotlight</h3>
                                 <div className="content-block width-100">
-                                    <p className="content-text-18 text-align-center">With over 15 years perfecting our approach, we have the experience, teams, skills and scale to deliver sophisticated software solutions that improve any and all 
-                                        touchpoints across the user journey. <br/><br/>In todays market desgin is more critical to your business success, competition and user expectations have increased. 
-                                        Your only chance of survival is understanding both your users and competition.
-                                        </p>
-                                    </div>
-                            
-                                    <div className="content-header flex-layout-center-center">
-                                        <div className="title-center margin-top-100">Core Offerings</div>
-                                    </div>
-                                    </div>
+                                    <p className="content-text-18 text-align-center">Below is just a sample of the desgin solutions for busineeses. Better paragraph needed.
+                                    </p>
+                                </div>
                                 </div>
                             </div>
-                        <div className="flex-layout-column flex-layout-justified-sb">
-                            <div className="flex-layout-section-full green">     
-                                <div className="flex-layout-row flex-layout-center-center margin-top-50"> 
+                        </div>
+                        <div className="flex-layout-row flex-layout-justified-sb">
+                            <div className="flex-container-50 green">     
+                                <div className="flex-layout-center-center margin-top-50">
+                                    <div className="flex-layout-column flex-sh-500">
+                                            <div className="container-image-block">
+                                                <img className="image-container-content" src={computer}  alt="Blended Teams" /> 
+                                            </div>
+                                        </div> 
                                     <div className="content-header flex-layout-column flex-sh-500">
-                                        <h3 className="text-white">BLENDED TEAMS</h3>
+                                        <h3 className="text-white">Redesign of products User Interfaces increases sales and customer satisfaction</h3>
                                             <div className="content-block">
                                                     <p className="content-text-18 content-block-why">Our <a href="./core_offerings" target="_blank">multi-disciplined teams</a> teams work collaboratively to design software solutions based on user needs.  Designers, strategists, marketers and program 
                                                         managers work together to achieve success.  
                                                     </p>
                                             </div>
                                     </div>
-                                        <div className="flex-layout-column flex-sh-500">
-                                            <div className="container-image-block">
-                                                <img className="flex-image-container" src={yogabeach}  alt="Blended Teams" /> 
-                                            </div>
-                                        </div>
+                                       
                                     </div>
                                 </div>
-                            </div>
-                            <div className="flex-layout-column flex-layout-justified-sb">
-                                <div className="flex-layout-section-full green">     
-                                    <div className="flex-layout-row-reverse flex-layout-center-center margin-top-50"> 
+                            
+                                <div className="flex-container-50 green">     
+                                    <div className="flex-layout-center-center margin-top-50">
+                                    <div className="flex-layout-column flex-sh-500">
+                                            <div className="container-image-block">
+                                                <img className="flex-image-container" src={ship}  alt="Blended Teams" /> 
+                                            </div> 
                                         <div className="content-header flex-layout-column flex-sh-500">
                                             <h3 className="text-white">Experience</h3>
                                                 <div className="content-block">
                                                     <p className="content-text-18 content-block-why">We’ve been building great experiences with world-leading brands for over 15 years. Our designs have helped business grow and understand their users. 
                                                             All our <a href="./clients" target="_blank">clients</a> have full confidence that WDS can deliver the right results.
                                                     </p>
-                                            </div>
-                                    </div>
-                                        <div className="flex-layout-column flex-sh-500">
-                                            <div className="container-image-block">
-                                                <img className="flex-image-container" src={ship}  alt="Blended Teams" /> 
-                                            </div>
+                                                </div>
+                                        </div>
                                         </div>
                                     </div>
                                 </div>
@@ -188,7 +182,7 @@ class case_studies extends Component {
                                         </div>
                                     <div className="flex-layout-column">
                                         <div className="container-image-block">
-                                            <img className="flex-image-container" src={joy}  alt="Your Business is Our Joy" /> 
+                                            <img className="flex-image-container" src={computer}  alt="Your Business is Our Joy" /> 
                                         </div>
                                     </div>
                                 </div>
