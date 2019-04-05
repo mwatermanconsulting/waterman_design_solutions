@@ -6,7 +6,7 @@ import racecar from '../images/racecar.png';
 import yogabeach from '../images/yogabeach.png'; 
 import mysvg from '../images/crowdgirls.svg';
 import ship from '../images/titanic.svg';
-import computer from '../images/photo-computer';
+import computer from '../images/photo-computer.png';
 import firemen from '../images/firemen.svg';
 
 class case_studies extends Component {
@@ -57,7 +57,7 @@ class case_studies extends Component {
                                 <div className="flex-layout-center-center margin-top-50">
                                     <div className="flex-layout-column flex-sh-500">
                                             <div className="container-image-block">
-                                                <img className="flex-image-container" src={computer}  alt="Blended Teams" /> 
+                                                <img className="image-container-content" src={computer}  alt="Blended Teams" /> 
                                             </div>
                                         </div> 
                                     <div className="content-header flex-layout-column flex-sh-500">
