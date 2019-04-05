@@ -27,6 +27,12 @@
   align-items: center;
 }
 
+.why-top-image {
+  background-image: url(/wds_website/src/images/crowdgirls.svg), url(/wds_website/src/images/spotlight.svg);
+  background-position: center bottom, left top;
+  background-repeat: no-repeat;
+}
+
 .flex-item:nth-child(1) {
   order: 0;
   flex: 0 2 auto;

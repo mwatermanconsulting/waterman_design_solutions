@@ -1,217 +1,237 @@
 import React, { Component } from 'react' ;
 import backgroundAboutus from '../images/background-aboutus.png';
-import mike from '../images/mike-cartoon.png';
-import terri from '../images/terri-cartoon.png';
-import backgroundServices from '../images/couple.png';
+import { Button } from 'react-mdl';
+import tugofwar from '../images/tugofwar.png';
+import racecar from '../images/racecar.png';
+import yogabeach from '../images/yogabeach.png'; 
+import mysvg from '../images/crowdgirls.svg';
+import ship from '../images/titanic.svg';
+import joy from '../images/jump-for-joy.gif';
+import firemen from '../images/firemen.svg';
 
 class case_studies extends Component {
     render () {
         return(
-        <div className="flex-layout-column flex-layout-center-center margin-bottom-50"> 
-            <div className="flex-layout-section">
-                <div className="image-background-border-tb">
-                    <img className="img-size" src={backgroundServices}  alt="couple" /> 
-                        <div className="content-right-center">
-                            <div className="content-heade">
-                                <div className="title">Our Understanding is the key your success</div>
-                            </div>
-                                <div className="content-text">
-                                    <p>For over 20 years, we have worked with innovative Startups to the largest Fortune 500 brands. Our understanding and empathizing with the users, through our proven methodology 
-                                        has solved complex problems, that have lead to our success.</p>
-                                </div>
-                            </div>
+            <div className="flex-layout-column">
+                <div className="flex-layout-section flex-layout-justified-sb">
+                    <div className="image-background-border-tb flex-layout-center-center">
+                        <div className="flex-image-container flex-layout-center-center">
+                            <img className="flex-image-container" src={mysvg}  alt="girls picture" /> 
                         </div>
-                    </div>
-                     <div className="flex-layout-section ">
-                        <div className="flex-layout-column ">
-                            <div className="flex-layout-center-center margintop50">
-                                <div className="content-header flex-layout-center">
-                                    <div className="content-text flex-layout-center-center">
-                                        <p><b> Excellent customer experience (CX) skills is rewquired skill to empathize and understanding the users and businesses pain points. Provinding solutions that not only benefits
-                                              the user and the business. WDS doesn't strive for one off success, but works with businesses continued success even when the goal is reached. </b></p>
-                                    </div>
+                            <div className="flex-content-container">
+                                <div className="content-header"> 
+                                    <div className="title">Case Studies</div>
                                 </div>
-                            </div>
-                        
-                                <div className="flex-layout-center-center flex-layout-column">
                                 <div className="content-header">
-                                <div className="title-reverse text-center">Client Spotlight</div>
-                            </div>  
-                                    <div className="title-reverse margin-top-150">Product Software UI redesign solves return rate problem, 
-                                    through outstanding UX and thinking outside the box</div>
-
-                                    <div className="content-text width-half">
-                                        <p><b> One of the worlds most reconizable names turned to WDS to find solutions and to redesign their application in their top</b></p>
-                                    </div>
-                                
-                                    <div className="flex-layout-section-sb margin-top-100px">
-    
-                                  <div className="content-header ">  
-
-                                    <div className="title-reverse">User Experience Design</div>
-                                <div>
+                                    <div className="subtitle">Helping organizations succeed through experience-driven strategy</div>
                                 </div>
-                            </div>
-                                
-                                    <div className="title-reverse">Marketing & Analytics</div>
+                                <div className="content-block-why">
+                                    <p className="content-text-18">For over 15 years, we've worked with companies ranging from small business to start-ups to some of the 
+                                    biggest brands on the Fortune 500 - and everything in-between. Helping organizations succeed through experience-driven strategy, design is what we do at WDS. 
+                                    We want to be your partner in improving all key customer experience and business metrics for you and your organization.
+                                    <br/>
+                                     </p>
                                 </div>
-                                </div>
-                                </div>
-                                <div className="content-header flex-layout-center flex-layout-column margintop50">
-                                    <div className="title-reverse">Design</div>
-                                </div>
-                                <div className="flex-layout-center margin-bottom-50">
-                                    <ul>
-                                        <li>Branding</li>
-                                        <li>Heuristic UI Design</li>
-                                        <li>Website Design</li>
-                                        <li>Video Production</li> 
-                                    </ul>
-                                </div>
-                            </div>
-                    <div className="flex-layout-section">
-                        <div className="flex-layout-center-center">
-                            <div className="flex-layout-justified-sb flex-layout-center-center margintop50">     
-                                <div className="flex-layout-content-container">
-                                    <div className="flex-layout-row flex-layout-center-center">
-                                        <div className="flex-layout-center section-min-width">
-                                            <p>Image this side</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="flex-layout-row">
-                                    <div className="flex-layout-column-half ">
-                                        <h3 className="content-header"> Strategy & Insight </h3>
-                                            <p> An experience strategy provides the direction to design and build an experience that truly resonates with your audience.
-                                                Harnessing the power of observation-based insights and leveraging your users' wants, needs, aspirations and emotional connection points, we develop tailored solutions that go beyond best practices. 
-                                                We then take those solutions back to your users and get meaningful, individual feedback. This is the primary foundation that successfully supports your product or service.
-                                                Learn More
-                                            </p>
+                                    <div className="flex-container-button margin-top-50">
+                                        <Button className="button"><a href="./core_offerings" className="text-black" target="_blank">Core Offerings</a></Button> 
+                                        <Button className="button"><a href="./aboutus" className="text-black" target="_blank">About US</a></Button>
+                                        <Button className="button"><a href="./case_studies" className="text-black" target="_blank">Case Studies</a></Button>
+                                        <Button className="button"><a href="./clients" className="text-black" target="_blank">Clients</a></Button>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div className="flex-layout-section">
-                        <div className="flex-layout-center-center">
-                            <div className="flex-layout-column flex-layout-center-center margintop50">     
-                                <div className="flex-layout-content-container">
-                                    <div className="flex-layout-row flex-layout-center-center">
-                                        <div className="flex-layout-center section-min-width">
-                                            <p>Image at top</p>
-                                        </div>
+                        </div>  
+                         <div className="flex-layout-section-full align-items-center green">
+                            <div className="flex-layout-content-container margin-top-25 flex-layout-center-center">
+                                <div className="content-header flex-layout-column">    
+                                    <h3 className="subtitle flex-layout-center">Established Methodology and Practices</h3>
+                                <div className="content-block width-100">
+                                    <p className="content-text-18 text-align-center">With over 15 years perfecting our approach, we have the experience, teams, skills and scale to deliver sophisticated software solutions that improve any and all 
+                                        touchpoints across the user journey. <br/><br/>In todays market desgin is more critical to your business success, competition and user expectations have increased. 
+                                        Your only chance of survival is understanding both your users and competition.
+                                        </p>
                                     </div>
-                                </div>
-                                <div className="flex-layout-row flex-layout-center-center">
-                                    <div className="flex-layout-column-half ">
-                                        <h3 className="content-header text-center"> Company Hightlight Feature: Design Systems </h3>
-                                            <p> At WDS, we’ve helped launch a number of design systems. They provide several tangible benefits, such as enforcing visual and 
-                                                interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff. 
-
-                                                Learn more about design systems »
-
-                                                Learn More
-                                            </p>
+                            
+                                    <div className="content-header flex-layout-center-center">
+                                        <div className="title-center margin-top-100">Core Offerings</div>
+                                    </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div className="flex-layout-section">
-                        <div className="fle-layout-column flex-layout-center-center"> 
-                                <div className="flex-layout-content-container">
-                                    <div className="flex-layout-row flex-layout-center-center">
-                                        <div className="flex-layout-center section-min-width">
-                                            <p>Image this side</p>
-                                        </div>
+                        <div className="flex-layout-column flex-layout-justified-sb">
+                            <div className="flex-layout-section-full green">     
+                                <div className="flex-layout-row flex-layout-center-center margin-top-50"> 
+                                    <div className="content-header flex-layout-column flex-sh-500">
+                                        <h3 className="text-white">BLENDED TEAMS</h3>
+                                            <div className="content-block">
+                                                    <p className="content-text-18 content-block-why">Our <a href="./core_offerings" target="_blank">multi-disciplined teams</a> teams work collaboratively to design software solutions based on user needs.  Designers, strategists, marketers and program 
+                                                        managers work together to achieve success.  
+                                                    </p>
+                                            </div>
                                     </div>
-                                </div>
-                                <div className="flex-layout-row">
-                                    <div className="flex-layout-column-half ">
-                                        <h3 className="content-header"> Design</h3>
-                                            <p>  Content Needed <br/>
-
-                                                Learn More
-                                            </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="flex-layout-section">
-                            <div className="flex-layout-center-center">
-                                <div className="flex-layout-justified-sb flex-layout-center-center">     
-                                    <div className="flex-layout-content-container">
-                                        <div className="flex-layout-row flex-layout-center-center">
-                                            <div className="flex-layout-center section-min-width">
-                                                <p>Image this side</p>
+                                        <div className="flex-layout-column flex-sh-500">
+                                            <div className="container-image-block">
+                                                <img className="flex-image-container" src={yogabeach}  alt="Blended Teams" /> 
                                             </div>
                                         </div>
                                     </div>
-                                <div className="flex-layout-row">
-                                    <div className="flex-layout-column-half ">
-                                        <h3 className="content-header"> Marketing, Analytics & Telemetry</h3>
-                                            <p> The WDS Digital Marketing team researches, ideates, implements and optimizes sophisticated web marketing solutions tailored to the specific goals 
-                                                and objectives of each of our clients.
-
-                                                What sets us apart is a genuine understanding of your users. Combining proven digital marketing strategies and user observations, we create and run organized digital marketing 
-                                                campaigns that deliver. Our team cuts through the clutter to create and measure impactful strategies. We ensure your digital marketing campaigns align with your business objectives, 
-                                                and leverage opportunities for innovation and differentiation.
-                                            </p>
-                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div className="flex-layout-section-full">
-                        <div className="flex-layout-column"> 
-                            <div className="flex-layout-center-center margintop50"> 
-                                <div className="content-header flex-layout-center">
-                                    <div className="content-text width-half">
-                                        <h1>In todays market desgin is more critical to your business success, competition and user expectations have increased. 
-                                                Your only chance of survival is understanding both your users and competition.</h1>
+                            <div className="flex-layout-column flex-layout-justified-sb">
+                                <div className="flex-layout-section-full green">     
+                                    <div className="flex-layout-row-reverse flex-layout-center-center margin-top-50"> 
+                                        <div className="content-header flex-layout-column flex-sh-500">
+                                            <h3 className="text-white">Experience</h3>
+                                                <div className="content-block">
+                                                    <p className="content-text-18 content-block-why">We’ve been building great experiences with world-leading brands for over 15 years. Our designs have helped business grow and understand their users. 
+                                                            All our <a href="./clients" target="_blank">clients</a> have full confidence that WDS can deliver the right results.
+                                                    </p>
+                                            </div>
+                                    </div>
+                                        <div className="flex-layout-column flex-sh-500">
+                                            <div className="container-image-block">
+                                                <img className="flex-image-container" src={ship}  alt="Blended Teams" /> 
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div className="content-header flex-layout-center flex-layout-column">
-                                    <div className="title-reverse margintop50">Successful Projects Across</div><br/>
-                                </div>
-                                    <div className="flex-layout-center">
-                                        <ul>
-                                            <li>Digital Transformation</li>
-                                            <li>Retail Products </li>
-                                            <li>Mobile Responsive Design</li>
-                                            <li>Digital Data </li> 
-                                            <li>Mobile Solutions</li> 
-                                            <li>Product UI</li>
-                                            <li>Analytics Dashboards</li>
-                                        </ul>
+                             </div>
+                             <div className="flex-layout-column flex-layout-justified-sb">
+                                <div className="flex-layout-section-full green">     
+                                    <div className="flex-layout-row flex-layout-center-center margin-top-50"> 
+                                        <div className="content-header flex-layout-column flex-sh-500">
+                                            <h3 className="text-white">Trend Setters</h3>
+                                                <div className="content-block">
+                                                    <p className="content-text-18 content-block-why">For the last 15 years WDS has been a leading trend setter for the industry. Our <a href="./design_solutions" target="_blank">design solutions</a> have been 
+                                                    copied and used across many verticals. 
+                                                    </p>
+                                            </div>
                                     </div>
-                                <div className="content-header flex-layout-center flex-layout-column margintop50">
-                                    <div className="title-reverse">Verticals and Industries</div>
+                                        <div className="flex-layout-column flex-sh-500">
+                                            <div className="container-image-block">
+                                                <img className="flex-image-container" src={ship}  alt="Blended Teams" /> 
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div className="flex-layout-center">
-                                    <ul>
-                                        <li>Health Care</li>
-                                        <li>Consumer</li>
-                                        <li>Retail</li>
-                                        <li>Startups</li> 
-                                        <li>Industrial</li> 
-                                        <li>Data Vizualization</li>
-                                        <li>Energy</li>
-                                        <li>ecommerce</li>
-                                        <li>Food and Beverage</li> 
-                                        <li>Travel</li>
-                                        <li>Arts and Entertainment</li>
-                                        <li>Oil & Gas</li>
-                                    </ul>
+                             </div>
+                             <div className="flex-layout-column flex-layout-justified-sb">
+                                <div className="flex-layout-section-full green">     
+                                    <div className="flex-layout-row-reverse flex-layout-center-center margin-top-50"> 
+                                        <div className="content-header flex-layout-column flex-sh-500">
+                                            <h3 className="text-white">Focus</h3>
+                                                <div className="content-block">
+                                                    <p className="content-text-18 content-block-why">We’ve been building great experiences with world-leading brands for over 15 years. Our designs have helped business grow and understand their users. 
+                                                            All our clients have full confidence that WDS can deliver the right results.
+                                                    </p>
+                                            </div>
+                                    </div>
+                                        <div className="flex-layout-column flex-sh-500">
+                                            <div className="container-image-block">
+                                                <img className="flex-image-container" src={ship}  alt="Blended Teams" /> 
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-        
-        )
-    }
-}
-
+                             </div>
+                             <div className="flex-layout-column flex-layout-justified-sb">
+                                <div className="flex-layout-section-full green">     
+                                    <div className="flex-layout-row flex-layout-center-center margin-top-50"> 
+                                        <div className="content-header flex-layout-column flex-sh-500">
+                                            <h3 className="text-white">Removing Risk</h3>
+                                                <div className="content-block">
+                                                    <p className="content-text-18 content-block-why">Risk exists in every project. 
+                                                    We help our clients mitigate risk, however, by fully researching and documenting not only the needs and desires of their customers, 
+                                                    but the reasons those needs are important. 
+                                                    </p>
+                                            </div>
+                                    </div>
+                                        <div className="flex-layout-column flex-sh-500">
+                                            <div className="container-image-block">
+                                                <img className="flex-image-container" src={ship}  alt="Blended Teams" /> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
+                             <div className="flex-layout-column flex-layout-justified-sb">
+                                <div className="flex-layout-section-full green">     
+                                    <div className="flex-layout-row-reverse flex-layout-center-center margin-top-50"> 
+                                        <div className="content-header flex-layout-column flex-sh-500">
+                                            <h3 className="text-white">Business Results</h3>
+                                                <div className="content-block">
+                                                    <p className="content-text-18 content-block-why">We’ve been building great experiences with world-leading brands for over 15 years. Our designs have helped business grow and understand their users. 
+                                                            All our clients have full confidence that WDS can deliver the right results.
+                                                    </p>
+                                            </div>
+                                    </div>
+                                        <div className="flex-layout-column flex-sh-500">
+                                            <div className="container-image-block">
+                                                <img className="flex-image-container" src={ship}  alt="Blended Teams" /> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
+                                <div className="flex-layout-center green padding-bottom-50 bottom-border">
+                                    <button type="button" className="margin-top-50">Check Out Our Success Stories</button>
+                                </div>
+                                <div className="flex-layout-row flex-layout-center-center"> 
+                                    <div className="content-header flex-layout-column flex-sh-500">
+                                        <h3 className="sub-title">Your Business and User Needs Are Our Whole Focus</h3>
+                                            <div className="content-block">
+                                                <p className="content-text-18"> WDS is the leader in understanding and empathizing with the user. Our proven process to the development of mobile, cloud, web and workplace software. 
+                                                    The company is actively redefining the user experience (UX) and changing the ways people interact with technology around the world. Our design solutions have been copied by the industry leaders and set standard 
+                                                    for the way modern businesses design software, WDS designs emotionally rich, resonant solutions that enable customers and end users to fully realize technology’s potential in today’s connected world.
+                                                <br/></p> 
+                                            </div>
+                                        </div>
+                                    <div className="flex-layout-column">
+                                        <div className="container-image-block">
+                                            <img className="flex-image-container" src={joy}  alt="Your Business is Our Joy" /> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="flex-container-small image-background-border-tb flex-layout-center-center"> 
+                                    <div className="flex-layout-row">
+                                        <div className="flex-layout-column flex-container-text-small flex-sh-400">
+                                            <div className="title-small">WE'LL GET THERE FASTER, TOGETHER AS A TEAM.</div>
+                                                <div className="layout-center-justified ">
+                                                    <p className="margin-top-10">Blending teams of strategists, designers and developers together will guarantee strong communication, collaboration and team success. 
+                                                        Combined with better understanding of the problem space and validated designs, we can focus on developing secure, modern, scalable software, faster than internal or offshore teams.
+                                                    </p>
+                                                </div>
+                                            </div> 
+                                            <div className="flex-layout-column flex-container-text-small flex-sh-400">
+                                                <div className="title-small">YOU'LL HIT CLOSE TO THE MARK THE FIRST TIME.</div>
+                                                    <div className="layout-center-justified ">
+                                                        <p className="margin-top-10">We're firm believers in agile and iterative deployments as experiments, but, with longer enterprise launches and even consumer software, 
+                                                            there's still valuable data to be collected even before that first MVP. Our insights and strategies will get you moving in the right direction, and possibly uncover rewarding new opportunities.
+                                                        </p>
+                                                </div>
+                                            </div> 
+                                            <div className="flex-layout-colum flex-container-text-small flex-sh-400">
+                                                <div className="title-small">YOUR USERS AND CUSTOMERS WILL LOVE IT.</div>
+                                                    <div className="layout-center-justified ">
+                                                        <p className="margin-top-10">In workplace and enterprise solutions, users know when someone understands their needs, making them feel like experts. 
+                                                            They know when there's attention to design details. They know when it's intuitive and visually pleasing - and they love it. 
+                                                            With consumers, if you miss the mark, you'll fail fast, and not in a good way.
+                                                        </p>
+                                                    </div>
+                                            </div> 
+                                            <div className="flex-layout-column flex-container-text-small flex-sh-400">
+                                                <div className="title-small">READY TO IMPROVE YOUR BUSINESS METRICS? WE ARE.</div>
+                                                    <div className="layout-center-justified">
+                                                        <p className="margin-top-10">We're not only here to build and launch great technology solutions, but to help you and your team improve your business in tangible ways. 
+                                                         We've helped increase conversion by 200%, reduced operations time by 15%, and increased channel utilization by 75%. It all leads to millions in revenue and cost savings.
+                                                        </p> 
+                                                    </div> 
+                                            </div> 
+                                        </div>
+                                    
+                                </div>
+                            </div>                                   
+                            )
+                        }
+                    }
 export default case_studies;
