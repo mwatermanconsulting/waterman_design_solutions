@@ -31,6 +31,16 @@
   background-image: url(/wds_website/src/images/crowdgirls.svg), url(/wds_website/src/images/spotlight.svg);
   background-position: center bottom, left top;
   background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.image-container-content {
+    left: -42.0484px;
+    top: 0px;
+    width: 544.097px;
+    height: 306px;
+    position: absolute;
 }
 
 .flex-item:nth-child(1) {
