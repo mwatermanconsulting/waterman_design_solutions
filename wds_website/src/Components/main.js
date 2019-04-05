@@ -4,6 +4,10 @@ import home from './home';
 import about from './history';
 import branding from './branding';
 import case_studies from './case_studies';
+import case_study_1 from './case_study_1';
+import case_study_2 from './case_study_2';
+import case_study_3 from './case_study_3';
+import case_study_4 from './case_study_4';
 import clients from './clients';
 import communication_insights from './communication_insights';
 import contact from './contact';
@@ -36,6 +40,10 @@ const Main = () => (
     <Route exact path="/about" component={about} /> 
     <Route exact path="/branding" component={branding} />
     <Route exact path="/case_studies" component={case_studies} />
+    <Route exact path="/case_study_1" component={case_study_1} />
+    <Route exact path="/case_study_2" component={case_study_2} />
+    <Route exact path="/case_study_3" component={case_study_3} />
+    <Route exact path="/case_study_4" component={case_study_4} />
     <Route exact path="/clients" component={clients} />
     <Route exact path="/communication_insights" component={communication_insights} />
     <Route exact path="/contact" component={contact} /> 
