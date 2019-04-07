@@ -19,7 +19,7 @@ class why_wds extends Component {
                                 </div>
                                 <div className="flex-content-container">
                                     <div className="content-header"> 
-                                        <div className="title">Case Study 1?</div>
+                                        <div className="title">Motorola</div>
                                     </div>
                                     <div className="content-header">
                                         <div className="subtitle">Need a Good powerful sentence here</div>
