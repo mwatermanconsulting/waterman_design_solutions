@@ -18,7 +18,7 @@ class case_studies extends Component {
                         <div className="flex-image-container flex-layout-center-center">
                             <img className="flex-image-container" src={mysvg}  alt="girls picture" /> 
                         </div>
-                            <div className="flex-content-container">
+                            <div className="flex-content-container-split">
                                 <div className="content-header"> 
                                     <div className="title">Case Studies</div>
                                 </div>
@@ -46,7 +46,7 @@ class case_studies extends Component {
                                 <div className="content-header flex-layout-column">    
                                     <h2 className="title flex-layout-center">Customer Success Spotlight</h2>
                                 <div className="content-block width-100">
-                                    <p className="content-text-18 text-align-center">Below is just a sample of the desgin solutions for busineeses. Better paragraph needed.
+                                    <p className="content-text-18 text-align-center">Spotlight on design solutions for some of our favorite clients. 
                                     </p>
                                 </div>
                                 </div>
@@ -58,12 +58,16 @@ class case_studies extends Component {
                                     <div className="container-image-block">
                                         <img className="image-container-content" src={computer}  alt="Blended Teams" /> 
                                     </div> 
+                                        <h3 className="text-white">Motorola <br/> Gateway Router Product Line</h3>
+                                        <div className="content-block">
+                                            <p className="content-text-18 content-block-why">The home division of Motorola was set to implement ground breaking 
+                                            technology for their gateway router product line. Until the decision was made to delay the effort until the problems related to the line were solved.   <br/><br/>
+=======
                                         <h4 className="text-white">Motorola turns to WDS to provide solutions to their UI problems </h4>
                                         <div className="content-block">
                                             <p className="content-text-18 content-block-why">After two failed attempts, an iconic brand, Morotola turns to WDS to find anwsers to their high return rate on
-                                             the Broad Band Modems productline. <br/><br/>
-
-                                             <a href="./case_study_1" className="text-black" target="_blank">Ream More....</a>   
+        
+                                             <a href="./case_study_1" className="text-black" target="_blank">Read More....</a>   
                                             </p>
                                         </div>
                                     </div>
@@ -76,7 +80,7 @@ class case_studies extends Component {
                                             <p className="content-text-18 content-block-why">Finding traction on a new application is tough challenge. 
                                             WDS implemented our methodology for Stubhub to deliver a design solution that was beyound their expectations.  <br/><br/>
                                             
-                                                <a href="./case_study_2" className="text-black" target="_blank">Ream More....</a> 
+                                                <a href="./case_study_2" className="text-black" target="_blank">Read More....</a> 
                                             </p>
                                     </div>
                                 </div>    

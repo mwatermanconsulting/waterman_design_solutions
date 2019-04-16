@@ -17,7 +17,7 @@ class why_wds extends Component {
                         <div className="flex-image-container flex-layout-center-center">
                             <img className="flex-image-container" src={mysvg}  alt="girls picture" /> 
                                 </div>
-                                <div className="flex-content-container">
+                                <div className="flex-content-container-split">
                                     <div className="content-header"> 
                                         <div className="title">Why WDS?</div>
                                     </div>

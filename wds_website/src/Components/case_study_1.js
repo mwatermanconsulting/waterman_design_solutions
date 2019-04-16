@@ -12,10 +12,20 @@ class why_wds extends Component {
     render () {
         return(
             <div className="flex-layout-column">
-                <div className="flex-layout-section flex-layout-justified-sb">
+                <div className="flex-layout-section">
                     <div className="image-background-border-tb flex-layout-center-center">
                         <div className="flex-image-container flex-layout-center-center">
                             <img className="flex-image-container" src={mysvg}  alt="girls picture" /> 
+                        </div>
+                    </div> 
+                </div>
+                <div className="flex-layout-section margin-top-50">
+                    <div className="flex-content-container flex-layout-center-center">
+                        <div className="content-header flex-layout-center-center"> 
+                            <div className="title">Motorola</div>
+                        </div>
+                            <div className="content-header flex-layout-center-center">
+                                <div className="subtitle">Need a Good powerful sentence here</div>
                                 </div>
                                 <div className="flex-content-container">
                                     <div className="content-header"> 
@@ -37,24 +47,39 @@ class why_wds extends Component {
                                     </div>
                                 </div>
                             </div>
-                        </div>  
-                         <div className="flex-layout-section-full align-items-center green">
-                            <div className="flex-layout-content-container margin-top-25 flex-layout-center-center">
-                                <div className="content-header flex-layout-column">    
-                                    <h3 className="subtitle flex-layout-center">Established Methodology and Practices</h3>
-                                <div className="content-block width-100">
-                                    <p className="content-text-18 text-align-center">With over 15 years perfecting our approach, we have the experience, teams, skills and scale to deliver sophisticated software solutions that improve any and all 
-                                        touchpoints across the user journey. <br/><br/>In todays market desgin is more critical to your business success, competition and user expectations have increased. 
-                                        Your only chance of survival is understanding both your users and competition.
-                                        </p>
-                                    </div>
-                            
-                                    <div className="content-header flex-layout-center-center">
-                                        <div className="title-center margin-top-100">Core Offerings</div>
-                                    </div>
-                                    </div>
+                        <div className="content-block-why">
+                            <p className="content-text-18">Motorola decided to hire vendors/consultants to solve these problems. After two failed attempts by UX/UI developers, a 
+                            frustrated management group decided they needed a designer. After an initial consultation, WDS was hired to figure out what went wrong and come to a solution. 
+                            <br/>During the research phase, the objective is to use the methodology to find problems, document, research and being to develop an action plan.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div className="flex-layout-section-full align-items-center green">
+                        <div className="flex-layout-content-container margin-top-25 flex-layout-center-center">
+                            <div className="content-header flex-layout-column">    
+                                <h3 className="subtitle flex-layout-center">Developing the Hypothesis - Finding the Truth!</h3>
+                            <div className="content-block width-100">
+                                <p className="content-text-18 text-align-center">Every consultation engagement presents its challenges Understanding the user and the business is essential. 
+                                For Motorola we started by doing a creative design critique on current modem UI. Next is focusing on the businesses competitors. The main goal of competitors research 
+                                is to find out if and how they solved the same problems and issues. What were their design solutions.  <br/><br/>
+
+                                During the research phase, the objective is to use WDS flexible methodology to find problems, document, research and being to develop an action plan.
+                                </p>
+                            </div>
+                            <div className="content-header flex-layout-center-center margin-top-25">
+                                <div className="title-center">Research Plan </div>
+                            </div>
+                                    <ul>
+                                        <li>Current UI interface design critique</li>
+                                        <li>Competitive analysis</li>
+                                        <li>Business analysis</li>
+                                        <li>Find out shareholders expectations and job functions</li>
+                                        <li>Gather Requirements</li>
+                                        <li>Gather Style Guides and Marketing materials</li>
+                                    </ul>
                                 </div>
                             </div>
+                        </div>
                         <div className="flex-layout-column flex-layout-justified-sb">
                             <div className="flex-layout-section-full green">     
                                 <div className="flex-layout-row flex-layout-center-center margin-top-50"> 
