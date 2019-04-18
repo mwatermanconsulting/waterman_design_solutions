@@ -135,12 +135,16 @@ footer {
 .mdl-layout__header-row .mdl-navigation__link {
   color: black !important; }
 
+.mdl-layout__header-row {
+  height: 100% !important; }
+
 footer {
   background-color: #daa09a !important;
   color: black !important; }
 
 .header {
-  background: #fff !important; }
+  background: #fff !important;
+  height: 76px !important; }
 
 .lightgreen {
   background-color: #BDCCD4; }
@@ -348,13 +352,14 @@ footer {
 
 .flex-content-container {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  flex: 1 1 500px;
+  margin-left: 70px; }
 
 .flex-content-container-split {
   display: flex;
   flex-direction: column;
-  flex: 1 1 500px;
-  margin-left: 70px; }
+  flex: 1 1 500px; }
 
 .flex-image-container {
   display: flex;

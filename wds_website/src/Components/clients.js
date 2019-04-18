@@ -1,51 +1,52 @@
 import React, { Component } from 'react' ;
 import backgroundServices from '../images/couple.png';
-import backgroundClients from '../images/clients-pic.png';
+import clientsMain from '../images/clients-marktwain.png';
 import pi from '../images/pi.png';
 import terri from '../images/terri.png';
 
 class clients extends Component {
     render () {
         return(
-            <div className="flex-layout-column margin-bottom-50"> 
-            <div className="flex-layout-section">
-                <div className="image-background-border-tb">
-                    <img className="img-size" src={backgroundServices}  alt="couple" /> 
-                        <div className="content-right-center">
-                            <div className="content-header">
-                                <div className="title">Clients</div>
-                            </div>
-                                <div className="content-text">
-                                    <p>WDS is an end-to-end, experience-driven company that helps organizations navigate complex digital transformations. Our team provides the clarity to better understand 
-                                    the needs of your customers and users, and reveal the disconnects in your current customer experience. 
-                                    By doing so, we help prioritize and deliver comprehensive experience enhancements to help you exceed your key customer experience and targeted business goals. 
-                                    We work across verticals and technologies - consumer, workplace, financial, health care, customer service, mobile development, ecommerce and more - to design software interfaces that makes sense. </p>
+            <div className="flex-layout-column margin-bottom-50">
+            <div className="flex-layout-section flex-layout-justified-sb">
+                    <div className="image-background-border-tb flex-layout-center-center">
+                        <div className="flex-image-container flex-layout-center-center">
+                            <img className="flex-image-container" src={clientsMain}  alt="girls picture" /> 
+                                </div>
+                                <div className="flex-content-container-split">
+                                    <div className="content-header"> 
+                                        <div className="title">Clients</div>
+                                    </div>
+                                    <div className="content-header">
+                                        <div className="subtitle">We work with some of the world's reconizable names to solve difficult problems with simple and elegant design solutions</div>
+                                    </div>
+                                    <div className="content-block-why">
+                                        <p className="content-text-18"><p>We work with some of the world's reconizable names to solve difficult problems with simple and elegant design solutions</p>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                        </div>  
                      <div className="flex-layout-section-full">
                         <div className="flex-layout-column"> 
                             <div className="flex-layout-center-center margintop50"> 
                                 <div className="content-header flex-layout-center">
                                     <div className="content-text width-half">
-                                        <p><b> In todays market desgin is more critical to your business success, competition and user expectations have increased. 
-                                                Your only chance of survival is understanding both your users and competition.</b></p>
+                                        <p><b> Our client roster includes Motorola, Pfizer, Stubhub, SmithKline, OsiSoft and many more</b></p>
                                     </div>
                                 </div>
                                 <div className="content-header flex-layout-center flex-layout-column">
-                                    <div className="title-reverse margintop50">Services Include</div><br/>
-                                    <div className="title-reverse margintop50">STRATEGY & INSIGHT</div>
+                                    <div className="title-reverse margintop50">Additional Clients</div>
                                 </div>
                                     <div className="flex-layout-center">
                                         <ul>
-                                            <li>Digital Transformation</li>
-                                            <li>Journey Maps</li>
-                                            <li>Contextual Inquiry</li>
-                                            <li>Affinity Diagramming</li> 
-                                            <li>Personas</li> 
-                                            <li>Consolidated Workflow Diagrams</li>
-                                            <li>Design Thinking Mentoring</li>
+                                            <li>Need Full List</li>
+                                            <li>Name of the mortage company</li>
+                                            <li>Name of HR company</li>
+                                            <li>travel company</li> 
+                                            <li>consultants</li> 
+                                            <li>no photographers sites</li>
+                                            <li>Norwood </li>
                                             <li>Communication Workshops</li>
                                             <li>Engagement Plans</li>
                                             <li>CSS Methodology, Organization, best practices and mentoring</li>

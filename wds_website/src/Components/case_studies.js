@@ -1,9 +1,7 @@
 import React, { Component } from 'react' ;
 import backgroundAboutus from '../images/background-aboutus.png';
 import { Button } from 'react-mdl';
-import tugofwar from '../images/tugofwar.png';
-import racecar from '../images/racecar.png';
-import yogabeach from '../images/yogabeach.png'; 
+import caseStudies from '../images/casestudies.png';
 import mysvg from '../images/crowdgirls.svg';
 import ship from '../images/titanic.svg';
 import computer from '../images/photo-computer.png';
@@ -14,9 +12,9 @@ class case_studies extends Component {
         return(
             <div className="flex-layout-column">
                 <div className="flex-layout-section flex-layout-justified-sb">
-                    <div className="image-background-border-tb flex-layout-center-center">
+                    <div className="image-background-border-tb flex-layout-center-center green">
                         <div className="flex-image-container flex-layout-center-center">
-                            <img className="flex-image-container" src={mysvg}  alt="girls picture" /> 
+                            <img className="flex-image-container border-3px" src={caseStudies}  alt="case studies" /> 
                         </div>
                             <div className="flex-content-container-split">
                                 <div className="content-header"> 
@@ -26,9 +24,11 @@ class case_studies extends Component {
                                     <div className="subtitle">Helping organizations succeed through experience-driven strategy</div>
                                 </div>
                                 <div className="content-block-why">
-                                    <p className="content-text-18">For over 15 years, we've worked with companies ranging from small business to start-ups to some of the 
-                                    biggest brands on the Fortune 500 - and everything in-between. Helping organizations succeed through experience-driven strategy, design is what we do at WDS. 
-                                    We want to be your partner in improving all key customer experience and business metrics for you and your organization.
+                                    <p className="content-text-18">Over more than a decade, we have refined a repeatable, programmatic methodology that centers on answering questions about customers 
+                                    through direct observational fieldwork to identify people’s needs, behaviors and aspirations. This provides a perspective on customers that clients typically have never seen. 
+                                    The aim of this work is not more data; most companies are swimming in information. Instead, we create a strategy for the experience that the software will provide. 
+                                    It's a framework that allows developers, designers, marketers and architects to make decisions that support the intended customer experience. WDS integrated offering takes insights 
+                                    from the field and manifests them in developed software that engages customers and improves business results. 
                                     <br/>
                                      </p>
                                 </div>
@@ -58,7 +58,7 @@ class case_studies extends Component {
                                     <div className="container-image-block">
                                         <img className="image-container-content" src={computer}  alt="Blended Teams" /> 
                                     </div> 
-                                        <h3 className="text-white">Motorola <br/> Gateway Router Product Line</h3>
+                                        <h3 className="text-white">High Volume of returns plaguing Motorola <br/> Gateway Router Product Line</h3>
                                         <div className="content-block">
                                             <p className="content-text-18 content-block-why">The home division of Motorola was set to implement ground breaking 
                                             technology for their gateway router product line. Until the decision was made to delay the effort until the problems related to the line were solved.   <br/><br/>
