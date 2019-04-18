@@ -1,6 +1,7 @@
 import React, { Component } from 'react' ;
 import backgroundAboutus from '../images/background-aboutus.png';
 import mike from '../images/mike-cartoon.png';
+
 import terri from '../images/terri-cartoon.png';
 
 class aboutus extends Component {
@@ -28,7 +29,21 @@ class aboutus extends Component {
                                            
                                                 <img className="aboutuspic floatleft" src={mike} alt="mike"/>
                                            
-                                                <p> fjsi;fu fisu foi;srlf as;ilfj slfj slkfj slkfj slkfj salf ja;lskfj lskrg iurgkj dfvoirugselkrhgieru giier ger gordhg v;ekr hgerg rgh hoeirg ivoeirgjeurgh oeirgh oeirg heroih  </p>
+                                                <p> Michael's inate sense of understanding and emphathizing with customers whether in retail, products, or the internet made him a natural for a career in UX. 
+                                                    Add that with design and imaginative problem skills has lead for high success rate. Simplfying life for people is my passion. Enlightening businneses on its user is finding the truth. <br/><br/>
+                                                    
+                                                    Tell a story
+                                             </p>
+
+                                             <p>
+                                                 Begining - your experience, your Darma
+                                             </p>
+
+                                             <p>
+                                                 Middle - Accomplishments - Brag tell of my accomplishments. Talk about differences in business
+                                             </p>
+
+
                                             
                                         </div>
                             </div>

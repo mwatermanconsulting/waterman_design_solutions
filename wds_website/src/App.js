@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import './stylesheets/css/main.css';
+import './stylesheets/css/mui.css';
 import { Layout, Button, Header, Navigation, Drawer, Content } from 'react-mdl';
 import { Footer, FooterSection, FooterDropDownSection, FooterLinkList, } from 'react-mdl';
 import Main from './Components/main';
-import logo from './images/WDS-logo.svg'
+import logo from './images/wds-logo.svg'
 import { Link } from 'react-router-dom';
 
 
@@ -17,7 +18,7 @@ class App extends Component {
       <div className="flex-container100">
         <Layout>
             <Header className="header red" title={<Link style={{textDecoration: 'none',
-            color: 'black'}} to="/"><img src={logo} width="100" height="50" alt="bad hair cut" /></Link>} scroll>
+            color: 'black'}} to="/"><img src={logo} height="65px" alt="header" /></Link>} scroll>
                 <Navigation style={{ color: 'black'}}>
                     <Link to="/why_wds">Why WDS</Link>
                     <Link to="/practices">Practices</Link>

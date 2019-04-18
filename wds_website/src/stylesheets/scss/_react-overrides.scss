@@ -10,6 +10,9 @@
 .mdl-layout__header-row .mdl-navigation__link {
     color: black !important;
 }
+.mdl-layout__header-row {
+    height: 100% !important;
+}
 
 footer {
     background-color: #daa09a !important;
@@ -18,5 +21,6 @@ footer {
 
 .header {
   background: #fff !important;
+  height: 76px !important;
   
 }
