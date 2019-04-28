@@ -1,0 +1,21 @@
+@import 'colors';
+
+
+/*******************************
+         Mixins
+  *******************************/
+
+  @mixin overlay-color($overlay-class, $color) {
+    & > a .overlay-#{$overlay-class} {
+    position:absolute;
+    width:128px;
+    height:128px;
+    transition:background-color .3s ease-in-out;
+    background-color:rgba($color,.4);
+      &:hover {
+        background-color:rgba($color,0);
+        cursor:pointer;
+      }
+    }  
+  }
+  

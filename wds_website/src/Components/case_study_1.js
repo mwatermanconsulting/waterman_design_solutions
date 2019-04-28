@@ -24,9 +24,10 @@ class why_wds extends Component {
                         <div className="content-header flex-layout-center-center"> 
                             <div className="title">Motorola</div>
                         </div>
-                            <div className="content-header flex-layout-center-center">
-                                <div className="subtitle">Need a Good powerful sentence here</div>
-                            </div>
+                        <div class="overlay-container">
+                            <a href="#"><span class="overlay-blue"></span></a>
+                                <img alt="Image" src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg" />
+                                    </div>
                         <div className="content-block-why">
                             <p className="content-text-18">Motorola decided to hire vendors/consultants to solve these problems. After two failed attempts by UX/UI developers, a 
                             frustrated management group decided they needed a designer. After an initial consultation, WDS was hired to figure out what went wrong and come to a solution. 

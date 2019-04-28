@@ -11,33 +11,26 @@ class case_studies extends Component {
     render () {
         return(
             <div className="flex-layout-column">
-                <div className="flex-layout-section flex-layout-justified-sb">
-                    <div className="image-background-border-tb flex-layout-center-center green">
-                        <div className="flex-image-container flex-layout-center-center">
-                            <img className="flex-image-container border-3px" src={caseStudies}  alt="case studies" /> 
+                <div className="flex-layout-section-full flex-layout-justified-sb">
+                    <div className="image-background-border-tb flex-layout-center-center yellow">
+                        <div className="flex-image-container-child flex-layout-center-center">
+                            <img className="flex-image-container-child border-3px overlay-yellow" src={caseStudies}  alt="case studies" /> 
                         </div>
                             <div className="flex-content-container-split">
                                 <div className="content-header"> 
                                     <div className="title">Case Studies</div>
                                 </div>
                                 <div className="content-header">
-                                    <div className="subtitle">Helping organizations succeed through experience-driven strategy</div>
                                 </div>
                                 <div className="content-block-why">
-                                    <p className="content-text-18">Over more than a decade, we have refined a repeatable, programmatic methodology that centers on answering questions about customers 
+                                    <p className="content-text-18">For more than a decade, we have refined a repeatable, programmatic methodology that centers on answering questions about customers 
                                     through direct observational fieldwork to identify people’s needs, behaviors and aspirations. This provides a perspective on customers that clients typically have never seen. 
                                     The aim of this work is not more data; most companies are swimming in information. Instead, we create a strategy for the experience that the software will provide. 
                                     It's a framework that allows developers, designers, marketers and architects to make decisions that support the intended customer experience. WDS integrated offering takes insights 
-                                    from the field and manifests them in developed software that engages customers and improves business results. 
+                                    from the field and manifests in unique simple designs that engages customers and improves business results. 
                                     <br/>
                                      </p>
                                 </div>
-                                    <div className="flex-container-button margin-top-50">
-                                        <Button className="button"><a href="./core_offerings" className="text-black" target="_blank">Core Offerings</a></Button> 
-                                        <Button className="button"><a href="./aboutus" className="text-black" target="_blank">About US</a></Button>
-                                        <Button className="button"><a href="./case_studies" className="text-black" target="_blank">Why WDS</a></Button>
-                                        <Button className="button"><a href="./clients" className="text-black" target="_blank">Clients</a></Button>
-                                    </div>
                                 </div>
                             </div>
                         </div>  
