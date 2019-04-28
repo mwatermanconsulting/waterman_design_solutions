@@ -120,12 +120,12 @@ class why_wds extends Component {
                                 <br/></p> 
                             </div>
                         </div>
-                                    <div className="flex-layout-column">
-                                        <div className="container-image-block">
-                                            <img className="flex-image-container" src={joy}  alt="Your Business is Our Joy" /> 
-                                        </div>
-                                    </div>
-                                </div>
+                        <div className="flex-layout-column">
+                            <div className="container-image-block">
+                                <img className="flex-image-container" src={joy}  alt="Your Business is Our Joy" /> 
+                            </div>
+                        </div>
+                    </div>
                                 <div className="flex-container-small image-background-border-tb flex-layout-center-center"> 
                                     <div className="flex-layout-row">
                                         <div className="flex-layout-column flex-container-text-small flex-sh-400">

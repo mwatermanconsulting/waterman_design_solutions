@@ -1,7 +1,7 @@
 import React, { Component } from 'react' ;
 import backgroundServices from '../images/enchilada.png';
-import practice from '../images/practices-bg.png';
-import why from '../images/why-wds-bg.png';
+import practice from '../images/why-practices-bg.png';
+import joy from '../images/jump-for-joy.gif';
 import marketingpic from '../images/marketing-pic.png';
 import consultingpic from '../images/consulting-pic.png';
 
@@ -16,7 +16,7 @@ class practices extends Component {
             <div className="flex-layout-section-full">
                     <div className="image-background-border-tb">
                         <div className="flex-image-container flex-item-bottom">
-                            <img className="flex-image-container container" src={why}  alt="Why WDS background image" /> 
+                            <img className="flex-image-container container" src={practice}  alt="Why WDS background image" /> 
                          </div>
                     </div> 
                 </div>
@@ -37,9 +37,9 @@ class practices extends Component {
             
                
                 <div className="content-header">
-                            <h5 className="title-center margin-top-100">Services</h5>
+                            <h5 className="title-center margin-top-100" style={{ marginLeft: '30%' }}>Services</h5>
                         </div>
-                <div className="flex-layout-column flex-layout-justified-sb">
+                <div className="flex-layout-column flex-layout-justified-sb" style={{ width: '40%' }}>
                     <div className="flex-layout-row margin-top-50"> 
                         <div className="content-header flex-layout-column">
                             <h3 className="text">Services and Insights</h3>
@@ -69,125 +69,77 @@ class practices extends Component {
                                         <li>Wireframe Key Workflows</li>
                                         <li>Design Systems</li>
                                         <li>Style Guides</li>
+                                        <li>Pattern Libaries</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div> 
-                <div className="flex-layout-column flex-layout-justified-sb">
                     <div className="flex-layout-row margin-top-50"> 
-                        <div className="content-header flex-layout-column ">
-                            <h3 className="text">Marketing & Analytics</h3>
-                            <ul>
-                                <li>Marketing Strategy</li>
-                                <li>Content Science & Design</li>
-                                <li>Experience Data & Analytics</li>
-                                <li>Social & Influence Strategy</li>
-                                <li>Marketing Technology Design & Strategy</li>
-                                <li>Innovation as a Brand</li>
-                            </ul>
+                        <div className="content-header flex-layout-column">
+                            <h3 className="text">Marketing and Analytics</h3>
+                                <ul>
+                                    <li>Marketing Strategy</li>
+                                    <li>Content Science & Design</li>
+                                    <li>Experience Data & Analytics</li>
+                                    <li>Social & Influence Strategy</li>
+                                    <li>Marketing Technology Design & Strategy</li>
+                                    <li>Innovation as a Brand</li>       
+                                 </ul>  
                         </div>
-                        <div className="flex-layout-column">
-                            <div className="content-header flex-items-column-450">
+                        <div>
+                            <div className="content-header flex-layout-column">
                                 <h3>Design</h3>
-                                <div className="flex-layout-center margin-bottom-50">
+                                <div className="flex-layout-center">
                                     <ul>
-                                        <li>Branding</li>
-                                        <li>Heuristic UI Design</li>
-                                        <li>Website Design</li>
-                                        <li>Video Production</li> 
+                                        <li>User Interface Design</li>
+                                        <li>Visual Design</li>
+                                        <li>Design Metrics</li>
+                                        <li>Protyping</li> 
+                                        <li>Concept Validation</li> 
+                                        <li>Wireframe Key Workflows</li>
+                                        <li>Design Systems</li>
+                                        <li>Style Guides</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div> 
-                </div>
                 </div>
                      <div className="flex-layout-section-full">
                         <div className="flex-layout-column"> 
-                            <div className="flex-layout-center-center margintop50"> 
+                            <div className="flex-layout-center-center margin-top-150"> 
                                 <div className="content-header flex-layout-center">
-                                    <div className="content-text width-half">
-                                        <p><b> In todays market desgin is more critical to your business success, competition and user expectations have increased. 
-                                                Your only chance of survival is understanding both your users and competition.</b></p>
+                                    <div className="content-text" style={{ width: '40%' }}>
+                                        <h3><b> In todays market design is more critical to your business success, competition and user expectations have increased. 
+                                                Your only chance of survival is understanding both your users and competition.</b></h3>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    </div>
-                  
-                        <div className="flex-layout-section">
-                            <div className="flex-layout-center-center">
-                                <div className="flex-layout-justified-sb flex-layout-center-center">     
-                                    <div className="flex-layout-content-container">
-                                        <div className="flex-layout-row flex-layout-center-center">
-                                            <div className="flex-layout-center section-min-width">
-                                                <p>Image this side</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                <div className="flex-layout-row">
-                                    <div className="flex-layout-column-half ">
-                                        <h3 className="content-header"> Marketing, Analytics & Telemetry</h3>
-                                            <p> The WDS Digital Marketing team researches, ideates, implements and optimizes sophisticated web marketing solutions tailored to the specific goals 
+                    <div className="flex-layout-row flex-layout-center-center"> 
+                    <div className="content-header flex-layout-column flex-sh-500">
+                        <h3 className="sub-title">Marketing and Design Metrics</h3>
+                            <div className="content-block">
+                                <p className="content-text-18">  <p> The WDS Digital Marketing team researches, ideates, implements and optimizes sophisticated web marketing solutions tailored to the specific goals 
                                                 and objectives of each of our clients.
 
                                                 What sets us apart is a genuine understanding of your users. Combining proven digital marketing strategies and user observations, we create and run organized digital marketing 
                                                 campaigns that deliver. Our team cuts through the clutter to create and measure impactful strategies. We ensure your digital marketing campaigns align with your business objectives, 
                                                 and leverage opportunities for innovation and differentiation.
                                             </p>
-                                    </div>
-                                </div>
+                                <br/></p> 
                             </div>
                         </div>
-                    </div>
-                    <div className="flex-layout-section-full">
-                        <div className="flex-layout-column"> 
-                            <div className="flex-layout-center-center margintop50"> 
-                                <div className="content-header flex-layout-center">
-                                    <div className="content-text width-half">
-                                        <h1>In todays market desgin is more critical to your business success, competition and user expectations have increased. 
-                                                Your only chance of survival is understanding both your users and competition.</h1>
-                                    </div>
-                                </div>
-                                <div className="content-header flex-layout-center flex-layout-column">
-                                    <div className="title-reverse margintop50">Successful Projects Across</div><br/>
-                                </div>
-                                    <div className="flex-layout-center">
-                                        <ul>
-                                            <li>Digital Transformation</li>
-                                            <li>Retail Products </li>
-                                            <li>Mobile Responsive Design</li>
-                                            <li>Digital Data </li> 
-                                            <li>Mobile Solutions</li> 
-                                            <li>Product UI</li>
-                                            <li>Analytics Dashboards</li>
-                                        </ul>
-                                    </div>
-                                <div className="content-header flex-layout-center flex-layout-column margintop50">
-                                    <div className="title-reverse">Verticals and Industries</div>
-                                </div>
-                                <div className="flex-layout-center">
-                                    <ul>
-                                        <li>Health Care</li>
-                                        <li>Consumer</li>
-                                        <li>Retail</li>
-                                        <li>Startups</li> 
-                                        <li>Industrial</li> 
-                                        <li>Data Vizualization</li>
-                                        <li>Energy</li>
-                                        <li>ecommerce</li>
-                                        <li>Food and Beverage</li> 
-                                        <li>Travel</li>
-                                        <li>Arts and Entertainment</li>
-                                        <li>Oil & Gas</li>
-                                    </ul>
-                                </div>
+                        <div className="flex-layout-column">
+                            <div className="container-image-block">
+                                <img className="flex-image-container" src={joy}  alt="Your Business is Our Joy" /> 
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
         )
     }
 }
