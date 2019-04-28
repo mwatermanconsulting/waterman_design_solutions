@@ -47,7 +47,7 @@ class why_wds extends Component {
                                     </div>
                                 </div>
                             </div>
-                        <div className="content-block-why">
+                     <div className="content-block-why">
                             <p className="content-text-18">Motorola decided to hire vendors/consultants to solve these problems. After two failed attempts by UX/UI developers, a 
                             frustrated management group decided they needed a designer. After an initial consultation, WDS was hired to figure out what went wrong and come to a solution. 
                             <br/>During the research phase, the objective is to use the methodology to find problems, document, research and being to develop an action plan.</p>

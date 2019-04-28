@@ -1,7 +1,7 @@
 import React, { Component } from 'react' ;
 import backgroundServices from '../images/enchilada.png';
-import uxdesignrelief from '../images/uxdesignrelief.png';
-import uipic from '../images/ui-pic.png';
+import practice from '../images/practices-bg.png';
+import why from '../images/why-wds-bg.png';
 import marketingpic from '../images/marketing-pic.png';
 import consultingpic from '../images/consulting-pic.png';
 
@@ -13,52 +13,52 @@ class practices extends Component {
             
           
         <div className="flex-layout-column margin-bottom-50"> 
-            <div className="flex-layout-section">
-                <div className="image-background-border-tb">
-                    <img className="img-size" src={stayinyourlane}  alt="Practices" /> 
-                        <div className="content-right-center">
-                            <div className="content-header">
-                                <div className="title">Practices</div>
-                            </div>
-                                <div className="content-text">
-                                    <p>WDS is an end-to-end, experience-driven company that helps organizations navigate complex digital transformations. Our team provides the clarity to better understand 
-                                    the needs of your customers and users, and reveal the disconnects in your current customer experience. 
-                                    By doing so, we help prioritize and deliver comprehensive experience enhancements to help you exceed your key customer experience and targeted business goals. 
-                                    We work across verticals and technologies - consumer, workplace, financial, health care, customer service, mobile development, ecommerce and more - to design software interfaces that makes sense. </p>
-                                </div>
-                            </div>
+            <div className="flex-layout-section-full">
+                    <div className="image-background-border-tb">
+                        <div className="flex-image-container flex-item-bottom">
+                            <img className="flex-image-container container" src={why}  alt="Why WDS background image" /> 
+                         </div>
+                    </div> 
+                </div>
+                <div className="flex-layout-section-full flex-layout-column align-items-center">
+                    <div className="flex-layout-content-container flex-layout-column margin-top-25 flex-layout-center-center">
+                        <div className="content-header flex-layout-column">    
+                            <h3 className="subtitle flex-layout-center">WDS IS YOUR PARTNER FOR EXPERIENCE-DRIVEN TRANSFORMATION</h3>
+                        <div className="content-block width-100">
+                            <p>WDS is an end-to-end, experience-driven company that helps organizations navigate complex software transformations. Our team 
+                            brings clarity to better understand customers’ needs and to reveal disconnects in your current customer experience. In doing so, we deliver comprehensive experience 
+                            enhancements to help you exceed your customer experience and targeted business goals.</p>
+                            <p className="content-text-18">We work across verticals and technologies, such as consumer, workplace, financial, healthcare, customer service, mobile development, and ecommerce.</p>
                         </div>
+                        </div>
+                        
+
                     </div>
-                     <div className="flex-layout-section-full">
-                        <div className="flex-layout-column"> 
-                            <div className="flex-layout-center-center margintop50"> 
-                                <div className="content-header flex-layout-center">
-                                    <div className="content-text width-half">
-                                        <p><b> In todays market desgin is more critical to your business success, competition and user expectations have increased. 
-                                                Your only chance of survival is understanding both your users and competition.</b></p>
-                                    </div>
-                                </div>
-                                <div className="content-header flex-layout-center flex-layout-column">
-                                    <div className="title-reverse margintop50">Services Include</div><br/>
-                                    <div className="title-reverse margintop50">STRATEGY & INSIGHT</div>
-                                </div>
-                                    <div className="flex-layout-center">
-                                        <ul>
-                                            <li>Digital Transformation</li>
-                                            <li>Journey Maps</li>
-                                            <li>Contextual Inquiry</li>
-                                            <li>Affinity Diagramming</li> 
-                                            <li>Personas</li> 
-                                            <li>Consolidated Workflow Diagrams</li>
-                                            <li>Design Thinking Mentoring</li>
-                                            <li>Communication Workshops</li>
-                                            <li>Engagement Plans</li>
-                                            <li>CSS Methodology, Organization, best practices and mentoring</li>
-                                        </ul>
-                                    </div>
-                                <div className="content-header flex-layout-center flex-layout-column margintop50">
-                                    <div className="title-reverse">User Experience Design</div>
-                                </div>
+            
+               
+                <div className="content-header">
+                            <h5 className="title-center margin-top-100">Services</h5>
+                        </div>
+                <div className="flex-layout-column flex-layout-justified-sb">
+                    <div className="flex-layout-row margin-top-50"> 
+                        <div className="content-header flex-layout-column">
+                            <h3 className="text">Services and Insights</h3>
+                                <ul>
+                                   <li>Digital Transformation</li>
+                                    <li>Journey Maps</li>
+                                    <li>Contextual Inquiry</li>
+                                    <li>Affinity Diagramming</li> 
+                                    <li>Personas</li> 
+                                    <li>Consolidated Workflow Diagrams</li>
+                                    <li>Design Thinking Mentoring</li>
+                                    <li>Communication Workshops</li>
+                                    <li>Engagement Plans</li>
+                                     <li>CSS Methodology, Organization, best practices and mentoring</li>         
+                                 </ul>  
+                        </div>
+                        <div>
+                            <div className="content-header flex-layout-column">
+                                <h3>UX Design</h3>
                                 <div className="flex-layout-center">
                                     <ul>
                                         <li>Interaction Design</li>
@@ -71,23 +71,25 @@ class practices extends Component {
                                         <li>Style Guides</li>
                                     </ul>
                                 </div>
-                                <div className="content-header flex-layout-center flex-layout-column margintop50">
-                                    <div className="title-reverse">Marketing & Analytics</div>
-                                </div>
-                                <div className="flex-layout-center">
-                                    <ul>
-                                        <li>Marketing Strategy</li>
-                                        <li>Content Science & Design</li>
-                                        <li>Experience Data & Analytics</li>
-                                        <li>Social & Influence Strategy</li>
-                                        <li>Marketing Technology Design & Strategy</li>
-                                        <li>Innovation as a Brand</li>
-
-                                    </ul>
-                                </div>
-                                <div className="content-header flex-layout-center flex-layout-column margintop50">
-                                    <div className="title-reverse">Design</div>
-                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                <div className="flex-layout-column flex-layout-justified-sb">
+                    <div className="flex-layout-row margin-top-50"> 
+                        <div className="content-header flex-layout-column ">
+                            <h3 className="text">Marketing & Analytics</h3>
+                            <ul>
+                                <li>Marketing Strategy</li>
+                                <li>Content Science & Design</li>
+                                <li>Experience Data & Analytics</li>
+                                <li>Social & Influence Strategy</li>
+                                <li>Marketing Technology Design & Strategy</li>
+                                <li>Innovation as a Brand</li>
+                            </ul>
+                        </div>
+                        <div className="flex-layout-column">
+                            <div className="content-header flex-items-column-450">
+                                <h3>Design</h3>
                                 <div className="flex-layout-center margin-bottom-50">
                                     <ul>
                                         <li>Branding</li>
@@ -98,75 +100,23 @@ class practices extends Component {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="flex-layout-section">
-                        <div className="flex-layout-center-center">
-                            <div className="flex-layout-justified-sb flex-layout-center-center margintop50">     
-                                <div className="flex-layout-content-container">
-                                    <div className="flex-layout-row flex-layout-center-center">
-                                        <div className="flex-layout-center section-min-width">
-                                            <p>Image this side</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="flex-layout-row">
-                                    <div className="flex-layout-column-half ">
-                                        <h3 className="content-header"> Strategy & Insight </h3>
-                                            <p> An experience strategy provides the direction to design and build an experience that truly resonates with your audience.
-                                                Harnessing the power of observation-based insights and leveraging your users' wants, needs, aspirations and emotional connection points, we develop tailored solutions that go beyond best practices. 
-                                                We then take those solutions back to your users and get meaningful, individual feedback. This is the primary foundation that successfully supports your product or service.
-                                                Learn More
-                                            </p>
+                    </div> 
+                </div>
+                </div>
+                     <div className="flex-layout-section-full">
+                        <div className="flex-layout-column"> 
+                            <div className="flex-layout-center-center margintop50"> 
+                                <div className="content-header flex-layout-center">
+                                    <div className="content-text width-half">
+                                        <p><b> In todays market desgin is more critical to your business success, competition and user expectations have increased. 
+                                                Your only chance of survival is understanding both your users and competition.</b></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="flex-layout-section">
-                        <div className="flex-layout-center-center">
-                            <div className="flex-layout-column flex-layout-center-center margintop50">     
-                                <div className="flex-layout-content-container">
-                                    <div className="flex-layout-row flex-layout-center-center">
-                                        <div className="flex-layout-center section-min-width">
-                                            <p>Image at top</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="flex-layout-row flex-layout-center-center">
-                                    <div className="flex-layout-column-half ">
-                                        <h3 className="content-header text-center"> Company Hightlight Feature: Design Systems </h3>
-                                            <p> At WDS, we’ve helped launch a number of design systems. They provide several tangible benefits, such as enforcing visual and 
-                                                interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff. 
-
-                                                Learn more about design systems »
-
-                                                Learn More
-                                            </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
-                    <div className="flex-layout-section">
-                        <div className="fle-layout-column flex-layout-center-center"> 
-                                <div className="flex-layout-content-container">
-                                    <div className="flex-layout-row flex-layout-center-center">
-                                        <div className="flex-layout-center section-min-width">
-                                            <p>Image this side</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="flex-layout-row">
-                                    <div className="flex-layout-column-half ">
-                                        <h3 className="content-header"> Design</h3>
-                                            <p>  Content Needed <br/>
-
-                                                Learn More
-                                            </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                  
                         <div className="flex-layout-section">
                             <div className="flex-layout-center-center">
                                 <div className="flex-layout-justified-sb flex-layout-center-center">     

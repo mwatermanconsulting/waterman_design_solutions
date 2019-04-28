@@ -159,7 +159,7 @@ footer {
   background-color: #87A6AB; }
 
 .yellow {
-  background-color: #F4D195; }
+  background-color: #fbb424; }
 
 .blue {
   background-color: #aadfe7; }
@@ -192,6 +192,55 @@ footer {
 .offwhitedots {
   background-image: url(../../images/offwhitedots.png); }
 
+.lightgreen {
+  background-color: #BDCCD4; }
+
+.purple {
+  background-color: #78738A; }
+
+.lightpurple {
+  background-color: #b8a9c6; }
+
+.green {
+  background-color: #87A6AB; }
+
+.yellow {
+  background-color: #fbb424; }
+
+.blue {
+  background-color: #aadfe7; }
+
+.offwhite {
+  background-color: #E3CEB6; }
+
+.white {
+  background-color: #fff; }
+
+.red {
+  background-color: #DA6153 !important;
+  color: #DA6153; }
+
+.pink {
+  background-color: #daa09a; }
+
+.pinkdots {
+  background-image: url(../../images/pinkdots.png); }
+
+.purpledots {
+  background-image: url(../../images/purpledots.png); }
+
+.lightgreendots {
+  background-image: url(../../images/lightgreendots.png); }
+
+.bluedots {
+  background-image: url(../../images/bluedots.png); }
+
+.offwhitedots {
+  background-image: url(../../images/offwhitedots.png); }
+
+/*******************************
+         Mixins
+  *******************************/
 /*******************************
          Helper Classes
   *******************************/
@@ -247,13 +296,16 @@ footer {
 
 .flex-layout-section-row {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 605px; }
 
 .flex-layout-section-full {
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
+
+.flex-item-bottom {
+  align-self: flex-end; }
 
 .flex-container50 img {
   width: 200px;
@@ -363,8 +415,27 @@ footer {
 
 .flex-image-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: flex-start;
   flex: 1 1 420px; }
+
+.flex-image-container-child {
+  display: flex;
+  flex-direction: flex-start;
+  flex: 1 0 auto; }
+
+.flex-image-container-overlay {
+  display: flex;
+  flex-direction: flex-start;
+  flex: 1 1 420px; }
+  .flex-image-container-overlay > a .overlay-yellow {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    transition: background-color .3s ease-in-out;
+    background-color: rgba(251, 180, 36, 0.4); }
+    .flex-image-container-overlay > a .overlay-yellow:hover {
+      background-color: rgba(251, 180, 36, 0);
+      cursor: pointer; }
 
 .flex-layout-start {
   display: flex;
@@ -378,6 +449,21 @@ footer {
   flex-direction: row;
   justify-content: center;
   width: 100%; }
+
+.container .button .mdl-button .mdl-js-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center; }
 
 .container-image-block {
   display: flex;
@@ -435,6 +521,9 @@ footer {
 .marginleft50 {
   margin-left: 50px; }
 
+.marginleft50 {
+  margin-left: 50px; }
+
 .margin-top-50 {
   margin-top: 50px; }
 
@@ -472,6 +561,11 @@ footer {
 a {
   color: #DA6153; }
 
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  white-space: nowrap; }
+
 .lightgreen {
   background-color: #BDCCD4; }
 
@@ -485,7 +579,7 @@ a {
   background-color: #87A6AB; }
 
 .yellow {
-  background-color: #F4D195; }
+  background-color: #fbb424; }
 
 .blue {
   background-color: #aadfe7; }
@@ -581,7 +675,7 @@ p {
   background-color: #87A6AB; }
 
 .yellow {
-  background-color: #F4D195; }
+  background-color: #fbb424; }
 
 .blue {
   background-color: #aadfe7; }
@@ -759,11 +853,6 @@ Button:hover {
   justify-content: center;
   align-items: center; }
 
-.flex-image-container {
-  display: flex;
-  flex-direction: column;
-  flex: 1 1 420px; }
-
 .flex-layout-start {
   display: flex;
   flex-direction: row;
@@ -808,8 +897,103 @@ Button:hover {
 .floatleft {
   float: left; }
 
+.lightgreen {
+  background-color: #BDCCD4; }
+
+.purple {
+  background-color: #78738A; }
+
+.lightpurple {
+  background-color: #b8a9c6; }
+
+.green {
+  background-color: #87A6AB; }
+
+.yellow {
+  background-color: #fbb424; }
+
+.blue {
+  background-color: #aadfe7; }
+
+.offwhite {
+  background-color: #E3CEB6; }
+
+.white {
+  background-color: #fff; }
+
+.red {
+  background-color: #DA6153 !important;
+  color: #DA6153; }
+
+.pink {
+  background-color: #daa09a; }
+
+.pinkdots {
+  background-image: url(../../images/pinkdots.png); }
+
+.purpledots {
+  background-image: url(../../images/purpledots.png); }
+
+.lightgreendots {
+  background-image: url(../../images/lightgreendots.png); }
+
+.bluedots {
+  background-image: url(../../images/bluedots.png); }
+
+.offwhitedots {
+  background-image: url(../../images/offwhitedots.png); }
+
 /*******************************
-           Why npm run watch-css
+         Mixins
+  *******************************/
+.lightgreen {
+  background-color: #BDCCD4; }
+
+.purple {
+  background-color: #78738A; }
+
+.lightpurple {
+  background-color: #b8a9c6; }
+
+.green {
+  background-color: #87A6AB; }
+
+.yellow {
+  background-color: #fbb424; }
+
+.blue {
+  background-color: #aadfe7; }
+
+.offwhite {
+  background-color: #E3CEB6; }
+
+.white {
+  background-color: #fff; }
+
+.red {
+  background-color: #DA6153 !important;
+  color: #DA6153; }
+
+.pink {
+  background-color: #daa09a; }
+
+.pinkdots {
+  background-image: url(../../images/pinkdots.png); }
+
+.purpledots {
+  background-image: url(../../images/purpledots.png); }
+
+.lightgreendots {
+  background-image: url(../../images/lightgreendots.png); }
+
+.bluedots {
+  background-image: url(../../images/bluedots.png); }
+
+.offwhitedots {
+  background-image: url(../../images/offwhitedots.png); }
+
+/*******************************
+           Why 
   *******************************/
 .text {
   color: black; }
@@ -870,8 +1054,29 @@ Button:hover {
   width: 550px; }
 
 /*******************************
+           Case Studies
+  *******************************/
+.image-overlay-container {
+  text-align: center;
+  position: relative; }
+  .image-overlay-container > a .overlay-yellow {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    transition: background-color .3s ease-in-out;
+    background-color: rgba(251, 180, 36, 0.4); }
+    .image-overlay-container > a .overlay-yellow:hover {
+      background-color: rgba(251, 180, 36, 0);
+      cursor: pointer; }
+
+/*******************************
            Practices
   *******************************/
+.flex-items-column-450 {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 450px; }
+
 /*******************************
           Services
   *******************************/
@@ -915,7 +1120,7 @@ Button:hover {
   background-color: #87A6AB; }
 
 .yellow {
-  background-color: #F4D195; }
+  background-color: #fbb424; }
 
 .blue {
   background-color: #aadfe7; }
@@ -972,3 +1177,53 @@ Button:hover {
   height: 235px;
   min-width: 200px;
   max-height: 235px; }
+
+.lightgreen {
+  background-color: #BDCCD4; }
+
+.purple {
+  background-color: #78738A; }
+
+.lightpurple {
+  background-color: #b8a9c6; }
+
+.green {
+  background-color: #87A6AB; }
+
+.yellow {
+  background-color: #fbb424; }
+
+.blue {
+  background-color: #aadfe7; }
+
+.offwhite {
+  background-color: #E3CEB6; }
+
+.white {
+  background-color: #fff; }
+
+.red {
+  background-color: #DA6153 !important;
+  color: #DA6153; }
+
+.pink {
+  background-color: #daa09a; }
+
+.pinkdots {
+  background-image: url(../../images/pinkdots.png); }
+
+.purpledots {
+  background-image: url(../../images/purpledots.png); }
+
+.lightgreendots {
+  background-image: url(../../images/lightgreendots.png); }
+
+.bluedots {
+  background-image: url(../../images/bluedots.png); }
+
+.offwhitedots {
+  background-image: url(../../images/offwhitedots.png); }
+
+/*******************************
+         Mixins
+  *******************************/

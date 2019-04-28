@@ -1,7 +1,8 @@
-
+@import 'mixins';
+@import 'colors';
 
 /*******************************
-           Why npm run watch-css
+           Why 
   *******************************/
 
 .text {
@@ -73,3 +74,14 @@
 .content-block-why {
     width: 550px;
 }
+/*******************************
+           Case Studies
+  *******************************/
+
+  .image-overlay-container {
+    text-align: center;
+    position: relative;
+    @include overlay-color(yellow, $colorone);
+  }
+
+    
