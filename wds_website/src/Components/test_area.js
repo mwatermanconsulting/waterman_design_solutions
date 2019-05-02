@@ -8,7 +8,7 @@ import ship from '../images/titanic.svg';
 import joy from '../images/jump-for-joy.gif';
 import firemen from '../images/firemen.svg';
 
-class why_wds extends Component {
+class test_area extends Component {
     render () {
         return(
             <div className="flex-layout-column">
@@ -168,4 +168,4 @@ class why_wds extends Component {
                             )
                         }
                     }
-export default why_wds;
+export default test_area;
