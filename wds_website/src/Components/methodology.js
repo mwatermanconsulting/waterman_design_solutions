@@ -107,7 +107,7 @@ class practices extends Component {
                                  </ul>  
                         </div>
                         <div>
-                            <div className="content-header flex-layout-column margin-top-100 flex-layout-center-center">
+                            <div className="content-header flex-layout-column margin-top-50 flex-layout-center-center">
                                 <h3>Discovery</h3>
                                 <p>The discovery phase is all about the user. The research continues into the discovery phase. During this phase we begin to 
                                     understand and emphasize with the user and the truth becomes clear.</p>

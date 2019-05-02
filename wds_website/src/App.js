@@ -89,6 +89,7 @@ class App extends Component {
                   <a href="./">Blog</a>
                   <a href="./">News</a>
                   <a href="./">Industry Stuff</a>
+                  <a href="./test_area">Playground</a>
               </FooterLinkList>
           </FooterDropDownSection>
    </Footer>
