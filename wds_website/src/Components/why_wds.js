@@ -1,12 +1,7 @@
 import React, { Component } from 'react' ;
 import { Button } from 'react-mdl';
 import why from '../images/why-wds-bg.png';
-import racecar from '../images/racecar.png';
-import yogabeach from '../images/yogabeach.png'; 
-import mysvg from '../images/crowdgirls.svg';
-import ship from '../images/titanic.svg';
-import joy from '../images/jump-for-joy.gif';
-import firemen from '../images/firemen.svg';
+import customer from '../images/customerfirst.png';
 
 class why_wds extends Component {
     render () {
@@ -15,7 +10,7 @@ class why_wds extends Component {
                 <div className="flex-layout-section-full">
                     <div className="image-background-border-tb">
                         <div className="flex-image-container flex-item-bottom">
-                            <img className="flex-image-container container" src={why}  alt="Why WDS background image" /> 
+                            <img className="flex-image-container container" src={why}  alt="Why WDS background" /> 
                          </div>
                     </div> 
                 </div>
@@ -32,7 +27,7 @@ class why_wds extends Component {
                             </p>
                         </div>
                         <div className="content-header flex-layout-center-center">
-                            <h5 className="title-center margin-top-100">Core Offerings</h5>
+                            <h1 className="margin-top-100">Core Offerings</h1>
                         </div>
                         </div>
                     </div>
@@ -40,11 +35,12 @@ class why_wds extends Component {
                 <div className="flex-layout-column flex-layout-justified-sb">
                     <div className="flex-layout-row flex-layout-center-center margin-top-50"> 
                         <div className="content-header flex-layout-column flex-sh-500">
-                            <h3 className="text">Blended Teams</h3>
+                            <h3 className="text">Experienced Teams</h3>
                         <div className="content-block">
                             <p className="content-text-18 content-block-why">Our <a href="./core_offerings" target="_blank">multi-disciplined teams</a> teams work collaboratively to design software solutions based on user needs.  Designers, strategists, marketers and program 
                                managers work together to achieve success. Text should be equal lines on both sides? 
                             </p>
+                            <Button type="button" className="margin-top-50">Check Out Our Success Stories</Button>
                         </div>
                         </div>
                         <div className="flex-layout-column">
@@ -112,7 +108,7 @@ class why_wds extends Component {
             </div>
                 <div className="flex-layout-row flex-layout-center-center"> 
                     <div className="content-header flex-layout-column flex-sh-500">
-                        <h3 className="sub-title">Your Business and User Needs Are Our Whole Focus</h3>
+                        <h3 className="sub-title">Your Business and User Needs Are NOT Our Whole Focus</h3>
                             <div className="content-block">
                                 <p className="content-text-18"> WDS is the leader in understanding and empathizing with the user. Our proven process to the development of mobile, cloud, web and workplace software. 
                                     The company is actively redefining the user experience (UX) and changing the ways people interact with technology around the world. Our design solutions have been copied by the industry leaders and set standard 
@@ -121,12 +117,12 @@ class why_wds extends Component {
                             </div>
                         </div>
                         <div className="flex-layout-column">
-                            <div className="container-image-block">
-                                <img className="flex-image-container" src={joy}  alt="Your Business is Our Joy" /> 
+                            <div className="container-image-block image_customer_first">
+                                <img className="image_customer_first" src={customer} style={{}} alt="Your Business is Our Joy" /> 
                             </div>
                         </div>
                     </div>
-                                <div className="flex-container-small image-background-border-tb flex-layout-center-center"> 
+                    <div className="flex-container-small image-background-border-tb flex-layout-center-center"> 
                                     <div className="flex-layout-row">
                                         <div className="flex-layout-column flex-container-text-small flex-sh-400">
                                             <div className="title-small">WE'LL GET THERE FASTER, TOGETHER AS A TEAM.</div>

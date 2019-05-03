@@ -56,6 +56,10 @@
     padding: 50px;
   }
 
+  .flex-align-top {
+    align-items: flex-start;
+  }
+
   .flex-layout-section-sb {
     display: flex;
     flex-direction: column;
@@ -104,6 +108,10 @@
       justify-content: center;
       align-items: center;
   }
+
+.flex-items-justified-center {
+    justify-content: center;
+}
 
  .flex-layout-column-reverse {
    display: flex;
