@@ -1074,6 +1074,9 @@ Button:hover {
 .content-block-why {
   width: 350px; }
 
+.content-block-cs {
+  width: 575px; }
+
 .image_customer_first {
   background: linear-gradient(rgba(0, 244, 183, 0.45), rgba(0, 244, 232, 0.45)); }
 

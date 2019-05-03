@@ -1,11 +1,8 @@
 import React, { Component } from 'react' ;
 import backgroundAboutus from '../images/background-aboutus.png';
 import { Button } from 'react-mdl';
-import caseStudies from '../images/casestudies.png';
-import mysvg from '../images/crowdgirls.svg';
-import ship from '../images/titanic.svg';
+import caseStudies from '../images/bg-casestudies.png';
 import computer from '../images/photo-computer.png';
-import firemen from '../images/firemen.svg';
 
 class case_studies extends Component {
     render () {
@@ -16,13 +13,15 @@ class case_studies extends Component {
                         <div className="flex-image-container-child flex-layout-center-center">
                             <img className="flex-image-container-child border-3px overlay-yellow" src={caseStudies}  alt="case studies" /> 
                         </div>
-                            <div className="flex-content-container-split">
+                        </div>
+                        <div className="flex-layout-section flex-layout-center-center">
+                            <div className="flex-layout-column">
                                 <div className="content-header"> 
                                     <div className="title">Case Studies</div>
                                 </div>
                                 <div className="content-header">
                                 </div>
-                                <div className="content-block-why">
+                                <div className="content-block-cs">
                                     <p className="content-text-18">For more than a decade, we have refined a repeatable, programmatic methodology that centers on answering questions about customers 
                                     through direct observational fieldwork to identify people’s needs, behaviors and aspirations. This provides a perspective on customers that clients typically have never seen. 
                                     The aim of this work is not more data; most companies are swimming in information. Instead, we create a strategy for the experience that the software will provide. 
@@ -32,21 +31,21 @@ class case_studies extends Component {
                                      </p>
                                 </div>
                                 </div>
-                            </div>
-                        </div>  
+                            </div> 
+                        </div>
                          <div className="flex-layout-section-full align-items-center green">
                             <div className="flex-layout-content-container margin-top-25 flex-layout-center-center">
                                 <div className="content-header flex-layout-column">    
                                     <h3 className="subtitle flex-layout-center">Customer Success Spotlight</h3>
                                 <div className="content-block width-100">
-                                    <p className="content-text-18 text-align-center">Spotlight on design solutions for some of our favorite clients. 
+                                    <p className="content-text-18 text-align-center">Every project has a story. Below are our most interesting stories 
                                     </p>
                                 </div>
                                 </div>
                             </div>
                         </div>
                         <div className="flex-layout-column flex-layout-section- full green flex-layout-justified-sb">
-                            <div className="flex-layout-center-center flex-layout-row margin-top-50"> 
+                            <div className="flex-items-justified-center flex-layout-row margin-top-50"> 
                                 <div className="content-header flex-layout-column flex-sh-500">
                                     <div className="container-image-block">
                                         <img className="image-container-content" src={computer}  alt="Blended Teams" /> 
@@ -103,8 +102,20 @@ class case_studies extends Component {
                                                 <a href="./case_study_4" className="text-black padding-bottom-50" target="_blank">Ream More....</a> 
                                             </p>
                                     </div>
-                                </div>    
+                                </div> 
+                                   
                             </div>
+                            <div className="flex-layout-section align-items-center white image-background-border-tb">
+                            <div className="flex-layout-content-container margin-top-25 flex-layout-center-center">
+                                <div className="content-header flex-layout-column">    
+                                    <h3 className="subtitle flex-layout-center">Customers</h3>
+                                <div className="content-block width-100">
+                                    <p className="content-text-18 text-align-center">Our Customers and the industiries we serve
+                                    </p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
                         </div>      
                     </div>                                   
                 )
