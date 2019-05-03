@@ -165,18 +165,15 @@ class practices extends Component {
                         </div>
                     </div>
                     <div className="flex-layout-row flex-layout-center-center"> 
-                    <div className="content-header flex-layout-column flex-sh-500">
-                        <h3 className="sub-title">Marketing and Design Metrics</h3>
-                            <div className="content-block">
-                                <p className="content-text-18">  <p> The WDS Digital Marketing team researches, ideates, implements and optimizes sophisticated web marketing solutions tailored to the specific goals 
+                        <div className="content-header flex-layout-column flex-sh-500">
+                            <h3 className="sub-title">Marketing and Design Metrics</h3>
+                                <div className="content-block">
+                                    <p className="content-text-18">  The WDS Digital Marketing team researches, ideates, implements and optimizes sophisticated web marketing solutions tailored to the specific goals 
                                                 and objectives of each of our clients.
-
                                                 What sets us apart is a genuine understanding of your users. Combining proven digital marketing strategies and user observations, we create and run organized digital marketing 
                                                 campaigns that deliver. Our team cuts through the clutter to create and measure impactful strategies. We ensure your digital marketing campaigns align with your business objectives, 
-                                                and leverage opportunities for innovation and differentiation.
-                                            </p>
-                                <br/></p> 
-                            </div>
+                                                and leverage opportunities for innovation and differentiation.</p>
+                                </div>
                         </div>
                         <div className="flex-layout-column">
                             <div className="container-image-block">

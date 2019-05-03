@@ -655,6 +655,7 @@ h1 {
 .title-small {
   font-size: 1.2rem;
   font-weight: 700;
+  color: #3eaca9;
   font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
 
 p {
@@ -671,8 +672,17 @@ p {
 .text-black {
   color: #000; }
 
+.text-white {
+  color: #fff; }
+
 .padding-bottom-50 {
   padding-bottom: 50px; }
+
+/*******************************
+         Colors
+  *******************************/
+.green-blue {
+  background-color: #3eaca9; }
 
 .lightgreen {
   background-color: #BDCCD4; }
@@ -728,8 +738,7 @@ p {
   background-color: #008000; }
 
 a:hover {
-  text-decoration: none;
-  font-weight: bold; }
+  text-decoration: none; }
 
 .svg-image {
   height: auto;
@@ -1064,6 +1073,9 @@ Button:hover {
 
 .content-block-why {
   width: 350px; }
+
+.content-block-cs {
+  width: 575px; }
 
 .image_customer_first {
   background: linear-gradient(rgba(0, 244, 183, 0.45), rgba(0, 244, 232, 0.45)); }

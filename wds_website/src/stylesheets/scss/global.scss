@@ -47,6 +47,7 @@ h1 {
 .title-small {
   font-size: 1.2rem;
   font-weight: 700;
+  color: $greeny-blue;
   font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
@@ -68,6 +69,18 @@ p {
   color: $black;
 }
 
+.text-white {
+  color: $white;
+}
 .padding-bottom-50 {
   padding-bottom: 50px;
 }
+
+/*******************************
+         Colors
+  *******************************/
+
+  .green-blue {
+    background-color: $greeny-blue;
+  }
+
