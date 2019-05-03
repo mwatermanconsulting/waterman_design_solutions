@@ -40,7 +40,7 @@ class why_wds extends Component {
                             <p className="content-text-18 content-block-why">Our <a href="./core_offerings" target="_blank">multi-disciplined teams</a> teams work collaboratively to design software solutions based on user needs.  Designers, strategists, marketers and program 
                                managers work together to achieve success. Text should be equal lines on both sides? 
                             </p>
-                            <Button type="button" className="margin-top-50">Check Out Our Success Stories</Button>
+                            <Button type="button" className="margin-top-50">Our History...</Button>
                         </div>
                         </div>
                         <div className="flex-layout-column">
@@ -50,6 +50,7 @@ class why_wds extends Component {
                                 <p className="content-text-18 content-block-why">We’ve been building great experiences with world-leading brands for over 15 years. Our designs have helped business grow and understand their users. 
                                     All our <a href="./clients" target="_blank">clients</a> have full confidence that WDS can deliver the right results.
                                 </p>
+                                <Button type="button" className="margin-top-50">Clients..</Button>
                             </div>
                             </div>
                         </div>
@@ -64,6 +65,7 @@ class why_wds extends Component {
                                 <p className="content-text-18 content-block-why">For the last 15 years WDS has been a leading trend setter for the industry. Our <a href="./design_solutions" target="_blank">design solutions</a> have been 
                                     copied and used across many verticals. Need at least one more line of text here Need at least one more line of text here
                                 </p>
+                                <Button type="button" className="margin-top-50">Case Studies...</Button>
                             </div>
                             </div>
                         <div className="flex-layout-column">
@@ -73,6 +75,7 @@ class why_wds extends Component {
                                 <p className="content-text-18 content-block-why">We’ve been building great experiences with world-leading brands for over 15 years. Our designs have helped business grow and understand their users. 
                                 All our clients have full confidence that WDS can deliver the right results.
                                 </p>
+                                <Button type="button" className="margin-top-50">Read More...</Button>
                             </div>
                             </div>
                         </div>
@@ -87,6 +90,7 @@ class why_wds extends Component {
                                 <p className="content-text-18 content-block-why">For the last 15 years WDS has been a leading trend setter for the industry. Our <a href="./design_solutions" target="_blank">design solutions</a> have been 
                                     copied and used across many verticals. Need at least one more line of text here Need at least one more line of text here
                                 </p>
+                                <Button type="button" className="margin-top-50">Read More...</Button>
                             </div>
                             </div>
                             <div className="flex-layout-column">
@@ -96,6 +100,7 @@ class why_wds extends Component {
                                     <p className="content-text-18 content-block-why">We’ve been building great experiences with world-leading brands for over 15 years. Our designs have helped business grow and understand their users. 
                                     All our clients have full confidence that WDS can deliver the right results.
                                     </p>
+                                    <Button type="button" className="margin-top-50">Read More...</Button>
                                 </div>
                                 </div>
                             </div>
@@ -106,24 +111,25 @@ class why_wds extends Component {
             <div className="flex-layout-center padding-bottom-50 bottom-border">
                 <button type="button" className="margin-top-150">Check Out Our Success Stories</button>
             </div>
-                <div className="flex-layout-row flex-layout-center-center"> 
-                    <div className="content-header flex-layout-column flex-sh-500">
-                        <h3 className="sub-title">Your Business and User Needs Are NOT Our Whole Focus</h3>
-                            <div className="content-block">
-                                <p className="content-text-18"> WDS is the leader in understanding and empathizing with the user. Our proven process to the development of mobile, cloud, web and workplace software. 
-                                    The company is actively redefining the user experience (UX) and changing the ways people interact with technology around the world. Our design solutions have been copied by the industry leaders and set standard 
-                                    for the way modern businesses design software, WDS designs emotionally rich, resonant solutions that enable customers and end users to fully realize technology’s potential in today’s connected world.
-                                <br/></p> 
-                            </div>
+            <div className="flex-layout-row flex-layout-center-center flex-layout-justified-sb green-blue"> 
+                        <div className="content-header flex-layout-column flex-sh-500" style={{padding:120}}>
+                            <h3 className="sub-title text-white">Your Customer is the focus of the entire process</h3>
+                                <div className="content-block">
+                                    <p className="content-text-18">  The WDS Digital Marketing team researches, ideates, implements and optimizes sophisticated web marketing solutions tailored to the specific goals 
+                                                and objectives of each of our clients.
+                                                What sets us apart is a genuine understanding of your users. Combining proven digital marketing strategies and user observations, we create and run organized digital marketing 
+                                                campaigns that deliver. Our team cuts through the clutter to create and measure impactful strategies. We ensure your digital marketing campaigns align with your business objectives, 
+                                                and leverage opportunities for innovation and differentiation.</p>
+                                </div>
                         </div>
                         <div className="flex-layout-column">
-                            <div className="container-image-block image_customer_first">
-                                <img className="image_customer_first" src={customer} style={{}} alt="Your Business is Our Joy" /> 
+                            <div className="container-image-block">
+                                <img className="flex-image-container" src={customer}  alt="Your Business is Our Joy" /> 
                             </div>
                         </div>
                     </div>
-                    <div className="flex-container-small image-background-border-tb flex-layout-center-center"> 
-                                    <div className="flex-layout-row">
+                    <div className="flex-container-small image-background-border-tb white flex-layout-center-center"> 
+                        <div className="flex-layout-row">
                                         <div className="flex-layout-column flex-container-text-small flex-sh-400">
                                             <div className="title-small">WE'LL GET THERE FASTER, TOGETHER AS A TEAM.</div>
                                                 <div className="layout-center-justified ">
