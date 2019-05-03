@@ -283,6 +283,9 @@ footer {
 .padding {
   padding: 50px; }
 
+.flex-align-top {
+  align-items: flex-start; }
+
 .flex-layout-section-sb {
   display: flex;
   flex-direction: column;
@@ -321,6 +324,9 @@ footer {
 .flex-layout-center-center {
   justify-content: center;
   align-items: center; }
+
+.flex-items-justified-center {
+  justify-content: center; }
 
 .flex-layout-column-reverse {
   display: flex;
@@ -639,6 +645,12 @@ h1 {
   font-size: 1.8rem;
   font-weight: 700;
   line-height: 1.8; }
+
+.subtitle-reverse {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.8;
+  color: #fff; }
 
 .title-small {
   font-size: 1.2rem;
@@ -1051,7 +1063,10 @@ Button:hover {
   flex: 0 1 400px; }
 
 .content-block-why {
-  width: 550px; }
+  width: 350px; }
+
+.image_customer_first {
+  background: linear-gradient(rgba(0, 244, 183, 0.45), rgba(0, 244, 232, 0.45)); }
 
 /*******************************
            Case Studies
@@ -1076,6 +1091,11 @@ Button:hover {
   display: flex;
   flex-direction: column;
   flex: 0 0 450px; }
+
+.flex-items-column-500 {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 500px; }
 
 /*******************************
           Services

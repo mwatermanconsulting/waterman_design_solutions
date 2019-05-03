@@ -1,11 +1,6 @@
 import React, { Component } from 'react' ;
-import backgroundServices from '../images/enchilada.png';
 import method from '../images/methodology-bg.png';
 import joy from '../images/jump-for-joy.gif';
-import marketingpic from '../images/marketing-pic.png';
-import consultingpic from '../images/consulting-pic.png';
-
-import stayinyourlane from '../images/stayinyourlane.png';
 
 class practices extends Component {
     render () {
@@ -14,28 +9,28 @@ class practices extends Component {
           
         <div className="flex-layout-column margin-bottom-50"> 
             <div className="flex-layout-section-full">
-                    <div className="image-background-border-tb">
-                        <div className="flex-image-container flex-item-bottom">
-                            <img className="flex-image-container container" src={method}  alt="Why WDS background image" /> 
-                         </div>
-                    </div> 
-                </div>
-                <div className="flex-layout-section-full flex-layout-column align-items-center">
-                    <div className="flex-layout-content-container flex-layout-column margin-top-25 flex-layout-center-center">
-                        <div className="content-header flex-layout-column">    
-                            <h3 className="subtitle flex-layout-center">About Our Methodology</h3>
-                            <h3 className="subtitle flex-layout-center">WE DESIGN USER INTERFACES THAT DELIVERS VALUABLE EXPERIENCES, CONNECTING WITH PEOPLE ON ASPIRATIONAL AND EMOTIONAL LEVELS</h3>
-                        <div className="content-text-18 width-100">
-                            <p className="content-text-18">The science of understanding people has developed for centuries, but not enough has been done to integrate these approaches into the process of software design. 
-                                For more than a decade, we have refined a repeatable, flexible methodology that centers on answering questions about customers through direct observational fieldwork 
-                                or through interviews to identify people’s needs, behaviors and aspirations. This provides a perspective on customers that clients typically have never seen.</p>
-                            <p className="content-text-18">The aim of this work is not more data, but for an understanding. We create a strategy for the experience that the software design will provide. 
-                            It's a framework that allows developers, designers, marketers and architects to make decisions that support the intended customer experience. integrated offering takes 
-                            insights from the field and manifests them in a designed software user interface that engages customers and improves business results.</p>
-                        </div>
-                        </div>
+                <div className="image-background-border-tb">
+                    <div className="flex-image-container flex-item-bottom">
+                        <img className="flex-image-container container" src={method}  alt="Method WDS background" /> 
                     </div>
-                        <button type="button" className="margin-top-50">We Start BY Finding The Truth</button>
+                </div> 
+            </div>
+            <div className="flex-layout-section-full flex-layout-column align-items-center">
+                <div className="flex-layout-content-container flex-layout-column margin-top-25 flex-layout-center-center">
+                    <div className="content-header flex-layout-column">    
+                        <h3 className="subtitle flex-layout-center">About Our Methodology</h3>
+                        <h3 className="subtitle flex-layout-center">WE DESIGN USER INTERFACES THAT DELIVERS VALUABLE EXPERIENCES, CONNECTING WITH PEOPLE ON ASPIRATIONAL AND EMOTIONAL LEVELS</h3>
+                    <div className="content-text-18 width-100">
+                        <p className="content-text-18">The science of understanding people has developed for centuries, but not enough has been done to integrate these approaches into the process of software design. 
+                        For more than a decade, we have refined a repeatable, flexible methodology that centers on answering questions about customers through direct observational fieldwork 
+                        or through interviews to identify people’s needs, behaviors and aspirations. This provides a perspective on customers that clients typically have never seen.</p>
+                        <p className="content-text-18">The aim of this work is not more data, but for an understanding. We create a strategy for the experience that the software design will provide. 
+                        It's a framework that allows developers, designers, marketers and architects to make decisions that support the intended customer experience. integrated offering takes 
+                        insights from the field and manifests them in a designed software user interface that engages customers and improves business results.</p>
+                    </div>
+                    </div>
+                </div>
+                    <button type="button" className="margin-top-50">We Start BY Finding The Truth</button>
                 <div className="flex-layout-column" style={{ width: '40%' }}>
                     <div className="margin-top-100"> 
                         <div className="content-header flex-layout-column flex-layout-center-center">

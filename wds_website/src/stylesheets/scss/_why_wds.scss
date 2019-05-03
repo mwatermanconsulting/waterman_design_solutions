@@ -72,7 +72,16 @@
 }
 
 .content-block-why {
-    width: 550px;
+    width: 350px;
+}
+
+.image_customer_first {
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 244, 183, 0.45), 
+      rgba(0, 244, 232, 0.45),
+    ),
 }
 /*******************************
            Case Studies
