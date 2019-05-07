@@ -1,8 +1,6 @@
 import React, { Component } from 'react' ;
-import backgroundAboutus from '../images/background-aboutus.png';
 import { Button } from 'react-mdl';
 import caseStudies from '../images/bg-casestudies.png';
-import computer from '../images/photo-computer.png';
 
 class case_studies extends Component {
     render () {
@@ -48,7 +46,7 @@ class case_studies extends Component {
                             <div className="flex-items-justified-center flex-layout-row margin-top-50"> 
                                 <div className="content-header flex-layout-column flex-sh-500">
                                     <div className="container-image-block">
-                                        <img className="image-container-content" src={computer}  alt="Blended Teams" /> 
+                                        <img className="image-container-content" src  alt="Blended Teams" /> 
                                     </div> 
                                         <h3 className="text-white">High Volume of returns plaguing Motorola <br/> Gateway Router Product Line</h3>
                                         <div className="content-block">
@@ -61,7 +59,7 @@ class case_studies extends Component {
                                     </div>
                                 <div className="content-header flex-layout-column flex-sh-500">
                                     <div className="container-image-block">
-                                        <img className="image-container-content" src={computer}  alt="Blended Teams" /> 
+                                        <img className="image-container-content" src  alt="Blended Teams" /> 
                                     </div> 
                                         <h3 className="text-white">Stubhub Stuff</h3>
                                    <div className="content-block">
@@ -78,7 +76,7 @@ class case_studies extends Component {
                             <div className="flex-layout-center-center flex-layout-row margin-top-50 "> 
                                 <div className="content-header flex-layout-column flex-sh-500">
                                     <div className="container-image-block">
-                                        <img className="image-container-content" src={computer}  alt="Blended Teams" /> 
+                                        <img className="image-container-content" src  alt="Blended Teams" /> 
                                     </div> 
                                         <h3 className="text-white">OSI Stuff</h3>
                                         <div className="content-block">
@@ -92,7 +90,7 @@ class case_studies extends Component {
                                 </div>
                                 <div className="content-header flex-layout-column flex-sh-500">
                                     <div className="container-image-block">
-                                        <img className="image-container-content" src={computer}  alt="Blended Teams" /> 
+                                        <img className="image-container-content" src  alt="Blended Teams" /> 
                                     </div> 
                                         <h3 className="text-white">Pfizer Stuff</h3>
                                    <div className="content-block">

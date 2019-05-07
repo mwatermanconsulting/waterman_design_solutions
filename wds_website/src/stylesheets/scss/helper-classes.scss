@@ -149,6 +149,11 @@
       display:flex;
       flex-direction: row;
   }
+
+  .flex-layout-row-reverse {
+    display:flex;
+    flex-direction: row-reverse;
+}
   
   .flex-layout-column{
       display:flex;

@@ -1,10 +1,6 @@
 import React, { Component } from 'react' ;
-import backgroundServices from '../images/background-services.png';
-import uxdesignrelief from '../images/uxdesignrelief.png';
-import uipic from '../images/ui-pic.png';
-import marketingpic from '../images/marketing-pic.png';
-import consultingpic from '../images/consulting-pic.png';
-import clear from '../images/clear.png';
+
+
 
 class Services extends Component {
     render () {
@@ -13,7 +9,7 @@ class Services extends Component {
                 <div className="flex-containertop">
                     <div className="sevices-background-section1 ">
                        
-                            <img className="backgroundServices" src={backgroundServices}  alt="services" /> 
+                             {/*  <img className="consultingpic" src={consultingpic} alt="consulting"/> */}
                         
                         <div className="content-right-center  right">
                             <div className="content-header">
@@ -39,7 +35,7 @@ class Services extends Component {
                                     <div className="content-text width-100">
                                             <div className=" width-100 content-center height-768">
                                                 <div className="textblock layer-top"> 
-                                                    <img className="servicespic" src={uxdesignrelief} alt="uxdesignrelief"/> 
+                                                    <img className="servicespic" src alt="uxdesignrelief"/> 
                                                 </div>
                                                 <div className="textblock border-3px pink width-100 content-end">
                                                     <div className="width-50">
@@ -73,7 +69,7 @@ class Services extends Component {
                                                     </div>
                                                 </div>
                                                 <div className="textblock layer-top  right "> 
-                                                    <img className="services-ui-pic" src={uipic} alt="ui"/> 
+                                                     {/*  <img className="consultingpic" src={consultingpic} alt="consulting"/> */}
                                                 </div>
                                             </div>
                                     </div>
@@ -90,7 +86,7 @@ class Services extends Component {
                                     <div className="content-text width-100">
                                             <div className=" width-100 content-center height-768">
                                                 <div className="textblock layer-top"> 
-                                                    <img className="marketingpic" src={marketingpic} alt="marketing"/> 
+                                                      {/*  <img className="consultingpic" src={consultingpic} alt="consulting"/> */}
                                                 </div>
                                                 <div className="textblock border-3px lightpurple width-100 content-end">
                                                     <div className="width-50">
@@ -123,7 +119,7 @@ class Services extends Component {
                                                     </div>
                                                 </div>
                                                 <div className="textblock layer-top  right "> 
-                                                    <img className="consultingpic" src={consultingpic} alt="consulting"/> 
+                                                  {/*  <img className="consultingpic" src={consultingpic} alt="consulting"/> */}
                                                 </div>
                                             </div>
                                     </div>

@@ -1,12 +1,4 @@
-import React, { Component } from 'react' ;
-import { Button } from 'react-mdl';
-import tugofwar from '../images/tugofwar.png';
-import racecar from '../images/racecar.png';
-import yogabeach from '../images/yogabeach.png'; 
-import mysvg from '../images/crowdgirls.svg';
-import ship from '../images/titanic.svg';
-import joy from '../images/jump-for-joy.gif';
-import firemen from '../images/firemen.svg';
+import React, { Component } from 'react' 
 
 class why_wds extends Component {
     render () {
@@ -15,7 +7,7 @@ class why_wds extends Component {
                 <div className="flex-layout-section">
                     <div className="image-background-border-tb flex-layout-center-center">
                         <div className="flex-image-container flex-layout-center-center">
-                            <img className="flex-image-container" src={mysvg}  alt="girls picture" /> 
+                            <img className="flex-image-container" src  alt="girls picture" /> 
                         </div>
                     </div> 
                 </div>
@@ -74,7 +66,7 @@ class why_wds extends Component {
                                     </div>
                                         <div className="flex-layout-column flex-sh-500">
                                             <div className="container-image-block">
-                                                <img className="flex-image-container" src={yogabeach}  alt="Blended Teams" /> 
+                                                <img className="flex-image-container" src  alt="Blended Teams" /> 
                                             </div>
                                         </div>
                                     </div>
@@ -93,7 +85,7 @@ class why_wds extends Component {
                                     </div>
                                         <div className="flex-layout-column flex-sh-500">
                                             <div className="container-image-block">
-                                                <img className="flex-image-container" src={ship}  alt="Blended Teams" /> 
+                                                <img className="flex-image-container" src  alt="Blended Teams" /> 
                                             </div>
                                         </div>
                                     </div>
@@ -112,7 +104,7 @@ class why_wds extends Component {
                                     </div>
                                         <div className="flex-layout-column flex-sh-500">
                                             <div className="container-image-block">
-                                                <img className="flex-image-container" src={ship}  alt="Blended Teams" /> 
+                                                <img className="flex-image-container" src  alt="Blended Teams" /> 
                                             </div>
                                         </div>
                                     </div>
@@ -131,7 +123,7 @@ class why_wds extends Component {
                                     </div>
                                         <div className="flex-layout-column flex-sh-500">
                                             <div className="container-image-block">
-                                                <img className="flex-image-container" src={ship}  alt="Blended Teams" /> 
+                                                <img className="flex-image-container" src  alt="Blended Teams" /> 
                                             </div>
                                         </div>
                                     </div>
@@ -151,7 +143,7 @@ class why_wds extends Component {
                                     </div>
                                         <div className="flex-layout-column flex-sh-500">
                                             <div className="container-image-block">
-                                                <img className="flex-image-container" src={ship}  alt="Blended Teams" /> 
+                                                <img className="flex-image-container" src  alt="Blended Teams" /> 
                                             </div>
                                         </div>
                                     </div>
@@ -170,7 +162,7 @@ class why_wds extends Component {
                                     </div>
                                         <div className="flex-layout-column flex-sh-500">
                                             <div className="container-image-block">
-                                                <img className="flex-image-container" src={ship}  alt="Blended Teams" /> 
+                                                <img className="flex-image-container" src  alt="Blended Teams" /> 
                                             </div>
                                         </div>
                                     </div>
@@ -191,7 +183,7 @@ class why_wds extends Component {
                                         </div>
                                     <div className="flex-layout-column">
                                         <div className="container-image-block">
-                                            <img className="flex-image-container" src={joy}  alt="Your Business is Our Joy" /> 
+                                            <img className="flex-image-container" alt="Your Business is Our Joy" /> 
                                         </div>
                                     </div>
                                 </div>

@@ -1,5 +1,4 @@
 import React, { Component } from 'react' ;
-import backgroundServices from '../images/couple.png';
 import mike from '../images/mike.png';
 import terri from '../images/terri.png';
 
@@ -9,7 +8,7 @@ class ux extends Component {
             <div className="flex-layout-column"> 
             <div className="flex-layout-section">
                 <div className="image-background-border-tb">
-                    <img className="img-size" src={backgroundServices}  alt="couple" /> 
+                    {/*  <img className="consultingpic" src={consultingpic} alt="consulting"/> */}
                         <div className="content-right-center">
                             <div className="content-header">
                                 <div className="title">UX</div>

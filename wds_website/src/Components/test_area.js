@@ -1,12 +1,5 @@
 import React, { Component } from 'react' ;
-import { Button } from 'react-mdl';
-import why from '../images/why-wds-bg.png';
-import racecar from '../images/racecar.png';
-import yogabeach from '../images/yogabeach.png'; 
-import mysvg from '../images/crowdgirls.svg';
-import ship from '../images/titanic.svg';
-import joy from '../images/jump-for-joy.gif';
-import firemen from '../images/firemen.svg';
+import why from '../images/bg-why-wds.svg';
 
 class test_area extends Component {
     render () {
@@ -122,7 +115,7 @@ class test_area extends Component {
                         </div>
                         <div className="flex-layout-column">
                             <div className="container-image-block">
-                                <img className="flex-image-container" src={joy}  alt="Your Business is Our Joy" /> 
+                                <img className="flex-image-container" src  alt="Your Business is Our Joy" /> 
                             </div>
                         </div>
                     </div>

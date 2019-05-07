@@ -1,6 +1,5 @@
 import React, { Component } from 'react' ;
-import method from '../images/methodology-bg.png';
-import joy from '../images/jump-for-joy.gif';
+import method from '../images/bg-methodology.svg';
 
 class practices extends Component {
     render () {
@@ -11,7 +10,7 @@ class practices extends Component {
             <div className="flex-layout-section-full">
                 <div className="image-background-border-tb">
                     <div className="flex-image-container flex-item-bottom">
-                        <img className="flex-image-container container" src={method}  alt="Method WDS background" /> 
+                        <img className="flex-image-container image-size-100" src={method}  alt="Method WDS background" /> 
                     </div>
                 </div> 
             </div>
@@ -177,7 +176,7 @@ class practices extends Component {
                         </div>
                         <div className="flex-layout-column">
                             <div className="container-image-block">
-                                <img className="flex-image-container" src={joy}  alt="Your Business is Our Joy" /> 
+                                <img className="flex-image-container" src  alt="Your Business is Our Joy" /> 
                             </div>
                         </div>
                     </div>
