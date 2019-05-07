@@ -1,5 +1,4 @@
 import React, { Component } from 'react' ;
-import backgroundServices from '../images/couple.png';
 import mike from '../images/mike.png';
 import terri from '../images/terri.png';
 
@@ -9,7 +8,7 @@ class core_offerings extends Component {
             <div className="flex-container-default"> 
                 <div className="flex-containertop">
                     <div className="sevices-background-section1">
-                        <img className="couple-img" src={backgroundServices}  alt="couple" /> 
+                        {/*  <img className="consultingpic" src={consultingpic} alt="consulting"/> */}
                         <div className="content-right-center">
                             <div className="content-header">
                                 <div className="title">About US</div>

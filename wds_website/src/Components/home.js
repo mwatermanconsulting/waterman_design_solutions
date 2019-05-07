@@ -1,7 +1,6 @@
 import React, { Component } from 'react' ;
-import why from '../images/why-wds-bg.png';
-import method from '../images/methodology-bg.png';
-import practice from '../images/why-practices-bg.png';
+import why from '../images/bg-why-wds.svg';
+import method from '../images/bg-methodology.svg';
 
 //import { Grid, Cell } from 'react-mdl';
 
@@ -35,7 +34,7 @@ class landingPage extends Component {
             <div className="flex-layout-section-full">
                 <div className="image-background-border-tb">
                     <div className="flex-image-container flex-item-bottom">
-                        <img className="flex-image-container container" src={practice}  alt="Why WDS background image" /> 
+                        <img className="flex-image-container container" src={why}  alt="Why WDS background image" /> 
                     </div>
                 </div> 
             </div>

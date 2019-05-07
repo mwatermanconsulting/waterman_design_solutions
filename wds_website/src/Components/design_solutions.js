@@ -1,7 +1,5 @@
 import React, { Component } from 'react' ;
 import { Button } from 'react-mdl';
-import design from '../images/design-bg.png';
-import load from '../images/heavy-load.png';
 
 class design_solutions extends Component {
     render () {
@@ -10,7 +8,7 @@ class design_solutions extends Component {
             <div className="flex-layout-section-full">
                 <div className="image-background-border-tb">
                     <div className="flex-image-container flex-item-bottom">
-                        <img className="flex-image-container container" src={design}  alt="Why WDS background" /> 
+                        <img className="flex-image-container container"   alt="Why WDS background" /> 
                     </div>
                 </div> 
             </div>
@@ -91,7 +89,7 @@ class design_solutions extends Component {
                 </div>
             <div className="flex-layout-column">
                 <div className="container-image-block image_customer_first">
-                    <img className="image_customer_first" src={load} style={{}} alt="Your Business is Our Joy" /> 
+                    <img className="image_customer_first"  style={{}} alt="Your Business is Our Joy" /> 
                 </div>
             </div>
             </div>

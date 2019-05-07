@@ -7,8 +7,8 @@ $lightgreen: #87A6AB;
 $purple: #78738A;
 $lightpurple: #b8a9c6;
 $lightgreen: #87A6AB;
-$yellow: #F4D195;
-$red: #DA6153;
+$yellow: #e3ce71;
+$red:  #ba1004;
 
 $colorone: #fbb424;
 
@@ -24,8 +24,8 @@ $colorone: #fbb424;
   .green {
     background-color: #87A6AB; }
   
-  .yellow {
-    background-color: #fbb424; }
+  .yellow-bg {
+    background-color: $yellow; }
   
   .blue {
     background-color: #aadfe7; }
@@ -38,26 +38,11 @@ $colorone: #fbb424;
   
   .red {
     background-color: $red !important;
-    color: $red;
 }
   
 .pink {
     background-color: #daa09a; }
 
   
-  .pinkdots {
-    background-image: url(../../images/pinkdots.png); }
-  
-  .purpledots {
-    background-image: url(../../images/purpledots.png); }
-  
-.lightgreendots {
-    background-image: url(../../images/lightgreendots.png); }
-  
-.bluedots {
-    background-image: url(../../images/bluedots.png); }
-
-.offwhitedots {
-    background-image: url(../../images/offwhitedots.png); }
 
 

@@ -158,8 +158,8 @@ footer {
 .green {
   background-color: #87A6AB; }
 
-.yellow {
-  background-color: #fbb424; }
+.yellow-bg {
+  background-color: #e3ce71; }
 
 .blue {
   background-color: #aadfe7; }
@@ -171,26 +171,10 @@ footer {
   background-color: #fff; }
 
 .red {
-  background-color: #DA6153 !important;
-  color: #DA6153; }
+  background-color: #ba1004 !important; }
 
 .pink {
   background-color: #daa09a; }
-
-.pinkdots {
-  background-image: url(../../images/pinkdots.png); }
-
-.purpledots {
-  background-image: url(../../images/purpledots.png); }
-
-.lightgreendots {
-  background-image: url(../../images/lightgreendots.png); }
-
-.bluedots {
-  background-image: url(../../images/bluedots.png); }
-
-.offwhitedots {
-  background-image: url(../../images/offwhitedots.png); }
 
 .lightgreen {
   background-color: #BDCCD4; }
@@ -204,8 +188,8 @@ footer {
 .green {
   background-color: #87A6AB; }
 
-.yellow {
-  background-color: #fbb424; }
+.yellow-bg {
+  background-color: #e3ce71; }
 
 .blue {
   background-color: #aadfe7; }
@@ -217,26 +201,10 @@ footer {
   background-color: #fff; }
 
 .red {
-  background-color: #DA6153 !important;
-  color: #DA6153; }
+  background-color: #ba1004 !important; }
 
 .pink {
   background-color: #daa09a; }
-
-.pinkdots {
-  background-image: url(../../images/pinkdots.png); }
-
-.purpledots {
-  background-image: url(../../images/purpledots.png); }
-
-.lightgreendots {
-  background-image: url(../../images/lightgreendots.png); }
-
-.bluedots {
-  background-image: url(../../images/bluedots.png); }
-
-.offwhitedots {
-  background-image: url(../../images/offwhitedots.png); }
 
 /*******************************
          Mixins
@@ -357,6 +325,10 @@ footer {
 .flex-layout-row {
   display: flex;
   flex-direction: row; }
+
+.flex-layout-row-reverse {
+  display: flex;
+  flex-direction: row-reverse; }
 
 .flex-layout-column {
   display: flex;
@@ -565,7 +537,7 @@ footer {
   color: #fff; }
 
 a {
-  color: #DA6153; }
+  color: #ba1004; }
 
 li {
   display: list-item;
@@ -584,8 +556,8 @@ li {
 .green {
   background-color: #87A6AB; }
 
-.yellow {
-  background-color: #fbb424; }
+.yellow-bg {
+  background-color: #e3ce71; }
 
 .blue {
   background-color: #aadfe7; }
@@ -597,26 +569,10 @@ li {
   background-color: #fff; }
 
 .red {
-  background-color: #DA6153 !important;
-  color: #DA6153; }
+  background-color: #ba1004 !important; }
 
 .pink {
   background-color: #daa09a; }
-
-.pinkdots {
-  background-image: url(../../images/pinkdots.png); }
-
-.purpledots {
-  background-image: url(../../images/purpledots.png); }
-
-.lightgreendots {
-  background-image: url(../../images/lightgreendots.png); }
-
-.bluedots {
-  background-image: url(../../images/bluedots.png); }
-
-.offwhitedots {
-  background-image: url(../../images/offwhitedots.png); }
 
 /*******************************
          Global
@@ -629,11 +585,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+/*******************************
+         Global Text
+  *******************************/
 h1 {
   font-family: 'Mouse Momoirs', sans-serif; }
 
 a {
-  color: #DA6153; }
+  color: #ba1004; }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace; }
@@ -675,14 +634,42 @@ p {
 .text-white {
   color: #fff; }
 
+.text-align-center {
+  text-align: center; }
+
+.thin-hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #6a6a6a;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 0px; }
+
+/*******************************
+        Global Spacing
+  *******************************/
 .padding-bottom-50 {
   padding-bottom: 50px; }
 
+.padding-bottom-100 {
+  padding-bottom: 100px; }
+
 /*******************************
-         Colors
+        Global Colors
   *******************************/
 .green-blue {
   background-color: #3eaca9; }
+
+.red {
+  color: #ba1004; }
+
+/*******************************
+       Global Images
+  *******************************/
+.image-size-100 {
+  height: 100%;
+  width: 100%; }
 
 .lightgreen {
   background-color: #BDCCD4; }
@@ -696,8 +683,8 @@ p {
 .green {
   background-color: #87A6AB; }
 
-.yellow {
-  background-color: #fbb424; }
+.yellow-bg {
+  background-color: #e3ce71; }
 
 .blue {
   background-color: #aadfe7; }
@@ -709,26 +696,10 @@ p {
   background-color: #fff; }
 
 .red {
-  background-color: #DA6153 !important;
-  color: #DA6153; }
+  background-color: #ba1004 !important; }
 
 .pink {
   background-color: #daa09a; }
-
-.pinkdots {
-  background-image: url(../../images/pinkdots.png); }
-
-.purpledots {
-  background-image: url(../../images/purpledots.png); }
-
-.lightgreendots {
-  background-image: url(../../images/lightgreendots.png); }
-
-.bluedots {
-  background-image: url(../../images/bluedots.png); }
-
-.offwhitedots {
-  background-image: url(../../images/offwhitedots.png); }
 
 /*******************************
            Shared
@@ -745,7 +716,7 @@ a:hover {
   width: auto; }
 
 .link-color {
-  color: #DA6153; }
+  color: #ba1004; }
 
 .title {
   font-family: 'Mouse Memoirs', sans-serif;
@@ -930,8 +901,8 @@ Button:hover {
 .green {
   background-color: #87A6AB; }
 
-.yellow {
-  background-color: #fbb424; }
+.yellow-bg {
+  background-color: #e3ce71; }
 
 .blue {
   background-color: #aadfe7; }
@@ -943,26 +914,10 @@ Button:hover {
   background-color: #fff; }
 
 .red {
-  background-color: #DA6153 !important;
-  color: #DA6153; }
+  background-color: #ba1004 !important; }
 
 .pink {
   background-color: #daa09a; }
-
-.pinkdots {
-  background-image: url(../../images/pinkdots.png); }
-
-.purpledots {
-  background-image: url(../../images/purpledots.png); }
-
-.lightgreendots {
-  background-image: url(../../images/lightgreendots.png); }
-
-.bluedots {
-  background-image: url(../../images/bluedots.png); }
-
-.offwhitedots {
-  background-image: url(../../images/offwhitedots.png); }
 
 /*******************************
          Mixins
@@ -979,8 +934,8 @@ Button:hover {
 .green {
   background-color: #87A6AB; }
 
-.yellow {
-  background-color: #fbb424; }
+.yellow-bg {
+  background-color: #e3ce71; }
 
 .blue {
   background-color: #aadfe7; }
@@ -992,26 +947,10 @@ Button:hover {
   background-color: #fff; }
 
 .red {
-  background-color: #DA6153 !important;
-  color: #DA6153; }
+  background-color: #ba1004 !important; }
 
 .pink {
   background-color: #daa09a; }
-
-.pinkdots {
-  background-image: url(../../images/pinkdots.png); }
-
-.purpledots {
-  background-image: url(../../images/purpledots.png); }
-
-.lightgreendots {
-  background-image: url(../../images/lightgreendots.png); }
-
-.bluedots {
-  background-image: url(../../images/bluedots.png); }
-
-.offwhitedots {
-  background-image: url(../../images/offwhitedots.png); }
 
 /*******************************
            Why 
@@ -1109,6 +1048,18 @@ Button:hover {
   flex-direction: column;
   flex: 0 0 500px; }
 
+.photo-container {
+  width: 550px;
+  height: 333px; }
+
+.content-block-services {
+  width: 80%;
+  margin-right: 20px; }
+
+.content-block-services-reverse {
+  width: 80%;
+  margin-left: 20px; }
+
 /*******************************
           Services
   *******************************/
@@ -1151,8 +1102,8 @@ Button:hover {
 .green {
   background-color: #87A6AB; }
 
-.yellow {
-  background-color: #fbb424; }
+.yellow-bg {
+  background-color: #e3ce71; }
 
 .blue {
   background-color: #aadfe7; }
@@ -1164,26 +1115,10 @@ Button:hover {
   background-color: #fff; }
 
 .red {
-  background-color: #DA6153 !important;
-  color: #DA6153; }
+  background-color: #ba1004 !important; }
 
 .pink {
   background-color: #daa09a; }
-
-.pinkdots {
-  background-image: url(../../images/pinkdots.png); }
-
-.purpledots {
-  background-image: url(../../images/purpledots.png); }
-
-.lightgreendots {
-  background-image: url(../../images/lightgreendots.png); }
-
-.bluedots {
-  background-image: url(../../images/bluedots.png); }
-
-.offwhitedots {
-  background-image: url(../../images/offwhitedots.png); }
 
 /*******************************
           About US
@@ -1222,8 +1157,8 @@ Button:hover {
 .green {
   background-color: #87A6AB; }
 
-.yellow {
-  background-color: #fbb424; }
+.yellow-bg {
+  background-color: #e3ce71; }
 
 .blue {
   background-color: #aadfe7; }
@@ -1235,26 +1170,10 @@ Button:hover {
   background-color: #fff; }
 
 .red {
-  background-color: #DA6153 !important;
-  color: #DA6153; }
+  background-color: #ba1004 !important; }
 
 .pink {
   background-color: #daa09a; }
-
-.pinkdots {
-  background-image: url(../../images/pinkdots.png); }
-
-.purpledots {
-  background-image: url(../../images/purpledots.png); }
-
-.lightgreendots {
-  background-image: url(../../images/lightgreendots.png); }
-
-.bluedots {
-  background-image: url(../../images/bluedots.png); }
-
-.offwhitedots {
-  background-image: url(../../images/offwhitedots.png); }
 
 /*******************************
          Mixins
