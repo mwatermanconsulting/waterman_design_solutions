@@ -33,9 +33,17 @@ class practices extends Component {
                 <div className="flex-layout-column" style={{ width: '40%' }}>
                     <div className="margin-top-100"> 
                         <div className="content-header flex-layout-column flex-layout-center-center">
-                            <h3 className="text">Research & Discovery</h3>
+                            <h3 className="text">Research</h3>
                             <p>The first phase of the methodology establishes the foundation. It is all about the business and how the business relates to the users and how design relates to the business.</p>
-                                
+                                <ul>
+                                    <li>Kickoff Meeting</li>
+                                    <li>Business Requirements</li>
+                                    <li>Business History</li>
+                                    <li>SUS and Design Critique </li> 
+                                    <li>Competition</li> 
+                                    <li>Pain Points</li>
+                                    <li>Questions</li>
+                                 </ul>  
                         </div>
                         <div className="content-header flex-layout-column flex-layout-center-center margin-top-100">
                             <h3 className="text">Discovery</h3>

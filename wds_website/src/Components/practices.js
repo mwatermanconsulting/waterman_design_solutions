@@ -13,7 +13,7 @@ class practices extends Component {
             <div className="flex-layout-section-full">
                 <div className="image-background-border-tb">
                     <div className="flex-image-container flex-item-bottom">
-                        <img className="flex-image-container container image-size-100" src={practice}  alt="Why WDS background image" /> 
+                        <img className="image-size-100 container image-size-100" src={practice}  alt="Why WDS background image" /> 
                     </div>
                 </div> 
             </div>

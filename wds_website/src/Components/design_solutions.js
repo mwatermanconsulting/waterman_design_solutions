@@ -1,5 +1,6 @@
 import React, { Component } from 'react' ;
 import { Button } from 'react-mdl';
+import design from '../images/bg-design.svg';
 
 class design_solutions extends Component {
     render () {
@@ -8,7 +9,7 @@ class design_solutions extends Component {
             <div className="flex-layout-section-full">
                 <div className="image-background-border-tb">
                     <div className="flex-image-container flex-item-bottom">
-                        <img className="flex-image-container container"   alt="Why WDS background" /> 
+                        <img className="flex-image-container container image-size-100" src={design}  alt="Why WDS background" /> 
                     </div>
                 </div> 
             </div>
