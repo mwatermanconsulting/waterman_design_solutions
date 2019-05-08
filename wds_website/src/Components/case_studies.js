@@ -1,66 +1,83 @@
 import React, { Component } from 'react' ;
 import { Button } from 'react-mdl';
 import caseStudies from '../images/bg-casestudies.png';
+import motorola from '../images/photo-motorola-beforeafter.png';
+import motorola_logo from '../images/motorola_logo.svg'
+import stubhub_logo from '../images/icon-logo-stubhub.svg'
+
 
 class case_studies extends Component {
     render () {
         return(
             <div className="flex-layout-column">
-                <div className="flex-layout-section-full flex-layout-justified-sb">
+                <div className="flex-layout-section-fixed">
                     <div className="image-background-border-tb flex-layout-center-center yellow">
                         <div className="flex-image-container-child flex-layout-center-center">
-                            <img className="flex-image-container-child border-3px overlay-yellow" src={caseStudies}  alt="case studies" /> 
+                        <h1 className="image-text title text-white">Client Case Studies</h1>
+                            <img className="flex-image-container-child border-3px image-size-fixed" src={caseStudies}  alt="case studies" />
+                            
                         </div>
                         </div>
-                        <div className="flex-layout-section flex-layout-center-center">
-                            <div className="flex-layout-column">
-                                <div className="content-header"> 
-                                    <div className="title">Case Studies</div>
-                                </div>
-                                <div className="content-header">
-                                </div>
-                                <div className="content-block-cs">
-                                    <p className="content-text-18">For more than a decade, we have refined a repeatable, programmatic methodology that centers on answering questions about customers 
-                                    through direct observational fieldwork to identify people’s needs, behaviors and aspirations. This provides a perspective on customers that clients typically have never seen. 
-                                    The aim of this work is not more data; most companies are swimming in information. Instead, we create a strategy for the experience that the software will provide. 
-                                    It's a framework that allows developers, designers, marketers and architects to make decisions that support the intended customer experience. WDS integrated offering takes insights 
-                                    from the field and manifests in unique simple designs that engages customers and improves business results. 
-                                    <br/>
-                                     </p>
-                                </div>
-                                </div>
-                            </div> 
                         </div>
-                         <div className="flex-layout-section-full align-items-center green">
+                         <div className="flex-layout-section-full flex-layout-justified-sb align-items-center">
                             <div className="flex-layout-content-container margin-top-25 flex-layout-center-center">
                                 <div className="content-header flex-layout-column">    
                                     <h2 className="title flex-layout-center">Customer Success Spotlight</h2>
                                 <div className="content-block width-100">
-                                    <p className="content-text-18 text-align-center">Every project has a story. Below are our most interesting stories 
-                                    </p>
+                                    <p className="content-text-18 text-align-center">Every project has a story. Below are our most interesting stories </p>
                                 </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="flex-layout-column flex-layout-section- full green flex-layout-justified-sb">
+                        <div className="flex-layout-column flex-layout-section-full flex-layout-justified-sb" style={{padding:"50"}}>
                             <div className="flex-items-justified-center flex-layout-row margin-top-50"> 
-                                <div className="content-header flex-layout-column flex-sh-500">
+                                <div className="card-case-studies content-header flex-layout-column flex-sh-500 ">
                                     <div className="container-image-block">
-                                        <img className="image-container-content" src  alt="Blended Teams" /> 
-                                    </div> 
-                                        <h3 className="text-white">High Volume of returns plaguing Motorola <br/> Gateway Router Product Line</h3>
+                                        <img className="" src={motorola}  alt="motorola before and after" /> 
+                                    </div>
+                                
+                                    <div className="flex-layout-full">
+                                        <div className="flex-card-content flex-layout-center-center flex-layout-row flex-layout-justified-sb">
+                                            <p className="subtitle text-black">Motorola</p>
+                                            <img className="" src={motorola_logo}  alt="motorola logo" /> 
+                                        </div>
+                                        
+                                        <div className="flex-card-content">
                                         <div className="content-block">
+                                        <p><i> Industry: Technology</i></p>
+                                            <p className="content-text-18 content-block">High Volume of returns plaguing Motorola Gateway Router Product Line. 
+                                            After two failed attempts by UX/UI developers, a frustrated management group decided they needed a designer to make their modem app easier to use. <br/><br/>
                                             <p className="content-text-18 content-block-why">The home division of Motorola was set to implement ground breaking 
                                             technology for their gateway router product line. Until the decision was made to delay the effort until the problems related to the line were solved.   <br/><br/>
-=======
-                                        <h4 className="text-white">Motorola turns to WDS to provide solutions to their UI problems </h4>
-                                        <div className="content-block">
-                                            <p className="content-text-18 content-block-why">After two failed attempts, an iconic brand, Morotola turns to WDS to find anwsers to their high return rate on
-        
-                                             <a href="./case_study_1" className="text-black" target="_blank">Read More....</a>   
-                                            </p>
+                             <a href="./case_study_1" className="text-black" target="_blank">Read More....</a>   
+                                        </p>
                                         </div>
                                     </div>
+                                    </div>
+                                </div>
+                                <div className="card-case-studies content-header flex-layout-column flex-sh-500 ">
+                                    <div className="container-image-block">
+                                        <img className="" src={motorola}  alt="motorola before and after" /> 
+                                    </div>
+                                
+                                    <div className="flex-layout-full">
+                                        <div className="flex-card-content flex-layout-center-center flex-layout-row flex-layout-justified-sb">
+                                            <p className="subtitle text-black">Motorola</p>
+                                            <img className="" src={stubhub_logo}  alt="motorola logo" /> 
+                                        </div>
+                                        
+                                        <div className="flex-card-content">
+                                        <div className="content-block">
+                                        <p><i> Industry: Technology</i></p>
+                                            <p className="content-text-18 content-block">High Volume of returns plaguing Motorola Gateway Router Product Line. 
+                                            After two failed attempts by UX/UI developers, a frustrated management group decided they needed a designer to make their modem app easier to use. <br/><br/>
+
+                                             <a href="./case_study_1" className="text-black" target="_blank">Read More....</a>   
+                                        </p>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div></div> 
                                 <div className="content-header flex-layout-column flex-sh-500">
                                     <div className="container-image-block">
                                         <img className="image-container-content" src  alt="Blended Teams" /> 
@@ -74,9 +91,9 @@ class case_studies extends Component {
                                             </p>
                                     </div>
                                 </div>    
-                            </div>       
-                        </div>
-                        <div className="flex-layout-column flex-layout-section- full green flex-layout-justified-sb">
+                                  
+                        
+                        <div className="flex-layout-column flex-layout-section- full  flex-layout-justified-sb">
                             <div className="flex-layout-center-center flex-layout-row margin-top-50 "> 
                                 <div className="content-header flex-layout-column flex-sh-500">
                                     <div className="container-image-block">
@@ -90,6 +107,7 @@ class case_studies extends Component {
                                             <a href="./case_study_3" className="text-black" target="_blank">Ream More....</a> 
                                             </p>
                                         </div>
+                                </div>
                                 </div>
                                 <div className="content-header flex-layout-column flex-sh-500">
                                     <div className="container-image-block">

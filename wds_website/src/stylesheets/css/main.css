@@ -133,7 +133,7 @@ footer {
   color: gray !important; }
 
 .mdl-layout__header-row .mdl-navigation__link {
-  color: black !important; }
+  color: white !important; }
 
 .mdl-layout__header-row {
   height: 100% !important; }
@@ -272,8 +272,12 @@ footer {
 
 .flex-layout-section-full {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between; }
+  flex-direction: column; }
+
+.flex-layout-section-fixed {
+  display: flex;
+  width: 1920px;
+  height: 668px; }
 
 .flex-item-bottom {
   align-self: flex-end; }
@@ -390,6 +394,10 @@ footer {
   display: flex;
   flex-direction: column;
   flex: 1 1 500px; }
+
+.flex-card-content {
+  display: flex;
+  padding: 0 15px 5px 15px; }
 
 .flex-image-container {
   display: flex;
@@ -544,6 +552,12 @@ li {
   text-align: -webkit-match-parent;
   white-space: nowrap; }
 
+.card-case-studies {
+  -webkit-box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.25);
+  width: 634px;
+  height: 600px; }
+
 .lightgreen {
   background-color: #BDCCD4; }
 
@@ -590,6 +604,9 @@ body {
   *******************************/
 h1 {
   font-family: 'Mouse Momoirs', sans-serif; }
+
+.image-text {
+  position: absolute; }
 
 a {
   color: #ba1004; }
@@ -646,6 +663,10 @@ p {
   margin-bottom: 50px;
   padding: 0px; }
 
+.container-card-content {
+  height: auto;
+  margin: -10px 10px 5px 10px; }
+
 /*******************************
         Global Spacing
   *******************************/
@@ -669,6 +690,10 @@ p {
   *******************************/
 .image-size-100 {
   height: 100%;
+  width: 100%; }
+
+.image-size-header-fixed {
+  height: 1920px;
   width: 100%; }
 
 .lightgreen {
@@ -720,13 +745,13 @@ a:hover {
 
 .title {
   font-family: 'Mouse Memoirs', sans-serif;
-  font-size: 62px;
+  font-size: 10.0rem;
   margin-bottom: 15px;
   line-height: 55.5px; }
 
 .title-center {
   font-family: 'Mouse Memoirs', sans-serif;
-  font-size: 62px;
+  font-size: 10.0rem;
   margin-bottom: 15px;
   line-height: 55.5px;
   text-align: center; }
@@ -1049,8 +1074,8 @@ Button:hover {
   flex: 0 0 500px; }
 
 .photo-container {
-  width: 550px;
-  height: 333px; }
+  width: 650px;
+  height: 433px; }
 
 .content-block-services {
   width: 80%;
