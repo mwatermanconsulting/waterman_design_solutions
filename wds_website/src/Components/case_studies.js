@@ -22,7 +22,7 @@ class case_studies extends Component {
                          <div className="flex-layout-section-full flex-layout-justified-sb align-items-center">
                             <div className="flex-layout-content-container margin-top-25 flex-layout-center-center">
                                 <div className="content-header flex-layout-column">    
-                                    <h3 className="subtitle flex-layout-center">Customer Success Spotlight</h3>
+                                    <h2 className="title flex-layout-center">Customer Success Spotlight</h2>
                                 <div className="content-block width-100">
                                     <p className="content-text-18 text-align-center">Every project has a story. Below are our most interesting stories </p>
                                 </div>
@@ -47,8 +47,9 @@ class case_studies extends Component {
                                         <p><i> Industry: Technology</i></p>
                                             <p className="content-text-18 content-block">High Volume of returns plaguing Motorola Gateway Router Product Line. 
                                             After two failed attempts by UX/UI developers, a frustrated management group decided they needed a designer to make their modem app easier to use. <br/><br/>
-
-                                             <a href="./case_study_1" className="text-black" target="_blank">Read More....</a>   
+                                            <p className="content-text-18 content-block-why">The home division of Motorola was set to implement ground breaking 
+                                            technology for their gateway router product line. Until the decision was made to delay the effort until the problems related to the line were solved.   <br/><br/>
+                             <a href="./case_study_1" className="text-black" target="_blank">Read More....</a>   
                                         </p>
                                         </div>
                                     </div>
@@ -81,10 +82,10 @@ class case_studies extends Component {
                                     <div className="container-image-block">
                                         <img className="image-container-content" src  alt="Blended Teams" /> 
                                     </div> 
-                                        <h3 className="text-white">Stubhub Stuff</h3>
+                                        <h4 className="text-white">Delivering an original design solution to data visuliztion leads to a 97% Adoption Rate</h4>
                                    <div className="content-block">
-                                            <p className="content-text-18 content-block-why">Our <a href="./core_offerings" target="_blank">multi-disciplined teams</a> teams work collaboratively to design software solutions based on user needs.  Designers, strategists, marketers and program 
-                                                managers work together to achieve success.  <br/><br/>
+                                            <p className="content-text-18 content-block-why">Finding traction on a new application is tough challenge. 
+                                            WDS implemented our methodology for Stubhub to deliver a design solution that was beyound their expectations.  <br/><br/>
                                             
                                                 <a href="./case_study_2" className="text-black" target="_blank">Read More....</a> 
                                             </p>
@@ -100,9 +101,8 @@ class case_studies extends Component {
                                     </div> 
                                         <h3 className="text-white">OSI Stuff</h3>
                                         <div className="content-block">
-                                            <p className="content-text-18 content-block-why padding-bottom-50">Our <a href="./core_offerings" target="_blank">multi-disciplined teams</a> teams work collaboratively to design 
-                                            software solutions based on user needs.  Designers, strategists, marketers and program 
-                                            managers work together to achieve success. <br/><br/>
+                                            <p className="content-text-18 content-block-why padding-bottom-50">One of the world’s top technology and hardware development companies needed consistency across its enterprise suite of over 80 applications. 
+                                            A streamlined enterprise design language, uniform navigation and standard product guidelines were essential. <br/><br/>
 
                                             <a href="./case_study_3" className="text-black" target="_blank">Ream More....</a> 
                                             </p>
