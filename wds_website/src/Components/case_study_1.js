@@ -16,30 +16,11 @@ class why_wds extends Component {
                         <div className="content-header flex-layout-center-center"> 
                             <div className="title">Motorola</div>
                         </div>
-                            <div className="content-header flex-layout-center-center">
-                                <div className="subtitle">Need a Good powerful sentence here</div>
-                                </div>
-                                <div className="flex-content-container">
-                                    <div className="content-header"> 
-                                        <div className="title">Motorola</div>
+                        <div class="overlay-container">
+                            <a href="#"><span class="overlay-blue"></span></a>
+                                <img alt="Image" src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg" />
                                     </div>
-                                    <div className="content-header">
-                                        <div className="subtitle">Need a Good powerful sentence here</div>
-                                    </div>
-                                    <div className="content-block-why">
-                                        <p className="content-text-18">We have a unique and established <a href="./methodology" target="_blank">methodology</a> for understanding people in context — we reveal unmet needs — which drives everything we do. This leads to a crisp, clear understanding of the 
-                                            customer, which shapes the design and development of new solutions and experiences. <br/>
-                                        </p>
-                                    </div>
-                                    <div className="flex-container-button margin-top-50">
-                                        <Button className="button"><a href="./core_offerings" className="text-black" target="_blank">Core Offerings</a></Button> 
-                                        <Button className="button"><a href="./aboutus" className="text-black" target="_blank">About US</a></Button>
-                                        <Button className="button"><a href="./case_studies" className="text-black" target="_blank">Case Studies</a></Button>
-                                        <Button className="button"><a href="./clients" className="text-black" target="_blank">Clients</a></Button>
-                                    </div>
-                                </div>
-                            </div>
-                     <div className="content-block-why">
+                        <div className="content-block-why">
                             <p className="content-text-18">Motorola decided to hire vendors/consultants to solve these problems. After two failed attempts by UX/UI developers, a 
                             frustrated management group decided they needed a designer. After an initial consultation, WDS was hired to figure out what went wrong and come to a solution. 
                             <br/>During the research phase, the objective is to use the methodology to find problems, document, research and being to develop an action plan.</p>
