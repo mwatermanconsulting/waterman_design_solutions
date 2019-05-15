@@ -4,7 +4,7 @@ import './stylesheets/css/mui.css';
 import { Layout, Button, Header, Navigation, Drawer, Content } from 'react-mdl';
 import { Footer, FooterSection, FooterDropDownSection, FooterLinkList, } from 'react-mdl';
 import Main from './Components/main';
-import logo from './images/wds-logo.svg'
+import logo from './images/WDS-logo.svg'
 import { Link } from 'react-router-dom';
 
 
@@ -15,7 +15,7 @@ class App extends Component {
 
       //Header //
 
-      <div className="flex-container100">
+      <div className="container-grid">
         <Layout>
             <Header className="header red text-white" title={<Link style={{textDecoration: 'none',
             color: 'white'}} to="/"><img src={logo} height="65px" alt="header" /></Link>} scroll>

@@ -1,0 +1,12 @@
+/*******************************
+          Grid
+  *******************************/
+
+  .container-grid {
+    grid-template-rows: auto;
+    grid-template-columns: repeat(12, 1fr);
+    display: grid;
+    min-width: 1920px;
+
+  }
+

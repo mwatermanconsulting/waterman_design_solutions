@@ -42,8 +42,8 @@ class case_studies extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="flex-layout-column flex-layout-section-full">
-                    <div className="flex-items-justified-center flex-layout-justified-sa flex-layout-row margin-top-50"> 
+                <div className="flex-layout-row flex-layout-section-full flex-layout-justified-sa margin-top-100">
+                    <div className="flex-layout-column"> 
                         <div className="card-case-studies content-header flex-layout-column flex-sh-500">
                             <div className="container-image-block">
                                 <img className="" src={motorola}  alt="motorola before and after" /> 
@@ -63,7 +63,8 @@ class case_studies extends Component {
                     
                             </div>
                         </div>
-                        <div className="card-case-studies content-header flex-layout-column flex-sh-500 ">
+                        </div>
+                        <div className="card-case-studies content-header flex-layout-column flex-sh-500 margin-top-100">
                             <div className="container-image-block">
                                 <img className="image-size-100" src={stubhub}  alt="motorola before and after" /> 
                             </div>
@@ -83,41 +84,38 @@ class case_studies extends Component {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                            <div className="flex-items-justified-center flex-layout-justified-sa flex-layout-row margin-top-150"> 
-                                <div className="card-case-studies content-header flex-layout-column flex-sh-500">
+                       </div>
+                            <div className="flex-items-justified-center flex-layout-justified-sa flex-layout-column"> 
+                                <div className="card-case-studies content-header flex-layout-column">
                                     <div className="container-image-block">
-                                        <img className="" src={pfizer}  alt="motorola before and after" /> 
+                                        <img className="image-size-100" src={pfizer}  alt="motorola before and after" /> 
                                     </div>  
                                     <div className="flex-layout-full">
                                         <div className="flex-card-content flex-layout-center-center flex-layout-row flex-layout-justified-sb">
                                             <p className="subtitle text-black">Pfizer</p>
-                                            <img className="" src={pfizer_logo}  alt="motorola logo" /> 
+                                            <img className="" src={pfizer_logo}  alt="pfizer logo" /> 
                                         </div>
                                         <div className="flex-card-content">
+                                            <div className="content-block">
+                                                <p><i> Industry: Technology</i></p>
+                                                <p className="content-text-18 content-block">High Volume of returns plaguing Motorola Gateway Router Product Line. 
+                                                After two failed attempts by UX/UI developers, a frustrated management group decided they needed a designer to make their modem app easier to use. <br/><br/>
 
-                                        <div className="content-block">
-                                        <p><i> Industry: Technology</i></p>
-                                            <p className="content-text-18 content-block">High Volume of returns plaguing Motorola Gateway Router Product Line. 
-                                            After two failed attempts by UX/UI developers, a frustrated management group decided they needed a designer to make their modem app easier to use. <br/><br/>
-                                            <p className="content-text-18 content-block-why">The home division of Motorola was set to implement ground breaking 
-                                            technology for their gateway router product line. Until the decision was made to delay the effort until the problems related to the line were solved.   <br/><br/>
-                             <a href="./case_study_1" className="text-black" target="_blank">Read More....</a>  
-                                            </p>
-                                            </p>
-
+                                                <a href="./case_study_1" className="text-black" target="_blank">Read More....</a>   
+                                                </p>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </div>   
                                 </div>
-                                <div className="card-case-studies content-header flex-layout-column flex-sh-500 ">
+                                <div className="card-case-studies content-header flex-layout-column margin-top-100">
                                     <div className="container-image-block">
-                                        <img className="image-size-100" src={osi}  alt="motorola before and after" /> 
+                                        <img className="image-size-100" src={osi}  alt="osi before and after" /> 
                                     </div>
                                 
-                                    <div className="flex-layout-full" style={{marginTop:25}}>
-                                        <div className="flex-card-content flex-layout-center-center flex-layout-row flex-layout-justified-sb">
-                                            <p className="subtitle text-black">StubHub</p>
-                                            <img className="" src={osi_logo}  alt="motorola logo" /> 
+                                    <div className="flex-layout-section-full">
+                                        <div className="flex-card-content flex-layout-center-center flex-layout-justified-sb">
+                                            <p className="subtitle text-black">OSI</p>
+                                            <img className="" src={osi_logo}  alt="osi logo" /> 
                                         </div>
                                         <div className="flex-card-content">
                                             <div className="content-block">
@@ -130,42 +128,11 @@ class case_studies extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                    </div>
-                                </div>
+                                   
+                                
                             </div> 
-                                <div className="content-header flex-layout-column flex-sh-500">
-                                    <div className="container-image-block">
-                                        <img className="image-container-content" src  alt="Blended Teams" /> 
-                                    </div> 
-                                        <h4 className="text-white">Delivering an original design solution to data visuliztion leads to a 97% Adoption Rate</h4>
-                                   <div className="content-block">
-                                            <p className="content-text-18 content-block-why">Finding traction on a new application is tough challenge. 
-                                            WDS implemented our methodology for Stubhub to deliver a design solution that was beyound their expectations.  <br/><br/>
-                                            
-                                                <a href="./case_study_2" className="text-black" target="_blank">Read More....</a> 
-                                            </p>
-                                    </div>
-                                </div>    
-                                  
-                        
-                        <div className="flex-layout-column flex-layout-section- full  flex-layout-justified-sb">
-                            <div className="flex-layout-center-center flex-layout-row margin-top-50 "> 
-                                <div className="content-header flex-layout-column flex-sh-500">
-                                    <div className="container-image-block">
-                                        <img className="image-container-content" src  alt="Blended Teams" /> 
-                                    </div> 
-                                        <h3 className="text-white">OSI Stuff</h3>
-                                        <div className="content-block">
-                                            <p className="content-text-18 content-block-why padding-bottom-50">One of the world’s top technology and hardware development companies needed consistency across its enterprise suite of over 80 applications. 
-                                            A streamlined enterprise design language, uniform navigation and standard product guidelines were essential. <br/><br/>
-
-                                            <a href="./case_study_3" className="text-black" target="_blank">Ream More....</a> 
-                                            </p>
-                                        </div>
-                                </div>
-                                </div>
-                            </div>       
                         </div> 
+                    </div>
                         <div className="flex-layout-section-full flex-layout-column align-items-center margin-top-50">
                         
                             <div className="flex-layout-section thin-hr margin-tb-100" style={{ width: '90%' }}></div>
@@ -269,7 +236,7 @@ class case_studies extends Component {
             
             
                         </div>
-                    </div>
+                  
                 </div>
 
 
