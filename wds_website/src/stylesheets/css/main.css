@@ -299,7 +299,8 @@ footer {
 
 .flex-layout-section-full {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  height: auto; }
 
 .flex-layout-section-fixed {
   display: flex;
@@ -582,7 +583,7 @@ li {
   box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.25);
   width: 634px;
   max-width: 643px;
-  height: 600px; }
+  max-height: 600px; }
 
 .lightgreen {
   background-color: #BDCCD4; }
@@ -621,7 +622,7 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "poppins" sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -946,6 +947,15 @@ Button:hover {
 
 .floatleft {
   float: left; }
+
+/*******************************
+          Grid
+  *******************************/
+.container-grid {
+  grid-template-rows: auto;
+  grid-template-columns: repeat(12, 1fr);
+  display: grid;
+  min-width: 1920px; }
 
 .lightgreen {
   background-color: #BDCCD4; }
