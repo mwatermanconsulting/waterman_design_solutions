@@ -20,8 +20,17 @@ h1 {
   font-family: 'Mouse Momoirs', sans-serif;
 }
 
-.image-text {
+.image-text-left {
+  float: left;
   position: absolute;
+  margin-left: 10px;
+}
+
+.image-text-right {
+  float: right;
+  position: absolute;
+  right:1%;
+  top: 1%;
 }
 
   
@@ -86,7 +95,10 @@ p {
   color: $black;
 }
 
-
+.text-bold {
+  font-weight: bold;
+  
+}
 
 .text-white {
   color: $white;
@@ -125,6 +137,10 @@ p {
 
   .grey {
     background-color: $grey;
+  }
+
+  .grey-blue {
+    background-color: $grey-blue;
   }
 
 

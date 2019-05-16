@@ -27,7 +27,7 @@ class case_studies extends Component {
                 <div className="flex-layout-section-fixed yellow">
                     <div className="image-background-border-tb flex-layout-center-center yellow">
                         <div className="flex-image-container-child flex-layout-center-center">
-                            <h1 className="image-text title text-white">Client Case Studies</h1>
+                            <h1 className="image-text-left title text-white">Client Case Studies</h1>
                             <img className="flex-image-container-child border-3px image-size-fixed" src={caseStudies}  alt="case studies" />     
                         </div>
                     </div>

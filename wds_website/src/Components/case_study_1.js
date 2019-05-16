@@ -1,232 +1,83 @@
-import React, { Component } from 'react' 
+import React, { Component } from 'react'
+import motorola_bg from '../images/bg-motorola.png';
+import motorola_logo from '../images/icon-motorola-white.svg'; 
+import motorola_s1 from '../images/photo-Motorola_2.png';
 
-class why_wds extends Component {
+class case_study_1 extends Component {
     render () {
         return(
-            <div className="flex-layout-column">
-                <div className="flex-layout-section">
-                    <div className="image-background-border-tb flex-layout-center-center">
-                        <div className="flex-image-container flex-layout-center-center">
-                            <img className="flex-image-container" src  alt="girls picture" /> 
-                        </div>
-                    </div> 
-                </div>
-                <div className="flex-layout-section margin-top-50">
-                    <div className="flex-content-container flex-layout-center-center">
+            <div className="flex-layout-column flex-layout-section-full">
+                <div className="flex-layout-section-full">
+                <div className="image-background-border-tb">
+                    <div className="flex-layout-row width-100"> 
+                        <h1 className="image-text-left text-white">Motorola</h1>
+                        <img className="image-text-right" src={motorola_logo}  alt="Why WDS background" /> 
+                        <img className="flex-image-container" src={motorola_bg}  alt="Why WDS background" /> 
+                     </div>
+                </div> 
+            </div>
+                <div className="flex-layout-section-full">
+                    <div className="content-container margin-top-50">
                         <div className="content-header flex-layout-center-center"> 
-                            <div className="title">Motorola</div>
-                        </div>
-                        <div class="overlay-container">
-                            <a href="#"><span class="overlay-blue"></span></a>
-                                <img alt="Image" src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg" />
-                                    </div>
-                        <div className="content-block-why">
-                            <p className="content-text-18">Motorola decided to hire vendors/consultants to solve these problems. After two failed attempts by UX/UI developers, a 
-                            frustrated management group decided they needed a designer. After an initial consultation, WDS was hired to figure out what went wrong and come to a solution. 
-                            <br/>During the research phase, the objective is to use the methodology to find problems, document, research and being to develop an action plan.</p>
-                        </div>
+                            <div className="content-block-half content-text-24"> The home division of Motorola was set to implement ground breaking technology for their gateway router product line, until the decision was made to delay the effort until the problems related to the line were solved.
+                            </div>
                         </div>
                     </div>
-                    <div className="flex-layout-section-full align-items-center green">
-                        <div className="flex-layout-content-container margin-top-25 flex-layout-center-center">
-                            <div className="content-header flex-layout-column">    
-                                <h3 className="subtitle flex-layout-center">Developing the Hypothesis - Finding the Truth!</h3>
-                            <div className="content-block width-100">
-                                <p className="content-text-18 text-align-center">Every consultation engagement presents its challenges Understanding the user and the business is essential. 
-                                For Motorola we started by doing a creative design critique on current modem UI. Next is focusing on the businesses competitors. The main goal of competitors research 
-                                is to find out if and how they solved the same problems and issues. What were their design solutions.  <br/><br/>
-
-                                During the research phase, the objective is to use WDS flexible methodology to find problems, document, research and being to develop an action plan.
-                                </p>
-                            </div>
-                            <div className="content-header flex-layout-center-center margin-top-25">
-                                <div className="title-center">Research Plan </div>
-                            </div>
-                                    <ul>
-                                        <li>Current UI interface design critique</li>
-                                        <li>Competitive analysis</li>
-                                        <li>Business analysis</li>
-                                        <li>Find out shareholders expectations and job functions</li>
-                                        <li>Gather Requirements</li>
-                                        <li>Gather Style Guides and Marketing materials</li>
-                                    </ul>
+                <div className="container-grid-cs">
+                <div className="a content-header flex-layout-column flex-sh-500" >
+                    <div className="subtitle bold">The Problem</div>
+                        <div className="subtitle margin-bottom-20">Customer Disconnect</div>
+                            <div className="content-block-services">
+                                <p className="content-text-18">Motorola decided to outsource the UX designer position. After two failed attempts to solve these problems. The management team decided to find a vendor that was a true UX designer with a proven methodology. After an initial consultation, WDS was hired to to use their methodology to figure out what went wrong and come to a design solution.</p> 
+                                    <p> One of the first issues that WDS saw was the starting page to the right. For the personas that was developed for this project, this first screen would have been confusing and led to this product being returned.</p> 
                                 </div>
-                            </div>
                         </div>
-                        <div className="flex-layout-column flex-layout-justified-sb">
-                            <div className="flex-layout-section-full green">     
-                                <div className="flex-layout-row flex-layout-center-center margin-top-50"> 
-                                    <div className="content-header flex-layout-column flex-sh-500">
-                                        <h3 className="text-white">BLENDED TEAMS</h3>
-                                            <div className="content-block">
-                                                    <p className="content-text-18 content-block-why">Our <a href="./core_offerings" target="_blank">multi-disciplined teams</a> teams work collaboratively to design software solutions based on user needs.  Designers, strategists, marketers and program 
-                                                        managers work together to achieve success.  
-                                                    </p>
-                                            </div>
-                                    </div>
-                                        <div className="flex-layout-column flex-sh-500">
-                                            <div className="container-image-block">
-                                                <img className="flex-image-container" src  alt="Blended Teams" /> 
-                                            </div>
-                                        </div>
-                                    </div>
+                    <div className="flex-layout-column grey-blue padding">
+                        <div className="b container-image-block">
+                              <img className="photo-container" src={motorola_s1} alt="consulting"/> 
+                        </div>
+                    </div>
+                    <div className="c content-header flex-layout-column flex-sh-500" >
+                        <h3 className="subtitle">Phase 2 - Findings</h3>
+                            <h3 className="subtitle">Developing Personas</h3>
+                                <div className="content-block-services">
+                                        <p className="content-text-18">The UI design of the modem was confusing and scary for the user. Based on the data collected from the call center, a persona was developed to reflect the user experience. </p>
+                                        <p>Persona (Mary): </p>
+                                        <p>A mother who comes home from work after purchasing Motorola’s latest modem and wants to get it all connected before she starts dinner. 
+                                        What do you think she’s thinking when looking at this screen? Does she think this is intuitive, and if this is your mother-in-law, will she be calling you?</p>                              
+                                        <p>Wifi section was the greatest challenge</p>
+                                        <p>Critique current UI</p>
+                                        <p>Document findings</p>
                                 </div>
-                            </div>
-                            <div className="flex-layout-column flex-layout-justified-sb">
-                                <div className="flex-layout-section-full green">     
-                                    <div className="flex-layout-row-reverse flex-layout-center-center margin-top-50"> 
-                                        <div className="content-header flex-layout-column flex-sh-500">
-                                            <h3 className="text-white">Experience</h3>
-                                                <div className="content-block">
-                                                    <p className="content-text-18 content-block-why">We’ve been building great experiences with world-leading brands for over 15 years. Our designs have helped business grow and understand their users. 
-                                                            All our <a href="./clients" target="_blank">clients</a> have full confidence that WDS can deliver the right results.
-                                                    </p>
-                                            </div>
-                                    </div>
-                                        <div className="flex-layout-column flex-sh-500">
-                                            <div className="container-image-block">
-                                                <img className="flex-image-container" src  alt="Blended Teams" /> 
-                                            </div>
-                                        </div>
-                                    </div>
+                        </div>
+                        <div className="flex-layout-column grey-blue padding">
+                        <div className="b container-image-block">
+                              <img className="photo-container" src={motorola_s1} alt="consulting"/> 
+                        </div>
+                    </div>
+                    <div className="content-header flex-layout-column flex-sh-500" >
+                            <h3 className="subtitle">Pain Points</h3>
+                            <h3 className="subtitle">Developing the Hypothesis</h3>
+                                <div className="content-block-services">
+                                        <p className="content-text-18">Every consultation engagement presents its challenges. Understanding the user and the business is essential. 
+                                        WDS started by doing a creative design critique on the current modem UI. The main goal of competitors research is to find out if and how they solved the same problems and issues. What were their design solutions. </p>
+
+                                        <p>During the research phase, the objective is to use the methodology to find problems, document, research and being to develop a UX action plan. Below is the research plan for Motorola. </p>  
                                 </div>
-                             </div>
-                             <div className="flex-layout-column flex-layout-justified-sb">
-                                <div className="flex-layout-section-full green">     
-                                    <div className="flex-layout-row flex-layout-center-center margin-top-50"> 
-                                        <div className="content-header flex-layout-column flex-sh-500">
-                                            <h3 className="text-white">Trend Setters</h3>
-                                                <div className="content-block">
-                                                    <p className="content-text-18 content-block-why">For the last 15 years WDS has been a leading trend setter for the industry. Our <a href="./design_solutions" target="_blank">design solutions</a> have been 
-                                                    copied and used across many verticals. 
-                                                    </p>
-                                            </div>
-                                    </div>
-                                        <div className="flex-layout-column flex-sh-500">
-                                            <div className="container-image-block">
-                                                <img className="flex-image-container" src  alt="Blended Teams" /> 
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                             </div>
-                             <div className="flex-layout-column flex-layout-justified-sb">
-                                <div className="flex-layout-section-full green">     
-                                    <div className="flex-layout-row-reverse flex-layout-center-center margin-top-50"> 
-                                        <div className="content-header flex-layout-column flex-sh-500">
-                                            <h3 className="text-white">Focus</h3>
-                                                <div className="content-block">
-                                                    <p className="content-text-18 content-block-why">We’ve been building great experiences with world-leading brands for over 15 years. Our designs have helped business grow and understand their users. 
-                                                            All our clients have full confidence that WDS can deliver the right results.
-                                                    </p>
-                                            </div>
-                                    </div>
-                                        <div className="flex-layout-column flex-sh-500">
-                                            <div className="container-image-block">
-                                                <img className="flex-image-container" src  alt="Blended Teams" /> 
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                             </div>
-                             <div className="flex-layout-column flex-layout-justified-sb">
-                                <div className="flex-layout-section-full green">     
-                                    <div className="flex-layout-row flex-layout-center-center margin-top-50"> 
-                                        <div className="content-header flex-layout-column flex-sh-500">
-                                            <h3 className="text-white">Removing Risk</h3>
-                                                <div className="content-block">
-                                                    <p className="content-text-18 content-block-why">Risk exists in every project. 
-                                                    We help our clients mitigate risk, however, by fully researching and documenting not only the needs and desires of their customers, 
-                                                    but the reasons those needs are important. 
-                                                    </p>
-                                            </div>
-                                    </div>
-                                        <div className="flex-layout-column flex-sh-500">
-                                            <div className="container-image-block">
-                                                <img className="flex-image-container" src  alt="Blended Teams" /> 
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                             </div>
-                             <div className="flex-layout-column flex-layout-justified-sb">
-                                <div className="flex-layout-section-full green">     
-                                    <div className="flex-layout-row-reverse flex-layout-center-center margin-top-50"> 
-                                        <div className="content-header flex-layout-column flex-sh-500">
-                                            <h3 className="text-white">Business Results</h3>
-                                                <div className="content-block">
-                                                    <p className="content-text-18 content-block-why">We’ve been building great experiences with world-leading brands for over 15 years. Our designs have helped business grow and understand their users. 
-                                                            All our clients have full confidence that WDS can deliver the right results.
-                                                    </p>
-                                            </div>
-                                    </div>
-                                        <div className="flex-layout-column flex-sh-500">
-                                            <div className="container-image-block">
-                                                <img className="flex-image-container" src  alt="Blended Teams" /> 
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                             </div>
-                                <div className="flex-layout-center green padding-bottom-50 bottom-border">
-                                    <button type="button" className="margin-top-50">Check Out Our Success Stories</button>
-                                </div>
-                                <div className="flex-layout-row flex-layout-center-center"> 
-                                    <div className="content-header flex-layout-column flex-sh-500">
-                                        <h3 className="sub-title">Your Business and User Needs Are Our Whole Focus</h3>
-                                            <div className="content-block">
-                                                <p className="content-text-18"> WDS is the leader in understanding and empathizing with the user. Our proven process to the development of mobile, cloud, web and workplace software. 
-                                                    The company is actively redefining the user experience (UX) and changing the ways people interact with technology around the world. Our design solutions have been copied by the industry leaders and set standard 
-                                                    for the way modern businesses design software, WDS designs emotionally rich, resonant solutions that enable customers and end users to fully realize technology’s potential in today’s connected world.
-                                                <br/></p> 
-                                            </div>
-                                        </div>
-                                    <div className="flex-layout-column">
-                                        <div className="container-image-block">
-                                            <img className="flex-image-container" alt="Your Business is Our Joy" /> 
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="flex-container-small image-background-border-tb flex-layout-center-center"> 
-                                    <div className="flex-layout-row">
-                                        <div className="flex-layout-column flex-container-text-small flex-sh-400">
-                                            <div className="title-small">WE'LL GET THERE FASTER, TOGETHER AS A TEAM.</div>
-                                                <div className="layout-center-justified ">
-                                                    <p className="margin-top-10">Blending teams of strategists, designers and developers together will guarantee strong communication, collaboration and team success. 
-                                                        Combined with better understanding of the problem space and validated designs, we can focus on developing secure, modern, scalable software, faster than internal or offshore teams.
-                                                    </p>
-                                                </div>
-                                            </div> 
-                                            <div className="flex-layout-column flex-container-text-small flex-sh-400">
-                                                <div className="title-small">YOU'LL HIT CLOSE TO THE MARK THE FIRST TIME.</div>
-                                                    <div className="layout-center-justified ">
-                                                        <p className="margin-top-10">We're firm believers in agile and iterative deployments as experiments, but, with longer enterprise launches and even consumer software, 
-                                                            there's still valuable data to be collected even before that first MVP. Our insights and strategies will get you moving in the right direction, and possibly uncover rewarding new opportunities.
-                                                        </p>
-                                                </div>
-                                            </div> 
-                                            <div className="flex-layout-colum flex-container-text-small flex-sh-400">
-                                                <div className="title-small">YOUR USERS AND CUSTOMERS WILL LOVE IT.</div>
-                                                    <div className="layout-center-justified ">
-                                                        <p className="margin-top-10">In workplace and enterprise solutions, users know when someone understands their needs, making them feel like experts. 
-                                                            They know when there's attention to design details. They know when it's intuitive and visually pleasing - and they love it. 
-                                                            With consumers, if you miss the mark, you'll fail fast, and not in a good way.
-                                                        </p>
-                                                    </div>
-                                            </div> 
-                                            <div className="flex-layout-column flex-container-text-small flex-sh-400">
-                                                <div className="title-small">READY TO IMPROVE YOUR BUSINESS METRICS? WE ARE.</div>
-                                                    <div className="layout-center-justified">
-                                                        <p className="margin-top-10">We're not only here to build and launch great technology solutions, but to help you and your team improve your business in tangible ways. 
-                                                         We've helped increase conversion by 200%, reduced operations time by 15%, and increased channel utilization by 75%. It all leads to millions in revenue and cost savings.
-                                                        </p> 
-                                                    </div> 
-                                            </div> 
-                                        </div>
-                                    
-                                </div>
-                            </div>                                   
+                        </div>
+                        <div className="flex-layout-column grey-blue padding">
+                        <div className="container-image-block">
+                              <img className="photo-container" src={motorola_s1} alt="consulting"/> 
+                        </div>
+                    </div>
+                    
+
+                </div>
+                
+                    
+                </div>    
+            </div>                               
                             )
                         }
                     }
-export default why_wds;
+export default case_study_1;

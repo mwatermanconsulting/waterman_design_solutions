@@ -398,6 +398,9 @@ footer {
   font-weight: 700;
   margin: 0; }
 
+.content-block-half {
+  width: 50%; }
+
 /*  Alighnment   */
 .align-items-center {
   align-items: center; }
@@ -542,8 +545,8 @@ footer {
 .marginleft50 {
   margin-left: 50px; }
 
-.margin-top-50 {
-  margin-top: 50px; }
+.margin-bottom-20 {
+  margin-bottom: 20px; }
 
 .margin-bottom-50 {
   margin-bottom: 50px; }
@@ -557,11 +560,17 @@ footer {
 .margin-top-10 {
   margin-top: 10px; }
 
+.margin-top-50 {
+  margin-top: 50px; }
+
 .margin-top-100 {
   margin-top: 100px; }
 
 .margin-top-150 {
   margin-top: 150px; }
+
+.margin-top-200 {
+  margin-top: 200px; }
 
 .padding-bottom-50 {
   padding-bottom: 50px; }
@@ -572,6 +581,11 @@ footer {
 .content-text-18 {
   font-family: Roboto;
   font-size: 1.2rem; }
+
+.content-text-24 {
+  font-family: 'Poppin', 'Roboto';
+  font-size: 1.6rem;
+  line-height: 1.5; }
 
 .text-white {
   color: #fff; }
@@ -638,8 +652,16 @@ body {
 h1 {
   font-family: 'Mouse Momoirs', sans-serif; }
 
-.image-text {
-  position: absolute; }
+.image-text-left {
+  float: left;
+  position: absolute;
+  margin-left: 10px; }
+
+.image-text-right {
+  float: right;
+  position: absolute;
+  right: 1%;
+  top: 1%; }
 
 a {
   color: #ba1004; }
@@ -687,6 +709,9 @@ p {
 .text-black {
   color: #000; }
 
+.text-bold {
+  font-weight: bold; }
+
 .text-white {
   color: #fff; }
 
@@ -715,6 +740,9 @@ p {
 
 .grey {
   background-color: #6B8086; }
+
+.grey-blue {
+  background-color: #a6bbc0b3; }
 
 /*******************************
        Global Images
@@ -963,6 +991,32 @@ Button:hover {
   grid-template-columns: repeat(12, 1fr);
   display: grid;
   min-width: 1920px; }
+
+.container-grid-cs {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  display: grid; }
+
+.a {
+  grid-column: 1 / 2;
+  grid-row: 1 / auto;
+  padding: 10px; }
+
+.b {
+  grid-column: 2 / 3;
+  grid-row: 1 / auto;
+  padding: 10px; }
+
+.a {
+  grid-column: 1 / 2;
+  grid-row: 1 / auto;
+  padding: 10px; }
+
+.b {
+  grid-column: 2 / 3;
+  grid-row: 1 / auto;
+  padding: 10px; }
 
 .lightgreen {
   background-color: #BDCCD4; }

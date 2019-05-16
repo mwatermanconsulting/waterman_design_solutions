@@ -10,7 +10,7 @@ class core_offerings extends Component {
             <div className="flex-layout-section-full">
                 <div className="image-background-border-tb">
                     <div className="flex-image-container flex-item-bottom flex-items-justified-center">
-                        <h1 className="image-text title text-white">Core Offerings</h1>
+                        <h1 className="image-text-left title text-white">Core Offerings</h1>
                         <img className="flex-image-container" src={offerings}  alt="Why WDS background" /> 
                      </div>
                 </div> 
