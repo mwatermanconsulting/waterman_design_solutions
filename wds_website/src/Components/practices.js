@@ -10,9 +10,9 @@ class practices extends Component {
     render () {
         return(
         <div className="flex-layout-column margin-bottom-50"> 
-            <div className="flex-layout-section-full">
+            <div className="flex-section-fixed-head">
                 <div className="image-background-border-tb">
-                    <div className="flex-image-container flex-item-bottom">
+                    <div className="flex-image-container flex-item-bottom grey">
                         <img className="image-size-100 container image-size-100" src={practice}  alt="Why WDS background image" /> 
                     </div>
                 </div> 

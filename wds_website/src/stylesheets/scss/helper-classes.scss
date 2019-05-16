@@ -110,6 +110,14 @@
     flex-direction: column;
     height: 725px; 
   }
+
+  .flex-section-fixed-head {
+    display: flex;
+    height: 100%;
+    min-height: 729px;
+    background-color: $grey;
+
+  }
   
   .flex-layout-section-row {
     display: flex;
