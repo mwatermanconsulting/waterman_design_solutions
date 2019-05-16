@@ -778,13 +778,11 @@ a:hover {
   color: #ba1004; }
 
 .title {
-  font-family: 'Mouse Memoirs', sans-serif;
-  font-size: 10.0rem;
-  margin-bottom: 15px;
-  line-height: 55.5px; }
+  font-family: 'Poppins', sans-serif;
+  font-size: 6rem; }
 
 .title-center {
-  font-family: 'Mouse Memoirs', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 10.0rem;
   margin-bottom: 15px;
   line-height: 55.5px;
