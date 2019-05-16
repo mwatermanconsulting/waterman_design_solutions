@@ -6,8 +6,8 @@ class practices extends Component {
         return(
             
           
-        <div className="flex-layout-column margin-bottom-50"> 
-            <div className="flex-layout-section-full">
+        <div className="flex-layout-column margin-bottom-50 m,a"> 
+            <div className="flex-section-fixed-head">
                 <div className="image-background-border-tb">
                     <div className="flex-image-container flex-item-bottom">
                         <img className="flex-image-container image-size-100" src={method}  alt="Method WDS background" /> 

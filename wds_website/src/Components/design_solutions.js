@@ -6,7 +6,7 @@ class design_solutions extends Component {
     render () {
         return(
         <div className="flex-layout-column"> 
-            <div className="flex-layout-section-full">
+            <div className="flex-layout-fixed-head">
                 <div className="image-background-border-tb">
                     <div className="flex-image-container flex-item-bottom">
                         <img className="flex-image-container container image-size-100" src={design}  alt="Why WDS background" /> 

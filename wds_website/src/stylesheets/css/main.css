@@ -292,6 +292,12 @@ footer {
   flex-direction: column;
   height: 725px; }
 
+.flex-section-fixed-head {
+  display: flex;
+  height: 100%;
+  min-height: 729px;
+  background-color: #6B8086; }
+
 .flex-layout-section-row {
   display: flex;
   flex-direction: row;
@@ -707,6 +713,9 @@ p {
 .red {
   color: #ba1004; }
 
+.grey {
+  background-color: #6B8086; }
+
 /*******************************
        Global Images
   *******************************/
@@ -1078,6 +1087,11 @@ Button:hover {
 
 .content-block-why {
   width: 350px; }
+
+.content-block-full {
+  width: 100%;
+  height: auto;
+  flex-wrap: nowrap; }
 
 .content-block-cs {
   width: 575px; }
