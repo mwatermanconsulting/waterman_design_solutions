@@ -998,14 +998,13 @@ Button:hover {
 .container-grid-cs {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
-  grid-gap: 10px;
+  grid-gap: 2px;
   display: grid; }
 
 .item-a {
   grid-column: 1 / 2;
   grid-row: 1 / auto;
-  padding: 10px;
-  margin-left: 75px; }
+  align-items: center; }
 
 .item-b {
   grid-column: 2 / 3;
@@ -1016,8 +1015,8 @@ Button:hover {
 .item-c {
   grid-column: 1 / 2;
   grid-row: 2 / auto;
-  padding: 10px;
-  margin-left: 75px; }
+  align-items: center;
+  border-top: 2px solid #dfdfdf; }
 
 .item-d {
   grid-column: 2 / 3;
@@ -1028,8 +1027,8 @@ Button:hover {
 .item-e {
   grid-column: 1 / 2;
   grid-row: auto;
-  padding: 10px;
-  margin-left: 75px; }
+  align-items: center;
+  border-top: 2px solid #dfdfdf; }
 
 .item-f {
   grid-column: 2 / 3;
