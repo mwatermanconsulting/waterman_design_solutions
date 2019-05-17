@@ -17,26 +17,44 @@
     display: grid;
   }
 
-  .a {
+  .item-a {
     grid-column: 1 / 2;
     grid-row: 1 / auto;
     padding:10px;
+    margin-left: 75px;
   }
 
-  .b {
+  .item-b {
     grid-column: 2 / 3;
     grid-row: 1 / auto;
     padding:10px;
+    justify-content: center;
   }
-  .a {
+  .item-c {
     grid-column: 1 / 2;
-    grid-row: 1 / auto;
+    grid-row: 2 / auto;
     padding:10px;
+    margin-left: 75px;
   }
 
-  .b {
+  .item-d {
     grid-column: 2 / 3;
-    grid-row: 1 / auto;
+    grid-row: 2 / auto;
     padding:10px;
+    justify-content: center; 
+  }
+
+  .item-e {
+    grid-column: 1 / 2;
+    grid-row: auto;
+    padding:10px;
+    margin-left: 75px;
+  }
+
+  .item-f {
+    grid-column: 2 / 3;
+    grid-row: auto;
+    padding:10px;
+    justify-content: center; 
   }
 
