@@ -78,7 +78,7 @@ class case_studies extends Component {
                                             <p><i> Industry: Technology</i></p>
                                             <p className="content-text-18 content-block">High Volume of returns plaguing Motorola Gateway Router Product Line. 
                                             After two failed attempts by UX/UI developers, a frustrated management group decided they needed a designer to make their modem app easier to use. <br/><br/>
-                                             <a href="./case_study_1" className="text-black" target="_blank">Read More....</a>   
+                                             <a href="./case_study_2" className="text-black" target="_blank">Read More....</a>   
                                             </p>
                                         </div>
                                     </div>
@@ -101,7 +101,7 @@ class case_studies extends Component {
                                                 <p className="content-text-18 content-block">High Volume of returns plaguing Motorola Gateway Router Product Line. 
                                                 After two failed attempts by UX/UI developers, a frustrated management group decided they needed a designer to make their modem app easier to use. <br/><br/>
 
-                                                <a href="./case_study_1" className="text-black" target="_blank">Read More....</a>   
+                                                <a href="./case_study_3" className="text-black" target="_blank">Read More....</a>   
                                                 </p>
                                             </div>
                                         </div>
@@ -123,7 +123,7 @@ class case_studies extends Component {
                                                 <p className="content-text-18 content-block">High Volume of returns plaguing Motorola Gateway Router Product Line. 
                                                 After two failed attempts by UX/UI developers, a frustrated management group decided they needed a designer to make their modem app easier to use. <br/><br/>
 
-                                                <a href="./case_study_1" className="text-black" target="_blank">Read More....</a>   
+                                                <a href="./case_study_4" className="text-black" target="_blank">Read More....</a>   
                                                 </p>
                                             </div>
                                         </div>

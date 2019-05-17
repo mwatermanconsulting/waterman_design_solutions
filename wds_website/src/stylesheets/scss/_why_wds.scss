@@ -103,4 +103,29 @@
     @include overlay-color(yellow, $colorone);
   }
 
+  .content-block-75 {
+    width: 75%;
+}
+
+.content-block-60 {
+  width: 60%;
+}
+
+.title-case {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  color: $dk-grey-blue;
+  font-weight: bold;
+}
+
+.subtitle-case {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+}
+
+
+
+
+
+
     
