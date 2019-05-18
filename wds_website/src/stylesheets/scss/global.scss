@@ -43,6 +43,12 @@ code {
     monospace;
 }
 
+ul {
+  margin:0;
+  list-style-type: none;
+  }
+  li:before { content: "- ";}
+
 h1 {
   font-family: 'Mouse Momoirs', sans-serif;
 }

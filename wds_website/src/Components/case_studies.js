@@ -37,7 +37,7 @@ class case_studies extends Component {
                         <div className="content-header flex-layout-column">    
                             <h3 className="subtitle flex-layout-center">Customer Success Spotlight</h3>
                             <div className="content-block width-100">
-                                <p className="content-text-18 text-align-center">Every project has a story. Below are our most interesting stories </p>
+                                <p className="content-text-18 text-align-center">Every project has a story. Design is the telling of that story. Below are some of our favorite case stud </p>
                             </div>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ class case_studies extends Component {
                                 <div className="content-block">
                                     <p><i> Industry: Technology</i></p>
                                     <p className="content-text-18 content-block">High Volume of returns plaguing Motorola Gateway Router Product Line. 
-                                        After two failed attempts by UX/UI developers, a frustrated management group decided they needed a designer to make their modem app easier to use. <br/><br/>
+                                        After two failed attempts by UX/UI developers, a frustrated management group decided they needed a UX designer to solve the problems.<br/><br/>
 
                                     <a href="./case_study_1" className="text-black" target="_blank">Read More....</a>   
                                     </p>
