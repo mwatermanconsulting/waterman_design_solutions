@@ -672,6 +672,13 @@ a {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace; }
 
+ul {
+  margin: 0;
+  list-style-type: none; }
+
+li:before {
+  content: "- "; }
+
 h1 {
   font-family: 'Mouse Momoirs', sans-serif; }
 
@@ -995,6 +1002,12 @@ Button:hover {
   display: grid;
   min-width: 1920px; }
 
+.container-grid-3col {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 2px;
+  display: grid; }
+
 .container-grid-cs {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
@@ -1004,7 +1017,8 @@ Button:hover {
 .item-a {
   grid-column: 1 / 2;
   grid-row: 1 / auto;
-  align-items: center; }
+  align-items: center;
+  border-top: 2px solid #dfdfdf; }
 
 .item-b {
   grid-column: 2 / 3;

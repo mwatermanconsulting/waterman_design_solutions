@@ -12,15 +12,15 @@ class case_study_2 extends Component {
                             <div className="image-background-border-tb">
                                 <div className="flex-layout-row width-100"> 
                                     <h1 className="image-text-left text-white">StubHub</h1>
-                                    <img className="image-text-right" src={stubhub_logo}  alt="Why WDS background" /> 
-                                    <img className="flex-image-container" src={stubhub_bg}  alt="Why WDS background" /> 
+                                    <img className="image-text-right" src={stubhub_logo}  alt="Stubhub Case Study Logo Image" /> 
+                                    <img className="flex-image-container" src={stubhub_bg}  alt="Stubhub Case Study " /> 
                                  </div>
                             </div> 
                         </div>
                             <div className="flex-layout-section-full">
                                 <div className="content-container margin-top-50">
                                     <div className="content-header flex-layout-center-center"> 
-                                        <div className="content-block-half content-text-24"> The home division of Motorola was set to implement ground breaking technology for their gateway router product line, until the decision was made to delay the effort until the problems related to the line were solved.
+                                        <div className="content-block-half content-text-24"> Stubhub was internally developing a reporting tool for the company. The goal was to create a report on demand reporting tool. After a year and two failed attempts, Stubhub decided to contract the wok out and hire WDS to solve their design problems.
                                         </div>
                                     </div>
                                 </div>

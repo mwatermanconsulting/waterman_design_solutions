@@ -140,7 +140,7 @@ class why_wds extends Component {
                                                         </p>
                                                 </div>
                                             </div> 
-                                            <div className="flex-layout-colum flex-container-text-small flex-sh-400">
+                                            <div className="flex-layout-column flex-container-text-small flex-sh-400">
                                                 <div className="title-small">YOUR USERS AND CUSTOMERS WILL LOVE IT.</div>
                                                     <div className="layout-center-justified ">
                                                         <p className="margin-top-10">In workplace and enterprise solutions, users know when someone understands their needs, making them feel like experts. 
