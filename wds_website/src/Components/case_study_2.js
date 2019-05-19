@@ -20,17 +20,17 @@ class case_study_2 extends Component {
                             <div className="flex-layout-section-full">
                                 <div className="content-container margin-top-50">
                                     <div className="content-header flex-layout-center-center"> 
-                                        <div className="content-block-half content-text-24"> Stubhub was internally developing a reporting tool for the company. The goal was to create a report on demand reporting tool. After a year and two failed attempts, Stubhub decided to contract the wok out and hire WDS to solve their design problems.
+                                        <div className="content-block-half content-text-24"> Stubhub was internally developing a reporting tool for the company. The goal was to create a report on demand reporting tool. After a year of two failed attempts, Stubhub decided to contract the work out and hire WDS to solve their design problems. This project had all the challenges with internal politics, tight deadlines and pressures to save a team kept our interest. 
                                         </div>
                                     </div>
                                 </div>
                             <div className="container-grid-cs margin-top-150">
                                 <div className="item-a content-header flex-layout-column flex-items-justified-center" >
                                     <div className="title-case margin-bottom-20">Backstory</div>
-                                        <div className="subtitle-case margin-bottom-20">Customer Disconnect</div>
+                                        <div className="subtitle-case margin-bottom-20">A small silo team</div>
                                             <div className="content-block-60">
-                                                <p className="content-text-18">Motorola decided to outsource the UX designer position. After two failed attempts to solve these problems. The management team decided to find a vendor that was a true UX designer with a proven methodology. After an initial consultation, WDS was hired to to use their methodology to figure out what went wrong and come to a design solution.</p> 
-                                                <p> One of the first issues that WDS saw was the starting page to the right. For the personas that was developed for this project, this first screen would have been confusing and led to this product being returned.</p> 
+                                                <p className="content-text-18">The analyst in Stubhub were unhappy with their current data visualization tools. They found the application difficult, confusing and cumbersome. One analyst presented an idea to a VP for a new custom data visualization tool. She told him to gather a team and make it happen.</p> 
+                                                <p> The first iteration was designed by the analyst. It was crude, but functional and the idea was sold to a larger shareholder base. For the next phase the small team, added a UX/UI person to the team and a new design and features went live. </p> 
                                             </div>
                                 </div>
                                 <div className="flex-layout-column grey-blue padding">
@@ -40,12 +40,9 @@ class case_study_2 extends Component {
                                 </div>
                                 <div className="item-c content-header flex-layout-column flex-items-justified-center" >
                                     <div className="title-case margin-bottom-20">Methodology Begins</div>
-                                        <div className="subtitle-case margin-bottom-20">Finding the Truth</div>
+                                        <div className="subtitle-case margin-bottom-20">Finding the Truth - Business Perspective</div>
                                             <div className="content-block-60">
-                                                    <p className="content-text-18">The UI design of the modem was confusing and scary for the user. Based on the data collected from the call center, a persona was developed to reflect the user experience. </p>
-                                                    <p>Persona (Mary): </p>
-                                                    <p>A mother who comes home from work after purchasing Motorola’s latest modem and wants to get it all connected before she starts dinner. 
-                                                    What do you think she’s thinking when looking at this screen? Does she think this is intuitive, and if this is your mother-in-law, will she be calling you?</p>                              
+                                                    <p className="content-text-18">First part of the methodolgy is always to ask a lot of questions. History of the business? Who are their competitiors? What is the problem the application is trying to solve? Who are the users? The most surprising and deflating answers I might ever got was when the team was showing the current reporting tool. When we asked "how many users? They replied, "This week we currently had 1 user visit the reporting tool" Our heart sank, this was a larger challenge they we thought.</p>
                                             </div>
                                     </div>
                                     <div className="flex-layout-column grey-blue padding">
@@ -55,12 +52,11 @@ class case_study_2 extends Component {
                                 </div>
                                 <div className="item-e content-header flex-layout-column flex-items-justified-center">
                                     <div className="title-case margin-bottom-20">The Truth</div>
-                                        <div className="subtitle-case margin-bottom-20">Presenting the Truth</div>
+                                        <div className="subtitle-case margin-bottom-20">Finding the Truth - User Perspective</div>
                                             <div className="content-block-60">
-                                                    <p className="content-text-18">Every consultation engagement presents its challenges. Understanding the user and the business is essential. 
-                                                    WDS started by doing a creative design critique on the current modem UI. The main goal of competitors research is to find out if and how they solved the same problems and issues. What were their design solutions. </p>
+                                                    <p className="content-text-18"> The easiest way to the truth is filming the user in action. Since there wasn't anyone using the application, the first question is why? What is wrong with the application? We completed a design review and formed a hypothsis of the problems. The unique part of Stubhub project was we could interview the users directly and ask them what they didn't like about the current tool. What do they want and expect from a data visualization tool? </p>
             
-                                                    <p>During the research phase, the objective is to use the methodology to find problems, document, research and being to develop a UX action plan. Below is the research plan for Motorola. </p>  
+                                                    <p>A total of 25 analysts from 8 different countries were interviewed. A sus test was presented to them for the current UI. These same analyst were included on 4 separate occasions during the process.  </p>  
                                             </div>
                                 </div>
                                 <div className="flex-layout-column grey-blue padding">
@@ -69,13 +65,21 @@ class case_study_2 extends Component {
                                     </div>
                                 </div>
                                 <div className="item-e content-header flex-layout-column flex-items-justified-center">
-                                    <div className="title-case margin-bottom-20">Solutions</div>
-                                        <div className="subtitle-case margin-bottom-20">Design Solutions</div>
+                                    <div className="title-case margin-bottom-20">Problems</div>
+                                        <div className="subtitle-case margin-bottom-20">Presenting the Truth - Business and Design Issues</div>
                                             <div className="content-block-60">
-                                                    <p className="content-text-18">Every consultation engagement presents its challenges. Understanding the user and the business is essential. 
-                                                    WDS started by doing a creative design critique on the current modem UI. The main goal of competitors research is to find out if and how they solved the same problems and issues. What were their design solutions. </p>
+                                                    <p className="content-text-18">Most failures are from a disconnect from what the user wants and expects and what they are offered. The finding that wer presented to the StubHub team:  </p>
             
-                                                    <p>During the research phase, the objective is to use the methodology to find problems, document, research and being to develop a UX action plan. Below is the research plan for Motorola. </p>  
+                                                    <ul>
+                                                        <li>Current UI confusing and out of date </li> 
+                                                        <li>Data displays did not show the numbers</li>
+                                                        <li>We want to see numbers</li>
+                                                        <li>Reports take an average of <b>3 minutes to load</b></li>
+                                                        <li>Show Us the Numbers</li>
+                                                        <li>KPI Section was unintelligible</li>
+                                                        <li>Reporting tool queue was confusing </li>
+                                                        <li>Many of the current features were not being used</li>
+                                                    </ul>
                                             </div>
                                 </div>
                                 <div className="flex-layout-column grey-blue padding">
@@ -87,10 +91,8 @@ class case_study_2 extends Component {
                                     <div className="title-case margin-bottom-20">Challenges</div>
                                         <div className="subtitle-case margin-bottom-20">Unforseen Challenges</div>
                                             <div className="content-block-60">
-                                                    <p className="content-text-18">Every consultation engagement presents its challenges. Understanding the user and the business is essential. 
-                                                    WDS started by doing a creative design critique on the current modem UI. The main goal of competitors research is to find out if and how they solved the same problems and issues. What were their design solutions. </p>
-            
-                                                    <p>During the research phase, the objective is to use the methodology to find problems, document, research and being to develop a UX action plan. Below is the research plan for Motorola. </p>  
+                                                    <p className="content-text-18">The largest challenge was over coming the 3 minute what. WDS was honest and telling the team that if they coould not get the time to be under 30 seconds than it a lost cause. WDS could create the most unique user friendly application,  but it won't matter if this challenge could not be solved.  </p>
+             
                                             </div>
                                 </div>
                                 <div className="flex-layout-column grey-blue padding">
