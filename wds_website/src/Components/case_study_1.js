@@ -67,7 +67,7 @@ class case_study_1 extends Component {
                                         <ul className="content-text-18">Motorola User Pain Points:
                                             <li>Current UI was confusing</li>
                                             <li>To much information on the page- Cognitive overload.</li> 
-                                            <li>Help was non-existit </li>
+                                            <li>Help was non-existent </li>
                                             <li>Wifi setup was the number 1 reason for returns and calls </li>
                                         </ul>     
 
@@ -82,6 +82,29 @@ class case_study_1 extends Component {
                     <div className="item-e content-header flex-layout-column flex-items-justified-center">
                         <div className="title-case margin-bottom-20"  style ={{width:'60%'}}>Challenges</div>
                             <div className="subtitle-case margin-bottom-20"  style ={{width:'60%'}}>Asking Questions and Unforseen Issues</div>
+                                <div className="content-block-60">
+                                        <p className="content-text-18">Two Users - Cable Operators and average consumers. One of the most confusing elements of the UI was the acronyms and the task flow, for the average consumer. For the cable operator they were comforting and expected. Changing the interface, but moving or changing names would affect the cable operators. The solutions would need to be invisible to the cable operators. </p>
+
+                                        <p className="content-text-18">Presenting findings and asking questions of the stakeholders alway uncovers unforseen challenges.</p>
+
+                                        <ul className="content-text-18">Unforseen Issues:
+                                            <li>No communication between teams </li>
+                                            <li>Responsive UI with IE 9 compatibility </li> 
+                                            <li>Two User Types</li>
+                                            <li>Entire project under 1mb</li>
+                                        </ul>     
+
+                                </div>
+                           </div>     
+                     <div className="flex-layout-column grey-blue padding">
+                        <div className="item-f container-image-block">
+                            <img className="photo-container" src={motorola_s1} alt="consulting"/> 
+                        </div>
+                    </div>   
+                    
+                    <div className="item-e content-header flex-layout-column flex-items-justified-center">
+                        <div className="title-case margin-bottom-20"  style ={{width:'60%'}}>Master Plan</div>
+                            <div className="subtitle-case margin-bottom-20"  style ={{width:'60%'}}>Solving the the Problems</div>
                                 <div className="content-block-60">
                                         <p className="content-text-18">Two Users - Cable Operators and average consumers. One of the most confusing elements of the UI was the acronyms and the task flow, for the average consumer. For the cable operator they were comforting and expected. Changing the interface, but moving or changing names would affect the cable operators. The solutions would need to be invisible to the cable operators. </p>
 
@@ -151,7 +174,6 @@ class case_study_1 extends Component {
                                 <div className="content-block-60">
                                         <p className="content-text-18">WDS knew for this project to be a success the customer needed to feel supported and guided. A new approach to help needed to be developed. None of the competitors handled in context help, one even had the nerve to offer on-line help. WDS solved this problem elegantly, allowing the user to clink on the help link and a row opens below to reveal the answers. This solution tested very well during the testing phase</p>
 
-                                        
                                 </div>
                     </div>
                     
@@ -181,7 +203,28 @@ class case_study_1 extends Component {
                         <div className="title-case margin-bottom-20" style ={{width:'60%'}}>Solution</div>
                             <div className="subtitle-case margin-bottom-20" style ={{width:'60%'}}>Mobile Application Design Solution</div>
                                 <div className="content-block-60">
-                                        <p className="content-text-18">Stakholders were thrilled that the quick start algorythm could also be used for determining best placement for the Modem. WDS designed and developed work flows for the application.</p> 
+                                        <p className="content-text-18">Stakeholders were thrilled that one of WDS design solutions was a companion IOS application The quick start algorithm could also be used for determining best placement for the Modem. WDS designed and developed work flows and testing for the new application.</p> 
+                                </div>
+                    </div>
+                    <div className="flex-layout-column grey-blue padding">
+                        <div className="item-f container-image-block">
+                            <img className="photo-container" src={motorola_s1} alt="consulting"/> 
+                        </div>
+                    </div>
+
+                    <div className="item-e content-header flex-layout-column flex-items-justified-center">
+                        <div className="title-case margin-bottom-20" style ={{width:'60%'}}>Deployment</div>
+                            <div className="subtitle-case margin-bottom-20" style ={{width:'60%'}}>Highlights of Project</div>
+                                <div className="content-block-60">
+                                        <p className="content-text-18">One of the issues that surprized us the most was the design of the user interface. WDS figured all Motorola public facing products would be branded. WDS solved this by correcting the communication issues between the teams, specifically marketing, product and home division. At the start of the project WDS organized monthly and milestone meetings between the teams. Product, marketing and home division communication was still strong well after WDS left. The approved design was going to be adapted to the rest of the product line.</p> 
+                                        
+                                        <ul className="content-text-18">Project Highlights:
+                                            <li>Entire project under 1mb</li>
+                                            <li>First css style sheet in Motorola Products </li>
+                                            <li>Pattern Library </li> 
+                                            <li>Style Guide </li>
+                                            <li>Communication between teams improved</li>
+                                        </ul>     
                                 </div>
                     </div>
                     <div className="flex-layout-column grey-blue padding">
