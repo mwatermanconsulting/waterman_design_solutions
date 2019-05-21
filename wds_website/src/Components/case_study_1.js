@@ -2,6 +2,11 @@ import React, { Component } from 'react'
 import motorola_bg from '../images/bg-motorola.png';
 import motorola_logo from '../images/icon-motorola-white.svg'; 
 import motorola_s1 from '../images/photo-Motorola_2.png';
+import motorola_beforeafter from '../images/photo-motorola-beforeafter.png';
+import motorola_before_wireless from '../images/photo-motorola-before-wireless.png';
+import motorola_before_basic from '../images/photo-motorola-before-basic.png';
+import motorola_start from '../images/photo-motorola-after-surfboard.png';
+
 
 class case_study_1 extends Component {
     render () {
@@ -34,7 +39,7 @@ class case_study_1 extends Component {
                     </div>
                     <div className="flex-layout-column grey-blue padding">
                         <div className="item-b container-image-block">
-                              <img className="photo-container" src={motorola_s1} alt="consulting"/> 
+                              <img className="photo-container" src={motorola_beforeafter} alt="Motorola Project Backstory"/> 
                         </div>
                     </div>
                     <div className="item-c content-header flex-layout-column flex-items-justified-center" >
@@ -54,29 +59,29 @@ class case_study_1 extends Component {
                         </div>
                         <div className="flex-layout-column grey-blue padding">
                         <div className="item-d container-image-block">
-                              <img className="photo-container" src={motorola_s1} alt="Case Study Image 1"/> 
+                              <img className="photo-container" src={motorola_before_wireless} alt="Case Study Image 2"/> 
                         </div>
                     </div>
                     <div className="item-e content-header flex-layout-column flex-items-justified-center">
                         <div className="title-case margin-bottom-20"  style ={{width:'60%'}}>UX Plan</div>
                             <div className="subtitle-case margin-bottom-20"  style ={{width:'60%'}}>Finding the Truth - Customer Perspective</div>
                                 <div className="content-block-60">
-                                        <p className="content-text-18">The best method of finding the truth is to film the user in their natural habitat, using the product. In the case of Motorola this was not possible, due to the large usage base. Instead WDS adapted its methodology to study a three month block of call center calls, as well as ghosting call center calls for a week. With this information we started to see patterns and begin to establish a numeric based error system to uncover the truth to the problems. In this phase it is critical to become the user. Emphazing with the task they need to complete. Vieiwng the problems and issues through the eyes of the user. Another pattern that is always uncovered is user personalities types. Which leads to the creation of personas, journey maps and task flows. </p>
+                                        <p className="content-text-18">The best method of finding the truth is to film the user in their natural habitat, using the product. In the case of Motorola this was not possible, due to the large usage base. Instead WDS adapted its methodology to study a three month block of call center calls, as well as ghosting call center calls for a week. With this information we started to see patterns and begin to establish a numeric based error system to uncover the truth to the problems. In this phase it is critical to become the user. Emphazing with the task they need to complete. Viewing the problems and issues through the eyes of the user. Another pattern that is always uncovered is user personalities types. Which leads to the creation of personas, journey maps and task flows. </p>
 
 
-                                        <ul className="content-text-18">Motorola User Pain Points:
+                                        <ol className="content-text-18">Motorola User Pain Points:
                                             <li>Current UI was confusing</li>
                                             <li>To much information on the page- Cognitive overload.</li> 
                                             <li>Help was non-existent </li>
-                                            <li>Wifi setup was the number 1 reason for returns and calls </li>
-                                        </ul>     
+                                            <li>Wi-Fi setup was the number 1 reason for returns and calls </li>
+                                        </ol>     
 
 
                                 </div>
                     </div>
                     <div className="flex-layout-column grey-blue padding">
                         <div className="item-f container-image-block">
-                            <img className="photo-container" src={motorola_s1} alt="consulting"/> 
+                            <img className="photo-container" src={motorola_before_basic} alt="Questions"/> 
                         </div>
                     </div>
                     <div className="item-e content-header flex-layout-column flex-items-justified-center">
@@ -98,7 +103,7 @@ class case_study_1 extends Component {
                            </div>     
                      <div className="flex-layout-column grey-blue padding">
                         <div className="item-f container-image-block">
-                            <img className="photo-container" src={motorola_s1} alt="consulting"/> 
+                            <img className="photo-container" src={motorola_before_wireless} alt="consulting"/> 
                         </div>
                     </div>   
                     
@@ -150,7 +155,7 @@ class case_study_1 extends Component {
                     </div>
                     <div className="flex-layout-column grey-blue padding">
                         <div className="item-f container-image-block">
-                            <img className="photo-container" src={motorola_s1} alt="consulting"/> 
+                            <img className="photo-container" src={motorola_start} alt="consulting"/> 
                         </div>
                     </div>
                     <div className="item-e content-header flex-layout-column flex-items-justified-center">
