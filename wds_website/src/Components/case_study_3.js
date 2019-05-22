@@ -1,6 +1,6 @@
 import React, { Component } from 'react' ;
 import { Button } from 'react-mdl';
-import stubhub_bg from '../images/bg-stubhub.png';
+import pfizer_bg from '../images/bg-pfizer.png';
 import stubhub_logo from '../images/icon-logo-stubhub.svg'; 
 import motorola_s1 from '../images/photo-Motorola_2.png';
 
@@ -13,14 +13,14 @@ class case_study_2 extends Component {
                                 <div className="flex-layout-row width-100"> 
                                     <h1 className="image-text-left text-white">Case Study - Pfizer</h1>
                                     <img className="image-text-right" src={stubhub_logo}  alt="Why WDS background" /> 
-                                    <img className="flex-image-container" src={stubhub_bg}  alt="Why WDS background" /> 
+                                    <img className="flex-image-container" src={pfizer_bg}  alt="Why WDS background" /> 
                                  </div>
                             </div> 
                         </div>
                             <div className="flex-layout-section-full">
                                 <div className="content-container margin-top-50">
                                     <div className="content-header flex-layout-center-center"> 
-                                        <div className="content-block-half content-text-24"> The home division of Motorola was set to implement ground breaking technology for their gateway router product line, until the decision was made to delay the effort until the problems related to the line were solved.
+                                        <div className="content-block-half content-text-24"> WDS got contracted out to contracted out to organize the information on the largest HCP initiative called PfizerPro. The initial release of the website was 25,000 pages. Working as Surreal Concepts at this time we were tasked with maintaining and updating the website weekly.
                                         </div>
                                     </div>
                                 </div>

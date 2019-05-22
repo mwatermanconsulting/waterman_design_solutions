@@ -20,7 +20,7 @@ class case_study_4 extends Component {
                             <div className="flex-layout-section-full">
                                 <div className="content-container margin-top-50">
                                     <div className="content-header flex-layout-center-center"> 
-                                        <div className="content-block-half content-text-24"> The home division of Motorola was set to implement ground breaking technology for their gateway router product line, until the decision was made to delay the effort until the problems related to the line were solved.
+                                        <div className="content-block-half content-text-24"> OsiSoft was a long term project with a few phases. The first was to design and develop and test a SaaS offering. Next develop a scalable enterprise level CSS solution with a global set of shareable classes. Finally develop a living style guide and design system with a set of guilde-lines and standards.
                                         </div>
                                     </div>
                                 </div>
