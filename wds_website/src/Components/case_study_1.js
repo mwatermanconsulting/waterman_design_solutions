@@ -24,7 +24,7 @@ class case_study_1 extends Component {
                 <div className="flex-layout-section-full">
                     <div className="content-container margin-top-50">
                         <div className="content-header flex-layout-center-center"> 
-                            <div className="content-block-half content-text-24"> Just before the home division of Motorola was sold to Google, the home division of Motorola attempted to fix the problems that were plaquing their Broad Band Modem lines. The return rate was reaching close to twenty percent and the call center cost was rising monthly. New technology for the broadband line was put on hold until the problems related to the line were solved.
+                            <div className="content-block-half content-text-24"> Just before the home division of Motorola was sold to Google, the home division of Motorola attempted to fix the problems that were plaquing their Broad Band Modem lines. The return rate was reaching close to twenty percent and large increase in call center volume. New technology for the broadband line was put on hold until the problems related to the line were solved.
                             </div>
                         </div>
                     </div>
