@@ -20,7 +20,9 @@ class why_wds extends Component {
                     <div className="flex-layout-content-container margin-top-25 flex-layout-center-center">
                         <div className="content-header flex-layout-column">    
                             <div className="content-block width-100">
-                                <h3 className="content-text-24-reverse text-white text-align-center">Hiring a UX firm that is outsourced ensures that your business is  advocating for the user as well as your business. Designers must be current and up to date with the trends which is better done on a consultant level so that you never have to worry about trying to fit us into your agile scrums. Better Sentence.
+                                <h3 className="content-text-24-reverse text-white text-align-center">WDS has been simplifying user interfaces for over 15 years. Providing design and UX solutions with a proven scalable methodology for understanding people and business in context. We reveal your customers and users expectations, needs and motivations - driving everything we do. This leads to a clear understanding of your customers and business, which shapes design and creation of unique solution and experiences.
+
+                                With our proven track record of successes, we have the experience, talent, skills and scale to deliver sophisticated and unique design solution that simplify and improve any and all touchpoints across the user journey
                                 </h3>
                             </div>
                         </div>
@@ -137,6 +139,9 @@ class why_wds extends Component {
                             </p> 
                         </div> 
                 </div> 
+            </div>
+            <div className="flex-layout-center padding-bottom-50 bottom-border yellow-bg">
+                <button type="button" className="margin-top-150 font-size-48">Check Out Services Offerings</button>
             </div>
             <div className="container-grid-2col-photo flex-layout-justified-sb border-3px bottom-border " style={{padding:'90px'}}> 
                     <div className="item-a-nb content-header flex-layout-column">
