@@ -9,10 +9,35 @@
     min-width: 1920px;
   }
 
+  .container-grid-2col {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    width: 50%;
+    align-self: center;
+    display: grid;
+    justify-content: space-around;
+  }
+
+  .container-grid-2col-photo {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    display: grid;
+  }
+
   .container-grid-3col {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     grid-gap: 2px;
+    display: grid;
+
+  }
+
+  .container-grid-4col {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 50px;
     display: grid;
 
   }
@@ -24,11 +49,66 @@
     display: grid;
   }
 
+  .grid-item-a {
+    grid-column: 1 / 2;
+    grid-row: 1 / auto;
+    align-items: center;
+  }
+
+  .grid-item-b {
+    grid-column: 2 / 3;
+    grid-row: 1 / auto;
+    align-items: center;
+  }
+
+  .grid-item-c {
+    grid-column: 1 / 3;
+    grid-row: 2 / auto;
+    align-items: center;
+  }
+
+  .grid-item-d {
+    grid-column: 2 / 3;
+    grid-row: 2/ auto;
+    align-items: center;
+  }
+
+  .grid-item-d4 {
+    grid-column: 4 / 4;
+    align-items: center;
+  }
+
+  .grid-item-e {
+    grid-column: 1 / 2;
+    grid-row: 3 / auto;
+    align-items: center;
+  }
+
+  .grid-item-f {
+    grid-column: 2 / 2;
+    grid-row: 3/ auto;
+    align-items: center;
+  }
+
+  .item-a-nb {
+    grid-column: 1 / 2;
+    grid-row: 1 / auto;
+    align-items: center;
+    justify-content: center;
+  }
+
   .item-a {
     grid-column: 1 / 2;
     grid-row: 1 / auto;
     align-items: center;
     border-top: 2px solid #dfdfdf;
+  }
+
+  .item-overlay {
+    grid-column: 2 / 2;
+    grid-row: 1 / auto;
+    align-items: center;
+    background-color: rgba(227,206,113, 0.8);
   }
 
   .item-b {
@@ -37,11 +117,18 @@
     padding:10px;
     justify-content: center;
   }
+
   .item-c {
     grid-column: 1 / 2;
     grid-row: 2 / auto;
     align-items: center;
     border-top: 2px solid #dfdfdf;
+  }
+
+  .item-c-nb {
+    grid-column: 1 / 2;
+    grid-row: 2 / auto;
+    align-items: center;
   }
 
   .item-d {
@@ -51,7 +138,7 @@
     justify-content: center; 
   }
 
-  .item-e {
+  .item-e-nb {
     grid-column: 1 / 2;
     grid-row: auto;
     align-items: center;
