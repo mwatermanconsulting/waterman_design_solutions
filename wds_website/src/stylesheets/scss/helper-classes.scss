@@ -80,8 +80,6 @@
     margin: 100px 0 100px;
   }
 
-
-
   .padding-bottom-50 {
     padding-bottom: 50px;
   }
@@ -227,8 +225,6 @@
       flex-direction: column;
       width: 50%;
   }
-
-  
   
   .width-half {
     width:50%;
@@ -386,7 +382,12 @@
     border-top: 5px solid $black;
     border-bottom: 5px solid $black;
   }
-  
+
+  .border-bottom-5 {
+    border-bottom: 5px solid #000;
+  }
+
+
   .servicespic {
     max-height: 500px;
     margin-right: 20px; }
@@ -460,6 +461,12 @@
     .content-text-24 {
       font-family: 'Poppin', 'Roboto';
       font-size: 1.6rem;
+      line-height: 1.5 
+    }
+
+    .content-text-48 {
+      font-family: 'Poppin', 'Roboto';
+      font-size: 3.2rem;
       line-height: 1.5 
     }
   

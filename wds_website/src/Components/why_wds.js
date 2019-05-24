@@ -20,7 +20,7 @@ class why_wds extends Component {
                     <div className="margin-top-25 flex-layout-center-center padding-50">
                         <div className="content-header flex-layout-column">    
                             <div className="content-block width-100">
-                                <h3 className="content-text-24-reverse text-white text-align-center">WDS has been simplifying user interfaces for over 15 years. Providing design and UX solutions with a proven scalable methodology for understanding people and business in context. We reveal your customers and users expectations, needs and motivations - driving everything we do. This leads to a clear understanding of your customers and business, which shapes design and creation of unique solution and experiences.
+                                <h3 className="content-text-24-reverse text-white text-align-center">We succeeded where others have failed. WDS has been simplifying user interfaces for over 15 years. Providing design and UX solutions with a proven scalable methodology for understanding people and business in context. We reveal your customers and users expectations, needs and motivations - driving everything we do. This leads to a clear understanding of your customers and business, which shapes design and creation of unique solution and experiences.
 
                                 With our proven track record of successes, we have the experience, talent, skills and scale to deliver sophisticated and unique design solution that simplify and improve any and all touchpoints across the user journey
                                 </h3>
@@ -30,7 +30,7 @@ class why_wds extends Component {
                 </div>
                 <div className="container-grid-2col-photo flex-layout-justified-sb yellow-bg"> 
                     <div className="item-a-nb content-header flex-layout-column">
-                        <h3 className="subtitle text-white">WDS methodology provides and uncovers solutions <br/> that redefines your business</h3>
+                        <h3 className="subtitle text-white">WDS methodology provides solutions <br/> that redefines your business</h3>
                             
                         </div>
                     <div className="item-b container-image-block yellow-bg">
@@ -40,7 +40,7 @@ class why_wds extends Component {
                 </div>
                 <div className="flex-layout-section-full align-items-center red p" style={{minHeight:'400px'}}>
                     <div className="content-header flex-layout-column">    
-                        <h3 className="title text-white padding-100 text-align-center">WDS builds emotionally rich, resonant digital solutions that enable customers and end users to fully realize technology’s complete potential in our always-on, always-connected world.
+                        <h3 className="title text-white padding-100 text-align-center">WDS builds emotionally rich, resonant digital solutions that enable customers and end users to fully realize technology’s complete potential in our always-on, always-connected world. By simplifying everything your customers touch and feel.
                         </h3>
                     </div>
                </div>
@@ -48,8 +48,8 @@ class why_wds extends Component {
                     <div className="item-a-nb content-header flex-layout-column">
                         <h3 className="subtitle">Experienced Teams</h3>
                         <div className="content-block">
-                            <p className="content-text-24 content-block-why">Our multi-disciplined teams teams work collaboratively to design software solutions based on user needs.  Designers, strategists, marketers and program 
-                            managers work together to achieve success. Text should be equal lines on both sides? </p>
+                            <p className="content-text-24 content-block-why">Our multi-disciplined teams teams work collaboratively to design software solutions based on user needs. Designers, strategists, marketers and program 
+                            managers work together to achieve success. </p>
                             <p><a href="./core_offerings" target="_blank">Learn More...</a></p>
                         </div>
                     </div>
@@ -142,7 +142,7 @@ class why_wds extends Component {
                         <h3 className="subtitle text-white">Your Customer is the focus of the entire process</h3>
                             <div className="content-block-cs">
                                 <h2> Curious to find out more? We’re more than happy to help! </h2>
-                                <p className="content-text-24">  WDS is the leader in applying experience strategy and observational insights to the development of mobile, cloud, web and your business design thinking.</p> 
+                                <p className="content-text-24">  WDS is the leader in applying design solutions, experience strategy and observational insights to the development of applications, websites, SaaS, products and mobile.</p> 
 
                                 <p>We actively redefine user experience (UX) and change the ways people interact with technology around the world. </p>
 

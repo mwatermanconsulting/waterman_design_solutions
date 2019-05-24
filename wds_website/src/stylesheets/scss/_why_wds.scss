@@ -133,6 +133,23 @@
 }
 
 
+/*******************************
+           History
+  *******************************/
+
+  .container-grid-content-2col {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 100%;
+    align-self: center;
+    display: grid;
+    justify-content: space-around;  
+    padding: 30px;
+  }
+
+
+
 
 
 
