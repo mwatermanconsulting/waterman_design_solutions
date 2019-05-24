@@ -299,7 +299,7 @@ footer {
   display: flex;
   height: 100%;
   min-height: 666px;
-  background-color: #6B8086; }
+  background-color: #a6bbc0; }
 
 .flex-layout-section-row {
   display: flex;
@@ -531,6 +531,9 @@ footer {
   border-top: 5px solid #000;
   border-bottom: 5px solid #000; }
 
+.border-bottom-5 {
+  border-bottom: 5px solid #000; }
+
 .servicespic {
   max-height: 500px;
   margin-right: 20px; }
@@ -588,6 +591,11 @@ footer {
 .content-text-24 {
   font-family: 'Poppin', 'Roboto';
   font-size: 1.6rem;
+  line-height: 1.5; }
+
+.content-text-48 {
+  font-family: 'Poppin', 'Roboto';
+  font-size: 3.2rem;
   line-height: 1.5; }
 
 .text-white {
@@ -753,7 +761,7 @@ p {
   color: #ba1004; }
 
 .grey {
-  background-color: #6B8086; }
+  background-color: #a6bbc0; }
 
 .grey-blue {
   background-color: #a6bbc0b3; }
@@ -1016,6 +1024,41 @@ Button:hover {
   display: grid;
   justify-content: space-around; }
 
+.container-grid-2col-full {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  align-self: center;
+  display: grid;
+  justify-content: space-around; }
+
+.grid-item-2a {
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
+  align-items: center; }
+
+.grid-item-2b {
+  grid-column: 2 / 2;
+  grid-row: 1 / span 6;
+  align-items: center;
+  justify-content: center;
+  align-content: center; }
+
+.grid-item-2c {
+  grid-column: 1 / 2;
+  grid-row: 4 / 4;
+  align-items: center; }
+
+.grid-item-2d {
+  grid-column: 2 / 2;
+  grid-row: 6 / 8;
+  align-items: center; }
+
+.grid-item-2e {
+  grid-column: 1 / 2;
+  grid-row: 6 / 8;
+  align-items: center; }
+
 .container-grid-2col-photo {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
@@ -1196,6 +1239,9 @@ Button:hover {
 .text {
   color: black; }
 
+.padding-50 {
+  padding: 50px; }
+
 .padding-100 {
   padding: 100px; }
 
@@ -1296,6 +1342,19 @@ Button:hover {
 .subtitle-case {
   font-family: 'Poppins', sans-serif;
   font-size: 1.2rem; }
+
+/*******************************
+           History
+  *******************************/
+.container-grid-content-2col {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+  width: 100%;
+  align-self: center;
+  display: grid;
+  justify-content: space-around;
+  padding: 30px; }
 
 /*******************************
            Practices

@@ -19,7 +19,7 @@ class core_offerings extends Component {
                         <div className="content-header flex-layout-column">    
                             <h3 className="subtitle flex-layout-center">Our Core Offerings Ensure Continued Business Success</h3>
                             <div className="content-block width-100">
-                                <p className="content-text-18 text-align-center">WDS core offering aligns customers needs nd expectation to your business needs and expectations. The WDS services provide short term solutions, while our core offerings offer lasting long term scalable solutions. Solutions that bring changes to the core of your business.</p>
+                                <p className="content-text-18 text-align-center">WDS core offering aligns customers needs and expectation to your business needs and expectations. The WDS services provide short term solutions, while our core offerings offer lasting long term scalable solutions. Solutions that bring changes to the core of your business.</p>
                             </div>
                         </div>
                     </div>
