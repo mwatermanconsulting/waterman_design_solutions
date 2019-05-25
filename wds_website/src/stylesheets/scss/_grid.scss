@@ -31,33 +31,29 @@
 .grid-item-2a {
   grid-column: 1 / 2;
   grid-row: 1 / 4;
-  align-items: center;
   }
 
 .grid-item-2b {
   grid-column: 2 / 2;
-  grid-row: 1 / span 6;
+  grid-row: 1 / span 4;
   align-items: center;
-  justify-content: center;
-  align-content: center;
 }
 
 .grid-item-2c {
   grid-column: 1 / 2;
   grid-row: 4 / 4;
-  align-items: center;
+
 }
 
 .grid-item-2d {
   grid-column: 2 / 2;
   grid-row: 6 / 8;
-  align-items: center;
 }
+
 
 .grid-item-2e {
   grid-column: 1 / 2;
   grid-row: 6 / 8;
-  align-items: center;
 }
 
 

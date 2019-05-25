@@ -20,8 +20,32 @@ body {
          Global Text
   *******************************/
 h1 {
-  font-family: 'Mouse Momoirs', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 4.236rem !important;
 }
+
+h2 {
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 2.618rem !important;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 1.618rem !important;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+
+h4 {
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 1.218rem !important;
+}
+
+
+
+
 
 .image-text-left {
   float: left;
@@ -60,6 +84,14 @@ h1 {
   font-size: 2.4rem;
   font-weight: 700;
   line-height: 1.8;
+  font-family: 'Poppins';
+}
+
+.subtitle-bold-i {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 1.2;
+  font-style: italic;
 }
 
 .subtitle-capital {

@@ -662,7 +662,24 @@ body {
          Global Text
   *******************************/
 h1 {
-  font-family: 'Mouse Momoirs', sans-serif; }
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 4.236rem !important; }
+
+h2 {
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 2.618rem !important;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important; }
+
+h3 {
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 1.618rem !important;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important; }
+
+h4 {
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 1.218rem !important; }
 
 .image-text-left {
   float: left;
@@ -694,7 +711,14 @@ h1 {
 .subtitle {
   font-size: 2.4rem;
   font-weight: 700;
-  line-height: 1.8; }
+  line-height: 1.8;
+  font-family: 'Poppins'; }
+
+.subtitle-bold-i {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 1.2;
+  font-style: italic; }
 
 .subtitle-capital {
   font-size: 1.8rem;
@@ -1034,30 +1058,24 @@ Button:hover {
 
 .grid-item-2a {
   grid-column: 1 / 2;
-  grid-row: 1 / 4;
-  align-items: center; }
+  grid-row: 1 / 4; }
 
 .grid-item-2b {
   grid-column: 2 / 2;
-  grid-row: 1 / span 6;
-  align-items: center;
-  justify-content: center;
-  align-content: center; }
+  grid-row: 1 / span 4;
+  align-items: center; }
 
 .grid-item-2c {
   grid-column: 1 / 2;
-  grid-row: 4 / 4;
-  align-items: center; }
+  grid-row: 4 / 4; }
 
 .grid-item-2d {
   grid-column: 2 / 2;
-  grid-row: 6 / 8;
-  align-items: center; }
+  grid-row: 6 / 8; }
 
 .grid-item-2e {
   grid-column: 1 / 2;
-  grid-row: 6 / 8;
-  align-items: center; }
+  grid-row: 6 / 8; }
 
 .container-grid-2col-photo {
   grid-template-columns: repeat(2, 1fr);
@@ -1245,6 +1263,11 @@ Button:hover {
 .padding-100 {
   padding: 100px; }
 
+.padding-100-nb {
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-right: 100px; }
+
 .flex-container-small {
   display: flex;
   height: 500px; }
@@ -1372,6 +1395,10 @@ Button:hover {
 .photo-container {
   width: 650px;
   height: 433px; }
+
+.photo-container-xsm {
+  width: 127px;
+  height: 132px; }
 
 .content-block-services {
   width: 80%;
