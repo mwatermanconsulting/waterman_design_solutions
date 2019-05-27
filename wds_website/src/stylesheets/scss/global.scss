@@ -76,6 +76,15 @@ h1 {
   font-family: 'Mouse Momoirs', sans-serif;
 }
 
+.call-out-text {
+  font-size: 1.5625rem;
+  font-family: 'Roboto Slab', serif;
+  line-height: 2.12;
+  letter-spacing: 0.8px;
+  text-align: center;
+  color: $white;
+}
+
 .title {
   font-family: 'Oswald', sans-serif;
   font-size: 3.05rem;
@@ -222,6 +231,12 @@ p {
   .image-size-50 {
     height: 50%;
     width: 50%;
+  }
+
+
+  .image-size-75 {
+    height: 75%;
+    width: 75%;
   }
 
 
