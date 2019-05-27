@@ -249,7 +249,7 @@ class case_study_2 extends Component {
                             <img className="photo-container-cs-sb1" src={stubhub_after_13} alt="Finding the Truth - Business Perspective"/>
                             <p className="margin-top-15"><i>Clicking on the option button, open the option panel</i></p>
                         </div>
-                        <div className="flex-layout-full flex-section-align-center margin-top-100">
+                        <div className="flex-layout-full margin-top-100">
                             <div className="content-header flex-layout-column">
                                 <div className="subtitle margin-top-15">
                                     Solution for Pain Point 5 - KPI Section Design
@@ -270,8 +270,8 @@ class case_study_2 extends Component {
                             <img className="photo-container-cs-sb1" src={stubhub_before_2} alt="Finding the Truth - Business Perspective"/>
                             <p className="margin-top-15"><i>Confusing and incoherent</i></p>
                         </div>
-                        <div className="flex-layout-full flex-section-align-center margin-top-100">
-                            <div className="content-header flex-layout-column">
+                        <div className="flex-layout-full margin-top-100">
+                            <div className="content-header flex-layout-column flex-layout-center-center">
                                     <div className="title">Results</div>
                                         <div className="subtitle margin-top-15">Solution for Pain Point 6 - Get More Users</div>
                                             <div className="content-block-cs margin-top-15">
