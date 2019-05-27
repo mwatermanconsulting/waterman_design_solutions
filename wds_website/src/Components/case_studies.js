@@ -1,14 +1,14 @@
 import React, { Component } from 'react' ;
 import { Button } from 'react-mdl';
 import caseStudies from '../images/bg-casestudies.png';
-import motorola from '../images/photo-motorola-beforeafter.png';
+import motorola from '../images/photos/photo-motorola-beforeafter.png';
 import motorola_logo from '../images/motorola_logo.svg'
 import stubhub_logo from '../images/icon-logo-stubhub.svg'
-import stubhub from '../images/photo-stubhub-before-after.png'
+import stubhub from '../images/photos/photo-stubhub-before-after.png'
 import pfizer_logo from '../images/icon-logo-pfizer.svg'
-import pfizer from '../images/photo-pfizer-before-after.png'
+import pfizer from '../images/photos/photo-pfizer-before-after.png'
 import osi_logo from '../images/icon-logo-osi.svg'
-import osi from '../images/photo-osi-before-after.png'
+import osi from '../images/photos/photo-osi-before-after.png'
 import az from '../images/az.png'
 import KetchHot from '../images/ketchhot.png'
 import wcc from '../images/wcc.png'

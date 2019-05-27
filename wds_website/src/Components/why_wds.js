@@ -1,7 +1,7 @@
 import React, { Component } from 'react' ;
 import { Button } from 'react-mdl';
 import why from '../images/bg-why-wds.svg';
-import together from '../images/photo-why-wds-s2.png';
+import together from '../images/photos/photo-why-wds-s2.png';
 import care from '../images/graphic-why.svg';
 
 

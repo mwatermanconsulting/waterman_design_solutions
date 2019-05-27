@@ -44,20 +44,16 @@ h4 {
 }
 
 
-
-
-
-.image-text-left {
+.header-text-left {
   float: left;
   position: absolute;
-  margin-left: 10px;
+  left: 7%;
 }
 
-.image-text-right {
+.header-text-right {
   float: right;
   position: absolute;
-  right:1%;
-  top: 1%;
+  right:7%;
 }
 
   
@@ -80,11 +76,29 @@ h1 {
   font-family: 'Mouse Momoirs', sans-serif;
 }
 
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.05rem;
+  line-height: 1.25;
+  color: $title-grey;
+}
+  
+.title-center {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10.0rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+  line-height: 55.5px;
+  text-align: center;
+}
+
 .subtitle {
-  font-size: 2.4rem;
-  font-weight: 700;
+  font-size: 2.44375rem;
+  font-weight: 500;
   line-height: 1.8;
-  font-family: 'Poppins';
+  font-family: 'Oswald';
+  color: $sub-title-grey;
+  font-weight: 400;
 }
 
 .subtitle-bold-i {
@@ -95,14 +109,14 @@ h1 {
 }
 
 .subtitle-capital {
-  font-size: 1.8rem;
+  font-size: 2.44375rem;
   font-weight: 700;
   line-height: 1.8;
   text-transform: capitalize;
 }
 
 .subtitle-reverse {
-  font-size: 2.4rem;
+  font-size: 2.44375rem;
   font-weight: 700;
   line-height: 1.8;
   color: $white;
@@ -160,6 +174,13 @@ p {
 .container-card-content {
   height: auto;
   margin: -10px 10px 5px 10px
+}
+
+.content-container-cs {
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
 
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react' ;
 import history from '../images/bg-ourhistory.png'
-import photo_history from '../images/photo-history-s1.png'
+import photo_history from '../images/photos/photo-history-s1.png'
 import time from '../images/WDS-timeline.png'
 import mike from '../images/mike.png';
 import terri from '../images/terri.png';
@@ -28,7 +28,7 @@ class about extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="container-grid-2col-full margin-top-100 margin-bottom-100 flex-layout-center-center" style={{width:'80%'}}>
+                <div className="flex-layout-section-full flex-layout-column margin-top-100 margin-bottom-100 flex-layout-center-center" style={{width:'80%'}}>
                     <div className="content-header grid-item-2a">
                         <h3 className="subtitle-bold-i content-block-75 margin-top-50">When it comes to front-end design and CSS, WDS has experience and working knowledge of this design language since its infancy in 1996.</h3>
                    </div> 

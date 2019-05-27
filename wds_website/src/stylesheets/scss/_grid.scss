@@ -9,6 +9,20 @@
     min-width: 1920px;
   }
 
+  .container-grid-cs {
+    grid-template-columns: 1, 1fr;
+    grid-template-rows: auto;
+    grid-gap: 50px;
+    align-self: center;
+    display: grid;
+  }
+
+  .grid-item-cs {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+
+
   .container-grid-2col {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;

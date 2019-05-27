@@ -1,10 +1,10 @@
 import React, { Component } from 'react' ;
 import practice from '../images/bg-services.svg';
-import services2 from '../images/photo-services-s2.png';
-import services3 from '../images/photo-services-s3.png';
-import services4 from '../images/photo-services-s4.png';
-import services5 from '../images/photo-services-s5.png';
-import services6 from '../images/photo-services-s6.png';
+import services2 from '../images/photos/photo-services-s2.png';
+import services3 from '../images/photos/photo-services-s3.png';
+import services4 from '../images/photos/photo-services-s4.png';
+import services5 from '../images/photos/photo-services-s5.png';
+import services6 from '../images/photos/photo-services-s6.png';
 
 class practices extends Component {
     render () {

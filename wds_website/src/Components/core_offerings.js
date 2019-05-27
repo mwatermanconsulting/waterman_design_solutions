@@ -1,7 +1,7 @@
 import React, { Component } from 'react' ;
 import offerings from '../images/bg-core-studies.png';
 import ux from '../images/ux_process.png';
-import offerings_photo from '../images/photo-core-offerings-s3.png';
+import offerings_photo from '../images/photos/photo-core-offerings-s3.png';
 
 class core_offerings extends Component {
     render () {

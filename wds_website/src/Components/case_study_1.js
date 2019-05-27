@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import motorola_bg from '../images/bg-motorola.png';
 import motorola_logo from '../images/icon-motorola-white.svg'; 
-import motorola_s1 from '../images/photo-Motorola_2.png';
-import motorola_beforeafter from '../images/photo-motorola-beforeafter.png';
-import motorola_before_wireless from '../images/photo-motorola-before-wireless.png';
-import motorola_before_basic from '../images/photo-motorola-before-basic.png';
-import motorola_start from '../images/photo-motorola-after-surfboard.png';
+import motorola_s1 from '../images/photos/photo-Motorola_2.png';
+import motorola_beforeafter from '../images/photos/photo-motorola-beforeafter.png';
+import motorola_before_wireless from '../images/photos//photo-motorola-before-wireless.png';
+import motorola_before_basic from '../images/photos//photo-motorola-before-basic.png';
+import motorola_start from '../images/photos/photo-motorola-after-surfboard.png';
 
 
 class case_study_1 extends Component {
