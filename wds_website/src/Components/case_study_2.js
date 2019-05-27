@@ -17,12 +17,16 @@ import stubhub_after_5 from '../images/photos/photo-stubhub-after-4.png';
 import stubhub_results from '../images/photos/photo-stubhub-results.png';
 import stubhub_after_13 from '../images/photos/photo-stubhub-after-13.png';
 import stubhub_dashboard from '../images/photos/photo-stubhub-future-dashboard2.png';
+import thumbsUp from '../images/thumbsup.svg';
 import stubhub_s2 from '../images/photos/photo-stubHub-s2.png';
+import motorola_bg from '../images/bg-motorola.png';
+import motorola_logo from '../images/icon-motorola-white.svg'; 
+
 
 class case_study_2 extends Component {
     render () {
         return(
-            <div className="flex-layout-column flex-layout-section-full">
+            <div className="flex-layout-column flex-layout-section-full flex-las">
                 <div className="flex-layout-section-full">
                     <div className="image-background-border-tb">
                         <div className="flex-layout-row width-100"> 
@@ -91,7 +95,7 @@ class case_study_2 extends Component {
                     </div>
                 </div>
                 <div className="flex-layout-section-full padding grey flex-layout-center-center margin-top-100">
-                    <p className="content-text-24 text-white">Since there was only one user the first questions to everyone was why?</p>
+                    <p className="call-out-text">Since there was only one user the first questions to everyone was why?</p>
                 </div>
                 <div className="container-grid-2col margin-top-100">
                     <div className="content-header flex-layout-column flex-layout-center-center" >
@@ -282,12 +286,27 @@ class case_study_2 extends Component {
                             <img className="photo-container-cs-sb1" src={stubhub_results} alt="Finding the Truth - Business Perspective"/>
                             <p className="margin-top-15 margin-bottom-100"><i>StubHub happily emailed WDS this screenshot six months after release </i></p>
                         </div>
-                                
-            
-                           
-                            
-                                
-                            </div>    
+                        <div className="container-grid-2col-photo border-3px bottom-border grey" style={{height:'450px'}}>
+                            <div className="item-a-nb">
+                                <p className="call-out-text" style={{width:'900px'}}>A few months after completing the project, We contacted the team to check-in and make sure they were still doing the blog and emails. They said there was no need to push for more users, they currently had 172 users and there were only 175 analysts in the company. In 5 months the reporting tool went from a 1% total usage to 98% and the team couldn't be happier. 
+                                </p>
+                            </div>
+                            <div className="item-b">
+                                <img src={thumbsUp} alt="Finding the Truth - Business Perspective"/>
+                            </div>
+                        </div>
+                        <div className="flex-layout-section-full">
+                        <div className="image-background-border-tb">
+                    <div className="flex-layout-row width-100"> 
+                        <h1 className="header-text-right text-white">
+                            Next - Motorola Case Study
+                        </h1>
+ 
+                        <img className="flex-image-container" src={motorola_bg}  alt="Motorola background" /> 
+                     </div>
+                </div> 
+            </div>
+                    </div>    
                                               
                                         )
                                     }

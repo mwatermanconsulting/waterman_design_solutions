@@ -302,7 +302,7 @@ footer {
   display: flex;
   height: 100%;
   min-height: 666px;
-  background-color: #a6bbc0; }
+  background-color: #a4a4a4; }
 
 .flex-layout-section-row {
   display: flex;
@@ -749,6 +749,14 @@ li:before {
 h1 {
   font-family: 'Mouse Momoirs', sans-serif; }
 
+.call-out-text {
+  font-size: 1.5625rem;
+  font-family: 'Roboto Slab', serif;
+  line-height: 2.12;
+  letter-spacing: 0.8px;
+  text-align: center;
+  color: #fff; }
+
 .title {
   font-family: 'Oswald', sans-serif;
   font-size: 3.05rem;
@@ -848,7 +856,7 @@ p {
   color: #ba1004; }
 
 .grey {
-  background-color: #a6bbc0; }
+  background-color: #a4a4a4; }
 
 .grey-blue {
   background-color: #a6bbc0b3; }
@@ -867,6 +875,10 @@ p {
 .image-size-50 {
   height: 50%;
   width: 50%; }
+
+.image-size-75 {
+  height: 75%;
+  width: 75%; }
 
 .image-size-100 {
   height: 100%;
@@ -1171,7 +1183,9 @@ Button:hover {
 .grid-item-b {
   grid-column: 2 / 3;
   grid-row: 1 / auto;
-  align-items: center; }
+  align-items: center;
+  justify-self: center;
+  align-self: center; }
 
 .grid-item-c {
   grid-column: 1 / 3;
@@ -1201,7 +1215,9 @@ Button:hover {
   grid-column: 1 / 2;
   grid-row: 1 / auto;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  justify-self: center;
+  align-self: center; }
 
 .item-a {
   grid-column: 1 / 2;
@@ -1219,7 +1235,8 @@ Button:hover {
   grid-column: 2 / 3;
   grid-row: 1 / auto;
   padding: 10px;
-  justify-content: center; }
+  justify-content: center;
+  justify-self: center; }
 
 .item-c {
   grid-column: 1 / 2;

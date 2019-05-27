@@ -15,8 +15,8 @@ class case_study_1 extends Component {
                 <div className="flex-layout-section-full">
                 <div className="image-background-border-tb">
                     <div className="flex-layout-row width-100"> 
-                        <h1 className="image-text-left text-white">Motorola</h1>
-                        <img className="image-text-right" src={motorola_logo}  alt="Motorola Logo" /> 
+                        <h1 className="header-text-left text-white">Motorola</h1>
+                        <img className="header-text-right" src={motorola_logo}  alt="Motorola Logo" /> 
                         <img className="flex-image-container" src={motorola_bg}  alt="Motorola background" /> 
                      </div>
                 </div> 
