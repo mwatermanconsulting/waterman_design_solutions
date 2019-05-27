@@ -26,7 +26,7 @@ import motorola_logo from '../images/icon-motorola-white.svg';
 class case_study_2 extends Component {
     render () {
         return(
-            <div className="flex-layout-column flex-layout-section-full flex-las">
+            <div className="flex-layout-column flex-layout-section-full">
                 <div className="flex-layout-section-full">
                     <div className="image-background-border-tb">
                         <div className="flex-layout-row width-100"> 
@@ -54,26 +54,27 @@ class case_study_2 extends Component {
                     <div className="content-block-cs"> Stubhub was internally developing a reporting tool for the company. The goal was to create a custom on-demand data reporting tool. Their first release was not successful and after a year Stubhub needed answers. Six months later WDS turned a failure into successful case study.
                     </div>  
                 </div> 
-                <div className="flex-layout-section-full margin-top-100">
-                    <div className="content-header flex-layout-column flex-layout-center-center" >
+                <div className="flex-layout-section-full flex-section-align-center margin-top-100">
+                    <div className="content-header flex-layout-column">
                         <div className="title">
                                 Backstory
                         </div>
-                        <div className="subtitle margin-top-15">
+                        <div className="subtitle margin-top-25">
                                 A Small Silo Team
+                        </div>
                         </div>
                         <div className="content-block-cs margin-top-15">
                             <p className="content-text-18">Everyone at Stubhub was unhappy the current data visualization application, especially the analysts. They found the application difficult, confusing and cumbersome. One analyst presented an idea to a CTO for a new custom data visualization tool. She told him to gather a team and make it happen.</p> 
                             <p className="content-text-18"> The first iteration was designed by the analyst. It was crude, but functional and the idea was sold to a larger shareholder base. For the next phase the small team, contracted a UX/UI person to the team and a new design and with many new features went live. But it was not well received by the stakeholders or adopted ny the larger Stubhub base. </p> 
                         </div>
-                    </div>
+                    
                 </div>
-                <div className="flex-layout-section-full flex-layout-column margin-top-100" >
-                    <div className="content-header flex-layout-column flex-layout-center-center" >
+                <div className="flex-layout-section-full flex-section-align-center margin-top-100" >
+                    <div className="content-header flex-layout-column" >
                         <div className="title">
                                 Methodology Begins
                         </div>
-                        <div className="subtitle margin-top-15">
+                        <div className="subtitle margin-top-25">
                                 Finding the Truth - Business Perspective
                         </div>
                         <div className="content-block-cs margin-top-15">
@@ -97,8 +98,8 @@ class case_study_2 extends Component {
                 <div className="flex-layout-section-full padding grey flex-layout-center-center margin-top-100">
                     <p className="call-out-text">Since there was only one user the first questions to everyone was why?</p>
                 </div>
-                <div className="container-grid-2col margin-top-100">
-                    <div className="content-header flex-layout-column flex-layout-center-center" >
+                <div className="container-grid-2col flex-section-align-center margin-top-100">
+                    <div className="content-header flex-layout-column" >
                         <div className="title">
                             UX Plan
                         </div>
@@ -126,8 +127,8 @@ class case_study_2 extends Component {
                             <p className="content-text-24">A total of 25 analysts from 8 different countries were interviewed. A 
                             System Usability Scale (SUS) test was presented to them<br/> for the current UI. The same analyst were included on 4 separate testing occasions during the process. </p>
                         </div>           
-                    <div className="flex-layout-full margin-top-100">
-                        <div className="content-header flex-layout-column flex-layout-center-center">
+                    <div className="flex-layout-full flex-section-align-center margin-top-100">
+                        <div className="content-header flex-layout-column">
                             <div className="title">
                                 Challenges
                             </div>
@@ -149,7 +150,7 @@ class case_study_2 extends Component {
                         </div>
                     </div>
                    <div className="flex-layout-full margin-top-100 padding-100 border-tb">
-                       <div className="content-header flex-layout-column border-tp flex-layout-center-center">
+                       <div className="content-header flex-layout-column border-tp">
                             <div className="title">
                                 Master Plan
                             </div>
@@ -185,8 +186,8 @@ class case_study_2 extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex-layout-full margin-top-100">
-                            <div className="content-header flex-layout-column  flex-layout-center-center">
+                        <div className="flex-layout-full margin-top-100 flex-section-align-center">
+                            <div className="content-header flex-layout-column ">
                                 <div className="title">
                                     Solutions
                                 </div>
@@ -204,8 +205,8 @@ class case_study_2 extends Component {
                             <img className="photo-container-cs-sb1" src={stubhub_after_1} alt="Finding the Truth - Business Perspective"/>
                             <p className="margin-top-15"><i> Approved Design for the new Stubhub Reporting Tool</i></p>
                         </div>
-                        <div className="flex-layout-full margin-top-50">
-                            <div className="content-header flex-layout-column  flex-layout-center-center">
+                        <div className="flex-layout-full flex-section-align-center margin-top-50">
+                            <div className="content-header flex-layout-column ">
                                 <div className="subtitle margin-top-15">
                                     Solution #2 - Show me the Numbers
                                 </div>
@@ -218,8 +219,8 @@ class case_study_2 extends Component {
                             <img className="photo-container-cs-sb1" src={stubhub_after_4} alt="Finding the Truth - Business Perspective"/>
                             <p className="margin-top-15"> Largest complaint from analyst was not being able to see the numbers clearly</p>
                         </div>
-                        <div className="flex-layout-full margin-top-100">
-                            <div className="content-header flex-layout-column flex-layout-center-center">
+                        <div className="flex-layout-full flex-section-align-center margin-top-100">
+                            <div className="content-header flex-layout-column">
                                 <div className="subtitle margin-top-15">
                                         Solution to Pain Point 3 - Dashboard Design 
                                 </div>
@@ -232,8 +233,8 @@ class case_study_2 extends Component {
                             <img className="photo-container-cs-sb1" src={stubhub_dashboard} alt="Finding the Truth - Business Perspective"/>
                             <p className="margin-top-15"><i>The biggest feature request a simple, dashboard</i></p>
                         </div>
-                        <div className="flex-layout-full margin-top-100">
-                            <div className="content-header flex-layout-column flex-layout-center-center">
+                        <div className="flex-layout-full flex-section-align-center margin-top-100">
+                            <div className="content-header flex-layout-column">
                                 <div className="subtitle margin-top-15">
                                     Solution to Pain 4 - Organize Features
                                 </div>
@@ -248,8 +249,8 @@ class case_study_2 extends Component {
                             <img className="photo-container-cs-sb1" src={stubhub_after_13} alt="Finding the Truth - Business Perspective"/>
                             <p className="margin-top-15"><i>Clicking on the option button, open the option panel</i></p>
                         </div>
-                        <div className="flex-layout-full margin-top-100">
-                            <div className="content-header flex-layout-column flex-layout-center-center">
+                        <div className="flex-layout-full flex-section-align-center margin-top-100">
+                            <div className="content-header flex-layout-column">
                                 <div className="subtitle margin-top-15">
                                     Solution for Pain Point 5 - KPI Section Design
                                 </div>
@@ -269,8 +270,8 @@ class case_study_2 extends Component {
                             <img className="photo-container-cs-sb1" src={stubhub_before_2} alt="Finding the Truth - Business Perspective"/>
                             <p className="margin-top-15"><i>Confusing and incoherent</i></p>
                         </div>
-                        <div className="flex-layout-full margin-top-100">
-                            <div className="content-header flex-layout-column flex-layout-center-center">
+                        <div className="flex-layout-full flex-section-align-center margin-top-100">
+                            <div className="content-header flex-layout-column">
                                     <div className="title">Results</div>
                                         <div className="subtitle margin-top-15">Solution for Pain Point 6 - Get More Users</div>
                                             <div className="content-block-cs margin-top-15">

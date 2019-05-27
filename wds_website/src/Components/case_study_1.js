@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import motorola_bg from '../images/bg-motorola.png';
 import motorola_logo from '../images/icon-motorola-white.svg'; 
-import motorola_s1 from '../images/photos/photo-Motorola_2.png';
+import motorola_s1 from '../images/photos/photo-motorola-s1.png';
 import motorola_beforeafter from '../images/photos/photo-motorola-beforeafter.png';
 import motorola_before_wireless from '../images/photos//photo-motorola-before-wireless.png';
 import motorola_before_basic from '../images/photos//photo-motorola-before-basic.png';
@@ -15,54 +15,61 @@ class case_study_1 extends Component {
                 <div className="flex-layout-section-full">
                 <div className="image-background-border-tb">
                     <div className="flex-layout-row width-100"> 
-                        <h1 className="header-text-left text-white">Motorola</h1>
-                        <img className="header-text-right" src={motorola_logo}  alt="Motorola Logo" /> 
+                        <h1 className="header-text-left align-self-center text-white">Motorola</h1>
+                        <img className="header-text-right align-self-center" src={motorola_logo}  alt="Motorola Logo" /> 
                         <img className="flex-image-container" src={motorola_bg}  alt="Motorola background" /> 
                      </div>
                 </div> 
             </div>
-                <div className="flex-layout-section-full">
-                    <div className="content-container margin-top-50">
-                        <div className="content-header flex-layout-center-center"> 
-                            <div className="content-block-half content-text-24"> Just before the home division of Motorola was sold to Google, the home division of Motorola attempted to fix the problems that were plaquing their Broad Band Modem lines. The return rate was reaching close to twenty percent and large increase in call center volume. New technology for the broadband line was put on hold until the problems related to the line were solved.
+            <div className="flex-layout-section-fixed-sm margin-top-75">
+                    <div className="content-header flex-layout-center-center"> 
+                        <div className="content-block-cs intro-text"> Goal: To design a custom on-demand data reporting tool and to solve
+                            <br/> the problem that Stubhub analysts faced 
+                        </div>
+                    </div>
+                </div>  
+                <div className="flex-layout-section-full margin-top-50">
+                     <div className="container-image-block flex-layout-center-center">
+                        <img className="photo-container-cs-sb1" src={motorola_s1} alt="StubHub Show me the Numbers"/>
+                    </div>
+                </div>
+                <div className="flex-layout-section-full flex-section-align-center margin-top-150">
+                    <div className="content-block-cs">
+                        <div className="content-block-cs"> 
+                            <div className="title">
+                                Backstory
+                            </div>
+                            <div className="subtitle margin-top-25">
+                                High return rate, losing customer loyalty
+                                </div>
+                            <div className="content-block-cs content-text-18 margin-top-25"> Just before the home division of Motorola was sold to Google, the      home division of Motorola attempted to fix the problems that were plaquing their Broad Band Modem lines. The return rate was        reaching close to twenty percent and large increase in call center volume. New technology for the broadband line was put on         hold until the problems related to the product line were solved. After 18 months and two failed attempts management team            decided to find a vendor that was a true UX designer with a proven methodology with design skills. After an initial                 consultation, WDS was hired to to use their methodology to figure out what went wrong and come to a design solution.
                             </div>
                         </div>
                     </div>
-                <div className="container-grid-cs margin-top-150">
-                    <div className="item-a content-header flex-layout-column flex-items-justified-center" >
-                        <div className="title-case margin-bottom-20" style ={{width:'60%'}}>Backstory</div>
-                            <div className="subtitle-case margin-bottom-20" style ={{width:'60%'}}>High return rate, losing customer loyalty</div>
-                                <div className="content-block-60">
-                                    <p className="content-text-18">Motorola were facing high return rates on their Broadband modem line. These problems had been plaquing Motorola for years and could not be solved internally. Motorola decided to outsource the UX designer position. After two failed attempts to solve these problems. The management team decided to find a vendor that was a true UX designer with a proven methodology with design skills. After an initial consultation, WDS was hired to to use their methodology to figure out what went wrong and come to a design solution.</p> 
-                                    <p className="content-text-18"> To solve these problems it was time to start phase one....research</p> 
-                                </div>
-                    </div>
-                    <div className="flex-layout-column grey-blue padding">
-                        <div className="item-b container-image-block">
-                              <img className="photo-container" src={motorola_beforeafter} alt="Motorola Project Backstory"/> 
-                        </div>
-                    </div>
-                    <div className="item-c content-header flex-layout-column flex-items-justified-center" >
-                        <div className="title-case margin-bottom-20"  style ={{width:'60%'}}>Methodology Begins</div>
-                            <div className="subtitle-case margin-bottom-20"  style ={{width:'60%'}}>Finding the Truth - Business Perspective</div>
-                                <div className="content-block-60">
-                                        <p className="content-text-18">In order to search for the truth a good research plan needs to be implemented. </p>
-                                        <p className="content-text-18">Understanding the business is one of the keys in a successful project. Gathering requirements, meeting stakeholders and gathering design elements, such as marketing materials and style guides. The main goal of competitors research is to find out if and how they solved the same problems and issues. What were their design solutions. This is a critical and often overlooked part finding the truth.</p>
+                    <div className="flex-layout-column margin-top-100">
+                        <div className="title">
+                            Methodology Begins</div>
+                        <div className="subtitle">
+                            Finding the Truth - Business Perspective</div>
+                        <div className="content-block-cs">
+                            <p className="content-text-18">In order to search for the truth a good research plan needs to be implemented. </p>
+                            <p className="content-text-18">Understanding the business is one of the keys in a successful project. Gathering requirements, meeting stakeholders and gathering design elements, such as marketing materials and style guides. The main goal of competitors research is to find out if and how they solved the same problems and issues. What were their design solutions. This is a critical and often overlooked part finding the truth.</p>
                                         
-                                        <ul className="content-text-18">Motorola Research Findings:
-                                            <li>Current UI was not following Motorola brand standards</li>
-                                            <li>Marketing, Product and Home division did not communicate</li> 
-                                            <li>Competitors UI looked more modern, put little thought into help </li>
-                                            <li>Entire project file size needed to be under 1mb </li>
-                                        </ul>                              
-                                </div>
+                        <ul className="content-text-18 margin-top-50">
+                            <span className="subtitle">Research Findings:</span>
+                            <li>Current UI was not following Motorola brand standards</li>
+                            <li>Marketing, Product and Home division did not communicate</li> 
+                            <li>Competitors UI looked more modern, put little thought into help </li>
+                            <li>Entire project file size needed to be under 1mb </li>
+                        </ul>                              
                         </div>
+                    </div>
                         <div className="flex-layout-column grey-blue padding">
                         <div className="item-d container-image-block">
                               <img className="photo-container" src={motorola_before_wireless} alt="Case Study Image 2"/> 
                         </div>
                     </div>
-                    <div className="item-e content-header flex-layout-column flex-items-justified-center">
+                    <div className="grid-content content-header flex-layout-column flex-items-justified-center">
                         <div className="title-case margin-bottom-20"  style ={{width:'60%'}}>UX Plan</div>
                             <div className="subtitle-case margin-bottom-20"  style ={{width:'60%'}}>Finding the Truth - Customer Perspective</div>
                                 <div className="content-block-60">
@@ -80,7 +87,7 @@ class case_study_1 extends Component {
                                 </div>
                     </div>
                     <div className="flex-layout-column grey-blue padding">
-                        <div className="item-f container-image-block">
+                        <div className="grid-content container-image-block">
                             <img className="photo-container" src={motorola_before_basic} alt="Questions"/> 
                         </div>
                     </div>
@@ -256,7 +263,7 @@ class case_study_1 extends Component {
                     
                     
 
-                </div>
+                
                 
                     
                 </div>    
