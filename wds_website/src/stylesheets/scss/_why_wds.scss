@@ -96,9 +96,6 @@
   flex-wrap: nowrap;
 }
 
-.content-block-cs {
-  width: 575px;
-}
 
 .image_customer_first {
   background: 
@@ -112,18 +109,26 @@
            Case Studies
   *******************************/
 
-  .image-overlay-container {
+.image-overlay-container {
     text-align: center;
     position: relative;
     @include overlay-color(yellow, $colorone);
   }
 
-  .content-block-75 {
+.content-block-75 {
     width: 75%;
 }
 
 .content-block-60 {
   width: 60%;
+}
+
+.content-block-cs {
+  width: 1200px;
+  height: auto;
+  font-family: 'Roboto';
+  flex-wrap: wrap;
+  overflow-wrap: normal;
 }
 
 .title-case {
@@ -136,6 +141,24 @@
 .subtitle-case {
   font-family: 'Poppins', sans-serif;
   font-size: 1.2rem;
+}
+
+.intro-text {
+  font-family: 'Oswald';
+  font-size: 31.3px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-align: center;
+  color: #000000;
+}
+
+.photo-container-cs-sb1{
+  width:900px;
+  height: 675px;
+  border: 3px solid $black;
 }
 
 

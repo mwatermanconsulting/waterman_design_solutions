@@ -254,6 +254,9 @@ footer {
 .margin-top-50 {
   margin-top: 25px; }
 
+.margin-top-75 {
+  margin-top: 75px; }
+
 .margin-top-100 {
   margin-top: 100px; }
 
@@ -308,6 +311,13 @@ footer {
 
 .flex-layout-section-full {
   display: flex;
+  flex-direction: column;
+  height: auto; }
+
+.flex-layout-section-full-cs {
+  display: flex;
+  width: 1200px;
+  align-content: center;
   flex-direction: column;
   height: auto; }
 
@@ -404,9 +414,15 @@ footer {
 .content-block-half {
   width: 50%; }
 
+.content-block-auto {
+  width: auto; }
+
 /*  Alighnment   */
 .align-items-center {
   align-items: center; }
+
+.align-self-center {
+  align-self: center; }
 
 .container-justifyRow-center {
   display: flex;
@@ -531,6 +547,14 @@ footer {
   border-top: 5px solid #000;
   border-bottom: 5px solid #000; }
 
+.border-tb {
+  display: flex;
+  flex: 1 1 90%;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin-left: 240px;
+  margin-right: 240px; }
+
 .border-bottom-5 {
   border-bottom: 5px solid #000; }
 
@@ -560,11 +584,14 @@ footer {
 .margin-bottom-100 {
   margin-bottom: 100px; }
 
-.margin-top-25 {
-  margin-top: 25px; }
-
 .margin-top-10 {
   margin-top: 10px; }
+
+.margin-top-15 {
+  margin-top: 15px; }
+
+.margin-top-25 {
+  margin-top: 25px; }
 
 .margin-top-50 {
   margin-top: 50px; }
@@ -584,6 +611,16 @@ footer {
 .padding {
   padding: 50px; }
 
+.content-text {
+  font-family: Roboto;
+  font-size: 1rem;
+  line-height: 1.88; }
+
+.content-text-21 {
+  font-family: Roboto;
+  font-size: 1.3125rem;
+  line-height: 1.88; }
+
 .content-text-18 {
   font-family: Roboto;
   font-size: 1.2rem; }
@@ -597,6 +634,11 @@ footer {
   font-family: 'Poppin', 'Roboto';
   font-size: 3.2rem;
   line-height: 1.5; }
+
+.header-title {
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 3.1875rem;
+  letter-spacing: 1.1px; }
 
 .text-white {
   color: #fff; }
@@ -681,16 +723,15 @@ h4 {
   font-family: 'Poppins', sans-serif !important;
   font-size: 1.218rem !important; }
 
-.image-text-left {
+.header-text-left {
   float: left;
   position: absolute;
-  margin-left: 10px; }
+  left: 7%; }
 
-.image-text-right {
+.header-text-right {
   float: right;
   position: absolute;
-  right: 1%;
-  top: 1%; }
+  right: 7%; }
 
 a {
   color: #ba1004; }
@@ -708,11 +749,27 @@ li:before {
 h1 {
   font-family: 'Mouse Momoirs', sans-serif; }
 
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.05rem;
+  line-height: 1.25;
+  color: #879397; }
+
+.title-center {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10.0rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+  line-height: 55.5px;
+  text-align: center; }
+
 .subtitle {
-  font-size: 2.4rem;
-  font-weight: 700;
+  font-size: 2.44375rem;
+  font-weight: 500;
   line-height: 1.8;
-  font-family: 'Poppins'; }
+  font-family: 'Oswald';
+  color: #747677;
+  font-weight: 400; }
 
 .subtitle-bold-i {
   font-size: 2.4rem;
@@ -721,13 +778,13 @@ h1 {
   font-style: italic; }
 
 .subtitle-capital {
-  font-size: 1.8rem;
+  font-size: 2.44375rem;
   font-weight: 700;
   line-height: 1.8;
   text-transform: capitalize; }
 
 .subtitle-reverse {
-  font-size: 2.4rem;
+  font-size: 2.44375rem;
   font-weight: 700;
   line-height: 1.8;
   color: #fff; }
@@ -774,6 +831,12 @@ p {
 .container-card-content {
   height: auto;
   margin: -10px 10px 5px 10px; }
+
+.content-container-cs {
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center; }
 
 /*******************************
         Global Colors
@@ -859,18 +922,6 @@ a:hover {
 
 .link-color {
   color: #ba1004; }
-
-.title {
-  font-family: 'Poppins', sans-serif;
-  font-size: 6rem;
-  line-height: 1.25; }
-
-.title-center {
-  font-family: 'Poppins', sans-serif;
-  font-size: 10.0rem;
-  margin-bottom: 15px;
-  line-height: 55.5px;
-  text-align: center; }
 
 .white {
   color: fff; }
@@ -1038,6 +1089,17 @@ Button:hover {
   grid-template-columns: repeat(12, 1fr);
   display: grid;
   min-width: 1920px; }
+
+.container-grid-cs {
+  grid-template-columns: 1, 1fr;
+  grid-template-rows: auto;
+  grid-gap: 50px;
+  align-self: center;
+  display: grid; }
+
+.grid-item-cs {
+  grid-column: 1/1;
+  grid-row: auto; }
 
 .container-grid-2col {
   grid-template-columns: repeat(2, 1fr);
@@ -1328,9 +1390,6 @@ Button:hover {
   height: auto;
   flex-wrap: nowrap; }
 
-.content-block-cs {
-  width: 575px; }
-
 .image_customer_first {
   background: linear-gradient(rgba(0, 244, 183, 0.45), rgba(0, 244, 232, 0.45)); }
 
@@ -1356,6 +1415,13 @@ Button:hover {
 .content-block-60 {
   width: 60%; }
 
+.content-block-cs {
+  width: 1200px;
+  height: auto;
+  font-family: 'Roboto';
+  flex-wrap: wrap;
+  overflow-wrap: normal; }
+
 .title-case {
   font-family: 'Poppins', sans-serif;
   font-size: 1.6rem;
@@ -1365,6 +1431,22 @@ Button:hover {
 .subtitle-case {
   font-family: 'Poppins', sans-serif;
   font-size: 1.2rem; }
+
+.intro-text {
+  font-family: 'Oswald';
+  font-size: 31.3px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-align: center;
+  color: #000000; }
+
+.photo-container-cs-sb1 {
+  width: 900px;
+  height: 675px;
+  border: 3px solid #000; }
 
 /*******************************
            History

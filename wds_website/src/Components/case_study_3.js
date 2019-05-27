@@ -2,7 +2,7 @@ import React, { Component } from 'react' ;
 import { Button } from 'react-mdl';
 import pfizer_bg from '../images/bg-pfizer.png';
 import stubhub_logo from '../images/icon-logo-stubhub.svg'; 
-import motorola_s1 from '../images/photo-Motorola_2.png';
+import motorola_s1 from '../images/photos/photo-Motorola_2.png';
 
 class case_study_2 extends Component {
     render () {
