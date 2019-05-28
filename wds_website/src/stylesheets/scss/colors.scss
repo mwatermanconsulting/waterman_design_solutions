@@ -2,9 +2,11 @@ $white: #fff;
 $black: #000; 
 $offwhite: #E3CEB6;
 $green: #008000;
+$grey:#6c8086;
+$grey2 : #a6bbc0;
 $greeny-blue:#3eaca9;
 $lightgreen: #87A6AB;
-$grey: #a4a4a4;
+$ltgrey: #a4a4a4;
 $purple: #78738A;
 $lightpurple: #b8a9c6;
 $lightgreen: #87A6AB;
@@ -49,6 +51,12 @@ $colorone: #fbb424;
     background-color: #daa09a; }
 
 
-  
+  .callout-color-dark {
+    background-color: $grey;
+  }
+
+  .photo-content-color {
+    background-color: $grey2;
+  }
 
 
