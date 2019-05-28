@@ -176,6 +176,12 @@ footer {
 .pink {
   background-color: #daa09a; }
 
+.callout-color-dark {
+  background-color: #6c8086; }
+
+.photo-content-color {
+  background-color: #a6bbc0; }
+
 .lightgreen {
   background-color: #BDCCD4; }
 
@@ -206,6 +212,12 @@ footer {
 .pink {
   background-color: #daa09a; }
 
+.callout-color-dark {
+  background-color: #6c8086; }
+
+.photo-content-color {
+  background-color: #a6bbc0; }
+
 /*******************************
          Mixins
   *******************************/
@@ -213,6 +225,9 @@ footer {
          Helper Classes
   *******************************/
 /* margins */
+.margin-left-15 {
+  margin-left: 15px; }
+
 .marginleft30 {
   margin-left: 30px; }
 
@@ -302,7 +317,7 @@ footer {
   display: flex;
   height: 100%;
   min-height: 666px;
-  background-color: #a4a4a4; }
+  background-color: #6c8086; }
 
 .flex-layout-section-row {
   display: flex;
@@ -696,6 +711,12 @@ li {
 .pink {
   background-color: #daa09a; }
 
+.callout-color-dark {
+  background-color: #6c8086; }
+
+.photo-content-color {
+  background-color: #a6bbc0; }
+
 /*******************************
          Global
   *******************************/
@@ -864,7 +885,7 @@ p {
   color: #ba1004; }
 
 .grey {
-  background-color: #a4a4a4; }
+  background-color: #6c8086; }
 
 .grey-blue {
   background-color: #a6bbc0b3; }
@@ -925,6 +946,12 @@ p {
 
 .pink {
   background-color: #daa09a; }
+
+.callout-color-dark {
+  background-color: #6c8086; }
+
+.photo-content-color {
+  background-color: #a6bbc0; }
 
 /*******************************
            Shared
@@ -1113,8 +1140,13 @@ Button:hover {
   grid-row: auto; }
 
 .grid-content-2 {
-  grid-column: 2;
-  grid-row: 2; }
+  grid-template-columns: repeat(2, 1fr); }
+
+.grid-a {
+  grid-column: 1/2; }
+
+.grid-b {
+  grid-column: 2/2; }
 
 .container-grid {
   grid-template-rows: auto;
@@ -1176,21 +1208,10 @@ Button:hover {
   grid-row: 6 / 8; }
 
 .container-grid-2col-photo {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 600px 600px;
   grid-template-rows: auto;
   grid-gap: 10px;
   display: grid; }
-
-.a {
-  grid-column-start: 1;
-  grid-column-end: 1;
-  align-self: center; }
-
-.b {
-  grid-column-start: 2;
-  grid-column-end: 2;
-  justify-self: center;
-  align-self: end; }
 
 .container-grid-3col {
   grid-template-columns: repeat(3, 1fr);
@@ -1334,6 +1355,12 @@ Button:hover {
 .pink {
   background-color: #daa09a; }
 
+.callout-color-dark {
+  background-color: #6c8086; }
+
+.photo-content-color {
+  background-color: #a6bbc0; }
+
 /*******************************
          Mixins
   *******************************/
@@ -1366,6 +1393,12 @@ Button:hover {
 
 .pink {
   background-color: #daa09a; }
+
+.callout-color-dark {
+  background-color: #6c8086; }
+
+.photo-content-color {
+  background-color: #a6bbc0; }
 
 /*******************************
            Why 
@@ -1519,6 +1552,10 @@ Button:hover {
   justify-content: space-around;
   padding: 30px; }
 
+.title-container-left {
+  margin-right: auto;
+  margin-left: 19.25%; }
+
 /*******************************
            Practices
   *******************************/
@@ -1608,6 +1645,12 @@ Button:hover {
 .pink {
   background-color: #daa09a; }
 
+.callout-color-dark {
+  background-color: #6c8086; }
+
+.photo-content-color {
+  background-color: #a6bbc0; }
+
 /*******************************
           About US
   *******************************/
@@ -1662,6 +1705,12 @@ Button:hover {
 
 .pink {
   background-color: #daa09a; }
+
+.callout-color-dark {
+  background-color: #6c8086; }
+
+.photo-content-color {
+  background-color: #a6bbc0; }
 
 /*******************************
          Mixins
