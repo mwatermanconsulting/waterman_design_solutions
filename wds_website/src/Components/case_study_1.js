@@ -238,20 +238,13 @@ class case_study_1 extends Component {
                     </div>
                     <div className="container-grid-2col-photo border-3px bottom-border grey" style={{height:'450px'}}>
                             <div className="item-a-nb">
-                                <p className="call-out-text" style={{width:'900px'}}>A few months after completing the project, We contacted the team to check-in and make sure they were still doing the blog and emails. They said there was no need to push for more users, they currently had 172 users and there were only 175 analysts in the company. In 5 months the reporting tool went from a 1% total usage to 98% and the team couldn't be happier. 
+                                <p className="call-out-text" style={{width:'900px'}}>CNET Reviews
                                 </p>
                             </div>
                             <div className="item-b">
                                 <img src={results} alt="Finding the Truth - Business Perspective"/>
                             </div>
                         </div>
-
-                    
-                    
-
-                
-                
-                    
                 </div>    
             </div>                               
                             )
