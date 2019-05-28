@@ -293,20 +293,20 @@ class case_study_2 extends Component {
                             <img className="photo-container-cs-sb1" src={stubhub_results} alt="Finding the Truth - Business Perspective"/>
                             <p className="margin-top-15 margin-bottom-100"><i>StubHub happily emailed WDS this screenshot six months after release </i></p>
                         </div>
-                        <div className="container-grid-2col-photo border-3px bottom-border grey" style={{height:'450px'}}>
-                            <div className="item-a-nb" style={{padding:'20px'}}>
+                        <div className="container-grid-2col-full border-3px bottom-border grey" style={{height:'450px'}}>
+                            <div className="item-2a" style={{padding:'20px'}}>
                                 <p className="callout-text">A few months after completing the project, We contacted the team to check-in and make sure they were still doing the blog and emails. They said there was no need to push for more users, they currently had 172 users and there were only 175 analysts in the company. In 5 months the reporting tool went from a 1% total usage to 98% and the team couldn't be happier. 
                                 </p>
                             </div>
-                            <div className="item-b">
+                            <div className="item-2b">
                                 <img src={thumbsUp} alt="Finding the Truth - Business Perspective"/>
                             </div>
                         </div>
                     </div>
-                    <div className="flex-layout-section-full" style={{padding:'25px'}}>
+                    <div className="flex-layout-section" style={{padding:'25px'}}>
                         <div className="image-background-border-tb">
                             <div className="flex-layout-row width-100"> 
-                                <h1 className="header-text-right text-white">Next - Motorola Case Study</h1>
+                                <h1 className="header-text-right text-white"> <a href="./case_study_1">  Next - Motorola Case Study</a></h1>
                                 <img className="flex-image-container" src={motorola_bg}  alt="Motorola background" /> 
                             </div>
                         </div> 

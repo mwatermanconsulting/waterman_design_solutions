@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import motorola_bg from '../images/bg-motorola.png';
+import stubhub_bg from '../images/bg-stubhub.png';
+import stubhub_logo from '../images/icon-logo-stubhub.svg'; 
 import motorola_logo from '../images/icon-motorola-white.svg'; 
 import motorola_s1 from '../images/photos/photo-motorola-s1.png';
 import motorola_s2 from '../images/photos/photo-Motorola_2.png';
@@ -211,7 +213,7 @@ class case_study_1 extends Component {
                         <img className="photo-container-cs-sb1" src={motorola_beforeafter} alt="Motorola Start Page"/>
                         <p className="margin-top-15"><i> Approved Design for the new SURFboard SB8200 DOCSIS 3.1 modem</i></p>
                     </div>
-                    <div className="flex-layout-column grey-blue padding">
+                    <div className="flex-layout-column padding margin-top-100">
                         <div className="item-f container-image-block">
                             <img className="photo-container-cs-sb1" src={motorola_s1} alt="consulting"/> 
                         </div>
@@ -236,16 +238,25 @@ class case_study_1 extends Component {
                             </ul>     
                         </div>
                     </div>
-                    <div className="container-grid-2col-photo border-3px bottom-border grey" style={{height:'450px'}}>
-                            <div className="item-a-nb">
-                                <p className="call-out-text" style={{width:'900px'}}>CNET Reviews
-                                </p>
-                            </div>
-                            <div className="item-b">
-                                <img src={results} alt="Finding the Truth - Business Perspective"/>
-                            </div>
+                    <div className="container-grid-2col-photo border-3px bottom-border grey margin-top-100" style={{height:'450px'}}>
+                        <div className="a">
+                            <p className="callout-text">
+                                CNET Reviews</p>
                         </div>
-                </div>    
+                        <div className="b">
+                             <img className="photo-" src={results} alt="Finding the Truth - Business Perspective"/>
+                        </div>
+                    </div>
+                </div>
+                <div className="image-background-border-tb margin-top-100 margin-bottom-20">
+                    <div className="flex-layout-row width-100"> 
+                        <div className="header-title align-self-center header-text-right text-white">
+                                Case Study - StubHub
+                        </div>
+                                
+                                <img className="flex-image-container" src={stubhub_bg}  alt="Stubhub Case Study " /> 
+                        </div>
+                    </div>     
             </div>                               
                             )
                         }
