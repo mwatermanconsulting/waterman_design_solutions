@@ -94,11 +94,26 @@
 
 
 .container-grid-2col-photo {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    grid-gap: 10px;
-    display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  display: grid;
 }
+
+.a {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  align-self: center;
+}
+
+.b {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  justify-self: center;
+  align-self: end;
+}
+
+
 
 .container-grid-3col {
     grid-template-columns: repeat(3, 1fr);
