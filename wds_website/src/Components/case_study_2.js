@@ -54,7 +54,7 @@ class case_study_2 extends Component {
                     <div className="content-block-cs"> Stubhub was internally developing a reporting tool for the company. The goal was to create a custom on-demand data reporting tool. Their first release was not successful and after a year Stubhub needed answers. Six months later WDS turned a failure into successful case study.
                     </div>  
                 </div> 
-                <div className="flex-layout-section-full flex-section-align-center margin-top-100">
+                <div className="flex-layout-section-full flex-section-align-center flex-section-align-center margin-top-100">
                     <div className="content-header flex-layout-column">
                         <div className="title">
                                 Backstory
@@ -68,8 +68,8 @@ class case_study_2 extends Component {
                             <p className="content-text-18"> The first iteration was designed by the analyst. It was crude, but functional and the idea was sold to a larger shareholder base. For the next phase the small team, contracted a UX/UI person to the team and a new design and with many new features went live. But it was not well received by the stakeholders or adopted ny the larger Stubhub base. </p> 
                         </div>
                     
-                </div>
-                <div className="flex-layout-section-full flex-section-align-center margin-top-100" >
+                
+                <div className="flex-layout-section-full margin-top-100" >
                     <div className="content-header flex-layout-column" >
                         <div className="title">
                                 Methodology Begins
@@ -123,17 +123,17 @@ class case_study_2 extends Component {
                             </ul>
                         </div>
                     </div>
-                        <div className="flex-layout-section-full padding border-tb flex-layout-center-center margin-top-100">
+                        <div className="flex-layout-section-full border-top-1 border-bottom-1 flex-layout-center-center margin-top-100">
                             <p className="content-text-24">A total of 25 analysts from 8 different countries were interviewed. A 
                             System Usability Scale (SUS) test was presented to them<br/> for the current UI. The same analyst were included on 4 separate testing occasions during the process. </p>
                         </div>           
-                    <div className="flex-layout-full flex-section-align-center margin-top-100">
+                    <div className="flex-layout-full margin-top-100">
                         <div className="content-header flex-layout-column">
                             <div className="title">
                                 Challenges
                             </div>
                             <div className="subtitle margin-top-15">
-                                Unforseen Issues
+                                Unforeseen Issues
                             </div>
                             <div className="content-block-cs margin-top-15">
                                 <p className="content-text-18">The largest challenge was overcoming the 3 minute wait time for the report to load. WDS was honest and telling the team that if they could not get the time to be under 30 seconds than it a lost cause. WDS could create the most unique user friendly application,  but it won't matter if this challenge could not be solved. </p>
@@ -143,13 +143,13 @@ class case_study_2 extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="flex-layout-section-full margin-top-25">
-                        <div className="container-image-block flex-layout-center-center flex-layout-column">
+                    <div className="flex-layout-section-full margin-top-50">
+                        <div className="container-image-block flex-layout-column">
                             <img className="photo-container-cs-sb1" src={stubhub_slow} alt="Finding the Truth - Business Perspective"/>
                             <p className="margin-top-15"><i>3 Minute Wait Time is Unacceptable!</i></p>
                         </div>
                     </div>
-                   <div className="flex-layout-full margin-top-100 padding-100 border-tb">
+                   <div className="flex-layout-full margin-top-100 padding-100 border-top-1 border-bottom-1">
                        <div className="content-header flex-layout-column border-tp">
                             <div className="title">
                                 Master Plan
@@ -157,12 +157,13 @@ class case_study_2 extends Component {
                             <div className="subtitle margin-top-15">
                                 Solving the Issues
                             </div>
-                                <div className="content-block-cs margin-top-15">
+                                <div className="content-block-cs margin-top-25">
                                     <p className="content-text-18">Most failures are from a disconnect from what the user wants and expects and what they are offered. After all the initial research and personas were created, challenges are being tackled. Here are some of the problems that WDS and Stubhub agreed on: </p>
                                 </div>
-                                <div className="container-grid-2col width-100 margin-top-15">    
+                                <div className="container-grid-2col-full width-100 margin-top-25">    
                                     <div className="grid-item-a">
-                                        <ol> Design Solutions Pain Points
+                                        <ol> <span className="subtitle">
+                                            Design Solutions Pain Points</span>
                                             <li>Current UI confusing and out of date </li> 
                                             <li>Data displays did not show the numbers</li>
                                             <li>Want and Need Dashboard </li>
@@ -173,44 +174,45 @@ class case_study_2 extends Component {
                                         </ol>
                                     </div>
                                     <div className="grid-item-b">
-                                        <ol> Business Pain Points
-                                            <li>Current UI confusing and out of date </li> 
-                                            <li>Data displays did not show the numbers</li>
+                                        <ol> <span className="subtitle">
+                                            Business Pain Points</span>
+                                            <li>One User </li> 
+                                            <li>WDS needs lead project end-to-end</li>
                                             <li>Want and Need Dashboard </li>
-                                            <li>Many of the current features were not being used</li>
-                                            <li>KPI Section was unintelligible</li>
-                                            <li>numbers numbers and numbers</li>
-                                            <li>Get more Users</li>
+                                            <li>Reporting tool application needed to be a responsive design</li>
+                                            <li>Feature Bloat</li>
+                                            <li>Reports are customizable and interface needs to be fluid</li>
+                                            <li>Two Sets of Users (Analysts & VP's)</li>
                                         </ol>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="flex-layout-full margin-top-100 flex-section-align-center">
+                        <div className="flex-layout-full margin-top-100">
                             <div className="content-header flex-layout-column ">
                                 <div className="title">
                                     Solutions
                                 </div>
-                                <div className="subtitle margin-top-50">
+                                <div className="subtitle margin-top-75">
                                     Solution #1 - New Design
                                 </div>
-                                <div className="content-block-cs margin-top-15">
+                                <div className="content-block-cs margin-top-25">
                                     <p className="content-text-18">A new user interface was designed to solves many of the pain points. The new design is a unique take on data visualization. WDS wanted to present a design that was not only modern, simple and branded, but would grab the users attention.  </p>
             
                                     <p className="content-text-18">WDS suggested that once this design had gained traction to redesign the site to a more traditional data visualization tool. This design incorporated the three elements that all designers should keep in mind while designing, the user, business and current climate. The climate and the need to get user quickly led to the colorful branded design. This design is fully customizable and branded with the Stubhub colors. </p>  
                                 </div>
                             </div>
                         </div>
-                        <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-25">
+                        <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-50">
                             <img className="photo-container-cs-sb1" src={stubhub_after_1} alt="Finding the Truth - Business Perspective"/>
                             <p className="margin-top-15"><i> Approved Design for the new Stubhub Reporting Tool</i></p>
                         </div>
-                        <div className="flex-layout-full flex-section-align-center margin-top-50">
+                        <div className="flex-layout-full margin-top-50">
                             <div className="content-header flex-layout-column ">
                                 <div className="subtitle margin-top-15">
                                     Solution #2 - Show me the Numbers
                                 </div>
-                                <div className="content-block-cs margin-top-15">
+                                <div className="content-block-cs margin-top-25">
                                     <p className="content-text-18">Pain point #2 - Data display did not show the numbers. WDS solved this by allowing the numbers to dominant the new design. Large are prominant the numbers are the primary design factor.  Primary reporting numbers are clearly shown. The orange table was added later in the design phase, once the team settled on the persona of Sally the VP. The extra table was added due to the fact that the VP persona would want numbers in a more granual fashion. Understanding the work flow of the analyst the addition of the table eased the work flow of the analyst by aiding in their report creation. </p>
                                 </div>
                             </div>
@@ -219,7 +221,7 @@ class case_study_2 extends Component {
                             <img className="photo-container-cs-sb1" src={stubhub_after_4} alt="Finding the Truth - Business Perspective"/>
                             <p className="margin-top-15"> Largest complaint from analyst was not being able to see the numbers clearly</p>
                         </div>
-                        <div className="flex-layout-full flex-section-align-center margin-top-100">
+                        <div className="flex-layout-full margin-top-100">
                             <div className="content-header flex-layout-column">
                                 <div className="subtitle margin-top-15">
                                         Solution to Pain Point 3 - Dashboard Design 
@@ -233,7 +235,7 @@ class case_study_2 extends Component {
                             <img className="photo-container-cs-sb1" src={stubhub_dashboard} alt="Finding the Truth - Business Perspective"/>
                             <p className="margin-top-15"><i>The biggest feature request a simple, dashboard</i></p>
                         </div>
-                        <div className="flex-layout-full flex-section-align-center margin-top-100">
+                        <div className="flex-layout-full  margin-top-100">
                             <div className="content-header flex-layout-column">
                                 <div className="subtitle margin-top-15">
                                     Solution to Pain 4 - Organize Features
@@ -249,7 +251,7 @@ class case_study_2 extends Component {
                             <img className="photo-container-cs-sb1" src={stubhub_after_13} alt="Finding the Truth - Business Perspective"/>
                             <p className="margin-top-15"><i>Clicking on the option button, open the option panel</i></p>
                         </div>
-                        <div className="flex-layout-full flex-section-align-center margin-top-100">
+                        <div className="flex-layout-full margin-top-100">
                             <div className="content-header flex-layout-column">
                                 <div className="subtitle margin-top-15">
                                     Solution for Pain Point 5 - KPI Section Design
@@ -270,44 +272,46 @@ class case_study_2 extends Component {
                             <img className="photo-container-cs-sb1" src={stubhub_before_2} alt="Finding the Truth - Business Perspective"/>
                             <p className="margin-top-15"><i>Confusing and incoherent</i></p>
                         </div>
-                        <div className="flex-layout-full flex-section-align-center margin-top-100">
-                            <div className="content-header flex-layout-column">
-                                    <div className="title">Results</div>
-                                        <div className="subtitle margin-top-15">Solution for Pain Point 6 - Get More Users</div>
-                                            <div className="content-block-cs margin-top-15">
-                                                <p className="content-text-18">The solution to get more users was about marketing and communication.</p>
-
-                                                <p className="content-text-18">WDS suggested to the team to start a monthly blog and Newsletter about the current team and about the new tool. We also mentored the team on communication. Talking and conversing with the analysts. The results were nothing short of miraculous </p>
-
-                                                <p className="content-text-18">A few months after completing the project, We contacted the team to check-in and make sure they were still doing the blog and emails. They said there was no need to push for more users, they currently had 172 users and there were only 175 analysts in the company. In 5 months the reporting tool went from a 1% total usage to 98% and the team couldn't be happier.  </p>
-                                            </div>
-                                    </div>
+                        <div className="flex-layout-full margin-top-100">
+                            <div className="content-header flex-layout-column ">
+                                <div className="title">
+                                    Results
                                 </div>
-                                <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-50 margin-bottom-100">
+                                <div className="subtitle margin-top-15">
+                                        Solution for Pain Point 6 - Get More Users
+                                </div>
+                                <div className="content-block-cs margin-top-25">
+                                    <p className="content-text-18">The solution to get more users was about marketing and communication.</p>
+
+                                    <p className="content-text-18">WDS suggested to the team to start a monthly blog and Newsletter about the current team and about the new tool. We also mentored the team on communication. Talking and conversing with the analysts. The results were nothing short of miraculous </p>
+
+                                    <p className="content-text-18">A few months after completing the project, We contacted the team to check-in and make sure they were still doing the blog and emails. They said there was no need to push for more users, they currently had 172 users and there were only 175 analysts in the company. In 5 months the reporting tool went from a 1% total usage to 98% and the team couldn't be happier.  </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-50 margin-bottom-100">
                             <img className="photo-container-cs-sb1" src={stubhub_results} alt="Finding the Truth - Business Perspective"/>
                             <p className="margin-top-15 margin-bottom-100"><i>StubHub happily emailed WDS this screenshot six months after release </i></p>
                         </div>
                         <div className="container-grid-2col-photo border-3px bottom-border grey" style={{height:'450px'}}>
-                            <div className="item-a-nb">
-                                <p className="call-out-text" style={{width:'900px'}}>A few months after completing the project, We contacted the team to check-in and make sure they were still doing the blog and emails. They said there was no need to push for more users, they currently had 172 users and there were only 175 analysts in the company. In 5 months the reporting tool went from a 1% total usage to 98% and the team couldn't be happier. 
+                            <div className="item-a-nb" style={{padding:'20px'}}>
+                                <p className="callout-text">A few months after completing the project, We contacted the team to check-in and make sure they were still doing the blog and emails. They said there was no need to push for more users, they currently had 172 users and there were only 175 analysts in the company. In 5 months the reporting tool went from a 1% total usage to 98% and the team couldn't be happier. 
                                 </p>
                             </div>
                             <div className="item-b">
                                 <img src={thumbsUp} alt="Finding the Truth - Business Perspective"/>
                             </div>
                         </div>
-                        <div className="flex-layout-section-full">
+                    </div>
+                    <div className="flex-layout-section-full" style={{padding:'25px'}}>
                         <div className="image-background-border-tb">
-                    <div className="flex-layout-row width-100"> 
-                        <h1 className="header-text-right text-white">
-                            Next - Motorola Case Study
-                        </h1>
- 
-                        <img className="flex-image-container" src={motorola_bg}  alt="Motorola background" /> 
-                     </div>
-                </div> 
-            </div>
-                    </div>    
+                            <div className="flex-layout-row width-100"> 
+                                <h1 className="header-text-right text-white">Next - Motorola Case Study</h1>
+                                <img className="flex-image-container" src={motorola_bg}  alt="Motorola background" /> 
+                            </div>
+                        </div> 
+                    </div>
+                </div>    
                                               
                                         )
                                     }
