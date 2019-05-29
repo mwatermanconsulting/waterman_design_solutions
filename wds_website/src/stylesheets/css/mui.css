@@ -344,14 +344,6 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-body {
-  font-family: Arial, Verdana, Tahoma;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.429;
-  color: rgba(0, 0, 0, 0.87);
-  background-color: #FFF;
-}
 
 a {
   color: #2196F3;
@@ -2577,17 +2569,6 @@ abbr[title] {
   line-height: 24px;
 }
 
-.mui--text-body2, h5 {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 24px;
-}
-
-.mui--text-body1 {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-}
 
 .mui--text-caption {
   font-weight: 400;

@@ -1,17 +1,4 @@
 
-body {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  line-height: normal !important;
-  background-color: #FFE4C4;
-
-}
-
-
 .flex-containertop {
   display: flex;
   flex-direction: column;
