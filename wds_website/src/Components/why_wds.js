@@ -138,21 +138,21 @@ class why_wds extends Component {
                 <button type="button" className="margin-top-150 font-size-48">Check Out Services Offerings</button>
             </div>
             <div className="container-grid-2col-photo flex-layout-justified-sb border-3px bottom-border " style={{padding:'90px'}}> 
-                    <div className="item-a-nb content-header flex-layout-column">
-                        <h3 className="subtitle text-white">Your Customer is the focus of the entire process</h3>
-                            <div className="content-block-cs">
-                                <h2> Curious to find out more? We’re more than happy to help! </h2>
-                                <p className="content-text-24">  WDS is the leader in applying design solutions, experience strategy and observational insights to the development of applications, websites, SaaS, products and mobile.</p> 
+                <div className="item-a-nb content-header flex-layout-column">
+                    <h3 className="subtitle text-white">Your Customer is the focus of the entire process</h3>
+                        <div className="content-block-cs">
+                            <h2> Curious to find out more? We’re more than happy to help! </h2>
+                            <p className="content-text-24">  WDS is the leader in applying design solutions, experience strategy and observational insights to the development of applications, websites, SaaS, products and mobile.</p> 
 
-                                <p>We actively redefine user experience (UX) and change the ways people interact with technology around the world. </p>
+                            <p>We actively redefine user experience (UX) and change the ways people interact with technology around the world. </p>
 
-                                <p>We’re recognized by industry analysts for setting the standard for the way businesses design and develop software. WDS builds emotionally rich, resonant software solutions that enable customers and end users to fully realize technology’s complete potential in our always-on, always-connected world.</p>
-                            </div>
+                            <p>We’re recognized by industry analysts for setting the standard for the way businesses design and develop software. WDS builds emotionally rich, resonant software solutions that enable customers and end users to fully realize technology’s complete potential in our always-on, always-connected world.</p>
                         </div>
+                    </div>
                     <div className="item-b container-image-block">
                         <img className="flex-image-container" src={care}  alt="Your Business is Our Joy" /> 
                     </div>
-                </div>
+            </div>
                                     
                          
         </div>                                   
