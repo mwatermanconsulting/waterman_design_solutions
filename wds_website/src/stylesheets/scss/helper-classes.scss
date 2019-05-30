@@ -125,8 +125,16 @@
     height: 100%;
     min-height: 625px;
     background-color: $grey;
-
   }
+
+  .flex-section-fixed-head {
+    display: flex;
+    height: 100%;
+    min-height: 625px;
+    background-color: $yellow;
+  }
+
+
   
   .flex-layout-section-row {
     display: flex;
@@ -542,7 +550,7 @@
 
     .header-title {
       font-family: 'Mouse Memoirs', sans-serif;
-      font-size: 	3.1875rem !important; 
+      font-size: 	10.1875rem !important; 
       letter-spacing: 1.1px;
     }
   
