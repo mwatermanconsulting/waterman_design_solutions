@@ -9,7 +9,6 @@ class Services extends Component {
                 <div className="flex-containertop">
                     <div className="sevices-background-section1 ">
                        
-                             {/*  <img className="consultingpic" src={consultingpic} alt="consulting"/> */}
                         
                         <div className="content-right-center  right">
                             <div className="content-header">

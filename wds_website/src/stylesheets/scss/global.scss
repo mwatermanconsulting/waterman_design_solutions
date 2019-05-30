@@ -92,6 +92,15 @@ h1 {
   color: $white;
 }
 
+.callout-text-lg {
+  font-size: 3.0625rem;
+  font-family: 'Roboto Slab', serif;
+  line-height: 2.12;
+  letter-spacing: 0.8px;
+  text-align: center;
+  color: $white;
+}
+
 .title {
   font-family: 'Oswald', sans-serif;
   font-size: 3.05rem;
@@ -177,6 +186,10 @@ p {
 
 .text-align-center {
   text-align: center;
+}
+
+.text-align-left {
+  text-align: left;
 }
 
 .thin-hr {

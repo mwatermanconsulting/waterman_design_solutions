@@ -667,7 +667,7 @@ footer {
 
 .header-title {
   font-family: 'Mouse Memoirs', sans-serif;
-  font-size: 3.1875rem !important;
+  font-size: 10.1875rem !important;
   letter-spacing: 1.1px; }
 
 .text-white {
@@ -797,6 +797,14 @@ h1 {
   text-align: center;
   color: #fff; }
 
+.callout-text-lg {
+  font-size: 3.0625rem;
+  font-family: 'Roboto Slab', serif;
+  line-height: 2.12;
+  letter-spacing: 0.8px;
+  text-align: center;
+  color: #fff; }
+
 .title {
   font-family: 'Oswald', sans-serif;
   font-size: 3.05rem;
@@ -868,6 +876,9 @@ p {
 
 .text-align-center {
   text-align: center; }
+
+.text-align-left {
+  text-align: left; }
 
 .thin-hr {
   display: block;
@@ -1280,7 +1291,7 @@ Button:hover {
   grid-column: 2 / 3;
   grid-row: 1 / auto;
   align-items: center;
-  justify-self: center;
+  justify-content: center;
   align-self: center; }
 
 .grid-item-c {

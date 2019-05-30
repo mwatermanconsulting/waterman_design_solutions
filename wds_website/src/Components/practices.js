@@ -128,10 +128,10 @@ class practices extends Component {
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
                     <div className="grid-2col-photo-content content-header">
-                    <div className="grid-right-content flex-layout-section-full ">
-                        <div className="subtitle">
+                        <div className="grid-right-content flex-layout-section-full ">
+                            <div className="subtitle">
                             Marketing and Design Metrics
-                        </div>
+                            </div>
                         <div className="content-block-75 content-text-18">
                             <p className="content-text-18"> The WDS Digital Marketing team researches, ideates, implements      and optimizes sophisticated web marketing solutions tailored to the specific goals 
                                 and objectives of each of our clients.</p>
@@ -139,10 +139,10 @@ class practices extends Component {
                             <p><i>Learn More</i></p>
                         </div>
                     </div>
-                    <div className="grid-left-photo container-image-block">
-                        <img className="photo-container" src={services3}  alt="Your Business is Our Joy" /> 
-                    </div>     
-                </div>
+                        <div className="grid-left-photo container-image-block">
+                            <img className="photo-container" src={services3}  alt="Your Business is Our Joy" /> 
+                        </div>     
+                    </div>
 
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
 </div>
@@ -212,7 +212,7 @@ class practices extends Component {
                     </div>     
                 </div>
                 </div>
-                <div className="flex-layout-section-full padding yellow-bg image-background-border-tb">
+                <div className="flex-layout-section-full padding yellow-bg image-background-border-tb margin-top-100">
                     <div className="content-header flex-layout-center width-100">
                         <div className="callout-text text-black">
                             In todays market design is more critical to your business success, competition and user expectations have increased.<br/> 
@@ -248,6 +248,7 @@ class practices extends Component {
                     </ul>
                        
                     </div>
+                    
                     <div className="grid-services-3 content-text-18">
                         
                     <ul>

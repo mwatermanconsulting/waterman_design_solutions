@@ -1,5 +1,6 @@
 import React, { Component } from 'react' ;
 import strategy from '../images/bg-strategy.png';
+import services from '../images/graphic-services.svg';
 import together from '../images/photos/photo-why-wds.png';
 import strategy1 from '../images/photos/photo-strategy-s1.png';
 import strategy1a from '../images/photos/photo-strategy-s1a.png';
@@ -15,24 +16,19 @@ class strategy_insight extends Component {
     render () {
         return(
         <div className="flex-layout-column"> 
-            <div className="flex-section-fixed-head  image-background-border-tb">
-           
+            <div className="flex-section-fixed-head flex-layout-center-center image-background-border-tb">
                 <div className="header-text-center header-title text-white">
                     Strategy and Insight</div>
                 <img className="flex-image-container" src={strategy}  alt="Why WDS background" /> 
-        
-            
-                
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
-                <div className="callout-text"> 
-                User Research Benefits the End User
-
+                <div className="callout-text-lg"> 
+                    User Research Benefits the End User
                 </div>
             </div>
             <div className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
                 <div className="item-a-nb content-block-60 content-header flex-layout-column">
-                    <div className="callout-text text-white">By directly observing people, we can get to the heart of their needs, discovering what drives them, what inspires them and what connects with them on an emotional level. We create knowledge for our clients of where to invest resources based on this understanding of what people value.</div>
+                    <div className="callout-text text-align-left text-white">By directly observing people, we can get to the heart of their needs, discovering what drives them, what inspires them and what connects with them on an emotional level. We create knowledge for our clients of where to invest resources based on this understanding of what people value.</div>
                              
                 </div>
                 <div className="grid-item-b container-image-block">
@@ -40,8 +36,8 @@ class strategy_insight extends Component {
                 </div>
             </div>
     
-            <div className="content-header flex-section-align-center flex-layout-column margin-top-100 ">
-                <div className="subtitle">
+            <div className="content-header flex-layout-center-center flex-layout-column margin-top-100 ">
+                <div className="flex-layout-center-center subtitle content-block-60">
                     Today, the user’s experience is more important than brand loyalty. A successful strategy is necessary to ensure this. 
                 </div>
                 <div className="content-block-cs margin-top-15">
@@ -236,6 +232,17 @@ class strategy_insight extends Component {
                         <img className="photo-container" src={strategy8}  alt="Review" /> 
                     </div>
                 </div>
+                <div className="container-grid-2col-full width-100 flex-layout-justified-sb border-3px bottom-border margin-top-100 yellow-bg "> 
+                <div className="item-a-nb content-block-why flex-layout-column">
+                    <div className="content-block">
+                        <p className="callout-text"> Looking for a larger Agile Transformation Program? </p>
+                        <p className="callout-text">  WDS is the leader in applying design solutions, experience strategy and observational insights to the development of applications, websites, SaaS, products and mobile.</p> 
+                    </div>
+                </div>
+            <div className="item-b container-image-block">
+                <img className="flex-image-container" src={services}  alt="Your Business is Our Joy" /> 
+            </div>
+            </div>   
                 
 
                 </div>

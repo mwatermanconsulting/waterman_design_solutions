@@ -7,26 +7,35 @@ import offerings_photo from '../images/photos/photo-core-offerings-s3.png';
 class core_offerings extends Component {
     render () {
         return(
-        <div className="flex-layout-column image-background-border-tb">
-            <div className="flex-layout-section-fixed yellow flex-layout-center-center">
+        <div className="flex-layout-column">
+            <div className="flex-layout-section-fixed yellow flex-layout-center-center image-background-border-tb">
                 <div className="header-text-center header-title text-white">Core Offerings</div>
                 <img className="flex-image-container" src={offerings}  alt="Why WDS background" /> 
             </div>
-            <div className="align-items-center border-bottom-5 border-top-5 callout-color-dark">
-                    <div className="padding-100 flex-layout-center-center">
-                        <div className="content-header flex-layout-column "> 
-                            <div className="content-block width-100">
-                                <p className="callout-text text-white text-align-center">Our Core Offerings Ensure Continued Business Success
-                                </p>
-                            </div>
+            <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
+                <div className="callout-text-lg">
+                UX WITHOUT USER RESEARCH ISN'T REALLY UX
+                </div>
+            </div>
+            <div className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
+                    <div className="item-a-nb content-block-60 content-header flex-layout-column">
+                    <div className="subtitle margin-top-15">
+                        WDS Core Offering aligns customers’ needs  and expectations to your business needs and expectations.
+                    </div>
+                        <div className="callout-text text-align-left text-white margin-top-15">
+                        WDS Services provide short term solutions, while our Core Offerings offer long term scalable solutions that improve the core of your business.
                         </div>
                     </div>
+                    <div className="grid-item-b container-image-block">
+                        <img className="container-photo-callout" src={offerings_photo}  alt="shaking hands" /> 
+                    </div>
                 </div>
-                <div className="container-grid-2col-photo flex-layout-column flex-layout-center-center" style={{height:'715px'}}>
+            
+            <div className="container-grid-2col-photo flex-layout-column flex-layout-center-center" style={{height:'715px'}}>
                    <div className="grid-item2a">
-                    <div className="subtitle">WDS Core Offering aligns customers’ needs and expectations to your business needs and expectations. </div>
-                        <div className="content-block-why">
-                            <p className="content-text-services margin-top-25"> WDS Services provide short term solutions, while our Core Offerings offer long term scalable solutions that improve the core of your business.
+                    <div className="subtitle">WDS Core Offering aligns customers’ needs <br/> and expectations to your business needs<br/> and expectations. </div>
+                        <div className="content-block-15">
+                            <p className="content-text-18 margin-top-25" style={{width:'90%'}}> WDS Services provide short term solutions, while our Core Offerings offer long term scalable solutions that improve the core of your business.
                             </p>
                         </div>
                     </div>
@@ -40,7 +49,7 @@ class core_offerings extends Component {
             <div className="container-grid-3col flex-layout-center-center margin-top-100" style={{marginLeft: '15%'}}>
                 <div className="content-block-75">
                     <div className="title-small">Design & Development</div>
-                        <p className="margin-top-10" style={{width:'80%'}}>Blending teams of strategists, researchers, designers and developers together guarantees strong          communication, collaboration and team success. Combined with better understanding of the problem space and validated designs, we focus on developing     secure, scalable software, faster than internal or offshore teams.
+                        <p className="margin-top-10" style={{width:'80%'}}>Blending teams of strategists, researchers, designers and developers together guarantees strong  communication, collaboration and team success. Combined with better understanding of the problem space and validated designs, we focus on developing     secure, scalable software, faster than internal or offshore teams.
                         </p>
                         <p>Key Services</p>
                     <ul>
@@ -89,7 +98,7 @@ class core_offerings extends Component {
                     </ul>
                 </div> 
             </div>    
-            <div className="container-grid-2col-full flex-layout-justified-sb border-3px bottom-border margin-top-100 grey "> 
+            <div className="container-grid-2col-full width-100 flex-layout-justified-sb border-3px bottom-border margin-top-100 grey "> 
                 <div className="item-a-nb content-block-why flex-layout-column">
                     <div className="content-block">
                         <p className="callout-text"> Looking for a larger Agile Transformation Program? </p>
