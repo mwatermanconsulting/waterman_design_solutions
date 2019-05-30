@@ -16,12 +16,33 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .grid-title {
+    grid-column: auto / span 2;
+    align-items: center;
+  }
+
   .grid-a {
-    grid-column: 1/2;
+    grid-column: auto;
+    grid-row: auto;
+   
   }
   
   .grid-b {
-    grid-column: 2/2;
+    grid-column: auto;
+    grid-row: auto;
+ 
+  }
+
+  .grid-c {
+    grid-column: auto;
+    grid-row: 3/3;
+
+  }
+  
+  .grid-d {
+    grid-column: auto;
+    grid-row: 3/3;
+
   }
 
 
@@ -66,7 +87,7 @@
 .container-grid-2col-full {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
-    grid-gap: 1px;
+    grid-gap: 20px;
     align-self: center;
     display: grid;
     justify-content: space-around;
