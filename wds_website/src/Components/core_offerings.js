@@ -90,7 +90,7 @@ class core_offerings extends Component {
                 </div> 
             </div>    
             <div className="container-grid-2col-full flex-layout-justified-sb border-3px bottom-border margin-top-100 grey "> 
-                <div className="item-a-nb content-header flex-layout-column">
+                <div className="item-a-nb content-block-why flex-layout-column">
                     <div className="content-block">
                         <p className="callout-text"> Looking for a larger Agile Transformation Program? </p>
                         <p className="callout-text">  WDS is the leader in applying design solutions, experience strategy and observational insights to the development of applications, websites, SaaS, products and mobile.</p> 

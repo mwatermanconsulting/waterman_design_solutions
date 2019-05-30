@@ -282,6 +282,11 @@
   align-self: center;
 }
 
+.container-section-1-primary {
+  display: flex;
+  height: 270px;
+}
+
 .container-justifyRow-center {
   display: flex;
   flex-direction: row;
@@ -553,6 +558,7 @@
       display: list-item;
       text-align: -webkit-match-parent;
       white-space: nowrap;
+      margin-left: -25px;
   }
 
   .card-case-studies {

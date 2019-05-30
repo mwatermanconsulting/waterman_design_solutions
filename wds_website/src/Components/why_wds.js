@@ -148,7 +148,7 @@ class why_wds extends Component {
 
                             <p>We’re recognized by industry analysts for setting the standard for the way businesses design and develop software. WDS builds emotionally rich, resonant software solutions that enable customers and end users to fully realize technology’s complete potential in our always-on, always-connected world.</p>
                         </div>
-                    </div>
+                        </div>
                     <div className="item-b container-image-block">
                         <img className="flex-image-container" src={care}  alt="Your Business is Our Joy" /> 
                     </div>
