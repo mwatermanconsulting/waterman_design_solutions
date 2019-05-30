@@ -1,236 +1,245 @@
 import React, { Component } from 'react' ;
-import mike from '../images/mike.png';
-import terri from '../images/terri.png';
+import strategy from '../images/bg-strategy.png';
+import together from '../images/photos/photo-why-wds.png';
+import strategy1 from '../images/photos/photo-strategy-s1.png';
+import strategy1a from '../images/photos/photo-strategy-s1a.png';
+import strategy2 from '../images/photos/photo-strategy-s2.png';
+import strategy3 from '../images/photos/photo-strategy-s3.png';
+import strategy4 from '../images/photos/photo-strategy-s4.png';
+import strategy5 from '../images/photos/photo-strategy-s5.png';
+import strategy6 from '../images/photos/photo-strategy-s6.png';
+import strategy7 from '../images/photos/photo-strategy-s7.png';
+import strategy8 from '../images/photos/photo-strategy-s8.png';
 
 class strategy_insight extends Component {
     render () {
         return(
-            <div className="flex-layout-column margin-bottom-50"> 
-            <div className="flex-layout-section">
-                <div className="image-background-border-tb">
-                    {/*  <img className="consultingpic" src={consultingpic} alt="consulting"/> */} 
-                        <div className="content-right-center">
-                            <div className="content-header">
-                                <div className="title">Strategy & Insight</div>
-                            </div>
-                                <div className="content-text">
-                                    <p>WDS is an end-to-end, experience-driven company that helps organizations navigate complex digital transformations. Our team provides the clarity to better understand 
-                                    the needs of your customers and users, and reveal the disconnects in your current customer experience. 
-                                    By doing so, we help prioritize and deliver comprehensive experience enhancements to help you exceed your key customer experience and targeted business goals. 
-                                    We work across verticals and technologies - consumer, workplace, financial, health care, customer service, mobile development, ecommerce and more - to design software interfaces that makes sense. </p>
-                                </div>
-                            </div>
+        <div className="flex-layout-column"> 
+            <div className="flex-section-fixed-head  image-background-border-tb">
+           
+                <div className="header-text-center header-title text-white">
+                    Strategy and Insight</div>
+                <img className="flex-image-container" src={strategy}  alt="Why WDS background" /> 
+        
+            
+                
+            </div>
+            <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
+                <div className="callout-text"> 
+                User Research Benefits the End User
+
+                </div>
+            </div>
+            <div className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
+                <div className="item-a-nb content-block-60 content-header flex-layout-column">
+                    <div className="callout-text text-white">By directly observing people, we can get to the heart of their needs, discovering what drives them, what inspires them and what connects with them on an emotional level. We create knowledge for our clients of where to invest resources based on this understanding of what people value.</div>
+                             
+                </div>
+                <div className="grid-item-b container-image-block">
+                    <img className="container-photo-callout" src={strategy1a}  alt="shaking hands" /> 
+                </div>
+            </div>
+    
+            <div className="content-header flex-section-align-center flex-layout-column margin-top-100 ">
+                <div className="subtitle">
+                    Today, the user’s experience is more important than brand loyalty. A successful strategy is necessary to ensure this. 
+                </div>
+                <div className="content-block-cs margin-top-15">
+                    <p className="content-text-18">WDS discovers the patterns and themes that provide actionable, deeper and more valuable perspectives on your customers' wants, needs and motivations.</p>
+                    <p className="content-text-18">The most meaningful insights for experience strategy are developed with behavior-based understanding of users. Our experience strategists observe people in context - where they work, play or live - to understand their goals, needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve..</p>
+                </div>
+            </div>
+            <div className="flex-layout-section-full flex-layout-center-center flex-layout-column margin-top-50">
+                
+                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
+
+                <div className="grid-2col-photo-content content-header">
+                    <div className="grid-left flex-layout-section-full">
+                        <div className="subtitle">
+                            1. Stakeholder Interview
+                        </div>
+                        <div className="content-block-75 content-text-18 margin-top-25">
+                            <p className="content-text-18"> 
+                            At the beginning of an engagement, we set the foundation for success by developing an understanding of the business, the industry, the competition and relevant trends. This becomes the basis for how we approach all subsequent phases. Along with secondary research, we interview stakeholders and subject matter experts, both to gain a firsthand awareness of the company context and to build connections within the business which contribute to stakeholder alignment throughout the engagement. This activity begins to define hypotheses for where the company intends to play in the market, who it intends to serve and how it plans to serve them.</p>
                         </div>
                     </div>
-                     <div className="flex-layout-section-full">
-                        <div className="flex-layout-column"> 
-                            <div className="flex-layout-center-center margintop50"> 
-                                <div className="content-header flex-layout-center">
-                                    <div className="content-text width-half">
-                                        <p><b> In todays market desgin is more critical to your business success, competition and user expectations have increased. 
-                                                Your only chance of survival is understanding both your users and competition.</b></p>
-                                    </div>
-                                </div>
-                                <div className="content-header flex-layout-center flex-layout-column">
-                                    <div className="title-reverse margintop50">Services Include</div><br/>
-                                    <div className="title-reverse margintop50">STRATEGY & INSIGHT</div>
-                                </div>
-                                    <div className="flex-layout-center">
-                                        <ul>
-                                            <li>Digital Transformation</li>
-                                            <li>Journey Maps</li>
-                                            <li>Contextual Inquiry</li>
-                                            <li>Affinity Diagramming</li> 
-                                            <li>Personas</li> 
-                                            <li>Consolidated Workflow Diagrams</li>
-                                            <li>Design Thinking Mentoring</li>
-                                            <li>Communication Workshops</li>
-                                            <li>Engagement Plans</li>
-                                            <li>CSS Methodology, Organization, best practices and mentoring</li>
-                                        </ul>
-                                    </div>
-                                <div className="content-header flex-layout-center flex-layout-column margintop50">
-                                    <div className="title-reverse">User Experience Design</div>
-                                </div>
-                                <div className="flex-layout-center">
-                                    <ul>
-                                        <li>Interaction Design</li>
-                                        <li>Visual Design</li>
-                                        <li>Strategic Ideation</li>
-                                        <li>Protyping</li> 
-                                        <li>Concept Validation</li> 
-                                        <li>Wireframe Key Workflows</li>
-                                        <li>Design Systems</li>
-                                        <li>Style Guides</li>
-                                    </ul>
-                                </div>
-                                <div className="content-header flex-layout-center flex-layout-column margintop50">
-                                    <div className="title-reverse">Marketing & Analytics</div>
-                                </div>
-                                <div className="flex-layout-center">
-                                    <ul>
-                                        <li>Marketing Strategy</li>
-                                        <li>Content Science & Design</li>
-                                        <li>Experience Data & Analytics</li>
-                                        <li>Social & Influence Strategy</li>
-                                        <li>Marketing Technology Design & Strategy</li>
-                                        <li>Innovation as a Brand</li>
+                    <div className="grid-right container-image-block">
+                        <img className="photo-container" src={strategy2}  alt="Stakeholder Interview" /> 
+                    </div>     
+                </div>
 
-                                    </ul>
-                                </div>
-                                <div className="content-header flex-layout-center flex-layout-column margintop50">
-                                    <div className="title-reverse">Design</div>
-                                </div>
-                                <div className="flex-layout-center margin-bottom-50">
-                                    <ul>
-                                        <li>Branding</li>
-                                        <li>Heuristic UI Design</li>
-                                        <li>Website Design</li>
-                                        <li>Video Production</li> 
-                                    </ul>
-                                </div>
-                            </div>
+                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
+
+                    <div className="grid-2col-photo-content content-header">
+                    <div className="grid-left flex-layout-section-full ">
+                        <div className="subtitle">
+                            2. An Expert Review
+                        </div>
+                        <div className="content-block-75 content-text-18 margin-top-25">
+                            <p className="content-text-18"> The heuristic review is an expert analysis that examines the current site or application screens in comparison to industry standards and established best practices. This helps to point out areas of opportunity that can be addressed during the redesign process in an effort to best the competition. This review results in a presentation of findings that includes both areas of opportunities and concrete recommendations.</p>
                         </div>
                     </div>
-                    <div className="flex-layout-section">
-                        <div className="flex-layout-center-center">
-                            <div className="flex-layout-justified-sb flex-layout-center-center margintop50">     
-                                <div className="flex-layout-content-container">
-                                    <div className="flex-layout-row flex-layout-center-center">
-                                        <div className="flex-layout-center section-min-width">
-                                            <p>Image this side</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="flex-layout-row">
-                                    <div className="flex-layout-column-half ">
-                                        <h3 className="content-header"> Strategy & Insight </h3>
-                                            <p> An experience strategy provides the direction to design and build an experience that truly resonates with your audience.
-                                                Harnessing the power of observation-based insights and leveraging your users' wants, needs, aspirations and emotional connection points, we develop tailored solutions that go beyond best practices. 
-                                                We then take those solutions back to your users and get meaningful, individual feedback. This is the primary foundation that successfully supports your product or service.
-                                                Learn More
-                                            </p>
-                                    </div>
-                                </div>
-                            </div>
+                    <div className="grid-right container-image-block">
+                        <img className="photo-container" src={strategy3}  alt="Review" /> 
+                    </div>     
+                </div>
+
+                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
+</div>
+                <div className="grid-2col-photo-content content-header">
+                    <div className="grid-left flex-layout-section-full">
+                        <div className="subtitle">
+                            3: Contextual Inquiry
+
+                        </div>
+                        <div className="content-block-75 content-text-18 margin-top-25">
+                            <p className="content-text-18"> When design determines success, understanding the user is paramount. We design to connect people with what matters most to them. </p>
+                            <p className="content-text-18">Our design experts use experience strategy and insight to define how software functions and build workflows for the ways that people will experience it. 
+                            From inception through launch, we obsess over every detail.</p>
+                            <p className="content-text-18">For the visual representation, we create a uniquely identifiable and recognizable design by incorporating elements like brand, familiar fonts and emotions that resonate with users.</p>
+                                           
+                                    
+                            <p><i>Learn More</i></p>
                         </div>
                     </div>
-                    <div className="flex-layout-section">
-                        <div className="flex-layout-center-center">
-                            <div className="flex-layout-column flex-layout-center-center margintop50">     
-                                <div className="flex-layout-content-container">
-                                    <div className="flex-layout-row flex-layout-center-center">
-                                        <div className="flex-layout-center section-min-width">
-                                            <p>Image at top</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="flex-layout-row flex-layout-center-center">
-                                    <div className="flex-layout-column-half ">
-                                        <h3 className="content-header text-center"> Company Hightlight Feature: Design Systems </h3>
-                                            <p> At WDS, we’ve helped launch a number of design systems. They provide several tangible benefits, such as enforcing visual and 
-                                                interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff. 
+                    <div className="grid-right container-image-block">
+                        <img className="photo-container" src={strategy3}  alt="Your Business is Our Joy" /> 
+                    </div>     
+                </div>
 
-                                                Learn more about design systems »
 
-                                                Learn More
-                                            </p>
-                                    </div>
+                    {/* <div className="flex-layout-section-full flex-layout-center-center margin-top-50 padding-bottom-50"> 
+                        <div className="content-header flex-layout-column width-50">
+                            <h3 className="sub-title">Featured Service: Design Systems</h3>
+                                <div className="content-block">
+                                        <p className="content-text-18"> At WDS, we know and understand the importance of design systems to businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, 
+                                        and letting software teams focus on solving tough problems instead of the small stuff. </p>
+                                        <p>Learn more about design systems » </p>
                                 </div>
-                            </div>
                         </div>
                     </div>
-                    <div className="flex-layout-section">
-                        <div className="fle-layout-column flex-layout-center-center"> 
-                                <div className="flex-layout-content-container">
-                                    <div className="flex-layout-row flex-layout-center-center">
-                                        <div className="flex-layout-center section-min-width">
-                                            <p>Image this side</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="flex-layout-row">
-                                    <div className="flex-layout-column-half ">
-                                        <h3 className="content-header"> Design</h3>
-                                            <p>  Content Needed <br/>
 
-                                                Learn More
-                                            </p>
-                                    </div>
+                    <div className="flex-layout-section thin-hr margin-top-50" style={{ width: '40%' }}></div>
+
+                    <div className="flex-layout-section-full flex-layout-center-center margin-top-100 padding-bottom-50"> 
+                        <div className="content-header flex-layout-column width-50">
+                            <h3 className="sub-title">Featured Service: CSS Development and Support</h3>
+                                <div className="content-block">
+                                        <p className="content-text-18"> At WDS, we know and understand the importance of design systems to businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, 
+                                        and letting software teams focus on solving tough problems instead of the small stuff. </p>
+                                        <p>Learn more about design systems » </p>
                                 </div>
-                            </div>
                         </div>
-                        <div className="flex-layout-section">
-                            <div className="flex-layout-center-center">
-                                <div className="flex-layout-justified-sb flex-layout-center-center">     
-                                    <div className="flex-layout-content-container">
-                                        <div className="flex-layout-row flex-layout-center-center">
-                                            <div className="flex-layout-center section-min-width">
-                                                <p>Image this side</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                <div className="flex-layout-row">
-                                    <div className="flex-layout-column-half ">
-                                        <h3 className="content-header"> Marketing, Analytics & Telemetry</h3>
-                                            <p> The WDS Digital Marketing team researches, ideates, implements and optimizes sophisticated web marketing solutions tailored to the specific goals 
-                                                and objectives of each of our clients.
+                    </div> */}
 
-                                                What sets us apart is a genuine understanding of your users. Combining proven digital marketing strategies and user observations, we create and run organized digital marketing 
-                                                campaigns that deliver. Our team cuts through the clutter to create and measure impactful strategies. We ensure your digital marketing campaigns align with your business objectives, 
-                                                and leverage opportunities for innovation and differentiation.
-                                            </p>
-                                    </div>
-                                </div>
-                            </div>
+             <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
+
+                    <div className="grid-2col-photo-content content-header">
+                    <div className="grid-left flex-layout-section-full ">
+                        <div className="subtitle">
+                            4: Affinity Diagram
+                        </div>
+                        <div className="content-block-75 content-text-18">
+                        <div className="content-block-services" >
+                            <p className="content-text-18">  Data is only as valuable as the meaning we craft
+                                from it. We have tried-and-true methods for moving
+                                from observations to insights. These meaningful
+                                insights are the next building block in the process of
+                                building an experience strategy.</p>
+
+                            <p className="content-text-18"> We take a comprehensive, rigorous approach to
+                                process data from the field and use it to spark
+                                explanations of what is behind the observations.
+                                Getting to the deeper understanding that insights
+                                provide beyond the raw data is a key step that sets
+                                professionals apart from amateurs.</p>   
+                        </div>
                         </div>
                     </div>
-                    <div className="flex-layout-section-full">
-                        <div className="flex-layout-column"> 
-                            <div className="flex-layout-center-center margintop50"> 
-                                <div className="content-header flex-layout-center">
-                                    <div className="content-text width-half">
-                                        <h1>In todays market desgin is more critical to your business success, competition and user expectations have increased. 
-                                                Your only chance of survival is understanding both your users and competition.</h1>
-                                    </div>
-                                </div>
-                                <div className="content-header flex-layout-center flex-layout-column">
-                                    <div className="title-reverse margintop50">Successful Projects Across</div><br/>
-                                </div>
-                                    <div className="flex-layout-center">
-                                        <ul>
-                                            <li>Digital Transformation</li>
-                                            <li>Retail Products </li>
-                                            <li>Mobile Responsive Design</li>
-                                            <li>Digital Data </li> 
-                                            <li>Mobile Solutions</li> 
-                                            <li>Product UI</li>
-                                            <li>Analytics Dashboards</li>
-                                        </ul>
-                                    </div>
-                                <div className="content-header flex-layout-center flex-layout-column margintop50">
-                                    <div className="title-reverse">Verticals and Industries</div>
-                                </div>
-                                <div className="flex-layout-center">
-                                    <ul>
-                                        <li>Health Care</li>
-                                        <li>Consumer</li>
-                                        <li>Retail</li>
-                                        <li>Startups</li> 
-                                        <li>Industrial</li> 
-                                        <li>Data Vizualization</li>
-                                        <li>Energy</li>
-                                        <li>ecommerce</li>
-                                        <li>Food and Beverage</li> 
-                                        <li>Travel</li>
-                                        <li>Arts and Entertainment</li>
-                                        <li>Oil & Gas</li>
-                                    </ul>
-                                </div>
-                            </div>
+                    <div className="grid-right container-image-block">
+                        <img className="photo-container" src={strategy5}  alt="Your Business is Our Joy" /> 
+                    </div>     
+                </div>
+                
+
+                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
+
+                <div className="grid-2col-photo-content content-header">
+                    <div className="grid-left flex-layout-section-full">
+                        <div className="subtitle">
+                            5. Personas
+
                         </div>
+                        <div className="content-block-75 content-text-18 margin-top-25">
+                            <p className="content-text-18"> 
+                            At the beginning of an engagement, we set the foundation for success by developing an understanding of the business, the industry, the competition and relevant trends. This becomes the basis for how we approach all subsequent phases. Along with secondary research, we interview stakeholders and subject matter experts, both to gain a firsthand awareness of the company context and to build connections within the business which contribute to stakeholder alignment throughout the engagement. This activity begins to define hypotheses for where the company intends to play in the market, who it intends to serve and how it plans to serve them.</p>
+                        </div>
+                    </div>
+                    <div className="grid-right container-image-block">
+                        <img className="photo-container" src={strategy5}  alt="Stakeholder Interview" /> 
+                    </div>     
+                </div>
+
+                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
+
+                    <div className="grid-2col-photo-content content-header">
+                    <div className="grid-left flex-layout-section-full ">
+                        <div className="subtitle">
+                            6. Consolidated Workflow Diagrams                        
+                        </div>
+                        <div className="content-block-75 content-text-18 margin-top-25">
+                            <p className="content-text-18"> When an engagement centers on a complex tool for the enterprise, the Consolidated Workflow Diagram captures activity across organizational roles and provides stakeholders a single view of all of the work accomplished in and around a tool. This diagram gives stakeholders an “aha!” moment as, for the first time, they have a picture of the duties employees or customers accomplish in their work lives. Through the use of a Consolidated Workflow Diagram, we see how a user moves through tasks and we extrapolate from here to the various cognitive states a user inhabits while engaged with the solution or process. These cognitive states represent a model of what is in people’s minds as they do their work: their mental model. This understanding has implications for both design and marketing. 
+</p>
+                        </div>
+                    </div>
+                    <div className="grid-right container-image-block">
+                        <img className="photo-container" src={strategy6}  alt="Review" /> 
+                    </div>     
+                </div>
+
+                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
+</div>
+                <div className="grid-2col-photo-content content-header">
+                    <div className="grid-left flex-layout-section-full">
+                        <div className="subtitle">
+                        7. Looking for Opportunities
+                        </div>
+                        <div className="content-block-75 content-text-18 margin-top-25">
+                            <p className="content-text-18"> A key value that an experience strategy delivers is a set of new ideas for serving customers. The information distilled from the previous techniques and the company’s strategic requirements comes together in an Opportunities Matrix that clearly lays out a set of options for improving the experience of the user base to increase their engagement and satisfaction.</p>
+                            <p className="content-text-18">WDS collaborates with product and executive teams to brainstorm concepts for innovation and improvement. Together, the combined team prioritizes the opportunities based on the difficulty of implementation, the feasibility for the business to deliver and the impact that each solution concept may have on users.</p>
+                                           
+                                    
+                            <p><i>Learn More</i></p>
+                        </div>
+                    </div>
+                    <div className="grid-right container-image-block">
+                        <img className="photo-container" src={strategy7}  alt="Review" /> 
                     </div>
                 </div>
+                    
+                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
+</div>
+                <div className="grid-2col-photo-content content-header margin-bottom-100">
+                    <div className="grid-left flex-layout-section-full">
+                        <div className="subtitle">
+                        8: Journey Maps                        
+                        </div>
+                        <div className="content-block-75 content-text-18 margin-top-25">
+                            <p className="content-text-18"> Companies are often so focused on their solutions that they forget that it is part of a larger whole: the customer’s life. As the customer interacts with the company or engages in a life process, such as buying a house, understanding the key activities and experiences the customer has helps determine the most valuable places to focus resources. This ensures that each interaction with the company fits the experience the organization wants to provide. The understanding of the key activities and experiences is built into an informative diagram called a Customer Journey Map. This diagram informs key decisions for business, marketing and design executives, and can shift stakeholders’ thinking about where to engage across the lifecycle of a customer’s journey.
+                            </p>
+                                           
+                                    
+                            <p><i>Learn More</i></p>
+                        </div>
+                    </div>
+                    <div className="grid-right container-image-block">
+                        <img className="photo-container" src={strategy8}  alt="Review" /> 
+                    </div>
+                </div>
+                
+
+                </div>
+            </div>
         )
     }
 }
