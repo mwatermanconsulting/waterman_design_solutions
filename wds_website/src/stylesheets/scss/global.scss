@@ -247,9 +247,16 @@ p {
   }
 
 
+
   .image-size-100 {
   height: 100%;
   width: 100%;
+}
+
+.container-photo-callout {
+  width: 650px;
+  height: 450px;
+  border: 2px solid $white;
 }
 
 .image-size-header-fixed {
