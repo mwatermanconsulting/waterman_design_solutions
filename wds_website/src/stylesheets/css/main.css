@@ -319,6 +319,12 @@ footer {
   min-height: 625px;
   background-color: #6c8086; }
 
+.flex-section-fixed-head {
+  display: flex;
+  height: 100%;
+  min-height: 625px;
+  background-color: #e3ce71; }
+
 .flex-layout-section-row {
   display: flex;
   flex-direction: row;
@@ -431,6 +437,12 @@ footer {
 
 .content-block-auto {
   width: auto; }
+
+.content-block-25 {
+  width: 25%; }
+
+.content-block-55 {
+  width: 55%; }
 
 /*  Alighnment   */
 .align-items-center {
@@ -1678,6 +1690,12 @@ callout-bg-s1 {
   grid-row: auto;
   justify-content: center;
   margin-left: 25%; }
+
+.grid-left-45 {
+  grid-column: 1/2;
+  grid-row: auto;
+  justify-content: center;
+  margin-left: 45%; }
 
 .grid-right {
   grid-column: 2/2;
