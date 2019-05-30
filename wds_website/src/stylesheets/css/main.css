@@ -319,6 +319,12 @@ footer {
   min-height: 625px;
   background-color: #6c8086; }
 
+.flex-section-fixed-head {
+  display: flex;
+  height: 100%;
+  min-height: 625px;
+  background-color: #e3ce71; }
+
 .flex-layout-section-row {
   display: flex;
   flex-direction: row;
@@ -431,6 +437,12 @@ footer {
 
 .content-block-auto {
   width: auto; }
+
+.content-block-25 {
+  width: 25%; }
+
+.content-block-55 {
+  width: 55%; }
 
 /*  Alighnment   */
 .align-items-center {
