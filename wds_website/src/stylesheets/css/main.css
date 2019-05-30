@@ -1691,6 +1691,12 @@ callout-bg-s1 {
   justify-content: center;
   margin-left: 25%; }
 
+.grid-left-45 {
+  grid-column: 1/2;
+  grid-row: auto;
+  justify-content: center;
+  margin-left: 45%; }
+
 .grid-right {
   grid-column: 2/2;
   grid-row: auto; }
