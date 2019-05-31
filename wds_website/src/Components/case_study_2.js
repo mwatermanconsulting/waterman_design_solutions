@@ -27,17 +27,13 @@ class case_study_2 extends Component {
     render () {
         return(
             <div className="flex-layout-column flex-layout-section-full">
-                <div className="flex-layout-section-full">
-                    <div className="image-background-border-tb">
-                        <div className="flex-layout-row width-100"> 
-                            <div className="header-title align-self-center header-text-left text-white">
-                                Case Study - StubHub
-                            </div>
-                                <img className="header-text-right align-self-center" src={stubhub_logo}  alt="Stubhub Case Study Logo Image" /> 
-                                <img className="flex-image-container" src={stubhub_bg}  alt="Stubhub Case Study " /> 
-                        </div>
-                    </div> 
-                </div>
+                <div className="image-background-border-tb flex-layout-row width-100">
+                    <div className="header-title align-self-center header-text-left text-white">
+                        Case Study - StubHub
+                    </div>
+                        <img className="header-text-right align-self-center" src={stubhub_logo}  alt="Stubhub Case Study Logo Image" /> 
+                        <img className="flex-image-container" src={stubhub_bg}  alt="Stubhub Case Study " />  
+                </div> 
                 <div className="flex-layout-section-fixed-sm margin-top-75">
                     <div className="content-header flex-layout-center-center"> 
                         <div className="content-block-cs intro-text"> Goal: To design a custom on-demand data reporting tool and to solve
@@ -293,24 +289,20 @@ class case_study_2 extends Component {
                             <img className="photo-container-cs-sb1" src={stubhub_results} alt="Finding the Truth - Business Perspective"/>
                             <p className="margin-top-15 margin-bottom-100"><i>StubHub happily emailed WDS this screenshot six months after release </i></p>
                         </div>
-                        <div className="container-grid-2col-full border-3px bottom-border grey" style={{height:'450px'}}>
-                            <div className="item-2a" style={{padding:'20px'}}>
+                        <div className="container-bottom-callout">
+                        
+                    </div>
+                    </div>
+                    <div className="grid-bottom-callout border-3px bottom-border grey" style={{height:'450px'}}>
+                            <div className="grid-bottom-1" style={{padding:'20px'}}>
                                 <p className="callout-text">A few months after completing the project, We contacted the team to check-in and make sure they were still doing the blog and emails. They said there was no need to push for more users, they currently had 172 users and there were only 175 analysts in the company. In 5 months the reporting tool went from a 1% total usage to 98% and the team couldn't be happier. 
                                 </p>
                             </div>
-                            <div className="item-2b">
+                            
+                            <div className="grid-bottom-2">
                                 <img src={thumbsUp} alt="Finding the Truth - Business Perspective"/>
                             </div>
                         </div>
-                    </div>
-                    <div className="flex-layout-section" style={{padding:'25px'}}>
-                        <div className="image-background-border-tb">
-                            <div className="flex-layout-row width-100"> 
-                                <h1 className="header-text-right text-white"> <a href="./case_study_1">  Next - Motorola Case Study</a></h1>
-                                <img className="flex-image-container" src={motorola_bg}  alt="Motorola background" /> 
-                            </div>
-                        </div> 
-                    </div>
                 </div>    
                                               
                                         )

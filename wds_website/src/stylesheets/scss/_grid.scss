@@ -272,3 +272,19 @@
     justify-content: center; 
   }
 
+  .grid-bottom-callout {
+    grid-template-areas:
+    'image content';
+    display: grid;
+  }
+
+.grid-bottom-1 {
+  grid-column: 1/2;
+  grid-area: image;
+}
+
+.grid-bottom-2 {
+  grid-column: 2/2;
+  grid-area: content;
+}
+
