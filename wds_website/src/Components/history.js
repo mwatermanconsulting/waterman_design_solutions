@@ -1,5 +1,5 @@
 import React, { Component } from 'react' ;
-import history from '../images/bg-ourhistory.png'
+import history from '../images/backgrounds/bg-ourhistory.png'
 import photo_history from '../images/photos/photo-history-s1.png'
 import history_3 from '../images/photos/photo-history-s3.png'
 import time from '../images/WDS-timeline.png'

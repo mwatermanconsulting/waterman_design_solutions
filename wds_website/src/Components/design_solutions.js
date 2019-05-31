@@ -1,6 +1,6 @@
 import React, { Component } from 'react' ;
 import { Button } from 'react-mdl';
-import design from '../images/bg-design.svg';
+import design from '../images/backgrounds/bg-design.svg';
 
 class design_solutions extends Component {
     render () {

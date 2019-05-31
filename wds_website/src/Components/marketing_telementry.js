@@ -1,5 +1,5 @@
 import React, { Component } from 'react' ;
-import analysis from '../images/bg-analysis.png';
+import analysis from '../images/backgrounds/bg-analysis.png';
 import relief from '../images/uxdesignrelief.png';
 import together from '../images/photos/photo-why-wds.png';
 import analytics1 from '../images/photos/photo-analytics-s1.png';

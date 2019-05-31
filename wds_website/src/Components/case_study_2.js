@@ -1,6 +1,6 @@
 import React, { Component } from 'react' ;
 import { Button } from 'react-mdl';
-import stubhub_bg from '../images/bg-stubhub.png';
+import stubhub_bg from '../images/backgrounds/bg-stubhub.png';
 import stubhub_logo from '../images/icon-logo-stubhub.svg'; 
 import motorola_s1 from '../images/photos/photo-Motorola_2.png';
 import stubhub_before_s1 from '../images/photos/photo-stubhub-before-2.png';
@@ -19,7 +19,7 @@ import stubhub_after_13 from '../images/photos/photo-stubhub-after-13.png';
 import stubhub_dashboard from '../images/photos/photo-stubhub-future-dashboard2.png';
 import thumbsUp from '../images/thumbsup.svg';
 import stubhub_s2 from '../images/photos/photo-stubHub-s2.png';
-import motorola_bg from '../images/bg-motorola.png';
+import motorola_bg from '../images/backgrounds/bg-motorola.png';
 import motorola_logo from '../images/icon-motorola-white.svg'; 
 
 

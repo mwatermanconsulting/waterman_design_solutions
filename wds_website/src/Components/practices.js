@@ -1,5 +1,5 @@
 import React, { Component } from 'react' ;
-import practice from '../images/bg-services.svg';
+import practice from '../images/backgrounds/bg-services.svg';
 import together from '../images/photos/photo-why-wds.png';
 import services2 from '../images/photos/photo-services-s2.png';
 import services3 from '../images/photos/photo-services-s3.png';

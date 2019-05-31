@@ -1,5 +1,5 @@
 import React, { Component } from 'react' ;
-import why from '../images/bg-why-wds.svg';
+import why from '../images/backgrounds/bg-why-wds.svg';
 
 class test_area extends Component {
     render () {

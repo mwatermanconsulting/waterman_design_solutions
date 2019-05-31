@@ -1,6 +1,6 @@
 import React, { Component } from 'react' ;
-import why from '../images/bg-why-wds.svg';
-import method from '../images/bg-methodology.svg';
+import why from '../images/backgrounds/bg-why-wds.svg';
+import method from '../images/backgrounds/bg-methodology.svg';
 
 //import { Grid, Cell } from 'react-mdl';
 
