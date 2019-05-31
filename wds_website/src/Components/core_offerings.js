@@ -1,5 +1,5 @@
 import React, { Component } from 'react' ;
-import offerings from '../images/bg-core-studies.png';
+import offerings from '../images/backgrounds/bg-core-studies.png';
 import ux from '../images/ux_process.png';
 import services from '../images/graphic-services.svg';
 import offerings_photo from '../images/photos/photo-core-offerings-s3.png';

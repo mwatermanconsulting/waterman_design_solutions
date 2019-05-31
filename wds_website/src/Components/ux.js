@@ -1,5 +1,5 @@
 import React, { Component } from 'react' ;
-import ux_bg from '../images/bg-ux.png'
+import ux_bg from '../images/backgrounds/bg-ux.png'
 import ux_s1 from '../images/photos/photo-ux-s1.png'
 import services from '../images/graphic-services.svg';
 import mike from '../images/mike.png';

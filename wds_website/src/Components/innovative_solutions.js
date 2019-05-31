@@ -1,16 +1,15 @@
 import React, { Component } from 'react' ;
-import strategy from '../images/bg-strategy.png';
+import finding_truth from '../images/backgrounds/bg-documentation.png';
 import services from '../images/graphic-services.svg';
 import together from '../images/photos/photo-why-wds.png';
-import strategy1 from '../images/photos/photo-strategy-s1.png';
-import strategy1a from '../images/photos/photo-strategy-s1a.png';
-import strategy2 from '../images/photos/photo-strategy-s2.png';
-import strategy3 from '../images/photos/photo-strategy-s3.png';
-import strategy4 from '../images/photos/photo-strategy-s4.png';
-import strategy5 from '../images/photos/photo-strategy-s5.png';
-import strategy6 from '../images/photos/photo-strategy-s6.png';
-import strategy7 from '../images/photos/photo-strategy-s7.png';
-import strategy8 from '../images/photos/photo-strategy-s8.png';
+import finding_truth1 from '../images/photos/photo-finding-truth-s1.png';
+import finding_truth2 from '../images/photos/photo-finding-truth-s2.png';
+import finding_truth3 from '../images/photos/photo-finding-truth-s3.png';
+import finding_truth4 from '../images/photos/photo-finding-truth-s4.png';
+import finding_truth5 from '../images/photos/photo-finding-truth-s5.png';
+import finding_truth6 from '../images/photos/photo-finding-truth-s6.png';
+import finding_truth7 from '../images/photos/photo-finding-truth-s7.png';
+import finding_truth8 from '../images/photos/photo-finding-truth-s8.png';
 
 class innovative_solutions extends Component {
     render () {
@@ -18,27 +17,29 @@ class innovative_solutions extends Component {
         <div className="flex-layout-column"> 
             <div className="flex-section-fixed-head flex-layout-center-center image-background-border-tb">
                 <div className="header-text-center header-title text-white">
-                    Innovative Soluttions</div>
-                <img className="flex-image-container" src={strategy}  alt="Why WDS background" /> 
+                    Innovative Solutions</div>
+                <img className="flex-image-container" src={finding_truth}  alt="Why WDS background" /> 
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                    User Research Benefits the End User
+                 Defining, validating and finding solutions.
                 </div>
             </div>
             <div className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
-                <div className="item-a-nb content-block-60 content-header flex-layout-column">
-                    <div className="callout-text text-align-left text-white">By directly observing people, we can get to the heart of their needs, discovering what drives them, what inspires them and what connects with them on an emotional level. We create knowledge for our clients of where to invest resources based on this understanding of what people value.</div>
+                <div className="grid-item-b content-block-60 content-header flex-layout-column">
+                    <div className="callout-text text-align-left text-white">Our methodology has evolved because the user/customer has evolved. Their expectations have changed and loyalty needs to be earned. Your newest users are demanding you provide painless, elegant simplistic experiences.
+                        
+                        Our story is finding solutions that benefit the users and the business. Solutions that evolve businesses to the new emerging markets. Understanding and empathizing the expectations of the new digital generations. This is a perfect place to talk about the change in users expectations. </div>
                              
                 </div>
-                <div className="grid-item-b container-image-block">
-                    <img className="container-photo-callout" src={strategy1a}  alt="shaking hands" /> 
+                <div className="item-a-nb container-image-block">
+                    <img className="container-photo-callout" src={finding_truth1}  alt="shaking hands" /> 
                 </div>
             </div>
     
             <div className="content-header flex-layout-center-center flex-layout-column margin-top-200 ">
                 <div className="flex-layout-center-center title text-align-center content-block-60">
-                    Today, the user’s experience is more important than brand loyalty. A successful strategy is necessary to ensure this. 
+                    Need Introduction Text Here. A Small story on finding solutions where others failed to see them. Unique Solutions  
                 </div>
                 <div className="content-block-55 margin-top-50">
                     <p className="content-text-24 text-align-center">WDS discovers the patterns and themes that provide actionable, deeper and more valuable perspectives on your customers' wants, needs and motivations.</p>
@@ -60,7 +61,7 @@ class innovative_solutions extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={strategy2}  alt="Stakeholder Interview" /> 
+                        <img className="photo-container" src={finding_truth2}  alt="Stakeholder Interview" /> 
                     </div>     
                 </div>
 
@@ -76,7 +77,7 @@ class innovative_solutions extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={strategy3}  alt="Review" /> 
+                        <img className="photo-container" src={finding_truth3}  alt="Review" /> 
                     </div>     
                 </div>
 
@@ -99,7 +100,7 @@ class innovative_solutions extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={strategy3}  alt="Your Business is Our Joy" /> 
+                        <img className="photo-container" src={finding_truth3}  alt="Your Business is Our Joy" /> 
                     </div>     
                 </div>
 
@@ -153,7 +154,7 @@ class innovative_solutions extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={strategy5}  alt="Your Business is Our Joy" /> 
+                        <img className="photo-container" src={finding_truth5}  alt="Your Business is Our Joy" /> 
                     </div>     
                 </div>
                 
@@ -172,7 +173,7 @@ class innovative_solutions extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={strategy5}  alt="Stakeholder Interview" /> 
+                        <img className="photo-container" src={finding_truth5}  alt="Stakeholder Interview" /> 
                     </div>     
                 </div>
 
@@ -189,7 +190,7 @@ class innovative_solutions extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={strategy6}  alt="Review" /> 
+                        <img className="photo-container" src={finding_truth6}  alt="Review" /> 
                     </div>     
                 </div>
 
@@ -209,7 +210,7 @@ class innovative_solutions extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={strategy7}  alt="Review" /> 
+                        <img className="photo-container" src={finding_truth7}  alt="Review" /> 
                     </div>
                 </div>
                     
@@ -229,7 +230,7 @@ class innovative_solutions extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={strategy8}  alt="Review" /> 
+                        <img className="photo-container" src={finding_truth8}  alt="Review" /> 
                     </div>
                 </div>
                 <div className="container-grid-2col-full width-100 flex-layout-justified-sb border-3px bottom-border margin-top-100 yellow-bg "> 

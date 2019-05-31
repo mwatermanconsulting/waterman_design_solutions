@@ -1,6 +1,6 @@
 import React, { Component } from 'react' ;
 import { Button } from 'react-mdl';
-import caseStudies from '../images/bg-casestudies.png';
+import caseStudies from '../images/backgrounds/bg-casestudies.png';
 import motorola from '../images/photos/photo-motorola-beforeafter.png';
 import motorola_logo from '../images/motorola_logo.svg'
 import stubhub_logo from '../images/icon-logo-stubhub.svg'

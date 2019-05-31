@@ -1,5 +1,5 @@
 import React, { Component } from 'react' ;
-import method from '../images/bg-methodology.svg';
+import method from '../images/backgrounds/bg-methodology.svg';
 
 class practices extends Component {
     render () {

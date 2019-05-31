@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import motorola_bg from '../images/bg-motorola.png';
-import stubhub_bg from '../images/bg-stubhub.png';
+import motorola_bg from '../images/backgrounds/bg-motorola.png';
+import stubhub_bg from '../images/backgrounds/bg-stubhub.png';
 import stubhub_logo from '../images/icon-logo-stubhub.svg'; 
 import motorola_logo from '../images/icon-motorola-white.svg'; 
 import motorola_s1 from '../images/photos/photo-motorola-s1.png';

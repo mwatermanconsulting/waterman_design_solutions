@@ -1,6 +1,6 @@
 import React, { Component } from 'react' ;
 import { Button } from 'react-mdl';
-import pfizer_bg from '../images/bg-pfizer.png';
+import pfizer_bg from '../images/backgrounds/bg-pfizer.png';
 import stubhub_logo from '../images/icon-logo-stubhub.svg'; 
 import motorola_s1 from '../images/photos/photo-Motorola_2.png';
 
