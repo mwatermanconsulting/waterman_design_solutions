@@ -74,7 +74,7 @@ class case_study_1 extends Component {
                     </div>
                     <div className="container-grid-2col-full flex-layout-column margin-top-100 grey width-100">
                         <div className="grid-item-a-self">
-                            <p className="callout-text "> Current user interface was not designed with motorola branding, creating confusion as to where they were, keeping the call center very busy and wasting money.</p>
+                            <p className="callout-text"> Current user interface was not designed with motorola branding, creating confusion as to where they were, keeping the call center very busy and wasting money.</p>
                         </div>
                     <div className="item-b container-image-block">
                               <img className="photo-container" src={callcenter} alt="Case Study Image 2"/> 
