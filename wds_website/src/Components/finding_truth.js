@@ -32,7 +32,7 @@ class innovative_solutions extends Component {
                              
                 </div>
                 <div className="item-a-nb container-image-block">
-                    <img className="container-photo-callout" src={finding_truth1}  alt="shaking hands" /> 
+                    <img className="container-photo-callout" src={finding_truth2}  alt="shaking hands" /> 
                 </div>
             </div>
     
@@ -89,7 +89,7 @@ class innovative_solutions extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={finding_truth2}  alt="Stakeholder Interview" /> 
+                        <img className="photo-container" src={finding_truth3}  alt="Stakeholder Interview" /> 
                     </div>     
                 </div>
 
@@ -166,7 +166,7 @@ class innovative_solutions extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={finding_truth5}  alt="Stakeholder Interview" /> 
+                        <img className="photo-container" src={finding_truth6}  alt="Stakeholder Interview" /> 
                     </div>     
                 </div>
 
@@ -208,7 +208,7 @@ class innovative_solutions extends Component {
                 <div className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title">
-                            ESTABLISH AN EXPERIENCE-DRIVEN PRODUCT ROADMAP
+                            Establish an Experience-DRIVEN PRODUCT ROADMAP
                         </div>
                         <div className="subtitle">
                             A Way Forward, with Customers in Mind
