@@ -299,6 +299,9 @@ footer {
 .padding {
   padding: 50px; }
 
+.padding-20 {
+  padding: 20px; }
+
 .flex-align-top {
   align-items: flex-start; }
 
@@ -444,12 +447,19 @@ footer {
 .content-block-55 {
   width: 55%; }
 
+.content-block-90 {
+  width: 90%; }
+
 /*  Alighnment   */
 .align-items-center {
   align-items: center; }
 
 .align-self-center {
   align-self: center; }
+
+.container-section-1-primary {
+  display: flex;
+  height: 270px; }
 
 .container-section-1-primary {
   display: flex;
@@ -680,6 +690,11 @@ footer {
 .header-title {
   font-family: 'Mouse Memoirs', sans-serif;
   font-size: 10.1875rem !important;
+  letter-spacing: 1.1px; }
+
+.header-title-cs {
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 5.1875rem !important;
   letter-spacing: 1.1px; }
 
 .text-white {
@@ -1385,6 +1400,18 @@ Button:hover {
   grid-row: auto;
   padding: 10px;
   justify-content: center; }
+
+.grid-bottom-callout {
+  grid-template-areas: 'image content';
+  display: grid; }
+
+.grid-bottom-1 {
+  grid-column: 1/2;
+  grid-area: image; }
+
+.grid-bottom-2 {
+  grid-column: 2/2;
+  grid-area: content; }
 
 .lightgreen {
   background-color: #BDCCD4; }

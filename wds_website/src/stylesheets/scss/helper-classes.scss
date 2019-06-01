@@ -103,6 +103,10 @@
     padding: 50px;
   }
 
+  .padding-20 {
+    padding: 20px;
+  }
+
   .flex-align-top {
     align-items: flex-start;
   }
@@ -300,6 +304,11 @@
 
 .align-self-center {
   align-self: center;
+}
+
+.container-section-1-primary {
+  display: flex;
+  height: 270px;
 }
 
 .container-section-1-primary {
@@ -563,6 +572,12 @@
     .header-title {
       font-family: 'Mouse Memoirs', sans-serif;
       font-size: 	10.1875rem !important; 
+      letter-spacing: 1.1px;
+    }
+
+    .header-title-cs {
+      font-family: 'Mouse Memoirs', sans-serif;
+      font-size: 	5.1875rem !important; 
       letter-spacing: 1.1px;
     }
   

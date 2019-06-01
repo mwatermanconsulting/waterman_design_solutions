@@ -16,30 +16,33 @@ import callcenter from '../images/photos/photo-motorola-s2.png';
 class case_study_1 extends Component {
     render () {
         return(
-            <div className="flex-layout-column flex-layout-section-full">
-                <div className="flex-layout-section-full">
-                <div className="image-background-border-tb">
-                    <div className="flex-layout-row width-100"> 
-                        <h1 className="header-text-left align-self-center text-white">Motorola</h1>
-                        <img className="header-text-right align-self-center" src={motorola_logo}  alt="Motorola Logo" /> 
-                        <img className="flex-image-container" src={motorola_bg}  alt="Motorola background" /> 
-                     </div>
-                </div> 
-            </div>
-            <div className="flex-layout-section-fixed-sm margin-top-75">
-                    <div className="content-header flex-layout-center-center"> 
-                        <div className="content-block-cs intro-text"> Goal: To design a custom on-demand data reporting tool and to solve
-                            <br/> the problem that Stubhub analysts faced 
+            <div className="flex-layout-column flex-layout-section-full image-background-border-tb">
+                <div className="flex-layout-row width-100"> 
+                    <div className="header-text-left header-title-cs align-self-center text-white">Case Study - Motorola</div>
+                    <img className="header-text-right align-self-center" src={motorola_logo}  alt="Motorola Logo" /> 
+                    <img className="flex-image-container" src={motorola_bg}  alt="Motorola background" /> 
+                </div>
+                <div className="flex-layout-section-full flex-layout-center grey padding-20 border-top-5">
+                    <div className=""> 
+                        <div className="content-block-cs callout-text"> <b>Goal: To design a custom on-demand data reporting tool and to        solve the problem that Stubhub analysts faced </b>
                         </div>
                     </div>
-                </div>  
-                <div className="flex-layout-section-full margin-top-50">
+                </div>
+                <div className="content-header flex-layout-center-center flex-layout-column margin-top-100 ">
+                <div className="flex-layout-center-center title text-align-center content-block-60">
+                    Motorola 
+                </div>
+                <div className="content-block-40 margin-top-25 flex-layout-align-items-center">
+                    <p className="content-text-24">Interesting Story that begins with working for Motorola, then Google and after the project<br/> is complete  ends with Ariss. This design and design solutions made it through three company buyouts and have been copied across the industry and internet.</p>
+                </div>
+            </div>
+                <div className="flex-layout-section-full margin-top-100">
                      <div className="container-image-block flex-layout-center-center">
                         <img className="photo-container-cs-sb1" src={motorola_s1} alt="StubHub Show me the Numbers"/>
                     </div>
                 </div>
                 <div className="flex-layout-section-full flex-section-align-center margin-top-150">
-                    <div className="content-block-cs">
+                    
                         <div className="content-block-cs"> 
                             <div className="title">
                                 Backstory
@@ -47,9 +50,9 @@ class case_study_1 extends Component {
                             <div className="subtitle margin-top-25">
                                 High return rate, losing customer loyalty
                                 </div>
-                            <div className="content-block-cs content-text-18 margin-top-25"> Just before the home division of Motorola was sold to Google, the      home division of Motorola attempted to fix the problems that were plaquing SURFboard modems. The return rate was                    reaching close to twenty percent and large increase in call center volume. DOCSIS 3.1 technology for the SURFboard product line     was put onhold until the problems related to the product line were solved. After 18 months and two failed attempts management       team decided to find a vendor that was a true UX designer with a proven methodology with design skills. After an initial             consultation, WDS was hired to to use their methodology to figure out what went wrong and come to a design solution.
+                            <div className="content-block-cs content-text-18 margin-top-25"> Just before the home division of Motorola was sold to Google, the home division of Motorola attempted to fix the problems that were plaquing SURFboard modems. The return rate was reaching close to twenty percent and large increase in call center volume. DOCSIS 3.1 technology for the SURFboard product line was put onhold until the problems related to the product line were solved. After 18 months and two failed attempts management team decided to find a vendor that was a true UX designer with a proven methodology with design skills. After an initial consultation, WDS was hired to to use their methodology to figure out what went wrong and come to a design solution.
                             </div>
-                        </div>
+                        
                     </div>
                     <div className="flex-layout-column margin-top-100">
                         <div className="title">
@@ -69,7 +72,7 @@ class case_study_1 extends Component {
                         </ul>                              
                         </div>
                     </div>
-                    <div className="container-grid-2col-full flex-layout-column margin-top-100 grey ">
+                    <div className="container-grid-2col-full flex-layout-column margin-top-100 grey width-100">
                         <div className="grid-item-a-self">
                             <p className="callout-text"> Current user interface was not designed with motorola branding, creating confusion as to where they were, keeping the call center very busy and wasting money.</p>
                         </div>
@@ -97,14 +100,14 @@ class case_study_1 extends Component {
                             Challenges
                         </div>
                         <div className="subtitle">
-                            Asking Questions and Unforseen Issues
+                            Asking Questions and Unforeseen Issues
                         </div>
                         <div className="content-block-cs">
                             <p className="content-text-18">Two Users - Cable Operators and average consumers. One of the most confusing elements of the UI was the acronyms and the task flow, for the average consumer. For the cable operator they were comforting and expected. Changing the interface, but moving or changing names would affect the cable operators. The solutions would need to be invisible to the cable operators. </p>
 
-                            <p className="content-text-18">Presenting findings and asking questions of the stakeholders alway uncovers unforseen challenges.</p>
+                            <p className="content-text-18">Presenting findings and asking questions of the stakeholders alway uncovers unforeseen challenges.</p>
 
-                        <ul className="content-text-18">Unforseen Issues:
+                        <ul className="content-text-18">Unforeseen Issues:
                             <li>No communication between teams </li>
                             <li>Responsive UI with IE 9 compatibility </li> 
                             <li>Two User Types</li>
@@ -123,7 +126,7 @@ class case_study_1 extends Component {
                         <div className="content-block-cs">
                             <p className="content-text-18">Two Users - Cable Operators and average consumers. One of the most confusing elements of the UI was the acronyms and the task flow, for the average consumer. For the cable operator they were comforting and expected. Changing the interface, but moving or changing names would affect the cable operators. The solutions would need to be invisible to the cable operators. </p>
 
-                            <p className="content-text-18">Presenting findings and asking questions of the stakeholders alway uncovers unforseen challenges.</p>
+                            <p className="content-text-18">Presenting findings and asking questions of the stakeholders alway uncovers unforeseen challenges.</p>
 
                     <div className="container-grid-2col-full width-100 margin-top-15">    
                         <div className="grid-item-a"> 

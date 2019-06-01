@@ -24,25 +24,29 @@ class case_studies extends Component {
     render () {
         return(
             <div className="flex-layout-column">
-                <div className="flex-layout-section-fixed yellow">
-                    <div className="image-background-border-tb flex-layout-center-center yellow">
-                        <div className="flex-image-container-child flex-layout-center-center">
-                            <h1 className="header-text-left title text-white">Client Case Studies</h1>
-                            <img className="flex-image-container-child border-3px image-size-fixed" src={caseStudies}  alt="case studies" />     
-                        </div>
+                <div className="flex-layout-section-fixed yellow flex-layout-center-center image-background-border-tb">
+                    <div className="header-text-center header-title text-white">
+                        Case Studies
+                    </div>
+                        <img className="flex-image-container" src={caseStudies}  alt="case studies" />     
+                </div>
+                <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
+                    <div className="callout-text-lg">
+                        Every Design has a Story
                     </div>
                 </div>
-                <div className="flex-layout-section-full flex-layout-justified-sb align-items-center">
-                    <div className="flex-layout-content-container margin-top-25 flex-layout-center-center">
-                        <div className="content-header flex-layout-column">    
-                            <h3 className="subtitle flex-layout-center">Customer Success Spotlight</h3>
-                            <div className="content-block width-100">
-                                <p className="content-text-18 text-align-center">Every project has a story. Design is the telling of that story. Below are some of our favorite case stud </p>
+                <div className="flex-layout-section-full align-items-center">
+                    <div className="flex-layout-column margin-top-25  ">
+                        <div className="title flex-layout-center margin-top-25">
+                                Customer Success Spotlight</div>
+                            <div className="content-block width-100 margin-top-25">
+                                <p className="subtitle text-align-center">
+                                 Below are some of our favorite case study stories.<br/> Each case study describes the process,  thoughts and solutions for each project </p>
                             </div>
-                        </div>
+                        
                     </div>
                 </div>
-                <div className="flex-layout-row flex-layout-section-full flex-layout-justified-sa margin-top-100">
+                <div className="flex-layout-column flex-layout-section-full flex-layout-center-center margin-top-100">
                     <div className="flex-layout-column"> 
                         <div className="card-case-studies content-header flex-layout-column flex-sh-500">
                             <div className="container-image-block">
@@ -85,7 +89,7 @@ class case_studies extends Component {
                                 </div>
                             </div>
                        </div>
-                            <div className="flex-items-justified-center flex-layout-justified-sa flex-layout-column"> 
+                            {/* <div className="flex-items-justified-center flex-layout-justified-sa flex-layout-column"> 
                                 <div className="card-case-studies content-header flex-layout-column">
                                     <div className="container-image-block">
                                         <img className="image-size-100" src={pfizer}  alt="motorola before and after" /> 
@@ -131,7 +135,7 @@ class case_studies extends Component {
                                    
                                 
                             </div> 
-                        </div> 
+                        </div>  */}
                     </div>
                         <div className="flex-layout-section-full flex-layout-column align-items-center margin-top-50">
                         
