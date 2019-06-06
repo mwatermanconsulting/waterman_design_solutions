@@ -272,12 +272,23 @@
     justify-content: center; 
   }
 
-  .grid-bottom-callout {
-    grid-template-areas:
-    'image content';
+  .grid-callout {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "text photo";
     display: grid;
   }
-
+  .grid-main-head {
+    grid-area: header;
+  }
+  .grid-callout-text {
+    grid-area: text;
+  }
+  .grid-callout-photo {
+    grid-area: photo;
+  }
+  .grid-placeself-center {
+    place-self: center;
+  }
 .grid-bottom-1 {
   grid-column: 1/2;
   grid-area: image;

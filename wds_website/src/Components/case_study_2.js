@@ -28,7 +28,7 @@ class case_study_2 extends Component {
         return(
             <div className="flex-layout-column flex-layout-section-full">
                 <div className="image-background-border-tb flex-layout-row width-100">
-                    <div className="header-title align-self-center header-text-left text-white">
+                    <div className="header-title-cs align-self-center header-text-left text-white">
                         Case Study - StubHub
                     </div>
                         <img className="header-text-right align-self-center" src={stubhub_logo}  alt="Stubhub Case Study Logo Image" /> 
@@ -80,20 +80,27 @@ class case_study_2 extends Component {
                         </div>    
                     </div>
                 </div>
-                <div className="flex-layout-section-full margin-top-25">
-                     <div className="container-image-block flex-layout-center-center">
-                        <img className="photo-container-cs-sb1" src={stubhub_s2} alt="StubHub Only One"/>
-                    </div>
-                </div>
+                
                 <div className="flex-layout-section-full margin-top-25">
                      <div className="container-image-block flex-layout-center-center flex-layout-column">
                         <img className="photo-container-cs-sb1" src={stubhub_before_s1} alt="Finding the Truth - Business Perspective"/>
                         <p className="margin-top-15"> <i>Failed Usability Tests</i></p>
                     </div>
                 </div>
-                <div className="flex-layout-section-full padding grey flex-layout-center-center margin-top-100">
-                    <p className="call-out-text">Since there was only one user the first questions to everyone was why?</p>
+            </div>
+                
+                <div className="grid-callout border-tb-5 grey"> 
+                    <div className="grid-callout-text grid-placeself-center">
+                    <p className="callout-text">Since there was only one user, the first question to ask was why?</p>
+                            
+                        </div>
+                    <div className="grid-callout-photo grid-placeself-center">
+                        <img  src={stubhub_s2}  alt="StubHub Only One" /> 
+                    </div>
+                         
                 </div>
+                
+            <div className="flex-layout-section-full flex-section-align-center flex-section-align-center margin-top-100">
                 <div className="container-grid-2col flex-section-align-center margin-top-100">
                     <div className="content-header flex-layout-column" >
                         <div className="title">
@@ -140,12 +147,12 @@ class case_study_2 extends Component {
                         </div>
                     </div>
                     <div className="flex-layout-section-full margin-top-50">
-                        <div className="container-image-block flex-layout-column">
+                        <div className="container-image-block align-items-center flex-layout-column">
                             <img className="photo-container-cs-sb1" src={stubhub_slow} alt="Finding the Truth - Business Perspective"/>
                             <p className="margin-top-15"><i>3 Minute Wait Time is Unacceptable!</i></p>
                         </div>
                     </div>
-                   <div className="flex-layout-full margin-top-100 padding-100 border-top-1 border-bottom-1">
+                   <div className="flex-layout-full margin-top-100 border-top-1 border-bottom-1">
                        <div className="content-header flex-layout-column border-tp">
                             <div className="title">
                                 Master Plan
@@ -157,9 +164,10 @@ class case_study_2 extends Component {
                                     <p className="content-text-18">Most failures are from a disconnect from what the user wants and expects and what they are offered. After all the initial research and personas were created, challenges are being tackled. Here are some of the problems that WDS and Stubhub agreed on: </p>
                                 </div>
                                 <div className="container-grid-2col-full width-100 margin-top-25">    
-                                    <div className="grid-item-a">
-                                        <ol> <span className="subtitle">
+                                    <div className="grid-item-a-self">
+                                        <span className="subtitle">
                                             Design Solutions Pain Points</span>
+                                        <ol> 
                                             <li>Current UI confusing and out of date </li> 
                                             <li>Data displays did not show the numbers</li>
                                             <li>Want and Need Dashboard </li>
@@ -170,8 +178,9 @@ class case_study_2 extends Component {
                                         </ol>
                                     </div>
                                     <div className="grid-item-b">
-                                        <ol> <span className="subtitle">
+                                        <span className="subtitle">
                                             Business Pain Points</span>
+                                        <ol> 
                                             <li>One User </li> 
                                             <li>WDS needs lead project end-to-end</li>
                                             <li>Want and Need Dashboard </li>
@@ -293,15 +302,18 @@ class case_study_2 extends Component {
                         
                     </div>
                     </div>
-                    <div className="grid-bottom-callout border-3px bottom-border grey" style={{height:'450px'}}>
-                            <div className="grid-bottom-1" style={{padding:'20px'}}>
-                                <p className="callout-text">A few months after completing the project, We contacted the team to check-in and make sure they were still doing the blog and emails. They said there was no need to push for more users, they currently had 172 users and there were only 175 analysts in the company. In 5 months the reporting tool went from a 1% total usage to 98% and the team couldn't be happier. 
+                    <div className="grid-callout border-top-5 bottom-border grey" style={{height:'450px'}}>
+                          
+                            <div className="grid-callout-text grid-placeself-center width-70" style={{padding:'20px'}}>
+                                <p className="callout-text ">A few months later...
+                                <br></br> Following up on the team led to an astonishing reveal. There was no need to push for more users because 172 out of the 175 analysts were using the reporting tool. It went from a 1% to 98% usage and the team couldn't be happier. 
                                 </p>
                             </div>
                             
-                            <div className="grid-bottom-2">
+                            <div className="grid-callout-photo grid-placeself-center">
                                 <img src={thumbsUp} alt="Finding the Truth - Business Perspective"/>
                             </div>
+                            
                         </div>
                 </div>    
                                               

@@ -23,6 +23,8 @@
     margin-top: 50px;
 }
 
+
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -105,6 +107,9 @@
 
   .padding-20 {
     padding: 20px;
+  }
+  .padding-75 {
+    padding: 75px;
   }
 
   .flex-align-top {
@@ -450,6 +455,10 @@
     margin-left: 240px;
     margin-right: 240px;
   }
+  .border-tb-5 {
+    border-top: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+  }
 
   .border-bottom-5 {
     border-bottom: 5px solid #000;
@@ -554,6 +563,8 @@
     .content-text-18 {
       font-family: Roboto;
       font-size: 1.2rem;
+
+      line-height: 1.88;
     }
   
 
@@ -593,7 +604,6 @@
       display: list-item;
       text-align: -webkit-match-parent;
       white-space: nowrap;
-      margin-left: -25px;
   }
 
   .card-case-studies {

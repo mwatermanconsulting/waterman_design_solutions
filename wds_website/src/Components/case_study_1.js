@@ -62,9 +62,9 @@ class case_study_1 extends Component {
                         <div className="content-block-cs">
                             <p className="content-text-18">In order to search for the truth a good research plan needs to be implemented. </p>
                             <p className="content-text-18">Understanding the business is one of the keys in a successful project. Gathering requirements, meeting stakeholders and gathering design elements, such as marketing materials and style guides. The main goal of competitors research is to find out if and how they solved the same problems and issues. What were their design solutions. This is a critical and often overlooked part finding the truth.</p>
-                                        
-                        <ul className="content-text-18 margin-top-50">
-                            <span className="subtitle">Research Findings:</span>
+                    <div className="subtitle">Research Findings:</div>
+                        <ul className="content-text-18 ">
+                            
                             <li>Current UI was not following Motorola brand standards</li>
                             <li>Marketing, Product and Home division did not communicate</li> 
                             <li>Competitors UI looked more modern, put little thought into help </li>
@@ -72,18 +72,22 @@ class case_study_1 extends Component {
                         </ul>                              
                         </div>
                     </div>
-                    <div className="container-grid-2col-full flex-layout-column margin-top-100 grey width-100">
-                        <div className="grid-item-a-self">
-                            <p className="callout-text"> Current user interface was not designed with motorola branding, creating confusion as to where they were, keeping the call center very busy and wasting money.</p>
+                    </div>
+                    
+                    <div className="grid-callout grey margin-top-50 border-tb-5">
+                        <div className="grid-callout-text grid-placeself-center">
+                            <p className="callout-text padding-50"> Current user interface was not designed with motorola branding, creating confusion as to where they were, keeping the call center very busy and wasting money.</p>
                         </div>
-                    <div className="item-b container-image-block">
-                              <img className="photo-container" src={callcenter} alt="Case Study Image 2"/> 
+                        <div className="grid-callout-photo grid-placeself-center">
+                              <img src={callcenter} alt="Case Study Image 2"/> 
+                        </div>
                     </div>
-                    </div>
-                    <div className="content-header flex-layout-column flex-items-justified-center margin-top-100">
+            <div className="flex-layout-section-full flex-section-align-center ">
+                <div className="flex-layout-column margin-top-100">
+                    <div className="content-header flex-layout-column flex-items-justified-center">
                         <div className="title">
                             UX Plan</div>
-                        <div className="subtitle-case margin-top-15">
+                        <div className="subtitle-case margin-top-15 margin-bottom-20">
                             Finding the Truth - Customer Perspective
                         </div>
                         <div className="content-block-cs margin-top-25">
@@ -99,7 +103,7 @@ class case_study_1 extends Component {
                         <div className="title">
                             Challenges
                         </div>
-                        <div className="subtitle">
+                        <div className="subtitle subtitle-case margin-top-15 margin-bottom-20">
                             Asking Questions and Unforeseen Issues
                         </div>
                         <div className="content-block-cs">
@@ -128,16 +132,18 @@ class case_study_1 extends Component {
 
                             <p className="content-text-18">Presenting findings and asking questions of the stakeholders alway uncovers unforeseen challenges.</p>
 
-                    <div className="container-grid-2col-full width-100 margin-top-15">    
-                        <div className="grid-item-a"> 
-                            <ul className="content-text-18">User Pain Points:
+                    <div className="grid-callout margin-top-15">    
+                        <div className="grid-callout-text"> 
+                            <ul className="content-text-18">
+                                <p className="subtitle-case">User Pain Points:</p>
                                 <li>No communication between teams </li>
                                 <li>Responsive UI with IE 9 compatibility </li> 
                                 <li>Two User Types</li>
                                 <li>Entire project under 1mb</li>
                             </ul> 
                             </div>
-                             <ul className="grid-item-b content-text-18">Business Pain Points:
+                             <ul className=" content-text-18">
+                             <p className="subtitle-case">Business Pain Points:</p>
                                 <li>No communication between teams </li>
                                 <li>Responsive UI with IE 9 compatibility </li> 
                                 <li>Two User Types</li>
@@ -151,7 +157,7 @@ class case_study_1 extends Component {
                         <div className="title">
                             Solutions
                         </div>
-                        <div className="subtitle margin-top-150">
+                        <div className="subtitle-case margin-top-15 margin-bottom-20 ">
                             Solution #1 - New Design
                         </div>
                         <div className="content-block-cs margin-top-15">
@@ -165,7 +171,7 @@ class case_study_1 extends Component {
                         <p className="margin-top-15"><i> Approved Design for the new SURFboard SB8200 DOCSIS 3.1 modem</i></p>
                     </div>
                     <div className="content-header flex-layout-column margin-top-100">
-                        <div className="subtitle">
+                        <div className="subtitle-case margin-top-15 margin-bottom-20">
                             Solution #2 - Start/Launch Page
                         </div>
                         <div className="content-block-cs">
@@ -177,7 +183,7 @@ class case_study_1 extends Component {
                         <p className="margin-top-15"><i> Approved Design for the new SURFboard SB8200 DOCSIS 3.1 modem</i></p>
                     </div>
                     <div className="content-header flex-layout-column margin-top-100">
-                        <div className="subtitle">
+                        <div className="subtitle-case margin-top-15 margin-bottom-20">
                             Quick Start
                         </div>
                     <div className="content-block-cs">
@@ -205,7 +211,7 @@ class case_study_1 extends Component {
                         <p className="margin-top-15"><i> Approved Design for the new SURFboard SB8200 DOCSIS 3.1 modem</i></p>
                     </div>
                     <div className="content-header flex-layout-column margin-top-100">
-                        <div className="subtitle">
+                        <div className="subtitle-case margin-top-15 margin-bottom-20">
                             Mobile Application Design Solution
                         </div>
                         <div className="content-block-cs">
@@ -216,11 +222,7 @@ class case_study_1 extends Component {
                         <img className="photo-container-cs-sb1" src={motorola_beforeafter} alt="Motorola Start Page"/>
                         <p className="margin-top-15"><i> Approved Design for the new SURFboard SB8200 DOCSIS 3.1 modem</i></p>
                     </div>
-                    <div className="flex-layout-column padding margin-top-100">
-                        <div className="item-f container-image-block">
-                            <img className="photo-container-cs-sb1" src={motorola_s1} alt="consulting"/> 
-                        </div>
-                    </div>
+                    
 
                     <div className="content-header flex-layout-column margin-top-100">
                         <div className="title">
@@ -232,34 +234,34 @@ class case_study_1 extends Component {
                             <div className="content-block-cs">
                                 <p className="content-text-18">One of the issues that surprized us the most was the design of the user interface. WDS figured all Motorola public facing products would be branded. WDS solved this by correcting the communication issues between the teams, specifically marketing, product and home division. At the start of the project WDS organized monthly and milestone meetings between the teams. Product, marketing and home division communication was still strong well after WDS left. The approved design was going to be adapted to the rest of the product line.</p> 
                                         
-                            <ul className="content-text-18">Project Highlights:
+                            <ul className="content-text-18">
                                 <li>Entire project under 1mb</li>
                                 <li>First css style sheet in Motorola Products </li>
                                 <li>Pattern Library </li> 
                                 <li>Style Guide </li>
                                 <li>Communication between teams improved</li>
-                            </ul>     
+                            </ul><p className="subtitle">Results:</p> 
+                            <ul className="content-text-18">
+                                <li>Consumers rejoiced!</li>
+                                <li>Return rate dropped dramatically in a few months after launch </li>
+                                <li>Positive reviews by <a href="https://www.cnet.com/reviews/motorola-sbg6782-ac-surfboard-extreme-cable-modem-review/" >Cnet</a> and <a href="https://www.youtube.com/watch?v=cqTHxAN6cRwYouTube">YouTube</a> </li> 
+                                <li>Style Guide </li>
+                                <li>Communication between teams improved</li>
+                            </ul>      
                         </div>
                     </div>
-                    <div className="container-grid-2col-photo border-3px bottom-border grey margin-top-100" style={{height:'450px'}}>
-                        <div className="a">
+                   
+                </div>
+                </div>
+                     <div className="grid-callout border-top-5 grey margin-top-50"> 
+                        <div className="grid-callout-text grid-placeself-center width-70">
                             <p className="callout-text">
-                                CNET Reviews</p>
+                                "The Surfboard eXtreme has a robust and self-explanatory Web interface with lots of features, including showing level of interference for its Wi-Fi networks." - Cnet review</p>
                         </div>
-                        <div className="b">
+                        <div className="grid-callout-photo grid-placeself-center">
                              <img className="photo-" src={results} alt="Finding the Truth - Business Perspective"/>
                         </div>
                     </div>
-                </div>
-                <div className="image-background-border-tb margin-top-100 margin-bottom-20">
-                    <div className="flex-layout-row width-100"> 
-                        <div className="header-title align-self-center header-text-right text-white">
-                                Case Study - StubHub
-                        </div>
-                                
-                                <img className="flex-image-container" src={stubhub_bg}  alt="Stubhub Case Study " /> 
-                        </div>
-                    </div>     
             </div>                               
                             )
                         }

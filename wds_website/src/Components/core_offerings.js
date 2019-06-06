@@ -14,7 +14,7 @@ class core_offerings extends Component {
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg">
-                    Deliver the most outstanding experience possible
+                    Delivering the most outstanding experience possible
                 </div>
             </div>
             <div className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
