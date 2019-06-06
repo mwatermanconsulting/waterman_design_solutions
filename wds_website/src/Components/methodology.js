@@ -18,7 +18,7 @@ class practices extends Component {
                 <div className="flex-layout-content-container flex-layout-column margin-top-25 flex-layout-center-center">
                     <div className="content-header flex-layout-column">    
                         <h3 className="subtitle flex-layout-center">About Our Methodology</h3>
-                        <h3 className="subtitle flex-layout-center">WE DESIGN USER INTERFACES THAT DELIVERS VALUABLE EXPERIENCES, CONNECTING WITH PEOPLE ON ASPIRATIONAL AND EMOTIONAL LEVELS</h3>
+                        <h3 className="subtitle flex-layout-center">Our Methodology </h3>
                     <div className="content-text-18 width-100">
                         <p className="content-text-18">The science of understanding people has developed for centuries, but not enough has been done to integrate these approaches into the process of the digital world, especially software design. 
                         For more than a decade, we studied people and cognitive studies to understand not only the person, but understand the unconscious mind. These studies have lead us to a refined, repeatable and flexible methodology that centers 

@@ -302,6 +302,9 @@ footer {
 .padding-20 {
   padding: 20px; }
 
+.padding-75 {
+  padding: 75px; }
+
 .flex-align-top {
   align-items: flex-start; }
 
@@ -596,6 +599,10 @@ footer {
   margin-left: 240px;
   margin-right: 240px; }
 
+.border-tb-5 {
+  border-top: 5px solid #000000;
+  border-bottom: 5px solid #000000; }
+
 .border-bottom-5 {
   border-bottom: 5px solid #000; }
 
@@ -675,7 +682,8 @@ footer {
 
 .content-text-18 {
   font-family: Roboto;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  line-height: 1.88; }
 
 .content-text-24 {
   font-family: 'Poppin', 'Roboto';
@@ -706,8 +714,7 @@ a {
 li {
   display: list-item;
   text-align: -webkit-match-parent;
-  white-space: nowrap;
-  margin-left: -25px; }
+  white-space: nowrap; }
 
 .card-case-studies {
   -webkit-box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.25);
@@ -811,7 +818,7 @@ code {
 
 ul {
   margin: 0;
-  list-style-type: none; }
+  list-style-type: disc; }
 
 h1 {
   font-family: 'Mouse Momoirs', sans-serif; }
@@ -1401,9 +1408,22 @@ Button:hover {
   padding: 10px;
   justify-content: center; }
 
-.grid-bottom-callout {
-  grid-template-areas: 'image content';
+.grid-callout {
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "text photo";
   display: grid; }
+
+.grid-main-head {
+  grid-area: header; }
+
+.grid-callout-text {
+  grid-area: text; }
+
+.grid-callout-photo {
+  grid-area: photo; }
+
+.grid-placeself-center {
+  place-self: center; }
 
 .grid-bottom-1 {
   grid-column: 1/2;
@@ -1602,14 +1622,14 @@ Button:hover {
   overflow-wrap: normal; }
 
 .title-case {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 1.6rem;
   color: #354346b3;
   font-weight: bold; }
 
 .subtitle-case {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.2rem; }
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem; }
 
 .intro-text {
   font-family: 'Oswald';
