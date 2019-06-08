@@ -10,7 +10,11 @@
   background-color: #008000; }
   
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
+  color: $greeny-blue;
+}
+a {
+  color:$green;
 }
   
 .svg-image {
@@ -19,7 +23,7 @@ a:hover {
 }
 
 .link-color {
-  color: $red;
+  color: $greeny-blue;
 }
   
 
@@ -68,15 +72,23 @@ a:hover {
   margin-bottom: 15px; }
   
 Button {
-  padding: 10px;
-  border: #000 solid 3px .01;
+  padding: 20px;
+  border: #000 solid 3px .5;
   white-space: nowrap;
   margin: 5px;
   font-weight: 800;
-  font-size: 1.2em;
-  background-color: transparent;
-  display: inline-block;
+  font-size: 1.2rem;
   text-align: center; 
+  background-color: #fff .2; 
+  font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif
+}
+Button:hover {
+  border: #000 solid 3px 1.0;
+  background-color: $lightgreen; 
+  color: #fff;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+   
 }
   
   .button {
@@ -119,9 +131,7 @@ Button {
     vertical-align: middle;
   }
   
-  Button:hover {
-    background-color: rgba(227, 206, 184, 0.5);
-  }
+ 
   
   /*  Alighnment   */
   .align-items-center {

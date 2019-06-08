@@ -66,7 +66,7 @@ h4 {
 
   
 a {
-  color: $red;
+  color: $green;
 }
 
 code {
@@ -76,8 +76,13 @@ code {
 
 ul {
   margin:0;
-  list-style-type: disc;
+  list-style-type: none;
+  padding: 0;
   }
+li {
+    margin:0;
+    list-style-type: none;
+    }
 
 h1 {
   font-family: 'Mouse Momoirs', sans-serif;
@@ -125,6 +130,7 @@ h1 {
   color: $sub-title-grey;
   font-weight: 400;
 }
+
 
 .subtitle-bold-i {
   font-size: 2.4rem;
