@@ -47,5 +47,5 @@ table {
 	border-spacing: 0;
 }
 a {
-    color: black !important;
+    color:$green !important;
   }

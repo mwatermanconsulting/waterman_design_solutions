@@ -176,22 +176,7 @@
   background-position: left top;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAHklEQVQoU2NkIAAYqa7gP9REuMnoVhBUgOEkyh0JAA6rAgmckIqQAAAAAElFTkSuQmCC) repeat, url(../../images/clear.png);
 }
-.pinkdots{
-  background-image: url(../../images/pinkdots.png);
 
-}
-.purpledots{
-  background-image: url(../../images/purpledots.png);
-
-}
-.lightgreendots {
-  background-image: url(../../images/lightgreendots.png);
-}
-.bluedots {
-  background-image: url(../../images/bluedots.png)
-}
-.offwhitedots {
-  background-image: url(../../images/offwhitedots.png)
 }
 /*# sourceMappingURL=App.css.map */
 

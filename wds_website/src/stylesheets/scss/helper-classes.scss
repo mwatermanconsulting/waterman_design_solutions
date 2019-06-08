@@ -276,9 +276,10 @@
   }
   
   .content-header {
-      font-family: Roboto, Arial, Helvetica, sans-serif;
-      font-size: 1.1rem;
+      font-family: Oswald, Arial, Helvetica, sans-serif;
+      font-size: 2rem;
       font-weight: 700;
+      line-height: 1.5;
       margin: 0;
   }
 
@@ -296,6 +297,9 @@
 
   .content-block-55 {
     width: 55%;
+  }
+  .content-block-75 {
+    width: 75%;
   }
 
   .content-block-90 {
@@ -394,7 +398,7 @@
   width: 100%; 
 }
 
-.container .button .mdl-button .mdl-js-button {
+.container  .mdl-button .mdl-js-button {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -413,6 +417,11 @@
 .container-image-block {
   display: flex;
   width: 100%; }
+  .caption {
+    text-align: center;
+    font-size: 1rem;
+    font-style: italic;
+  }
 /*  Layers and Sizes   */
 .width-100 {
   width: 100%; }
@@ -569,13 +578,13 @@
   
 
     .content-text-24 {
-      font-family: 'Poppin', 'Roboto';
+      font-family: 'Oswald', 'sans serif';
       font-size: 1.6rem;
       line-height: 1.5 
     }
 
     .content-text-48 {
-      font-family: 'Poppin', 'Roboto';
+      font-family: 'Oswald', 'sans serif';
       font-size: 3.2rem;
       line-height: 1.5 
     }
@@ -597,7 +606,7 @@
     }
 
     a {
-      color: $red;
+      color: $green;
     }
 
     li {
