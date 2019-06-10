@@ -46,7 +46,9 @@ class case_studies extends Component {
                         
                     </div>
                 </div>
-                <div className="flex-layout-column flex-layout-section-full flex-layout-center-center margin-top-100">
+
+
+        <div className="flex-layout-column flex-layout-section-full flex-layout-center-center margin-top-100">
                     <div className="flex-layout-column"> 
                         <div className="card-case-studies content-header flex-layout-column flex-sh-500">
                             <div className="container-image-block">
@@ -146,14 +148,14 @@ class case_studies extends Component {
                     <div className="title flex-layout-center">
                             Better Experinces = Better Results
                     </div>
-                    <div className="content-block width-100">
-                        <p className="subtitle text-align-center">Every customer base has its own energy and set of issues with the user experience in general. </p>
+                    <div className="content-block text-align-center margin-top-50 width-100">
+                        <p>Every customer base has its own energy and set of issues with the user experience in general. </p>
                         <p>   It all starts by taking inventory and asking the right questions: How much time wasted? What is frustrating? Does it feel outdated? How different is it from your experiences with Amazon, or Yelp, etc? What would YOU do different? Wouldn’t you like your numbers bigger so you can see them? Our expertise follows our solutions - stories!.</p>
-                        <p className="subtitle text-align-center">We work across verticals and technologies, such as consumer, workplace, financial, healthcare, customer service, mobile development, and ecommerce.</p>
+                        <p className="content-text-24 margin-top-50 text-align-center">We work across verticals and technologies, such as consumer, workplace, financial, healthcare, customer service, mobile development, and ecommerce.</p>
                     </div>
                 </div>
             </div>
-        <div className="flex-layout-section-full width-100 yellow-bg border-tb-5 flex-layout-center-center">
+        <div className="flex-layout-section-full width-100 yellow-bg margin-top-50 border-tb-5 flex-layout-center-center">
                 <div className="grid-2col-text width-70 margin-top-50 flex-section-align-center">
                     <div className="2col-text content-header flex-layout-column">
                          <div className="subtitle">Construction</div>

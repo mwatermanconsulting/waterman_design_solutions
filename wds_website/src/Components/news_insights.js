@@ -23,7 +23,7 @@ class project_management extends Component {
                     </div>
                      <div className="flex-layout-section-full">
                         <div className="flex-layout-column"> 
-                            <div className="flex-layout-center-center margintop50"> 
+                            <div className="flex-layout-center-center margin-top-50"> 
                                 <div className="content-header flex-layout-center">
                                     <div className="content-text width-half">
                                         <p><b> As design has evolved, it’s become more cross-functional. Physical, digital, service design have all converged. And that’s great for the end user. 
@@ -41,7 +41,7 @@ class project_management extends Component {
                                     </div>
                                 </div>
                                 <div className="content-header flex-layout-center flex-layout-column">
-                                    <div className="title-reverse margintop50">List of services</div>
+                                    <div className="title-reverse margin-top-50">List of services</div>
                                 </div>
                                     <div className="flex-layout-center">
                                         <ul>
@@ -57,7 +57,7 @@ class project_management extends Component {
                                             <li>CSS Methodology, Organization, best practices and mentoring</li>
                                         </ul>
                                     </div>
-                                <div className="content-header flex-layout-center flex-layout-column margintop50">
+                                <div className="content-header flex-layout-center flex-layout-column margin-top-50">
                                     <div className="title-reverse">User Experience Design</div>
                                 </div>
                                 <div className="flex-layout-center">
@@ -72,7 +72,7 @@ class project_management extends Component {
                                         <li>Style Guides</li>
                                     </ul>
                                 </div>
-                                <div className="content-header flex-layout-center flex-layout-column margintop50">
+                                <div className="content-header flex-layout-center flex-layout-column margin-top-50">
                                     <div className="title-reverse">Marketing & Analytics</div>
                                 </div>
                                 <div className="flex-layout-center">
@@ -86,7 +86,7 @@ class project_management extends Component {
 
                                     </ul>
                                 </div>
-                                <div className="content-header flex-layout-center flex-layout-column margintop50">
+                                <div className="content-header flex-layout-center flex-layout-column margin-top-50">
                                     <div className="title-reverse">Design</div>
                                 </div>
                                 <div className="flex-layout-center margin-bottom-50">
@@ -102,7 +102,7 @@ class project_management extends Component {
                     </div>
                     <div className="flex-layout-section">
                         <div className="flex-layout-center-center">
-                            <div className="flex-layout-justified-sb flex-layout-center-center margintop50">     
+                            <div className="flex-layout-justified-sb flex-layout-center-center margin-top-50">     
                                 <div className="flex-layout-content-container">
                                     <div className="flex-layout-row flex-layout-center-center">
                                         <div className="flex-layout-center section-min-width">
@@ -125,7 +125,7 @@ class project_management extends Component {
                     </div>
                     <div className="flex-layout-section">
                         <div className="flex-layout-center-center">
-                            <div className="flex-layout-column flex-layout-center-center margintop50">     
+                            <div className="flex-layout-column flex-layout-center-center margin-top-50">     
                                 <div className="flex-layout-content-container">
                                     <div className="flex-layout-row flex-layout-center-center">
                                         <div className="flex-layout-center section-min-width">
@@ -195,7 +195,7 @@ class project_management extends Component {
                     </div>
                     <div className="flex-layout-section-full">
                         <div className="flex-layout-column"> 
-                            <div className="flex-layout-center-center margintop50"> 
+                            <div className="flex-layout-center-center margin-top-50"> 
                                 <div className="content-header flex-layout-center">
                                     <div className="content-text width-half">
                                         <h1>In todays market desgin is more critical to your business success, competition and user expectations have increased. 
@@ -203,7 +203,7 @@ class project_management extends Component {
                                     </div>
                                 </div>
                                 <div className="content-header flex-layout-center flex-layout-column">
-                                    <div className="title-reverse margintop50">Successful Projects Across</div><br/>
+                                    <div className="title-reverse margin-top-50">Successful Projects Across</div><br/>
                                 </div>
                                     <div className="flex-layout-center">
                                         <ul>
@@ -216,7 +216,7 @@ class project_management extends Component {
                                             <li>Analytics Dashboards</li>
                                         </ul>
                                     </div>
-                                <div className="content-header flex-layout-center flex-layout-column margintop50">
+                                <div className="content-header flex-layout-center flex-layout-column margin-top-50">
                                     <div className="title-reverse">Verticals and Industries</div>
                                 </div>
                                 <div className="flex-layout-center">
