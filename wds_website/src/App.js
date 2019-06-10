@@ -49,7 +49,7 @@ class App extends Component {
                   <a href="./case_studies">Success (Case Studies)</a>
                   <a href="./clients">Clients</a>
                   <a href="./core_offerings">Core Offerings</a>
-                  <a href="./about">About</a>
+                  <a href="./aboutus">About</a>
               </FooterLinkList>
           </FooterDropDownSection>
           <FooterDropDownSection title="Practices">

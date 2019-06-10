@@ -13,7 +13,7 @@ class aboutus extends Component {
                         <img className="backgroundAboutus" src={backgroundAboutus}  alt="about us" /> 
                         <div className="content-right-center">
                             <div className="content-header">
-                                <div className="title">About US</div>
+                                <div className="header-title">About US</div>
                             </div>
                                 <div className="content-text">
                                     <p>Authentic. Empathetic. Diplomatic. Credibility to the max.</p><p> We are advocates for the user. End to end design, we take care of it all, from initial UX focus groups to marketing on the web.</p>
@@ -24,7 +24,7 @@ class aboutus extends Component {
                 </div>  
                     <div className="container-justifyRow-center purple bottom-border">
                         <div className="flex-container50 content-top "> 
-                            <div className="container-image-block-center margintop50"> 
+                            <div className="container-image-block-center margin-top-50"> 
                                         <div className="textblock width-70 offwhite border-3px">
                                            
                                                 <img className="aboutuspic floatleft" src={mike} alt="mike"/>
@@ -49,7 +49,7 @@ class aboutus extends Component {
                             </div>
                         </div>
                         <div className="flex-container50 content-top "> 
-                            <div className="container-image-block-center margintop50"> 
+                            <div className="container-image-block-center margin-top-50"> 
                                         <div className="textblock width-70 offwhite border-3px"><img className="aboutuspic floatleft" src={terri} alt="terri"/> 
                                             <p> fjsi;fu fisu foi;srlf as;ilfj slfj slkfj slkfj slkfj salf ja;lskfj lskrg iurgkj dfvoirugselkrhgieru giier ger gordhg v;ekr hgerg rgh hoeirg ivoeirgjeurgh oeirgh oeirg heroih  </p>
                                         </div> 

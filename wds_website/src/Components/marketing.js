@@ -24,7 +24,7 @@ class marketing extends Component {
                     </div>
                      <div className="flex-layout-section-full">
                         <div className="flex-layout-column"> 
-                            <div className="flex-layout-center-center margintop50"> 
+                            <div className="flex-layout-center-center margin-top-50"> 
                                 <div className="content-header flex-layout-center">
                                     <div className="content-text width-half">
                                         <p><b> In todays market desgin is more critical to your business success, competition and user expectations have increased. 
@@ -32,8 +32,8 @@ class marketing extends Component {
                                     </div>
                                 </div>
                                 <div className="content-header flex-layout-center flex-layout-column">
-                                    <div className="title-reverse margintop50">Services Include</div><br/>
-                                    <div className="title-reverse margintop50">STRATEGY & INSIGHT</div>
+                                    <div className="title-reverse margin-top-50">Services Include</div><br/>
+                                    <div className="title-reverse margin-top-50">STRATEGY & INSIGHT</div>
                                 </div>
                                     <div className="flex-layout-center">
                                         <ul>
@@ -49,7 +49,7 @@ class marketing extends Component {
                                             <li>CSS Methodology, Organization, best practices and mentoring</li>
                                         </ul>
                                     </div>
-                                <div className="content-header flex-layout-center flex-layout-column margintop50">
+                                <div className="content-header flex-layout-center flex-layout-column margin-top-50">
                                     <div className="title-reverse">User Experience Design</div>
                                 </div>
                                 <div className="flex-layout-center">
@@ -64,7 +64,7 @@ class marketing extends Component {
                                         <li>Style Guides</li>
                                     </ul>
                                 </div>
-                                <div className="content-header flex-layout-center flex-layout-column margintop50">
+                                <div className="content-header flex-layout-center flex-layout-column margin-top-50">
                                     <div className="title-reverse">Marketing & Analytics</div>
                                 </div>
                                 <div className="flex-layout-center">
@@ -78,7 +78,7 @@ class marketing extends Component {
 
                                     </ul>
                                 </div>
-                                <div className="content-header flex-layout-center flex-layout-column margintop50">
+                                <div className="content-header flex-layout-center flex-layout-column margin-top-50">
                                     <div className="title-reverse">Design</div>
                                 </div>
                                 <div className="flex-layout-center margin-bottom-50">
@@ -94,7 +94,7 @@ class marketing extends Component {
                     </div>
                     <div className="flex-layout-section">
                         <div className="flex-layout-center-center">
-                            <div className="flex-layout-justified-sb flex-layout-center-center margintop50">     
+                            <div className="flex-layout-justified-sb flex-layout-center-center margin-top-50">     
                                 <div className="flex-layout-content-container">
                                     <div className="flex-layout-row flex-layout-center-center">
                                         <div className="flex-layout-center section-min-width">
@@ -117,7 +117,7 @@ class marketing extends Component {
                     </div>
                     <div className="flex-layout-section">
                         <div className="flex-layout-center-center">
-                            <div className="flex-layout-column flex-layout-center-center margintop50">     
+                            <div className="flex-layout-column flex-layout-center-center margin-top-50">     
                                 <div className="flex-layout-content-container">
                                     <div className="flex-layout-row flex-layout-center-center">
                                         <div className="flex-layout-center section-min-width">
@@ -187,7 +187,7 @@ class marketing extends Component {
                     </div>
                     <div className="flex-layout-section-full">
                         <div className="flex-layout-column"> 
-                            <div className="flex-layout-center-center margintop50"> 
+                            <div className="flex-layout-center-center margin-top-50"> 
                                 <div className="content-header flex-layout-center">
                                     <div className="content-text width-half">
                                         <h1>In todays market desgin is more critical to your business success, competition and user expectations have increased. 
@@ -195,7 +195,7 @@ class marketing extends Component {
                                     </div>
                                 </div>
                                 <div className="content-header flex-layout-center flex-layout-column">
-                                    <div className="title-reverse margintop50">Successful Projects Across</div><br/>
+                                    <div className="title-reverse margin-top-50">Successful Projects Across</div><br/>
                                 </div>
                                     <div className="flex-layout-center">
                                         <ul>
@@ -208,7 +208,7 @@ class marketing extends Component {
                                             <li>Analytics Dashboards</li>
                                         </ul>
                                     </div>
-                                <div className="content-header flex-layout-center flex-layout-column margintop50">
+                                <div className="content-header flex-layout-center flex-layout-column margin-top-50">
                                     <div className="title-reverse">Verticals and Industries</div>
                                 </div>
                                 <div className="flex-layout-center">
