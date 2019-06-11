@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './stylesheets/css/main.css';
-import './stylesheets/css/mui.css';
 import { Layout, Button, Header, Navigation, Drawer, Content } from 'react-mdl';
-import { Footer, FooterSection, FooterDropDownSection, FooterLinkList, } from 'react-mdl';
 import Main from './Components/main';
 import logo from './images/WDS-logo.svg'
 import { Link } from 'react-router-dom';
@@ -41,58 +39,73 @@ class App extends Component {
           <div className="page-content" />
             <Main/>
       </Content>
-      <Footer className="red flex-layout-center-center">
-      <FooterSection className="flex-layout-center-center" type="center">
-          <FooterDropDownSection title="Why">
-              <FooterLinkList>
-                  <a href="./why-wds">Why Waterman Design Solutions</a>
-                  <a href="./case_studies">Success (Case Studies)</a>
-                  <a href="./clients">Clients</a>
-                  <a href="./core_offerings">Core Offerings</a>
-                  <a href="./aboutus">About</a>
-              </FooterLinkList>
-          </FooterDropDownSection>
-          <FooterDropDownSection title="Practices">
-              <FooterLinkList>
-                  <a href="./practices">Practices</a>
-                  <a href="./strategy_insight">Strategy & Insight</a>
-                  <a href="./ux">User Experience</a>
-                  <a href="./style_guide">Style Guides & Design Stystems</a>
-                  <a href="./marketing_telementry">Marketing & Telemetry</a>
-              </FooterLinkList>
-          </FooterDropDownSection>
-          <FooterDropDownSection title="Methodology">
-              <FooterLinkList>
-                  <a href="./methodology">Overview</a>
-                  <a href="./finding_truth">Finding the Truth</a>
-                  <a href="./innovative_solutions">Innovative Solutions</a>
-                  <a href="./css_solutions">CSS</a>
-                  <a href="./communication_insights">Communications Insights</a>
-                  <a href="./project_management">Project Management</a>
-              </FooterLinkList>
-          </FooterDropDownSection>
-          <FooterDropDownSection title="Design Solutions">
-              <FooterLinkList>
-                  <a href="./design_solutions">Overview</a>
-                  <a href="./branding">Branding</a>
-                  <a href="./digital_design">Digital Design</a>
-                  <a href="./ui_design">UI Design</a>
-                  <a href="./marketing">Marketing</a>
-                  <a href="./print_design">Print Design</a>
-                  <a href="./video_production">Video</a>
-              </FooterLinkList>
-          </FooterDropDownSection>
-      </FooterSection>
-      <FooterDropDownSection title="News & Insights">
-              <FooterLinkList>
-                  <a href="./news_insights">Overview</a>
-                  <a href="./">Blog</a>
-                  <a href="./">News</a>
-                  <a href="./">Industry Stuff</a>
-                  <a href="./test_area">Playground</a>
-              </FooterLinkList>
-          </FooterDropDownSection>
-   </Footer>
+      <footer className="container-footer red padding">
+      <div className="grid-footer">
+      <div className="grid-footer-item-1">
+          <div className="subtitle text-white">
+               Why
+              <ul>
+                 <li> <a className="text-black" href="./why-wds">Why Waterman Design Solutions</a></li>
+                 <li><a className="text-black" href="./case_studies">Clients andSuccess (Case Studie</a></li>
+                 <li><a className="text-black" href="./clients">Clients</a></li>
+                 <li><a className="text-black" href="./core_offerings">Core Offerings</a></li>
+                 <li><a className="text-black" href="./aboutus">History</a></li>
+              </ul>
+          </div>
+        </div>
+          <div className="subtitle text-white grid-footer-item-2">
+              Services
+              <ul className="text-black">
+              <li><a className="text-black" href="./services">Services</a></li>
+              <li><a className="text-black" href="./strategy_insight">Strategy & Insight</a></li>
+              <li><a className="text-black" href="./ux">User Experience</a></li>
+              <li><a className="text-black" href="./style_guide">Style Guides & Design Stystems</a></li>
+              <li><a className="text-black" href="./marketing_telementry">Marketing & Telemetry</a></li>
+              </ul>
+          </div>
+          <div className="grid-footer-item-3 text-white subtitle">
+                Methodology
+              <ul>
+              <li><a className="text-black" href="./methodology">Overview</a></li>
+              <li><a className="text-black" href="./finding_truth">Finding the Truth</a></li>
+              <li><a className="text-black" href="./innovative_solutions">Innovative Solutions</a></li>
+              <li><a className="text-black" href="./css_solutions">CSS Solutions</a></li>
+              <li><a className="text-black" href="./communication_insights">Communications Insights</a></li>
+              </ul>
+          </div>
+          <div className="grid-footer-item-4 text-white subtitle"> 
+                Design Solutions
+              <ul>
+              <li><a className="text-black" href="./design_solutions">Overview</a></li>
+              <li><a className="text-black" href="./branding">Branding</a></li>
+              <li><a className="text-black" href="./digital_design">Digital Design</a></li>
+              <li><a className="text-black" href="./ui_design">UI Design</a></li>
+              <li><a className="text-black" href="./marketing">Marketing</a></li>
+              <li><a className="text-black" href="./print_design">Print Design</a></li>
+              <li><a className="text-black" href="./video_production">Video</a></li>
+              </ul>
+          </div> 
+          <div className="grid-footer-item-5 subtitle text-white">
+                News and Insights
+              <ul>
+              <li><a className="text-black" href="./news_insights">Overview</a></li>
+              <li><a className="text-black" href="./">Blog</a></li>
+              <li><a className="text-black" href="./">News</a></li>
+              <li><a className="text-black" href="./test_area">Playground</a></li>
+              </ul>
+        </div>
+          
+      <div className="grid-footer-item-6 subtitle text-white">
+                Social Media Junk
+              <ul>
+              <li><a href="./news_insights">Overview</a></li>
+              <li><a href="./">Blog</a></li>
+              <li><a href="./">News</a></li>
+              <li><a href="./test_area">Playground</a></li>
+              </ul>
+        </div>
+    </div>
+    </footer>
  </Layout>
 </div>
 
