@@ -1464,11 +1464,10 @@ Button:hover {
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "text text";
   grid-template-rows: auto;
-  grid-column-gap: 50px;
+  grid-column-gap: 180px;
   grid-row-gap: 5px;
-  width: 60%;
-  display: grid;
-  align-self: center; }
+  width: 100%;
+  display: grid; }
 
 .grid-2col-text-photo {
   grid-template-columns: 1fr 1fr;

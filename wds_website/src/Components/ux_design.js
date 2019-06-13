@@ -44,7 +44,7 @@ class ux_design extends Component {
                 
                
                     <div className="grid-2col-text margin-top-25" >
-                        <div className="grid-title content-text-24 margin-bottom-20">
+                        <div className="grid-title subtitle margin-bottom-20">
                             Connection between old school customer service and <br/> UX Design
                         </div>
                         <div className="item content-text-24">
