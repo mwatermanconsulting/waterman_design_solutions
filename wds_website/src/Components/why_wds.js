@@ -8,7 +8,6 @@ import why_business from '../images/photos/photo-why-business-solutions.png';
 import why_design from '../images/photos/photo-why-design-solutions.png';
 import why_enterprise from '../images/photos/photo-why-enterprise-solutions.png'; 
 import why_oh_really from '../images/graphic-why-s1.svg';
-
 import why_handshake from '../images/graphic-why-s2.svg';
 import care from '../images/graphic-why.svg';
 
