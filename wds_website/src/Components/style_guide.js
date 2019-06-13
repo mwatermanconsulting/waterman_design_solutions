@@ -1,5 +1,5 @@
 import React, { Component } from 'react' ;
-import finding_truth from '../images/backgrounds/bg-documentation.png';
+import design_system from '../images/backgrounds/bg-design-systems.png';
 import services from '../images/graphic-services.svg';
 import together from '../images/photos/photo-why-wds.png';
 import finding from '../images/photos/photo-documentation-s1.png';
@@ -18,12 +18,12 @@ class style_guide extends Component {
         <div className="flex-layout-column"> 
             <div className="flex-section-fixed-head-child flex-layout-center-center image-background-border-tb">
                 <div className="header-text-center header-title text-white">
-                    Style Guides and Design Systems</div>
-                <img className="flex-image-container" src={finding_truth}  alt="Why WDS background" /> 
+                    Style Guides, Pattern Libraries and Design Systems</div>
+                <img className="flex-image-container" src={design_system}  alt="Why WDS background" /> 
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                   Revealing the truth and developing a strategy that works
+                    If your product isn’t documented it doesn’t exist
                 </div>
             </div>
             <div className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 

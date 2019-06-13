@@ -32,7 +32,7 @@ class case_studies extends Component {
                 </section>
                 <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                     <div className="callout-text-lg">
-                        Every Design has a Story
+                            Every great design begins with an even better story
                     </div>
                 </section>
                 <section className="flex-layout-section-full align-items-center">

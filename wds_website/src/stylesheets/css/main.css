@@ -328,7 +328,7 @@ footer {
 .flex-section-fixed-head-child {
   display: flex;
   height: 100%;
-  min-height: 625px;
+  min-height: 585px;
   background-color: #e3ce71; }
 
 .flex-layout-section-row {
@@ -626,6 +626,11 @@ footer {
   border-top: 1px solid #000;
   padding-top: 100px; }
 
+.border-2 {
+  border: 2px solid #000;
+  padding: 5px;
+  width: 50%; }
+
 .servicespic {
   max-height: 500px;
   margin-right: 20px; }
@@ -645,6 +650,9 @@ footer {
 
 .margin-bottom-20 {
   margin-bottom: 20px; }
+
+.margin-bottom-25 {
+  margin-bottom: 25px; }
 
 .margin-bottom-50 {
   margin-bottom: 50px; }
@@ -707,7 +715,9 @@ footer {
 .header-title {
   font-family: 'Mouse Memoirs', sans-serif;
   font-size: 10.1875rem !important;
-  letter-spacing: 1.1px; }
+  letter-spacing: 1.1px;
+  line-height: 1.4;
+  text-align: center; }
 
 .header-title-cs {
   font-family: 'Mouse Memoirs', sans-serif;
@@ -1444,8 +1454,21 @@ Button:hover {
 .grid-2col-text {
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "text text";
+  grid-template-rows: auto;
   grid-column-gap: 50px;
+  grid-row-gap: 5px;
+  width: 60%;
   display: grid; }
+
+.grid-2col-text-center {
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "text text";
+  grid-template-rows: auto;
+  grid-column-gap: 50px;
+  grid-row-gap: 5px;
+  width: 60%;
+  display: grid;
+  align-self: center; }
 
 .grid-2col-text-photo {
   grid-template-columns: 1fr 1fr;

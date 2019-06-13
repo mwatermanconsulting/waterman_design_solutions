@@ -47,9 +47,8 @@ class App extends Component {
               <ul>
                  <li> <a className="text-black" href="./why-wds">Why Waterman Design Solutions</a></li>
                  <li><a className="text-black" href="./case_studies">Clients andSuccess (Case Studie</a></li>
-                 <li><a className="text-black" href="./clients">Clients</a></li>
                  <li><a className="text-black" href="./core_offerings">Core Offerings</a></li>
-                 <li><a className="text-black" href="./aboutus">History</a></li>
+                 <li><a className="text-black" href="./history">History</a></li>
               </ul>
           </div>
         </div>
@@ -57,8 +56,9 @@ class App extends Component {
               Services
               <ul className="text-black">
               <li><a className="text-black" href="./services">Services</a></li>
-              <li><a className="text-black" href="./strategy_insight">Strategy & Insight</a></li>
               <li><a className="text-black" href="./ux">User Experience</a></li>
+              <li><a className="text-black" href="./css_solutions">CSS Solutions</a></li>
+              <li><a className="text-black" href="./strategy_insight">Strategy & Insight</a></li>
               <li><a className="text-black" href="./style_guide">Style Guides & Design Stystems</a></li>
               <li><a className="text-black" href="./marketing_telementry">Marketing & Telemetry</a></li>
               </ul>
@@ -69,7 +69,7 @@ class App extends Component {
               <li><a className="text-black" href="./methodology">Overview</a></li>
               <li><a className="text-black" href="./finding_truth">Finding the Truth</a></li>
               <li><a className="text-black" href="./innovative_solutions">Innovative Solutions</a></li>
-              <li><a className="text-black" href="./css_solutions">CSS Solutions</a></li>
+              
               <li><a className="text-black" href="./communication_insights">Communications Insights</a></li>
               </ul>
           </div>

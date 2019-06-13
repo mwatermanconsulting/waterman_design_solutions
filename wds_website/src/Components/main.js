@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import home from './home';
-import about from './history';
+import history from './history';
 import branding from './branding';
 import case_studies from './case_studies';
 import case_study_1 from './case_study_1';
@@ -29,7 +29,7 @@ import strategy_insight from './strategy_insight';
 import style_guide from './style_guide';
 import test_area from './test_area';
 import ui_design from './ui_design';
-import ux from './ux';
+import ux from './ux_design';
 import video_production from './video_production';
 import why_wds from './why_wds';
 
@@ -38,7 +38,7 @@ import why_wds from './why_wds';
 const Main = () => (
   <Switch>
     <Route exact path="/" component={home} />
-    <Route exact path="/about" component={about} /> 
+    <Route exact path="/history" component={history} /> 
     <Route exact path="/branding" component={branding} />
     <Route exact path="/case_studies" component={case_studies} />
     <Route exact path="/case_study_1" component={case_study_1} />
@@ -65,7 +65,7 @@ const Main = () => (
     <Route exact path="/strategy_insight" component={strategy_insight} />
     <Route exact path="/style_guide" component={style_guide} />
     <Route exact path="/test_area" component={test_area} />
-    <Route exact path="/ux" component={ux} />
+    <Route exact path="/ux_design" component={ux} />
     <Route exact path="/ui_design" component={ui_design} />
     <Route exact path="/video_production" component={video_production} />
     <Route exact path="/why_wds" component={why_wds} />

@@ -1,5 +1,7 @@
 import React, { Component } from 'react' ;
 import method from '../images/backgrounds/bg-methodology.svg';
+import method1 from '../images/photos/photo-methodology-s2.png';
+
 
 class practices extends Component {
     render () {
@@ -14,8 +16,30 @@ class practices extends Component {
                     </div>
                 </div> 
             </div>
+            <section className="flex-layout-section-full align-items-center padding-100 red border-bottom-5" >
+                    <div className=" flex-layout-center-center">
+                        <div className="content-header flex-layout-column">    
+                            <div className="content-block width-75">
+                                <div className=" text-white text-align-center">
+                                Our method for user-centric design delivers valuable experiences.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section className="flex-layout-section-full align-items-center" >
+                    <div className="grid-callout yellow-bg"> 
+                        <div className="grid-callout-text grid-placeself-center width-70">
+                            <p className="callout-text "> 
+                            Customers always look for the better experience. Meeting their expectations of intuitive, elegant and simple designs built around and for the user will earn their loyalty.</p>
+                        </div>
+                        <div className="grid-callout-photo grid-placeself-center padding">
+                            <img className="flex-image-container image-size-75" src={method1}  alt="Customer Service" /> 
+                        </div>
+                    </div>
+                </section>
             <div className="flex-layout-section-full flex-layout-column align-items-center">
-                <div className="flex-layout-content-container flex-layout-column margin-top-25 flex-layout-center-center">
+                <section className="flex-layout-content-container flex-layout-column margin-top-25 flex-layout-center-center">
                     <div className="content-header flex-layout-column">    
                         <h3 className="subtitle flex-layout-center">About Our Methodology</h3>
                         <h3 className="subtitle flex-layout-center">Our Methodology </h3>
@@ -28,7 +52,7 @@ class practices extends Component {
                         insights from the field and manifests them in a designed software user interface that engages customers and improves business results.</p>
                     </div>
                     </div>
-                </div>
+                </section>
                     <button type="button" className="margin-top-50">We Start BY Finding The Truth</button>
                 <div className="flex-layout-column" style={{ width: '40%' }}>
                     <div className="margin-top-100"> 

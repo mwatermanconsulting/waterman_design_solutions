@@ -140,7 +140,7 @@ class css_solutions extends Component {
                             Rebuilding your css to be lean fast and scalable
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-25">
-                            <ul>
+                            <ul className="content-text-24"><b> List of CSS Services</b>
                                 <li>SasS or Less Implementation</li>
                                 <li> Set of Global reusable Classes</li>
                                 <li>Object Oriented CSS</li>
