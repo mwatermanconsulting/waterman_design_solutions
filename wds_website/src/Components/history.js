@@ -27,8 +27,6 @@ class about extends Component {
                         </div>
                     </div>
                 </div>
-
-
                 <div className="container-grid-2col-photo flex-layout-column margin-bottom-100 flex-layout-center-center photo-content-color" style={{height:'715px'}}>
                         <div className="grid-2col-text-photo width-70 margin-top-50 flex-section-align-center">
                             

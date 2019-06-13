@@ -42,9 +42,9 @@ class why_wds extends Component {
                         </div>
                         <div className="grid-callout-photo grid-placeself-center">
                             <img className="flex-image-container" src={whys1}  alt="Customer Service" /> 
+                        </div>
                     </div>
-                </div>
-            </section>
+                </section>
         <main>
             <section className="flex-layout-section-full align-items-center" >
                 <div className="content-header flex-layout-column">    
@@ -101,8 +101,8 @@ class why_wds extends Component {
                 </div>
             </section>
             <section className="flex-layout-section-full align-items-center" >
-                <div className="grid-2col-photo-text  width-70  margin-top-100 ">
-                    <div className="2col-photo  width-70 grid-placeself-center">
+                <div className="grid-2col-photo-text width-70 margin-top-100 ">
+                    <div className="2col-photo width-70 grid-placeself-center">
                         <img src={whys2} alt="Case Study Image 2"/> 
                     </div>
                     <div className="2col-text grid-placeself-center width-70 margin-left-75">
