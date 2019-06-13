@@ -24,31 +24,28 @@ class case_studies extends Component {
     render () {
         return(
             <div className="flex-layout-column">
-                <div className="flex-layout-section-fixed yellow flex-layout-center-center image-background-border-tb">
+                <section className="flex-layout-section-fixed yellow flex-layout-center-center image-background-border-tb">
                     <div className="header-text-center header-title text-white">
                         Case Studies
                     </div>
                         <img className="flex-image-container" src={caseStudies}  alt="case studies" />     
-                </div>
-                <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
+                </section>
+                <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                     <div className="callout-text-lg">
                         Every Design has a Story
                     </div>
-                </div>
-                <div className="flex-layout-section-full align-items-center">
+                </section>
+                <section className="flex-layout-section-full align-items-center">
                     <div className="flex-layout-column margin-top-25  ">
                         <div className="title flex-layout-center margin-top-25">
                                 Customer Success Spotlight</div>
-                            <div className="content-block width-100 margin-top-25">
-                                <p className="subtitle text-align-center">
+                        <div className="content-block width-100 margin-top-25">
+                            <p className="subtitle text-align-center">
                                  Below are some of our favorite case study stories.<br/> Each case study describes the process,  thoughts and solutions for each project </p>
-                            </div>
-                        
+                        </div> 
                     </div>
-                </div>
-
-
-        <div className="flex-layout-column flex-layout-section-full flex-layout-center-center margin-top-100">
+                </section>
+                <section className="flex-layout-column flex-layout-section-full flex-layout-center-center margin-top-100">
                     <div className="flex-layout-column"> 
                         <div className="card-case-studies content-header flex-layout-column flex-sh-500">
                             <div className="container-image-block">
@@ -62,15 +59,13 @@ class case_studies extends Component {
                                 <div className="content-block">
                                     <p><i> Industry: Technology</i></p>
                                     <p className="content-text-18 content-block">High Volume of returns plaguing Motorola Gateway Router Product Line. 
-                                        After two failed attempts by UX/UI developers, a frustrated management group decided they needed a UX designer to solve the problems.
+                                        After two failed attempts by UX/UI developers, a frustrated management group decided they needed a UX designer to solve the problems.</p>
 
-                                    <a href="./case_study_1" > Read More....</a>   
-                                    </p>
-                    
+                                    <p><a href="./case_study_1" > Read More....</a> </p>  
+                                </div>
                             </div>
                         </div>
-                        </div>
-                        <div className="card-case-studies content-header flex-layout-column flex-sh-500 margin-top-100">
+                        <div className="card-case-studies content-header flex-layout-column flex-sh-500 margin-top-100 margin-bottom-20">
                             <div className="container-image-block">
                                 <img className="image-size-100" src={stubhub}  alt="motorola before and after" /> 
                             </div>
@@ -83,9 +78,10 @@ class case_studies extends Component {
                                         <div className="content-block">
                                             <p><i> Industry: Technology</i></p>
                                             <p className="content-text-18 content-block">High Volume of returns plaguing Motorola Gateway Router Product Line. 
-                                            After two failed attempts by UX/UI developers, a frustrated management group decided they needed a designer to make their modem app easier to use.
-                                             <a href="./case_study_2"  target="_blank">Read More....</a>   
-                                            </p>
+                                            After two failed attempts by UX/UI developers, a frustrated management group decided they needed a designer to make their modem app easier to use.</p>
+                                             
+                                             <p><a href="./case_study_2"  target="_blank">Read More....</a>  </p> 
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -138,123 +134,135 @@ class case_studies extends Component {
                                 
                             </div> 
                         </div>  */}
-                    </div>
-        <div className="flex-layout-section-full flex-layout-column align-items-center margin-top-50">
-                    
-            <div className="flex-layout-section thin-hr margin-tb-100" style={{ width: '90%' }}></div>
+                </section>
+            <div className="flex-layout-section-full flex-layout-column align-items-center margin-top-50">
 
-            <div className="flex-layout-content-container flex-layout-column flex-layout-center-center">
+                <div className="flex-layout-section thin-hr margin-tb-100 margin-top-50 " style={{ width: '90%' }}></div>
+
+            <section className="flex-layout-content-container flex-layout-column flex-layout-center-center">
                 <div className="content-header flex-layout-column">    
                     <div className="title flex-layout-center">
-                            Better Experinces = Better Results
+                        IT’S HOW IT LOOKS AND HOW IT WORKS
                     </div>
-                    <div className="content-block text-align-center margin-top-50 width-100">
-                        <p>Every customer base has its own energy and set of issues with the user experience in general. </p>
-                        <p>   It all starts by taking inventory and asking the right questions: How much time wasted? What is frustrating? Does it feel outdated? How different is it from your experiences with Amazon, or Yelp, etc? What would YOU do different? Wouldn’t you like your numbers bigger so you can see them? Our expertise follows our solutions - stories!.</p>
-                        <p className="content-text-24 margin-top-50 text-align-center">We work across verticals and technologies, such as consumer, workplace, financial, healthcare, customer service, mobile development, and ecommerce.</p>
+                    <div className="content-block margin-top-50 width-100">
+                        <p className="content-text-24 text-align-center"> 
+                        Design is not just what it looks like and feels like. Design is how it works.</p>
+                        <p className="content-text-18 text-align-center"> 
+                        —Steve Jobs, Co-Founder of Apple</p>
                     </div>
                 </div>
-            </div>
-        <div className="flex-layout-section-full width-100 yellow-bg margin-top-50 border-tb-5 flex-layout-center-center">
+            </section>
+            <section className="flex-layout-section-full width-100 yellow-bg margin-top-100 border-tb-5 flex-layout-center-center">
+                <div className="content-text-24 margin-top-50" style={{width:'950px'}}>
+                    We design simplicity across verticals and technologies, such as consumer, workplace, financial, healthcare, customer service, mobile development, and ecommerce.</div>
                 <div className="grid-2col-text width-70 margin-top-50 flex-section-align-center">
                     <div className="2col-text content-header flex-layout-column">
-                         <div className="subtitle">Construction</div>
-                            <div className="content-block ">
-                                    <ul className="content-text-24">
-                                        <li>Architectural Concrete Design</li>
-                                        <li>Nirvana Pool & Spa</li>
-                                        <li>PoolTech</li>
-                                        <li>Norwood Company</li> 
-                                        <li>Van Meis Design Group</li>     
-                                    </ul>  
-                            </div>
-                    </div>
-                    <div className="content-header flex-layout-column">
-                                        <div className="subtitle">Healthcare</div>
-                                            <ul className="content-text-24">
-                                                <li>AstraZeneca</li>
-                                                <li>SmithKline Beecham</li>
-                                                <li>NewCorp Benefit Advantage</li>
-                                                <li>West Chester Cardiology</li> 
-                                            </ul>
-                                    </div>
-                
-                    <div className="content-header flex-layout-column">
-                        <div className="subtitle">
-                                Utilities
+                         <div className="subtitle">
+                             Construction
                         </div>
                         <div className="content-block">
-                                            <ul className="content-text-24">
-                                                <li>Kinetix</li>
-                                                <li>OSIsoft</li>
-                                            </ul>  
+                            <ul className="content-text-24">
+                                <li>Architectural Concrete Design</li>
+                                <li>Nirvana Pool & Spa</li>
+                                <li>PoolTech</li>
+                                <li>Norwood Company</li> 
+                                <li>Van Meis Design Group</li>     
+                            </ul>  
                         </div>
                     </div>
-                                <div className="content-header flex-layout-column">
-                                        <div className="subtitle">E-Commerce</div>
-                                        <div className="content-block">
-                                            <ul className="content-text-24">
-                                                <li>StubHub</li>
-                                                <li>SellStuff</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div className="content-header flex-layout-column">
-                                        <div className="subtitle">
-                                            Energy Sector
-                                        </div>
-                                        <div className="content-block">
-                                            <ul className="content-text-24">
-                                                <li>OSIsoft</li>
-                                                <li>HCNRG Solutions</li>     
-                                            </ul>  
-                                        </div>
-                                    </div>
-                                    <div className="content-header flex-layout-column">
-                                        <div className="subtitle">Financial</div>
-                                            <ul className="content-text-24">
-                                                <li>Investor Force</li>
-                                            </ul>  
-                                    </div>
-                                    <div className="content-header flex-layout-column">
-                                        <div className="subtitle">Real Estate</div>
-                                            <ul className="content-text-24">
-                                                <li>Sherman Toppin Real Estate</li>
-                                            </ul>
-                                    </div>
-                                    <div className="content-header flex-layout-column">
-                                        <div className="subtitle">Sports</div>
-                                            <ul className="content-text-24">
-                                                <li>World Team Tennis</li>
-                                            </ul>
-                                    </div>
-                                    <div className="content-header flex-layout-column padding-bottom-50">
-                                        <div className="subtitle">Food and Beverage</div>
-                                            <ul className="content-text-24">
-                                                <li>Roos Foods</li>
-                                                <li>KetchHot</li>   
-                                            </ul>  
-                                    </div>
+                    <div className="content-header flex-layout-column">
+                        <div className="subtitle">
+                            Healthcare
+                        </div>
+                            <ul className="content-text-24">
+                                <li>AstraZeneca</li>
+                                <li>SmithKline Beecham</li>
+                                <li>NewCorp Benefit Advantage</li>
+                                <li>West Chester Cardiology</li> 
+                            </ul>
                     </div>
-            </div> 
+                    <div className="content-header flex-layout-column">
+                        <div className="subtitle margin-top-25">
+                            Utilities
+                        </div>
+                        <div className="content-block">
+                            <ul className="content-text-24">
+                                <li>Kinetix</li>
+                                <li>OSIsoft</li>
+                            </ul>  
+                        </div>
+                    </div>
+                    <div className="content-header flex-layout-column">
+                         <div className="subtitle margin-top-25">
+                             E-Commerce
+                        </div>
+                         <div className="content-block">
+                            <ul className="content-text-24">
+                                <li>StubHub</li>
+                                <li>SellStuff</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="content-header flex-layout-column">
+                        <div className="subtitle margin-top-25">
+                            Energy Sector
+                        </div>
+                        <div className="content-block">
+                            <ul className="content-text-24">
+                                <li>OSIsoft</li>
+                                <li>HCNRG Solutions</li>     
+                            </ul>  
+                        </div>
+                    </div>
+                    <div className="content-header flex-layout-column">
+                        <div className="subtitle margin-top-25">
+                            Financial
+                        </div>
+                            <ul className="content-text-24">
+                                <li>Investor Force</li>
+                            </ul>  
+                    </div>
+                    <div className="content-header flex-layout-column">
+                        <div className="subtitle margin-top-25">
+                            Real Estate
+                        </div>
+                            <ul className="content-text-24">
+                                <li>Sherman Toppin Real Estate</li>
+                            </ul>
+                    </div>
+                    <div className="content-header flex-layout-column">
+                        <div className="subtitle margin-top-25">
+                            Sports
+                        </div>
+                            <ul className="content-text-24 margin-top-25">
+                                <li>World Team Tennis</li>
+                            </ul>
+                    </div>
+                    <div className="content-header flex-layout-column padding-bottom-50">
+                        <div className="subtitle">Food and Beverage</div>
+                            <ul className="content-text-24">
+                                <li>Roos Foods</li>
+                                <li>KetchHot</li>   
+                            </ul>  
+                        </div>                           
+                    </div>
+            </section> 
     </div>
 
 
 
             <div className="flex-layout-section-fixed-lg flex-layout-center-center flex-wrap padding-bottom-150">
-                            <img className="" src={stubhub_logo}  alt="motorola logo" />
-                            <img className="image-size-10" src={az}  alt="motorola logo" />  
-                            <img className="image-size-10" src={KetchHot}  alt="motorola logo" /> 
-                            <img className="image-size-30" src={motorola_logo}  alt="motorola logo" /> 
-                            <img className="image-size-30" src={gps}  alt="motorola logo" />
-                            <img className="image-size-10" src={wtt}  alt="motorola logo" /> 
-                            <img className="image-size-30" src={wcc}  alt="motorola logo" />  
-                            <img className="image-size-10" src={sbk}  alt="motorola logo" />
-                            <img className="image-size-30" src={investor}  alt="motorola logo" />
-                            <img className="image-size-10" src={osi_logo}  alt="motorola logo" />
-                            <img className="image-size-10" src={ncba}  alt="motorola logo" />     
-            
+                            <img className="image-size-10 margin-left-15" src={stubhub_logo}  alt="motorola logo" />
+                            <img className="image-size-10 margin-left-15" src={az}  alt="motorola logo" />  
+                            <img className="image-size-10 margin-left-15" src={KetchHot}  alt="motorola logo" /> 
+                            <img className="image-size-30 margin-left-15" src={motorola_logo}  alt="motorola logo" /> 
+                            <img className="image-size-30 margin-left-15" src={gps}  alt="motorola logo" />
+                            <img className="image-size-10 margin-left-15" src={wtt}  alt="motorola logo" /> 
+                            <img className="image-size-30 margin-left-15" src={wcc}  alt="motorola logo" />  
+                            <img className="image-size-10 margin-left-15" src={sbk}  alt="motorola logo" />
+                            <img className="image-size-30 margin-left-15" src={investor}  alt="motorola logo" />
+                            <img className="image-size-10 margin-left-15" src={osi_logo}  alt="motorola logo" />
+                            <img className="image-size-10 margin-left-15" src={ncba}  alt="motorola logo" />     
             
             </div>
                   

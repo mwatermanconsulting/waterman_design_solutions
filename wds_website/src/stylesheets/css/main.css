@@ -322,7 +322,7 @@ footer {
 .flex-section-fixed-head {
   display: flex;
   height: 100%;
-  min-height: 625px;
+  min-height: 585px;
   background-color: #6c8086; }
 
 .flex-section-fixed-head-child {
@@ -729,8 +729,7 @@ li {
   -webkit-box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.25);
   width: 634px;
-  max-width: 643px;
-  max-height: 600px; }
+  max-width: 643px; }
 
 .lightgreen {
   background-color: #BDCCD4; }
