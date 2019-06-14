@@ -4,11 +4,11 @@ import services from '../images/graphic-services.svg';
 import together from '../images/photos/photo-why-wds.png';
 import finding from '../images/photos/photo-documentation-s1.png';
 import digital_design1 from '../images/photos/photo-digital-design-s1.png';
-import finding_truth2 from '../images/photos/photo-finding-truth-s2.png';
-import finding_truth3 from '../images/photos/photo-finding-truth-s3.png';
-import finding_truth4 from '../images/photos/photo-finding-truth-s4.png';
-import finding_truth5 from '../images/photos/photo-finding-truth-s5.png';
-import finding_truth6 from '../images/photos/photo-finding-truth-s6.png';
+import digital_design2 from '../images/photos/photo-digital-design-s2.png';
+import digital_design3 from '../images/photos/photo-digital-design-hcnrg.png';
+import digital_design4 from '../images/photos/photo-digital-design-pc.png';
+import digital_design5 from '../images/photos/photo-digital-design-kinetix.png';
+import digital_design6 from '../images/photos/photo-digital-design-nirvana.png';
 import finding_truth7 from '../images/photos/photo-finding-truth-s7.png';
 import finding_truth8 from '../images/photos/photo-finding-truth-s8.png';
 
@@ -49,21 +49,21 @@ class digital_design extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={finding}  alt="Stakeholder Interview" /> 
+                        <img className="photo-container" src={digital_design2}  alt="Stakeholder Interview" /> 
                     </div>     
                 </section>
 
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
                 <section className="flex-layout-section-full">
-                    <div className="grid-2col-text-center margin-top-25" >
+                    <div className="grid-2col-text-center" >
                         <div className="grid-title subtitle content-text-24 margin-bottom-20">
-                        Digital Design services includes: 
+                        Digital design services includes: 
                         </div>
-                        <div className="item content-text-18">
+                        <div className="item content-text-18 margin-top-10">
                             Editorial design
                         </div>
-                        <div className="item content-text-18">
+                        <div className="item content-text-18 margin-top-10">
                             Illustrations 
                         </div>
                         <div className="item content-text-18">
@@ -94,30 +94,25 @@ class digital_design extends Component {
                     </div>
                 </section>
               
+                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
-</div>
-                <div className="container-grid-3col content-header">
-                    <div className="container-image-block">
-                        <img className="photo-container" src={finding_truth4}  alt="Your Business is Our Joy" /> 
+                <div className="grid-gallery content-header">
+                    <div className="gallery-1 container-image-dd">
+                        <img className="container-image-dd" src={digital_design3}  alt="Your Business is Our Joy" /> 
                     </div>     
-                </div>
-                    <div className="container-image-block">
-                        <img className="photo-container" src={finding_truth5}  alt="Your Business is Our Joy" /> 
+                
+                    <div className="gallery-2 container-image-dd">
+                        <img className="container-image-dd" src={digital_design4}  alt="Your Business is Our Joy" /> 
                     </div>     
     
-                    <div className="container-image-block">
-                        <img className="photo-container" src={finding_truth6}  alt="Stakeholder Interview" /> 
+                    <div className="gallery-3 container-image-dd ">
+                        <img className="container-image-dd"  src={digital_design5}  alt="Stakeholder Interview" /> 
                     </div>     
               
-                    <div className="container-image-block">
-                        <img className="photo-container" src={finding_truth7}  alt="Review" /> 
+                    <div className="container-image-dd">
+                        <img className="container-image-dd" src={digital_design6}  alt="Review" /> 
                     </div>
-               
-                    <div className="grid-right container-image-block">
-                        <img className="photo-container" src={finding_truth8}  alt="Review" /> 
-                    </div>
-                
+                </div>
                 <div className="container-grid-2col-full width-100 flex-layout-justified-sb border-3px bottom-border margin-top-100 yellow-bg "> 
                 <div className="item-a-nb content-block-50 flex-layout-column">
                     <div className="content-block">

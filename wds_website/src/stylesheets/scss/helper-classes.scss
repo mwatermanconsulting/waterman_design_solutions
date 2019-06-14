@@ -23,8 +23,6 @@
     margin-top: 50px;
 }
 
-
-
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -43,14 +41,14 @@
   height: 100%;
 }
 
-  .flex-justify {
-    display: flex;
-    justify-content: space-between;
-    width: 0px;
-  }
+.flex-justify {
+  display: flex;
+  justify-content: space-between;
+  width: 0px;
+}
   .flex-items-align-top {
     align-items: flex-start;
-  }
+}
 
   /*******************************
          Spacer Classes

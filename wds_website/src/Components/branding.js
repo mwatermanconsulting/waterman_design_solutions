@@ -1,9 +1,7 @@
 import React, { Component } from 'react' ;
-import finding_truth from '../images/backgrounds/bg-documentation.png';
+import branding_bg from '../images/backgrounds/bg-branding.png';
 import services from '../images/graphic-services.svg';
-import together from '../images/photos/photo-why-wds.png';
-import finding from '../images/photos/photo-documentation-s1.png';
-import finding_truth1 from '../images/photos/photo-finding-truth-s1.png';
+import branding1 from '../images/photos/photo-branding-s1.png';
 import finding_truth2 from '../images/photos/photo-finding-truth-s2.png';
 import finding_truth3 from '../images/photos/photo-finding-truth-s3.png';
 import finding_truth4 from '../images/photos/photo-finding-truth-s4.png';
@@ -19,30 +17,26 @@ class branding extends Component {
             <div className="flex-section-fixed-head flex-layout-center-center image-background-border-tb">
                 <div className="header-text-center header-title text-white">
                     Branding</div>
-                <img className="flex-image-container" src={finding_truth}  alt="Why WDS background" /> 
+                <img className="flex-image-container" src={branding_bg}  alt="Why WDS background" /> 
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                   Revealing the truth and developing a strategy that works
+                    "Your personal brand is a promise to your clients… a promise of quality, consistency, competency, and reliability". <br/> – Jason Hartman
                 </div>
             </div>
             <div className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
                 <div className="grid-item-b content-block-60 content-header flex-layout-column">
-                    <div className="callout-text text-align-left text-white">By directly observing people, and going through your own research, we can empathize with their pain points, discovering solutions, simplfying life and connecting with them on an emotional level. We create truth that was unknown until now, using this knowledge to create better decisions based on users, not assumptions. </div>
+                    <div className="callout-text text-align-left text-white">In the past 40 years, our brains have seen enough branding to know what looks professional and credible. We all know bad design. </div>
                              
                 </div>
                 <div className="item-a-nb container-image-block">
-                    <img className="container-photo-callout" src={finding_truth2}  alt="shaking hands" /> 
+                    <img className="container-photo-callout" src={branding1}  alt="shaking hands" /> 
                 </div>
             </div>
     
             <div className="content-header flex-layout-center-center flex-layout-column margin-top-200 ">
-                <div className="flex-layout-center-center title text-align-center content-block-60">
-                    Need Introduction Text Here. A Small story on finding solutions where others failed to see them. Unique Solutions  
-                </div>
-                <div className="content-block-55 margin-top-50">
-                    <p className="content-text-24 text-align-center">WDS discovers the patterns and themes that provide actionable, deeper and more valuable perspectives on your customers' wants, needs and motivations.</p>
-                    <p className="content-text-24 text-align-center">The most meaningful insights for experience strategy are developed with behavior-based understanding of users. Our experience strategists observe people in context - where they work, play or live - to understand their goals, needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve..</p>
+                <div className="flex-layout-center-center subtitle text-align-center content-block-60">
+                    "Branding is what people say about you when you're not in the room." - Jeff Bezos 
                 </div>
             </div>
             <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">
@@ -52,18 +46,18 @@ class branding extends Component {
                 <div className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title">
-                            ESTABLISH BUSINESS CONTEXT
+                           What is brand identity
                         </div>
                         <div className="subtitle">
-                            Defining the Challenge
+                           Experiences Count
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-25">
                             <p className="content-text-18"> 
-                            At the beginning of an engagement, we set the foundation for success by developing an understanding of the business, the industry, the competition and relevant trends. This becomes the basis for how we approach all subsequent phases. Along with secondary research, we interview stakeholders and subject matter experts, both to gain a first-hand awareness of the company context, and also to build connections within the business which contribute to stakeholder alignment throughout the engagement. This activity begins to define hypotheses for where the company intends to play in the market, who it intends to serve and how it plans to serve them.</p>
+                            A brand identity is the story of who you are, what your values are, the face of your company. Your logo will adorn all your products and marketing materials, and it will be the first thing that the public sees — a sort of visual shortcut to your company. The impression that you make on your users depends on how they experience your brand.  </p>
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={finding}  alt="Stakeholder Interview" /> 
+                        <img className="photo-container" src={branding1}  alt="Stakeholder Interview" /> 
                     </div>     
                 </div>
 

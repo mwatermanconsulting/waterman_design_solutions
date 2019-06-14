@@ -139,6 +139,14 @@
 
 }
 
+
+.grid-3col {
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+  grid-gap: 10px;
+}
+
+
 .container-grid-4col {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
