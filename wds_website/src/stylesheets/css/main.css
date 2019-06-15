@@ -982,23 +982,27 @@ p {
   *******************************/
 .image-size-10 {
   height: 10%;
-  width: 10%; }
+  width: auto; }
+
+.image-size-20 {
+  height: 20%;
+  width: auto; }
 
 .image-size-30 {
   height: 30%;
-  width: 30%; }
+  width: auto; }
 
 .image-size-50 {
   height: 50%;
-  width: 50%; }
+  width: auto; }
 
 .image-size-75 {
   height: 75%;
-  width: 75%; }
+  width: auto; }
 
 .image-size-100 {
   height: 100%;
-  width: 100%; }
+  width: auto; }
 
 .container-photo-callout {
   width: 650px;
@@ -1239,8 +1243,15 @@ Button:hover {
   grid-column: 2/3;
   grid-row: auto; }
 
+.align-self-end {
+  align-self: end; }
+
+.grid-gap-20 {
+  grid-gap: 20px; }
+
 .grid-content-2 {
-  grid-template-columns: repeat(2, 1fr); }
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px; }
 
 .grid-title {
   grid-column: auto / span 2;
@@ -1912,12 +1923,11 @@ callout-bg-s1 {
            Portfolio
   *******************************/
 .container-image-dd {
-  width: 500px;
-  height: 275px; }
+  width: 350px; }
 
 .grid-gallery {
   display: grid;
-  grid-template-columns: repeat(3, minmax(500px, 1fr));
+  grid-template-columns: repeat(3, minmax(400px, 1fr));
   grid-template-rows: repeat(2, 300px); }
 
 .gallery-1 {

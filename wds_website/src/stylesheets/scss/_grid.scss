@@ -11,9 +11,16 @@
     grid-column: 2/3;
     grid-row: auto;
   }
+  .align-self-end {    
+    align-self: end;
+  }
+  .grid-gap-20 {
+    grid-gap: 20px;
+  }
 
   .grid-content-2 {    
     grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
   }
 
   .grid-title {

@@ -27,15 +27,13 @@ class about extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="container-grid-2col-photo flex-layout-column margin-bottom-100 flex-layout-center-center photo-content-color" style={{height:'715px'}}>
+                <div className="container-grid-2col-photo flex-layout-column margin-bottom-100 flex-layout-center-center            photo-content-color" style={{height:'715px'}}>
                         <div className="grid-2col-text-photo width-70 margin-top-50 flex-section-align-center">
-                            
-                                <div className="content-block-why 2col-text">
+                            <div className="content-block-why 2col-text">
                                     <div className="subtitle">Surreal Beginnings </div>
                                     <p className="content-text-24 text-white"> WDS started in 1997 under its original name, Surreal Concepts by the husband and wife team, Terri and Michael Waterman. The mission was always to provide professional design services and marketing for a reasonable cost to small and mid-size companies. 
                                     </p>
-                                </div>
-                        
+                            </div>
                         <div className="2col-photo grid-placeself-center">
                             <img className="container-photo-callout" src={photo_history} alt="WDS history"/> 
                             <p className="caption">Roman Kraft</p>
