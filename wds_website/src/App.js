@@ -45,8 +45,8 @@ class App extends Component {
           <div className="subtitle text-white">
                Why
               <ul>
-                 <li> <a className="text-black" href="./why-wds">Why Waterman Design Solutions</a></li>
-                 <li><a className="text-black" href="./case_studies">Clients andSuccess (Case Studie</a></li>
+                 <li> <a className="text-black" href="./why_wds">Why Waterman Design Solutions</a></li>
+                 <li><a className="text-black" href="./case_studies">Clients and Success Stories</a></li>
                  <li><a className="text-black" href="./core_offerings">Core Offerings</a></li>
                  <li><a className="text-black" href="./history">History</a></li>
               </ul>
@@ -56,7 +56,7 @@ class App extends Component {
               Services
               <ul className="text-black">
               <li><a className="text-black" href="./services">Services</a></li>
-              <li><a className="text-black" href="./ux">User Experience</a></li>
+              <li><a className="text-black" href="./ux_design">User Experience</a></li>
               <li><a className="text-black" href="./css_solutions">CSS Solutions</a></li>
               <li><a className="text-black" href="./strategy_insight">Strategy & Insight</a></li>
               <li><a className="text-black" href="./style_guide">Style Guides & Design Stystems</a></li>

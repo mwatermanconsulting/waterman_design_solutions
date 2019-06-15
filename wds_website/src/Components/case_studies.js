@@ -2,6 +2,7 @@ import React, { Component } from 'react' ;
 import { Button } from 'react-mdl';
 import caseStudies from '../images/backgrounds/bg-casestudies.png';
 import motorola from '../images/photos/photo-motorola-beforeafter.png';
+import pii from '../images/icon-logo-pii.png';
 import motorola_logo from '../images/motorola_logo.svg'
 import stubhub_logo from '../images/icon-logo-stubhub.svg'
 import stubhub from '../images/photos/photo-stubhub-before-after.png'
@@ -10,7 +11,7 @@ import pfizer from '../images/photos/photo-pfizer-before-after.png'
 import osi_logo from '../images/icon-logo-osi.svg'
 import osi from '../images/photos/photo-osi-before-after.png'
 import az from '../images/az.png'
-import KetchHot from '../images/ketchhot.png'
+import KetchHot from '../images/icon-logo-ketchhot.png'
 import wcc from '../images/wcc.png'
 import wtt from '../images/wtt.png'
 import sbk from '../images/smithkline.svg'
@@ -137,22 +138,18 @@ class case_studies extends Component {
                 </section>
             <div className="flex-layout-section-full flex-layout-column align-items-center margin-top-50">
 
-                <div className="flex-layout-section thin-hr margin-tb-100 margin-top-50 " style={{ width: '90%' }}></div>
 
-            <section className="flex-layout-content-container flex-layout-column flex-layout-center-center">
-                <div className="content-header flex-layout-column">    
-                    <div className="title flex-layout-center">
-                        IT’S HOW IT LOOKS AND HOW IT WORKS
-                    </div>
-                    <div className="content-block margin-top-50 width-100">
-                        <p className="content-text-24 text-align-center"> 
+            <section className="flex-layout-section-full width-100 border-tb-5 grey flex-layout-column flex-layout-center-center">
+                <div className="content-header flex-layout-column">
+                    <div className="content-block margin-tb-100 width-100">
+                        <p className="callout-text text-align-center"> 
                         Design is not just what it looks like and feels like. Design is how it works.</p>
                         <p className="content-text-18 text-align-center"> 
                         —Steve Jobs, Co-Founder of Apple</p>
                     </div>
                 </div>
             </section>
-            <section className="flex-layout-section-full width-100 yellow-bg margin-top-100 border-tb-5 flex-layout-center-center">
+            <section className="flex-layout-section-full width-100 margin-top-100  flex-layout-center-center">
                 <div className="content-text-24 margin-top-50" style={{width:'950px'}}>
                     We design simplicity across verticals and technologies, such as consumer, workplace, financial, healthcare, customer service, mobile development, and ecommerce.</div>
                 <div className="grid-2col-text width-70 margin-top-50 flex-section-align-center">
@@ -249,20 +246,21 @@ class case_studies extends Component {
             </section> 
     </div>
 
+    <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
-
-            <div className="flex-layout-section-fixed-lg flex-layout-center-center flex-wrap padding-bottom-150">
-                            <img className="image-size-10 margin-left-15" src={stubhub_logo}  alt="motorola logo" />
-                            <img className="image-size-10 margin-left-15" src={az}  alt="motorola logo" />  
-                            <img className="image-size-10 margin-left-15" src={KetchHot}  alt="motorola logo" /> 
-                            <img className="image-size-30 margin-left-15" src={motorola_logo}  alt="motorola logo" /> 
-                            <img className="image-size-30 margin-left-15" src={gps}  alt="motorola logo" />
-                            <img className="image-size-10 margin-left-15" src={wtt}  alt="motorola logo" /> 
-                            <img className="image-size-30 margin-left-15" src={wcc}  alt="motorola logo" />  
-                            <img className="image-size-10 margin-left-15" src={sbk}  alt="motorola logo" />
-                            <img className="image-size-30 margin-left-15" src={investor}  alt="motorola logo" />
-                            <img className="image-size-10 margin-left-15" src={osi_logo}  alt="motorola logo" />
-                            <img className="image-size-10 margin-left-15" src={ncba}  alt="motorola logo" />     
+            <div className="flex-layout-section-fixed flex-layout-center-center flex-wrap padding-bottom-150">
+                            <img className="image-size-10 margin-left-15" src={stubhub_logo}  alt="Stubhub" />
+                            <img className="image-size-10 margin-left-15" src={az}  alt="AstraZeneca" />  
+                            <img className="image-size-20 margin-left-15" src={pfizer_logo}  alt="Pfizer" />  
+                            <img className="image-size-20 margin-left-15" src={KetchHot}  alt="Ketchhot" /> 
+                            <img className="image-size-20 margin-left-15" src={motorola_logo}  alt="Motorola" /> 
+                            <img className="image-size-10 margin-left-15" src={wtt}  alt="WTT" /> 
+                            <img className="image-size-10 margin-left-15" src={wcc}  alt="WCC" />  
+                            <img className="image-size-30 margin-left-15" src={sbk}  alt="SBK" />
+                            <img className="image-size-20 margin-left-15" src={pii}  alt="PII" />
+                            <img className="image-size-10 margin-left-15" src={investor}  alt="Investorforce" />
+                            <img className="image-size-20 margin-left-15" src={osi_logo}  alt="OSIsoft" />
+                            <img className="image-size-10 margin-left-15" src={ncba}  alt="NCBA" />     
             
             </div>
                   

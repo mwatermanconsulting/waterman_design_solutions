@@ -1,9 +1,9 @@
 import React, { Component } from 'react' ;
-import ux_bg from '../images/backgrounds/bg-ux.png'
-import ux_s1 from '../images/photos/photo-ux-s1.png'
+import ux_bg from '../images/backgrounds/bg-ux.png';
+import ux_s1 from '../images/photos/photo-ux-s1.png';
 import services from '../images/graphic-services.svg';
-import mike from '../images/mike.png';
-import terri from '../images/terri.png';
+import spotlight1 from '../images/photos/photo-ux-spotlight-stubhub.png';
+import spotlight2 from '../images/photos/photo-ux-uncover-truth.png';
 
 class ux_design extends Component {
     render () {
@@ -23,60 +23,48 @@ class ux_design extends Component {
                 <section className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
                     <div className="item-a-nb content-block-60 content-header flex-layout-column">
                         <div className="subtitle margin-top-15 text-align-left">
-                                We put ourselves in their shoes
+                             We put ourselves in their shoes
                         </div>
                         <div className="callout-text text-align-left text-white margin-top-15" style={{marginLeft:'3%'}}>
-                                We imagine your users are our best friends — we listen to their concerns, being a shoulder to lean on, we observe them and then shift the focus from what went wrong to how you can help make it right.
+                            We imagine your users are our best friends — we listen to their concerns, being a shoulder to lean on, we observe them and then shift the focus from what went wrong to how you can help make it right.
                         </div>
                     </div>
                     <div className="grid-item-b container-image-block">
                         <img className="container-photo-callout" src={ux_s1}  alt="shaking hands" /> 
                     </div>
                 </section>
+            <main>
                 <section className="flex-layout-section-full flex-layout-center-center margin-top-100 border-2" style={{marginLeft:'25%'}}>
                     <div className="subtitle margin-top-25">
                         Real UX is Old School Customer Service 
                     </div>
                     <div className="content-block-60 margin-top-25">
                         <p className="content-text-18"> 
-                        The vision for the WDS is old meets new. This is why we choose to give the WDS site the “old look and feel” because we combine old school business values and old school customer service to UX. WDS method for UX is old school customer service. nderstanding real world customer service of talking and observing people. Emphasizing with them when they struggle or fail. Keeping in mind that every customer, has a goal or task to complete helps to empathize with them through their journey, using that knowledge of the customers to systematically make that experience better across all customers touchpoints.</p>
+                        The vision for the WDS is old meets new. This is why we choose to give the WDS site the “old look and feel” because we combine old school business values and old school customer service to UX. WDS method for UX is old school customer service. Understanding real world customer service of talking and observing people. Emphasizing with them when they struggle or fail. Keeping in mind that every customer, has a goal or task to complete helps to empathize with them through their journey, using that knowledge of the customers to systematically make that experience better across all customers touchpoints.</p>
                     </div>         
-                
-               
                     <div className="grid-2col-text margin-top-25" >
                         <div className="grid-title subtitle margin-bottom-20">
-                            Connection between old school customer service and <br/> UX Design
-                        </div>
+                            Connection between old school customer service and <br/> UX Design</div>
                         <div className="item content-text-24">
-                            <b>Old School CS</b>
-                        </div>
+                            <b>Old School CS</b></div>
                         <div className="item content-text-24">
-                            <b>UX Design</b> 
-                        </div>
+                            <b>UX Design</b> </div>
                         <div className="item content-text-18">
-                        Connection with customers
-                        </div>
+                             Connection with customers</div>
                         <div className="item content-text-18">
-                        Empathy 
-                        </div>
+                            Empathy </div>
                         <div className="item- content-text-18">
-                        Follow up promptly
-                        </div>
+                            Follow up promptly</div>
                         <div className="item content-text-18">
-                        User Testing 
-                        </div>
+                            User Testing </div>
                         <div className="item content-text-18">
-                        Show your appreciation
-                        </div>
+                            Show your appreciation</div>
                         <div className="item content-text-18">
-                        Design enjoyable experiences
-                        </div>
+                            Design enjoyable experiences</div>
                         <div className="item content-text-18">
-                        Meet Customers expectations
-                        </div>
+                            Meet Customers expectations</div>
                         <div className="item content-text-18 margin-bottom-25">
-                        Find out the Truth
-                        </div>
+                            Find out the Truth</div>
                     </div>
                 </section>
             
@@ -84,13 +72,12 @@ class ux_design extends Component {
 
                 <section className="content-header flex-layout-center-center flex-layout-column margin-top-100 ">
                     <div className="flex-layout-center-center title  content-block-60">
-                       Empathy Sparks Innovations 
+                        Empathy Sparks Innovations 
                     </div>
                     <div className="content-block-55 margin-top-50">
                         <p className="content-text-18">Empathy is a very powerful selling tool. These days, it’s the new buzz word used by companies. But empathy has always been at the heart of User Experience and Customer Service. We are trained to use empathy in our work: “Walk in the user’s shoes.” “See the problem as if you were experiencing it yourself.“Observe their daily routines.” All of these mantras and behaviors are empathetic techniques that UX designers have honed by creating amazing, innovative products and services. In reality this is old school custom service. </p>
 
                         <p className="content-text-18">WDS method for UX is old school customer service. Understanding real world customer service of talking and observing people. Emphasizing with them when they struggle or fail. Keeping in mind that every customer, has a goal or task to complete helps to understand their journey, use that knowledge of the customers to systematically make that experience better?</p>
-
                     </div>
                 </section>
                 <section className="content-header flex-layout-column flex-layout-center-center margin-top-100 grey padding">
@@ -109,69 +96,51 @@ class ux_design extends Component {
                     An effective customer experience is one built with intention that takes into account all of the various touchpoints and tasks that a customer Journey.
                     </div>
                 </section>
-                
-
                 <section className="content-header flex-layout-center-center flex-layout-column margin-top-100 ">
                     <div className="flex-layout-center-center title  content-block-60">
-                        WDS UX Methodology uncovers the truth
                     </div>
-                    <div className="content-block-55 margin-top-50">
-                        <p className="title">
-                        UX Case Studies Spotlight - Stubhub </p>
+                    <div className="grid-content-2">
+                    <img className="container-spotlight"  src={spotlight1}  alt="Spotlight" />
+                    <img className="" src={spotlight2}  alt="Spotlight" />
                     </div>
                 </section>
 
                 <div className="thin-hr width-70 align-self-center margin-top-100"></div>
-
+        </main>
             <section className="flex-layout-section-full flex-section-align-center margin-top-50">
                 <div className="grid-2col-text-center margin-top-25" >
                     <div className="grid-title subtitle content-text-24 margin-bottom-20">
-                        Full List of UX Design Services
-                    </div>
+                        Full List of UX Design Services</div>
                     <div className="item content-text-18">
-                        Interaction Design
-                    </div>
+                        Interaction Design</div>
                     <div className="item content-text-18">
-                        User Interface Design
-                    </div>
+                        User Interface Design</div>
                     <div className="item content-text-18">
-                       Visual Design
-                    </div>
+                       Visual Design</div>
                     <div className="item content-text-18">
-                        Journey Maps
-                    </div>
+                        Journey Maps</div>
                     <div className="item- content-text-18">
-                        Personas and User Stories 
-                    </div>
+                        Personas and User Stories </div>
                     <div className="item content-text-18">
-                        Concept Validation
-                    </div>
+                        Concept Validation</div>
                     <div className="item content-text-18">
-                        Wireframes
-                    </div>
+                        Wireframes</div>
                     <div className="item content-text-18">
-                        User Workflows
-                    </div>
+                        User Workflows</div>
                     <div className="item content-text-18">
-                       Design Systems and Style Guides
-                    </div>
+                       Design Systems and Style Guides</div>
                     <div className="item content-text-18">
-                       Prototyping
-                    </div>
+                       Prototyping</div>
                     <div className="item content-text-18">
-                       Information Architecture
-                    </div>
+                       Information Architecture</div>
                     <div className="item content-text-18">
-                        Usability studies
-                    </div>
+                        Usability studies</div>
                     <div className="item content-text-18">
-                        Research
-                    </div>
+                        Research</div>
                     <div className="item content-text-18">
-                        Design Thinking 
-                    </div>
-                    </div>
-                </section>
+                        Design Thinking </div>
+                </div>
+            </section>
                 <div className="container-grid-2col-full width-100 flex-layout-justified-sb border-3px bottom-border margin-top-100 yellow-bg "> 
                 <div className="item-a-nb content-block-50 flex-layout-column">
                     <div className="content-block">
