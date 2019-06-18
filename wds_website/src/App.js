@@ -19,7 +19,7 @@ class App extends Component {
             color: 'white'}} to="/"><img src={logo} height="65px" alt="header" /></Link>} scroll>
                 <Navigation className="text-white" style={{ color: 'white'}}>
                     <Link to="/why_wds">Why WDS</Link>
-                    <Link to="/practices">Practices</Link>
+                    <Link to="/practices">Services</Link>
                     <Link to="/methodology">Methodology</Link>
                     <Link to="/design_solutions">Design Solutions</Link>
                     <Link to="/news_insights">News & Insights</Link>

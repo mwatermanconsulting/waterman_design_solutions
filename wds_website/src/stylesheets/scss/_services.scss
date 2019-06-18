@@ -76,6 +76,13 @@
     justify-content: center;
   }
 
+  .grid-right-photo {
+    grid-column: 2/2;
+    grid-row: auto;
+    justify-content: center;
+    align-self: center;
+  }
+
   .grid-services-list {
     grid-column: 33% 33% 33%;
     grid-row: auto;
