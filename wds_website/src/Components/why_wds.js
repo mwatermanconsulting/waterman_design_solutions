@@ -28,7 +28,7 @@ class why_wds extends Component {
                         <div className="content-header flex-layout-column">    
                             <div className="content-block width-75">
                                 <div className=" text-white text-align-center">
-                                    Your customer is the focus of the entire process.
+                                    Design is always the difference
                                 </div>
                             </div>
                         </div>
@@ -37,8 +37,10 @@ class why_wds extends Component {
                 <section className="flex-layout-section-full align-items-center" >
                     <div className="grid-callout yellow-bg"> 
                         <div className="grid-callout-text grid-placeself-center width-70">
-                            <p className="callout-text "> 
-                            Customers always look for the better experience. Meeting their expectations of intuitive, elegant and simple designs built around and for the user will earn their loyalty.</p>
+                            <p className="callout-text ">
+
+
+                            Customers always look for the better experience. Meeting their expectations of intuitive, elegant and simple designs built around and for the user will earn their loyalty. This is the reason from startups to global brands when falied attempts </p>
                         </div>
                         <div className="grid-callout-photo grid-placeself-center">
                             <img className="flex-image-container" src={whys1}  alt="Customer Service" /> 
@@ -46,19 +48,36 @@ class why_wds extends Component {
                     </div>
                 </section>
         <main>
+            
+            
             <section className="flex-layout-section-full align-items-center" >
-                <div className="content-header flex-layout-column">    
-                    <p className="title padding-50 text-align-center">
-                        WDS builds emotionally rich, resonant digital solutions that enable users to fully realize technology’s complete potential, by simplifying everything your customers touch and feel.</p>
+                <div className="grid-2col-text-photo width-70 margin-top-100 ">
+                    <div className="2col-photo width-100 grid-placeself-center">
+                        <img src={whys2} alt="Case Study Image 2"/> 
+                    </div>
+                    <div className="2col-text grid-placeself-center width-70">
+                        <p className="content-header "> 
+                            OUR EXPERIENCE HAS ALLOWED US TO REFINE A METHODOLOGY…</p>
+                        <p className="content-text-24 padding-10">  
+                            A methodology that reveals the truth about user experiences. Our experience of providing design solutions has given us a successful track record.</p>
+                    </div>
                 </div>
-                <div className=" content-block-25">
-                    <img className="flex-image-container" src={why_oh_really}  alt="Your Business is Our Joy" /> 
-                </div>
-                <div className="content-header flex-layout-column">    
-                    <p className="title padding-50 text-align-center">
-                        By advocating and designing for the user.</p>
+
+                <div className="thin-hr width-70 align-self-center margin-top-100"></div>
+
+                <div className="grid-2col-text-photo align-self-center width-100  margin-tb-100   ">
+                    <div className="2col-text grid-placeself-center width-70 margin-left-100">
+                        <p className="content-header"> 
+                            THE RESULTS PROVE THAT OUR PROCESS WORKS</p>
+                        <p className="content-text-24 padding-10">
+                            We're firm believers in agile and iterative deployments as experiments, but, with longer enterprise launches and even consumer software, there's still valuable data to collect even before that first MVP. Our insights and strategies move you and your team in the right direction, and possibly uncover rewarding new business opportunities.</p>
+                    </div>
+                    <div className="2col-photo width-100 grid-placeself-center">
+                        <img src={whys3} alt="Case Study Image 2"/> 
+                    </div>
                 </div>
             </section>
+        </main>
             <section className="flex-layout-section-full align-items-center yellow-bg border-tb-5" >
                 <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 ">
                     <div className="2col-text grid-placeself-center width-70 margin-left-75">
@@ -100,35 +119,6 @@ class why_wds extends Component {
                     </div>
                 </div>
             </section>
-            <section className="flex-layout-section-full align-items-center" >
-                <div className="grid-2col-text-photo width-70 margin-top-100 ">
-                    <div className="2col-photo width-100 grid-placeself-center">
-                        <img src={whys2} alt="Case Study Image 2"/> 
-                    </div>
-                    <div className="2col-text grid-placeself-center width-70">
-                        <p className="content-header "> 
-                            OUR EXPERIENCE HAS ALLOWED US TO REFINE A METHODOLOGY…</p>
-                        <p className="content-text-24 padding-10">  
-                            A methodology that reveals the truth about user experiences. Our experience of providing design solutions has given us a successful track record.</p>
-                    </div>
-                </div>
-
-                <div className="thin-hr width-70 align-self-center margin-top-100"></div>
-
-                <div className="grid-2col-text-photo align-self-center width-100  margin-tb-100   ">
-                    <div className="2col-text grid-placeself-center width-70 margin-left-100">
-                        <p className="content-header"> 
-                            THE RESULTS PROVE THAT OUR PROCESS WORKS</p>
-                        <p className="content-text-24 padding-10">
-                            We're firm believers in agile and iterative deployments as experiments, but, with longer enterprise launches and even consumer software, there's still valuable data to collect even before that first MVP. Our insights and strategies move you and your team in the right direction, and possibly uncover rewarding new business opportunities.</p>
-                    </div>
-                    <div className="2col-photo width-100 grid-placeself-center">
-                        <img src={whys3} alt="Case Study Image 2"/> 
-                    </div>
-                </div>
-            </section>
-        </main>
-
             <section className="flex-layout-section-full align-items-center yellow-bg border-tb-5" >
                 <div className=" flex-layout-center-center padding-50">
                     <div className="content-header flex-layout-column">    
@@ -208,6 +198,18 @@ class why_wds extends Component {
                             </div>
                     </div>
                 </div>  
+            </section><section className="flex-layout-section-full align-items-center" >
+                <div className="content-header flex-layout-column">    
+                    <p className="title padding-50 text-align-center">
+                        WDS builds emotionally rich, resonant digital solutions that enable users to fully realize technology’s complete potential, by simplifying everything your customers touch and feel.</p>
+                </div>
+                <div className=" content-block-25">
+                    <img className="flex-image-container" src={why_oh_really}  alt="Your Business is Our Joy" /> 
+                </div>
+                <div className="content-header flex-layout-column">    
+                    <p className="title padding-50 text-align-center">
+                        By advocating and designing for the user.</p>
+                </div>
             </section>
             <div className="flex-layout-center padding-bottom-50">
                 <button onclick="location.href='./case_studies';" type="button" value="Case Studies" className="margin-top-50 font-size-24">Check Out Our Success Stories</button>

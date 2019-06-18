@@ -1,6 +1,7 @@
 import React, { Component } from 'react' ;
-import finding_truth from '../images/backgrounds/bg-documentation.png';
-import services from '../images/graphic-services.svg';
+import print from '../images/backgrounds/bg-print.png';
+import print_s1 from '../images/photos/photo-print-s1.png';
+import print_s2 from '../images/photos/photo-print-s2.png';
 import together from '../images/photos/photo-why-wds.png';
 import finding from '../images/photos/photo-documentation-s1.png';
 import finding_truth1 from '../images/photos/photo-finding-truth-s1.png';
@@ -16,33 +17,46 @@ class print_design extends Component {
     render () {
         return(
         <div className="flex-layout-column"> 
-            <div className="flex-section-fixed-head-child flex-layout-center-center image-background-border-tb">
+            <section className="flex-section-fixed-head-child flex-layout-center-center image-background-border-tb">
                 <div className="header-text-center header-title text-white">
-                    Print Design</div>
-                <img className="flex-image-container" src={finding_truth}  alt="Why WDS background" /> 
-            </div>
-            <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
+                        Print Design</div>
+                <img className="flex-image-container" src={print}  alt="Why WDS background" /> 
+            </section>
+            <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                   Revealing the truth and developing a strategy that works
+                        Print will continue to be valuable where there is a physical customer presence
                 </div>
-            </div>
-            <div className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
-                <div className="grid-item-b content-block-60 content-header flex-layout-column">
-                    <div className="callout-text text-align-left text-white">By directly observing people, and going through your own research, we can empathize with their pain points, discovering solutions, simplfying life and connecting with them on an emotional level. We create truth that was unknown until now, using this knowledge to create better decisions based on users, not assumptions. </div>
-                             
+            </section>
+            <section className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
+                <div className="grid-left content-block-60 content-header flex-layout-column">
+                    <div className="callout-text text-align-left text-white">
+                        Print ads will be more effective if they are a complement to your digital campaigns already in play and entice readers to interact with your brand online 
+                    </div>      
                 </div>
-                <div className="item-a-nb container-image-block">
-                    <img className="container-photo-callout" src={finding_truth2}  alt="shaking hands" /> 
+                <div className="grid-right-photo container-image-block">
+                    <img className="container-photo-callout image-size-100" src={print_s1}  alt="shaking hands" /> 
                 </div>
-            </div>
+            </section>
+            <section className="grid-2col-photo-content border-bottom-5" style={{height:'670px'}}> 
+                <div className="grid-left content-block-60 content-header flex-layout-column">
+                    <div className="callout-text text-align-left text-black">
+                        Print and online marketing brings branding and representation to the goals of your business. Printed materials support online marketing. It covers a larger audience that respond to these marketing tools differently. We take care of each marketing aspect from web design to branding to tangible materials such as business cards, postcards, annual reports, magazines and more. 
+                    </div>                     
+                </div>
+                <div className="grid-right-photo container-image-block">
+                    <img className="container-photo-callout image-size-100" src={print_s2}  alt="shaking hands" /> 
+                </div>
+            </section>
     
             <div className="content-header flex-layout-center-center flex-layout-column margin-top-200 ">
                 <div className="flex-layout-center-center title text-align-center content-block-60">
                     Need Introduction Text Here. A Small story on finding solutions where others failed to see them. Unique Solutions  
                 </div>
                 <div className="content-block-55 margin-top-50">
-                    <p className="content-text-24 text-align-center">WDS discovers the patterns and themes that provide actionable, deeper and more valuable perspectives on your customers' wants, needs and motivations.</p>
-                    <p className="content-text-24 text-align-center">The most meaningful insights for experience strategy are developed with behavior-based understanding of users. Our experience strategists observe people in context - where they work, play or live - to understand their goals, needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve..</p>
+                    <p className="content-text-24 text-align-center">
+                        WDS discovers the patterns and themes that provide actionable, deeper and more valuable perspectives on your customers' wants, needs and motivations.</p>
+                    <p className="content-text-24 text-align-center">
+                        The most meaningful insights for experience strategy are developed with behavior-based understanding of users. Our experience strategists observe people in context - where they work, play or live - to understand their goals, needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve..</p>
                 </div>
             </div>
             <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">
@@ -256,7 +270,7 @@ class print_design extends Component {
                     </div>
                 </div>
             <div className="item-b container-image-block">
-                <img className="flex-image-container" src={services}  alt="Your Business is Our Joy" /> 
+                <img className="flex-image-container"   alt="Your Business is Our Joy" /> 
             </div>
             </div>   
                 

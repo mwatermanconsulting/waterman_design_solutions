@@ -30,18 +30,16 @@ class core_offerings extends Component {
                         <img className="container-photo-callout" src={offerings_photo}  alt="shaking hands" /> 
                     </div>
                 </div>
-            
-            
-            <div className="container-grid-2col-photo flex-layout-column flex-layout-justified-center margin-top-100" style={{height:'680px'}}>
+            <section className="container-grid-2col-photo flex-layout-column flex-layout-justified-center margin-top-100" style={{height:'680px'}}>
                 <div className="grid-title">
-                    <div className="title">The most important part of all is that the entire company have alignment<br/> and clarity on the story of the product—why it exists, who it serves, how it benefits the user.</div>
+                    <div className="title">The most important part of all is that the entire company have alignment<br/> and clarity on         the story of the product—why it exists, who it serves, how it benefits the user.
+                    </div>
                         <div className="content-block-15">
                             <p className="subtitle margin-top-25" style={{width:'90%'}}> WDS core offerings provide solutions to help companies achieve long lasting results. We will guide and build a design plan that takes into account all of the various touchpoints and tasks that a customer engages in. It is critical for businesses success to give the customer a voice in every decision that is made. WDS core offering will have everyone in your business be advocates of customer experience.
                             </p>
                         </div>
-                    </div>
                 </div>
-
+            </section>
                 <div className="flex-layout-section-full flex-layout-column padding flex-layout-center-center grey">
                     <img className="flex-image-container" src={ux}  alt="Why WDS background" /> 
             `   </div>
