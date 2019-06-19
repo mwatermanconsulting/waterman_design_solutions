@@ -80,7 +80,7 @@ class ux_design extends Component {
                         <p className="content-text-18">WDS method for UX is old school customer service. Understanding real world customer service of talking and observing people. Emphasizing with them when they struggle or fail. Keeping in mind that every customer, has a goal or task to complete helps to understand their journey, use that knowledge of the customers to systematically make that experience better?</p>
                     </div>
                 </section>
-                <section className="content-header flex-layout-column flex-layout-center-center margin-top-100 grey padding">
+                <section className="content-header flex-layout-column flex-layout-center-center border-tb-5 margin-top-100 grey padding">
                     <p className="title text-white flex-layout-center-center">
                         UX Design is the study of people</p>
                     <div className="content-block-55 margin-top-15">

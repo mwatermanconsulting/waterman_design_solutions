@@ -954,6 +954,10 @@ p {
   -webkit-align-items: center;
   align-items: center; }
 
+.container-photo-100 {
+  width: 100%;
+  height: auto; }
+
 /*******************************
        Footer
   *******************************/

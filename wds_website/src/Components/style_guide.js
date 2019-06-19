@@ -1,16 +1,12 @@
 import React, { Component } from 'react' ;
-import design_system from '../images/backgrounds/bg-design-systems.png';
-import services from '../images/graphic-services.svg';
-import together from '../images/photos/photo-why-wds.png';
-import finding from '../images/photos/photo-documentation-s1.png';
-import finding_truth1 from '../images/photos/photo-finding-truth-s1.png';
-import finding_truth2 from '../images/photos/photo-finding-truth-s2.png';
-import finding_truth3 from '../images/photos/photo-finding-truth-s3.png';
-import finding_truth4 from '../images/photos/photo-finding-truth-s4.png';
-import finding_truth5 from '../images/photos/photo-finding-truth-s5.png';
-import finding_truth6 from '../images/photos/photo-finding-truth-s6.png';
-import finding_truth7 from '../images/photos/photo-finding-truth-s7.png';
-import finding_truth8 from '../images/photos/photo-finding-truth-s8.png';
+import digital_systems from '../images/backgrounds/bg-digital-systems.png';
+import digital_systems1 from '../images/photos/photo-digital-systems-s1.png';
+import digital_systems2 from '../images/photos/photo-digital-systems-s2.png';
+import digital_systems3 from '../images/photos/photo-digital-systems-s3.png';
+import digital_systems4 from '../images/photos/photo-digital-systems-s4.png';
+import digital_systems5 from '../images/photos/photo-digital-systems-s5.png';
+import digital_systems6 from '../images/photos/photo-digital-systems-s6.png';
+import digital_systems7 from '../images/photos/photo-digital-systems-s7.png';
 
 class style_guide extends Component {
     render () {
@@ -19,250 +15,171 @@ class style_guide extends Component {
             <div className="flex-section-fixed-head-child flex-layout-center-center image-background-border-tb">
                 <div className="header-text-center header-title text-white">
                     Style Guides, Pattern Libraries and Design Systems</div>
-                <img className="flex-image-container" src={design_system}  alt="Why WDS background" /> 
+                <img className="flex-image-container" src={digital_systems}  alt="Why WDS background" /> 
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                    If your product isn’t documented it doesn’t exist
+                How do we implement design in your company?
                 </div>
             </div>
-            <div className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
-                <div className="grid-item-b content-block-60 content-header flex-layout-column">
+            <section className="flex-layout-section-full photo-content-color align-items-center" style={{height:'670px'}}> 
+                <div className=" grid-2col-text-photo align-items-center margin-tb-100 width-70">
+                <div className="content-block 2col-text">
                     <div className="callout-text text-align-left text-white">By directly observing people, and going through your own research, we can empathize with their pain points, discovering solutions, simplfying life and connecting with them on an emotional level. We create truth that was unknown until now, using this knowledge to create better decisions based on users, not assumptions. </div>
-                             
                 </div>
-                <div className="item-a-nb container-image-block">
-                    <img className="container-photo-callout" src={finding_truth2}  alt="shaking hands" /> 
-                </div>
+                    <div className="2col-photo grid-placeself-center">
+                        <img className="container-photo-callout" src={digital_systems1}  alt="Digital Systems" /> 
+                        <p className="caption">Photo by Clint Adair on Unsplash</p>
+                    </div> 
             </div>
+            </section>
     
-            <div className="content-header flex-layout-center-center flex-layout-column margin-top-200 ">
+            <div className="content-header flex-layout-center-center flex-layout-column margin-top-100 ">
                 <div className="flex-layout-center-center title text-align-center content-block-60">
-                    Need Introduction Text Here. A Small story on finding solutions where others failed to see them. Unique Solutions  
+                What Is A Design System? 
                 </div>
-                <div className="content-block-55 margin-top-50">
-                    <p className="content-text-24 text-align-center">WDS discovers the patterns and themes that provide actionable, deeper and more valuable perspectives on your customers' wants, needs and motivations.</p>
-                    <p className="content-text-24 text-align-center">The most meaningful insights for experience strategy are developed with behavior-based understanding of users. Our experience strategists observe people in context - where they work, play or live - to understand their goals, needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve..</p>
+                <div className="content-block-55">
+                    <p className="content-text-24 text-align-center">A Design System is the complete set of design standards, documentation, and principles along with UI patterns and components to achieve those standards.</p>
                 </div>
             </div>
+
             <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">
                 
-                <div className="flex-layout-section thin-hr margin-top-200 margin-bottom-100" style={{ width: '75%' }}></div>
+                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
-                <div className="grid-2col-photo-content content-header">
+                <section className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title">
-                            ESTABLISH BUSINESS CONTEXT
+                            Less Errors
                         </div>
                         <div className="subtitle">
-                            Defining the Challenge
+                            Saving time
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-25">
                             <p className="content-text-18"> 
-                            At the beginning of an engagement, we set the foundation for success by developing an understanding of the business, the industry, the competition and relevant trends. This becomes the basis for how we approach all subsequent phases. Along with secondary research, we interview stakeholders and subject matter experts, both to gain a first-hand awareness of the company context, and also to build connections within the business which contribute to stakeholder alignment throughout the engagement. This activity begins to define hypotheses for where the company intends to play in the market, who it intends to serve and how it plans to serve them.</p>
+                            Another benefit of using prebuilt and standardized component is less errors. Because you’re copying from a master version, there’s no chance of making a mistake. As long as the components in your design system are accurate, their use in your products will be accurate.
+This is especially good news for developers, who have all the code snippets they need right at their fingertips.</p>
                         </div>
                     </div>
-                    <div className="grid-right container-image-block">
-                        <img className="photo-container" src={finding}  alt="Stakeholder Interview" /> 
+                    <div className="2col-photo grid-placeself-center">
+                        <img className="photo-container width-100" src={digital_systems2}  alt="Digital Systems" /> 
+                        <p className="caption">Image by rawpixel from Pixabay </p>
                     </div>     
-                </div>
+                </section>
 
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
-                <div className="grid-2col-photo-content content-header">
+                <section className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title">
-                            Field Observation and Interviews
+                        Consistency across the board
                         </div>
                         <div className="subtitle">
-                            Developing insights from observations
+                            Building familiarity
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-25">
                             <p className="content-text-18"> 
-                            Great strategies for software are built on rich insight. The most meaningful insights for experience strategy are developed with a deep, behavior-based understanding of users or customers. Our experience strategists observe people in context - where they work, play or live - to understand their goals, needs and aspirations as they go about their daily lives. If a product does not yet exist, this first-hand look helps to identify unmet needs that a product may solve.</p>
-
-                            <p className="content-text-18">
-                            Using techniques from the fields of anthropology, psychology, product development and design, we use methods such as “contextual inquiry” to observe and record a rich variety of data, including body language, how people interact with their tools and how they construct their environments to be successful in their worlds. The value here is seeing and finding unexpected elements which lead to surprising insights.</p>
-
-                            <p className="content-text-18">
-                            To get to the core of what they care about, we also open authentic dialogues with customers to hear the stories that define their experiences.</p>
+                            Consistency is vital to a user’s experience, but it can be hard to come by with multiple designers working separately. Design systems allow easy access to universal versions of design assets (and their rules) to keep everyone on the same page, and ensure components remain consistent from one page or section to another.
+That also holds true for different products. Brands looking to build their identity can use the exact same assets for all their products, giving everything a unified feel and rewarding loyal customers with familiar usability.</p>
                         </div>
                     </div>
-                    <div className="grid-right container-image-block">
-                        <img className="photo-container" src={finding_truth3}  alt="Stakeholder Interview" /> 
-                    </div>     
-                </div>
+                    <div className="2col-photo grid-placeself-center">
+                        <img className="photo-container width-100" src={digital_systems3}  alt="Digital Systems" /> 
+                        <p className="caption">Styleguide for OSIsoft </p>
+                    </div>      
+                </section>
 
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
 </div>
-                <div className="grid-2col-photo-content content-header">
+                <section className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title">
-                            CREATE A CUSTOMER PERSONA
+                        Enhanced collaboration
                         </div>
                         <div className="subtitle">
-                            Introducing the voices of the user
+                            What makes sense for the user
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-25">
-                            <p className="content-text-18"> Because specific targets are better than vague ones, we create personas - single archetypes that represent a group of people with similar behaviors, attitudes and motivations. Personas keep us focused on real people who exhibit unique sets of characteristics. These behavior-based personas assist us throughout ideation, design and marketing to help teams develop appropriate solutions and messages.</p>
-                            <p className="content-text-18">While personas are a popular technique used by many companies. Especially, to argue user cases.  WDS personas are far more robust than those created from market research data alone. Well-crafted personas grounded in user observations, developed around real users and not simple demographic data. Instead, they tell us about what drives segments to behave and believe as they do.</p>           
+                            <p className="content-text-18"> 
+                                During the initial creation of a design system — and its periodic updates — design systems get the right conversations started. Which logos go with different screen sizes? How do you want to handle the search function? What is the best accent color for call-to-action buttons? Simply setting out to make a design system forces your team to answer these questions, and make those answers easily accessible to everyone.</p>
+                            <p className="content-text-18">
+                                Having this kind of master reference guide also helps avoid miscommunication. By offering a definitive protocol and standards for otherwise ambiguous elements, design systems keep everyone on the same page. No guesswork, assumptions, or “going rogue.”Design systems also do wonders for sometimes-problematic dev handoffs. Because technical specs are embedded in the document, there’s less confusion about how to build something in the backend, or whether it can be built at all. Designs systems give designers and developers a shared language.</p>           
+                        </div></div>
+                        <div className="2col-photo grid-placeself-center">
+                            <img className="photo-container width-100" src={digital_systems4}  alt="Digital Systems" /> 
+                            <p className="caption">Photo by Aubrey Rose Odom on Unsplash </p>
                         </div>
-                    </div>
-                    <div className="grid-right container-image-block">
-                        <img className="photo-container" src={finding_truth4}  alt="Your Business is Our Joy" /> 
-                    </div>     
-                </div>
+                </section>
 
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
-                <div className="grid-2col-photo-content content-header">
+                <section className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full ">
                         <div className="title">
-                            VISUALIZE THE EXPERIENCE TOUCHPOINTS
+                        No version control problems
                         </div>
                         <div className="subtitle">
-                            The User Journey
+                            All the versions available
                         </div>
+                        <div className="content-block-75 content-text-18 margin-top-15">
+                            <p className="content-text-18"> It’s understood that the design system is the official document: every time a change needs to be made, it’s made there. Whenever a bug gets fixed or a new design component is introduced, it’s recorded into the design system so that the next person to use it stays up-to-date automatically. We like to call it a “living document” because it’s always updating.<br></br>
+                            This format of using only one, agreed-upon master document also ensures that every update gets made to the same file. You never have to merge multiple files that were updated independently of each other by different team members. Whenever you pull from the design system, you know you’re always using the most recent version. This significantly reduces the margin for error.</p>   
+                        </div>
+                    </div>
                     <div className="content-block-75 content-text-18 margin-top-15">
-                        <p className="content-text-18"> Data is only as valuable as the meaning we craft
-                            from it. We have tried-and-true methods for moving
-                            from observations to insights. These meaningful
-                            insights are the next building block in the process of
-                            building an experience strategy.</p>
-
-                        <p className="content-text-18"> We take a comprehensive, rigorous approach to
-                            process data from the field and use it to spark
-                            explanations of what is behind the observations.
-                            Getting to the deeper understanding that insights
-                            provide beyond the raw data is a key step that sets
-                            professionals apart from amateurs.</p>   
-                    </div>
-                    </div>
-                    <div className="grid-right container-image-block">
-                        <img className="photo-container" src={finding_truth5}  alt="Your Business is Our Joy" /> 
-                    </div>     
-                </div>
+                        <div className="title">
+                        Data-driven UX
+                        </div>
+                        <div className="subtitle">
+                        Style guide  -	CSS, HTML, React, SaaS, VS
+                        </div>
+                            <p className="content-text-18">So much of UX design depends on customer feedback. Different customer groups have different tastes and preferences, and they can be hard to keep track of, especially if your company is targeting more than one group.<br></br>
+                            We set design  standards for a design foundation. We have assimilated design with software development by fostering empathy for the engineers who create software. Asking questions and learning the language helped us bridge the gap between the customer and developer.<br></br>
+                            Design systems help keep your UX data organized by optimizing patterns. Update the design system and every designer knows it’s the new norm going forward.
+                            </p>   
+                        </div>     
+                </section>
   
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
                 <div className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="subtitle">
-                            DIAGRAM WORK ACROSS ROLES
+                        Pattern Library
                         </div>
                         <div className="subtitle">
-                            Understanding the Cognitive State of the Users
+                            Design system layouts
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-25">
                             <p className="content-text-18"> 
-                            When an engagement centers on a complex tool for the enterprise, the Consolidated Workflow Diagram captures activity across organizational roles and provides stakeholders a single view of all of the work accomplished in and around a tool. This diagram gives stakeholders an “aha!” moment as, for the first time, they have a picture of the duties employees or customers accomplish in their work lives. </p> 
-
-                            <p className="content-text-18"> 
-                            Through the use of a Consolidated Workflow Diagram, we see how a user moves through tasks and we extrapolate from here to the various cognitive states a user inhabits while engaged with the solution or process.
-                            These cognitive states represent a model of what is in people’s minds as they do their work: their mental model. This understanding has implications for both design and marketing.</p>
-
-                            <p className="content-text-18"> 
-                            The cognitive states can help to inform the interface for a new way to navigate and complete tasks in a software tool. By aligning with how people think about their work, we produce tools that feel intuitive and easy to use. This understanding also provides an input to marketing, providing marketers with key information for creating a communication plan that resonates with customers. </p>
+                            A subclass in the design system, this is the set of design patterns for use across a company. </p>
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={finding_truth6}  alt="Stakeholder Interview" /> 
+                        <img className="photo-container border-2" src={digital_systems7}  alt="Digital Systems" /> 
                     </div>     
                 </div>
 
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
-                    <div className="grid-2col-photo-content content-header">
+                    <div className="grid-2col-photo-content content-header margin-bottom-100">
                     <div className="grid-left flex-layout-section-full ">
-                        <div className="subtitle">
-                            Develop Frameworks                        
+                        <div className="title">
+                            Style Guides                        
                         </div>
                         <div className="subtitle">
-                            Principles for Experience Strategy
+                            An excellent tool for standards
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-25">
-                            <p className="content-text-18"> A solid experience strategy provides a decision-making framework to drive customer-centered initiatives across the company. After the investment in deep customer understanding, the results can be shared among many departments to increase their value to the company.
-                            The framework is a set of principles or questions that guide the development of ideas for solutions as well as the subsequent work performed by multiple teams in developing and marketing those solutions: architects, marketers, designers, branders, etc. This decision-making framework is valuable because it puts to work the understanding of the needs and concerns of the customer group, captured in the field observations. It persists beyond a specific project, providing value long after an engagement.</p>
+                            <p className="content-text-18">  Another subclass in the design system, this static documentation describes the design system itself: how products should look and feel, use cases for UI patterns, correct typographic scales, etc.</p>
                         </div>
                     </div>
-                    <div className="grid-right-photo">
-                        <div className="subtitle">
-                            Design and Evaluate                        
-                        </div>
-                        <div className="subtitle">
-                            Envision, Prioritize and Rank Opportunity Concepts
-                        </div>
-                        <div className="content-block-75 content-text-18 margin-top-25">
-                            <p className="content-text-18"> 
-                            A key value that an experience strategy delivers 
-                            is a set of new ideas for serving customers. The information distilled from the previous techniques and the company’s strategic requirements comes together in an Opportunities Matrix that clearly lays out a set of options for improving the experience of the user base to increase their engagement and satisfaction. </p>
-
-                            <p className="content-text-18">
-                            To generate the ideas, WDS teams collaborate with product and executive teams to brainstorm concepts for innovation and improvement. Together, the combined team prioritizes the opportunities based on the difficulty of implementation, the feasibility for the business to deliver and the impact that each solution concept may have on users.</p>
-                        </div>
+                    <div className="grid-right container-image-block">
+                        <img className="photo-container width-100 border-2" src={digital_systems6}  alt="Digital Systems" /> 
                     </div>     
-                </div>
-
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
-</div>
-                <div className="grid-2col-photo-content content-header">
-                    <div className="grid-left flex-layout-section-full">
-                        <div className="title">
-                            Establish an Experience-DRIVEN PRODUCT ROADMAP
-                        </div>
-                        <div className="subtitle">
-                            A Way Forward, with Customers in Mind
-                        </div>
-                        <div className="content-block-75 content-text-18 margin-top-25">
-                            <p className="content-text-18"> 
-                            Experience-Driven Product Roadmaps give the needs of customers a seat at the table, helping to ensure that what is released is what customers will value. We collaborate with product teams to incorporate the understanding and strategy developed in the Revealing Reality phase into the plan for how to group and sequence capabilities in an application. This includes the selection of features for the minimum viable product – an MVP that users and customers will be eager to adopt because it is developed with their needs in mind.</p>
-                            
-                            <p className="content-text-18"> 
-                            An Experience-Driven Product Roadmap provides a way forward to head in the direction established by the experience strategy. Having deep user understanding enables the cadence of releases to be structured to appeal to users, providing a built-in incentive to update an application. This is how we build a holistic experience that addresses customers’ and business’ goals and positively impacts the company’s value.</p>    
-                        </div>
-                    </div>
-                    <div className="grid-right container-image-block">
-                        <img className="photo-container" src={finding_truth7}  alt="Review" /> 
-                    </div>
-                </div>
-                    
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
-</div>
-                <div className="grid-2col-photo-content content-header margin-bottom-100">
-                    <div className="grid-left flex-layout-section-full">
-                        <div className="title">
-                            START EARLY AND ESTABLISH YOUR PROJECT PLAN                       
-                        </div>
-                        <div className="subtitle margin-top-25">
-                            Identify How to Drive Engagement with the Solutions
-                        </div>
-                        <div className="content-block-75 content-text-18 margin-top-25">
-                            <p className="content-text-18"> 
-                            The Revealing Reality phase is an investment in understanding how to create an experience that resonates with customers. One dividend of the investment is that these insights can now feed directly into the strategy for enabling customers to become aware of and engage with the planned experiences, and the organization as a whole.</p>
-
-                            <p className="content-text-18"> 
-                            This plan uses experience insights, as well as market data, to determine the channels, content, messages and cadences that are right for specific personas at specific points in their journeys. This enables companies to build relationships with their customers that extend beyond transactions to build value. It ensures that great experiences find an audience in a world full of offerings. </p>
-                        </div>
-                    </div>
-                    <div className="grid-right container-image-block">
-                        <img className="photo-container" src={finding_truth8}  alt="Review" /> 
-                    </div>
-                </div>
-                <div className="container-grid-2col-full width-100 flex-layout-justified-sb border-3px bottom-border margin-top-100 yellow-bg "> 
-                <div className="item-a-nb content-block-50 flex-layout-column">
-                    <div className="content-block">
-                        <p className="callout-text"> Looking for a larger Agile Transformation Program? </p>
-                        <p className="callout-text">  WDS is the leader in applying design solutions, experience strategy and observational insights to the development of applications, websites, SaaS, products and mobile.</p> 
-                    </div>
-                </div>
-            <div className="item-b container-image-block">
-                <img className="flex-image-container" src={services}  alt="Your Business is Our Joy" /> 
+                </div>  
             </div>
-            </div>   
-                
-
-                </div>
-            </div>
+        </div>
         )
     }
 }
