@@ -88,7 +88,7 @@ class case_studies extends Component {
                                 </div>
                             </div>
                        </div>
-                            {/* <div className="flex-items-justified-center flex-layout-justified-sa flex-layout-column"> 
+                            <div className="flex-items-justified-center flex-layout-justified-sa flex-layout-column"> 
                                 <div className="card-case-studies content-header flex-layout-column">
                                     <div className="container-image-block">
                                         <img className="image-size-100" src={pfizer}  alt="motorola before and after" /> 
@@ -134,7 +134,7 @@ class case_studies extends Component {
                                    
                                 
                             </div> 
-                        </div>  */}
+                        </div> 
                 </section>
             <div className="flex-layout-section-full flex-layout-column align-items-center margin-top-50">
 
