@@ -29,7 +29,7 @@ class digital_design extends Component {
                     "Good design is good business." - Thomas Watson Jr.,second president of IBM
                 </div>
             </section>
-            <section className="flex-layout-section-full photo-content-color border-bottom-5 align-items-center" style={{height:'670px'}}> 
+            <section className="flex-layout-section-full photo-content-color align-items-center" style={{height:'670px'}}> 
                 <div className=" grid-2col-text-photo align-items-center margin-tb-100 width-70">
                 <div className="content-block 2col-text">
                     <div className="callout-text text-align-left text-white">Digital design keeps up with technology, visually communicating with the world in a truly powerful way </div>         
@@ -101,7 +101,7 @@ class digital_design extends Component {
               
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
-                <div className="grid-gallery grid-gap-20 content-header margin-bottom-50 width-70">
+                <section className="grid-gallery grid-gap-20 content-header margin-bottom-50 width-70">
                     <div className="gallery-1 container-image-dd align-self-end">
                         <img className="container-image-dd" src={digital_design3}  alt="World Team Tennis" /> 
                         <p className="content-block-auto ">
@@ -142,7 +142,8 @@ class digital_design extends Component {
                         Data Visualization
                         </p> 
                     </div> 
-                </div>
+                </section>
+                
                 <div className="container-grid-2col-full width-100 flex-layout-justified-sb border-3px bottom-border margin-top-100 yellow-bg "> 
                 <div className="item-a-nb content-block-50 flex-layout-column">
                     <div className="content-block">
