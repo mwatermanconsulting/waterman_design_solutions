@@ -45,8 +45,13 @@ class design_solutions extends Component {
             </div>
 
             <div className="flex-layout-section-full align-items-center" >
-                <div className="content-header flex-layout-column">    
-                        <p className="title padding-50 text-align-center">Poorly designed and hard to use apps, websites, and products are unacceptable. The ones that are paying attention to their customers are the ones that will survive.
+                <div className="content-header flex-layout-column"> 
+                    <p className="title text-align-center">
+                        Design is always the difference
+                    </p>   
+                        <p className="subtitle padding-50 text-align-center">
+                        The success of a business is all about its customers. And a customer's impression of your business comes down to each interaction they have with you. When well-designed, each interaction is "intuitive, simple, and friendly," This translates into a better customer experience, higher customer loyalty, and a higher LTV of each customer.
+
                         </p>
                 </div>
             </div>
