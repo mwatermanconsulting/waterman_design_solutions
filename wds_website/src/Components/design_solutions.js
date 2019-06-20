@@ -51,7 +51,6 @@ class design_solutions extends Component {
                     </p>   
                         <p className="subtitle padding-50 text-align-center">
                         The success of a business is all about its customers. And a customer's impression of your business comes down to each interaction they have with you. When well-designed, each interaction is "intuitive, simple, and friendly," This translates into a better customer experience, higher customer loyalty, and a higher LTV of each customer.
-
                         </p>
                 </div>
             </div>
@@ -63,9 +62,8 @@ class design_solutions extends Component {
                     <div className="2col-text grid-placeself-center width-70 margin-left-75">
                             <p className="content-header "> Design System</p>
                             <p className="content-text-24 padding-10">Harnessing the power of observation-based insights and leveraging your users' wants, needs, and emotional connection points, we develop solutions that go beyond best practices. We then take those solutions back to your users and get meaningful, individual feedback. This is the primary foundation that successfully supports your product or service.
-
-
-Learn More</p>
+                        
+                            Learn More</p>
                     </div>
                     <div className="2col-photo width-70 grid-placeself-center">
                               <img src={designs2} alt="Case Study Image 2"/> 
@@ -84,26 +82,20 @@ Learn More</p>
                             <p className="content-header "> UI Design</p>
                             <p className="content-text-24 padding-10">CONSISTENCY DRIVES YOUR POWERFUL MESSAGE Brand-building services guide you through the process of discovery, definition, development and communication. The strategic development of brand guidelines, including typography, brand color scheme, and photography guidelines must reside on the foundation of a clear vision and mission.
 
-
-Learn More
-
-
-Learn More</p>
+                            Learn More</p>
                     </div>
-                    
                 </div>
             </div>
 
             <div className="thin-hr width-70 align-self-center margin-top-100"></div>
               
-
             <div className="flex-layout-section-full align-items-center margin-top-50 " >
                 <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 ">
                     <div className="2col-text grid-placeself-center width-70 margin-left-75">
                             <p className="content-header "> Marketing</p>
                             <p className="content-text-24 padding-10">An experience strategy provides the direction to design and build an experience that truly resonates with your audience. Harnessing the power of observation-based insights and leveraging your users' wants, needs, and emotional connection points, we develop solutions that go beyond best practices.  We then take those solutions back to your users and get meaningful, individual feedback.  This is the primary foundation that successfully supports your product or service.
 
-Learn More</p>
+                            Learn More</p>
                     </div>
                     <div className="2col-photo width-70 grid-placeself-center">
                               <img src={designs4} alt="Case Study Image 2"/> 
