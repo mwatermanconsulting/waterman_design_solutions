@@ -22,11 +22,11 @@ class video_production extends Component {
             </div>
             <section className="flex-layout-section-full photo-content-color align-items-center" style={{height:'670px'}}> 
                 <div className=" grid-2col-text-photo align-items-center margin-tb-100 width-70">
-                <div className="content-block 2col-text">
+                <div className="content-block  col2-text ">
                     <div className="callout-text text-align-left text-white">Video can tell a story in a way that is unmatched by any other media. It is what your users relate to the most.</div>
                              
                 </div>
-                <div className="2col-photo width-100 grid-placeself-center">
+                <div className="col2-photo width-100 grid-placeself-center">
                     <img className="container-photo-callout" src={video_s1}  alt="Video" /> 
                 </div>
                 </div>
@@ -49,7 +49,7 @@ class video_production extends Component {
                             Video is one of the most versatile and profitable digital marketing tools. It can lead directly to sales. Studies show that 74% of users watching explainer videos actually buy the product. It is one of the highest provider of a good return on investment.</p>
                         </div>
                     </div>
-                    <div className="2col-photo grid-placeself-center">
+                    <div className="col2-photo grid-placeself-center">
                         <img className="photo-container" src={video_s2}  alt="Video Content" /> 
                         <p className="caption">Image by Bruno Glätsch from Pixabay </p>
                     </div>     
@@ -70,7 +70,7 @@ class video_production extends Component {
                             Most people are put off by videos that don’t explain the product clearly enough. In order to build trust with your user base, it needs to provide useful and interesting information. </p>
                         </div>
                     </div>
-                    <div className="2col-photo grid-placeself-center">
+                    <div className="col2-photo grid-placeself-center">
                         <img className="photo-container" src={video_s3}  alt="Video Content" /> 
                         <p className="caption">Photo by Perry Grone on Unsplash</p>
                     </div>     
@@ -91,7 +91,7 @@ class video_production extends Component {
 Effective marketing videos have a conversational tone. It creates an individual approach and more confidence to buy online.</p>           
                         </div>
                     </div>
-                    <div className="2col-photo grid-placeself-center">
+                    <div className="col2-photo grid-placeself-center">
                         <img className="photo-container" src={video_s4}  alt="Video Content" /> 
                         <p className="caption">Photo by Form on Unsplash</p>
                     </div>      

@@ -24,10 +24,10 @@ class style_guide extends Component {
             </div>
             <section className="flex-layout-section-full photo-content-color align-items-center" style={{height:'670px'}}> 
                 <div className=" grid-2col-text-photo align-items-center margin-tb-100 width-70">
-                <div className="content-block 2col-text">
+                <div className="content-block col2-text ">
                     <div className="callout-text text-align-left text-white">By directly observing people, and going through your own research, we can empathize with their pain points, discovering solutions, simplfying life and connecting with them on an emotional level. We create truth that was unknown until now, using this knowledge to create better decisions based on users, not assumptions. </div>
                 </div>
-                    <div className="2col-photo grid-placeself-center">
+                    <div className="col2-photo grid-placeself-center">
                         <img className="container-photo-callout" src={digital_systems1}  alt="Digital Systems" /> 
                         <p className="caption">Photo by Clint Adair on Unsplash</p>
                     </div> 
@@ -61,7 +61,7 @@ class style_guide extends Component {
 This is especially good news for developers, who have all the code snippets they need right at their fingertips.</p>
                         </div>
                     </div>
-                    <div className="2col-photo grid-placeself-center">
+                    <div className="col2-photo grid-placeself-center">
                         <img className="photo-container width-100" src={digital_systems2}  alt="Digital Systems" /> 
                         <p className="caption">Image by rawpixel from Pixabay </p>
                     </div>     
@@ -83,7 +83,7 @@ This is especially good news for developers, who have all the code snippets they
 That also holds true for different products. Brands looking to build their identity can use the exact same assets for all their products, giving everything a unified feel and rewarding loyal customers with familiar usability.</p>
                         </div>
                     </div>
-                    <div className="2col-photo grid-placeself-center">
+                    <div className="col2-photo grid-placeself-center">
                         <img className="photo-container width-100" src={digital_systems3}  alt="Digital Systems" /> 
                         <p className="caption">Styleguide for OSIsoft </p>
                     </div>      
@@ -105,7 +105,7 @@ That also holds true for different products. Brands looking to build their ident
                             <p className="content-text-18">
                                 Having this kind of master reference guide also helps avoid miscommunication. By offering a definitive protocol and standards for otherwise ambiguous elements, design systems keep everyone on the same page. No guesswork, assumptions, or “going rogue.”Design systems also do wonders for sometimes-problematic dev handoffs. Because technical specs are embedded in the document, there’s less confusion about how to build something in the backend, or whether it can be built at all. Designs systems give designers and developers a shared language.</p>           
                         </div></div>
-                        <div className="2col-photo grid-placeself-center">
+                        <div className="col2-photo grid-placeself-center">
                             <img className="photo-container width-100" src={digital_systems4}  alt="Digital Systems" /> 
                             <p className="caption">Photo by Aubrey Rose Odom on Unsplash </p>
                         </div>

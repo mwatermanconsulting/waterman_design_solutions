@@ -35,14 +35,14 @@ class why_wds extends Component {
                     </div>
                 </section>
                 <section className="flex-layout-section-full align-items-center" >
-                    <div className="grid-callout yellow-bg"> 
-                        <div className="grid-callout-text grid-placeself-center width-70">
+                    <div className="grid-callout yellow-bg "> 
+                        <div className="grid-callout-text grid-placeself-center padding width-70">
                             <p className="callout-text ">
                             The market will always disproportionately reward companies that truly stand out from the crowd.
                             Customers always look for the better experience. Meeting their expectations of intuitive, elegant and simple designs built around and for the user will earn their loyalty. This is the reason from startups to global brands that design always matters. </p>
                         </div>
                         <div className="grid-callout-photo grid-placeself-center">
-                            <img className="flex-image-container" src={whys1}  alt="Customer Service" /> 
+                            <img className="flex-image-container width-100" src={whys1}  alt="Customer Service" /> 
                         </div>
                     </div>
                 </section>
@@ -55,10 +55,10 @@ class why_wds extends Component {
                 </section>
                 <section className="flex-layout-section-full align-items-center" >
                     <div className="grid-2col-text-photo width-70 margin-top-100 ">
-                        <div className="2col-photo width-100 grid-placeself-center">
-                            <img src={whys2} alt="Case Study Image 2"/> 
+                        <div className="col2-photo width-100 grid-placeself-center">
+                            <img  src={whys2} className="width-100" alt="Case Study Image 2"/> 
                         </div>
-                    <div className="2col-text grid-placeself-center width-100">
+                    <div className="2col-text grid-placeself-center width-70">
                         <p className="content-header "> 
                             All about the User</p>
                         <p className="content-text-24 margin-top-15">  
@@ -77,8 +77,8 @@ class why_wds extends Component {
                         <p className="content-text-24 margin-top-15">
                             WDS has been successful helping business with design for close to 20 years. This has been our mantra understanding the importance of design and advocating design to every business we service. In the most recent study, Mckinly link here, companies that focus on the user and design have 30% increase in business compared to the same businesses that do not focus on design.</p>
                     </div>
-                    <div className="2col-photo width-100 grid-placeself-center">
-                        <img src={whys3} alt="Case Study Image 2"/> 
+                    <div className="col2-photo width-100 grid-placeself-center">
+                        <img src={whys3} className="width-100" alt="Case Study Image 2"/> 
                     </div>
                 </div>
             </section>
@@ -95,13 +95,13 @@ class why_wds extends Component {
                         <p className="content-text-18 padding-10">  
                             about user experiences. Our experience of providing design solutions has given us a successful track record.</p>
                     </div>
-                <div className="2col-photo width-70 grid-placeself-center">
-                        <img src={why_design} className="border-3px" alt="Case Study Image 2"/> 
+                <div className="col2-photo width-70 grid-placeself-center">
+                        <img src={why_design} className="border-3px width-100" alt="Case Study Image 2"/> 
                 </div>
                 </div>
-                <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 ">
-                    <div className="2col-photo width-70 grid-placeself-center">
-                        <img src={why_business} className="border-3px" alt="Case Study Image 2"/> 
+                <div className="grid-2col-photo-text align-self-center width-70  margin-top-50 ">
+                    <div className="col2-photo width-70 grid-placeself-center">
+                        <img src={why_business} className="border-3px width-100" alt="Case Study Image 2"/> 
                     </div>
                     <div className="2col-text grid-placeself-center width-100 margin-left-75">
                         <p className="content-header "> 
@@ -121,8 +121,8 @@ class why_wds extends Component {
                         <p className="content-text-18 padding-10">
                             Enterprise design thinking improves teamwork, allowing members to work more efficiently.</p>
                     </div>
-                    <div className="2col-photo width-70 grid-placeself-center">
-                        <img src={why_enterprise} className="border-3px" alt="Case Study Image 2"/> 
+                    <div className="col2-photo width-70 grid-placeself-center">
+                        <img src={why_enterprise} className="border-3px width-100" alt="Case Study Image 2"/> 
                     </div>
                 </div>
             </section>
@@ -149,7 +149,7 @@ class why_wds extends Component {
                         We'll get there together
                     </div>
                     <div className="layout-center-justified ">
-                        <p className=" content-block-why margin-top-10">WDS can work with embedding employees within your teams as contract employees or work seperately, surreal has the experience and knowledge to  </p>
+                        <p className=" content-block-why margin-top-10">WDS can work with embedding employees within your teams as contract employees or work separately, WDS has the experience and knowledge to help guide you every step of the way if you need it.  </p>
                     </div>
                     </div> 
                     <div>
@@ -188,8 +188,8 @@ class why_wds extends Component {
 
                         </div>
                     </div>              
-                    <div className="2col-photo width-50 grid-placeself-center">
-                        <img className="flex-image-container" src={why_handshake}  alt="Your Business is Our Joy" /> 
+                    <div className="col2-photo width-50 grid-placeself-center">
+                        <img className="flex-image-container" src={why_handshake}  alt="Thank you WDS!" /> 
                         <p className="caption">Thank you WDS!</p>
                     </div>
                 </div>

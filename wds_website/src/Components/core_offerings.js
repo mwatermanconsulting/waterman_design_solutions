@@ -19,7 +19,7 @@ class core_offerings extends Component {
             </div>
             <div className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
                     <div className="item-a-nb content-block-60 content-header flex-layout-column">
-                    <div className="subtitle margin-top-15">
+                    <div className="callout margin-top-15">
                         The best customer experience starts with the Golden Rule—Treat customers how you would like to be treated
                     </div>
                         <div className="callout-text text-align-left text-white margin-top-15">
@@ -41,7 +41,31 @@ class core_offerings extends Component {
                 </div>
             </section>
                 <div className="flex-layout-section-full flex-layout-column padding flex-layout-center-center grey">
-                    <img className="flex-image-container" src={ux}  alt="Why WDS background" /> 
+                    <div className="title">In Context Case Study - UX Steering Team</div>
+                        <div className="subtitle text-white">Design Strategy</div>
+                        <p className="content-text-21 margin-top-25" style={{width:'85%'}}>
+                            WDS Observed design issues stemming from teams not communicating and software engineers designing in a silo. 
+                            </p>
+                        <p className="content-text-21 margin-top-15" style={{width:'85%'}}>Issue - 
+                            The project was for design and development of a data visualization tool. For the project the user would visit two other online portals. One being a login portal where the users sets preferences, which was being developed in Toronto and the second one was security and server settings, being developed in Tennessee. After critiquing the two portals WDS presented the design issues found to the stakeholders. We visually showed the consistently issues with colors, icons and workflows. This was the first time the stakeholders were shown a comparison of their applications side by side. We also show how the lack of requirements resulting in developers building non responsive web based SaaS applications. 
+
+                        </p>
+
+                        <p className="content-text-21 margin-top-15" style={{width:'85%'}}>Strategy-
+
+                            Creation of the UX Steering team. In response to the issues the best strategy was to create a design support team within the company. The goal of this team was to set a list of design standards and to have monthly meeting occuring one week into a scrum cycle. The meetings would give a voice to the software engineers to talk to other teams communicating design and coding strategies and providing guidance and support. Sharing what each team was working on and to overall take away that feeling of working and designing alone.
+
+
+                        </p>
+
+                        <p className="content-text-21 margin-top-15" style={{width:'85%'}}>Results-
+
+                            The UX Steering was a unique strategy for a common problem. It helped with communication issues and provided a forum to talk about design and the user within the company. It also provided a roadmap to product consistency. WDS also provided CSS Solutions helper and global classes, responsive HTML templates to the Steering team. WDS also developed workshops for CSS, SASS and Responsive development. WDS moved on to the creation and development of the company Style Guides and Design System to support the long time strategy vision of UX Steering team higher goal of product consistency.
+
+
+
+                        </p>
+
             `   </div>
             <div className="container-grid-3col flex-layout-center-center margin-top-100" style={{marginLeft: '15%'}}>
                 <div className="content-block-75">

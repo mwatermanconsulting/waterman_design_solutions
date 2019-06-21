@@ -59,13 +59,13 @@ class design_solutions extends Component {
 
             <div className="flex-layout-section-full align-items-center margin-top-50 " >
                 <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 ">
-                    <div className="2col-text grid-placeself-center width-70 margin-left-75">
+                    <div className=" col2-text  grid-placeself-center width-70 margin-left-75">
                             <p className="content-header "> Design System</p>
                             <p className="content-text-24 padding-10">Harnessing the power of observation-based insights and leveraging your users' wants, needs, and emotional connection points, we develop solutions that go beyond best practices. We then take those solutions back to your users and get meaningful, individual feedback. This is the primary foundation that successfully supports your product or service.
                         
                             Learn More</p>
                     </div>
-                    <div className="2col-photo width-70 grid-placeself-center">
+                    <div className="col2-photo width-70 grid-placeself-center">
                               <img src={designs2} alt="Case Study Image 2"/> 
                     </div>
                 </div>
@@ -75,10 +75,10 @@ class design_solutions extends Component {
 
             <div className="flex-layout-section-full align-items-center margin-top-50 " >
                 <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 ">
-                    <div className="2col-photo width-70 grid-placeself-center">
+                    <div className="col2-photo width-70 grid-placeself-center">
                               <img src={designs3} alt="Case Study Image 2"/> 
                     </div>
-                    <div className="2col-text grid-placeself-center width-70 margin-left-75">
+                    <div className="col2-text  grid-placeself-center width-70 margin-left-75">
                             <p className="content-header "> UI Design</p>
                             <p className="content-text-24 padding-10">CONSISTENCY DRIVES YOUR POWERFUL MESSAGE Brand-building services guide you through the process of discovery, definition, development and communication. The strategic development of brand guidelines, including typography, brand color scheme, and photography guidelines must reside on the foundation of a clear vision and mission.
 
@@ -91,13 +91,13 @@ class design_solutions extends Component {
               
             <div className="flex-layout-section-full align-items-center margin-top-50 " >
                 <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 ">
-                    <div className="2col-text grid-placeself-center width-70 margin-left-75">
+                    <div className="col2-text  grid-placeself-center width-70 margin-left-75">
                             <p className="content-header "> Marketing</p>
                             <p className="content-text-24 padding-10">An experience strategy provides the direction to design and build an experience that truly resonates with your audience. Harnessing the power of observation-based insights and leveraging your users' wants, needs, and emotional connection points, we develop solutions that go beyond best practices.  We then take those solutions back to your users and get meaningful, individual feedback.  This is the primary foundation that successfully supports your product or service.
 
                             Learn More</p>
                     </div>
-                    <div className="2col-photo width-70 grid-placeself-center">
+                    <div className="col2-photo width-70 grid-placeself-center">
                               <img src={designs4} alt="Case Study Image 2"/> 
                     </div>
                 </div>
@@ -107,10 +107,10 @@ class design_solutions extends Component {
 
             <div className="flex-layout-section-full align-items-center margin-top-50 " >
                 <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 ">
-                    <div className="2col-photo width-70 grid-placeself-center">
+                    <div className="col2-photo width-70 grid-placeself-center">
                               <img src={designs5} alt="Case Study Image 2"/> 
                     </div>
-                    <div className="2col-text grid-placeself-center width-70 margin-left-75">
+                    <div className="col2-text  grid-placeself-center width-70 margin-left-75">
                             <p className="content-header "> Branding</p>
                             <p className="content-text-24 padding-10">An experience strategy provides the direction to design and build an experience that truly resonates with your audience.
 Harnessing the power of observation-based insights and leveraging your users' wants, needs, and emotional connection points, we develop solutions that go beyond best practices. 
@@ -127,13 +127,13 @@ Learn More</p>
 
             <div className="flex-layout-section-full align-items-center margin-top-50 " >
                 <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 ">
-                    <div className="2col-text grid-placeself-center width-70 margin-left-75">
+                    <div className="col2-text  grid-placeself-center width-70 margin-left-75">
                             <p className="content-header "> Print Design</p>
                             <p className="content-text-24 padding-10">An experience strategy provides the direction to design and build an experience that truly resonates with your audience. Harnessing the power of observation-based insights and leveraging your users' wants, needs, and emotional connection points, we develop solutions that go beyond best practices.  We then take those solutions back to your users and get meaningful, individual feedback.  This is the primary foundation that successfully supports your product or service.
 
 Learn More</p>
                     </div>
-                    <div className="2col-photo width-70 grid-placeself-center">
+                    <div className="col2-photo width-70 grid-placeself-center">
                               <img src={design_print} alt="Case Study Image 2"/> 
                     </div>
                 </div>
@@ -143,10 +143,10 @@ Learn More</p>
 
             <div className="flex-layout-section-full align-items-center margin-top-50 " >
                 <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 ">
-                    <div className="2col-photo width-70 grid-placeself-center">
+                    <div className="col2-photo width-70 grid-placeself-center">
                               <img src={design_video} alt="Case Study Image 2"/> 
                     </div>
-                    <div className="2col-text grid-placeself-center width-70 margin-left-75">
+                    <div className="col2-text  grid-placeself-center width-70 margin-left-75">
                             <p className="content-header "> Video</p>
                             <p className="content-text-24 padding-10">An experience strategy provides the direction to design and build an experience that truly resonates with your audience. Harnessing the power of observation-based insights and leveraging your users' wants, needs, and emotional connection points, we develop solutions that go beyond best practices. 
                             We then take those solutions back to your users and get meaningful, individual feedback. 
@@ -162,7 +162,7 @@ Learn More</p>
 
             <div className="flex-layout-section-full align-items-center">
                 <div className="grid-2col-text width-70 margin-top-50 flex-section-align-center">
-                        <div className="2col-text content-header flex-layout-column">
+                        <div className="col2-text  content-header flex-layout-column">
                         <p className="subtitle">Digital design</p>
                         <div className="content-block-75">
                             <p className="content-text-24">
@@ -177,7 +177,7 @@ Learn More</p>
                             <p><a href="./core_offerings" target="_blank">Learn More...</a></p>
                         </div>
                     </div>
-                    <div className="2col-text content-header flex-layout-column">
+                    <div className="col2-text  content-header flex-layout-column">
                         <p className="subtitle">UI Design</p>
                             <div className="content-block-75">
                             <p className="content-text-24">
@@ -192,7 +192,7 @@ Learn More</p>
                             </p>
                             </div>
                     </div>
-                    <div className="2col-text content-header flex-layout-column">
+                    <div className="col2-text  content-header flex-layout-column">
                         <p className="subtitle">Marketing</p>
                         <div className="content-block-75">
                             <p className="content-text-24">
@@ -205,7 +205,7 @@ Learn More</p>
                             </p>
                         </div>
                     </div>
-                    <div className="2col-text flex-layout-column">
+                    <div className="col2-text  flex-layout-column">
                         <p className="subtitle">Branding</p>
                         <div className="content-block-75">
                             <p className="content-text-24">
@@ -217,7 +217,7 @@ Learn More</p>
                             </p>
                         </div>
                     </div>
-                    <div className="2col-text content-header flex-layout-column">
+                    <div className="col2-text  content-header flex-layout-column">
                         <p className="subtitle">Print</p>
                         <div className="content-block-75">
                             <p className="content-text-24">
@@ -229,7 +229,7 @@ Learn More</p>
                             </p>
                         </div>
                     </div>
-                    <div className="2col-text content-header flex-layout-column">
+                    <div className="col2-text  content-header flex-layout-column">
                         <p className="subtitle">Video</p>
                             <div className="content-block-75">
                             <p className="content-text-24">
@@ -247,7 +247,7 @@ Learn More</p>
             
             <div className="flex-layout-section-full align-items-center yellow-bg border-top-5">
                 <div className="grid-2col-text-photo align-self-center width-100  margin-top-50 margin-bottom-50 " > 
-                <div className="2col-text grid-placeself-center width-70 margin-left-75">
+                <div className="col2-text  grid-placeself-center width-70 margin-left-75">
                     
                         <div className="content-block">
                             <p className="content-header"> We relieve the burden that programmers experience who don’t know how to design. </p>
@@ -255,7 +255,7 @@ Learn More</p>
                         </div>
 
                         
-                    <div className="2col-photo width-70 grid-placeself-center">
+                    <div className="col2-photo width-70 grid-placeself-center">
                         <img className="flex-image-container" src={design_therapy}  alt="Ux is the best therapy!" /> 
                     </div>
                     </div>

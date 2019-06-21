@@ -54,7 +54,7 @@ class case_studies extends Component {
                             </div>  
                             <div className="flex-card-content flex-layout-center-center flex-layout-row flex-layout-justified-sb">
                                 <p className="subtitle text-black">Motorola</p>
-                                <img className="" src={motorola_logo}  alt="motorola logo" /> 
+                                <img className="width-20" src={motorola_logo}  alt="motorola logo" /> 
                             </div>
                             <div className="flex-card-content">
                                 <div className="content-block">
@@ -68,7 +68,7 @@ class case_studies extends Component {
                         </div>
                         <div className="card-case-studies content-header flex-layout-column flex-sh-500 margin-top-100 margin-bottom-20">
                             <div className="container-image-block">
-                                <img className="image-size-100" src={stubhub}  alt="motorola before and after" /> 
+                                <img className="width-100" src={stubhub}  alt="motorola before and after" /> 
                             </div>
                             <div className="flex-layout-full" style={{marginTop:25}}>
                                 <div className="flex-card-content flex-layout-center-center flex-layout-row flex-layout-justified-sb">
@@ -150,10 +150,10 @@ class case_studies extends Component {
                 </div>
             </section>
             <section className="flex-layout-section-full width-100 margin-top-100  flex-layout-center-center">
-                <div className="content-text-24 margin-top-50" style={{width:'950px'}}>
+                <div className="content-text-24 margin-top-50 padding" >
                     We design simplicity across verticals and technologies, such as consumer, workplace, financial, healthcare, customer service, mobile development, and ecommerce.</div>
                 <div className="grid-2col-text width-70 margin-top-50 flex-section-align-center">
-                    <div className="2col-text content-header flex-layout-column">
+                    <div className="col2-text  content-header flex-layout-column">
                          <div className="subtitle">
                              Construction
                         </div>
@@ -248,7 +248,7 @@ class case_studies extends Component {
 
     <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
-            <div className="flex-layout-section-fixed flex-layout-center-center flex-wrap padding-bottom-150">
+            <div className="flex-layout-section-fixed flex-layout-center-center flex-wrap padding">
                             <img className="image-size-10 margin-left-15" src={stubhub_logo}  alt="Stubhub" />
                             <img className="image-size-10 margin-left-15" src={az}  alt="AstraZeneca" />  
                             <img className="image-size-20 margin-left-15" src={pfizer_logo}  alt="Pfizer" />  

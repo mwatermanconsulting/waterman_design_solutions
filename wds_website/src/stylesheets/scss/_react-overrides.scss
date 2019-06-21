@@ -13,6 +13,10 @@
 .mdl-layout__header-row {
     height: 100% !important;
 }
+.mdl-layout.has-scrolling-header .mdl-layout__content {
+    overflow-y: visible !important;
+    overflow-x: visible !important;
+}
 
 footer {
     background-color: #daa09a !important;
