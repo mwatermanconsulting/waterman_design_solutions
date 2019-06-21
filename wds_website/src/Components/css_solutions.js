@@ -155,16 +155,18 @@ class css_solutions extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="container-grid-2col-full width-100 flex-layout-justified-sb border-3px bottom-border margin-top-100 yellow-bg "> 
+        
+        <div className="container-grid-2col-full width-100 flex-layout-justified-sb border-3px bottom-border margin-top-100 yellow-bg "> 
                 <div className="item-a-nb content-block-50 flex-layout-column">
                     <div className="content-block">
                         <p className="callout-text"> Looking for CSS Support? </p>
                         <p className="callout-text"> We provide on-site consultancy and development work for companies and teams of all sizes.</p> 
                     </div>
                 </div>
-            <div className="item-b container-image-block">
-                <img className="flex-image-container" src={services}  alt="Your Business is Our Joy" /> 
-            </div>
+                <div className="col2-photo width-70 grid-placeself-center">
+                        <img className="flex-image-container" src={services}  alt="Thank you WDS!" /> 
+                        <p className="caption">Thank you WDS!</p>
+                    </div>
             </div>   
                 
 

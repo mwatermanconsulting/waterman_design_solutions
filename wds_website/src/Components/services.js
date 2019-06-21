@@ -18,13 +18,13 @@ class services extends Component {
             </section>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 red">
                 <div className="callout-text"> 
-                    Good design matters whether your company focuses on physical goods, digital products, services, or some combination of these.
+                    Good design matters whether your company focuses on physical goods, digital products, services, or a combination of these.
                 </div>
             </section>
             <section className="container-grid-2col-photo-services yellow-bg"> 
                 <div className="item-a-nb content-block-60 content-header flex-layout-column">
                     <p className="subtitle text-white">
-                        Empathic Designers are the Difference </p>
+                        Empathetic Designers are the Difference </p>
                     <p className="content-text-18">Our design approach requires solid customer insights gathered firsthand by observing        and—more importantly—uncovering the truth of the underlying needs of potential users in their own environments.
                     </p>     
                 </div>
@@ -37,7 +37,7 @@ class services extends Component {
                 <p className="title margin-top-100">
                     WDS Services covers all your design needs </p>
                 <p className="subtitle content-block-60 margin-top-25">
-                    Our Services are all-encompassing solutions for your business model and stems out to your website, customer experience,and, yes, the visual design of your products and collateral.</p>
+                    Our services are all-encompassing solutions for your business model and stems out to your website, customer experience,and the visual design of your products and marketing collateral.</p>
             </section>
 
             <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
@@ -114,9 +114,7 @@ class services extends Component {
                         </div>
                         
                         <div className="content-block-services" >
-                            <p className="content-text-18">  What is customer experience? </p>
-                            <p className="content-text-18">Customer experience (CX) is defined by interactions between a customer and an organization throughout their business relationship. An interaction can include awareness, discovery, cultivation, advocacy, purchases and service.</p>
-                            <p className="content-text-18">Customer experience is an integral part of Customer Relationship Management (CRM) and the reason why it’s important is because a customer who has a positive experience with a business is more likely to become a repeat and loyal customer.</p>
+                            <p className="content-text-18">WDS gathers knowledge for our clients to learn where best to invest their resources based on what people value.</p>
                             <p className="content-text-18"><a href="../strategy_insight">Learn More</a></p>     
                         </div>
                         
@@ -134,13 +132,7 @@ class services extends Component {
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-25">
                             <p className="content-text-18"> 
-                            An experience strategy provides the direction to design and build an experience that truly resonates with your audience.</p>
-                            <p className="content-text-18">
-                            Harnessing the power of observation-based insights and leveraging your users' wants, needs, and emotional connection points, we develop solutions that go beyond best practices. </p>
-                            <p className="content-text-18">
-                            We then take those solutions back to your users and get meaningful, individual feedback. </p>
-                            <p className="content-text-18">
-                            This is the primary foundation that successfully supports your product or service.</p>
+                            CSS development, CSS system implementation, mentoring and documentation, including best of practices is what we do best! A tool that sets the standards by how an app is designed.</p>
                                     
                             <p><i><a href="../css_solutions">Learn More</a></i></p>
                         </div>
@@ -158,9 +150,7 @@ class services extends Component {
                             Customer Experience
                         </div>
                         <div className="content-block-services" >
-                            <p className="content-text-18">  What is customer experience? </p>
-                            <p className="content-text-18">Customer experience (CX) is defined by interactions between a customer and an organization throughout their business relationship. An interaction can include awareness, discovery, cultivation, advocacy, purchases and service.</p>
-                            <p className="content-text-18">Customer experience is an integral part of Customer Relationship Management (CRM) and the reason why it’s important is because a customer who has a positive experience with a business is more likely to become a repeat and loyal customer.</p>
+                            <p className="content-text-18">  The best customer experience starts with the Golden Rule and how you communicate your product — why it exists, who it serves, how it benefits them.</p>
                             <p className="content-text-18"><a href="../core_offerings">Learn More</a> </p>     
                         </div>
                     </div>
@@ -207,7 +197,7 @@ class services extends Component {
                         Services Include</div>
                     <div className="grid-services-3">
                         <div className="subtitle">
-                            Strategy and Insights
+                            Strategy & Insights
                         </div>
                     <ul>
                         <li>Digital Transformation</li>
@@ -219,7 +209,6 @@ class services extends Component {
                         <li>Consolidated Workflow Diagrams</li>
                         <li>Design Thinking Mentoring</li>
                         <li>Communication Workshops</li>
-                        <li>Engagement Plans</li>
                               
                     </ul>  
                     </div>

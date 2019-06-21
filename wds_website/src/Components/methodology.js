@@ -1,5 +1,6 @@
 import React, { Component } from 'react' ;
 import method from '../images/backgrounds/bg-methodology.svg';
+import methodolgy_graphic from '../images/graphic-methodology.svg';
 import method1 from '../images/photos/photo-methodology-s2.png';
 
 
@@ -190,10 +191,12 @@ class practices extends Component {
                                                 and leverage opportunities for innovation and differentiation.</p>
                                 </div>
                         </div>
-                        <div className="flex-layout-column">
-                            <div className="container-image-block">
-                                <img className="flex-image-container" src  alt="Your Business is Our Joy" /> 
-                            </div>
+                        <div className="col2-photo width-70 grid-placeself-center">
+                <img className="flex-image-container" src={methodolgy_graphic}  alt="Design strategy can save your business" /> 
+                    <p className="caption">Does anyone care?"<br></br>"Design flourishes best in
+environments that encourage
+learning, testing, and iterating
+with users."</p>
                         </div>
                     </div>
                 </div>

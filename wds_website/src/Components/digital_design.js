@@ -31,10 +31,10 @@ class digital_design extends Component {
             </section>
             <section className="flex-layout-section-full photo-content-color align-items-center" style={{height:'670px'}}> 
                 <div className=" grid-2col-text-photo align-items-center margin-tb-100 width-70">
-                <div className="content-block 2col-text">
+                <div className="content-block col2-text ">
                     <div className="callout-text text-align-left text-white">Digital design keeps up with technology, visually communicating with the world in a truly powerful way </div>         
                 </div>
-                <div className="2col-photo width-100 grid-placeself-center">
+                <div className="col2-photo width-100 grid-placeself-center">
                     <img className="container-photo-callout" src={digital_design1}  alt="Digital Design" /> 
                 </div>
                 </div>

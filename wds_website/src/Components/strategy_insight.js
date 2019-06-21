@@ -1,6 +1,6 @@
 import React, { Component } from 'react' ;
 import strategy from '../images/backgrounds/bg-strategy.png';
-import services from '../images/graphic-services.svg';
+import strategy_graphic from '../images/graphic-strategy.svg';
 import together from '../images/photos/photo-why-wds.png';
 import strategy1 from '../images/photos/photo-strategy-s1.png';
 import strategy1a from '../images/photos/photo-strategy-s1a.png';
@@ -235,12 +235,12 @@ class strategy_insight extends Component {
                 <div className="container-grid-2col-full width-100 flex-layout-justified-sb border-3px bottom-border margin-top-100 yellow-bg "> 
                 <div className="item-a-nb content-block-why flex-layout-column">
                     <div className="content-block">
-                        <p className="callout-text"> Looking for a larger Agile Transformation Program? </p>
-                        <p className="callout-text">  WDS is the leader in applying design solutions, experience strategy and observational insights to the development of applications, websites, SaaS, products and mobile.</p> 
+                        <p className="callout-text"> "Pixar considers repeating the formulas of its past commercial successes a much greater threat to its long-term survival than the occasional commercial disappointment."<br></br>- The McKinsey Report</p> 
                     </div>
                 </div>
-            <div className="item-b container-image-block">
-                <img className="flex-image-container" src={services}  alt="Your Business is Our Joy" /> 
+            <div className="col2-photo width-70 grid-placeself-center">
+                <img className="flex-image-container" src={strategy_graphic}  alt="Design strategy can save your business" /> 
+                <p className="caption">Does anyone care?"</p>
             </div>
             </div>   
                 

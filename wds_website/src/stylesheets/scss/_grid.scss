@@ -317,18 +317,19 @@
     display: grid;
   }
   .grid-2col-photo-text {
-    grid-template-columns: auto 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: "photo text";
     grid-column-gap: 50px;
     display: grid;
   }
-  .4col-text {
+  
+  .col4-text {
     grid-area: text;
   }
-  .2col-text {
+  .col2-text {
     grid-area: text;
   }
-  .2col-photo {
+  .col2-photo {
     grid-area: photo;
   }
   .grid-callout {
