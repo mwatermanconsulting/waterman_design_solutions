@@ -46,7 +46,8 @@ class App extends Component {
                Why
               <ul>
                  <li> <a className="text-black" href="./why_wds">Why Waterman Design Solutions</a></li>
-                 <li><a className="text-black" href="./case_studies">Clients and Success Stories</a></li>
+                 <li><a className="text-black" href="./case_studies">Success Stories (Case Studies)</a></li>
+                 <li><a className="text-black" href="./clients">Clients</a></li>
                  <li><a className="text-black" href="./core_offerings">Core Offerings</a></li>
                  <li><a className="text-black" href="./history">History</a></li>
               </ul>
@@ -57,9 +58,9 @@ class App extends Component {
               <ul className="text-black">
               <li><a className="text-black" href="./services">Overview</a></li>
               <li><a className="text-black" href="./ux_design">UX Design </a></li>
-              <li><a className="text-black" href="./ux_design">UI Design</a></li>
+              <li><a className="text-black" href="./ui_design">UI Design</a></li>
               <li><a className="text-black" href="./css_solutions">CSS Solutions</a></li>
-              <li><a className="text-black" href="./strategy_insight">Strategy & Insight</a></li>
+              <li><a className="text-black" href="./strategy_insight">Strategy & Insights</a></li>
               <li><a className="text-black" href="./style_guide">Style Guides & Design Systems</a></li>
               
               </ul>
@@ -77,11 +78,9 @@ class App extends Component {
                 Design Solutions
               <ul>
               <li><a className="text-black" href="./design_solutions">Overview</a></li>
-              <li><a className="text-black" href="./branding">Branding</a></li>
               <li><a className="text-black" href="./digital_design">Website Design</a></li>
+               <li><a className="text-black" href="./print_design">Graphic Design</a></li>
               <li><a className="text-black" href="./marketing">Marketing</a></li>
-              <li><a className="text-black" href="./marketing_telementry">Marketing & Telemetry</a></li>
-              <li><a className="text-black" href="./print_design">Print Design</a></li>
               <li><a className="text-black" href="./video_production">Video</a></li>
               </ul>
           </div> 
