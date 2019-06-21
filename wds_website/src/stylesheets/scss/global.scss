@@ -84,6 +84,21 @@ li {
     list-style-type: none;
     }
 
+    ul.dashed {
+      list-style: none;
+      padding-left: 0;
+  }
+  
+  ul.dashed > li {
+      margin-left: 15px;  
+  }
+  
+  /* Prevent nested li's from getting messed up */
+  ul.dashed > li::before {
+      content: "-";
+      margin-left: -15px;
+  }
+
 h1 {
   font-family: 'Mouse Momoirs', sans-serif;
 }
