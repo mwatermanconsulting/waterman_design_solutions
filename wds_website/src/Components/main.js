@@ -14,7 +14,7 @@ import contact from './contact';
 import core_offerings from './core_offerings';
 import css_solutions from './css_solutions';
 import design_solutions from './design_solutions';
-import digital_design from './digital_design';
+import website_design from './website_design';
 import finding_truth from './finding_truth';
 import innovative_solutions from './innovative_solutions';
 import marketing from './marketing';
@@ -26,7 +26,7 @@ import print_design from './print_design';
 import project_management from './project_management';
 import Services from './services';
 import strategy_insight from './strategy_insight';
-import style_guide from './style_guide';
+import design_systems from './design_systems';
 import test_area from './test_area';
 import ui_design from './ui_design';
 import ux from './ux_design';
@@ -51,7 +51,7 @@ const Main = () => (
     <Route exact path="/core_offerings" component={core_offerings} /> 
     <Route exact path="/css_solutions" component={css_solutions} />
     <Route exact path="/design_solutions" component={design_solutions} />
-    <Route exact path="/digital_design" component={digital_design} />
+    <Route exact path="/website_design" component={website_design} />
     <Route exact path="/finding_truth" component={finding_truth} />
     <Route exact path="/innovative_solutions" component={innovative_solutions} />
     <Route exact path="/marketing" component={marketing} />
@@ -63,7 +63,7 @@ const Main = () => (
     <Route exact path="/project_management" component={project_management} />
     <Route exact path="/services" component={Services} />
     <Route exact path="/strategy_insight" component={strategy_insight} />
-    <Route exact path="/style_guide" component={style_guide} />
+    <Route exact path="/design_systems" component={design_systems} />
     <Route exact path="/test_area" component={test_area} />
     <Route exact path="/ux_design" component={ux} />
     <Route exact path="/ui_design" component={ui_design} />

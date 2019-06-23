@@ -21,21 +21,19 @@ class services extends Component {
                     Good design matters whether your company focuses on physical goods, digital products, services, or a combination of these.
                 </div>
             </section>
-            <section className="container-grid-2col-photo-services yellow-bg"> 
-                <div className="item-a-nb content-block-60 content-header flex-layout-column">
-                    <p className="subtitle text-white">
-                        Empathetic Designers are the Difference </p>
-                    <p className="content-text-18">Our design approach requires solid customer insights gathered firsthand by observing        and—more importantly—uncovering the truth of the underlying needs of potential users in their own environments.
+            <section className="grid-callout yellow-bg"> 
+                <div className="grid-callout-text grid-placeself-center width-70">
+                    <p className="callout-text">Introduce this section and explain to the user why they should read farther. Talk about our knowledge and experience across many different verticals on applications, websites, marketing materials and UX services. All our design solutions and services are with the user in mind and money in yor pocket. 
                     </p>     
                 </div>
-                <div className="item-b container-image-block">
-                    <img className="flex-image-container" src={together}  alt="Your Business is Our Joy" /> 
+                <div className="grid-callout-photo grid-placeself-center">
+                    <img className="flex-image-container width-100" src={together}  alt="Your Business is Our Joy" /> 
                 </div>
             </section>
         <main className="flex-layout-section-full flex-layout-center-center flex-layout-column margin-top-50">
             <section className="flex-layout-section-full flex-layout-column align-items-center">
                 <p className="title margin-top-100">
-                    WDS Services covers all your design needs </p>
+                    WDS Services Introduction </p>
                 <p className="subtitle content-block-60 margin-top-25">
                     Our services are all-encompassing solutions for your business model and stems out to your website, customer experience,and the visual design of your products and marketing collateral.</p>
             </section>
@@ -79,6 +77,8 @@ class services extends Component {
                             <img className="photo-container" src={services3}  alt="Your Business is Our Joy" /> 
                         </div>     
                 </section>
+
+
 
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
 </div>

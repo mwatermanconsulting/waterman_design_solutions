@@ -15,16 +15,54 @@ class App extends Component {
 
       <div className="container-grid">
         <Layout>
-            <Header className="header red text-white" title={<Link style={{textDecoration: 'none',
+            <Header className="header red text-white flex-layout-row" title={<Link style={{textDecoration: 'none',
             color: 'white'}} to="/"><img src={logo} height="65px" alt="header" /></Link>} scroll>
-                <Navigation className="text-white" style={{ color: 'white'}}>
-                    <Link to="/why_wds">Why WDS</Link>
-                    <Link to="/services">Services</Link>
-                    <Link to="/methodology">Methodology</Link>
-                    <Link to="/design_solutions">Design Solutions</Link>
-                    <Link to="/news_insights">News & Insights</Link>
-                    <Link to="/contact">Contact</Link>
-                </Navigation>
+            <ul style={{display:'flex'}}>
+            <li className="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">Why</a>
+              <div class="dropdown-content">
+                <a href="./why_wds">Why WDS</a>
+                <a href="./case_studies">Success Stories (Case Studies)</a>
+                <a href="./clients">Clients</a>
+                <a href="./core_offerings">Core Offerings</a>
+                <a href="./history">History</a>
+              </div>
+              </li>
+              <li class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">Services</a>
+              <div class="dropdown-content">
+                <a href="./services">Services Overview</a>
+                <a href="./ux_design">UX Design</a>
+                <a href="./ui_design">UI Design</a>
+                <a href="./services">CSS Solutions</a>
+                <a href="./strategy_insight">Strategy & Insight</a>
+                <a href="./style_guide">Design Systems</a>
+              </div>
+              </li>
+              <li class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">Methodology</a>
+              <div class="dropdown-content">
+                <a href="./methodology">Methodology Overview</a>
+                <a href="./finding_truth">Finding the Truth</a>
+                <a href="./innovative_solutions">Innovative Solutions</a>
+                <a href="./communication_insights">Communication Insights</a>
+              </div>
+              </li>
+              <li class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">Design Solutions</a>
+              <div class="dropdown-content">
+                <a href="./design_solutions">Design Solutions Overview</a>
+                <a href="./website_design">Website Design</a>
+                <a href="./innovative_solutions">Graphic Design</a>
+                <a href="./communication_insights">Social Media Marketing</a>
+                <a href="./video">Video Production</a>
+              </div>
+              </li>
+              <li class="dropdown">
+              <a href="./contact" class="dropbtn">Contact</a>
+              </li>
+
+          </ul>
             </Header>
             <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">
             Waterman Consulting</Link>}>
@@ -78,23 +116,14 @@ class App extends Component {
                 Design Solutions
               <ul>
               <li><a className="text-black" href="./design_solutions">Overview</a></li>
-              <li><a className="text-black" href="./digital_design">Website Design</a></li>
+              <li><a className="text-black" href="./website_design">Website Design</a></li>
                <li><a className="text-black" href="./print_design">Graphic Design</a></li>
               <li><a className="text-black" href="./marketing">Marketing</a></li>
               <li><a className="text-black" href="./video_production">Video</a></li>
               </ul>
           </div> 
-          <div className="grid-footer-item-5 subtitle text-white">
-                News and Insights
-              <ul>
-              <li><a className="text-black" href="./news_insights">Overview</a></li>
-              <li><a className="text-black" href="./">Blog</a></li>
-              <li><a className="text-black" href="./">News</a></li>
-              <li><a className="text-black" href="./test_area">Playground</a></li>
-              </ul>
-        </div>
           
-      <div className="grid-footer-item-6 subtitle text-white">
+            <div className="grid-footer-item-6 subtitle text-white">
                 Social Media Junk
               <ul>
               <li><a href="./news_insights">Overview</a></li>
