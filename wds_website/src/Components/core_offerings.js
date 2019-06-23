@@ -20,7 +20,7 @@ class core_offerings extends Component {
             <div className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
                     <div className="item-a-nb content-block-60 content-header flex-layout-column">
                     <div className="callout margin-top-15">
-                        The best customer experience starts with the Golden Rule—Treat customers how you would like to be treated
+                        The best customer experience starts with the Golden Rule - treat the user the way you would like to be treated
                     </div>
                         <div className="callout-text text-align-left text-white margin-top-15">
                         Too often, companies get attached to the product and lose sight of the people. 
@@ -32,7 +32,7 @@ class core_offerings extends Component {
                 </div>
             <section className="container-grid-2col-photo flex-layout-column flex-layout-justified-center margin-top-100" style={{height:'680px'}}>
                 <div className="grid-title">
-                    <div className="title">The most important part of all is that the entire company have alignment<br/> and clarity on         the story of the product—why it exists, who it serves, how it benefits the user.
+                    <div className="title">The most important part of all is that the entire company have alignment<br/> and clarity on the story of the product - why it exists, who it serves, how it benefits the user.
                     </div>
                         <div className="content-block-15">
                             <p className="subtitle margin-top-25" style={{width:'90%'}}> WDS core offerings provide solutions to help companies achieve long lasting results. We will guide and build a design plan that takes into account all of the various touchpoints and tasks that a customer engages in. It is critical for businesses success to give the customer a voice in every decision that is made. WDS core offering will have everyone in your business be advocates of customer experience.

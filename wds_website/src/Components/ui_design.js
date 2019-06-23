@@ -28,7 +28,8 @@ class ui_design extends Component {
             </div>
             <div className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
                 <div className="grid-item-b content-block-60 content-header flex-layout-column">
-                    <div className="callout-text text-align-left text-white">By directly observing and engaging with people, we can empathize with their pain points, discover solutions, simplify their lives and connect with them on an emotional level. We discover the truth that was unknown until now. This knowledge helps them make better decisions by focusing on the users instead of making assumptions. 
+                    <div className="callout-text text-align-left text-white">
+                        The success of a business is all about its customers. And a customer's impression of your business comes down to each interaction they have with you. When well-designed, each interaction is "intuitive, simple, and friendly," This translates into a better customer experience, higher customer loyalty, and a higher LTV of each customer.
                 </div>
                              
                 </div>

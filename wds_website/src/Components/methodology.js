@@ -5,7 +5,7 @@ import services2 from '../images/photos/photo-services-s2.png';
 import services3 from '../images/photos/photo-services-s3.png';
 import services4 from '../images/photos/photo-services-s4.png';
 import services5 from '../images/photos/photo-services-s5.png';
-import method1 from '../images/photos/photo-methodology-s2.png';
+import method1 from '../images/photos/photo-methodology-s1.png';
 
 
 class methodology extends Component {
@@ -21,12 +21,12 @@ class methodology extends Component {
                     </div>
                 </div> 
             </div>
-            <section className="flex-layout-section-full align-items-center padding-100 red border-bottom-5" >
-                    <div className=" flex-layout-center-center">
+            <section className="flex-layout-section-full align-items-center red border-bottom-5" >
+                    <div className="container-section-1-primary flex-layout-center-center">
                         <div className="content-header flex-layout-column">    
                             <div className="content-block width-75">
                                 <div className=" text-white text-align-center">
-                                Passion, Heart and Empathy are the ingredients that add real value to our methodology
+                                PASSION, HEART and EMPATHY are real values in our methodology
                                 </div>
                             </div>
                         </div>
@@ -34,9 +34,9 @@ class methodology extends Component {
                 </section>
                 <section className="flex-layout-section-full align-items-center" >
                     <div className="grid-callout yellow-bg "> 
-                        <div className="grid-callout-text grid-placeself-center padding width-70">
+                        <div className="grid-callout-text grid-placeself-center  width-70">
                             <p className="callout-text">
-                            WDS methodology produces results that can drive businesses by enlightening stakeholders on their users’ wants, needs and desires on a real level. We find the truth to your users happiness by connecting and engaging with your users on a deep level.
+                            WDS methodology produces results that can drive businesses by enlightening stakeholders on their users’ wants, needs and desires on a real level. We find the truth to your users' happiness by connecting and engaging with them on a deep level.
  </p>
                         </div>
                         <div className="grid-callout-photo grid-placeself-center">
@@ -48,10 +48,10 @@ class methodology extends Component {
                 <section className="flex-layout-content-container flex-layout-column margin-top-100 flex-layout-center-center">
                     <div className="content-header flex-layout-column">    
                         <div className="title flex-layout-center"> 
-                            Our UX methodology reveals the truth
+                            WDS reveals the truth
                         </div>
                     <div className="content-text-18 width-100 margin-top-25">
-                        <p className="content-text-18">Connecting with the users requires old-fashioned customer service. Back to a time when you knew your customer and treated them with kindness and respect, they deserved. Observing and   interacting with your customers you begin to know and intuitively understand their needs. Our methodology has produced lasting results for the clients and their users. The answers that our methodology produce will deeply affect your users and your business by clarifying business design solutions that drive transformation. </p>
+                        <p className="content-text-18">Connecting with the users requires old-fashioned customer service. Let's go back to a time when you knew your customers, and treated them with kindness and respect. Observing and   interacting with your customers helps you intuitively understand their needs. <br></br>Our methodology has produced lasting results for the clients and their users. The answers you find will deeply affect your users and your business by clarifying business design solutions that drive transformation. </p>
                     </div>
                     </div>
                 </section>
@@ -136,7 +136,7 @@ class methodology extends Component {
                             <p className="content-text-18"> 
                             The documentation phase presents the truth to our clients. It helps them understand and empathize with their customers by introducing personas, use cases and new workflows.</p>
 
-                            <ul>
+                            <ul className="dashed" >
                                 <li><a href="../strategy_insight">Present Findings - The Truth</a></li>
                                 <li><a href="../strategy_insight">Present Strategies and Insight</a></li>
                                 <li>Use Cases</li>
@@ -165,7 +165,7 @@ class methodology extends Component {
                             <p className="content-text-18">
                             This is the phase that emcompasses all the research and discovery findings to simplify and design a user interface based on the user expectations and the business needs.</p>
 
-                            <ul>
+                            <ul className="dashed">
                                 <li>Design Solutions based on research and discovery</li>
                                 <li><a href ="ui_design">UI Design</a></li>
                                 <li>Consolidate workflows</li>
@@ -173,7 +173,7 @@ class methodology extends Component {
                                 <li>Content Strategy - Information Achitect</li>
 
                             </ul>
-                            <p className="content-text-18"><a href="../core_offerings">Learn More</a> </p>     
+                            
                         </div>
                     </div>
                     <div className="grid-left-photo container-image-block">
@@ -191,7 +191,7 @@ class methodology extends Component {
                         <div className="content-block-75 content-text-18 margin-top-25">
                             <p className="content-text-18"> 
                             In this phase, the work with developers begins. WDS will handle the layout of project developing a simple scalable CSS and responsive HTML. We work seamlessly with the developers as you code the back-end working in your agile cycles. </p>
-                            <ul className>
+                            <ul className="dashed">
                                 <li><a href="../css_solutions">CSS Solutions</a></li>
                                 <li>CSS Development (SaSS and LeSS)</li>
                                 <li>HTML development</li>
@@ -246,9 +246,9 @@ class methodology extends Component {
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-25">
                             <p className="content-text-18"> 
-                                At the completion of the project it is important to the businesses on going success that we provide a design strategy road-map that will continue the business success with their users in the future.</p>
+                                At the completion of the project it is important to the businesses ongoing success that we provide a design strategy road-map that will continue the business success with their users in the future.</p>
 
-                            <ul>
+                            <ul className="dashed">
                                 <li><a href="../strategy_insight">Present Findings - The Truth</a></li>
                                 <li><a href="../strategy_insight">Present Strategies and Insight</a></li>
                                 <li>Use Cases</li>
@@ -276,7 +276,7 @@ class methodology extends Component {
                         
                         <div className="content-block-services" >
                             <p className="content-text-18">
-                                WDS offers customer experience strategies based off the research findings. WDS offers a full line of design services to ensure there cohesion and consistency in your branding message.
+                                WDS offers customer experience strategies based off the research findings. WDS offers a full line of design services to ensure cohesion and consistency in your branding message.
                             </p>
 
                             <ul className="dashed">
@@ -306,7 +306,7 @@ class methodology extends Component {
                             <p className="content-text-18"> 
                                 Last part of the methodology is our encore, the core offerings requested by our clients. Our core offerings are design services that bring design to the c-suite and beyond </p>
 
-                            <ul>
+                            <ul className="dashed">
                                 <li><a href="../strategy_insight">Present Findings - The Truth</a></li>
                                 <li><a href="../strategy_insight">Present Strategies and Insight</a></li>
                                 <li>Use Cases</li>
@@ -358,7 +358,7 @@ class methodology extends Component {
                             </div>
                         </div>
                     </div>
-                    <section className="flex-layout-section-full align-items-center">
+            <section className="flex-layout-section-full align-items-center yellow-bg border-top-5">
                 <div className="grid-2col-text-photo align-self-center width-100  margin-top-50 " > 
                     <div className="2col-text grid-placeself-center width-70 margin-left-75">
                         <div className="content-block">

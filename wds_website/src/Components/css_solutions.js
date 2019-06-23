@@ -140,7 +140,7 @@ class css_solutions extends Component {
                             Rebuilding your css to be lean fast and scalable
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-25">
-                            <ul className="content-text-24"><b> List of CSS Services</b>
+                            <ul className="content-text-24 dashed"><b> List of CSS Services</b>
                                 <li>SasS or Less Implementation</li>
                                 <li> Set of Global reusable Classes</li>
                                 <li>Object Oriented CSS</li>
@@ -155,21 +155,23 @@ class css_solutions extends Component {
                         </div>
                     </div>
                 </div>
-        
-        <div className="container-grid-2col-full width-100 flex-layout-justified-sb border-3px bottom-border margin-top-100 yellow-bg "> 
-                <div className="item-a-nb content-block-50 flex-layout-column">
-                    <div className="content-block">
-                        <p className="callout-text"> Looking for CSS Support? </p>
-                        <p className="callout-text"> We provide on-site consultancy and development work for companies and teams of all sizes.</p> 
-                    </div>
-                </div>
-                <div className="col2-photo width-70 grid-placeself-center">
-                        <img className="flex-image-container" src={services}  alt="Thank you WDS!" /> 
-                        <p className="caption">Thank you WDS!</p>
-                    </div>
-            </div>   
-                
 
+                <div className="flex-layout-section-full align-items-center yellow-bg border-top-5">
+                <div className="grid-2col-text-photo align-self-center width-100  margin-top-50 margin-bottom-50 " > 
+                <div className="col2-text  grid-placeself-center width-70 margin-left-75">
+                    
+                        <div className="content-block">
+                            <p className="content-header"> We also provide on-site consultancy and development work for companies and teams of all sizes </p>
+                        </div>
+                        </div>
+
+                        
+                    <div className="col2-photo width-70 grid-placeself-center">
+                        <img className="flex-image-container width-100" src={services}  alt="Ux is the best therapy!" /> 
+                    </div>
+                    </div>
+            </div> 
+  
                 </div>
             </div>
         )

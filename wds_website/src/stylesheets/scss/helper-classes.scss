@@ -130,14 +130,14 @@
   .flex-section-fixed-head {
     display: flex;
     height: 100%;
-    min-height: 585px;
+    min-height: 570px;
     background-color: $grey;
   }
 
   .flex-section-fixed-head-child {
     display: flex;
     height: 100%;
-    min-height: 585px;
+    min-height: 570px;
     background-color: $yellow;
   }
 
@@ -586,6 +586,12 @@
   
 
     .content-text-24 {
+      font-family: 'Roboto', 'sans serif';
+      font-size: 1.6rem;
+      line-height: 1.5 
+    }
+
+    .content-text-36 {
       font-family: 'Roboto', 'sans serif';
       font-size: 1.6rem;
       line-height: 1.5 
