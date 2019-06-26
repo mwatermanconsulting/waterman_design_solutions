@@ -1,6 +1,6 @@
 import React, { Component } from 'react' ;
 import CSS from '../images/backgrounds/bg-css.png';
-import services from '../images/graphic-services.svg';
+import didyouknow from '../images/graphic-didyouknow.png';
 import together from '../images/photos/photo-why-wds.png';
 import finding from '../images/photos/photo-documentation-s1.png';
 import finding_truth1 from '../images/photos/photo-finding-truth-s1.png';
@@ -75,7 +75,7 @@ class css_solutions extends Component {
 
                 <div className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
-                        <div className="title">
+                        <div className="title text-grey">
                             Organize and Simplify  
                         </div>
                         <div className="subtitle">
@@ -156,7 +156,7 @@ class css_solutions extends Component {
                     </div>
                 </div>
 
-                <div className="flex-layout-section-full align-items-center yellow-bg border-top-5">
+                <div className="flex-layout-section-full align-items-center grey border-top-5">
                 <div className="grid-2col-text-photo align-self-center width-100  margin-top-50 margin-bottom-50 " > 
                 <div className="col2-text  grid-placeself-center width-70 margin-left-75">
                     
@@ -167,7 +167,7 @@ class css_solutions extends Component {
 
                         
                     <div className="col2-photo width-70 grid-placeself-center">
-                        <img className="flex-image-container width-100" src={services}  alt="Ux is the best therapy!" /> 
+                        <img className="flex-image-container width-100" src={didyouknow}  alt="Ux is the best therapy!" /> 
                     </div>
                     </div>
             </div> 

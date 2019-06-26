@@ -1,5 +1,5 @@
 import React, { Component } from 'react' ;
-import innovation from '../images/backgrounds/bg-documentation.png';
+import innovation from '../images/backgrounds/bg-innovation.png';
 import services from '../images/graphic-services.svg';
 import together from '../images/photos/photo-why-wds.png';
 import innovation1 from '../images/photos/photo-finding-truth-s1.png';

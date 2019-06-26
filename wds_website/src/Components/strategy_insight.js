@@ -239,7 +239,7 @@ class strategy_insight extends Component {
                     </div>
                 </div>
             <div className="col2-photo width-70 grid-placeself-center">
-                <img className="flex-image-container" src={strategy_graphic}  alt="Design strategy can save your business" /> 
+                <img className="flex-image-container width-100" src={strategy_graphic}  alt="Design strategy can save your business" /> 
                 <p className="caption">Does anyone care?"</p>
             </div>
             </div>   

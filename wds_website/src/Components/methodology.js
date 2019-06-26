@@ -1,11 +1,18 @@
 import React, { Component } from 'react' ;
 import method from '../images/backgrounds/bg-methodology.svg';
 import methodolgy_graphic from '../images/graphic-methodology.svg';
-import services2 from '../images/photos/photo-services-s2.png';
-import services3 from '../images/photos/photo-services-s3.png';
-import services4 from '../images/photos/photo-services-s4.png';
-import services5 from '../images/photos/photo-services-s5.png';
+import methodology2 from '../images/photos/photo-methodology-s2.png';
+import methodology3 from '../images/photos/photo-methodology-s3.png';
+import methodology4 from '../images/photos/photo-methodology-s4.png';
+import methodology5 from '../images/photos/photo-methodology-s5.png';
+import methodology6 from '../images/photos/photo-methodology-s6.png';
+import methodology7 from '../images/photos/photo-methodology-s7.png';
+import methodology8 from '../images/photos/photo-methodology-s8.png';
+import methodology9 from '../images/photos/photo-methodology-s9.png';
+import methodology10 from '../images/photos/photo-methodology-s10.png';
+import methodology11 from '../images/photos/photo-methodology-s11.png';
 import method1 from '../images/photos/photo-methodology-s1.png';
+import featured from '../images/photos/photo-methodology-featured-motorola.png';
 
 
 class methodology extends Component {
@@ -35,7 +42,7 @@ class methodology extends Component {
                 <section className="flex-layout-section-full align-items-center" >
                     <div className="grid-callout yellow-bg "> 
                         <div className="grid-callout-text grid-placeself-center  width-70">
-                            <p className="callout-text">
+                            <p className="callout-text text-black">
                             WDS methodology produces results that can drive businesses by enlightening stakeholders on their users’ wants, needs and desires on a real level. We find the truth to your users' happiness by connecting and engaging with them on a deep level.
  </p>
                         </div>
@@ -46,12 +53,13 @@ class methodology extends Component {
                 </section>
             <div className="flex-layout-section-full flex-layout-column align-items-center">
                 <section className="flex-layout-content-container flex-layout-column margin-top-100 flex-layout-center-center">
-                    <div className="content-header flex-layout-column">    
+                    <div className="content-header flex-layout-column content-block-75">    
                         <div className="title flex-layout-center"> 
                             WDS reveals the truth
                         </div>
-                    <div className="content-text-18 width-100 margin-top-25">
-                        <p className="content-text-18">Connecting with the users requires old-fashioned customer service. Let's go back to a time when you knew your customers, and treated them with kindness and respect. Observing and   interacting with your customers helps you intuitively understand their needs. <br></br>Our methodology has produced lasting results for the clients and their users. The answers you find will deeply affect your users and your business by clarifying business design solutions that drive transformation. </p>
+                    <div className="width-100 margin-top-50">
+                        <p className="content-text-18">Connecting with the users requires old-fashioned customer service. Let's go back to a time when you knew your customers, and treated them with kindness and respect. Observing and   interacting with your customers helps you intuitively understand their needs.</p> 
+                        <p>Our methodology has produced lasting results for the clients and their users. The answers you find will deeply affect your users and your business by clarifying business design solutions that drive transformation. </p>
                     </div>
                     </div>
                 </section>
@@ -60,10 +68,18 @@ class methodology extends Component {
                     <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
 
                     </div>
+                    <section className="flex-layout-content-container flex-layout-column flex-layout-center-center">
+                    <div className="content-header flex-layout-column content-block-75">    
                         <div className="title flex-layout-center"> 
-                            Overview of the WDS Methodology
+                        Overview of the WDS Methodology
                         </div>
-                <section className="grid-2col-photo-content content-header margin-top-100">
+                    <div className="width-100 margin-top-50">
+                    <p className="content-text-18">Our methodology has produced lasting results for the clients and their users. The answers you find will deeply affect your users and your business by clarifying business design solutions that drive transformation. </p>
+                    </div>
+                    </div>
+                </section>
+                
+                <section className="grid-2col-photo-content content-header margin-top-50">
                     
                     <div className="grid-left flex-layout-section-full">
                         <div className="subtitle">
@@ -91,7 +107,7 @@ class methodology extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={services2}  alt="Your Business is Our Joy" /> 
+                        <img className="photo-container" src={methodology3}  alt="Methodology" /> 
                     </div>     
                 </section>
                 
@@ -122,7 +138,7 @@ class methodology extends Component {
                         
                     </div>
                     <div className="grid-left-photo container-image-block">
-                        <img className="photo-container" src={services5}  alt="Your Business is Our Joy" /> 
+                        <img className="photo-container" src={methodology4}  alt="Methodology" /> 
                     </div>     
                 </section>
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
@@ -150,7 +166,7 @@ class methodology extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={services2}  alt="Your Business is Our Joy" /> 
+                        <img className="photo-container" src={methodology5}  alt="Methodology" /> 
                     </div>     
                 </section>
 
@@ -177,7 +193,7 @@ class methodology extends Component {
                         </div>
                     </div>
                     <div className="grid-left-photo container-image-block">
-                            <img className="photo-container" src={services5}  alt="Your Business is Our Joy" /> 
+                            <img className="photo-container" src={methodology6}  alt="Methodology" /> 
                     </div>     
                 </section>
 
@@ -201,7 +217,7 @@ class methodology extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={services2}  alt="Your Business is Our Joy" /> 
+                        <img className="photo-container" src={methodology7}  alt="Methodology" /> 
                     </div>     
                 </section>
 
@@ -232,7 +248,7 @@ class methodology extends Component {
                         
                     </div>
                     <div className="grid-left-photo container-image-block">
-                        <img className="photo-container" src={services5}  alt="Your Business is Our Joy" /> 
+                        <img className="photo-container" src={methodology8}  alt="Methodology" /> 
                     </div>     
                 </section>
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
@@ -262,7 +278,7 @@ class methodology extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={services2}  alt="Your Business is Our Joy" /> 
+                        <img className="photo-container" src={methodology9}  alt="Methodology" /> 
                     </div>     
                 </section>
 
@@ -292,7 +308,7 @@ class methodology extends Component {
                         
                     </div>
                     <div className="grid-left-photo container-image-block">
-                        <img className="photo-container" src={services5}  alt="Your Business is Our Joy" /> 
+                        <img className="photo-container" src={methodology10}  alt="Methodology" /> 
                     </div>     
                 </section>
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
@@ -320,7 +336,7 @@ class methodology extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={services2}  alt="Your Business is Our Joy" /> 
+                        <img className="photo-container" src={methodology11}  alt="Methodology" /> 
                     </div>     
                 </section>
             </div>
@@ -333,31 +349,22 @@ class methodology extends Component {
                         </div>
                     </div> 
                 </section>
-                
-                <section className="flex-layout-section-full flex-layout-center-center margin-top-50 padding-bottom-50"> 
-                    <div className="content-header flex-layout-column width-50">
-                        <div className="sub-title">Featured Case Study: Motorola</div>
-                            <div className="content-block">
-                                <p className="content-text-18"> At WDS, we know and understand the importance of design systems to businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, 
-                                and letting software teams focus on solving tough problems instead of the small stuff. </p>
+                <section className="grid-2col-photo-text content-header">
+                    <div className="col2-text flex-layout-section-full">
+                        <div className="subtitle">
+                        Design is more critical to your business success. Competition and user expectations have increased, and your only chance of survival is meeting it head on.
+                        </div>
+                        <div className="content-block-75 content-text-18 margin-top-25">
+                            <p className="content-text-18"> 
+                                WDS has the honour of being the third option on quite a few projects, including the stubhub project. Many times the previous experiences were unsuccessful not meeting business or users needs. It's not easy to follow unsuccessful design projects. Developers and stakeholders are on edge, but our team empathizes with the situation. Once we begin our methodology and advocating for the users we begin connecting with the developers and stakeholders, amazing things begin happen.</p>
 
-                                <p><a href="../style_guides">Learn more about design systems></a> </p>
-                            </div>
-                    </div>
-                </section>
-            
-                     <div className="flex-layout-section-full">
-                        <div className="flex-layout-column"> 
-                            <div className="flex-layout-center-center margin-top-100"> 
-                                <div className="content-header flex-layout-center">
-                                    <div className="content-text" style={{ width: '40%' }}>
-                                        <h3><b> In todays market design is more critical to your business success, competition and user expectations have increased. 
-                                                Your only chance of survival is understanding both your users and competition.</b></h3>
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
+                    <div className="col2-photo grid-placeself-center">
+                        <img className="width-50 " src={featured}  alt="Methodology" /> 
+                    </div>     
+            </section>
             <section className="flex-layout-section-full align-items-center yellow-bg border-top-5">
                 <div className="grid-2col-text-photo align-self-center width-100  margin-top-50 " > 
                     <div className="2col-text grid-placeself-center width-70 margin-left-75">

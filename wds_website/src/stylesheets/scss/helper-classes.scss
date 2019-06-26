@@ -130,14 +130,12 @@
   .flex-section-fixed-head {
     display: flex;
     height: 100%;
-    min-height: 570px;
     background-color: $grey;
   }
 
   .flex-section-fixed-head-child {
     display: flex;
     height: 100%;
-    min-height: 570px;
     background-color: $yellow;
   }
 
@@ -623,7 +621,7 @@
     }
 
     a {
-      color: $green;
+      color: $greeny-blue;
     }
 
     li {

@@ -22,14 +22,14 @@ class core_offerings extends Component {
                     <div className="callout margin-top-15">
                         The best customer experience starts with the Golden Rule - treat the user the way you would like to be treated
                     </div>
-                        <div className="callout-text text-align-left text-white margin-top-15">
+                        <div className="callout-text-black text-align-left margin-top-15">
                         Too often, companies get attached to the product and lose sight of the people. 
                         </div>
                     </div>
                     <div className="grid-item-b container-image-block">
                         <img className="container-photo-callout" src={offerings_photo}  alt="shaking hands" /> 
                     </div>
-                </div>
+            </div>
             <section className="container-grid-2col-photo flex-layout-column flex-layout-justified-center margin-top-100" style={{height:'680px'}}>
                 <div className="grid-title">
                     <div className="title">The most important part of all is that the entire company have alignment<br/> and clarity on the story of the product - why it exists, who it serves, how it benefits the user.

@@ -273,7 +273,7 @@
 }
 .callout-text-lg {
   font-size: 1.5rem;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Bold', serif;
   line-height: 2.12;
   letter-spacing: 0.8px;
   text-align: center;
@@ -281,7 +281,15 @@
 }
 .callout-text {
   font-size: 1.25rem;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Bold', serif;
+  line-height: 2.12;
+  letter-spacing: 0.8px;
+  text-align: center;
+  color: #fff;
+}
+.callout-text-black {
+  font-size: 1.25rem;
+  font-family: 'Roboto Bold', serif;
   line-height: 2.12;
   letter-spacing: 0.8px;
   text-align: center;

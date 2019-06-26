@@ -1,6 +1,6 @@
 import React, { Component } from 'react' ;
 import { Layout, Textfield, Header, Navigation, Drawer, Content } from 'react-mdl';
-import design from '../images/backgrounds/bg-design.svg';
+import contactus from '../images/backgrounds/bg-contact.svg';
 
 class contact extends Component {
     render () {
@@ -9,7 +9,7 @@ class contact extends Component {
             <div className="flex-layout-fixed-head">
                 <div className="image-background-border-tb">
                     <div className="flex-image-container flex-item-bottom">
-                        <img className="flex-image-container container image-size-100" src={design}  alt="Why WDS background" /> 
+                        <img className="flex-image-container container image-size-100" src={contactus}  alt="Why WDS background" /> 
                     </div>
                 </div> 
             </div>
