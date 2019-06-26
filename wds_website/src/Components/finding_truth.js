@@ -1,5 +1,5 @@
 import React, { Component } from 'react' ;
-import finding_truth from '../images/backgrounds/bg-documentation.png';
+import finding_truth from '../images/backgrounds/bg-finding-truth.png';
 import services from '../images/graphic-services.svg';
 import together from '../images/photos/photo-why-wds.png';
 import finding from '../images/photos/photo-documentation-s1.png';

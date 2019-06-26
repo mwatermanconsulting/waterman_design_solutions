@@ -36,10 +36,6 @@
 .mdl-layout__drawer-button {
   color: gray !important; }
 
-.content-header {
-  display: flex;
-  width: 100%; }
-
 .content-text {
   display: flex;
   flex-direction: row; }
@@ -326,13 +322,11 @@ footer {
 .flex-section-fixed-head {
   display: flex;
   height: 100%;
-  min-height: 570px;
   background-color: #6c8086; }
 
 .flex-section-fixed-head-child {
   display: flex;
   height: 100%;
-  min-height: 570px;
   background-color: #e3ce71; }
 
 .flex-layout-section-row {
@@ -737,7 +731,7 @@ footer {
   color: #fff; }
 
 a {
-  color: #008000; }
+  color: #3eaca9; }
 
 li {
   display: list-item;
@@ -838,7 +832,7 @@ h4 {
   justify-self: center; }
 
 a {
-  color: #008000; }
+  color: #3eaca9 !important; }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace; }
@@ -870,25 +864,37 @@ h1 {
 
 .callout-text {
   font-size: 1.5625rem;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', serif;
   line-height: 2.12;
+  font-weight: 700;
   letter-spacing: 0.8px;
   text-align: center;
   color: #fff; }
 
+.callout-text-lg-black {
+  font-size: 2rem;
+  font-family: 'Roboto', serif;
+  line-height: 2.12;
+  letter-spacing: 0.8px;
+  font-weight: 700;
+  text-align: center;
+  color: #000; }
+
 .callout-text-lg {
   font-size: 2rem;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', serif;
   line-height: 2.12;
   letter-spacing: 0.8px;
   text-align: center;
-  color: #fff; }
+  color: #fff;
+  font-weight: 700; }
 
 .title {
   font-family: 'Oswald', sans-serif;
   font-size: 3.05rem;
   line-height: 1.25;
-  color: #879397; }
+  color: #879397;
+  opacity: .7; }
 
 .title-center {
   font-family: 'Roboto', sans-serif;
@@ -900,17 +906,21 @@ h1 {
 
 .subtitle {
   font-size: 1.8rem;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 2.0;
   font-family: 'Roboto';
-  color: #747677;
-  font-weight: 400; }
+  color: #747677; }
 
 .subtitle-bold-i {
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 1.2;
   font-style: italic; }
+
+.subtitle-menu {
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.2; }
 
 .subtitle-capital {
   font-size: 2.44375rem;
@@ -928,13 +938,13 @@ h1 {
   font-size: 1.2rem;
   font-weight: 700;
   color: #3eaca9;
-  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+  font-family: 'Roboto', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
 
 .font-size-48 {
   font-size: 2.6rem; }
 
 p {
-  font-size: 14px;
+  font-size: .875rem;
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0;
@@ -987,6 +997,17 @@ p {
   height: auto;
   display: flex;
   align-items: center; }
+
+footer a {
+  color: black !important;
+  text-decoration: none; }
+
+footer a :hover {
+  color: black;
+  text-decoration: underline; }
+
+footer.link-color {
+  color: #000; }
 
 /*******************************
         Global Colors
@@ -1059,6 +1080,28 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #45a049; }
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga'; }
 
 .lightgreen {
   background-color: #BDCCD4; }
@@ -1580,7 +1623,7 @@ Button:hover {
 .grid-footer {
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-auto-flow: column;
   width: 100%; }
 
@@ -2035,13 +2078,13 @@ ul.menu > li {
 
 .dropbtn {
   display: inline-block;
-  color: white;
+  color: white !important;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: .875rem; }
 
-li a:hover, .dropdown:hover .dropbtn {
+li a .dropdown:hover .dropbtn {
   background-color: rgba(140, 139, 139, 0.2); }
 
 ul.menu > li.dropdown {
@@ -2050,14 +2093,14 @@ ul.menu > li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #fff;
   color: black;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
   z-index: 1; }
 
 .dropdown-content a {
-  color: black;
+  color: black !important;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -2366,14 +2409,21 @@ ul.menu > li.dropdown {
     font-weight: 400; }
   .callout-text-lg {
     font-size: 1.5rem;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Bold', serif;
     line-height: 2.12;
     letter-spacing: 0.8px;
     text-align: center;
     color: #fff; }
   .callout-text {
     font-size: 1.25rem;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Bold', serif;
+    line-height: 2.12;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: #fff; }
+  .callout-text-black {
+    font-size: 1.25rem;
+    font-family: 'Roboto Bold', serif;
     line-height: 2.12;
     letter-spacing: 0.8px;
     text-align: center;

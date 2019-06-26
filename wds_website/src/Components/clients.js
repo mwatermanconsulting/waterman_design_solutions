@@ -3,29 +3,32 @@ import React, { Component } from 'react' ;
 import pi from '../images/pi.png';
 import terri from '../images/terri.png';
 
+import bgclients from '../images/backgrounds/bg-clients.png';
+
 class clients extends Component {
     render () {
         return(
-            <div className="flex-layout-column margin-bottom-50">
-            <div className="flex-layout-section flex-layout-justified-sb">
-                    <div className="image-background-border-tb flex-layout-center-center">
-                        <div className="flex-image-container flex-layout-center-center">
-                            <img className="flex-image-container" src={pi}  alt="girls picture" /> 
-                                </div>
-                                <div className="flex-content-container-split">
-                                    <div className="content-header"> 
-                                        <div className="title">Clients</div>
-                                    </div>
-                                    <div className="content-header">
-                                        <div className="subtitle">We work with some of the world's reconizable names to solve difficult problems with simple and elegant design solutions</div>
-                                    </div>
-                                    <div className="content-block-why">
-                                        <p className="content-text-18"><p>We work with some of the world's reconizable names to solve difficult problems with simple and elegant design solutions</p>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>  
+            <div className="flex-layout-column">
+            <div className="flex-layout-section-fixed yellow flex-layout-center-center image-background-border-tb">
+                <div className="header-text-center header-title text-white">Clients</div>
+                <img className="flex-image-container" src={bgclients}  alt="Why WDS background" /> 
+            </div>
+            <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
+                <div className="callout-text-lg">
+                    Delivering the most outstanding experience possible
+                </div>
+            </div>
+            <div className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
+                    <div className="item-a-nb content-block-60 content-header flex-layout-column">
+                    <div className="callout margin-top-15">
+                        The best customer experience starts with the Golden Rule - treat the user the way you would like to be treated
+                    </div>
+                        <div className="callout-text-black text-align-left margin-top-15">
+                        Too often, companies get attached to the product and lose sight of the people. 
+                        </div>
+                    </div>
+                   
+            </div>
                      <div className="flex-layout-section-full">
                         <div className="flex-layout-column"> 
                             <div className="flex-layout-center-center margin-top-50"> 

@@ -37,9 +37,8 @@ class why_wds extends Component {
                 <section className="flex-layout-section-full align-items-center" >
                     <div className="grid-callout yellow-bg "> 
                         <div className="grid-callout-text grid-placeself-center padding width-70">
-                            <p className="callout-text ">
-                            The market will always disproportionately reward companies that truly stand out from the crowd.
-                            Customers always look for the better experience. Meeting their expectations of intuitive, elegant and simple designs built around and for the user will earn their loyalty. This is the reason from startups to global brands that design always matters. </p>
+                            <p className="callout-text-black ">
+                            Our design solutions have increased revenues and user retention for clients. We achieve this by using our methodology that connects and allows us to empathize with your users on a deep level. We uncover truths that were previously unknown, bringing into existence, design solutions that engage your customers and earn their trust. </p>
                         </div>
                         <div className="grid-callout-photo grid-placeself-center">
                             <img className="flex-image-container width-100" src={whys1}  alt="Customer Service" /> 
@@ -50,8 +49,8 @@ class why_wds extends Component {
                 <section className="flex-layout-section-full flex-layout-column align-items-center">
                     <p className="title margin-top-100">
                         WDS Provides Design Support That Make a Difference </p>
-                    <p className="subtitle content-block-60 margin-top-25">
-                        Our design solutions have increased revenues and user retention for clients. We achieve this by using our methodology that connects and allows us to empathize with your users on a deep level. We uncover truths that were previously unknown, bringing into existence, design solutions that engage your customers and earn their trust.</p>
+                    <p className="subtitle content-block-60 margin-top-25 flex-layout-column align-items-center">
+                        Our <a href="../clients">client roster</a> includes Motorola, Pfizer, Stubhub, SmithKline, OsiSoft and many more</p>
                 </section>
                 <section className="flex-layout-section-full align-items-center" >
                     <div className="grid-2col-text-photo width-70 margin-top-100 ">
@@ -66,16 +65,14 @@ class why_wds extends Component {
                     </div>
                     </div>
                 </section>
-
-
-                <div className="thin-hr width-70 align-self-center margin-top-100"></div>
+            <div className="thin-hr width-70 align-self-center margin-top-100"></div>
             <section>
                 <div className="grid-2col-text-photo align-self-center width-100  margin-tb-100   ">
                     <div className="2col-text grid-placeself-center width-70 margin-left-100">
                         <p className="content-header"> 
-                            Design Matters</p>
+                            Business Value of Design</p>
                         <p className="content-text-24 margin-top-15">
-                            WDS has been successful helping business with design for close to 20 years. This has been our mantra understanding the importance of design and advocating design to every business we service. In the most recent study, Mckinly link here, companies that focus on the user and design have 30% increase in business compared to the same businesses that do not focus on design.</p>
+                            WDS has been successful helping business with design for close to 20 years. Increasing revenues and shareholders returns. We know the value of design, but don't take our word of for it. A comprehensive study on the value of design, <a href="../insights">Mckinsey</a> found the truth that companies that focus on the user and design have 30% increase in business compared to the same businesses that do not focus on design.</p>
                     </div>
                     <div className="col2-photo width-100 grid-placeself-center">
                         <img src={whys3} className="width-100" alt="Case Study Image 2"/> 
@@ -83,8 +80,8 @@ class why_wds extends Component {
                 </div>
             </section>
         </main>
-            <section className="flex-layout-section-full align-items-center yellow-bg border-tb-5" >
-                <p className="subtitle text-black margin-top-50"> Design Services</p>
+            <section className="flex-layout-section-full align-items-center " >
+                <p className="title text-black margin-top-50"> Design Services</p>
                 <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 ">
                     
                     <div className="2col-text grid-placeself-center width-70 margin-left-75">
@@ -115,7 +112,7 @@ class why_wds extends Component {
                 <div className="grid-2col-text-photo align-self-center width-70 margin-bottom-100  margin-top-50 ">
                     <div className="2col-text grid-placeself-center width-70 margin-left-75">
                         <p className="content-header "> 
-                            Design and Marketing</p>
+                            Design Systems</p>
                         <p className="content-text-24 padding-10"> 
                             Ensuring your message is consistent across all mediums </p>
                         <p className="content-text-18 padding-10">

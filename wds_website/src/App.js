@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './stylesheets/css/main.css';
-import { Layout, Button, Header, Navigation, Drawer, Content } from 'react-mdl';
+import { Layout, Button, Header, Navigation, Drawer, Content, Icon } from 'react-mdl';
 import Main from './Components/main';
 import logo from './images/WDS-logo.svg'
 import { Link } from 'react-router-dom';
@@ -16,7 +16,8 @@ class App extends Component {
       <div className="container-grid">
         <Layout>
             <Header className="header red text-white flex-layout-row" title={<Link style={{textDecoration: 'none',
-            color: 'white'}} to="/"><img src={logo} height="65px" alt="header" /></Link>} scroll>
+            color: 'white'}} to="/"><img src={logo} height="65px" alt="header" /></Link>} scroll >
+              
             <ul style={{display:'flex'}}>
             <li className="dropdown">
               <a href="javascript:void(0)" class="dropbtn">Why</a>
@@ -34,9 +35,9 @@ class App extends Component {
                 <a href="./services">Services Overview</a>
                 <a href="./ux_design">UX Design</a>
                 <a href="./ui_design">UI Design</a>
-                <a href="./services">CSS Solutions</a>
+                <a href="./css_solutions">CSS Solutions</a>
                 <a href="./strategy_insight">Strategy & Insight</a>
-                <a href="./style_guide">Design Systems</a>
+                <a href="./design_systems">Design Systems</a>
               </div>
               </li>
               <li class="dropdown">
@@ -53,9 +54,9 @@ class App extends Component {
               <div class="dropdown-content">
                 <a href="./design_solutions">Design Solutions Overview</a>
                 <a href="./website_design">Website Design</a>
-                <a href="./innovative_solutions">Graphic Design</a>
-                <a href="./communication_insights">Social Media Marketing</a>
-                <a href="./video">Video Production</a>
+                <a href="./print_design">Print Design</a>
+                <a href="./social_media">Social Media Marketing</a>
+                <a href="./video_production">Video Production</a>
               </div>
               </li>
               <li class="dropdown">
@@ -77,21 +78,21 @@ class App extends Component {
           <div className="page-content" />
             <Main/>
       </Content>
-      <footer className="container-footer red padding">
+      <footer className="container-footer red padding border-top-5">
       <div className="grid-footer">
       <div className="grid-footer-item-1">
-          <div className="subtitle text-white">
+          <div className="subtitle-menu text-white">
                Why
               <ul>
-                 <li> <a className="text-black" href="./why_wds">Why Waterman Design Solutions</a></li>
-                 <li><a className="text-black" href="./case_studies">Success Stories (Case Studies)</a></li>
+                 <li> <a className="text-black" href="./why_wds">Why WDS</a></li>
+                 <li><a className="text-black" href="./case_studies">Case Studies</a></li>
                  <li><a className="text-black" href="./clients">Clients</a></li>
                  <li><a className="text-black" href="./core_offerings">Core Offerings</a></li>
                  <li><a className="text-black" href="./history">History</a></li>
               </ul>
           </div>
         </div>
-          <div className="subtitle text-white grid-footer-item-2">
+          <div className="subtitle-menu text-white grid-footer-item-2">
               Services
               <ul className="text-black">
               <li><a className="text-black" href="./services">Overview</a></li>
@@ -99,11 +100,11 @@ class App extends Component {
               <li><a className="text-black" href="./ui_design">UI Design</a></li>
               <li><a className="text-black" href="./css_solutions">CSS Solutions</a></li>
               <li><a className="text-black" href="./strategy_insight">Strategy & Insights</a></li>
-              <li><a className="text-black" href="./style_guide">Style Guides & Design Systems</a></li>
+              <li><a className="text-black" href="./design_systems">Design Systems</a></li>
               
               </ul>
           </div>
-          <div className="grid-footer-item-3 text-white subtitle">
+          <div className="grid-footer-item-3 text-white subtitle-menu">
                 Methodology
               <ul>
               <li><a className="text-black" href="./methodology">Overview</a></li>
@@ -112,7 +113,7 @@ class App extends Component {
               <li><a className="text-black" href="./communication_insights">Communications Insights</a></li>
               </ul>
           </div>
-          <div className="grid-footer-item-4 text-white subtitle"> 
+          <div className="grid-footer-item-4 text-white subtitle-menu"> 
                 Design Solutions
               <ul>
               <li><a className="text-black" href="./design_solutions">Overview</a></li>
@@ -123,7 +124,7 @@ class App extends Component {
               </ul>
           </div> 
           
-            <div className="grid-footer-item-6 subtitle text-white">
+            <div className="grid-footer-item-5 subtitle-menu text-white">
                 Social Media Junk
               <ul>
               <li><a href="./news_insights">Overview</a></li>

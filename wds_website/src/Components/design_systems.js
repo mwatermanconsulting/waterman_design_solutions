@@ -14,7 +14,7 @@ class style_guide extends Component {
         <div className="flex-layout-column"> 
             <div className="flex-section-fixed-head-child flex-layout-center-center image-background-border-tb">
                 <div className="header-text-center header-title text-white">
-                    Style Guides, Pattern Libraries and Design Systems</div>
+                    Design Systems</div>
                 <img className="flex-image-container" src={digital_systems}  alt="Why WDS background" /> 
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
