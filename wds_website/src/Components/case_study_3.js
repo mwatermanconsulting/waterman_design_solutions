@@ -7,11 +7,11 @@ import motorola_s1 from '../images/photos/photo-Motorola_2.png';
 class case_study_2 extends Component {
     render () {
         return(
-                        <div className="flex-layout-column flex-layout-section-full">
-                            <div className="flex-layout-section-full">
-                            <div className="image-background-border-tb">
-                                <div className="flex-layout-row width-100"> 
-                                    <h1 className="image-text-left text-white">Case Study - Pfizer</h1>
+             <div className="flex-layout-column flex-layout-section-full">
+                <div className="flex-layout-section-full">
+                    <div className="image-background-border-tb">
+                        <div className="flex-layout-row width-100"> 
+                            <h1 className="image-text-left text-white">Case Study - Pfizer</h1>
                                     <img className="image-text-right" src={stubhub_logo}  alt="Why WDS background" /> 
                                     <img className="flex-image-container" src={pfizer_bg}  alt="Why WDS background" /> 
                                  </div>
@@ -168,5 +168,5 @@ class case_study_2 extends Component {
                         </div>                               
                                         )
                                     }
-                                }
+                                }           
 export default case_study_2;

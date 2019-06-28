@@ -130,14 +130,12 @@
   .flex-section-fixed-head {
     display: flex;
     height: 100%;
-    min-height: 585px;
     background-color: $grey;
   }
 
   .flex-section-fixed-head-child {
     display: flex;
     height: 100%;
-    min-height: 585px;
     background-color: $yellow;
   }
 
@@ -586,13 +584,19 @@
   
 
     .content-text-24 {
-      font-family: 'Oswald', 'sans serif';
+      font-family: 'Roboto', 'sans serif';
+      font-size: 1.6rem;
+      line-height: 1.5 
+    }
+
+    .content-text-36 {
+      font-family: 'Roboto', 'sans serif';
       font-size: 1.6rem;
       line-height: 1.5 
     }
 
     .content-text-48 {
-      font-family: 'Oswald', 'sans serif';
+      font-family: 'Roboto', 'sans serif';
       font-size: 3.2rem;
       line-height: 1.5 
     }
@@ -617,7 +621,7 @@
     }
 
     a {
-      color: $green;
+      color: $greeny-blue;
     }
 
     li {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react' ;
-import finding_truth from '../images/backgrounds/bg-documentation.png';
+import bg_ui from '../images/backgrounds/bg-ui.png';
 import services from '../images/graphic-services.svg';
 import together from '../images/photos/photo-why-wds.png';
 import finding from '../images/photos/photo-documentation-s1.png';
@@ -19,16 +19,19 @@ class ui_design extends Component {
             <div className="flex-section-fixed-head-child flex-layout-center-center image-background-border-tb">
                 <div className="header-text-center header-title text-white">
                     User Interface Design</div>
-                <img className="flex-image-container" src={finding_truth}  alt="Why WDS background" /> 
+                <img className="flex-image-container" src={bg_ui}  alt="User Interface" /> 
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                   Revealing the truth and developing a strategy that works
+                    “Simplicity is the ultimate sophistication.” –Leonardo da Vinci
+
                 </div>
             </div>
             <div className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
                 <div className="grid-item-b content-block-60 content-header flex-layout-column">
-                    <div className="callout-text text-align-left text-white">By directly observing people, and going through your own research, we can empathize with their pain points, discovering solutions, simplfying life and connecting with them on an emotional level. We create truth that was unknown until now, using this knowledge to create better decisions based on users, not assumptions. </div>
+                    <div className="callout-text text-align-left text-white">
+                       We live for the comment "why didn't we think of that"  WDS passion is working on complex user interfaces and devise simple solutions. Our work has simplified interfaces for applications used by critical industries such as used energy sector using our designed software to monitor oil rigs or for the pharmaceutical industries using our UI designed software on the monitoring the drug manufacturing factories.
+                </div>
                              
                 </div>
                 <div className="item-a-nb container-image-block">
@@ -38,11 +41,11 @@ class ui_design extends Component {
     
             <div className="content-header flex-layout-center-center flex-layout-column margin-top-200 ">
                 <div className="flex-layout-center-center title text-align-center content-block-60">
-                    Need Introduction Text Here. A Small story on finding solutions where others failed to see them. Unique Solutions  
+                        "why didn't I think of that" The typical shareholders response when presenting our UI design solutions 
                 </div>
                 <div className="content-block-55 margin-top-50">
-                    <p className="content-text-24 text-align-center">WDS discovers the patterns and themes that provide actionable, deeper and more valuable perspectives on your customers' wants, needs and motivations.</p>
-                    <p className="content-text-24 text-align-center">The most meaningful insights for experience strategy are developed with behavior-based understanding of users. Our experience strategists observe people in context - where they work, play or live - to understand their goals, needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve..</p>
+                    <p className="content-text-24 text-align-center">
+                    We live for the comment "why didn't we think of that"  WDS passion is working on complex user interfaces and devise simple solutions. Our work has simplified interfaces for applications used by critical industries such as used energy sector using our designed software to monitor oil rigs or for the pharmaceutical industries using our UI designed software on the monitoring the drug manufacturing factories.</p>
                 </div>
             </div>
             <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">
