@@ -13,7 +13,7 @@ class case_study_2 extends Component {
                                 <div className="flex-layout-row width-100"> 
                                     <h1 className="image-text-left text-white">Case Study - Pfizer</h1>
                                     <img className="image-text-right" src={stubhub_logo}  alt="Why WDS background" /> 
-                                    <img className="flex-image-container" src={pfizer_bg}  alt="Why WDS background" /> 
+                                    <img className="flex-image-container width-100" src={pfizer_bg}  alt="Why WDS background" /> 
                                  </div>
                             </div> 
                         </div>

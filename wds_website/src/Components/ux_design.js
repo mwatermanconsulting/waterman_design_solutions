@@ -13,7 +13,7 @@ class ux_design extends Component {
                     <div className="header-text-center header-title text-white">
                             UX Design
                     </div>
-                        <img className="flex-image-container" src={ux_bg}  alt="Why WDS background" /> 
+                        <img className="flex-image-container width-100" src={ux_bg}  alt="Why WDS background" /> 
                 </section> 
                 <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                     <div className="callout-text"> 
@@ -149,7 +149,7 @@ class ux_design extends Component {
                     </div>
                 </div>
             <div className="item-b container-image-block">
-                <img className="flex-image-container" src={services}  alt="Your Business is Our Joy" /> 
+                <img className="flex-image-container width-100" src={services}  alt="Your Business is Our Joy" /> 
             </div>
             </div> 
             </div>

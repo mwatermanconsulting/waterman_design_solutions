@@ -33,7 +33,7 @@ class case_study_4 extends Component {
                         Case Study - OsiSoft
                     </div>
                         <img className="header-text-right align-self-center image-size-10" src={osi_logo}  alt="Stubhub Case Study Logo Image" /> 
-                        <img className="flex-image-container" src={osi_bg}  alt="Stubhub Case Study " />  
+                        <img className="flex-image-container width-100" src={osi_bg}  alt="Stubhub Case Study " />  
                 </div> 
                 <section className="flex-layout-section-fixed-sm margin-top-75">
                     <div className="content-header flex-layout-center-center"> 

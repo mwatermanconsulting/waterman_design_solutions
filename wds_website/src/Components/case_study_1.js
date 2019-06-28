@@ -20,7 +20,7 @@ class case_study_1 extends Component {
                 <div className="flex-layout-row width-100"> 
                     <div className="header-text-left header-title-cs align-self-center text-white">Case Study - Motorola</div>
                     <img className="header-text-right align-self-center" src={motorola_logo}  alt="Motorola Logo" /> 
-                    <img className="flex-image-container" src={motorola_bg}  alt="Motorola background" /> 
+                    <img className="flex-image-container width-100" src={motorola_bg}  alt="Motorola background" /> 
                 </div>
                 <div className="flex-layout-section-full flex-layout-center grey padding-20 border-top-5">
                     <div className=""> 

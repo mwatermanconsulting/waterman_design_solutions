@@ -20,7 +20,7 @@ class css_solutions extends Component {
             <div className="flex-section-fixed-head flex-layout-center-center image-background-border-tb">
                 <div className="header-text-center header-title text-white">
                     CSS Solutions</div>
-                <img className="flex-image-container" src={CSS}  alt="Why WDS background" /> 
+                <img className="flex-image-container width-100" src={CSS}  alt="Why WDS background" /> 
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
@@ -163,7 +163,7 @@ class css_solutions extends Component {
                     </div>
                 </div>
             <div className="item-b container-image-block">
-                <img className="flex-image-container" src={services}  alt="Your Business is Our Joy" /> 
+                <img className="flex-image-container width-100" src={services}  alt="Your Business is Our Joy" /> 
             </div>
             </div>   
                 

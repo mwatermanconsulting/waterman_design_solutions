@@ -12,7 +12,7 @@ class about extends Component {
             <div className="flex-layout-column"> 
                 <div className="flex-layout-section-fixed yellow flex-layout-center-center image-background-border-tb">
                     <div className="header-text-center header-title text-white">Our History</div>
-                        <img className="flex-image-container" src={history}  alt="Why WDS background" /> 
+                        <img className="flex-image-container width-100" src={history}  alt="Why WDS background" /> 
                 </div>
                 <div className="flex-layout-section-full border-bottom-5 align-items-center grey">    
                     <div className="align-items-center  callout-color-dark">

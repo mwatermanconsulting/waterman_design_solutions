@@ -14,7 +14,7 @@ import az from '../images/az.png'
 import KetchHot from '../images/icon-logo-ketchhot.png'
 import wcc from '../images/wcc.png'
 import wtt from '../images/wtt.png'
-import sbk from '../images/smithkline.svg'
+import sbk from '../images/icon-logo-smithkline.svg'
 import gps from '../images/gps.png'
 import investor from '../images/if.png'
 import ncba from '../images/ncba.png'
@@ -29,7 +29,7 @@ class case_studies extends Component {
                     <div className="header-text-center header-title text-white">
                         Case Studies
                     </div>
-                        <img className="flex-image-container" src={caseStudies}  alt="case studies" />     
+                        <img className="flex-image-container width-100" src={caseStudies}  alt="Case Studies" />     
                 </section>
                 <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                     <div className="callout-text-lg">
@@ -39,10 +39,10 @@ class case_studies extends Component {
                 <section className="flex-layout-section-full align-items-center">
                     <div className="flex-layout-column margin-top-25  ">
                         <div className="title flex-layout-center margin-top-25">
-                                Customer Success Spotlight</div>
+                                Client Success Spotlight</div>
                         <div className="content-block width-100 margin-top-25">
                             <p className="subtitle text-align-center">
-                                 Below are some of our favorite case study stories.<br/> Each case study describes the process,  thoughts and solutions for each project </p>
+                                 Our favorite case study stories about our process that made solutions happen </p>
                         </div> 
                     </div>
                 </section>
@@ -68,12 +68,12 @@ class case_studies extends Component {
                         </div>
                         <div className="card-case-studies content-header flex-layout-column flex-sh-500 margin-top-100 margin-bottom-20">
                             <div className="container-image-block">
-                                <img className="image-size-100" src={stubhub}  alt="motorola before and after" /> 
+                                <img className="width-100" src={stubhub}  alt="motorola before and after" /> 
                             </div>
                             <div className="flex-layout-full" style={{marginTop:25}}>
                                 <div className="flex-card-content flex-layout-center-center flex-layout-row flex-layout-justified-sb">
                                     <p className="subtitle text-black">StubHub</p>
-                                    <img className="" src={stubhub_logo}  alt="motorola logo" /> 
+                                    <img className="" src={stubhub_logo}  alt="stubhub logo" /> 
                                 </div>    
                                     <div className="flex-card-content">
                                         <div className="content-block">
@@ -88,7 +88,7 @@ class case_studies extends Component {
                                 </div>
                             </div>
                        </div>
-                            {/* <div className="flex-items-justified-center flex-layout-justified-sa flex-layout-column"> 
+                            <div className="flex-items-justified-center flex-layout-justified-sa flex-layout-column"> 
                                 <div className="card-case-studies content-header flex-layout-column">
                                     <div className="container-image-block">
                                         <img className="image-size-100" src={pfizer}  alt="motorola before and after" /> 
@@ -125,16 +125,13 @@ class case_studies extends Component {
                                                 <p><i> Industry: Technology</i></p>
                                                 <p className="content-text-18 content-block">High Volume of returns plaguing Motorola Gateway Router Product Line. 
                                                 After two failed attempts by UX/UI developers, a frustrated management group decided they needed a designer to make their modem app easier to use. <br/><br/>
-
                                                 <a href="./case_study_4" className="text-black" target="_blank">Read More....</a>   
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
-                                   
-                                
                             </div> 
-                        </div>  */}
+                        </div>  
                 </section>
             <div className="flex-layout-section-full flex-layout-column align-items-center margin-top-50">
 
@@ -248,19 +245,19 @@ class case_studies extends Component {
 
     <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
-            <div className="flex-layout-section-fixed flex-layout-center-center flex-wrap padding-bottom-150">
-                            <img className="image-size-10 margin-left-15" src={stubhub_logo}  alt="Stubhub" />
-                            <img className="image-size-10 margin-left-15" src={az}  alt="AstraZeneca" />  
-                            <img className="image-size-20 margin-left-15" src={pfizer_logo}  alt="Pfizer" />  
-                            <img className="image-size-20 margin-left-15" src={KetchHot}  alt="Ketchhot" /> 
-                            <img className="image-size-20 margin-left-15" src={motorola_logo}  alt="Motorola" /> 
-                            <img className="image-size-10 margin-left-15" src={wtt}  alt="WTT" /> 
-                            <img className="image-size-10 margin-left-15" src={wcc}  alt="WCC" />  
-                            <img className="image-size-30 margin-left-15" src={sbk}  alt="SBK" />
-                            <img className="image-size-20 margin-left-15" src={pii}  alt="PII" />
-                            <img className="image-size-10 margin-left-15" src={investor}  alt="Investorforce" />
-                            <img className="image-size-20 margin-left-15" src={osi_logo}  alt="OSIsoft" />
-                            <img className="image-size-10 margin-left-15" src={ncba}  alt="NCBA" />     
+
+            <div className="flex-layout-section-fixed-lg flex-layout-center-center flex-wrap padding-bottom-150">
+                            <img className="image-size-logo margin-left-15" src={stubhub_logo}  alt="stubhub logo" />
+                            <img className="image-size-logo margin-left-15" src={az}  alt="Astrazeneca logo" />  
+                            <img className="image-size-logo margin-left-15" src={KetchHot}  alt="Ketchhot logo" /> 
+                            <img className="image-size-logo margin-left-15" src={motorola_logo}  alt="Motorola logo" /> 
+                            <img className="image-size-logo margin-left-15" src={gps}  alt="GPS logo" />
+                            <img className="image-size-logo margin-left-15" src={wtt}  alt="World Team Tennis logo" /> 
+                            <img className="image-size-logo margin-left-15" src={wcc}  alt="West Chester Cardiology logo" />  
+                            <img className="image-size-logo margin-left-15" src={sbk}  alt="SmithKline Beecham logo" />
+                            <img className="image-size-logo margin-left-15" src={investor}  alt="Investorforce logo" />
+                            <img className="image-size-logo margin-left-15" src={osi_logo}  alt="OSIsoft logo" />
+                            <img className="image-size-logo margin-left-15" src={ncba}  alt="NCBA logo" />     
             
             </div>
                   

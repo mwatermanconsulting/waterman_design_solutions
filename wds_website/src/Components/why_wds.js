@@ -41,7 +41,7 @@ class why_wds extends Component {
                             Customers always look for the better experience. Meeting their expectations of intuitive, elegant and simple designs built around and for the user will earn their loyalty.</p>
                         </div>
                         <div className="grid-callout-photo grid-placeself-center">
-                            <img className="flex-image-container" src={whys1}  alt="Customer Service" /> 
+                            <img className="flex-image-container width-100" src={whys1}  alt="Customer Service" /> 
                         </div>
                     </div>
                 </section>
@@ -52,7 +52,7 @@ class why_wds extends Component {
                         WDS builds emotionally rich, resonant digital solutions that enable users to fully realize technology’s complete potential, by simplifying everything your customers touch and feel.</p>
                 </div>
                 <div className=" content-block-25">
-                    <img className="flex-image-container" src={why_oh_really}  alt="Your Business is Our Joy" /> 
+                    <img className="flex-image-container width-100" src={why_oh_really}  alt="Your Business is Our Joy" /> 
                 </div>
                 <div className="content-header flex-layout-column">    
                     <p className="title padding-50 text-align-center">
@@ -70,12 +70,12 @@ class why_wds extends Component {
                             about user experiences. Our experience of providing design solutions has given us a successful track record.</p>
                     </div>
                 <div className="2col-photo width-70 grid-placeself-center">
-                        <img src={why_design} className="border-3px" alt="Case Study Image 2"/> 
+                        <img src={why_design} className="border-3px width-100" alt="Case Study Image 2"/> 
                 </div>
                 </div>
                 <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 ">
                     <div className="2col-photo width-70 grid-placeself-center">
-                        <img src={why_business} className="border-3px" alt="Case Study Image 2"/> 
+                        <img src={why_business} className="border-3px width-100" alt="Case Study Image 2"/> 
                     </div>
                     <div className="2col-text grid-placeself-center width-100 margin-left-75">
                         <p className="content-header "> 
@@ -96,34 +96,34 @@ class why_wds extends Component {
                             Enterprise design thinking improves teamwork, allowing members to work more efficiently.</p>
                     </div>
                     <div className="2col-photo width-70 grid-placeself-center">
-                        <img src={why_enterprise} className="border-3px" alt="Case Study Image 2"/> 
+                        <img src={why_enterprise} className="border-3px width-100" alt="Case Study Image 2"/> 
                     </div>
                 </div>
             </section>
             <section className="flex-layout-section-full align-items-center" >
                 <div className="grid-2col-text-photo width-70 margin-top-100 ">
                     <div className="2col-photo width-100 grid-placeself-center">
-                        <img src={whys2} alt="Case Study Image 2"/> 
+                        <img src={whys2} className=" width-100" alt="Case Study Image 2"/> 
                     </div>
                     <div className="2col-text grid-placeself-center width-70">
                         <p className="content-header "> 
                             OUR EXPERIENCE HAS ALLOWED US TO REFINE A METHODOLOGY…</p>
-                        <p className="content-text-24 padding-10">  
+                        <p className="content-text-20 padding-10">  
                             A methodology that reveals the truth about user experiences. Our experience of providing design solutions has given us a successful track record.</p>
                     </div>
                 </div>
 
                 <div className="thin-hr width-70 align-self-center margin-top-100"></div>
 
-                <div className="grid-2col-text-photo align-self-center width-100  margin-tb-100   ">
+                <div className="grid-2col-text-photo align-self-center width-70  margin-tb-100   ">
                     <div className="2col-text grid-placeself-center width-70 margin-left-100">
                         <p className="content-header"> 
                             THE RESULTS PROVE THAT OUR PROCESS WORKS</p>
-                        <p className="content-text-24 padding-10">
+                        <p className="content-text-20 padding-10">
                             We're firm believers in agile and iterative deployments as experiments, but, with longer enterprise launches and even consumer software, there's still valuable data to collect even before that first MVP. Our insights and strategies move you and your team in the right direction, and possibly uncover rewarding new business opportunities.</p>
                     </div>
                     <div className="2col-photo width-100 grid-placeself-center">
-                        <img src={whys3} alt="Case Study Image 2"/> 
+                        <img src={whys3} className="width-100" alt="Case Study Image 2"/> 
                     </div>
                 </div>
             </section>
@@ -262,7 +262,7 @@ class why_wds extends Component {
                         </div>
                     </div>              
                     <div className="2col-photo width-50 grid-placeself-center">
-                        <img className="flex-image-container" src={why_handshake}  alt="Your Business is Our Joy" /> 
+                        <img className="flex-image-container width-100" src={why_handshake}  alt="Your Business is Our Joy" /> 
                         <p className="caption">Thank you WDS!</p>
                     </div>
                 </div>

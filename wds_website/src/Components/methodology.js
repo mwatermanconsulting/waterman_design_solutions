@@ -192,7 +192,7 @@ class practices extends Component {
                         </div>
                         <div className="flex-layout-column">
                             <div className="container-image-block">
-                                <img className="flex-image-container" src  alt="Your Business is Our Joy" /> 
+                                <img className="flex-image-container width-100" src  alt="Your Business is Our Joy" /> 
                             </div>
                         </div>
                     </div>

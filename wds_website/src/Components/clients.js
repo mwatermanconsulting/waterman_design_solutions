@@ -10,7 +10,7 @@ class clients extends Component {
             <div className="flex-layout-section flex-layout-justified-sb">
                     <div className="image-background-border-tb flex-layout-center-center">
                         <div className="flex-image-container flex-layout-center-center">
-                            <img className="flex-image-container" src={pi}  alt="girls picture" /> 
+                            <img className="flex-image-container width-100" src={pi}  alt="girls picture" /> 
                                 </div>
                                 <div className="flex-content-container-split">
                                     <div className="content-header"> 

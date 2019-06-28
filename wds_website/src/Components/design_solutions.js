@@ -39,7 +39,7 @@ class design_solutions extends Component {
                             
                         </div>
                     <div className="grid-callout-photo grid-placeself-center">
-                        <img className="flex-image-container" src={designer}  alt="Your Business is Our Joy" /> 
+                        <img className="flex-image-container width-100" src={designer}  alt="Your Business is Our Joy" /> 
                     </div>
                 </div>
             </div>
@@ -259,7 +259,7 @@ Learn More</p>
 
                         
                     <div className="2col-photo width-70 grid-placeself-center">
-                        <img className="flex-image-container" src={design_therapy}  alt="Ux is the best therapy!" /> 
+                        <img className="flex-image-container width-100" src={design_therapy}  alt="Ux is the best therapy!" /> 
                     </div>
                     </div>
             </div>

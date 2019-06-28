@@ -32,7 +32,7 @@ class services extends Component {
                              
                 </div>
                 <div className="item-b container-image-block">
-                    <img className="flex-image-container" src={together}  alt="Your Business is Our Joy" /> 
+                    <img className="flex-image-container width-100" src={together}  alt="Your Business is Our Joy" /> 
                 </div>
             </div>
             <div className="flex-layout-section-full flex-layout-center-center flex-layout-column margin-top-50">
