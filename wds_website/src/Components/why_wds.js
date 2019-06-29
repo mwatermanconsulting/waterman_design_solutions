@@ -37,8 +37,8 @@ class why_wds extends Component {
                 <section className="flex-layout-section-full align-items-center" >
                     <div className="grid-callout yellow-bg "> 
                         <div className="grid-callout-text grid-placeself-center padding width-70">
-                            <p className="callout-text-black ">
-                            Our design solutions have increased revenues and user retention for clients. We achieve this by using our methodology that connects and allows us to empathize with your users on a deep level. We uncover truths that were previously unknown, bringing into existence, design solutions that engage your customers and earn their trust. </p>
+                            <p className="callout-text text-black">
+                            Our methodology and design solutions are scalable and are so effective that it  works on small companies to start-ups to global enterprises. The results is always “A great experience for the user and an increase in your bottom line”</p>
                         </div>
                         <div className="grid-callout-photo grid-placeself-center">
                             <img className="flex-image-container width-100" src={whys1}  alt="Customer Service" /> 
@@ -47,10 +47,10 @@ class why_wds extends Component {
                 </section>
             <main>
                 <section className="flex-layout-section-full flex-layout-column align-items-center">
-                    <p className="title margin-top-100">
+                    <p className="title margin-top-75">
                         WDS Provides Design Support That Make a Difference </p>
                     <p className="subtitle content-block-60 margin-top-25 flex-layout-column align-items-center">
-                        Our <a href="../clients">client roster</a> includes Motorola, Pfizer, Stubhub, SmithKline, OsiSoft and many more</p>
+                        Our client roster includes Motorola, Pfizer, Stubhub, SmithKline, OsiSoft...</p>
                 </section>
                 <section className="flex-layout-section-full align-items-center" >
                     <div className="grid-2col-text-photo width-70 margin-top-100 ">

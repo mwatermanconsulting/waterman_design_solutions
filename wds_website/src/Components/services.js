@@ -23,16 +23,16 @@ class services extends Component {
             </section>
             <section className="grid-callout yellow-bg"> 
                 <div className="grid-callout-text grid-placeself-center width-70">
-                    <p className="callout-text">Introduce this section and explain to the user why they should read farther. Talk about our knowledge and experience across many different verticals on applications, websites, marketing materials and UX services. All our design solutions and services are with the user in mind and money in yor pocket. 
+                    <p className="callout-text text-black">Introduce this section and explain to the user why they should read farther. Talk about our knowledge and experience across many different verticals on applications, websites, marketing materials and UX services. All our design solutions and services are with the user in mind and money in yor pocket. 
                     </p>     
                 </div>
                 <div className="grid-callout-photo grid-placeself-center">
-                    <img className="flex-image-container width-100" src={together}  alt="Your Business is Our Joy" /> 
+                    <img className="flex-image-container width-100" src={together}  alt="Services" /> 
                 </div>
             </section>
-        <main className="flex-layout-section-full flex-layout-center-center flex-layout-column margin-top-50">
+        <main className="flex-layout-section-full flex-layout-center-center flex-layout-column margin-top-75">
             <section className="flex-layout-section-full flex-layout-column align-items-center">
-                <p className="title margin-top-100">
+                <p className="title">
                     WDS Services Introduction </p>
                 <p className="subtitle content-block-60 margin-top-25">
                     Our services are all-encompassing solutions for your business model and stems out to your website, customer experience,and the visual design of your products and marketing collateral.</p>
@@ -55,26 +55,26 @@ class services extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={services4}  alt="Your Business is Our Joy" /> 
+                        <img className="photo-container width-100 marginleft-minus50" src={services4}  alt="Services" /> 
                     </div>           
                 </section>
 
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
-                <section className="grid-2col-photo-content content-header">
+                <section className="grid-2col-photo-content content-header" style={{marginLeft:'20%'}}>
                     <div className="grid-right-content flex-layout-section-full ">
                         <div className="subtitle">
                             UI Design & Development
                         </div>
-                        <div className="content-block-75 content-text-18">
-                            <p className="content-text-18"> The WDS Digital Marketing team researches, ideates, implements      and optimizes sophisticated web marketing solutions tailored to the specific goals 
+                        <div className="content-block-services content-text-18">
+                            <p className="content-text-18 content-block-75"> The WDS Digital Marketing team researches, ideates, implements and optimizes sophisticated web marketing solutions tailored to the specific goals 
                             and objectives of each of our clients.</p>
-                            <p className="content-text-18">What sets us apart is a genuine understanding of your users.Combining proven digital marketing strategies and user observations, we create and run organized digital marketing campaigns that deliver. Our team cuts through the clutter to create and measure impactful strategies. We ensure your digital marketing campaigns align with your business objectives, and leverage opportunities for innovation and differentiation.</p>      
+                            <p className="content-text-18 content-block-75">What sets us apart is a genuine understanding of your users.Combining proven digital marketing strategies and user observations, we create and run organized digital marketing campaigns that deliver. Our team cuts through the clutter to create and measure impactful strategies. We ensure your digital marketing campaigns align with your business objectives, and leverage opportunities for innovation and differentiation.</p>      
                             <p><i><a href="../ui_design">Learn More</a></i></p>
                         </div>
                     </div>
                         <div className="grid-left-photo container-image-block">
-                            <img className="photo-container" src={services3}  alt="Your Business is Our Joy" /> 
+                            <img className="photo-container" src={services3}  alt="Services" /> 
                         </div>     
                 </section>
 
@@ -87,7 +87,7 @@ class services extends Component {
                         <div className="subtitle">
                                 Design Solutions
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-25">
+                        <div className="content-block-services content-text-18 margin-top-25">
                             <p className="content-text-18"> 
                             An experience strategy provides the direction to design and build an experience that truly resonates with your audience.</p>
                             <p className="content-text-18">
@@ -101,26 +101,26 @@ class services extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={services2}  alt="Your Business is Our Joy" /> 
+                        <img className="photo-container marginleft-minus50" src={services2}  alt="Services" /> 
                     </div>     
                 </section>
                 
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
-                <section className="grid-2col-photo-content content-header">
+                <section className="grid-2col-photo-content content-header" style={{marginLeft:'20%'}}>
                     <div className="grid-right-content flex-layout-section-full ">
                         <div className="subtitle">
                             Strategy and Insight 
                         </div>
                         
-                        <div className="content-block-services" >
-                            <p className="content-text-18">WDS gathers knowledge for our clients to learn where best to invest their resources based on what people value.</p>
+                        <div className="content-block-75" >
+                            <p className="content-text-18 content-block-services">WDS gathers knowledge for our clients to learn where best to invest their resources based on what people value.</p>
                             <p className="content-text-18"><a href="../strategy_insight">Learn More</a></p>     
                         </div>
                         
                     </div>
                     <div className="grid-left-photo container-image-block">
-                        <img className="photo-container" src={services5}  alt="Your Business is Our Joy" /> 
+                        <img className="photo-container" src={services5}  alt="Services" /> 
                     </div>     
                 </section>
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
@@ -138,24 +138,24 @@ class services extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={services2}  alt="Your Business is Our Joy" /> 
+                        <img className="photo-container" src={services2}  alt="Services" /> 
                     </div>     
                 </section>
 
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
-                <section className="grid-2col-photo-content content-header">
+                <section className="grid-2col-photo-content content-header" style={{marginLeft:'20%'}}>
                     <div className="grid-right-content flex-layout-section-full ">
                         <div className="subtitle">
                             Customer Experience
                         </div>
-                        <div className="content-block-services" >
-                            <p className="content-text-18">  The best customer experience starts with the Golden Rule and how you communicate your product — why it exists, who it serves, how it benefits them.</p>
+                        <div className="content-block-75" >
+                            <p className="content-text-18 content-block-75">  The best customer experience starts with the Golden Rule and how you communicate your product — why it exists, who it serves, how it benefits them.</p>
                             <p className="content-text-18"><a href="../core_offerings">Learn More</a> </p>     
                         </div>
                     </div>
                     <div className="grid-left-photo container-image-block">
-                            <img className="photo-container" src={services5}  alt="Your Business is Our Joy" /> 
+                            <img className="photo-container marginleft-minus50" src={services5}  alt="Services" /> 
                     </div>     
                 </section>
             </main>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react' ;
 import strategy from '../images/backgrounds/bg-strategy.png';
-import strategy_graphic from '../images/graphic-strategy.svg';
+import graphic_didyouknow from '../images/graphic-didyouknow.png';
 import together from '../images/photos/photo-why-wds.png';
 import strategy1 from '../images/photos/photo-strategy-s1.png';
 import strategy1a from '../images/photos/photo-strategy-s1a.png';
@@ -76,7 +76,7 @@ class strategy_insight extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={strategy3}  alt="Review" /> 
+                        <img className="photo-container" src={strategy1}  alt="Review" /> 
                     </div>     
                 </div>
 
@@ -153,7 +153,7 @@ class strategy_insight extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={strategy5}  alt="Your Business is Our Joy" /> 
+                        <img className="photo-container" src={strategy4}  alt="Your Business is Our Joy" /> 
                     </div>     
                 </div>
                 
@@ -239,8 +239,7 @@ class strategy_insight extends Component {
                     </div>
                 </div>
             <div className="col2-photo width-70 grid-placeself-center">
-                <img className="flex-image-container width-100" src={strategy_graphic}  alt="Design strategy can save your business" /> 
-                <p className="caption">Does anyone care?"</p>
+                <img className="flex-image-container width-100" src={graphic_didyouknow}  alt="Design strategy can save your business" /> 
             </div>
             </div>   
                 

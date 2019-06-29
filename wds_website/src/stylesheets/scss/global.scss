@@ -89,6 +89,7 @@ li {
     ul.dashed {
       list-style: none;
       padding-left: 0;
+      font-family: 'Roboto';
   }
   
   ul.dashed > li {
@@ -157,7 +158,7 @@ h1 {
 .subtitle {
   font-size: 1.8rem;
   font-weight: 700;
-  line-height: 2.0;
+  line-height: 1.55;
   font-family: 'Roboto';
   color: $sub-title-grey;
 }
@@ -238,7 +239,7 @@ p {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid rgb(106, 106, 106);
+  border-top: 1px solid rgba(106, 106, 106, 0.25);
   padding: 0px;
 }
 
