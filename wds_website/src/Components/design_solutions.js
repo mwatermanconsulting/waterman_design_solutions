@@ -136,31 +136,23 @@ class design_solutions extends Component {
                             <img className="photo-container" src={design_video}  alt="Your Business is Our Joy" /> 
                         </div>     
                 </section>
-               
             </div>
 
-           
-
-            <div className="thin-hr width-70 align-self-center margin-top-100"></div>
-
+            <div className="thin-hr width-70 align-self-center margin-top-100"></div>            
             
-            
-            <div className="flex-layout-section-full align-items-center yellow-bg border-top-5">
-                <div className="grid-2col-text-photo align-self-center width-100  margin-top-50 margin-bottom-50 " > 
+        <div className="flex-layout-section-full align-items-center yellow-bg border-top-5">
+            <div className="grid-2col-text-photo align-self-center width-100  margin-top-50 margin-bottom-50 " > 
                 <div className="col2-text  grid-placeself-center width-70 margin-left-75">
-                    
-                        <div className="content-block">
+                    <div className="content-block">
                             <p className="content-header"> Our CSS solutions relieves the anxiety that most developers and engineers face when they see CSS in their project requirements. </p>
-                        </div>
-                        </div>
-
-                        
-                    <div className="col2-photo width-70 grid-placeself-center">
+                    </div>
+                </div>
+                <div className="col2-photo width-70 grid-placeself-center">
                         <img className="flex-image-container width-100" src={design_therapy}  alt="Ux is the best therapy!" /> 
-                    </div>
-                    </div>
+                </div>
             </div>
         </div>
+    </div>
         )
     }
 }

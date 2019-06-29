@@ -15,8 +15,11 @@
     margin-left: 30px;
 }
 
+.marginleft-minus50{
+    margin-left: -50px;
+}
 .marginleft50{
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 .margin-top-50{
@@ -291,18 +294,30 @@
     width: 25%;
   }
 
+
+  .content-block-50 {
+    width: 50%;
+  }
+
   .content-block-55 {
     width: 55%;
   }
-  .content-block-75 {
+
+
+  
+.content-block-60 {
+  width: 60%;
+}
+
+.content-block-75 {
     width: 75%;
-  }
+}
 
   .content-block-90 {
     width: 90%;
   }
 
-  /*  Alighnment   */
+  /*  Alignment   */
 .align-items-center {
   align-items: center; 
 }

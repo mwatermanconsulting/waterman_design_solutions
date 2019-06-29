@@ -20,7 +20,7 @@ class methodology extends Component {
         return(
             
           
-        <div className="flex-layout-column margin-bottom-50 m,a"> 
+        <div className="flex-layout-column  m,a"> 
             <div className="flex-section-fixed-head">
                 <div className="image-background-border-tb">
                     <div className="flex-image-container flex-item-bottom">
@@ -43,23 +43,24 @@ class methodology extends Component {
                     <div className="grid-callout yellow-bg "> 
                         <div className="grid-callout-text grid-placeself-center  width-70">
                             <p className="callout-text text-black">
-                            WDS methodology produces results that can drive businesses by enlightening stakeholders on their users’ wants, needs and desires on a real level. We find the truth to your users' happiness by connecting and engaging with them on a deep level.
- </p>
+                            The goal is to understand the problems and issues of the product, website or application. Our methodology finds the truth and uncovers deeper issues by connecting with your users. </p>
                         </div>
                         <div className="grid-callout-photo grid-placeself-center">
                             <img className="flex-image-container width-100" src={method1}  alt="Customer Service" /> 
                         </div>
                     </div>
                 </section>
+
             <div className="flex-layout-section-full flex-layout-column align-items-center">
+
                 <section className="flex-layout-content-container flex-layout-column margin-top-100 flex-layout-center-center">
-                    <div className="content-header flex-layout-column content-block-75">    
+                    <div className="content-header flex-layout-column content-block-100">    
                         <div className="title flex-layout-center"> 
                             WDS reveals the truth
                         </div>
-                    <div className="width-100 margin-top-50">
-                        <p className="content-text-18">Connecting with the users requires old-fashioned customer service. Let's go back to a time when you knew your customers, and treated them with kindness and respect. Observing and   interacting with your customers helps you intuitively understand their needs.</p> 
-                        <p>Our methodology has produced lasting results for the clients and their users. The answers you find will deeply affect your users and your business by clarifying business design solutions that drive transformation. </p>
+                    <div className="content-block-100 margin-top-15">
+                        <p className="content-text-18 text-align-center">
+                            The science of understanding people has developed for centuries, but not enough has been done to integrate these approaches into the process of software design. For more than a decade, we have refined a scalable, flexible methodology that centers on answering questions about customers by connecting and understanding people, observing their daily workflow, by interviewing and conversing with them we begin  to identify people’s needs, behaviors and aspirations. This provides a perspective on customers that clients typically have never seen.. </p>
                     </div>
                     </div>
                 </section>
@@ -74,12 +75,12 @@ class methodology extends Component {
                         Overview of the WDS Methodology
                         </div>
                     <div className="width-100 margin-top-50">
-                    <p className="content-text-18">Our methodology has produced lasting results for the clients and their users. The answers you find will deeply affect your users and your business by clarifying business design solutions that drive transformation. </p>
+                    <p className="content-text-18 text-align-center">Our methodology has produced lasting results for the clients and their users. The answers you find will deeply affect your users and your business by clarifying business design solutions that drive transformation. </p>
                     </div>
                     </div>
                 </section>
                 
-                <section className="grid-2col-photo-content content-header margin-top-50">
+                <section className="grid-2col-photo-content content-header margin-top-100">
                     
                     <div className="grid-left flex-layout-section-full">
                         <div className="subtitle">
@@ -87,7 +88,7 @@ class methodology extends Component {
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-15">
                             <p className="content-text-18"> 
-                            The first phase of the methodology establishes the foundation. It is all about the business and how the business relates to the users and how design relates to the business</p>
+                            The first phase of the methodology establishes the foundation. It is all about the business and how it relates to the users. It's how design relates to the business.</p>
                             
                             <ul className="dashed">
                              <li>Kickoff Meeting</li>
@@ -96,35 +97,35 @@ class methodology extends Component {
                              <li>Style Guides and Company Standards</li>
                              <li>Understand business and business needs</li>
                              <li>Current UI Design Critique</li>
-                             <li>Competition</li>
+                             <li>Competition Research</li>
                              <li>Highlight problems</li>
                              <li>Develop list of business questions for people in charge</li>
                             </ul>
 
                             <p className="content-text-12 margin-top-15">
-                             <i>This is the Begins the foundation that successfully supports your product or service.</i></p>
+                             <i>This is the Beginning the foundation that successfully supports your product or service.</i></p>
                                     
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={methodology3}  alt="Methodology" /> 
+                        <img className="photo-container marginleft-minus50" src={methodology3}  alt="Methodology" /> 
                     </div>     
                 </section>
                 
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
-                <section className="grid-2col-photo-content content-header">
+                <section className="grid-2col-photo-content content-header flex-layout-center" style={{marginLeft:'20%'}}>
                     <div className="grid-right-content flex-layout-section-full ">
                         <div className="subtitle">
                             Discovery
                         </div>
                         
-                        <div className="content-block-services" >
-                            <p className="content-text-18">
+                        <div className="content-block-75" >
+                            <p className="content-text-18 content-block-75">
                             The discovery phase is all about the user. The research continues into the discovery phase. During this phase we begin to understand and emphasize with the user and the truth becomes clear.
                             </p>
 
-                            <ul className="dashed">
+                            <ul className="dashed content-block-75">
                                 <li>Empathize and Understand the User Journey</li>
                                 <li>User Questions/Interviews</li>
                                 <li>Observational Fieldwork</li>
@@ -166,20 +167,20 @@ class methodology extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={methodology5}  alt="Methodology" /> 
+                        <img className="photo-container marginleft-minus50" src={methodology5}  alt="Methodology" /> 
                     </div>     
                 </section>
 
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
-                <section className="grid-2col-photo-content content-header">
+                <section className="grid-2col-photo-content content-header flex-layout-center" style={{marginLeft:'20%'}}>
                     <div className="grid-right-content flex-layout-section-full ">
                         <div className="subtitle">
                             Design Solutions
                         </div>
-                        <div className="content-block-services" >
-                            <p className="content-text-18">
-                            This is the phase that emcompasses all the research and discovery findings to simplify and design a user interface based on the user expectations and the business needs.</p>
+                        <div className="content-block-75" >
+                            <p className="content-text-18 content-block-75">
+                            This is the phase that encompasses all the research and discovery findings to simplify and design a user interface based on the user expectations and the business needs.</p>
 
                             <ul className="dashed">
                                 <li>Design Solutions based on research and discovery</li>
@@ -217,21 +218,21 @@ class methodology extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={methodology7}  alt="Methodology" /> 
+                        <img className="photo-container marginleft-minus50" src={methodology7}  alt="Methodology" /> 
                     </div>     
                 </section>
 
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
-                <section className="grid-2col-photo-content content-header">
+                <section className="grid-2col-photo-content content-header" style={{marginLeft:'20%'}}>
                     <div className="grid-right-content flex-layout-section-full ">
                         <div className="subtitle">
                                 User Testing
                         </div>
                         
-                        <div className="content-block-services" >
-                            <p className="content-text-18">
-                            The testing phase reveals if we answered all the questions, reduced the pain points and matched expectations. This phase will last the entire development phase and beyond.
+                        <div className="content-block-75" >
+                            <p className="content-text-18 content-block-75">
+                            The testing phase reveals if we answered all the questions, reduced the pain points and matched expectations. This phase will last the entire development phase and never stop.
                             </p>
 
                             <ul className="dashed">
@@ -278,20 +279,20 @@ class methodology extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={methodology9}  alt="Methodology" /> 
+                        <img className="photo-container marginleft-minus50" src={methodology9}  alt="Methodology" /> 
                     </div>     
                 </section>
 
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
-                <section className="grid-2col-photo-content content-header">
+                <section className="grid-2col-photo-content content-header" style={{marginLeft:'20%'}}>
                     <div className="grid-right-content flex-layout-section-full ">
                         <div className="subtitle">
                                 Design Support
                         </div>
                         
                         <div className="content-block-services" >
-                            <p className="content-text-18">
+                            <p className="content-text-18 content-block-75">
                                 WDS offers customer experience strategies based off the research findings. WDS offers a full line of design services to ensure cohesion and consistency in your branding message.
                             </p>
 
@@ -336,34 +337,34 @@ class methodology extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={methodology11}  alt="Methodology" /> 
+                        <img className="photo-container marginleft-minus50" src={methodology11}  alt="Methodology" /> 
                     </div>     
                 </section>
             </div>
 
 
                 <section className="flex-layout-section-full padding yellow-bg image-background-border-tb margin-top-100">
-                    <div className="content-header flex-layout-center width-100">
+                    <div className="content-header flex-layout-center margin-tb-100 width-100">
                         <div className="callout-text text-black">
-                            Our system is so efficient that it works on start up companies as well as global enterprises. 
+                            Our process is so efficient that it scales from start-up companies to global enterprises. 
                         </div>
                     </div> 
                 </section>
-                <section className="grid-2col-photo-text content-header">
-                    <div className="col2-text flex-layout-section-full">
-                        <div className="subtitle">
+
+                <section className="flex-layout-section-full align-items-center margin-tb-100">
+                    
+                    <div className="grid-2col-photo-text align-self-center width-70 ">
+                    <div className="col2-photo width-70 grid-placeself-center">
+                        <img src={featured} className="border-3px width-100" alt="Case Study Image 2"/> 
+                    </div>
+                    <div className="2col-text grid-placeself-center width-100 margin-left-75">
+                    <div className="subtitle">
                         Design is more critical to your business success. Competition and user expectations have increased, and your only chance of survival is meeting it head on.
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-25">
-                            <p className="content-text-18"> 
-                                WDS has the honour of being the third option on quite a few projects, including the stubhub project. Many times the previous experiences were unsuccessful not meeting business or users needs. It's not easy to follow unsuccessful design projects. Developers and stakeholders are on edge, but our team empathizes with the situation. Once we begin our methodology and advocating for the users we begin connecting with the developers and stakeholders, amazing things begin happen.</p>
-
-                            
-                        </div>
+                        <p className="content-text-18"> 
+                        WDS has the honour of being the third option on quite a few projects, including the stubhub project. Many times the previous experiences were unsuccessful not meeting business or users needs. It's not easy to follow unsuccessful design projects. Developers and stakeholders are on edge, but our team empathizes with the situation. Once we begin our methodology and advocating for the users we begin connecting with the developers and stakeholders, amazing things begin happen.</p>
                     </div>
-                    <div className="col2-photo grid-placeself-center">
-                        <img className="width-50 " src={featured}  alt="Methodology" /> 
-                    </div>     
+                </div>     
             </section>
             <section className="flex-layout-section-full align-items-center yellow-bg border-top-5">
                 <div className="grid-2col-text-photo align-self-center width-100  margin-top-50 " > 

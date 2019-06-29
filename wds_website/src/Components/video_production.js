@@ -20,17 +20,19 @@ class video_production extends Component {
                 Videos drive action in your marketing strategy on social media
                 </div>
             </div>
-            <section className="flex-layout-section-full photo-content-color align-items-center" style={{height:'670px'}}> 
-                <div className=" grid-2col-text-photo align-items-center margin-tb-100 width-70">
-                <div className="content-block  col2-text ">
-                    <div className="callout-text text-align-left text-white">Video can tell a story in a way that is unmatched by any other media. It is what your users relate to the most.</div>
-                             
-                </div>
-                <div className="col2-photo width-100 grid-placeself-center">
-                    <img className="container-photo-callout" src={video_s1}  alt="Video" /> 
-                </div>
-                </div>
-            </section>
+            
+            <section className="container-grid-2col-photo flex-layout-column margin-bottom-100 flex-layout-center-center            photo-content-color" style={{height:'715px'}}>
+                        <div className="grid-2col-text-photo width-70 margin-top-50 flex-section-align-center">
+                            <div className="content-block-why col2-text ">
+                                    <p className="content-text-24 text-white"> Video can tell a story in a way that is unmatched by any other media. It is what your users relate to the most.
+                                    </p>
+                            </div>
+                        <div className="col2-photo grid-placeself-center">
+                            <img className="container-photo-callout" src={video_s1} alt="Video"/> 
+                            <p className="caption">Image by Bruno Glätsch from Pixabay</p>
+                        </div>
+                    </div>
+                </section>
                 
             
     
