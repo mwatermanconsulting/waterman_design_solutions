@@ -8,7 +8,7 @@ import spotlight2 from '../images/photos/photo-ux-uncover-truth.png';
 class ux_design extends Component {
     render () {
         return(
-            <div className="flex-layout-column flex-items-align-center"> 
+            <div className="flex-layout-column"> 
                 <section className="flex-section-fixed-head flex-layout-center-center  image-background-border-tb">
                     <div className="header-text-center header-title text-white">
                             UX Design
@@ -34,13 +34,13 @@ class ux_design extends Component {
                     </div>
                 </section>
             <main>
-                <section className="flex-layout-section-full flex-layout-center-center margin-top-100 border-2" style={{marginLeft:'25%'}}>
+                <section className="flex-layout-section-full flex-layout-center-center margin-top-100 border-2 grey-blue" style={{marginLeft:'25%'}}>
                     <div className="subtitle margin-top-25">
                         Real UX is Old School Customer Service 
                     </div>
                     <div className="content-block-60 margin-top-25">
                         <p className="content-text-18"> 
-                        The vision for the WDS is old meets new. This is why we choose to give the WDS site the “old look and feel” because we combine old school business values and old school customer service to UX. WDS method for UX is old school customer service. Understanding real world customer service of talking and observing people. Emphasizing with them when they struggle or fail. Keeping in mind that every customer, has a goal or task to complete helps to empathize with them through their journey, using that knowledge of the customers to systematically make that experience better across all customers touchpoints.</p>
+                        The vision for the WDS is old meets new. Our vision for the WDS site was to convey the message of old school business values and old school customer service to UX. WDS method for UX mixes traditional customer service. Having UX designs on staff that knows and understand customer service has helped define our methodology. Understanding real world customer service of talking and observing people. Emphasizing with them when they struggle or fail. Keeping in mind that every customer, has a goal or task to complete helps to empathize with them through their journey, using that knowledge of the customers to systematically make that experience better across all customers touchpoints.</p>
                     </div>         
                     <div className="grid-2col-text margin-top-25" >
                         <div className="grid-title subtitle margin-bottom-20">
@@ -67,11 +67,11 @@ class ux_design extends Component {
                             Find out the Truth</div>
                     </div>
                 </section>
-            
-                <div className="thin-hr width-70 align-self-center margin-top-100"></div>
 
-                <section className="content-header flex-layout-center-center flex-layout-column margin-top-100 ">
-                    <div className="flex-layout-center-center title  content-block-60">
+                <section className="content-header flex-layout-center-center flex-layout-column">
+                
+                <div className="thin-hr width-70 align-self-center margin-top-100 margin-bottom-100"></div>
+                    <div className="flex-layout-center-center title content-block-60">
                         Empathy Sparks Innovations 
                     </div>
                     <div className="content-block-55 margin-top-50">
@@ -89,20 +89,22 @@ class ux_design extends Component {
                     </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-100"></div>
-
                 <section className="content-header flex-layout-center-center flex-layout-column margin-top-100 ">
                     <div className="flex-layout-center-center title content-block-60">
                     An effective customer experience is one built with intention that takes into account all of the various touchpoints and tasks that a customer Journey.
                     </div>
                 </section>
-                <section className="content-header flex-layout-center-center flex-layout-column margin-top-100 ">
-                    <div className="flex-layout-center-center title  content-block-60">
-                    </div>
-                    <div className="grid-content-2">
+                <section className=" content-header flex-layout-center-center flex-layout-column margin-top-100 ">
+                    <div className="grid-2col-callout flex-layout-center-center title content-block-60">
+                   
+                    <div className="callout1">
                     <img className="container-spotlight"  src={spotlight1}  alt="Spotlight" />
+                    </div> 
+                    <div className="grid-right">
                     <img className="" src={spotlight2}  alt="Spotlight" />
-                    </div>
+                   </div> 
+                   
+                </div>
                 </section>
 
                 <div className="thin-hr width-70 align-self-center margin-top-100"></div>

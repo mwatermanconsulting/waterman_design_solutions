@@ -1,7 +1,6 @@
 import React, { Component } from 'react' ;
 import method from '../images/backgrounds/bg-methodology.svg';
 import methodolgy_graphic from '../images/graphic-methodology.svg';
-import methodology2 from '../images/photos/photo-methodology-s2.png';
 import methodology3 from '../images/photos/photo-methodology-s3.png';
 import methodology4 from '../images/photos/photo-methodology-s4.png';
 import methodology5 from '../images/photos/photo-methodology-s5.png';
@@ -18,9 +17,7 @@ import featured from '../images/photos/photo-methodology-featured-motorola.png';
 class methodology extends Component {
     render () {
         return(
-            
-          
-        <div className="flex-layout-column  m,a"> 
+        <div className="flex-layout-column"> 
             <div className="flex-section-fixed-head">
                 <div className="image-background-border-tb">
                     <div className="flex-image-container flex-item-bottom">
@@ -33,7 +30,7 @@ class methodology extends Component {
                         <div className="content-header flex-layout-column">    
                             <div className="content-block width-75">
                                 <div className=" text-white text-align-center">
-                                PASSION, HEART and EMPATHY are real values in our methodology
+                                What is the role of empathy in your business?
                                 </div>
                             </div>
                         </div>
@@ -43,6 +40,7 @@ class methodology extends Component {
                     <div className="grid-callout yellow-bg "> 
                         <div className="grid-callout-text grid-placeself-center  width-70">
                             <p className="callout-text text-black">
+                            PASSION, HEART and EMPATHY are the real values in our methodology.
                             The goal is to understand the problems and issues of the product, website or application. Our methodology finds the truth and uncovers deeper issues by connecting with your users. </p>
                         </div>
                         <div className="grid-callout-photo grid-placeself-center">
@@ -58,7 +56,7 @@ class methodology extends Component {
                         <div className="title flex-layout-center"> 
                             WDS reveals the truth
                         </div>
-                    <div className="content-block-100 margin-top-15">
+                    <div className="content-block-100 margin-top-25">
                         <p className="content-text-18 text-align-center">
                             The science of understanding people has developed for centuries, but not enough has been done to integrate these approaches into the process of software design. For more than a decade, we have refined a scalable, flexible methodology that centers on answering questions about customers by connecting and understanding people, observing their daily workflow, by interviewing and conversing with them we begin  to identify people’s needs, behaviors and aspirations. This provides a perspective on customers that clients typically have never seen.. </p>
                     </div>
@@ -69,13 +67,13 @@ class methodology extends Component {
                     <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
 
                     </div>
-                    <section className="flex-layout-content-container flex-layout-column flex-layout-center-center">
+                <section className="flex-layout-content-container flex-layout-column flex-layout-center-center">
                     <div className="content-header flex-layout-column content-block-75">    
                         <div className="title flex-layout-center"> 
-                        Overview of the WDS Methodology
+                            Overview of the WDS Methodology
                         </div>
-                    <div className="width-100 margin-top-50">
-                    <p className="content-text-18 text-align-center">Our methodology has produced lasting results for the clients and their users. The answers you find will deeply affect your users and your business by clarifying business design solutions that drive transformation. </p>
+                    <div className="width-100 margin-top-25">
+                    <p className="content-text-18 text-align-center">Our methodology has produced lasting results for the clients and       their users. The answers you find will deeply affect your users and your business by clarifying business          design solutions that drive transformation. </p>
                     </div>
                     </div>
                 </section>
@@ -89,29 +87,28 @@ class methodology extends Component {
                         <div className="content-block-75 content-text-18 margin-top-15">
                             <p className="content-text-18"> 
                             The first phase of the methodology establishes the foundation. It is all about the business and how it relates to the users. It's how design relates to the business.</p>
-                            
-                            <ul className="dashed">
-                             <li>Kickoff Meeting</li>
-                             <li>Business Requirements</li>
-                             <li>Marketing Materials</li>
-                             <li>Style Guides and Company Standards</li>
-                             <li>Understand business and business needs</li>
-                             <li>Current UI Design Critique</li>
-                             <li>Competition Research</li>
-                             <li>Highlight problems</li>
-                             <li>Develop list of business questions for people in charge</li>
-                            </ul>
-
-                            <p className="content-text-12 margin-top-15">
-                             <i>This is the Beginning the foundation that successfully supports your product or service.</i></p>
+                        
+                                <ul className="dashed">
+                                    <li>Kickoff Meeting</li>
+                                    <li>Business Requirements</li>
+                                    <li>Marketing Materials</li>
+                                    <li>Style Guides and Company Standards</li>
+                                    <li>Understand business and business needs</li>
+                                    <li>Current UI Design Critique</li>
+                                    <li>Competition Research</li>
+                                    <li>Highlight problems</li>
+                                    <li>Develop list of business questions for people in charge</li>
+                                </ul>
                                     
                         </div>
                     </div>
+
                     <div className="grid-right container-image-block">
                         <img className="photo-container marginleft-minus50" src={methodology3}  alt="Methodology" /> 
-                    </div>     
+                    </div>  
+
                 </section>
-                
+
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
                 <section className="grid-2col-photo-content content-header flex-layout-center" style={{marginLeft:'20%'}}>
@@ -355,14 +352,14 @@ class methodology extends Component {
                     
                     <div className="grid-2col-photo-text align-self-center width-70 ">
                     <div className="col2-photo width-70 grid-placeself-center">
-                        <img src={featured} className="border-3px width-100" alt="Case Study Image 2"/> 
+                       <a href= "./case_study_1"><img src={featured} className="border-3px width-100" alt="Case Study Image 2"/></a> 
                     </div>
                     <div className="2col-text grid-placeself-center width-100 margin-left-75">
                     <div className="subtitle">
-                        Design is more critical to your business success. Competition and user expectations have increased, and your only chance of survival is meeting it head on.
+                         WDS Methodology Uncovered and Solved Motorola's Design Problems
                         </div>
                         <p className="content-text-18"> 
-                        WDS has the honour of being the third option on quite a few projects, including the stubhub project. Many times the previous experiences were unsuccessful not meeting business or users needs. It's not easy to follow unsuccessful design projects. Developers and stakeholders are on edge, but our team empathizes with the situation. Once we begin our methodology and advocating for the users we begin connecting with the developers and stakeholders, amazing things begin happen.</p>
+                        A design problem with Motorola Surfboard Cable Modem product line was on the verge of losing money due to high return rate and a high spike in call center calls. After two failed attempts and years of complacency, Motorola stakeholders decided to bring in a consultant with design and UX experience wiht a proven methodology.  <a href= "./case_study_1"> For the full story....</a></p>
                     </div>
                 </div>     
             </section>

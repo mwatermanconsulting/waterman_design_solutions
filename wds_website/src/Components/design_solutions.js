@@ -49,7 +49,7 @@ class design_solutions extends Component {
                         "A consistent experience is a better experience.” - Mark Eberman
                     </p>   
                         <p className="subtitle padding-50 text-align-center">
-                        WDS offers custom design services based around the user and methodology research findings. WDS offers a full line of design services to ensure there cohesion and consistency in your branding message.
+                        When design determines success, understanding the user is paramount.<br/> We design to connect people with what matters most to them. We design with a purpose.
                         </p>
                 </div>
             </div>
@@ -64,10 +64,10 @@ class design_solutions extends Component {
                         Website Design
                     </div>
                     <div className="content-block-75 content-text-18 margin-top-25">
-                        <p className="content-text-18"> When design determines success, understanding the user is paramount. We design to connect people with what matters most to them. </p>
-                        <p className="content-text-18">Our design experts use experience strategy and insight to define how software functions and build workflows for the ways that people will experience it. 
+                        <p className="content-text-18"> WDS began designing website in over twenty years ago. We have designed and developed hundreds of website over years. Understanding from the beginning the importance that a website would have being the hub of a digital marketing.  </p>
+                        <p className="content-text-18"> We were one of the first companies to apply UX principles to our website designs. Our tagline twenty years ago was "the evolution of design". The thought was we were bringing traditional graphic design principles to the new digital medium.
                         </p>
-                        <p className="content-text-18">For the visual representation, we create a uniquely identifiable and recognizable design by incorporating elements like brand, familiar fonts and emotions that resonate with users.</p>
+                        <p className="content-text-18">We have been a leader in website design and front end development for twenty years. Our website design solutions are part of our design solutions packages. </p>
 
                         <p><i><a href="../website_design">Learn More</a> </i></p>
                     </div>
@@ -85,9 +85,9 @@ class design_solutions extends Component {
                             Graphic Design
                         </div>
                         <div className="content-block-75 content-text-18">
-                            <p className="content-text-18"> The WDS Digital Marketing team researches, ideates, implements      and optimizes sophisticated web marketing solutions tailored to the specific goals 
-                            and objectives of each of our clients.</p>
-                            <p className="content-text-18">What sets us apart is a genuine understanding of your users.Combining proven digital marketing strategies and user observations, we create and run organized digital marketing campaigns that deliver. Our team cuts through the clutter to create and measure impactful strategies. We ensure your digital marketing campaigns align with your business objectives, and leverage opportunities for innovation and differentiation.</p>      
+                            
+                            <p className="content-text-18"> From business cards to Robot magazines to Labels for SmithKline WDS understands that there is still a place for the traditional print materials</p>
+
                             <p><i><a href="../graphic_design">Learn More</a></i></p>
                         </div>
                     </div>
@@ -99,16 +99,14 @@ class design_solutions extends Component {
                 <div className="flex-layout-section align-self-center thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
 
-                <section className="grid-2col-photo-content content-header">
+            <section className="grid-2col-photo-content content-header">
                 <div className="grid-left flex-layout-section-full">
                     <div className="subtitle">
                             Social Marketing
                     </div>
                     <div className="content-block-75 content-text-18 margin-top-25">
-                        <p className="content-text-18"> When design determines success, understanding the user is paramount. We design to connect people with what matters most to them. </p>
-                        <p className="content-text-18">Our design experts use experience strategy and insight to define how software functions and build workflows for the ways that people will experience it. 
-                        From inception through launch, we obsess over every detail.</p>
-                        <p className="content-text-18">For the visual representation, we create a uniquely identifiable and recognizable design by incorporating elements like brand, familiar fonts and emotions that resonate with users.</p>
+                        <p className="content-text-18">
+                            Our goal is to identify the right approach for your unique target audiences on social media. We plan, develop, and execute innovative social media marketing strategies that build a meaningful experience for your users. </p>
 
                         <p><i><a href="../marketing">Learn More</a> </i></p>
                     </div>
@@ -120,15 +118,15 @@ class design_solutions extends Component {
 
                 <div className="flex-layout-section align-self-center thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
-                <section className="grid-2col-photo-content content-header">
-                    <div className="grid-right-content flex-layout-section-full ">
-                        <div className="subtitle">
-                            Video Production
-                        </div>
-                        <div className="content-block-75 content-text-18">
-                            <p className="content-text-18"> The WDS Digital Marketing team researches, ideates, implements      and optimizes sophisticated web marketing solutions tailored to the specific goals 
+            <section className="grid-2col-photo-content content-header">
+                <div className="grid-right-content flex-layout-section-full ">
+                    <div className="subtitle">
+                         Video Production
+                    </div>
+                    <div className="content-block-75 content-text-18">
+                        <p className="content-text-18"> The WDS Digital Marketing team researches, ideates, implements      and optimizes sophisticated web marketing solutions tailored to the specific goals 
                             and objectives of each of our clients.</p>
-                            <p className="content-text-18">What sets us apart is a genuine understanding of your users.Combining proven digital marketing strategies and user observations, we create and run organized digital marketing campaigns that deliver. Our team cuts through the clutter to create and measure impactful strategies. We ensure your digital marketing campaigns align with your business objectives, and leverage opportunities for innovation and differentiation.</p>      
+                        <p className="content-text-18">What sets us apart is a genuine understanding of your users.Combining proven digital marketing strategies and user observations, we create and run organized digital marketing campaigns that deliver. Our team cuts through the clutter to create and measure impactful strategies. We ensure your digital marketing campaigns align with your business objectives, and leverage opportunities for innovation and differentiation.</p>      
                             <p><i><a href="../video_production">Learn More</a></i></p>
                         </div>
                     </div>

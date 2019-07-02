@@ -38,7 +38,7 @@ class css_solutions extends Component {
                     <img className="container-photo-callout" src={casscade}  alt="css code" /> 
                 </div>
             </section>
-            <div className="content-header flex-layout-center-center flex-layout-column margin-bottom-100">
+            <section className="content-header flex-layout-center-center flex-layout-column margin-bottom-100">
                 <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-50">
                         WDS CSS Solutions saves time and develops lean, scalable solutions.
                 </div>
@@ -48,12 +48,12 @@ class css_solutions extends Component {
                 </div>
                 <button type="button" className="margin-top-50 font-size-24"><a href="case_study_4">
                     OsiSoft CSS Case Study </a></button>
-            </div>
+            </section>
+
+            <div className="flex-layout-section thin-hr flex-layout-center margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
+           
             <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">
                 
-            <div className="flex-layout-section thin-hr margin-bottom-100" style={{ width: '85%' }}></div>
-                
-
                 <div className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title">

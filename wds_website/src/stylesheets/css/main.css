@@ -1968,6 +1968,22 @@ callout-bg-s1 {
   width: 1368px;
   height: 768px; }
 
+.grid-2col-callout {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 50px;
+  display: grid; }
+
+.callout1 {
+  grid-column: 1/2;
+  grid-row: 1/1;
+  justify-content: center; }
+
+.callout2 {
+  grid-column: 2/2;
+  grid-row: 1/1;
+  justify-content: center; }
+
 .container-grid-2col-photo-services {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
