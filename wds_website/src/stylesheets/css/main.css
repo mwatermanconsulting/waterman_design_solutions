@@ -1622,6 +1622,9 @@ Button:hover {
 .grid-placeself-center {
   place-self: center; }
 
+.grid-placeself-right {
+  place-self: right; }
+
 .grid-bottom-1 {
   grid-column: 1/2;
   grid-area: image; }

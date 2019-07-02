@@ -29,7 +29,7 @@ class marketing extends Component {
             <div className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
                 <div className="grid-item-b content-block-60 content-header flex-layout-column">
                     <div className="callout-text text-align-left text-white">
-                       There has been a big shift in marketing. It use to be all about the product or application. Marketing is following the trend in UX/UI design and marketing is now human centric. WDS applies the same principles and methods to marketing strategies as we do for UX.  </div>
+                       There has been a big shift in marketing. It use to be all about the product or application. Today's marketing  is now human centric. All about the user and values. WDS applies the same principles and methods to marketing strategies as we do for UX design.   </div>
                              
                 </div>
                 <div className="item-a-nb container-image-block">
@@ -43,7 +43,7 @@ class marketing extends Component {
                 </div>
                 <div className="content-block-55 margin-top-50">
                     <p className="content-text-24 text-align-center">
-                        WDS understands people. Our methodology gives a voice to the your users, your customers. Those people whose daily lives are effected by the use of your application or product. Your marketing campaign should be a clear vision of who you are as a company, why you started the business, who did you envision using your idea. Every business has a story. We will define a marketing strategy based on research, data with a clear vision that reflects embrace and reflect real human values.</p>
+                        WDS understands people. Our methodology gives a voice to the your users, your customers. Those people whose daily lives are effected by the use of your application or product. Your marketing campaign should be a clear vision of who you are as a company, why you started the business, who did you envision using your idea. Every business has a story. We will define a marketing strategy based on research, data with a clear vision that reflects and embraces real human values.</p>
                 </div>
             </div>
             <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">

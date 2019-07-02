@@ -41,7 +41,8 @@ class methodology extends Component {
                         <div className="grid-callout-text grid-placeself-center  width-70">
                             <p className="callout-text text-black">
                             PASSION, HEART and EMPATHY are the real values in our methodology.
-                            The goal is to understand the problems and issues of the product, website or application. Our methodology finds the truth and uncovers deeper issues by connecting with your users. </p>
+                            Our goal is to enlighten you on your users, business and competition. To help your company build a culture where design is as important as sales. Where the user is a partner on all design decisions.
+                            Your customers are human, with human values, needs and desires. Your company was built by humans and has a set of values. WDS will bring the values of the users and the business </p>
                         </div>
                         <div className="grid-callout-photo grid-placeself-center">
                             <img className="flex-image-container width-100" src={method1}  alt="Customer Service" /> 
