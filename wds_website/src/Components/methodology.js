@@ -40,7 +40,7 @@ class methodology extends Component {
                     <div className="grid-callout yellow-bg "> 
                         <div className="grid-callout-text grid-placeself-center  width-70">
                             <p className="callout-text text-black">
-                            PASSION, HEART and EMPATHY are the real values in our methodology.
+                            PASSION and EMPATHY are core of our business and is at the heart of our methodology.
                             Our goal is to enlighten you on your users, business and competition. To help your company build a culture where design is as important as sales. Where the user is a partner on all design decisions.
                             Your customers are human, with human values, needs and desires. Your company was built by humans and has a set of values. WDS will bring the values of the users and the business </p>
                         </div>

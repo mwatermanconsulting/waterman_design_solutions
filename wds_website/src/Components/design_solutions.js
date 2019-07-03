@@ -54,7 +54,7 @@ class design_solutions extends Component {
                 </div>
             </div>
 
-            <div className="thin-hr width-70 align-self-center"></div>
+            <div className="thin-hr align-self-center" style={{ width: '75%' }}></div>
 
             <div className="flex-layout-section-full margin-top-100 ">
 
@@ -64,10 +64,9 @@ class design_solutions extends Component {
                         Website Design
                     </div>
                     <div className="content-block-75 content-text-18 margin-top-25">
-                        <p className="content-text-18"> WDS began designing website in over twenty years ago. We have designed and developed hundreds of website over years. Understanding from the beginning the importance that a website would have being the hub of a digital marketing.  </p>
-                        <p className="content-text-18"> We were one of the first companies to apply UX principles to our website designs. Our tagline twenty years ago was "the evolution of design". The thought was we were bringing traditional graphic design principles to the new digital medium.
-                        </p>
-                        <p className="content-text-18">We have been a leader in website design and front end development for twenty years. Our website design solutions are part of our design solutions packages. </p>
+                        <p className="content-text-18"> WDS has been designing and developing human centric websites for close to 20 years. We always understood that a website is the hub of your marketing campaign. Creating a positive enjoyable experience on your website is critical to new customer acquisition or retaining customers by providing answers to questions. </p>
+            
+                        <p className="content-text-18">Our websites are always on the cutting edge. WDS was providing UX research to our clients before UX was a term. We were provided a responsive solution to Motorola 10 years ago. WDS was one of the first to develop a enterprise CSS flexbox solution. </p>
 
                         <p><i><a href="../website_design">Learn More</a> </i></p>
                     </div>
@@ -80,12 +79,11 @@ class design_solutions extends Component {
                 <div className="flex-layout-section align-self-center thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
                 <section className="grid-2col-photo-content content-header">
-                    <div className="grid-right-content flex-layout-section-full ">
+                    <div className="grid-right-content flex-layout-section-full margin-left-15per">
                         <div className="subtitle">
                             Graphic Design
                         </div>
-                        <div className="content-block-75 content-text-18">
-                            
+                        <div className="content-block-75">
                             <p className="content-text-18"> From business cards to Robot magazines to Labels for SmithKline WDS understands that there is still a place for the traditional print materials</p>
 
                             <p><i><a href="../graphic_design">Learn More</a></i></p>
@@ -97,7 +95,6 @@ class design_solutions extends Component {
                 </section>
 
                 <div className="flex-layout-section align-self-center thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
-
 
             <section className="grid-2col-photo-content content-header">
                 <div className="grid-left flex-layout-section-full">
@@ -112,26 +109,25 @@ class design_solutions extends Component {
                     </div>
                 </div>
                 <div className="grid-right container-image-block">
-                    <img className="photo-container" src={design3}  alt="Your Business is Our Joy" /> 
+                    <img className="photo-container" src={design3}  alt="Social Media Services" /> 
                 </div>           
             </section>
 
                 <div className="flex-layout-section align-self-center thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
             <section className="grid-2col-photo-content content-header">
-                <div className="grid-right-content flex-layout-section-full ">
+                <div className="grid-right-content flex-layout-section-full margin-left-15per">
                     <div className="subtitle">
                          Video Production
                     </div>
-                    <div className="content-block-75 content-text-18">
-                        <p className="content-text-18"> The WDS Digital Marketing team researches, ideates, implements      and optimizes sophisticated web marketing solutions tailored to the specific goals 
-                            and objectives of each of our clients.</p>
-                        <p className="content-text-18">What sets us apart is a genuine understanding of your users.Combining proven digital marketing strategies and user observations, we create and run organized digital marketing campaigns that deliver. Our team cuts through the clutter to create and measure impactful strategies. We ensure your digital marketing campaigns align with your business objectives, and leverage opportunities for innovation and differentiation.</p>      
+                    <div className="content-block-75">
+                       
+                        <p className="content-text-18">WDS produce corporate videos that captivate audiences, inspire action & drive results for businesses & brands. Content that your audience will love. Content that gives your that is on message and reaches the customer on a deep level, whatever that may be.</p>      
                             <p><i><a href="../video_production">Learn More</a></i></p>
                         </div>
                     </div>
                         <div className="grid-left-photo container-image-block">
-                            <img className="photo-container" src={design_video}  alt="Your Business is Our Joy" /> 
+                            <img className="photo-container" src={design_video}  alt="Video" /> 
                         </div>     
                 </section>
             </div>
@@ -143,6 +139,8 @@ class design_solutions extends Component {
                 <div className="col2-text  grid-placeself-center width-70 margin-left-75">
                     <div className="content-block">
                             <p className="content-header"> Our CSS solutions relieves the anxiety that most developers and engineers face when they see CSS in their project requirements. </p>
+
+                            <p className="margin-top-25"><i><a href="./css_solutions">Learn More</a></i></p>
                     </div>
                 </div>
                 <div className="col2-photo width-70 grid-placeself-center">

@@ -81,13 +81,14 @@
   .grid-right {
     grid-column: 2/2;
     grid-row: auto;
+    margin-left: -6%;
   }
 
   .grid-left-photo {
     grid-column: 1/2;
     grid-row: 1;
-    justify-content: center;
-
+    justify-content: right;
+    margin-left: 6%;
   }
 
   .grid-right-content {

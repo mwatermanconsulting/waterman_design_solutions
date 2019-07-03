@@ -228,6 +228,9 @@ footer {
 .margin-left-15 {
   margin-left: 15px; }
 
+.margin-left-15per {
+  margin-left: 15%; }
+
 .marginleft30 {
   margin-left: 30px; }
 
@@ -2019,12 +2022,14 @@ callout-bg-s1 {
 
 .grid-right {
   grid-column: 2/2;
-  grid-row: auto; }
+  grid-row: auto;
+  margin-left: -6%; }
 
 .grid-left-photo {
   grid-column: 1/2;
   grid-row: 1;
-  justify-content: center; }
+  justify-content: right;
+  margin-left: 6%; }
 
 .grid-right-content {
   grid-column: 2/2;
