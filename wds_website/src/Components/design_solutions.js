@@ -38,7 +38,7 @@ class design_solutions extends Component {
                             
                         </div>
                     <div className="grid-callout-photo grid-placeself-center">
-                        <img className="flex-image-container width-100" src={designer}  alt="Your Business is Our Joy" /> 
+                        <img className="flex-image-container width-100" src={designer}  alt="Customer look for better experience" /> 
                     </div>
                 </div>
             </div>
