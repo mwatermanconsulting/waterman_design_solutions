@@ -32,7 +32,8 @@ class digital_design extends Component {
             <section className="flex-layout-section-full photo-content-color align-items-center" style={{height:'670px'}}> 
                 <div className=" grid-2col-text-photo align-items-center margin-tb-100 width-70">
                 <div className="content-block col2-text ">
-                    <div className="callout-text text-align-left text-white">Digital design keeps up with technology, visually communicating with the world in a truly powerful way </div>         
+                    <div className="callout-text text-align-left text-white">
+                        WDS has been providing custom website solutions for over twenty years. </div>         
                 </div>
                 <div className="col2-photo width-100 grid-placeself-center">
                     <img className="container-photo-callout" src={digital_design1}  alt="Website Design" /> 
@@ -43,14 +44,14 @@ class digital_design extends Component {
                 <section className="grid-2col-photo-content content-header margin-top-100">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title">
-                            What is digital design                        
+                            Website Value                       
                         </div>
                         <div className="subtitle">
-                            It's more than graphic design
+                            The hub of your marketing
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-25">
                             <p className="content-text-18"> 
-                            Digital designs include content such as multimedia presentations, websites, social media, emails, ads, 3D modeling, and animation. This skill set requires standard industry tools (e.g., Illustrator, Photoshop and Indesign) and languages featured in digital assets (e.g., HTML5, JavaScript and CSS3).</p>
+                            Responsive solutions, Mobile Solutions, Custom design and development </p>
                         </div>
                     </div>
                     <div className="grid-right container-image-block">

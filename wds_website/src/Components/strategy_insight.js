@@ -36,18 +36,18 @@ class strategy_insight extends Component {
                 </div>
             </div>
     
-            <div className="content-header flex-layout-center-center flex-layout-column margin-top-200 ">
+            <div className="content-header flex-layout-center-center flex-layout-column margin-top-100 ">
                 <div className="flex-layout-center-center title text-align-center content-block-60">
                     Today, the user’s experience is more important than brand loyalty. A successful strategy is necessary to ensure this. 
                 </div>
-                <div className="content-block-55 margin-top-50">
+                <div className="content-block-55 margin-top-25">
                     <p className="content-text-24 text-align-center">WDS discovers the patterns and themes that provide actionable, deeper and more valuable perspectives on your customers' wants, needs and motivations.</p>
                     <p className="content-text-24 text-align-center">The most meaningful insights for experience strategy are developed with behavior-based understanding of users. Our experience strategists observe people in context - where they work, play or live - to understand their goals, needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve..</p>
                 </div>
             </div>
             <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">
                 
-                <div className="flex-layout-section thin-hr margin-top-200 margin-bottom-100" style={{ width: '75%' }}></div>
+                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
                 <div className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
@@ -104,7 +104,7 @@ class strategy_insight extends Component {
                 </div>
 
 
-                    {/* <div className="flex-layout-section-full flex-layout-center-center margin-top-50 padding-bottom-50"> 
+                    <div className="flex-layout-section-full flex-layout-center-center margin-top-50 padding-bottom-50"> 
                         <div className="content-header flex-layout-column width-50">
                             <h3 className="sub-title">Featured Service: Design Systems</h3>
                                 <div className="content-block">
@@ -126,7 +126,7 @@ class strategy_insight extends Component {
                                         <p>Learn more about design systems » </p>
                                 </div>
                         </div>
-                    </div> */}
+                    </div> 
 
              <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
