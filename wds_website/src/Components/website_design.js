@@ -26,14 +26,15 @@ class digital_design extends Component {
             </section>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                    "Good design is good business." - Thomas Watson Jr.,second president of IBM
+                    “Getting a quality website is not an expense but rather an investment.” ― Dr. Christopher Dayagdag
+
                 </div>
             </section>
             <section className="flex-layout-section-full photo-content-color align-items-center" style={{height:'670px'}}> 
                 <div className=" grid-2col-text-photo align-items-center margin-tb-100 width-70">
                 <div className="content-block col2-text ">
                     <div className="callout-text text-align-left text-white">
-                        WDS has been providing custom website solutions for over twenty years. </div>         
+                    WDS has been creating design solutions for websites for over 20 years. All of our designs solutions are derived from our UX methodology research findings and user personas.  </div>         
                 </div>
                 <div className="col2-photo width-100 grid-placeself-center">
                     <img className="container-photo-callout" src={digital_design1}  alt="Website Design" /> 
@@ -64,34 +65,34 @@ class digital_design extends Component {
                 <section className="flex-layout-section-full">
                     <div className="grid-2col-text-center" >
                         <div className="grid-title subtitle content-text-24 margin-bottom-20">
-                        Digital design services includes: 
+                        Website design services includes: 
                         </div>
                         <div className="item content-text-18 margin-top-10">
-                            Editorial design
+                            Responsive Design
                         </div>
                         <div className="item content-text-18 margin-top-10">
-                            Illustrations 
+                            Accessibility
                         </div>
                         <div className="item content-text-18">
-                            Icons and pictograms
+                            Content Creation
                         </div>
                         <div className="item content-text-18">
                             Typography 
                         </div>
                         <div className="item- content-text-18">
-                            Interface graphics and elements
+                            Front-End Development
                         </div>
                         <div className="item content-text-18">
-                            Print advertisements
+                            Custom Images
                         </div>
                         <div className="item content-text-18">
-                            Big print items such as posters and billboards
+                            Mobile
                         </div>
                         <div className="item content-text-18">
-                            Signs
+                            <a href="./design_systems">Pattern Libraries</a>
                         </div>
                         <div className="item content-text-18">
-                            Packaging etc.
+                            <a href ="./css_solution">Custom CSS Solutions</a>
                         </div>
                         <div className="item content-text-18">
                             Brochures

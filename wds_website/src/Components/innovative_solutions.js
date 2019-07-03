@@ -33,17 +33,17 @@ class innovative_solutions extends Component {
                 </div>
             </section>
     
-            <section className="content-header flex-layout-center-center flex-layout-column margin-top-200 ">
-                <div className="flex-layout-center-center title text-align-center content-block-60">
+            <section className="content-header flex-layout-center-center flex-layout-column margin-top-75">
+                <div className="flex-layout-center-center title text-align-center content-block-60 margin-top-75">
                     Our Innovative Solutions is our Differentiating factor. <br/> WDS is hired after others fail.
                 </div>
-                <div className="content-block margin-top-50 flex-layout-center-center">
-                    <p className="subtitle"> Our Solutions are as unique as the business we providing them for<br/> Our solutions come from three factors: Understanding, empathy and experience  </p>
+                <div className="margin-top-25 content-block-55">
+                    <p className="subtitle flex-layout-center-center"> Our Solutions are as unique as the business nad users we providing them for Our solutions come from three factors: Understanding, empathy and experience  </p>
                 </div>
             </section>
             <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">
                 
-                <div className="flex-layout-section thin-hr margin-top-200 margin-bottom-100" style={{ width: '75%' }}></div>
+                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
                 <section className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
