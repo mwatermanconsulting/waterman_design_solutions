@@ -228,8 +228,14 @@ footer {
 .margin-left-15 {
   margin-left: 15px; }
 
+.margin-left-15per {
+  margin-left: 15%; }
+
 .marginleft30 {
   margin-left: 30px; }
+
+.marginleft-minus50 {
+  margin-left: -50px; }
 
 .marginleft50 {
   margin-left: 50px; }
@@ -446,8 +452,14 @@ footer {
 .content-block-25 {
   width: 25%; }
 
+.content-block-50 {
+  width: 50%; }
+
 .content-block-55 {
   width: 55%; }
+
+.content-block-60 {
+  width: 60%; }
 
 .content-block-75 {
   width: 75%; }
@@ -455,7 +467,7 @@ footer {
 .content-block-90 {
   width: 90%; }
 
-/*  Alighnment   */
+/*  Alignment   */
 .align-items-center {
   align-items: center; }
 
@@ -856,7 +868,8 @@ li {
 
 ul.dashed {
   list-style: none;
-  padding-left: 0; }
+  padding-left: 0;
+  font-family: 'Roboto'; }
 
 ul.dashed > li {
   margin-left: 15px;
@@ -915,7 +928,7 @@ h1 {
 .subtitle {
   font-size: 1.8rem;
   font-weight: 700;
-  line-height: 2.0;
+  line-height: 1.25;
   font-family: 'Roboto';
   color: #747677; }
 
@@ -981,7 +994,7 @@ p {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #6a6a6a;
+  border-top: 1px solid rgba(106, 106, 106, 0.25);
   padding: 0px; }
 
 .container-card-content {
@@ -1620,6 +1633,9 @@ Button:hover {
 .grid-placeself-center {
   place-self: center; }
 
+.grid-placeself-right {
+  place-self: right; }
+
 .grid-bottom-1 {
   grid-column: 1/2;
   grid-area: image; }
@@ -1861,12 +1877,6 @@ Button:hover {
       background-color: rgba(251, 180, 36, 0);
       cursor: pointer; }
 
-.content-block-75 {
-  width: 75%; }
-
-.content-block-60 {
-  width: 60%; }
-
 .content-block-cs {
   width: 1200px;
   height: auto;
@@ -1899,6 +1909,32 @@ Button:hover {
   width: 900px;
   height: 675px;
   border: 3px solid #000; }
+
+.grid-cs-card {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(2, [col] 1fr);
+  grid-template-rows: repeat(2, [row] auto); }
+
+.cs-card-1 {
+  grid-column: 1/ 2;
+  grid-row: 1/2; }
+
+.cs-card-2 {
+  grid-column: 2/ 2;
+  grid-row: 1/2; }
+
+.cs-card-3 {
+  grid-column: 1/ 2;
+  grid-row: 2/2; }
+
+.cs-card-4 {
+  grid-column: 2/ 2;
+  grid-row: 2/2; }
+
+.cs-card-right {
+  grid-column: 2/2;
+  grid-row: auto; }
 
 /*******************************
            History
@@ -1973,6 +2009,22 @@ callout-bg-s1 {
   width: 1368px;
   height: 768px; }
 
+.grid-2col-callout {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 50px;
+  display: grid; }
+
+.callout1 {
+  grid-column: 1/2;
+  grid-row: 1/1;
+  justify-content: center; }
+
+.callout2 {
+  grid-column: 2/2;
+  grid-row: 1/1;
+  justify-content: center; }
+
 .container-grid-2col-photo-services {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
@@ -2005,12 +2057,13 @@ callout-bg-s1 {
 
 .grid-right {
   grid-column: 2/2;
-  grid-row: auto; }
+  grid-row: auto;
+  margin-left: -6%; }
 
 .grid-left-photo {
   grid-column: 1/2;
   grid-row: 1;
-  justify-content: center; }
+  margin-left: 6%; }
 
 .grid-right-content {
   grid-column: 2/2;

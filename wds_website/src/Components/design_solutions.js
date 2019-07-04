@@ -38,7 +38,7 @@ class design_solutions extends Component {
                             
                         </div>
                     <div className="grid-callout-photo grid-placeself-center">
-                        <img className="flex-image-container width-100" src={designer}  alt="Your Business is Our Joy" /> 
+                        <img className="flex-image-container width-100" src={designer}  alt="Customer look for better experience" /> 
                     </div>
                 </div>
             </div>
@@ -49,12 +49,12 @@ class design_solutions extends Component {
                         "A consistent experience is a better experience.” - Mark Eberman
                     </p>   
                         <p className="subtitle padding-50 text-align-center">
-                        WDS offers custom design services based around the user and methodology research findings. WDS offers a full line of design services to ensure there cohesion and consistency in your branding message.
+                        When design determines success, understanding the user is paramount.<br/> We design to connect people with what matters most to them. We design with a purpose.
                         </p>
                 </div>
             </div>
 
-            <div className="thin-hr width-70 align-self-center"></div>
+            <div className="thin-hr align-self-center" style={{ width: '75%' }}></div>
 
             <div className="flex-layout-section-full margin-top-100 ">
 
@@ -64,10 +64,9 @@ class design_solutions extends Component {
                         Website Design
                     </div>
                     <div className="content-block-75 content-text-18 margin-top-25">
-                        <p className="content-text-18"> When design determines success, understanding the user is paramount. We design to connect people with what matters most to them. </p>
-                        <p className="content-text-18">Our design experts use experience strategy and insight to define how software functions and build workflows for the ways that people will experience it. 
-                        </p>
-                        <p className="content-text-18">For the visual representation, we create a uniquely identifiable and recognizable design by incorporating elements like brand, familiar fonts and emotions that resonate with users.</p>
+                        <p className="content-text-18"> WDS has been designing and developing human centric websites for close to 20 years. We always understood that a website is the hub of your marketing campaign. Creating a positive enjoyable experience on your website is critical to new customer acquisition or retaining customers by providing answers to questions. </p>
+            
+                        <p className="content-text-18">Our websites are always on the cutting edge. WDS was providing UX research to our clients before UX was a term. We were provided a responsive solution to Motorola 10 years ago. WDS was one of the first to develop a enterprise CSS flexbox solution. </p>
 
                         <p><i><a href="../website_design">Learn More</a> </i></p>
                     </div>
@@ -80,14 +79,13 @@ class design_solutions extends Component {
                 <div className="flex-layout-section align-self-center thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
                 <section className="grid-2col-photo-content content-header">
-                    <div className="grid-right-content flex-layout-section-full ">
+                    <div className="grid-right-content flex-layout-section-full margin-left-15per">
                         <div className="subtitle">
                             Graphic Design
                         </div>
-                        <div className="content-block-75 content-text-18">
-                            <p className="content-text-18"> The WDS Digital Marketing team researches, ideates, implements      and optimizes sophisticated web marketing solutions tailored to the specific goals 
-                            and objectives of each of our clients.</p>
-                            <p className="content-text-18">What sets us apart is a genuine understanding of your users.Combining proven digital marketing strategies and user observations, we create and run organized digital marketing campaigns that deliver. Our team cuts through the clutter to create and measure impactful strategies. We ensure your digital marketing campaigns align with your business objectives, and leverage opportunities for innovation and differentiation.</p>      
+                        <div className="content-block-75">
+                            <p className="content-text-18"> From business cards to Robot magazines to Labels for SmithKline WDS understands that there is still a place for the traditional print materials</p>
+
                             <p><i><a href="../graphic_design">Learn More</a></i></p>
                         </div>
                     </div>
@@ -98,69 +96,59 @@ class design_solutions extends Component {
 
                 <div className="flex-layout-section align-self-center thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
-
-                <section className="grid-2col-photo-content content-header">
+            <section className="grid-2col-photo-content content-header">
                 <div className="grid-left flex-layout-section-full">
                     <div className="subtitle">
                             Social Marketing
                     </div>
                     <div className="content-block-75 content-text-18 margin-top-25">
-                        <p className="content-text-18"> When design determines success, understanding the user is paramount. We design to connect people with what matters most to them. </p>
-                        <p className="content-text-18">Our design experts use experience strategy and insight to define how software functions and build workflows for the ways that people will experience it. 
-                        From inception through launch, we obsess over every detail.</p>
-                        <p className="content-text-18">For the visual representation, we create a uniquely identifiable and recognizable design by incorporating elements like brand, familiar fonts and emotions that resonate with users.</p>
+                        <p className="content-text-18">
+                            Our goal is to identify the right approach for your unique target audiences on social media. We plan, develop, and execute innovative social media marketing strategies that build a meaningful experience for your users. </p>
 
                         <p><i><a href="../marketing">Learn More</a> </i></p>
                     </div>
                 </div>
                 <div className="grid-right container-image-block">
-                    <img className="photo-container" src={design3}  alt="Your Business is Our Joy" /> 
+                    <img className="photo-container" src={design3}  alt="Social Media Services" /> 
                 </div>           
             </section>
 
                 <div className="flex-layout-section align-self-center thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
-                <section className="grid-2col-photo-content content-header">
-                    <div className="grid-right-content flex-layout-section-full ">
-                        <div className="subtitle">
-                            Video Production
-                        </div>
-                        <div className="content-block-75 content-text-18">
-                            <p className="content-text-18"> The WDS Digital Marketing team researches, ideates, implements      and optimizes sophisticated web marketing solutions tailored to the specific goals 
-                            and objectives of each of our clients.</p>
-                            <p className="content-text-18">What sets us apart is a genuine understanding of your users.Combining proven digital marketing strategies and user observations, we create and run organized digital marketing campaigns that deliver. Our team cuts through the clutter to create and measure impactful strategies. We ensure your digital marketing campaigns align with your business objectives, and leverage opportunities for innovation and differentiation.</p>      
+            <section className="grid-2col-photo-content content-header">
+                <div className="grid-right-content flex-layout-section-full margin-left-15per">
+                    <div className="subtitle">
+                         Video Production
+                    </div>
+                    <div className="content-block-75">
+                       
+                        <p className="content-text-18">WDS produce corporate videos that captivate audiences, inspire action & drive results for businesses & brands. Content that your audience will love. Content that gives your that is on message and reaches the customer on a deep level, whatever that may be.</p>      
                             <p><i><a href="../video_production">Learn More</a></i></p>
                         </div>
                     </div>
                         <div className="grid-left-photo container-image-block">
-                            <img className="photo-container" src={design_video}  alt="Your Business is Our Joy" /> 
+                            <img className="photo-container" src={design_video}  alt="Video" /> 
                         </div>     
                 </section>
-               
             </div>
 
-           
-
-            <div className="thin-hr width-70 align-self-center margin-top-100"></div>
-
+            <div className="thin-hr width-70 align-self-center margin-top-100"></div>            
             
-            
-            <div className="flex-layout-section-full align-items-center yellow-bg border-top-5">
-                <div className="grid-2col-text-photo align-self-center width-100  margin-top-50 margin-bottom-50 " > 
+        <div className="flex-layout-section-full align-items-center yellow-bg border-top-5">
+            <div className="grid-2col-text-photo align-self-center width-100  margin-top-50 margin-bottom-50 " > 
                 <div className="col2-text  grid-placeself-center width-70 margin-left-75">
-                    
-                        <div className="content-block">
+                    <div className="content-block">
                             <p className="content-header"> Our CSS solutions relieves the anxiety that most developers and engineers face when they see CSS in their project requirements. </p>
-                        </div>
-                        </div>
 
-                        
-                    <div className="col2-photo width-70 grid-placeself-center">
+                            <p className="margin-top-25"><i><a href="./css_solutions">Learn More</a></i></p>
+                    </div>
+                </div>
+                <div className="col2-photo width-70 grid-placeself-center">
                         <img className="flex-image-container width-100" src={design_therapy}  alt="Ux is the best therapy!" /> 
-                    </div>
-                    </div>
+                </div>
             </div>
         </div>
+    </div>
         )
     }
 }

@@ -20,7 +20,7 @@ class css_solutions extends Component {
             <div className="flex-section-fixed-head flex-layout-center-center image-background-border-tb">
                 <div className="header-text-center header-title text-white">
                     CSS Solutions</div>
-                <img className="flex-image-container" src={CSS}  alt="Why WDS background" /> 
+                <img className="flex-image-container" src={CSS}  alt="CSS solutions" /> 
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
@@ -28,31 +28,32 @@ class css_solutions extends Component {
 
                 </div>
             </div>
-            <div className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
+            <section className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
                 <div className="grid-item-b content-block-60 content-header flex-layout-column">
-                    <div className="callout-text text-align-left text-white">WDS CSS services have been developed around our clients needs. CSS Solutions are one of our most requested services. Our services include CSS development, CSS system implementation, mentoring and documentation, including best of practice documentation.</div>
-                             
+                    <div className="callout-text text-align-left text-white">
+                        WDS CSS services have been developed around our clients needs. CSS Solutions are one of our most requested services. Our services include CSS development, CSS system implementation, mentoring and documentation, including best of practice documentation.
+                    </div>              
                 </div>
                 <div className="item-a-nb container-image-block">
-                    <img className="container-photo-callout" src={casscade}  alt="shaking hands" /> 
+                    <img className="container-photo-callout" src={casscade}  alt="css code" /> 
                 </div>
-            </div>
-    
-            <div className="content-header flex-layout-center-center flex-layout-column margin-top-100 ">
-                <div className="flex-layout-center-center title text-align-center content-block-60">
+            </section>
+            <section className="content-header flex-layout-center-center flex-layout-column margin-bottom-100">
+                <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-50">
                         WDS CSS Solutions saves time and develops lean, scalable solutions.
                 </div>
-                <div className="content-block-55 margin-top-50">
+                <div className="content-block-50 margin-top-50">
                     <p className="content-text-24 text-align-center">
-                        Our solutions are based off our empathy and experiences working with developers. After our design solutions our CSS knowledge and experience  one of the main reasons WDS gets contracted by com By talking and observing developers we Every project WDS works closely with developers. We emphatize with the developers CSS struggles working with CSS and have devised a CSS strategy based on developer and business needs.    </p>
+                        Our solutions are based off our empathy and experiences working with developers. After our design solutions our CSS knowledge and experience is one of the main reasons WDS gets contracted by companies. Our CSS solutions are scalable and customizable to your business requirements. </p>
                 </div>
                 <button type="button" className="margin-top-50 font-size-24"><a href="case_study_4">
                     OsiSoft CSS Case Study </a></button>
-            </div>
+            </section>
+
+            <div className="flex-layout-section thin-hr flex-layout-center margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
+           
             <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">
                 
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
-
                 <div className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title">
@@ -71,7 +72,7 @@ class css_solutions extends Component {
                     </div>     
                 </div>
 
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
+                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '85%' }}></div>
 
                 <div className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
@@ -91,7 +92,7 @@ class css_solutions extends Component {
                     </div>     
                 </div>
 
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
+                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '85%' }}></div>
 
                 <div className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
@@ -111,7 +112,7 @@ class css_solutions extends Component {
                     </div>     
                 </div>
 
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
+                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '85%' }}></div>
                 <div className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title">
@@ -129,7 +130,7 @@ class css_solutions extends Component {
                         <img className="photo-container" src={css4}  alt="Your Business is Our Joy" /> 
                     </div>     
                 </div>
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
+                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '85%' }}>
                 </div>
                 <div className="flex-layout-section-full content-header margin-bottom-100">
                     <div className="grid-left flex-layout-section-full">
@@ -159,17 +160,17 @@ class css_solutions extends Component {
                 <div className="flex-layout-section-full align-items-center grey border-top-5">
                 <div className="grid-2col-text-photo align-self-center width-100  margin-top-50 margin-bottom-50 " > 
                 <div className="col2-text  grid-placeself-center width-70 margin-left-75">
-                    
-                        <div className="content-block">
+                  
+                        
+                    <div className="col2-photo width-100 grid-placeself-center">
+                        <img className="flex-image-container width-100" src={didyouknow}  alt="Ux is the best therapy!" /> 
+                    </div>
+                    </div>
+                    <div className="content-block">
                             <p className="content-header"> We also provide on-site consultancy and development work for companies and teams of all sizes </p>
                         </div>
                         </div>
 
-                        
-                    <div className="col2-photo width-70 grid-placeself-center">
-                        <img className="flex-image-container width-100" src={didyouknow}  alt="Ux is the best therapy!" /> 
-                    </div>
-                    </div>
             </div> 
   
                 </div>

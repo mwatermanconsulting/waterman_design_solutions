@@ -19,40 +19,41 @@ class style_guide extends Component {
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                How do we implement design in your company?
+                “The more decisions you put off, and the longer you delay them, the more expensive they become.”
+                — Craig Villamor
                 </div>
             </div>
             <section className="flex-layout-section-full photo-content-color align-items-center" style={{height:'670px'}}> 
                 <div className=" grid-2col-text-photo align-items-center margin-tb-100 width-70">
                 <div className="content-block col2-text ">
-                    <div className="callout-text text-align-left text-white">By directly observing people, and going through your own research, we can empathize with their pain points, discovering solutions, simplfying life and connecting with them on an emotional level. We create truth that was unknown until now, using this knowledge to create better decisions based on users, not assumptions. </div>
+                    <div className="callout-text text-align-left text-white"> A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive, combining components, behaviors, and branding. It must also be flexible and scalable. In other words, a design system = UI kit + behavior and scale rules + code + brand book.</div>
                 </div>
-                    <div className="col2-photo grid-placeself-center">
+                    <div className="col2-photo grid-placeself-right">
                         <img className="container-photo-callout" src={digital_systems1}  alt="Digital Systems" /> 
                         <p className="caption">Photo by Clint Adair on Unsplash</p>
                     </div> 
             </div>
             </section>
     
-            <div className="content-header flex-layout-center-center flex-layout-column margin-top-100 ">
-                <div className="flex-layout-center-center title text-align-center content-block-60">
-                What Is A Design System? 
+            <div className="content-header flex-layout-center-center flex-layout-column">
+                <div className="flex-layout-center-center title text-align-center content-block-60 margin-top-100">
+                    What Is A Design System? 
                 </div>
-                <div className="content-block-55">
+                <div className="content-block-55 margin-top-25">
                     <p className="content-text-24 text-align-center">A Design System is the complete set of design standards, documentation, and principles along with UI patterns and components to achieve those standards.</p>
                 </div>
             </div>
 
             <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">
                 
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
+                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '85%' }}></div>
 
                 <section className="grid-2col-photo-content content-header">
-                    <div className="grid-left flex-layout-section-full">
+                    <section className="grid-left flex-layout-section-full">
                         <div className="title">
                             Less Errors
                         </div>
-                        <div className="subtitle">
+                        <div className="subtitle margin-top-15">
                             Saving time
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-25">
@@ -60,43 +61,43 @@ class style_guide extends Component {
                             Another benefit of using prebuilt and standardized component is less errors. Because you’re copying from a master version, there’s no chance of making a mistake. As long as the components in your design system are accurate, their use in your products will be accurate.
 This is especially good news for developers, who have all the code snippets they need right at their fingertips.</p>
                         </div>
-                    </div>
-                    <div className="col2-photo grid-placeself-center">
+                    </section>
+                    <div className="grid-placeself-right">
                         <img className="photo-container width-100" src={digital_systems2}  alt="Digital Systems" /> 
                         <p className="caption">Image by rawpixel from Pixabay </p>
                     </div>     
                 </section>
 
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
+                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '85%' }}></div>
 
                 <section className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title">
                         Consistency across the board
                         </div>
-                        <div className="subtitle">
+                        <div className="subtitle margin-top-15">
                             Building familiarity
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-25">
                             <p className="content-text-18"> 
                             Consistency is vital to a user’s experience, but it can be hard to come by with multiple designers working separately. Design systems allow easy access to universal versions of design assets (and their rules) to keep everyone on the same page, and ensure components remain consistent from one page or section to another.
-That also holds true for different products. Brands looking to build their identity can use the exact same assets for all their products, giving everything a unified feel and rewarding loyal customers with familiar usability.</p>
+                            That also holds true for different products. Brands looking to build their identity can use the exact same assets for all their products, giving everything a unified feel and rewarding loyal customers with familiar usability.</p>
                         </div>
                     </div>
-                    <div className="col2-photo grid-placeself-center">
+                    <div className="grid-placeself-right">
                         <img className="photo-container width-100" src={digital_systems3}  alt="Digital Systems" /> 
                         <p className="caption">Styleguide for OSIsoft </p>
                     </div>      
                 </section>
 
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
+                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '85%' }}>
 </div>
                 <section className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title">
                         Enhanced collaboration
                         </div>
-                        <div className="subtitle">
+                        <div className="subtitle margin-top-15">
                             What makes sense for the user
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-25">
@@ -105,20 +106,18 @@ That also holds true for different products. Brands looking to build their ident
                             <p className="content-text-18">
                                 Having this kind of master reference guide also helps avoid miscommunication. By offering a definitive protocol and standards for otherwise ambiguous elements, design systems keep everyone on the same page. No guesswork, assumptions, or “going rogue.”Design systems also do wonders for sometimes-problematic dev handoffs. Because technical specs are embedded in the document, there’s less confusion about how to build something in the backend, or whether it can be built at all. Designs systems give designers and developers a shared language.</p>           
                         </div></div>
-                        <div className="col2-photo grid-placeself-center">
+                        <div className="grid-placeself-right">
                             <img className="photo-container width-100" src={digital_systems4}  alt="Digital Systems" /> 
                             <p className="caption">Photo by Aubrey Rose Odom on Unsplash </p>
                         </div>
                 </section>
 
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
-
-                <section className="grid-2col-photo-content content-header">
-                    <div className="grid-left flex-layout-section-full ">
+                <section className="grid-2col-photo-content content-header yellow-bg padding">
+                    <div className="grid-left flex-layout-section-full">
                         <div className="title">
                         No version control problems
                         </div>
-                        <div className="subtitle">
+                        <div className="subtitle margin-top-15">
                             All the versions available
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-15">
@@ -126,22 +125,22 @@ That also holds true for different products. Brands looking to build their ident
                             This format of using only one, agreed-upon master document also ensures that every update gets made to the same file. You never have to merge multiple files that were updated independently of each other by different team members. Whenever you pull from the design system, you know you’re always using the most recent version. This significantly reduces the margin for error.</p>   
                         </div>
                     </div>
-                    <div className="content-block-75 content-text-18 margin-top-15">
+                    <div className="grid-right flex-layout-section-full ">
                         <div className="title">
                         Data-driven UX
                         </div>
-                        <div className="subtitle">
+                        <div className="subtitle margin-top-15">
                         Style guide  -	CSS, HTML, React, SaaS, VS
                         </div>
+                        <div className="content-block-75 content-text-18 margin-top-15">
                             <p className="content-text-18">So much of UX design depends on customer feedback. Different customer groups have different tastes and preferences, and they can be hard to keep track of, especially if your company is targeting more than one group.<br></br>
                             We set design  standards for a design foundation. We have assimilated design with software development by fostering empathy for the engineers who create software. Asking questions and learning the language helped us bridge the gap between the customer and developer.<br></br>
                             Design systems help keep your UX data organized by optimizing patterns. Update the design system and every designer knows it’s the new norm going forward.
                             </p>   
-                        </div>     
+                        </div> 
+                    </div>    
                 </section>
   
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
-
                 <div className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="subtitle">
@@ -160,18 +159,20 @@ That also holds true for different products. Brands looking to build their ident
                     </div>     
                 </div>
 
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
+                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '85%' }}></div>
 
                     <div className="grid-2col-photo-content content-header margin-bottom-100">
                     <div className="grid-left flex-layout-section-full ">
                         <div className="title">
                             Style Guides                        
                         </div>
-                        <div className="subtitle">
+                        <div className="subtitle ">
                             An excellent tool for standards
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-25">
                             <p className="content-text-18">  Another subclass in the design system, this static documentation describes the design system itself: how products should look and feel, use cases for UI patterns, correct typographic scales, etc.</p>
+                            <p className="content-text-18">  Find out how we implemented a style guide and design system for OsiSoft.</p>
+
                         </div>
                     </div>
                     <div className="grid-right container-image-block">

@@ -118,7 +118,7 @@ class App extends Component {
               <ul>
               <li><a className="text-black" href="./design_solutions">Overview</a></li>
               <li><a className="text-black" href="./website_design">Website Design</a></li>
-               <li><a className="text-black" href="./print_design">Graphic Design</a></li>
+               <li><a className="text-black" href="./print_design">Print Design</a></li>
               <li><a className="text-black" href="./marketing">Marketing</a></li>
               <li><a className="text-black" href="./video_production">Video</a></li>
               </ul>
