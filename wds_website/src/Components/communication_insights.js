@@ -1,5 +1,5 @@
 import React, { Component } from 'react' ;
-import finding_truth from '../images/backgrounds/bg-documentation.png';
+import communication from '../images/backgrounds/bg-communication.png';
 import services from '../images/graphic-services.svg';
 import together from '../images/photos/photo-why-wds.png';
 import finding from '../images/photos/photo-documentation-s1.png';
@@ -18,8 +18,8 @@ class communication_insights extends Component {
         <div className="flex-layout-column"> 
             <div className="flex-section-fixed-head flex-layout-center-center image-background-border-tb">
                 <div className="header-text-center header-title text-white">
-                    communication Insights</div>
-                <img className="flex-image-container width-100" src={finding_truth}  alt="Why WDS background" /> 
+                    Communication Insights</div>
+                <img className="flex-image-container" src={communication}  alt="Communication and Insights" /> 
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
@@ -248,21 +248,8 @@ class communication_insights extends Component {
                         <img className="photo-container" src={finding_truth8}  alt="Review" /> 
                     </div>
                 </div>
-                <div className="container-grid-2col-full width-100 flex-layout-justified-sb border-3px bottom-border margin-top-100 yellow-bg "> 
-                <div className="item-a-nb content-block-50 flex-layout-column">
-                    <div className="content-block">
-                        <p className="callout-text"> Looking for a larger Agile Transformation Program? </p>
-                        <p className="callout-text">  WDS is the leader in applying design solutions, experience strategy and observational insights to the development of applications, websites, SaaS, products and mobile.</p> 
-                    </div>
-                </div>
-            <div className="item-b container-image-block">
-                <img className="flex-image-container width-100" src={services}  alt="Your Business is Our Joy" /> 
             </div>
-            </div>   
-                
-
-                </div>
-            </div>
+        </div>
         )
     }
 }

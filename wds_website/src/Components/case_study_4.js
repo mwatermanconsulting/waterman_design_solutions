@@ -32,8 +32,8 @@ class case_study_4 extends Component {
                     <div className="header-title-cs align-self-center header-text-left text-white">
                         Case Study - OsiSoft
                     </div>
-                        <img className="header-text-right align-self-center image-size-10" src={osi_logo}  alt="Stubhub Case Study Logo Image" /> 
-                        <img className="flex-image-container width-100" src={osi_bg}  alt="Stubhub Case Study " />  
+                        <img className="header-text-right align-self-center" src={osi_logo}  alt="Stubhub Case Study Logo Image" /> 
+                        <img className="flex-image-container" src={osi_bg}  alt="Stubhub Case Study " />  
                 </div> 
                 <section className="flex-layout-section-fixed-sm margin-top-75">
                     <div className="content-header flex-layout-center-center"> 
@@ -54,21 +54,21 @@ class case_study_4 extends Component {
                             Specificity and Scalability Issues
                     </div>
                     <div className="content-block-cs margin-top-15">
-                        <p className="content-text-18">
+                        <p className="content-text-21">
                             Engineers were complaining that they we’re spending too much time debugging CSS. 
-                            As the companies applications were maturing the css continued to become more and more fragile. A solution was needed to break away from writing classes to a singular file.  </p> 
+                            The trouble was CSS was added to the bottom of a single file and as the suite of applications matured the css started to become more and more fragile. A solution was needed to break away from writing classes to a singular file.</p> 
                     </div>
                 </section>
 
                 <div className="flex-layout-section flex-section-align-center thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
-                <section className="flex-layout-section-full flex-section-align-center flex-layout-column" >
-                    <div className="title">
+                <section className="grid-2col-text flex-section-align-center flex-layout-column" >
+                    <div className="grid-text title">
                         Approach
-                    </div>
-                    <div className="subtitle margin-top-25">
+                    
+                    <p className="subtitle margin-top-25">
                         Finding the Truth - What are the Issues?
-                    </div>
+                   </p></div>
                     <div className="content-block-cs margin-top-15">
                         <ul className="content-text-24">
                             <li>Critique current CSS</li>

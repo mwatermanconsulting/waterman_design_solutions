@@ -29,31 +29,31 @@ class about extends Component {
                 </div>
                 <div className="container-grid-2col-photo flex-layout-column margin-bottom-100 flex-layout-center-center            photo-content-color" style={{height:'715px'}}>
                         <div className="grid-2col-text-photo width-70 margin-top-50 flex-section-align-center">
-                            <div className="content-block-why 2col-text">
-                                    <div className="subtitle">Surreal Beginnings </div>
+                            <div className="content-block-why col2-text ">
+                                    <div className="subtitle text-white">Surreal Beginnings </div>
                                     <p className="content-text-24 text-white"> WDS started in 1997 under its original name, Surreal Concepts by the husband and wife team, Terri and Michael Waterman. The mission was always to provide professional design services and marketing for a reasonable cost to small and mid-size companies. 
                                     </p>
                             </div>
-                        <div className="2col-photo grid-placeself-center">
+                        <div className="col2-photo grid-placeself-center">
                             <img className="container-photo-callout" src={photo_history} alt="WDS history"/> 
-                            <p className="caption">Roman Kraft</p>
+                            <p className="caption">Photo by Roman Kraft from Unsplash</p>
                         </div>
                     </div>
                 </div>
                 <div className="flex-layout-section-fixed flex-layout-center-center">
-                    <img className="image-size" src={time} alt="time Line"/>
+                    <img className="width-75" src={time} alt="time Line"/>
                 </div>
-                <div className="flex-layout-section-full flex-layout-center-center margin-top-100">
+                <div className="flex-layout-section-full flex-layout-center-center ">
                 <div className="content-block-cs">
                         <div className="subtitle">It started with video</div>
                    
                         <div className="content-block-cs">
-                            <p className="content-text-18 margin-top-25"> Our first creative tool in the digital world goes back to the Amiga 500. And a video software called live. Michael wouldSet up systems to support the dinosaur age of graphic software. Amiga was one of the great forerunners of user design. Kai’s Power Tools, Bryce. Animation and video production was something we spent a lot of time doing.</p>
+                            <p className="content-text-18 margin-top-25"> Our first creative tool in the digital world goes back to the Amiga 500 with software called Live. Michael would set up systems to support the dinosaur age of graphic software. Amiga was one of the great forerunners of user design. Kai’s Power Tools, Bryce. Animation and video production was something we spent a lot of time doing.</p>
                         </div>
                         <div className="subtitle">Then publishing</div>
                    
                         <div className="content-block-cs">
-                            <p className="content-text-18 margin-top-25"> In the mid-90s Terri did onsite consulting and published New Drug Applications for the FDA at Zeneca Pharmaceuticals using Interleaf software. Web design was in its infancy, and she joined a web team by 1998, creating intranet websites for different divisions to improve group communication. Knowledge of code was crucial to digital design, and she fostered relationships with other software engineers to learn about their craft in order to assimilate design to their products. 
+                            <p className="content-text-18 margin-top-25"> In the mid-90s Terri did onsite consulting and published New Drug Applications for the FDA at Zeneca Pharmaceuticals using Interleaf software. Web design was in its infancy, and she joined a web team by 1998, creating intranet websites for different divisions to improve group communication. Knowledge of code was crucial to digital design, and she fostered relationships with other software engineers to learn about their craft in order to assimilate design to their products. <br></br>
 The first big client landed after incorporating as Surreal Concepts was a label manufacturer that did work for Smithkline Beecham in the consumer division. Labels were printed for Roos Foods, SmithKline, and Boiron Homeopathics.
 </p>
                         </div>
@@ -142,8 +142,8 @@ Increased knowledge of programming code and quality assurance systems to quickly
                             </div>
                         </div>
                     </div>
-                <div className="image-size-100 margin-top-100">
-                    <img src={history_3} ></img>
+                <div className=" margin-top-100">
+                    <img className="width-100" src={history_3} ></img>
                 </div>
                 <div className="flex-layout-section-full flex-layout-center-center margin-top-100"> 
                     <div className="title">Our Leaders</div>

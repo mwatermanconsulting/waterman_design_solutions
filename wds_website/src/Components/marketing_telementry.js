@@ -13,8 +13,8 @@ class marketing_telemetry extends Component {
         <div className="flex-layout-column"> 
             <div className="flex-section-fixed-head flex-layout-center-center image-background-border-tb">
                 <div className="header-text-center header-title text-white">
-                    Marketing and Analytics</div>
-                <img className="flex-image-container width-100" src={analysis}  alt="Why WDS background" /> 
+                    Marketing and Telemetry</div>
+                <img className="flex-image-container" src={analysis}  alt="Why WDS background" /> 
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
@@ -78,7 +78,7 @@ class marketing_telemetry extends Component {
 
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
 </div>
-                <div className="grid-2col-photo-content content-header">
+                <div className="grid-2col-photo-content content-header margin-bottom-100">
                     <div className="grid-left-45 flex-layout-section-full">
                         <div className="subtitle">
                             Marketing Strategy
@@ -94,20 +94,6 @@ class marketing_telemetry extends Component {
                         <img className="photo-container" src={analytics4}  alt="Your Business is Our Joy" /> 
                     </div>     
                 </div>
-
-                <div className="container-grid-2col-full width-100 flex-layout-justified-sb border-3px bottom-border margin-top-100 yellow-bg "> 
-                <div className="item-a-nb content-block-why flex-layout-column">
-                    <div className="content-block">
-                        <p className="callout-text"> Looking for a larger Agile Transformation Program? </p>
-                        <p className="callout-text">  WDS is the leader in applying design solutions, experience strategy and observational insights to the development of applications, websites, SaaS, products and mobile.</p> 
-                    </div>
-                </div>
-            <div className="item-b container-image-block">
-                <img className="flex-image-container width-100" src={relief}  alt="Your Business is Our Joy" /> 
-            </div>
-            </div>   
-                
-
                 </div>
             </div>
         )

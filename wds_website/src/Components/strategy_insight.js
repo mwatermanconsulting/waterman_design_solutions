@@ -1,6 +1,6 @@
 import React, { Component } from 'react' ;
 import strategy from '../images/backgrounds/bg-strategy.png';
-import services from '../images/graphic-services.svg';
+import graphic_didyouknow from '../images/graphic-didyouknow.png';
 import together from '../images/photos/photo-why-wds.png';
 import strategy1 from '../images/photos/photo-strategy-s1.png';
 import strategy1a from '../images/photos/photo-strategy-s1a.png';
@@ -36,18 +36,18 @@ class strategy_insight extends Component {
                 </div>
             </div>
     
-            <div className="content-header flex-layout-center-center flex-layout-column margin-top-200 ">
+            <div className="content-header flex-layout-center-center flex-layout-column margin-top-100 ">
                 <div className="flex-layout-center-center title text-align-center content-block-60">
                     Today, the user’s experience is more important than brand loyalty. A successful strategy is necessary to ensure this. 
                 </div>
-                <div className="content-block-55 margin-top-50">
+                <div className="content-block-55 margin-top-25">
                     <p className="content-text-24 text-align-center">WDS discovers the patterns and themes that provide actionable, deeper and more valuable perspectives on your customers' wants, needs and motivations.</p>
                     <p className="content-text-24 text-align-center">The most meaningful insights for experience strategy are developed with behavior-based understanding of users. Our experience strategists observe people in context - where they work, play or live - to understand their goals, needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve..</p>
                 </div>
             </div>
             <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">
                 
-                <div className="flex-layout-section thin-hr margin-top-200 margin-bottom-100" style={{ width: '75%' }}></div>
+                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
                 <div className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
@@ -76,7 +76,7 @@ class strategy_insight extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={strategy3}  alt="Review" /> 
+                        <img className="photo-container" src={strategy1}  alt="Review" /> 
                     </div>     
                 </div>
 
@@ -104,7 +104,7 @@ class strategy_insight extends Component {
                 </div>
 
 
-                    {/* <div className="flex-layout-section-full flex-layout-center-center margin-top-50 padding-bottom-50"> 
+                    <div className="flex-layout-section-full flex-layout-center-center margin-top-50 padding-bottom-50"> 
                         <div className="content-header flex-layout-column width-50">
                             <h3 className="sub-title">Featured Service: Design Systems</h3>
                                 <div className="content-block">
@@ -126,7 +126,7 @@ class strategy_insight extends Component {
                                         <p>Learn more about design systems » </p>
                                 </div>
                         </div>
-                    </div> */}
+                    </div> 
 
              <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
@@ -153,7 +153,7 @@ class strategy_insight extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={strategy5}  alt="Your Business is Our Joy" /> 
+                        <img className="photo-container" src={strategy4}  alt="Your Business is Our Joy" /> 
                     </div>     
                 </div>
                 
@@ -235,12 +235,11 @@ class strategy_insight extends Component {
                 <div className="container-grid-2col-full width-100 flex-layout-justified-sb border-3px bottom-border margin-top-100 yellow-bg "> 
                 <div className="item-a-nb content-block-why flex-layout-column">
                     <div className="content-block">
-                        <p className="callout-text"> Looking for a larger Agile Transformation Program? </p>
-                        <p className="callout-text">  WDS is the leader in applying design solutions, experience strategy and observational insights to the development of applications, websites, SaaS, products and mobile.</p> 
+                        <p className="callout-text"> "Pixar considers repeating the formulas of its past commercial successes a much greater threat to its long-term survival than the occasional commercial disappointment."<br></br>- The McKinsey Report</p> 
                     </div>
                 </div>
-            <div className="item-b container-image-block">
-                <img className="flex-image-container width-100" src={services}  alt="Your Business is Our Joy" /> 
+            <div className="col2-photo width-70 grid-placeself-center">
+                <img className="flex-image-container width-100" src={graphic_didyouknow}  alt="Design strategy can save your business" /> 
             </div>
             </div>   
                 
