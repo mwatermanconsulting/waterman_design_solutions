@@ -2,7 +2,7 @@ import React, { Component } from 'react' ;
 import wdslogofull from '../images/backgrounds/wds-logo-full.svg';
 import method from '../images/backgrounds/bg-methodology.svg';
 import binoculars from '../images/graphic-methodology-binoculars.svg';
-import why from '../images/graphic-why.svg';
+import why from '../images/graphic-why.svg' ;
 import igotyou from '../images/graphic-igotyou.svg';
 import design from '../images/graphic-design-desk.svg';
 

@@ -259,7 +259,7 @@ class ui_design extends Component {
                     </div>
                 </div>
             <div className="item-b container-image-block">
-                <img className="flex-image-container" src={services}  alt="Your Business is Our Joy" /> 
+                <img className="flex-image-container width-100" src={services}  alt="Your Business is Our Joy" /> 
             </div>
             </div>   
                 
