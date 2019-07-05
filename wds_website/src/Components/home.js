@@ -5,6 +5,9 @@ import binoculars from '../images/graphic-methodology-binoculars.svg';
 import why from '../images/graphic-why.svg' ;
 import igotyou from '../images/graphic-igotyou.svg';
 import design from '../images/graphic-design-desk.svg';
+import theyluvus from '../images/photos/photo-home-theyluvus.png';
+import business from '../images/photos/photo-home-business-design.png';
+import starburst from '../images/photos/photo-home-starburst-red.png';
 
 //import { Grid, Cell } from 'react-mdl';
 
@@ -69,6 +72,34 @@ class landingPage extends Component {
                     </div>       
                     
             </section>
+
+            <section className="grid-gallery-2col grid-gap-20 content-header align-self-center justify-items-center margin-bottom-50 width-70">
+                    <div className="gallery-2col-1 container-image-500 align-self-end">
+                        <img className="container-image-500" src={theyluvus}  alt="All About the User" /> 
+                        <div className="content-block-auto ">
+                            <div className="title-homepage link-color">It’s all about the user</div>
+                            <p className="subtitle">Engage your customers and earn their trust.</p>
+                            <p className="">We're firm believers in agile and iterative deployments as experiments, but, with longer enterprise launches and even consumer software, there's still valuable data to collect even before that first MVP. Our insights and strategies move you and your team in the right direction, and possibly uncover rewarding new business opportunities.</p>
+                        </div>
+                    </div>     
+                    <div className="gallery-2col-2 container-image-500 align-self-end">
+                        <img className="container-image-500"  src={business}  alt="Business Solutions" /> 
+                        <div className="content-block-auto ">
+                            <div className="title-homepage link-color">Business value of design</div>
+                            <p className="subtitle">Design is everybody’s responsibility</p>
+                            <p className="">In workplace and enterprise solutions, users know when someone understands their needs, making them feel like experts. They know when there's attention to design details. They know when it's intuitive and visually pleasing - and they love it. With consumers, if you miss the mark, you'll fail fast … and they’ll let you know it.</p>
+                        </div>
+                    </div>
+                     
+            </section>
+
+            <section className="flex-section-fixed-head flex-layout-center-center  image-background-border-tb">
+                    <div className="header-text-center callout-text-lg text-white width-70">
+                    "The good news is that there are more opportunities than ever to pursue user-centric, analytically informed design today." - McKinsley Report
+                    </div>
+                        <img className="flex-image-container" src={starburst}  alt="Why WDS background" /> 
+            </section>
+
             <div className="flex-layout-section-full flex-layout-column align-items-center">
                 <div className="flex-layout-content-container flex-layout-column margin-top-25 flex-layout-center-center">
                     <div className="content-header flex-layout-column">    
@@ -84,13 +115,7 @@ class landingPage extends Component {
             </div>
         </div>
         <div className="flex-layout-column margin-bottom-50"> 
-            <div className="flex-layout-section-full">
-                <div className="image-background-border-tb">
-                    <div className="flex-image-container flex-item-bottom">
-                        <img className="flex-image-container container" src={method}  alt="Method WDS background" /> 
-                    </div>
-                </div> 
-            </div>
+            
             <div className="flex-layout-section-full flex-layout-column align-items-center">
                 <div className="flex-layout-content-container flex-layout-column margin-top-25 flex-layout-center-center">
                     <div className="content-header flex-layout-column">    
@@ -108,6 +133,25 @@ class landingPage extends Component {
                 </div>
             </div>
         </div>
+        <section className="grid-gallery-2col grid-gap-20 content-header align-self-center justify-items-center margin-bottom-50 width-70">
+                    <div className="gallery-2col-1 container-image-500 align-self-end">
+                        <img className="container-image-500" src={theyluvus}  alt="All About the User" /> 
+                        <div className="content-block-auto ">
+                            <div className="title-homepage link-color">It’s all about the user</div>
+                            <p className="subtitle">Engage your customers and earn their trust.</p>
+                            <p className="">We're firm believers in agile and iterative deployments as experiments, but, with longer enterprise launches and even consumer software, there's still valuable data to collect even before that first MVP. Our insights and strategies move you and your team in the right direction, and possibly uncover rewarding new business opportunities.</p>
+                        </div>
+                    </div>     
+                    <div className="gallery-2col-2 container-image-500 align-self-end">
+                        <img className="container-image-500"  src={business}  alt="Business Solutions" /> 
+                        <div className="content-block-auto ">
+                            <div className="title-homepage link-color">Business value of design</div>
+                            <p className="subtitle">Design is everybody’s responsibility</p>
+                            <p className="">In workplace and enterprise solutions, users know when someone understands their needs, making them feel like experts. They know when there's attention to design details. They know when it's intuitive and visually pleasing - and they love it. With consumers, if you miss the mark, you'll fail fast … and they’ll let you know it.</p>
+                        </div>
+                    </div>
+                     
+            </section>
     </div>
 
         )
