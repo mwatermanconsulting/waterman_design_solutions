@@ -1083,6 +1083,9 @@ footer.link-color {
   height: 450px;
   border: 2px solid #fff; }
 
+.image-size-logo {
+  width: 150px; }
+
 .image-size-header-fixed {
   height: 1920px;
   width: 100%; }
@@ -1935,7 +1938,7 @@ Button:hover {
 .grid-cs-card {
   display: grid;
   grid-gap: 50px;
-  grid-template-columns: repeat(2, [col] 1fr);
+  grid-template-columns: repeat(2, [col] 700px);
   grid-template-rows: repeat(2, [row] auto); }
 
 .cs-card-1 {
