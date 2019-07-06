@@ -173,7 +173,7 @@ class case_study_2 extends Component {
                                             <li>Want and Need Dashboard </li>
                                             <li>Many of the current features were not being used</li>
                                             <li>KPI Section was unintelligible</li>
-                                            <li>numbers numbers and numbers</li>
+                                            <li>numbers numbers numbers</li>
                                             <li>Get more Users</li>
                                         </ol>
                                     </div>
