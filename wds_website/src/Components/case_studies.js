@@ -46,7 +46,7 @@ class case_studies extends Component {
                         </div> 
                     </div>
                 </section>
-                <section className="grid-cs-card flex-layout-section-full margin-top-50 margin-bottom-100" style={{marginLeft: '5%'}}>
+                <section className="grid-cs-card flex-align-items-center flex-layout-section-full margin-top-50 margin-bottom-100" style={{marginLeft: '5%'}}>
                     <div className="cs-card-1 card-case-studies content-header flex-layout-column flex-sh-500">
                         <div className="container-image-block">
                             <img className="width-100" src={motorola}  alt="motorola before and after" /> 
