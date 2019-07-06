@@ -8,6 +8,10 @@ import design from '../images/graphic-design-desk.svg';
 import theyluvus from '../images/photos/photo-home-theyluvus.png';
 import business from '../images/photos/photo-home-business-design.png';
 import starburst from '../images/photos/photo-home-starburst-red.png';
+import motorola from '../images/photos/photo-motorola-beforeafter.png';
+import motorola_logo from '../images/motorola_logo.svg'
+import stubhub_logo from '../images/icon-logo-stubhub.svg'
+import stubhub from '../images/photos/photo-stubhub-before-after.png'
 
 //import { Grid, Cell } from 'react-mdl';
 
@@ -135,19 +139,19 @@ class landingPage extends Component {
         </div>
         <section className="grid-gallery-2col grid-gap-20 content-header align-self-center justify-items-center margin-bottom-50 width-70">
                     <div className="gallery-2col-1 container-image-500 align-self-end">
-                        <img className="container-image-500" src={theyluvus}  alt="All About the User" /> 
+                        <img className="container-image-500" src={motorola}  alt="All About the User" /> 
                         <div className="content-block-auto ">
-                            <div className="title-homepage link-color">It’s all about the user</div>
-                            <p className="subtitle">Engage your customers and earn their trust.</p>
-                            <p className="">We're firm believers in agile and iterative deployments as experiments, but, with longer enterprise launches and even consumer software, there's still valuable data to collect even before that first MVP. Our insights and strategies move you and your team in the right direction, and possibly uncover rewarding new business opportunities.</p>
+                            <div className="title-homepage">Motorola</div>
+                            <p className="subtitle">Industry: Technology</p>
+                            <p className="">After two failed attempts by previously hired UX/UI developers, a frustrated management group for Motorola's new product decided they needed a designer to simplify their modem app so it's easier to use.</p>
                         </div>
                     </div>     
-                    <div className="gallery-2col-2 container-image-500 align-self-end">
-                        <img className="container-image-500"  src={business}  alt="Business Solutions" /> 
+                    <div className="gallery-2col-2 container-image-500 align-self-top">
+                        <img className="container-image-500"  src={stubhub}  alt="Business Solutions" /> 
                         <div className="content-block-auto ">
-                            <div className="title-homepage link-color">Business value of design</div>
-                            <p className="subtitle">Design is everybody’s responsibility</p>
-                            <p className="">In workplace and enterprise solutions, users know when someone understands their needs, making them feel like experts. They know when there's attention to design details. They know when it's intuitive and visually pleasing - and they love it. With consumers, if you miss the mark, you'll fail fast … and they’ll let you know it.</p>
+                            <div className="title-homepage">StubHub</div>
+                            <p className="subtitle">Industry: Entertainment/Sports</p>
+                            <p className="">The analysts were unhappy with their current data visualization tool. After two failed attempts to fix it, and the threat of dissolving the internal team, WDS came to the rescue.</p>
                         </div>
                     </div>
                      
