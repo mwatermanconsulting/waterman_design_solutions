@@ -1,6 +1,13 @@
 import React, { Component } from 'react' ;
-import why from '../images/backgrounds/bg-why-wds.svg';
+import wdslogofull from '../images/backgrounds/wds-logo-full.svg';
 import method from '../images/backgrounds/bg-methodology.svg';
+import binoculars from '../images/graphic-methodology-binoculars.svg';
+import why from '../images/graphic-why.svg' ;
+import igotyou from '../images/graphic-igotyou.svg';
+import design from '../images/graphic-design-desk.svg';
+import theyluvus from '../images/photos/photo-home-theyluvus.png';
+import business from '../images/photos/photo-home-business-design.png';
+import starburst from '../images/photos/photo-home-starburst-red.png';
 
 //import { Grid, Cell } from 'react-mdl';
 
@@ -11,15 +18,16 @@ class landingPage extends Component {
             <div className="flex-layout-column">
                 <div className="flex-layout-section-full">
                     <div className="image-background-border-tb">
-                        <div className="flex-image-container flex-item-bottom">
-                            <img className="flex-image-container container" src={why}  alt="Why WDS background" /> 
+                        <div className="flex-image-container flex-layout-center red padding">
+                            <img className="width-40" src={wdslogofull}  alt="Why WDS background" /> 
                          </div>
                     </div> 
                 </div>
-                <div className="flex-layout-section-full align-items-center">
+                <section className="flex-layout-section-full align-items-center">
                     <div className="flex-layout-content-container margin-top-25 flex-layout-center-center">
                         <div className="content-header flex-layout-column">    
-                            <h3 className="subtitle flex-layout-center">Established Methodology and Practices</h3>
+                            <h3 className="subtitle flex-layout-center">Established Methodology n Practices</h3>
+                        </div>
                         <div className="content-block width-100">
                             <p className="content-text-18">We have a unique and established <a href="./methodology" target="_blank">methodology</a> for understanding people in context — we reveal unmet needs — which drives everything we do. This leads to a crisp, clear understanding of the 
                                customer, which shapes the design and development of new solutions and experiences. </p>
@@ -29,19 +37,73 @@ class landingPage extends Component {
                             </p>
                         </div>
                 </div>
-            </div>
+            </section>
             <div className="flex-layout-column margin-bottom-50"> 
-            <div className="flex-layout-section-full">
-                <div className="image-background-border-tb">
-                    <div className="flex-image-container flex-item-bottom">
-                        <img className="flex-image-container container" src={why}  alt="Why WDS background image" /> 
+            
+            
+            <section className="grid-gallery-4col grid-gap-20 content-header align-self-center margin-bottom-50 width-70">
+                    <div className="gallery-4col-1 container-image-300 align-self-end">
+                        <img className="container-image-300" src={why}  alt="Why WDS" /> 
+                        <div className="content-block-auto ">
+                            <div className="title-homepage link-color">Why WDS</div>
+                            <p className="">Why design matters to your business and your customers. And how we can ease your fears about dealing with a designer</p>
+                        </div>
+                    </div>     
+                    <div className="gallery-4col-2 container-image-300 align-self-end">
+                        <img className="container-image-300"  src={binoculars}  alt="Methodology" /> 
+                        <div className="content-block-auto ">
+                            <div className="title-homepage link-color">Methodology</div>
+                            <p className="">Our process uses a process that works on all size platforms, and makes life easier for your team and those you serve. </p>
+                        </div>
                     </div>
-                </div> 
-            </div>
+                    <div className="gallery-4col-3 container-image-300 align-self-end">
+                        <img className="container-image-300"  src={design}  alt="Design Solutions" />
+                        <div className="content-block-auto ">
+                            <div className="title-homepage link-color">Design Solutions</div>
+                            <p className="">In todays market design is more critical to your business success. Simple and elegant designs will make a better experience for them.</p>
+                        </div>
+                    </div> 
+                    <div className="gallery-4col-4 container-image-300 align-self-end">
+                        <img className="container-image " src={igotyou}  alt="Services" />
+                        <div className="content-block-auto ">
+                            <div className="title-homepage link-color">Services</div>
+                            <p className="">Over 25 years of experience has enabled us to grow with our clients and adapt to their needs. Take advantage of our packages!</p>
+                        </div>
+                    </div>       
+                    
+            </section>
+
+            <section className="grid-gallery-2col grid-gap-20 content-header align-self-center justify-items-center margin-bottom-50 width-70">
+                    <div className="gallery-2col-1 container-image-500 align-self-end">
+                        <img className="container-image-500" src={theyluvus}  alt="All About the User" /> 
+                        <div className="content-block-auto ">
+                            <div className="title-homepage link-color">It’s all about the user</div>
+                            <p className="subtitle">Engage your customers and earn their trust.</p>
+                            <p className="">We're firm believers in agile and iterative deployments as experiments, but, with longer enterprise launches and even consumer software, there's still valuable data to collect even before that first MVP. Our insights and strategies move you and your team in the right direction, and possibly uncover rewarding new business opportunities.</p>
+                        </div>
+                    </div>     
+                    <div className="gallery-2col-2 container-image-500 align-self-end">
+                        <img className="container-image-500"  src={business}  alt="Business Solutions" /> 
+                        <div className="content-block-auto ">
+                            <div className="title-homepage link-color">Business value of design</div>
+                            <p className="subtitle">Design is everybody’s responsibility</p>
+                            <p className="">In workplace and enterprise solutions, users know when someone understands their needs, making them feel like experts. They know when there's attention to design details. They know when it's intuitive and visually pleasing - and they love it. With consumers, if you miss the mark, you'll fail fast … and they’ll let you know it.</p>
+                        </div>
+                    </div>
+                     
+            </section>
+
+            <section className="flex-section-fixed-head flex-layout-center-center  image-background-border-tb">
+                    <div className="header-text-center callout-text-lg text-white width-70">
+                    "The good news is that there are more opportunities than ever to pursue user-centric, analytically informed design today." - McKinsley Report
+                    </div>
+                        <img className="flex-image-container" src={starburst}  alt="Why WDS background" /> 
+            </section>
+
             <div className="flex-layout-section-full flex-layout-column align-items-center">
                 <div className="flex-layout-content-container flex-layout-column margin-top-25 flex-layout-center-center">
                     <div className="content-header flex-layout-column">    
-                        <h3 className="subtitle flex-layout-center">WDS IS YOUR PARTNER FOR EXPERIENCE-DRIVEN TRANSFORMATION</h3>
+                        <p className="subtitle flex-layout-center">WDS IS YOUR PARTNER FOR EXPERIENCE-DRIVEN TRANSFORMATION</p>
                     <div className="content-block width-100">
                         <p>WDS is an end-to-end, experience-driven company that helps organizations navigate complex software transformations. Our team 
                         brings clarity to better understand customers’ needs and to reveal disconnects in your current customer experience. In doing so, we deliver comprehensive experience 
@@ -53,13 +115,7 @@ class landingPage extends Component {
             </div>
         </div>
         <div className="flex-layout-column margin-bottom-50"> 
-            <div className="flex-layout-section-full">
-                <div className="image-background-border-tb">
-                    <div className="flex-image-container flex-item-bottom">
-                        <img className="flex-image-container container" src={method}  alt="Method WDS background" /> 
-                    </div>
-                </div> 
-            </div>
+            
             <div className="flex-layout-section-full flex-layout-column align-items-center">
                 <div className="flex-layout-content-container flex-layout-column margin-top-25 flex-layout-center-center">
                     <div className="content-header flex-layout-column">    
@@ -77,8 +133,26 @@ class landingPage extends Component {
                 </div>
             </div>
         </div>
+        <section className="grid-gallery-2col grid-gap-20 content-header align-self-center justify-items-center margin-bottom-50 width-70">
+                    <div className="gallery-2col-1 container-image-500 align-self-end">
+                        <img className="container-image-500" src={theyluvus}  alt="All About the User" /> 
+                        <div className="content-block-auto ">
+                            <div className="title-homepage link-color">It’s all about the user</div>
+                            <p className="subtitle">Engage your customers and earn their trust.</p>
+                            <p className="">We're firm believers in agile and iterative deployments as experiments, but, with longer enterprise launches and even consumer software, there's still valuable data to collect even before that first MVP. Our insights and strategies move you and your team in the right direction, and possibly uncover rewarding new business opportunities.</p>
+                        </div>
+                    </div>     
+                    <div className="gallery-2col-2 container-image-500 align-self-end">
+                        <img className="container-image-500"  src={business}  alt="Business Solutions" /> 
+                        <div className="content-block-auto ">
+                            <div className="title-homepage link-color">Business value of design</div>
+                            <p className="subtitle">Design is everybody’s responsibility</p>
+                            <p className="">In workplace and enterprise solutions, users know when someone understands their needs, making them feel like experts. They know when there's attention to design details. They know when it's intuitive and visually pleasing - and they love it. With consumers, if you miss the mark, you'll fail fast … and they’ll let you know it.</p>
+                        </div>
+                    </div>
+                     
+            </section>
     </div>
-</div>
 
         )
     }

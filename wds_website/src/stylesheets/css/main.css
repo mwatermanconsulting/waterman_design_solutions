@@ -171,7 +171,7 @@ footer {
   background-color: #fff; }
 
 .red {
-  background-color: #ba1004 !important; }
+  background-color: #EC1000 !important; }
 
 .pink {
   background-color: #daa09a; }
@@ -207,7 +207,7 @@ footer {
   background-color: #fff; }
 
 .red {
-  background-color: #ba1004 !important; }
+  background-color: #EC1000 !important; }
 
 .pink {
   background-color: #daa09a; }
@@ -584,6 +584,9 @@ footer {
 .width-50 {
   width: 50%; }
 
+.width-40 {
+  width: 40%; }
+
 .height-70 {
   height: 70%; }
 
@@ -742,6 +745,11 @@ footer {
   font-size: 5.1875rem !important;
   letter-spacing: 1.1px; }
 
+.title-homepage {
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 3rem !important;
+  letter-spacing: 1.1px; }
+
 .text-white {
   color: #fff; }
 
@@ -784,7 +792,7 @@ li {
   background-color: #fff; }
 
 .red {
-  background-color: #ba1004 !important; }
+  background-color: #EC1000 !important; }
 
 .pink {
   background-color: #daa09a; }
@@ -845,6 +853,9 @@ h4 {
   display: flex;
   position: absolute;
   justify-self: center; }
+
+.justify-items-center {
+  justify-items: center; }
 
 a {
   color: #3eaca9 !important; }
@@ -1032,7 +1043,7 @@ footer.link-color {
   background-color: #3eaca9; }
 
 .red {
-  color: #ba1004; }
+  color: #EC1000; }
 
 .grey {
   background-color: #6c8086; }
@@ -1144,7 +1155,7 @@ input[type=submit]:hover {
   background-color: #fff; }
 
 .red {
-  background-color: #ba1004 !important; }
+  background-color: #EC1000 !important; }
 
 .pink {
   background-color: #daa09a; }
@@ -1639,6 +1650,49 @@ Button:hover {
   grid-column: 2/2;
   grid-area: content; }
 
+.container-image-dd {
+  width: 350px; }
+
+.container-image-300 {
+  width: 300px; }
+
+.container-image-500 {
+  width: 500px; }
+
+.grid-gallery-2col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px; }
+
+.gallery-2col-1 {
+  grid-column: 1/2;
+  grid-row: 1/auto; }
+
+.gallery-2col-2 {
+  grid-column: 2/2;
+  grid-row: 1/auto; }
+
+.grid-gallery-4col {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px; }
+
+.gallery-4col-1 {
+  grid-column: 1/4;
+  grid-row: 1/auto; }
+
+.gallery-4col-2 {
+  grid-column: 2/4;
+  grid-row: 1/auto; }
+
+.gallery-4col-3 {
+  grid-column: 3/4;
+  grid-row: 1/auto; }
+
+.gallery-4col-4 {
+  grid-column: 4/4;
+  grid-row: 1/auto; }
+
 .grid-footer {
   display: grid;
   grid-gap: 10px;
@@ -1695,7 +1749,7 @@ Button:hover {
   background-color: #fff; }
 
 .red {
-  background-color: #ba1004 !important; }
+  background-color: #EC1000 !important; }
 
 .pink {
   background-color: #daa09a; }
@@ -1734,7 +1788,7 @@ Button:hover {
   background-color: #fff; }
 
 .red {
-  background-color: #ba1004 !important; }
+  background-color: #EC1000 !important; }
 
 .pink {
   background-color: #daa09a; }
@@ -2120,7 +2174,7 @@ callout-bg-s1 {
            Menu
   *******************************/
 .menu {
-  background-color: #ba1004;
+  background-color: #EC1000;
   font-size: 1.2em; }
 
 ul.menu {
@@ -2193,7 +2247,7 @@ ul.menu > li.dropdown {
   background-color: #fff; }
 
 .red {
-  background-color: #ba1004 !important; }
+  background-color: #EC1000 !important; }
 
 .pink {
   background-color: #daa09a; }
@@ -2254,7 +2308,7 @@ ul.menu > li.dropdown {
   background-color: #fff; }
 
 .red {
-  background-color: #ba1004 !important; }
+  background-color: #EC1000 !important; }
 
 .pink {
   background-color: #daa09a; }

@@ -43,9 +43,6 @@ h4 {
   font-family: 'Poppins', sans-serif !important;
   font-size: 1.218rem !important;
 }
-
-
-
 .header-text-left {
   float: left;
   position: absolute;
@@ -64,7 +61,9 @@ h4 {
   justify-self: center;
   
 }
-
+.justify-items-center {
+  justify-items: center;
+}
   
 a {
   color: $greeny-blue!important;
@@ -339,6 +338,9 @@ footer.link-color {
   width: 650px;
   height: 450px;
   border: 2px solid $white;
+}
+.image-size-logo {
+  width: 150px;
 }
 
 .image-size-header-fixed {

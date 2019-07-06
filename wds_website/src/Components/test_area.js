@@ -1,5 +1,5 @@
 import React, { Component } from 'react' ;
-import why from '../images/backgrounds/bg-why-wds.svg';
+import wdslogofull from '../images/backgrounds/wds-logo-full.svg';
 
 class test_area extends Component {
     render () {
@@ -8,14 +8,14 @@ class test_area extends Component {
                 <div className="flex-layout-section-full">
                     <div className="image-background-border-tb">
                         <div className="flex-image-container flex-item-bottom">
-                            <img className="flex-image-container container" src={why}  alt="Why WDS background image" /> 
+                            <img className="flex-image-container container" src={wdslogofull}  alt="Why WDS background image" /> 
                          </div>
                     </div> 
                 </div>
                 <div className="flex-layout-section-full align-items-center">
                     <div className="flex-layout-content-container margin-top-25 flex-layout-center-center">
                         <div className="content-header flex-layout-column">    
-                            <h3 className="subtitle flex-layout-center">Established Methodology and Practices</h3>
+                            <h3 className="subtitle flex-layout-center">Established Methodology nd Practices</h3>
                         <div className="content-block width-100">
                             <p className="content-text-18">We have a unique and established <a href="./methodology" target="_blank">methodology</a> for understanding people in context — we reveal unmet needs — which drives everything we do. This leads to a crisp, clear understanding of the 
                                customer, which shapes the design and development of new solutions and experiences. </p>
@@ -36,7 +36,7 @@ class test_area extends Component {
                             <h3 className="text">Blended Teams</h3>
                         <div className="content-block">
                             <p className="content-text-18 content-block-why">Our <a href="./core_offerings" target="_blank">multi-disciplined teams</a> teams work collaboratively to design software solutions based on user needs.  Designers, strategists, marketers and program 
-                               managers work together to achieve success. Text should be equal lines on both sides? 
+                               managers work together to achieve success. Text should be equal lines on both sides
                             </p>
                         </div>
                         </div>
@@ -115,7 +115,7 @@ class test_area extends Component {
                         </div>
                         <div className="flex-layout-column">
                             <div className="container-image-block">
-                                <img className="flex-image-container" src  alt="Your Business is Our Joy" /> 
+                                <img className="flex-image-container width-100" src  alt="Your Business is Our Joy" /> 
                             </div>
                         </div>
                     </div>
