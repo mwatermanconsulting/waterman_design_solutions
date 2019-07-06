@@ -25,9 +25,7 @@
     "eject": "react-scripts eject",
     "sass": "sass --watch src/stylesheet/scss:src/styles/css"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
+
   "browserslist": [
     ">0.2%",
     "not dead",
