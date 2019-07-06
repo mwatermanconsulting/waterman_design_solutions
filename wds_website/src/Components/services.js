@@ -16,7 +16,7 @@ class services extends Component {
         <div className="flex-layout-column"> 
             <section className="flex-section-fixed-head image-background-border-tb">
                 <div className="flex-image-container flex-item-bottom grey">
-                    <img className="image-size-100 container image-size-100" src={practice}  alt="Why WDS background image" /> 
+                    <img className="flex-image-container image-size-100" src={practice}  alt="Why WDS background image" /> 
                 </div> 
             </section>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 red">
@@ -141,7 +141,7 @@ class services extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={services2}  alt="Services" /> 
+                        <img className="photo-container" src={services6}  alt="Services" /> 
                     </div>     
                 </section>
 
@@ -158,7 +158,7 @@ class services extends Component {
                         </div>
                     </div>
                     <div className="grid-left-photo container-image-block">
-                            <img className="photo-container marginleft-minus50" src={services5}  alt="Services" /> 
+                            <img className="photo-container marginleft-minus50" src={services7}  alt="Services" /> 
                     </div>     
                 </section>
             </main>
@@ -171,54 +171,23 @@ class services extends Component {
                     </div> 
                 </section>
                 
-                <section className="flex-layout-section-full flex-layout-center-center margin-top-50 padding-bottom-50"> 
-                    <div className="content-header flex-layout-column width-50">
-                        <div className="sub-title">Featured Service: Design Systems</div>
-                            <div className="content-block">
-                                <p className="content-text-18"> At WDS, we know and understand the importance of design systems to businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, 
-                                and letting software teams focus on solving tough problems instead of the small stuff. </p>
-
-                                <p><a href="../style_guides">Learn more about design systems></a> </p>
-                            </div>
-                    </div>
-                </section>
-                <section className="grid-gallery grid-gap-20 content-header align-self-center margin-bottom-50 width-70">
-                    <div className="gallery-1 container-image-dd align-self-end">
-                        <img className="container-image-dd" src={services8}  alt="World Team Tennis" /> 
-                        <div className="content-header flex-layout-column width-50">
-                        <div className="sub-title">Featured Service: Design Systems</div>
-                            <div className="content-block">
-                                <p className="content-text-18"> At WDS, we know and understand the importance of design systems to businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, 
-                                and letting software teams focus on solving tough problems instead of the small stuff. </p>
-
-                                <p><a href="../style_guides">Learn more about design systems></a> </p>
-                            </div>
-                    </div>
+                <section className="grid-gallery-2col grid-gap-20 content-header align-self-center justify-items-center margin-top-100 width-70">
+                    <div className="gallery-2col-1 container-image-500 align-self-end">
+                        <img className="container-image-500" src={services8}  alt="All About the User" /> 
+                        <div className="content-block-auto ">
+                            <div className="subtitle margin-top-25">Featured Service: Design Systems</div>
+                            <p className="">At WDS, we know and understand the importance of design systems to businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff.</p>
+                        </div>
                     </div>     
-                    <div className="container-image-dd gallery-3 align-self-end">
-                        <img className="container-image-dd"  src={services9}  alt="Ketchhot" /> 
-                        <div className="content-header flex-layout-column width-50">
-                        <div className="sub-title">Featured Service: CSS Development and Support</div>
-                            <div className="content-block">
-                                <p className="content-text-18"> At WDS, we know and understand the importance of design systems to businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, 
-                                and letting software teams focus on solving tough problems instead of the small stuff. </p>
-                                <p><a href="../css_solutions">Learn more about our CSS Solutions</a></p>
-                            </div>
+                    <div className="gallery-2col-2 container-image-500 align-self-top">
+                        <img className="container-image-500"  src={services9}  alt="Business Solutions" /> 
+                        <div className="content-block-auto ">
+                            <div className="subtitle margin-top-25">Featured Service: CSS Support</div>
+                            <p className="">At WDS, we know and understand the importance of design systems to businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff.</p>
                         </div>
                     </div>
-                </section>
+            </section>
 
-                <section className="flex-layout-section-full flex-layout-center-center margin-top-100 padding-bottom-50"> 
-                    <div className="content-header flex-layout-column width-50">
-                        <div className="sub-title">Featured Service: CSS Development and Support</div>
-                            <div className="content-block">
-                                <p className="content-text-18"> At WDS, we know and understand the importance of design systems to businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, 
-                                and letting software teams focus on solving tough problems instead of the small stuff. </p>
-                                <p><a href="../css_solutions">Learn more about our CSS Solutions</a></p>
-                            </div>
-                        </div>
-                </section>
-            
             <div className="flex-layout-section-full grey-blue padding-bottom-50">
                 <div className="grid-services-list  flex-section-align-center">
                     <div className="margin-top-50 title grid-title">
