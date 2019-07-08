@@ -37,16 +37,16 @@ class case_studies extends Component {
                     </div>
                 </section>
                 <section className="flex-layout-section-full align-items-center">
-                    <div className="flex-layout-column margin-top-50">
+                    <div className="flex-layout-column margin-top-75">
                         <div className="title flex-layout-center">
                                 Customer Success Spotlight</div>
-                        <div className="content-block width-100 margin-top-25">
+                        <div className="content-block width-100 margin-top-10">
                             <p className="subtitle text-align-center">
                                  Our favorite case study stories about our process that made solutions happen </p>
                         </div> 
                     </div>
                 </section>
-                <section className="grid-cs-card flex-align-items-center flex-layout-section-full margin-top-50 margin-bottom-100" style={{marginLeft: '5%'}}>
+                <section className="grid-cs-card flex-layout-center-center flex-layout-section-full margin-top-75 margin-bottom-100">
                     <div className="cs-card-1 card-case-studies content-header flex-layout-column flex-sh-500">
                         <div className="container-image-block">
                             <img className="width-100" src={motorola}  alt="motorola before and after" /> 
@@ -147,7 +147,7 @@ class case_studies extends Component {
             <section className="flex-layout-section-full width-100 border-tb-5 grey flex-layout-column flex-layout-center-center">
                 <div className="content-header flex-layout-column">
                     <div className="content-block margin-tb-100 width-100">
-                        <p className="callout-text text-align-center"> 
+                        <p className="callout-text-lg text-align-center"> 
                         Design is not just what it looks like and feels like. Design is how it works.</p>
                         <p className="content-text-18 text-align-center"> 
                         —Steve Jobs, Co-Founder of Apple</p>

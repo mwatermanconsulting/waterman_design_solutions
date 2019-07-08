@@ -38,8 +38,8 @@ class why_wds extends Component {
                     <div className="grid-callout yellow-bg "> 
                         <div className="grid-callout-text grid-placeself-center padding width-70">
                             <p className="callout-text text-black">
-                            WDS are the design whispers. WDS understands it is not just about designing, but   WDS understands the importance of design in todays world. The latest studies show companies that value design have a 30% increase in sales compared to companies who do not. 
-                            Our methodology and design solutions are scalable and are so effective that it  works on small companies to start-ups to global enterprises. The results is always “A great experience for the user and an increase in your bottom line”</p>
+                            WDS is in the design business. WDS understands it is not just about designing, but   WDS understands the importance of design in todays world. The latest studies show companies that value design have a 30% increase in sales compared to companies who do not. 
+                            We are a UX/UI design agency that specializes in solving problems wih applications, websites and products by using a proven methodology that gets to the root of problems through understanding and empathizing with your users</p>
                         </div>
                         <div className="grid-callout-photo grid-placeself-center">
                             <img className="flex-image-container width-100" src={whys1}  alt="Customer Service" /> 

@@ -132,7 +132,7 @@ class css_solutions extends Component {
                 </div>
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '85%' }}>
                 </div>
-                <div className="flex-layout-section-full content-header margin-bottom-100">
+                <section className="flex-layout-section-full content-header margin-bottom-100">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title">
                             WDS Methodology Works With Your Existing CSS                       
@@ -155,7 +155,7 @@ class css_solutions extends Component {
 
                         </div>
                     </div>
-                </div>
+                </section>
 
                 <div className="flex-layout-section-full align-items-center grey border-top-5">
                 <div className="grid-2col-text-photo align-self-center width-100  margin-top-50 margin-bottom-50 " > 

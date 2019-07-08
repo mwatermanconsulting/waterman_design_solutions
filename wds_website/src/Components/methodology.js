@@ -40,9 +40,8 @@ class methodology extends Component {
                     <div className="grid-callout yellow-bg "> 
                         <div className="grid-callout-text grid-placeself-center  width-70">
                             <p className="callout-text text-black">
-                            PASSION and EMPATHY are core of our business and is at the heart of our methodology.
-                            Our goal is to enlighten you on your users, business and competition. To help your company build a culture where design is as important as sales. Where the user is a partner on all design decisions.
-                            Your customers are human, with human values, needs and desires. Your company was built by humans and has a set of values. WDS will bring the values of the users and the business </p>
+                            EMPATHY and PASSION are the core of our business and also at the heart of our methodology.
+                            </p>
                         </div>
                         <div className="grid-callout-photo grid-placeself-center">
                             <img className="flex-image-container width-100" src={method1}  alt="Customer Service" /> 
@@ -59,7 +58,9 @@ class methodology extends Component {
                         </div>
                     <div className="content-block-100 margin-top-25">
                         <p className="content-text-18 text-align-center">
-                            The science of understanding people has developed for centuries, but not enough has been done to integrate these approaches into the process of software design. For more than a decade, we have refined a scalable, flexible methodology that centers on answering questions about customers by connecting and understanding people, observing their daily workflow, by interviewing and conversing with them we begin  to identify people’s needs, behaviors and aspirations. This provides a perspective on customers that clients typically have never seen.. </p>
+                        Our goal is to enlighten you on your users, business and competition. To help your company build a culture where design is as important as sales. Where the user is a partner on all design decisions.
+                            Your customers are human, with human values, needs and desires. Your company was built by humans and has a set of values. WDS will bring the values of the users and the business
+                            </p>
                     </div>
                     </div>
                 </section>
@@ -73,8 +74,12 @@ class methodology extends Component {
                         <div className="title flex-layout-center"> 
                             Overview of the WDS Methodology
                         </div>
+                        <div className="subtitle flex-layout-center"> 
+                            Scalable and Adaptable
+                        </div>
                     <div className="width-100 margin-top-25">
-                    <p className="content-text-18 text-align-center">Our methodology has produced lasting results for the clients and       their users. The answers you find will deeply affect your users and your business by clarifying business          design solutions that drive transformation. </p>
+                    <p className="content-text-18 text-align-center">
+                          Our methodology is adaptable and functions within any business scenario. We provide business design solutions that drive transformation. </p>
                     </div>
                     </div>
                 </section>
@@ -119,7 +124,7 @@ class methodology extends Component {
                         </div>
                         
                         <div className="content-block-75" >
-                            <p className="content-text-18 content-block-75">
+                            <p className="content-text-18 content-block-75 margin-top-15">
                             The discovery phase is all about the user. The research continues into the discovery phase. During this phase we begin to understand and emphasize with the user and the truth becomes clear.
                             </p>
 
@@ -177,7 +182,7 @@ class methodology extends Component {
                             Design Solutions
                         </div>
                         <div className="content-block-75" >
-                            <p className="content-text-18 content-block-75">
+                            <p className="content-text-18 content-block-75 margin-top-15">
                             This is the phase that encompasses all the research and discovery findings to simplify and design a user interface based on the user expectations and the business needs.</p>
 
                             <ul className="dashed">
@@ -229,7 +234,7 @@ class methodology extends Component {
                         </div>
                         
                         <div className="content-block-75" >
-                            <p className="content-text-18 content-block-75">
+                            <p className="content-text-18 content-block-75 margin-top-15">
                             The testing phase reveals if we answered all the questions, reduced the pain points and matched expectations. This phase will last the entire development phase and never stop.
                             </p>
 
@@ -290,7 +295,7 @@ class methodology extends Component {
                         </div>
                         
                         <div className="content-block-services" >
-                            <p className="content-text-18 content-block-75">
+                            <p className="content-text-18 content-block-75 margin-top-15">
                                 WDS offers customer experience strategies based off the research findings. WDS offers a full line of design services to ensure cohesion and consistency in your branding message.
                             </p>
 
