@@ -106,9 +106,9 @@ class ui_design extends Component {
                         <div className="subtitle">
                             Introducing the voices of the user
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-25">
-                            <p className="content-text-18"> Because specific targets are better than vague ones, we create personas - single archetypes that represent a group of people with similar behaviors, attitudes and motivations. Personas keep us focused on real people who exhibit unique sets of characteristics. These behavior-based personas assist us throughout ideation, design and marketing to help teams develop appropriate solutions and messages.</p>
-                            <p className="content-text-18">While personas are a popular technique used by many companies. Especially, to argue user cases.  WDS personas are far more robust than those created from market research data alone. Well-crafted personas grounded in user observations, developed around real users and not simple demographic data. Instead, they tell us about what drives segments to behave and believe as they do.</p>           
+                        <div className="content-block-75 margin-top-25">
+                            <p className="content-text-16"> Because specific targets are better than vague ones, we create personas - single archetypes that represent a group of people with similar behaviors, attitudes and motivations. Personas keep us focused on real people who exhibit unique sets of characteristics. These behavior-based personas assist us throughout ideation, design and marketing to help teams develop appropriate solutions and messages.</p>
+                            <p className="content-text-16">While personas are a popular technique used by many companies. Especially, to argue user cases.  WDS personas are far more robust than those created from market research data alone. Well-crafted personas grounded in user observations, developed around real users and not simple demographic data. Instead, they tell us about what drives segments to behave and believe as they do.</p>           
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
