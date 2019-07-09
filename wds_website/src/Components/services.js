@@ -1,5 +1,7 @@
 import React, { Component } from 'react' ;
 import practice from '../images/backgrounds/bg-services.svg';
+import starleft from '../images/star-left.svg';
+import starright from '../images/star-right.svg';
 import together from '../images/photos/photo-why-wds.png';
 import services2 from '../images/photos/photo-services-s2.png';
 import services3 from '../images/photos/photo-services-s3.png';
@@ -9,6 +11,7 @@ import services6 from '../images/photos/photo-services-s6.png';
 import services7 from '../images/photos/photo-services-s7.png';
 import services8 from '../images/photos/photo-services-s8.png';
 import services9 from '../images/photos/photo-services-s9.png';
+import icon_design_solutions from '../images/icon-design-solutions.svg';
 
 class services extends Component {
     render () {
@@ -190,9 +193,13 @@ class services extends Component {
 
             <div className="flex-layout-section-full grey-blue padding-bottom-50">
                 <div className="grid-services-list  flex-section-align-center">
-                    <div className="margin-top-50 title grid-title">
-                        Services Include</div>
+                    <div className="margin-top-50 grid-services-title title text-align-center ">
+                        <img className="width-10  width-50px" src={starleft}  alt="" /> 
+                        Services Include 
+                        <img className=" width-10 width-50px" src={starright}  alt="" /> 
+                    </div>
                     <div className="grid-services-3">
+                    <img className="" src={starleft}  alt="" /> 
                         <div className="subtitle">
                             Strategy & Insights
                         </div>

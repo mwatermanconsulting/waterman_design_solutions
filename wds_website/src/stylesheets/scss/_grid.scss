@@ -27,6 +27,10 @@
     grid-column: auto / span 2;
     align-items: center;
   }
+  .grid-title-3col {
+    grid-column: auto / span 3;
+    align-items: center;
+  }
 
   .grid-a {
     grid-column: auto;
