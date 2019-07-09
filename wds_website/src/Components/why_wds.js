@@ -194,7 +194,7 @@ class why_wds extends Component {
                     <div className="content-header">Lasting Results</div>
                         <div className="layout-center-justified">
                             <p className=" content-block-why margin-top-10 ">We're not only here to build and launch great technology solutions, but to help you and your team improve your business in tangible ways. 
-                            We've helped increase conversion by 200%, reduced operations time by 15%, and increased channel utilization by 75%. It all leads to millions in revenue and cost savings.</p> 
+                            Our <a href ="./core_offerings">core offerings</a> have helped businesses understand the value of design and increase conversion by 200%, reduced operations time by 15%, and increased channel utilization by 75%. It all leads to millions in revenue and cost savings.</p> 
                         </div> 
                     </div> 
                 </div>
