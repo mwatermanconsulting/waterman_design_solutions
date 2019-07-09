@@ -120,13 +120,12 @@ class case_study_1 extends Component {
                             <p className="content-text-18 margin-top-15">
                                 WDS noticed early in the project that the organization of inputs did not make sense. When the team information expert reviewed the interface and made suggested changes we learned that there was two set of users. The consumer who would purchase the product and the cable operators doing home internet connection. WDS would not be allowed to move ANY input. Originally we thought this requirement was limiting, instead it forced us to adapt our solutions. Sometime being forced to change course opens new possibilities designing a final product the was beyond the scope and expectations of the customers and shareholders. </p>
 
-                            
-
                         <section className="grid-callout margin-top-50">    
                             <div className="grid-callout-text"> 
                                 <ul className="content-text-18">
                                     <p className="subtitle-case">User Pain Points:</p>
                                     <li><a href="#solution1">Interface was Intimidating</a></li>
+                                    <li><a href="#solution1">Guidance and Support</a></li>
                                     <li><a href="#solution1">Design was outdated</a></li>
                                     <li><a href="#solution2">Starting point is confusing</a></li>
                                     <li><a href="#solution3">WiFi setup frustrating and confusing</a></li> 

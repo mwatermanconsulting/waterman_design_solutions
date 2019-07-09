@@ -935,8 +935,8 @@ h1 {
   font-size: 1.8rem;
   font-weight: 700;
   line-height: 1.25;
-  font-family: 'Roboto';
-  color: #747677; }
+  font-family: 'Oswald';
+  color: #879397; }
 
 .subtitle-bold-i {
   font-size: 2.4rem;
@@ -2068,6 +2068,12 @@ callout-bg-s1 {
   justify-content: center;
   margin-left: 25%; }
 
+.grid-left-15 {
+  grid-column: 1/2;
+  grid-row: auto;
+  justify-content: center;
+  margin-left: 15%; }
+
 .grid-left-45 {
   grid-column: 1/2;
   grid-row: auto;
@@ -2076,14 +2082,25 @@ callout-bg-s1 {
 
 .grid-left-30 {
   grid-column: 1/2;
-  grid-row: auto;
-  justify-content: center;
+  grid-row: 1;
+  justify-content: flex-start;
+  align-self: flex-start;
   margin-left: 30%; }
+
+.grid-left-25 {
+  grid-column: 1/2;
+  grid-row: auto;
+  margin-left: 20%; }
 
 .grid-right {
   grid-column: 2/2;
   grid-row: auto;
   margin-left: -6%; }
+
+.grid-right-15 {
+  grid-column: 2/2;
+  grid-row: 1;
+  margin-left: 15%; }
 
 .grid-left-photo {
   grid-column: 1/2;
