@@ -1,6 +1,7 @@
 import React, { Component } from 'react' ;
 import method from '../images/backgrounds/bg-methodology.svg';
 import methodolgy_graphic from '../images/graphic-methodology.svg';
+import methodology2 from '../images/photos/photo-methodology-s2.png';
 import methodology3 from '../images/photos/photo-methodology-s3.png';
 import methodology4 from '../images/photos/photo-methodology-s4.png';
 import methodology5 from '../images/photos/photo-methodology-s5.png';
@@ -10,8 +11,11 @@ import methodology8 from '../images/photos/photo-methodology-s8.png';
 import methodology9 from '../images/photos/photo-methodology-s9.png';
 import methodology10 from '../images/photos/photo-methodology-s10.png';
 import methodology11 from '../images/photos/photo-methodology-s11.png';
+import methodology12 from '../images/photos/photo-methodology-s12.png';
+import methodology13 from '../images/photos/photo-methodology-s13.png';
 import method1 from '../images/photos/photo-methodology-s1.png';
 import featured from '../images/photos/photo-methodology-featured-motorola.png';
+import uxdiagram from '../images/photos/photo-methodology-ux-diagram.png';
 
 
 class methodology extends Component {
@@ -106,7 +110,7 @@ class methodology extends Component {
                         
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={methodology4}  alt="Methodology" /> 
+                        <img className="photo-container" src={methodology2}  alt="Methodology" /> 
                     </div>     
                 </section>
 
@@ -197,7 +201,8 @@ class methodology extends Component {
                         
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={methodology4}  alt="Methodology" /> 
+                        <img className="photo-container" src={methodology5}  alt="Methodology" /> 
+                        <p className="caption">Photo by Vidar Nordli-Mathisen on Unsplash</p>
                     </div>     
                 </section>
 
@@ -218,7 +223,8 @@ class methodology extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={methodology5}  alt="Methodology" /> 
+                        <img className="photo-container" src={methodology6}  alt="Methodology" />
+                        <p className="caption">Photo by Caleb George on Unsplash</p> 
                     </div>     
                 </section>
                 
@@ -248,7 +254,7 @@ class methodology extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                            <img className="photo-container" src={methodology6}  alt="Methodology" /> 
+                            <img className="photo-container" src={methodology7}  alt="Methodology" /> 
                     </div>     
                 </section>
 
@@ -275,7 +281,7 @@ class methodology extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container marginleft-minus50" src={methodology7}  alt="Methodology" /> 
+                        <img className="photo-container" src={methodology8}  alt="Methodology" /> 
                     </div>     
                 </section>
 
@@ -303,7 +309,7 @@ class methodology extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container marginleft-minus50" src={methodology7}  alt="Methodology" /> 
+                        <img className="photo-container" src={methodology9}  alt="Methodology" /> 
                     </div>     
                 </section>
 
@@ -337,7 +343,7 @@ class methodology extends Component {
                         
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={methodology8}  alt="Methodology" /> 
+                        <img className="photo-container" src={methodology10}  alt="Methodology" /> 
                     </div>     
                 </section>
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
@@ -370,7 +376,7 @@ class methodology extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container marginleft-minus50" src={methodology9}  alt="Methodology" /> 
+                        <img className="photo-container marginleft-minus50" src={methodology11}  alt="Methodology" /> 
                     </div>     
                 </section>
 
@@ -403,7 +409,8 @@ class methodology extends Component {
                         
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={methodology10}  alt="Methodology" /> 
+                        <img className="photo-container" src={methodology12}  alt="Methodology" />
+                        <p className="caption">Photo by Tim Mossholder on Unsplash</p> 
                     </div>     
                 </section>
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
@@ -434,7 +441,7 @@ class methodology extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container marginleft-minus50" src={methodology11}  alt="Methodology" /> 
+                        <img className="photo-container marginleft-minus50" src={methodology13}  alt="Methodology" /> 
                     </div>     
                 </section>
             </div>
