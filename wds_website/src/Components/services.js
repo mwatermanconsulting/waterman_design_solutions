@@ -26,7 +26,8 @@ class services extends Component {
             </section>
             <section className="grid-callout yellow-bg"> 
                 <div className="grid-callout-text grid-placeself-center width-70">
-                    <p className="callout-text ">Our service offerings have expanded over the years our services around design grew. We knew that in order for our clients to be grow and scale they needed a design partner. A partner that would guide and support all their needs. From mentoring to customer interviews to social media campaigns to business design solutions. WDS knows design.
+                    <p className="callout-text ">
+                        Our service offerings have expanded over the years our clients expectations and needs have grown. All of our services offerings are based extensively on our UX research. All are designed with empathy and with a purpose. 
                     </p>     
                 </div>
                 <div className="grid-callout-photo grid-placeself-center">

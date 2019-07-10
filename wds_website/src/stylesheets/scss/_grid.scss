@@ -299,6 +299,15 @@
     grid-row-gap: 5px;
     display: grid;
   }
+  .grid-2col-text-center-50 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "text text";
+    grid-template-rows: auto;
+    grid-row-gap: 5px;
+    width: 50%;
+    display: grid;
+  }
+
   .grid-2col-text-center {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "text text";

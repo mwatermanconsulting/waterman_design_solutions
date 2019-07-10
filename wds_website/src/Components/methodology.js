@@ -418,7 +418,7 @@ class methodology extends Component {
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-25">
                             <p className="content-text-18"> 
-                                Last part of the methodology is our encore, the core offerings requested by our clients. Our core offerings are design services that bring design to the c-suite and beyond </p>
+                                Our last part of our methodology is services to help spread design to the c-suite. It is critical to your companies survival to build a culture of empathy and design. </p>
 
                             <ul className="dashed">
                                 <li><a href="../strategy_insight">Present Findings - The Truth</a></li>
@@ -462,7 +462,7 @@ class methodology extends Component {
                          WDS Methodology Uncovered and Solved Motorola's Design Problems
                     </div>
                         <p className="content-text-18 margin-top-15"> 
-                        A design problem with Motorola Surfboard Cable Modem product line was on the verge of losing money due to high return rate and a high spike in call center calls. After two failed attempts and years of complacency, Motorola stakeholders decided to bring in a consultant with design and UX experience wiht a proven methodology.  <a href= "./case_study_1"> For the full story....</a></p>
+                        A design problem with Motorola Surfboard Cable Modem product line was on the verge of losing money due to high return rate and a high spike in call center calls. After two failed attempts and years of complacency, Motorola stakeholders decided to bring in a consultant with design and UX experience with a proven methodology.  <a href= "./case_study_1"> For the full story....</a></p>
                     </div>
                 </div>     
             </section>
