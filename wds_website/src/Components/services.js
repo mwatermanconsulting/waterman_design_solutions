@@ -34,7 +34,8 @@ class services extends Component {
             </section>
             <section className="grid-callout yellow-bg"> 
                 <div className="grid-callout-text grid-placeself-center width-70">
-                    <p className="callout-text text-black">Introduce this section and explain to the user why they should read farther. Talk about our knowledge and experience across many different verticals on applications, websites, marketing materials and UX services. All our design solutions and services are with the user in mind and money in yor pocket. 
+                    <p className="callout-text ">
+                        Our service offerings have expanded over the years our clients expectations and needs have grown. All of our services offerings are based extensively on our UX research. All are designed with empathy and with a purpose. 
                     </p>     
                 </div>
                 <div className="grid-callout-photo grid-placeself-center">

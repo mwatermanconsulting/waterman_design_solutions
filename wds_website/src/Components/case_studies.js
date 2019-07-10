@@ -14,7 +14,7 @@ import az from '../images/az.png'
 import KetchHot from '../images/icon-logo-ketchhot.png'
 import wcc from '../images/wcc.png'
 import wtt from '../images/wtt.png'
-import sbk from '../images/smithkline.svg'
+import sbk from '../images/icon-logo-smithkline.svg'
 import gps from '../images/gps.png'
 import investor from '../images/if.png'
 import ncba from '../images/ncba.png'
@@ -29,7 +29,7 @@ class case_studies extends Component {
                     <div className="header-text-center header-title text-white">
                         Case Studies
                     </div>
-                        <img className="flex-image-container" src={caseStudies}  alt="case studies" />     
+                        <img className="flex-image-container width-100" src={caseStudies}  alt="Case Studies" />     
                 </section>
                 <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                     <div className="callout-text-lg">
@@ -37,16 +37,16 @@ class case_studies extends Component {
                     </div>
                 </section>
                 <section className="flex-layout-section-full align-items-center">
-                    <div className="flex-layout-column margin-top-50">
+                    <div className="flex-layout-column margin-top-75">
                         <div className="title flex-layout-center">
                                 Customer Success Spotlight</div>
-                        <div className="content-block width-100 margin-top-25">
+                        <div className="content-block width-100 margin-top-10">
                             <p className="subtitle text-align-center">
-                                 Below are some of our favorite case study stories.<br/> Each case study describes the process,  thoughts and solutions for each project </p>
+                                 Our favorite case study stories about our process that made solutions happen </p>
                         </div> 
                     </div>
                 </section>
-                <section className="grid-cs-card flex-layout-section-full margin-top-50 margin-bottom-100" style={{marginLeft: '5%'}}>
+                <section className="grid-cs-card flex-layout-center-center flex-layout-section-full margin-top-75 margin-bottom-100">
                     <div className="cs-card-1 card-case-studies content-header flex-layout-column flex-sh-500">
                         <div className="container-image-block">
                             <img className="width-100" src={motorola}  alt="motorola before and after" /> 
@@ -133,14 +133,11 @@ class case_studies extends Component {
                                                 <p><i> Industry: Technology</i></p>
                                                 <p className="content-text-18 content-block">High Volume of returns plaguing Motorola Gateway Router Product Line. 
                                                 After two failed attempts by UX/UI developers, a frustrated management group decided they needed a designer to make their modem app easier to use. <br/><br/>
-
                                                 <a href="./case_study_4" className="text-black" target="_blank">Read More....</a>   
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
-                                   
-                                
                             </div> 
                         
                 </section>
@@ -150,7 +147,7 @@ class case_studies extends Component {
             <section className="flex-layout-section-full width-100 border-tb-5 grey flex-layout-column flex-layout-center-center">
                 <div className="content-header flex-layout-column">
                     <div className="content-block margin-tb-100 width-100">
-                        <p className="callout-text text-align-center"> 
+                        <p className="callout-text-lg text-align-center"> 
                         Design is not just what it looks like and feels like. Design is how it works.</p>
                         <p className="content-text-18 text-align-center"> 
                         —Steve Jobs, Co-Founder of Apple</p>

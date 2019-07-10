@@ -34,7 +34,8 @@ class video_production extends Component {
 
             <section className="content-header flex-layout-center-center flex-layout-column margin-top-100">
                 <div className="flex-layout-center-center title text-align-center content-block-60">
-                    Video Production is Our Oldest Service
+                Engage your customers and earn their trust
+
                 </div>
                 <div className="margin-top-25 content-block-55">
                     <p className="subtitle flex-layout-center-center"> 
@@ -51,10 +52,10 @@ class video_production extends Component {
                         <div className="title">
                             Video should tell a story
                         </div>
-                        <div className="subtitle margin-top-15">
+                        <div className="subtitle margin-top-10">
                             Make your message have value
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-25">
+                        <div className="content-block-75 content-text-18 margin-top-15">
                             <p className="content-text-18"> 
                             Video is one of the most versatile and profitable digital marketing tools. It can lead directly to sales. Studies show that 74% of users watching explainer videos actually buy the product. It is one of the highest provider of a good return on investment.</p>
                         </div>

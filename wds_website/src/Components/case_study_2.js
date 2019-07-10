@@ -32,7 +32,7 @@ class case_study_2 extends Component {
                         Case Study - StubHub
                     </div>
                         <img className="header-text-right align-self-center" src={stubhub_logo}  alt="Stubhub Case Study Logo Image" /> 
-                        <img className="flex-image-container" src={stubhub_bg}  alt="Stubhub Case Study " />  
+                        <img className="flex-image-container width-100" src={stubhub_bg}  alt="Stubhub Case Study " />  
                 </div> 
                 <div className="flex-layout-section-fixed-sm margin-top-75">
                     <div className="content-header flex-layout-center-center"> 
@@ -173,7 +173,7 @@ class case_study_2 extends Component {
                                             <li>Want and Need Dashboard </li>
                                             <li>Many of the current features were not being used</li>
                                             <li>KPI Section was unintelligible</li>
-                                            <li>numbers numbers and numbers</li>
+                                            <li>numbers numbers numbers</li>
                                             <li>Get more Users</li>
                                         </ol>
                                     </div>

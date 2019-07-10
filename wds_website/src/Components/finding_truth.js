@@ -19,7 +19,7 @@ class innovative_solutions extends Component {
             <div className="flex-section-fixed-head flex-layout-center-center image-background-border-tb">
                 <div className="header-text-center header-title text-white">
                     Finding the Truth</div>
-                <img className="flex-image-container" src={finding_truth}  alt="Why WDS background" /> 
+                <img className="flex-image-container width-100" src={finding_truth}  alt="Why WDS background" /> 
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
@@ -28,7 +28,7 @@ class innovative_solutions extends Component {
             </div>
             <div className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
                 <div className="grid-item-b content-block-60 content-header flex-layout-column">
-                    <div className="callout-text text-align-left text-white">By directly observing people, and going through your own research, we can empathize with their pain points, discovering solutions, simplfying life and connecting with them on an emotional level. We create truth that was unknown until now, using this knowledge to create better decisions based on users, not assumptions. </div>
+                    <div className="callout-text text-align-left text-white">Our methodology allows us to connect with users. Our UX designers are passionate and empathic. Our team knows how to connect with users, interviewing and speaking with the users. People will always open up and confide in you if they feel you are on their side and you care about their needs. This is how WDS uncover truths that were unknown. </div>
                              
                 </div>
                 <div className="item-a-nb container-image-block">
@@ -38,10 +38,11 @@ class innovative_solutions extends Component {
     
             <div className="content-header flex-layout-center-center flex-layout-column margin-top-200 ">
                 <div className="flex-layout-center-center title text-align-center content-block-60">
-                    Need Introduction Text Here. A Small story on finding solutions where others failed to see them. Unique Solutions  
+                    Its the people behind our methodology that makes the difference. 
                 </div>
                 <div className="content-block-55 margin-top-50">
-                    <p className="content-text-24 text-align-center">WDS discovers the patterns and themes that provide actionable, deeper and more valuable perspectives on your customers' wants, needs and motivations.</p>
+                    <p className="content-text-24 text-align-center">
+                        WDS discovers the patterns and themes that provide actionable, deeper and more valuable perspectives on your customers' wants, needs and motivations.</p>
                     <p className="content-text-24 text-align-center">The most meaningful insights for experience strategy are developed with behavior-based understanding of users. Our experience strategists observe people in context - where they work, play or live - to understand their goals, needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve..</p>
                 </div>
             </div>
@@ -256,7 +257,7 @@ class innovative_solutions extends Component {
                     </div>
                 </div>
             <div className="item-b container-image-block">
-                <img className="flex-image-container" src={services}  alt="Your Business is Our Joy" /> 
+                <img className="flex-image-container width-100" src={services}  alt="Your Business is Our Joy" /> 
             </div>
             </div>   
                 
