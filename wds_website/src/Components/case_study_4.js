@@ -5,23 +5,11 @@ import osi_logo from '../images/osilogo.svg';
 import osi_s1 from '../images/image-post-flexbox-v2.png';
 import itcss from '../images/ITCSS.png';
 import casscade from '../images/photos/photo-css-s1.png';
-import stubhub_s1 from '../images/photos/photo-stubhub-s1.png';
-import stubhub_before_after from '../images/photos/photo-stubhub-before-after.png';
 import sass from '../images/Sass.jpg';
-import stubhub_slow from '../images/photos/photo-stubhub-turtle.png';
-import stubhub_before_3 from '../images/photos/photo-stubhub-before-topMetrics.png';
-import stubhub_after_1 from '../images/photos/photo-stubhub-after-3.png';
-import stubhub_after_2 from '../images/photos/photo-stubhub-after-4.png';
-import stubhub_after_3 from '../images/photos/photo-stubhub-after-5.png';
-import stubhub_after_4 from '../images/photos/photo-stubhub-after-7.png';
-import stubhub_after_5 from '../images/photos/photo-stubhub-after-4.png';
 import kendo from '../images/kendo.png';
 import design_system from '../images/photos/photo-digital-systems-s3.png';
-import stubhub_dashboard from '../images/photos/photo-stubhub-future-dashboard2.png';
 import thumbsUp from '../images/thumbsup.svg';
-import stubhub_s2 from '../images/photos/photo-stubHub-s2.png';
-import motorola_bg from '../images/backgrounds/bg-motorola.png';
-import motorola_logo from '../images/icon-motorola-white.svg'; 
+
 
 
 class case_study_4 extends Component {
@@ -62,7 +50,7 @@ class case_study_4 extends Component {
 
                 <div className="flex-layout-section flex-section-align-center thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
-                <section className="grid-2col-text flex-section-align-center flex-layout-column" >
+                <section className="flex-layout-section-full flex-section-align-center flex-layout-column">
                     <div className="grid-text title">
                         Approach
                     
