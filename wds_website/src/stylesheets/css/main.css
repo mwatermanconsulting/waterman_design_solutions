@@ -464,6 +464,9 @@ footer {
 .content-block-75 {
   width: 75%; }
 
+.content-block-85 {
+  width: 85%; }
+
 .content-block-90 {
   width: 90%; }
 
@@ -1087,10 +1090,9 @@ footer.link-color {
 .container-photo-50px {
   width: 50px;
   height: auto; }
-=======
+
 .image-size-logo {
   width: 150px; }
-
 
 .image-size-header-fixed {
   height: 1920px;
@@ -1130,13 +1132,9 @@ input[type=submit]:hover {
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-  /* Support for all WebKit browsers. */
   -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
   text-rendering: optimizeLegibility;
-  /* Support for Firefox. */
   -moz-osx-font-smoothing: grayscale;
-  /* Support for IE. */
   font-feature-settings: 'liga'; }
 
 .lightgreen {

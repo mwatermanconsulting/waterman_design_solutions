@@ -33,9 +33,9 @@ class css_solutions extends Component {
                     <img className="container-photo-callout" src={casscade}  alt="css code" /> 
                 </div>
             </section>
-            <section className="content-header flex-layout-center-center flex-layout-column margin-bottom-100">
+            <section className="content-header flex-layout-center-center flex-layout-column                                         margin-bottom-100">
                 <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-50">
-                        WDS CSS Solutions saves time and develops lean, scalable solutions.
+                        WDS CSS Solutions saves your deveopers time and develops lean, scalable solutions.
                 </div>
                 <div className="content-block-50 margin-top-50">
                     <p className="content-text-24 text-align-center">
@@ -43,12 +43,12 @@ class css_solutions extends Component {
                 </div>
                 <button type="button" className="margin-top-50 font-size-24"><a href="case_study_4">
                     OsiSoft CSS Case Study </a></button>
-            </section>
-
-            <div className="flex-layout-section thin-hr flex-layout-center margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
-           
-            <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">
                 
+                <div className="flex-layout-section thin-hr flex-layout-center margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
+
+            </section>
+           
+            <div className="flex-layout-section-full flex-layout-center-center flex-layout-column"> 
                 <div className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title">
@@ -151,21 +151,20 @@ class css_solutions extends Component {
                         </div>
                     </div>
                 </section>
-
-                <div className="flex-layout-section-full align-items-center grey border-top-5">
-                    <div className="grid-2col-text-photo align-self-center width-100  margin-top-50       margin-bottom-50 " > 
-                    <div className="col2-text grid-placeself-center width-70 margin-left-75">
-                        <div className="col2-photo width-100 grid-placeself-center">
-                            <img className="flex-image-container width-100" src={didyouknow}  alt="Ux is the best therapy!" /> 
-                        </div>
-                    </div>
-                    <div className="content-block">
-                        <p className="content-header"> We also provide on-site consultancy and development work for companies and teams of all sizes </p>
-                    </div>
-                    </div>
-                </div> 
-  
                 </div>
+                
+
+                <section className="flex-layout-section-full flex-layout-column margin-top-100  grey border-top-5">
+                    <div className="width-100 margin-top-50 margin-bottom-50"> 
+                       <a href="../communication_insights"> <img className="flex-image-container width-75" src={didyouknow}  alt="Ux is the best therapy!" /> </a>
+                      
+                    <div className="flex-layout-center-center">
+                        <p className="content-header text-white flex-layout-column flex-layout-center-center"> WDS has developed communication strategies for Motorola, Stubhub and OsiSoft.  <p><i><a href="../case_study_3">Learn More</a> </i></p> </p>
+                    </div>
+                    </div>
+                </section> 
+  
+                
             </div>
         )
     }
