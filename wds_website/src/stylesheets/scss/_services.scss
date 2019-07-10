@@ -130,14 +130,17 @@
     grid-gap: 20px;
     display: grid;
   }
-
+  .grid-services-title {
+    grid-column: 1/4;
+    grid-row: 1;
+  }
   .grid-services-1 {
-    grid-column: 1/3;
+    grid-column: 1/1;
     grid-row: 2;
   }
 
   .grid-services-2 {
-    grid-column: 2/4;
+    grid-column: 2/2;
     grid-row: 2;
   }
 
@@ -147,12 +150,12 @@
   }
 
   .grid-services-4 {
-    grid-column: 1/3;
+    grid-column: 1/1;
     grid-row: 3;
   }
 
   .grid-services-5 {
-    grid-column: 2/3;
+    grid-column: 2/2;
     grid-row: 3;
   }
 

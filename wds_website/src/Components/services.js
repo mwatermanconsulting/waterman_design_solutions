@@ -1,5 +1,7 @@
 import React, { Component } from 'react' ;
 import practice from '../images/backgrounds/bg-services.svg';
+import starleft from '../images/star-left.svg';
+import starright from '../images/star-right.svg';
 import together from '../images/photos/photo-why-wds.png';
 import services2 from '../images/photos/photo-services-s2.png';
 import services3 from '../images/photos/photo-services-s3.png';
@@ -9,6 +11,12 @@ import services6 from '../images/photos/photo-services-s6.png';
 import services7 from '../images/photos/photo-services-s7.png';
 import services8 from '../images/photos/photo-services-s8.png';
 import services9 from '../images/photos/photo-services-s9.png';
+import icon_design_solutions from '../images/icon-why-design-solutions.svg';
+import icon_design from '../images/icon-why-design.svg';
+import icon_strategy from '../images/icon-why-strategy.svg';
+import icon_ui from '../images/icon-why-ui.svg';
+import icon_ux from '../images/icon-why-ux.svg';
+import icon_marketing from '../images/icon-why-marketing.svg';
 
 class services extends Component {
     render () {
@@ -44,7 +52,7 @@ class services extends Component {
 
             <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
-                <section className="grid-2col-photo-content content-header">
+            <section className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="subtitle">
                             User Experience Design
@@ -59,14 +67,14 @@ class services extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container width-100 marginleft-minus50" src={services4}  alt="Services" /> 
+                        <img className="photo-container" src={services4}  alt="Services" /> 
                     </div>           
                 </section>
 
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
-                <section className="grid-2col-photo-content content-header" style={{marginLeft:'20%'}}>
-                    <div className="grid-right-content flex-layout-section-full ">
+                <section className="grid-2col-photo-content content-header">
+                    <div className="grid-left flex-layout-section-full ">
                         <div className="subtitle">
                             UI Design & Development
                         </div>
@@ -77,7 +85,7 @@ class services extends Component {
                             <p><i><a href="../ui_design">Learn More</a></i></p>
                         </div>
                     </div>
-                        <div className="grid-left-photo container-image-block">
+                        <div className="grid-right container-image-block">
                             <img className="photo-container" src={services3}  alt="Services" /> 
                         </div>     
                 </section>
@@ -105,14 +113,14 @@ class services extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container marginleft-minus50" src={services2}  alt="Services" /> 
+                        <img className="photo-container" src={services2}  alt="Services" /> 
                     </div>     
                 </section>
                 
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
-                <section className="grid-2col-photo-content content-header" style={{marginLeft:'20%'}}>
-                    <div className="grid-right-content flex-layout-section-full ">
+                <section className="grid-2col-photo-content content-header">
+                    <div className="grid-left flex-layout-section-full ">
                         <div className="subtitle">
                             Strategy and Insight 
                         </div>
@@ -123,7 +131,7 @@ class services extends Component {
                         </div>
                         
                     </div>
-                    <div className="grid-left-photo container-image-block">
+                    <div className="grid-right container-image-block">
                         <img className="photo-container" src={services5}  alt="Services" /> 
                     </div>     
                 </section>
@@ -148,8 +156,8 @@ class services extends Component {
 
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
-                <section className="grid-2col-photo-content content-header" style={{marginLeft:'20%'}}>
-                    <div className="grid-right-content flex-layout-section-full ">
+                <section className="grid-2col-photo-content content-header" >
+                    <div className="grid-left flex-layout-section-full ">
                         <div className="subtitle">
                             Customer Experience
                         </div>
@@ -158,7 +166,7 @@ class services extends Component {
                             <p className="content-text-18"><a href="../core_offerings">Learn More</a> </p>     
                         </div>
                     </div>
-                    <div className="grid-left-photo container-image-block">
+                    <div className="grid-right container-image-block">
                             <img className="photo-container marginleft-minus50" src={services7}  alt="Services" /> 
                     </div>     
                 </section>
@@ -174,14 +182,14 @@ class services extends Component {
                 
                 <section className="grid-gallery-2col grid-gap-20 content-header align-self-center justify-items-center margin-top-100 width-70">
                     <div className="gallery-2col-1 container-image-500 align-self-end">
-                        <img className="container-image-500" src={services8}  alt="All About the User" /> 
+                        <img className="container-image-500 border-2" src={services8}  alt="All About the User" /> 
                         <div className="content-block-auto ">
                             <div className="subtitle margin-top-25">Featured Service: Design Systems</div>
                             <p className="">At WDS, we know and understand the importance of design systems to businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff.</p>
                         </div>
                     </div>     
                     <div className="gallery-2col-2 container-image-500 align-self-top">
-                        <img className="container-image-500"  src={services9}  alt="Business Solutions" /> 
+                        <img className="container-image-500 border-2"  src={services9}  alt="Business Solutions" /> 
                         <div className="content-block-auto ">
                             <div className="subtitle margin-top-25">Featured Service: CSS Support</div>
                             <p className="">At WDS, we know and understand the importance of design systems to businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff.</p>
@@ -189,11 +197,13 @@ class services extends Component {
                     </div>
             </section>
 
-            <div className="flex-layout-section-full grey-blue padding-bottom-50">
+            <div className="flex-layout-section-full margin-top-75 grey-blue padding-bottom-50">
                 <div className="grid-services-list  flex-section-align-center">
-                    <div className="margin-top-50 title grid-title">
-                        Services Include</div>
+                    <div className="margin-top-50 grid-services-title title text-align-center ">
+                        Services Include 
+                    </div>
                     <div className="grid-services-3">
+                        <img className="width-50" src={icon_strategy}  alt="Strategy and Insights" /> 
                         <div className="subtitle">
                             Strategy & Insights
                         </div>
@@ -211,6 +221,7 @@ class services extends Component {
                     </ul>  
                     </div>
                     <div className="grid-services-1">
+                        <img className="width-50" src={icon_ux}  alt="UX" /> 
                         <div className="subtitle">
                             UX Design
                         </div>
@@ -227,6 +238,7 @@ class services extends Component {
                     </ul>
                     </div>
                     <div className="grid-services-4">
+                        <img className="width-50" src={icon_ui}  alt="UI" />
                         <div className="subtitle">
                             UI Design & Development
                         </div>
@@ -239,6 +251,7 @@ class services extends Component {
                             </ul>
                     </div>
                     <div className="grid-services-5">
+                        <img className="width-50" src={icon_marketing}  alt="Marketing and Analysis" />
                         <div className="subtitle">
                             Marketing & Analytics
                         </div>
@@ -252,6 +265,7 @@ class services extends Component {
                         </ul>  
                     </div>
                     <div className="grid-services-2">
+                        <img className="width-50" src={icon_design_solutions}  alt="Design Solutions" />
                         <div className="subtitle">
                             Design Solutions
                         </div>
@@ -267,6 +281,7 @@ class services extends Component {
                             </ul>
                     </div>
                     <div className="grid-services-6">
+                        <img className="width-50" src={icon_design}  alt="Design" />
                         <div className="subtitle">Design</div>
                             <ul>
                                 <li>User Interface Design</li>

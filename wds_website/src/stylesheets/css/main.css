@@ -584,6 +584,9 @@ footer {
 .width-50 {
   width: 50%; }
 
+.width-50px {
+  width: 50px; }
+
 .width-40 {
   width: 40%; }
 
@@ -640,9 +643,7 @@ footer {
   padding-top: 100px; }
 
 .border-2 {
-  border: 2px solid #000;
-  padding: 5px;
-  width: 50%; }
+  border: 2px solid #000; }
 
 .servicespic {
   max-height: 500px;
@@ -1083,8 +1084,13 @@ footer.link-color {
   height: 450px;
   border: 2px solid #fff; }
 
+.container-photo-50px {
+  width: 50px;
+  height: auto; }
+=======
 .image-size-logo {
   width: 150px; }
+
 
 .image-size-header-fixed {
   height: 1920px;
@@ -1375,6 +1381,10 @@ Button:hover {
 
 .grid-title {
   grid-column: auto / span 2;
+  align-items: center; }
+
+.grid-title-3col {
+  grid-column: auto / span 3;
   align-items: center; }
 
 .grid-a {
@@ -2133,12 +2143,16 @@ callout-bg-s1 {
   grid-gap: 20px;
   display: grid; }
 
+.grid-services-title {
+  grid-column: 1/4;
+  grid-row: 1; }
+
 .grid-services-1 {
-  grid-column: 1/3;
+  grid-column: 1/1;
   grid-row: 2; }
 
 .grid-services-2 {
-  grid-column: 2/4;
+  grid-column: 2/2;
   grid-row: 2; }
 
 .grid-services-3 {
@@ -2146,11 +2160,11 @@ callout-bg-s1 {
   grid-row: 2; }
 
 .grid-services-4 {
-  grid-column: 1/3;
+  grid-column: 1/1;
   grid-row: 3; }
 
 .grid-services-5 {
-  grid-column: 2/3;
+  grid-column: 2/2;
   grid-row: 3; }
 
 .grid-services-6 {
