@@ -1,17 +1,12 @@
 import React, { Component } from 'react' ;
 import CSS from '../images/backgrounds/bg-css.png';
 import didyouknow from '../images/graphic-didyouknow.png';
-import together from '../images/photos/photo-why-wds.png';
-import finding from '../images/photos/photo-documentation-s1.png';
-import finding_truth1 from '../images/photos/photo-finding-truth-s1.png';
 import casscade from '../images/photos/photo-css-s1.png';
 import css3 from '../images/photos/photo-css-s3.png';
 import css4 from '../images/photos/photo-css-s4.png';
 import css2 from '../images/photos/photo-css-s2.png';
 import itcss from '../images/ITCSS.png';
-import finding_truth6 from '../images/photos/photo-finding-truth-s6.png';
-import finding_truth7 from '../images/photos/photo-finding-truth-s7.png';
-import finding_truth8 from '../images/photos/photo-finding-truth-s8.png';
+
 
 class css_solutions extends Component {
     render () {
@@ -158,20 +153,17 @@ class css_solutions extends Component {
                 </section>
 
                 <div className="flex-layout-section-full align-items-center grey border-top-5">
-                <div className="grid-2col-text-photo align-self-center width-100  margin-top-50 margin-bottom-50 " > 
-                <div className="col2-text  grid-placeself-center width-70 margin-left-75">
-                  
-                        
-                    <div className="col2-photo width-100 grid-placeself-center">
-                        <img className="flex-image-container width-100" src={didyouknow}  alt="Ux is the best therapy!" /> 
-                    </div>
+                    <div className="grid-2col-text-photo align-self-center width-100  margin-top-50       margin-bottom-50 " > 
+                    <div className="col2-text grid-placeself-center width-70 margin-left-75">
+                        <div className="col2-photo width-100 grid-placeself-center">
+                            <img className="flex-image-container width-100" src={didyouknow}  alt="Ux is the best therapy!" /> 
+                        </div>
                     </div>
                     <div className="content-block">
-                            <p className="content-header"> We also provide on-site consultancy and development work for companies and teams of all sizes </p>
-                        </div>
-                        </div>
-
-            </div> 
+                        <p className="content-header"> We also provide on-site consultancy and development work for companies and teams of all sizes </p>
+                    </div>
+                    </div>
+                </div> 
   
                 </div>
             </div>
