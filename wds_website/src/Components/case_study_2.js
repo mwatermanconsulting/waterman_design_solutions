@@ -36,8 +36,7 @@ class case_study_2 extends Component {
                 </div> 
                 <div className="flex-layout-section-fixed-sm margin-top-75">
                     <div className="content-header flex-layout-center-center"> 
-                        <div className="content-block-cs intro-text"> Goal: To design a custom on-demand data reporting tool and to solve
-                            <br/> the problem that Stubhub analysts faced 
+                        <div className="content-block-75 subtitle"> Stubhub was internally developing a reporting tool for the company. The goal was to create a custom on-demand data reporting tool. Their first release was not successful and after a year Stubhub needed answers. Six months later WDS turned a failure into successful case study.
                         </div>
                     </div>
                 </div>  
@@ -46,10 +45,6 @@ class case_study_2 extends Component {
                         <img className="photo-container-cs-sb1" src={stubhub_s1} alt="StubHub Show me the Numbers"/>
                     </div>
                 </div>
-                <div className="content-header flex-layout-center-center margin-top-50"> 
-                    <div className="content-block-cs"> Stubhub was internally developing a reporting tool for the company. The goal was to create a custom on-demand data reporting tool. Their first release was not successful and after a year Stubhub needed answers. Six months later WDS turned a failure into successful case study.
-                    </div>  
-                </div> 
                 <div className="flex-layout-section-full flex-section-align-center flex-section-align-center margin-top-100">
                     <div className="content-header flex-layout-column">
                         <div className="title">
@@ -314,7 +309,7 @@ class case_study_2 extends Component {
                                 <img src={thumbsUp} alt="Finding the Truth - Business Perspective"/>
                             </div>
                             
-                        </div>
+                    </div>
                 </div>    
                                               
                                         )

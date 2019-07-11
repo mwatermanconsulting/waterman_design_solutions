@@ -343,6 +343,7 @@ footer.link-color {
 .container-photo-50px {
   width: 50px;
   height: auto;
+}
 
 .image-size-logo {
   width: 150px;
@@ -354,8 +355,6 @@ footer.link-color {
   width: 100%;
 }
 
-
-
 input[type=text],input[type=email], select, textarea {
   width: 100%;
   padding: 12px;
@@ -366,6 +365,7 @@ input[type=text],input[type=email], select, textarea {
   margin-bottom: 16px;
   resize: vertical;
 }
+
 input[type=submit] {
   background-color: #4CAF50;
   color: white;
@@ -374,9 +374,11 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
+
 input[type=submit]:hover {
   background-color: #45a049;
 }
+
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
@@ -389,16 +391,9 @@ input[type=submit]:hover {
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
-  /* Support for all WebKit browsers. */
   -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
   text-rendering: optimizeLegibility;
-
-  /* Support for Firefox. */
   -moz-osx-font-smoothing: grayscale;
-
-  /* Support for IE. */
   font-feature-settings: 'liga';
 }
 }

@@ -89,6 +89,10 @@
     margin-left: 75px;
   }
 
+  .margin-bottom-75 {
+    margin-bottom: 75px;
+  }
+
 
   .margin-tb-100 {
     margin: 100px 0 100px;
@@ -314,7 +318,11 @@
 }
 
 .content-block-75 {
-    width: 75%;
+  width: 75%;
+}
+
+.content-block-85 {
+  width: 85%;
 }
 
   .content-block-90 {
@@ -500,7 +508,6 @@
 
   .border-bottom-1 {
     border-bottom: 1px solid #000;
-    padding-bottom: 100px;
   }
 
   .border-top-1 {
