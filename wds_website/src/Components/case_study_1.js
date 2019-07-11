@@ -25,7 +25,7 @@ class case_study_1 extends Component {
                 <div className="callout-text-lg">
                 Goal: To solve the UI problems that were plaguing Motorola's SurfBoard product line. 
                 </div>
-            </div>
+                </div>
                 <section className="content-header flex-layout-center-center flex-layout-column">
                     <div className="flex-layout-center-center margin-top-50 title text-align-center content-block-60">
                             Case Study - Motorola
