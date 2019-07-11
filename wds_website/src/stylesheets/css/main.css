@@ -290,6 +290,9 @@ footer {
 .margin-left-75 {
   margin-left: 75px; }
 
+.margin-bottom-75 {
+  margin-bottom: 75px; }
+
 .margin-tb-100 {
   margin: 100px 0 100px; }
 
@@ -464,6 +467,9 @@ footer {
 .content-block-75 {
   width: 75%; }
 
+.content-block-85 {
+  width: 85%; }
+
 .content-block-90 {
   width: 90%; }
 
@@ -635,8 +641,7 @@ footer {
   border-top: 5px solid #000; }
 
 .border-bottom-1 {
-  border-bottom: 1px solid #000;
-  padding-bottom: 100px; }
+  border-bottom: 1px solid #000; }
 
 .border-top-1 {
   border-top: 1px solid #000;
@@ -1087,6 +1092,7 @@ footer.link-color {
 .container-photo-50px {
   width: 50px;
   height: auto; }
+
   .container-photo-50px .image-size-logo {
     width: 150px; }
   .container-photo-50px .image-size-header-fixed {
@@ -1131,6 +1137,54 @@ footer.link-color {
     -moz-osx-font-smoothing: grayscale;
     /* Support for IE. */
     font-feature-settings: 'liga'; }
+=======
+
+.image-size-logo {
+  width: 150px; }
+
+.image-size-header-fixed {
+  height: 1920px;
+  width: 100%; }
+
+input[type=text], input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical; }
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; }
+
+input[type=submit]:hover {
+  background-color: #45a049; }
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga'; }
+
 
 .lightgreen {
   background-color: #BDCCD4; }
