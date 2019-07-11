@@ -455,6 +455,9 @@ footer {
 .content-block-25 {
   width: 25%; }
 
+.content-block-40 {
+  width: 43%; }
+
 .content-block-50 {
   width: 50%; }
 
@@ -1093,52 +1096,6 @@ footer.link-color {
   width: 50px;
   height: auto; }
 
-  .container-photo-50px .image-size-logo {
-    width: 150px; }
-  .container-photo-50px .image-size-header-fixed {
-    height: 1920px;
-    width: 100%; }
-  .container-photo-50px input[type=text], .container-photo-50px input[type=email], .container-photo-50px select, .container-photo-50px textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical; }
-  .container-photo-50px input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer; }
-  .container-photo-50px input[type=submit]:hover {
-    background-color: #45a049; }
-  .container-photo-50px .material-icons {
-    font-family: 'Material Icons';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 24px;
-    /* Preferred icon size */
-    display: inline-block;
-    line-height: 1;
-    text-transform: none;
-    letter-spacing: normal;
-    word-wrap: normal;
-    white-space: nowrap;
-    direction: ltr;
-    /* Support for all WebKit browsers. */
-    -webkit-font-smoothing: antialiased;
-    /* Support for Safari and Chrome. */
-    text-rendering: optimizeLegibility;
-    /* Support for Firefox. */
-    -moz-osx-font-smoothing: grayscale;
-    /* Support for IE. */
-    font-feature-settings: 'liga'; }
-=======
-
 .image-size-logo {
   width: 150px; }
 
@@ -1184,7 +1141,6 @@ input[type=submit]:hover {
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga'; }
-
 
 .lightgreen {
   background-color: #BDCCD4; }
@@ -2026,6 +1982,18 @@ Button:hover {
   grid-column: 2/2;
   grid-row: auto; }
 
+.grid-2col-list {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 50px;
+  display: grid; }
+
+.list-left {
+  grid-column: 1/2; }
+
+.list-right {
+  grid-column: 2/2; }
+
 /*******************************
            History
   *******************************/
@@ -2046,7 +2014,7 @@ Button:hover {
 /*******************************
            History
   *******************************/
-callout-bg-s1 {
+.callout-bg-s1 {
   height: 668px; }
 
 /*******************************

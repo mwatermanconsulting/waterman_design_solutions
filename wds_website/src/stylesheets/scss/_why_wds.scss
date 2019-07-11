@@ -193,6 +193,21 @@
   grid-row: auto;
 }
 
+.grid-2col-list {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 50px;
+  display: grid; 
+}
+
+.list-left {
+  grid-column: 1/2
+}
+
+.list-right {
+  grid-column: 2/2
+}
+
 
 /*******************************
            History
@@ -219,7 +234,7 @@
            History
   *******************************/
 
-  callout-bg-s1 {
+  .callout-bg-s1 {
     height: 668px;
   }
 
