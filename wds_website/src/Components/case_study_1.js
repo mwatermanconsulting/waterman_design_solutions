@@ -2,7 +2,11 @@ import React, { Component } from 'react'
 import motorola_bg from '../images/backgrounds/bg-motorola.png';
 import motorola_logo from '../images/icon-motorola-white.svg'; 
 import motorola_s1 from '../images/photos/photo-motorola-s1.png';
+import motorola_s4 from '../images/photos/photo-motorola-s4.png';
+import motorola_s6 from '../images/photos/photo-motorola-s6.png';
 import motorola_s2 from '../images/photos/photo-Motorola_2.png';
+import motorola_s3 from '../images/photos/photo-motorola-s3.png';
+import motorola_s5 from '../images/photos/photo-motorola-s5.png';
 import results from '../images/graphic-ux.svg';
 import motorola_beforeafter from '../images/photos/photo-motorola-beforeafter.png';
 import motorola_before_basic from '../images/photos//photo-motorola-before-basic.png';
@@ -32,10 +36,10 @@ class case_study_1 extends Component {
                     </div>
                     <div className="content-block-55 margin-top-25 flex-layout-align-items-center">
                         <p className="content-text-24">
-                            WDS was hired after two failed attempts to design a modern user-centric interface for the the high-end Cable modem the MOTOROLA DOCSIS 3.1, Model MB8600. Through the methodology research findings and walking in the users shoes, WDS design solutions became industry changing surviving two buyouts, even needing to present to google product and marketing teams to justify our endeavor mid-development, the design solutions were adopted by each company.</p>
+                            WDS was hired after two failed attempts to design a modern user-centric interface for the the high-end Cable modem the MOTOROLA DOCSIS 3.1, Model MB8600. Through methodology research findings and walking in the users' shoes, WDS's solutions became industry standard, surviving two buyouts, even presenting to Google stakeholders and marketing teams to justify our endeavor mid-development. The design solutions were adopted by both companies.</p>
                              
                         <p className="content-text-24"> 
-                            The design solutions were industry leading and 6 years later many of the solutions are now standard across the product line and adopted by the competitors. WDS goal of returning Motorola as the industry standard was accomplished, just under the arris name. Below is the story on how WDS accomplished this feat.</p>
+                            The design solutions led the industry since 2013 and many of the solutions are now standard across the product line and adopted by the competitors. WDS goal of returning Motorola as the industry standard was accomplished, under the Arris name. Below is the story on how WDS accomplished this feat.</p>
                     </div>
                 </section>
                 <div className="flex-layout-section-full margin-top-75">
@@ -58,7 +62,11 @@ class case_study_1 extends Component {
                             There was political pressure to release the new DOCSIS 3.1 tech on the SurfBoard product line. The product team knew that if they released the new tech without fixing the current problems with the interface, the product line would lose money. But, after 18 months and two failed attempts the pressure was on the home division to correct the problems get this technology to market before their competitors.
                             </p>
                             </div>
-                        
+                    </section>
+                    <section className="flex-layout-column margin-top-75">
+                            <div className="flex-layout-center-center container-image-block">
+                                <img className="photo-container-cs-sb1 width-100" src={motorola_before_basic} alt="Questions"/> 
+                            </div>
                     </section>
                     <section className="flex-layout-column margin-top-50">
                         <div className="title">
@@ -76,9 +84,9 @@ class case_study_1 extends Component {
                 </section>
                     
                     <section className="grid-callout grey margin-top-50 border-tb-5">
-                        <div className="grid-callout-text">
-                            <p className="callout-text padding-50 content-block-55"> 
-                            For the average user the interface on the Motorola modems was very intimating. The UI was outdated and unbranded, leaving the user confused and frustrated. Keeping the call center very busy.</p>
+                        <div className="grid-callout-text grid-placeself-center">
+                            <div className="callout-text txt-white padding"> 
+                            For the average user the interface on the Motorola modems was very intimating. The UI was outdated and unbranded, leaving the user confused and frustrated. Keeping the call center very busy.</div>
                         </div>
                         <div className="grid-callout-photo width-100 grid-placeself-center">
                               <img src={callcenter} alt="Case Study Image 2"/> 
@@ -102,11 +110,7 @@ class case_study_1 extends Component {
                             </p>
                             </div>
                         </section>
-                        <section className="flex-layout-column margin-top-75">
-                            <div className="flex-layout-center-center container-image-block">
-                                <img className="photo-container-cs-sb1 width-100" src={motorola_before_basic} alt="Questions"/> 
-                            </div>
-                        </section>
+                        
                         
                     <section className="content-header flex-layout-column border-top-1 border-bottom-1 margin-top-100">
 
@@ -181,14 +185,14 @@ class case_study_1 extends Component {
                         <a id="solution3"></a> Solution #3 - Quick Start
                         </div>
                     <div className="content-block-cs">
-                            <p className="content-text-18">One of the hardest challenges was the simplifying the WiFi section. Work flows could not be simplified by organizing the inputs in a logical order, due to the limitation of two users, cable operators and consumers. We were forced to think differently and the "WiFi Quick Start" idea was born. Working closely with developers we attempted to reduce the number of questions the user needed to answer to set up their WiFi. Currently the user needed to fill out nine inputs to complete the task. The goal was to reduce the user inputs from 9 to 5 and eliminate the need to input the mac number. The only way to accomplish this was for t a developer to create an algorithm to automate the process with little user input.</p>
+                            <p className="content-text-18">One of the hardest challenges was the simplifying the WiFi section. Work flows could not be simplified by organizing the inputs in a logical order, due to the limitation of two user types: cable operators and consumers. We needed to approach this differently, and as a result the "WiFi Quick Start" idea was born. Working closely with developers, we attempted to reduce the number of questions the user needed to answer to set up their WiFi. Currently the user needed to fill out nine inputs to complete the task. The goal was to reduce the user inputs from 9 to 5 and eliminate the need to input the mac number. The only way to accomplish this was for a developer to create an algorithm to automate the process with little user input.</p>
 
-                            <p className="content-text-18">The challenge was accepted and delivered. The best part was this algorithm was then scaled to use for a mobile app</p>  
+                            <p className="content-text-18">The challenge was accepted and delivered. The best part was this algorithm was then scaled to use for a mobile app.</p>  
                     </div>
                     </section>
                     
                     <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-50">
-                        <img className="photo-container-cs-sb1" src={motorola_s2} alt="Motorola Start Page"/>
+                        <img className="photo-container-cs-sb1" src={motorola_s3} alt="Motorola Start Page"/>
                         <p className="margin-top-15"><i> 
                             Approved Design for the new SURFboard SB8200 DOCSIS 3.1 modem</i></p>
                     </div>
@@ -198,12 +202,12 @@ class case_study_1 extends Component {
                     </div>
                     <div className="content-block-cs">
                         <p className="content-text-18">
-                            WDS knew for this project to be a success the customer needed to feel supported and guided. A new approach to the help treatment needed to be developed. None of the competitors solutions to the guide the user through help sections, especially any form of in-context help, one even had the nerve to offer on-line help. WDS solved this problem elegantly, allowing the user to clink on the help link and a row opens below to reveal the answers. This solution tested very well during the testing phase</p>
+                            WDS knew for this project to be a success the customer needed to feel supported and guided. A new approach to the help treatment needed to be developed. None of the competitors solutions to the guide the user through help sections, especially any form of in-context help, one even had the nerve to offer on-line help. WDS solved this problem elegantly, allowing the user to click on the help link and a row opens below to reveal the answers. This solution tested very well during the testing phase</p>
                     </div>
                     </div>
                     
                     <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-50">
-                        <img className="photo-container-cs-sb1" src={motorola_s2} alt="Motorola Start Page"/>
+                        <img className="photo-container-cs-sb1" src={motorola_s6} alt="Motorola Start Page"/>
                         <p className="margin-top-15"><i> Approved Design for the new SURFboard SB8200 DOCSIS 3.1 modem</i></p>
                     </div>
                     <div className="content-header flex-layout-column margin-top-100">
@@ -229,7 +233,7 @@ class case_study_1 extends Component {
                         </div>
                         <div className="content-block-cs">
                             <p className="content-text-18">
-                            Final Handoff consisted of cleaning up the css and html code and implementing .asp tags for the final build. A pattern library and documentation including best of practices for the css files. Most importanly the final build size was a shade under 1mb. 
+                            Final handoff consisted of cleaning up CSS and HTML code and implementing .asp tags for the final build. A pattern library and documentation, including best of practices, was created for the CSS files. Most importantly, the final build size was a shade under 1Mb. 
                             </p> 
                         </div>
                         <div className="content-header flex-layout-column">
@@ -240,36 +244,34 @@ class case_study_1 extends Component {
                                 WDS Solutions 
                             </div>
                         <div className="content-header flex-layout-column margin-top-100">
-                            <div className="subtitle-case margin-top-15 margin-bottom-20">
+                            <div className="subtitle margin-top-15 margin-bottom-20">
                                 Business Solution #1 - Communication Issues
                             </div>
                             <div className="content-block-cs">
                                 <p className="content-text-18">
-                                    How did a global brand like Motorola allow a such a poorly designed, non branded user interface on a consumer product was mind boggling. Our first question to the stakeholders was how did this product UI fall through the cracks. This issue exposed a large communication issue between product, marketing and the home division. WDS set-up sprint cycle meetings for every three weeks and milestones. These meetings ran the course of the project and established a strong relationship between the teams that was previously unknown.  </p> 
+                                    How did a global brand like Motorola allow a such a poorly designed, non-branded user interface on a consumer product? It was mind boggling. Our first question to the stakeholders was, "how did this product UI fall through the cracks?" This issue exposed a large communication issue between product, marketing and home division. WDS set-up sprint cycle meetings every three weeks with milestones. These meetings ran the course of the project and established a strong relationship between the teams that was previously non-existant.  </p> 
                             </div>
                         </div>
-                            <div className="content-header flex-layout-column margin-top-100">
-                                <div className="subtitle-case margin-top-15 margin-bottom-20">
+                            <div className="content-header flex-layout-column margin-top-50">
+                                <div className="subtitle margin-top-15 margin-bottom-20">
                                     Business Solution #2 - Google Buyout
                                 </div>
                                 <div className="content-block-cs">
                                 <p className="content-text-18">
-                                In the middle of the project google bought Motorola. We were notified that our project was under review and we would need to present our project to Google marketing and product teams. Six months into the project WDS had the team running smoothly with a purpose. Motorola's marketing and product were very familiar with the project and along with WDS made a killer presentation to the Google executives.  </p> 
+                                In the middle of the project, Google bought out Motorola. We were notified that our project was under review and we would need to present it to Google Marketing and Product teams. Six months into the project WDS had the team running smoothly with a purpose. Motorola's marketing and product teams were familiar with the project and, along with WDS, made a killer presentation to the Google executives.  </p> 
                                 </div>
                             </div>
-                            <div className="content-block-cs margin-top-15">
-                                <p>
-                                The greatest challenge WDS faced during the was the uncertainty of the project.  Even through two buyouts the design solutions were adopted by each company. The design solutions for WDS were industry leading that 6 years later many of the solutions are now standard across the product line and adopted by the competitors. WDS goal of returning Motorola as the industry standard was accomplished, just under the arris name.</p>
+                            <div className="content-block-cs ">
+                                <p className="content-text-18">
+                                The greatest challenge WDS faced during this time was the uncertainty of the project.  Even through two buyouts the design solutions were adopted by each company. The design solutions created by WDS was considered industry-standard since 2013 and many of the solutions are now standard across the product line and adopted by competitors. WDS's goal of making Motorola an industry standard was accomplished, just under the Arris name.</p>
                             
                                 <p className="content-text-18">
                                 Two Users - Cable Operators and average consumers. One of the most confusing elements of the UI was the acronyms and the task flow, for the average consumer. For the cable operator they were comforting and expected. Changing the interface, but moving or changing names would affect the cable operators. The solutions would need to be invisible to the cable operators. </p>
 
                             <p className="content-text-18">Presenting findings and asking questions of the stakeholders alway uncovers unforeseen challenges.</p>
-
-        
-                        </div>
+                         </div>
                         </div>     
-                        <div className="subtitle margin-top-15">
+                        <div className="subtitle margin-top-15 margin-bottom-20">
                             Results
                         </div>
                             <div className="content-block-cs">
