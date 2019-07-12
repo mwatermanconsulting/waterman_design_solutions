@@ -81,14 +81,14 @@ class case_study_4 extends Component {
                         </p> 
                 
                     <ul className="dashed content-text-18 content-block-55 margin-top-15">
-                        <li><a href="#responsive">Responsive solution</a></li>
-                        <li><a href="#organize">How to organizing an enterprise level CSS</a></li>
-                        <li>Faster performance</li>
-                        <li><a href="#OOCSS">Modular CSS solution</a></li>
-                        <li><a href="#issues">Solving specificity issues</a></li>
-                        <li>Shared Set of CSS helper classes</li>
-                        <li>Consistency across products and services</li>
-                        <li>Reduce developer time debugging CSS</li>
+                        <li><a href="#solution1">Responsive solution</a></li>
+                        <li><a href="#solution2">Solution to organizing CSS on an enterprise level</a></li>
+                        <li><a href="#solution4">Faster performance</a></li>
+                        <li><a href="#solution4">Modular CSS solution</a></li>
+                        <li><a href="#solution3">Solving specificity issues</a></li>
+                        <li><a href="#solution6">Shared Set of CSS helper classes</a></li>
+                        <li><a href="#solution7">Consistency across products and services</a></li>
+                        <li><a href="#solution8">Reduce developer time debugging CSS</a></li>
                     </ul> 
                 </section>
 
@@ -116,7 +116,7 @@ class case_study_4 extends Component {
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75 "></div>
 
-                <section id="responsive" className="flex-layout-section-full align-items-center">
+                <section id="solution1" className="flex-layout-section-full align-items-center">
                     <div className="title content-block-55">
                         Responsive Design
                     </div>
@@ -135,7 +135,7 @@ class case_study_4 extends Component {
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section id="responsive" className="flex-layout-section-full align-items-center">
+                <section id="solution2" className="flex-layout-section-full align-items-center">
                     <div className="title content-block-55">
                         Scalability and Organization
                     </div>
@@ -157,7 +157,7 @@ class case_study_4 extends Component {
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section id="responsive" className="flex-layout-section-full align-items-center">
+                <section id="solution3" className="flex-layout-section-full align-items-center">
                     <div className="title content-block-55">
                         Scalability and Maintainable CSS
                     </div>
@@ -180,8 +180,7 @@ class case_study_4 extends Component {
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
                 <section className="flex-layout-section-full align-items-center">
-                   
-                        <div className="title margin-top-15">
+                        <div id="solution4" className="title content-block-55 margin-top-15">
                             Modular CSS
                         </div>
                         <div className="subtitle content-block-55 margin-top-15">
@@ -189,7 +188,41 @@ class case_study_4 extends Component {
                         </div>
                         <div className="content-block-55 margin-top-15">
                             <p className="content-text-18">
-                            Organizing and naming conventions are the two most difficult things to do when writing large amounts of CSS. When you have an entire team writing to one CSS file it can become a specificity nightmare. As the project goes on over time it truly becomes an unsustainable situation. This method is a great solution to the problem. Using partial files you load the CSS files in order of importance. The most global files loading first and the most specific files loading last. The files are loaded how the browser interprets CSS when it is loaded into the DOM. Loading a nice smooth line instead of a bunch of sharp lines. This is the method created by Harry Roberts and scales nicely in the real enterprise world.</p>
+                            
+                            OOCSS develops dry, reusable modular chunks of CSS. It’s an approach for writing CSS that’s fast, maintainable, and standards-based, adding much needed predictability to CSS. The OOCSS approach creates easy to understand vanilla CSS. OOCSS played a large part in this project. OOCSS is a strange animal as it is not a framework or methodology, but a perception a philosophy. In our experience the deeper the knowledge of CSS the more value you get out of the OOCSS method. This method was used extensively throughout the project.</p>
+                            
+                            <p className="content-text-18"> 
+                            Initially there was pushback from the developers and engineers because OOCSS destroys semantic HTML. Since the CSS is broken down in granular modules there are a lot more classes. The benefits out weigh the negatives of breaking the semantic structure. WDS explained that the CSS classes in the HTMl now tells a story. In six months from now when you open up this file you will now quickly what the CSS is doing and it will make sense. </p>  
+
+                            <p className="content-text-18"> 
+                            In the OsiSoft project as the CSS matured a wonderful thing happened the need for developers to write CSS reduced by 80%.
+                            </p>
+                        </div>
+                    
+                </section>
+
+                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+                <section className="flex-layout-section-full align-items-center">
+                        <div id="solution6" className="title content-block-55 margin-top-15">
+                            Helper Classes
+                        </div>
+                        <div className="subtitle content-block-55 margin-top-15">
+                            Relieving the Developers CSS Burden
+                        </div>
+                        <div className="content-block-55 margin-top-15">
+                            <p className="content-text-18">
+                            
+                            Helper classes can help remove repetition by creating a set of abstract classes that can be used over and over on HTML elements. Each helper class is responsible for doing one job and doing it well. Doing this will make your code more reusable and scalable for many features that will be added in the future. So whenever you want to create a new component,you’ll just need to combine some classes together to build it. </p>
+
+                            <p className="content-text-18">“Treat code like Lego. Break code into the smallest little blocks possible.” — @csswizardry (via @stubbornella) #btconf
+
+                            — Smashing Magazine (@smashingmag) May 27, 2013</p>
+
+                            <p className="content-text-18">WDS Developed a set of global classes and helper classes based on use cases and covered most of the helper and global classes that were needed. As the teams warmed up to the new CSS structure the developers were pleased to find that now only had their CSS debugging and class writing time been reduced by 80%. Leaving time for the engineers to do what they do best, code. </p>
+
+                        
+                            
                         </div>
                     
                 </section>
@@ -198,11 +231,11 @@ class case_study_4 extends Component {
 
                 <section className="flex-layout-section-full align-items-center">
                     <div className="content-header content-block-55 flex-layout-column">
-                        <div className="title margin-top-15">
+                        <div id="solution7" className="title margin-top-15">
                             Application Consistency and Documentation
                         </div>
                         <div className="subtitle content-block-55 margin-top-15">
-                            The Beginnings of a Style Guide
+                            The Birth of a Living Style Guide
                         </div>
                         <div className="content-block-55 margin-top-15">
                             <p className="content-text-18">
@@ -243,44 +276,33 @@ class case_study_4 extends Component {
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
                 <section className="flex-layout-section-full align-items-center">
-                   
-                        <div className="title content-block-55">
-                            Results
-                        </div>
-                        <div className="subtitle content-block-55 margin-top-15">
-                            Issues Solved and More!!
-                        </div>
-                        <div className="content-block-55 margin-top-25">
-                            <p className="content-text-18">The final results were better than the whole team hoped for as the time used to debug CSS was almost non-existence. The software engineers were pleased and adapted to the new CSS model, methodology and approach to developing the CSS. </p>
-                            <p className="content-text-18">
-                            The CSS scaled beautifully as the project grew. At one point in the project over 70 engineers were simultaneously working on the CSS with very little issues. During the final phase of the project, engineers were writing very little CSS. </p>
-                            <p className="content-text-18">
-                            I was surprised at how well the CSS scaled and also surprised that the CSS matured to the point using OOCSS that engineers no longer had to write CSS classes, except in rare cases. I was very empathic to the engineers daily CSS journey and to be able to almost eliminate the need to code in CSS removed a huge burden.</p>
-                            <p className="content-text-18">
-                            The mixture of OOCSS, ITCSS and SaaS was a huge success and scaled with the application, over time. The company was so happy with the solution it became a company wide standard. A style guide and design system became based off CSS solution.
-                            </p>
-                        </div>         
-                    </section>
-                            <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-50 margin-bottom-100">
-                                <img className="photo-container-cs-sb1" src alt="Finding the Truth - Business Perspective"/>
-                                <p className="margin-top-15 margin-bottom-100"><i>StubHub happily emailed WDS this screenshot six months after release </i></p>
-                            </div>
-                            <div className="container-bottom-callout">
+                    <div id="solution8" className="title content-block-55">
+                        Results
+                    </div>
+                    <div className="subtitle content-block-55 margin-top-15">
+                        Issues Solved and More!!
+                    </div>
+                    <div className="content-block-55 margin-top-15">
+                        <p className="content-text-18">The final results were better than expected as the time used to debug CSS was almost non-existence. The software engineers were pleased and adapted to the new CSS model, methodology and approach to developing the CSS. </p>
+                        <p className="content-text-18">
+                        The CSS scaled beautifully as the project grew. At one point in the project, over 70 engineers were simultaneously working on the CSS with very little issues. During the final phase of the project, engineers were writing very little new CSS classes. </p>
+                        <p className="content-text-18">
+                        WDS even surprised itself at how well the CSS scaled while it matured. OOCSS mixed with a set of helper classes created a condition where the engineers no longer had to write CSS classes, except in rare cases. WDS was very empathic to the engineers on their daily CSS journey were thrilled to almost eliminate the burden to code in CSS.</p>
+                        <p className="content-text-18">
+                        The mixture of OOCSS, ITCSS and SaaS was a huge success and scaled with the application, over time. The company was so happy with the solution it became a company wide standard. A style guide and design system became based off CSS solution.
+                        </p>
+                    </div>         
+                </section>
+                <section className="grid-callout border-top-5 bottom-border grey margin-top-100" style={{height:'450px'}}>
+                    <div className="grid-callout-text grid-placeself-center width-70" style={{padding:'20px'}}>
+                        <p className="callout-text ">The mixture of OOCSS, ITCSS and SaaS was a huge success and scaled with the application, as it matured. The company was so happy with the solution it became a company wide standard. The CSS also began the guide for the style guide and design system.</p>
+                    </div>
                             
-                        </div>
+                    <div className="grid-callout-photo grid-placeself-center">
+                        <img src={thumbsUp} alt="Finding the Truth - Business Perspective"/>
+                     </div>
+                </section>    
                         
-                        <div className="grid-callout border-top-5 bottom-border grey" style={{height:'450px'}}>
-                            
-                            <div className="grid-callout-text grid-placeself-center width-70" style={{padding:'20px'}}>
-                                <p className="callout-text ">The mixture of OOCSS, ITCSS and SaaS was a huge success and scaled with the application, as it matured. The company was so happy with the solution it became a company wide standard. The CSS also began the guide for the style guide and design system.
-                                </p>
-                            </div>
-                            
-                            <div className="grid-callout-photo grid-placeself-center">
-                                <img src={thumbsUp} alt="Finding the Truth - Business Perspective"/>
-                            </div>
-                            
-                        </div>
                 </div>    
                                               
                                         )
