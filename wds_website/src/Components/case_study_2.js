@@ -69,7 +69,7 @@ class case_study_2 extends Component {
                 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="flex-layout-section-full align-items-center margin-top-10" >
+                <section className="flex-layout-section-full align-items-center" >
                     <div className="title content-block-55">
                         Methodology Begins
                     </div>
