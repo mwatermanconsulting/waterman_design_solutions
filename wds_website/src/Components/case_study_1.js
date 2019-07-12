@@ -42,11 +42,11 @@ class case_study_1 extends Component {
                             The design solutions led the industry since 2013 and many of the solutions are now standard across the product line and adopted by the competitors. WDS goal of returning Motorola as the industry standard was accomplished, under the Arris name. Below is the story on how WDS accomplished this feat.</p>
                     </div>
                 </section>
-                <div className="flex-layout-section-full margin-top-75">
+                <section className="flex-layout-section-full margin-top-75">
                      <div className="container-image-block flex-layout-center-center">
                         <img className="photo-container-cs-sb1 width-100" src={motorola_s1} alt="StubHub Show me the Numbers"/>
                     </div>
-                </div>
+                </section>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
                 
