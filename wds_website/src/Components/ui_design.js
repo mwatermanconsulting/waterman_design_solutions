@@ -3,6 +3,7 @@ import bg_ui from '../images/backgrounds/bg-ui.png';
 import finding from '../images/photos/photo-documentation-s1.png';
 import didyouknow from '../images/graphic-didyouknow.png';
 import finding_truth2 from '../images/photos/photo-finding-truth-s2.png';
+import ui_s1 from '../images/photos/photo-ui-s1.png';
 
 
 class ui_design extends Component {
@@ -28,8 +29,8 @@ class ui_design extends Component {
                              
                 </div>
                 <div className="item-a-nb container-image-block">
-                    <img className="container-photo-callout" src={finding_truth2}  alt="shaking hands" /> 
-                </div>
+                    <img className="container-photo-callout" src={ui_s1}  alt="shaking hands" /> 
+                </div>Image by Avi Chomotovski from Pixabay 
             </section>
     
             <section className="content-header flex-layout-center-center flex-layout-column margin-top-200 ">
