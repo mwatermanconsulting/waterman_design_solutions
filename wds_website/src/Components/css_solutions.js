@@ -26,23 +26,23 @@ class css_solutions extends Component {
             <section className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
                 <div className="grid-item-b content-block-60 content-header flex-layout-column">
                     <div className="callout-text text-align-left text-white">
-                        WDS CSS services have been developed around our clients needs. CSS Solutions are one of our most requested services. Our services include CSS development, CSS system implementation, mentoring and documentation, including best of practice documentation.
+                        WDS has been writing CSS since the days of table layout. There is not any CSS problems that we have not encountered. We are CSS experts. Our CSS Solutions are our most requested service. Our CSS services include CSS development, Strategy, CSS system implementation, mentoring and documentation, including best of practice documentation.
                     </div>              
                 </div>
                 <div className="item-a-nb container-image-block">
-                    <img className="container-photo-callout" src={casscade}  alt="css code" /> 
+                    <img className="container-photo-callout width-100" src={casscade}  alt="css code" /> 
                 </div>
             </section>
-            <section className="content-header flex-layout-center-center flex-layout-column                                         margin-bottom-100">
+            <section className="content-header flex-layout-center-center flex-layout-column margin-bottom-100">
                 <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-50">
-                        WDS CSS Solutions saves your deveopers time and develops lean, scalable solutions.
+                        WDS CSS and develops lean, scalable solutions that seves your business money and your developers time.
                 </div>
                 <div className="content-block-50 margin-top-50">
                     <p className="content-text-24 text-align-center">
                         Our solutions are based off our empathy and experiences working with developers. After our design solutions our CSS knowledge and experience is one of the main reasons WDS gets contracted by companies. Our CSS solutions are scalable and customizable to your business requirements. </p>
                 </div>
                 <button type="button" className="margin-top-50 font-size-24"><a href="case_study_4">
-                    OsiSoft CSS Case Study </a></button>
+                        OsiSoft CSS Case Study </a></button>
                 
                 <div className="flex-layout-section thin-hr flex-layout-center margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
