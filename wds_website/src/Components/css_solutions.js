@@ -49,7 +49,7 @@ class css_solutions extends Component {
             </section>
            
             <div className="flex-layout-section-full flex-layout-center-center flex-layout-column"> 
-                <div className="grid-2col-photo-content content-header">
+                <section className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title">
                             Experience Matters
@@ -65,11 +65,11 @@ class css_solutions extends Component {
                     <div className="grid-right container-image-block">
                         <img className="photo-container" src={css2}  alt="Stakeholder Interview" /> 
                     </div>     
-                </div>
+                </section>
 
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '85%' }}></div>
 
-                <div className="grid-2col-photo-content content-header">
+                <section className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title text-grey">
                             Organize and Simplify  
@@ -85,11 +85,11 @@ class css_solutions extends Component {
                     <div className="grid-right container-image-block">
                         <img className="photo-container" src={itcss}  alt="Stakeholder Interview" /> 
                     </div>     
-                </div>
+                </section>
 
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '85%' }}></div>
 
-                <div className="grid-2col-photo-content content-header">
+                <section className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title">
                             Modular CSS 
@@ -105,7 +105,7 @@ class css_solutions extends Component {
                     <div className="grid-right container-image-block">
                         <img className="photo-container" src={css3}  alt="Stakeholder Interview" /> 
                     </div>     
-                </div>
+                </section>
 
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '85%' }}></div>
                 <div className="grid-2col-photo-content content-header">

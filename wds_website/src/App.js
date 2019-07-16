@@ -20,7 +20,7 @@ class App extends Component {
               
             <ul style={{display:'flex'}}>
             <li className="dropdown">
-              <a href="javascript:void(0)" class="dropbtn" style={{fontSize:'18px'}}>Why</a>
+              <a href="./why_wds" class="dropbtn" style={{fontSize:'18px'}}>Why</a>
               <div class="dropdown-content">
                 <a href="./why_wds">Why WDS</a>
                 <a href="./case_studies">Success Stories (Case Studies)</a>
@@ -30,32 +30,33 @@ class App extends Component {
               </div>
               </li>
               <li class="dropdown">
-              <a href="javascript:void(0)" class="dropbtn" style={{fontSize:'18px'}}>Services</a>
+              <a href="./services" class="dropbtn" style={{fontSize:'18px'}}>Services</a>
               <div class="dropdown-content">
-                <a href="./services">Services Overview</a>
+                <a href="./services">Services Overview </a>
                 <a href="./ux_design">UX Design</a>
                 <a href="./ui_design">UI Design</a>
                 <a href="./css_solutions">CSS Solutions</a>
-                <a href="./strategy_insight">Strategy & Insight</a>
+                
+                <a href="./social_media">Social Media Marketing</a>
                 <a href="./design_systems">Design Systems</a>
               </div>
               </li>
               <li class="dropdown">
-              <a href="javascript:void(0)" class="dropbtn" style={{fontSize:'18px'}}>Methodology</a>
+              <a href="./methodology" class="dropbtn" style={{fontSize:'18px'}}>Methodology</a>
               <div class="dropdown-content">
-                <a href="./methodology">Methodology Overview</a>
+                <a href="./methodology">Methodology Overview </a>
                 <a href="./finding_truth">Finding the Truth</a>
                 <a href="./innovative_solutions">Innovative Solutions</a>
+                <a href="./strategy_insight">Strategy & Insight</a>
                 <a href="./communication_insights">Communication Insights</a>
               </div>
               </li>
               <li class="dropdown">
-              <a href="javascript:void(0)" class="dropbtn" style={{fontSize:'18px'}}>Design Solutions</a>
+              <a href="./design_solutions" class="dropbtn" style={{fontSize:'18px'}}>Design</a>
               <div class="dropdown-content">
-                <a href="./design_solutions">Design Solutions Overview</a>
+                <a href="./design_solutions">Design Overview</a>
                 <a href="./website_design">Website Design</a>
                 <a href="./print_design">Print Design</a>
-                <a href="./social_media">Social Media Marketing</a>
                 <a href="./video_production">Video Production</a>
               </div>
               </li>

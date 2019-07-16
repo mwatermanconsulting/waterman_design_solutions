@@ -180,8 +180,26 @@
 
    }
 
+   .right {
+    float: right;
+    padding: 15px 15px 15px 15px;
+   }
+
+  .left {
+    float: left;
+    padding: 15px 15px 15px 15px;
+   }
+  
+
    .flex-item-bottom {
     align-self: flex-end;
+  }
+
+  .align-self-center {
+    align-self: center;
+  }
+  .justify-self-center {
+    justify-self: center;
   }
   
   

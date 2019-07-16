@@ -359,8 +359,22 @@ footer {
   display: flex;
   height: 668px; }
 
+.right {
+  float: right;
+  padding: 15px 15px 15px 15px; }
+
+.left {
+  float: left;
+  padding: 15px 15px 15px 15px; }
+
 .flex-item-bottom {
   align-self: flex-end; }
+
+.align-self-center {
+  align-self: center; }
+
+.justify-self-center {
+  justify-self: center; }
 
 .flex-container50 img {
   width: 200px;
@@ -2102,7 +2116,12 @@ Button:hover {
   grid-column: 1/2;
   grid-row: auto;
   justify-content: center;
-  margin-left: 25%; }
+  margin-left: 35%; }
+
+.grid-left-contentWrap {
+  grid-column: col / span 2;
+  grid-row: auto;
+  justify-content: center; }
 
 .grid-left-15 {
   grid-column: 1/2;
@@ -2146,6 +2165,11 @@ Button:hover {
 .grid-right-content {
   grid-column: 2/2;
   grid-row: 1;
+  justify-content: center; }
+
+.grid-right-contentWrap {
+  grid-column: 1/3;
+  grid-row: 2;
   justify-content: center; }
 
 .grid-right-photo {
