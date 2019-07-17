@@ -69,6 +69,12 @@ a {
   color: $greeny-blue!important;
 }
 
+.no-decoration {
+  color: none;
+  text-decoration: none;
+
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

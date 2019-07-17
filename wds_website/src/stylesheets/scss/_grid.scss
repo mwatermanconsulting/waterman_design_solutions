@@ -391,6 +391,12 @@
   grid-gap: 20px;
 }
 
+.grid-callout-2col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 100px;
+}
+
 .gallery-2col-1 {
   grid-column: 1/2;
   grid-row: 1/auto;

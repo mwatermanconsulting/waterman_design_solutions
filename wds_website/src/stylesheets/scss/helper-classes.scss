@@ -180,8 +180,26 @@
 
    }
 
+   .right {
+    float: right;
+    padding: 15px 15px 15px 15px;
+   }
+
+  .left {
+    float: left;
+    padding: 15px 15px 15px 15px;
+   }
+  
+
    .flex-item-bottom {
     align-self: flex-end;
+  }
+
+  .align-self-center {
+    align-self: center;
+  }
+  .justify-self-center {
+    justify-self: center;
   }
   
   
@@ -452,6 +470,12 @@
 /*  Layers and Sizes   */
 .width-100 {
   width: 100%; }
+
+.width-25 {
+    width: 25%; }
+  
+.width-40 {
+  width: 40%; }
 
 .width-50 {
   width: 50%; }

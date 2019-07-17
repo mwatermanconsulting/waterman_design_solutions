@@ -9,6 +9,12 @@ import why_design from '../images/photos/photo-why-design-solutions.png';
 import why_enterprise from '../images/photos/photo-why-enterprise-solutions.png'; 
 import why_oh_really from '../images/graphic-why-s1.svg';
 import why_handshake from '../images/graphic-why-s2.svg';
+import icon_design_solutions from '../images/icon-why-design-solutions.svg';
+import icon_design from '../images/icon-why-design.svg';
+import icon_strategy from '../images/icon-why-strategy.svg';
+import icon_ui from '../images/icon-why-ui.svg';
+import icon_ux from '../images/icon-why-ux.svg';
+import icon_marketing from '../images/icon-why-marketing.svg';
 import care from '../images/graphic-why.svg';
 
 
@@ -46,20 +52,116 @@ class why_wds extends Component {
                     </div>
                 </section>
             <main>
-            <section>
-                <div className="flex-layout-section-full">
-                    <div className="content-text-18 flex-layout-row flex-layout-center-center margin-top-75">
-                        Design Solutions * UX Design * UI Design * Methodology * Website Design
-                    </div>
-
-                </div>
-            </section>
+           
                 <section className="flex-layout-section-full flex-layout-column align-items-center">
                     <p className="title margin-top-75">
                         WDS Provides Design Support That Make a Difference </p>
                     <p className="subtitle content-block-60 margin-top-25 flex-layout-column align-items-center">
                         Our client roster includes Motorola, Pfizer, Stubhub, SmithKline, OsiSoft...</p>
                 </section>
+                <div className="flex-layout-section-full margin-top-75 grey-blue padding-bottom-50">
+                <div className="grid-services-list  flex-section-align-center">
+                    <div className="margin-top-50 grid-services-title title text-align-center ">
+                        Services Include 
+                    </div>
+                    <div className="grid-services-3">
+                        <img className="width-50" src={icon_strategy}  alt="Strategy and Insights" /> 
+                        <div className="subtitle">
+                            Strategy & Insights
+                        </div>
+                    <ul>
+                        <li>Digital Transformation</li>
+                        <li>SaaS Transition</li>
+                        <li>Strategic Ideation</li>
+                        <li>Journey Maps</li>
+                        <li>Contextual Inquiry</li>
+                        <li>Affinity Diagramming</li> 
+                        <li>Consolidated Workflow Diagrams</li>
+                        <li>Design Thinking Mentoring</li>
+                        <li>Communication Workshops</li>
+                              
+                    </ul>  
+                    </div>
+                    <div className="grid-services-1">
+                        <img className="width-50" src={icon_ux}  alt="UX" /> 
+                        <div className="subtitle">
+                            UX Design
+                        </div>
+                    <ul>
+                        <li>Interaction Design</li>
+                        <li>Visual Design</li>
+                        <li>Personas</li>
+                        <li>Prototyping</li> 
+                        <li>Concept Validation</li> 
+                        <li>Consolidated Workflows</li>
+                        <li>Design Systems</li>
+                        <li>Style Guides</li>
+                        <li>Pattern Libraries</li>
+                    </ul>
+                    </div>
+                    <div className="grid-services-4">
+                        <img className="width-50" src={icon_ui}  alt="UI" />
+                        <div className="subtitle">
+                            UI Design & Development
+                        </div>
+                            <ul>
+                                <li>Design Metrics</li>
+                                <li>Protyping</li> 
+                                <li>Concept Validation</li> 
+                                <li>Wireframe Key Workflows</li>
+                                <li>CSS Solutions</li>  
+                            </ul>
+                    </div>
+                    <div className="grid-services-5">
+                        <img className="width-50" src={icon_marketing}  alt="Marketing and Analysis" />
+                        <div className="subtitle">
+                            Marketing & Analytics
+                        </div>
+                        <ul>
+                            <li>Marketing Strategy</li>
+                            <li>Content Science & Design</li>
+                            <li>Experience Data & Analytics</li>
+                            <li>Social & Influence Strategy</li>
+                            <li>Marketing Technology Design & Strategy</li>
+                            <li>Innovation as a Brand</li>       
+                        </ul>  
+                    </div>
+                    <div className="grid-services-2">
+                        <img className="width-50" src={icon_design_solutions}  alt="Design Solutions" />
+                        <div className="subtitle">
+                            Design Solutions
+                        </div>
+                            <ul>
+                                <li>Website Design</li>
+                                <li>Visual Design</li>
+                                <li>Branding</li>
+                                <li>Marketing</li> 
+                                <li>Print Design</li> 
+                                <li>Video Production</li>
+                                <li>Design Systems</li>
+                                <li>Style Guides</li>
+                            </ul>
+                    </div>
+                    <div className="grid-services-6">
+                        <img className="width-50" src={icon_design}  alt="Design" />
+                        <div className="subtitle">Design</div>
+                            <ul>
+                                <li>User Interface Design</li>
+                                <li>Visual Design</li>
+                                <li>Design Metrics</li>
+                                <li>Protyping</li> 
+                                <li>Concept Validation</li> 
+                                <li>Wireframe Key Workflows</li>
+                                <li>Design Systems</li>
+                                <li>Style Guides</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            
+                   
+    
+                  
                 <section className="flex-layout-section-full align-items-center" >
                     <div className="grid-2col-text-photo width-70 margin-top-100 ">
                         <div className="col2-textwidth-100 grid-placeself-center">
@@ -149,15 +251,15 @@ class why_wds extends Component {
 
             <div className="thin-hr width-70 align-self-center margin-top-100"></div>
 
-         <section className="flex-layout-section-full align-items-center" >
+            <section className="flex-layout-section-full align-items-center" >
                 <div className="content-header flex-layout-column flex-layout-center-center">    
-                    <p className="title text-align-center margin-top-100 content-block-75">
+                    <p className="title text-align-center margin-top-100 content-block-55">
                         WDS builds emotionally rich, resonant digital solutions that enable users to fully realize technology’s complete potential, by simplifying everything your customers touch and feel.</p>
                 </div>
-                <div className="content-block-25">
-                    <img className="flex-image-container margin-top-75" src={why_oh_really}  alt="Your Business is Our Joy" /> 
+                <div className="content-block-25" style={{marginLeft: '10%'}}>
+                    <img className="flex-image-container margin-top-75" src={why_oh_really}  alt="WDS digital solutions" /> 
                 </div>
-                <div className="content-header flex-layout-column">    
+                <div className="content-header flex-layout-column" >    
                     <p className="title margin-top-50 text-align-center">
                         By advocating and designing for the user.</p>
                 </div>
