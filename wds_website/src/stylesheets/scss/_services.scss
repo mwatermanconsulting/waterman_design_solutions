@@ -63,6 +63,17 @@
     margin-left: 35%;
   }
 
+  .grid-left-services {
+    grid-column: 1/2;
+    grid-row: auto;
+    justify-content: center;
+    margin-left: 31%;
+  }
+
+  
+
+
+
   .grid-left-contentWrap {
     grid-column: col / span 2;
     grid-row: auto;
@@ -102,6 +113,12 @@
     grid-column: 2/2;
     grid-row: auto;
     margin-left: -6%;
+  }
+
+  .grid-right-services {
+    grid-column: 2/2;
+    grid-row: auto;
+    margin-left: -10%;
   }
 
   .grid-right-15 {

@@ -604,6 +604,12 @@ footer {
 .width-100 {
   width: 100%; }
 
+.width-25 {
+  width: 25%; }
+
+.width-40 {
+  width: 40%; }
+
 .width-50 {
   width: 50%; }
 
@@ -885,6 +891,10 @@ h4 {
 
 a {
   color: #3eaca9 !important; }
+
+.no-decoration {
+  color: none;
+  text-decoration: none; }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace; }
@@ -1705,6 +1715,11 @@ Button:hover {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px; }
 
+.grid-callout-2col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 100px; }
+
 .gallery-2col-1 {
   grid-column: 1/2;
   grid-row: 1/auto; }
@@ -2118,6 +2133,12 @@ Button:hover {
   justify-content: center;
   margin-left: 35%; }
 
+.grid-left-services {
+  grid-column: 1/2;
+  grid-row: auto;
+  justify-content: center;
+  margin-left: 31%; }
+
 .grid-left-contentWrap {
   grid-column: col / span 2;
   grid-row: auto;
@@ -2151,6 +2172,11 @@ Button:hover {
   grid-column: 2/2;
   grid-row: auto;
   margin-left: -6%; }
+
+.grid-right-services {
+  grid-column: 2/2;
+  grid-row: auto;
+  margin-left: -10%; }
 
 .grid-right-15 {
   grid-column: 2/2;

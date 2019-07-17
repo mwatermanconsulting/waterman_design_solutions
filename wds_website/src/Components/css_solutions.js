@@ -26,7 +26,7 @@ class css_solutions extends Component {
             <section className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
                 <div className="grid-item-b content-block-60 content-header flex-layout-column">
                     <div className="callout-text text-align-left text-white">
-                        WDS has been writing CSS since the days of table layout. There is not any CSS problems that we have not encountered. We are CSS experts. Our CSS Solutions are our most requested service. Our CSS services include CSS development, Strategy, CSS system implementation, mentoring and documentation, including best of practice documentation.
+                        WDS has been writing CSS since the days of table layout encountering every problem imaginable. We are always researching and implementing the latest CSS offerings. We were one of the first companies to develop an enterprise level flexbox solution to a high profile data display application. This site uses to newest CSS gird specification. We have solved every problem imaginable because we are experts and our CSS Solutions are the most requested service. Our CSS services include CSS development, Strategy, CSS system implementation, mentoring and documentation, including best of practice documentation.
                     </div>              
                 </div>
                 <div className="item-a-nb container-image-block">
@@ -79,7 +79,7 @@ class css_solutions extends Component {
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-25">
                             <p className="content-text-18"> 
-                            Taming the specificity beast use to be difficult. Our CSS strategy almost eliminates the specificity problems. In fact, our strategy almost elminates the need for your developers to write CSS. Our advantage is our past experience working with developers and interviewing and observing them working with CSS.  </p>
+                            Taming the specificity beast use to be difficult. Our CSS strategy almost eliminates the specificity problems. In fact, our strategy almost eliminates the need for your developers to write CSS. Our advantage is our past experience working with developers and interviewing and observing them working with CSS.  </p>
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
