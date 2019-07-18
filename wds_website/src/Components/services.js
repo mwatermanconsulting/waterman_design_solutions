@@ -54,12 +54,12 @@ class services extends Component {
 
             <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-            <section className="grid-2col-photo-content content-header">
+            <section className="grid-2col-photo-content content-header" style={{marginLeft: '9%'}}>
                 <div className="grid-left-services flex-layout-section-full">
-                    <div className="subtitle content-block-60">
+                    <div className="subtitle content-block-80">
                         User Experience Design
                     </div>
-                    <div className="content-block-75 content-text-18 margin-top-25">
+                    <div className="content-block-80 content-text-18 margin-top-25">
                         <p className="content-text-18"> 
                         When design determines success, understanding the user is paramount. We design to connect people with what matters most to them. </p>
                         <p className="content-text-18">
@@ -71,14 +71,14 @@ class services extends Component {
                         <p><i><a href="../ux_design">Learn More</a> </i></p>
                         </div>
                     </div>
-                    <div className="grid-right-services container-image-block" style={{marginTop: '60px'}}>
+                    <div className="grid-right-services container-image-block" style={{marginTop: '95px'}}>
                         <img className="photo-container" src={services4}  alt="Services" /> 
                     </div>           
                 </section>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="grid-2col-photo-content content-header">
+                <section className="grid-2col-photo-content content-header" style={{marginLeft: '9%'}}>
                     <div className="grid-left-services flex-layout-section-full">
                         <div className="subtitle">
                             UI Design & Development
@@ -98,12 +98,12 @@ class services extends Component {
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="grid-2col-photo-content content-header">
+                <section className="grid-2col-photo-content content-header" style={{marginLeft: '9%'}}>
                     <div className="grid-left-services flex-layout-section-full">
                         <div className="subtitle">
                                 Design Solutions
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-25">
+                        <div className="content-block-75 content-text-18 margin-top-15">
                             <p className="content-text-18"> 
                             An experience strategy provides the direction to design and build an experience that truly resonates with your audience.</p>
                             <p className="content-text-18">
@@ -117,15 +117,15 @@ class services extends Component {
                         </div>
                     </div>
                     <div className="grid-right-services container-image-block">
-                        <img className="photo-container" src={services2}  alt="Services" style={{marginTop: '40px'}} /> 
+                        <img className="photo-container" src={services2}  alt="Services" style={{marginTop: '5%'}} /> 
                     </div>     
                 </section>
                 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="grid-2col-photo-content content-header">
+                <section className="grid-2col-photo-content content-header" style={{marginLeft: '9%'}}>
                     <div className="grid-left-services flex-layout-section-full ">
-                        <div className="subtitle margin-top-15">
+                        <div className="subtitle margin-top-15" >
                             Strategy and Insight 
                         </div>
                         
@@ -142,7 +142,7 @@ class services extends Component {
                 </section>
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
 </div>
-                <section className="grid-2col-photo-content content-header">
+                <section className="grid-2col-photo-content content-header" style={{marginLeft: '9%'}}>
                     <div className="grid-left-services flex-layout-section-full">
                         <div className="subtitle">
                             CSS Solutions
@@ -161,12 +161,12 @@ class services extends Component {
 
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
-                <section className="grid-2col-photo-content content-header" >
+                <section className="grid-2col-photo-content content-header"  style={{marginLeft: '9%'}} >
                     <div className="grid-left-services flex-layout-section-full ">
                         <div className="subtitle">
                             Customer Experience
                         </div>
-                        <div className="content-block-75" >
+                        <div className="content-block-75 margin-top-15" >
                             <p className="content-text-18 content-block-75">  The best customer experience starts with the Golden Rule and how you communicate your product — why it exists, who it serves, how it benefits them.</p>
                             <p className="content-text-18"><a href="../core_offerings">Learn More</a> </p>     
                         </div>
