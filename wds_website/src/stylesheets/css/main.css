@@ -484,6 +484,9 @@ footer {
 .content-block-75 {
   width: 75%; }
 
+.content-block-80 {
+  width: 80%; }
+
 .content-block-85 {
   width: 85%; }
 
@@ -2137,7 +2140,7 @@ Button:hover {
   grid-column: 1/2;
   grid-row: auto;
   justify-content: center;
-  margin-left: 31%; }
+  margin-left: 25%; }
 
 .photo-container {
   width: 550px;

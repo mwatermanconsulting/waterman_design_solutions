@@ -8,9 +8,7 @@ import finding_truth2 from '../images/photos/photo-finding-truth-s2.png';
 import finding_truth3 from '../images/photos/photo-finding-truth-s3.png';
 import finding_truth4 from '../images/photos/photo-finding-truth-s4.png';
 import finding_truth5 from '../images/photos/photo-finding-truth-s5.png';
-import finding_truth6 from '../images/photos/photo-finding-truth-s6.png';
-import finding_truth7 from '../images/photos/photo-finding-truth-s7.png';
-import finding_truth8 from '../images/photos/photo-finding-truth-s8.png';
+import didyouknow from '../images/graphic-didyouknow.png';
 
 class marketing extends Component {
     render () {
@@ -128,12 +126,16 @@ class marketing extends Component {
                         <img className="photo-container margin-top-25" src={finding_truth5}  alt="Your Business is Our Joy" /> 
                     </div>     
                 </div>
-  
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
-
-                
-
                 </div>
+                <section className="flex-layout-section-full flex-layout-column  margin-top-100  grey border-top-5">
+                    <div className="width-75 margin-top-50 padding-bottom-100" style={{marginLeft:'-'}}> 
+                       <a href="../core_offerings"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Ux" /> </a>
+                      
+                        <p className="content-header text-white flex-layout-column" style={{marginLeft:'30%', marginTop:'-5%'}}>WDS Developed a Telemetry and Data UX Strategy for Stubhub
+                        </p>
+    
+                    </div>
+                </section> 
             </div>
         )
     }

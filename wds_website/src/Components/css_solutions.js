@@ -126,18 +126,17 @@ class css_solutions extends Component {
                     </div>     
                 </div>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75" ></div>
 
-                <section className="flex-layout-section-full align-self-center margin-bottom-100">
-                    <div className="title align-self-center">
+                <section className="flex-layout-section-full margin-bottom-100" style={{marginLeft:'17%'}}>
+                    <div className="title content-block-75">
                         WDS Methodology Works With Your Existing CSS                       
                     </div>
-                    <div className="subtitle align-self-center  margin-top-15">
+                    <div className="subtitle content-block-75 margin-top-15">
                             Rebuilding your css to be lean fast and scalable
                     </div>
-                    <div className="flex-layout-center-center content-text-18 margin-top-15">
-                            <ul className="content-text-24 dashed align-self-center margin-bottom-20" style={{marginLeft:"30%"}}
-                            ><b> List of CSS Services</b>
+                    <div className="content-text-18 content-block-75 margin-top-15">
+                            <ul className="content-text-24 dashed margin-bottom-20"  ><b> List of CSS Services</b>
                                 <li className='margin-top-15'>SasS or Less Implementation</li>
                                 <li> Set of Global reusable Classes</li>
                                 <li>Object Oriented CSS</li>
@@ -153,19 +152,15 @@ class css_solutions extends Component {
                    
                 </section>
                 </div>
-                
-
-                <section className="flex-layout-section-full flex-layout-column margin-top-50  grey border-top-5">
-                    <div className="width-100 margin-top-50 margin-bottom-50"> 
-                       <a href="../communication_insights"> <img className="flex-image-container width-75" src={didyouknow}  alt="Ux is the best therapy!" /> </a>
+                <section className="flex-layout-section-full flex-layout-column  margin-top-100  grey border-top-5">
+                    <div className="width-75 margin-top-50 padding-bottom-100" style={{marginLeft:'-'}}> 
+                       <a href="../core_offerings"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Ux" /> </a>
                       
-                    <div className="flex-layout-center-center">
-                        <p className="content-header text-white flex-layout-column flex-layout-center-center"> WDS has developed design communication strategies for Motorola, Stubhub and OsiSoft.  </p>
+                        <p className="content-header text-white content-block-55 flex-layout-column" style={{marginLeft:'30%', marginTop:'-5%'}}>WDS Specializes in Data Visualization Application Design.
+                        </p>
+    
                     </div>
-                    </div>
-                </section> 
-  
-                
+                </section>    
             </div>
         )
     }
