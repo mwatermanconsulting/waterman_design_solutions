@@ -23,19 +23,18 @@ class css_solutions extends Component {
 
                 </div>
             </div>
-            <section className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
-                <div className="grid-item-b content-block-60 content-header flex-layout-column">
-                    <div className="callout-text text-align-left text-white">
-                        WDS has been writing CSS since the days of table layout encountering every problem imaginable. We are always researching and implementing the latest CSS offerings. We were one of the first companies to develop an enterprise level flexbox solution to a high profile data display application. This site uses to newest CSS gird specification. We have solved every problem imaginable because we are experts and our CSS Solutions are the most requested service. Our CSS services include CSS development, Strategy, CSS system implementation, mentoring and documentation, including best of practice documentation.
+            <section className="grid-2col-photo-content photo-content-color align-items-center border-bottom-5" style={{height:'670px'}}> 
+                    <div className="grid-left content-block-60 callout-text text-align-left text-white" style={{marginLeft: '14%'}}>
+                        Our CSS services include CSS development, Strategy, CSS system implementation, mentoring and documentation, including best of practice documentation.
                     </div>              
-                </div>
-                <div className="item-a-nb container-image-block">
+                
+                <div className="grid-right-css container-image-block" style={{marginLeft: '-15%'}}>>
                     <img className="container-photo-callout width-100" src={casscade}  alt="css code" /> 
                 </div>
             </section>
-            <section className="content-header flex-layout-center-center flex-layout-column margin-bottom-100">
+            <section className="content-header flex-layout-center-center flex-layout-column">
                 <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-50">
-                        WDS CSS and develops lean, scalable solutions that seves your business money and your developers time.
+                        WDS CSS and develops lean, scalable solutions, saving your business money and your<br/> developers time.
                 </div>
                 <div className="content-block-50 margin-top-50">
                     <p className="content-text-24 text-align-center">
@@ -43,101 +42,103 @@ class css_solutions extends Component {
                 </div>
                 <button type="button" className="margin-top-50 font-size-24"><a href="case_study_4">
                         OsiSoft CSS Case Study </a></button>
-                
-                <div className="flex-layout-section thin-hr flex-layout-center margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
             </section>
-           
-            <div className="flex-layout-section-full flex-layout-center-center flex-layout-column"> 
+
+            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+            <div className="flex-layout-section-full flex-layout-column margin-top-25"> 
                 <section className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title">
                             Experience Matters
                         </div>
-                        <div className="subtitle">
+                        <div className="subtitle margin-top-15">
                             Responsive Design Solution
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-25">
+                        <div className="content-block-75 content-text-18 margin-top-15">
                             <p className="content-text-18"> 
                             Responsive Web design is the approach that suggests that design and development should respond to the user’s behavior and environment based on screen size, platform and orientation. We have made countless responsive websites and applications. We were one of the first companies to build a responsive enterprise application using flexbox. We can consult with your team on how to write better quality responsive User Interfaces </p>
                         </div>
                     </div>
-                    <div className="grid-right container-image-block">
-                        <img className="photo-container" src={css2}  alt="Stakeholder Interview" /> 
+                    <div className="grid-right-css container-image-block margin-top-25">
+                        <img className="photo-container width-50 margin-top-15" src={css2}  alt="Stakeholder Interview" /> 
                     </div>     
                 </section>
 
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '85%' }}></div>
+                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
                 <section className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title text-grey">
                             Organize and Simplify  
                         </div>
-                        <div className="subtitle">
+                        <div className="subtitle margin-top-15">
                             Strategy to Organize and Reduce Specificity 
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-25">
+                        <div className="content-block-75 content-text-18 margin-top-15">
                             <p className="content-text-18"> 
                             Taming the specificity beast use to be difficult. Our CSS strategy almost eliminates the specificity problems. In fact, our strategy almost eliminates the need for your developers to write CSS. Our advantage is our past experience working with developers and interviewing and observing them working with CSS.  </p>
                         </div>
                     </div>
-                    <div className="grid-right container-image-block">
+                    <div className="grid-right-css container-image-block">
                         <img className="photo-container" src={itcss}  alt="Stakeholder Interview" /> 
                     </div>     
                 </section>
 
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '85%' }}></div>
+                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
                 <section className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title">
                             Modular CSS 
                         </div>
-                        <div className="subtitle">
+                        <div className="subtitle margin-top-15">
                             Reusable CSS
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-25">
+                        <div className="content-block-75 content-text-18 margin-top-15">
                             <p className="content-text-18"> 
                             CSS preprocessors are scripting languages that extend the default capabilities of CSS. They enable us to use logic in our CSS code, such as variables, nesting, inheritance, mixins, functions, and mathematical operations. CSS preprocessors make it easy to automate repetitive tasks, reduce the number of errors and code bloat, create reusable code snippets, and ensure backward compatibility.</p>
                         </div>
                     </div>
-                    <div className="grid-right container-image-block">
+                    <div className="grid-right-css container-image-block">
                         <img className="photo-container" src={css3}  alt="Stakeholder Interview" /> 
                     </div>     
                 </section>
 
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '85%' }}></div>
+                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
                 <div className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title">
                             WDS Can Transform Your CSS 
                         </div>
-                        <div className="subtitle">
+                        <div className="subtitle margin-top-15">
                             Building Scalable Enterprise Solutions
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-25">
+                        <div className="content-block-75 content-text-18 margin-top-15">
                             <p className="content-text-18"> The best way to explain any complex solutions is through a story. The last company we work for needed an enterprise scalable CSS solution that would greatly diminish their specificity issues. This solution needed to keep in mind the users, the developers and engineers and build a system that could support 70 developers. <a href="../case_study_4"><i>Continue Story</i></a>  </p>
                             <p className="content-text-18"> </p>           
                         </div>
                     </div>
-                    <div className="grid-right container-image-block">
+                    <div className="grid-right-css container-image-block">
                         <img className="photo-container" src={css4}  alt="Your Business is Our Joy" /> 
                     </div>     
                 </div>
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '85%' }}>
-                </div>
-                <section className="flex-layout-section-full content-header margin-bottom-100">
-                    <div className="grid-left flex-layout-section-full">
-                        <div className="title">
-                            WDS Methodology Works With Your Existing CSS                       
-                        </div>
-                        <div className="subtitle margin-top-25">
+
+                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+                <section className="flex-layout-section-full align-self-center margin-bottom-100">
+                    <div className="title align-self-center">
+                        WDS Methodology Works With Your Existing CSS                       
+                    </div>
+                    <div className="subtitle align-self-center  margin-top-15">
                             Rebuilding your css to be lean fast and scalable
-                        </div>
-                        <div className="content-block-75 content-text-18 margin-top-25">
-                            <ul className="content-text-24 dashed"><b> List of CSS Services</b>
-                                <li>SasS or Less Implementation</li>
+                    </div>
+                    <div className="flex-layout-center-center content-text-18 margin-top-15">
+                            <ul className="content-text-24 dashed align-self-center margin-bottom-20" style={{marginLeft:"30%"}}
+                            ><b> List of CSS Services</b>
+                                <li className='margin-top-15'>SasS or Less Implementation</li>
                                 <li> Set of Global reusable Classes</li>
                                 <li>Object Oriented CSS</li>
                                 <li>Updated Style Sheets</li>
@@ -149,17 +150,17 @@ class css_solutions extends Component {
                             </ul>
 
                         </div>
-                    </div>
+                   
                 </section>
                 </div>
                 
 
-                <section className="flex-layout-section-full flex-layout-column margin-top-100  grey border-top-5">
+                <section className="flex-layout-section-full flex-layout-column margin-top-50  grey border-top-5">
                     <div className="width-100 margin-top-50 margin-bottom-50"> 
                        <a href="../communication_insights"> <img className="flex-image-container width-75" src={didyouknow}  alt="Ux is the best therapy!" /> </a>
                       
                     <div className="flex-layout-center-center">
-                        <p className="content-header text-white flex-layout-column flex-layout-center-center"> WDS has developed communication strategies for Motorola, Stubhub and OsiSoft.  <p><i><a href="../case_study_3">Learn More</a> </i></p> </p>
+                        <p className="content-header text-white flex-layout-column flex-layout-center-center"> WDS has developed design communication strategies for Motorola, Stubhub and OsiSoft.  </p>
                     </div>
                     </div>
                 </section> 

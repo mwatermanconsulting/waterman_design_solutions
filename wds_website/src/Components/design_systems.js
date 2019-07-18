@@ -7,6 +7,7 @@ import digital_systems4 from '../images/photos/photo-digital-systems-s4.png';
 import digital_systems5 from '../images/photos/photo-digital-systems-s5.png';
 import digital_systems6 from '../images/photos/photo-digital-systems-s6.png';
 import digital_systems7 from '../images/photos/photo-digital-systems-s7.png';
+import didyouknow from '../images/graphic-didyouknow.png';
 
 class style_guide extends Component {
     render () {
@@ -38,16 +39,15 @@ class style_guide extends Component {
     
             <section className="content-header flex-layout-center-center flex-layout-column">
                 <div className="flex-layout-center-center title text-align-center content-block-60 margin-top-100">
-                    Business Value of a  Design System? 
+                    If your product isn’t documented it doesn’t exist
                 </div>
                 <div className="content-block-55 margin-top-25">
                     <p className="content-text-24 text-align-center">
-                        A Design System is the complete set of design standards, documentation, and principles along with UI patterns and components to achieve those standards.</p>
+                    Style guides and design systems are there to make our lives easier. As simple as that. Among its main benefits, they keep our designs consistent internally and they help us be more productive. They make our work scalable.</p>
                 </div>
             </section> 
             
             <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
-
 
             <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">
                 <section className="grid-2col-photo-content content-header">
@@ -64,7 +64,7 @@ class style_guide extends Component {
 This is especially good news for developers, who have all the code snippets they need right at their fingertips.</p>
                         </div>
                     </section>
-                    <div className="grid-placeself-right">
+                    <div className="grid-right-css margin-top-50">
                         <img className="photo-container width-100" src={digital_systems2}  alt="Digital Systems" /> 
                         <p className="caption">Image by rawpixel from Pixabay </p>
                     </div>     
@@ -75,19 +75,19 @@ This is especially good news for developers, who have all the code snippets they
                 <section className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title">
-                        Consistency across the board
+                            Consistency across the board
                         </div>
                         <div className="subtitle margin-top-15">
                             Building familiarity
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-25">
+                        <div className="content-block-75 content-text-18 margin-top-15">
                             <p className="content-text-18"> 
                             Consistency is vital to a user’s experience, but it can be hard to come by with multiple designers working separately. Design systems allow easy access to universal versions of design assets (and their rules) to keep everyone on the same page, and ensure components remain consistent from one page or section to another.
                             That also holds true for different products. Brands looking to build their identity can use the exact same assets for all their products, giving everything a unified feel and rewarding loyal customers with familiar usability.</p>
                         </div>
                     </div>
-                    <div className="grid-placeself-right">
-                        <img className="photo-container width-100" src={digital_systems3}  alt="Digital Systems" /> 
+                    <div className="grid-right-ds align-self-baseline">
+                        <img className="photo-container width-100" src={digital_systems3}  alt="Style Guides" /> 
                         <p className="caption">Styleguide for OSIsoft </p>
                     </div>      
                 </section>
@@ -95,14 +95,15 @@ This is especially good news for developers, who have all the code snippets they
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
                 <section className="left content-header align-items-center flex-layout-column">
-                        <div className="title content-block-60">
+                        <div className="title content-block-60" style={{marginLeft:'-6%'}}>
                         Enhanced collaboration
                         </div>
-                        <div className="subtitle content-block-60 margin-top-15">
+                        <div className="subtitle content-block-60 margin-top-15" style={{marginLeft:'-6%'}}>
                             What makes sense for the user
                         </div>
-                        <div className="content-block-60 content-text-18 margin-top-25">
-                            <p className="content-text-18"> <div className="right">
+                        <div className="content-block-60 content-text-18 margin-top-25" style={{marginLeft:'-6%'}}>
+                            <p className="content-text-18"> 
+                        <div className="right">
                             <img className="photo-container width-100" src={digital_systems4}  alt="Digital Systems" /> 
                             <p className="caption">Photo by Aubrey Rose Odom on Unsplash </p>
                         </div>
@@ -114,25 +115,19 @@ This is especially good news for developers, who have all the code snippets they
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="grid-2col-photo-content content-header padding">
-                    <div className="grid-left flex-layout-section-full">
+                <section className="grid-2things flex-layout-center-center content-header" style={{marginLeft: '15%'}}>
+                    <div className="thing1 flex-layout-section-full">
                         <div className="subtitle">
-                        No version control problems
-                        </div>
-                        <div className="subtitle margin-top-15">
-                            All the versions available
+                            No Version Control Problems
                         </div>
                         <div className="content-block-60 content-text-18 margin-top-15">
                             <p className="content-text-18"> It’s understood that the design system is the official document: every time a change needs to be made, it’s made there. Whenever a bug gets fixed or a new design component is introduced, it’s recorded into the design system so that the next person to use it stays up-to-date automatically. We like to call it a “living document” because it’s always updating.<br></br>
                             This format of using only one, agreed-upon master document also ensures that every update gets made to the same file. You never have to merge multiple files that were updated independently of each other by different team members. Whenever you pull from the design system, you know you’re always using the most recent version. This significantly reduces the margin for error.</p>   
                         </div>
                     </div>
-                    <div className="grid-right flex-layout-section-full ">
+                    <div className="thing2 flex-layout-section-full" style={{marginTop: '-4%'}}>
                         <div className="subtitle">
                         Data-driven UX
-                        </div>
-                        <div className="subtitle margin-top-15">
-                        Style guide  -	CSS, HTML, React, SaaS, VS
                         </div>
                         <div className="content-block-60 content-text-18 margin-top-15">
                             <p className="content-text-18">So much of UX design depends on customer feedback. Different customer groups have different tastes and preferences, and they can be hard to keep track of, especially if your company is targeting more than one group.<br></br>
@@ -147,13 +142,13 @@ This is especially good news for developers, who have all the code snippets they
   
                 <div className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
-                        <div className="subtitle">
+                        <div className="title">
                         Pattern Library
                         </div>
-                        <div className="subtitle">
+                        <div className="subtitle margin-top-15">
                             Design system layouts
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-25">
+                        <div className="content-block-75 content-text-18 margin-top-15">
                             <p className="content-text-18"> 
                             A subclass in the design system, this is the set of design patterns for use across a company. </p>
                         </div>
@@ -170,10 +165,10 @@ This is especially good news for developers, who have all the code snippets they
                         <div className="title">
                             Style Guides                        
                         </div>
-                        <div className="subtitle ">
+                        <div className="subtitle margin-top-15">
                             An excellent tool for standards
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-25">
+                        <div className="content-block-75 content-text-18 margin-top-15">
                             <p className="content-text-18">  Another subclass in the design system, this static documentation describes the design system itself: how products should look and feel, use cases for UI patterns, correct typographic scales, etc.</p>
                             <p className="content-text-18">  Find out how we implemented a style guide and design system for OsiSoft.</p>
 
@@ -182,8 +177,17 @@ This is especially good news for developers, who have all the code snippets they
                     <div className="grid-right container-image-block">
                         <img className="photo-container width-100 border-2" src={digital_systems6}  alt="Digital Systems" /> 
                     </div>     
-                </div>  
-            </div>
+                </div>       
+            </div> 
+            <div className="flex-layout-section-full flex-layout-column flex-layout-center-center        margin-top-100  grey border-top-5">
+                    <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
+                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Ux" /> </a>
+                      
+                    <div className="flex-layout-center-center">
+                        <p className="content-header text-white flex-layout-column flex-layout-center-center">WDS data visualizations design solutions are being used by the world’s largest brands </p>
+                    </div>
+                    </div>
+            </div> 
         </div>
         )
     }

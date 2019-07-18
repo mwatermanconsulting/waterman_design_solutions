@@ -37,7 +37,7 @@ class App extends Component {
                 <a href="./ui_design">UI Design</a>
                 <a href="./css_solutions">CSS Solutions</a>
                 
-                <a href="./social_media">Social Media Marketing</a>
+                <a href="./marketing">Social Media Marketing</a>
                 <a href="./design_systems">Design Systems</a>
               </div>
               </li>

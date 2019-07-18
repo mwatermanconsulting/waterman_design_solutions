@@ -36,34 +36,33 @@ class marketing extends Component {
                     <img className="container-photo-callout" src={finding_truth2}  alt="shaking hands" /> 
                 </div>
             </div>
-    
-            <div className="content-header flex-layout-center-center flex-layout-column margin-top-200 ">
-                <div className="flex-layout-center-center title text-align-center content-block-60">
-                    A successful marketing campaign lies in creating products and services, and developing company cultures that embrace and reflect human values. 
+            <section className="content-header flex-layout-center-center flex-layout-column">
+                <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-50">
+                        “Many companies have forgotten they sell to actual people. Humans care about the entire experience, not just the marketing or sales or service. To really win in the modern age, you must solve for humans.” — Dharmesh Shah, CTO & Co-Founder, HubSpot 
                 </div>
-                <div className="content-block-55 margin-top-50">
-                    <p className="content-text-24 text-align-center">
-                        WDS understands people. Our methodology gives a voice to the your users, your customers. Those people whose daily lives are effected by the use of your application or product. Your marketing campaign should be a clear vision of who you are as a company, why you started the business, who did you envision using your idea. Every business has a story. We will define a marketing strategy based on research, data with a clear vision that reflects and embraces real human values.</p>
+                <div className="content-block-50 margin-top-50">
+                <p className="content-text-24 text-align-center">
+                        WDS understands people on a deep level. Our methodology gives a voice to the your users, your customers. Those people whose daily lives are effected by the use of your application or product. Your marketing campaign should be a reflect the vision of who you are as a business and tell that story. Every business has a story. We will define a marketing strategy based on research, data with a clear vision that reflects and embraces real human values.</p>
                 </div>
-            </div>
-            <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">
-                
-                <div className="flex-layout-section thin-hr margin-top-200 margin-bottom-100" style={{ width: '75%' }}></div>
+            </section>
 
+            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+            <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">
                 <div className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title">
-                            SOCIAL MEDIA STRATEGY
+                            Social Media Strategy
                         </div>
-                        <div className="subtitle">
+                        <div className="subtitle margin-top-15">
                             The Right Approach
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-25">
+                        <div className="content-block-75 content-text-18 margin-top-15">
                             <p className="content-text-18"> 
-                            Our goal is to identify the right approach for your unique target audiences on social media. We plan, develop, and execute innovative social media marketing strategies that build a meaningful experience for your online communities.</p>
+                            Our goal is to identify the right approach for your unique target audiences on social media. We plan, develop, and execute innovative social media marketing strategies that build a meaningful experience across all social media touchpoints.</p>
                         </div>
                     </div>
-                    <div className="grid-right container-image-block">
+                    <div className="grid-right-css container-image-block">
                         <img className="photo-container" src={finding}  alt="Stakeholder Interview" /> 
                     </div>     
                 </div>
@@ -75,10 +74,10 @@ class marketing extends Component {
                         <div className="title">
                             Content Creation
                         </div>
-                        <div className="subtitle">
+                        <div className="subtitle margin-top-15">
                             Telling A Story
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-25">
+                        <div className="content-block-75 content-text-18 margin-top-15">
                             <p className="content-text-18">
                             Social Media is all about connecting and engaging with your customers where they spend the most time. Our targeted approach to content shapes perceptions of our clients' brands, triggers an emotional response with their audience, and ultimately helps drive new lead generation.</p>
 
@@ -96,7 +95,7 @@ class marketing extends Component {
                         <div className="title">
                             Monitor and Document
                         </div>
-                        <div className="subtitle">
+                        <div className="subtitle margin-top-15">
                             We'll do all the work
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-25">
@@ -113,12 +112,12 @@ class marketing extends Component {
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
                 <div className="grid-2col-photo-content content-header">
-                    <div className="grid-left flex-layout-section-full ">
-                        <div className="title">
+                    <div className="grid-left flex-layout-section-full">
+                        <div className="title content-block-75">
                             Social Media Design Solutions
                         </div>
-                        <div className="subtitle">
-                            Always about the User
+                        <div className="subtitle margin-top-15">
+                            It's always about the User
                         </div>
                     <div className="content-block-75 content-text-18 margin-top-15">
                         <p className="content-text-18"> 
@@ -126,7 +125,7 @@ class marketing extends Component {
                     </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={finding_truth5}  alt="Your Business is Our Joy" /> 
+                        <img className="photo-container margin-top-25" src={finding_truth5}  alt="Your Business is Our Joy" /> 
                     </div>     
                 </div>
   
