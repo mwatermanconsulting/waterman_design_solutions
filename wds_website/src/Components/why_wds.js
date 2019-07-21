@@ -34,7 +34,9 @@ class why_wds extends Component {
                         <div className="content-header flex-layout-column">    
                             <div className="content-block width-75">
                                 <div className=" text-white text-align-center">
-                                   We are your design partners
+                                Solving Difficult Problems with Empathic Design or 
+                                Creating Design Solutions that Matters
+
                                 </div>
                             </div>
                         </div>
@@ -44,7 +46,7 @@ class why_wds extends Component {
                     <div className="grid-callout yellow-bg "> 
                         <div className="grid-callout-text grid-placeself-center padding width-70">
                             <p className="callout-text text-black">
-                            WDS is UX/UI Consulating firm that solves complex design and UI problems, by using a proven methodology that uncovers the truth to problems and develops a new awareness and empathy with your users.</p>
+                            WDS is UX/UI Consulating firm that solves complex design and UI problems. We search for the truth to unseen issues with a proven methodology that develops a new awareness and empathy with your users.</p>
                         </div>
                         <div className="grid-callout-photo grid-placeself-center">
                             <img className="flex-image-container width-100" src={whys1}  alt="Customer Service" /> 
@@ -58,82 +60,36 @@ class why_wds extends Component {
                         WDS Provides Design Support That Make a Difference </p>
                     <p className="subtitle content-block-60 margin-top-25 flex-layout-column align-items-center">
                         Our client roster includes Motorola, Pfizer, Stubhub, SmithKline, OsiSoft...</p>
+                        <p className="subtitle content-block-60 margin-top-25 flex-layout-column align-items-center">
+                        With over 15 years perfecting our approach, we have the experience, teams, skills and scale to deliver sophisticated software solutions that improve any and all touchpoints across the user journey. 
+</p>
                 </section>
                 <div className="flex-layout-section-full margin-top-75 grey-blue padding-bottom-50">
-                <div className="grid-services-list  flex-section-align-center">
-                    <div className="margin-top-50 grid-services-title title text-align-center ">
-                        Services Include 
-                    </div>
-                    <div className="grid-services-3">
-                        <img className="width-50" src={icon_strategy}  alt="Strategy and Insights" /> 
-                        <div className="subtitle">
-                            Strategy & Insights
-                        </div>
-                    <ul>
-                        <li>Digital Transformation</li>
-                        <li>SaaS Transition</li>
-                        <li>Strategic Ideation</li>
-                        <li>Journey Maps</li>
-                        <li>Contextual Inquiry</li>
-                        <li>Affinity Diagramming</li> 
-                        <li>Consolidated Workflow Diagrams</li>
-                        <li>Design Thinking Mentoring</li>
-                        <li>Communication Workshops</li>
-                              
-                    </ul>  
-                    </div>
+                <div className="grid-services-list padding-20 flex-section-align-center">
+                    
                     <div className="grid-services-1">
-                        <img className="width-50" src={icon_ux}  alt="UX" /> 
-                        <div className="subtitle">
-                            UX Design
+                        <img className="width-25" src={icon_ux}  alt="UX" /> 
+                        <div className="subtitle margin-top-25">
+                            <a href="./ux_design" className="no-decoration">
+                                UX Design</a>
                         </div>
-                    <ul>
+                    <ul className="dashed margin-top-15">
                         <li>Interaction Design</li>
-                        <li>Visual Design</li>
+                        <li>UX Business Strategies</li>
                         <li>Personas</li>
                         <li>Prototyping</li> 
                         <li>Concept Validation</li> 
                         <li>Consolidated Workflows</li>
-                        <li>Design Systems</li>
-                        <li>Style Guides</li>
                         <li>Pattern Libraries</li>
                     </ul>
                     </div>
-                    <div className="grid-services-4">
-                        <img className="width-50" src={icon_ui}  alt="UI" />
-                        <div className="subtitle">
-                            UI Design & Development
-                        </div>
-                            <ul>
-                                <li>Design Metrics</li>
-                                <li>Protyping</li> 
-                                <li>Concept Validation</li> 
-                                <li>Wireframe Key Workflows</li>
-                                <li>CSS Solutions</li>  
-                            </ul>
-                    </div>
-                    <div className="grid-services-5">
-                        <img className="width-50" src={icon_marketing}  alt="Marketing and Analysis" />
-                        <div className="subtitle">
-                            Marketing & Analytics
-                        </div>
-                        <ul>
-                            <li>Marketing Strategy</li>
-                            <li>Content Science & Design</li>
-                            <li>Experience Data & Analytics</li>
-                            <li>Social & Influence Strategy</li>
-                            <li>Marketing Technology Design & Strategy</li>
-                            <li>Innovation as a Brand</li>       
-                        </ul>  
-                    </div>
                     <div className="grid-services-2">
-                        <img className="width-50" src={icon_design_solutions}  alt="Design Solutions" />
-                        <div className="subtitle">
-                            Design Solutions
+                        <img style={{width:'27%'}} src={icon_design_solutions}  alt="Design Solutions" />
+                        <div className="subtitle margin-top-25">
+                            <a href="./design_solutions" className="no-decoration"> Design Solutions</a>
                         </div>
-                            <ul>
+                            <ul className="dashed margin-top-15">
                                 <li>Website Design</li>
-                                <li>Visual Design</li>
                                 <li>Branding</li>
                                 <li>Marketing</li> 
                                 <li>Print Design</li> 
@@ -142,18 +98,19 @@ class why_wds extends Component {
                                 <li>Style Guides</li>
                             </ul>
                     </div>
-                    <div className="grid-services-6">
-                        <img className="width-50" src={icon_design}  alt="Design" />
-                        <div className="subtitle">Design</div>
-                            <ul>
-                                <li>User Interface Design</li>
-                                <li>Visual Design</li>
-                                <li>Design Metrics</li>
-                                <li>Protyping</li> 
-                                <li>Concept Validation</li> 
-                                <li>Wireframe Key Workflows</li>
-                                <li>Design Systems</li>
-                                <li>Style Guides</li>
+                    <div className="grid-services-3">
+                        <img style={{width:'27%'}} src={icon_design}  alt="Design" />
+                        <div className="subtitle margin-top-25">
+                        <a href="./core_offerings" className="no-decoration">Core Offerings</a></div>
+                            <ul className="dashed margin-top-15">
+                                <li>Telemetry Strategies</li>
+                                <li>Design Support</li>
+                                <li>Design Workshops</li>
+                                <li>Empathy Workshops</li> 
+
+                                <li>Data Monitoring and Reporting</li>
+                                <li>UX Agile Integration Workshops</li>
+                                <li>Accessibility Strategies</li>
                             </ul>
                     </div>
                 </div>
@@ -171,7 +128,7 @@ class why_wds extends Component {
                         <p className="content-header "> 
                             Our UX Methodology Connects<br/> with People</p>
                         <p className="content-text-21 margin-top-15">  
-                            Connecting with the users takes old-fashioned customer service values. Knowing your customer and treating them with kindness and respect. Being able to know and intuitively understanding their needs. Our <a href="./methodology">methodology</a> has produced lasting results for the business we serve. Wide ranging design solutions can deeply affect the user and the business by clarifying business design solutions that drive transformation. </p>
+                            Our methodology produces answers and empathic designs that connect and resonates with your users. Our methodology uncovers unarticulated user needs and our design solutions and strategies will drive business transformation. </p>
                     </div>
                     </div> 
                     <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>

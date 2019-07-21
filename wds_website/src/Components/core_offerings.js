@@ -14,7 +14,7 @@ class core_offerings extends Component {
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg">
-                    Delivering the most outstanding experience possible
+                    Creating Design Solutions that Matters
                 </div>
             </div>
             <div className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
@@ -35,7 +35,7 @@ class core_offerings extends Component {
                     <div className="title">The most important part of all is that the entire company have alignment<br/> and clarity on the story of the product - why it exists, who it serves, how it benefits the user.
                     </div>
                         <div className="content-block-15">
-                            <p className="subtitle margin-top-25" style={{width:'90%'}}> WDS core offerings provide solutions to help companies achieve long lasting results. We will guide and build a design plan that takes into account all of the various touchpoints and tasks that a customer engages in. It is critical for businesses success to give the customer a voice in every decision that is made. WDS core offering will have everyone in your business be advocates of customer experience.
+                            <p className="subtitle margin-top-25" style={{width:'90%'}}> WDS can instill a design culture into your company through a series of workshops talks and business design strategies. Our c-suite workshops provide design data and proven strategies to effectively communicate design into meetings and corporate communications. We can mentor your teams and provide advanced workshops for design strategists.
                             </p>
                         </div>
                 </div>

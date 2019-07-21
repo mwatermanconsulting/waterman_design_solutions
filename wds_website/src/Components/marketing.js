@@ -112,7 +112,7 @@ class marketing extends Component {
                 <div className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title content-block-75">
-                            Social Media Design Solutions
+                            Social Media <br/> Marketing Strategies
                         </div>
                         <div className="subtitle margin-top-15">
                             It's always about the User

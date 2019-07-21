@@ -47,27 +47,22 @@ class ui_design extends Component {
                 
                 <div className="flex-layout-section thin-hr margin-top-200 margin-bottom-100" style={{ width: '75%' }}></div>
 
-                <section className="flex-layout-section-full">
+                <section className="flex-layout-section-full margin-bottom-75">
                     <div className="flex-layout-section-full flex-layout-center-center">
                         <div className="title flex-layout-center-center">
                             Design is not about being pretty or aesthetically pleasing it has to do with simplicity.
                         </div>
-                        <div className="subtitle">
-                            A Sample of our UI Work
+                        <div className="subtitle content-block-75 margin-top-25">
+                        WDS has been designing User Interfaces for over twenty years. We originally designed user interfaces for websites, but that changed with our first complicated industrial user interface we designed for Motorola. Since then our UI design services expanded to software, mobile,  SaaS and Kiosk. 
+
                         </div> 
                    
                     </div>
                 </section> 
-                <div className="flex-layout-section-full flex-layout-column margin-top-100  grey border-top-5">
-                    <div className="width-100 margin-top-50 margin-bottom-50"> 
-                       <a href="../core_offerings"> <img className="flex-image-container width-75" src={didyouknow}  alt="Ux is the best therapy!" /> </a>
-                      
-                    <div className="flex-layout-center-center">
-                        <p className="content-header text-white flex-layout-column flex-layout-center-center"> WDS has telemetry strategies and will monitor your data </p>
-                    </div>
-                    </div>
-                </div>     
-                <div className="flex-layout-section-full align-items-center grey border-top-5">
+    
+                
+            </div>
+            <div className="flex-layout-section-full align-items-center grey border-top-5">
                     <div className="grid-2col-text-photo align-self-center width-100  margin-top-50       margin-bottom-50"> 
                     <div className="col2-text grid-placeself-center width-70 margin-left-75">
                         <div className="col2-photo width-100 grid-placeself-center">
@@ -75,11 +70,10 @@ class ui_design extends Component {
                         </div>
                     </div>
                     <div className="content-block">
-                        <p className="content-header"> WDS has telemetry strategies, we are your data partner  </p>
+                        <p className="content-header"> WDS specialty is creating success from failure </p>
                     </div>
                     </div>
-                </div> 
-            </div> 
+                </div>  
         </div>
         )
     }

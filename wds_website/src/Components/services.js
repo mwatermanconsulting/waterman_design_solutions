@@ -167,12 +167,12 @@ class services extends Component {
                             Customer Experience
                         </div>
                         <div className="content-block-75 margin-top-15" >
-                            <p className="content-text-18 content-block-75">  The best customer experience starts with the Golden Rule and how you communicate your product — why it exists, who it serves, how it benefits them.</p>
+                            <p className="content-text-18">  The best customer experience starts with the Golden Rule and how you communicate your product — why it exists, who it serves, how it benefits them.</p>
                             <p className="content-text-18"><a href="../core_offerings">Learn More</a> </p>     
                         </div>
                     </div>
-                    <div className="grid-right-services-services container-image-block">
-                            <img className="photo-container marginleft-minus50" src={services7}  alt="Services" /> 
+                    <div className="grid-right-services container-image-block">
+                            <img className="photo-container" src={services7}  alt="Services" /> 
                     </div>     
                 </section>
             </main>
@@ -190,18 +190,18 @@ class services extends Component {
                     <div className="gallery-2col-1 container-image-500">
                         <a href ="./css_solutions"><img className="container-image-500 border-2" src={services8}  alt="CSS Solutions" /> </a>
                         <div className="content-block-auto ">
-                            <div className="subtitle margin-top-50">
-                                Featured Service: CSS Development and Solutions
+                            <div className="title margin-top-50">
+                                <a href="./css_solutions" className="no-decoration">CSS Solutions</a>
                             </div>
-                            <p className="content-text-18 margin-top-15">
+                            <p className="content-text-18 content-block-85 margin-top-15">
                                 Taming the specificity beast use to be difficult. Our CSS strategy almost eliminates the specificity problems. In fact, our strategy almost eliminates the need for your developers to write CSS. Our advantage is our past experience working with developers and interviewing and observing them working with CSS.</p>
                         </div>
                     </div>     
                     <div className="gallery-2col-2 container-image-500 align-self-top">
                     <a href ="./design_systems"> <img className="container-image-500 border-2"  src={services9}  alt="Business Solutions" /> </a>
-                        <div className="content-block-auto ">
-                            <div className="subtitle margin-top-50">
-                                Featured Service: Design Systems</div>
+                        <div className="content-block-85">
+                            <div className="title margin-top-50">
+                            <a href="./design_systems" className="no-decoration"> Design Systems</a></div>
                             <p className="content-text-18 margin-top-15">
                                 At WDS, we know and understand the importance of design systems to businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff.</p>
                         </div>

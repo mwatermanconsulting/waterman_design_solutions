@@ -57,10 +57,8 @@ class ux_design extends Component {
                                 <p className="content-text-18">
                                 For example, when asked about an editing function in a software package, one customer had no complaints until she sat down to use the program in front of the observer. Then she realized that her work was disrupted when the program did not automatically wrap text around graphics while she edited. Accustomed to working around the problem, she had not mentioned it in earlier interviews. When the observer notices this and points it out, it opens up an important issue that should be dealt with to make her life easier. All the little things add up as big time wasters that need to be eliminated.
                                 </p>
+                            </div>  
                             </div>
-                               
-                            </div>
-                        
                     </section> 
                     
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
