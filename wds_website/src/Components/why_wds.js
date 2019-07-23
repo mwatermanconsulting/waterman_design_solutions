@@ -213,9 +213,6 @@ class why_wds extends Component {
                     <p className="title text-align-center margin-top-100 content-block-55">
                         WDS builds emotionally rich, resonant digital solutions that enable users to fully realize technology’s complete potential, by simplifying everything your customers touch and feel.</p>
                 </div>
-                <div className="content-block-25" style={{marginLeft: '10%'}}>
-                    <img className="flex-image-container margin-top-75" src={why_oh_really}  alt="WDS digital solutions" /> 
-                </div>
                 <div className="content-header flex-layout-column" >    
                     <p className="title margin-top-50 text-align-center">
                         By advocating and designing for the user.</p>
@@ -224,7 +221,7 @@ class why_wds extends Component {
             <div className="flex-layout-center padding-bottom-50">
                 <button onclick="location.href='./case_studies';" type="button" value="Case Studies" className="margin-top-50 font-size-24">Check Out Our Success Stories</button>
             </div>
-            <section className="flex-layout-section-full align-items-center yellow-bg border-tb-5 ">
+            <section className="flex-layout-section-full align-items-center ">
                 <div className="grid-4col-text padding-50" >
                     <div>
                     <div className="content-header layout-center-justified">
@@ -258,7 +255,7 @@ class why_wds extends Component {
                     </div> 
                 </div>
             </section>
-            <section className="flex-layout-section-full align-items-center">
+            <section className="flex-layout-section-full align-items-center yellow-bg border-top-5">
                 <div className="grid-2col-text-photo align-self-center width-100  margin-top-50 " > 
                     <div className="2col-text grid-placeself-center width-70 margin-left-75">
                         <div className="content-block">

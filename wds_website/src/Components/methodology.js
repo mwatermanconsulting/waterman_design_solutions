@@ -1,6 +1,6 @@
 import React, { Component } from 'react' ;
 import method from '../images/backgrounds/bg-methodology.svg';
-import methodolgy_graphic from '../images/graphic-methodology.svg';
+import stayinlane from '../images/graphic-stayinlane.svg';
 import methodology2 from '../images/photos/photo-methodology-s2.png';
 import methodology3 from '../images/photos/photo-methodology-s3.png';
 import methodology4 from '../images/photos/photo-methodology-s4.png';
@@ -498,23 +498,23 @@ class methodology extends Component {
                 </div>     
             </section>
             <section className="flex-layout-section-full align-items-center yellow-bg border-top-5">
-                <div className="grid-2col-text-photo align-self-center width-100  margin-top-50 " > 
-                    <div className="2col-text grid-placeself-center width-70 margin-left-75">
+                <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 " > 
+                    <div className="2col-text grid-placeself-center ">
                         <div className="content-block">
                             <p className="content-header"> 
-                                We understand the value of connecting with your users </p>
+                                It's best to keep talent in their own lane </p>
                             <p className="content-text-18 margin-top-15">  
                             
-                                WDS has the honour of being the third option on quite a few projects, including the stubhub project. Many times the previous experiences were unsuccessful not meeting business or users needs. It's not easy to follow unsuccessful design projects. Developers and stakeholders are on edge, but our team empathizes with the situation. Once we begin our methodology and advocating for the users we begin connecting with the developers and stakeholders, amazing things begin happen.</p> 
+                                Many times companies will have their developers design apps, products and websites when they are clearly not qualified to do so. Plus they don't want to! Designers are here for support and guidance so that programmers aren't burdened with having to design.</p> 
 
                         </div>
                     </div>              
-                    <div className="col2-photo width-50 grid-placeself-center">
-                        <img className="flex-image-container" src={methodolgy_graphic}  alt="Thank you WDS!" /> 
-                        <p className="caption">Thank you WDS!</p>
+                    <div className="col2-photo grid-placeself-center width-100">
+                        <img className="flex-image-container " src={stayinlane}  alt="Methodology" /> 
+                        <p className="caption">Stay in your lane, we all have useful talents!</p>
                     </div>
                 </div>
-            </section>     
+            </section>    
             </div>
         )
     }

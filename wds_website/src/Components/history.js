@@ -42,7 +42,7 @@ class about extends Component {
                     </div>
                     <div className="content-block-55">
                         <p className="content-text-18 margin-top-15"> 
-                        WDS is a design UX/UI design consultant agency lead by the husband and wife team Terri and Michael Waterman. They have built the business and have been advocates for design for over twenty years. Growing the business from a small design agency servicing small business to the business today that serves global brands offering a full range of design solutions and services. </p>
+                        WDS is a UX/UI design consultancy agency lead by the husband and wife team Terri and Michael Waterman. They have built the business and have been advocates for design for over twenty years. Growing the business from a small design agency servicing small business to the business today that serves global brands offering a full range of design solutions and services. </p>
                     </div>
                 </section>
                     <image className="flex-layout-section-fixed flex-layout-center-center">

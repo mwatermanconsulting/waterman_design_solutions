@@ -2,25 +2,19 @@ import React, { Component } from 'react' ;
 import { Button } from 'react-mdl';
 import stubhub_bg from '../images/backgrounds/bg-stubhub.png';
 import stubhub_logo from '../images/icon-logo-stubhub.svg'; 
-import motorola_s1 from '../images/photos/photo-Motorola_2.png';
 import stubhub_before_s1 from '../images/photos/photo-stubhub-before-2.png';
 import stubhub_s1 from '../images/photos/photo-stubhub-s1.png';
-import stubhub_before_after from '../images/photos/photo-stubhub-before-after.png';
 import stubhub_before_2 from '../images/photos/photo-stubhub-before-kpi.png';
 import stubhub_slow from '../images/photos/photo-stubhub-turtle.png';
 import stubhub_before_3 from '../images/photos/photo-stubhub-before-topMetrics.png';
-import stubhub_after_1 from '../images/photos/photo-stubhub-after-3.png';
-import stubhub_after_2 from '../images/photos/photo-stubhub-after-4.png';
-import stubhub_after_3 from '../images/photos/photo-stubhub-after-5.png';
-import stubhub_after_4 from '../images/photos/photo-stubhub-after-7.png';
-import stubhub_after_5 from '../images/photos/photo-stubhub-after-4.png';
-import stubhub_results from '../images/photos/photo-stubhub-results.png';
-import stubhub_after_13 from '../images/photos/photo-stubhub-after-13.png';
-import stubhub_dashboard from '../images/photos/photo-stubhub-future-dashboard2.png';
+import stubhub_after_1 from '../images/photos/photo-stubhub-breadth-inventory.png';
+import stubhub_company_kpis from '../images/photos/photo-stubhub-company-kpis.png';
+import stubhub_after_4 from '../images/photos/photo-stubhub-cbt.png';
+import stubhub_results from '../images/photos/photo-stubhub-portal-usage.png';
+import stubhub_weekly_metrics from '../images/photos/photo-stubhub-weekly-metrics.png';
+import stubhub_dashboard from '../images/photos/photo-stubhub-my-dashboard.png';
 import thumbsUp from '../images/thumbsup.svg';
 import stubhub_s2 from '../images/photos/photo-stubHub-s2.png';
-import motorola_bg from '../images/backgrounds/bg-motorola.png';
-import motorola_logo from '../images/icon-motorola-white.svg'; 
 
 
 class case_study_2 extends Component {
@@ -41,7 +35,7 @@ class case_study_2 extends Component {
                 </section>
                 <section className="flex-layout-section-fixed-sm margin-top-75">
                     <div className="content-header flex-layout-center-center"> 
-                        <div className="content-block-55 subtitle"> Stubhub was internally developing a reporting tool for the company. Their initial release was not successful and after a year Stubhub needed answers. Six months later WDS turned a failure into successful case study.
+                        <div className="content-block-55 subtitle"> Stubhub was internally developing a data reporting tool for the company. Their initial release was not a successful one and after a year of non-use, Stubhub needed answers. Six months later WDS turned a failure into successful case study.
                         </div>
                     </div>
                 </section>  
@@ -61,9 +55,9 @@ class case_study_2 extends Component {
                         <p className="content-text-18">
                             All the analysts at Stubhub were dissatisfied with the new IBM suite of data visualization tools. They found the application to be difficult, confusing and cumbersome. One analyst presented an idea to a CTO for a new custom data visualization tool. She told him to gather a team and make it happen.</p> 
                         <p className="content-text-18"> 
-                            The first iteration was designed by the analyst. It was crude, but functional and the idea was sold to a larger shareholder base. For the next phase the small team, contracted a UX/UI person to the team and a new design and with many new features went live. But it was not well received by the stakeholders or adopted the larger Stubhub base. </p>
+                            The first iteration was designed by the analyst. It was crude but functional, and the idea was sold to a larger shareholder base. In the next phase the small team subcontracted a UX/UI person to create a new design with many new features and it went live. It was not well received by the stakeholders or adopted by the larger Stubhub base. </p>
                         <p className="content-text-18"> 
-                            The team realized it need a UX/UI consultant with a proven track record. After an extensive search WDS was hired for our design skills and methodology.  </p>  
+                            The team realized it need a UX/UI consultant with a proven track record. After an extensive search WDS was hired for design skills and methodology.  </p>  
                         </div>
                 </section> 
                 
@@ -78,11 +72,11 @@ class case_study_2 extends Component {
                     </div>
                         <div className="content-block-55 margin-top-15">
                             <p className="content-text-18">
-                            First part of the methodology is researching and understanding the business. Gathering business requirements, marketing materials and ask a lot of questions. 
+                            The first part of our methodology is researching and understanding the business. It means gathering business requirements, marketing materials and asking a lot of questions. 
                             </p>
-                            <p className="content-text-18">Question the Stakeholders. What's the history of the business? Who are their competitors? What is the problem the application is trying to solve? </p>
+                            <p className="content-text-18">Questions asked: What's the history of the business? Who are their competitors? What problem is the application trying to solve? </p>
                             
-                            <p className="content-text-18">The most surprising and deflating answers we ever gotten was when the team was showing the current reporting tool. When we asked "how many users? They replied, "This week we currently had 1 user visit the reporting tool" Our heart sank, this was a larger challenge they we thought.</p>
+                            <p className="content-text-18">The most surprising and deflating answers we ever got was  when we asked how many used the current reporting tool, "This week we currently had 1 user visit the reporting tool" Our heart sank.</p>
                         </div>    
                 </section>
                 
@@ -112,7 +106,7 @@ class case_study_2 extends Component {
                     <div className="content-block-55 margin-top-15">
                         <p className="content-text-18"> The easiest way to the truth is filming the user in action. Since there wasn't anyone using the application, the first question is why? What is wrong with the application? We completed a design review and formed a hypothesis of the problems. The unique part of Stubhub project was we could interview the users directly and ask them about their needs, wants and expectations about the current tool. What do they want and expect from a data visualization tool? </p>
             
-                        <p className="content-text-18">A total of 25 analysts from 8 different countries were interviewed. A sus test was presented to them for the current UI. These same analyst were included on 4 separate testing occasions during the process.  </p>
+                        <p className="content-text-18">A total of 25 analysts from 8 different countries were interviewed. A SUS test was presented to them for the current UI. These same analyst were included on 4 separate testing occasions during the process.  </p>
                     </div>     
                             <ul className="dashed content-text-18 content-block-55">
                                 <p className="text-bold content-text-18">UX Deliverables</p>
@@ -135,8 +129,9 @@ class case_study_2 extends Component {
                             Understanding the Problems
                         </div>
                         <div className="content-block-55 margin-top-15">
-                            <p className="content-text-18">WDS spent many hours researching data display. Reading books by the experts trying to understand the standards of good data display. Data is a growing need and it was important to us we become experts in a short amount of time. </p>
-                            <p className="content-text-18">During the discovery phase it was discovered that the analysts were not using the data reporting tool due to the 3 minute download time. WDS was honest and telling the team that if they could not get the time to be under 30 seconds than it a lost cause. WDS could create the most unique user friendly application, but the 3 minute wait time was a deal breaker. Nobody would ever wait that long and the team had 36 hours to find a solution. Other concerns and Issues</p>
+                            <p className="content-text-18">WDS researched the data display and read books by experts trying to find standards. Data display is a growing need and it was important to us that we become experts in this field. </p>
+                            <p className="content-text-18">The discovery phase revealed that the analysts were not using the data reporting tool because of the 3 minute download time. WDS told the team that if they could not get the download time under 30 seconds, it would be a lost cause. WDS could create the most unique user friendly application, but the 3 minute wait time was a deal breaker. Nobody would ever wait that long and the team had 36 hours to find a solution. </p>
+                            <p className="subtitle">Other concerns and Issues</p>
                             <p className="content-text-18">How are we going to evangelize and market the newly designed reporting tool?</p>
                             <p className="content-text-18">Project lead goes on a six week sabbatical leave.</p>
                             <p className="content-text-18">How is WDS going to solve the KPI riddle?</p>               
@@ -146,7 +141,7 @@ class case_study_2 extends Component {
                     <div className="flex-layout-section-full margin-top-25">
                         <div className="container-image-block align-items-center flex-layout-column">
                             <img className="photo-container-cs-sb1" src={stubhub_slow} alt="Finding the Truth - Business Perspective"/>
-                            <p className="margin-top-15"><i>3 Minute Wait Time is Unacceptable!</i></p>
+                            <p className="margin-top-15"><i>3 Minute Wait Time is unacceptable!</i></p>
                         </div>
                     </div>
 
@@ -160,12 +155,12 @@ class case_study_2 extends Component {
                             Solving the Issues
                         </div>
                         <div className="content-block-55 margin-top-15">
-                            <p className="content-text-18">Most failures are from a disconnect from what the user wants and expects and what they are offered. After all the initial research and personas were created, challenges are being tackled. Here are some of the problems that WDS and Stubhub agreed on: </p>
+                            <p className="content-text-18">Most failures come from a disconnect between what the user wants/expects and what they are offered. After the initial research and development of personas, challenges were met head on. Here are some of the problems that WDS and Stubhub agreed on: </p>
                         </div>
                         <div className="grid-2col-list margin-top-25">    
                             <div className="list-left  margin-left-75">
                                 <span className="subtitle margin-top-15">
-                                    Design Solutions Pain Points</span>
+                                    Design Pain Points</span>
                                 <ul className="dashed content-text-18 margin-top-5"> 
                                     <li><a href="#solution1">Current UI confusing and out of date</a> </li> 
                                     <li><a href="#solution2">Data displays did not show the numbers</a></li>
@@ -202,10 +197,10 @@ class case_study_2 extends Component {
                         </div>
                         <div className="content-block-55 margin-top-15">
                             <p className="content-text-18">
-                             The new design is a unique take on data visualization. WDS wanted to present a design that was not only modern, simple and branded, but would grab the users attention.  Numbers were a part of the design and very prominent. This was a unique visual treatment and a risk, but the situation required WDS and the team to be brave.</p>
+                             The new design is a unique take on data visualization. WDS wanted to present a design that was not only modern, simple and branded, but would grab the users attention.  Numbers were a part of the design and very prominent. This was a unique visual treatment that WDS believed would work.</p>
             
                             <p className="content-text-18">
-                                This design incorporated the three elements that all designers should keep in mind while designing, the user, business and current climate. The climate and the need to get user quickly led to the colorful branded design. The design is fully responsive and branded with the Stubhub colors. </p>  
+                                This design incorporated three elements: the user, the business and the current climate. The climate and the need to get user attention quickly led to a colorful branded design. The design is fully responsive and branded with the Stubhub colors. </p>  
                         </div>
                     </section>
                         <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-25">
@@ -222,13 +217,13 @@ class case_study_2 extends Component {
                             </div>
                             <div className="content-block-55 margin-top-15">
                                 <p className="content-text-18">
-                                Previous data tool did not show the numbers. The analysts had to rollover the charts for the numbers to appear. Most analysts were frustrated by this feature WDS solved this by allowing the numbers to dominant the new design. Large are prominent the numbers are the primary design factor.  Primary reporting numbers are clearly shown. The orange table was added later in the design phase, once the team settled on the persona of Sally the VP. The extra table was added due to the fact that the VP persona would want numbers in a more granular fashion. Understanding the work flow of the analyst the addition of the table eased the work flow of the analyst by aiding in their report creation. </p>
+                                The previous data tool did not show the numbers prominently. The analysts had to hover over graphics in the charts for the numbers to appear. Most analysts were frustrated by this feature, and WDS solved this by allowing the numbers to dominant the new design. Large and prominent numbers became the primary design factor.  Primary reporting numbers are clearly shown. The orange table was added later in the design phase, once the team settled on a persona of "Sally the VP." The extra table was added because the VP persona wanted numbers shown in a more granular fashion. Understanding the work flow of the analyst and the addition of the table eased the work flow of the analyst by aiding in their report creation. </p>
                             </div>
                         </section>
                         <section className="container-image-block flex-layout-center-center flex-layout-column margin-top-25">
                             <img className="photo-container-cs-sb1" src={stubhub_after_4} alt="Show me the Numbers"/>
                             <p className="margin-top-15"> 
-                                Numbers become part of the design. Largest complaint from analyst was not being able to see the numbers clearly</p>
+                                Numbers became an important part of the design. Biggest complaint from analyst was not seeing the numbers clearly</p>
                         </section>
 
                         <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
@@ -262,7 +257,7 @@ class case_study_2 extends Component {
                             </div> 
                         </section>
                         <section className="container-image-block flex-layout-center-center flex-layout-column margin-top-25">
-                            <img className="photo-container-cs-sb1" src={stubhub_after_13} alt="Finding the Truth - Business Perspective"/>
+                            <img className="photo-container-cs-sb1" src={stubhub_weekly_metrics} alt="Finding the Truth - Business Perspective"/>
                             <p className="margin-top-15"><i>Clicking on the option button, open the option panel</i></p>
                         </section>
 
@@ -280,7 +275,7 @@ class case_study_2 extends Component {
                             </div>
                         </section>
                         <section className="container-image-block flex-layout-center-center flex-layout-column margin-top-25">
-                            <img className="photo-container-cs-sb1" src={stubhub_after_2} alt="Finding the Truth - Business Perspective"/>
+                            <img className="photo-container-cs-sb1" src={stubhub_company_kpis} alt="Finding the Truth - Business Perspective"/>
                             <p className="margin-top-15"><i>The new clean KPI section</i></p>
                         </section>
                         <section className="container-image-block flex-layout-center-center flex-layout-column margin-top-25">

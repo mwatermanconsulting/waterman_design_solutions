@@ -71,7 +71,7 @@ class landingPage extends Component {
                         <img className="container-image " src={igotyou}  alt="Services" />
                         <div className="content-block-auto ">
                             <div className="title-homepage link-color">Services</div>
-                            <p className="">Over 25 years of experience has enabled us to grow with our clients and adapt to their needs. Take advantage of our packages!</p>
+                            <p className=""> For the past 25 years, we've been working at the leading edge of strategy, design and technology to help clients evolve and thrive.</p>
                         </div>
                     </div>       
                     

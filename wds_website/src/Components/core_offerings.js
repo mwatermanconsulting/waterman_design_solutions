@@ -3,6 +3,7 @@ import offerings from '../images/backgrounds/bg-core-studies.png';
 import ux from '../images/ux_process.png';
 import services from '../images/graphic-services.svg';
 import offerings_photo from '../images/photos/photo-core-offerings-s3.png';
+import didyouknow from '../images/graphic-didyouknow.png';
 
 class core_offerings extends Component {
     render () {
@@ -14,7 +15,7 @@ class core_offerings extends Component {
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg">
-                    Creating Design Solutions that Matters
+                     Creating Design Solutions that Matters
                 </div>
             </div>
             <div className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
@@ -117,17 +118,16 @@ class core_offerings extends Component {
                     </ul>
                 </div> 
             </div>    
-            <div className="container-grid-2col-full width-100 flex-layout-justified-sb border-3px bottom-border margin-top-100 grey "> 
-                <div className="item-a-nb content-block-why flex-layout-column">
-                    <div className="content-block">
-                        <p className="callout-text"> Looking for a larger Agile Transformation Program? </p>
-                        <p className="callout-text">  WDS is the leader in applying design solutions, experience strategy and observational insights to the development of applications, websites, SaaS, products and mobile.</p> 
+            <section className="flex-layout-section-full flex-layout-column  margin-top-100  grey border-top-5">
+                    <div className="width-75 margin-top-50 padding-bottom-100" style={{marginLeft:'-'}}> 
+                       <a href="../core_offerings"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Ux" /> </a>
+                      
+                        <p className="content-header text-white content-block-55 flex-layout-column" style={{marginLeft:'30%', marginTop:'-5%'}}>There are 3 levels of empathy; cognitive, emotional and compassionate empathy
+
+                        </p>
+    
                     </div>
-                </div>
-            <div className="item-b container-image-block">
-                <img className="flex-image-container width-100" src={services}  alt="Your Business is Our Joy" /> 
-            </div>
-            </div>   
+                </section>    
         </div>
             
         )
