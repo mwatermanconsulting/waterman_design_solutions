@@ -1,6 +1,6 @@
 import React, { Component } from 'react' ;
 import method from '../images/backgrounds/bg-methodology.svg';
-import methodolgy_graphic from '../images/graphic-methodology.svg';
+import stayinlane from '../images/graphic-stayinlane.svg';
 import methodology2 from '../images/photos/photo-methodology-s2.png';
 import methodology3 from '../images/photos/photo-methodology-s3.png';
 import methodology4 from '../images/photos/photo-methodology-s4.png';
@@ -44,7 +44,7 @@ class methodology extends Component {
                     <div className="grid-callout yellow-bg "> 
                         <div className="grid-callout-text grid-placeself-center  width-70">
                             <p className="callout-text text-black">
-                            EMPATHY and PASSION are the core of our business and also at the heart of our methodology.
+                            EMPATHY and PASSION are the core of our business and methodology.
                             </p>
                         </div>
                         <div className="grid-callout-photo grid-placeself-center">
@@ -53,39 +53,62 @@ class methodology extends Component {
                     </div>
                 </section>
 
-            <div className="flex-layout-section-full flex-layout-column align-items-center">
 
-                <section className="flex-layout-content-container flex-layout-column margin-top-100 flex-layout-center-center">
-                    <div className="content-header flex-layout-column content-block-100">    
-                        <div className="title flex-layout-center"> 
-                            WDS reveals the truth
-                        </div>
-                    <div className="content-block-100 margin-top-15">
-                        <p className="content-text-18 text-align-center">
-                            The science of understanding people has developed for centuries, but not enough has been done to integrate these approaches into the process of software design. For more than a decade, we have refined a scalable, flexible methodology that centers on answering questions about customers by connecting and understanding people, observing their daily workflow, by interviewing and conversing with them we begin to identify people’s needs, behaviors and aspirations. This provides a perspective on customers that clients typically have never seen. </p>
-                    </div>
-                    </div>
-                </section>
-                    <button type="button" className="margin-top-50">We Start by Finding The Truth</button>
-
-                    <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
-
-                    </div>
-                <section className="flex-layout-content-container flex-layout-column flex-layout-center-center">
+                <section className="margin-top-100 flex-layout-section-full flex-layout-column align-items-center">
                     <div className="content-header flex-layout-column content-block-75">    
                         <div className="title flex-layout-center"> 
-                            Overview of the WDS Methodology
+                            WDS Goal: To Uncover the Truth
                         </div>
-                    <div className="width-100 margin-top-15">
-                    <p className="content-text-18 text-align-center margin-bottom-100">
-                        Our methodology has produces answers and empathic designs that connect and resonates with your users. Our methodology uncovers unarticulated user needs and our design solutions and strategies will drive transformation. </p>
-                    </div>
+                        <p className="content-text-21 content-block-75 align-self-center text-align-center margin-top-25">
+                            The science of understanding people has developed for centuries, but not enough has been done to integrate these approaches into the process of software design. For more than a decade, we have refined a scalable, flexible methodology that centers on answering questions about customers by connecting and understanding people, observing their daily workflow, by interviewing and conversing with them we begin to identify people’s needs, behaviors and aspirations. This provides a perspective on customers that clients typically have never seen. </p>
                     </div>
                 </section>
 
+                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="grid-2col-photo-content content-header" >
-                    <div className="grid-left flex-layout-section-full ">
+                <section className="flex-layout-full align-items-center flex-layout-column">
+                    <div className="content-header flex-layout-column content-block-75">    
+                        <div className="title flex-layout-center"> 
+                            WDS Methodology
+                        </div>
+                    
+                    <p className="content-text-21 content-block-75 align-self-center text-align-center">
+                        Our methodology produces answers and empathic designs that connect and resonates with your users. Our methodology uncovers unarticulated user needs and our design solutions and strategies will drive business transformation. </p>
+                    
+                    </div>
+                </section>
+
+                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100">
+                        <div className="left flex-layout-center-center content-block-60">
+                            <div className="title">
+                                Real UX Involves Research
+                            </div>
+                            <div className="subtitle margin-top-15">
+                                The Search for the Truth
+                            </div>
+                            <div className="margin-top-15">
+                                <p className="content-text-18">
+                                A design review is a process to evaluate and critique current design work. <br/> The review looks at how specific features <div className="right callout-photo grid-placeself-center">
+                                    <img className="container-photo-callout" src={methodology2}  alt="UX" /> 
+                                    <p className="caption">Photo by Frank on Unsplash</p>
+                                </div> have been implemented and/or evaluates a prototype of a project feature or user flow. Design reviews can be modeled after the five elements of the user experience with an evaluation of the elements from abstract concepts to concrete stages.
+
+                                <ul className="dashed ">
+                                    <li>Surface - everything visually the "Look and Feel" <br/> of the site or app</li>
+                                    <li>Skeleton - Make structure concrete: <br/>Do the components make sense</li>
+                                    <li>Structure - Gives shape to the scope.<br/> How do the components fit togther and behave </li>
+                                    <li>Scope - requirements</li>
+                                    <li>Strategy - Where it all begins. <br/>What was the reason for this site/app.<br/> What do the users want? </li> 
+                                </ul></p>
+                           
+                            </div>  
+                            </div>
+                    </section> 
+
+                <section className="flex-layout-section-full content-header">
+                    <div className="left">
                         <div className="title">
                             Design Review
                         </div>
@@ -97,9 +120,12 @@ class methodology extends Component {
                         <div className="content-block-75 margin-top-15">
                             <p className="content-text-18 content-block-100">
                             A design review is a process to evaluate and critique current design work. The review looks at how specific features have been implemented and/or evaluates a prototype of a project feature or user flow. Design reviews can be modeled after the five elements of the user experience with an evaluation of the elements from abstract concepts to concrete stages.
-                            </p>
+                            </p> 
+                            <div className="right container-image-block">
+                        <img className="photo-container" src={methodology2}  alt="Methodology" /> 
+                    </div>  
 
-                            <ul className="dashed content-block-75">
+                            <ul className="dashed">
                                 <li>Surface - everything visually the "Look and Feel" of the site or app</li>
                                 <li>Skeleton - Make structure concrete: Do the components make sense</li>
                                 <li>Structure - Gives shape to the scope. How do the components fit togther and behave </li>
@@ -109,9 +135,7 @@ class methodology extends Component {
                         </div>
                         
                     </div>
-                    <div className="grid-right container-image-block">
-                        <img className="photo-container" src={methodology2}  alt="Methodology" /> 
-                    </div>     
+                      
                 </section>
 
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
@@ -444,7 +468,7 @@ class methodology extends Component {
                         <img className="photo-container marginleft-minus50" src={methodology13}  alt="Methodology" /> 
                     </div>     
                 </section>
-            </div>
+
 
 
                 <section className="flex-layout-section-full padding yellow-bg image-background-border-tb margin-top-100">
@@ -474,23 +498,23 @@ class methodology extends Component {
                 </div>     
             </section>
             <section className="flex-layout-section-full align-items-center yellow-bg border-top-5">
-                <div className="grid-2col-text-photo align-self-center width-100  margin-top-50 " > 
-                    <div className="2col-text grid-placeself-center width-70 margin-left-75">
+                <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 " > 
+                    <div className="2col-text grid-placeself-center ">
                         <div className="content-block">
                             <p className="content-header"> 
-                                We understand the value of connecting with your users </p>
+                                It's best to keep talent in their own lane </p>
                             <p className="content-text-18 margin-top-15">  
                             
-                                WDS has the honour of being the third option on quite a few projects, including the stubhub project. Many times the previous experiences were unsuccessful not meeting business or users needs. It's not easy to follow unsuccessful design projects. Developers and stakeholders are on edge, but our team empathizes with the situation. Once we begin our methodology and advocating for the users we begin connecting with the developers and stakeholders, amazing things begin happen.</p> 
+                                Many times companies will have their developers design apps, products and websites when they are clearly not qualified to do so. Plus they don't want to! Designers are here for support and guidance so that programmers aren't burdened with having to design.</p> 
 
                         </div>
                     </div>              
-                    <div className="col2-photo width-50 grid-placeself-center">
-                        <img className="flex-image-container" src={methodolgy_graphic}  alt="Thank you WDS!" /> 
-                        <p className="caption">Thank you WDS!</p>
+                    <div className="col2-photo grid-placeself-center width-100">
+                        <img className="flex-image-container " src={stayinlane}  alt="Methodology" /> 
+                        <p className="caption">Stay in your lane, we all have useful talents!</p>
                     </div>
                 </div>
-            </section>     
+            </section>    
             </div>
         )
     }

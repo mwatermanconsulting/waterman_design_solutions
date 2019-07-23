@@ -120,7 +120,7 @@ class case_study_1 extends Component {
                                 Master Plan
                             </div>
                             <div className="subtitle content-block-55 margin-top-5">
-                                Solving the the Problems
+                                Solving the Problems
                             </div>
                             <div className="content-block-55">
                                 <p className="content-text-18 margin-top-15">

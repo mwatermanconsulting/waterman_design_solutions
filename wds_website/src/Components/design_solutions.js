@@ -24,7 +24,8 @@ class design_solutions extends Component {
                     <div className="container-section-1-primary flex-layout-center-center">
                         <div className="content-header flex-layout-column">    
                             <div className="content-block width-75">
-                                <div className=" text-white text-align-center">Solving Difficult Problems through Design
+                                <div className=" text-white text-align-center">
+                                “Good design is obvious. Great design is transparent"
                                </div>
                             </div>
                         </div>
@@ -134,20 +135,20 @@ class design_solutions extends Component {
 
             <div className="thin-hr width-70 align-self-center margin-top-100"></div>            
             
-        <div className="flex-layout-section-full align-items-center yellow-bg border-top-5">
-            <div className="grid-2col-text-photo align-self-center width-100  margin-top-50 margin-bottom-50 " > 
-                <div className="col2-text  grid-placeself-center width-70 margin-left-75">
+        <section className="flex-layout-section-full align-items-center yellow-bg border-top-5">
+            <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 margin-bottom-50 " > 
+                <div className="col2-text  grid-placeself-center ">
                     <div className="content-block">
                             <p className="content-header"> Our CSS solutions relieves the anxiety that most developers and engineers face when they see CSS in their project requirements. </p>
 
                             <p className="margin-top-25"><i><a href="./css_solutions">Learn More</a></i></p>
                     </div>
                 </div>
-                <div className="col2-photo width-70 grid-placeself-center">
+                <div className="col2-photo grid-placeself-center">
                         <img className="flex-image-container width-100" src={design_therapy}  alt="Ux is the best therapy!" /> 
                 </div>
             </div>
-        </div>
+        </section>
     </div>
         )
     }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react' ;
 import finding_truth from '../images/backgrounds/bg-documentation.png';
-import services from '../images/graphic-services.svg';
+import titanic from '../images/graphic-titanic.svg';
 import together from '../images/photos/photo-why-wds.png';
 import finding from '../images/photos/photo-documentation-s1.png';
 import finding_truth1 from '../images/photos/photo-finding-truth-s1.png';
@@ -248,20 +248,24 @@ class news_insights extends Component {
                         <img className="photo-container" src={finding_truth8}  alt="Review" /> 
                     </div>
                 </div>
-                <div className="container-grid-2col-full width-100 flex-layout-justified-sb border-3px bottom-border margin-top-100 yellow-bg "> 
-                <div className="item-a-nb content-block-50 flex-layout-column">
+        </div>
+        <section className="flex-layout-section-full align-items-center yellow-bg border-top-5">
+            <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 margin-bottom-50 " > 
+                <div className="col2-text  grid-placeself-center ">
                     <div className="content-block">
-                        <p className="callout-text"> Looking for a larger Agile Transformation Program? </p>
-                        <p className="callout-text">  WDS is the leader in applying design solutions, experience strategy and observational insights to the development of applications, websites, SaaS, products and mobile.</p> 
+                            <p className="content-header"> Our CSS solutions relieves the anxiety that most developers and engineers face when they see CSS in their project requirements. </p>
+
+                            <p className="margin-top-25"><i><a href="./css_solutions">Learn More</a></i></p>
                     </div>
                 </div>
-            <div className="item-b container-image-block">
-                <img className="flex-image-container width-100" src={services}  alt="Your Business is Our Joy" /> 
+                <div className="col2-photo grid-placeself-center">
+                        <img className="flex-image-container width-100" src={titanic}  alt="Ux is the best therapy!" /> 
+                </div>
             </div>
-            </div>   
+        </section> 
                 
 
-                </div>
+                
             </div>
         )
     }

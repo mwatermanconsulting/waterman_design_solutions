@@ -11,7 +11,7 @@ import services6 from '../images/photos/photo-services-s6.png';
 import services7 from '../images/photos/photo-services-s7.png';
 import services8 from '../images/photos/photo-services-s8.png';
 import services9 from '../images/photos/photo-services-s9.png';
-import why_handshake from '../images/graphic-why-s2.svg';
+import tugowar from '../images/graphic-tug-of-war.svg';
 import icon_design_solutions from '../images/icon-why-design-solutions.svg';
 import icon_design from '../images/icon-why-design.svg';
 import icon_strategy from '../images/icon-why-strategy.svg';
@@ -78,8 +78,8 @@ class services extends Component {
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="grid-2col-photo-content content-header" style={{marginLeft: '9%'}}>
-                    <div className="grid-left-services flex-layout-section-full">
+                <section className="grid-2col-photo-content content-header margin-top-50" style={{marginLeft: '9%', marginTop:'15%'}}>
+                    <div className="grid-left-services flex-layout-section-full margin-top-50" style={{ marginTop:'50px'}}>
                         <div className="subtitle">
                             UI Design & Development
                         </div>
@@ -167,16 +167,16 @@ class services extends Component {
                             Customer Experience
                         </div>
                         <div className="content-block-75 margin-top-15" >
-                            <p className="content-text-18 content-block-75">  The best customer experience starts with the Golden Rule and how you communicate your product — why it exists, who it serves, how it benefits them.</p>
+                            <p className="content-text-18">  The best customer experience starts with the Golden Rule and how you communicate your product — why it exists, who it serves, how it benefits them.</p>
                             <p className="content-text-18"><a href="../core_offerings">Learn More</a> </p>     
                         </div>
                     </div>
-                    <div className="grid-right-services-services container-image-block">
-                            <img className="photo-container marginleft-minus50" src={services7}  alt="Services" /> 
+                    <div className="grid-right-services container-image-block">
+                            <img className="photo-container" src={services7}  alt="Services" /> 
                     </div>     
                 </section>
             </main>
-                <section className="flex-layout-section-full padding yellow-bg image-background-border-tb margin-top-100">
+                <section className="flex-layout-section-full padding  margin-top-100">
                     <div className="content-header flex-layout-center width-100">
                         <div className="callout-text text-black content-block-75">
                         Design Matters <br/> Design matters to your users * Design matters to your bottom line 
@@ -185,30 +185,7 @@ class services extends Component {
                         </div>
                     </div> 
                 </section>
-                
-                <section className="grid-callout-2col content-header align-self-center justify-items-center margin-top-100 width-70">
-                    <div className="gallery-2col-1 container-image-500">
-                        <a href ="./css_solutions"><img className="container-image-500 border-2" src={services8}  alt="CSS Solutions" /> </a>
-                        <div className="content-block-auto ">
-                            <div className="subtitle margin-top-50">
-                                Featured Service: CSS Development and Solutions
-                            </div>
-                            <p className="content-text-18 margin-top-15">
-                                Taming the specificity beast use to be difficult. Our CSS strategy almost eliminates the specificity problems. In fact, our strategy almost eliminates the need for your developers to write CSS. Our advantage is our past experience working with developers and interviewing and observing them working with CSS.</p>
-                        </div>
-                    </div>     
-                    <div className="gallery-2col-2 container-image-500 align-self-top">
-                    <a href ="./design_systems"> <img className="container-image-500 border-2"  src={services9}  alt="Business Solutions" /> </a>
-                        <div className="content-block-auto ">
-                            <div className="subtitle margin-top-50">
-                                Featured Service: Design Systems</div>
-                            <p className="content-text-18 margin-top-15">
-                                At WDS, we know and understand the importance of design systems to businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff.</p>
-                        </div>
-                    </div>
-            </section>
-
-            <div className="flex-layout-section-full margin-top-50 grey-blue padding-bottom-50">
+                <div className="flex-layout-section-full margin-top-50 grey-blue padding-bottom-50">
                 <section className="grid-services-list  flex-section-align-center">
                     <div className="margin-top-50 margin-bottom-25 content-block-75 grid-services-title title text-align-center" 
                     style={{marginLeft: '1%'}}>
@@ -309,21 +286,45 @@ class services extends Component {
                     </div>
                 </section>
             </div>
-            <section className="flex-layout-section-full align-items-center">
-                <div className="grid-2col-text-photo align-self-center width-100  margin-top-50 " > 
-                    <div className="2col-text grid-placeself-center width-70 margin-left-75">
+                
+                <section className="grid-callout-2col content-header align-self-center justify-items-center margin-top-100 margin-bottom-100 width-70">
+                    <div className="gallery-2col-1 container-image-500">
+                        <a href ="./css_solutions"><img className="container-image-500 border-2" src={services8}  alt="CSS Solutions" /> </a>
+                        <div className="content-block-auto ">
+                            <div className="title margin-top-50">
+                                <a href="./css_solutions" className="no-decoration">CSS Solutions</a>
+                            </div>
+                            <p className="content-text-18 content-block-85 margin-top-15">
+                                Taming the specificity beast use to be difficult. Our CSS strategy almost eliminates the specificity problems. In fact, our strategy almost eliminates the need for your developers to write CSS. Our advantage is our past experience working with developers and interviewing and observing them working with CSS.</p>
+                        </div>
+                    </div>     
+                    <div className="gallery-2col-2 container-image-500 align-self-top">
+                    <a href ="./design_systems"> <img className="container-image-500 border-2"  src={services9}  alt="Business Solutions" /> </a>
+                        <div className="content-block-85">
+                            <div className="title margin-top-50">
+                            <a href="./design_systems" className="no-decoration"> Design Systems</a></div>
+                            <p className="content-text-18 margin-top-15">
+                                At WDS, we know and understand the importance of design systems to businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff.</p>
+                        </div>
+                    </div>
+            </section>
+
+            
+            <section className="flex-layout-section-full align-items-center yellow-bg border-top-5">
+                <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 " > 
+                    <div className="2col-text grid-placeself-center margin-left-75">
                         <div className="content-block">
                             <p className="content-header"> 
-                                We understand the uncertainty and fear involved with contracting design firms </p>
+                                Many design issues stem from difficult relationships between programmers and designers </p>
                             <p className="content-text-18 margin-top-15">  
                             
-                                WDS has the honour of being the third option on quite a few projects, including the stubhub project. Many times the previous experiences were unsuccessful not meeting business or users needs. It's not easy to follow unsuccessful design projects. Developers and stakeholders are on edge, but our team empathizes with the situation. Once we begin our methodology and advocating for the users we begin connecting with the developers and stakeholders, amazing things begin happen.</p> 
+                                As designers, we have reached over to programmers and developers using a methodology of empathy for "the other side". This includes fitting designers into agile systems so that keeps things working smoothly.</p> 
 
                         </div>
                     </div>              
-                    <div className="col2-photo width-50 grid-placeself-center">
-                        <img className="flex-image-container" src={why_handshake}  alt="Thank you WDS!" /> 
-                        <p className="caption">Thank you WDS!</p>
+                    <div className="col2-photo grid-placeself-center">
+                        <img className="flex-image-container" src={tugowar}  alt="tug of war" /> 
+                        <p className="caption">Issues, issues! Help us fix our designer-programmer relationships!</p>
                     </div>
                 </div>
             </section>
