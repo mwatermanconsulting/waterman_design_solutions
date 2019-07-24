@@ -3,6 +3,7 @@ import designer from '../images/photos/photo-design-s1.png';
 import motorola from '../images/photos/photo-motorola-beforeafter.png';
 import bgclients from '../images/backgrounds/bg-clients.png';
 import innovation1 from '../images/photos/photo-finding-truth-s1.png';
+import didyouknow from '../images/graphic-didyouknow.png';
 
 class clients extends Component {
     render () {
@@ -54,7 +55,7 @@ class clients extends Component {
                 </ul>
             </section>
             <section className="flex-layout-section-full margin-top-50 flex-layout-center-center">
-            <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-75">Our team builds systems for billion-dollar companies
+                <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-75">Our team builds systems for billion-dollar companies
                 </div>
                 <div className="content-block-services margin-top-25 flex-align-center margin-bottom-50" style={{marginLeft: '25%'}} >
                     <p className="content-text-18 content-block-75">
@@ -64,10 +65,19 @@ class clients extends Component {
                 </div>
                           
             </section>
+            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+                <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
+                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
+                      
+                    <div className="flex-layout-center-center">
+                        <p className="content-header text-white flex-layout-column flex-layout-center-center"> WDS data visualizations design solutions are being used by the world’s largest brands <p><i><a href="../case_study_3">Learn More</a> </i></p> </p>
+                    </div>
+                </div>
+            </section> 
        
             
                     
-                </div>
+        </div>
         
         )
     }

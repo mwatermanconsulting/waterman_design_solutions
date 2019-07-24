@@ -1,7 +1,6 @@
 import React, { Component } from 'react' ;
 import strategy from '../images/backgrounds/bg-strategy.png';
-import graphic_didyouknow from '../images/graphic-didyouknow.png';
-import together from '../images/photos/photo-why-wds.png';
+import didyouknow from '../images/graphic-didyouknow.png';
 import strategy1 from '../images/photos/photo-strategy-s1.png';
 import strategy1a from '../images/photos/photo-strategy-s1a.png';
 import strategy2 from '../images/photos/photo-strategy-s2.png';
@@ -99,7 +98,7 @@ class strategy_insight extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={strategy3}  alt="Your Business is Our Joy" /> 
+                        <img className="photo-container" src={strategy3}  alt="Strategy" /> 
                     </div>     
                 </div>
 
@@ -194,7 +193,7 @@ class strategy_insight extends Component {
                 </div>
 
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
-</div>
+                </div>
                 <div className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="subtitle">
@@ -214,7 +213,7 @@ class strategy_insight extends Component {
                 </div>
                     
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
-</div>
+                </div>
                 <div className="grid-2col-photo-content content-header margin-bottom-100">
                     <div className="grid-left flex-layout-section-full">
                         <div className="subtitle">
@@ -232,20 +231,17 @@ class strategy_insight extends Component {
                         <img className="photo-container" src={strategy8}  alt="Review" /> 
                     </div>
                 </div>
-                <div className="container-grid-2col-full width-100 flex-layout-justified-sb border-3px bottom-border margin-top-100 yellow-bg "> 
-                <div className="item-a-nb content-block-why flex-layout-column">
-                    <div className="content-block">
-                        <p className="callout-text"> "Pixar considers repeating the formulas of its past commercial successes a much greater threat to its long-term survival than the occasional commercial disappointment."<br></br>- The McKinsey Report</p> 
+                
+            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+                <div className="width-50 margin-top-50 align-center margin-bottom-50"> 
+                        <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
+                      
+                    <div className="flex-layout-center-center">
+                        <p className="content-header text-white flex-layout-column flex-layout-center-center">"Pixar considers repeating the formulas of its past commercial successes a much greater threat to its long-term survival than the occasional commercial disappointment." - The McKinsey Report</p>
                     </div>
                 </div>
-            <div className="col2-photo width-70 grid-placeself-center">
-                <img className="flex-image-container width-100" src={graphic_didyouknow}  alt="Design strategy can save your business" /> 
-            </div>
-            </div>   
-                
-
-                </div>
-            </div>
+            </section>
+            </div></div>
         )
     }
 }

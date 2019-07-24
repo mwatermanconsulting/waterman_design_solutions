@@ -7,6 +7,7 @@ import innovation2 from '../images/photos/photo-innovation-s2.png';
 import innovation3 from '../images/photos/photo-innovation-s3.png';
 import innovation4 from '../images/photos/photo-innovation-s4.png';
 import innovation5 from '../images/photos/photo-innovation-s5.png';
+import didyouknow from '../images/graphic-didyouknow.png';
 
 
 class innovative_solutions extends Component {
@@ -151,23 +152,16 @@ class innovative_solutions extends Component {
                         <img className="photo-container" src={innovation5}  alt="Your Business is Our Joy" /> 
                     </div>     
                 </div>
-                
-                
-
-                <div className="container-grid-2col-full width-100 flex-layout-justified-sb border-3px bottom-border margin-top-100 yellow-bg "> 
-                <div className="item-a-nb content-block-why flex-layout-column">
-                    <div className="content-block">
-                        <p className="callout-text"> Looking for a larger Agile Transformation Program? </p>
-                        <p className="callout-text">  WDS is the leader in applying design solutions, experience strategy and observational insights to the development of applications, websites, SaaS, products and mobile.</p> 
+            </div>
+        <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+                <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
+                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
+                      
+                    <div className="flex-layout-center-center">
+                        <p className="content-header text-white flex-layout-column flex-layout-center-center">A deep level of design understanding solves deep business issues.</p>
                     </div>
                 </div>
-            <div className="item-b container-image-block">
-                <img className="flex-image-container width-100" src={services}  alt="Your Business is Our Joy" /> 
-            </div>
-            </div>   
-                
-
-                </div>
+            </section>
             </div>
         )
     }

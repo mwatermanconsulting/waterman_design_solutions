@@ -8,16 +8,7 @@ import ketchhot from '../images/photos/photo-print-ketchhot.png';
 import hcnrg from '../images/photos/photo-print-hcnrg.png';
 import bb from '../images/photos/photo-print-bb-brochure.png';
 import avandia from '../images/photos/photo-print-avandia.png';
-import together from '../images/photos/photo-why-wds.png';
-import finding from '../images/photos/photo-documentation-s1.png';
-import finding_truth1 from '../images/photos/photo-finding-truth-s1.png';
-import finding_truth2 from '../images/photos/photo-finding-truth-s2.png';
-import finding_truth3 from '../images/photos/photo-finding-truth-s3.png';
-import finding_truth4 from '../images/photos/photo-finding-truth-s4.png';
-import finding_truth5 from '../images/photos/photo-finding-truth-s5.png';
-import finding_truth6 from '../images/photos/photo-finding-truth-s6.png';
-import finding_truth7 from '../images/photos/photo-finding-truth-s7.png';
-import finding_truth8 from '../images/photos/photo-finding-truth-s8.png';
+import didyouknow from '../images/graphic-didyouknow.png';
 
 class print_design extends Component {
     render () {
@@ -147,7 +138,15 @@ class print_design extends Component {
                         </p> 
                     </div> 
                 </section>
-        
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+                <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
+                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
+                      
+                    <div className="flex-layout-center-center">
+                        <p className="content-header text-white flex-layout-column flex-layout-center-center">WDS designed and created a magazine called Combat Robot Mazazine.</p>
+                    </div>
+                </div>
+            </section>
             
             </div>
         )

@@ -139,16 +139,15 @@ class case_studies extends Component {
             <div className="flex-layout-section-full flex-layout-column align-items-center margin-top-50">  
         </div>
 
-                <section className="flex-layout-section-full flex-layout-column margin-top-100  grey border-top-5">
-                    <div className="width-100 margin-top-50 margin-bottom-50"> 
-                       <a href="../communication_insights"> <img className="flex-image-container width-75" src={didyouknow}  alt="Ux is the best therapy!" /> </a>
+        <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+                <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
+                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
                       
                     <div className="flex-layout-center-center">
-                        <p className="content-header text-white flex-layout-column flex-layout-center-center"> 
-                            WDS designed and developed a UX information site in 2005 called Web First Aid </p>
+                        <p className="content-header text-white flex-layout-column flex-layout-center-center"> WDS designed and developed a UX information site in 2005 called Web First Aid   <p><i><a href="../case_study_3">Learn More</a> </i></p> </p>
                     </div>
-                    </div>
-                </section> 
+                </div>
+            </section> 
                   
     </div>
 
