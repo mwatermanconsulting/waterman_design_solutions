@@ -25,7 +25,7 @@ class design_solutions extends Component {
                         <div className="content-header flex-layout-column">    
                             <div className="content-block width-75">
                                 <div className=" text-white text-align-center">
-                                “Good design is obvious. Great design is transparent"
+                                “Good designs come from the heart, not from the brain” -Juan-Carlos Fernandez
                                </div>
                             </div>
                         </div>

@@ -20,7 +20,7 @@ class innovative_solutions extends Component {
             </section>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                 Defining, validating and finding solutions.
+                 “Every solution to every problem is simple.<br/> It's the distance between the two where the mystery lies.” <br/> ― Derek Landy, Skulduggery Pleasant
                 </div>
             </section>
             <section className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 

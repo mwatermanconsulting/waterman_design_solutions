@@ -74,8 +74,11 @@ class ux_design extends Component {
                             <p className="content-text-18">
                                 What circumstances prompt people to use your product or service? Do your customers turn to your offering when, and in the way, you expected?  If they don’t, there may be an opportunity for your company.</p> 
                             <p className="subtitle"> 
-                                Old school custom service</p> <div className="right callout-photo grid-placeself-center">
+                                Old school custom service</p> 
+                                
+                                <div className="right callout-photo grid-placeself-center">
                                 <img className="container-photo-callout" src={ux_s3}  alt="old school customer service" />  
+                                
                                  <p className="caption">Photo by Mimi Thian on Unsplash</p>
                             </div>
                             <p className="content-text-18">Empathy is a very powerful selling tool. These days, it’s the new buzz word used by companies.       But empathy has always been at the heart of our services in User Experience and Customer Service. We are trained to use       empathy in our work: <br></br>“Walk in the user’s shoes.” <br></br>“See the problem as if you were experiencing it            yourself."<br></br>“Observe their daily routines.” <br></br>All of these mantras and behaviors are empathetic                 techniques that UX designers have honed by creating amazing, innovative products and services. </p>
