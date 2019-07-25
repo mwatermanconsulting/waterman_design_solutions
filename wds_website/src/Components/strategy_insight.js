@@ -18,18 +18,19 @@ class strategy_insight extends Component {
         <div className="flex-layout-column"> 
             <div className="flex-section-fixed-head flex-layout-center-center image-background-border-tb">
                 <div className="header-text-center header-title text-white">
-                    Strategy and Insight</div>
+                        Strategy and Insight</div>
                 <img className="flex-image-container width-100" src={strategy}  alt="Why WDS background" /> 
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                    User Research Benefits the End User
+                    “Strategy is the highest level of a plan” ― Fritz Shoemaker
                 </div>
             </div>
             <div className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
                 <div className="item-a-nb content-block-60 content-header flex-layout-column">
-                    <div className="callout-text text-align-left text-white">By directly observing people, we can get to the heart of their needs, discovering what drives them, what inspires them and what connects with them on an emotional level. We create knowledge for our clients of where to invest resources based on this understanding of what people value.</div>
-                             
+                    <div className="callout-text text-align-left text-white">
+                        By directly observing people, we can get to the heart of their needs, discovering what drives them, what inspires them and what connects with them on an emotional level. We create knowledge for our clients of where to invest resources based on this understanding of what people value.
+                    </div>          
                 </div>
                 <div className="grid-item-b container-image-block">
                     <img className="container-photo-callout" src={strategy1a}  alt="shaking hands" /> 
@@ -41,8 +42,10 @@ class strategy_insight extends Component {
                     Today, the user’s experience is more important than brand loyalty. A successful strategy is necessary to ensure this. 
                 </div>
                 <div className="content-block-55 margin-top-25">
-                    <p className="content-text-24 text-align-center">WDS discovers the patterns and themes that provide actionable, deeper and more valuable perspectives on your customers' wants, needs and motivations.</p>
-                    <p className="content-text-24 text-align-center">The most meaningful insights for experience strategy are developed with behavior-based understanding of users. Our experience strategists observe people in context - where they work, play or live - to understand their goals, needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve..</p>
+                    <p className="content-text-24 text-align-center">
+                        WDS discovers the patterns and themes that provide actionable, deeper and more valuable perspectives on your customers' wants, needs and motivations.</p>
+                    <p className="content-text-24 text-align-center">
+                        The most meaningful insights for experience strategy are developed with behavior-based understanding of users. Our experience strategists observe people in context - where they work, play or live - to understand their goals, needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve..</p>
                 </div>
             </div>
             <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">
@@ -128,7 +131,7 @@ class strategy_insight extends Component {
                         </div>
                     </div> 
 
-             <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
+                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
                     <div className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full ">
