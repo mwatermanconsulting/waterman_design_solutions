@@ -80,7 +80,7 @@ class methodology extends Component {
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
-                    <div className="left flex-layout-center-center content-block-60">
+                    <div className="float-left flex-layout-center-center content-block-60">
                         <div className="title">
                             Design Review
                         </div>
@@ -89,7 +89,7 @@ class methodology extends Component {
                         </div>
                         <div className="margin-top-15">
                             <p className="content-text-18">
-                                <div className="right">
+                                <div className="float-right">
                                     <img className="container-photo-callout" style={{marginLeft:'5%'}} src={methodology2}  alt="UX" /> 
                                     <p className="caption">Photo by Frank on Unsplash</p>
                                 </div> A design review is a process to evaluate and critique current design work. <br/> The review looks at how specific features  have been implemented and/or evaluates a prototype of a project feature or user flow. Design reviews can be modeled after the five elements of the user experience with an evaluation of the elements from abstract concepts to concrete stages.

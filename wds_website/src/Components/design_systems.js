@@ -94,7 +94,7 @@ This is especially good news for developers, who have all the code snippets they
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="left content-header align-items-center flex-layout-column">
+                <section className="float-left content-header align-items-center flex-layout-column">
                         <div className="title content-block-60" style={{marginLeft:'-6%'}}>
                         Enhanced collaboration
                         </div>
