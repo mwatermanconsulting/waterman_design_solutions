@@ -38,7 +38,7 @@ class ux_design extends Component {
                 </section>
            
                     <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100">
-                        <div className="left flex-layout-center-center content-block-60">
+                        <div className="float-left flex-layout-center-center content-block-60">
                             <div className="title">
                                 Real UX Involves Research
                             </div>
@@ -49,7 +49,7 @@ class ux_design extends Component {
                                 <p className="content-text-18">
                                 Sometimes, customers are so accustomed to current conditions that they don’t think to ask for a new solution, even if they have real needs that could be addressed. Habit tends to drag us to behave inconveniently; as consumers we create “work-arounds” that become familiar and we may forget that we are being forced to behave in a less-than-optimal fashion. This can make us incapable of telling UX designers what we really want. </p>
 
-                                <div className="right callout-photo grid-placeself-center">
+                                <div className="float-right callout-photo grid-placeself-center">
                                     <img className="container-photo-callout" src={ux_s2}  alt="UX" /> 
                                     <p className="caption">Photo by Frank on Unsplash</p>
                                 </div>
@@ -63,7 +63,7 @@ class ux_design extends Component {
                     
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                    <section className="left align-items-center flex-layout-column">
+                    <section className="float-left align-items-center flex-layout-column">
                         <div className="title content-block-60 ">
                                 The Value of Empathy
                         </div>
@@ -76,7 +76,7 @@ class ux_design extends Component {
                             <p className="subtitle"> 
                                 Old school custom service</p> 
                                 
-                                <div className="right callout-photo grid-placeself-center">
+                                <div className="float-right callout-photo grid-placeself-center">
                                 <img className="container-photo-callout" src={ux_s3}  alt="old school customer service" />  
                                 
                                  <p className="caption">Photo by Mimi Thian on Unsplash</p>
@@ -90,7 +90,7 @@ class ux_design extends Component {
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
 
-                    <section className="content-header left align-items-center flex-layout-column">
+                    <section className="content-header float-left align-items-center flex-layout-column">
                         <div className="flex-layout-center-center title content-block-60">
                             UX Design is the study of people</div>
                         <div className="subtitle content-block-60 margin-top-15">
@@ -99,7 +99,7 @@ class ux_design extends Component {
                         <div className="content-block-60 margin-top-15">
                             <p className="content-text-18">
                                 Understanding people as they go about completing a task is essential to a positive user experience. Every action of that task is an experience with your product or service. The experience can be positive or negative depending how much of the user was taken into account when designing the product, system and user interface. 
-                        <div className="right callout-photo">
+                        <div className="float-right callout-photo">
                             <img className="container-photo-callout margin-top-15" src={ux_s4}  alt="UX is the study of people" />
                             <p className="caption"> Photo by Jude Beck on Unsplash</p> 
                         </div> User expectations have changed over the years. Simplicity is expected. Many changes have happened in the last decade with eetail.  Amazon simplified the shopping experience down to one click.  </p> 

@@ -1,7 +1,5 @@
 import React, { Component } from 'react' ;
 import finding_truth from '../images/backgrounds/bg-finding-truth.png';
-import services from '../images/graphic-services.svg';
-import together from '../images/photos/photo-why-wds.png';
 import finding from '../images/photos/photo-documentation-s1.png';
 import finding_truth1 from '../images/photos/photo-finding-truth-s1.png';
 import finding_truth2 from '../images/photos/photo-finding-truth-s2.png';
@@ -11,6 +9,7 @@ import finding_truth5 from '../images/photos/photo-finding-truth-s5.png';
 import finding_truth6 from '../images/photos/photo-finding-truth-s6.png';
 import finding_truth7 from '../images/photos/photo-finding-truth-s7.png';
 import finding_truth8 from '../images/photos/photo-finding-truth-s8.png';
+import didyouknow from '../images/graphic-didyouknow.png';
 
 class innovative_solutions extends Component {
     render () {
@@ -50,7 +49,7 @@ class innovative_solutions extends Component {
             
             <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-            <section className="left align-items-center flex-layout-column">
+            <section className="float-left align-items-center flex-layout-column">
                 <div className="title content-block-60">
                         Establish Business Context
                 </div>
@@ -58,7 +57,7 @@ class innovative_solutions extends Component {
                         Defining the Challenge
                 </div>
                 <div className="content-block-60 content-text-18 margin-top-15"> 
-                <div className="right">
+                <div className="float-right">
                         <img className="photo-container" style={{marginTop: '1px'}} src={finding}  alt="Stakeholder Interview" /> 
                     </div>  
                     <p className="content-text-18"> 
@@ -71,7 +70,7 @@ class innovative_solutions extends Component {
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="left align-items-center flex-layout-column">
+                <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
                             Field Observation and Interviews
                     </div>
@@ -81,7 +80,7 @@ class innovative_solutions extends Component {
                         <div className="content-block-60 content-text-18 margin-top-15">
                             <p className="content-text-18"> 
                             Great strategies for software are built on rich insight. The most meaningful insights for experience strategy are developed with a deep, behavior-based understanding of users or customers. 
-                            <div className="right">
+                            <div className="float-right">
                         <img className="photo-container" src={finding_truth3} style={{marginRight:'12%'}} alt="Stakeholder Interview" /> 
                             </div> Our experience strategists observe people in context - where they work, play or live - to understand their goals, needs and aspirations as they go about their daily lives. If a product does not yet exist, this first-hand look helps to identify unmet needs that a product may solve.</p>
 
@@ -99,14 +98,14 @@ class innovative_solutions extends Component {
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="left align-items-center flex-layout-column">
+                <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
                             Develop a Persona
                     </div>
                         <div className="subtitle content-block-60 margin-top-15">
                             Introducing the voices of the user
                         </div>
-                        <div className="content-block-60 content-text-18 margin-top-15"><div className="right">
+                        <div className="content-block-60 content-text-18 margin-top-15"><div className="float-right">
                         <img className="photo-container" src={finding_truth4}  alt="Your Business is Our Joy" /> 
                     </div>  
                             <p className="content-text-18"> Because specific targets are better than vague ones, we create personas - single archetypes that represent a group of people with similar behaviors, attitudes and motivations. Personas keep us focused on real people who exhibit unique sets of characteristics. These behavior-based personas assist us throughout ideation, design and marketing to help teams develop appropriate solutions and messages.</p>
@@ -118,7 +117,7 @@ class innovative_solutions extends Component {
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="left align-items-center flex-layout-column">
+                <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
                             VISUALIZE THE EXPERIENCE TOUCHPOINTS
                     </div>
@@ -126,7 +125,7 @@ class innovative_solutions extends Component {
                             The User Journey
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
-                       <div className="right">
+                       <div className="float-right">
                         <img className="photo-container" src={finding_truth5}  alt="Your Business is Our Joy" /> 
                     </div>      <p className="content-text-18"> Data is only as valuable as the meaning we craft
                             from it. We have tried-and-true methods for moving
@@ -146,7 +145,7 @@ class innovative_solutions extends Component {
                
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="left align-items-center flex-layout-column">
+                <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
                             DIAGRAM WORK ACROSS ROLES
                     </div>
@@ -155,7 +154,7 @@ class innovative_solutions extends Component {
                     </div>
                         <div className="content-block-60 content-text-18 margin-top-25">
                             <p className="content-text-18"> 
-                            When an engagement centers on a complex tool for the enterprise, the Consolidated Workflow Diagram captures activity across organizational roles and provides stakeholders a single view of all of the work accomplished in and around a tool. This diagram gives stakeholders an “aha!” moment as, for the first time,  <div className="right">
+                            When an engagement centers on a complex tool for the enterprise, the Consolidated Workflow Diagram captures activity across organizational roles and provides stakeholders a single view of all of the work accomplished in and around a tool. This diagram gives stakeholders an “aha!” moment as, for the first time,  <div className="float-right">
                                 <img className="photo-container" src={finding_truth6}  alt="Stakeholder Interview" /> 
                             </div>they have a picture of the duties employees or customers accomplish in their work lives. </p> 
 
@@ -206,7 +205,7 @@ class innovative_solutions extends Component {
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="left align-items-center flex-layout-column">
+                <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
                             Establish an Experience-Driven Product Roadmap
                     </div>
@@ -217,7 +216,7 @@ class innovative_solutions extends Component {
                         <p className="content-text-18"> 
                          Experience-Driven Product Roadmaps give the needs of customers a seat at the table, helping to ensure that what is released is what customers will value.
                          
-                    <div className="right">
+                    <div className="float-right">
                     <img className="photo-container" src={finding_truth7}  alt="Review" /> 
                     </div> We collaborate with product teams to incorporate the understanding and strategy developed in the Revealing Reality phase into the plan for how to group and sequence capabilities in an application. This includes the selection of features for the minimum viable product – an MVP that users and customers will be eager to adopt because it is developed with their needs in mind.</p>
                             
@@ -228,7 +227,7 @@ class innovative_solutions extends Component {
                     
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="left align-items-center flex-layout-column">
+                <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
                             START EARLY AND ESTABLISH YOUR PROJECT PLAN                       
                     </div>
@@ -237,7 +236,7 @@ class innovative_solutions extends Component {
                     </div>
                         <div className="content-block-60 content-text-18 margin-top-15">
                             <p className="content-text-18"> 
-                            <div className="right">
+                            <div className="float-right">
                         <img className="photo-container" src={finding_truth8}  alt="Review" /> 
                     </div>
                             The Revealing Reality phase is an investment in understanding how to create an experience that resonates with customers. 
@@ -249,17 +248,15 @@ class innovative_solutions extends Component {
                     </section>
                     
                 
-                <div className="container-grid-2col-full width-100 flex-layout-justified-sb border-3px bottom-border margin-top-100 yellow-bg "> 
-                <div className="item-a-nb content-block-50 flex-layout-column">
-                    <div className="content-block">
-                        <p className="callout-text"> Looking for a larger Agile Transformation Program? </p>
-                        <p className="callout-text">  WDS is the leader in applying design solutions, experience strategy and observational insights to the development of applications, websites, SaaS, products and mobile.</p> 
+                <section className="flex-layout-section-full flex-layout-column  margin-top-100  grey border-top-5">
+                    <div className="width-75 margin-top-50 padding-bottom-100" style={{marginLeft:'-'}}> 
+                       <a href="../core_offerings"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Ux" /> </a>
+                      
+                        <p className="content-header text-white content-block-55 flex-layout-column" style={{marginLeft:'30%', marginTop:'-5%'}}>WDS Specializes in Data Visualization Application Design.
+                        </p>
+    
                     </div>
-                </div>
-            <div className="item-b container-image-block">
-                <img className="flex-image-container width-100" src={services}  alt="Your Business is Our Joy" /> 
-            </div>
-            </div>   
+                </section>    
                 
 
                
