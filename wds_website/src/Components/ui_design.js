@@ -1,7 +1,7 @@
 import React, { Component } from 'react' ;
 import bg_ui from '../images/backgrounds/bg-ui.png';
 import finding from '../images/photos/photo-documentation-s1.png';
-import didyouknow from '../images/graphic-didyouknow.png';
+import didyouknow from '../images/graphic-didyouknow.svg';
 import finding_truth2 from '../images/photos/photo-finding-truth-s2.png';
 import ui_s1 from '../images/photos/photo-ui-s1.png';
 
@@ -62,18 +62,38 @@ class ui_design extends Component {
     
                 
             </div>
-            <div className="flex-layout-section-full align-items-center grey border-top-5">
-                    <div className="grid-2col-text-photo align-self-center width-100  margin-top-50       margin-bottom-50"> 
-                    <div className="col2-text grid-placeself-center width-70 margin-left-75">
-                        <div className="col2-photo width-100 grid-placeself-center">
-                            <img className="flex-image-container width-100" src={didyouknow}  alt="Ux is the best therapy!"/> 
+            
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+                <section className="grid-2col-photo-content margin-top-75 flex-layout-section-full content-header">
+                    <div className="grid-left">
+                        <div className="title">
+                             Research
+                        </div>
+                        <div className="subtitle margin-top-15">
+                             Understanding the Business
+                        </div>
+                        <div className="content-block-75 content-text-18 margin-top-15">
+                            <p className="content-text-18"> 
+                                The next phase of the methodology establishes the foundation. It is all about the business and how it relates to the users. It's how design relates to the business.</p>
+
+                            <ul className="dashed">
+                                <li>Kickoff Meeting</li>
+                                <li>Business Requirements</li>
+                                <li>Competition Research</li>
+                                <li>Marketing Materials Review</li>
+                                <li>Style Guides and Company Standards</li>
+                                <li>Stakeholders Contact</li>
+                            </ul>
+
                         </div>
                     </div>
-                    <div className="content-block">
-                        <p className="content-header"> WDS specialty is creating success from failure </p>
-                    </div>
-                    </div>
-                </div>  
+
+                    <div className="grid-right container-image-block">
+                        <img className="photo-container" src={methodology3}  alt="Methodology" /> 
+                    </div>  
+
+                </section>
+            </section> 
         </div>
         )
     }

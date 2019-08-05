@@ -187,17 +187,17 @@ class ux_design extends Component {
                                 Design Thinking </div>
                 </div>
             </section>
-                <div className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
-                    <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
-                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Ux" /> </a>
+            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+                <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
+                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
                       
                     <div className="flex-layout-center-center">
                         <p className="content-header text-white flex-layout-column flex-layout-center-center"> WDS has developed communication strategies for Motorola, Stubhub and OsiSoft.  <p><i><a href="../case_study_3">Learn More</a> </i></p> </p>
                     </div>
-                    </div>
-                </div> 
+                </div>
+            </section> 
   
-            </div> 
+        </div> 
        
         )
     }

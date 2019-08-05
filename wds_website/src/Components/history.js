@@ -5,6 +5,7 @@ import history_3 from '../images/photos/photo-history-s3.png'
 import time from '../images/WDS-timeline.png'
 import mike from '../images/mike.png';
 import terri from '../images/terri.png';
+import didyouknow from '../images/graphic-didyouknow.png';
 
 class about extends Component {
     render () {
@@ -91,7 +92,7 @@ class about extends Component {
                             <p className="content-text-18">
                             In early 2002, a UX informational site called Web First Aid was created for website design, which included studies done at Stanford University and the Neilson Norman Group, two credible resources in usability, backed with data to support their research.</p>
                             <p className="content-text-18">
-                            This site along with the Surreal Concepts website led to a contract with a Pfizer agency to design and organize the largest HCP site at the time. They realized that the same principles of design for small companies were scalable to enterprise levels. Consulting with Pfizer was an opportunity to show that simplicity and efficient communication with strong teamwork helped save Pfizer a half a million dollars
+                            This site along with the Surreal Concepts website led to a contract with a Pfizer agency to design and organize the largest HCP site at the time. They realized that the same principles of design for small companies were scalable to enterprise levels. Consulting with Pfizer was an opportunity to show that simplicity and efficient communication with strong teamwork helped save Pfizer a half a million dollars.
                             </p>
                         </div>
                     </section>
@@ -168,7 +169,7 @@ class about extends Component {
 
                     <section className="flex-layout-section-full align-items-center">
                         <div className="title content-block-55">
-                            Design Matters Always Matters
+                            Creating Design Solutions That Matter
                         </div>
                         <div className="subtitle content-block-55 margin-top-15">
                             Our Accomplishments
@@ -233,10 +234,17 @@ class about extends Component {
                             </p>
                     </div>
                     </div>
-                    
-                
                 </div>
             </div>
+            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+                <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
+                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
+                      
+                    <div className="flex-layout-center-center">
+                        <p className="content-header text-white flex-layout-column flex-layout-center-center"> Surreal Concepts used the now popular blue and orange color combination back in the early 2000s.</p>
+                    </div>
+                </div>
+            </section>
         </div>
                        
         )

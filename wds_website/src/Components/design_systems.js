@@ -179,15 +179,15 @@ This is especially good news for developers, who have all the code snippets they
                     </div>     
                 </div>       
             </div> 
-            <section className="flex-layout-section-full flex-layout-column  margin-top-100  grey border-top-5">
-                    <div className="width-75 margin-top-50 padding-bottom-100" style={{marginLeft:'-'}}> 
-                       <a href="../core_offerings"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Ux" /> </a>
+            
+            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+                <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
+                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
                       
-                    
-                        <p className="content-header text-white flex-layout-column" style={{marginLeft:'30%', marginTop:'-5%'}}>WDS specializes in SaaS design solutions and implementation
-                        </p>
-    
+                    <div className="flex-layout-center-center">
+                        <p className="content-header text-white flex-layout-column flex-layout-center-center"> WDS specializes in SaaS design solutions and implementation.</p>
                     </div>
+                </div>
             </section> 
         </div>
         )

@@ -1,9 +1,13 @@
 import React, { Component } from 'react' ;
 import strategy from '../images/backgrounds/bg-strategy.png';
+
+import didyouknow from '../images/graphic-didyouknow.png';
+
 import graphic_didyouknow from '../images/graphic-didyouknow.png';
 import services7 from '../images/photos/photo-services-s7.png';
 import services8 from '../images/photos/photo-services-s8.png';
 import services9 from '../images/photos/photo-services-s9.png';
+
 import strategy1 from '../images/photos/photo-strategy-s1.png';
 import strategy1a from '../images/photos/photo-strategy-s1a.png';
 import strategy2 from '../images/photos/photo-strategy-s2.png';
@@ -121,6 +125,11 @@ class strategy_insight extends Component {
                             <p className="content-text-18 content-block-85 margin-top-15">
                                 Taming the specificity beast use to be difficult. Our CSS strategy almost eliminates the specificity problems. In fact, our strategy almost eliminates the need for your developers to write CSS. Our advantage is our past experience working with developers and interviewing and observing them working with CSS.</p>
                         </div>
+
+                    </div>
+                    <div className="grid-right container-image-block">
+                        <img className="photo-container" src={strategy3}  alt="Strategy" /> 
+
                     </div>     
                     <div className="gallery-2col-2 container-image-500 align-self-top">
                     <a href ="./design_systems"> <img className="container-image-500 border-2"  src={services9}  alt="Business Solutions" /> </a>
@@ -202,6 +211,14 @@ class strategy_insight extends Component {
                       
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
+
+                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
+                </div>
+                <div className="grid-2col-photo-content content-header">
+                    <div className="grid-left flex-layout-section-full">
+                        <div className="subtitle">
+                        7. Looking for Opportunities
+
                     <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
                         <div className="title content-block-60">
                             Looking for Opportunities
@@ -212,6 +229,7 @@ class strategy_insight extends Component {
                         <div className="content-block-60 content-text-18 margin-top-15">
                         <div className="float-right">
                         <img className="photo-container" src={strategy7}  alt="Review" /> 
+
                         </div>
                             <p className="content-text-18"> A key value that an experience strategy delivers is a set of new ideas for serving customers. The information distilled from the previous techniques and the company’s strategic requirements comes together in an Opportunities Matrix that clearly lays out a set of options for improving the experience of the user base to increase their engagement and satisfaction.</p>
                             <p className="content-text-18">WDS collaborates with product and executive teams to brainstorm concepts for innovation and improvement. Together, the combined team prioritizes the opportunities based on the difficulty of implementation, the feasibility for the business to deliver and the impact that each solution concept may have on users.</p>
@@ -219,25 +237,18 @@ class strategy_insight extends Component {
                         </div>
                     </section>
                     
-
-                    
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
-
-                    <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
-                        <div className="title content-block-60">
-                                Journey Maps                        
-                        </div>
-                        <div className="subtitle content-block-60">
-                                The Larger Whole                        
-                        </div>
-                        <div className="content-block-60 content-text-18 margin-top-25"><div className="float-right">
-                        <img className="photo-container" src={strategy8}  alt="Review" /> 
-                    </div>
-                            <p className="content-text-18"> Companies are often so focused on their solutions that they forget that it is part of a larger whole: the customer’s life. As the customer interacts with the company or engages in a life process, such as buying a house, understanding the key activities and experiences the customer has helps determine the most valuable places to focus resources. This ensures that each interaction with the company fits the experience the organization wants to provide. The understanding of the key activities and experiences is built into an informative diagram called a Customer Journey Map. This diagram informs key decisions for business, marketing and design executives, and can shift stakeholders’ thinking about where to engage across the lifecycle of a customer’s journey.
+                        <p className="content-text-18"> Companies are often so focused on their solutions that they forget that it is part of a larger whole: the customer’s life. As the customer interacts with the company or engages in a life process, such as buying a house, understanding the key activities and experiences the customer has helps determine the most valuable places to focus resources. This ensures that each interaction with the company fits the experience the organization wants to provide. The understanding of the key activities and experiences is built into an informative diagram called a Customer Journey Map. This diagram informs key decisions for business, marketing and design executives, and can shift stakeholders’ thinking about where to engage across the lifecycle of a customer’s journey.
                             </p>
                                            
                                     
                         </div>
+
+                    </div>
+                    <div className="grid-right container-image-block">
+                        <img className="photo-container" src={strategy8}  alt="Review" /> 
+                    </div>
+                </div>
+
                     </section>
                     
                 
@@ -251,10 +262,18 @@ class strategy_insight extends Component {
                 <img className="flex-image-container width-100" src={graphic_didyouknow}  alt="Design strategy can save your business" /> 
             </div>
             </div>   
-                
 
+                
+            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+                <div className="width-50 margin-top-50 align-center margin-bottom-50"> 
+                        <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
+                      
+                    <div className="flex-layout-center-center">
+                        <p className="content-header text-white flex-layout-column flex-layout-center-center">"Pixar considers repeating the formulas of its past commercial successes a much greater threat to its long-term survival than the occasional commercial disappointment." - The McKinsey Report</p>
+                    </div>
                 </div>
-            </div>
+            </section>
+            </div></div>
         )
     }
 }
