@@ -92,8 +92,6 @@ class innovative_solutions extends Component {
                             <p className="content-text-18">
                             To get to the core of what they care about, we also open authentic dialogues with customers to hear the stories that define their experiences.</p>
                         </div>
-                    
-                     
                 </section>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
@@ -165,8 +163,6 @@ class innovative_solutions extends Component {
                             <p className="content-text-18"> 
                             The cognitive states can help to inform the interface for a new way to navigate and complete tasks in a software tool. By aligning with how people think about their work, we produce tools that feel intuitive and easy to use. This understanding also provides an input to marketing, providing marketers with key information for creating a communication plan that resonates with customers. </p>
                         </div>
-                   
-                     
                 </section>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
@@ -199,8 +195,7 @@ class innovative_solutions extends Component {
                             <p className="content-text-18">
                             To generate the ideas, WDS teams collaborate with product and executive teams to brainstorm concepts for innovation and improvement. Together, the combined team prioritizes the opportunities based on the difficulty of implementation, the feasibility for the business to deliver and the impact that each solution concept may have on users.</p>
                         </div>
-                    </div>
-                     
+                    </div> 
                 </section>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
