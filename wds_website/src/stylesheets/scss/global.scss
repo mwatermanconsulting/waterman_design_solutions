@@ -88,7 +88,6 @@ ul {
 
 li {
     margin:0;
-    list-style-type: none;
   }
 
     ul.dashed {
@@ -207,7 +206,7 @@ h1 {
 }
 
 p {
-  font-size: .875rem;
+  font-size: 18px;
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0;
@@ -401,4 +400,14 @@ input[type=submit]:hover {
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
+}
+
+ol {
+  display: block;
+  list-style-type: decimal;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
 }
