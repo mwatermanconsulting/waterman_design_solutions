@@ -6,7 +6,7 @@ import innovation2 from '../images/photos/photo-innovation-s2.png';
 import innovation3 from '../images/photos/photo-innovation-s3.png';
 import innovation4 from '../images/photos/photo-innovation-s4.png';
 import innovation5 from '../images/photos/photo-innovation-s5.png';
-import didyouknow from '../images/graphic-didyouknow.png';
+import graphic_didyouknow from '../images/graphic-didyouknow.png';
 
 
 class innovative_solutions extends Component {
@@ -139,12 +139,11 @@ class innovative_solutions extends Component {
                             The design language is needed to drive consistency across applications and channels, delivering a  more cohesive and singular experience of the company. To develop a company’s design language, we carry out a visual exploration initiative so the team can iterate on ideas, refine them and determine the final outcome.
                             Whether you choose a Best-in-Class or All-in-One stack, our team will help you make the right investments and capture value.</p>
                         </div>
-
                 </section>
 
                 <section className="flex-layout-section-full flex-layout-column  margin-top-100  grey border-top-5">
                     <div className="width-75 margin-top-50 padding-bottom-100" style={{marginLeft:'-'}}> 
-                       <a href="../core_offerings"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Ux" /> </a>
+                       <a href="../core_offerings"> <img className="flex-image-container margin-bottom-50 " src={graphic_didyouknow}  alt="Ux" /> </a>
                       
                         <p className="content-header text-white content-block-55 flex-layout-column" style={{marginLeft:'30%', marginTop:'-5%'}}>WDS Specializes in Data Visualization Application Design.
                         </p>
