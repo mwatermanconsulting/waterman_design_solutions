@@ -88,9 +88,7 @@ class ui_design extends Component {
                         </div>
                     </div>
 
-                    <div className="grid-right container-image-block">
-                        <img className="photo-container" src={methodology3}  alt="Methodology" /> 
-                    </div>  
+                     
 
                 </section>
             </section> 

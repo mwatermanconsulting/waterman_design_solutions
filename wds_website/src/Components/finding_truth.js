@@ -92,8 +92,6 @@ class innovative_solutions extends Component {
                             <p className="content-text-18">
                             To get to the core of what they care about, we also open authentic dialogues with customers to hear the stories that define their experiences.</p>
                         </div>
-                    
-                     
                 </section>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
@@ -126,8 +124,9 @@ class innovative_solutions extends Component {
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
                        <div className="float-right">
-                        <img className="photo-container" src={finding_truth5}  alt="Your Business is Our Joy" /> 
-                    </div>      <p className="content-text-18"> Data is only as valuable as the meaning we craft
+                        <img className="photo-container" src={finding_truth5}  alt="Finding the Truth" /> 
+                        </div>      
+                        <p className="content-text-18"> Data is only as valuable as the meaning we craft
                             from it. We have tried-and-true methods for moving
                             from observations to insights. These meaningful
                             insights are the next building block in the process of
@@ -141,8 +140,6 @@ class innovative_solutions extends Component {
                             professionals apart from amateurs.</p>   
                     </div>
                 </section>
-                    
-               
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
                 <section className="float-left align-items-center flex-layout-column">
@@ -165,8 +162,6 @@ class innovative_solutions extends Component {
                             <p className="content-text-18"> 
                             The cognitive states can help to inform the interface for a new way to navigate and complete tasks in a software tool. By aligning with how people think about their work, we produce tools that feel intuitive and easy to use. This understanding also provides an input to marketing, providing marketers with key information for creating a communication plan that resonates with customers. </p>
                         </div>
-                   
-                     
                 </section>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
@@ -199,8 +194,7 @@ class innovative_solutions extends Component {
                             <p className="content-text-18">
                             To generate the ideas, WDS teams collaborate with product and executive teams to brainstorm concepts for innovation and improvement. Together, the combined team prioritizes the opportunities based on the difficulty of implementation, the feasibility for the business to deliver and the impact that each solution concept may have on users.</p>
                         </div>
-                    </div>
-                     
+                    </div> 
                 </section>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
@@ -254,24 +248,9 @@ class innovative_solutions extends Component {
                       
                         <p className="content-header text-white content-block-55 flex-layout-column" style={{marginLeft:'30%', marginTop:'-5%'}}>WDS Specializes in Data Visualization Application Design.
                         </p>
-    
                     </div>
                 </section>    
-                
-
-               
-            
-            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
-                <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
-                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
-                      
-                    <div className="flex-layout-center-center">
-                        <p className="content-header text-white flex-layout-column flex-layout-center-center"> Less than 50% of businesses interact with their users.</p>
-                    </div>
-                </div>
-            </section>
             </div>
-        
         )
     }
 }

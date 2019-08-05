@@ -252,16 +252,9 @@ class strategy_insight extends Component {
             </div>
             </div>   
                 
-            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
-                <div className="width-50 margin-top-50 align-center margin-bottom-50"> 
-                        <img className="flex-image-container margin-bottom-50 " src={graphic_didyouknow}  alt="Did You Know?" /> 
-                      
-                    <div className="flex-layout-center-center">
-                        <p className="content-header text-white flex-layout-column flex-layout-center-center">"Pixar considers repeating the formulas of its past commercial successes a much greater threat to its long-term survival than the occasional commercial disappointment." - The McKinsey Report</p>
-                    </div>
+
                 </div>
-            </section>
-            </div></div>
+            </div>
         )
     }
 }
