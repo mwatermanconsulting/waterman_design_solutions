@@ -103,7 +103,8 @@ class css_solutions extends Component {
                     </div>
                     <div className="grid-right-css container-image-block">
                         <img className="photo-container" src={css3}  alt="Stakeholder Interview" /> 
-                    </div>     
+                    </div>  
+                    <p className="caption">Photo by chuttersnap on Unsplash</p>   
                 </section>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
