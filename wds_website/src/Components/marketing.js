@@ -1,14 +1,13 @@
 import React, { Component } from 'react' ;
-import finding_truth from '../images/backgrounds/bg-documentation.png';
-import services from '../images/graphic-services.svg';
-import together from '../images/photos/photo-why-wds.png';
+import bg_marketing from '../images/backgrounds/bg-documentation.png';
 import finding from '../images/photos/photo-documentation-s1.png';
-import finding_truth1 from '../images/photos/photo-finding-truth-s1.png';
-import finding_truth2 from '../images/photos/photo-finding-truth-s2.png';
-import finding_truth3 from '../images/photos/photo-finding-truth-s3.png';
-import finding_truth4 from '../images/photos/photo-finding-truth-s4.png';
-import finding_truth5 from '../images/photos/photo-finding-truth-s5.png';
-import didyouknow from '../images/graphic-didyouknow.png';
+import marketing2 from '../images/photos/photo-marketing-s2.png';
+import marketing3 from '../images/photos/photo-marketing-s3.png';
+import marketing4 from '../images/photos/photo-marketing-s4.png';
+import marketing5 from '../images/photos/photo-marketing-s5.png';
+
+import marketing6 from '../images/photos/photo-marketing-s6.png';
+import graphic_didyouknow from '../images/graphic-didyouknow.png';
 
 class marketing extends Component {
     render () {
@@ -17,7 +16,7 @@ class marketing extends Component {
             <div className="flex-section-fixed-head-child flex-layout-center-center image-background-border-tb">
                 <div className="header-text-center header-title text-white">
                     Marketing</div>
-                <img className="flex-image-container width-100" src={finding_truth}  alt="Why WDS background" /> 
+                <img className="flex-image-container width-100" src={bg_marketing}  alt="Why WDS background" /> 
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
@@ -31,7 +30,7 @@ class marketing extends Component {
                              
                 </div>
                 <div className="item-a-nb container-image-block">
-                    <img className="container-photo-callout" src={finding_truth2}  alt="shaking hands" /> 
+                    <img className="container-photo-callout" src={marketing2}  alt="shaking hands" /> 
                 </div>
             </div>
             <section className="content-header flex-layout-center-center flex-layout-column">
@@ -61,7 +60,7 @@ class marketing extends Component {
                         </div>
                     </div>
                     <div className="grid-right-css container-image-block">
-                        <img className="photo-container" src={finding}  alt="Stakeholder Interview" /> 
+                        <img className="photo-container" src={marketing3}  alt="Stakeholder Interview" /> Photo by ROBIN WORRALL on Unsplash
                     </div>     
                 </div>
 
@@ -82,7 +81,7 @@ class marketing extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={finding_truth3}  alt="Stakeholder Interview" /> 
+                        <img className="photo-container" src={marketing4}  alt="Stakeholder Interview" /> 
                     </div>     
                 </div>
 
@@ -103,8 +102,8 @@ class marketing extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container" src={finding_truth4}  alt="Your Business is Our Joy" /> 
-                    </div>     
+                        <img className="photo-container" src={marketing5}  alt="Marketing" /> 
+                    </div> Photo by Chris Liverani on Unsplash    
                 </div>
 
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
@@ -123,14 +122,14 @@ class marketing extends Component {
                     </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container margin-top-25" src={finding_truth5}  alt="Your Business is Our Joy" /> 
+                        <img className="photo-container margin-top-25" src={marketing6}  alt="Your Business is Our Joy" /> 
                     </div>     
                 </div>
                 </div>
                 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
                 <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
-                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
+                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={graphic_didyouknow}  alt="Did You Know?" /> </a>
                       
                     <div className="flex-layout-center-center">
                         <p className="content-header text-white flex-layout-column flex-layout-center-center">WDS Developed a Telemetry and Data UX Strategy for Stubhub</p>

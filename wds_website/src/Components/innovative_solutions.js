@@ -1,11 +1,12 @@
 import React, { Component } from 'react' ;
 import innovation from '../images/backgrounds/bg-innovation.png';
 import didyouknow from '../images/graphic-didyouknow.png';
-import innovation1 from '../images/photos/photo-finding-truth-s1.png';
+import innovation1 from '../images/photos/photo-innovation-s1.png';
 import innovation2 from '../images/photos/photo-innovation-s2.png';
 import innovation3 from '../images/photos/photo-innovation-s3.png';
 import innovation4 from '../images/photos/photo-innovation-s4.png';
 import innovation5 from '../images/photos/photo-innovation-s5.png';
+import innovation6 from '../images/photos/photo-innovation-s6.png';
 import graphic_didyouknow from '../images/graphic-didyouknow.png';
 
 
@@ -16,7 +17,7 @@ class innovative_solutions extends Component {
             <section className="flex-section-fixed-head flex-layout-center-center image-background-border-tb">
                 <div className="header-text-center header-title text-white">
                     Innovative Solutions</div>
-                <img className="flex-image-container" src={innovation}  alt="Why WDS background" /> 
+                <img className="flex-image-container" src={innovation}  alt="Innovation" /> 
             </section>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
@@ -30,7 +31,7 @@ class innovative_solutions extends Component {
                              
                 </div>
                 <div className="item-a-nb container-image-block">
-                    <img className="container-photo-callout" src={innovation1}  alt="shaking hands" /> 
+                    <img className="container-photo-callout" src={innovation1}  alt="shaking hands" /> Photo by George Hiles on Unsplash
                 </div>
             </section>
     
@@ -114,7 +115,7 @@ class innovative_solutions extends Component {
                             Validate Concepts & Frameworks with Users                        
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15"><div className="float-right">
-                        <img className="photo-container" src={innovation4}  alt="Your Business is Our Joy" /> 
+                        <img className="photo-container" src={innovation5}  alt="Innovative Solutions" /> 
                     </div>    
                             <p className="content-text-18"> Rather than developing a product that we hope will serve the user at this stage, vast amounts of resources are saved by presenting concepts to people for validation before any building takes place. Thus, after creating a set of design concepts, we make sure the designs meet the intended goals. </p>
                             
@@ -131,7 +132,7 @@ class innovative_solutions extends Component {
                     </div>
                     <div className="subtitle content-block-60 margin-top-15">Establish Frameworks & Workflow concepts</div>
                         <div className="content-block-60 content-text-18 margin-top-15"> <div className="float-right">
-                        <img className="photo-container" src={innovation5}  alt="Your Business is Our Joy" /> 
+                        <img className="photo-container" src={innovation6}  alt="Innovative Solutions" /> 
                     </div>     
                             <p className="content-text-18"> A key component of any solution is the visual appearance of the interface. An interface will be an important representation of the brand and needs to support the workflows and interaction models. Collectively, this can be referred to as a company’s design language. </p>
                             
