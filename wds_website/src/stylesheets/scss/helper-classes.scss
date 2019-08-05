@@ -180,14 +180,14 @@
 
    }
 
-   .right {
+   .float-right {
     float: right;
-    padding: 15px 15px 15px 15px;
+    padding: 15px 5px 15px 15px;
    }
 
-  .left {
+  .float-left {
     float: left;
-    padding: 15px 15px 15px 15px;
+    padding: 15px 5px 15px 15px;
    }
   
 
@@ -332,12 +332,15 @@
   .content-block-55 {
     width: 55%;
   }
-  
 
 
   
 .content-block-60 {
   width: 60%;
+}
+
+.content-block-65 {
+  width: 65%;
 }
 
 .content-block-75 {
@@ -467,9 +470,15 @@
 .container-image-block {
   display: flex;
   width: 100%; }
+
   .caption {
     text-align: center;
-    font-size: 1rem;
+    font-size: .875rem;
+    font-style: italic;
+  }
+
+  .caption-left {
+    font-size: .875rem;
     font-style: italic;
   }
 /*  Layers and Sizes   */

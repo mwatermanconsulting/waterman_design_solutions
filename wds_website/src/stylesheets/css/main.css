@@ -359,13 +359,13 @@ footer {
   display: flex;
   height: 668px; }
 
-.right {
+.float-right {
   float: right;
-  padding: 15px 15px 15px 15px; }
+  padding: 15px 5px 15px 15px; }
 
-.left {
+.float-left {
   float: left;
-  padding: 15px 15px 15px 15px; }
+  padding: 15px 5px 15px 15px; }
 
 .flex-item-bottom {
   align-self: flex-end; }
@@ -480,6 +480,9 @@ footer {
 
 .content-block-60 {
   width: 60%; }
+
+.content-block-65 {
+  width: 65%; }
 
 .content-block-75 {
   width: 75%; }
@@ -600,7 +603,11 @@ footer {
 
 .caption {
   text-align: center;
-  font-size: 1rem;
+  font-size: .875rem;
+  font-style: italic; }
+
+.caption-left {
+  font-size: .875rem;
   font-style: italic; }
 
 /*  Layers and Sizes   */
@@ -908,8 +915,7 @@ ul {
   padding: 0; }
 
 li {
-  margin: 0;
-  list-style-type: none; }
+  margin: 0; }
 
 ul.dashed {
   list-style: none;
@@ -1010,7 +1016,7 @@ h1 {
   font-size: 2.6rem; }
 
 p {
-  font-size: .875rem;
+  font-size: 18px;
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0;
@@ -1171,6 +1177,15 @@ input[type=submit]:hover {
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga'; }
+
+ol {
+  display: block;
+  list-style-type: decimal;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px; }
 
 .lightgreen {
   background-color: #BDCCD4; }
@@ -1727,9 +1742,10 @@ Button:hover {
   grid-column: 1/2;
   grid-row: 1/auto; }
 
-.gallery-2col-2 {
+.gallery-2col-2t {
   grid-column: 2/2;
-  grid-row: 1/auto; }
+  grid-row: 1/auto;
+  align-self: start; }
 
 .grid-gallery-4col {
   display: grid;
@@ -2136,6 +2152,12 @@ Button:hover {
   justify-content: center;
   margin-left: 35%; }
 
+.grid-left-truth {
+  grid-column: 1/2;
+  grid-row: auto;
+  justify-content: center;
+  margin-left: 41%; }
+
 .grid-left-services {
   grid-column: 1/2;
   grid-row: auto;
@@ -2182,6 +2204,11 @@ Button:hover {
   grid-column: 2/2;
   grid-row: auto;
   margin-left: -6%; }
+
+.grid-right-truth {
+  grid-column: 2/2;
+  grid-row: auto;
+  margin-left: -10%; }
 
 .grid-right-css {
   grid-column: 2/2;

@@ -402,9 +402,10 @@
   grid-row: 1/auto;
 }
 
-.gallery-2col-2 {
+.gallery-2col-2t {
   grid-column: 2/2;
   grid-row: 1/auto;
+  align-self: start;
 }
 
 .grid-gallery-4col {
