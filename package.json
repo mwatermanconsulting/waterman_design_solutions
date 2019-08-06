@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "express": "^4.16.4",
+    "js-yaml": "^3.13.1",
     "node": "^11.15.0",
     "node-sass-watcher": "^0.5.1",
     "npm": "^6.10.0",
