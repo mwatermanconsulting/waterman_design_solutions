@@ -58,7 +58,7 @@ class innovative_solutions extends Component {
                 </div>
                 <div className="content-block-60 content-text-18 margin-top-15"> 
                 <div className="float-right">
-                        <img className="photo-container" style={{marginTop: '1px'}} src={finding}  alt="Stakeholder Interview" /> 
+                        <img className="photo-container" style={{marginTop: '-5px'}} src={finding}  alt="Stakeholder Interview" /> 
                     </div>  
                     <p className="content-text-18"> 
                         At the beginning of an engagement, we set the foundation for success by developing an
