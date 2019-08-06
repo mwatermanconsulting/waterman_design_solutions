@@ -20,7 +20,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build-css": "node-sass --includenpm -path scss src/stylesheets/scss/main.scss src/stylesheets/css/main.css",
-    "watch-css": "nodemon -e scss -x \" npm run build-css\"",
+    "watch-css": "nodemon -e main.scss -x \" npm run build-css\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "sass": "sass --watch src/stylesheet/scss:src/styles/css"
