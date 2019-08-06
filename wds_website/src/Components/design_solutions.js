@@ -35,9 +35,9 @@ class design_solutions extends Component {
             <div className="flex-layout-section-full align-items-center" >
                 <div className="grid-callout yellow-bg"> 
                     <div className="grid-callout-text grid-placeself-center width-70">
-                        <p className="callout-text "> Customers always look for the better experience. Meeting their expectations of intuitive, elegant and simple designs built around and for the user will earn their loyalty.</p>
+                        <p className="callout-text text-black"> Customers always look for the better experience. Meeting their expectations of intuitive, elegant and simple designs built around and for the user will earn their loyalty.</p>
                             
-                        </div>
+                    </div>
                     <div className="grid-callout-photo grid-placeself-center">
                         <img className="flex-image-container width-100" src={designer}  alt="Customer look for better experience" /> 
                     </div>
@@ -49,89 +49,81 @@ class design_solutions extends Component {
                     <p className="title text-align-center margin-top-100">
                         "A consistent experience is a better experience.” - Mark Eberman
                     </p>   
-                        <p className="subtitle padding-50 text-align-center">
-                        When design determines success, understanding the user is paramount.<br/> We design to connect people with what matters most to them. We design with a purpose.
+                        <p className="subtitle text-align-center">
+                        Consistency across products, applications, marketing or any users touchpoints shows <br/> your customers you care, by creating a familiar experience for them.
                         </p>
                 </div>
             </div>
 
-            <div className="thin-hr align-self-center" style={{ width: '75%' }}></div>
+            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-            <div className="flex-layout-section-full margin-top-100 ">
-
-            <section className="grid-2col-photo-content content-header">
-                <div className="grid-left flex-layout-section-full">
-                    <div className="subtitle">
-                        Website Design
-                    </div>
-                    <div className="content-block-75 content-text-18 margin-top-25">
-                        <p className="content-text-18"> WDS has been designing and developing human centric websites for close to 20 years. We always understood that a website is the hub of your marketing campaign. Creating a positive enjoyable experience on your website is critical to new customer acquisition or retaining customers by providing answers to questions. </p>
-            
-                        <p className="content-text-18">Our websites are always on the cutting edge. WDS was providing UX research to our clients before UX was a term. We were provided a responsive solution to Motorola 10 years ago. WDS was one of the first to develop a enterprise CSS flexbox solution. </p>
-
-                        <p><i><a href="../website_design">Learn More</a> </i></p>
-                    </div>
+            <section className="float-left align-items-center flex-layout-column">
+                <div className="subtitle content-block-60">
+                    Website Design
                 </div>
-                <div className="grid-right container-image-block">
+                <div className="content-block-60 content-text-18 margin-top-15">
+                    <p className="content-text-18"> <div className="float-right">
                     <img className="photo-container" src={design5}  alt="Your Business is Our Joy" /> 
-                </div>           
+                </div>WDS has been designing and developing human centric websites for close to 20 years. We always understood that a website is the hub of your marketing campaign. Creating a positive enjoyable experience on your website is critical to new customer acquisition or retaining customers by providing answers to questions. </p>
+            
+                    <p className="content-text-18">Our websites are always on the cutting edge. WDS was providing UX research to our clients before UX was a term. We were provided a responsive solution to Motorola 10 years ago. WDS was one of the first to develop a enterprise CSS flexbox solution. </p>
+
+                    <p><i><a href="../website_design">Learn More...</a> </i></p>
+                </div>  
             </section>
 
-                <div className="flex-layout-section align-self-center thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
+            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="grid-2col-photo-content content-header">
-                    <div className="grid-right-content flex-layout-section-full margin-left-15per">
-                        <div className="subtitle">
-                            Graphic Design
-                        </div>
-                        <div className="content-block-75">
-                            <p className="content-text-18"> From business cards to Robot magazines to Labels for SmithKline WDS understands that there is still a place for the traditional print materials</p>
-
-                            <p><i><a href="../graphic_design">Learn More</a></i></p>
-                        </div>
-                    </div>
-                        <div className="grid-left-photo container-image-block">
-                            <img className="photo-container" src={design_print}  alt="Your Business is Our Joy" /> 
-                        </div>     
-                </section>
-
-                <div className="flex-layout-section align-self-center thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
-
-            <section className="grid-2col-photo-content content-header">
-                <div className="grid-left flex-layout-section-full">
-                    <div className="subtitle">
-                            Social Marketing
-                    </div>
-                    <div className="content-block-75 content-text-18 margin-top-25">
-                        <p className="content-text-18">
-                            Our goal is to identify the right approach for your unique target audiences on social media. We plan, develop, and execute innovative social media marketing strategies that build a meaningful experience for your users. </p>
-
-                        <p><i><a href="../marketing">Learn More</a> </i></p>
-                    </div>
+            <section className="float-left align-items-center flex-layout-column">
+                <div className="subtitle content-block-60">
+                    Graphic Design
                 </div>
-                <div className="grid-right container-image-block">
+                <div className="content-block-60 margin-top-15">
+                    <p className="content-text-18"> 
+                <div className="float-right">
+                    <img className="photo-container" style={{marginTop:'-8%'}} src={design_print}  alt="Graphic Design" /> 
+                </div>  
+                    Print still has a place in today's digital world. WDS can develop a graphic design strategies that compliments your digital campaigns. By designing graphics that are based on research and user personas that drive sales and helps user retention. We have extensive print experience. Over the years we have designed magazine's, brochures, biz cards, trade show displays, corporate reports </p>
+
+                    <p><i><a href="../graphic_design">Learn More...</a></i></p>
+                </div>
+            </section>   
+
+            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+            <section className="float-left align-items-center flex-layout-column">
+                <div className="subtitle content-block-60">
+                    Social Media Marketing
+                </div>
+                <div className="content-block-60 content-text-18 margin-top-15">
+                    <p className="content-text-18"> 
+                <div className="float-right" style={{marginTop:'-.5%'}}>
                     <img className="photo-container" src={design3}  alt="Social Media Services" /> 
-                </div>           
+                </div>
+                    Our goal is to identify the right approach for your unique target audiences on social media. We plan, develop, and execute innovative social media marketing strategies that build a meaningful experience for your users. Using user research and ad optimization techniques, we leverage your social media platforms to connect your brand, products, or services to the right people. By creating highly targeted advertisements on social media, we help our clients reach an otherwise untapped resource for potential customers. </p>
+
+                    <p><i><a href="../marketing">Learn More...</a> </i></p>
+                </div>    
             </section>
 
-                <div className="flex-layout-section align-self-center thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
+            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-            <section className="grid-2col-photo-content content-header">
-                <div className="grid-right-content flex-layout-section-full margin-left-15per">
-                    <div className="subtitle">
-                         Video Production
-                    </div>
-                    <div className="content-block-75">
-                       
-                        <p className="content-text-18">WDS produce corporate videos that captivate audiences, inspire action & drive results for businesses & brands. Content that your audience will love. Content that gives your that is on message and reaches the customer on a deep level, whatever that may be.</p>      
-                            <p><i><a href="../video_production">Learn More</a></i></p>
-                        </div>
-                    </div>
-                        <div className="grid-left-photo container-image-block">
-                            <img className="photo-container" src={design_video}  alt="Video" /> 
-                        </div>     
+            <section className="float-left align-items-center flex-layout-column">
+                <div className="subtitle content-block-60">
+                     Video Production
+                </div>
+                <div className="content-block-60">
+                    <div className="float-right">
+                        <img className="photo-container" src={design_video}  alt="Video" /> 
+                    </div>  
+                    <p className="content-text-18 margin-top-15">WDS produce corporate videos that captivate audiences, inspire action & drive results for businesses & brands. Content that your audience will love. Content that gives your that is on message and reaches the customer on a deep level. Video content is engaging and ignites emotions. YouTubers are the most powerful social media figures promoting brands. Effective marketing videos have a conversational tone. It creates an individual approach and more confidence to buy online.</p> 
+
+                    <p><i><a href="../video_production">Learn More...</a></i></p>
+                </div>
+                    
+                           
                 </section>
-            </div>
+           
 
             <div className="thin-hr width-70 align-self-center margin-top-100"></div>            
             
