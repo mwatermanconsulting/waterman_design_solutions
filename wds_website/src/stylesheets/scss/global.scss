@@ -69,6 +69,12 @@ a {
   color: $greeny-blue!important;
 }
 
+a.black {
+  color: black!important;
+}
+a:hover {
+  color: black!important;
+}
 .no-decoration {
   color: none;
   text-decoration: none;
