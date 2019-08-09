@@ -62,9 +62,11 @@ class design_solutions extends Component {
                     Website Design
                 </div>
                 <div className="content-block-60 content-text-18 margin-top-15">
-                    <p className="content-text-18"> <div className="float-right">
+                    <p className="content-text-18"> 
+                <div className="float-right">
                     <img className="photo-container" src={design5}  alt="Your Business is Our Joy" /> 
-                </div>WDS has been designing and developing human centric websites for close to 20 years. We always understood that a website is the hub of your marketing campaign. Creating a positive enjoyable experience on your website is critical to new customer acquisition or retaining customers by providing answers to questions. </p>
+                </div>
+                WDS has been designing and developing human centric websites for close to 20 years. We always understood that a website is the hub of your marketing campaign. Creating a positive enjoyable experience on your website is critical to new customer acquisition or retaining customers by providing answers to questions. </p>
             
                     <p className="content-text-18">Our websites are always on the cutting edge. WDS was providing UX research to our clients before UX was a term. We were provided a responsive solution to Motorola 10 years ago. WDS was one of the first to develop a enterprise CSS flexbox solution. </p>
 
