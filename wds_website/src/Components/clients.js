@@ -3,7 +3,8 @@ import designer from '../images/photos/photo-design-s1.png';
 import motorola from '../images/photos/photo-motorola-beforeafter.png';
 import bgclients from '../images/backgrounds/bg-clients.png';
 import innovation1 from '../images/photos/photo-finding-truth-s1.png';
-import didyouknow from '../images/graphic-didyouknow.png';
+import clients1 from '../images/photos/photo-clients-s1.png';
+import didyouknow from '../images/graphic-didyouknow.svg';
 
 class clients extends Component {
     render () {
@@ -15,7 +16,7 @@ class clients extends Component {
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg">
-                        Delivering the most outstanding experience possible
+                        Delivering the most outstanding experience for our clients.
                 </div>
             </div>
             <div className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
@@ -24,13 +25,13 @@ class clients extends Component {
                         For over twenty years WDS has worked and partnered with some amazing people and businesses. We hope to see your name in the list below in the near future.</div>        
                 </div>
                 <div className="item-a-nb container-image-block">
-                    <img className="container-photo-callout" src={innovation1}  alt="shaking hands" /> 
+                    <img className="container-photo-callout" src={clients1}  alt="shaking hands" /> 
                 </div>
             </div>
 
             <section className="content-header flex-layout-center-center flex-layout-column margin-bottom-100">
                 <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-50">
-                    Our client roster includes Motorola, Pfizer, Stubhub, SmithKline, OsiSoft and many 
+                    Our client roster includes Motorola, Pfizer, Stubhub, SmithKline, OsiSoft and many more. 
                 </div>
                 <div className="content-block-50 margin-top-50">
                     <img className="width-100" src={motorola}  alt="motorola before and after" /> 
@@ -66,8 +67,8 @@ class clients extends Component {
                           
             </section>
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
-                <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
-                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
+                <div className="width-75 margin-top-50 align-center  margin-bottom-50"> 
+                       <a href="../communication_insights"> <img className="width-70 align-center margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
                       
                     <div className="flex-layout-center-center">
                         <p className="content-header text-white flex-layout-column flex-layout-center-center"> WDS data visualizations design solutions are being used by the world’s largest brands <p><i><a href="../case_study_3">Learn More</a> </i></p> </p>

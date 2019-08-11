@@ -162,7 +162,7 @@ class why_wds extends Component {
             </div>
             The best customer experience starts with the Golden Rule — Treat customers how you would like to be treated. At the foundation of WDS methodology is observation—watching consumers use products or services. But unlike in focus groups, usability laboratories, and other contexts of traditional market research, such observation is conducted in the customer’s own environment—in the course of normal, everyday routines. In such a context, researchers can gain access to a host of information that is not accessible through other observation-oriented research methods. </p>
 
-                <p><i><a href="../website_design">Learn More...</a> </i></p>
+            <button onclick="location.href='./ux_design';" type="button" value="Learn More" className="button margin-top-50 font-size-24">Learn More</button>
             </div>  
         </section>
 
@@ -176,7 +176,7 @@ class why_wds extends Component {
                         <p className="content-text-18 content-block-75">  
                             Our work has simplified interfaces for applications used by critical industries such as used energy sector using our designed software to monitor oil rigs or for the pharmaceutical industries using our UI designed software on the monitoring the drug manufacturing factories.</p>
                         
-                            <p><i><a href="../ux_design">Learn More</a> </i></p>
+                            <button onclick="location.href='./ui_design';" type="button" value="UI Design" className="button margin-top-50 font-size-24">Learn More</button>
                     </div>
 
                     <div className="grid-right">

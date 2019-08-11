@@ -1,6 +1,6 @@
 import React, { Component } from 'react' ;
 import { Button } from 'react-mdl';
-import didyouknow from '../images/graphic-didyouknow.png';
+import didyouknow from '../images/graphic-didyouknow.svg';
 import caseStudies from '../images/backgrounds/bg-casestudies.png';
 import motorola from '../images/photos/photo-motorola-beforeafter.png';
 import motorola_logo from '../images/motorola_logo.svg'
@@ -26,7 +26,7 @@ class case_studies extends Component {
                 </section>
                 <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                     <div className="callout-text-lg">
-                        Every great design begins with an even better story
+                        Every great design begins with an even better story.
                     </div>
                 </section>
                 <section className="flex-layout-section-full align-items-center">
@@ -141,7 +141,7 @@ class case_studies extends Component {
 
         <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
                 <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
-                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
+                       <a href="../communication_insights"> <img className="flex-image-container align-self-center width-70 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
                       
                     <div className="flex-layout-center-center">
                         <p className="content-header text-white flex-layout-column flex-layout-center-center"> WDS designed and developed a UX information site in 2005 called Web First Aid   <p><i><a href="../case_study_3">Learn More</a> </i></p> </p>
