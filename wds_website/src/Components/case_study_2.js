@@ -28,9 +28,9 @@ class case_study_2 extends Component {
                         <img className="header-text-right align-self-center" src={stubhub_logo}  alt="Stubhub Case Study Logo Image" /> 
                         <img className="flex-image-container width-100" src={stubhub_bg}  alt="Stubhub Case Study " />  
                 </section> 
-                <section className="container-section padding-20  border-top-5 border-bottom- callout-color-dark">
+                <section className="container-section padding-20 m border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg">
-                        Goal: To design a custom on-demand data reporting tool 
+                        Goal: To design a custom on-demand data reporting tool. 
                 </div>
                 </section>
                 <section className="flex-layout-section-fixed-sm margin-top-75">
@@ -40,8 +40,9 @@ class case_study_2 extends Component {
                     </div>
                 </section>  
                 <section className="flex-layout-section-full margin-top-50">
-                     <div className="container-image-block flex-layout-center-center">
+                     <div className="container-image-block flex-layout-center-center flex-layout-column">
                         <img className="photo-container-cs-sb1" src={stubhub_s1} alt="StubHub Show me the Numbers"/>
+                        <p className="margin-top-15"> <i>I don't want to have to hover over the little dots!</i></p>
                     </div>
                 </section>
                 <section className="flex-layout-section-full align-items-center margin-top-100">
@@ -72,11 +73,11 @@ class case_study_2 extends Component {
                     </div>
                         <div className="content-block-55 margin-top-15">
                             <p className="content-text-18">
-                            The first part of our methodology is researching and understanding the business. It means gathering business requirements, marketing materials and asking a lot of questions. 
+                            The first part of our methodology is researching and understanding the business. It means gathering business requirements, marketing materials and asking as many questions as necessary to understand the problems. 
                             </p>
                             <p className="content-text-18">Questions asked: What's the history of the business? Who are their competitors? What problem is the application trying to solve? </p>
                             
-                            <p className="content-text-18">The most surprising and deflating answers we ever got was  when we asked how many used the current reporting tool, "This week we currently had 1 user visit the reporting tool" Our heart sank.</p>
+                            <p className="content-text-18">The answer to how many analysts were using the tool? One.</p>
                         </div>    
                 </section>
                 
@@ -85,15 +86,6 @@ class case_study_2 extends Component {
                         <img className="photo-container-cs-sb1" src={stubhub_before_s1} alt="Finding the Truth - Business Perspective"/>
                         <p className="margin-top-15"> <i>Old interface design which boasts of having 1 user</i></p>
                     </div>
-                </section>
-                
-                <section className="grid-callout border-tb-5 grey"> 
-                    <div className="grid-callout-text content-block-55 grid-placeself-center">
-                    <p className="callout-text">One is a lonely number, when it is the number of current users it's just sad</p>      
-                    </div>
-                    <div className="grid-callout-photo grid-placeself-center">
-                        <img  src={stubhub_s2}  alt="StubHub Only One" /> 
-                    </div>   
                 </section>
                 
                 <section className="flex-layout-section-full align-items-center margin-top-100">       
@@ -131,10 +123,11 @@ class case_study_2 extends Component {
                         <div className="content-block-55 margin-top-15">
                             <p className="content-text-18">WDS researched the data display and read books by experts trying to find standards. Data display is a growing need and it was important to us that we become experts in this field. </p>
                             <p className="content-text-18">The discovery phase revealed that the analysts were not using the data reporting tool because of the 3 minute download time. WDS told the team that if they could not get the download time under 30 seconds, it would be a lost cause. WDS could create the most unique user friendly application, but the 3 minute wait time was a deal breaker. Nobody would ever wait that long and the team had 36 hours to find a solution. </p>
-                            <p className="subtitle">Other concerns and Issues</p>
-                            <p className="content-text-18">How are we going to evangelize and market the newly designed reporting tool?</p>
+                            <p className="subtitle">Other issues:</p>
+                            <p className="content-text-18">Need for evangelization to market the newly designed reporting tool.</p>
                             <p className="content-text-18">Project lead goes on a six week sabbatical leave.</p>
-                            <p className="content-text-18">How is WDS going to solve the KPI riddle?</p>               
+                            <p className="content-text-18">How is WDS going to solve the KPI riddle?</p>
+                            <p className="content-text-18">How to speed up the load time?</p>               
                         </div>
                         
                     </section>
