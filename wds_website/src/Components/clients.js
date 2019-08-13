@@ -1,8 +1,15 @@
 import React, { Component } from 'react' ;
 import designer from '../images/photos/photo-design-s1.png';
-import motorola from '../images/photos/photo-motorola-beforeafter.png';
+import motorola_ba from '../images/photos/photo-motorola-beforeafter.png';
 import bgclients from '../images/backgrounds/bg-clients.png';
-import innovation1 from '../images/photos/photo-finding-truth-s1.png';
+import motorola from '../images/icon-logo-motorola.svg';
+import osi from '../images/icon-logo-osi.svg';
+import pfizer from '../images/icon-logo-pfizer.svg';
+import pii from '../images/icon-logo-pii.png';
+import smithkline from '../images/icon-logo-smithkline.svg';
+import stubhub from '../images/icon-logo-stubhub.svg';
+import investorforce from '../images/icon-logo-investorforce.svg';
+import ketchhot from '../images/icon-logo-ketchhot.png';
 import clients1 from '../images/photos/photo-clients-s1.png';
 import didyouknow from '../images/graphic-didyouknow.svg';
 
@@ -34,29 +41,34 @@ class clients extends Component {
                     Our client roster includes Motorola, Pfizer, Stubhub, SmithKline, OsiSoft and many more. 
                 </div>
                 <div className="content-block-50 margin-top-50">
-                    <img className="width-100" src={motorola}  alt="motorola before and after" /> 
+                    <img className="width-100" src={motorola_ba}  alt="motorola before and after" /> 
                 </div>
             </section>
             <section className="flex-layout-section-full flex-layout-center-center">
-                <ul>
-                    <span className="subtitle">Additional Clients:</span>
-                    <li>ACD</li>
-                    <li>Astra Zeneca</li>
-                    <li>Susan Beard</li>
-                    <li>HRG</li>
-                    <li>KetchHot</li>
-                    <li>Kinetix</li>
-                    <li>Limage Studios</li>
-                    <li>Norwood Construction</li>
-                    <li>Pierre and Carlo</li>
-                    <li>Sherman Toppin Partners</li>
-                    <li>World Team Tennis</li>
-                    
-
+                <div className="align-center align-items-center">
+                    <ul className="grid-clients-wrapper align-items-center  width-70">
+                    <li  className="grid-clients-box">
+                        <img className="width-100 height-100" src={motorola}  alt="motorola" /></li>
+                    <li  className="grid-clients-box">
+                        <img className="width-100 height-100" src={osi}  alt="osi" />
+                    </li>
+                    <li  className="grid-clients-box">
+                        <img className="width-100 height-100" src={pfizer}  alt="pfizer" /></li>
+                    <li  className="grid-clients-box">
+                        <img className="width-100 height-100" src={ketchhot}  alt="ketchhot" /></li>
+                    <li  className="grid-clients-box">
+                        <img className="width-100 height-100" src={pii}  alt="pii" /></li>
+                    <li  className="grid-clients-box">
+                        <img className="width-100 height-100" src={smithkline}  alt="smithkline" /></li>
+                    <li  className="grid-clients-box">
+                        <img className="width-100 height-100" src={investorforce}  alt="investorforce" /></li>
+                    <li  className="grid-clients-box">
+                        <img className="width-100 height-100" src={stubhub}  alt="stubhub" /></li>
                 </ul>
+                </div>
             </section>
             <section className="flex-layout-section-full margin-top-50 flex-layout-center-center">
-                <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-75">Our team builds systems for billion-dollar companies
+                <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-75">Our team builds systems for billion-dollar companies.
                 </div>
                 <div className="content-block-services margin-top-25 flex-align-center margin-bottom-50" style={{marginLeft: '25%'}} >
                     <p className="content-text-18 content-block-75">

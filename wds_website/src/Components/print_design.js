@@ -138,6 +138,56 @@ class print_design extends Component {
                         </p> 
                     </div> 
                 </section>
+
+                <section className="flex-layout-section-full flex-layout-center-center">
+                <div className="align-center align-items-center">
+                    <ul className="grid-clients-wrapper align-items-center  width-70">
+                    <li  className="grid-clients-box">
+                        <img className="width-100" src={wyp}  alt="Women's Yellow Pages" />
+                        <p className="content-block-auto ">
+                            Women's Yellow Pages<br></br>
+                            Industry: Communication<br></br>
+                            Book publishing
+                        </p></li>
+                    <li  className="grid-clients-box">
+                        <img className="width-100 height-100"  src={ketchhot}  alt="Ketchhot" />
+                        <p className="content-block-auto ">
+                        Ketchhot<br></br>
+                        Industry: Food<br></br>
+                        Label printing
+                        </p></li>
+                    <li  className="grid-clients-box"> 
+                        <img className="width-100 height-100" src={bb}  alt="Body Bouquet" />
+                        <p className="content-block-auto ">
+                        Body Bouquet<br></br>
+                        Industry: Health and Beauty<br></br>
+                        Brochures
+                        </p></li>
+                    <li  className="grid-clients-box">
+                        <img className="width-100 height-100" src={avandia}  alt="Avandia" />
+                        <p className="content-block-auto ">
+                        Avandia<br></br>
+                        Industry: Pharmaceuticals<br></br>
+                        Label printing
+                        </p></li>
+                    
+                    <li  className="grid-clients-box">
+                        <img className="width-100 height-100" src={guyuaba}  alt="Guyuaba" />
+                        <p className="content-block-auto ">
+                        Guyuaba<br></br>
+                        Industry: Food<br></br>
+                        Label printing
+                        </p></li>
+                    <li  className="grid-clients-box">
+                        <img className="width-100 height-100" src={hcnrg}  alt="HCNRG" />
+                        <p className="content-block-auto ">
+                        HCNRG<br></br>
+                        Industry: Solar Panels<br></br>
+                        Presentation materials
+                        </p></li>
+                </ul>
+                </div>
+            </section>
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
                 <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
                        <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
