@@ -35,7 +35,7 @@ class design_solutions extends Component {
             <div className="flex-layout-section-full align-items-center" >
                 <div className="grid-callout yellow-bg"> 
                     <div className="grid-callout-text grid-placeself-center width-70">
-                        <p className="callout-text "> Customers always look for the better experience. Meeting their expectations of intuitive, elegant and simple designs built around and for the user will earn their loyalty.</p>
+                        <p className="callout-text text-black"> Customers always look for the better experience. Meeting their expectations of intuitive, elegant and simple designs built around and for the user will earn their loyalty.</p>
                             
                         </div>
                     <div className="grid-callout-photo grid-placeself-center">
@@ -49,7 +49,7 @@ class design_solutions extends Component {
                     <p className="title text-align-center margin-top-100">
                         "A consistent experience is a better experience.” - Mark Eberman
                     </p>   
-                        <p className="subtitle padding-50 text-align-center">
+                        <p className="content-text-21 content-block-75 align-self-center text-align-center margin-top-25 margin-bottom-100">
                         When design determines success, understanding the user is paramount.<br/> We design to connect people with what matters most to them. We design with a purpose.
                         </p>
                 </div>
@@ -73,7 +73,7 @@ class design_solutions extends Component {
                     </div>
                 </div>
                 <div className="grid-right container-image-block">
-                    <img className="photo-container" src={design5}  alt="Your Business is Our Joy" /> 
+                    <img className="photo-container" src={design5}  alt="Design solutions" /> 
                 </div>           
             </section>
 
@@ -85,9 +85,9 @@ class design_solutions extends Component {
                             Graphic Design
                         </div>
                         <div className="content-block-75">
-                            <p className="content-text-18"> From business cards to Robot magazines to Labels for SmithKline WDS understands that there is still a place for the traditional print materials</p>
+                            <p className="content-text-18"> From business cards to Robot magazines to Labels for SmithKline WDS understands that there is still a place for the traditional print materials.</p>
 
-                            <p><i><a href="../graphic_design">Learn More</a></i></p>
+                            <p><i><a className="text-black" href="../graphic_design">Learn More</a></i></p>
                         </div>
                     </div>
                         <div className="grid-left-photo container-image-block">
@@ -141,7 +141,7 @@ class design_solutions extends Component {
                     <div className="content-block">
                             <p className="content-header"> Our CSS solutions relieves the anxiety that most developers and engineers face when they see CSS in their project requirements. </p>
 
-                            <p className="margin-top-25"><i><a href="./css_solutions">Learn More</a></i></p>
+                            <p className="margin-top-25"><i><a  href="./css_solutions" style={{color: '#000000'}}>Learn More</a></i></p>
                     </div>
                 </div>
                 <div className="col2-photo grid-placeself-center">

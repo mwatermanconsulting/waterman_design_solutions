@@ -1,5 +1,12 @@
 import React, { Component } from 'react' ;
+import '../stylesheets/css/main.css';
 import history from '../images/backgrounds/bg-ourhistory.png'
+
+import history_az from '../images/photos/photo-history-az.png'
+import history_sps from '../images/photos/photo-history-sps.png'
+import history_chemtech from '../images/photos/photo-history-chemtech.png'
+import history_noticeboards from '../images/photos/photo-history-noticeboards.png'
+import history_seroquel from '../images/photos/photo-history-seroquel.png'
 import photo_history from '../images/photos/photo-history-s1.png'
 import history_3 from '../images/photos/photo-history-s3.png'
 import time from '../images/WDS-timeline.png'
@@ -60,12 +67,30 @@ class about extends Component {
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                    <section className="flex-layout-section-full align-items-center">
-                        <div className="subtitle content-block-55">
+            <section className="flex-layout-section-full align-items-center">
+                <div className="subtitle content-block-55">
                             Publishing Venture</div>
-                        <div className="content-block-55">
+                <div className="content-block-55">
                             <p className="content-text-18 margin-top-15"> 
                             In the mid-90s Terri did onsite consulting and published New Drug Applications for the FDA at Zeneca Pharmaceuticals using Interleaf software. Web design was in its infancy, and she joined a web team by 1998, creating intranet websites for different divisions to improve group communication. Knowledge of code was crucial to digital design, and she fostered relationships with other software engineers to learn about their craft in order to assimilate design to their products.</p>
+                <ul className="grid-portfolio"  >
+                    <li className="grid-image-portfolio" >
+                        <img className="image-portfolio" src={history_az}  alt="AstraZeneca" /> 
+                    </li>     
+                    <li className="grid-image-portfolio" >
+                        <img className="image-portfolio"  src={history_seroquel}  alt="Seroquel" /> 
+                        
+                    </li>
+                    <li className="grid-image-portfolio" >
+                        <img className="image-portfolio"  src={history_sps}  alt="SPS" />
+                        
+                    </li> 
+                    <li className="grid-image-portfolio" >
+                        <img className="image-portfolio" src={history_chemtech}  alt="ChemTech" />
+                        
+                    </li> 
+                </ul>
+                
                             <p className="content-text-18">
                             The first big client Surreal Concepts landed after incorporating as a C corporation was a label manufacturer Apogee Industries. They printed flexographic labels for Smithkline Beecham, Roos Foods, SmithKline, and Boiron Homeopathics. </p>
                         </div>

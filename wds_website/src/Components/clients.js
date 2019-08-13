@@ -30,7 +30,7 @@ class clients extends Component {
 
             <section className="content-header flex-layout-center-center flex-layout-column margin-bottom-100">
                 <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-50">
-                    Our client roster includes Motorola, Pfizer, Stubhub, SmithKline, OsiSoft and many 
+                    Our client roster includes Motorola, Google, Pfizer, Stubhub, SmithKline, OsiSoft and many 
                 </div>
                 <div className="content-block-50 margin-top-50">
                     <img className="width-100" src={motorola}  alt="motorola before and after" /> 
