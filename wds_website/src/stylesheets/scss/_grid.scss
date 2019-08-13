@@ -412,6 +412,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
+  background-color: #e6e6e6;
 }
 
 .gallery-4col-1 {
@@ -434,7 +435,18 @@
   grid-row: 1/auto;
 }
 
-
+.grid-clients-wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid-clients-box {
+  width:250px;
+  height: 250px;
+  background-color: #e6e6e6;
+  align-items: center;
+  
+}
 
 .grid-footer {
   display: grid;
