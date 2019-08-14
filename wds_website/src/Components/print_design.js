@@ -8,7 +8,9 @@ import ketchhot from '../images/photos/photo-print-ketchhot.png';
 import hcnrg from '../images/photos/photo-print-hcnrg.png';
 import bb from '../images/photos/photo-print-bb-brochure.png';
 import avandia from '../images/photos/photo-print-avandia.png';
-import didyouknow from '../images/graphic-didyouknow.png';
+import donolow from '../images/photos/photo-print-donolow.png';
+import wtt from '../images/photos/photo-web-wtt.png';
+import didyouknow from '../images/graphic-didyouknow.svg';
 
 class print_design extends Component {
     render () {
@@ -17,17 +19,17 @@ class print_design extends Component {
             <section className="flex-section-fixed-head-child flex-layout-center-center image-background-border-tb">
                 <div className="header-text-center header-title text-white">
                         Print Design</div>
-                <img className="flex-image-container" src={print}  alt="Why WDS background" /> 
+                <img className="flex-image-container" src={print}  alt="Print Design" /> 
             </section>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                        Print will continue to be valuable where there is a physical customer presence
+                        Printed collateral will continue to be valuable where there is a physical customer presence.
                 </div>
             </section>
             <section className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
                 <div className="grid-left content-block-60 content-header flex-layout-column">
-                    <div className="callout-text text-align-left text-white">
-                        Print ads will be more effective if they are a complement to your digital campaigns already in play and entice readers to interact with your brand online 
+                    <div className="callout-text text-align-left">
+                        Print ads will be more effective if they are a complement to your digital campaigns to entice readers to interact with your brand online. 
                     </div>      
                 </div>
                 <div className="grid-right-photo container-image-block">
@@ -37,7 +39,7 @@ class print_design extends Component {
             <section className="grid-2col-photo-content" style={{height:'670px'}}> 
                 <div className="grid-left content-block-60 content-header flex-layout-column">
                     <div className="callout-text text-align-left text-black">
-                        Print and online marketing brings branding and representation to the goals of your business. Printed materials support online marketing. It covers a larger audience that respond to these marketing tools differently. We take care of each marketing aspect from web design to branding to tangible materials such as business cards, postcards, annual reports, magazines and more. 
+                        Printed materials help brand your business. It supports online marketing and covers a larger audience that respond to these marketing tools differently. We take care of each marketing aspect from web design to corporate identity to tangible materials such as business cards, postcards, annual reports, magazines and more. 
                     </div>                     
                 </div>
                 <div className="grid-right-photo container-image-block">
@@ -88,112 +90,44 @@ class print_design extends Component {
 
                 <div className="flex-layout-section thin-hr margin-top-100 align-self-center margin-bottom-100" style={{ width: '75%' }}></div>
 
-                <section className="grid-gallery grid-gap-20 content-header align-self-center margin-bottom-50 width-70">
-                    <div className="gallery-1 container-image-dd align-self-end">
-                        <img className="container-image-dd" src={wyp}  alt="World Team Tennis" /> 
-                        <p className="content-block-auto ">
-                            Women's Yellow Pages<br></br>
-                            Industry: Communication<br></br>
-                            Book publishing
-                        </p>
-                    </div>     
-                    <div className="container-image-dd gallery-3 align-self-end">
-                        <img className="container-image-dd"  src={ketchhot}  alt="Ketchhot" /> 
-                        <p className="content-block-auto ">
-                        Ketchhot<br></br>
-                        Industry: Food<br></br>
-                        Label printing
-                        </p>
-                    </div>
-                    <div className="gallery-4 container-image-dd align-self-end">
-                        <img className="container-image-dd"  src={bb}  alt="Body Bouquet" />
-                        <p className="content-block-auto ">
-                        Body Bouquet<br></br>
-                        Industry: Health and Beauty<br></br>
-                        Brochures
-                        </p>
-                    </div> 
-                    <div className="gallery-5 container-image-dd align-self-end">
-                        <img className="container-image image-size-50" src={avandia}  alt="Avandia" />
-                        <p className="content-block-auto ">
-                        Avandia<br></br>
-                        Industry: Pharmaceuticals<br></br>
-                        Label printing
-                        </p> 
-                    </div> 
-                    <div className="gallery-2 container-image-dd align-self-end">
-                        <img className="container-image-dd" src={guyuaba}  alt="Guyuaba" />
-                        <p className="content-block-auto ">
-                        Guyuaba<br></br>
-                        Industry: Food<br></br>
-                        Label printing
-                        </p> 
-                    </div> 
-                    <div className="gallery-6 container-image-dd align-self-end">
-                        <img className="container-image-dd" src={hcnrg}  alt="Hcnrg" />
-                        <p className="content-block-auto ">
-                        HCNRG<br></br>
-                        Industry: Solar Panels<br></br>
-                        Presentation materials
-                        </p> 
-                    </div> 
-                </section>
-
-                <section className="flex-layout-section-full flex-layout-center-center">
+             <section className="flex-layout-section-full flex-layout-center-center">
                 <div className="align-center align-items-center">
                     <ul className="grid-clients-wrapper align-items-center  width-70">
-                    <li  className="grid-clients-box">
+                    <li  className="grid-clients-box image subtitle text-white"  data-content=" Women's Yellow Pages">
                         <img className="width-100" src={wyp}  alt="Women's Yellow Pages" />
-                        <p className="content-block-auto ">
-                            Women's Yellow Pages<br></br>
-                            Industry: Communication<br></br>
-                            Book publishing
-                        </p></li>
-                    <li  className="grid-clients-box">
+                        </li>
+                    <li  className="grid-clients-box image subtitle text-white"  data-content="Ketchhot">
                         <img className="width-100 height-100"  src={ketchhot}  alt="Ketchhot" />
-                        <p className="content-block-auto ">
-                        Ketchhot<br></br>
-                        Industry: Food<br></br>
-                        Label printing
-                        </p></li>
-                    <li  className="grid-clients-box"> 
+                        </li>
+                    <li  className="grid-clients-box image subtitle text-white"  data-content="Body Bouquet"> 
                         <img className="width-100 height-100" src={bb}  alt="Body Bouquet" />
-                        <p className="content-block-auto ">
-                        Body Bouquet<br></br>
-                        Industry: Health and Beauty<br></br>
-                        Brochures
-                        </p></li>
-                    <li  className="grid-clients-box">
+                       </li>
+                    <li  className="grid-clients-box image subtitle text-white"  data-content="Avandia">
                         <img className="width-100 height-100" src={avandia}  alt="Avandia" />
-                        <p className="content-block-auto ">
-                        Avandia<br></br>
-                        Industry: Pharmaceuticals<br></br>
-                        Label printing
-                        </p></li>
+                        </li>
                     
-                    <li  className="grid-clients-box">
+                    <li  className="grid-clients-box image subtitle text-white"  data-content="Guyuaba">
                         <img className="width-100 height-100" src={guyuaba}  alt="Guyuaba" />
-                        <p className="content-block-auto ">
-                        Guyuaba<br></br>
-                        Industry: Food<br></br>
-                        Label printing
-                        </p></li>
-                    <li  className="grid-clients-box">
+                        </li>
+                    <li  className="grid-clients-box image subtitle text-white"  data-content="HCNRG">
                         <img className="width-100 height-100" src={hcnrg}  alt="HCNRG" />
-                        <p className="content-block-auto ">
-                        HCNRG<br></br>
-                        Industry: Solar Panels<br></br>
-                        Presentation materials
-                        </p></li>
+                       </li>
+                    <li  className="grid-clients-box image subtitle text-white"  data-content="HCNRG">
+                        <img className="width-100 height-100" src={donolow}  alt="Donolow Database" />
+                       </li>
+                    <li  className="grid-clients-box image subtitle text-white"  data-content="HCNRG">
+                        <img className="width-100 height-100" src={wtt}  alt="World Team Tennis" />
+                       </li>
                 </ul>
                 </div>
             </section>
-                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+            
+            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
                 <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
-                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
+                       <a href="../communication_insights"> <img className="width-70 flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
                       
                     <div className="flex-layout-center-center">
-                        <p className="content-header text-white flex-layout-column flex-layout-center-center">WDS designed and created a magazine called Combat Robot Mazazine.</p>
+                        <p className="content-header text-white flex-layout-column flex-layout-center-center">WDS designed and produced a magazine "Combat Robot"</p>
                     </div>
                 </div>
             </section>
