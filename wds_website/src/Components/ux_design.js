@@ -25,7 +25,7 @@ class ux_design extends Component {
                 </section>
                 <section className="grid-callout photo-content-color border-bottom-5" style={{height:'670px'}}> 
                     <div className="grid-callout-text grid-placeself-center content-block-75 content-header flex-layout-column">
-                        <div className="callout-title text-white margin-top-15">
+                        <div className="callout-title margin-top-15">
                              Empathetic Design
                         </div>
                         <div className="callout-text text-align-left text-white margin-top-15" >
