@@ -26,15 +26,15 @@ class clients extends Component {
                         Delivering the most outstanding experience for our clients.
                 </div>
             </div>
-            <div className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
-                <div className="grid-item-b content-block-60 content-header flex-layout-column">
-                    <div className="callout-text text-align-left text-white">
+            <section className="grid-callout photo-content-color border-bottom-5" style={{height:'670px'}}> 
+                    <div className="grid-callout-text grid-placeself-center content-block-75 content-header flex-layout-column">
+                        <div className="callout-title margin-top-15">
                         For over twenty years WDS has worked and partnered with some amazing people and businesses. We hope to see your name in the list below in the near future.</div>        
                 </div>
-                <div className="item-a-nb container-image-block">
-                    <img className="container-photo-callout" src={clients1}  alt="shaking hands" /> 
+                <div className="grid-callout-photo grid-placeself-center">
+                        <img className="container-photo-callout" src={clients1}  alt="Clients" /> 
                 </div>
-            </div>
+            </section>
 
             <section className="content-header flex-layout-center-center flex-layout-column margin-bottom-100">
                 <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-50">
