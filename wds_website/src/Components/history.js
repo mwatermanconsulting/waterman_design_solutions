@@ -1,7 +1,7 @@
 import React, { Component } from 'react' ;
 import history from '../images/backgrounds/bg-ourhistory.png'
 import photo_history from '../images/photos/photo-history-s1.png'
-import avandia from '../images/photos/photo-history-avandia.png'
+import firemen from '../images/graphic-firemen.svg'
 import before_after from '../images/photos/photo-history-before-after.png'
 import chemtech from '../images/photos/photo-history-chemtech.png'
 import lessons from '../images/photos/photo-history-lessons.png'
@@ -156,10 +156,13 @@ class about extends Component {
                             </div>
                     </section>
 
-                    <div className="flex-layout-section-full width-100 grey margin-top-50 border-tb-5 flex-layout-center-center" 
-                          style={{minHeight: '275px'}}>
-                            <p className="callout-text-lg">Need a quote and an image for a user break</p>
-                    </div>
+                    <section className="grid-2col-photo-text align-items-center grey margin-top-50 border-tb-5">
+                        
+                              <img src={firemen}  className="col2-photo width-40 justify-self-center" alt="Wds puts out the fires"/> 
+                              <div className="col2-text  content-block-55 txt-white padding" > 
+                            WDS puts out a lot of fires for businesses!</div>
+                        
+                    </section>
                     
                    <section className="flex-layout-section-full align-items-center  margin-top-100">
                         <div className="title content-block-55">
