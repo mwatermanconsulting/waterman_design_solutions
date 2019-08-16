@@ -83,7 +83,8 @@ class clients extends Component {
                        <a href="../communication_insights"> <img className="width-70 align-center margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
                       
                     <div className="flex-layout-center-center">
-                        <p className="content-header text-white flex-layout-column flex-layout-center-center"> WDS data visualizations design solutions are being used by the world’s largest brands <p><i><a href="../case_study_3">Learn More</a> </i></p> </p>
+                        <p className="content-header text-white flex-layout-column flex-layout-center-center"> WDS data visualizations design solutions are being used by the world’s largest brands</p> 
+                        <p className="text-align-center margin-top-25" ><button onclick="location.href='./case_study_3';" type="button" value="Learn More" className="button-white margin-top-50 font-size-24">Learn More</button></p> 
                     </div>
                 </div>
             </section> 

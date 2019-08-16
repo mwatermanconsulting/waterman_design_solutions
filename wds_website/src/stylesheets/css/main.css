@@ -1297,7 +1297,7 @@ Button {
   font-weight: 500;
   font-size: 1.2rem;
   text-align: center;
-  background-color: #fff .2;
+  background-color: unset;
   font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif; }
 
 Button:hover {
@@ -1313,7 +1313,16 @@ Button:hover {
   margin: 5px;
   font-weight: 500;
   font-size: 1.2em;
-  background-color: #fff;
+  display: inline-block;
+  text-align: center; }
+
+.button-white {
+  border: #fff solid 1px;
+  color: #fff;
+  white-space: nowrap;
+  margin: 5px;
+  font-weight: 500;
+  font-size: 1.2em;
   display: inline-block;
   text-align: center; }
 
