@@ -282,7 +282,7 @@ class about extends Component {
                        <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
                       
                     <div className="flex-layout-center-center">
-                        <p className="content-header text-white flex-layout-column flex-layout-center-center"> Surreal Concepts used the now popular blue and orange color combination back in the early 2000s.</p>
+                        <p className="content-header text-white flex-layout-column flex-layout-center-center"> Surreal Concepts has always been ahead of the trends, our first company website used the blue and orange color combination back in the early 2000s.</p>
                     </div>
                 </div>
             </section>
