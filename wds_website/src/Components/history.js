@@ -66,36 +66,31 @@ class about extends Component {
                 </section>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
-
-            <section className="flex-layout-section-full align-items-center">
-                <div className="subtitle content-block-55">
+           
+                <section className="flex-layout-section-full align-items-center">
+                    <div className="subtitle content-block-55">
                             Publishing Venture</div>
-                <div className="content-block-55">
-                            <p className="content-text-18 margin-top-15"> 
+                    <div className="content-block-55">
+                        <p className="content-text-18 margin-top-15"> 
                             In the mid-90s Terri did onsite consulting and published New Drug Applications for the FDA at Zeneca Pharmaceuticals using Interleaf software. Web design was in its infancy, and she joined a web team by 1998, creating intranet websites for different divisions to improve group communication. Knowledge of code was crucial to digital design, and she fostered relationships with other software engineers to learn about their craft in order to assimilate design to their products.</p>
-                <ul className="grid-portfolio"  >
-                    <li className="grid-image-portfolio" >
-                        <img className="image-portfolio" src={history_az}  alt="AstraZeneca" /> 
-                    </li>     
-                    <li className="grid-image-portfolio" >
-                        <img className="image-portfolio"  src={history_seroquel}  alt="Seroquel" /> 
-                        
-                    </li>
-                    <li className="grid-image-portfolio" >
-                        <img className="image-portfolio"  src={history_sps}  alt="SPS" />
-                        
-                    </li> 
-                    <li className="grid-image-portfolio" >
-                        <img className="image-portfolio" src={history_chemtech}  alt="ChemTech" />
-                        
-                    </li> 
-                </ul>
-                
+                    <div className="ltgrey2">
+                            <p className="margin-top-15 caption"><img className="container-image-500 margin-top-25" src={seroquel} alt="Seroquel"/><br></br>
+                            <i>Seroquel</i></p>
+                            <p className="margin-top-15 caption"><img className="container-image-500 margin-top-25" src={chemtech} alt="Chemtech"/><br></br>
+                            <i>Chemtech</i></p>
+                            <p className="margin-top-15 caption"><img className="container-image-500 margin-top-25" src={rdeb} alt="RDEB"/><br></br>
+                            <i>RDEB</i></p>
+                            <p className="margin-top-15 caption"><img className="container-image-500 margin-top-25" src={noticeboards} alt="AZ Noticeboards"/><br></br>
+                            <i>AZ Noticeboards</i></p>
+                            <p className="margin-top-15 caption"><img className="container-image-500 margin-top-25" src={sps} alt="SPS"/><br></br>
+                            <i>SPS</i></p>
                             <p className="content-text-18">
                             The first big client Surreal Concepts landed after incorporating as a C corporation was a label manufacturer Apogee Industries. They printed flexographic labels for Smithkline Beecham, Roos Foods, SmithKline, and Boiron Homeopathics. </p>
+                            <p className="margin-top-15 caption"><img className="container-image-500 margin-top-25" src={wallys} alt="Wally's"/><br></br>
+                            <i>Wally's</i></p>
                         </div>
-                    
-                     </section> 
+                    </div>
+                </section> 
 
                      <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
@@ -104,6 +99,9 @@ class about extends Component {
                             Investing in Digital Design Skills</div>
                             <p className="content-text-18 content-block-55 margin-top-15"> 
                             Terri then worked for InvestorForce, provider of investment analytics and reporting solutions for institutional consultants. She redesigned the entire website, meeting aggressive deadlines, and established a successful working relationship with CEO. She initiated a project for the redesign of an acquired company, Altvest. Traveling to NYC, she managed, directed and implemented the site architecture and design, working with a 9-person team of web developers and product managers. Designing and developing different prototypes for different products throughout the site, improving the design and introducing better user experience. This project increased knowledge of programming code and quality assurance systems to quickly work effectively with all groups involved.</p>
+
+                           
+
                     </section>
 
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
@@ -114,6 +112,15 @@ class about extends Component {
                         <div className="content-block-55">
                             <p className="content-text-18 margin-top-25"> 
                             By 2001 Surreal Concepts was focused on building websites and marketing campaigns for small to mid-size companies, ranging from B2Bs to consumer products.</p>
+
+                        <div className="ltgrey2">   
+                            <p className="margin-top-15 caption"><img className="container-image-500 margin-top-25 " src={four} alt="411"/><br></br>
+                            <i></i>SavTraveler</p>
+                            <p className="margin-top-15 caption"><img className="container-image-500 margin-top-25 " src={pw} alt="Pearly Whites"/><br></br>
+                            <i>Pearly Whites</i></p>
+                            <p className="margin-top-15 caption"><img className="container-image-500 margin-top-25 " src={taws} alt="TAWS"/><br></br>
+                            <i>TAWS</i></p>
+                        </div>
                             <p className="content-text-18">
                             In early 2002, a UX informational site called Web First Aid was created for website design, which included studies done at Stanford University and the Neilson Norman Group, two credible resources in usability, backed with data to support their research.</p>
                             <p className="content-text-18">
@@ -127,9 +134,14 @@ class about extends Component {
                     <section className="flex-layout-section-full align-items-center">
                         <div className="subtitle content-block-55">
                             Our First Youtube Video</div>
-                        <span className="content-block-55 margin-top-25" style={{backgroundColor: 'black'}}>
-                        <iframe width="70%" height="450px" style={{marginLeft: '100px'}} src="https://www.youtube.com/embed/BHQSXijoCVY?controls=0&amp;start=3" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </span>
+                        <div classname="video content-block-55">
+                        <iframe src='https://www.youtube.com/embed/BHQSXijoCVY'
+        frameBorder='0'
+        allow='autoplay; encrypted-media'
+        allowFullScreen
+        title='video'
+        width='90%'
+/></div>
                     </section>
                     
                         
@@ -146,10 +158,14 @@ class about extends Component {
                             </div>
                     </section>
 
-                    <div className="flex-layout-section-full width-100 grey margin-top-50 border-tb-5 flex-layout-center-center" 
-                          style={{minHeight: '275px'}}>
-                            <p className="callout-text-lg">Need a quote and an image for a user break</p>
-                    </div>
+                    <section className="grid-2col-photo-text align-items-center grey margin-top-50 border-tb-5">
+                        
+                              <img src={firemen}  className="col2-photo width-70 justify-self-end margin-tb-50" alt="Wds puts out the fires"/> 
+                              <div className="col2-text subtitle text-white padding" > 
+                            WDS puts out a lot of fires for businesses!</div>
+                        
+                    </section>
+
                     
                    <section className="flex-layout-section-full align-items-center  margin-top-100">
                         <div className="title content-block-55">
@@ -206,14 +222,14 @@ class about extends Component {
                 </div>
                 <div className="flex-layout-section-full flex-layout-center-center margin-top-100"> 
                     <div className="title">Our Leaders</div>
-                    <div className="container-grid-2col-full margin-top-100 margin-bottom-100 flex-layout-center-center" style={{width: '75%'}}> 
+                    <div className="container-grid-2col-full margin-top-100 margin-bottom-100 flex-layout-center-center width-70"> 
                    
                     <div className="grid-item-2a">
                         <div className="content-block-services flex-layout-row ">
                         <img className="photo-container-xsm" src={mike} alt="Michael Photos"/> 
                         <div className="flex-layout-column">
                             <p className="subtitle margin-left-15">Michael Waterman</p>
-                            <p className="margin-left-15"><i>President, Business Consultant, UX/UI designer, Genius</i></p>
+                            <p className="content-text-18 margin-left-15"><i>President, Business Consultant, UX/UI designer, Genius</i></p>
                         </div>
                     </div>
                     <div className="content-block-services margin-top-25">

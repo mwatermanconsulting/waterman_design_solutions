@@ -2,6 +2,7 @@
   
   .subtitle {
     font-size: 1.5rem;
+    margin-top: 15px;
   }
 /*******************************
           Grid
@@ -108,15 +109,20 @@
 
   .grid-2col-text-photo {
     grid-template-columns: 1fr;
-    grid-template-areas: "text" "photo";
-    grid-column-gap: 50px;
+    grid-template-rows: auto;
+    grid-template-areas: "text " "photo";
+    grid-column-gap: 0px;
     display: grid;
   }
   .grid-2col-photo-text {
     grid-template-columns: 1fr;
-    grid-template-areas: "text" "photo";
-    grid-column-gap: 50px;
+    grid-template-rows: auto;
+    grid-template-areas: "photo" "text ";
+    grid-column-gap: 0px;
     display: grid;
+  }
+  .padding {
+    padding: 10px;
   }
   .col4-text {
     grid-area: text;
@@ -129,6 +135,7 @@
   }
   .grid-callout {
     grid-template-columns: 1fr;
+    grid-template-rows: auto;
     grid-template-areas: "text " "photo";
     display: grid;
   }
@@ -267,13 +274,20 @@
   font-weight: 500;
   line-height: 1.5;
   font-family: 'Roboto';
-  color: #fff;
-  font-weight: 400;
+  color: #000;
+  font-weight: 700;
+  text-align: left;
+
+}
+.content-block-services {
+
+  width: 90%;
+  margin: 10px;
 
 }
 .callout-text-lg {
   font-size: 1.5rem;
-  font-family: 'Roboto Bold', serif;
+  font-family: 'Roboto Bold', sans-serif;
   line-height: 2.12;
   letter-spacing: 0.8px;
   text-align: center;
@@ -281,7 +295,7 @@
 }
 .callout-text {
   font-size: 1.25rem;
-  font-family: 'Roboto Bold', serif;
+  font-family: 'Roboto Bold', sans-serif;
   line-height: 2.12;
   letter-spacing: 0.8px;
   text-align: center;
@@ -289,7 +303,7 @@
 }
 .callout-text-black {
   font-size: 1.25rem;
-  font-family: 'Roboto Bold', serif;
+  font-family: 'Roboto Bold', sans-serif;
   line-height: 2.12;
   letter-spacing: 0.8px;
   text-align: center;
@@ -299,6 +313,24 @@
   width: 95%;
 }
 .content-block-60 {
+  width: 90%;
+}
+.content-block-55 {
+  width: 90%;
+}
+.content-header {
+  width: 90%;
+  text-align: center;
+  align-self: center;
+}
+.container-image-500 {
+  width: 90%;
+}
+.container-photo-callout {
+  width: 100%;
+  height: auto;
+}
+.width-60 {
   width: 90%;
 }
 .card-case-studies {

@@ -3,6 +3,7 @@ $black: #000;
 $offwhite: #E3CEB6;
 $green: #008000;
 $grey:#6c8086;
+$ltgrey2: #e6e6e6;
 $grey2 : #a6bbc0;
 $greeny-blue:#3eaca9;
 $lightgreen: #87A6AB;
@@ -45,6 +46,9 @@ $colorone: #fbb424;
   
   .red {
     background-color: $red !important;
+}
+.ltgrey2 {
+  background-color: $ltgrey2 !important;
 }
   
 .pink {
