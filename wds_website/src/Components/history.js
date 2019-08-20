@@ -1,18 +1,26 @@
 import React, { Component } from 'react' ;
-import '../stylesheets/css/main.css';
 import history from '../images/backgrounds/bg-ourhistory.png'
-
-import history_az from '../images/photos/photo-history-az.png'
-import history_sps from '../images/photos/photo-history-sps.png'
-import history_chemtech from '../images/photos/photo-history-chemtech.png'
-import history_noticeboards from '../images/photos/photo-history-noticeboards.png'
-import history_seroquel from '../images/photos/photo-history-seroquel.png'
 import photo_history from '../images/photos/photo-history-s1.png'
+import firemen from '../images/graphic-firemen.svg'
+import before_after from '../images/photos/photo-history-before-after.png'
+import chemtech from '../images/photos/photo-history-chemtech.png'
+import lessons from '../images/photos/photo-history-lessons.png'
+import noticeboards from '../images/photos/photo-history-noticeboards.png'
+import seroquel from '../images/photos/photo-history-seroquel.png'
+import sps from '../images/photos/photo-history-sps.png'
+import surreal from '../images/photos/photo-history-surreal-quarter-ad.png'
+import wallys from '../images/photos/photo-history-wallys.png'
+import wfa from '../images/photos/photo-history-wfa.png'
+import four from '../images/photos/photo-history-411.jpg'
+import asd from '../images/photos/photo-history-asd.png'
+import pw from '../images/photos/photo-history-pw.png'
+import rdeb from '../images/photos/photo-history-rdeb.jpg'
+import taws from '../images/photos/photo-history-taws.png'
 import history_3 from '../images/photos/photo-history-s3.png'
 import time from '../images/WDS-timeline.png'
 import mike from '../images/mike.png';
 import terri from '../images/terri.png';
-import didyouknow from '../images/graphic-didyouknow.png';
+import didyouknow from '../images/graphic-didyouknow.svg';
 
 class about extends Component {
     render () {
