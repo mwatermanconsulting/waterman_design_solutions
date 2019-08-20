@@ -117,6 +117,32 @@ Effective marketing videos have a conversational tone. It creates an individual 
 - Mark Schaefer, the Executive Director of Schaefer Marketing Solutions</p>
                     
                 </section>
+                <section className="flex-layout-section-full flex-layout-center-center">
+                <div className="align-center align-items-center">
+                    <ul className="grid-clients-wrapper align-items-center  width-70">
+                    <li  className="grid-clients-box "  data-content="ACD">
+                    <iframe className="width-100 height-100" src="https://youtu.be/Us_1q7_nbLo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </li>
+                    <li  className="grid-clients-box "  data-content="White Wolf Consulting"> 
+                    <iframe className="width-100 height-100" src="https://www.youtube.com/embed/2PjgxbyNKdI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                       </li>
+                    <li  className="grid-clients-box "  data-content="Kinetix">
+                    <iframe className="width-100 height-100" src="https://www.youtube.com/embed/Us_1q7_nbLo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </li>
+                    
+                    <li  className="grid-clients-box "  data-content="Norwood Company">
+                    <iframe  className="width-100 height-100" src="https://www.youtube.com/embed/Pr6iJJCwswM" frameborder="0" allow="accelerometer; autoplay;  picture-in-picture" allowfullscreen></iframe>
+                        </li>
+                    <li  className="grid-clients-box "  data-content="Pierre and Carlo">
+                    <iframe className="width-100 height-100" src="https://www.youtube.com/embed/_y_Ut3PQ4_M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                       </li>
+                    
+                </ul>
+                </div>
+            </section>
+                
+                
+                       
                   
         </div>
         </div>

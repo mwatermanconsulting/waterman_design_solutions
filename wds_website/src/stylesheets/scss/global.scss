@@ -69,6 +69,12 @@ a {
   color: $greeny-blue!important;
 }
 
+a.black {
+  color: black!important;
+}
+a:hover {
+  color: black!important;
+}
 .no-decoration {
   color: none;
   text-decoration: none;
@@ -118,13 +124,13 @@ h1 {
   font-weight: 700;
   letter-spacing: 0.8px;
   text-align: center;
-  color: $white;
+  color: $black;
 }
 
 
 .callout-text-lg-black {
   font-size: 2rem;
-  font-family: 'Roboto', serif;
+  font-family: 'Oswald', serif;
   line-height: 2.12;
   letter-spacing: 0.8px;
   font-weight: 700;
@@ -134,7 +140,7 @@ h1 {
 
 .callout-text-lg {
   font-size: 2rem;
-  font-family: 'Roboto', serif;
+  font-family: 'Oswald', serif;
   line-height: 2.12;
   letter-spacing: 0.8px;
   text-align: center;
