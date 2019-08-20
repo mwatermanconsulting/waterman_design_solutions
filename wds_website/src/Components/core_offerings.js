@@ -1,7 +1,7 @@
 import React, { Component } from 'react' ;
 import offerings from '../images/backgrounds/bg-core-studies.png';
-import ux from '../images/ux_process.png';
-import services from '../images/graphic-services.svg';
+import innovation2 from '../images/ux_process.png';
+import itcss from '../images/graphic-services.svg';
 import offerings_photo from '../images/photos/photo-core-offerings-s3.png';
 import didyouknow from '../images/graphic-didyouknow.png';
 
@@ -15,7 +15,7 @@ class core_offerings extends Component {
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg">
-                     Creating Design Solutions that Matters
+                        Your Design Support
                 </div>
             </div>
             <div className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
@@ -31,51 +31,194 @@ class core_offerings extends Component {
                         <img className="container-photo-callout" src={offerings_photo}  alt="shaking hands" /> 
                     </div>
             </div>
-            <section className="container-grid-2col-photo flex-layout-column flex-layout-justified-center margin-top-100" style={{height:'680px'}}>
-                <div className="grid-title">
-                    <div className="title">The most important part of all is that the entire company have alignment<br/> and clarity on the story of the product - why it exists, who it serves, how it benefits the user.
+            <section className="flex-layout-column flex-layout-center-center margin-top-100">
+                    <div className="subtitle content-block-65">
+                        Our core offerings are to ensure your business success by instilling design on a core level. It has been proven that companies that value design and instill a culture of design from the c-suite down increase business by 30%. We have devised a series of strategies and workshops based on empathy for our clients and users to help our clients achieve lasting success by being responsive to your users needs.    
+
                     </div>
-                        <div className="content-block-15">
-                            <p className="subtitle margin-top-25" style={{width:'90%'}}> WDS can instill a design culture into your company through a series of workshops talks and business design strategies. Our c-suite workshops provide design data and proven strategies to effectively communicate design into meetings and corporate communications. We can mentor your teams and provide advanced workshops for design strategists.
+                        <div className="content-block-65">
+                            <p className="subtitle margin-top-25"> 
+                            WDS can instill a design culture into your company through a series of workshops talks and business design strategies. Our c-suite workshops provide design data and proven strategies to effectively communicate design into meetings and corporate communications. We can mentor your teams and provide advanced workshops for design strategists.
                             </p>
                         </div>
-                </div>
             </section>
-                <div className="flex-layout-section-full flex-layout-column padding flex-layout-center-center grey">
-                    <div className="title">In Context Case Study - UX Steering Team</div>
-                        <div className="subtitle text-white">Design Strategy</div>
-                        <p className="content-text-21 margin-top-25" style={{width:'85%'}}>
+
+            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+            <section className="flex-layout-section-full align-items-center flex-layout-column">
+                <div className="subtitle content-block-65">
+                    Common Business Design Problems, with a WDS design solution
+                </div>
+                <ul className="dashed content-block-65 margin-top-25 content-text-21">
+                    <li>Business lost touch with its core values</li>
+                    <li>C-Suite not communicating value of design</li>
+                    <li>Communication issues between teams - teams working on an island</li>
+                    <li>UX teams not aligned with programmers</li> 
+                    <li>No Developer Design Guidance</li>
+                    <li>No Developer Design Support</li>
+                    <li>No Design Valuation or Metrics</li>
+                    <li>No Consistency between offerings</li> 
+                    <li>Programmers Designing </li>
+
+                </ul>
+            </section>
+
+            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+            <section className="grid-2col-photo-content content-header">
+                <div className="grid-left flex-layout-section-full">
+                    <div className="title text-grey">
+                        Communication Workshops & Strategies  
+                    </div>
+                    <div className="subtitle margin-top-15">
+                        If everyone is moving forward together, then success takes care of itself. - Henry Ford 
+                    </div>
+                    <div className="content-block-75 content-text-18 margin-top-15">
+                        <p className="content-text-18"> 
+                        One of the greatest issues facing all companies is communication between teams. Large companies can have teams spread all over the world. Each working on an islands not knowing what the other teams are working on, bringing on issues of not being consistent. WDS has solved communication issues for Motorola, Stubhub.</p>
+                        <p className="content-text-18">
+                        We have communication experts that will observe and evaluate your companies interactions between teams. We will then provide custom strategies and workshops. Below is a communication strategies case study that we developed for OSI. </p>
+                    </div>
+                </div>
+                <div className="grid-right-css container-image-block">
+                    <img className="photo-container" src={itcss}  alt="Stakeholder Interview" /> 
+                </div>     
+                </section>
+                <section className="flex-layout-section-full flex-layout-column padding flex-layout-center-center                  green margin-top-50">
+                    <div className="title text-white">
+                            In Context Case Study - UX Steering Team
+                    </div>
+                        <div className="subtitle text-white margin-top-25">
+                            Communication Design Strategy
+                    </div>
+                        <p className="content-block-65 content-text-21 margin-top-25" style={{width:'85%'}}>
                             WDS Observed design issues stemming from teams not communicating and software engineers designing in a silo. 
                             </p>
-                        <p className="content-text-21 margin-top-15" style={{width:'85%'}}>Issue - 
-                            The project was for design and development of a data visualization tool. For the project the user would visit two other online portals. One being a login portal where the users sets preferences, which was being developed in Toronto and the second one was security and server settings, being developed in Tennessee. After critiquing the two portals WDS presented the design issues found to the stakeholders. We visually showed the consistently issues with colors, icons and workflows. This was the first time the stakeholders were shown a comparison of their applications side by side. We also show how the lack of requirements resulting in developers building non responsive web based SaaS applications. 
-
+                        <p className="content-text-21 content-block-65 margin-top-15" style={{width:'85%'}}>
+                            <b>Issue - </b>
+                            This project involved the design and development of the companies first SaaS offering, a data visualization tool. The sign in workflow involved the user to visit two other online portals. WDS was asked to meet with the Toronto team, that was developing the login portal, that would provide access to the data visualization application. After the team presented the design for the portal WDS immediately notice design consistency issues. The team also told us they had no design requirements for colors, spacing or branding, there were not even requirements for a responsive design. After finding the same issues with  the Tennessee team, it was clear a communication problem existed. In order to make our point WDS designed critiqued the three applications and presented our findings to the stakeholders. After sharing a screenshots that showing the obvious inconsistencies between the family of applications the one of the stakeholders stated "I think we have a problem". This was the first time the stakeholders looked at their applications with a designer and a strategy was needed to not only help the company develop a standards and guidance style guide and design system. A communication solution was also needed, one that would evangelize standards while providing guidance and support to the developers on different teams. 
                         </p>
 
-                        <p className="content-text-21 margin-top-15" style={{width:'85%'}}>Strategy-
-
-                            Creation of the UX Steering team. In response to the issues the best strategy was to create a design support team within the company. The goal of this team was to set a list of design standards and to have monthly meeting occuring one week into a scrum cycle. The meetings would give a voice to the software engineers to talk to other teams communicating design and coding strategies and providing guidance and support. Sharing what each team was working on and to overall take away that feeling of working and designing alone.
-
-
+                        <p className="content-block-65 content-text-21 margin-top-15" style={{width:'85%'}}>
+                            <b>Strategy-</b>
+                            In response we proposed the creation of a UX Steering team. In response to the issues the best strategy was to create a design support team within the company. The goal of this team was to set a list of design standards and to have monthly meeting occuring one week before a scrum cycle. The meetings would give a voice to the software engineers to talk to other teams communicating design and coding strategies and providing guidance and support. One of the main goals of this team was to eliminate duplicate feature development. For example two different teams creating the same or worse slightly different data tree view.
                         </p>
 
-                        <p className="content-text-21 margin-top-15" style={{width:'85%'}}>Results-
-
-                            The UX Steering was a unique strategy for a common problem. It helped with communication issues and provided a forum to talk about design and the user within the company. It also provided a roadmap to product consistency. WDS also provided CSS Solutions helper and global classes, responsive HTML templates to the Steering team. WDS also developed workshops for CSS, SASS and Responsive development. WDS moved on to the creation and development of the company Style Guides and Design System to support the long time strategy vision of UX Steering team higher goal of product consistency.
-
-
-
+                        <p className="content-block-65 content-text-21 margin-top-15" style={{width:'85%'}}>Results
+                            The UX Steering was a unique strategy for a common problem. It helped with communication issues and provided a forum to talk about design and the user within the company. It also provided a road map to product consistency. WDS also provided CSS Solutions with the creation of helper and global CSS classes, and flexbox responsive design. WDS also developed workshops for CSS, SASS and Responsive development. WDS moved on to the creation and development of the company Style Guides and Design System to support the long time strategy and vision of UX Steering team of product consistency.
                         </p>
 
-            `   </div>
-            <div className="container-grid-3col flex-layout-center-center margin-top-100" style={{marginLeft: '15%'}}>
-                <div className="content-block-75">
-                    <div className="subtitle">Design Solutions</div>
-                        <p className="content-text-21 margin-top-15" style={{width:'85%'}}>Blending teams of strategists, researchers, designers and developers together guarantees strong communication, collaboration and team success. Combined with better communication we focus on design approved solutions. Developing the front-end with custom style sheets and prototypes faster than offshore or in-house. 
-                        </p>
-                        <p className="content-text-21 margin-top-25"><b>Key Services</b></p>
-                    <ul className="content-text-21 margin-top-15">
-                        <li>Customer/ User Insights</li>
+            `   </section>
+          
+
+            <section className="float-left align-items-center flex-layout-column margin-top-75">
+                <div className="title content-block-60">
+                            Design Solutions
+                </div>
+                <div className="subtitle content-block-60 margin-top-15">
+                            Spreading the Business Value of Design
+                </div>
+                <div className="content-block-60 content-text-18 margin-top-15">
+                    <div className="float-right">
+                        <img className="photo-container"  src={innovation2}  alt="Stakeholder Interview" /> 
+                    </div>
+                     <p className="content-text-18"> 
+                        Our design workshops were built with empathy for the engineers and developers. Companies place too many design decisions on non-designers. Add poor communication to the mix, you end up product inconsistencies, confusing UI development and the user gets forgotten.</p>
+                            
+                    <p className="content-text-18"> Our strategies and workshops will keep your developers focused on what they do best, code. Along with developing a design system we mentor your teams on the value of design and how support support on another.</p>
+                    
+                        <p className="content-text-21 align-self-center margin-top-25"><b>Design Workshops</b></p>
+                    </div>
+                    <ul className="dashed align-self-center content-block-60 margin-top-5 content-text-21">
+                    <li>Importance of Design Standards</li>
+                    <li>Design Critique Sessions</li>
+                    <li>Writing Design Requirements </li>
+                    <li>Developer Design Guidance Strategies</li>
+                    <li>Developer Design Support Solutions</li>
+                </ul>
+                </section>
+
+                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+                <section className="float-left align-items-center flex-layout-column">
+                <div className="title content-block-60">
+                    C-Suite Business Design Strategies and Workshops
+                </div>
+                <div className="subtitle content-block-60 margin-top-15">
+                    Design Communication Needs to Begin at the Top
+                </div>
+                <div className="content-block-60 content-text-18 margin-top-15">
+                    <div className="float-right">
+                        <img className="photo-container"  src={innovation2}  alt="Stakeholder Interview" /> 
+                    </div>
+                     <p className="content-text-18"> 
+                     Design direction and value begins at the top. Studies have shown that companies that value design that come from the top increase their business by 30%. In order to survive in todays digital world, design needs to have the same importance as sales. Companies must change their design perspective in order to see the true value design on its business  </p>
+ 
+                     <p className="content-text-18">Covers the need for design support and guidance within companies. Learn how to incorporate design requirements into your backlogs. This service will empower management to understand the value of design with strategies that will make changes on a core level by guiding management on companies weaknesses and action plans to solve those issues. </p>
+                    
+                        <p className="content-text-21 align-self-center margin-top-25"><b>Key Services</b></p>
+                    </div>
+                    <ul className="dashed align-self-center content-block-60 margin-top-5 content-text-21">
+                    <li>Communicating Design Standards</li>
+                    <li>Design Thinking Strategies</li>
+                    <li>Long term design solutions</li>
+                    <li>5yr, 10yr design and UX strategies</li>
+                    <li>Empathy and your Customers</li>
+                    <li>Do you know your Enemy</li>
+                    <li>Revising your Companies Purpose and Values</li>
+                </ul>
+                </section>
+
+                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+                <section className="float-left align-items-center flex-layout-column">
+                <div className="title content-block-60">
+                    UX Team Strategies and Workshops 
+                </div>
+                <div className="subtitle content-block-60 margin-top-15">
+                    Strategies to ensure the user is involved in every decision
+                </div>
+                <div className="content-block-60 content-text-18 margin-top-15">
+                    <div className="float-right">
+                        <img className="photo-container"  src={innovation2}  alt="Stakeholder Interview" /> 
+                    </div>
+                     <p className="content-text-18"> 
+                     Design direction and value begins at the top. Studies have shown that companies that value design that come from the top increase their business by 30%. In order to survive in todays digital world, design needs to have the same importance as sales. Companies must change their design perspective in order to see the true value design on its business  </p>
+ 
+                     <p className="content-text-18">Covers the need for design support and guidance within companies. Learn how to incorporate design requirements into your backlogs. This service will empower management to understand the value of design with strategies that will make changes on a core level by guiding management on companies weaknesses and action plans to solve those issues. </p>
+                    
+                        <p className="content-text-21 align-self-center margin-top-25"><b>Key Services</b></p>
+                    </div>
+                    <ul className="dashed align-self-center content-block-60 margin-top-5 content-text-21">
+                    <li>UX Strategies shorrt & long term</li>
+                    <li>UX team analysis</li>
+                    <li>Empathy Workshops</li>
+                    <li>Design Critique Workshops</li>
+                
+                
+                </ul>
+                </section>
+
+                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+                <section className="float-left align-items-center flex-layout-column">
+                <div className="title content-block-60">
+                        Customer Experience Solutions 
+                </div>
+                <div className="subtitle content-block-60 margin-top-15">
+                    Strategies to ensure the user is involved in every decision
+                </div>
+                <div className="content-block-60 content-text-18 margin-top-15">
+                    <div className="float-right">
+                        <img className="photo-container"  src={innovation2}  alt="Stakeholder Interview" /> 
+                    </div>
+                     <p className="content-text-18"> 
+                     Customer experience (CX) is the new competitive battleground for today's companies. WDS will help you find the strategic intersection between your high-value customers and the critical enhancements required at specific touchpoints in your larger customer experience journey. </p>
+                    
+                        <p className="content-text-21 align-self-center margin-top-25"><b>Key Services</b></p>
+                    </div>
+                    <ul className="dashed align-self-center content-block-60 content-text-21">
+                    <li>Customer/ User Insights</li>
                         <li>Experienced Based Personas</li>
                         <li>Journey Maps</li>
                         <li>Service Design</li>
@@ -83,8 +226,9 @@ class core_offerings extends Component {
                         <li>Prioritized Insights</li>
                         <li>Experience Strategy Roadmap</li>
                         <li>Project and Agile Services</li>
-                    </ul> 
-                </div> 
+                </ul>
+                </section>
+                   
                 <div className=" content-block-75">
                     <div className="subtitle">Customer Experience Solutions</div>
                         <p className="content-text-21 margin-top-15" style={{width:'80%'}}>Customer experience (CX) is the new competitive battleground for today's companies. WDS will help you find the strategic intersection between your high-value customers and the critical enhancements required at specific touchpoints in your larger customer experience journey.
@@ -117,7 +261,7 @@ class core_offerings extends Component {
                         <li>Project and Agile Services</li>
                     </ul>
                 </div> 
-            </div>    
+               
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
                 <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
                        <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>

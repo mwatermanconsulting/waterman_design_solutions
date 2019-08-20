@@ -388,7 +388,6 @@ class methodology extends Component {
                                 <li><a href="../style_guide">Graphic Design</a></li>
                                 <li><a href="../style_guide">Marketing</a></li>
                                 <li><a href="../style_guide">Video</a></li>
-                
                             </ul>
                         </div>
                         

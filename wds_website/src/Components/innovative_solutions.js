@@ -31,7 +31,7 @@ class innovative_solutions extends Component {
                              
                 </div>
                 <div className="item-a-nb container-image-block">
-                    <img className="container-photo-callout" src={innovation1}  alt="shaking hands" /> Photo by George Hiles on Unsplash
+                    <img className="container-photo-callout" src={innovation1}  alt="shaking hands" /> Photo by             George Hiles on Unsplash
                 </div>
             </section>
     
