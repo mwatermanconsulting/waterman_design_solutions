@@ -42,7 +42,6 @@ class css_solutions extends Component {
                 </div>
                 <button type="button" className="margin-top-50 font-size-24"><a href="case_study_4">
                         OsiSoft CSS Case Study </a></button>
-
             </section>
 
             <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
