@@ -2735,6 +2735,27 @@ ul.menu > li.dropdown {
     grid-template-rows: auto;
     grid-gap: 10px;
     display: grid; }
+
+  .grid-portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      grid-gap: 20px;
+      align-items: stretch;
+      list-style: none;
+      margin: 0 auto;
+      padding: 0;
+    }
+    .grid-image-portfolio {
+      height: 500px;
+      max-width: 100%;
+      display: block;
+    }
+    .image-portfolio{
+      width: 50%;
+      height: 100%;
+    }
+    
+  
   .grid-footer-item-1 {
     grid-column: 1/1;
     grid-row: auto;

@@ -375,6 +375,15 @@
   grid-area: content;
 }
 
+.container-portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
 .container-image-dd {
   width: 350px;
 }
@@ -383,6 +392,14 @@
 }
 .container-image-500 {
   width: 500px;
+}
+.container-image-portfolio {
+  height: 250px;
+  max-width: 100%;
+}
+.image-portfolio{
+  width: 100%;
+  height: 100%;
 }
 
 .grid-gallery-2col {

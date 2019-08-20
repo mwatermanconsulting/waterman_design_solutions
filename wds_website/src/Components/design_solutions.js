@@ -49,8 +49,8 @@ class design_solutions extends Component {
                     <p className="title text-align-center margin-top-100">
                         "A consistent experience is a better experience.” - Mark Eberman
                     </p>   
-                        <p className="subtitle text-align-center">
-                        Consistency across products, applications, marketing or any users touchpoints shows <br/> your customers you care, by creating a familiar experience for them.
+                        <p className="content-text-21 content-block-75 align-self-center text-align-center margin-top-25 margin-bottom-100">
+                        When design determines success, understanding the user is paramount.<br/> We design to connect people with what matters most to them. We design with a purpose.
                         </p>
                 </div>
             </div>
@@ -135,7 +135,7 @@ class design_solutions extends Component {
                     <div className="content-block">
                             <p className="content-header"> Our CSS solutions relieves the anxiety that most developers and engineers face when they see CSS in their project requirements. </p>
 
-                            <p className="margin-top-25"><i><a href="./css_solutions">Learn More</a></i></p>
+                            <p className="margin-top-25"><i><a  href="./css_solutions" style={{color: '#000000'}}>Learn More</a></i></p>
                     </div>
                 </div>
                 <div className="col2-photo grid-placeself-center">

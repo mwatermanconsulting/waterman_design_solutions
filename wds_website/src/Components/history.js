@@ -1,26 +1,18 @@
 import React, { Component } from 'react' ;
+import '../stylesheets/css/main.css';
 import history from '../images/backgrounds/bg-ourhistory.png'
+
+import history_az from '../images/photos/photo-history-az.png'
+import history_sps from '../images/photos/photo-history-sps.png'
+import history_chemtech from '../images/photos/photo-history-chemtech.png'
+import history_noticeboards from '../images/photos/photo-history-noticeboards.png'
+import history_seroquel from '../images/photos/photo-history-seroquel.png'
 import photo_history from '../images/photos/photo-history-s1.png'
-import firemen from '../images/graphic-firemen.svg'
-import before_after from '../images/photos/photo-history-before-after.png'
-import chemtech from '../images/photos/photo-history-chemtech.png'
-import lessons from '../images/photos/photo-history-lessons.png'
-import noticeboards from '../images/photos/photo-history-noticeboards.png'
-import seroquel from '../images/photos/photo-history-seroquel.png'
-import sps from '../images/photos/photo-history-sps.png'
-import surreal from '../images/photos/photo-history-surreal-quarter-ad.png'
-import wallys from '../images/photos/photo-history-wallys.png'
-import wfa from '../images/photos/photo-history-wfa.png'
-import four from '../images/photos/photo-history-411.jpg'
-import asd from '../images/photos/photo-history-asd.png'
-import pw from '../images/photos/photo-history-pw.png'
-import rdeb from '../images/photos/photo-history-rdeb.jpg'
-import taws from '../images/photos/photo-history-taws.png'
 import history_3 from '../images/photos/photo-history-s3.png'
 import time from '../images/WDS-timeline.png'
 import mike from '../images/mike.png';
 import terri from '../images/terri.png';
-import didyouknow from '../images/graphic-didyouknow.svg';
+import didyouknow from '../images/graphic-didyouknow.png';
 
 class about extends Component {
     render () {
@@ -74,7 +66,7 @@ class about extends Component {
                 </section>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
-
+           
                 <section className="flex-layout-section-full align-items-center">
                     <div className="subtitle content-block-55">
                             Publishing Venture</div>
@@ -107,7 +99,9 @@ class about extends Component {
                             Investing in Digital Design Skills</div>
                             <p className="content-text-18 content-block-55 margin-top-15"> 
                             Terri then worked for InvestorForce, provider of investment analytics and reporting solutions for institutional consultants. She redesigned the entire website, meeting aggressive deadlines, and established a successful working relationship with CEO. She initiated a project for the redesign of an acquired company, Altvest. Traveling to NYC, she managed, directed and implemented the site architecture and design, working with a 9-person team of web developers and product managers. Designing and developing different prototypes for different products throughout the site, improving the design and introducing better user experience. This project increased knowledge of programming code and quality assurance systems to quickly work effectively with all groups involved.</p>
+
                            
+
                     </section>
 
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
@@ -118,6 +112,7 @@ class about extends Component {
                         <div className="content-block-55">
                             <p className="content-text-18 margin-top-25"> 
                             By 2001 Surreal Concepts was focused on building websites and marketing campaigns for small to mid-size companies, ranging from B2Bs to consumer products.</p>
+
                         <div className="ltgrey2">   
                             <p className="margin-top-15 caption"><img className="container-image-500 margin-top-25 " src={four} alt="411"/><br></br>
                             <i></i>SavTraveler</p>
@@ -126,11 +121,8 @@ class about extends Component {
                             <p className="margin-top-15 caption"><img className="container-image-500 margin-top-25 " src={taws} alt="TAWS"/><br></br>
                             <i>TAWS</i></p>
                         </div>
-                            
                             <p className="content-text-18">
                             In early 2002, a UX informational site called Web First Aid was created for website design, which included studies done at Stanford University and the Neilson Norman Group, two credible resources in usability, backed with data to support their research.</p>
-                            <p className="margin-top-15 caption"><img className="container-image-500 margin-top-25 " src={wfa} alt="Web First Aid"/><br></br>
-                            <i>Web First Aid page</i></p>
                             <p className="content-text-18">
                             This site along with the Surreal Concepts website led to a contract with a Pfizer agency to design and organize the largest HCP site at the time. They realized that the same principles of design for small companies were scalable to enterprise levels. Consulting with Pfizer was an opportunity to show that simplicity and efficient communication with strong teamwork helped save Pfizer a half a million dollars.
                             </p>
@@ -173,6 +165,7 @@ class about extends Component {
                             WDS puts out a lot of fires for businesses!</div>
                         
                     </section>
+
                     
                    <section className="flex-layout-section-full align-items-center  margin-top-100">
                         <div className="title content-block-55">
@@ -277,21 +270,16 @@ class about extends Component {
                             Terri is the heart of WDS, her design sense from fine and graphic art training, humor and design talents has guided and evolved unique design solutions. Her intuitive design skills come from 25+ years of experience in traditional and modern art. Serving as a creative advisory to Michael has enabled both to stay ahead of the design trends and competition. There’s always a way, she says, to make every business unique.
                             Her personal work has intertwined with her professional work as a designer. Creating designs for businesses requires research, empathy and most of all, consistency in their branding. It gave her creativity a powerful purpose.
                             Evolving into a disciplined UX designer created amazing opportunities as a unique visual communicator. 
-                            Her greatest joy is when there is a balance of creative flow along with the discipline of design that creates simplicity and inspiration. <br></br>
-                            BFA, Rosemont College <br></br>Associates in Visual Communication, Art Institute of Philadelphia
+                            Her greatest joy is when there is a balance of creative flow along with the discipline of design that creates simplicity and inspiration. 
+                            BFA, Associates in Visual Communication
                             </p>
-                            <p className="content-text-18 margin-top-25">Be inspired by Terri's fine art!
-                            </p>
-                            <button onclick="location.href='https://www.behance.net/terriwatermanart'" type="button" value="Terri's portfolio" className="button margin-top-50 font-size-18">Portfolio</button>
-            
-                            
                     </div>
                     </div>
                 </div>
             </div>
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
                 <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
-                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 width-70" src={didyouknow}  alt="Did You Know?" /> </a>
+                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
                       
                     <div className="flex-layout-center-center">
                         <p className="content-header text-white flex-layout-column flex-layout-center-center"> Surreal Concepts used the now popular blue and orange color combination back in the early 2000s.</p>
