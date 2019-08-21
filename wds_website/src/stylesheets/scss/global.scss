@@ -124,9 +124,17 @@ h1 {
   font-weight: 700;
   letter-spacing: 0.8px;
   text-align: center;
+  color: #000;
+}
+.callout-title {
+  font-size: 2rem;
+  font-family: 'Oswald', serif;
+  line-height: 2.12;
+  letter-spacing: 0.8px;
+  font-weight: 700;
+  text-align: left;
   color: $black;
 }
-
 
 .callout-text-lg-black {
   font-size: 2rem;
@@ -147,7 +155,15 @@ h1 {
   color: $white;
   font-weight: 700;
 }
-
+.callout-text-white {
+  font-size: 1.25rem;
+  font-family: 'Roboto Bold', sans-serif;
+  line-height: 2;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #fff;
+}
 .title {
   font-family: 'Oswald', sans-serif;
   font-size: 3.05rem;
@@ -172,7 +188,9 @@ h1 {
   font-family: 'Oswald';
   color: $title-grey;
 }
-
+.height-670 {
+  height: 670px;
+}
 
 .subtitle-bold-i {
   font-size: 2.4rem;
@@ -229,8 +247,7 @@ p {
 }
 
 .text-bold {
-  font-weight: bold;
-  
+  font-weight: bold;  
 }
 
 .text-white {

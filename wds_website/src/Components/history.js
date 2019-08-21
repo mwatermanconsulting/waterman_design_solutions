@@ -1,18 +1,26 @@
 import React, { Component } from 'react' ;
-import '../stylesheets/css/main.css';
 import history from '../images/backgrounds/bg-ourhistory.png'
-
-import history_az from '../images/photos/photo-history-az.png'
-import history_sps from '../images/photos/photo-history-sps.png'
-import history_chemtech from '../images/photos/photo-history-chemtech.png'
-import history_noticeboards from '../images/photos/photo-history-noticeboards.png'
-import history_seroquel from '../images/photos/photo-history-seroquel.png'
 import photo_history from '../images/photos/photo-history-s1.png'
+import firemen from '../images/graphic-firemen.svg'
+import before_after from '../images/photos/photo-history-before-after.png'
+import chemtech from '../images/photos/photo-history-chemtech.png'
+import lessons from '../images/photos/photo-history-lessons.png'
+import noticeboards from '../images/photos/photo-history-noticeboards.png'
+import seroquel from '../images/photos/photo-history-seroquel.png'
+import sps from '../images/photos/photo-history-sps.png'
+import surreal from '../images/photos/photo-history-surreal-quarter-ad.png'
+import wallys from '../images/photos/photo-history-wallys.png'
+import wfa from '../images/photos/photo-history-wfa.png'
+import four from '../images/photos/photo-history-411.jpg'
+import asd from '../images/photos/photo-history-asd.png'
+import pw from '../images/photos/photo-history-pw.png'
+import rdeb from '../images/photos/photo-history-rdeb.jpg'
+import taws from '../images/photos/photo-history-taws.png'
 import history_3 from '../images/photos/photo-history-s3.png'
 import time from '../images/WDS-timeline.png'
 import mike from '../images/mike.png';
 import terri from '../images/terri.png';
-import didyouknow from '../images/graphic-didyouknow.png';
+import didyouknow from '../images/graphic-didyouknow.svg';
 
 class about extends Component {
     render () {
@@ -24,16 +32,16 @@ class about extends Component {
                 </section>
                 <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                     <div className="callout-text-lg"> 
-                    20 years of creating amazing design solutions and experiences
+                    Over 20 years of creating amazing design solutions and experiences.
 
                     </div>
                 </section>
-                <section className="grid-callout photo-content-color border-bottom-5" style={{height:'670px'}}> 
-                    <div className="grid-callout-text grid-placeself-center content-block-75 content-header flex-layout-column">
-                        <div className="callout-title text-white margin-top-15">
+                <section className="grid-callout photo-content-color border-bottom-5" > 
+                    <div className="grid-placeself-center content-block-75 margin-tb-100  flex-layout-column">
+                        <div className="callout-title margin-top-15">
                              Surreal Beginnings
                         </div>
-                        <div className="callout-text text-align-left text-white margin-top-15" >
+                        <div className="callout-text padding-20 text-align-left margin-top-15" >
                         Since 1997 WDS has been evangelizing design under its original name, Surreal Concepts. Started by the husband and wife team, Terri and Michael Waterman, we began with a simple premise and small list of design services. The mission was always to provide professional design services and marketing for a reasonable cost to small and mid-size companies. 
                         </div>
                     </div>
@@ -161,7 +169,7 @@ class about extends Component {
                     <section className="grid-2col-photo-text align-items-center grey margin-top-50 border-tb-5">
                         
                               <img src={firemen}  className="col2-photo width-70 justify-self-end margin-tb-50" alt="Wds puts out the fires"/> 
-                              <div className="col2-text subtitle text-white padding" > 
+                              <div className="col2-text callout-text-white" > 
                             WDS puts out a lot of fires for businesses!</div>
                         
                     </section>
@@ -270,22 +278,23 @@ class about extends Component {
                             Terri is the heart of WDS, her design sense from fine and graphic art training, humor and design talents has guided and evolved unique design solutions. Her intuitive design skills come from 25+ years of experience in traditional and modern art. Serving as a creative advisory to Michael has enabled both to stay ahead of the design trends and competition. There’s always a way, she says, to make every business unique.
                             Her personal work has intertwined with her professional work as a designer. Creating designs for businesses requires research, empathy and most of all, consistency in their branding. It gave her creativity a powerful purpose.
                             Evolving into a disciplined UX designer created amazing opportunities as a unique visual communicator. 
-                            Her greatest joy is when there is a balance of creative flow along with the discipline of design that creates simplicity and inspiration. 
-                            BFA, Associates in Visual Communication
+                            Her greatest joy is when there is a balance of creative flow along with the discipline of design that creates simplicity and inspiration. </p>
+                            <p><i>Bachelor of Fine Arts<br></br>Associates in Visual Communication</i>
                             </p>
                     </div>
                     </div>
                 </div>
             </div>
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
-                <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
-                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
+                <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
+                       <img className="content-block-55 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
                       
-                    <div className="flex-layout-center-center">
-                        <p className="content-header text-white flex-layout-column flex-layout-center-center"> Surreal Concepts has always been ahead of the trends, our first company website used the blue and orange color combination back in the early 2000s.</p>
+                      <div >
+                          <p className="callout-text text-white text-align-center">  Surreal Concepts has always been ahead of the trends, using the now-popular blue and orange colors in the early 2000s</p>
                     </div>
                 </div>
             </section>
+            
         </div>
                        
         )

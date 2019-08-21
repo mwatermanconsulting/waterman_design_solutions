@@ -21,51 +21,51 @@ class ui_design extends Component {
 
                 </div>
             </section>
-            <section className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
-                <div className="grid-item-b content-block-60 content-header flex-layout-column">
-                    <div className="callout-text text-align-left text-white">
+            <section className="grid-callout photo-content-color border-bottom-5 height-670"> 
+                <div className="grid-callout-text grid-placeself-center content-block-75 content-header flex-layout-column">
+                    <div className="callout-title margin-top-15">
+                             Empathetic Design
+                    </div>
+                    <div className="callout-text text-align-left margin-top-15" >
                        We live for the comment "why didn't we think of that" usually expressed by stakeholders and managers during our design reveal. Our for passion for the last 20 years is solving problems on complex user interfaces and creating simple solutions. 
+                    </div>    
                 </div>
-                             
-                </div>
-                <div className="item-a-nb container-image-block">
-                    <img className="container-photo-callout" src={ui_s1}  alt="shaking hands" /> 
-                </div>Image by Avi Chomotovski from Pixabay 
+                <div className="grid-callout-photo grid-placeself-center">
+                        <img className="container-photo-callout" src={ui_s1}  alt="shaking hands" /> 
+                <p classname="caption">Image by Avi Chomotovski from Pixabay</p> </div>
             </section>
     
-            <section className="content-header flex-layout-center-center flex-layout-column margin-top-200 ">
-                <div className="flex-layout-center-center title text-align-center content-block-60">
+            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100">
+                <div className="float-left flex-layout-center-center content-block-60">
+                    <div className="title">
                     WDS UI Designs are all about the user. We do not begin the design until research has been completed and the users needs and expectations are understood.
-
-                </div>
-                <div className="content-block-60 margin-top-50">
-                    <p className="content-text-24 text-align-center">
-                     Our work has simplified interfaces for applications used by critical industries such as the energy sector, who are currently using our designed software to monitor oil rigs. Or for the pharmaceutical industries using our designed software for monitoring drug manufacturing facilities.</p>
+                    </div>
+                    <div className=" margin-top-50">
+                        <p className="content-text-24">
+                        Our work has simplified interfaces for applications used by critical industries such as the energy sector, who are currently using our designed software to monitor oil rigs. Or for the pharmaceutical industries using our designed software for monitoring drug manufacturing facilities.</p>
+                    </div>
                 </div>
             </section>
-            <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">
+            
                 
-                <div className="flex-layout-section thin-hr margin-top-200 margin-bottom-100" style={{ width: '75%' }}></div>
+                <div className="flex-layout-section thin-hr  margin-tb-100" ></div>
 
-                <section className="flex-layout-section-full margin-bottom-75">
-                    <div className="flex-layout-section-full flex-layout-center-center">
-                        <div className="title flex-layout-center-center">
-                            Design is not about being pretty or aesthetically pleasing it has to do with simplicity.
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center ">
+                <div className="float-left content-block-60">
+                        <div className="title">
+                            Design is not about being pretty or aesthetically pleasing. It is about simplicity.
                         </div>
-                        <div className="subtitle content-block-75 margin-top-25">
-                        WDS has been designing User Interfaces for over twenty years. We originally designed user interfaces for websites, but that changed with our first complicated industrial user interface we designed for Motorola. Since then our UI design services expanded to software, mobile,  SaaS and Kiosk. 
+                        <div className="content-text-24 margin-top-25">
+                        WDS has been designing user Interfaces for over twenty years. We originally designed user interfaces for websites, but that changed with our first complicated industrial user interface we designed for Motorola. Since then our UI design services expanded to software, mobile,  SaaS and Kiosk. 
 
                         </div> 
                    
                     </div>
                 </section> 
     
-                
-            </div>
             
-                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
-                <section className="grid-2col-photo-content margin-top-75 flex-layout-section-full content-header">
-                    <div className="grid-left">
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center ">
+                <div className="float-left content-block-60">
                         <div className="title">
                              Research
                         </div>
@@ -87,11 +87,16 @@ class ui_design extends Component {
 
                         </div>
                     </div>
-
-                     
-
-                </section>
-            </section> 
+            </section>
+            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+                <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
+                       <img className="content-block-55 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
+                      
+                      <div >
+                          <p className="callout-text text-white text-align-center">  WDS designed UI solutions for data display software that worked with nuclear reactors. <p className="text-align-center margin-top-25" ><button onclick="location.href='./case_study_3';" type="button" value="Learn More" className="button-white margin-top-50 font-size-24">Learn More</button></p>  </p>
+                    </div>
+                </div>
+            </section>  
         </div>
         )
     }
