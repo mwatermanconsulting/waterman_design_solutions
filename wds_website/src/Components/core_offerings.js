@@ -2,6 +2,7 @@ import React, { Component } from 'react' ;
 import offerings from '../images/backgrounds/bg-core-studies.png';
 import innovation2 from '../images/ux_process.png';
 import itcss from '../images/graphic-services.svg';
+import casscade from '../images/photos/photo-css-s1.png';
 import offerings_photo from '../images/photos/photo-core-offerings-s3.png';
 import didyouknow from '../images/graphic-didyouknow.png';
 
@@ -107,10 +108,8 @@ class core_offerings extends Component {
                         <p className="content-block-65 content-text-21 margin-top-15" style={{width:'85%'}}>Results
                             The UX Steering was a unique strategy for a common problem. It helped with communication issues and provided a forum to talk about design and the user within the company. It also provided a road map to product consistency. WDS also provided CSS Solutions with the creation of helper and global CSS classes, and flexbox responsive design. WDS also developed workshops for CSS, SASS and Responsive development. WDS moved on to the creation and development of the company Style Guides and Design System to support the long time strategy and vision of UX Steering team of product consistency.
                         </p>
-
-            `   </section>
+             </section>
           
-
             <section className="float-left align-items-center flex-layout-column margin-top-75">
                 <div className="title content-block-60">
                             Design Solutions
@@ -126,9 +125,10 @@ class core_offerings extends Component {
                         Our design workshops were built with empathy for the engineers and developers. Companies place too many design decisions on non-designers. Add poor communication to the mix, you end up product inconsistencies, confusing UI development and the user gets forgotten.</p>
                             
                     <p className="content-text-18"> Our strategies and workshops will keep your developers focused on what they do best, code. Along with developing a design system we mentor your teams on the value of design and how support support on another.</p>
+                </div>
                     
-                        <p className="content-text-21 align-self-center margin-top-25"><b>Design Workshops</b></p>
-                    </div>
+                <p className="content-text-21 align-self-center content-block-60"><b>Key Services</b></p>
+                    
                     <ul className="dashed align-self-center content-block-60 margin-top-5 content-text-21">
                     <li>Importance of Design Standards</li>
                     <li>Design Critique Sessions</li>
@@ -156,7 +156,7 @@ class core_offerings extends Component {
  
                      <p className="content-text-18">Covers the need for design support and guidance within companies. Learn how to incorporate design requirements into your backlogs. This service will empower management to understand the value of design with strategies that will make changes on a core level by guiding management on companies weaknesses and action plans to solve those issues. </p>
                     
-                        <p className="content-text-21 align-self-center margin-top-25"><b>Key Services</b></p>
+                        <p className="content-text-21 align-self-center margin-top-25 content-block-60"><b>Key Services</b></p>
                     </div>
                     <ul className="dashed align-self-center content-block-60 margin-top-5 content-text-21">
                     <li>Communicating Design Standards</li>
@@ -185,13 +185,14 @@ class core_offerings extends Component {
                      <p className="content-text-18"> 
                      Design direction and value begins at the top. Studies have shown that companies that value design that come from the top increase their business by 30%. In order to survive in todays digital world, design needs to have the same importance as sales. Companies must change their design perspective in order to see the true value design on its business  </p>
  
-                     <p className="content-text-18">Covers the need for design support and guidance within companies. Learn how to incorporate design requirements into your backlogs. This service will empower management to understand the value of design with strategies that will make changes on a core level by guiding management on companies weaknesses and action plans to solve those issues. </p>
+                     <p className="content-text-18">UX team  mentoring are for companies looking to embrace UX across all their design and development teams. WDS offers insights and a structured change-management program that establishes experience research, design and development, and best practices across your organization. </p>
                     
                         <p className="content-text-21 align-self-center margin-top-25"><b>Key Services</b></p>
                     </div>
                     <ul className="dashed align-self-center content-block-60 margin-top-5 content-text-21">
                     <li>UX Strategies shorrt & long term</li>
                     <li>UX team analysis</li>
+                    <li>Experience Strategy Roadmap</li>
                     <li>Empathy Workshops</li>
                     <li>Design Critique Workshops</li>
                 
@@ -202,69 +203,143 @@ class core_offerings extends Component {
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
                 <section className="float-left align-items-center flex-layout-column">
-                <div className="title content-block-60">
+                    <div className="title content-block-60">
                         Customer Experience Solutions 
-                </div>
-                <div className="subtitle content-block-60 margin-top-15">
-                    Strategies to ensure the user is involved in every decision
-                </div>
-                <div className="content-block-60 content-text-18 margin-top-15">
-                    <div className="float-right">
-                        <img className="photo-container"  src={innovation2}  alt="Stakeholder Interview" /> 
                     </div>
+                    <div className="subtitle content-block-60 margin-top-15">
+                        Strategies to ensure the user is involved in every decision
+                    </div>
+                    <div className="content-block-60 content-text-18 margin-top-15">
+                        <div className="float-right">
+                            <img className="photo-container"  src={innovation2}  alt="Stakeholder Interview" /> 
+                    </div>
+                        <p className="content-text-18"> 
+                        Customer experience (CX) is the new competitive battleground for today's companies. WDS will help you find the strategic intersection between your high-value customers and the critical enhancements required at specific touchpoints in your larger customer experience journey. </p>
+                    </div>
+                        <p className="content-text-21 align-self-center content-block-60" style={{marginTop:'-11%'}}><b>Key Services</b></p>
+                    
+                    <ul className="dashed align-self-center content-block-60 content-text-21">
+                        <li>Customer/ User Insights</li>
+                        <li>Experienced Based Personas</li>
+                        <li>Journey Maps</li>
+                        <li>Service Design</li>
+                        <li>Concept Storyboards</li>
+                        <li>Prioritized Insights</li>
+                        <li>Experience Strategy Roadmap</li>
+                        <li>Project and Agile Services</li>
+                    </ul>
+                </section>
+
+                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+                <section className="float-left align-items-center flex-layout-column">
+                    <div className="title content-block-60">
+                        Telemetry/Analytics 
+                    </div>
+                    <div className="subtitle content-block-60 margin-top-15">
+                        Measuring Business Design Value
+                    </div>
+                    <div className="content-block-60 content-text-18 margin-top-15">
+                        <div className="float-right">
+                            <img className="photo-container"  src={innovation2}  alt="Stakeholder Interview" /> 
+                        </div>
                      <p className="content-text-18"> 
-                     Customer experience (CX) is the new competitive battleground for today's companies. WDS will help you find the strategic intersection between your high-value customers and the critical enhancements required at specific touchpoints in your larger customer experience journey. </p>
+                        Design is no longer an invisible, unknown entity. WDS has seen the results of our designs over the years because we build relationships with our clients and care about results.  By implementing telemetry design results can be tracked and measured. WDS has analytics experts that can provide monthly reports and business design strategies based on real data. 
+                        </p>
+
+                        <p className="content-text-18"> 
+                        Telemetry data is extremely valuable to understanding users pain points and unused features. A well defined telemetry strategy will track the users workflows alerting the UX team to dropouts and unusual user behavior. The analytics can also provide data on unused features. 
+                        </p>
                     
                         <p className="content-text-21 align-self-center margin-top-25"><b>Key Services</b></p>
                     </div>
-                    <ul className="dashed align-self-center content-block-60 content-text-21">
-                    <li>Customer/ User Insights</li>
-                        <li>Experienced Based Personas</li>
-                        <li>Journey Maps</li>
-                        <li>Service Design</li>
-                        <li>Concept Storyboards</li>
-                        <li>Prioritized Insights</li>
-                        <li>Experience Strategy Roadmap</li>
-                        <li>Project and Agile Services</li>
-                </ul>
+                    <ul className="dashed align-self-center content-block-60 content-text-21" style={{marginTop:'-1%'}}>
+                        <li>Measure results</li>
+                        <li>Track users actions</li>
+                        <li>Uncover user pain points</li>
+                        <li>Reduce software bloat</li>
+                        <li>Provide monthly reports</li>
+                        <li>Keeps users apart of the design decision process</li>
+                    </ul>
                 </section>
-                   
-                <div className=" content-block-75">
-                    <div className="subtitle">Customer Experience Solutions</div>
-                        <p className="content-text-21 margin-top-15" style={{width:'80%'}}>Customer experience (CX) is the new competitive battleground for today's companies. WDS will help you find the strategic intersection between your high-value customers and the critical enhancements required at specific touchpoints in your larger customer experience journey.
+
+                       <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+                <section className="float-left align-items-center flex-layout-column">
+                    <div className="title content-block-60">
+                        Telemetry/Analytics 
+                    </div>
+                    <div className="subtitle content-block-60 margin-top-15">
+                        Measuring Business Design Value
+                    </div>
+                    <div className="content-block-60 content-text-18 margin-top-15">
+                        <div className="float-right">
+                            <img className="photo-container"  src={innovation2}  alt="Stakeholder Interview" /> 
+                        </div>
+                     <p className="content-text-18"> 
+                        Design is no longer an invisible, unknown entity. WDS has seen the results of our designs over the years because we build relationships with our clients and care about results.  By implementing telemetry design results can be tracked and measured. WDS has analytics experts that can provide monthly reports and business design strategies based on real data. 
                         </p>
-                        <p className="content-text-21 margin-top-15 margin-top-25"><b>Key Services</b></p>
-                    <ul className="content-text-21 margin-top-15">
-                        <li>Customer/ User Insights</li>
-                        <li>Experienced Based Personas</li>
-                        <li>Journey Maps</li>
-                        <li>Service Design</li>
-                        <li>Concept Storyboards</li>
-                        <li>Prioritized Insights</li>
-                        <li>Experience Strategy Roadmap</li>
-                        <li>Project and Agile Services</li>
-                    </ul>
-                </div>
-                <div className="content-block-75">
-                    <div className="subtitle margin-top-10">Customer Experience Mentoring</div>
-                        <p className="content-text-21 margin-top-15" style={{width:'75%'}}>Customer Experience Mentoring are for companies looking to embrace UX across all their design and development teams. WDS offers insights and a structured change-management program that establishes experience research, design and development, and best practices across your organization.
+
+                        <p className="content-text-18"> 
+                        Telemetry data is extremely valuable to understanding users pain points and unused features. A well defined telemetry strategy will track the users workflows alerting the UX team to dropouts and unusual user behavior. The analytics can also provide data on unused features. 
                         </p>
-                        <p className="content-text-21 margin-top-25"><b>Key Services</b></p>
-                    <ul className="content-text-21 margin-top-15">
-                        <li>Customer/ User Insights</li>
-                        <li>Experienced Based Personas</li>
-                        <li>Journey Maps</li>
-                        <li>Service Design</li>
-                        <li>Concept Storyboards</li>
-                        <li>Prioritized Insights</li>
-                        <li>Experience Strategy Roadmap</li>
-                        <li>Project and Agile Services</li>
+                    
+                        <p className="content-text-21 align-self-center margin-top-25"><b>Key Services</b></p>
+                    </div>
+                    <ul className="dashed align-self-center content-block-60 content-text-21" style={{marginTop:'-1%'}}>
+                        <li>Measure results</li>
+                        <li>Track users actions</li>
+                        <li>Uncover user pain points</li>
+                        <li>Reduce software bloat</li>
+                        <li>Provide monthly reports</li>
+                        <li>Keeps users apart of the design decision process</li>
                     </ul>
-                </div> 
-               
+                </section>
+
+                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+                <section className="float-left align-items-center flex-layout-column">
+                    <div className="title content-block-60">
+                        Accessibility 
+                    </div>
+                    <div className="subtitle content-block-60 margin-top-15">
+                        Increasing your business by 18%
+                    </div>
+                    <div className="content-block-60 content-text-18 margin-top-15">
+                        <div className="float-right">
+                            <img className="photo-container"  src={innovation2}  alt="Stakeholder Interview" /> 
+                        </div>
+                        <p className="content-text-18"> 
+                        The Web is fundamentally designed to work for all people, whatever their hardware, software, language, location, or ability. When the Web meets this goal, it is accessible to people with a diverse range of hearing, movement, sight, and cognitive ability.</p>
+                    
+                        <p className="content-text-18"> Thus the impact of disability is radically changed on the Web because the Web removes barriers to communication and interaction that many people face in the physical world. However, when web sites, applications, technologies, or tools are badly designed, they can create barriers that exclude people from using the Web.</p>
+    
+                        <p className="content-text-18">Accessibility may affect 18% of your users. If you could increase your business by 18% by implementing a strategy that defines and provides solutions to improve your accessibility strategies</p>
+                    </div>
+                </section>
+
+                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+                <section className="float-left align-items-center flex-layout-column">
+                    <div className="title content-block-60">
+                        CSS Strategies
+                    </div>
+                    <div className="content-block-60 content-text-18 margin-top-15">
+                        <div className="float-right">
+                            <img className="photo-container"  src={casscade}  alt="Stakeholder Interview" /> 
+                        </div>
+                        <p className="content-text-18"> 
+                        Our CSS services include CSS development, Strategy, CSS system implementation, mentoring and documentation, including best of practice documentation.</p>
+
+                        <p><i><a href="../css_solutions">Learn More...</a> </i></p>
+                    
+                    </div>
+                </section>
+
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
                 <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
-                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
+                       <a href="../communication_insights"> 
+                       <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
                       
                     <div className="flex-layout-center-center">
                         <p className="content-header text-white flex-layout-column flex-layout-center-center"> There are 3 levels of empathy: cognitive, emotional and compassionate. </p>
