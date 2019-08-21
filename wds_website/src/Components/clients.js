@@ -26,14 +26,15 @@ class clients extends Component {
                         Delivering the most outstanding experience for our clients.
                 </div>
             </div>
-            <section className="grid-callout photo-content-color border-bottom-5" style={{height:'670px'}}> 
-                    <div className="grid-callout-text grid-placeself-center content-block-75 content-header flex-layout-column">
-                        <div className="callout-title margin-top-15">
+            <section className="grid-callout photo-content-color border-bottom-5" > 
+                <div className="grid-placeself-center content-block-75   flex-layout-column">
+                    <div className="callout-text padding-20 text-align-left margin-top-15" >
                         For over twenty years WDS has worked and partnered with some amazing people and businesses. We hope to see your name in the list below in the near future.</div>        
-                </div>
-                <div className="grid-callout-photo grid-placeself-center">
+                    </div>
+                    <div className="grid-callout-photo grid-placeself-center margin-tb-100">
                         <img className="container-photo-callout" src={clients1}  alt="Clients" /> 
-                </div>
+                    </div>
+                
             </section>
 
             <section className="content-header flex-layout-center-center flex-layout-column margin-bottom-100">
@@ -79,11 +80,11 @@ class clients extends Component {
                           
             </section>
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
-                <div className="width-75 margin-top-50 align-center  margin-bottom-50"> 
-                       <a href="../communication_insights"> <img className="width-70 align-center margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
+                <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
+                       <img className="content-block-55 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
                       
-                    <div className="flex-layout-center-center">
-                        <p className="content-header text-white flex-layout-column flex-layout-center-center"> WDS data visualizations design solutions are being used by the world’s largest brands</p> 
+                      <div >
+                          <p className="callout-text-white text-align-center">  WDS data visualizations design solutions are being used by the world’s largest brands</p> 
                         <p className="text-align-center margin-top-25" ><button onclick="location.href='./case_study_3';" type="button" value="Learn More" className="button-white margin-top-50 font-size-24">Learn More</button></p> 
                     </div>
                 </div>

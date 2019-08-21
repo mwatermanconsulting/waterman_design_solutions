@@ -14,7 +14,11 @@
     grid-gap: 10px;
 		grid-template-columns: 20% auto;
   }
-
+  .container-section-1-primary {
+    display: flex;
+    height: auto;
+    padding: 5px;
+  }
   .grid-content {    
     grid-column: 1/1;
     grid-row: auto;
@@ -47,6 +51,13 @@
     grid-column: 1/1;
     grid-row: auto;
   }
+  .grid-clients-wrapper {
+
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+
+}
 
 
   .container-grid-2col {
@@ -129,10 +140,12 @@
   }
   .col2-text {
     grid-area: text;
+    text-align: center;
   }
   .col2-photo {
     grid-area: photo;
   }
+
   .grid-callout {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -186,6 +199,14 @@
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   grid-gap: 10px;
+  display: grid;
+}
+.grid-2col-text-center-50 {
+  grid-template-columns: 1fr ;
+  grid-template-areas: "text";
+  grid-template-rows: auto;
+  grid-row-gap: 15px;
+  width: 90%;
   display: grid;
 }
 .grid-footer-item-1 {
@@ -253,10 +274,18 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.margin-top-75 {
+  margin-top: 25px;
+}
 .margin-top-25 {
-
   margin-top: 15px;
-
+}
+.float-left {
+  float: left;
+  padding:  5px;
+ }
+.height-670 {
+  height: auto;
 }
 .thin-hr {
   display: none;
@@ -293,10 +322,11 @@
   text-align: center;
   color: #fff;
 }
-.callout-text {
+.callout-text-white {
   font-size: 1.25rem;
   font-family: 'Roboto Bold', sans-serif;
-  line-height: 2.12;
+  line-height: 2;
+  font-weight: 700;
   letter-spacing: 0.8px;
   text-align: center;
   color: #fff;
@@ -304,10 +334,16 @@
 .callout-text-black {
   font-size: 1.25rem;
   font-family: 'Roboto Bold', sans-serif;
-  line-height: 2.12;
+  line-height: 2;
   letter-spacing: 0.8px;
   text-align: center;
-  color: #fff;
+  color: #000;
+}
+.callout-title {
+  font-family: 'Oswald', sans-serif;
+    font-size: 2.0rem;
+    line-height: 1.25;
+    text-align: center;
 }
 .width-70 {
   width: 95%;
@@ -316,6 +352,9 @@
   width: 90%;
 }
 .content-block-55 {
+  width: 90%;
+}
+.content-block-50 {
   width: 90%;
 }
 .content-header {
@@ -329,6 +368,7 @@
 .container-photo-callout {
   width: 100%;
   height: auto;
+  border: 0px;
 }
 .width-60 {
   width: 90%;

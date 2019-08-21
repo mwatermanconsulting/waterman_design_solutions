@@ -23,13 +23,13 @@ class css_solutions extends Component {
 
                 </div>
             </div>
-            <section className="grid-2col-photo-content photo-content-color align-items-center border-bottom-5" style={{height:'670px'}}> 
-                    <div className="grid-left content-block-60 callout-text text-align-left text-white" style={{marginLeft: '14%'}}>
+            <section className="grid-callout photo-content-color border-bottom-5 height-670"> 
+                    <div className="grid-callout-text grid-placeself-center content-block-75 content-header flex-layout-column">
                         Our CSS services include CSS development, Strategy, CSS system implementation, mentoring and documentation, including best of practice documentation.
                     </div>              
                 
-                <div className="grid-right-css container-image-block" style={{marginLeft: '-15%'}}>>
-                    <img className="container-photo-callout width-100" src={casscade}  alt="css code" /> 
+                    <div className="grid-callout-photo grid-placeself-center">
+                        <img className="container-photo-callout" src={casscade}  alt="css code" /> 
                 </div>
             </section>
             <section className="content-header flex-layout-center-center flex-layout-column">
