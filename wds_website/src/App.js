@@ -20,9 +20,9 @@ class App extends Component {
               
             <ul style={{display:'flex'}}>
             <li className="dropdown">
-              <a href="./why_wds" class="dropbtn" style={{fontSize:'18px'}}>Why</a>
+              <a href="javascript:void(0)" class="dropbtn" style={{fontSize:'18px'}}>Why</a>
               <div class="dropdown-content">
-                <a href="./why_wds">Why WDS</a>
+              <a href="./why_wds">Why WDS</a>
                 <a href="./case_studies">Success Stories (Case Studies)</a>
                 <a href="./clients">Clients</a>
                 <a href="./core_offerings">Core Offerings</a>
@@ -30,7 +30,7 @@ class App extends Component {
               </div>
               </li>
               <li class="dropdown">
-              <a href="./services" class="dropbtn" style={{fontSize:'18px'}}>Services</a>
+              <a href="javascript:void(0)" class="dropbtn" style={{fontSize:'18px'}}>Services</a>
               <div class="dropdown-content">
                 <a href="./services">Services Overview </a>
                 <a href="./ux_design">UX Design</a>
@@ -42,7 +42,7 @@ class App extends Component {
               </div>
               </li>
               <li class="dropdown">
-              <a href="./methodology" class="dropbtn" style={{fontSize:'18px'}}>Methodology</a>
+              <a href="javascript:void(0)" class="dropbtn" style={{fontSize:'18px'}}>Methodology</a>
               <div class="dropdown-content">
                 <a href="./methodology">Methodology Overview </a>
                 <a href="./finding_truth">Finding the Truth</a>
@@ -52,7 +52,7 @@ class App extends Component {
               </div>
               </li>
               <li class="dropdown">
-              <a href="./design_solutions" class="dropbtn" style={{fontSize:'18px'}}>Design</a>
+              <a href="javascript:void(0)" class="dropbtn" style={{fontSize:'18px'}}>Design</a>
               <div class="dropdown-content">
                 <a href="./design_solutions">Design Overview</a>
                 <a href="./website_design">Website Design</a>
