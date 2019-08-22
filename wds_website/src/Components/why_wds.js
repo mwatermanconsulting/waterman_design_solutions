@@ -32,7 +32,7 @@ class why_wds extends Component {
                         <div className="content-header flex-layout-column">    
                             <div className="content-block width-75">
                                 <div className="text-white text-align-center">
-                                Design Solutions based on real people expectations and the business needs
+                                Design Solutions based on real users expectations and the business needs
                                 </div>
                             </div>
                         </div>
@@ -42,7 +42,7 @@ class why_wds extends Component {
                     <div className="grid-callout yellow-bg "> 
                         <div className="grid-callout-text grid-placeself-center padding width-70">
                             <p className="callout-text text-black">
-                            WDS is UX/UI Consulating firm that solves complex business and design problems. </p>
+                            WDS is a UX/UI Consulating firm that solves complex business and design problems. </p>
                         </div>
                         <div className="grid-callout-photo">
                             <img className="flex-image-container width-100" src={whys1}  alt="Customer Service" /> 
@@ -51,7 +51,7 @@ class why_wds extends Component {
                 </section>
                 <section className="flex-layout-section-full flex-layout-column align-items-center">
                     <p className="title margin-top-75">
-                        WDS Design Support Provides the needed,Guidance and Support for your Whole Organization Craves </p>
+                        WDS Design Support Provides the needed guidance and support that your Whole Organization Needs </p>
                         <p className="content-text-24 content-block-60 margin-top-25 flex-layout-column align-items-center">
                         WDS knows design. Offering empathetic design solutions for websites, applications, mobile apps, and social media. Our core offerings helps your business understand the value of design on a core level, providing training, workshops and mentorship programs.  With over 15 years perfecting our approach, we have the experience, teams, skills and scale to deliver sophisticated design solutions.</p>
                         <p className="subtitle content-block-60 margin-top-50 flex-layout-column align-items-center">
