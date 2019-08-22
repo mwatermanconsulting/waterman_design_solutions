@@ -82,7 +82,7 @@ class case_studies extends Component {
                     </div>
                 </div>
                        
-                <div className="cs-card-3 card-case-studies content-header flex-layout-column flex-sh-500"> 
+                <div className="cs-card-3 card-case-studies content-header flex-layout-column "> 
                     <div className="container-image-block">
                         <img className="image-size-100" src={pfizer}  alt="Pfizer" /> 
                     </div>  
