@@ -29,30 +29,65 @@ class print_design extends Component {
             <section className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
                 <div className="grid-left content-block-60 content-header flex-layout-column">
                     <div className="callout-text text-align-left">
-                        Print ads will be more effective if they are a complement to your digital campaigns to entice readers to interact with your brand online. 
+                        Print ads are more effective when they are a complement to your digital campaigns, enticing your audience to interact with your brand online. 
                     </div>      
                 </div>
                 <div className="grid-right-photo container-image-block">
                     <img className="container-photo-callout image-size-100" src={print_s1}  alt="shaking hands" /> 
                 </div>
             </section>
-            <section className="grid-2col-photo-content" style={{height:'670px'}}> 
-                <div className="grid-left content-block-60 content-header flex-layout-column">
-                    <div className="callout-text text-align-left text-black">
-                        Printed materials help brand your business. It supports online marketing and covers a larger audience that respond to these marketing tools differently. We take care of each marketing aspect from web design to corporate identity to tangible materials such as business cards, postcards, annual reports, magazines and more. 
-                    </div>                     
-                </div>
-                <div className="grid-right-photo container-image-block">
-                    <img className="container-photo-callout image-size-100" src={print_s2}  alt="shaking hands" /> 
+            <section className="flex-layout-section-full flex-layout-column align-items-center margin-top-50">
+              
+                    <div className="title">
+                            The Value of Print Design
+                    </div>
+                    <div className="margin-top-25 align-self-center content-block-75">
+                        <p className="content-text-24 text-align-center ">
+                            Printed materials help brand your business. It supports your social media and ad word marketing.  It covers a larger audience that respond to these marketing tools differently. We take care of each marketing aspect from web design to corporate identity to tangible materials such as business cards, postcards, annual reports, magazines and more. </p>
+                    </div>
+                
+            </section>
+
+            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+             <section className="flex-layout-section-full flex-layout-center-center">
+                <div className="align-center align-items-center">
+                    <ul className="grid-clients-wrapper align-items-center">
+                    <li  className="grid-clients-box image subtitle text-white"  data-content=" Women's Yellow Pages">
+                        <img className="width-100" src={wyp}  alt="Women's Yellow Pages" />
+                        </li>
+                    <li  className="grid-clients-box image subtitle text-white"  data-content="Ketchhot">
+                        <img className="width-100 height-100"  src={ketchhot}  alt="Ketchhot" />
+                        </li>
+                    <li  className="grid-clients-box image subtitle text-white"  data-content="Body Bouquet"> 
+                        <img className="width-100 height-100" src={bb}  alt="Body Bouquet" />
+                       </li>
+                    <li  className="grid-clients-box image subtitle text-white"  data-content="Avandia">
+                        <img className="width-100 height-100" src={avandia}  alt="Avandia" />
+                        </li>
+                    
+                    <li  className="grid-clients-box image subtitle text-white"  data-content="Guyuaba">
+                        <img className="width-100 height-100" src={guyuaba}  alt="Roos Foods" />
+                        </li>
+                    <li  className="grid-clients-box image subtitle text-white"  data-content="HCNRG">
+                        <img className="width-100 height-100" src={hcnrg}  alt="HCNRG" />
+                       </li>
+                    <li  className="grid-clients-box image subtitle text-white"  data-content="HCNRG">
+                        <img className="width-100 height-100" src={donolow}  alt="Donolow Database" />
+                       </li>
+                    <li  className="grid-clients-box image subtitle text-white"  data-content="HCNRG">
+                        <img className="width-100 height-100" src={wtt}  alt="World Team Tennis" />
+                       </li>
+                </ul>
                 </div>
             </section>
 
-            <div className="flex-layout-section thin-hr  align-self-center margin-bottom-100" style={{ width: '75%' }}></div>
-    
+            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
             <section className="flex-layout-section-full align-self-center">
-                    <div className="grid-2col-text-center width-100" >
+                    <div className="grid-2col-text-center margin-top-25" >
                         <div className="grid-title subtitle content-text-24 margin-bottom-20">
-                        Print design services include: 
+                            Print design services include: 
                         </div>
                         <div className="item content-text-18 margin-top-10">
                             Business Identity
@@ -79,7 +114,7 @@ class print_design extends Component {
                             Publications
                         </div>
                         <div className="item content-text-18">
-                            Tradeshow marketing materials
+                            Trade show marketing materials
                         </div>
                         <div className="item content-text-18">
                             Catalogues
@@ -87,51 +122,16 @@ class print_design extends Component {
 
                     </div>
                 </section>
-
-                <div className="flex-layout-section thin-hr margin-top-100 align-self-center margin-bottom-100" style={{ width: '75%' }}></div>
-
-             <section className="flex-layout-section-full flex-layout-center-center">
-                <div className="align-center align-items-center">
-                    <ul className="grid-clients-wrapper align-items-center  width-70">
-                    <li  className="grid-clients-box image subtitle text-white"  data-content=" Women's Yellow Pages">
-                        <img className="width-100" src={wyp}  alt="Women's Yellow Pages" />
-                        </li>
-                    <li  className="grid-clients-box image subtitle text-white"  data-content="Ketchhot">
-                        <img className="width-100 height-100"  src={ketchhot}  alt="Ketchhot" />
-                        </li>
-                    <li  className="grid-clients-box image subtitle text-white"  data-content="Body Bouquet"> 
-                        <img className="width-100 height-100" src={bb}  alt="Body Bouquet" />
-                       </li>
-                    <li  className="grid-clients-box image subtitle text-white"  data-content="Avandia">
-                        <img className="width-100 height-100" src={avandia}  alt="Avandia" />
-                        </li>
-                    
-                    <li  className="grid-clients-box image subtitle text-white"  data-content="Guyuaba">
-                        <img className="width-100 height-100" src={guyuaba}  alt="Guyuaba" />
-                        </li>
-                    <li  className="grid-clients-box image subtitle text-white"  data-content="HCNRG">
-                        <img className="width-100 height-100" src={hcnrg}  alt="HCNRG" />
-                       </li>
-                    <li  className="grid-clients-box image subtitle text-white"  data-content="HCNRG">
-                        <img className="width-100 height-100" src={donolow}  alt="Donolow Database" />
-                       </li>
-                    <li  className="grid-clients-box image subtitle text-white"  data-content="HCNRG">
-                        <img className="width-100 height-100" src={wtt}  alt="World Team Tennis" />
-                       </li>
-                </ul>
-                </div>
-            </section>
             
-            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
-                <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
-                       <a href="../communication_insights"> <img className="width-70 flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+                    <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
+                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
                       
                     <div className="flex-layout-center-center">
-                        <p className="content-header text-white flex-layout-column flex-layout-center-center">WDS designed and produced a magazine "Combat Robot"</p>
+                        <p className="content-header text-white flex-layout-column flex-layout-center-center">WDS designed and produced a monthly magazine named "Combat Robot"</p>
                     </div>
-                </div>
-            </section>
-            
+                    </div>
+                </section>
             </div>
         )
     }
