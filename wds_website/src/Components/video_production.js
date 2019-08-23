@@ -5,6 +5,7 @@ import video_s1 from '../images/photos/photo-video-s1.png';
 import video_s2 from '../images/photos/photo-video-s2.png';
 import video_s3 from '../images/photos/photo-video-s3.png';
 import video_s4 from '../images/photos/photo-video-s4.png';
+import didyouknow from '../images/graphic-didyouknow.svg';
 
 class video_production extends Component {
     render () {
@@ -17,14 +18,14 @@ class video_production extends Component {
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                Videos drive action in your marketing strategy on social media
+                    Videos drive action in your marketing strategy on social media
                 </div>
             </div>
 
             <section className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
                 <div className="grid-left content-block-60 content-header flex-layout-column">
                     <div className="callout-text text-align-left text-white">
-                    Overall, 73% of consumers worldwide prefer seeing videos on social media that are "entertaining." WDS can tell your story.
+                        Overall, 73% of consumers worldwide prefer seeing videos on social media that are "entertaining." WDS can tell your story.
                     </div>      
                 </div>
                 <div className="grid-right-photo container-image-block">
@@ -34,23 +35,24 @@ class video_production extends Component {
 
             <section className="content-header flex-layout-center-center flex-layout-column margin-top-100">
                 <div className="flex-layout-center-center title text-align-center content-block-60">
-                Engage your customers and earn their trust
+                    Engage your customers and earn their trust
 
                 </div>
                 <div className="margin-top-25 content-block-55">
                     <p className="subtitle flex-layout-center-center"> 
                     WDS has a team with extensive post-production knowledge.
-                    Professional video production is the most effective way to get a message across. Whether it is corporate, instructional or marketing videos we can get your message across, blah  </p>
+                    Professional video production is the most effective way to get a message across. Whether it is corporate, instructional or marketing videos we know how to tell a story. </p>
                 </div>
             </section>
+
+            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
            
             <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">
-            <div className="flex-layout-section  thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
-</div>
+            
                 <section className="grid-2col-photo-content content-header">
-                    <div className="grid-left flex-layout-section-full">
+                    <div className="grid-left flex-layout-section-full" style={{marginLeft:'38%'}}>
                         <div className="title">
-                            Video should tell a story
+                            Videos should tell a story
                         </div>
                         <div className="subtitle margin-top-10">
                             Make your message have value
@@ -69,14 +71,14 @@ class video_production extends Component {
 
 
 
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
+                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
                 <section className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
-                        <div className="title content-block-75">
+                        <div className="title content-block-85">
                         What kind of video content is best?
                         </div>
-                        <div className="subtitle margin-top-15 content-block-75">
+                        <div className="subtitle margin-top-15 ">
                         The kind that shows empathy and connection
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-15">
@@ -90,11 +92,11 @@ class video_production extends Component {
                     </div>     
                 </section>
 
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
-</div>
+                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
                 <section className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
-                        <div className="title">
+                        <div className="title content-block-85">
                         Trust is the foundation for your brand
                         </div>
                         <div className="subtitle margin-top-15">
@@ -106,19 +108,18 @@ Effective marketing videos have a conversational tone. It creates an individual 
                         </div>
                     </div>
                     <div className="grid-right">
-                        <img className="photo-container" src={video_s4}  alt="Video Content" /> 
+                        <img className="photo-container" src={video_s3}  alt="Video Content" /> 
                         <p className="caption">Photo by Form on Unsplash</p>
                     </div>      
                 </section>
 
-                <section className="content-header flex-layout-column flex-layout-center-center border-tb-5 margin-top-100 grey">
-                   
-                        <p className="callout-text-lg">“The new era demands a focus on ignition, not just content, on trust, not just traffic, and on the elite people in your audience who are spreading and advocating your content.” <br></br>
-- Mark Schaefer, the Executive Director of Schaefer Marketing Solutions</p>
-                    
-                </section>
+                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
                 <section className="flex-layout-section-full flex-layout-center-center">
-                <div className="align-center align-items-center">
+                <div className="subtitle margin-top-15">
+                        Small sampling of our video work
+                        </div>
+                <div className="align-center align-items-center margin-top-25">
                     <ul className="grid-clients-wrapper align-items-center  width-70">
                     <li  className="grid-clients-box "  data-content="ACD">
                     <iframe className="width-100 height-100" src="https://youtu.be/Us_1q7_nbLo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -139,12 +140,46 @@ Effective marketing videos have a conversational tone. It creates an individual 
                     
                 </ul>
                 </div>
-            </section>
-                
-                
-                       
-                  
+            </section>      
         </div>
+
+        <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+        <section className="flex-layout-section-full align-self-center">
+                    <div className="grid-2col-text-center width-100" >
+                        <div className="grid-title subtitle content-text-24 margin-bottom-20">
+                        Video Services Include: 
+                        </div>
+                        <div className="item content-text-18 margin-top-10">
+                            Video Production
+                        </div>
+                        <div className="item content-text-18 margin-top-10">
+                            Post Production
+                        </div>
+                        <div className="item content-text-18">
+                            B2B Video
+                        </div>
+                        <div className="item content-text-18">
+                            Social Media
+                        </div>
+                        <div className="item content-text-18">
+                            Animation 
+                        </div>
+                       
+                           
+                           
+                        </div>
+                    
+                </section>
+        <section className="flex-layout-section-full flex-layout-column flex-layout-center-center   margin-top-100  grey border-top-5">
+                    <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
+                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
+                      
+                    <div className="flex-layout-center-center">
+                        <p className="content-header text-white flex-layout-column flex-layout-center-center">WDS does not use templates - custom design only!</p>
+                    </div>
+                </div>
+            </section>
         </div>
         )
     }

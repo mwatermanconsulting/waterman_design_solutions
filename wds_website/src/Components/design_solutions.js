@@ -50,7 +50,7 @@ class design_solutions extends Component {
                         "A consistent experience is a better experience.” - Mark Eberman
                     </p>   
                         <p className="content-text-21 content-block-75 align-self-center text-align-center margin-top-25 margin-bottom-100">
-                        When design determines success, understanding the user is paramount.<br/> We design to connect people with what matters most to them. We design with a purpose.
+                         Design determines success, and understanding the user is paramount.<br/> We unite your business with your customers and bring an understanding to their needs and expectations.m Through design solutions we tell that message.
                         </p>
                 </div>
             </div>
@@ -66,9 +66,9 @@ class design_solutions extends Component {
                 <div className="float-right">
                     <img className="photo-container" src={design5}  alt="Your Business is Our Joy" /> 
                 </div>
-                WDS has been designing and developing human centric websites for close to 20 years. We always understood that a website is the hub of your marketing campaign. Creating a positive enjoyable experience on your website is critical to new customer acquisition or retaining customers by providing answers to questions. </p>
+                    WDS has over 20 years experience of designing websites. Our empathic design and ability to connect with users, create a positive enjoyable experience which is critical to new customer acquisition or retaining customers. </p>
             
-                    <p className="content-text-18">Our websites are always on the cutting edge. WDS was providing UX research to our clients before UX was a term. We were provided a responsive solution to Motorola 10 years ago. WDS was one of the first to develop a enterprise CSS flexbox solution. </p>
+                    <p className="content-text-18">Our websites are always on the cutting edge. WDS was one of the first companies to build websites from UX research. We were one of the first companies to provide a responsive design. We developed a responsive design solution to Motorola 10 years ago. WDS was one of the first to develop a enterprise CSS flex box solution. </p>
 
                     <p><i><a href="../website_design">Learn More...</a> </i></p>
                 </div>  
@@ -85,7 +85,7 @@ class design_solutions extends Component {
                 <div className="float-right">
                     <img className="photo-container" style={{marginTop:'-8%'}} src={design_print}  alt="Graphic Design" /> 
                 </div>  
-                    Print still has a place in today's digital world. WDS can develop a graphic design strategies that compliments your digital campaigns. By designing graphics that are based on research and user personas that drive sales and helps user retention. We have extensive print experience. Over the years we have designed magazine's, brochures, biz cards, trade show displays, corporate reports </p>
+                    Print still has a place in today's digital world. WDS can develop a traditional design strategy that compliments your digital campaigns. By designing graphics that are based on research and user personas. Designing for real people helps drive sales and user retention. We have extensive print experience. Over the years we have designed magazine's, brochures, biz cards, trade show displays, corporate reports, etc. </p>
 
                     <p><i><a href="../graphic_design">Learn More...</a></i></p>
                 </div>
@@ -118,7 +118,8 @@ class design_solutions extends Component {
                     <div className="float-right">
                         <img className="photo-container" src={design_video}  alt="Video" /> 
                     </div>  
-                    <p className="content-text-18 margin-top-15">WDS produce corporate videos that captivate audiences, inspire action & drive results for businesses & brands. Content that your audience will love. Content that gives your that is on message and reaches the customer on a deep level. Video content is engaging and ignites emotions. YouTubers are the most powerful social media figures promoting brands. Effective marketing videos have a conversational tone. It creates an individual approach and more confidence to buy online.</p> 
+                    <p className="content-text-18 margin-top-15">
+                        WDS produces corporate videos that captivate audiences, inspire action & drive results for businesses & brands. Creating Content that your audience will love. Content that is on message and reaches the customer on a deep level. Video content is engaging and ignites emotions. YouTubers are the most powerful social media figures promoting brands. Effective marketing videos have a conversational tone. It creates an individual approach and more confidence to buy online.</p> 
 
                     <p><i><a href="../video_production">Learn More...</a></i></p>
                 </div>

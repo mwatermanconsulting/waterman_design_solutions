@@ -26,48 +26,80 @@ class digital_design extends Component {
 
                 </div>
             </section>
-            <section className="flex-layout-section-full photo-content-color align-items-center" style={{height:'670px'}}> 
+            <section className="flex-layout-section-full photo-content-color align-items-center"> 
                 <div className=" grid-2col-text-photo align-items-center margin-tb-100 width-70">
-                <div className="content-block col2-text ">
-                    <div className="callout-text text-align-left">
-                    WDS has been creating design solutions for websites for over 20 years. All of our designs solutions are derived from our UX methodology research findings and user personas.  </div>         
-                </div>
+                    <div className="content-block col2-text ">
+                        <div className="callout-text text-align-left">
+                            WDS has been creating design solutions for websites for over 20 years. All of our designs solutions are derived from our UX findings and user personas. Our website are designed to be as unique as your customers.  
+                        </div>      
+                    </div>
                 <div className="col2-photo width-100 grid-placeself-center">
                     <img className="container-photo-callout" src={web1}  alt="Website Design" /> 
                 </div>
                 </div>
             </section>
-            
-                <section className="grid-2col-photo-content content-header margin-top-100">
-                    <div className="grid-left flex-layout-section-full">
-                        <div className="title">
-                            Website Value                       
-                        </div>
-                        <div className="subtitle">
-                            The hub of your marketing
-                        </div>
-                        <div className="content-block-75 content-text-18 margin-top-25">
-                            <p className="content-text-18"> 
-                            Responsive solutions, Mobile Solutions, Custom design and development </p>
-                        </div>
+
+            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100">
+                <div className="float-left flex-layout-center-center content-block-60">
+                    <div className="title">
+                            Custom Designed Websites that Meet Users Expectations
                     </div>
-                    <div className="grid-right container-image-block">
-                        <img className="photo-container" src={web2}  alt="Stakeholder Interview" /> 
-                    </div>     
-                </section>
+                    <div className=" margin-top-50">
+                        <p className="content-text-24">
+                            It is easier today than ever to get a website. There are countless template sites that are easy enough for people with limited experience to create a website. The outcome is most websites look the same and the web has become, with every website looking the same.</p> 
+                            =
+                            <p className="content-text-24">   
+                            Your customers have a good design eye and can tell the difference between a template website, and custom website. Customers will notice when a business cares enough about them to create a design that is based on UX research, because the experience will be personal. Customers will always choose the better experience every time. Your business wasn't born from a template and your users deserve more. Don't settle for good enough!</p>
+                    </div>
+                </div>
+            </section>
+            
+            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
+            <section className="flex-layout-section-full flex-layout-center-center">
+                <div className="subtitle">
+                    A Small Sample of Our Custom Websites 
+                </div>
+                <div className="align-center align-items-center margin-top-50">
+                    <ul className="grid-clients-wrapper align-items-center  width-70">
+                    
+                    <li  className="grid-clients-box image subtitle text-white"  data-content="ACD">
+                        <img className="width-100 height-100"  src={web4}  alt="ACD" />
+                    </li>
+                    <li  className="grid-clients-box image subtitle text-white"  data-content="White Wolf Consulting"> 
+                        <img className="width-100 height-100" src={web5}  alt="White Wolf Consulting" />
+                    </li>
+                    <li  className="grid-clients-box image subtitle text-white"  data-content="Kinetix">
+                        <img className="width-100 height-100" src={web6}  alt="Kinetix" />
+                    </li>
+                    
+                    <li  className="grid-clients-box image subtitle text-white"  data-content="Norwood Company">
+                        <img className="width-100 height-100" src={web7}  alt="Norwood Company" />
+                    </li>
+                    <li  className="grid-clients-box image subtitle text-white"  data-content="Pierre and Carlo">
+                        <img className="width-100 height-100" src={web8}  alt="Pierre and Carlo" />
+                    </li>
+                </ul>
+                </div>
+            </section>
 
-                <section className="flex-layout-section-full align-self-center">
+            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+            <section className="flex-layout-section-full align-self-center">
                     <div className="grid-2col-text-center width-100" >
                         <div className="grid-title subtitle content-text-24 margin-bottom-20">
-                        Website design services includes: 
+                        Website Design Services Include: 
                         </div>
                         <div className="item content-text-18 margin-top-10">
                             Responsive Design
                         </div>
                         <div className="item content-text-18 margin-top-10">
-                            Accessibility
+                        <a href ="./core_offerings">
+                            Accessibility</a>
+                        </div>
+                        <div className="item content-text-18">
+                        <a href ="./core_offerings">
+                            Telemetry</a>
                         </div>
                         <div className="item content-text-18">
                             Content Creation
@@ -82,51 +114,25 @@ class digital_design extends Component {
                             Custom Images
                         </div>
                         <div className="item content-text-18">
-                            Mobile
+                            Mobile Design
                         </div>
                         <div className="item content-text-18">
-                            <a href="./design_systems">Pattern Libraries</a>
+                        <a href ="./core_offerings">
+                            Analytic Data Reporting</a>
                         </div>
                         <div className="item content-text-18">
-                            <a href ="./css_solution">Custom CSS Solutions</a>
+                            <a href="./design_systems">
+                            Pattern Libraries</a>
                         </div>
                         <div className="item content-text-18">
-                            Brochures
+                           
+                           
                         </div>
-
                     </div>
                 </section>
-              
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
-                
-            <section className="flex-layout-section-full flex-layout-center-center">
-                <div className="align-center align-items-center">
-                    <ul className="grid-clients-wrapper align-items-center  width-70">
-                    
-                    <li  className="grid-clients-box image subtitle text-white"  data-content="ACD">
-                        <img className="width-100 height-100"  src={web4}  alt="ACD" />
-                        </li>
-                    <li  className="grid-clients-box image subtitle text-white"  data-content="White Wolf Consulting"> 
-                        <img className="width-100 height-100" src={web5}  alt="White Wolf Consulting" />
-                       </li>
-                    <li  className="grid-clients-box image subtitle text-white"  data-content="Kinetix">
-                        <img className="width-100 height-100" src={web6}  alt="Kinetix" />
-                        </li>
-                    
-                    <li  className="grid-clients-box image subtitle text-white"  data-content="Norwood Company">
-                        <img className="width-100 height-100" src={web7}  alt="Norwood Company" />
-                        </li>
-                    <li  className="grid-clients-box image subtitle text-white"  data-content="Pierre and Carlo">
-                        <img className="width-100 height-100" src={web8}  alt="Pierre and Carlo" />
-                       </li>
-                    
-                </ul>
-                </div>
-            </section>
-
-            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
-                <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
-                       <a href="../communication_insights"> <img className="width-70 flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center   margin-top-100  grey border-top-5">
+                    <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
+                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
                       
                     <div className="flex-layout-center-center">
                         <p className="content-header text-white flex-layout-column flex-layout-center-center">WDS does not use templates - custom design only!</p>
