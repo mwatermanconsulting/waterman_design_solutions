@@ -32,7 +32,9 @@ class why_wds extends Component {
                         <div className="content-header flex-layout-column">    
                             <div className="content-block width-75">
                                 <div className="text-white text-align-center">
+
                                 Design Solutions based on real users expectations and the business needs
+
                                 </div>
                             </div>
                         </div>
@@ -42,7 +44,8 @@ class why_wds extends Component {
                     <div className="grid-callout yellow-bg "> 
                         <div className="grid-callout-text grid-placeself-center padding width-70">
                             <p className="callout-text text-black">
-                            WDS is a UX/UI Consulating firm that solves complex business and design problems. </p>
+
+                            WDS sells design. We sell user experience design. We sell design in the form of simple interfaces. We sell design in the form of branding. We also sell design as a commodity to be consumed by your business</p>
                         </div>
                         <div className="grid-callout-photo">
                             <img className="flex-image-container width-100" src={whys1}  alt="Customer Service" /> 
@@ -51,19 +54,27 @@ class why_wds extends Component {
                 </section>
                 <section className="flex-layout-section-full flex-layout-column align-items-center">
                     <p className="title margin-top-75">
-                        WDS Design Support Provides the needed guidance and support that your Whole Organization Needs </p>
+
+                        WDS Relives your Design Fears </p>
+
                         <p className="content-text-24 content-block-60 margin-top-25 flex-layout-column align-items-center">
-                        WDS knows design. Offering empathetic design solutions for websites, applications, mobile apps, and social media. Our core offerings helps your business understand the value of design on a core level, providing training, workshops and mentorship programs.  With over 15 years perfecting our approach, we have the experience, teams, skills and scale to deliver sophisticated design solutions.</p>
-                        <p className="subtitle content-block-60 margin-top-50 flex-layout-column align-items-center">
+                        WDS has been evangelizing design to every client for the last 25 years. Our goal is to not only provide an amazing design, but to support you through the entire process and beyond. </p>
+                        
+                        <p className="content-text-24 content-block-60 margin-top-25 flex-layout-column align-items-center">We offer empathetic design solutions for websites, application, mobile apps, and social media. Our core offerings helps your business understand the value of design on a core level, providing training, workshops and mentorship programs.
+                        With over 15 years of perfecting our Strategies, we have the experience, teams, skills and scale to deliver sophisticated design solutions. </p>
+                        <p className="title content-block-60 margin-top-50 flex-layout-column align-items-center">
                         Our client roster includes Motorola, Pfizer, Stubhub, SmithKline, OSIsoft...</p>
                 </section>
 
-                <div className="flex-layout-section-full margin-top-25 grey-blue padding-bottom-50">
-                    <div className="grid-services-list padding-20 flex-section-align-center">
-                        <section className="grid-services-1">
+                <div className="flex-layout-section-full margin-top-25 grey-blue padding-bottom-50 padding-top-50">
+                <div className="title align-self-center margin-top-50" >
+                    Your Complete Design Resource
+                </div>
+                    <div className="grid-services-list padding-20 align-self-center margin-top-25" style={{marginLeft:'11%',}}>
+                        <section className="grid-services-3">
                         <a href="./ux_design" ><img className="width-25" src={icon_ux}  alt="UX" /> </a>
                         <div className="subtitle margin-top-25">
-                            <a href="./ux_design" className="no-decoration">
+                            <a href="./ux_design" className="no-decoration" style={{marginTop:'2%'}}>
                                 UX Design</a>
                         </div>
                             <ul className="dashed content-text-18 margin-top-15">
@@ -76,7 +87,7 @@ class why_wds extends Component {
                                 <li>Pattern Libraries</li>
                             </ul>
                         </section>
-                    <section className="grid-services-2">
+                    <section className="grid-services-1">
                     <a href="./design_solutions"> <img style={{width:'27%'}} src={icon_design_solutions}  alt="Design Solutions" /></a>
                         <div className="subtitle margin-top-25">
                             <a href="./design_solutions" className="no-decoration"> Design Solutions</a>
@@ -91,7 +102,7 @@ class why_wds extends Component {
                                 <li>Style Guides</li>
                             </ul>
                     </section>
-                    <section className="grid-services-3">
+                    <section className="grid-services-2">
                     <a href="./core_offerings"><img style={{width:'27%'}} src={icon_design}  alt="Design" /></a>
                         <div className="subtitle margin-top-25">
                         <a href="./core_offerings" className="no-decoration">Core Offerings</a></div>
@@ -108,31 +119,36 @@ class why_wds extends Component {
                     </section>
                 </div>
             </div>
-                <section className="flex-layout-section-full align-items-center" >
+                <section className="flex-layout-section-full align-items-center" style={{marginLeft:'9%'}} >
                     <div className="grid-2col-text-photo width-70 margin-top-100 ">
-                        <div className="col2-textwidth-100 grid-placeself-center">
+                        <div className="col2-textwidth-100 grid-placeself-center" style={{marginRight:'4%'}}>
                             <img  src={whys2} className="width-100" alt="Methodology"/> 
                         </div>
-                    <div className="2col-photo grid-placeself-center content-block-75">
-                        <p className="content-header "> 
-                            Our UX Methodology Connects with People</p>
+                    <div className="2col-photo grid-placeself-center content-block-75" style={{marginRight:'30%'}} >
+                        <p className="title"> 
+                            Focus always on the User  </p>
+                            <p className="subtitle "> 
+                            In search of the Truth</p>
                         <p className="content-text-21 margin-top-15">  
                             Our methodology produces results that were previously uncovered answers and empathic designs that connect and resonates with your users. Our methodology uncovers unarticulated user needs and our design solutions and strategies will drive business transformation. </p>
                     </div>
                     </div> 
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
-                    
                 </section>
-           
+
+            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
             <section>
-                <div className="grid-2col-photo-content align-self-center width-100">
+                <div className="grid-2col-photo-content align-self-center width-100" style={{marginLeft:'7%'}}>
                     <div className="grid-left grid-placeself-center width-70">
-                        <p className="content-header"> 
-                            Core Offerings</p>
-                        <p className="content-text-21 content-block-75 margin-top-15">
-                            Business value of design. WDS has been successful helping business with design for close to 20 years with our design strategies and < a href="core_offerings">core offerings,</a> which Increase revenues and shareholders returns. We know the value of design, but don't take our word of for it. A comprehensive study on the value of design, <a href="../insights">Mckinsey</a> found the truth that companies that focus on the user and design have 30% increase in business compared to the same businesses that do not focus on design.</p>
+                    <p className="title"> 
+                            The Business Value of Design  </p>
+                            <p className="subtitle content-block-60 "> 
+                            Changing the perceptions of Design</p>
+                       
+                        <p className="content-text-21 content-block-60 margin-top-15">
+                            Empathic design is critical to your to your future success. WDS has been successfully communicating the value of design to businesses for close to 25 years. Our design with our designs and design strategies along with our < a href="core_offerings">core offerings,</a> increase revenues and customer loyalty. A recent comprehensive study on the value of design, <a href="../insights">Mckinsey</a> found the  that companies that focus on the user and design have 30% increase in business compared to the same businesses that do not focus on design.</p>
                     </div>
-                    <div className="grid-right width-100 grid-placeself-center">
+                    <div className="grid-right width-100 grid-placeself-center" style={{marginRight:'28%', marginTop: '7%'}}>
                         <img src={whys3} className="width-100" style={{width: '544px'}} alt="Core Offerings"/> 
                     </div>
                 </div>
@@ -149,26 +165,32 @@ class why_wds extends Component {
             </section>    
 
         <section className="float-left align-items-center flex-layout-column" style={{marginLeft:' 4%'}}>
-            <div className="subtitle margin-top-15 content-block-75">
+            <div className="title content-block-60">
                 UX Design
             </div>
-            <div className="content-block-75 content-text-18 margin-top-15">
+            <p className="subtitle content-block-60 margin-top-15"> 
+                Understanding the Users </p>
+           
+           
+            <div className="content-block-60 content-text-18 margin-top-15">
                 <p className="content-text-18"> 
-            <div className="float-right" style={{marginRight:'10%'}}>
+                
+            <div className="float-right" style={{marginRight:'6%' , marginTop:'-1%'}}>
                 <img className="border-3px" src={why_design}  alt="UX Design" /> 
-            </div>
-            The best customer experience starts with the Golden Rule — Treat customers how you would like to be treated. At the foundation of WDS methodology is observation—watching consumers use products or services. But unlike in focus groups, usability laboratories, and other contexts of traditional market research, such observation is conducted in the customer’s own environment—in the course of normal, everyday routines. In such a context, researchers can gain access to a host of information that is not accessible through other observation-oriented research methods. </p>
+            </div>  
+            The best customer experience starts with the Golden Rule — Treat customers how you would like to be treated. At the foundation of WDS methodology is observation, watching customers use products or services. But unlike focus groups or usability laboratories, we conduct our observation in the customer’s own environment during the course of people's everyday routines. In such a context, our researchers gain insight to a host of information that is not accessible through other observation-oriented research methods. </p>
 
             <button onclick="location.href='./ux_design';" type="button" value="Learn More" className="button margin-top-50 font-size-24">Learn More</button>
             </div>  
         </section>
 
+        <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <div className="grid-2col-photo-content margin-top-100 ">
+        <div className="grid-2col-photo-content margin-top-100" style={{marginLeft:'7%'}}>
                     <div className="grid-left">
-                        <p className="content-header"> 
+                        <p className="title"> 
                             UI Design and Development</p>
-                        <p className="content-text-21"> 
+                        <p className="subtitle margin-top-15"> 
                             Application and Website Design </p>
                         <p className="content-text-18 content-block-75">  
                             Our work has simplified interfaces for applications used by critical industries such as used energy sector using our designed software to monitor oil rigs or for the pharmaceutical industries using our UI designed software on the monitoring the drug manufacturing factories.</p>
@@ -188,8 +210,6 @@ class why_wds extends Component {
                             Ensuring your message is consistent across all mediums </p>
                         <p className="content-text-18 content-block-75">  
                             A Design System is the complete set of design standards, documentation, and principles along with UI patterns and components to achieve those standards.</p>
-
-                            
                             <button onclick="location.href='./design_systems';" type="button" value="Learn More" className="button margin-top-50 font-size-24">Learn More</button>
                     </div>
                     <div className="grid-right">
@@ -253,10 +273,10 @@ class why_wds extends Component {
                     <div className="2col-text grid-placeself-center width-70 margin-left-75">
                         <div className="content-block">
                             <p className="content-header"> 
-                                We understand the uncertainty and fear involved with contracting design firms </p>
+                                We understand the uncertainty and fear involved with contracting design consultants </p>
                             <p className="content-text-18 margin-top-15">  
                             
-                                WDS has the honour of being the third option on quite a few projects, including the stubhub project. Many times the previous experiences were unsuccessful not meeting business or users needs. It's not easy to follow unsuccessful design projects. Developers and stakeholders are on edge, but our team empathizes with the situation. Once we begin our methodology and advocating for the users we begin connecting with the developers and stakeholders, amazing things begin happen.</p> 
+                                WDS has had the honour of being the third option on quite a few projects, including the stubhub project. Most failed designs are due to the designers not understanding the users, or the solutions were uninspired and the business needs were not met. It's not easy to follow unsuccessful design projects. There is a certain disdain of designers at this point and the developers and stakeholders are on edge. We succeed through empathy and curiosity. Our methodology provides answers and a deep understanding of the users.   We use this understanding to begin connect with the developers and stakeholders. Amazing things begin happen when everyone is one the same page.</p> 
 
                         </div>
                     </div>              
