@@ -32,7 +32,8 @@ class why_wds extends Component {
                         <div className="content-header flex-layout-column">    
                             <div className="content-block width-75">
                                 <div className="text-white text-align-center">
-                                Solving Difficult Design Problems with Empathy, Skill and Talent
+
+                                Design Solutions based on real users expectations and the business needs
 
                                 </div>
                             </div>
@@ -43,6 +44,7 @@ class why_wds extends Component {
                     <div className="grid-callout yellow-bg "> 
                         <div className="grid-callout-text grid-placeself-center padding width-70">
                             <p className="callout-text text-black">
+
                             WDS sells design. We sell user experience design. We sell design in the form of simple interfaces. We sell design in the form of branding. We also sell design as a commodity to be consumed by your business</p>
                         </div>
                         <div className="grid-callout-photo">
@@ -52,7 +54,9 @@ class why_wds extends Component {
                 </section>
                 <section className="flex-layout-section-full flex-layout-column align-items-center">
                     <p className="title margin-top-75">
+
                         WDS Relives your Design Fears </p>
+
                         <p className="content-text-24 content-block-60 margin-top-25 flex-layout-column align-items-center">
                         WDS has been evangelizing design to every client for the last 25 years. Our goal is to not only provide an amazing design, but to support you through the entire process and beyond. </p>
                         
