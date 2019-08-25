@@ -19,19 +19,22 @@ class innovative_solutions extends Component {
                     Innovative Solutions</div>
                 <img className="flex-image-container" src={innovation}  alt="Innovation" /> 
             </section>
-            <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
+            <section className="container-section-1-primary flex-layout-center-center border-bottom-3 callout-color-dark">
                 <div className="callout-text-lg"> 
-                 “Every solution to every problem is simple.<br/> It's the distance between the two where the mystery lies.” <br/> ― Derek Landy, Skulduggery Pleasant
+                 “Every solution to every problem is simple.<br/> It's the distance between the two where the mystery lies.” <br/> ― Derek Landy
                 </div>
             </section>
-            <section className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
-                <div className="grid-item-b content-block-60 content-header flex-layout-column">
-                    <div className="callout-text text-align-left text-white">
-                        We bring to light truth that has been uncovered sometimes for years. We take that truth and turn into simple innovative solutions</div>
-                             
+
+            <section className="flex-layout-section-full photo-content-color align-items-center"> 
+                <div className=" grid-2col-text-photo align-items-center margin-tb-100 width-70">
+                    <div className="content-block col2-text ">
+                        <div className="callout-text text-align-left">
+                          WDS has provided solutions to applications used by the energy sectors including nuclear reactors. We have the focus, insight and experience to solve the most difficult design and business problems on the worlds most intricate products and applications.  
+                        </div>      
+                    </div>
+                <div className="col2-photo width-100 grid-placeself-center">
+                    <img className="container-photo-callout" src={innovation1}  alt="Website Design" /> 
                 </div>
-                <div className="item-a-nb container-image-block">
-                    <img className="container-photo-callout" src={innovation1}  alt="shaking hands" /> Photo by             George Hiles on Unsplash
                 </div>
             </section>
     
@@ -59,10 +62,9 @@ class innovative_solutions extends Component {
                         <div className="float-right">
                         <img className="photo-container"  src={innovation2}  alt="Stakeholder Interview" /> 
                         </div>
-                    
-                            Narrative User Scenarios enable our teams to avoid the trap of focusing on prescriptive solutions too early in the process which limits the innovation space before it is explored.  They are based on personas and used to imagine the ideal experience for a specific user or customer persona.</p>
+                            Narrative User Scenarios enable our teams to avoid the trap of focusing on prescriptive solutions too early in the process which limits the innovation space before it is explored. They are based on personas and used to imagine the ideal experience for a specific user or customer persona.</p>
                             
-                            <p className="content-text-18"> In creating User Scenarios, we first define the solutions at a high level, in the context of their use. As we write out a story of a person interacting with the application in the course of their day, we ground the scenario in reality and, by keeping the details of the features and interactions out of the story, we enable designers to imagine the best possible solutions. The User Scenarios have the added importance of containing the key user interactions, in story form, that the solution must support. With further definition, these are used as the inputs to the epics and user stories that are the beginning stages of a product backlog.</p>
+                            <p className="content-text-18"> In creating User Scenarios, we first define the solutions at a high level, in the context of their use. As we write out a story of a person interacting with the application in the course of their day, we ground the scenario in reality, by keeping the details of the features and interactions out of the story, enabling designers to imagine the best possible solutions. The User Scenarios have the added importance of containing the key user interactions, in story form, that the solution must support. With further definition, these are used as the inputs to the epics and user stories that are the beginning stages of a product backlog.</p>
                         </div>
                 </section>
 
@@ -80,10 +82,10 @@ class innovative_solutions extends Component {
                             <p className="content-text-18"><div className="float-right">
                         <img className="photo-container" src={innovation3}  alt="Review" /> 
                     </div> 
-                            To generate new concepts, we efficiently and imaginatively explore multiple options for solving each design challenge to ensure that we are arriving at the best solutions. There are usually many ways to solve a problem and we don’t stop at our first good idea. </p>
+                            To generate new concepts, we efficiently and imaginatively explore multiple options for solving each design challenge to ensure that we are arriving at the best solutions. Brainstorming a problem with multiple disciplines allows us to explore fresh ideas. </p>
 
                             <p className="content-text-18">
-                            In this activity, we take the customer’s goals, as defined in the written user scenarios, and sketch how that user will accomplish them through the interface of the application. A careful focus on how the interactions flow across screens leads to designs that enable users to accomplish their goals in ways that feel natural to them. It provides an intuitive feel to an application which is not achieved when the focus is solely on the visual aspects of an interface.</p>
+                            In this activity, we take the customer’s goals, as defined in the written user scenarios, and sketch how that user will accomplish their tasks through the interface of the application. A careful focus on how the interactions flow across screens leads to designs that enable users to efficiently accomplish their goals in ways that feel natural to them. Providing an intuitive feel to an application which is not achieved when the focus is solely on the visual aspects of an interface.</p>
 
                         </div>   
                 </section>
@@ -95,13 +97,13 @@ class innovative_solutions extends Component {
                             Construct an Interaction Model Based on Users
                     </div>
                     <div className="subtitle content-block-60 margin-top-15">
-                            Establish Frameworks & <br/> Workflow concepts</div>
+                            Establish Frameworks & <br/> Workflow Concepts</div>
                     <div className="content-block-60 content-text-18 "><div className="float-right">
                         <img className="photo-container" style={{marginTop:'-8%'}} src={innovation4}  alt="construct user model" /> 
                     </div> 
                         <p className="content-text-18 margin-top-15">Technology is dramatically changing the way marketers work. With thousands of software solutions at our disposal to assist with automation, personalization and optimization, knowing where to start or how to get the most out of your investments is challenging.</p> 
 
-                            <p className="content-text-18">Whether you choose a Best-in-Class or All-in-One stack, our team will help you make the right investments and capture value.</p>
+                            <p className="content-text-18">By understanding your business goals and your users expectations, our team will help you make the right investments and capture value.</p>
                         </div>
                 </section>
 
@@ -117,7 +119,7 @@ class innovative_solutions extends Component {
                     <div className="content-block-60 content-text-18 margin-top-15"><div className="float-right">
                         <img className="photo-container" src={innovation5}  alt="Innovative Solutions" /> 
                     </div>    
-                            <p className="content-text-18"> Rather than developing a product that we hope will serve the user at this stage, vast amounts of resources are saved by presenting concepts to people for validation before any building takes place. Thus, after creating a set of design concepts, we make sure the designs meet the intended goals. </p>
+                            <p className="content-text-18"> Rather than developing a product that we hope will serve the user at this stage, vast amounts of resources are saved by presenting concepts to users for validation before any building takes place. We create a set of design concepts,and ensure the designs meet the intended goals. </p>
                             
                             <p className="content-text-18">
                             Does a concept work for the people who will use it? Does it appeal to them? Where is there room for improvement? Is this concept supporting the user on both a practical and emotional level? This is how we ensure that the design direction is the correct one and tune it accordingly.</p> 
@@ -134,11 +136,11 @@ class innovative_solutions extends Component {
                         <div className="content-block-60 content-text-18 margin-top-15"> <div className="float-right">
                         <img className="photo-container" src={innovation6}  alt="Innovative Solutions" /> 
                     </div>     
-                            <p className="content-text-18"> A key component of any solution is the visual appearance of the interface. An interface will be an important representation of the brand and needs to support the workflows and interaction models. Collectively, this can be referred to as a company’s design language. </p>
+                            <p className="content-text-18"> A key component of any solution is the visual appearance of the interface. An interface will be an important representation of the brand and needs to support three objects company branding, user workflows and interaction models. Collectively, this can be referred to as a company’s design language. </p>
                             
                             <p className="content-text-18">
-                            The design language is needed to drive consistency across applications and channels, delivering a  more cohesive and singular experience of the company. To develop a company’s design language, we carry out a visual exploration initiative so the team can iterate on ideas, refine them and determine the final outcome.
-                            Whether you choose a Best-in-Class or All-in-One stack, our team will help you make the right investments and capture value.</p>
+                            The design language is needed to drive consistency across applications and touchpoints, delivering a more cohesive and singular experience of the company. To develop a company’s design language, we carry out a visual exploration initiative so the team can iterate on ideas, refine them and determine the final outcome; style guides, pattern libraries and design systems. 
+                            </p>
                         </div>
                 </section>
 

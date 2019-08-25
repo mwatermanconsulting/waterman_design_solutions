@@ -38,13 +38,38 @@ class ui_design extends Component {
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100">
                 <div className="float-left flex-layout-center-center content-block-60">
                     <div className="title">
-                    WDS UI Designs are all about the user. We do not begin the design until research has been completed and the users needs and expectations are understood.
+                    <section className="flex-layout-section-full margin-top-50 flex-layout-center-center">
+                <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-75">Our team builds systems for billion-dollar companies and startups.
+                </div>
+                <div className="content-block-services margin-top-25 flex-align-center margin-bottom-50" style={{marginLeft: '25%'}} >
+                    <p className="content-text-18 content-block-75">
+                    Our passion is to simplify websites, products and software interfaces. 
+                    
+                     for applications used by critical industries such as the energy sector, who are currently using our designed software to monitor oil rigs and nuclear plants. These high level design solutions require a team with focus and experience and an understanding of the human mind. Our UX designers have studied cognitive psychology, because we believe it is important to understand unconscious human behavior. One error can be catastrophic and must be accounted for during testing. 
+                    
+                    
+                     With a passion and empathy for simplified design 
+                    </p> 
+                </div>
+                          
+            </section>.
                     </div>
                     <div className=" margin-top-50">
                         <p className="content-text-24">
-                        Our work has simplified interfaces for applications used by critical industries such as the energy sector, who are currently using our designed software to monitor oil rigs. Or for the pharmaceutical industries using our designed software for monitoring drug manufacturing facilities.</p>
+                        Our work has simplified interfaces for applications used by critical industries such as the energy sector, who are currently using our designed software to monitor oil rigs and nuclear plants. Or for the pharmaceutical industries using our designed software for monitoring drug manufacturing facilities.</p>
                     </div>
                 </div>
+            </section>
+            <section className="flex-layout-section-full margin-top-50 flex-layout-center-center">
+                <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-75">Our team builds systems for billion-dollar companies.
+                </div>
+                <div className="content-block-services margin-top-25 flex-align-center margin-bottom-50" style={{marginLeft: '25%'}} >
+                    <p className="content-text-18 content-block-75">
+                        WDS is behind the design and experience of some of the most complex software in the world. 
+                        It takes discipline and expertise to design data visualizations tools for the energy sector, the industrial internet, and design solutions for global big-box retailers, and we’ve delivered on these and more. With a passion for automation and ops, our development teams drive operational excellence and commit high-quality code.
+                    </p> 
+                </div>
+                          
             </section>
             
                 

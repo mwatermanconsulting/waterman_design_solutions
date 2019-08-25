@@ -44,7 +44,6 @@ class why_wds extends Component {
                     <div className="grid-callout yellow-bg "> 
                         <div className="grid-callout-text grid-placeself-center padding width-70">
                             <p className="callout-text text-black">
-
                             WDS sells design. We sell user experience design. We sell design in the form of simple interfaces. We sell design in the form of branding. We also sell design as a commodity to be consumed by your business</p>
                         </div>
                         <div className="grid-callout-photo">
@@ -55,7 +54,7 @@ class why_wds extends Component {
                 <section className="flex-layout-section-full flex-layout-column align-items-center">
                     <p className="title margin-top-75">
 
-                        WDS Relives your Design Fears </p>
+                        WDS Relieves Your Design Fears </p>
 
                         <p className="content-text-24 content-block-60 margin-top-25 flex-layout-column align-items-center">
                         WDS has been evangelizing design to every client for the last 25 years. Our goal is to not only provide an amazing design, but to support you through the entire process and beyond. </p>
@@ -126,36 +125,36 @@ class why_wds extends Component {
                         </div>
                     <div className="2col-photo grid-placeself-center content-block-75" style={{marginRight:'30%'}} >
                         <p className="title"> 
-                            Focus always on the User  </p>
+                            Elegant solutions for difficult problems </p>
                             <p className="subtitle "> 
-                            In search of the Truth</p>
+                            Experience matters</p>
                         <p className="content-text-21 margin-top-15">  
-                            Our methodology produces results that were previously uncovered answers and empathic designs that connect and resonates with your users. Our methodology uncovers unarticulated user needs and our design solutions and strategies will drive business transformation. </p>
+                        Solving complex business problems Our methodology uncovers unarticulated user needs and our design solutions and strategies will drive business transformation. Our methodology is scalable that produces real results that increase sales and customer retention for all businesses   </p>
                     </div>
                     </div> 
                 </section>
 
-            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-            <section>
-                <div className="grid-2col-photo-content align-self-center width-100" style={{marginLeft:'7%'}}>
-                    <div className="grid-left grid-placeself-center width-70">
-                    <p className="title"> 
-                            The Business Value of Design  </p>
-                            <p className="subtitle content-block-60 "> 
-                            Changing the perceptions of Design</p>
-                       
-                        <p className="content-text-21 content-block-60 margin-top-15">
-                            Empathic design is critical to your to your future success. WDS has been successfully communicating the value of design to businesses for close to 25 years. Our design with our designs and design strategies along with our < a href="core_offerings">core offerings,</a> increase revenues and customer loyalty. A recent comprehensive study on the value of design, <a href="../insights">Mckinsey</a> found the  that companies that focus on the user and design have 30% increase in business compared to the same businesses that do not focus on design.</p>
+          
+                <section>
+                    <div className="grid-2col-photo-content align-self-center" style={{marginLeft:'7%'}}>
+                        <div className="grid-left grid-placeself-center width-70 content-block-60">
+                        <p className="title"> 
+                            Its all about empathizing with users </p>
+                        <p className="subtitle"> 
+                            We connect with users on a deep level
+                        </p>
+                         <p className="content-text-21 content-block-60  margin-top-15">
+                            Empathic design is critical to your to your future success. WDS has been successfully communicating the value of design to businesses for close to 25 years. Our design with our designs and design strategies along with our < a href="core_offerings">core offerings,</a> increase revenues and customer loyalty. A recent comprehensive study on the value of design, <a href="../insights">Mckinsey</a> found the  that companies that focus on the user and design have 30% increase in business compared to the same businesses that do not focus on design.</p>   
+                        </div>
+                        <div className="grid-right width-100 grid-placeself-center" style={{marginRight:'28%', marginTop: '7%'}}>
+                            <img src={whys3} className="width-100" style={{width: '544px'}} alt="Core Offerings"/> 
+                        </div>
                     </div>
-                    <div className="grid-right width-100 grid-placeself-center" style={{marginRight:'28%', marginTop: '7%'}}>
-                        <img src={whys3} className="width-100" style={{width: '544px'}} alt="Core Offerings"/> 
-                    </div>
-                </div>
-            </section>
-      
+                </section>
 
-        <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
         <section className="flex-layout-section-full align-items-center">
                 <p className="title "> 

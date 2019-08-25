@@ -76,8 +76,8 @@ class services extends Component {
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="grid-2col-photo-content content-header margin-top-50" style={{marginLeft: '9%', marginTop:'15%'}}>
-                    <div className="grid-left-services flex-layout-section-full margin-top-50" style={{ marginTop:'50px'}}>
+                <section className="grid-2col-photo-content content-header " style={{marginLeft: '9%', marginTop:'15%'}}>
+                    <div className="grid-left-services flex-layout-section-full " >
                         <div className="subtitle">
                             UI Design & Development
                         </div>

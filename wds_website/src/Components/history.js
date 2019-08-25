@@ -107,9 +107,6 @@ class about extends Component {
                             Investing in Digital Design Skills</div>
                             <p className="content-text-18 content-block-55 margin-top-15"> 
                             Terri then worked for InvestorForce, provider of investment analytics and reporting solutions for institutional consultants. She redesigned the entire website, meeting aggressive deadlines, and established a successful working relationship with CEO. She initiated a project for the redesign of an acquired company, Altvest. Traveling to NYC, she managed, directed and implemented the site architecture and design, working with a 9-person team of web developers and product managers. Designing and developing different prototypes for different products throughout the site, improving the design and introducing better user experience. This project increased knowledge of programming code and quality assurance systems to quickly work effectively with all groups involved.</p>
-
-                           
-
                     </section>
 
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
