@@ -41,13 +41,10 @@ class clients extends Component {
                 <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-50">
                     Our client roster includes Motorola, Google, Pfizer, Stubhub, SmithKline, OsiSoft and many 
                 </div>
-                <div className="content-block-50 margin-top-50">
-                    <img className="width-100" src={motorola_ba}  alt="motorola before and after" /> 
-                </div>
             </section>
             <section className="flex-layout-section-full flex-layout-center-center">
                 <div className="align-center align-items-center">
-                    <ul className="grid-clients-wrapper align-items-center  width-70">
+                <ul className="grid-clients-wrapper align-items-center content-block-70">
                     <li  className="grid-clients-box">
                         <img className="width-100 height-100" src={motorola}  alt="motorola" /></li>
                     <li  className="grid-clients-box">
@@ -69,16 +66,24 @@ class clients extends Component {
                 </div>
             </section>
             <section className="flex-layout-section-full margin-top-50 flex-layout-center-center">
-                <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-75">Our team builds systems for billion-dollar companies.
+                <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-75">
+                    Check out our case studies
                 </div>
-                <div className="content-block-services margin-top-25 flex-align-center margin-bottom-50" style={{marginLeft: '25%'}} >
-                    <p className="content-text-18 content-block-75">
-                        WDS is behind the design and experience of some of the most complex software in the world. 
-                        It takes discipline and expertise to design data visualizations tools for the energy sector, the industrial internet, and design solutions for global big-box retailers, and we’ve delivered on these and more. With a passion for automation and ops, our development teams drive operational excellence and commit high-quality code.
-                    </p> 
-                </div>
-                          
             </section>
+            <div className="content-block-75 content-text-18 margin-top-15">
+                            <p className="content-text-18"> 
+                                Full Client List</p>
+
+                            <ul className="dashed">
+                                <li>Kickoff Meeting</li>
+                                <li>Business Requirements</li>
+                                <li>Competition Research</li>
+                                <li>Marketing Materials Review</li>
+                                <li>Style Guides and Company Standards</li>
+                                <li>Stakeholders Contact</li>
+                            </ul>
+
+                        </div>
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
                 <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
                        <img className="content-block-55 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 

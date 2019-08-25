@@ -57,29 +57,26 @@ class methodology extends Component {
                 <section className="margin-top-100 flex-layout-section-full flex-layout-column align-items-center">
                     <div className="content-header flex-layout-column content-block-75">    
                         <div className="title flex-layout-center"> 
-                            WDS Goal: To Uncover the Truth
+                            WDS Goal: Uncovering the Truth
                         </div>
                         <p className="content-text-21 content-block-75 align-self-center text-align-center margin-top-25">
-                            The science of understanding people has developed for centuries, but not enough has been done to integrate these approaches into the process of software design. For more than a decade, we have refined a scalable, flexible methodology that centers on answering questions about customers by connecting and understanding people, observing their daily workflow, by interviewing and conversing with them we begin to identify people’s needs, behaviors and aspirations. This provides a perspective on customers that clients typically have never seen. </p>
+                            The science of understanding people has developed for centuries, but not enough has been done to integrate these approaches into the process of UI design. For more than a decade, we have refined a scalable, flexible methodology that centers on answering questions about customers by connecting and understanding people, observing their daily workflow, by interviewing and conversing with them we begin to identify people’s needs, behaviors and aspirations. This provides a perspective on customers that clients typically have never been seen. </p>
+
+                        <p className="content-text-21 content-block-75 align-self-center text-align-center">
+                            Our methodology produces answers and empathic designs that connect and resonates with your users. Our methodology uncovers unarticulated user needs and our design solutions and strategies will drive business transformation. </p>
                     </div>
                 </section>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
                 <section className="flex-layout-full align-items-center flex-layout-column">
-                    <div className="content-header flex-layout-column content-block-75">    
                         <div className="title flex-layout-center"> 
-                            WDS Methodology
+                            The WDS UX Methodology
                         </div>
                     
-                    <p className="content-text-21 content-block-75 align-self-center text-align-center">
-                        Our methodology produces answers and empathic designs that connect and resonates with your users. Our methodology uncovers unarticulated user needs and our design solutions and strategies will drive business transformation. </p>
-                    </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
-
-                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
                     <div className="float-left flex-layout-center-center content-block-60">
                         <div className="title">
                             Design Review
@@ -92,14 +89,14 @@ class methodology extends Component {
                                 <div className="float-right">
                                     <img className="container-photo-callout" style={{marginLeft:'5%'}} src={methodology2}  alt="UX" /> 
                                     <p className="caption">Photo by Frank on Unsplash</p>
-                                </div> A design review is a process to evaluate and critique current design work. <br/> The review looks at how specific features  have been implemented and/or evaluates a prototype of a project feature or user flow. Design reviews can be modeled after the five elements of the user experience with an evaluation of the elements from abstract concepts to concrete stages.
+                                </div> A design review is a process to evaluate and critique current design work. <br/> The review looks at how specific features have been implemented and/or evaluates a prototype of a project feature or user flow. Design reviews can be modeled after the five elements of the user experience with an evaluation of the elements from abstract concepts to concrete stages.
 
                                 <ul className="dashed content-text-18 margin-left-10 margin-top-15" style={{marginTop:'15px'}}>
-                                    <li>Surface - everything visually the <br/> "Look and Feel"  of the site or app</li>
-                                    <li>Skeleton - Make structure concrete: <br/>Do the components make sense?</li>
-                                    <li>Structure - Gives shape to the scope.<br/> How do the components fit together and behave? </li>
-                                    <li>Scope - requirements</li>
-                                    <li>Strategy - Where it all begins. <br/>What was the reason for this site/app. What do the users want? </li> 
+                                    <li><b>Surface</b> - everything visually the <br/> "Look and Feel"  of the site or app</li>
+                                    <li><b>Skeleton</b> - Make structure concrete: <br/>Do the components make sense?</li>
+                                    <li><b>Structure</b> - Gives shape to the scope.<br/> How do the components fit together and behave? </li>
+                                    <li><b>Scope</b> - What were the initial requirements</li>
+                                    <li><b>Strategy</b> - Where it all begins. <br/>What was the reason for this site/app. What do the users want? </li> 
                                 </ul></p>
                            
                             </div>  
@@ -119,7 +116,8 @@ class methodology extends Component {
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-15">
                             <p className="content-text-18"> 
-                                The next phase of the methodology establishes the foundation. It is all about the business and how it relates to the users. It's how design relates to the business.</p>
+                            At the beginning of the methodology, we set the foundation for success by developing a
+                            understanding of the business, the industry, the competition and relevant trends. This becomes the basis for how we approach all subsequent phases. Along with secondary research, we interview stakeholders and subject matter experts, both to gain a first-hand awareness of the company context, and also to build connections within the business which contribute to stakeholder alignment throughout the engagement. This activity begins to define hypotheses for where the company intends to play in the market, who it intends to serve and how it plans to serve them. </p>
 
                             <ul className="dashed">
                                 <li>Kickoff Meeting</li>
@@ -153,15 +151,20 @@ class methodology extends Component {
                         
                         <div className="margin-top-15" >
                             <p className="content-text-18 content-block-75">
-                            The people being observed should be carrying out normal routines—playing, eating, relaxing, or working at home or at the office.  A real-life atmosphere—even a slightly stilted one—is still better than the highly artificial setting of a focus-group conference room or a laboratory setting. For some products and services, our team members may conduct their observations in a highly unobtrusive way simply by planting themselves in their offices and video taping.
+                                Observation provides insight beyond the traditional testing methods. Observation of  users while they work in a real life setting, provides invaluable insights. Our team members conduct their observations and services, in a highly unobtrusive way simply by planting themselves in their offices and video taping. Our goal in this phase is to emphasize with the user as they complete their the users work flows and pain points. Although observation is our first choice, our experience has shown this is not always feasible, as was in the case with Motorola. All of our strategies in this phase are sophisticated, empathic observers that can see solutions<br/> to unarticulated needs
                             </p>
 
                             <ul className="dashed content-block-75 content-text-16">
                                 <li>Well chosen observers have deep knowledge of product or service</li>
                                 <li>Observers rely on real actions rather than reported behavior</li>
-                                <li>Learn the users feelings through body language, </li>
+                                <li>Understand the users feelings through body language </li>
                                 <li>Use of actual product or prototype</li>
-                                <li className="">Our team are sophisticated, <br/>empathic observers that can see solutions<br/> to unarticulated needs </li>
+                                <li>Interview users</li>
+                                <li>Discover user pain points</li>
+                                <li>Empathize with users needs and expectations</li>
+                                <li>Understanding of user work flows</li>
+
+                              
                                 
                             </ul>
                         </div>
@@ -186,7 +189,7 @@ class methodology extends Component {
                         
                         <div className="content-block-75 margin-top-15">
                             <p className="content-text-18">
-                            When we wish to know how to interpret people’s actions, observers may ask a few very open-ended questions, such as “Why are you doing that?” They often carry a list of questions to prompt their own observations—for example, “What problems is the user encountering?” But most data are to gathered from visual, auditory, and sensory cues. Thus empathic-design teams very frequently use photography and videography as tools.
+                            To understand the research we need to understand the people and know how to interpret people’s actions, our observers may ask a few very open ended questions, such as; “Why are you doing that?” They often carry a list of questions to prompt their own observations, for example; “What problems is the user encountering?” Most of our data is gathered from visual, auditory, sensory cues. Presenting our empathic-design teams very  videography, interview recordings and notes as tools, to begin reflection.
                             </p>
                         </div>
                         
@@ -209,7 +212,7 @@ class methodology extends Component {
                         </div>
                         <div className="content-block-65 content-text-18 margin-top-15">
                             <p className="content-text-18"> 
-                            After gathering data in many forms, the UX designers return to reflect on what they have observed and to review their visual data with the team. Analyzing workflows, user journeys and pain points.They will ask questions that the team members may or may not be able to answer and that may well send them out for further observation. It is at this point that the team tries to identify all of its customers’ possible problems and needs.</p>
+                            After gathering data in many forms, the UX designers return to reflect on the user and business research and to review the data with the team. Analyzing workflows, user journeys and pain points. They will ask questions that the team members may or may not be able to answer resulting in sending them out for further observation and research. At this point the team begins to identify all of its customers’ possible problems and needs.</p>
 
                         </div>
                     </div>
@@ -231,12 +234,11 @@ class methodology extends Component {
                         </div>
                         <div className="content-block-75 margin-top-15" >
                             <p className="content-text-18">
-                            Brainstorming is a valuable part of any methodology process; it is used specifically to transform the observations into graphic, visual representations of possible solutions. Although brainstorming is generally associated with a creative process, it is not undisciplined. We tell our team to heed five rules: </p>
+                            Brainstorming is a valuable part of any methodology process; it is used specifically to transform the research into graphic, visual representations of possible solutions. Although brainstorming is generally associated with a creative process, it is not undisciplined. We tell our team to heed five rules: </p>
 
                             <ol style={{marginleft:'15%'}}>
-                                <li>defer judgment</li>
-                                <li>build on the ideas of others</li>
-                                <li>Consolidate workflows</li>
+                                <li>Defer judgment</li>
+                                <li>Build on the ideas of others</li>
                                 <li>Stay focused on the topic</li>
                                 <li>Encourage wild ideas</li>
 
@@ -261,11 +263,15 @@ class methodology extends Component {
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-15">
                             <p className="content-text-18"> 
-                               The final design incorporates all the research findings and design solutions. WDS understands that effective customer experience is one built with empathy and takes into account all of the various touchpoints and tasks during a customer journey. </p>
+                               The final design incorporates all the research findings and design solutions. WDS understands for a project to be successful it needs to be designed with the business core values and branding that includes a simplified and effective customer experience. This ensures that the project is designed with empathy and meets the users and business expectations, solving all the uncovered problems. </p>
                             <ul className="dashed">
                                 <li><a href="../design_solutions">Custom Design Solution</a></li>
                                 <li>High Fidelity Mockup</li>
-                                <li>Business Design Strategies</li>
+                                <li>Explanation of design decisions </li>
+                                <li>User Interactions</li>
+                                <li>Problems solved</li>
+                                <li>Persona Presentation</li>
+                                <li>User journey</li>
                             </ul>
                         </div>
                     </div>
@@ -286,12 +292,12 @@ class methodology extends Component {
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-15">
                             <p className="content-text-18"> 
-                            In this phase, the work with developers begins. WDS will handle the layout of project developing a simple scalable CSS and responsive HTML. We work seamlessly with the developers as you code the back-end working in your agile cycles. </p>
+                            In this phase, we work closely wih the developers. We can embed our team or work remotely handling the layout of project. Developing a CSS solution and responsive HTML. We work seamlessly with developers developing the front-end as they code the back-end working in your agile cycles. </p>
                             <ul className="dashed">
                                 <li><a href="../css_solutions">CSS Solutions</a></li>
                                 <li>CSS Development (SaSS and LeSS)</li>
                                 <li>HTML development</li>
-                                <li>Accessibilty Implementation </li>
+                                <li>Accessibility Implementation </li>
                                 <li>Telemetry/Analytics Implementation</li>
                             </ul>
                         </div>
@@ -314,7 +320,7 @@ class methodology extends Component {
                         
                         <div className="content-block-75 margin-top-15" >
                             <p className="content-text-18">
-                            The testing phase reveals if we answered all the questions, reduced the pain points and matched expectations. This phase will last the entire development phase and never stop.
+                            The testing phase reveals if we answered all the questions, by reducing the users pain points and meeting their expectations. This phase will last the entire development phase and never stop.
                             </p>
 
                             <ul className="dashed">

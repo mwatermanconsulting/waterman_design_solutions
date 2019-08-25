@@ -31,7 +31,7 @@ class strategy_insight extends Component {
             <section className="grid-2col-photo-content photo-content-color border-bottom-1" style={{height:'670px'}}> 
                 <div className="item-a-nb content-block-60 content-header flex-layout-column">
                     <div className="callout-text text-align-left text-white">
-                        By directly observing people, we can get to the heart of their needs, discovering what drives them, what inspires them and what connects with them on an emotional level. We create knowledge for our clients of where to invest resources based on this understanding of what people value.
+                        By directly observing people, we can get to the heart of their needs. By discovering what drives them, what inspires them and what connects with them on an emotional level. We enlighten our clients with insights and strategies of where to invest resources based on this understanding of what people value.
                     </div>          
                 </div>
                 <div className="grid-item-b container-image-block">
@@ -41,7 +41,7 @@ class strategy_insight extends Component {
     
             <div className="content-header flex-layout-center-center flex-layout-column">
                 <div className="flex-layout-center-center title text-align-center content-block-60 margin-top-75">
-                    Today, the user’s experience is more important than brand loyalty. A successful strategy is necessary to ensure this. 
+                    Today, the user’s experience is more important than brand loyalty. A successful strategy is needed to keep the users involved in all business decisions. 
                 </div>
                 <div className="content-block-55 margin-top-25">
                     <p className="content-text-24 text-align-center">
@@ -66,7 +66,7 @@ class strategy_insight extends Component {
                         <p className="content-text-18"><div className="float-right">
                         <img className="photo-container" src={strategy2}  alt="Stakeholder Interview" /> 
                     </div>  
-                            At the beginning of an engagement, we set the foundation for success by developing an understanding of the business, the industry, the competition and relevant trends. This becomes the basis for how we approach all subsequent phases. Along with secondary research, we interview stakeholders along with subject matter experts, both to gain a firsthand awareness of the company context and to build connections within the business, which contribute to stakeholder alignment throughout the engagement. This activity begins to define hypotheses for where the company intends to play in the market, who it intends to serve and how it plans to serve them.</p>
+                            At the beginning of an engagement, we set the foundation for success by developing an understanding of the business, the industry, the competition and relevant trends. This becomes the basis for how we approach all subsequent phases. Along with secondary research, we interview stakeholders along with subject matter experts, both to gain a firsthand awareness of the company context and to build connections within the business, which contribute to stakeholder alignment throughout the engagement. This activity begins to define our understanding of where the company intends to play in the market, who it intends to serve and how it plans to serve them.</p>
                     </div>          
                 </section>
 
@@ -74,7 +74,7 @@ class strategy_insight extends Component {
                
                 <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
                     <div className="title content-block-60">
-                            An Expert Review
+                            Design Critique
                     </div>
                     <div className="subtitle margin-top-15 content-block-60">
                             Design Analysis
@@ -83,7 +83,7 @@ class strategy_insight extends Component {
                         <img className="photo-container" style={{marginTop:'-4%'}} src={strategy1}  alt="Review" /> 
                     </div>
                         <p className="content-text-18"> 
-                        The heuristic review is an expert analysis that examines the current site or application screens in comparison to industry standards and established best practices. This helps to point out areas of opportunity that can be addressed during the redesign process in an effort to best the competition. This review results in a presentation of findings that includes both areas of opportunities and concrete recommendations.</p>
+                        The design critique is an expert analysis that examines the current site or application screens in comparison to industry standards and established best practices. This helps to point out areas of opportunity that can be addressed during the redesign process in an effort to best the competition. This critique results in a presentation of findings that includes both areas of opportunities and concrete recommendations.</p>
                     </div>
                 </section>
                         
@@ -110,8 +110,11 @@ class strategy_insight extends Component {
                     </section>
 
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
-                    
+                    <div className="title">
+                            Clients Favorite Design Solutions
+                        </div>
                     <section className="grid-callout-2col content-header align-self-center justify-items-center margin-top-50 margin-bottom-50 width-70">
+                    
                     <div className="gallery-2col-1 container-image-500">
                         <a href ="./css_solutions"><img className="container-image-500 border-2" src={services8}  alt="CSS Solutions" /> </a>
                         <div className="content-block-auto ">
@@ -147,7 +150,7 @@ class strategy_insight extends Component {
                         <img className="photo-container" src={strategy4}  alt="Insights" /> 
                     </div>     
                
-                            <p className="content-text-18">  Data is only as valuable as the meaning we craft
+                            <p className="content-text-18"> Data is only as valuable as the meaning we craft
                                 from it. We have tried-and-true methods for moving
                                 from observations to insights. These meaningful
                                 insights are the next building block in the process of
@@ -168,7 +171,7 @@ class strategy_insight extends Component {
                         <div className="title content-block-60">
                              Personas
                         </div>
-                        <div className="subtitle content-block-60">
+                        <div className="subtitle content-block-60 margin-top-15">
                              Introducing Your Users
 
                         </div>
@@ -213,7 +216,7 @@ class strategy_insight extends Component {
                         <div className="float-right">
                         <img className="photo-container" src={strategy7}  alt="Review" /> 
                         </div>
-                            <p className="content-text-18"> A key value that an experience strategy delivers is a set of new ideas for serving customers. The information distilled from the previous techniques and the company’s strategic requirements comes together in an Opportunities Matrix that clearly lays out a set of options for improving the experience of the user base to increase their engagement and satisfaction.</p>
+                            <p className="content-text-18"> A key value that a design strategy delivers a set of new ideas for serving customers. The information distilled from the previous techniques and the company’s strategic requirements comes together clearly laying out a set of options for improving the experience of the user base to increase their engagement and loyalty.</p>
                             <p className="content-text-18">WDS collaborates with product and executive teams to brainstorm concepts for innovation and improvement. Together, the combined team prioritizes the opportunities based on the difficulty of implementation, the feasibility for the business to deliver and the impact that each solution concept may have on users.</p>
                                            
                         </div>
@@ -227,13 +230,13 @@ class strategy_insight extends Component {
                         <div className="title content-block-60">
                                 Journey Maps                        
                         </div>
-                        <div className="subtitle content-block-60">
+                        <div className="subtitle content-block-60 margin-top-15">
                                 The Larger Whole                        
                         </div>
                         <div className="content-block-60 content-text-18 margin-top-25"><div className="float-right">
                         <img className="photo-container" src={strategy8}  alt="Review" /> 
                     </div>
-                            <p className="content-text-18"> Companies are often so focused on their solutions that they forget that it is part of a larger whole: the customer’s life. As the customer interacts with the company or engages in a life process, such as buying a house, understanding the key activities and experiences the customer has helps determine the most valuable places to focus resources. This ensures that each interaction with the company fits the experience the organization wants to provide. The understanding of the key activities and experiences is built into an informative diagram called a Customer Journey Map. This diagram informs key decisions for business, marketing and design executives, and can shift stakeholders’ thinking about where to engage across the lifecycle of a customer’s journey.
+                            <p className="content-text-18"> Companies are often so focused on their solutions that they forget it is part of a larger whole: the customer’s life. As the customer interacts with the company or engages in a life process, such as using a banking software, understanding the key activities and experiences the customer has helps determine the most valuable places to focus resources. This ensures that each interaction with the company fits the experience the organization wants to provide. The understanding of the key activities and experiences is built into an informative diagram called a Customer Journey Map. This diagram informs key decisions for business, marketing and design executives, and can shift stakeholders’ thinking about where to engage across the lifecycle of a customer’s journey.
                             </p>
                                            
                                     

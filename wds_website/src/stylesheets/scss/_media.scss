@@ -1,9 +1,80 @@
 @media only screen and (max-width: 900px) {
   
+  
+ .content-text-21 {
+  font-family: Roboto;
+  font-size: 1.3125rem;
+  line-height: 1.88;
+  text-align: left;
+}
+.content-text-18 {
+  font-family: Roboto;
+  font-size: 1.2rem;
+  line-height: 1.88;
+  text-align: left;
+}
   .subtitle {
     font-size: 1.5rem;
     margin-top: 15px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: 'Roboto';
+    color: #000;
+    font-weight: 700;
+    text-align: left;
   }
+  .title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.0rem;
+    line-height: 1.25;
+    color: $title-grey;
+    text-align: center;
+  }
+  .header-title {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 2rem !important;
+    letter-spacing: 1.1px;
+    line-height: 1.4;
+    text-align: center;
+  }
+  .title-homepage {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 	2.12rem !important; 
+    letter-spacing: 1.1px;
+  }
+
+.callout-text-lg {
+  font-size: 1.5rem;
+  font-family: 'Roboto Bold', sans-serif;
+  line-height: 2.12;
+  letter-spacing: 0.8px;
+  text-align: center;
+  color: #fff;
+}
+.callout-text-white {
+  font-size: 1.25rem;
+  font-family: 'Roboto Bold', sans-serif;
+  line-height: 2;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-align: center;
+  color: #fff;
+}
+.callout-text-black {
+  font-size: 1.25rem;
+  font-family: 'Roboto Bold', sans-serif;
+  line-height: 2;
+  letter-spacing: 0.8px;
+  text-align: center;
+  color: #000;
+}
+.callout-title {
+  font-family: 'Oswald', sans-serif;
+    font-size: 2.0rem;
+    line-height: 1.25;
+    text-align: center;
+}
+
 /*******************************
           Grid
   *******************************/
@@ -14,27 +85,19 @@
     grid-gap: 10px;
 		grid-template-columns: 20% auto;
   }
-  .container-section-1-primary {
-    display: flex;
-    height: auto;
-    padding: 5px;
-  }
+  
   .grid-content {    
     grid-column: 1/1;
     grid-row: auto;
   }
-  .align-self-end {    
-    align-self: end;
-  }
+  
   .grid-gap-20 {
     grid-gap: 20px;
   }
-
   .grid-content-2 {    
     grid-template-columns: 20% auto;
     grid-column-gap: 20px;
   }
-
   .grid-title {
     grid-column: auto / span 2;
     align-items: center;
@@ -46,24 +109,16 @@
     align-self: center;
     display: grid;
   }
-
   .grid-item-cs {
     grid-column: 1/1;
     grid-row: auto;
   }
   .grid-clients-wrapper {
-
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(1, 1fr);
+}
 
-}
-.card-case-studies {
-  -webkit-box-shadow: 0px 2px 1px 1px rgba(0,0,0,0.25); 
-  box-shadow: 0px 2px 1px 1px rgba(0,0,0,0.25);
-  width: 100%;
-  object-fit: contain;
-}
 .grid-cs-card {
   display: grid;
   grid-gap: 10px;
@@ -74,7 +129,12 @@
   "text3" "text4";
   padding: 10px;
 }
-
+.card-case-studies {
+  -webkit-box-shadow: 0px 2px 1px 1px rgba(0,0,0,0.25); 
+  box-shadow: 0px 2px 1px 1px rgba(0,0,0,0.25);
+  width: 100%;
+  object-fit: contain;
+}
 
 .cs-card-1 {
   grid-column: 1/ auto;
@@ -184,31 +244,28 @@
   .col2-photo {
     grid-area: photo;
   }
-
   .grid-callout {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas: "text " "photo";
     display: grid;
   }
-  .margin-left-100{
-    margin-left: 0;
-  }
-  .title {
-    font-family: 'Oswald', sans-serif;
-    font-size: 2.0rem;
-    line-height: 1.25;
-    color: $title-grey;
-    text-align: center;
-  }
   .grid-main-head {
     grid-area: header;
   }
   .grid-callout-text {
     grid-area: text;
+    margin: 10px;
   }
   .grid-callout-photo {
     grid-area: photo;
+  }
+  .grid-callout-2col {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr;
+    grid-template-areas: "text1" "text2";
+    grid-gap: 10px;
   }
   .grid-placeself-center {
     place-self: center;
@@ -216,31 +273,31 @@
   .grid-gallery-2col {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 20px;
+    grid-template-rows: auto;
+    grid-gap: 0px;
     grid-template-areas: 
-    "text1" "text2"
+    "text1" "text2";
   }
   .gallery-2col-1 {
-    grid-column: 1/1;
-    grid-row: 1/auto;
+    grid-column: auto;
+  grid-row: 1/2 ;
+  justify-content: center;
     grid-area: text1;
   }
   .gallery-2col-2 {
-    grid-column: 1/1;
-    grid-row: 1/auto;
+    grid-column: auto;
+  grid-row: 2/2 ;
+  justify-content: center;
     grid-area: text2;
-    align-self: start;
   }
 .grid-bottom-1 {
   grid-column: 1/2;
   grid-area: image;
 }
-
 .grid-bottom-2 {
   grid-column: 2/2;
   grid-area: content;
 }
-
 .grid-2col-photo-content {
   grid-template-columns: 1fr;
   grid-template-rows: auto;
@@ -254,6 +311,56 @@
   grid-row-gap: 15px;
   width: 90%;
   display: grid;
+}
+.grid-left-services {
+  grid-column: auto;
+  grid-row:1/2 ;
+  justify-content: center;
+}
+.grid-right-services {
+  grid-column: auto;
+  grid-row: 2/2;
+}
+.grid-services-list {
+  width: 100%;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr;
+  grid-gap: 20px;
+  display: grid;
+}
+.grid-services-title {
+  grid-column: 1/1;
+  grid-row: 1;
+  margin-top: -50px;
+}
+.grid-services-1 {
+  grid-column: 1/1;
+  grid-row: 2;
+}
+
+.grid-services-2 {
+  grid-column: 1/1;
+  grid-row: 3;
+}
+
+.grid-services-3 {
+  grid-column: 1/1;
+  grid-row: 4;
+}
+
+.grid-services-4 {
+  grid-column: 1/1;
+  grid-row: 5;
+}
+
+.grid-services-5 {
+  grid-column: 1/1;
+  grid-row: 6;
+}
+
+.grid-services-6 {
+  grid-column: 1/1;
+  grid-row: 7;
 }
 .grid-footer {
   display: grid;
@@ -270,42 +377,46 @@
   grid-row: 1/1;
   grid-area: text1;
 }
-
 .grid-footer-item-2 {
   grid-column: 1/2;
   grid-row: 2/1;
   grid-area: text2;
 }
-
 .grid-footer-item-3 {
   grid-column: 1/3;
   grid-row: 3/1;
   grid-area: text3;
 }
-
 .grid-footer-item-4 {
   grid-column: 1/4;
   grid-row: 4/1;
   grid-area: text4;
 }
-
 .grid-footer-item-5 {
   grid-column: 1/5;
   grid-row: auto;
   grid-area: text5;
 }
-
 .grid-footer-item-6 {
   grid-column: 1/6;
   grid-row: auto;
   grid-area: text6;
 }
 
+/*******************************
+          Flex and containers
+  *******************************/
+
 .flex-section-fixed-head {
   display: flex;
   height: 100%;
   min-height: auto;
   background-color: $grey;
+}
+.container-section-1-primary {
+  display: flex;
+  height: 270px;
+  padding: 10px;
 }
 .flex-layout-column {
   display: flex;
@@ -317,6 +428,16 @@
   display: flex;
   height: auto;
 }
+.container-photo-callout {
+  width: 100%;
+  height: auto;
+  border: 0px;
+}
+
+/*******************************
+          Spacing
+  *******************************/
+
 .margin-left-75 {
   margin-left: 0px;
 }
@@ -336,6 +457,9 @@
 .margin-top-25 {
   margin-top: 15px;
 }
+.margin-left-100{
+  margin-left: 0;
+}
 .float-left {
   float: left;
   padding:  5px;
@@ -346,60 +470,9 @@
 .thin-hr {
   display: none;
 }
-.header-title {
-  font-family: 'Mouse Memoirs', sans-serif;
-  font-size: 2rem !important;
-  letter-spacing: 1.1px;
-  line-height: 1.4;
-  text-align: center;
-}
-.subtitle {
-
-  font-size: 1.5rem;
-  font-weight: 500;
-  line-height: 1.5;
-  font-family: 'Roboto';
-  color: #000;
-  font-weight: 700;
-  text-align: left;
-
-}
 .content-block-services {
-
   width: 90%;
   margin: 10px;
-
-}
-.callout-text-lg {
-  font-size: 1.5rem;
-  font-family: 'Roboto Bold', sans-serif;
-  line-height: 2.12;
-  letter-spacing: 0.8px;
-  text-align: center;
-  color: #fff;
-}
-.callout-text-white {
-  font-size: 1.25rem;
-  font-family: 'Roboto Bold', sans-serif;
-  line-height: 2;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  text-align: center;
-  color: #fff;
-}
-.callout-text-black {
-  font-size: 1.25rem;
-  font-family: 'Roboto Bold', sans-serif;
-  line-height: 2;
-  letter-spacing: 0.8px;
-  text-align: center;
-  color: #000;
-}
-.callout-title {
-  font-family: 'Oswald', sans-serif;
-    font-size: 2.0rem;
-    line-height: 1.25;
-    text-align: center;
 }
 .width-70 {
   width: 95%;
@@ -414,23 +487,22 @@
   width: 90%;
 }
 .content-block {
-  width: 90%;
+  width: 100%;
 }
 .content-block-75 {
   width: 90%;
 }
 .content-header {
-  width: 90%;
+  width: 100%;
   text-align: center;
   align-self: center;
 }
 .container-image-500 {
   width: 90%;
 }
-.container-photo-callout {
+.photo-container {
   width: 100%;
   height: auto;
-  border: 0px;
 }
 .width-60 {
   width: 90%;
@@ -440,12 +512,10 @@
   width: 100%;
   max-width: 100%;
 }
-
-.title-homepage {
-  font-family: 'Mouse Memoirs', sans-serif;
-  font-size: 	2.12rem !important; 
-  letter-spacing: 1.1px;
+.align-self-end {    
+  align-self: end;
 }
+
 .homepage-bg-starburst {
   display: none;
 }
