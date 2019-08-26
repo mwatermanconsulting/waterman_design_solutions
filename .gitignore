@@ -5,8 +5,10 @@ node_modules/npm/node_modules/block-stream/README.md
 node_modules/npm/node_modules/cacache/node_modules/lru-cache/README.md
 node_modules/npm/.DS_Store
 node_modules/npm/bin/.DS_Store
+<<<<<<< HEAD
 node_modules/eslint-utils/index.js
 node_modules/eslint-utils/index.mjs
 node_modules/eslint-utils/index.js.map
 node_modules/eslint-utils/index.mjs.map
 node_modules/eslint-utils/package.json
+
