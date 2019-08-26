@@ -33,9 +33,6 @@
   -webkit-clip-path: polygon(0 1%, 100% 0, 40% 100%, 0% 100%);
   clip-path: polygon(0 1%, 100% 0, 40% 100%, 0% 100%); }
 
-.mdl-layout__drawer-button {
-  color: gray !important; }
-
 .content-text {
   display: flex;
   flex-direction: row; }
@@ -84,9 +81,6 @@
   -webkit-clip-path: polygon(0 1%, 100% 0, 40% 100%, 0% 100%);
   clip-path: polygon(0 1%, 100% 0, 40% 100%, 0% 100%); }
 
-.mdl-layout__drawer-button {
-  color: gray !important; }
-
 .content-header {
   display: flex; }
 
@@ -108,9 +102,6 @@
 /*******************************
          react-overrides
   *******************************/
-.mdl-layout__drawer-button {
-  color: gray !important; }
-
 .mdl-layout__header-row .mdl-navigation__link {
   color: black !important; }
 
@@ -125,7 +116,7 @@ footer {
          react-overrides
   *******************************/
 .mdl-layout__drawer-button {
-  color: gray !important; }
+  color: white !important; }
 
 .mdl-layout__header-row .mdl-navigation__link {
   color: white !important; }
@@ -2990,6 +2981,9 @@ ul.menu > li.dropdown {
     margin-left: 0; }
   .float-left {
     float: left;
+    padding: 5px; }
+  .float-right {
+    float: none;
     padding: 5px; }
   .height-670 {
     height: auto; }

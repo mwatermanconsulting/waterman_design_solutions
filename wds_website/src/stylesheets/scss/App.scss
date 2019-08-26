@@ -41,9 +41,6 @@
   clip-path: polygon(0 1%, 100% 0, 40% 100%, 0% 100%);
 }
 
-.mdl-layout__drawer-button {
-  color: gray !important;
-}
 
 
 .content-text {
@@ -99,8 +96,7 @@
   -webkit-clip-path: polygon(0 1%, 100% 0, 40% 100%, 0% 100%);
   clip-path: polygon(0 1%, 100% 0, 40% 100%, 0% 100%); }
 
-.mdl-layout__drawer-button {
-  color: gray !important; }
+
 
 .content-header {
   display: flex;
@@ -124,8 +120,6 @@
 /*******************************
          react-overrides
   *******************************/
-.mdl-layout__drawer-button {
-  color: gray !important; }
 
 .mdl-layout__header-row .mdl-navigation__link {
   color: black !important; }
