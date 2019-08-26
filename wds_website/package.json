@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "fstream": "^1.0.12",
+    "material-design-icons": "^3.0.1",
     "node": "^11.3.0",
     "npm": "^6.9.2",
     "react": "^16.8.6",
