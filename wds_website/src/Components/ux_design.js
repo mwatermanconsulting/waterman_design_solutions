@@ -16,7 +16,7 @@ class ux_design extends Component {
                     <div className="header-text-center header-title text-white">
                             UX Design
                     </div>
-                        <img className="flex-image-container width-100" src={ux_bg}  alt="UX" /> 
+                        <img className="flex-image-container width-100" src={ux_bg}  alt="UX Design" /> 
                 </section> 
                 <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                     <div className="callout-text-white"> 
@@ -40,20 +40,18 @@ class ux_design extends Component {
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100">
                     <div className="float-left flex-layout-center-center content-block-60">
                         <div className="title">
-                                Real UX Involves Research
+                                Real UX Involves Research and Empathy
                         </div>
                         <div className="subtitle margin-top-15">
                                 The Search for the Truth
                         </div>
                         <div className="margin-top-15">
                             <p className="content-text-18">
-                                Sometimes, customers are so accustomed to current conditions that they don’t think to ask for a new solution, even if they have real needs that could be addressed. Habit tends to drag us to behave inconveniently; as consumers we create “work-arounds” that become familiar and we may forget that we are being forced to behave in a less-than-optimal fashion. This can make us incapable of telling UX designers what we really want. </p>
-
-                            <div className="float-right callout-photo grid-placeself-center">
+                                Sometimes, customers are so accustomed to current conditions that they don’t think to ask for a new solution, even if they have real needs that could be addressed. Habit tends to drag us to behave inconveniently; as consumers we create “work-arounds” that become familiar and we may forget that we are being forced to behave<div className="float-right callout-photo grid-placeself-center">
                                  <img className="container-photo-callout" src={ux_s2}  alt="UX" /> 
                                     <p className="caption">Photo by Frank on Unsplash</p>
-                            </div>
-                                
+                            </div> in a less-than-optimal fashion. This can make us incapable of telling UX designers what we really want. </p>
+
                                 <p className="content-text-18">
                                 For example, when asked about an editing function in a software package, one customer had no complaints until she sat down to use the program in front of the observer. Then she realized that her work was disrupted when the program did not automatically wrap text around graphics while she edited. Accustomed to working around the problem, she had not mentioned it in earlier interviews. When the observer notices this and points it out, it opens up an important issue that should be dealt with to make her life easier. All the little things add up as big time wasters that need to be eliminated.
                                 </p>
