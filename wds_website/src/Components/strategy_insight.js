@@ -1,6 +1,6 @@
 import React, { Component } from 'react' ;
 import strategy from '../images/backgrounds/bg-strategy.png';
-import graphic_didyouknow from '../images/graphic-didyouknow.png';
+import didyouknow from '../images/graphic-didyouknow.svg';
 import services7 from '../images/photos/photo-services-s7.png';
 import services8 from '../images/photos/photo-services-s8.png';
 import services9 from '../images/photos/photo-services-s9.png';
@@ -28,13 +28,13 @@ class strategy_insight extends Component {
                     “Strategy is the highest level of a plan” ― Fritz Shoemaker
                 </div>
             </section>
-            <section className="grid-2col-photo-content photo-content-color border-bottom-1" style={{height:'670px'}}> 
-                <div className="item-a-nb content-block-60 content-header flex-layout-column">
+            <section className="grid-2col-photo-content photo-content-color border-bottom-5" height-670> 
+                <div className="grid-item-b content-block-60 content-header flex-layout-column">
                     <div className="callout-text text-align-left text-white">
                         By directly observing people, we can get to the heart of their needs. By discovering what drives them, what inspires them and what connects with them on an emotional level. We enlighten our clients with insights and strategies of where to invest resources based on this understanding of what people value.
                     </div>          
                 </div>
-                <div className="grid-item-b container-image-block">
+                <div className="item-a-nb container-image-block">
                     <img className="container-photo-callout" src={strategy1a}  alt="Strategy" /> 
                 </div>
             </section>
@@ -244,20 +244,17 @@ class strategy_insight extends Component {
                     </section>
                     
                 
-                <div className="container-grid-2col-full width-100 flex-layout-justified-sb border-3px bottom-border margin-top-100 yellow-bg "> 
-                <div className="item-a-nb content-block-why flex-layout-column">
-                    <div className="content-block">
-                        <p className="callout-text"> "Pixar considers repeating the formulas of its past commercial successes a much greater threat to its long-term survival than the occasional commercial disappointment."<br></br>- The McKinsey Report</p> 
+                
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+                <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
+                       <img className="content-block-55 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
+                      
+                      <div >
+                          <p className="callout-text-white text-align-center">"Pixar considers repeating the formulas of its past commercial successes a much greater threat to its long-term survival than the occasional commercial disappointment."<br></br>- The McKinsey Report<p className="text-align-center margin-top-25" ></p>  </p>
                     </div>
                 </div>
-            <div className="col2-photo width-70 grid-placeself-center">
-                <img className="flex-image-container width-100" src={graphic_didyouknow}  alt="Design strategy can save your business" /> 
-            </div>
-            </div>   
-                
-
-                </div>
-            </div>
+            </section>
+            </div></div>
         )
     }
 }

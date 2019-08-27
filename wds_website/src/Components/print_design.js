@@ -26,7 +26,7 @@ class print_design extends Component {
                         Printed collateral will continue to be valuable where there is a physical customer presence.
                 </div>
             </section>
-            <section className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
+            <section className="grid-2col-photo-content photo-content-color border-bottom-5 height-670"> 
                 <div className="grid-left content-block-60 content-header flex-layout-column">
                     <div className="callout-text text-align-left">
                         Print ads are more effective when they are a complement to your digital campaigns, enticing your audience to interact with your brand online. 
@@ -128,7 +128,7 @@ class print_design extends Component {
                        <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
                       
                     <div className="flex-layout-center-center">
-                        <p className="content-header text-white flex-layout-column flex-layout-center-center">WDS designed and produced a monthly magazine named "Combat Robot"</p>
+                        <p className="callout-text-white text-align-center">WDS designed and produced a monthly magazine named "Combat Robot"</p>
                     </div>
                     </div>
                 </section>

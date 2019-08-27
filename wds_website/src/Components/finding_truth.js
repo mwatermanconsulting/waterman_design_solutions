@@ -25,7 +25,7 @@ class innovative_solutions extends Component {
                     "Truth is the torch that gleams through the fog without dispelling it." Claude Adrien
                 </div>
             </section>
-            <section className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
+            <section className="grid-2col-photo-content photo-content-color border-bottom-5 height-670" > 
                 <div className="grid-item-b content-block-60 content-header flex-layout-column">
                     <div className="callout-text text-align-left text-white">
                         Our methodology allows us to connect with users. Our UX designers are passionate and empathic. Our team knows connects with users by empathizing through observing and interviewing techniques. People will always open up and confide in you if they feel you are on their side and you care about their needs. This is how WDS uncover truths that were unknown. </div>
@@ -165,7 +165,7 @@ class innovative_solutions extends Component {
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
                 <section className="grid-gallery-2col flex-layout-column">
-                    <div className="gallery-2col-1 flex-layout-section-full" style={{marginLeft: '40%'}}>
+                    <div className="gallery-2col-1 flex-layout-section-full margin-left-40">
                         <div className="title">
                             Develop frameworks                        
                         </div>
@@ -182,7 +182,7 @@ class innovative_solutions extends Component {
                             Design and evaluate                        
                         </div>
                         <div className="subtitle  margin-top-15">
-                            envision, prioritize and rank Opportunity Concepts
+                            Envision, prioritize and rank opportunity concepts
                         </div>
                         <div className=" content-text-18 content-block-50 margin-top-15">
                             <p className="content-text-18"> 
@@ -238,16 +238,16 @@ class innovative_solutions extends Component {
                             This plan uses user insights, as well as market data, to determine the channels, content, messages and cadences that are right for specific personas at specific points in their journeys. This enables companies to build relationships with their customers that extend beyond transactions to build value. It ensures that great experiences find an audience in a world full of offerings. </p>
                         </div>
                     </section>
-                    
                 
-                <section className="flex-layout-section-full flex-layout-column  margin-top-100  grey border-top-5">
-                    <div className="width-75 margin-top-50 padding-bottom-100" style={{marginLeft:'-'}}> 
-                       <a href="../core_offerings"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Ux" /> </a>
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+                <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
+                       <img className="content-block-55 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
                       
-                        <p className="content-header text-white content-block-55 flex-layout-column" style={{marginLeft:'30%', marginTop:'-5%'}}>WDS Specializes in Data Visualization Application Design.
-                        </p>
+                      <div >
+                          <p className="callout-text-white text-align-center">WDS offers Empathy Workshops.<p className="text-align-center margin-top-25" ></p>  </p>
                     </div>
-                </section>    
+                </div>
+            </section>    
             </div>
         )
     }

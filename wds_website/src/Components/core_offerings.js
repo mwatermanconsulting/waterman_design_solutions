@@ -19,7 +19,7 @@ class core_offerings extends Component {
                         Your Design Support
                 </div>
             </div>
-            <div className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
+            <div className="grid-2col-photo-content photo-content-color border-bottom-5 height-670" > 
                     <div className="item-a-nb content-block-60 content-header flex-layout-column">
                     <div className="callout margin-top-15">
                         The best customer experience starts with the Golden Rule - treat the user the way you would like to be treated

@@ -43,8 +43,8 @@ class innovative_solutions extends Component {
                     Our Innovative Solutions is our Differentiating factor. <br/> WDS solves complex problems where others have failed.
                 </div>
                 
-                    <p className="subtitle flex-layout-center-center margin-top-15"> 
-                    Our Solutions are as unique as the business and users that we provide them for. <br/> Our solutions come from three factors: Understanding, empathy and experience  </p>
+                    <p className="subtitle flex-layout-center-center margin-left-15 margin-top-15"> 
+                    Our Solutions are as unique as the business and users that we provide them for. It includes three factors: Understanding, Empathy and Experience.  </p>
                 
             </section>
 
@@ -144,15 +144,16 @@ class innovative_solutions extends Component {
                         </div>
                 </section>
 
-                <section className="flex-layout-section-full flex-layout-column  margin-top-100  grey border-top-5">
-                    <div className="width-75 margin-top-50 padding-bottom-100" style={{marginLeft:'-'}}> 
-                       <a href="../core_offerings"> <img className="flex-image-container margin-bottom-50 " src={graphic_didyouknow}  alt="Ux" /> </a>
+             
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+                <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
+                       <img className="content-block-55 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
                       
-                        <p className="content-header text-white content-block-55 flex-layout-column" style={{marginLeft:'30%', marginTop:'-5%'}}>WDS Specializes in Data Visualization Application Design.
-                        </p>
-    
+                      <div >
+                          <p className="callout-text-white text-align-center">WDS Specializes in Data Visualization Application Design.<p className="text-align-center margin-top-25" ></p>  </p>
                     </div>
-                </section>    
+                </div>
+            </section>    
                 
 
                

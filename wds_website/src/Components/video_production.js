@@ -22,9 +22,9 @@ class video_production extends Component {
                 </div>
             </div>
 
-            <section className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
+            <section className="grid-2col-photo-content photo-content-color border-bottom-5 height-670" > 
                 <div className="grid-left content-block-60 content-header flex-layout-column">
-                    <div className="callout-text text-align-left text-white">
+                    <div className="callout-text text-align-left">
                         Overall, 73% of consumers worldwide prefer seeing videos on social media that are "entertaining." WDS can tell your story.
                     </div>      
                 </div>
@@ -108,7 +108,7 @@ Effective marketing videos have a conversational tone. It creates an individual 
                         </div>
                     </div>
                     <div className="grid-right">
-                        <img className="photo-container" src={video_s3}  alt="Video Content" /> 
+                        <img className="photo-container" src={video_s4}  alt="Video Content" /> 
                         <p className="caption">Photo by Form on Unsplash</p>
                     </div>      
                 </section>
