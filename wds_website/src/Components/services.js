@@ -35,7 +35,7 @@ class services extends Component {
             <section className="grid-callout yellow-bg"> 
                 <div className="grid-callout-text grid-placeself-center width-70">
                     <p className="callout-text ">
-                        A true UX company listens to the customers. Our service list is a testament to our belief in old fashioned customer service.
+                       Real true UX consultants listen to the customers. Our service list is a testament to our belief in old fashioned customer service.
                     </p>     
                 </div>
                 <div className="grid-callout-photo grid-placeself-center">
@@ -46,52 +46,103 @@ class services extends Component {
             <section className="flex-layout-section-full flex-layout-column align-items-center">
                 <p className="title">
                     WDS Services</p>
-                <p className="subtitle text-align-center content-block-60 margin-top-15">
-                    Our services are all-encompassing solutions for your business model that stems out to your website to the visual design of your products and marketing collateral ensuring the customer experience is cohesive one.</p>
+                <p className="subtitle text-align-center content-block-100 margin-top-15">
+                    When design determines success, understanding the user is paramount. <br/> We design with empathy to connect people with what matters the most to them. 
+                </p>
             </section>
 
             <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-            <section className="grid-2col-photo-content content-header" style={{marginLeft: '9%'}}>
-                <div className="grid-left-services flex-layout-section-full">
-                    <div className="subtitle content-block-80">
-                        User Experience Design
-                    </div>
-                    <div className="content-block-80 content-text-18 margin-top-25">
-                        <p className="content-text-18"> 
+            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100">
+                    <div className="float-left flex-layout-center-center content-block-60">
+                        <div className="title">
+                            User Experience Design
+                        </div>
+                        <div className="subtitle margin-top-15">
+                           Understanding the User
+                        </div>
+                        <div className="margin-top-15">
+                            <p className="content-text-18">
+                            <p className="content-text-18"> 
                         When design determines success, understanding the user is paramount. We design to connect people with what matters most to them. </p>
                         <p className="content-text-18">
                         Our design experts use experience strategy and insight to define how software functions and build workflows for the ways that people will experience it. 
                         From inception through launch, no detail is missed.</p>
                         <p className="content-text-18">
-                        The visual elements, we create will establish your brand as a design leader in your space. By understanding your business, users and competition we will ensure that you have a unique presence that include familiar use of fonts, icons with design solutions that has a certain elegance that resonates with your users emotions.</p>
+                        
+                        <div className="float-right callout-photo grid-placeself-center">
+                        <img className="container-photo-callout" src={services3}  alt="UX" /> 
+                        <p className="caption">Photo by Frank on Unsplash</p></div>
 
-                        <p><i><a href="../ux_design">Learn More</a> </i></p>
-                        </div>
-                    </div>
-                    <div className="grid-right-services container-image-block" style={{marginTop: '95px'}}>
-                        <img className="photo-container" src={services4}  alt="Services" /> 
-                    </div>           
+                        The visual elements, we create will establish your brand as a design leader in your space. By understanding your business, users and competition we will ensure that you have a unique presence that include familiar use of fonts, icons with design solutions that has a certain elegance that resonates with your users emotions.</p>
+                             in a less-than-optimal fashion. This can make us incapable of telling UX designers what we really want. </p>
+
+                                <p className="content-text-18">
+                                For example, when asked about an editing function in a software package, one customer had no complaints until she sat down to use the program in front of the observer. Then she realized that her work was disrupted when the program did not automatically wrap text around graphics while she edited. Accustomed to working around the problem, she had not mentioned it in earlier interviews. When the observer notices this and points it out, it opens up an important issue that should be dealt with to make her life easier. All the little things add up as big time wasters that need to be eliminated.
+                                </p>
+                            </div>  
+                            </div>
                 </section>
+
+           
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="grid-2col-photo-content content-header " style={{marginLeft: '9%', marginTop:'15%'}}>
-                    <div className="grid-left-services flex-layout-section-full " >
-                        <div className="subtitle">
+               
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100">
+                    <div className="float-left flex-layout-center-center content-block-60">
+                        <div className="title">
                             UI Design & Development
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-15">
+                        <div className="subtitle margin-top-15">
+                            Websites, Products and Applications
+                        </div> 
+                        <div className="float-right callout-photo grid-placeself-center">
+                                 <img className="container-photo-callout" src={services3}  alt="UX" /> 
+                                <p className="caption">Photo by Frank on Unsplash</p>
+                            </div>
+                        <div className="margin-top-15">  
+                       
                             <p className="content-text-18"> 
-                            WDS honed its UI design skills by designing websites in 1998. No Longer finding websites a  challenging, we turned to our creative attention to very complex user interfaces on products and applications. Solving difficult UI problems on critical applications used across a wide range of verticals. Our current data applications designs are being used on oil rigs, nuclear reactors and pharmaceutical drug plants. </p>
+                          
+                            WDS honed its UI design skills by designing websites in 1998. Over the years we have designed and developed complicated healthcare websites to solving difficult UI problems on critical applications. Our current data applications designs are being used on oil rigs, nuclear reactors and pharmaceutical drug plants. 
+                            </p>
                             <p className="content-text-18">
-                            WDS can take care of the front-end development including CSS & HTML development, working on-site with your team or creating GIT build-packages complete with custom CSS solutions, patterns libraries, style guides, best of practice documentation and design strategies, ensuring and enforcing original design and solutions.</p>      
-                            <p><i><a href="../ui_design">Learn More</a></i></p>
+                            WDS can take care of the front-end development including CSS & HTML development, working on-site with your team or creating GIT build-packages complete with custom CSS solutions, patterns libraries, style guides, best of practice documentation and design strategies, ensuring and enforcing original design and solutions.
+                            </p>      
+                            
+                            </div>  
                         </div>
-                    </div>
-                        <div className="grid-right-services container-image-block margin-top-60" style={{marginTop: '62px'}}>
-                            <img className="photo-container" src={services3}  alt="Services" /> 
-                        </div>     
+                    </section>
+
+                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100">
+                    <div className="float-left flex-layout-center-center content-block-60">
+                        <div className="title">
+                            User Experience Design
+                        </div>
+                        <div className="subtitle margin-top-15">
+                           Understanding the User
+                        </div>
+                        <div className="margin-top-15">
+                            <p className="content-text-18">
+                            <p className="content-text-18"> 
+                        When design determines success, understanding the user is paramount. We design to connect people with what matters most to them. </p>
+                        <p className="content-text-18">
+                        Our design experts use experience strategy and insight to define how software functions and build workflows for the ways that people will experience it. 
+                        From inception through launch, no detail is missed.</p>
+                        <p className="content-text-18"><div className="float-right callout-photo grid-placeself-center">
+                        <img className="container-photo-callout" src={services4}  alt="UX" /> 
+                        <p className="caption">Photo by Frank on Unsplash</p></div>
+                        The visual elements, we create will establish your brand as a design leader in your space. By understanding your business, users and competition we will ensure that you have a unique presence that include familiar use of fonts, icons with design solutions that has a certain elegance that resonates with your users emotions.</p>
+                        in a less-than-optimal fashion. This can make us incapable of telling UX designers what we really want. </p>
+
+                                <p className="content-text-18">
+                                For example, when asked about an editing function in a software package, one customer had no complaints until she sat down to use the program in front of the observer. Then she realized that her work was disrupted when the program did not automatically wrap text around graphics while she edited. Accustomed to working around the problem, she had not mentioned it in earlier interviews. When the observer notices this and points it out, it opens up an important issue that should be dealt with to make her life easier. All the little things add up as big time wasters that need to be eliminated.
+                                </p>
+                            </div>  
+                            </div>
                 </section>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
