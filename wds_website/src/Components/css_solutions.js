@@ -1,6 +1,6 @@
 import React, { Component } from 'react' ;
 import CSS from '../images/backgrounds/bg-css.png';
-import didyouknow from '../images/graphic-didyouknow.png';
+import didyouknow from '../images/graphic-didyouknow.svg';
 import casscade from '../images/photos/photo-css-s1.png';
 import css3 from '../images/photos/photo-css-s3.png';
 import css4 from '../images/photos/photo-css-s4.png';
@@ -69,7 +69,7 @@ class css_solutions extends Component {
 
                 <section className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
-                        <div className="title text-grey">
+                        <div className="title text-grey ">
                             Organize and Simplify  
                         </div>
                         <div className="subtitle margin-top-15">
@@ -128,7 +128,7 @@ class css_solutions extends Component {
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75" ></div>
 
-                <section className="flex-layout-section-full margin-bottom-100" style={{marginLeft:'17%'}}>
+                <section className="flex-layout-section-full margin-bottom-100 margin-left-17">
                     <div className="title content-block-75">
                         WDS Methodology Works With Your Existing CSS                       
                     </div>
@@ -153,15 +153,16 @@ class css_solutions extends Component {
                 </section>
                 </div>
                 
-                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
-                <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
-                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
+               
+            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+                <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
+                       <img className="content-block-55 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
                       
-                    <div className="flex-layout-center-center">
-                        <p className="content-header text-white flex-layout-column flex-layout-center-center"> WDS Specializes in Data Visualization Application Design.</p>
+                      <div >
+                          <p className="callout-text-white text-align-center">WDS Specializes in Data Visualization Application Design.<p className="text-align-center margin-top-25" ></p>  </p>
                     </div>
                 </div>
-            </section>    
+            </section>     
             </div>
         )
     }

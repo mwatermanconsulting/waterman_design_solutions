@@ -7,7 +7,7 @@ import marketing4 from '../images/photos/photo-marketing-s4.png';
 import marketing5 from '../images/photos/photo-marketing-s5.png';
 
 import marketing6 from '../images/photos/photo-marketing-s6.png';
-import graphic_didyouknow from '../images/graphic-didyouknow.png';
+import didyouknow from '../images/graphic-didyouknow.svg';
 
 class marketing extends Component {
     render () {
@@ -23,7 +23,7 @@ class marketing extends Component {
                    We will make your customers feel uniquely valued
                 </div>
             </div>
-            <div className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
+            <div className="grid-2col-photo-content photo-content-color border-bottom-5 height-670" > 
                 <div className="grid-item-b content-block-60 content-header flex-layout-column">
                     <div className="callout-text text-align-left text-white">
                        There has been a big shift in marketing. It use to be all about the product or application. Today's marketing  is now human centric. All about the user and values. WDS applies the same principles and methods to marketing strategies as we do for UX design.   </div>
@@ -35,7 +35,7 @@ class marketing extends Component {
             </div>
             <section className="content-header flex-layout-center-center flex-layout-column">
                 <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-50">
-                        “Many companies have forgotten they sell to actual people. Humans care about the entire experience, not just the marketing or sales or service. To really win in the modern age, you must solve for humans.” — Dharmesh Shah, CTO & Co-Founder, HubSpot 
+                        “Many companies have forgotten they sell to actual people. Humans care about the entire experience, not just the marketing or sales or service. To really win in the modern age, you must solve for humans.” - Dharmesh Shah, CTO & Co-Founder, HubSpot 
                 </div>
                 <div className="content-block-50 margin-top-50">
                 <p className="content-text-24 text-align-center">
@@ -60,7 +60,7 @@ class marketing extends Component {
                         </div>
                     </div>
                     <div className="grid-right-css container-image-block">
-                        <img className="photo-container" src={marketing3}  alt="Stakeholder Interview" /> Photo by ROBIN WORRALL on Unsplash
+                        <img className="photo-container" src={marketing3}  alt="Stakeholder Interview" /> 
                     </div>     
                 </div>
 
@@ -127,15 +127,16 @@ class marketing extends Component {
                 </div>
                 </div>
                 
-                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
-                <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
-                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={graphic_didyouknow}  alt="Did You Know?" /> </a>
+                
+            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+                    <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
+                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
                       
                     <div className="flex-layout-center-center">
-                        <p className="content-header text-white flex-layout-column flex-layout-center-center">WDS Developed a Telemetry and Data UX Strategy for Stubhub</p>
+                        <p className="callout-text-white padding text-align-center">WDS Developed a Telemetry and Data UX Strategy for Stubhub</p>
                     </div>
-                </div>
-            </section>
+                    </div>
+                </section>
             </div>
         )
     }

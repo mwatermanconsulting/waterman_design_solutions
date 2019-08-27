@@ -17,12 +17,12 @@ class ui_design extends Component {
             </section>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                    “Simplicity is the ultimate sophistication.” –Leonardo da Vinci
+                    “Simplicity is the ultimate sophistication.” – Leonardo da Vinci
 
                 </div>
             </section>
             <section className="grid-callout photo-content-color border-bottom-5 height-670"> 
-                <div className="grid-callout-text grid-placeself-center content-block-75 content-header flex-layout-column">
+                <div className="grid-callout-text grid-placeself-center padding content-block-75 content-header flex-layout-column">
                     <div className="callout-title margin-top-15">
                              Empathetic Design
                     </div>
@@ -41,7 +41,7 @@ class ui_design extends Component {
                     <section className="flex-layout-section-full margin-top-50 flex-layout-center-center">
                 <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-75">Our team builds systems for billion-dollar companies and startups.
                 </div>
-                <div className="content-block-services margin-top-25 flex-align-center margin-bottom-50" style={{marginLeft: '25%'}} >
+                <div className="content-block-services margin-top-25 flex-align-center margin-bottom-50 margin-left-25" >
                     <p className="content-text-18 content-block-75">
                     Our passion is to simplify websites, products and software interfaces. 
                     
@@ -63,7 +63,7 @@ class ui_design extends Component {
             <section className="flex-layout-section-full margin-top-50 flex-layout-center-center">
                 <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-75">Our team builds systems for billion-dollar companies.
                 </div>
-                <div className="content-block-services margin-top-25 flex-align-center margin-bottom-50" style={{marginLeft: '25%'}} >
+                <div className="content-block-services margin-top-25 flex-align-center margin-bottom-50  margin-left-25" >
                     <p className="content-text-18 content-block-75">
                         WDS is behind the design and experience of some of the most complex software in the world. 
                         It takes discipline and expertise to design data visualizations tools for the energy sector, the industrial internet, and design solutions for global big-box retailers, and we’ve delivered on these and more. With a passion for automation and ops, our development teams drive operational excellence and commit high-quality code.
@@ -118,7 +118,7 @@ class ui_design extends Component {
                        <img className="content-block-55 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
                       
                       <div >
-                          <p className="callout-text text-white text-align-center">  WDS designed UI solutions for data display software that worked with nuclear reactors. <p className="text-align-center margin-top-25" ><button onclick="location.href='./case_study_3';" type="button" value="Learn More" className="button-white margin-top-50 font-size-24">Learn More</button></p>  </p>
+                          <p className="callout-text-white text-align-center">  WDS designed UI solutions for data display software that worked with nuclear reactors. <p className="text-align-center margin-top-25" ><button onclick="location.href='./case_study_3';" type="button" value="Learn More" className="button-white margin-top-50 font-size-24">Learn More</button></p>  </p>
                     </div>
                 </div>
             </section>  

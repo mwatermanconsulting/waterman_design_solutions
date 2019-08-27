@@ -24,7 +24,7 @@ class style_guide extends Component {
                 — Craig Villamor
                 </div>
             </section>
-            <section className="flex-layout-section-full photo-content-color align-items-center" style={{height:'670px'}}> 
+            <section className="flex-layout-section-full photo-content-color align-items-center height-670" > 
                 <div className=" grid-2col-text-photo align-items-center margin-tb-100 width-70">
                 <div className="content-block col2-text ">
                     <div className="callout-text text-align-left text-white"> 
@@ -180,12 +180,13 @@ This is especially good news for developers, who have all the code snippets they
                 </div>       
             </div> 
             
+            
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
-                <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
-                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
+                <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
+                       <img className="content-block-55 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
                       
-                    <div className="flex-layout-center-center">
-                        <p className="content-header text-white flex-layout-column flex-layout-center-center"> WDS specializes in SaaS design solutions and implementation.</p>
+                      <div >
+                          <p className="callout-text-white text-align-center">WDS specializes in SaaS design solutions and implementation.<p className="text-align-center margin-top-25" ></p>  </p>
                     </div>
                 </div>
             </section> 

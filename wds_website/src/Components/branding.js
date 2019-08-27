@@ -24,7 +24,7 @@ class branding extends Component {
                     "Your personal brand is a promise to your clients… a promise of quality, consistency, competency, and reliability". <br/> – Jason Hartman
                 </div>
             </div>
-            <div className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
+            <div className="grid-2col-photo-content photo-content-color border-bottom-5 height-670" > 
                 <div className="grid-item-b content-block-60 content-header flex-layout-column">
                     <div className="callout-text text-align-left text-white">In the past 40 years, our brains have seen enough branding to know what looks professional and credible. We all know bad design. </div>
                              

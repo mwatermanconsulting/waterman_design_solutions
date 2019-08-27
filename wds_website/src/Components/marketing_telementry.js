@@ -21,7 +21,7 @@ class marketing_telemetry extends Component {
                     Up to 73% of company data goes unused for their analytics.
                 </div>
             </div>
-            <div className="grid-2col-photo-content photo-content-color border-bottom-5" style={{height:'670px'}}> 
+            <div className="grid-2col-photo-content photo-content-color border-bottom-5 height-670" > 
                 <div className="item-a-nb content-block-60 content-header flex-layout-column">
                     <div className="callout-text text-align-left text-white">“Not knowing the best way to read, understand, and apply data can actually be costing your business. Those costs could take the form of lost revenue opportunities, lower efficiency and productivity, quality issues, and more.” - jeff-barrett</div>
                              
