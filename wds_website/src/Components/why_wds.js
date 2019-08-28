@@ -192,7 +192,7 @@ class why_wds extends Component {
                         <p className="subtitle margin-top-15"> 
                             Application and Website Design </p>
                         <p className="content-text-18 content-block-75">  
-                            Our work has simplified interfaces for applications used by critical industries such as used energy sector using our designed software to monitor oil rigs or for the pharmaceutical industries using our UI designed software on the monitoring the drug manufacturing factories.</p>
+                            Our designs has simplified interfaces for applications used by critical industries such as used energy sector using our designed software to monitor oil rigs or for the pharmaceutical industries using our UI designed software on the monitoring the drug manufacturing factories.</p>
                         
                             <button onclick="location.href='./ui_design';" type="button" value="UI Design" className="button margin-top-50 font-size-24">Learn More</button>
                     </div>

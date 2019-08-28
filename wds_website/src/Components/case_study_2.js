@@ -25,7 +25,7 @@ class case_study_2 extends Component {
                     <div className="header-title-cs align-self-center header-text-left text-white">
                         Case Study - StubHub
                     </div>
-                        <img className="header-text-right align-self-center" src={stubhub_logo}  alt="Stubhub Case Study Logo Image" /> 
+                        <img className="header-text-right align-self-center width-25" src={stubhub_logo}  alt="Stubhub Case Study Logo Image" /> 
                         <img className="flex-image-container width-100" src={stubhub_bg}  alt="Stubhub Case Study " />  
                 </section> 
                 <section className="container-section padding-20 m border-bottom-5 callout-color-dark">

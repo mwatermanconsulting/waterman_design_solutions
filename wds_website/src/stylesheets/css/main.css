@@ -289,6 +289,9 @@ footer {
 .margin-bottom-75 {
   margin-bottom: 75px; }
 
+.margin-right-25 {
+  margin-right: 25%; }
+
 .margin-tb-100 {
   margin: 100px 0 100px; }
 
@@ -914,6 +917,10 @@ a:hover {
 
 .no-decoration {
   color: none;
+  text-decoration: none; }
+
+.no-decoration-black {
+  color: black;
   text-decoration: none; }
 
 code {
