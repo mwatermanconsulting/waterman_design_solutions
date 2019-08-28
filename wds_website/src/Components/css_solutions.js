@@ -34,7 +34,7 @@ class css_solutions extends Component {
             </section>
             <section className="content-header flex-layout-center-center flex-layout-column">
                 <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-50">
-                        WDS CSS and develops lean, scalable solutions, saving your business money and your<br/> developers time.
+                        WDS develops lean, scalable solutions, CSS solutions saving your business money and time. Also, keeping your <br/> developers happy.
                 </div>
                 <div className="content-block-50 margin-top-50">
                     <p className="content-text-24 text-align-center">
@@ -117,7 +117,7 @@ class css_solutions extends Component {
                             Building Scalable Enterprise Solutions
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-15">
-                            <p className="content-text-18"> The best way to explain any complex solutions is through a story. The last company we work for needed an enterprise scalable CSS solution that would greatly diminish their specificity issues. This solution needed to keep in mind the users, the developers and engineers and build a system that could support 70 developers. <a href="../case_study_4"><i>Continue Story</i></a>  </p>
+                            <p className="content-text-18"> The best way to communicate a solution through design thinking is with a story. The last company we work for needed an enterprise scalable CSS solution that would greatly diminish their specificity issues. This solution needed to keep in mind the users, the developers and engineers and build a system that could support 70 developers. <a href="../case_study_4"><i>Continue Story</i></a>  </p>
                             <p className="content-text-18"> </p>           
                         </div>
                     </div>

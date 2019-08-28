@@ -1,5 +1,6 @@
 import React, { Component } from 'react' ;
 import bg_ui from '../images/backgrounds/bg-ui.png';
+import services2 from '../images/photos/photo-services-s2.png';
 import finding from '../images/photos/photo-documentation-s1.png';
 import didyouknow from '../images/graphic-didyouknow.svg';
 import finding_truth2 from '../images/photos/photo-finding-truth-s2.png';
@@ -24,7 +25,7 @@ class ui_design extends Component {
             <section className="grid-callout photo-content-color border-bottom-5 height-670"> 
                 <div className="grid-callout-text grid-placeself-center padding content-block-75 content-header flex-layout-column">
                     <div className="callout-title margin-top-15">
-                             Empathetic Design
+                             The "aha" Moment
                     </div>
                     <div className="callout-text text-align-left margin-top-15" >
                        We live for the comment "why didn't we think of that" usually expressed by stakeholders and managers during our design reveal. Our for passion for the last 20 years is solving problems on complex user interfaces and creating simple solutions. 
@@ -34,44 +35,204 @@ class ui_design extends Component {
                         <img className="container-photo-callout" src={ui_s1}  alt="shaking hands" /> 
                 <p classname="caption">Image by Avi Chomotovski from Pixabay</p> </div>
             </section>
-    
-            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100">
-                <div className="float-left flex-layout-center-center content-block-60">
-                    <div className="title">
-                    <section className="flex-layout-section-full margin-top-50 flex-layout-center-center">
-                <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-75">Our team builds systems for billion-dollar companies and startups.
-                </div>
-                <div className="content-block-services margin-top-25 flex-align-center margin-bottom-50 margin-left-25" >
-                    <p className="content-text-18 content-block-75">
-                    Our passion is to simplify websites, products and software interfaces. 
+            <section className="flex-layout-section-full flex-layout-column align-items-center">
+                <p className="title margin-top-75">
+                We have provided UI solutions to the some of the world's largest brands</p>
+                <p className="subtitle text-align-center content-block-65  margin-top-15">
+                Our passion is to simplify websites, products and software interfaces. 
                     
-                     for applications used by critical industries such as the energy sector, who are currently using our designed software to monitor oil rigs and nuclear plants. These high level design solutions require a team with focus and experience and an understanding of the human mind. Our UX designers have studied cognitive psychology, because we believe it is important to understand unconscious human behavior. One error can be catastrophic and must be accounted for during testing. 
-                    
-                    
-                     With a passion and empathy for simplified design 
-                    </p> 
-                </div>
-                          
-            </section>.
-                    </div>
-                    <div className=" margin-top-50">
-                        <p className="content-text-24">
-                        Our work has simplified interfaces for applications used by critical industries such as the energy sector, who are currently using our designed software to monitor oil rigs and nuclear plants. Or for the pharmaceutical industries using our designed software for monitoring drug manufacturing facilities.</p>
-                    </div>
-                </div>
+                    Our designs has simplified interfaces for applications used by critical industries such as used energy sector using our designed software to monitor nuclear reactors.
+                </p>
             </section>
-            <section className="flex-layout-section-full margin-top-50 flex-layout-center-center">
-                <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-75">Our team builds systems for billion-dollar companies.
-                </div>
-                <div className="content-block-services margin-top-25 flex-align-center margin-bottom-50  margin-left-25" >
-                    <p className="content-text-18 content-block-75">
-                        WDS is behind the design and experience of some of the most complex software in the world. 
-                        It takes discipline and expertise to design data visualizations tools for the energy sector, the industrial internet, and design solutions for global big-box retailers, and we’ve delivered on these and more. With a passion for automation and ops, our development teams drive operational excellence and commit high-quality code.
-                    </p> 
-                </div>
-                          
-            </section>
-            
+
+            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
+                    <div className="float-left flex-layout-center-center content-block-65">
+                        <div className="title">
+                            UI Design & Development
+                        </div>
+                        <div className="subtitle margin-top-15">
+                            Websites, Products and Applications
+                        </div> 
+                        <div className="float-right callout-photo grid-placeself-center">
+                                 <img className="container-photo-callout" src={services2}  alt="UX" /> 
+                                <p className="caption">Photo by Frank on Unsplash</p>
+                            </div>
+                        <div className="margin-top-15">  
+                            <p className="content-text-18"> 
+                            WDS honed its UI design skills by designing websites in 1998. Over the years we have designed and developed complicated healthcare websites to solving difficult UI problems on critical applications. Our current data visualization designs are being used on oil rigs, nuclear reactors and pharmaceutical drug plants.  
+                            </p>
+                            <p className="content-text-18">
+                            WDS can take care of the front-end development including CSS & HTML development, working on-site with your team or creating GIT build-packages complete with custom CSS solutions, patterns libraries, style guides, best of practice documentation and design strategies, ensuring and enforcing original design and solutions.
+                            </p>      
+                            
+                            </div>  
+                        </div>
+                    </section>
+
+                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+                    <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
+                    <div className="float-left flex-layout-center-center content-block-65">
+                        <div className="title">
+                            Low Fidelity Design
+                        </div>
+                        <div className="subtitle margin-top-15">
+                            Mock-ups and Wireframes
+                        </div> 
+                        <div className="float-right callout-photo grid-placeself-center">
+                                 <img className="container-photo-callout" src={services2}  alt="UX" /> 
+                                <p className="caption">Photo by Frank on Unsplash</p>
+                            </div>
+                        <div className="margin-top-15">  
+                       
+                            <p className="content-text-18"> 
+                            Known as low-tech, is a simple and easy translation of the product and design concepts. It’s used to turn the design ideas into testable and tangible artifacts, collecting and analyzing the user demands at the early stage.
+                            </p>
+                            <p className="content-text-18">
+                            The low-fidelity prototype focuses on function, structure, process, and provide the most simple framework and elements; In the early stages of product design, it can format plan quickly, discuss quickly and adjust quickly. Designers can focus on the core of the product structure and frame layer. The biggest advantage of it is time-saving, efficient; relatively, because of its prototype fast, not pay attention to the details of the interface, it will be more annoying to communicate with users.
+                            </p>      
+                            <p className="content-text-18">
+                            Low fidelity prototyping can help discover the issues of design and get them resolved at the early stage,with much less time and efforts invested in it. An interesting and proven phenomenon is the low-fi prototyping has become a preferred choice for both new-born start-ups and giant brands.
+                            </p>      
+                            
+                            </div>  
+                        </div>
+                    </section>
+
+                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+                    <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
+                    <div className="float-left flex-layout-center-center content-block-65">
+                        <div className="title">
+                            Hi-Fidelity Designs
+                        </div>
+                        <div className="subtitle margin-top-15">
+                            Representing the Final Product
+                        </div> 
+                        <div className="float-right callout-photo grid-placeself-center">
+                                 <img className="container-photo-callout" src={services2}  alt="UX" /> 
+                                <p className="caption">Photo by Frank on Unsplash</p>
+                            </div>
+                        <div className="margin-top-15">  
+                       
+                            <p className="content-text-18"> 
+                            High fidelity design are quite close to the final product, with lots of functionality and details included. This is often used in the later usability evaluation to discover the potential issues that may exist in the workflow, interactivity and so on.
+                            </p>
+                            <p className="content-text-18">
+                            Most low-fidelity wireframes communicate function well, but communicate form poorly. This is especially the case for mobile applications that have standard interface components with a consistent look and feel. A high-fidelity wireframe of a mobile application will communicate the user interface form and function better because the wireframe better resembles the standard interface components that users are familiar with.</p>
+
+                            <p className="content-text-18"> On a high-fidelity wireframe, there’s also no question to clients about what’s a button or text field because the gradient detail on the elements tell them that. Low-fidelity wireframes don’t give the gradient detail that clients need to tell what each interface element is and how they function. Both form and function are key to the user experience. Reducing the form of your user interface too much could impact how clients view your wireframes.
+                            </p>      
+                            
+                            </div>  
+                        </div>
+                    </section>
+
+                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+                    <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
+                    <div className="float-left flex-layout-center-center content-block-65">
+                        <div className="title">
+                            Concept Validation
+                        </div>
+                        <div className="subtitle margin-top-15">
+                            Ensuring your Design Success
+                        </div> 
+                        <div className="float-right callout-photo grid-placeself-center">
+                            <img className="container-photo-callout" src={services2}  alt="UX" /> 
+                            <p className="caption">Photo by Frank on Unsplash</p>
+                        </div>
+                        <div className="margin-top-15">  
+                       
+                            <p className="content-text-18"> 
+                            WDS provides design support for businesses. Many of our clients still have developers designing hi-fidelity designs. It does not matter to us whether we have created the design or your business currently has a design. Our team of experience designers can critique current designs before the testing to help identify design and usability problems.  
+                            </p>
+                            <p className="content-text-18">
+                            
+                            The design critique is an expert analysis that examines the current site or application screens in comparison to industry standards and established best practices. This helps to point out areas of opportunity that can be addressed during the design process in an effort to best the competition. This critique results in a presentation of findings that includes both areas of opportunities and concrete recommendations.
+                            
+                            </p>      
+                            
+                            </div>  
+                        </div>
+                    </section>
+
+                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+                    <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
+                    <div className="float-left flex-layout-center-center content-block-65">
+                        <div className="title">
+                            Consolidated Workflows
+                        </div>
+                        <div className="subtitle margin-top-15">
+                            The "aha" Moment
+                        </div> 
+                        <div className="float-right callout-photo grid-placeself-center">
+                            <img className="container-photo-callout" src={services2}  alt="UX" /> 
+                            <p className="caption">Photo by Frank on Unsplash</p>
+                        </div>
+                        <div className="margin-top-15">  
+                            <p className="content-text-18"> 
+                            When an engagement centers on a complex tool for the enterprise, the Consolidated Workflow Diagram captures activity across organizational roles and provides stakeholders a single view of all of the work accomplished in and around a tool. This diagram gives stakeholders an “aha!” moment as, for the first time, they have a picture of the duties employees or customers accomplish in their work lives. Through the use of a consolidated workflow diagram, we see how a user moves through tasks and we extrapolate from here to the various cognitive states a user inhabits while engaged with the solution or process. These cognitive states represent a model of what is in people’s minds as they do their work: their mental model. This understanding has implications for both design and marketing.
+                            </p> 
+                        </div>  
+                        </div>
+                    </section>
+
+                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+                    <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
+                    <div className="float-left flex-layout-center-center content-block-65">
+                        <div className="title">
+                            HTML and CSS Build-Kits
+                        </div>
+                        <div className="subtitle margin-top-15">
+                            Business Tailored UI Design Kits
+                        </div> 
+                        <div className="float-right callout-photo grid-placeself-center">
+                                 <img className="container-photo-callout" src={services2}  alt="UX" /> 
+                                <p className="caption">Photo by Frank on Unsplash</p>
+                            </div>
+                        <div className="margin-top-15">  
+                       
+                            <p className="content-text-18"> 
+                             UI kits are comprehensive resource sets that allow you to plan your design’s structure properly without having to sacrifice your creative and original ideas. A UI kit generally contains an assortment of graphic files including UI components (buttons, check boxes, progress bars, etc.) for the purpose of user interface design. They allow designers to create outstanding visuals in reasonable timeframes. So instead of wasting time figuring out how to implement components, UI kits let you focus on what you do best: creating great designs.
+                            </p>
+                            <p className="content-text-18">
+                            Our UI solutions are lightweight containing only the visual elements and CSS needed. The value of our tailored UI kit is one it helps solve the consistency businesses face when teams are fractured. These teams need design guidance and support. A solution that will support the developers with a starting point with all the design elements included, removing the need to design. We provide guidance with a living style guide or design system which including best pf practice documentation. </p>     
+                            
+                            </div>  
+                        </div>
+                    </section>
+
+                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+                    <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
+                    <div className="float-left flex-layout-center-center content-block-65">
+                        <div className="title">
+                            Prototypes
+                        </div>
+                        <div className="subtitle margin-top-15">
+                            Testing UI and Features
+                        </div> 
+                        <div className="float-right callout-photo grid-placeself-center">
+                                 <img className="container-photo-callout" src={services2}  alt="UX" /> 
+                                <p className="caption">Photo by Frank on Unsplash</p>
+                            </div>
+                        <div className="margin-top-15">  
+                       
+                            <p className="content-text-18"> 
+                                Testing before development begins is crucial to the success of any project. Observing users actions on the prototype can provide insight into what's working and what needs to be discarded or rethought.
+                            </p>
+                            <p className="content-text-18">
+                            One of the most important aspect of the product building process is to gather feedback. With prototyping you can observe the user, test the work flow consolidation and collect reviews at every stage of developing the product. Prototypes are extremely helpful when adding new features or redesigning parts of the product. Test what is working for the audience and what is not.
+                            </p>      
+                            
+                            </div>  
+                        </div>
+                    </section>
                 
                 <div className="flex-layout-section thin-hr  margin-tb-100" ></div>
 
@@ -87,33 +248,8 @@ class ui_design extends Component {
                    
                     </div>
                 </section> 
-    
-            
-                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center ">
-                <div className="float-left content-block-60">
-                        <div className="title">
-                             Research
-                        </div>
-                        <div className="subtitle margin-top-15">
-                             Understanding the Business
-                        </div>
-                        <div className="content-block-75 content-text-18 margin-top-15">
-                            <p className="content-text-18"> 
-                                The next phase of the methodology establishes the foundation. It is all about the business and how it relates to the users. It's how design relates to the business.</p>
-
-                            <ul className="dashed">
-                                <li>Kickoff Meeting</li>
-                                <li>Business Requirements</li>
-                                <li>Competition Research</li>
-                                <li>Marketing Materials Review</li>
-                                <li>Style Guides and Company Standards</li>
-                                <li>Stakeholders Contact</li>
-                            </ul>
-
-                        </div>
-                    </div>
-            </section>
-            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+        
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
                 <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
                        <img className="content-block-55 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
                       

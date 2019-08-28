@@ -56,7 +56,7 @@ class App extends Component {
               <div class="dropdown-content">
                 <a href="./design_solutions">Design Overview</a>
                 <a href="./website_design">Website Design</a>
-                <a href="./print_design">Print Design</a>
+                <a href="./print_design">Graphic Design</a>
                 <a href="./video_production">Video Production</a>
               </div>
               </li>
@@ -119,9 +119,8 @@ class App extends Component {
               <ul>
               <li><a className="text-black" href="./design_solutions">Overview</a></li>
               <li><a className="text-black" href="./website_design">Website Design</a></li>
-               <li><a className="text-black" href="./print_design">Print Design</a></li>
-              <li><a className="text-black" href="./marketing">Marketing</a></li>
-              <li><a className="text-black" href="./video_production">Video</a></li>
+              <li><a className="text-black" href="./print_design">Graphic Design</a></li>
+              <li><a className="text-black" href="./video_production">Video Production</a></li>
               </ul>
           </div> 
           

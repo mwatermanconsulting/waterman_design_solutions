@@ -9,6 +9,7 @@ import services6 from '../images/photos/photo-services-s6.png';
 import services7 from '../images/photos/photo-services-s7.png';
 import services8 from '../images/photos/photo-services-s8.png';
 import services9 from '../images/photos/photo-services-s9.png';
+import casscade from '../images/photos/photo-css-s1.png';
 import tugowar from '../images/graphic-tug-of-war.svg';
 import icon_design_solutions from '../images/icon-why-design-solutions.svg';
 import icon_design from '../images/icon-why-design.svg';
@@ -35,26 +36,26 @@ class services extends Component {
             <section className="grid-callout yellow-bg"> 
                 <div className="grid-callout-text grid-placeself-center width-70">
                     <p className="callout-text ">
-                       Real true UX consultants listen to the customers. Our service list is a testament to our belief in old fashioned customer service.
+                       The role of a UX consultant listen to the customers. Our service list is a testament to our belief in old fashioned customer service.
                     </p>     
                 </div>
                 <div className="grid-callout-photo grid-placeself-center">
                     <img className="flex-image-container width-100" src={together}  alt="Services" /> 
                 </div>
             </section>
-        <main className="flex-layout-section-full flex-layout-center-center flex-layout-column margin-top-75">
+       
             <section className="flex-layout-section-full flex-layout-column align-items-center">
-                <p className="title">
+                <p className="title margin-top-75">
                     WDS Services</p>
-                <p className="subtitle text-align-center content-block-100 margin-top-15">
-                    When design determines success, understanding the user is paramount. <br/> We design with empathy to connect people with what matters the most to them. 
+                <p className="subtitle text-align-center  margin-top-15">
+                     Design always determines success, and understanding the user is paramount. <br/> Our team designs with empathy to connect people meeting their needs and expectations. 
                 </p>
             </section>
 
             <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100">
-                    <div className="float-left flex-layout-center-center content-block-60">
+            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
+                    <div className="float-left flex-layout-center-center content-block-65">
                         <div className="title">
                             User Experience Design
                         </div>
@@ -62,26 +63,21 @@ class services extends Component {
                            Understanding the User
                         </div>
                         <div className="margin-top-15">
-                            <p className="content-text-18">
+                            
                             <p className="content-text-18"> 
-                        When design determines success, understanding the user is paramount. We design to connect people with what matters most to them. </p>
-                        <p className="content-text-18">
-                        Our design experts use experience strategy and insight to define how software functions and build workflows for the ways that people will experience it. 
-                        From inception through launch, no detail is missed.</p>
+                            Our design experts use research, empathy and insight to define how software functions and build workflows for the ways that people will experience it. From inception through launch, the users voice is always heard leaving no detail missed.</p>
                         <p className="content-text-18">
                         
                         <div className="float-right callout-photo grid-placeself-center">
                         <img className="container-photo-callout" src={services3}  alt="UX" /> 
                         <p className="caption">Photo by Frank on Unsplash</p></div>
 
-                        The visual elements, we create will establish your brand as a design leader in your space. By understanding your business, users and competition we will ensure that you have a unique presence that include familiar use of fonts, icons with design solutions that has a certain elegance that resonates with your users emotions.</p>
-                             in a less-than-optimal fashion. This can make us incapable of telling UX designers what we really want. </p>
+                            The visual elements, we create will establish your brand as a design leader in your space. By understanding your business, users and competition we will ensure that you have a unique presence that include familiar use of fonts, icons with design solutions that has a certain elegance that resonates with your users emotions in a less-than-optimal fashion. This can make us incapable of telling UX designers what we really want. </p>
 
-                                <p className="content-text-18">
-                                For example, when asked about an editing function in a software package, one customer had no complaints until she sat down to use the program in front of the observer. Then she realized that her work was disrupted when the program did not automatically wrap text around graphics while she edited. Accustomed to working around the problem, she had not mentioned it in earlier interviews. When the observer notices this and points it out, it opens up an important issue that should be dealt with to make her life easier. All the little things add up as big time wasters that need to be eliminated.
-                                </p>
-                            </div>  
-                            </div>
+                            <p className="content-text-18">
+                            For example, when asked about an user input for a security setting during WI-FI installation, one customer had no complaints until she sat down to use the program in front of the observer. Then she realized that she became confused when the program did not automatically select a security option. Not accustomed to the problem, she consistently made the incorrect decision. During the interview process this was never talked about because people want to appear smart and knowledgeable. Observing this issue and providing a simple solution such as provide recommended security settings, saves her time and can empower her. All the little things add up as big time wasters and need to be eliminated.</p>
+                        </div>  
+                    </div>
                 </section>
 
            
@@ -90,7 +86,7 @@ class services extends Component {
 
                
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100">
-                    <div className="float-left flex-layout-center-center content-block-60">
+                    <div className="float-left flex-layout-center-center content-block-65">
                         <div className="title">
                             UI Design & Development
                         </div>
@@ -98,14 +94,12 @@ class services extends Component {
                             Websites, Products and Applications
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                                 <img className="container-photo-callout" src={services3}  alt="UX" /> 
-                                <p className="caption">Photo by Frank on Unsplash</p>
+                            <img className="container-photo-callout" src={services2}  alt="UX" /> 
+                            <p className="caption">Photo by Frank on Unsplash</p>
                             </div>
                         <div className="margin-top-15">  
-                       
                             <p className="content-text-18"> 
-                          
-                            WDS honed its UI design skills by designing websites in 1998. Over the years we have designed and developed complicated healthcare websites to solving difficult UI problems on critical applications. Our current data applications designs are being used on oil rigs, nuclear reactors and pharmaceutical drug plants. 
+                            WDS honed its UI design skills by designing websites in 1998. Over the years we have designed and developed complicated healthcare websites to solving difficult UI problems on critical applications. Our current data visualization designs are being used on oil rigs, nuclear reactors and pharmaceutical drug plants.  
                             </p>
                             <p className="content-text-18">
                             WDS can take care of the front-end development including CSS & HTML development, working on-site with your team or creating GIT build-packages complete with custom CSS solutions, patterns libraries, style guides, best of practice documentation and design strategies, ensuring and enforcing original design and solutions.
@@ -117,127 +111,102 @@ class services extends Component {
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100">
-                    <div className="float-left flex-layout-center-center content-block-60">
-                        <div className="title">
-                            User Experience Design
-                        </div>
-                        <div className="subtitle margin-top-15">
-                           Understanding the User
-                        </div>
-                        <div className="margin-top-15">
+                <section className="float-left flex-layout-section-full flex-layout-column flex-layout-center-center">
+                    <div className=" title content-block-65">
+                         Design Solutions
+                    </div>
+                    <div className="subtitle content-block-65 margin-top-15">
+                         Empathic Design
+                    </div>
+                    <div className="margin-top-15 content-block-65"> <div className="float-right callout-photo grid-placeself-center" style={{marginTop:'-4%'}}>
+                                <img className="container-photo-callout" src={services2}  alt="UX" /> 
+                        </div> 
+                        <p className="content-text-18  content-block-65"> 
+                            Our design solutions include software designs, websites, marketing and print design. Our design solutions provide our clients consistency across all their consumer touchpoints. Consistency breeds brand familiarity and user loyalty</p> 
+                            <p className="content-text-18  content-block-65">
+                            All of our solutions are designed with empathy, always focused on the user and business needs.  </p>
                             <p className="content-text-18">
-                            <p className="content-text-18"> 
-                        When design determines success, understanding the user is paramount. We design to connect people with what matters most to them. </p>
+                             For over twenty years our design solutions have made a difference in peoples lives. Helping businesses with difficult design problems and turning them into success stories.  </p>
+                            <p className="content-text-18">
+                             Many times we are the third UX designers on a project. Hired after two failed attempts for our design solutions and experience. We understand the value of business design and how to get results.</p>
+                        </div>
+                </section>
+
+                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+                <section className="float-left flex-layout-section-full flex-layout-column flex-layout-center-center">
+                    <div className=" title content-block-65">
+                         Strategy and Insight
+                    </div>
+                    <div className="subtitle content-block-65 margin-top-15">
+                         Insight through Observations
+                    </div>
+                    <div className="margin-top-15 content-block-65"> <div className="float-right callout-photo grid-placeself-center">
+                                <img className="container-photo-callout" src={services5}  alt="UX" /> 
+                        </div>  
+                        <p className="content-text-18 content-block-65">
+                            The most meaningful insights for design strategy are developed with behavior-based understanding of users. Our experience strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve.</p> 
+                        <p className="content-text-18 margin-top-15">
+                            By directly observing people, we can get to the heart of their needs. By discovering what drives them, what inspires them and what connects with them on an emotional level. We enlighten our clients with insights and strategies of where to invest resources based on this understanding of what people value.
+                        </p>
+                            <p className="content-text-18 ">
+                            Today, the user’s experience is more important than brand loyalty. A successful strategy is needed to keep the users involved in all business decisions.</p>
+                            
+                          
+                        </div>
+                </section>
+
+               
+                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+                <section className="float-left flex-layout-section-full flex-layout-column flex-layout-center-center">
+                    <div className=" title content-block-65">
+                         CSS Solutions
+                    </div>
+                    <div className="subtitle content-block-65 margin-top-15">
+                         Scalable Enterprise Solutions
+                    </div>
+                    <div className="margin-top-15 content-block-65"> <div className="float-right callout-photo grid-placeself-center">
+                                <img className="container-photo-callout" src={casscade}  alt="UX" /> 
+                        </div>  
+                        <p className="content-text-18 content-block-65">
+                        Our CSS services include CSS development, Strategy, CSS system implementation, mentoring and documentation, including best of practice documentation.</p> 
+                        <p className="content-text-18 margin-top-15">
+                        Our solutions are based off our empathy and experiences working with developers. After our design solutions our CSS knowledge and experience is one of the main reasons WDS gets contracted by companies. Our CSS solutions are scalable and customizable to your business requirements.
+                        </p>
                         <p className="content-text-18">
-                        Our design experts use experience strategy and insight to define how software functions and build workflows for the ways that people will experience it. 
-                        From inception through launch, no detail is missed.</p>
-                        <p className="content-text-18"><div className="float-right callout-photo grid-placeself-center">
-                        <img className="container-photo-callout" src={services4}  alt="UX" /> 
-                        <p className="caption">Photo by Frank on Unsplash</p></div>
-                        The visual elements, we create will establish your brand as a design leader in your space. By understanding your business, users and competition we will ensure that you have a unique presence that include familiar use of fonts, icons with design solutions that has a certain elegance that resonates with your users emotions.</p>
-                        in a less-than-optimal fashion. This can make us incapable of telling UX designers what we really want. </p>
-
-                                <p className="content-text-18">
-                                For example, when asked about an editing function in a software package, one customer had no complaints until she sat down to use the program in front of the observer. Then she realized that her work was disrupted when the program did not automatically wrap text around graphics while she edited. Accustomed to working around the problem, she had not mentioned it in earlier interviews. When the observer notices this and points it out, it opens up an important issue that should be dealt with to make her life easier. All the little things add up as big time wasters that need to be eliminated.
-                                </p>
-                            </div>  
-                            </div>
-                </section>
-
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
-
-                <section className="grid-2col-photo-content content-header" style={{marginLeft: '9%'}}>
-                    <div className="grid-left-services flex-layout-section-full">
-                        <div className="subtitle">
-                                Design Solutions
+                        WDS develops lean, scalable solutions, CSS solutions saving your business money and time. Keeping your developers happy and focused on what they do best.</p>
+                            
+                          
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-15">
-                            <p className="content-text-18"> 
-                            An experience strategy provides the direction to design and build an experience that truly resonates with your audience.</p>
-                            <p className="content-text-18">
-                            Harnessing the power of observation-based insights and leveraging your users' wants, needs, and emotional connection points, we develop solutions that go beyond best practices. </p>
-                            <p className="content-text-18">
-                             We then take those solutions back to your users and get meaningful, individual feedback. </p>
-                            <p className="content-text-18">
-                             This is the primary foundation that successfully supports your product or service.</p>
-                                    
-                            <p><i><a href="../design_solutions">Learn More</a></i></p>
-                        </div>
-                    </div>
-                    <div className="grid-right-services container-image-block">
-                        <img className="photo-container" src={services2}  alt="Services" style={{marginTop: '5%'}} /> 
-                    </div>     
-                </section>
-                
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
-
-                <section className="grid-2col-photo-content content-header" style={{marginLeft: '9%'}}>
-                    <div className="grid-left-services flex-layout-section-full ">
-                        <div className="subtitle margin-top-15" >
-                            Strategy and Insight 
-                        </div>
-                        
-                        <div className="content-block-75" >
-                            <p className="content-text-18 margin-top-15">
-                            WDS gathers knowledge for our clients to learn where best to invest their resources based on what people value.</p>
-                            <p className="content-text-18"><a href="../strategy_insight">Learn More</a></p>     
-                        </div>
-                        
-                    </div>
-                    <div className="grid-right-services container-image-block">
-                        <img className="photo-container" src={services5}  alt="Services" /> 
-                    </div>     
-                </section>
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
-</div>
-                <section className="grid-2col-photo-content content-header" style={{marginLeft: '9%'}}>
-                    <div className="grid-left-services flex-layout-section-full">
-                        <div className="subtitle">
-                            CSS Solutions
-                        </div>
-                        <div className="content-block-75 content-text-18 margin-top-25">
-                            <p className="content-text-18"> 
-                            CSS development, CSS system implementation, mentoring and documentation, including best of practices is what we do best! A tool that sets the standards by how an app is designed.</p>
-                                    
-                            <p><i><a href="../css_solutions">Learn More</a></i></p>
-                        </div>
-                    </div>
-                    <div className="grid-right-services container-image-block">
-                        <img className="photo-container" src={services6}  alt="Services" /> 
-                    </div>     
                 </section>
 
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
 
-                <section className="grid-2col-photo-content content-header"  style={{marginLeft: '9%'}} >
-                    <div className="grid-left-services flex-layout-section-full ">
-                        <div className="subtitle">
-                            Customer Experience
-                        </div>
-                        <div className="content-block-75 margin-top-15" >
-                            <p className="content-text-18">  The best customer experience starts with the Golden Rule and how you communicate your product — why it exists, who it serves, how it benefits them.</p>
-                            <p className="content-text-18"><a href="../core_offerings">Learn More</a> </p>     
-                        </div>
+                <section className="float-left flex-layout-section-full flex-layout-column flex-layout-center-center">
+                    <div className=" title content-block-65">
+                         Social Media 
                     </div>
-                    <div className="grid-right-services container-image-block">
-                            <img className="photo-container" src={services7}  alt="Services" /> 
-                    </div>     
-                </section>
-            </main>
-                <section className="flex-layout-section-full padding  margin-top-100">
-                    <div className="content-header flex-layout-center width-100">
-                        <div className="callout-text text-black content-block-75">
-                        Design Matters <br/> Design matters to your users * Design matters to your bottom line 
-                       * Design matters to your competition.<br/>  It should matter to you. 
+                    <div className="subtitle content-block-65 margin-top-15">
+                        We will make your customers feel uniquely valued
+                    </div>
+                    <div className="margin-top-15 content-block-65"> <div className="float-right callout-photo grid-placeself-center">
+                                <img className="container-photo-callout" src={services4}  alt="UX" /> 
+                        </div>  
+                        <p className="content-text-18 content-block-65">
+                        WDS understands people on a deep level. Our methodology gives a voice to the your users, your customers. Those people whose daily lives are effected by the use of your application or product. Your marketing campaign should be a reflect the vision of who you are as a business and tell that story. Every business has a story. We will define a marketing strategy based on research, data with a clear vision that reflects and embraces real human values.</p> 
 
+                        <p className="content-text-18 content-block-65">
+                        Our goal is to identify the right approach for your unique target audiences on social media. We plan, develop, and execute innovative social media marketing strategies that build a meaningful experience across all social media touchpoints.</p> 
+                        
+                            
+                          
                         </div>
-                    </div> 
                 </section>
-                <div className="flex-layout-section-full margin-top-50 grey-blue padding-bottom-50">
-                <section className="grid-services-list  flex-section-align-center">
-                    <div className="margin-top-50 margin-bottom-25 content-block-75 grid-services-title title text-align-center" 
-                    style={{marginLeft: '1%'}}>
+            
+            <div className="flex-layout-section-full margin-top-50 grey-blue padding-bottom-50">
+                <section className="grid-services-list flex-section-align-center">
+                    <div className="margin-top-50 margin-bottom-50 grid-services-title title text-align-center margin-right-25">
                             Services Include: 
                     </div>
                     <div className="grid-services-3">
@@ -248,12 +217,12 @@ class services extends Component {
                     <ul className="dashed content-text-16 margin-top-15">
                         <li>Digital Transformation</li>
                         <li>SaaS Transition</li>
-                        <li>Strategic Ideation</li>
-                        <li>CSS Solutions</li>
+                        <li><a href="./core_offerings" className="no-decoration" style={{color:"#000"}}>Strategic Ideation</a></li>
+                        <li><a href="./css_solutions" className="no-decoration">CSS Solutions</a></li>
                         <li>Design Strategies</li>
-                        <li>Design C-Suite Mentoring</li>
-                        <li>Empathy Workshops</li>
-                        <li>Communication Workshops</li>
+                        <li><a href="./core_offerings" className="no-decoration">Design C-Suite Mentoring</a></li>
+                        <li><a href="./core_offerings" className="no-decoration">Empathy Workshops</a></li>
+                        <li><a href="./core_offerings" className="no-decoration">Communication Workshops</a></li>
                               
                     </ul>  
                     </div>
@@ -268,27 +237,27 @@ class services extends Component {
                         <li>Personas</li>
                         <li>Prototyping</li> 
                         <li>Consolidated Workflows</li>
-                        <li>Design Systems</li>
-                        <li>Style Guides</li>
+                        <li><a href="./design_systems" className="no-decoration">Design Systems</a></li>
+                        <li><a href="./design_systems" className="no-decoration">Style Guides</a></li>
                         <li>Information Architecture</li>
                     </ul>
                     </div>
-                    <div className="grid-services-4">
+                    <div className="grid-services-4 margin-top-50">
                         <img className="width-25" src={icon_ui}  alt="UI" />
                         <div className="subtitle margin-top-15">
-                            <a href="./ux_design" className="no-decoration"> UI Design & Development </a>
+                            <a href="./ui_design" className="no-decoration"> UI Design & Development </a>
                         </div>
                         <ul className="dashed content-text-16 margin-top-15">
                             <li>Mock-ups</li>
+                            <li>Protyping</li>
                             <li>Hi-Fidelity Designs</li>
                             <li>CSS and HTML Build Kits</li>
-                            <li>Protyping</li> 
                             <li>Concept Validation</li> 
                             <li>Wireframe Key Workflows</li>
-                            <li>CSS Solutions</li>  
+                            <li><a href="./css_solutions" className="no-decoration">CSS Solutions</a></li>  
                             </ul>
                     </div>
-                    <div className="grid-services-5">
+                    <div className="grid-services-5 margin-top-50">
                         <img className="width-25" src={icon_marketing}  alt="Marketing and Analysis" />
                         <div className="subtitle margin-top-15">
                            <a href="./marketing" className="no-decoration"> Marketing & Analytics</a>
@@ -311,14 +280,15 @@ class services extends Component {
                                 <li>Business Design Strategies</li>
                                 <li>Empathy Workshops</li>
                                 <li>Communication Strategies</li>
-                                <li>Marketing</li> 
-                                <li>Print Design</li> 
-                                <li>Video Production</li>
-                                <li>Design Systems</li>
+                                <li>Design Solutions</li> 
+                                <li>C-Suite Strategies and Workshops</li> 
+                                <li>Customer Experience Strategies</li>
+                                <li>Telemetry/Analytics Strategies</li>
+                                <li>Accessibility Strategies</li>
 
                             </ul>
                     </div>
-                    <div className="grid-services-6">
+                    <div className="grid-services-6 margin-top-50">
                         <img className="width-25" src={icon_design}  alt="Design" />
                         <div className="subtitle margin-top-15">
                                 <a href="./design_solutions" className="no-decoration">Design Solutions</a></div>
@@ -360,7 +330,7 @@ class services extends Component {
 
             
             <section className="flex-layout-section-full align-items-center yellow-bg border-top-5">
-                <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 " > 
+                <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 margin-bottom-50" > 
                     <div className="2col-text grid-placeself-center margin-left-75">
                         <div className="content-block">
                             <p className="content-header"> 

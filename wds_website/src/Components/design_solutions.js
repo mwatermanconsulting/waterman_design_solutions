@@ -50,7 +50,7 @@ class design_solutions extends Component {
                         "A consistent experience is a better experience.” - Mark Eberman
                     </p>   
                         <p className="content-text-21 content-block-75 align-self-center text-align-center margin-top-25 margin-bottom-100">
-                         Design determines success, and understanding the user is paramount.<br/> We unite your business with your customers and bring an understanding to their needs and expectations.m Through design solutions we tell that message.
+                         Design determines success, and understanding the user is paramount.<br/> We unite your business with your customers and bring an understanding to their needs and expectations. Through design solutions we convey that message.
                         </p>
                 </div>
             </div>
