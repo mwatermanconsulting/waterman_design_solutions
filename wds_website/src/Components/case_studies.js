@@ -26,7 +26,7 @@ class case_studies extends Component {
                 </section>
                 <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                     <div className="callout-text-lg">
-                        Every great design begins with an even better story.
+                        Every great design begins with a great story.
                     </div>
                 </section>
                 <section className="flex-layout-section-full align-items-center">
@@ -35,7 +35,7 @@ class case_studies extends Component {
                                 Customer Success Spotlight</div>
                         <div className="content-block width-100 margin-top-10">
                             <p className="subtitle text-align-center">
-                                 Our favorite case study stories including the methodology and the solutions that made each project a success</p>
+                                 See our favorite case study stories and the solutions that made each a success.</p>
                         </div> 
                     </div>
             </section>

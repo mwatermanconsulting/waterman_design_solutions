@@ -1,7 +1,7 @@
 import React, { Component } from 'react' ;
 import { Button } from 'react-mdl';
 import stubhub_bg from '../images/backgrounds/bg-stubhub.png';
-import stubhub_logo from '../images/icon-logo-stubhub.svg'; 
+import stubhub_logo from '../images/icon-logo-stubhub.svg'; import stubhub_logo_white from '../images/icon-logo-stubhub-white.svg'
 import stubhub_before_s1 from '../images/photos/photo-stubhub-before-2.png';
 import stubhub_s1 from '../images/photos/photo-stubhub-s1.png';
 import stubhub_before_2 from '../images/photos/photo-stubhub-before-kpi.png';
@@ -25,8 +25,8 @@ class case_study_2 extends Component {
                     <div className="header-title-cs align-self-center header-text-left text-white">
                         Case Study - StubHub
                     </div>
-                        <img className="header-text-right align-self-center width-25" src={stubhub_logo}  alt="Stubhub Case Study Logo Image" /> 
-                        <img className="flex-image-container width-100" src={stubhub_bg}  alt="Stubhub Case Study " />  
+                        <img className="header-text-right align-self-center width-10" src={stubhub_logo_white}  alt="StubHub Case Study Logo Image" /> 
+                        <img className="flex-image-container width-100" src={stubhub_bg}  alt="StubHub Case Study " />  
                 </section> 
                 <section className="container-section padding-20 m border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg">
@@ -35,7 +35,7 @@ class case_study_2 extends Component {
                 </section>
                 <section className="flex-layout-section-fixed-sm margin-top-75">
                     <div className="content-header flex-layout-center-center"> 
-                        <div className="content-block-55 subtitle"> Stubhub was internally developing a data reporting tool for the company. Their initial release was not a successful one and after a year of non-use, Stubhub needed answers. Six months later WDS turned a failure into successful case study.
+                        <div className="content-block-55 subtitle"> StubHub was developing an internal data reporting tool. Their initial release was not a successful one and after a year of non-use, StubHub needed answers. Six months later WDS turned this failure into successful case study.
                         </div>
                     </div>
                 </section>  
@@ -54,9 +54,9 @@ class case_study_2 extends Component {
                     </div>
                     <div className="content-block-55 margin-top-15">
                         <p className="content-text-18">
-                            All the analysts at Stubhub were dissatisfied with the new IBM suite of data visualization tools. They found the application to be difficult, confusing and cumbersome. One analyst presented an idea to a CTO for a new custom data visualization tool. She told him to gather a team and make it happen.</p> 
+                            All the analysts at StubHub were dissatisfied with the new IBM suite of data visualization tools. They found the application to be difficult, confusing and cumbersome. One analyst presented an idea to a CTO for a new custom data visualization tool. She told him to gather a team and make it happen.</p> 
                         <p className="content-text-18"> 
-                            The first iteration was designed by the analyst. It was crude but functional, and the idea was sold to a larger shareholder base. In the next phase the small team subcontracted a UX/UI person to create a new design with many new features and it went live. It was not well received by the stakeholders or adopted by the larger Stubhub base. </p>
+                            The first iteration was designed by the analyst. It was crude but functional, and the idea was sold to a larger shareholder base. In the next phase the small team subcontracted a UX/UI person to create a new design with many new features and it went live. It was not well received by the stakeholders or adopted by the larger StubHub base. </p>
                         <p className="content-text-18"> 
                             The team realized it need a UX/UI consultant with a proven track record. After an extensive search WDS was hired for design skills and methodology.  </p>  
                         </div>
@@ -96,7 +96,7 @@ class case_study_2 extends Component {
                         Finding the Truth - User Perspective
                     </div>
                     <div className="content-block-55 margin-top-15">
-                        <p className="content-text-18"> The easiest way to the truth is filming the user in action. Since there wasn't anyone using the application, the first question is why? What is wrong with the application? We completed a design review and formed a hypothesis of the problems. The unique part of Stubhub project was we could interview the users directly and ask them about their needs, wants and expectations about the current tool. What do they want and expect from a data visualization tool? </p>
+                        <p className="content-text-18"> The easiest way to the truth is filming the user in action. Since there wasn't anyone using the application, the first question is why? What is wrong with the application? We completed a design review and formed a hypothesis of the problems. The unique part of StubHub project was we could interview the users directly and ask them about their needs, wants and expectations about the current tool. What do they want and expect from a data visualization tool? </p>
             
                         <p className="content-text-18">A total of 25 analysts from 8 different countries were interviewed. A SUS test was presented to them for the current UI. These same analyst were included on 4 separate testing occasions during the process.  </p>
                     </div>     
@@ -148,7 +148,7 @@ class case_study_2 extends Component {
                             Solving the Issues
                         </div>
                         <div className="content-block-55 margin-top-15">
-                            <p className="content-text-18">Most failures come from a disconnect between what the user wants/expects and what they are offered. After the initial research and development of personas, challenges were met head on. Here are some of the problems that WDS and Stubhub agreed on: </p>
+                            <p className="content-text-18">Most failures come from a disconnect between what the user wants/expects and what they are offered. After the initial research and development of personas, challenges were met head on. Here are some of the problems that WDS and StubHub agreed on: </p>
                         </div>
                         <div className="grid-2col-list margin-top-25">    
                             <div className="list-left  margin-left-75">
@@ -193,7 +193,7 @@ class case_study_2 extends Component {
                              The new design is a unique take on data visualization. WDS wanted to present a design that was not only modern, simple and branded, but would grab the users attention.  Numbers were a part of the design and very prominent. This was a unique visual treatment that WDS believed would work.</p>
             
                             <p className="content-text-18">
-                                This design incorporated three elements: the user, the business and the current climate. The climate and the need to get user attention quickly led to a colorful branded design. The design is fully responsive and branded with the Stubhub colors. </p>  
+                                This design incorporated three elements: the user, the business and the current climate. The climate and the need to get user attention quickly led to a colorful branded design. The design is fully responsive and branded with the StubHub colors. </p>  
                         </div>
                     </section>
                         <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-25">

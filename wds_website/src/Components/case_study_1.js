@@ -7,6 +7,8 @@ import motorola_s6 from '../images/photos/photo-motorola-s6.png';
 import motorola_s2 from '../images/photos/photo-Motorola_2.png';
 import motorola_s3 from '../images/photos/photo-motorola-s3.png';
 import motorola_s5 from '../images/photos/photo-motorola-s5.png';
+import motorola_cnet from '../images/photos/photo-motorola-cnet.png';
+import motorola_google from '../images/photos/photo-motorola-google.png';
 import results from '../images/graphic-ux.svg';
 import motorola_beforeafter from '../images/photos/photo-motorola-beforeafter.png';
 import motorola_before_basic from '../images/photos//photo-motorola-before-basic.png';
@@ -17,7 +19,7 @@ import callcenter from '../images/photos/photo-motorola-s2.png';
 class case_study_1 extends Component {
     render () {
         return(
-            <div className="flex-layout-column flex-layout-section-full image-background-border-tb">
+            <div className="flex-layout-column flex-layout-section-full image-background-border-top">
                 <section className="flex-layout-row width-100"> 
                     <div className="header-text-left header-title-cs align-self-center text-white">
                         Case Study - Motorola</div>
@@ -89,8 +91,8 @@ class case_study_1 extends Component {
                     </section>
                     <section className="grid-callout grey margin-top-50 border-tb-5">
                         <div className="grid-callout-text margin-top-75">
-                            <div className="callout-text  content-block-55 txt-white padding" style={{marginLeft: '13%', marginTop: '5%'}}> 
-                            For the average user the interface on the Motorola modems was very intimating. The UI was outdated and unbranded, leaving the user confused and frustrated. Keeping the call center very busy.</div>
+                            <div className="callout-text  content-block-55 text-white padding" style={{marginLeft: '13%', marginTop: '5%'}}> 
+                            For the average user, the interface on the Motorola modems was very intimidating. The UI was outdated and unbranded, leaving the user confused and frustrated. This kept the call center very busy.</div>
                         </div>
                         <div className="grid-callout-photo width-100">
                               <img src={callcenter} alt="Case Study Image 2"/> 
@@ -331,6 +333,12 @@ class case_study_1 extends Component {
                                 </div>
                            
                         </section>
+                        <section className="flex-layout-column margin-top-50">
+                        <div className="container-image-block flex-layout-center-center flex-layout-column">
+                            <img className="photo-container-cs-sb1 width-100" src={motorola_google} alt="Questions"/> 
+                        
+                        </div>
+                    </section>
 
                         <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
@@ -392,16 +400,16 @@ class case_study_1 extends Component {
                     </div>
                     </section>
                    
-                     <div className="grid-callout grey margin-top-150"> 
-                        <div className="grid-callout-text grid-placeself-center width-70">
-                            <p className="callout-text">
-                                "The Surfboard eXtreme has a robust and self-explanatory Web interface with lots of features, including showing level of interference for its Wi-Fi networks." - Cnet review</p>
+                    <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+                <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
+                            <p className="callout-text-white text-align-center">
+                                "The Surfboard eXtreme has a robust and self-explanatory Web interface with lots of features, including showing level of interference for its Wi-Fi networks." - CNET review</p><img  src={motorola_cnet} alt="CNET review"/>
                         </div>
-                        <div className="grid-callout-photo grid-placeself-center width-100">
-                             <img className="photo-" src={results} alt="Finding the Truth - Business Perspective"/>
-                        </div>
+                        
+                        </section>
                     </div>
-            </div>                               
+                    
+                                          
                             )
                         }
                     }

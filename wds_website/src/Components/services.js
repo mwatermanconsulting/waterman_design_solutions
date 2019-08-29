@@ -116,10 +116,10 @@ class services extends Component {
                          Design Solutions
                     </div>
                     <div className="subtitle content-block-65 margin-top-15">
-                         Empathic Design
+                         Empathetic Design
                     </div>
                     <div className="margin-top-15 content-block-65"> <div className="float-right callout-photo grid-placeself-center" style={{marginTop:'-4%'}}>
-                                <img className="container-photo-callout" src={services2}  alt="UX" /> 
+                                <img className="container-photo-callout" src={services7}  alt="UX" /> 
                         </div> 
                         <p className="content-text-18  content-block-65"> 
                             Our design solutions include software designs, websites, marketing and print design. Our design solutions provide our clients consistency across all their consumer touchpoints. Consistency breeds brand familiarity and user loyalty</p> 

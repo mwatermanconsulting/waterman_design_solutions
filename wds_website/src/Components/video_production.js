@@ -65,7 +65,7 @@ class video_production extends Component {
                     
                     <div className="grid-right">
                         <img className="photo-container" src={video_s2}  alt="Video Content" /> 
-                        <p className="caption">Image by Bruno Glätsch from Pixabay </p>
+                        
                     </div>     
                 </section>
 
@@ -88,7 +88,7 @@ class video_production extends Component {
                     </div>
                     <div className="grid-right">
                         <img className="photo-container" src={video_s3}  alt="Video Content" /> 
-                        <p className="caption">Photo by Perry Grone on Unsplash</p>
+                       
                     </div>     
                 </section>
 
@@ -109,7 +109,7 @@ Effective marketing videos have a conversational tone. It creates an individual 
                     </div>
                     <div className="grid-right">
                         <img className="photo-container" src={video_s4}  alt="Video Content" /> 
-                        <p className="caption">Photo by Form on Unsplash</p>
+                        
                     </div>      
                 </section>
 
@@ -171,12 +171,12 @@ Effective marketing videos have a conversational tone. It creates an individual 
                         </div>
                     
                 </section>
-        <section className="flex-layout-section-full flex-layout-column flex-layout-center-center   margin-top-100  grey border-top-5">
-                    <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
-                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+                <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
+                       <img className="content-block-55 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
                       
                     <div className="flex-layout-center-center">
-                        <p className="content-header text-white flex-layout-column flex-layout-center-center">WDS does not use templates - custom design only!</p>
+                    <p className="callout-text text-white text-align-center"> The first video WDS produced was created on the Amiga 4000 and Video Toaster!</p>
                     </div>
                 </div>
             </section>

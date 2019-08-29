@@ -39,7 +39,7 @@ class design_solutions extends Component {
                             
                     </div>
                     <div className="grid-callout-photo grid-placeself-center">
-                        <img className="flex-image-container width-100" src={designer}  alt="Customer look for better experience" /> 
+                        <img className="flex-image-container width-100" src={designer}  alt="Customers look for better experience" /> 
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@ class design_solutions extends Component {
                 <div className="float-right">
                     <img className="photo-container" src={design5}  alt="Your Business is Our Joy" /> 
                 </div>
-                    WDS has over 20 years experience of designing websites. Our empathic design and ability to connect with users, create a positive enjoyable experience which is critical to new customer acquisition or retaining customers. </p>
+                    WDS has over 20 years of experience designing websites. Our empathetic designs and ability to connect with users create a positive enjoyable experience, which is critical to new customer acquisition and retaining existing customers. </p>
             
                     <p className="content-text-18">Our websites are always on the cutting edge. WDS was one of the first companies to build websites from UX research. We were one of the first companies to provide a responsive design. We developed a responsive design solution to Motorola 10 years ago. WDS was one of the first to develop a enterprise CSS flex box solution. </p>
 

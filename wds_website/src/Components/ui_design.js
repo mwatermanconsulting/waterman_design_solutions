@@ -7,6 +7,13 @@ import stubhub_logo from '../images/icon-logo-stubhub.svg'
 import stubhub from '../images/photos/photo-stubhub-before-after.png'
 import didyouknow from '../images/graphic-didyouknow.svg';
 import ui_s1 from '../images/photos/photo-ui-s1.png';
+import ui_s2 from '../images/photos/photo-ui-s2.png';
+import ui_s3 from '../images/photos/photo-ui-s3.png';
+import ui_s4 from '../images/photos/photo-ui-s4.png';
+import ui_s5 from '../images/photos/photo-ui-s5.png';
+import ui_s6 from '../images/photos/photo-ui-s6.png';
+import ui_s7 from '../images/photos/photo-ui-s7.png';
+import ui_s8 from '../images/photos/photo-ui-s8.png';
 
 
 class ui_design extends Component {
@@ -58,7 +65,7 @@ class ui_design extends Component {
                             Websites, Products and Applications
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                                 <img className="container-photo-callout" src={services2}  alt="UX" /> 
+                                 <img className="container-photo-callout" src={ui_s2}  alt="UX" /> 
                                 <p className="caption">Photo by Frank on Unsplash</p>
                             </div>
                         <div className="margin-top-15">  
@@ -84,7 +91,7 @@ class ui_design extends Component {
                             Mock-ups and Wireframes
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                                 <img className="container-photo-callout" src={services2}  alt="UX" /> 
+                                 <img className="container-photo-callout" src={ui_s3}  alt="UX" /> 
                                 <p className="caption">Photo by Frank on Unsplash</p>
                             </div>
                         <div className="margin-top-15">  
@@ -114,7 +121,7 @@ class ui_design extends Component {
                             Representing the Final Product
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                                 <img className="container-photo-callout" src={services2}  alt="UX" /> 
+                                 <img className="container-photo-callout" src={ui_s4}  alt="UX" /> 
                                 <p className="caption">Photo by Frank on Unsplash</p>
                             </div>
                         <div className="margin-top-15">  
@@ -143,7 +150,7 @@ class ui_design extends Component {
                             Ensuring your Design Success
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                            <img className="container-photo-callout" src={services2}  alt="UX" /> 
+                            <img className="container-photo-callout" src={ui_s5}  alt="UX" /> 
                             <p className="caption">Photo by Frank on Unsplash</p>
                         </div>
                         <div className="margin-top-15">  
@@ -172,7 +179,7 @@ class ui_design extends Component {
                             The "aha" Moment
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                            <img className="container-photo-callout" src={services2}  alt="UX" /> 
+                            <img className="container-photo-callout" src={ui_s6}  alt="UX" /> 
                             <p className="caption">Photo by Frank on Unsplash</p>
                         </div>
                         <div className="margin-top-15">  
@@ -194,7 +201,7 @@ class ui_design extends Component {
                             Business Tailored UI Design Kits
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                                 <img className="container-photo-callout" src={services2}  alt="UX" /> 
+                                 <img className="container-photo-callout" src={ui_s7}  alt="UX" /> 
                                 <p className="caption">Photo by Frank on Unsplash</p>
                             </div>
                         <div className="margin-top-15">  
@@ -220,7 +227,7 @@ class ui_design extends Component {
                             Testing UI and Features
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                                 <img className="container-photo-callout" src={services2}  alt="UX" /> 
+                                 <img className="container-photo-callout" src={ui_s8}  alt="UX" /> 
                                 <p className="caption">Photo by Frank on Unsplash</p>
                             </div>
                         <div className="margin-top-15">  
@@ -314,7 +321,7 @@ class ui_design extends Component {
                        <img className="content-block-55 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
                       
                       <div >
-                          <p className="callout-text-white text-align-center">  WDS designed UI solutions for data display software that worked with nuclear reactors. <p className="text-align-center margin-top-25" ><button onclick="location.href='./case_study_3';" type="button" value="Learn More" className="button-white margin-top-50 font-size-24">Learn More</button></p>  </p>
+                          <p className="callout-text-white text-align-center">  WDS designed UI solutions for data display software that worked with nuclear reactors.   </p>
                     </div>
                 </div>
             </section>  
