@@ -54,6 +54,7 @@ class strategy_insight extends Component {
                 
                 
             <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+            </div>
 
                 <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
                     <div className="title content-block-60">
@@ -238,23 +239,18 @@ class strategy_insight extends Component {
                     </div>
                             <p className="content-text-18"> Companies are often so focused on their solutions that they forget it is part of a larger whole: the customer’s life. As the customer interacts with the company or engages in a life process, such as using a banking software, understanding the key activities and experiences the customer has helps determine the most valuable places to focus resources. This ensures that each interaction with the company fits the experience the organization wants to provide. The understanding of the key activities and experiences is built into an informative diagram called a Customer Journey Map. This diagram informs key decisions for business, marketing and design executives, and can shift stakeholders’ thinking about where to engage across the lifecycle of a customer’s journey.
                             </p>
-                                           
-                                    
                         </div>
                     </section>
-                    
-                
-                
-                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+                    <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
                 <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
                        <img className="content-block-55 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
                       
-                      <div >
-                          <p className="callout-text-white text-align-center">"Pixar considers repeating the formulas of its past commercial successes a much greater threat to its long-term survival than the occasional commercial disappointment."<br></br>- The McKinsey Report<p className="text-align-center margin-top-25" ></p>  </p>
+                    <div className="flex-layout-center-center">
+                    <p className="callout-text text-white text-align-center"> "Pixar considers repeating the formulas of its past commercial successes a much greater threat to its long-term survival than the occasional commercial disappointment."<br></br>- The McKinsey Report</p>
                     </div>
                 </div>
             </section>
-            </div></div>
+            </div>
         )
     }
 }

@@ -7,7 +7,7 @@ import digital_systems4 from '../images/photos/photo-digital-systems-s4.png';
 import digital_systems5 from '../images/photos/photo-digital-systems-s5.png';
 import digital_systems6 from '../images/photos/photo-digital-systems-s6.png';
 import digital_systems7 from '../images/photos/photo-digital-systems-s7.png';
-import didyouknow from '../images/graphic-didyouknow.png';
+import didyouknow from '../images/graphic-didyouknow.svg';
 
 class style_guide extends Component {
     render () {
@@ -27,7 +27,7 @@ class style_guide extends Component {
             <section className="flex-layout-section-full photo-content-color align-items-center height-670" > 
                 <div className=" grid-2col-text-photo align-items-center margin-tb-100 width-70">
                 <div className="content-block col2-text ">
-                    <div className="callout-text text-align-left text-white"> 
+                    <div className="callout-text text-align-left "> 
                     A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive, combining components, behaviors, and branding. It must also be flexible and scalable.</div>
                 </div>
                     <div className="col2-photo grid-placeself-right">
@@ -176,7 +176,7 @@ class style_guide extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container width-100 border-2" src={digital_systems6}  alt="Digital Systems" /> 
+                        <img className="photo-container width-100 border-2" src={digital_systems7}  alt="Digital Systems" /> 
                     </div>     
                 </section>       
             </div> 

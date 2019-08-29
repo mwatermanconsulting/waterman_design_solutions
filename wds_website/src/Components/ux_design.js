@@ -187,7 +187,7 @@ class ux_design extends Component {
                        <img className="content-block-55 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
                       
                       <div >
-                          <p className="callout-text text-white text-align-center">  WDS has developed communication strategies for Motorola, Stubhub and OsiSoft.  <p className="text-align-center margin-top-25" ></p>  </p>
+                          <p className="callout-text text-white text-align-center">  WDS has developed communication strategies for Motorola, Stubhub and OsiSoft.   </p>
                     </div>
                 </div>
             </section> 

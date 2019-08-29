@@ -18,12 +18,12 @@ class print_design extends Component {
         <div className="flex-layout-column"> 
             <section className="flex-section-fixed-head-child flex-layout-center-center image-background-border-tb">
                 <div className="header-text-center header-title text-white">
-                        Print Design</div>
+                        Graphic Design</div>
                 <img className="flex-image-container" src={print}  alt="Print Design" /> 
             </section>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                        Printed collateral will continue to be valuable where there is a physical customer presence.
+                        Graphic design for printed collateral will continue to be valuable where there is a physical customer presence.
                 </div>
             </section>
             <section className="grid-2col-photo-content photo-content-color border-bottom-5 height-670"> 
@@ -39,7 +39,7 @@ class print_design extends Component {
             <section className="flex-layout-section-full flex-layout-column align-items-center margin-top-50">
               
                     <div className="title">
-                            The Value of Print Design
+                            The Value of Graphic Design
                     </div>
                     <div className="margin-top-25 align-self-center content-block-75">
                         <p className="content-text-24 text-align-center ">
@@ -128,7 +128,7 @@ class print_design extends Component {
                        <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
                       
                     <div className="flex-layout-center-center">
-                        <p className="callout-text-white text-align-center">WDS designed and produced a monthly magazine named "Combat Robot"</p>
+                        <p className="callout-text-white text-align-center">WDS designed and produced a monthly magazine called "Combat Robot"</p>
                     </div>
                     </div>
                 </section>

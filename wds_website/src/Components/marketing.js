@@ -20,12 +20,12 @@ class marketing extends Component {
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                   We will make your customers feel uniquely valued
+                   We will make your customers feel uniquely valued.
                 </div>
             </div>
             <div className="grid-2col-photo-content photo-content-color border-bottom-5 height-670" > 
                 <div className="grid-item-b content-block-60 content-header flex-layout-column">
-                    <div className="callout-text text-align-left text-white">
+                    <div className="callout-text text-align-left">
                        There has been a big shift in marketing. It use to be all about the product or application. Today's marketing  is now human centric. All about the user and values. WDS applies the same principles and methods to marketing strategies as we do for UX design.   </div>
                              
                 </div>
@@ -103,7 +103,7 @@ class marketing extends Component {
                     </div>
                     <div className="grid-right container-image-block">
                         <img className="photo-container" src={marketing5}  alt="Marketing" /> 
-                    </div> Photo by Chris Liverani on Unsplash    
+                    </div>    
                 </div>
 
                 <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
@@ -133,7 +133,7 @@ class marketing extends Component {
                        <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
                       
                     <div className="flex-layout-center-center">
-                        <p className="callout-text-white padding text-align-center">WDS Developed a Telemetry and Data UX Strategy for Stubhub</p>
+                        <p className="callout-text-white padding text-align-center">WDS Developed a Telemetry and Data UX Strategy for StubHub.</p>
                     </div>
                     </div>
                 </section>
