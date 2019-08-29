@@ -93,7 +93,7 @@ class case_studies extends Component {
                         </div>
                         <div className="flex-card-content" >
                             <div className="content-block">
-                                <p><i> Industry: Pharma</i></p>
+                                <p><i> Industry: Pharmaceutical</i></p>
                                 <p className="content-text-18 content-block">
                                     WDS noticed major problems with the DMS solution Pfizer choose to manage the 25,000 page pfizer project. WDS independently started to interview developers and document loss time, sitting around watching the....<br/><br/>
                                     <a href="./case_study_3" className="text-black" target="_blank">Read More....</a> 

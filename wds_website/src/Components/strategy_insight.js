@@ -47,7 +47,7 @@ class strategy_insight extends Component {
                     <p className="content-text-24 text-align-center">
                         WDS discovers the patterns and themes that provide actionable, deeper and more valuable perspectives on your customers' wants, needs and motivations.</p>
                     <p className="content-text-24 text-align-center">
-                        The most meaningful insights for design strategy are developed with behavior-based understanding of users. Our experience strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve.</p>
+                        The most meaningful insights for design strategy are developed with behavior-based understanding of users. Our UX strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve.</p>
                 </div>
             </div>
             <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">

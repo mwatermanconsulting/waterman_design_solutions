@@ -43,7 +43,7 @@ class style_guide extends Component {
                 </div>
                 <div className="content-block-55 margin-top-25">
                     <p className="content-text-24 text-align-center">
-                    Style guides and design systems are there to make our lives easier. As simple as that. Among its main benefits, they keep our designs consistent internally and they help us be more productive. They make our work scalable.</p>
+                    Style guides and design systems are there to make your lives easier, as simple as that. Among its main benefits, is that it keeps your designs consistent internally and they help your developers be more productive. </p>
                 </div>
             </section> 
             
@@ -61,7 +61,7 @@ class style_guide extends Component {
                         <div className="content-block-75 content-text-18 margin-top-25">
                             <p className="content-text-18"> 
                             Another benefit of using prebuilt and standardized component is less errors. Because you’re copying from a master version, there’s no chance of making a mistake. As long as the components in your design system are accurate, their use in your products will be accurate.
-This is especially good news for developers, who have all the code snippets they need right at their fingertips.</p>
+                            This is especially good news for developers, who have all the code snippets they need right at their fingertips.</p>
                         </div>
                     </section>
                     <div className="grid-right-css margin-top-50">
@@ -103,11 +103,11 @@ This is especially good news for developers, who have all the code snippets they
                         </div>
                         <div className="content-block-60 content-text-18 margin-top-25" style={{marginLeft:'-6%'}}>
                             <p className="content-text-18"> 
-                        <div className="right">
+                        
+                                During the initial creation of a design system — and its periodic updates — design systems get the right conversations started. Which logos go with different screen sizes? How do you want to handle the search function? <div className="float-right">
                             <img className="photo-container width-100" src={digital_systems4}  alt="Digital Systems" /> 
                             <p className="caption">Photo by Aubrey Rose Odom on Unsplash </p>
-                        </div>
-                                During the initial creation of a design system — and its periodic updates — design systems get the right conversations started. Which logos go with different screen sizes? How do you want to handle the search function? What is the best accent color for call-to-action buttons? Simply setting out to make a design system forces your team to answer these questions, and make those answers easily accessible to everyone.</p> 
+                        </div>What is the best accent color for call-to-action buttons? Simply setting out to make a design system forces your team to answer these questions, and make those answers easily accessible to everyone.</p> 
                             <p className="content-text-18">
                                 Having this kind of master reference guide also helps avoid miscommunication. By offering a definitive protocol and standards for otherwise ambiguous elements, design systems keep everyone on the same page. No guesswork, assumptions, or “going rogue.”Design systems also do wonders for sometimes-problematic dev handoffs. Because technical specs are embedded in the document, there’s less confusion about how to build something in the backend, or whether it can be built at all. Designs systems give designers and developers a shared language.</p>           
                         </div>   
@@ -139,28 +139,29 @@ This is especially good news for developers, who have all the code snippets they
                 </section>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
-  
-                <div className="grid-2col-photo-content content-header">
-                    <div className="grid-left flex-layout-section-full">
+
+                <section className="grid-2col-photo-content content-header">
+                    <div className="grid-left flex-layout-section-full ">
                         <div className="title">
-                        Pattern Library
+                            Pattern Library                        
                         </div>
                         <div className="subtitle margin-top-15">
-                            Design system layouts
+                            Design System Layouts
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-15">
-                            <p className="content-text-18"> 
-                            A subclass in the design system, this is the set of design patterns for use across a company. </p>
+                            <p className="content-text-18">  Another subclass in the design system, this static documentation describes the design system itself: how products should look and feel, use cases for UI patterns, correct typographic scales, etc.</p>
+                            <p className="content-text-18">  Find out how we implemented a style guide and design system for OsiSoft.</p>
+
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container border-2" src={digital_systems7}  alt="Digital Systems" /> 
+                        <img className="photo-container width-100 border-2" src={digital_systems6}  alt="Digital Systems" /> 
                     </div>     
-                </div>
+                </section>  
 
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '85%' }}></div>
+                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>     
 
-                    <div className="grid-2col-photo-content content-header margin-bottom-100">
+                    <section className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full ">
                         <div className="title">
                             Style Guides                        
@@ -177,7 +178,7 @@ This is especially good news for developers, who have all the code snippets they
                     <div className="grid-right container-image-block">
                         <img className="photo-container width-100 border-2" src={digital_systems6}  alt="Digital Systems" /> 
                     </div>     
-                </div>       
+                </section>       
             </div> 
             
             

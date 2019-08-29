@@ -29,7 +29,7 @@ class ux_design extends Component {
                              Empathetic Design
                         </div>
                         <div className="callout-text text-align-left margin-top-15" >
-                         At the foundation of WDS methodology is observation—watching consumers use products or services. But unlike in focus groups, usability laboratories, and other contexts of traditional market research, such observation is conducted in the customer’s own environment—in the course of normal, everyday routines. In such a context, researchers can gain access to a host of information that is not accessible through other observation-oriented research methods.
+                        The most meaningful insights for design strategy are developed with behavior-based understanding of users. Our UX strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve
                         </div>
                     </div>
                     <div className="grid-callout-photo grid-placeself-center">
@@ -70,24 +70,20 @@ class ux_design extends Component {
                         </div>
                         <div className="content-block-60 margin-top-15">
                             <p className="content-text-18">
-                                What circumstances prompt people to use your product or service? Do your customers turn to your offering when, and in the way, you expected?  If they don’t, there may be an opportunity for your company.</p> 
+                                What circumstances prompt people to use your product or service? Do your customers turn to your offering in the way; you expected?  If they don’t, there may be an opportunity for your company, to reevaluate previous design decisions </p> 
                             <p className="subtitle"> 
                                 Old school custom service</p> 
                             <div className="float-right callout-photo grid-placeself-center">
                                 <img className="container-photo-callout" src={ux_s3}  alt="old school customer service" />  
-                                
                                  <p className="caption">Photo by Mimi Thian on Unsplash</p>
                             </div>
-                            <p className="content-text-18">Empathy is a very powerful selling tool. These days, it’s the new buzz word used by companies. But empathy has always been at the heart of our services in User Experience and Customer Service. We are trained to use empathy in our work: <br></br>“Walk in the user’s shoes.” <br></br>“See the problem as if you were experiencing it yourself."<br></br>“Observe their daily routines.” <br></br>All of these mantras and behaviors are empathetic techniques that UX designers have honed by creating amazing, innovative products and services. 
-                            </p>
                             <p className="content-text-18">
-                                A set of techniques we call empathetic design can help resolve those uncovered in the research phase. At its foundation is observation — watching consumers use products or services. But unlike focus groups, usability laboratories, and other contexts of traditional market research, our observations are conducted in the customer’s own environment. In such a context, researchers can gain access to a host of information that is not accessible through other observation-oriented research methods.
-                            </p>    
+                                Empathy is a very powerful selling tool. These days, it’s the new buzz word used by companies. But empathy has always been at the heart of our services in User Experience and Customer Service. We are trained to use empathy in our work: <br></br>“Walk in the user’s shoes.” <br></br>“See the problem as if you were experiencing it yourself."<br></br>“Observe their daily routines.” <br></br>All of these mantras and behaviors are empathetic techniques that our UX designers have honed by creating amazing, innovative products and services. 
+                            </p>
                         </div>
                     </section>
 
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
-
 
                     <section className="float-left align-items-center flex-layout-column">
                         <div className="title content-block-60">
@@ -103,10 +99,11 @@ class ux_design extends Component {
                             <img className="container-photo-callout margin-top-15" src={ux_s4}  alt="UX is the study of people" />
                             <p className="caption"> Photo by Jude Beck on Unsplash</p> 
                         </div> 
-                        <p className="content-text-18">User expectations have changed over the years. Simplicity is expected. Many changes have happened in the last decade with retail.  Amazon simplified the shopping experience down to one click.  </p> 
+                        <p className="content-text-18">User expectations have changed over the years. Simplicity is expected.  </p> 
                                
-                            <p className="content-text-18">
-                                The user experience takes many shapes and forms in retail, product development, websites, and applications. The user has a goal to achieve and it's up to you to make it enjoyable and useful. It is critical to your customer's success to have a company that not only understand and empathizes with people, but understands cognitive psychology. Knowing how the unconscious brain makes decisions reveals solutions on a deep level. </p>
+                        <p className="content-text-18">
+                                The user experience takes many shapes and forms in retail, product development, websites, and applications. The user has a goal to achieve and it's up to you to make it enjoyable and useful. It is critical to your customer's success to have a designer that not only understand and empathizes with people, but understands cognitive psychology. The understanding of how the unconscious brain makes decisions, helps reveal solutions on a deep level.
+                        </p>
                        
                                
                     </div>
@@ -150,9 +147,9 @@ class ux_design extends Component {
                 </section>
             
 
-                <section className="flex-layout-section-full"> 
+                <section className="flex-layout-section-full flex-layout-center-center"> 
                     
-                        <div className="grid-2col-text-center-50 align-self-center margin-top-100">
+                        <div className="grid-2col-text-center-50 align-self-center margin-top-100 margin-left-140" >
                             <div className="grid-title content-text-24 margin-bottom-20">
                                 Full List of UX Design Services</div>
                             <div className=" content-text-18">

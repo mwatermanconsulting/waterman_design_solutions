@@ -34,7 +34,7 @@ class css_solutions extends Component {
             </section>
             <section className="content-header flex-layout-center-center flex-layout-column">
                 <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-50">
-                        WDS develops lean, scalable solutions, CSS solutions saving your business money and time. Also, keeping your <br/> developers happy.
+                        WDS develops lean, scalable solutions, CSS solutions saving your business money and time, Keeping your  developers happy.
                 </div>
                 <div className="content-block-50 margin-top-50">
                     <p className="content-text-24 text-align-center">
@@ -100,7 +100,7 @@ class css_solutions extends Component {
                             CSS preprocessors are scripting languages that extend the default capabilities of CSS. They enable us to use logic in our CSS code, such as variables, nesting, inheritance, mixins, functions, and mathematical operations. CSS preprocessors make it easy to automate repetitive tasks, reduce the number of errors and code bloat, create reusable code snippets, and ensure backward compatibility.</p>
                         </div>
                     </div>
-                    <div className="grid-right-css container-image-block">
+                    <div className="grid-right-css container-image-block margin-top-50">
                         <img className="photo-container" src={css3}  alt="Stakeholder Interview" /> 
                     </div>  
                     <p className="caption">Photo by chuttersnap on Unsplash</p>   
@@ -111,7 +111,7 @@ class css_solutions extends Component {
                 <div className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title">
-                            WDS Can Transform Your CSS 
+                            WDS Transforms your CSS 
                         </div>
                         <div className="subtitle margin-top-15">
                             Building Scalable Enterprise Solutions
