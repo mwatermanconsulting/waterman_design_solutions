@@ -34,10 +34,10 @@ class ui_design extends Component {
             <section className="grid-callout photo-content-color border-bottom-5 height-670"> 
                 <div className="grid-callout-text grid-placeself-center padding content-block-75 content-header flex-layout-column">
                     <div className="callout-title margin-top-15">
-                             The "aha" Moment
+                            The "aha" Moment
                     </div>
                     <div className="callout-text text-align-left margin-top-15" >
-                       We live for the comment "why didn't we think of that" usually expressed by stakeholders and managers during our design reveal. Our for passion for the last 20 years is solving problems on complex user interfaces and creating simple solutions. 
+                       We live for the comment "why didn't we think of that" usually expressed by stakeholders and managers during our design reveal. Our passion for the last 20 years is solving problems on complex user interfaces and creating simple solutions. 
                     </div>    
                 </div>
                 <div className="grid-callout-photo grid-placeself-center">
@@ -48,9 +48,8 @@ class ui_design extends Component {
                 <p className="title margin-top-75">
                 We have provided UI solutions to the some of the world's largest brands</p>
                 <p className="subtitle text-align-center content-block-65  margin-top-15">
-                Our passion is to simplify websites, products and software interfaces. 
-                    
-                    Our designs has simplified interfaces for applications used by critical industries such as used energy sector using our designed software to monitor nuclear reactors.
+                Our passion is to simplify websites, products and software interfaces.
+                Our designs has simplified interfaces for applications used by critical industries such as used energy sector using our designed software to monitor nuclear reactors.
                 </p>
             </section>
 
@@ -206,11 +205,12 @@ class ui_design extends Component {
                             </div>
                         <div className="margin-top-15">  
                        
-                            <p className="content-text-18"> 
-                             UI kits are comprehensive resource sets that allow you to plan your design’s structure properly without having to sacrifice your creative and original ideas. A UI kit generally contains an assortment of graphic files including UI components (buttons, check boxes, progress bars, etc.) for the purpose of user interface design. They allow designers to create outstanding visuals in reasonable timeframes. So instead of wasting time figuring out how to implement components, UI kits let you focus on what you do best: creating great designs.
-                            </p>
+                            
                             <p className="content-text-18">
-                            Our UI solutions are lightweight containing only the visual elements and CSS needed. The value of our tailored UI kit is one it helps solve the consistency businesses face when teams are fractured. These teams need design guidance and support. A solution that will support the developers with a starting point with all the design elements included, removing the need to design. We provide guidance with a living style guide or design system which including best pf practice documentation. </p>     
+                            Our UI Kit solutions are lightweight containing only the visual elements and CSS needed. The value of our tailored UI kit is one it helps solve the consistency issues businesses face when teams are fractured. These teams need design guidance and support. A solution that will support the developers with a starting point with all the design elements included, removing the need to design. We provide guidance with a living style guide or design system which including best pf practice documentation. </p> 
+                            <p className="content-text-18"> 
+                             UI kits are comprehensive resource sets that allow you to plan your design’s structure properly without having to sacrifice your creative and original ideas. A UI kit generally contains an assortment of graphic files including UI components (buttons, check boxes, progress bars, etc.) for the purpose of user interface design. Allowing de to create outstanding visuals in reasonable timeframes. So instead of wasting time figuring out how to implement components, UI kits let you focus on what you do best: creating great designs.
+                            </p>    
                             
                             </div>  
                         </div>
@@ -224,7 +224,7 @@ class ui_design extends Component {
                             Prototypes
                         </div>
                         <div className="subtitle margin-top-15">
-                            Testing UI and Features
+                            If a picture is worth 1000 words, a prototype is worth 1000 meetings
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
                                  <img className="container-photo-callout" src={ui_s8}  alt="UX" /> 

@@ -165,7 +165,7 @@ class innovative_solutions extends Component {
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
                 <section className="grid-gallery-2col flex-layout-column">
-                    <div className="gallery-2col-1 flex-layout-section-full margin-left-40">
+                    <div className="gallery-2col-1 flex-layout-section-full margin-left-325">
                         <div className="title">
                             Develop frameworks                        
                         </div>
