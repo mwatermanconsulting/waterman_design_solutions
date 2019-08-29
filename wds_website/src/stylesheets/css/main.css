@@ -236,6 +236,9 @@ footer {
 .marginleft50 {
   margin-left: 50px; }
 
+.margin-left-325 {
+  margin-left: 325px; }
+
 .margin-top-50 {
   margin-top: 50px; }
 
@@ -286,6 +289,12 @@ footer {
 .margin-top-200 {
   margin-top: 200px; }
 
+.margin-top-5per {
+  margin-top: -5%; }
+
+.margin-top-1 {
+  margin-top: -1%; }
+
 .margin-left-75 {
   margin-left: 75px; }
 
@@ -294,6 +303,9 @@ footer {
 
 .margin-right-25 {
   margin-right: 25%; }
+
+.margin-right-5 {
+  margin-right: 5%; }
 
 .margin-tb-100 {
   margin: 100px 0 100px; }
@@ -460,6 +472,9 @@ footer {
 
 .width-quarter {
   width: 25%; }
+
+.width-75 {
+  width: 75%; }
 
 .section-min-width {
   min-width: 500px; }
@@ -1341,7 +1356,7 @@ a {
   margin-bottom: 15px; }
 
 Button {
-  padding: 15px;
+  padding: 12px;
   border: #000 solid 1px .5;
   white-space: nowrap;
   margin: 5px;

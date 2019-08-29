@@ -20,7 +20,6 @@ class css_solutions extends Component {
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
                     Our CSS solutions will have your developers touching CSS 80% less
-
                 </div>
             </div>
             <section className="grid-callout photo-content-color border-bottom-5 height-670"> 
