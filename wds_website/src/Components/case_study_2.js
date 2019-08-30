@@ -293,7 +293,7 @@ class case_study_2 extends Component {
                                 
                                 <p className="content-text-18">The options ribbon was a favorite for many of the stakeholders, including the decision makers. WDS attempted on a few occasions to justify our designs decisions, without success. We turned to the analysts for answers with another round of interviews focused on the platform's options. With data in hand we met again with the decision makers showing them the data that less than 1% of the analysts were using these options. Another point we made was that our persona Sally would never use these options. The data was able to convince the stakeholders to that placing these features in an options button, was meeting the needs of majority of users.  </p>
             
-                                <p className="content-text-18">A key to a good data visualization displays is removing the clutter!! </p>  
+                                <p className="subtitle">A key to a good data visualization displays is removing the clutter!! </p>  
                             </div> 
                         </section>
                         <section className="container-image-block flex-layout-center-center flex-layout-column margin-top-25">
@@ -315,15 +315,16 @@ class case_study_2 extends Component {
                             <div className="content-block-55 margin-top-15">
                                 <p className="content-text-18">The KPI section is one of the most important features of any data visualization tools. Providing key information for the decision makers. The design for this section needed to be clean and provide information that could be consumed at a glance. This section would stay open for hours on end to the end users. The issue with the current design was that it was unintelligible and unusable</p>
 
-                                <p className="content-text-18">In every project there is one section The design solution for this section simmered in our creative consciousness for weeks. How can this page be laid out logically and still contain all the relevant information? Then one day as Michael was taking a walk in the city the layout appeared. </p>
+                        
+                                <p className="content-text-18">The design solution for this section simmered in our creative consciousness for weeks. How can this page be laid out logically and still contain all the relevant information? Then one day as Michael was taking a walk in the city the layout appeared. </p>
                             </div>
                         </section>
                         <section className="container-image-block flex-layout-center-center flex-layout-column margin-top-25">
-                            <img className="photo-container-cs-sb1" src={stubhub_company_kpis} alt="Finding the Truth - Business Perspective"/>
+                            <p className="subtitle">The New KPI </p><img className="photo-container-cs-sb1" src={stubhub_company_kpis} alt="Finding the Truth - Business Perspective"/>
                             <p className="margin-top-15"><i>The new clean KPI section</i></p>
                         </section>
                         <section className="container-image-block flex-layout-center-center flex-layout-column margin-top-25">
-                            <p className="margin-top-15"><i>The Old KPI Section</i></p>
+                        <p className="subtitle">The Old KPI </p>
                             <img className="photo-container-cs-sb1" src={stubhub_before_2} alt="Finding the Truth - Business Perspective"/>
                             <p className="margin-top-15"><i>Confusing and incoherent</i></p>
                         </section>
@@ -371,15 +372,15 @@ class case_study_2 extends Component {
                         
                     </div>
                     
-                    <div className="grid-callout border-top-5 grey" style={{height:'450px'}}>
+                    <div className="grid-callout border-top-5 grey" >
                           
-                            <div className="grid-callout-text grid-placeself-center width-70" style={{padding:'20px'}}>
-                                <p className="callout-text ">A few months later...
+                            <div className="grid-callout-text grid-placeself-center width-70" >
+                                <p className="callout-text-white ">A few months later...
                                 <br></br> Following up on the team led to an astonishing reveal. There was no need to push for more users because 172 out of the 175 analysts were using the reporting tool. It went from a 1% to 98% usage and the team couldn't be happier. 
                                 </p>
                             </div>
                             
-                            <div className="grid-callout-photo grid-placeself-center">
+                            <div className="grid-callout-photo grid-placeself-center margin-top-15">
                                 <img src={thumbsUp} alt="Finding the Truth - Business Perspective"/>
                             </div>
                             
