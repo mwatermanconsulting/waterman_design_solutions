@@ -157,8 +157,8 @@ class landingPage extends Component {
 
                         </div>
                     </div>              
-                    <div className="col2-photo width-50 grid-placeself-center">
-                        <img className="flex-image-container" src={why2}  alt="A miracle!" /> 
+                    <div className="col2-photo width-50 margin-right-25 grid-placeself-center">
+                        <img className="flex-image-container " src={why2}  alt="A miracle!" /> 
                         <p className="caption">Success is possible!</p>
                     </div>
                 </div>
