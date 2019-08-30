@@ -46,7 +46,7 @@ class landingPage extends Component {
                         <div className="content-block-auto ">
                             <div className="title-homepage">It’s all about the user</div>
                             <p className="subtitle">Engage your customers and earn their trust.</p>
-                            <p className="content-text-18">We're firm believers in agile and iterative deployments as experiments, but, with longer enterprise launches and even consumer software, there's still valuable data to collect even before that first MVP. Our insights and strategies move you and your team in the right direction, and possibly uncover rewarding new business opportunities.</p>
+                            <p className="content-text-18">We're firm believers in agile and iterative deployments as experiments, but, with longer enterprise launches and consumer software, there's still valuable data to collect even before that first MVP. Our insights and strategies move you and your team in the right direction, and possibly uncover rewarding new business opportunities.</p>
                         </div>
                     </div>     
                     <div className="gallery-2col-2 container-image-500 align-self-end">
@@ -54,7 +54,7 @@ class landingPage extends Component {
                         <div className="content-block-auto ">
                             <div className="title-homepage">Business value of design</div>
                             <p className="subtitle">Design is everybody’s responsibility</p>
-                            <p className="content-text-18">In workplace and enterprise solutions, users know when someone understands their needs, making them feel like experts. They know when there's attention to design details. They know when it's intuitive and visually pleasing - and they love it. With consumers, if you miss the mark, you'll fail fast … and they’ll let you know it.</p>
+                            <p className="content-text-18">In workplace and enterprise solutions, users know when someone understands their needs, making them feel like experts. They know when there's attention to design details. They know when it's intuitive and visually pleasing. With consumers, if you miss the mark, you'll fail fast … and they’ll let you know it.</p>
                         </div>
                     </div>
                      
@@ -76,14 +76,14 @@ class landingPage extends Component {
                     <img className="container-image-300" src={why}  alt="Why WDS" /> 
                         <div className="content-block-auto ">
                             <div className="title-homepage margin-top-15 margin-bottom-20">Why WDS</div>
-                            <p className="content-text-18">Why design matters to your business and your customers. And how we can ease your fears about dealing with a designer</p>
+                            <p className="content-text-18">Why design matters to your business and your customers and how we can ease your fears about dealing with a designer.</p>
                         </div>
                     </div>     
                     <div className="gallery-2col-2 container-image-500 align-self-top">
                     <img className="container-image-300"  src={binoculars}  alt="Methodology" /> 
                         <div className="content-block-auto ">
                             <div className="title-homepage  margin-top-15 margin-bottom-20">Methodology</div>
-                            <p className="content-text-18">Our process uses a process that works on all size platforms, and makes life easier for your team and those you serve. </p>
+                            <p className="content-text-18">Our process  works on all size platforms. This makes life easier for your team and those you serve. </p>
                         </div>
                     </div>
             </section>
@@ -92,7 +92,7 @@ class landingPage extends Component {
                     <img className="container-image-300"  src={design}  alt="Design Solutions" />
                         <div className="content-block-auto ">
                             <div className="title-homepage margin-top-15 margin-bottom-20">Design Solutions</div>
-                            <p className="content-text-18">In todays market design is more critical to your business success. Simple and elegant designs will make a better experience for them.</p>
+                            <p className="content-text-18">In today's market, design is more critical to your business success. Simple and elegant designs will make a better experience for your users.</p>
                         </div>
                     </div>     
                     <div className="gallery-2col-2 container-image-500 align-self-top">
@@ -124,7 +124,7 @@ class landingPage extends Component {
                         For more than a decade, we have refined a repeatable, flexible methodology that centers on answering questions about customers through direct observational fieldwork 
                         or through interviews to identify people’s needs, behaviors and aspirations. This provides a perspective on customers that clients typically have never seen.</p>
                         <p className="content-text-18">The aim of this work is not more data, but for an understanding. We create a strategy for the experience that the software design will provide. 
-                        It's a framework that allows developers, designers, marketers and architects to make decisions that support the intended customer experience. integrated offering takes 
+                        It's a framework that allows developers, designers, marketers and architects to make decisions that support the intended customer experience. Integrated offering takes 
                         insights from the field and manifests them in a designed software user interface that engages customers and improves business results.</p>
                 </div>
             </section>

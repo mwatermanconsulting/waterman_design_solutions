@@ -246,7 +246,7 @@ class case_study_2 extends Component {
                             <div className="content-block-55 margin-top-15">
                                 <p className="content-text-18">Software bloat is a common issue, especially on mature applications. Bloat starts from user disconnect and assuming user needs without testing, research or analytics. One of the main design issues was dedicating valuable real estate to power users, the features were placed in a ribbon on the old design. WDS was able to provide data showing less than 1-0% of the analysts were using these tools. Through the use of personas WDS was able to convince the stakeholders to place these features in an options button. </p>
             
-                                <p className="content-text-18">A key to a good data visualization displays is removing the clutter!! </p>  
+                                <p className="subtitle">A key to a good data visualization displays is removing the clutter!! </p>  
                             </div> 
                         </section>
                         <section className="container-image-block flex-layout-center-center flex-layout-column margin-top-25">
@@ -265,14 +265,15 @@ class case_study_2 extends Component {
                                 <p className="content-text-18">The KPI section is one of the most important features of any data visualization tools. The current design was unintelligible and a common complaint</p>
 
                                 <p className="content-text-18">The design solution for this section simmered in our creative consciousness for weeks. How can this page be laid out logically and still contain all the relevant information? Then one day as Michael was taking a walk in the city the layout appeared. </p>
+                                
                             </div>
                         </section>
                         <section className="container-image-block flex-layout-center-center flex-layout-column margin-top-25">
-                            <img className="photo-container-cs-sb1" src={stubhub_company_kpis} alt="Finding the Truth - Business Perspective"/>
+                            <p className="subtitle">The New KPI </p><img className="photo-container-cs-sb1" src={stubhub_company_kpis} alt="Finding the Truth - Business Perspective"/>
                             <p className="margin-top-15"><i>The new clean KPI section</i></p>
                         </section>
                         <section className="container-image-block flex-layout-center-center flex-layout-column margin-top-25">
-                            <p className="margin-top-15"><i>The Old KPI Section</i></p>
+                        <p className="subtitle">The Old KPI </p>
                             <img className="photo-container-cs-sb1" src={stubhub_before_2} alt="Finding the Truth - Business Perspective"/>
                             <p className="margin-top-15"><i>Confusing and incoherent</i></p>
                         </section>
@@ -320,15 +321,15 @@ class case_study_2 extends Component {
                         
                     </div>
                     
-                    <div className="grid-callout border-top-5 grey" style={{height:'450px'}}>
+                    <div className="grid-callout border-top-5 grey" >
                           
-                            <div className="grid-callout-text grid-placeself-center width-70" style={{padding:'20px'}}>
-                                <p className="callout-text ">A few months later...
+                            <div className="grid-callout-text grid-placeself-center width-70" >
+                                <p className="callout-text-white ">A few months later...
                                 <br></br> Following up on the team led to an astonishing reveal. There was no need to push for more users because 172 out of the 175 analysts were using the reporting tool. It went from a 1% to 98% usage and the team couldn't be happier. 
                                 </p>
                             </div>
                             
-                            <div className="grid-callout-photo grid-placeself-center">
+                            <div className="grid-callout-photo grid-placeself-center margin-top-15">
                                 <img src={thumbsUp} alt="Finding the Truth - Business Perspective"/>
                             </div>
                             
