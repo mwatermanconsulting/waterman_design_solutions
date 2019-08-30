@@ -29,7 +29,7 @@ class why_wds extends Component {
                 </section>
                 <div className="container-section-1-primary flex-layout-center-center border-bottom-5 red">
                     <div className="callout-text-lg"> 
-                        WDS knows how to solve complex design problems
+                        WDS knows how to solve complex design problems.
                         
                     </div>
                 </div>
@@ -37,7 +37,7 @@ class why_wds extends Component {
                     <div className="grid-callout yellow-bg "> 
                         <div className="grid-callout-text grid-placeself-center padding width-70">
                             <p className="callout-text text-black">
-                            WDS sells design. We sell user experience design. We sell design in the form of simple interfaces. We sell design in the form of branding. We also sell design as a commodity to be consumed by your business</p>
+                            WDS sells design. We sell user experience design. We sell design in the form of simple interfaces. We sell design in the form of branding. We also sell design as a commodity to be consumed by your business.</p>
                         </div>
                         <div className="grid-callout-photo">
                             <img className="flex-image-container width-100" src={whys1}  alt="Customer Service" /> 
@@ -138,7 +138,7 @@ class why_wds extends Component {
                         <div className="content-block-60 content-text-18 margin-top-15"><div className="float-right">
                         <img className="photo-container" src={whys3}  alt="Your Business is Our Joy" /> 
                     </div>  
-                            <p className="content-text-18"> Empathetic design is critical to your to your future success. WDS has been successfully communicating the value of design to businesses for close to 25 years. Our design  strategies along with our < a href="core_offerings">core offerings,</a> increase revenues and customer loyalty. A recent comprehensive study on the value of design, the Mckinsey report,  found that the companies that focus on the user and design have a 30% increase in business compared to the same businesses that do not focus on design. Our core offerings provide training, strategies and workshops to bring the value of design to business.</p>         
+                            <p className="content-text-18"> Empathetic design is critical to your to your future success. WDS has been successfully communicating the value of design to businesses for close to 25 years. Our design  strategies and < a href="core_offerings">core offerings,</a> increase revenues and customer loyalty. A recent comprehensive study on the value of design, the Mckinsey report,  found that the companies that focus on the user and design have a 30% increase in business compared to the same businesses that do not focus on design. Our core offerings provide training, strategies and workshops to bring the value of design to business.</p>         
                         </div> 
                     </section>
 
@@ -163,7 +163,7 @@ class why_wds extends Component {
                 <div className="float-right margin-right-5">
                     <img className="border-3px" src={why_design}  alt="UX Design" /> 
                 </div>  
-                    The best customer experience starts with the Golden Rule — treat customers how you would like to be treated. At the foundation of WDS methodology is observation, watching customers use our clients products or services. But unlike focus groups or usability laboratories, we conduct our observation and interviews in the customer’s own environment during the course of their everyday routines. In such a context, our researchers gain insight to a host of information that is not accessible through other UX research methods. </p>
+                    The best customer experience starts with the Golden Rule — treat customers how you would like to be treated. At the foundation of WDS methodology is observation, watching customers use our clients' products or services. But unlike focus groups or usability laboratories, we conduct our observation and interviews in the customer’s own environment during the course of their everyday routines. In such a context, our researchers gain insight to a host of information that is not accessible through other UX research methods. </p>
 
                     <button onclick="location.href='./ux_design';" type="button" value="Learn More" className="button margin-top-50 font-size-24">Learn More</button>
                  </div>  
@@ -185,7 +185,7 @@ class why_wds extends Component {
                         WDS honed its UI design skills by designing websites in 1998. Over the years we have designed and developed complicated healthcare websites to solving difficult UI problems on critical applications. Our current data visualization designs are being used on oil rigs, nuclear reactors and pharmaceutical drug plants.  
                     </p>
                     <p className="content-text-18">
-                        WDS takes care of the front-end development, CSS & HTML, working on-site with your team or creating GIT build-packages complete with custom CSS solutions, pattern libraries, style guides, best of practice documentation and design strategies, ensuring and enforcing original design and solutions.
+                        WDS takes care of the front-end development, CSS and HTML, working on-site with your team or creating GIT build-packages complete with custom CSS solutions, pattern libraries, style guides, best of practice documentation and design strategies. This ensures and enforces original design and solutions.
                     </p>    
 
                         <button onclick="location.href='./ux_design';" type="button" value="Learn More" className="button margin-top-50 font-size-24">Learn More</button>
@@ -218,8 +218,8 @@ class why_wds extends Component {
                         <p className="subtitle text-align-center content-block-60">
                             WDS builds emotionally rich, resonant digital solutions that enable users to fully realize technology’s complete potential, by simplifying everything your customers touch and feel.</p>
                
-                <div className="flex-layout-column">    
-                    <img src={advocate} className="align-self-center margin-bottom-20" alt="Advocates for the User"/><p className=" text-align-center">
+                <div className="flex-layout-column width-25">    
+                    <img className="photo-container" src={advocate} className="align-self-center margin-bottom-20" alt="Advocates for the User"/><p className=" text-align-center">
                     
                     Advocating and designing for the user</p>
                 </div>
@@ -236,9 +236,9 @@ class why_wds extends Component {
                     <div className="subtitle layout-center-justified">
                         We'll get there together
                     </div>
-                    <div className="layout-center-justified "><img src={youcandoit} className="float-right width-70 align-self-center margin-bottom-20" alt="You can do it"/>
+                    <div className="layout-center-justified "><img src={youcandoit} className="float-right width-50 align-self-center margin-bottom-20" alt="You can do it"/>
                         <p className="content-text-18 content-block-75 margin-top-10">
-                            WDS can work with embedding employees within your teams as contract employees or work remotely. WDS has flexibility experience and knowledge is to provide not only successful design solutions, but to help guide you every step of the way.  </p>
+                            WDS can embed employees within your teams as contractors (on-site or remote). We have flexibility experience and knowledge is to provide not only successful design solutions, but to help guide you every step of the way.  </p>
                     </div>
                     <div className="subtitle margin-top-15">Your users will love you.</div>
                     <div className="layout-center-justified ">
@@ -250,7 +250,7 @@ class why_wds extends Component {
                     <div> 
                     <div className="subtitle margin-top-70 width-75">Measurable Results</div>
                         <div className="layout-center-justified ">
-                            <p className="content-text-18 content-block-85 margin-top-10">We're firm believers in agile and iterative deployments as experiments, but, with longer enterprise launches and even consumer software, there's still valuable data to be collected even before that first MVP. It is critical to measure and track any design to  Our insights and strategies will get you moving in the right direction, and possibly uncover rewarding new opportunities. We are not afraid to track and measure our design results, we have been designing successful UI solutions for the last 20 years.  </p>
+                            <p className="content-text-18 content-block-85 margin-top-10">We're firm believers in agile and iterative deployments as experiments, but with longer enterprise launches and  consumer software, there's still valuable data to be collected even before that first MVP. It is critical to measure and track any design to collect data about your users' journeys.  Our insights and strategies will get you moving in the right direction, and possibly uncover rewarding new opportunities. We are not afraid to track and measure our design results, we have been designing successful UI solutions for the last 20 years.  </p>
                         </div>
                        
                         <div className="subtitle margin-top-25">Lasting Results</div>

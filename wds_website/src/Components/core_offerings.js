@@ -3,7 +3,15 @@ import offerings from '../images/backgrounds/bg-core-studies.png';
 import innovation2 from '../images/ux_process.png';
 import itcss from '../images/graphic-services.svg';
 import casscade from '../images/photos/photo-css-s1.png';
-import offerings_photo from '../images/photos/photo-core-offerings-s3.png';
+import offerings3 from '../images/photos/photo-core-offerings-s3.png';
+import offerings1 from '../images/photos/photo-core-offerings-s1.png';
+import offerings2 from '../images/photos/photo-core-offerings-s2.png';
+import offerings4 from '../images/photos/photo-core-offerings-s4.png';
+import offerings5 from '../images/photos/photo-core-offerings-s5.png';
+import offerings6 from '../images/photos/photo-core-offerings-s6.png';
+import offerings7 from '../images/photos/photo-core-offerings-s7.png';
+import offerings8 from '../images/photos/photo-core-offerings-s8.png';
+import offerings9 from '../images/photos/photo-core-offerings-s9.png';
 import didyouknow from '../images/graphic-didyouknow.png';
 
 class core_offerings extends Component {
@@ -16,30 +24,30 @@ class core_offerings extends Component {
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg">
-                        Your Design Support
+                        We are your design support.
                 </div>
             </div>
             <div className="grid-2col-photo-content photo-content-color border-bottom-5 height-670" > 
                     <div className="item-a-nb content-block-60 content-header flex-layout-column">
                     <div className="callout margin-top-15">
-                        The best customer experience starts with the Golden Rule - treat the user the way you would like to be treated
+                        The best customer experience starts with the Golden Rule - treat the user the way you would like to be treated.
                     </div>
                         <div className="callout-text-black text-align-left margin-top-15">
                         Too often, companies get attached to the product and lose sight of the people. 
                         </div>
                     </div>
                     <div className="grid-item-b container-image-block">
-                        <img className="container-photo-callout" src={offerings_photo}  alt="shaking hands" /> 
+                        <img className="container-photo-callout" src={offerings1}  alt="Core Offerings" /> 
                     </div>
             </div>
             <section className="flex-layout-column flex-layout-center-center margin-top-100">
                     <div className="subtitle content-block-65">
-                        Our core offerings are to ensure your business success by instilling design on a core level. It has been proven that companies that value design and instill a culture of design from the c-suite down increase business by 30%. We have devised a series of strategies and workshops based on empathy for our clients and users to help our clients achieve lasting success by being responsive to your users needs.    
+                        Our core offerings ensure your business success by instilling design at a core level. It has been proven that valuing design and instill a culture of design, from the C-suite down, increases business by 30%. We have a series of strategies and workshops based on empathy for our clients and users to help our clients achieve lasting success by being responsive to your users needs.    
 
                     </div>
                         <div className="content-block-65">
                             <p className="subtitle margin-top-25"> 
-                            WDS can instill a design culture into your company through a series of workshops talks and business design strategies. Our c-suite workshops provide design data and proven strategies to effectively communicate design into meetings and corporate communications. We can mentor your teams and provide advanced workshops for design strategists.
+                            WDS can instill a design culture into your company through a series of workshops, talks and business design strategies. Our C-suite workshops provide design data and proven strategies to effectively communicate design into meetings and corporate communications. We can mentor your teams and provide advanced workshops for design strategists.
                             </p>
                         </div>
             </section>
@@ -69,7 +77,7 @@ class core_offerings extends Component {
             <section className="grid-2col-photo-content content-header">
                 <div className="grid-left flex-layout-section-full">
                     <div className="title text-grey">
-                        Communication Workshops & Strategies  
+                        Communication Workshops and Strategies  
                     </div>
                     <div className="subtitle margin-top-15">
                         If everyone is moving forward together, then success takes care of itself. - Henry Ford 
@@ -82,7 +90,7 @@ class core_offerings extends Component {
                     </div>
                 </div>
                 <div className="grid-right-css container-image-block">
-                    <img className="photo-container" src={itcss}  alt="Stakeholder Interview" /> 
+                    <img className="photo-container" src={offerings2}  alt="Stakeholder Interview" /> 
                 </div>     
                 </section>
                 <section className="flex-layout-section-full flex-layout-column padding flex-layout-center-center                  green margin-top-50">
@@ -119,7 +127,7 @@ class core_offerings extends Component {
                 </div>
                 <div className="content-block-60 content-text-18 margin-top-15">
                     <div className="float-right">
-                        <img className="photo-container"  src={innovation2}  alt="Stakeholder Interview" /> 
+                        <img className="photo-container"  src={offerings3}  alt="Stakeholder Interview" /> 
                     </div>
                      <p className="content-text-18"> 
                         Our design workshops were built with empathy for the engineers and developers. Companies place too many design decisions on non-designers. Add poor communication to the mix, you end up product inconsistencies, confusing UI development and the user gets forgotten.</p>
@@ -180,7 +188,7 @@ class core_offerings extends Component {
                 </div>
                 <div className="content-block-60 content-text-18 margin-top-15">
                     <div className="float-right">
-                        <img className="photo-container"  src={innovation2}  alt="Stakeholder Interview" /> 
+                        <img className="photo-container"  src={offerings4}  alt="Stakeholder Interview" /> 
                     </div>
                      <p className="content-text-18"> 
                      Design direction and value begins at the top. Studies have shown that companies that value design that come from the top increase their business by 30%. In order to survive in todays digital world, design needs to have the same importance as sales. Companies must change their design perspective in order to see the true value design on its business  </p>
@@ -211,7 +219,7 @@ class core_offerings extends Component {
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
                         <div className="float-right">
-                            <img className="photo-container"  src={innovation2}  alt="Stakeholder Interview" /> 
+                            <img className="photo-container"  src={offerings5}  alt="Stakeholder Interview" /> 
                     </div>
                         <p className="content-text-18"> 
                         Customer experience (CX) is the new competitive battleground for today's companies. WDS will help you find the strategic intersection between your high-value customers and the critical enhancements required at specific touchpoints in your larger customer experience journey. </p>
@@ -241,7 +249,7 @@ class core_offerings extends Component {
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
                         <div className="float-right">
-                            <img className="photo-container"  src={innovation2}  alt="Stakeholder Interview" /> 
+                            <img className="photo-container"  src={offerings6}  alt="Stakeholder Interview" /> 
                         </div>
                      <p className="content-text-18"> 
                         Design is no longer an invisible, unknown entity. WDS has seen the results of our designs over the years because we build relationships with our clients and care about results.  By implementing telemetry design results can be tracked and measured. WDS has analytics experts that can provide monthly reports and business design strategies based on real data. 
@@ -274,7 +282,7 @@ class core_offerings extends Component {
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
                         <div className="float-right">
-                            <img className="photo-container"  src={innovation2}  alt="Stakeholder Interview" /> 
+                            <img className="photo-container"  src={offerings6}  alt="Stakeholder Interview" /> 
                         </div>
                      <p className="content-text-18"> 
                         Design is no longer an invisible, unknown entity. WDS has seen the results of our designs over the years because we build relationships with our clients and care about results.  By implementing telemetry design results can be tracked and measured. WDS has analytics experts that can provide monthly reports and business design strategies based on real data. 
@@ -307,7 +315,7 @@ class core_offerings extends Component {
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
                         <div className="float-right">
-                            <img className="photo-container"  src={innovation2}  alt="Stakeholder Interview" /> 
+                            <img className="photo-container"  src={offerings7}  alt="Stakeholder Interview" /> 
                         </div>
                         <p className="content-text-18"> 
                         The Web is fundamentally designed to work for all people, whatever their hardware, software, language, location, or ability. When the Web meets this goal, it is accessible to people with a diverse range of hearing, movement, sight, and cognitive ability.</p>
@@ -326,7 +334,7 @@ class core_offerings extends Component {
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
                         <div className="float-right">
-                            <img className="photo-container"  src={casscade}  alt="Stakeholder Interview" /> 
+                            <img className="photo-container"  src={offerings8}  alt="Stakeholder Interview" /> 
                         </div>
                         <p className="content-text-18"> 
                         Our CSS services include CSS development, Strategy, CSS system implementation, mentoring and documentation, including best of practice documentation.</p>
