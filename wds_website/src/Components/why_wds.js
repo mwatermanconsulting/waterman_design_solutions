@@ -273,7 +273,8 @@ class why_wds extends Component {
                         <div className="content-text-18 margin-top-25">
                         “(WDS) are thoughtful designers who helped transform our reporting project from a technical tool for pulling data into a place where users at all levels of our organization can find insights about our business.”<br/>
                             -Michael Johnston Stubhub, Impact-Focused Technologist Specializing in Data
-                        </div> 
+                        </div>
+                         
                         <div className="content-text-18 margin-top-25">
                         “I had the pleasure of working with Michael for 9 months while he worked in our Philadelphia office on UI/UX development for an internal business intelligence platform. He was a joy to have on our team and always delivered high quality work on time and on point. We came to rely on Michael to work through all the messy front-end details that we couldn't figure out! Just an overall great person and wonderful colleague, I can't say enough good things about him.” <br/> 
                             -David Schmittdiel, Manager, Business Intelligence Development at StubHub
