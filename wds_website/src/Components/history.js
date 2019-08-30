@@ -42,7 +42,7 @@ class about extends Component {
                              Surreal Beginnings
                         </div>
                         <div className="callout-text padding-20 text-align-left margin-top-15" >
-                        Since 1997 WDS has been evangelizing design under its original name, Surreal Concepts. Started by the husband and wife team, Terri and Michael Waterman, we began with a simple premise and small list of design services. The mission was always to provide professional design services and marketing for a reasonable cost to small and mid-size companies. 
+                        Since 1997 WDS has been evangelizing design under its original name, Surreal Concepts. Started by the husband and wife team, Terri and Michael Waterman, they began with a simple premise and small list of design services. The mission was always to provide professional design services and marketing for a reasonable cost to small and mid-size companies. 
                         </div>
                     </div>
                     <div className="grid-callout-photo grid-placeself-center">
@@ -58,7 +58,7 @@ class about extends Component {
                     </div>
                     <div className="content-block-55">
                         <p className="content-text-18 margin-top-15"> 
-                        WDS is a UX/UI design consultancy agency lead by the husband and wife team Terri and Michael Waterman. They have built the business and have been advocates for design for over twenty years. Growing the business from a small design agency servicing small business to the business today that serves global brands offering a full range of design solutions and services. </p>
+                        WDS is a UX/UI design consultancy agency lead by the husband and wife team Terri and Michael Waterman. They have built the business and have been advocates for design for over 20 years. Growing the business from a small design agency servicing small businesses to the business it is today, it serves global brands offering a full range of design solutions. </p>
                     </div>
                 </section>
                     <image className="flex-layout-section-fixed flex-layout-center-center">
@@ -69,7 +69,7 @@ class about extends Component {
                         It started with video</div>
                     <div className="content-block-55">
                         <p className="content-text-18 margin-top-15">
-                        Our first creative tool in the digital world goes back to the Amiga 500 and the first digital video solution NewTek video toaster. Michael would set up systems to support the dinosaur age of graphic software. Amiga was one of the great forerunners of user design with Kai’s Power Tools, Bryce. Animation and video production was something we spent a lot of time doing.</p>
+                        Our first creative tool in the digital world goes back to the Amiga 500 and the first digital video solution NewTek Video Toaster. Michael would set up systems to support the dinosaur age of graphic software. Amiga was one of the great forerunners of user design with Kai’s Power Tools, Bryce. Animation and video production was something we spent a lot of time doing.</p>
                     </div>
                 </section>
 
@@ -137,16 +137,10 @@ class about extends Component {
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
                     <section className="flex-layout-section-full align-items-center">
-                        <div className="subtitle content-block-55">
+                        <div className="subtitle text-align-center content-block-55">
                             Our First Youtube Video</div>
                         <div classname="video content-block-55">
-                        <iframe src='https://www.youtube.com/embed/BHQSXijoCVY'
-        frameBorder='0'
-        allow='autoplay; encrypted-media'
-        allowFullScreen
-        title='video'
-        width='90%'
-/></div>
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BHQSXijoCVY?rel=0 controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe></div>
                     </section>
                     
                         
@@ -155,9 +149,8 @@ class about extends Component {
                             Business Design Solutions - Pfizer
                         </div>
                         <div className="content-block-55">
-                                <p className="content-text-18 margin-top-25"> An unexpected change for WDS happened during the Pfizer job. Michael has innate knowledge of not only customers, but businesses. It was noticed that the application being used by the developers was extremely buggy. It causes an unacceptable amount of lost man hours, full story here. Issues were documented and saved Pfizer a lot of money.</p>
-                                <p className="content-text-18">This is one of the many stories that has describes how Surreal Concepts evolved into what WDS is today. The changes and evolution of our services is due to our clients needs.</p>
-                                <p className="content-text-18">This was prevalent when tackling design problems and issues with content management systems that didn’t work. Complaints and documentation by Michael  on lost man-hours helped Pfizer to understand the issue and take appropriate action. They replaced the vender, saving and recouping a half a million dollars. Michael has always had an innate sense of business which he applies to his research. Solving business communication issues can solve many of the design issues.</p>
+                                <p className="content-text-18 margin-top-25"> An unexpected change for WDS happened during the Pfizer job. Michael has innate knowledge of not only customers, but businesses. It was noticed that the application being used by the developers was extremely buggy. It causes an unacceptable amount of lost man hours. Issues were documented and saved Pfizer a lot of money.</p>
+                                <p className="content-text-18">This is one of the many stories that has describes how Surreal Concepts evolved into what WDS is today. The evolution of our services followed our clients' needs. For Pfizer, it was  tackling  problems and issues with content management systems that didn’t work. Complaints and documentation by Michael  on lost man-hours helped Pfizer to understand the issue and take appropriate action. They replaced the vender, recouping a half a million dollars. Michael has always had an innate sense of business which he applies to his research. Solving business communication issues can solve many of the design issues.</p>
 
                                 <p className="content-text-18"><a href="../case_study_4">Read full case study</a></p>
                             </div>
@@ -225,20 +218,21 @@ class about extends Component {
                 <div className="margin-top-50">
                     <img className="width-100" src={history_3} ></img>
                 </div>
-                <div className="flex-layout-section-full flex-layout-center-center margin-top-100"> 
-                    <div className="title">Our Leaders</div>
-                    <div className="container-grid-2col-full margin-top-100 margin-bottom-100 flex-layout-center-center width-70"> 
-                   
-                    <div className="grid-item-2a">
-                        <div className="content-block-services flex-layout-row ">
-                        <img className="photo-container-xsm" src={mike} alt="Michael Photos"/> 
-                        <div className="flex-layout-column">
-                            <p className="subtitle margin-left-15">Michael Waterman</p>
-                            <p className="content-text-18 margin-left-15"><i>President, Business Consultant, UX/UI designer, Genius</i></p>
-                        </div>
+                <section className="float-left align-items-center margin-top-50 flex-layout-column">
+                <div className="title margin-bottom-50 ">
+                        Our Leaders 
                     </div>
-                    <div className="content-block-services margin-top-25">
-                            <p className="content-text-18"> Michael was raised in a creative family and spent his childhood creating, designing and drawing. As Michael matured he began a career in retail. His friendly and caring nature made him a natural at customer service and he quickly climbed the corporate ladder becoming a regional manager in his early twenties. </p>
+                    <div className="title content-block-60">
+                        Michael Waterman 
+                    </div>
+                    <div className="subtitle content-block-60 margin-top-15">
+                    President, Business Consultant, UX/UI designer, Genius
+                    </div>
+                    <div className="content-block-60 content-text-18 margin-top-50">
+                        <div className="float-right">
+                            <img className=""  src={mike}  alt="Michael Waterman" /> 
+                        </div>
+                        <p className="content-text-18"> Michael was raised in a creative family and spent his childhood creating, designing and drawing. As Michael matured he began a career in retail. His friendly and caring nature made him a natural at customer service and he quickly climbed the corporate ladder becoming a regional manager in his early twenties. </p>
 
                             <p className="content-text-18">
                             Life changed after he married Terri. She thought Michael’s talents were being wasted in retail and being an artist herself she inspired him to revisit his creativity.</p>
@@ -256,43 +250,50 @@ class about extends Component {
                             <p className="content-text-18">The Pfizer name gave Michael and Surreal Concepts the credibility needed to land the other big names such as Motorola and StubHub. In 2014 Michael left the company to pursue a full time position with OsiSoft as the lead UX/UI designer. </p>
 
                             <p className="content-text-18">Michael entrepreneurial spirit got the best of him and he left early last year rebrand Surreal Concepts to WDS and apply his newfound business design knowledge. Michael believes that now is the best time for the business because empathic design are more critical to business survival than ever before. Michael has a vision and renewed passion that will make WDS the design leader. </p>
-
-
-
-                            
                     </div>
+                </section>
+                <section className="float-left align-items-center flex-layout-column">
+                    <div className="title content-block-60">
+                        Terri Waterman 
                     </div>
-                    <div className="grid-b">
-                        <div className="content-block-services flex-layout-row">
-                        <img className="photo-container-xsm " src={terri} alt="Terri Photos"/> 
-                        <div className="flex-layout-column">
-                            <p className="subtitle margin-left-15">Terri Waterman</p>
-                            <p className="margin-left-15"><i>Art and Creative Director, UX/UI designer, Humorist</i></p>
+                    <div className="subtitle content-block-60 margin-top-50">
+                    Art and Creative Director, UX/UI designer, Humorist
+                    </div>
+                    <div className="content-block-60 content-text-18 margin-top-15">
+                        <div className="float-right">
+                            <img className=""  src={terri}  alt="Terri" /> 
                         </div>
-                    </div>
-                    <div className="content-block-services">
-                            <p className="content-text-18 margin-top-25"> An artist’s strength comes from their perspective of life, the inner dialogue. Her perspective is greatly influenced by her hearing loss as a child. Since her outer life became quiet, observations and interpretations were always unique and different.
-                            Terri is the heart of WDS, her design sense from fine and graphic art training, humor and design talents has guided and evolved unique design solutions. Her intuitive design skills come from 25+ years of experience in traditional and modern art. Serving as a creative advisory to Michael has enabled both to stay ahead of the design trends and competition. There’s always a way, she says, to make every business unique.
-                            Her personal work has intertwined with her professional work as a designer. Creating designs for businesses requires research, empathy and most of all, consistency in their branding. It gave her creativity a powerful purpose.
+                        <p className="content-text-18 margin-top-25"> "An artist’s strength comes from their perspective of life, the inner dialogue." <br></br>Terri's perspective is greatly influenced by her hearing loss as a child. Since her outer life became quiet, observations and interpretations were always unique and different. She always came from the perspective that if everyone is running in one direction, she's going the opposite way. Her observations taught her that following the crowd was never a good idea to foster creativity. This enables her unique approach. Her fine art training has taught her the importance of staying true to herself. <br></br>A deep thinker, she has always been curious about how humans behave and respond to life, and found that design was about communicating simply so that everyone understood. That's the reason for the type of cartooning of this website, good old fashioned customer service that was very prevelant during the 1950s.
+                        <br></br>
+                        Her experience working with Michael and clients have taught her that design has a purpose of having empathy, and users ALWAYS embrace designs that take them into consideration. </p><p className="subtitle">Design is a guide to help the user's eye see where they're going, with an intuitively and seamlessly. Terri's passion for helping others with her talent is the only motivation she needs to be passionate about their goals.</p>
+
+
+                           <p className="content-text-18 margin-top-25">As the heart of WDS, Terri's intuitive design skills come from 25+ years of experience in traditional and modern art. This combination of skills has served her well in all her artistic endeavors. 
+                            
+                            Serving as a creative advisory to Michael has enabled both to stay ahead of the design trends and competition. There’s always a way, she says, to make every business unique. 
+                            Her personal work has intertwined with her professional work as a designer. Creating designs for businesses requires research, empathy and most of all, consistency in their branding. 
                             Evolving into a disciplined UX designer created amazing opportunities as a unique visual communicator. 
                             Her greatest joy is when there is a balance of creative flow along with the discipline of design that creates simplicity and inspiration. </p>
-                            <p><i>Bachelor of Fine Arts<br></br>Associates in Visual Communication</i>
+                            <p className="content-text-18 margin-top-25"><i>Bachelor of Fine Arts<br></br>Associates in Visual Communication<br></br>
+                            See her artwork here!<br></br>
+                            <a href="https://www.behance.net/terriwatermanart">Behance Portfolio</a><br></br>
+                            <a href="https://www.instagram.com/terriwaterman">Behance Portfolio</a> </i>
                             </p>
                     </div>
-                    </div>
-                </div>
-            </div>
+                </section>
+                
+           
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
                 <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
                        <img className="content-block-55 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
                       
                       <div >
-                          <p className="callout-text text-white text-align-center">  Surreal Concepts has always been ahead of the trends, using the now-popular blue and orange colors in the early 2000s</p>
+                          <p className="callout-text text-white text-align-center">  Surreal Concepts was always ahead of the trends, using the now-popular branding colors blue and orange in the early 2000s.</p>
                     </div>
                 </div>
             </section>
             
-        </div>
+            </div>
                        
         )
     }
