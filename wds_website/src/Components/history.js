@@ -20,6 +20,9 @@ import history_3 from '../images/photos/photo-history-s3.png'
 import time from '../images/WDS-timeline.png'
 import mike from '../images/mike.png';
 import terri from '../images/terri.png';
+
+import be from '../images/icon-be-black.svg';
+import instagram from '../images/icon-instagram-black.svg';
 import didyouknow from '../images/graphic-didyouknow.svg';
 
 class about extends Component {
@@ -75,7 +78,7 @@ class about extends Component {
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
            
-                <section className="flex-layout-section-full align-items-center">
+             { /*  <section className="flex-layout-section-full align-items-center">
                     <div className="subtitle content-block-55">
                             Publishing Venture</div>
                     <div className="content-block-55">
@@ -98,7 +101,7 @@ class about extends Component {
                             <i>Wally's</i></p>
                         </div>
                     </div>
-                </section> 
+        </section> */}
 
                      <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
@@ -263,21 +266,21 @@ class about extends Component {
                         <div className="float-right">
                             <img className=""  src={terri}  alt="Terri" /> 
                         </div>
-                        <p className="content-text-18 margin-top-25"> "An artist’s strength comes from their perspective of life, the inner dialogue." <br></br>Terri's perspective is greatly influenced by her hearing loss as a child. Since her outer life became quiet, observations and interpretations were always unique and different. She always came from the perspective that if everyone is running in one direction, she's going the opposite way. Her observations taught her that following the crowd was never a good idea to foster creativity. This enables her unique approach. Her fine art training has taught her the importance of staying true to herself. <br></br>A deep thinker, she has always been curious about how humans behave and respond to life, and found that design was about communicating simply so that everyone understood. That's the reason for the type of cartooning of this website, good old fashioned customer service that was very prevelant during the 1950s.
+                        <p className="content-text-18 margin-top-25"> "An artist’s strength comes from their perspective of life, the inner dialogue." <br></br>Terri's perspective is greatly influenced by her hearing loss as a child. Since her outer life became quiet, observations and interpretations were always unique and different. She always came from the perspective that if everyone is running in one direction, she's going the opposite way. Her observations taught her that following the crowd was never a good idea to foster creativity. This enables her unique approach. Her fine art training has taught her the importance of staying true to herself. <br></br>A deep thinker, she has always been curious about how humans behave and respond to life, and found that design was about communicating simply so that everyone understood. The cartooning of this website was to convey what WDS is about - good old-fashioned customer service, something that was very prevalent during the 1950s.
                         <br></br>
-                        Her experience working with Michael and clients have taught her that design has a purpose of having empathy, and users ALWAYS embrace designs that take them into consideration. </p><p className="subtitle">Design is a guide to help the user's eye see where they're going, with an intuitively and seamlessly. Terri's passion for helping others with her talent is the only motivation she needs to be passionate about their goals.</p>
+                        Her experience working with Michael and clients have taught her that design has a purpose of having empathy, and users ALWAYS embrace designs that take them into consideration. </p><p className="subtitle">Design is a guide to help the user's eye see where they're going, intuitively and seamlessly. Terri's passion for helping others with her talent is the only motivation she needs to be passionate about their goals.</p>
 
 
                            <p className="content-text-18 margin-top-25">As the heart of WDS, Terri's intuitive design skills come from 25+ years of experience in traditional and modern art. This combination of skills has served her well in all her artistic endeavors. 
                             
                             Serving as a creative advisory to Michael has enabled both to stay ahead of the design trends and competition. There’s always a way, she says, to make every business unique. 
-                            Her personal work has intertwined with her professional work as a designer. Creating designs for businesses requires research, empathy and most of all, consistency in their branding. 
+                            Her personal work has intertwined with her professional work as a designer. 
                             Evolving into a disciplined UX designer created amazing opportunities as a unique visual communicator. 
                             Her greatest joy is when there is a balance of creative flow along with the discipline of design that creates simplicity and inspiration. </p>
                             <p className="content-text-18 margin-top-25"><i>Bachelor of Fine Arts<br></br>Associates in Visual Communication<br></br>
-                            See her artwork here!<br></br>
-                            <a href="https://www.behance.net/terriwatermanart">Behance Portfolio</a><br></br>
-                            <a href="https://www.instagram.com/terriwaterman">Behance Portfolio</a> </i>
+                            See her artwork here!<br></br><br></br>
+                            <a href="https://www.behance.net/terriwatermanart"><img style={{width:'50px', marginRight:'15px'}} src={be}  alt="Behance" /></a>
+                            <a href="https://www.instagram.com/terriwaterman"><img style={{width:'50px'}} src={instagram}  alt="Instagram" /></a> </i>
                             </p>
                     </div>
                 </section>
