@@ -24,11 +24,11 @@ class services extends Component {
         <div className="flex-layout-column"> 
             <section className="flex-section-fixed-head image-background-border-tb">
                 <div className="flex-image-container flex-item-bottom grey">
-                    <img className="flex-image-container image-size-100" src={practice}  alt="Why WDS background image" /> 
+                    <img className="flex-image-container image-size-100" src={practice}  alt="Services image" /> 
                 </div> 
             </section>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 red">
-                <div className="callout-text"> 
+                <div className="callout-text-white"> 
                 “The role of the designer is that of a good, thoughtful host anticipating the needs of his guests.” –Charles Eames
 
                 </div>
@@ -88,13 +88,13 @@ class services extends Component {
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100">
                     <div className="float-left flex-layout-center-center content-block-65">
                         <div className="title">
-                            UI Design & Development
+                            UI Design and Development
                         </div>
                         <div className="subtitle margin-top-15">
                             Websites, Products and Applications
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                            <img className="container-photo-callout" src={services2}  alt="UX" /> 
+                            <img className="container-photo-callout" src={services2}  alt="UI Design" /> 
                             <p className="caption">Photo by Frank on Unsplash</p>
                             </div>
                         <div className="margin-top-15">  
@@ -102,7 +102,7 @@ class services extends Component {
                             WDS honed its UI design skills by designing websites in 1998. Over the years we have designed and developed complicated healthcare websites to solving difficult UI problems on critical applications. Our current data visualization designs are being used on oil rigs, nuclear reactors and pharmaceutical drug plants.  
                             </p>
                             <p className="content-text-18">
-                            WDS can take care of the front-end development including CSS & HTML development, working on-site with your team or creating GIT build-packages complete with custom CSS solutions, patterns libraries, style guides, best of practice documentation and design strategies, ensuring and enforcing original design and solutions.
+                            WDS can take care of the front-end development including CSS and HTML development, working on-site with your team or creating GIT build-packages complete with custom CSS solutions, patterns libraries, style guides, best of practice documentation and design strategies, ensuring and enforcing original design and solutions.
                             </p>      
                             
                             </div>  
@@ -119,7 +119,7 @@ class services extends Component {
                          Empathetic Design
                     </div>
                     <div className="margin-top-15 content-block-65"> <div className="float-right callout-photo grid-placeself-center" style={{marginTop:'-4%'}}>
-                                <img className="container-photo-callout" src={services7}  alt="UX" /> 
+                                <img className="container-photo-callout" src={services7}  alt="Design Solutions" /> 
                         </div> 
                         <p className="content-text-18  content-block-65"> 
                             Our design solutions include software designs, websites, marketing and print design. Our design solutions provide our clients consistency across all their consumer touchpoints. Consistency breeds brand familiarity and user loyalty</p> 
@@ -142,7 +142,7 @@ class services extends Component {
                          Insight through Observations
                     </div>
                     <div className="margin-top-15 content-block-65"> <div className="float-right callout-photo grid-placeself-center">
-                                <img className="container-photo-callout" src={services5}  alt="UX" /> 
+                                <img className="container-photo-callout" src={services5}  alt="Strategy and Insight" /> 
                         </div>  
                         <p className="content-text-18 content-block-65">
                             The most meaningful insights for design strategy are developed with behavior-based understanding of users. Our experience strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve.</p> 
@@ -167,7 +167,7 @@ class services extends Component {
                          Scalable Enterprise Solutions
                     </div>
                     <div className="margin-top-15 content-block-65"> <div className="float-right callout-photo grid-placeself-center">
-                                <img className="container-photo-callout" src={casscade}  alt="UX" /> 
+                                <img className="container-photo-callout" src={casscade}  alt="CSS Solutions" /> 
                         </div>  
                         <p className="content-text-18 content-block-65">
                         Our CSS services include CSS development, Strategy, CSS system implementation, mentoring and documentation, including best of practice documentation.</p> 
@@ -185,19 +185,19 @@ class services extends Component {
 
                 <section className="float-left flex-layout-section-full flex-layout-column flex-layout-center-center">
                     <div className=" title content-block-65">
-                         Social Media 
+                         Marketing 
                     </div>
                     <div className="subtitle content-block-65 margin-top-15">
-                        We will make your customers feel uniquely valued
+                        Social Media marketing and all other forms of media marketing will make your customers feel uniquely valued when done right. 
                     </div>
                     <div className="margin-top-15 content-block-65"> <div className="float-right callout-photo grid-placeself-center">
-                                <img className="container-photo-callout" src={services4}  alt="UX" /> 
+                                <img className="container-photo-callout" src={services4}  alt="Social Media" /> 
                         </div>  
                         <p className="content-text-18 content-block-65">
-                        WDS understands people on a deep level. Our methodology gives a voice to the your users, your customers. Those people whose daily lives are effected by the use of your application or product. Your marketing campaign should be a reflect the vision of who you are as a business and tell that story. Every business has a story. We will define a marketing strategy based on research, data with a clear vision that reflects and embraces real human values.</p> 
+                        WDS understands people on a deep level. Our methodology gives a voice to the your users and customers. Daily lives are effected by the use of your application or product. Your marketing campaign should be a reflect the vision of who you are as a business and tell that story. Every business has a story. We will define a marketing strategy based on research, data with a clear vision that reflects and embraces real human values.</p> 
 
                         <p className="content-text-18 content-block-65">
-                        Our goal is to identify the right approach for your unique target audiences on social media. We plan, develop, and execute innovative social media marketing strategies that build a meaningful experience across all social media touchpoints.</p> 
+                        Our goal is to identify the right approach for your unique target audiences on social media. We plan, develop, and execute innovative social media marketing strategies that build a meaningful experience across all marketing material touchpoints.</p> 
                         
                             
                           
@@ -212,7 +212,7 @@ class services extends Component {
                     <div className="grid-services-3">
                         <img className="width-25" src={icon_strategy}  alt="Strategy and Insights" /> 
                         <div className="subtitle margin-top-5">
-                            <a href="./strategy_insight" className="no-decoration">Strategy & Insights</a>
+                            <a href="./strategy_insight" className="no-decoration">Strategy and Insights</a>
                         </div>
                     <ul className="dashed content-text-16 margin-top-15">
                         <li>Digital Transformation</li>
@@ -334,10 +334,10 @@ class services extends Component {
                     <div className="2col-text grid-placeself-center margin-left-75">
                         <div className="content-block">
                             <p className="content-header"> 
-                                Many design issues stem from difficult relationships between programmers and designers </p>
+                                Many design issues stem from difficult relationships between programmers and designers. </p>
                             <p className="content-text-18 margin-top-15">  
                             
-                                As designers, we have reached over to programmers and developers using a methodology of empathy for "the other side". This includes fitting designers into agile systems so that keeps things working smoothly.</p> 
+                                As designers, we have connected with programmers and developers using a methodology of empathy. This includes fitting designers into agile systems so that the project runs things smoothly.</p> 
 
                         </div>
                     </div>              

@@ -1,13 +1,12 @@
 import React, { Component } from 'react' ;
 import innovation from '../images/backgrounds/bg-innovation.png';
-import didyouknow from '../images/graphic-didyouknow.png';
 import innovation1 from '../images/photos/photo-innovation-s1.png';
 import innovation2 from '../images/photos/photo-innovation-s2.png';
 import innovation3 from '../images/photos/photo-innovation-s3.png';
 import innovation4 from '../images/photos/photo-innovation-s4.png';
 import innovation5 from '../images/photos/photo-innovation-s5.png';
 import innovation6 from '../images/photos/photo-innovation-s6.png';
-import graphic_didyouknow from '../images/graphic-didyouknow.png';
+import didyouknow from '../images/graphic-didyouknow.svg';
 
 
 class innovative_solutions extends Component {
@@ -25,22 +24,20 @@ class innovative_solutions extends Component {
                 </div>
             </section>
 
-            <section className="flex-layout-section-full photo-content-color align-items-center"> 
-                <div className=" grid-2col-text-photo align-items-center margin-tb-100 width-70">
-                    <div className="content-block col2-text ">
-                        <div className="callout-text text-align-left">
-                          WDS has provided solutions to applications used by the energy sectors including nuclear reactors. We have the focus, insight and experience to solve the most difficult design and business problems on the worlds most intricate products and applications.  
-                        </div>      
+            <section className="grid-callout photo-content-color border-bottom-5 height-670"> 
+                    <div className="grid-callout-text grid-placeself-center content-block-75 content-header flex-layout-column">
+                          WDS has provided solutions to applications used by  energy sectors, including nuclear reactors. We have the focus, insight and experience to solve the most difficult design and business problems on the worlds most intricate products and applications.  
+                             
                     </div>
-                <div className="col2-photo width-100 grid-placeself-center">
-                    <img className="container-photo-callout" src={innovation1}  alt="Website Design" /> 
+                    <div className="grid-callout-photo grid-placeself-center">
+                        <img className="container-photo-callout" src={innovation1}  alt="Innovation" /> 
                 </div>
-                </div>
+                
             </section>
     
             <section className="flex-layout-center-center flex-layout-column margin-top-75">
                 <div className="title text-align-center content-block-60 margin-top-75">
-                    Our Innovative Solutions is our Differentiating factor. <br/> WDS solves complex problems where others have failed.
+                    Our Innovative Solutions is our differentiating factor, solving complex problems where others have failed.
                 </div>
                 
                     <p className="subtitle flex-layout-center-center margin-left-15 margin-top-15"> 
@@ -60,11 +57,11 @@ class innovative_solutions extends Component {
                     <div className="content-block-60 content-text-18 margin-top-15">
                         <p className="content-text-18"> 
                         <div className="float-right">
-                        <img className="photo-container"  src={innovation2}  alt="Stakeholder Interview" /> 
+                        <img className="photo-container"  src={innovation2}  alt="User Scenerios" /> 
                         </div>
-                            Narrative User Scenarios enable our teams to avoid the trap of focusing on prescriptive solutions too early in the process which limits the innovation space before it is explored. They are based on personas and used to imagine the ideal experience for a specific user or customer persona.</p>
+                            Narrative User Scenarios enable our teams to avoid the trap of focusing on prescriptive solutions too early in the process because it limits the innovation space before it is explored. They are based on personas and used to imagine the ideal experience for a specific user or customer persona.</p>
                             
-                            <p className="content-text-18"> In creating User Scenarios, we first define the solutions at a high level, in the context of their use. As we write out a story of a person interacting with the application in the course of their day, we ground the scenario in reality, by keeping the details of the features and interactions out of the story, enabling designers to imagine the best possible solutions. The User Scenarios have the added importance of containing the key user interactions, in story form, that the solution must support. With further definition, these are used as the inputs to the epics and user stories that are the beginning stages of a product backlog.</p>
+                            <p className="content-text-18"> In creating User Scenarios, we first define the solutions at a high level in the context of their use. As we write out a story of a person interacting with the application in the course of their day, we ground the scenario in reality by keeping the details of the features and interactions out of the story. This enables designers to imagine the best possible solution. The User Scenarios have the added importance of containing the key user interactions, in story form, that the solution must support. With further definition, these are used as the inputs to the epics and user stories that are the beginning stages of a product backlog.</p>
                         </div>
                 </section>
 
@@ -80,7 +77,7 @@ class innovative_solutions extends Component {
 
                         <div className="content-block-60 content-text-18 margin-top-15">
                             <p className="content-text-18"><div className="float-right">
-                        <img className="photo-container" src={innovation3}  alt="Review" /> 
+                        <img className="photo-container" src={innovation3}  alt="Hypothesis and Concepts" /> 
                     </div> 
                             To generate new concepts, we efficiently and imaginatively explore multiple options for solving each design challenge to ensure that we are arriving at the best solutions. Brainstorming a problem with multiple disciplines allows us to explore fresh ideas. </p>
 
@@ -97,13 +94,13 @@ class innovative_solutions extends Component {
                             Construct an Interaction Model Based on Users
                     </div>
                     <div className="subtitle content-block-60 margin-top-15">
-                            Establish Frameworks & <br/> Workflow Concepts</div>
+                            Establish Frameworks and <br/> Workflow Concepts</div>
                     <div className="content-block-60 content-text-18 "><div className="float-right">
-                        <img className="photo-container" style={{marginTop:'-8%'}} src={innovation4}  alt="construct user model" /> 
+                        <img className="photo-container" style={{marginTop:'-8%'}} src={innovation4}  alt="Construct user model" /> 
                     </div> 
                         <p className="content-text-18 margin-top-15">Technology is dramatically changing the way marketers work. With thousands of software solutions at our disposal to assist with automation, personalization and optimization, knowing where to start or how to get the most out of your investments is challenging.</p> 
 
-                            <p className="content-text-18">By understanding your business goals and your users expectations, our team will help you make the right investments and capture value.</p>
+                            <p className="content-text-18">By understanding your business goals and your users' expectations, our team will help you make the right investments and capture value.</p>
                         </div>
                 </section>
 
@@ -114,12 +111,12 @@ class innovative_solutions extends Component {
                             Reinforce Success
                     </div>
                     <div className="subtitle content-block-60 margin-top-15">
-                            Validate Concepts & Frameworks with Users                        
+                            Validate Concepts and Frameworks with Users                        
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15"><div className="float-right">
-                        <img className="photo-container" src={innovation5}  alt="Innovative Solutions" /> 
+                        <img className="photo-container" src={innovation5}  alt="Reinforce Success" /> 
                     </div>    
-                            <p className="content-text-18"> Rather than developing a product that we hope will serve the user at this stage, vast amounts of resources are saved by presenting concepts to users for validation before any building takes place. We create a set of design concepts,and ensure the designs meet the intended goals. </p>
+                            <p className="content-text-18"> Rather than developing a product that we hope will serve the user at this stage, vast amounts of resources are saved by presenting concepts to users for validation before any building takes place. We create a set of design concepts and ensure the designs meet the intended goals. </p>
                             
                             <p className="content-text-18">
                             Does a concept work for the people who will use it? Does it appeal to them? Where is there room for improvement? Is this concept supporting the user on both a practical and emotional level? This is how we ensure that the design direction is the correct one and tune it accordingly.</p> 
@@ -132,11 +129,11 @@ class innovative_solutions extends Component {
                     <div className="title content-block-60">
                             Brand - Establish a Product Identity
                     </div>
-                    <div className="subtitle content-block-60 margin-top-15">Establish Frameworks & Workflow concepts</div>
+                    <div className="subtitle content-block-60 margin-top-15">Establish Frameworks and Workflow concepts</div>
                         <div className="content-block-60 content-text-18 margin-top-15"> <div className="float-right">
-                        <img className="photo-container" src={innovation6}  alt="Innovative Solutions" /> 
+                        <img className="photo-container" src={innovation6}  alt=" Brand - Establish a Product Identity" /> 
                     </div>     
-                            <p className="content-text-18"> A key component of any solution is the visual appearance of the interface. An interface will be an important representation of the brand and needs to support three objects company branding, user workflows and interaction models. Collectively, this can be referred to as a company’s design language. </p>
+                            <p className="content-text-18"> A key component of any solution is the visual appearance of the interface. An interface will be an important representation of the brand and needs to support three objects of company branding, user workflows and interaction models. Collectively, this can be referred to as a company’s design language. </p>
                             
                             <p className="content-text-18">
                             The design language is needed to drive consistency across applications and touchpoints, delivering a more cohesive and singular experience of the company. To develop a company’s design language, we carry out a visual exploration initiative so the team can iterate on ideas, refine them and determine the final outcome; style guides, pattern libraries and design systems. 

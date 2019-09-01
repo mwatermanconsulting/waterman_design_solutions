@@ -20,7 +20,7 @@ class ux_design extends Component {
                 </section> 
                 <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                     <div className="callout-text-white"> 
-                            The best customer experience starts with the Golden Rule — Treat customers how you would like to be treated.
+                            The best customer experience starts with the Golden Rule — treat customers how you would like to be treated.
                     </div>
                 </section>
                 <section className="grid-callout photo-content-color border-bottom-5 height-670"> 
@@ -29,7 +29,7 @@ class ux_design extends Component {
                              Empathetic Design
                         </div>
                         <div className="callout-text text-align-left margin-top-15" >
-                        The most meaningful insights for design strategy are developed with behavior-based understanding of users. Our UX strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve
+                        The most meaningful insights for design strategy are developed with behavior-based understanding of users. Our UX strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve.
                         </div>
                     </div>
                     <div className="grid-callout-photo grid-placeself-center">
@@ -47,15 +47,15 @@ class ux_design extends Component {
                         </div>
                         <div className="margin-top-15">
                             <p className="content-text-18">
-                                Sometimes, customers are so accustomed to current conditions that they don’t think to ask for a new solution, even if they have real needs that could be addressed. Habit tends to drag us to behave inconveniently; as consumers we create “work-arounds” that become familiar and we may forget that we are being forced to behave<div className="float-right callout-photo grid-placeself-center">
-                                 <img className="container-photo-callout" src={ux_s2}  alt="UX" /> 
-                                    <p className="caption">Photo by Frank on Unsplash</p>
+                                Sometimes customers are so accustomed to current conditions that they don’t think to ask for a new solution, even if they have real needs that could be addressed. As consumers, we create workarounds that become a habit and we may forget that we are being forced to behave that way.
+                            <div className="float-right callout-photo grid-placeself-center">
+                                 <img className="container-photo-callout" src={ux_s2}  alt="Research and Empathy" /> 
                             </div> in a less-than-optimal fashion. This can make us incapable of telling UX designers what we really want. </p>
 
                                 <p className="content-text-18">
                                 For example, when asked about an editing function in a software package, one customer had no complaints until she sat down to use the program in front of the observer. Then she realized that her work was disrupted when the program did not automatically wrap text around graphics while she edited. Accustomed to working around the problem, she had not mentioned it in earlier interviews. When the observer notices this and points it out, it opens up an important issue that should be dealt with to make her life easier. All the little things add up as big time wasters that need to be eliminated.
                                 </p>
-                            </div>  
+                        </div>  
                             </div>
                     </section> 
                     
@@ -70,15 +70,15 @@ class ux_design extends Component {
                         </div>
                         <div className="content-block-60 margin-top-15">
                             <p className="content-text-18">
-                                What circumstances prompt people to use your product or service? Do your customers turn to your offering in the way; you expected?  If they don’t, there may be an opportunity for your company, to reevaluate previous design decisions </p> 
+                                What circumstances prompt people to use your product or service? Do your customers turn to your offering in the way you expected?  If they don’t, there may be an opportunity for your company to reevaluate previous design decisions. </p> 
                             <p className="subtitle"> 
                                 Old school custom service</p> 
                             <div className="float-right callout-photo grid-placeself-center">
-                                <img className="container-photo-callout" src={ux_s3}  alt="old school customer service" />  
-                                 <p className="caption">Photo by Mimi Thian on Unsplash</p>
+                                <img className="container-photo-callout" src={ux_s3}  alt="Old school customer service" />  
+                                 
                             </div>
                             <p className="content-text-18">
-                                Empathy is a very powerful selling tool. These days, it’s the new buzz word used by companies. But empathy has always been at the heart of our services in User Experience and Customer Service. We are trained to use empathy in our work: <br></br>“Walk in the user’s shoes.” <br></br>“See the problem as if you were experiencing it yourself."<br></br>“Observe their daily routines.” <br></br>All of these mantras and behaviors are empathetic techniques that our UX designers have honed by creating amazing, innovative products and services. 
+                                Empathy is a very powerful selling tool, because it is human-centric. It’s the new buzz word, but empathy has always been at the heart of WDS. We tell ourselves: <br></br>“Walk in the user’s shoes.” <br></br>“See the problem as if you were experiencing it yourself."<br></br>“Observe their daily routines.” <br></br>All of these mantras and behaviors are empathetic techniques that our UX designers have acquired through years of practice. It is part of their daily lives. 
                             </p>
                         </div>
                     </section>
@@ -93,16 +93,15 @@ class ux_design extends Component {
                         </p>
                         <div className="content-block-60 margin-top-15">
                             <p className="content-text-18">
-                                Understanding people as they go about completing a task is essential to a positive user experience. Every action of that task is an experience with your product or service. The experience can be positive or negative depending how much of the user was taken into account when designing the product, system and user interface. 
+                                Understanding people as they go about completing a task is essential to guaranteeing a positive user experience. Every action of that task is an experience with your product or service. The experience can be positive or negative depending how much of the user was taken into account when designing. 
                                 </p>
                         <div className="float-right callout-photo">
                             <img className="container-photo-callout margin-top-15" src={ux_s4}  alt="UX is the study of people" />
-                            <p className="caption"> Photo by Jude Beck on Unsplash</p> 
                         </div> 
                         <p className="content-text-18">User expectations have changed over the years. Simplicity is expected.  </p> 
                                
                         <p className="content-text-18">
-                                The user experience takes many shapes and forms in retail, product development, websites, and applications. The user has a goal to achieve and it's up to you to make it enjoyable and useful. It is critical to your customer's success to have a designer that not only understand and empathizes with people, but understands cognitive psychology. The understanding of how the unconscious brain makes decisions, helps reveal solutions on a deep level.
+                                The user experience takes many shapes and forms: retail, product development, websites, and applications. The user has a goal to achieve and it's up to you to make it enjoyable and useful. It is critical to your success to have a designer that not only understand and empathizes with people, but understands cognitive psychology. The understanding of unconscious decisions helps reveal solutions on a deeper level.
                         </p>
                        
                                
@@ -119,17 +118,16 @@ class ux_design extends Component {
                         Real Designers Matter
                     </div>
                     <div className="content-block-60 margin-top-15">
-                        <p className="content-text-18">We require our UX designers to be real designers. Real designers with an understanding of customer service. All our designers are friendly empathetic people with a passion to simplify the world, one project at a time. </p>
+                        <p className="content-text-18">We require our UX designers to be real designers with an understanding of customer service. All our designers are friendly empathetic people with a passion to simplify the world, one project at a time. </p>
                     
                     </div>
                 </section>
 
                 <section className="content-header flex-layout-center-center flex-layout-column">
                 
-                <div className="thin-hr width-70 align-self-center margin-top-100 margin-bottom-100"></div
-                >
+                <div className="thin-hr width-70 align-self-center margin-top-100 margin-bottom-100"></div>
                     <div className="flex-layout-center-center subtitle content-block-60">
-                   The most effective way to understand our design solutions and methodology is to read a story about it
+                   The most effective way to understand our design solutions and methodology is to read a story about it.
                     </div>
                 </section>
                 <section className="content-header flex-layout-center-center flex-layout-column margin-top-25">

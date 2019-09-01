@@ -20,7 +20,7 @@ class core_offerings extends Component {
         <div className="flex-layout-column">
             <div className="flex-layout-section-fixed yellow flex-layout-center-center image-background-border-tb">
                 <div className="header-text-center header-title text-white">Core Offerings</div>
-                <img className="flex-image-container width-100" src={offerings}  alt="Why WDS background" /> 
+                <img className="flex-image-container width-100" src={offerings}  alt="Core Offerings" /> 
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg">
@@ -90,10 +90,10 @@ class core_offerings extends Component {
                     </div>
                 </div>
                 <div className="grid-right-css container-image-block">
-                    <img className="photo-container" src={offerings2}  alt="Common problems" /> 
+                    <img className="photo-container" src={offerings2}  alt="Communication Expertise" /> 
                 </div>     
                 </section>
-                <section className="flex-layout-section-full flex-layout-column padding flex-layout-center-center                  green margin-top-50">
+               {/* <section className="flex-layout-section-full flex-layout-column padding flex-layout-center-center green margin-top-50">
                     <div className="title text-white">
                             In Context Case Study - UX Steering Team
                     </div>
@@ -116,7 +116,7 @@ class core_offerings extends Component {
                         <p className="content-block-65 content-text-21 margin-top-15" style={{width:'85%'}}>Results
                             The UX Steering was a unique strategy for a common problem. It helped with communication issues and provided a forum to talk about design and the user within the company. It also provided a road map to product consistency. WDS also provided CSS Solutions with the creation of helper and global CSS classes, and flexbox responsive design. WDS also developed workshops for CSS, SASS and Responsive development. WDS moved on to the creation and development of the company Style Guides and Design System to support the long time strategy and vision of UX Steering team of product consistency.
                         </p>
-             </section>
+        </section> */}
           
             <section className="float-left align-items-center flex-layout-column margin-top-75">
                 <div className="title content-block-60">
@@ -223,7 +223,7 @@ class core_offerings extends Component {
                         <p className="content-text-18"> 
                         Customer experience (CX) is the new competitive battleground for today's companies. WDS will help you find the strategic intersection between your high-value customers and the critical enhancements required at specific touchpoints in your larger customer experience journey. </p>
                     </div>
-                        <p className="content-text-21 align-self-center content-block-60" style={{marginTop:'-11%'}}><b>Key Services</b></p>
+                        <p className="content-text-21 align-self-center content-block-60" ><b>Key Services</b></p>
                     
                     <ul className="dashed align-self-center content-block-60 content-text-21">
                         <li>Customer/user insights</li>
@@ -292,7 +292,7 @@ class core_offerings extends Component {
                     
                         <p className="content-text-18"> The impact of disability has radically changed on the Web because barriers are removed that prevent communication and interaction that many people face in the physical world. However, when web sites, applications, technologies, or tools are badly designed, they can create barriers that exclude people from using the Web.</p>
     
-                        <p className="content-text-18">Accessibility may affect 18% of your users.  Increase your business by implementing a strategy that defines and provides solutions to improve your accessibility strategies</p>
+                        <p className="content-text-18">Accessibility may affect 18% of your users.  Increase your business by implementing a strategy that defines and provides solutions to improve your accessibility strategies.</p>
                     </div>
                 </section>
 
@@ -302,12 +302,17 @@ class core_offerings extends Component {
                     <div className="title content-block-60">
                         CSS Strategies
                     </div>
+                    <div className="subtitle content-block-60 margin-top-15">
+                        Have developers touching the CSS 80% less
+                    </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
                         <div className="float-right">
                             <img className="photo-container"  src={offerings9}  alt="CSS Strategies" /> 
                         </div>
                         <p className="content-text-18"> 
-                        This includes CSS development, strategy, CSS system implementation, mentoring, and best of practice documentation.</p>
+                         Our solutions are based off our empathy and experiences working with developers. After our design solutions our CSS knowledge and experience is one of the main reasons for our success. Our solutions are scalable and customizable to your business requirements. </p>
+                        <p className="content-text-18"> Our strategy almost eliminates the need for your developers to write CSS. Our advantage is our past experience working with developers and interviewing and observing them working with CSS. </p>
+                        <p className="content-text-18">CSS strategies include CSS development, CSS system implementation, mentoring, and best of practice documentation.</p>
 
                         <p><i><a href="../css_solutions">Learn More...</a> </i></p>
                     
