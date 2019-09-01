@@ -19,12 +19,12 @@ class css_solutions extends Component {
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                    Our CSS solutions will have your developers touching CSS 80% less
+                    Our CSS solutions will have your developers touching CSS 80% less.
                 </div>
             </div>
             <section className="grid-callout photo-content-color border-bottom-5 height-670"> 
                     <div className="grid-callout-text grid-placeself-center content-block-75 content-header flex-layout-column">
-                        Our CSS services include CSS development, Strategy, CSS system implementation, mentoring and documentation, including best of practice documentation.
+                        Our CSS services include CSS development, strategy, CSS system implementation, mentoring, documentation, and best of practice documentation.
                     </div>              
                 
                     <div className="grid-callout-photo grid-placeself-center">
@@ -33,7 +33,7 @@ class css_solutions extends Component {
             </section>
             <section className="content-header flex-layout-center-center flex-layout-column">
                 <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-50">
-                        WDS develops lean, scalable solutions, CSS solutions saving your business money and time, Keeping your  developers happy.
+                        WDS develops lean scalable CSS solutions, saving your business time and money, while keeping your developers happy.
                 </div>
                 <div className="content-block-50 margin-top-50">
                     <p className="content-text-24 text-align-center">
@@ -102,7 +102,7 @@ class css_solutions extends Component {
                     <div className="grid-right-css container-image-block margin-top-50">
                         <img className="photo-container" src={css3}  alt="Stakeholder Interview" /> 
                     </div>  
-                    <p className="caption">Photo by chuttersnap on Unsplash</p>   
+                     
                 </section>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
