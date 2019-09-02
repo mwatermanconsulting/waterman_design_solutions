@@ -32,7 +32,7 @@ class methodology extends Component {
             <section className="flex-layout-section-full align-items-center red border-bottom-5" >
                     <div className="container-section-1-primary flex-layout-center-center">
                         <div className="content-header flex-layout-column">    
-                            <div className="content-block width-75">
+                            <div className="content-block">
                                 <div className=" text-white text-align-center">
                                 What is the role of empathy in your business?
                                 </div>
@@ -63,7 +63,7 @@ class methodology extends Component {
                             The science of understanding people has developed for centuries, but not enough has been done to integrate these approaches into the process of UI design. For more than a decade, we have refined a scalable, flexible methodology that centers on answering questions about customers by connecting and understanding people, observing their daily workflow, by interviewing and conversing with them we begin to identify people’s needs, behaviors and aspirations. This provides a perspective on customers that clients typically have never been seen. </p>
 
                         <p className="content-text-21 content-block-75 align-self-center text-align-center">
-                            Our methodology produces answers and empathic designs that connect and resonates with your users. Our methodology uncovers unarticulated user needs and our design solutions and strategies will drive business transformation. </p>
+                            Our methodology produces answers and empathetic designs that connect and resonates with your users. Our methodology uncovers unarticulated user needs and our design solutions and strategies will drive business transformation. </p>
                     </div>
                 </section>
 
@@ -87,8 +87,8 @@ class methodology extends Component {
                         <div className="margin-top-15">
                             <p className="content-text-18">
                                 <div className="float-right">
-                                    <img className="container-photo-callout" style={{marginLeft:'5%'}} src={methodology2}  alt="UX" /> 
-                                    <p className="caption">Photo by Frank on Unsplash</p>
+                                    <img className="container-photo-callout" style={{marginLeft:'5%'}} src={methodology2}  alt="Design Review" /> 
+                                    
                                 </div> A design review is a process to evaluate and critique current design work. <br/> The review looks at how specific features have been implemented and/or evaluates a prototype of a project feature or user flow. Design reviews can be modeled after the five elements of the user experience with an evaluation of the elements from abstract concepts to concrete stages.
 
                                 <ul className="dashed content-text-18 margin-left-10 margin-top-15" style={{marginTop:'15px'}}>
@@ -116,7 +116,7 @@ class methodology extends Component {
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-15">
                             <p className="content-text-18"> 
-                            At the beginning of the methodology, we set the foundation for success by developing a
+                            At the beginning of the methodology, we set the foundation for success by developing an
                             understanding of the business, the industry, the competition and relevant trends. This becomes the basis for how we approach all subsequent phases. Along with secondary research, we interview stakeholders and subject matter experts, both to gain a first-hand awareness of the company context, and also to build connections within the business which contribute to stakeholder alignment throughout the engagement. This activity begins to define hypotheses for where the company intends to play in the market, who it intends to serve and how it plans to serve them. </p>
 
                             <ul className="dashed">
@@ -132,7 +132,7 @@ class methodology extends Component {
                     </div>
 
                     <div className="grid-right-truth container-image-block" style={{marginTop:'75px'}}>
-                        <img className="photo-container" src={methodology3}  alt="Methodology" /> 
+                        <img className="photo-container" src={methodology3}  alt="Research" /> 
                     </div>  
 
                 </section>
@@ -171,7 +171,7 @@ class methodology extends Component {
                         
                     </div>
                     <div className="grid-right-truth container-image-block">
-                        <img className="photo-container" style={{marginTop: '-15%'}} src={methodology4}  alt="Methodology" /> 
+                        <img className="photo-container" style={{marginTop: '-15%'}} src={methodology4}  alt="Observation" /> 
                     </div>     
                 </section>
                 
@@ -195,8 +195,8 @@ class methodology extends Component {
                         
                     </div>
                     <div className="grid-right-truth flex-layout-column">
-                        <img className="photo-container" style={{marginTop:'12%'}} src={methodology5}  alt="Methodology" /> 
-                        <p className="caption-left">Photo by Vidar Nordli-Mathisen on Unsplash</p>
+                        <img className="photo-container" style={{marginTop:'12%'}} src={methodology5}  alt=" Capturing Data" /> 
+                       
                     </div>     
                 </section>
 
@@ -217,8 +217,8 @@ class methodology extends Component {
                         </div>
                     </div>
                     <div className="grid-right-truth flex-layout-column">
-                        <img className="photo-container" style={{marginTop:'11%'}} src={methodology6}  alt="Methodology" />
-                        <p className="caption-left flex-layout-center-center">Photo by Caleb George on Unsplash</p> 
+                        <img className="photo-container" style={{marginTop:'11%'}} src={methodology6}  alt="Reflection and Analysis" />
+                         
                     </div>     
                 </section>
                 
@@ -247,7 +247,7 @@ class methodology extends Component {
                         </div>
                     </div>
                     <div className="grid-right-truth container-image-block">
-                            <img className="photo-container" style={{marginTop:'4%'}} src={methodology7}  alt="Methodology" /> 
+                            <img className="photo-container" style={{marginTop:'4%'}} src={methodology7}  alt=" Brainstorming for Solutions" /> 
                     </div>     
                 </section>
 
@@ -276,7 +276,7 @@ class methodology extends Component {
                         </div>
                     </div>
                     <div className="grid-right-truth container-image-block">
-                        <img className="photo-container" style={{marginTop: '10%'}} src={methodology8}  alt="Methodology" /> 
+                        <img className="photo-container" style={{marginTop: '10%'}} src={methodology8}  alt="Final Design Presentation" /> 
                     </div>     
                 </section>
 
@@ -303,7 +303,7 @@ class methodology extends Component {
                         </div>
                     </div>
                     <div className="grid-right-truth container-image-block">
-                        <img className="photo-container" style={{marginTop: '10%'}} src={methodology9}  alt="Methodology" /> 
+                        <img className="photo-container" style={{marginTop: '10%'}} src={methodology9}  alt="Front-end Development" /> 
                     </div>     
                 </section>
 
@@ -337,7 +337,7 @@ class methodology extends Component {
                         
                     </div>
                     <div className="grid-right-truth container-image-block">
-                        <img className="photo-container" style={{marginTop: '15%'}} src={methodology10}  alt="Methodology" /> 
+                        <img className="photo-container" style={{marginTop: '15%'}} src={methodology10}  alt="User Testing" /> 
                     </div>     
                 </section>
 
@@ -368,7 +368,7 @@ class methodology extends Component {
                         </div>
                     </div>
                     <div className="grid-right-truth container-image-block">
-                        <img className="photo-container" style={{marginTop: '15%'}} src={methodology11}  alt="Methodology" /> 
+                        <img className="photo-container" style={{marginTop: '15%'}} src={methodology11}  alt="Launch" /> 
                     </div>     
                 </section>
 
@@ -399,8 +399,8 @@ class methodology extends Component {
                         
                     </div>
                     <div className="grid-right-truth flex-layout-column">
-                        <img className="photo-container" style={{marginTop: '15%'}} src={methodology12}  alt="Methodology" />
-                        <p className="caption-left">Photo by Tim Mossholder on Unsplash</p> 
+                        <img className="photo-container" style={{marginTop: '15%'}} src={methodology12}  alt="Design Support" />
+                        
                     </div>     
                 </section>
                 
@@ -431,7 +431,7 @@ class methodology extends Component {
                         </div>
                     </div>
                     <div className="grid-right-truth container-image-block">
-                        <img className="photo-container" style={{marginTop: '14%'}} src={methodology13}  alt="Methodology" /> 
+                        <img className="photo-container" style={{marginTop: '14%'}} src={methodology13}  alt=" Core Offerings" /> 
                     </div>     
                 </section>
 
@@ -471,7 +471,7 @@ class methodology extends Component {
                                 It's best to keep talent in their own lane </p>
                             <p className="content-text-18 margin-top-15 ">  
                             
-                            A common design practice by companies is having its engineers and developers do the design work on apps, products and websites. Forcing them out of their untrained lane, get the most out of your employees by allowing them to concentrate on what they do best and keep them in their lanes. Leave the design work to the WDS specialists.
+                            A common design practice is having engineers and developers do the design work on apps, products and websites. Forcing them out of their untrained lane will get the most out of your employees by allowing them to concentrate on what they do best. Leave the design work to the WDS specialists.
 </p> 
 
                         </div>

@@ -5,6 +5,7 @@ import casscade from '../images/photos/photo-css-s1.png';
 import css3 from '../images/photos/photo-css-s3.png';
 import css4 from '../images/photos/photo-css-s4.png';
 import css2 from '../images/photos/photo-css-s2.png';
+import cheer from '../images/graphic-css-cheer.svg';
 import itcss from '../images/ITCSS.png';
 
 
@@ -28,15 +29,17 @@ class css_solutions extends Component {
                     </div>              
                 
                     <div className="grid-callout-photo grid-placeself-center">
-                        <img className="container-photo-callout" src={casscade}  alt="css code" /> 
+                        <img className="container-photo-callout" src={casscade}  alt="CSS code" /> 
                 </div>
             </section>
             <section className="content-header flex-layout-center-center flex-layout-column">
                 <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-50">
                         WDS develops lean scalable CSS solutions, saving your business time and money, while keeping your developers happy.
+                        
                 </div>
                 <div className="content-block-50 margin-top-50">
                     <p className="content-text-24 text-align-center">
+                        <img className="container-photo-callout margin-bottom-20" src={cheer}  alt="Happy developers" /> <br></br>
                         Our solutions are based off our empathy and experiences working with developers. After our design solutions our CSS knowledge and experience is one of the main reasons WDS gets contracted by companies. Our CSS solutions are scalable and customizable to your business requirements. </p>
                 </div>
                 <button type="button" className="margin-top-50 font-size-24"><a href="case_study_4">

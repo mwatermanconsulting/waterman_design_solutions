@@ -9,7 +9,7 @@ import finding_truth5 from '../images/photos/photo-finding-truth-s5.png';
 import finding_truth6 from '../images/photos/photo-finding-truth-s6.png';
 import finding_truth7 from '../images/photos/photo-finding-truth-s7.png';
 import finding_truth8 from '../images/photos/photo-finding-truth-s8.png';
-import didyouknow from '../images/graphic-didyouknow.png';
+import didyouknow from '../images/graphic-didyouknow.svg';
 
 class innovative_solutions extends Component {
     render () {
@@ -27,24 +27,24 @@ class innovative_solutions extends Component {
             </section>
             <section className="grid-2col-photo-content photo-content-color border-bottom-5 height-670" > 
                 <div className="grid-item-b content-block-60 content-header flex-layout-column">
-                    <div className="callout-text text-align-left text-white">
-                        Our methodology allows us to connect with users. Our UX designers are passionate and empathic. Our team knows connects with users by empathizing through observing and interviewing techniques. People will always open up and confide in you if they feel you are on their side and you care about their needs. This is how WDS uncover truths that were unknown. </div>
+                    <div className="callout-text text-align-left">
+                        Our methodology allows us to connect with users. Our UX designers connect with users by empathizing by observing and interviewing. People will always open up and confide in you if they feel you are on their side and you care about their needs. This is how WDS uncover truths that were unknown. </div>
                              
                 </div>
                 <div className="item-a-nb container-image-block">
-                    <img className="container-photo-callout" src={finding_truth2}  alt="shaking hands" /> 
+                    <img className="container-photo-callout" src={finding_truth2}  alt="Finding Truth" /> 
                 </div>
             </section>
     
             <div className="content-header flex-layout-center-center flex-layout-column margin-top-75">
                 <div className="flex-layout-center-center title text-align-center margin-top-75 width-100 content-block-60">
-                    Its the people behind our methodology that makes the difference. 
+                    It's the people behind our methodology that makes the difference. 
                 </div>
                 <div className="content-block-55 margin-top-50">
                     <p className="content-text-24 text-align-center">
                     WDS discovers the patterns and themes that provide actionable, deeper and more valuable perspectives on your customers' wants, needs and motivations.</p>
                     <p className="content-text-24 text-align-center">
-                    The most meaningful insights for experience strategy are developed with behavior-based understanding of users. Our experience strategists observe people in context - where they work, play or live - to understand their goals, needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve.</p>
+                    The most meaningful insights for experience strategy are developed with a behavior-based understanding of users. Our experience strategists observe people in context - where they work, play or live - to understand their goals, needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve.</p>
                 </div>
             </div>
             
@@ -59,11 +59,10 @@ class innovative_solutions extends Component {
                 </div>
                 <div className="content-block-60 content-text-18 margin-top-15"> 
                 <div className="float-right">
-                        <img className="photo-container" style={{marginTop: '-5px'}} src={finding}  alt="Stakeholder Interview" /> 
+                        <img className="photo-container" style={{marginTop: '-5px'}} src={finding}  alt="Establish Business Context" /> 
                     </div>  
                     <p className="content-text-18"> 
-                        At the beginning of an engagement, we set the foundation for success by developing a
-                        understanding of the business, the industry, the competition and relevant trends. This becomes the basis for how we approach all subsequent phases. Along with secondary research, we interview stakeholders and subject matter experts, both to gain a first-hand awareness of the company context, and also to build connections within the business which contribute to stakeholder alignment throughout the engagement. This activity begins to define hypotheses for where the company intends to play in the market, who it intends to serve and how it plans to serve them.
+                        At the beginning of an engagement, we set the foundation for success by developing an understanding of the business, the industry, the competition and relevant trends. This becomes the basis for how we approach all subsequent phases. Along with secondary research, we interview stakeholders and subject matter experts. This helps us gain a first-hand awareness of the company context, allowing us to build connections within the business, that contributes to stakeholder alignment. This activity begins to define hypotheses for where the company intends to play in the market, who it intends to serve and how it plans to serve them.
                     </p>
                 </div>
                 </section>
@@ -81,13 +80,13 @@ class innovative_solutions extends Component {
                             <p className="content-text-18"> 
                             Great strategies for design solutions are built on rich insight. The most meaningful insights for experience strategy are developed with a deep, behavior-based understanding of users or customers. 
                             <div className="float-right">
-                        <img className="photo-container" src={finding_truth3} style={{marginRight:'12%'}} alt="Stakeholder Interview" /> 
+                        <img className="photo-container" src={finding_truth3} style={{marginRight:'12%'}} alt=" Field Observation and Interviews" /> 
                             </div> Our experience strategists observe people in context - where they work, play or live - to understand their goals, needs and aspirations as they go about their daily lives. If a product does not yet exist, this first-hand look helps to identify unmet needs that a product may solve.</p>
 
                             <p className="content-text-18">
                             Using techniques from the fields of anthropology, psychology, product development and design, we use methods such as “contextual inquiry” to observe and record a rich variety of data, including body language, how people interact with their tools and how they construct their environments to be successful in their worlds. 
                             
-                               The value here is seeing and finding unexpected elements which lead to surprising insights.</p>
+                              <br></br> The value here is seeing and finding unexpected elements which lead to surprising insights.</p>
 
                             <p className="content-text-18">
                             To get to the core of what they care about, we also open authentic dialogues with customers to hear the stories that define their experiences.</p>
@@ -98,16 +97,16 @@ class innovative_solutions extends Component {
 
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
-                            Develop a Persona
+                            Developing a Persona
                     </div>
                         <div className="subtitle content-block-60 margin-top-15">
-                            Introducing the voices of the user
+                            Introducing the voice of the user
                         </div>
                         <div className="content-block-60 content-text-18 margin-top-15"><div className="float-right">
-                        <img className="photo-container" src={finding_truth4}  alt="Your Business is Our Joy" /> 
+                        <img className="photo-container" src={finding_truth4}  alt="Developing a Persona" /> 
                     </div>  
                             <p className="content-text-18"> Because specific targets are better than vague ones, we create personas - single archetypes that represent a group of people with similar behaviors, attitudes and motivations. Personas keep us focused on real people who exhibit unique sets of characteristics. These behavior-based personas assist us throughout ideation, design and marketing to help teams develop appropriate solutions and messages.</p>
-                            <p className="content-text-18">While personas are a popular technique used by many companies. Especially, to argue user cases.  WDS personas are far more robust than those created from market research data alone. Well-crafted personas grounded in user observations, developed around real users and not simple demographic data. Instead, they tell us about what drives segments to behave and believe as they do.</p>           
+                            <p className="content-text-18">While personas are a popular technique used by many companies, especially to argue user cases,  WDS personas are far more robust than those created from market research data alone. We develop well-crafted personas grounded in user observations around REAL users instead of simple demographic data. </p>           
                         </div> 
                 </section>
 
@@ -122,9 +121,9 @@ class innovative_solutions extends Component {
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
                        <div className="float-right">
-                        <img className="photo-container" src={finding_truth5}  alt="Finding the Truth" /> 
+                        <img className="photo-container" src={finding_truth5}  alt=" Visualize the experience touchpoints" /> 
                         </div>      
-                        <p className="content-text-18"> Data is only as valuable as the meaning we craft
+                        <p className="content-text-18"> Data is only as valuable as the meaning we derive
                             from it. We have tried-and-true methods for moving
                             from observations to insights. These meaningful
                             insights are the next building block in the process of
@@ -150,7 +149,7 @@ class innovative_solutions extends Component {
                         <div className="content-block-60 content-text-18 margin-top-25">
                             <p className="content-text-18"> 
                             When an engagement centers on a complex tool for enterprise business, the simplified workflow diagram captures activity across organizational roles and provides stakeholders a single view of all of the work accomplished in and around a tool. This diagram gives stakeholders an “aha!” moment as, for the first time,  <div className="float-right">
-                                <img className="photo-container" src={finding_truth6}  alt="Stakeholder Interview" /> 
+                                <img className="photo-container" src={finding_truth6}  alt="Simplified workflow diagram" /> 
                             </div>they have a picture of the duties employees or customers accomplish in their work lives. </p> 
 
                             <p className="content-text-18"> 
@@ -209,7 +208,7 @@ class innovative_solutions extends Component {
                          Design-driven product roadmaps give the needs of customers a seat at the table, helping to ensure that what is released is what customers will value.
                          
                     <div className="float-right">
-                    <img className="photo-container" src={finding_truth7}  alt="Review" /> 
+                    <img className="photo-container" src={finding_truth7}  alt="Establish an design-driven product roadmap" /> 
                     </div> We collaborate with product teams to incorporate the understanding and strategy developed in the revealing truth phase into the plan for how to group and sequence capabilities in an application. This includes the selection of features for the minimum viable product – an MVP that users and customers will be eager to adopt because it is developed with their needs in mind.</p>
                             
                             <p className="content-text-18"> 
@@ -229,7 +228,7 @@ class innovative_solutions extends Component {
                         <div className="content-block-60 content-text-18 margin-top-15">
                             <p className="content-text-18"> 
                             <div className="float-right">
-                        <img className="photo-container" src={finding_truth8}  alt="Review" /> 
+                        <img className="photo-container" src={finding_truth8}  alt="Start Early and establish your project plan " /> 
                     </div>
                             The revealing truth phase is an investment in understanding how to create an experience that resonates with customers. 
                             One dividend of the investment is that these insights can now feed directly into the strategy for enabling customers to become aware of and engage with the planned experiences, and the organization as a whole.</p>
