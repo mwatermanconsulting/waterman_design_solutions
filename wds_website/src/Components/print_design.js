@@ -27,7 +27,7 @@ class print_design extends Component {
                 </div>
             </section>
             <section className="grid-2col-photo-content photo-content-color border-bottom-5 height-670"> 
-                <div className="grid-left content-block-60 content-header flex-layout-column">
+                <div className="grid-left content-block-60 flex-layout-column">
                     <div className="callout-text text-align-left">
                         Print ads are more effective when they are a complement to your digital campaigns, enticing your audience to interact with your brand online. 
                     </div>      
@@ -84,8 +84,8 @@ class print_design extends Component {
 
             <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-            <section className="flex-layout-section-full align-self-center">
-                    <div className="grid-2col-text-center margin-top-25" >
+            <section className="flex-layout-section-full   align-self-center">
+                    <div className="grid-2col-text-center margin-left-15 margin-top-25" >
                         <div className="grid-title subtitle content-text-24 margin-bottom-20">
                             Print design services include: 
                         </div>

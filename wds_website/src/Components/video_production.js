@@ -50,7 +50,7 @@ class video_production extends Component {
             <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">
             
                 <section className="grid-2col-photo-content content-header">
-                    <div className="grid-left flex-layout-section-full" style={{marginLeft:'38%'}}>
+                    <div className="grid-left flex-layout-section-full">
                         <div className="title">
                             Videos should tell a story
                         </div>
@@ -122,7 +122,7 @@ Effective marketing videos have a conversational tone. It creates an individual 
                 <div className="align-center align-items-center margin-top-25">
                     <ul className="grid-clients-wrapper align-items-center  width-70">
                     <li  className="grid-clients-box "  data-content="ACD">
-                    <iframe className="width-100 height-100" src="https://youtu.be/Us_1q7_nbLo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe className="width-100 height-100" src="https://www.youtube.com/embed/Us_1q7_nbLo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </li>
                     <li  className="grid-clients-box "  data-content="White Wolf Consulting"> 
                     <iframe className="width-100 height-100" src="https://www.youtube.com/embed/2PjgxbyNKdI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

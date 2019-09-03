@@ -47,8 +47,8 @@ class App extends Component {
                 <a href="./methodology">Methodology Overview </a>
                 <a href="./finding_truth">Finding the Truth</a>
                 <a href="./innovative_solutions">Innovative Solutions</a>
-                <a href="./strategy_insight">Strategy & Insight</a>
-                <a href="./communication_insights">Communication Insights</a>
+                <a href="./strategy_insight">Strategy and Insight</a>
+           {/*     <a href="./communication_insights">Communication Insights</a> */}
               </div>
               </li>
               <li class="dropdown">
@@ -100,7 +100,7 @@ class App extends Component {
               <li><a className="text-black" href="./ux_design">UX Design </a></li>
               <li><a className="text-black" href="./ui_design">UI Design</a></li>
               <li><a className="text-black" href="./css_solutions">CSS Solutions</a></li>
-              <li><a className="text-black" href="./strategy_insight">Strategy & Insights</a></li>
+              <li><a className="text-black" href="./strategy_insight">Strategy and Insights</a></li>
               <li><a className="text-black" href="./design_systems">Design Systems</a></li>
               
               </ul>
@@ -111,7 +111,7 @@ class App extends Component {
               <li><a className="text-black" href="./methodology">Overview</a></li>
               <li><a className="text-black" href="./finding_truth">Finding the Truth</a></li>
               <li><a className="text-black" href="./innovative_solutions">Innovative Solutions</a></li>
-              <li><a className="text-black" href="./communication_insights">Communications Insights</a></li>
+         {/*     <li><a className="text-black" href="./communication_insights">Communications Insights</a></li> */}
               </ul>
           </div>
           <div className="grid-footer-item-4 text-white subtitle-menu"> 
@@ -125,12 +125,11 @@ class App extends Component {
           </div> 
           
             <div className="grid-footer-item-5 subtitle-menu text-white">
-                Social Media Junk
+                Social Media
               <ul>
               <li><a href="./news_insights">Overview</a></li>
               <li><a href="./">Blog</a></li>
               <li><a href="./">News</a></li>
-              <li><a href="./test_area">Playground</a></li>
               </ul>
         </div>
     </div>

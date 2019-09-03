@@ -32,7 +32,7 @@ class style_guide extends Component {
                 </div>
                     <div className="col2-photo grid-placeself-right">
                         <img className="container-photo-callout" src={digital_systems1}  alt="Digital Systems" /> 
-                        <p className="caption">Photo by Clint Adair on Unsplash</p>
+                       
                     </div> 
             </div>
             </section>
@@ -66,7 +66,7 @@ class style_guide extends Component {
                     </section>
                     <div className="grid-right-css margin-top-50">
                         <img className="photo-container width-100" src={digital_systems2}  alt="Digital Systems" /> 
-                        <p className="caption">Image by rawpixel from Pixabay </p>
+                        
                     </div>     
                 </section>
 
@@ -106,7 +106,7 @@ class style_guide extends Component {
                         
                                 During the initial creation of a design system — and its periodic updates — design systems get the right conversations started. Which logos go with different screen sizes? How do you want to handle the search function? <div className="float-right">
                             <img className="photo-container width-100" src={digital_systems4}  alt="Digital Systems" /> 
-                            <p className="caption">Photo by Aubrey Rose Odom on Unsplash </p>
+                            
                         </div>What is the best accent color for call-to-action buttons? Simply setting out to make a design system forces your team to answer these questions, and make those answers easily accessible to everyone.</p> 
                             <p className="content-text-18">
                                 Having this kind of master reference guide also helps avoid miscommunication. By offering a definitive protocol and standards for otherwise ambiguous elements, design systems keep everyone on the same page. No guesswork, assumptions, or “going rogue.”Design systems also do wonders for sometimes-problematic dev handoffs. Because technical specs are embedded in the document, there’s less confusion about how to build something in the backend, or whether it can be built at all. Designs systems give designers and developers a shared language.</p>           
@@ -115,7 +115,7 @@ class style_guide extends Component {
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="grid-2things flex-layout-center-center content-header" style={{marginLeft: '15%'}}>
+                <section className="grid-2things flex-layout-center-center content-header margin-left-17">
                     <div className="thing1 flex-layout-section-full">
                         <div className="subtitle">
                             No Version Control Problems

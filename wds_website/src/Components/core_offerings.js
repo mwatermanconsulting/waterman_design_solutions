@@ -27,19 +27,19 @@ class core_offerings extends Component {
                         We are your design support.
                 </div>
             </div>
-            <div className="grid-2col-photo-content photo-content-color border-bottom-5 height-670" > 
-                    <div className="item-a-nb content-block-60 content-header flex-layout-column">
-                    <div className="callout margin-top-15">
+            <section className="grid-callout photo-content-color border-bottom-5 height-670"> 
+                    <div className="grid-callout-text grid-placeself-center padding content-block-75 content-header flex-layout-column">
+                        <div className="callout-text-black margin-top-15">
                         The best customer experience starts with the Golden Rule - treat the user the way you would like to be treated.
                     </div>
                         <div className="callout-text-black text-align-left margin-top-15">
                         Too often, companies get attached to the product and lose sight of the people. 
                         </div>
                     </div>
-                    <div className="grid-item-b container-image-block">
+                    <div className="grid-callout-photo grid-placeself-center">
                         <img className="container-photo-callout" src={offerings1}  alt="Core Offerings" /> 
                     </div>
-            </div>
+            </section>
             <section className="flex-layout-column flex-layout-center-center margin-top-100">
                     <div className="subtitle content-block-65">
                         Our core offerings ensure your business success by instilling design solutions at a core level. It has been proven that valuing design and instill a culture of design, from the C-suite down, increases business by 30%. We have a series of strategies and workshops based on empathy for our clients and users to help them achieve lasting success by being responsive to your users needs.    
