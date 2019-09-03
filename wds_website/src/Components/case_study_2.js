@@ -21,13 +21,14 @@ import stubhub_s2 from '../images/photos/photo-stubHub-s2.png';
 class case_study_2 extends Component {
     render () {
         return(
-            <div className="flex-layout-column flex-layout-section-full">
-                <section className="image-background-border-tb flex-layout-row width-100">
-                    <div className="header-title-cs align-self-center header-text-left text-white">
+            <div className="flex-layout-column flex-layout-section-full image-background-border-top">
+                <section className="flex-layout-row height-60-mobile width-100"> 
+                    <div className="header-text-left header-title-cs align-self-center text-white">
                         Case Study - StubHub
                     </div>
                         <img className="header-text-right align-self-center width-10" src={stubhub_logo_white}  alt="StubHub Case Study Logo Image" /> 
-                        <img className="flex-image-container width-100" src={stubhub_bg}  alt="StubHub Case Study " />  
+                        <img className="flex-image-container width-100" src={stubhub_bg}  alt="StubHub Case Study " /> 
+                         
                 </section> 
                 <section className="container-section padding-20 m border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg">
@@ -36,7 +37,7 @@ class case_study_2 extends Component {
                 </section>
                 <section className="flex-layout-section-fixed-sm margin-top-75">
                     <div className="content-header flex-layout-center-center"> 
-                        <div className="content-block-55 subtitle"> StubHub was developing an internal business intelligence platform . Their initial two releases were not successful and after a year of non-use,StubHub needed answers. Six months later WDS turned this failure into a success. Below is the case study of this story.
+                        <div className="content-block-55 subtitle"> StubHub was developing an internal business intelligence platform. Their initial two releases were not successful and after a year of non-use, StubHub needed answers. Six months later WDS turned this failure into a success. 
                         </div>
                     </div>
                 </section>  
@@ -365,7 +366,7 @@ class case_study_2 extends Component {
                         </section>
                         <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-25 margin-bottom-100">
                             <img className="photo-container-cs-sb1" src={stubhub_results} alt="Finding the Truth - Business Perspective"/>
-                            <p className="margin-top-15 margin-bottom-100">
+                            <p className="margin-top-15 text-align-center margin-bottom-100">
                                 <i>StubHub happily emailed WDS this screenshot six months after release </i></p>
                         </div>
                         <div className="container-bottom-callout">

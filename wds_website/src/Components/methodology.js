@@ -85,11 +85,12 @@ class methodology extends Component {
                             Uncovering Design Problems
                         </div>
                         <div className="margin-top-15">
-                            <p className="content-text-18">
-                                <div className="float-right">
-                                    <img className="container-photo-callout" style={{marginLeft:'5%'}} src={methodology2}  alt="Design Review" /> 
+                            <div className="float-right">
+                                    <img className="container-photo-callout" and src={methodology2}  alt="Design Review" /> 
                                     
-                                </div> A design review is a process to evaluate and critique current design work. <br/> The review looks at how specific features have been implemented and/or evaluates a prototype of a project feature or user flow. Design reviews can be modeled after the five elements of the user experience with an evaluation of the elements from abstract concepts to concrete stages.
+                                </div> 
+                            <p className="content-text-18">
+                                A design review is a process to evaluate and critique current design work. <br/> The review looks at how specific features have been implemented and/or evaluates a prototype of a project feature or user flow. Design reviews can be modeled after the five elements of the user experience with an evaluation of the elements from abstract concepts to concrete stages.
 
                                 <ul className="dashed content-text-18 margin-left-10 margin-top-15" style={{marginTop:'15px'}}>
                                     <li><b>Surface</b> - everything visually the <br/> "Look and Feel"  of the site or app</li>
@@ -106,15 +107,19 @@ class methodology extends Component {
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
                 
-                <section className="grid-2col-photo-content margin-top-60 flex-layout-section-full content-header">
-                    <div className="grid-left-truth">
+                    <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
+                    <div className="float-left flex-layout-center-center content-block-60">
                         <div className="title">
                              Research
                         </div>
                         <div className="subtitle margin-top-15">
                              Understanding the Business
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-15">
+                        <div className="margin-top-15">
+                        <div className="float-right">
+                                    <img className="container-photo-callout" and src={methodology3}  alt="Research" /> 
+                                    
+                                </div> 
                             <p className="content-text-18"> 
                             At the beginning of the methodology, we set the foundation for success by developing an
                             understanding of the business, the industry, the competition and relevant trends. This becomes the basis for how we approach all subsequent phases. Along with secondary research, we interview stakeholders and subject matter experts, both to gain a first-hand awareness of the company context, and also to build connections within the business which contribute to stakeholder alignment throughout the engagement. This activity begins to define hypotheses for where the company intends to play in the market, who it intends to serve and how it plans to serve them. </p>
@@ -131,16 +136,14 @@ class methodology extends Component {
                         </div>
                     </div>
 
-                    <div className="grid-right-truth container-image-block" style={{marginTop:'75px'}}>
-                        <img className="photo-container" src={methodology3}  alt="Research" /> 
-                    </div>  
+                    
 
                 </section>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="grid-2col-photo-content content-header flex-layout-center">
-                    <div className="grid-left-truth flex-layout-section-full ">
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
+                    <div className="float-left flex-layout-center-center content-block-60">
                         <div className="title">
                             Observation
                         </div>
@@ -150,6 +153,9 @@ class methodology extends Component {
                         </div>
                         
                         <div className="margin-top-15" >
+                            <div className="float-right">
+                                    <img className="container-photo-callout" and src={methodology4}  alt="Observation" /> 
+                            </div> 
                             <p className="content-text-18 content-block-75">
                                 Observation provides insight beyond the traditional testing methods. Observation of  users while they work in a real life setting, provides invaluable insights. Our team members conduct their observations and services, in a highly unobtrusive way simply by planting themselves in their offices and video taping. Our goal in this phase is to emphasize with the user as they complete their the users work flows and pain points. Although observation is our first choice, our experience has shown this is not always feasible, as was in the case with Motorola. All of our strategies in this phase are sophisticated, empathic observers that can see solutions<br/> to unarticulated needs
                             </p>
@@ -170,15 +176,13 @@ class methodology extends Component {
                         </div>
                         
                     </div>
-                    <div className="grid-right-truth container-image-block">
-                        <img className="photo-container" style={{marginTop: '-15%'}} src={methodology4}  alt="Observation" /> 
-                    </div>     
+                       
                 </section>
                 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="grid-2col-photo-content content-header flex-layout-center">
-                    <div className="grid-left-truth flex-layout-section-full ">
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
+                    <div className="float-left flex-layout-center-center content-block-60">
                         <div className="title">
                             Capturing Data
                         </div>
@@ -187,52 +191,55 @@ class methodology extends Component {
                             Understanding the Research
                         </div>
                         
-                        <div className="content-block-75 margin-top-15">
+                        <div className="margin-top-15">
+                            <div className="float-right">
+                                    <img className="container-photo-callout" and src={methodology5}  alt="Observation" /> 
+                            </div> 
                             <p className="content-text-18">
                             To understand the research we need to understand the people and know how to interpret people’s actions, our observers may ask a few very open ended questions, such as; “Why are you doing that?” They often carry a list of questions to prompt their own observations, for example; “What problems is the user encountering?” Most of our data is gathered from visual, auditory, sensory cues. Presenting our empathic-design teams very  videography, interview recordings and notes as tools, to begin reflection.
                             </p>
                         </div>
                         
                     </div>
-                    <div className="grid-right-truth flex-layout-column">
-                        <img className="photo-container" style={{marginTop:'12%'}} src={methodology5}  alt=" Capturing Data" /> 
-                       
-                    </div>     
+                        
                 </section>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="grid-2col-photo-content content-header">
-                    <div className="grid-left-truth content-block-65 flex-layout-section-full">
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
+                    <div className="float-left flex-layout-center-center content-block-60">
                         <div className="title">
                             Reflection and Analysis
                         </div>
                         <div className="subtitle margin-top-15">
                             Empathizing with Users 
                         </div>
-                        <div className="content-block-65 content-text-18 margin-top-15">
+                        <div className=" margin-top-15">
+                            <div className="float-right">
+                                    <img className="container-photo-callout" and src={methodology6}  alt="Reflection and Analysis" /> 
+                            </div> 
                             <p className="content-text-18"> 
                             After gathering data in many forms, the UX designers return to reflect on the user and business research and to review the data with the team. Analyzing workflows, user journeys and pain points. They will ask questions that the team members may or may not be able to answer resulting in sending them out for further observation and research. At this point the team begins to identify all of its customers’ possible problems and needs.</p>
 
                         </div>
                     </div>
-                    <div className="grid-right-truth flex-layout-column">
-                        <img className="photo-container" style={{marginTop:'11%'}} src={methodology6}  alt="Reflection and Analysis" />
-                         
-                    </div>     
+                        
                 </section>
                 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="grid-2col-photo-content content-header flex-layout-center">
-                    <div className="grid-left-truth flex-layout-section-full ">
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
+                    <div className="float-left flex-layout-center-center content-block-60">
                         <div className="title">
                             Brainstorming for Solutions
                         </div>
                         <div className="subtitle margin-top-15 content-block-65">
                             Turning Ideas into Designs
                         </div>
-                        <div className="content-block-75 margin-top-15" >
+                        <div className="margin-top-15" >
+                            <div className="float-right">
+                                    <img className="container-photo-callout" and src={methodology7}  alt="Brainstorming for Solutions" /> 
+                            </div>
                             <p className="content-text-18">
                             Brainstorming is a valuable part of any methodology process; it is used specifically to transform the research into graphic, visual representations of possible solutions. Although brainstorming is generally associated with a creative process, it is not undisciplined. We tell our team to heed five rules: </p>
 
@@ -246,22 +253,23 @@ class methodology extends Component {
                             
                         </div>
                     </div>
-                    <div className="grid-right-truth container-image-block">
-                            <img className="photo-container" style={{marginTop:'4%'}} src={methodology7}  alt=" Brainstorming for Solutions" /> 
-                    </div>     
+                         
                 </section>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="grid-2col-photo-content content-header">
-                    <div className="grid-left-truth flex-layout-section-full">
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
+                    <div className="float-left flex-layout-center-center content-block-60">
                         <div className="title">
                             Final Design Presentation
                         </div>
                         <div className="subtitle margin-top-15">
                             Design with Empathy
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-15">
+                        <div className="margin-top-15">
+                            <div className="float-right">
+                                    <img className="container-photo-callout" and src={methodology8}  alt="Final Design Presentation" /> 
+                            </div>
                             <p className="content-text-18"> 
                                The final design incorporates all the research findings and design solutions. WDS understands for a project to be successful it needs to be designed with the business core values and branding that includes a simplified and effective customer experience. This ensures that the project is designed with empathy and meets the users and business expectations, solving all the uncovered problems. </p>
                             <ul className="dashed">
@@ -275,22 +283,23 @@ class methodology extends Component {
                             </ul>
                         </div>
                     </div>
-                    <div className="grid-right-truth container-image-block">
-                        <img className="photo-container" style={{marginTop: '10%'}} src={methodology8}  alt="Final Design Presentation" /> 
-                    </div>     
+                        
                 </section>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="grid-2col-photo-content content-header">
-                    <div className="grid-left-truth flex-layout-section-full">
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
+                    <div className="float-left flex-layout-center-center content-block-60">
                         <div className="title">
                             Front-end Development
                         </div>
                         <div className="subtitle margin-top-15">
                             CSS and HTML
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-15">
+                        <div className="margin-top-15">
+                            <div className="float-right">
+                                    <img className="container-photo-callout" and src={methodology9}  alt="Front-end Development" /> 
+                            </div>
                             <p className="content-text-18"> 
                             In this phase, we work closely wih the developers. We can embed our team or work remotely handling the layout of project. Developing a CSS solution and responsive HTML. We work seamlessly with developers developing the front-end as they code the back-end working in your agile cycles. </p>
                             <ul className="dashed">
@@ -302,15 +311,13 @@ class methodology extends Component {
                             </ul>
                         </div>
                     </div>
-                    <div className="grid-right-truth container-image-block">
-                        <img className="photo-container" style={{marginTop: '10%'}} src={methodology9}  alt="Front-end Development" /> 
-                    </div>     
+                         
                 </section>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="grid-2col-photo-content content-header">
-                    <div className="grid-left-truth flex-layout-section-full ">
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
+                    <div className="float-left flex-layout-center-center content-block-60">
                         <div className="title">
                             User Testing
                         </div>
@@ -318,7 +325,10 @@ class methodology extends Component {
                             Always keeping the customer in the loop
                         </div>
                         
-                        <div className="content-block-75 margin-top-15" >
+                        <div className="margin-top-15" >
+                            <div className="float-right">
+                                    <img className="container-photo-callout" and src={methodology10}  alt="User Testing" /> 
+                            </div>
                             <p className="content-text-18">
                             The testing phase reveals if we answered all the questions, by reducing the users pain points and meeting their expectations. This phase will last the entire development phase and never stop.
                             </p>
@@ -336,22 +346,23 @@ class methodology extends Component {
                         </div>
                         
                     </div>
-                    <div className="grid-right-truth container-image-block">
-                        <img className="photo-container" style={{marginTop: '15%'}} src={methodology10}  alt="User Testing" /> 
-                    </div>     
+                        
                 </section>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="grid-2col-photo-content content-header">
-                    <div className="grid-left-truth flex-layout-section-full">
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
+                    <div className="float-left flex-layout-center-center content-block-60">
                         <div className="title">
                             Launch
                         </div>
                         <div className="subtitle margin-top-15">
                             With You Until the End
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-15">
+                        <div className="margin-top-15">
+                            <div className="float-right">
+                                    <img className="container-photo-callout" and src={methodology11}  alt="Launch" /> 
+                            </div>
                             <p className="content-text-18"> 
                                 At the completion of the project it is important to the businesses ongoing success that we provide a design strategy road-map that will continue the business success with their users in the future.</p>
 
@@ -367,15 +378,13 @@ class methodology extends Component {
                             </ul>
                         </div>
                     </div>
-                    <div className="grid-right-truth container-image-block">
-                        <img className="photo-container" style={{marginTop: '15%'}} src={methodology11}  alt="Launch" /> 
-                    </div>     
+                       
                 </section>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="grid-2col-photo-content content-header">
-                    <div className="grid-left-truth flex-layout-section-full ">
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
+                    <div className="float-left flex-layout-center-center content-block-60">
                         <div className="title">
                             Design Support
                         </div>
@@ -383,7 +392,10 @@ class methodology extends Component {
                             A Consistent Message
                         </div>
                         
-                        <div className="content-block-75 margin-top-15">
+                        <div className="margin-top-15">
+                            <div className="float-right">
+                                    <img className="container-photo-callout"  src={methodology12}  alt="Design Support" /> 
+                            </div>
                             <p className="content-text-18">
                                 WDS offers customer experience strategies based off the research findings. WDS offers a full line of design services to ensure cohesion and consistency in your branding message.
                             </p>
@@ -398,23 +410,23 @@ class methodology extends Component {
                         </div>
                         
                     </div>
-                    <div className="grid-right-truth flex-layout-column">
-                        <img className="photo-container" style={{marginTop: '15%'}} src={methodology12}  alt="Design Support" />
                         
-                    </div>     
                 </section>
                 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="grid-2col-photo-content content-header">
-                    <div className="grid-left-truth flex-layout-section-full">
-                    <div className="title">
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
+                    <div className="float-left flex-layout-center-center content-block-60">
+                        <div className="title">
                             Core Offerings
                         </div>
                         <div className="subtitle margin-top-15">
                             Business Design Strategies
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-15">
+                        <div className="margin-top-15">
+                            <div className="float-right">
+                                    <img className="container-photo-callout" and src={methodology13}  alt="Core Offerings" /> 
+                            </div>
                             <p className="content-text-18"> 
                                 Our last part of our methodology is services to help spread design to the c-suite. It is critical to your companies survival to build a culture of empathy and design. </p>
 
@@ -430,9 +442,7 @@ class methodology extends Component {
                             </ul>
                         </div>
                     </div>
-                    <div className="grid-right-truth container-image-block">
-                        <img className="photo-container" style={{marginTop: '14%'}} src={methodology13}  alt=" Core Offerings" /> 
-                    </div>     
+                        
                 </section>
 
 

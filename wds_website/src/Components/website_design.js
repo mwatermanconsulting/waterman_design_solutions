@@ -87,7 +87,7 @@ class digital_design extends Component {
             <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
             <section className="flex-layout-section-full align-self-center">
-                <div className="grid-2col-text-center width-100" >
+                <div className="grid-2col-text-center margin-left-15 width-100" >
                     <div className="grid-title subtitle content-text-24 margin-bottom-20">
                             Website Design Services Include: 
                     </div>

@@ -20,11 +20,11 @@ class case_study_1 extends Component {
     render () {
         return(
             <div className="flex-layout-column flex-layout-section-full image-background-border-top">
-                <section className="flex-layout-row width-100"> 
+                <section className="flex-layout-row height-60-mobile width-100"> 
                     <div className="header-text-left header-title-cs align-self-center text-white">
-                        Case Study - Motorola</div>
-                    <img className="header-text-right align-self-center" src={motorola_logo}  alt="Motorola Logo" /> 
-
+                        Case Study - Motorola
+                    </div>
+                    <img className="header-text-right logo-cs-mobile align-self-center" src={motorola_logo}  alt="Motorola Logo" /> 
                     <img className="flex-image-container" src={motorola_bg}  alt="Motorola background" /> 
                 </section>
                 <section className="container-section padding-20  border-top-5 border-bottom- callout-color-dark">

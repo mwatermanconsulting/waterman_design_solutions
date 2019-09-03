@@ -50,7 +50,7 @@ class case_studies extends Component {
                                 Motorola</p>
                             <img className="width-20" src={motorola_logo}  alt="motorola logo" /> 
                         </div>
-                        <div className="flex-card-content" style={{marginTop: '-40px'}}>
+                        <div className="flex-card-content">
                             <div className="content-block">
                                 <p><i> Industry: Products</i></p>
                                 <p className="content-text-18 content-block">
@@ -70,7 +70,7 @@ class case_studies extends Component {
                                 StubHub</p>
                             <img className="width-20" src={stubhub_logo} style={{width: '15%'}}  alt="StubHub logo" /> 
                         </div>    
-                        <div className="flex-card-content" style={{marginTop: '-40px'}}>
+                        <div className="flex-card-content" >
                             <div className="content-block">
                                 <p><i> Industry: Ecommerce</i></p>
                                     <p className="content-text-18 content-block" >
@@ -84,7 +84,7 @@ class case_studies extends Component {
                        
                 <div className="cs-card-3 card-case-studies content-header flex-layout-column "> 
                     <div className="container-image-block">
-                        <img className="image-size-100" src={pfizer}  alt="Pfizer" /> 
+                        <img className="width-100" src={pfizer}  alt="Pfizer" /> 
                     </div>  
                     <div className="content-block-auto margin-top-10">
                         <div className="flex-card-content flex-layout-center-center flex-layout-justified-sb">
@@ -104,7 +104,7 @@ class case_studies extends Component {
                 </div>
                     <div className="cs-card-4 card-case-studies content-header flex-layout-column flex-sh-500">
                         <div className="container-image-block">
-                            <img className="image-size-100" src={osi}  alt="osi before and after" /> 
+                            <img className="width-100" src={osi}  alt="osi before and after" /> 
                         </div>
                         <div className="content-block-auto margin-top-10">
                             <div className="flex-card-content flex-layout-center-center flex-layout-justified-sb">
@@ -127,12 +127,12 @@ class case_studies extends Component {
                 </section>
             
 
-        <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
-                <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
-                       <a href="../communication_insights"> <img className="flex-image-container align-self-center width-70 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+                <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
+                       <img className="content-block-55 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
                       
                     <div className="flex-layout-center-center">
-                        <p className="content-header text-white flex-layout-column flex-layout-center-center"> WDS designed and developed a UX information site in 2005 called Web First Aid. </p>
+                    <p className="callout-text text-white text-align-center">  WDS designed and developed a UX information site in 2005 called Web First Aid. </p>
                     </div>
                 </div>
             </section> 

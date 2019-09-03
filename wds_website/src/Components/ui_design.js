@@ -42,7 +42,7 @@ class ui_design extends Component {
                 </div>
                 <div className="grid-callout-photo grid-placeself-center">
                         <img className="container-photo-callout" src={ui_s1}  alt="shaking hands" /> 
-                <p classname="caption">Image by Avi Chomotovski from Pixabay</p> </div>
+                 </div>
             </section>
             <section className="flex-layout-section-full flex-layout-column align-items-center">
                 <p className="title margin-top-75">
@@ -58,21 +58,20 @@ class ui_design extends Component {
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
                     <div className="float-left flex-layout-center-center content-block-65">
                         <div className="title">
-                            UI Design & Development
+                            UI Design and Development
                         </div>
                         <div className="subtitle margin-top-15">
                             Websites, Products and Applications
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
                                  <img className="container-photo-callout" src={ui_s2}  alt="UX" /> 
-                                <p className="caption">Photo by Frank on Unsplash</p>
                             </div>
                         <div className="margin-top-15">  
                             <p className="content-text-18"> 
                             WDS honed its UI design skills by designing websites in 1998. Over the years we have designed and developed complicated healthcare websites to solving difficult UI problems on critical applications. Our current data visualization designs are being used on oil rigs, nuclear reactors and pharmaceutical drug plants.  
                             </p>
                             <p className="content-text-18">
-                            WDS can take care of the front-end development including CSS & HTML development, working on-site with your team or creating GIT build-packages complete with custom CSS solutions, patterns libraries, style guides, best of practice documentation and design strategies, ensuring and enforcing original design and solutions.
+                            WDS can take care of the front-end development including CSS and HTML development, working on-site with your team or creating GIT build-packages complete with custom CSS solutions, patterns libraries, style guides, best of practice documentation and design strategies, ensuring and enforcing original design and solutions.
                             </p>      
                             
                             </div>  
@@ -91,7 +90,6 @@ class ui_design extends Component {
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
                                  <img className="container-photo-callout" src={ui_s3}  alt="UX" /> 
-                                <p className="caption">Photo by Frank on Unsplash</p>
                             </div>
                         <div className="margin-top-15">  
                        
@@ -121,7 +119,6 @@ class ui_design extends Component {
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
                                  <img className="container-photo-callout" src={ui_s4}  alt="UX" /> 
-                                <p className="caption">Photo by Frank on Unsplash</p>
                             </div>
                         <div className="margin-top-15">  
                        
@@ -150,7 +147,6 @@ class ui_design extends Component {
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
                             <img className="container-photo-callout" src={ui_s5}  alt="UX" /> 
-                            <p className="caption">Photo by Frank on Unsplash</p>
                         </div>
                         <div className="margin-top-15">  
                        
@@ -283,7 +279,7 @@ class ui_design extends Component {
                                 Motorola</p>
                             <img className="width-20" src={motorola_logo}  alt="motorola logo" /> 
                         </div>
-                        <div className="flex-card-content" style={{marginTop: '-40px'}}>
+                        <div className="flex-card-content" >
                             <div className="content-block">
                                 <p><i> Industry: Products</i></p>
                                 <p className="content-text-18 content-block">
@@ -304,7 +300,7 @@ class ui_design extends Component {
                                 StubHub</p>
                             <img className="width-20" src={stubhub_logo} style={{width: '15%'}}  alt="StubHub logo" /> 
                         </div>    
-                        <div className="flex-card-content" style={{marginTop: '-40px'}}>
+                        <div className="flex-card-content" >
                             <div className="content-block">
                                 <p><i> Industry: Ecommerce</i></p>
                                     <p className="content-text-18 content-block" >

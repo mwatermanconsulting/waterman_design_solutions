@@ -15,13 +15,14 @@ import thumbsUp from '../images/thumbsup.svg';
 class case_study_4 extends Component {
     render () {
         return(
-            <div className="flex-layout-column flex-layout-section-full">
-                <section className="image-background-border-tb flex-layout-row width-100">
-                    <div className="header-title-cs align-self-center header-text-left text-white">
+            <div className="flex-layout-column flex-layout-section-full image-background-border-top">
+                <section className="flex-layout-row height-60-mobile width-100"> 
+                    <div className="header-text-left header-title-cs align-self-center text-white">
                         Case Study - OsiSoft
                     </div>
-                        <img className="header-text-right align-self-center" src={osi_logo}  alt="Stubhub Case Study Logo Image" /> 
+                        <img className="header-text-right logo-cs-mobile align-self-center width-25" src={osi_logo}  alt="Stubhub Case Study Logo Image" /> 
                         <img className="flex-image-container" src={osi_bg}  alt="Stubhub Case Study " /> 
+                   
                 </section>
                  <section className="container-section padding-20 flex-layout-center-center border-bottom-1 callout-color-dark">
                     <div className="callout-text-lg">
