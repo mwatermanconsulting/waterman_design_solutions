@@ -59,7 +59,7 @@ class ux_design extends Component {
                             </div>
                     </section> 
                     
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                     <section className="float-left align-items-center flex-layout-column">
                         <div className="title content-block-60 ">
