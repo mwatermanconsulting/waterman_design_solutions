@@ -25,7 +25,7 @@ class innovative_solutions extends Component {
             </section>
 
             <section className="grid-callout photo-content-color border-bottom-5 height-670"> 
-                    <div className="grid-callout-text grid-placeself-center content-block-75 content-header flex-layout-column">
+                    <div className="callout-text grid-placeself-center content-block-75 content-header flex-layout-column">
                           WDS has provided solutions to applications used by  energy sectors, including nuclear reactors. We have the focus, insight and experience to solve the most difficult design and business problems on the worlds most intricate products and applications.  
                              
                     </div>
@@ -96,7 +96,7 @@ class innovative_solutions extends Component {
                     <div className="subtitle content-block-60 margin-top-15">
                             Establish Frameworks and <br/> Workflow Concepts</div>
                     <div className="content-block-60 content-text-18 "><div className="float-right">
-                        <img className="photo-container" style={{marginTop:'-8%'}} src={innovation4}  alt="Construct user model" /> 
+                        <img className="photo-container" src={innovation4}  alt="Construct user model" /> 
                     </div> 
                         <p className="content-text-18 margin-top-15">Technology is dramatically changing the way marketers work. With thousands of software solutions at our disposal to assist with automation, personalization and optimization, knowing where to start or how to get the most out of your investments is challenging.</p> 
 

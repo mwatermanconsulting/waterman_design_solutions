@@ -175,7 +175,7 @@ h1 {
   font-size: 3.05rem;
   line-height: 1.25;
   color: $title-grey;
-  opacity: .7;
+  opacity: .8;
 }
   
 .title-center {
@@ -420,7 +420,7 @@ input[type=submit]:hover {
   font-weight: normal;
   font-style: normal;
   font-size: 24px;  /* Preferred icon size */
-  display: inline-block;
+  display: none;
   line-height: 1;
   text-transform: none;
   letter-spacing: normal;

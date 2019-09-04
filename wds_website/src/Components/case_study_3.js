@@ -12,17 +12,15 @@ import thumbsUp from '../images/thumbsup.svg';
 class case_study_3 extends Component {
     render () {
         return(
-             <div className="flex-layout-column">
-                 <div className="flex-layout-column flex-layout-section-full">
-                <div className="image-background-border-tb flex-layout-row width-100">
-                    <div className="header-title-cs align-self-center header-text-left text-white">
-                        Case Study - Pfizer
+            <div className="flex-layout-column flex-layout-section-full image-background-border-top">
+            <section className="flex-layout-row height-60-mobile width-100"> 
+                <div className="header-text-left header-title-cs align-self-center text-white">
+                    Case Study - Pfizer
                     </div>
-                        <img className="header-text-right align-self-center width-25" src={pfizer_logo}  alt="Stubhub Case Study Logo Image" /> 
+                        <img className="header-text-right logo-cs-mobile align-self-center width-10" src={pfizer_logo}  alt="Stubhub Case Study Logo Image" /> 
                         <img className="flex-image-container" src={pfizer_bg}  alt="Stubhub Case Study " />  
-                </div> 
                         
-                </div>
+                </section>
                 <section className="flex-layout-section-full align-items-center margin-top-100">
                     <div className="title content-block-55">
                             Back Story
@@ -107,8 +105,8 @@ class case_study_3 extends Component {
             </section>
             
             
-                <div className="grid-callout border-top-5  grey margin-top-100" style={{height:'450px'}}>
-                       <div className="grid-callout-text grid-placeself-center width-70" style={{marginLeft:'42%'}}>
+                <div className="grid-callout border-top-5  grey margin-top-100">
+                       <div className="grid-callout-text grid-placeself-center width-70" >
                        <div className="title align-items-center text-white margin-top-15">
                          Results
                     </div>
