@@ -16,6 +16,10 @@
 .header {
   background: #fff !important; }
 
+.material-icons {
+  margin-top: 20px;
+  display: none; }
+
 .svg-image {
   height: auto;
   width: auto; }
@@ -113,30 +117,6 @@ footer {
   background: #fff !important; }
 
 /* Navbar container */
-/*******************************
-         react-overrides
-  *******************************/
-.mdl-layout__drawer-button {
-  color: white !important; }
-
-.mdl-layout__header-row .mdl-navigation__link {
-  color: white !important; }
-
-.mdl-layout__header-row {
-  height: 100% !important; }
-
-.mdl-layout.has-scrolling-header .mdl-layout__content {
-  overflow-y: visible !important;
-  overflow-x: visible !important; }
-
-footer {
-  background-color: #daa09a !important;
-  color: black !important; }
-
-.header {
-  background: #fff !important;
-  height: 76px !important; }
-
 .lightgreen {
   background-color: #BDCCD4; }
 
@@ -931,8 +911,6 @@ h4 {
 .justify-items-center {
   justify-items: center; }
 
-a {
-  color: #3eaca9 !important; }
 
 a.black {
   color: black !important; }
@@ -1232,7 +1210,7 @@ input[type=submit]:hover {
   font-style: normal;
   font-size: 24px;
   /* Preferred icon size */
-  display: inline-block;
+  display: none;
   line-height: 1;
   text-transform: none;
   letter-spacing: normal;
@@ -2616,6 +2594,12 @@ ul.menu > li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block; }
 
+.material-icons {
+  font-family: 'Material Icons';
+  font-size: 24px;
+  line-height: 1;
+  display: none; }
+
 .lightgreen {
   background-color: #BDCCD4; }
 
@@ -2658,12 +2642,82 @@ ul.menu > li.dropdown {
 /*******************************
          Mixins
   *******************************/
+/*******************************
+         react-overrides
+  *******************************/
+.mdl-layout__drawer-button {
+  color: white !important; }
+
+.mdl-layout__header-row .mdl-navigation__link {
+  color: white !important; }
+
+.mdl-layout__header-row {
+  height: 100% !important; }
+
+.mdl-layout.has-scrolling-header .mdl-layout__content {
+  overflow-y: visible !important;
+  overflow-x: visible !important; }
+
+footer {
+  background-color: #daa09a !important;
+  color: black !important; }
+
+.header {
+  background: #EC1000;
+  height: 76px !important; }
+
+.mdl-layout__header-row {
+  padding: 0 40px 0 5px; }
+
+.material-icons {
+  opacity: 0;
+  display: none; }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */ }
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  /* Styles */ }
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */ }
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */ }
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */ }
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */ }
+
+/**********
+  iPad 3
+  **********/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Styles */ }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Styles */ }
+
+/* Desktops and laptops ----------- */
+/* Styles */
 @media only screen and (max-width: 900px) {
+  .material-icons {
+    opacity: 100%; }
   .content-text-21 {
     font-family: Roboto;
     font-size: 1.3125rem;
     line-height: 1.88;
     text-align: left; }
+  .mobile-menu {
+    display: 100%; }
   .content-text-18 {
     font-family: Roboto;
     font-size: 1.2rem;

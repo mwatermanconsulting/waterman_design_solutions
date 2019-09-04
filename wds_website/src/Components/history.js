@@ -171,7 +171,7 @@ class about extends Component {
                     <section className="flex-layout-section-full align-items-center">
                         <div className="subtitle text-align-center content-block-55">
                             Our First Youtube Video</div>
-                        <div classname="video content-block-55">
+                        <div className="video content-block-55">
                             <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BHQSXijoCVY?rel=0 controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe>
                         </div>
                     </section>
