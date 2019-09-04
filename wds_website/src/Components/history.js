@@ -9,7 +9,7 @@ import surreal from '../images/photos/photo-history-surreal-quarter-ad.png'
 import stubhub_after_4 from '../images/photos/photo-stubhub-cbt.png';
 import wallys from '../images/photos/photo-history-wallys.png'
 import wfa from '../images/photos/photo-history-wfa.png'
-import four from '../images/photos/photo-history-411.jpg'
+import four from '../images/photos/photo-history-411.png'
 import pw from '../images/photos/photo-history-pw.png'
 import rdeb from '../images/photos/photo-history-rdeb.jpg'
 import taws from '../images/photos/photo-history-taws.png'
