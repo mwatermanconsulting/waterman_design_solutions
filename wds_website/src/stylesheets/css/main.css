@@ -112,6 +112,7 @@ footer {
 .header {
   background: #fff !important; }
 
+/* Navbar container */
 /*******************************
          react-overrides
   *******************************/
@@ -294,6 +295,9 @@ footer {
 
 .margin-top-5per {
   margin-top: -5%; }
+
+.margin-top-20per {
+  margin-top: -20%; }
 
 .margin-top-1 {
   margin-top: -1%; }
@@ -2526,9 +2530,6 @@ ul.menu > li {
   text-decoration: none;
   font-size: .875rem; }
 
-li a .dropdown:hover .dropbtn {
-  background-color: rgba(140, 139, 139, 0.2); }
-
 ul.menu > li.dropdown {
   display: inline-block; }
 
@@ -2537,7 +2538,7 @@ ul.menu > li.dropdown {
   position: absolute;
   background-color: #fff;
   color: black;
-  min-width: 160px;
+  min-width: 260px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
   z-index: 1; }
 
@@ -2554,69 +2555,66 @@ ul.menu > li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block; }
 
-.lightgreen {
-  background-color: #BDCCD4; }
+.navbar {
+  overflow: hidden;
+  font-family: Roboto; }
 
-.purple {
-  background-color: #78738A; }
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
 
-.lightpurple {
-  background-color: #b8a9c6; }
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden; }
 
-.green {
-  background-color: #87A6AB; }
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  /* Important for vertical align on mobile phones */
+  margin: 0;
+  /* Important for vertical align on mobile phones */ }
 
-.yellow-bg {
-  background-color: #e3ce71; }
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red; }
 
-.blue {
-  background-color: #aadfe7; }
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1; }
 
-.offwhite {
-  background-color: #E3CEB6; }
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left; }
 
-.white {
-  background-color: #fff; }
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd; }
 
-.red {
-  background-color: #EC1000 !important; }
-
-.ltgrey2 {
-  background-color: #e6e6e6 !important; }
-
-.pink {
-  background-color: #daa09a; }
-
-.callout-color-dark {
-  background-color: #6c8086; }
-
-.photo-content-color {
-  background-color: #a6bbc0; }
-
-/*******************************
-          About US
-  *******************************/
-.aboutus-background-section1 {
-  display: flex;
-  background-color: #F4D195;
-  border-top-style: outset;
-  border-top-color: black;
-  border-top-width: 5px;
-  border-bottom-style: outset;
-  border-bottom-color: black;
-  border-bottom-width: 5px; }
-
-.couple-img {
-  top: 0px;
-  left: 5px;
-  width: 876x;
-  height: 595x; }
-
-.aboutuspic {
-  width: 200px;
-  height: 235px;
-  min-width: 200px;
-  max-height: 235px; }
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block; }
 
 .lightgreen {
   background-color: #BDCCD4; }

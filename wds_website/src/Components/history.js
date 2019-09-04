@@ -12,7 +12,6 @@ import surreal from '../images/photos/photo-history-surreal-quarter-ad.png'
 import wallys from '../images/photos/photo-history-wallys.png'
 import wfa from '../images/photos/photo-history-wfa.png'
 import four from '../images/photos/photo-history-411.jpg'
-import asd from '../images/photos/photo-history-asd.png'
 import pw from '../images/photos/photo-history-pw.png'
 import rdeb from '../images/photos/photo-history-rdeb.jpg'
 import taws from '../images/photos/photo-history-taws.png'
@@ -66,11 +65,6 @@ class about extends Component {
                         Surreal Concepts started to make a name for itself for its design and business solutions. Motorola had a large problem that they could not solve with their modem product line. For years the return rate on their line of modems was rising, call center costs were out of control. After two failed attempts, Surreal Concepts was hired and Michael was Embedded on the team. We were contracted for UX design, UI design and development and also to provide business solutions. This was our venture into complex product user interfaces.  
                         
                         </p> 
-                        
-
-
-
-                    
 
                         </div>
                     </div>
@@ -90,19 +84,25 @@ class about extends Component {
                         WDS is a UX/UI design consultancy agency lead by the husband and wife team Terri and Michael Waterman. They have built the business and have been advocates for design for over 20 years. Growing the business from a small design agency servicing small businesses to the business it is today, it serves global brands offering a full range of design solutions. </p>
                     </div>
                 </section>
-                    <image className="flex-layout-section-fixed flex-layout-center-center">
+
+                    <image className="flex-layout-section-full flex-layout-center-center margin-top-50">
                         <img className="width-60" src={time} alt="Time Line"/>
                     </image>
+
+                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
                 <section className="flex-layout-section-full align-items-center">
                 <div className="title content-block-55">
                         Our Humble Start</div>
-                    <div className="subtitle content-block-55">
+                    <div className="subtitle margin-top-15 content-block-55">
                         It began with video</div>
                     <div className="content-block-55">
                         <p className="content-text-18 margin-top-15">
                         Our first creative tool in the digital world goes back to the Amiga 500 and the first digital video solution NewTek Video Toaster. Michael would set up systems to support the dinosaur age of graphic software. Amiga was one of the great forerunners of user design with Kai’s Power Tools, Bryce. Animation and video production was something we spent a lot of time doing.</p>
                     </div>
                 </section>
+
+                
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
            
@@ -143,16 +143,16 @@ class about extends Component {
 
                     <section className="flex-layout-section-full align-items-center margin-top-75 margin-bottom-75">
                         <div className="title content-block-55">
-                            Print Design
+                            Graphic Design
                         </div>
-                        <div className="title content-block-55">
-                            Designing Product Labels for Smithkline
+                        <div className="subtitle content-block-55 margin-top-15">
+                            Labels and Smithkline
                         </div>
-                        <div className="title content-block-55">
-                            Print Design
-                        </div>
-                        <p>
-                            Officially, Surreal Concepts business started by aligning a partnership with a flexographic label company. We designed and prepared the documents for plates for the printing press. Creating designs for all their clients which included: Smithkline and Boiron Homeopathic. We also provided printing schedule strategies. </p>
+                       
+                        <p className="float-left content-size-21 content-block-55 margin-top-15">
+                            <p className="float-right margin-top-15 caption"><img className="width-100 margin-top-20per" src={wallys} alt="Wally's"/><br></br>
+                            <i>Roos Foods Wally's</i></p>
+                            Surreal Concepts incorporated in  business started by aligning a partnership with a flexographic label company. We designed and prepared the documents for plates for the printing press. Creating designs for all their clients which included: Smithkline and Boiron Homeopathic. We also provided printing schedule strategies. </p>
                     </section>
 
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
@@ -165,12 +165,18 @@ class about extends Component {
                             
                         </div>
                             <p className="content-text-18">
-                                We expanded our services to include flash animations which included work for Investor Force. Delivering high quality flash banners ads, flash bumper and marketing material. Our projects for Alvest was for corporate video communications and investor communications. 
-                                </p>
-                        <p className="content-text-18">
-                             
+                            We expanded our video services including flash and after effects animations, which included work for Investor Force. Delivering high quality animations, banners ads, products and marketing material.
                             </p>
+                    </section>    
+                    <section className="flex-layout-section-full align-items-center">
+                        <div className="subtitle text-align-center content-block-55">
+                            Our First Youtube Video</div>
+                        <div classname="video content-block-55">
+                            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BHQSXijoCVY?rel=0 controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe>
+                        </div>
                     </section>
+                            
+                    
 
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>            <section className="flex-layout-section-full align-items-center margin-top-75 margin-bottom-75">
                         <div className="subtitle content-block-55">
@@ -212,7 +218,7 @@ class about extends Component {
                         </div>
                         <p>The design solutions we provided were successful, but we starting thinking to ourselves we are developing designs that are all about the business. What about the users? Are our web designs resonating with their customers? We set out to understand how people interacted with websites. Trying to find the answers to the questions. What were their needs and expectations? How did people interact with a web page compared to traditional ways? In 2003, a study was released by B.J. Fogg and his team at Stanford University released the first study on human interaction on websites. This study changed not not only how we designed, but our company focus. </p>
 
-<p>In early 2005 Surreal Concepts released a website call webfirst. Based off the research from Stanford University, developed a friendly version of the high level information. Writing user friendly content with bright colors with the goal of enlightening businesses of the value of understanding the users. Michael repurposed the content for webfirstaid, for a series of talks on UX and Design. </p> 
+                        <p>In early 2005 Surreal Concepts released a website call webfirst. Based off the research from Stanford University, developed a friendly version of the high level information. Writing user friendly content with bright colors with the goal of enlightening businesses of the value of understanding the users. Michael repurposed the content for webfirstaid, for a series of talks on UX and Design. </p> 
                     </section>
 
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
@@ -222,12 +228,7 @@ class about extends Component {
 
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                    <section className="flex-layout-section-full align-items-center">
-                        <div className="subtitle text-align-center content-block-55">
-                            Our First Youtube Video</div>
-                        <div classname="video content-block-55">
-                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BHQSXijoCVY?rel=0 controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe></div>
-                    </section>
+                   
                     
                         
                     <section className="flex-layout-section-full align-items-center margin-top-75">

@@ -17,6 +17,77 @@ class App extends Component {
         <Layout>
             <Header className="header content-text-18 red text-white flex-layout-row" title={<Link style={{textDecoration: 'none',
             color: 'white'}} to="/"><img src={logo} height="65px" alt="header" /></Link>} scroll >
+             <div class="navbar"style={{marginRight:'1.5%'}}>
+                <div class="dropdown">
+                  <button class="dropbtn">Why WDS
+                    
+                  </button>
+                  <div class="dropdown-content" >
+                    <a href="./why_wds">Why WDS</a>
+                    <a href="./case_studies">Success Stories (Case Studies)</a>
+                    <a href="./clients">Clients</a>
+                    <a href="./core_offerings">Core Offerings</a>
+                    <a href="./history">History</a>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <button class="dropbtn">Services
+                    
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="./services">Services Overview </a>
+                    <a href="./ux_design">UX Design</a>
+                    <a href="./ui_design">UI Design</a>
+                    <a href="./css_solutions">CSS Solutions</a>
+                  </div>
+              </div>
+              
+              <div class="dropdown">
+                  <button class="dropbtn">Methodology
+                    
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="./methodology">Methodology Overview </a>
+                    <a href="./finding_truth">Finding the Truth</a>
+                    <a href="./innovative_solutions">Innovative Solutions</a>
+                    <a href="./strategy_insight">Strategy and Insight</a>
+                    <a href="./communication_insights">Communication Insights</a> 
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <button class="dropbtn">Design Solutions
+                   
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="./design_solutions">Design Overview</a>
+                    <a href="./website_design">Website Design</a>
+                    <a href="./print_design">Graphic Design</a>
+                    <a href="./video_production">Video Production</a>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <button class="dropbtn">Contact
+                   
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="./design_solutions">Design Overview</a>
+                    <a href="./website_design">Website Design</a>
+                    <a href="./print_design">Graphic Design</a>
+                    <a href="./video_production">Video Production</a>
+                  </div>
+                </div> 
+              </div>
+                {/*<div class="dropdown">
+                  <button class="dropbtn">News & Insights
+                   
+                  </button> 
+                  </div>   
+              </div> 
+                   <div class="dropdown-content">
+                    <a href="./design_solutions">News</a>
+                    <a href="./website_design">Insights</a>
+                  </div>
+               
               
             <ul style={{display:'flex'}}>
             <li className="dropdown">
@@ -48,7 +119,7 @@ class App extends Component {
                 <a href="./finding_truth">Finding the Truth</a>
                 <a href="./innovative_solutions">Innovative Solutions</a>
                 <a href="./strategy_insight">Strategy and Insight</a>
-           {/*     <a href="./communication_insights">Communication Insights</a> */}
+               <a href="./communication_insights">Communication Insights</a> 
               </div>
               </li>
               <li class="dropdown">
@@ -64,7 +135,7 @@ class App extends Component {
               <a href="./contact" class="dropbtn" style={{fontSize:'16px'}}>Contact</a>
               </li>
 
-          </ul>
+          </ul>*/}
             </Header>
             <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">
             Waterman Consulting</Link>}>
