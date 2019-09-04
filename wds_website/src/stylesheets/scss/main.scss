@@ -1,5 +1,4 @@
 @import 'App';
-@import 'react-overrides';
 @import '/css/reset.css';
 @import '/css/App.css';
 @import 'helper-classes';
@@ -15,7 +14,9 @@
 @import 'navigation';
 @import 'about-us';
 @import 'mixins';
+@import 'react-overrides';
 @import 'media';
+
 
 
  
