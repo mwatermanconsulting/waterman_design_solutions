@@ -1,7 +1,5 @@
 import React, { Component } from 'react' ;
 import communication from '../images/backgrounds/bg-communication.png';
-import services from '../images/graphic-services.svg';
-import together from '../images/photos/photo-why-wds.png';
 import finding from '../images/photos/photo-documentation-s1.png';
 import finding_truth1 from '../images/photos/photo-finding-truth-s1.png';
 import finding_truth2 from '../images/photos/photo-finding-truth-s2.png';
