@@ -41,32 +41,17 @@ class about extends Component {
                     </div>
                 </section>
                 <section className="grid-callout photo-content-color border-bottom-5" > 
-                    <div className="grid-placeself-center content-block-75 margin-tb-100  flex-layout-column">
-                        <div className="callout-title margin-top-15">
+                    <div className="grid-placeself-center content-block-55 margin-tb-100  flex-layout-column">
+                        <div className="callout-title">
                              Surreal Beginnings
                         </div>
 
-                        <div className="callout-text padding-20 text-align-left margin-top-15" >
-                        <p>The foundation of everything is design </p>
 
-                        <p>Since 1997 WDS has been evangelizing design under its original name, Surreal Concepts. Started by the husband and wife team, Terri and Michael Waterman, they began with a simple premise and small list of design services. The business has evolved with the digital revolution. Officially, Surreal Concepts by aligning a partnership with a flexographic label company. They designed and prepared the documents for plates for the printing press. </p>
+                        <div className="content-text-18 text-bold margin-top-15" >
+                        <p><b>The foundation of everything we do is design</b></p>
 
-                        <p>By early 2000, Surreal Concepts moved their talents to the digital world. Becoming experts in everything Adobe. Adding HTML, CSS and Flash the two partners turned their attention to the web. Offering design solutions for small companies. Bringing a level of professionalism to their online presence. </p>
+                        <p>Since 1997, WDS has been evangelizing the value of design under its original name, Surreal Concepts. Started by the husband and wife team, Terri and Michael Waterman, they began with a simple premise and small list of design services. Our business has evolved along with the digital revolution. We learned and adapted through life's changes modifying our services to match our clients needs. From small businesses to global name brands we used each experience to grow and expand our service offerings. Waterman Design Solutions reflect that growth and new focus. </p>
 
-                        <p>The design solutions we provided were successful, but we starting thinking to ourselves we are developing designs that are all about the business. What about the users? Are our web designs resonating with their customers? We set out to understand how people interacted with websites. Trying to find the answers to the questions. What were their needs and expectations? How did people interact with a web page compared to traditional ways? In 2003, a study was released by B.J. Fogg and his team at Stanford University released the first study on human interaction on websites. This study changed not not only how we designed, but our company focus. </p>
-
-                        <p>In early 2005 Surreal Concepts released a website call webfirst. Based off the research from Stanford University, developed a friendly version of the high level information. Writing user friendly content with bright colors with the goal of enlightening businesses of the value of understanding the users. Michael repurposed the content for webfirstaid, for a series of talks on UX and Design. </p> 
-
-                    
-                        <p>The talks lead directly to the engagement with Pfizer in 2007. Surreal Concepts, embedded Michael in the project. The project was Pfizer Pro, the largest HCP website, at the time. We were contracted for the UX Design, developing content strategies, front-end development and bi-weekly updates. During the engagement Michael's business understanding helped Pfizer by documenting a business problem, they had with a vendor. A CMS solution and support was costing Pfizer thousands of dollars a week on lost man hours and poor customer service. This insight gave Pfizer the knowledge they needed to change vendors and recoup their money from the vendor. </p> 
-                        
-
-                        <p>The talks lead directly to the engagement with Pfizer in 2008. Surreal Concepts, embedded Michael in the project. The project was Pfizer Pro, the largest HCP website, at the time. We were contracted for the UX Design, developing content strategies, front-end development and bi-weekly updates. During the engagement Michael's business understanding helped Pfizer by documenting a business problem, they had with a vendor. A CMS solution and support was costing Pfizer thousands of dollars a week on lost man hours and poor customer service. This insight gave Pfizer the knowledge they needed to change vendors and recoup their money from the vendor.  </p> 
-                        
-                        <p>
-                        Surreal Concepts started to make a name for itself for its design and business solutions. Motorola had a large problem that they could not solve with their modem product line. For years the return rate on their line of modems was rising, call center costs were out of control. After two failed attempts, Surreal Concepts was hired and Michael was Embedded on the team. They were contracted for UX design, UI design and development and also to provide business solutions. This was our venture into complex product user interfaces.  
-                        
-                        </p> 
 
                         </div>
                     </div>
@@ -74,20 +59,8 @@ class about extends Component {
                         <img className="container-photo-callout" src={photo_history}  alt="UX" /> 
                     </div>
                 </section>
-                <section className="flex-layout-section-full align-items-center">
-                    <div className="title content-block-55 margin-top-75">
-                        Who is WDS?
-                    </div>
-                    <div className="subtitle content-block-55 margin-top-15">
-                        The Power of Two
-                    </div>
-                    <div className="content-block-55">
-                        <p className="content-text-18 margin-top-15"> 
-                        WDS is a UX/UI design consultancy agency lead by the husband and wife team Terri and Michael Waterman. They have built the business and have been advocates for design for over 20 years. Growing the business from a small design agency servicing small businesses to the business it is today, it serves global brands offering a full range of design solutions. </p>
-                    </div>
-                </section>
-
-                    <image className="flex-layout-section-full flex-layout-center-center margin-top-50">
+                
+                    <image className="flex-layout-section-full flex-layout-center-center margin-top-75">
                         <img className="width-60" src={time} alt="Time Line"/>
                     </image>
 
@@ -97,11 +70,12 @@ class about extends Component {
                 <div className="title content-block-55">
                         Our Humble Start</div>
                     <div className="subtitle margin-top-15 content-block-55">
-                        It began with video</div>
+                        It Started with an Idea</div>
                     <div className="content-block-55">
                         <p className="content-text-18 margin-top-15">
-                        The first creative digital tool used goes back to the Amiga 500 and the first digital video solution, NewTek Video Toaster. Michael would set up systems to support the dinosaur age of graphic software. Amiga was one of the great forerunners of user design with Kai’s Power Tools, including Bryce. Animation and video production was something they spent a lot of time doing.</p>
-                    </div>
+
+                        The first time they worked on the Amiga 500, Michael and Terri were fascinated with digital design. With the knowledge and skills that acquired with NewTek Video Toaster, they started a business focused on video production services. One day a client approached them about an Illustrator project for the Franklin Mint, to digitally reproduce portraits of sports figures. They would soon learn Adobe Illustrator and Photoshop and their entrepreneurial spirit took hold and Surreal Concepts was born.</p>
+  </div>
                 </section>
 
                 

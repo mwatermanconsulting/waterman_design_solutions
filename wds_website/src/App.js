@@ -124,7 +124,6 @@ class App extends Component {
               <li><a className="text-black" href="./methodology">Overview</a></li>
               <li><a className="text-black" href="./finding_truth">Finding the Truth</a></li>
               <li><a className="text-black" href="./innovative_solutions">Innovative Solutions</a></li>
-         {/*     <li><a className="text-black" href="./communication_insights">Communications Insights</a></li> */}
               </ul>
           </div>
           <div className="grid-footer-item-4 text-white subtitle-menu"> 
