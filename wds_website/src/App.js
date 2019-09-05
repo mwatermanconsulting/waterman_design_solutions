@@ -66,8 +66,10 @@ class App extends Component {
                   </div>
                 </div>
               </div>
-                <div class="dropdown navbar" style={{marginLeft:'-1%', marginTop:'.5%'}}>
-                  <button id="text-white" class="dropbtn"> <a href="./contact" className="text-white no-decoration">Contact</a>
+
+                <div class="dropdown" style={{marginLeft:'-1%', marginTop:'.5%'}}>
+                  <button class="dropbtn"> <a dropbtn href="./contact" className="menu  no-decoration">Contact</a>
+
                    
                   </button>
                   <div class="dropdown-content">
