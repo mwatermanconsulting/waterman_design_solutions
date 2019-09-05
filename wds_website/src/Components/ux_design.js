@@ -74,8 +74,7 @@ class ux_design extends Component {
                             <p className="subtitle"> 
                                 Old school custom service</p> 
                             <div className="float-right callout-photo grid-placeself-center">
-                                <img className="container-photo-callout" src={ux_s3}  alt="Old school customer service" />  
-                                 
+                                <img className="container-photo-callout margin-top-15per" src={ux_s3}  alt="Old school customer service" />   
                             </div>
                             <p className="content-text-18">
                                 Empathy is a very powerful selling tool, because it is human-centric. It’s the new buzz word, but empathy has always been at the heart of WDS. We tell ourselves: <br></br>“Walk in the user’s shoes.” <br></br>“See the problem as if you were experiencing it yourself."<br></br>“Observe their daily routines.” <br></br>All of these mantras and behaviors are empathetic techniques that our UX designers have acquired through years of practice. It is part of their daily lives. 
@@ -83,7 +82,7 @@ class ux_design extends Component {
                         </div>
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                     <section className="float-left align-items-center flex-layout-column">
                         <div className="title content-block-60">
@@ -96,18 +95,17 @@ class ux_design extends Component {
                                 Understanding people as they go about completing a task is essential to guaranteeing a positive user experience. Every action of that task is an experience with your product or service. The experience can be positive or negative depending how much of the user was taken into account when designing. 
                                 </p>
                         <div className="float-right callout-photo">
-                            <img className="container-photo-callout margin-top-15" src={ux_s4}  alt="UX is the study of people" />
+                            <img className="container-photo-callout" src={ux_s4}  alt="UX is the study of people" />
                         </div> 
                         <p className="content-text-18">User expectations have changed over the years. Simplicity is expected.  </p> 
                                
                         <p className="content-text-18">
                                 The user experience takes many shapes and forms: retail, product development, websites, and applications. The user has a goal to achieve and it's up to you to make it enjoyable and useful. It is critical to your success to have a designer that not only understand and empathizes with people, but understands cognitive psychology. The understanding of unconscious decisions helps reveal solutions on a deeper level.
-                        </p>
-                       
-                               
+                        </p>     
                     </div>
                 </section>
-                <div className="thin-hr width-70 align-self-center margin-top-100 margin-bottom-100"></div>
+
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
  
                 <section className="float-left align-items-center flex-layout-column">
                         <div className="title content-block-60">
@@ -118,14 +116,15 @@ class ux_design extends Component {
                         Real Designers Matter
                     </div>
                     <div className="content-block-60 margin-top-15">
-                        <p className="content-text-18">We require our UX designers to be real designers with an understanding of customer service. All our designers are friendly empathetic people with a passion to simplify the world, one project at a time. </p>
+                        <p className="content-text-18">
+                            All of our UX Designers are true designers that not only provide mock-ups, but high fidelity designs. WDS team of UX designers also have an understanding of cognitive psychology and a background in customer service.  All our designers are friendly empathetic people with a passion to simplify the world, one project at a time. </p>
                     
                     </div>
                 </section>
 
                 <section className="content-header flex-layout-center-center flex-layout-column">
                 
-                <div className="thin-hr width-70 align-self-center margin-top-100 margin-bottom-100"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
                     <div className="flex-layout-center-center subtitle content-block-60">
                    The most effective way to understand our design solutions and methodology is to read a story about it.
                     </div>
@@ -139,15 +138,13 @@ class ux_design extends Component {
                     <div className="callout2">
                     <a href= "../finding_truth"><img className="container-spotlight width-100" src={spotlight2}  alt="Spotlight" /></a>
                    </div> 
-                   
                 </div>
-                <div className="thin-hr width-70 align-self-center margin-top-100"></div>
                 </section>
-            
+
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="flex-layout-section-full flex-layout-center-center"> 
-                    
-                        <div className="grid-2col-text-center-50 align-self-center margin-top-100 margin-left-140" >
+                        <div className="grid-2col-text-center-50 align-self-center  margin-left-140" >
                             <div className="grid-title content-text-24 margin-bottom-20">
                                 Full List of UX Design Services</div>
                             <div className=" content-text-18">

@@ -83,7 +83,7 @@ class design_solutions extends Component {
                 <div className="content-block-60 margin-top-15">
                     <p className="content-text-18"> 
                 <div className="float-right">
-                    <img className="photo-container" style={{marginTop:'-8%'}} src={design_print}  alt="Graphic Design" /> 
+                    <img className="photo-container margin-top-8per"  src={design_print}  alt="Graphic Design" /> 
                 </div>  
                     Print still has a place in today's digital world. WDS can develop a traditional design strategy that compliments your digital campaigns. By designing graphics that are based on research and user personas. Designing for real people helps drive sales and user retention. We have extensive print experience. Over the years we have designed magazine's, brochures, biz cards, trade show displays, corporate reports, etc. </p>
 
