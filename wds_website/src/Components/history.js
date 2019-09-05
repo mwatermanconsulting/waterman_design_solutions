@@ -81,41 +81,6 @@ class about extends Component {
                 
 
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
-           
-             { /*  <section className="flex-layout-section-full align-items-center">
-                    <div className="subtitle content-block-55">
-                            Publishing Venture</div>
-                    <div className="content-block-55">
-                        <p className="content-text-18 margin-top-15"> 
-                            In the mid-90s Terri did onsite consulting and published New Drug Applications for the FDA at Zeneca Pharmaceuticals using Interleaf software. Web design was in its infancy, and she joined a web team by 1998, creating intranet websites for different divisions to improve group communication. Knowledge of code was crucial to digital design, and she fostered relationships with other software engineers to learn about their craft in order to assimilate design to their products.</p>
-                    <div className="ltgrey2">
-                            <p className="margin-top-15 caption"><img className="container-image-500 margin-top-25" src={seroquel} alt="Seroquel"/><br></br>
-                            <i>Seroquel</i></p>
-                            <p className="margin-top-15 caption"><img className="container-image-500 margin-top-25" src={chemtech} alt="Chemtech"/><br></br>
-                            <i>Chemtech</i></p>
-                            <p className="margin-top-15 caption"><img className="container-image-500 margin-top-25" src={rdeb} alt="RDEB"/><br></br>
-                            <i>RDEB</i></p>
-                            <p className="margin-top-15 caption"><img className="container-image-500 margin-top-25" src={noticeboards} alt="AZ Noticeboards"/><br></br>
-                            <i>AZ Noticeboards</i></p>
-                            <p className="margin-top-15 caption"><img className="container-image-500 margin-top-25" src={sps} alt="SPS"/><br></br>
-                            <i>SPS</i></p>
-                            <p className="content-text-18">
-                            The first big client Surreal Concepts landed after incorporating as a C corporation was a label manufacturer Apogee Industries. They printed flexographic labels for Smithkline Beecham, Roos Foods, SmithKline, and Boiron Homeopathics. </p>
-                            <p className="margin-top-15 caption"><img className="container-image-500 margin-top-25" src={wallys} alt="Wally's"/><br></br>
-                            <i>Wally's</i></p>
-                        </div>
-                    </div>
-        </section> 
-
-                     <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
-
-                     <section className="flex-layout-section-full align-items-center">
-                        <div className="subtitle content-block-55">
-                            Investing in Digital Design Skills</div>
-                            <p className="content-text-18 content-block-55 margin-top-15"> 
-                            Terri then worked for InvestorForce, provider of investment analytics and reporting solutions for institutional consultants. She redesigned the entire website, meeting aggressive deadlines, and established a successful working relationship with CEO. She initiated a project for the redesign of an acquired company, Altvest. Traveling to NYC, she managed, directed and implemented the site architecture and design, working with a 9-person team of web developers and product managers. Designing and developing different prototypes for different products throughout the site, improving the design and introducing better user experience. This project increased knowledge of programming code and quality assurance systems to quickly work effectively with all groups involved.</p>
-                    </section>*/}
-
 
                     <section className="flex-layout-section-full align-items-center">
                         <div className="title content-block-55">
@@ -151,7 +116,7 @@ class about extends Component {
                     
                     <div className="thin-hr width-70 align-self-center hrline-spacing"></div> 
 
-                    <section className="flex-layout-section-full align-items-center hrline-spacing">
+                    <section className="flex-layout-section-full align-items-center">
                         <div className="title content-block-55">
                             The Digital Age
                         </div>
@@ -166,20 +131,23 @@ class about extends Component {
                              <p className="content-text-18 margin-top-25">     
                              Adding HTML, CSS and Flash skills, the two partners turned their attention to the web to design and develop websites. The goal was to help small business owners to fight off big box business competition by bringing a level of professionalism to their online presence. </p>
 
-                        <section className="grid-cs-card flex-layout-center-center flex-layout-section-full">   
+                        <section className="grid-cs-card flex-layout-center-center flex-layout-section-full margin-top-50">   
                             <p className="cs-card-1 margin-top-15 caption"><img className="container-photo-100 margin-top-25 " src={four} alt="411"/><br></br>
                             <i></i>SavTraveler</p>
                             <p className="cs-card-2 margin-top-15 caption"><img className="container-photo-100 margin-top-25 " src={pw} alt="Pearly Whites"/><br></br>
                             <i>Pearly Whites</i></p>
                             <p className="cs-card-3 margin-top-15 caption"><img className="container-photo-100 margin-top-25 " src={taws} alt="TAWS"/><br></br>
                             <i>TAWS</i></p>
-                            <p className="cs-card-4 margin-top-15 caption"><img className="container-photo-100 margin-top-25 " src={norwood} alt="Norwood Construction"/><br></br>
+                            <p className="cs-card-4 margin-top-15 caption"><img className="container-photo-100 margin-top-25" src={norwood} alt="Norwood Construction"></img>
                             <i>Norwood Construction</i></p>
                             
                        
                         </section>
+
+
                             <p className="align-item-center margin-top-15 caption"><img className="container-photo-100 margin-top-25 " src={before_after} alt="Before and After"/><br></br>
                             <i>Expanding  design solutions to meet  client needs</i></p>
+
                             
                         </div>
                     </section>

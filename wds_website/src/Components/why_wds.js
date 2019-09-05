@@ -136,7 +136,7 @@ class why_wds extends Component {
                             The Business Value of Design
                         </div>
                         <div className="content-block-60 content-text-18 margin-top-15">
-                        <div className="float-right">
+                        <div className="float-right margin margin-top-1">
                         <img className="photo-container" src={whys3}  alt="Your Business is Our Joy" /> 
                     </div>  
                             <p className="content-text-18"> Empathetic design is critical to your to your future success. WDS has been successfully communicating the value of design to businesses for close to 25 years. Our design  strategies and < a href="core_offerings">core offerings,</a> increase revenues and customer loyalty. A recent comprehensive study on the value of design, the Mckinsey report,  found that the companies that focus on the user and design have a 30% increase in business compared to the same businesses that do not focus on design. Our core offerings provide training, strategies and workshops to bring the value of design to business.</p>         
@@ -267,43 +267,52 @@ class why_wds extends Component {
             <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
-                <div className="float-left content-block-60">
+               
                         <div className="subtitle">
                            WDS Testimonials
                         </div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+
+                        <div className="subtitle">
+                          StubHub
+                        </div>
                         
-                        <div className="content-text-18 margin-top-25">
+                        <div className="content-text-18 margin-top-25 align- content-block-60">
                         “(WDS) are thoughtful designers who helped transform our reporting project from a technical tool for pulling data into a place where users at all levels of our organization can find insights about our business.”<br/>
-                            -Michael Johnston Stubhub, Impact-Focused Technologist Specializing in Data
+                            <i>-Michael Johnston Stubhub, Impact-Focused Technologist Specializing in Data</i>
                         </div>
 
-                        <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
-                         
-                        <div className="content-text-18 margin-top-25">
-                        “I had the pleasure of working with Michael for 9 months while he worked in our Philadelphia office on UI/UX development for an internal business intelligence platform. He was a joy to have on our team and always delivered high quality work on time and on point. We came to rely on Michael to work through all the messy front-end details that we couldn't figure out! Just an overall great person and wonderful colleague, I can't say enough good things about him.” <br/> 
-                            -David Schmittdiel, Manager, Business Intelligence Development at StubHub
+                        <div className="content-text-18 margin-top-25 content-block-60">
+                        “I had the pleasure of working with Michael for 9 months while he worked in our Philadelphia office on UI/UX development for an internal business intelligence platform. He was a joy to have on our team and always delivered high quality work on time and on point. We came to rely on Michael to work through all the messy front-end details that we couldn't figure out! Just an overall great person and wonderful colleague, I can't say enough good things about him.” <br/>
+                            <i>-David Schmittdiel, Manager, Business Intelligence Development at StubHub</i>
                         </div>
 
-                        <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                       <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
-                        <div className="content-text-18 margin-top-25">
+                       <div className="subtitle">
+                          David Newman, CSP
+                        </div>
+
+                        <div className="content-text-18 margin-top-25 content-block-60">
                         “Michael Waterman is a business guy in creative disguise. I first hired Michael and his firm more than 5 years ago, and from the very first meeting, I could tell that he "gets" the way business works. Being able to translate that into "sticky" marketing that works and lasts is icing on the cake. If you have the chance to work with Michael or hire him onto your team - RUN don't walk. His mindset and skill set are all too rare in today's world of "me too" advertising and creative professionals. He's truly one of a kind! <br/> - David Newman CSP
                         </div> 
 
                         <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
-                        <div className="content-text-18 margin-top-25">
                         
-                        <p className="content-text-18">“Michael was a pleasure to work with.
+                        <div className="subtitle">
+                          Pfizer
+                        </div>
 
-                        His knowledge of UX design, web development and implementation of Omniture Tags across a variety of platforms was highly valuable to the analytics group at Cadient. He worked with me on a full migration of HBX tags into Omniture for a complex web portal for PfizerPro.com. 
+                        <p className="content-text-18 margin-top-25 content-block-60">
+                        “Michael was a pleasure to work with his knowledge of UX design, web development and implementation of Omniture Tags across a variety of platforms was highly valuable to the analytics group at Cadient. He worked with me on a full migration of HBX tags into Omniture for a complex web portal for PfizerPro.com. 
 
                         He was also very personable and I enjoyed working with him to meet day to day deliverables."" -John Gautreau </p>
  
-                        </div> 
+                        
                         
                    
-                    </div>
+                   
                 </section> 
                 
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
