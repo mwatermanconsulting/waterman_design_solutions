@@ -22,7 +22,7 @@ class digital_design extends Component {
 
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                    “Getting a quality website is not an expense but rather an investment.” ― Dr. Christopher Dayagdag
+                    “Getting a quality website is not an expense but rather an investment.” <br></br> ― Dr. Christopher Dayagdag
 
                 </div>
             </section>
@@ -128,9 +128,9 @@ class digital_design extends Component {
                     </div>
                 </section>
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center       margin-top-100  grey border-top-5">
-                    <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
+                    <div className="text-align-center width-75 margin-top-50 align-center margin-bottom-50"> 
                        <a href="../communication_insights"> 
-                       <img className="flex-image-container margin-bottom-50" src={didyouknow}  alt="Did You Know?" /> </a> 
+                       <img className="content-block-55  margin-bottom-50" src={didyouknow}  alt="Did You Know?" /> </a> 
                     <div className="flex-layout-center-center">
                         <p className="content-header text-white flex-layout-column flex-layout-center-center">WDS does not use templates - custom design only!</p>
                     </div>

@@ -282,6 +282,15 @@ footer {
 .margin-top-5per {
   margin-top: -5%; }
 
+.margin-top-10per {
+  margin-top: -10%; }
+
+.margin-top-15per {
+  margin-top: -15%; }
+
+.margin-top-2per {
+  margin-top: 2%; }
+
 .margin-top-20per {
   margin-top: -20%; }
 
@@ -1000,7 +1009,8 @@ h1 {
   letter-spacing: 0.8px;
   text-align: center;
   color: #fff;
-  font-weight: 700; }
+  font-weight: 700;
+  margin: 20px; }
 
 .callout-text-white {
   font-size: 1.25rem;
@@ -1233,6 +1243,9 @@ input[type=submit]:hover {
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga'; }
+
+:root {
+  font-size: 16px; }
 
 ol {
   display: block;
@@ -1871,7 +1884,7 @@ Button:hover {
 .grid-clients-wrapper {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(4, 1fr); }
+  grid-template-columns: repeat(2, 1fr); }
 
 .grid-clients-box {
   width: 250px;
@@ -2166,6 +2179,13 @@ Button:hover {
   display: grid;
   grid-row-gap: 65px;
   grid-column-gap: 5px;
+  grid-template-columns: repeat(2, [col] 700px);
+  grid-template-rows: repeat(2, [row] auto); }
+
+.grid-cs-card-history {
+  display: grid;
+  grid-row-gap: 65px;
+  grid-column-gap: 50px;
   grid-template-columns: repeat(2, [col] 700px);
   grid-template-rows: repeat(2, [row] auto); }
 
@@ -2498,8 +2518,7 @@ Button:hover {
            Menu
   *******************************/
 .menu {
-  background-color: #EC1000;
-  font-size: 1.2em; }
+  background-color: #EC1000; }
 
 ul.menu {
   list-style-type: none;
@@ -2604,6 +2623,9 @@ ul.menu > li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block; }
 
+a.menu {
+  color: #fff !important; }
+
 .material-icons {
   font-family: 'Material Icons';
   font-size: 24px;
@@ -2693,32 +2715,84 @@ footer {
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  /* Styles */ }
+  /* Styles */
+  .header-title {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 3.75rem !important;
+    letter-spacing: 1.1px;
+    line-height: 1.4;
+    text-align: center; }
+  .container-photo-callout {
+    width: 100%;
+    height: auto;
+    border: 2px solid #fff; }
+  .grid-left {
+    grid-column: auto;
+    grid-row: 1/2;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 20%; } }
 
 /* iPads (landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* Styles */ }
+  /* Styles */
+  .header-title {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 3.75rem !important;
+    letter-spacing: 1.1px;
+    line-height: 1.4;
+    text-align: center; } }
 
 /* iPads (portrait) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  /* Styles */ }
+  /* Styles */
+  .header-title {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 3.75rem !important;
+    letter-spacing: 1.1px;
+    line-height: 1.4;
+    text-align: center; } }
 
 /**********
   iPad 3
   **********/
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-  /* Styles */ }
+  /* Styles */
+  .header-title {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 3.75rem !important;
+    letter-spacing: 1.1px;
+    line-height: 1.4;
+    text-align: center; } }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-  /* Styles */ }
+  /* Styles */
+  .header-title {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 3.75rem !important;
+    letter-spacing: 1.1px;
+    line-height: 1.4;
+    text-align: center; } }
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1224px) {
-  /* Styles */ }
+  /* Styles */
+  .header-title {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 10.1875rem !important;
+    letter-spacing: 1.1px;
+    line-height: 1.4;
+    text-align: center; } }
 
 /* Large screens ----------- */
 @media only screen and (min-width: 1824px) {
-  /* Styles */ }
+  /* Styles */
+  .header-title {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 10.1875rem !important;
+    letter-spacing: 1.1px;
+    line-height: 1.4;
+    text-align: center; } }
 
 /* iPhone 4 ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
@@ -2747,7 +2821,13 @@ footer {
 
 /* iPhone XS Max, XR ----------- */
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
-  /* Styles */ }
+  /* Styles */
+  .header-title {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 3.75rem !important;
+    letter-spacing: 1.1px;
+    line-height: 1.4;
+    text-align: center; } }
 
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
   /* Styles */ }
@@ -2803,15 +2883,15 @@ footer {
     color: #879397;
     text-align: center; }
   .header-title {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem !important;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 3.75rem !important;
     letter-spacing: 1.1px;
     line-height: 1.4;
     text-align: center;
     font-weight: 700; }
   .header-title-cs {
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem !important;
+    font-size: 1.375rem !important;
     letter-spacing: .5px;
     text-align: center;
     margin-left: 25%; }
@@ -2824,7 +2904,7 @@ footer {
   .callout-text-lg {
     font-size: 1.5rem;
     font-family: 'Roboto Bold', sans-serif;
-    line-height: 2.12;
+    line-height: 1.25;
     letter-spacing: 0.8px;
     text-align: center;
     color: #fff; }
@@ -2841,7 +2921,7 @@ footer {
   .callout-text-black {
     font-size: 1.25rem;
     font-family: 'Roboto Bold', sans-serif;
-    line-height: 2;
+    line-height: 1.25;
     letter-spacing: 0.8px;
     text-align: center;
     color: #000; }
@@ -2853,11 +2933,12 @@ footer {
   .callout-text {
     font-size: 1.5625rem;
     font-family: 'Roboto', sans-serif;
-    line-height: 2.12;
+    line-height: 1.25;
     font-weight: 700;
     letter-spacing: 0.8px;
     text-align: center;
-    color: #000; }
+    color: #000;
+    margin: 20px; }
   /*******************************
           Grid
   *******************************/
@@ -3089,7 +3170,8 @@ footer {
     grid-row: 1/2;
     justify-content: center;
     margin-left: 10px;
-    margin-right: 10px; }
+    margin-right: 10px;
+    margin-left: 0%; }
   .grid-right-services {
     grid-column: auto;
     grid-row: 2/2; }
@@ -3216,6 +3298,8 @@ footer {
     margin-top: 50px; }
   .margin-top-2per {
     margin-top: -2%; }
+  .margin-top-8per {
+    margin-top: 0%; }
   .margin-left-140 {
     margin-left: 10px; }
   .margin-bottom-100 {
@@ -3245,8 +3329,12 @@ footer {
     height: auto; }
   .height-60-mobile {
     height: 60px; }
-  .thin-hr {
-    display: none; }
+  .margin-top-75 {
+    margin-top: 15px; }
+  .margin-bottom-75 {
+    margin-bottom: 15px; }
+  .margin-bottom-100 {
+    margin-bottom: 15px; }
   .content-block-services {
     width: 90%;
     margin: 10px; }

@@ -174,7 +174,7 @@ class ui_design extends Component {
                             The "aha" Moment
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                            <img className="container-photo-callout" src={ui_s6}  alt="UX" /> 
+                            <img className="container-photo-callout margin-top-2per" src={ui_s6}  alt="UX" /> 
                             <p className="caption">Photo by Frank on Unsplash</p>
                         </div>
                         <div className="margin-top-15">  

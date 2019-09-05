@@ -36,7 +36,7 @@ class services extends Component {
             <section className="grid-callout yellow-bg"> 
                 <div className="grid-callout-text grid-placeself-center width-70">
                     <p className="callout-text ">
-                       The role of a UX consultant listen to the customers. Our service list is a testament to our belief in old fashioned customer service.
+                       The role of a UX consultant is to listen to the customers. Our service list is a testament to our belief in old fashioned customer service.
                     </p>     
                 </div>
                 <div className="grid-callout-photo grid-placeself-center">
@@ -65,14 +65,14 @@ class services extends Component {
                         <div className="margin-top-15">
                             
                             <p className="content-text-18"> 
-                            Our design experts use research, empathy and insight to define how software functions and build workflows for the ways that people will experience it. From inception through launch, the users voice is always heard leaving no detail missed.</p>
+                            WDS design experts use research, empathy and insight to define how software functions and build workflows for the ways that people will experience it. From inception through launch, the users voice is always heard leaving no detail missed.</p>
                         <p className="content-text-18">
                         
                         <div className="float-right callout-photo grid-placeself-center">
                         <img className="container-photo-callout" src={services3}  alt="UX" /> 
                         <p className="caption">Photo by Frank on Unsplash</p></div>
 
-                            The visual elements, we create will establish your brand as a design leader in your space. By understanding your business, users and competition we will ensure that you have a unique presence that include familiar use of fonts, icons with design solutions that has a certain elegance that resonates with your users emotions in a less-than-optimal fashion. This can make us incapable of telling UX designers what we really want. </p>
+                            The visual elements, they create will establish your brand as a design leader in your space. By understanding your business, users and competition WDS will ensure that you have a unique presence that include familiar use of fonts, icons with design solutions that has a certain elegance that resonates with your users emotions. </p>
 
                             <p className="content-text-18">
                             For example, when asked about an user input for a security setting during WI-FI installation, one customer had no complaints until she sat down to use the program in front of the observer. Then she realized that she became confused when the program did not automatically select a security option. Not accustomed to the problem, she consistently made the incorrect decision. During the interview process this was never talked about because people want to appear smart and knowledgeable. Observing this issue and providing a simple solution such as provide recommended security settings, saves her time and can empower her. All the little things add up as big time wasters and need to be eliminated.</p>
@@ -124,11 +124,11 @@ class services extends Component {
                         <p className="content-text-18  content-block-65"> 
                             Our design solutions include software designs, websites, marketing and print design. Our design solutions provide our clients consistency across all their consumer touchpoints. Consistency breeds brand familiarity and user loyalty</p> 
                             <p className="content-text-18  content-block-65">
-                            All of our solutions are designed with empathy, always focused on the user and business needs.  </p>
+                            All of their design solutions are designed with empathy, always focused on the user and business needs.  </p>
                             <p className="content-text-18">
-                             For over twenty years our design solutions have made a difference in peoples lives. Helping businesses with difficult design problems and turning them into success stories.  </p>
+                             For over twenty years their design solutions have made a difference in peoples lives. Helping businesses with difficult design problems and turning them into success stories.  </p>
                             <p className="content-text-18">
-                             Many times we are the third UX designers on a project. Hired after two failed attempts for our design solutions and experience. We understand the value of business design and how to get results.</p>
+                             Many times WDS are hired following failed attempts by previous consultants. WDS has made a name for itself by turning failure into success. Their methodology is known for uncovering problems and getting to the truth of the deeper issues. They understand the value of business design and how to get results.</p>
                         </div>
                 </section>
 
@@ -145,7 +145,7 @@ class services extends Component {
                                 <img className="container-photo-callout" src={services5}  alt="Strategy and Insight" /> 
                         </div>  
                         <p className="content-text-18 content-block-65">
-                            The most meaningful insights for design strategy are developed with behavior-based understanding of users. Our experience strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve.</p> 
+                            The most meaningful insights for design strategy are developed with behavior-based understanding of users. WDS experience strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve.</p> 
                         <p className="content-text-18 margin-top-15">
                             By directly observing people, we can get to the heart of their needs. By discovering what drives them, what inspires them and what connects with them on an emotional level. We enlighten our clients with insights and strategies of where to invest resources based on this understanding of what people value.
                         </p>
@@ -198,9 +198,6 @@ class services extends Component {
 
                         <p className="content-text-18 content-block-65">
                         Our goal is to identify the right approach for your unique target audiences on social media. We plan, develop, and execute innovative social media marketing strategies that build a meaningful experience across all marketing material touchpoints.</p> 
-                        
-                            
-                          
                         </div>
                 </section>
             
@@ -311,7 +308,8 @@ class services extends Component {
                         <a href ="./css_solutions"><img className="container-image-500 border-2" src={services8}  alt="CSS Solutions" /> </a>
                         <div className="content-block-auto ">
                             <div className="title margin-top-50">
-                                <a href="./css_solutions" className="no-decoration">CSS Solutions</a>
+                                <a href="./css_solutions" className="no-decoration">
+                                CSS Solutions</a>
                             </div>
                             <p className="content-text-18 content-block-85 margin-top-15">
                                 Taming the specificity beast use to be difficult. Our CSS strategy almost eliminates the specificity problems. In fact, our strategy almost eliminates the need for your developers to write CSS. Our advantage is our past experience working with developers and interviewing and observing them working with CSS.</p>
@@ -321,7 +319,8 @@ class services extends Component {
                     <a href ="./design_systems"> <img className="container-image-500 border-2"  src={services9}  alt="Business Solutions" /> </a>
                         <div className="content-block-85">
                             <div className="title margin-top-50">
-                            <a href="./design_systems" className="no-decoration"> Design Systems</a></div>
+                            <a href="./design_systems" className="no-decoration"> 
+                                Design Systems</a></div>
                             <p className="content-text-18 margin-top-15">
                                 At WDS, we know and understand the importance of design systems to businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff.</p>
                         </div>

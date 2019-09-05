@@ -168,6 +168,14 @@
   grid-template-rows: repeat(2, [row] auto  );
 }
 
+.grid-cs-card-history {
+  display: grid;
+  grid-row-gap: 65px;
+  grid-column-gap: 50px;
+  grid-template-columns: repeat(2, [col] 700px ) ;
+  grid-template-rows: repeat(2, [row] auto  );
+}
+
 .cs-card-1 {
   grid-column: 1/ 2;
   grid-row: 1/2

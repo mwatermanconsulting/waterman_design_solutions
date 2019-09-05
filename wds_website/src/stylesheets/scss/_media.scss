@@ -12,35 +12,98 @@
   /* iPads (portrait and landscape) ----------- */
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   /* Styles */
+  .header-title {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 	3.75rem !important; 
+    letter-spacing: 1.1px;
+    line-height: 1.4;
+    text-align: center;
+  }
+  .container-photo-callout {
+
+    width: 100%;
+    height: auto;
+    border: 2px solid #fff;
+}
+.grid-left {
+  grid-column: auto;
+  grid-row:1/2 ;
+  justify-content: center;
+  margin-right: 10px;
+  margin-left: 20%;
+}
   }
   
   /* iPads (landscape) ----------- */
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
   /* Styles */
+  .header-title {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 	3.75rem !important; 
+    letter-spacing: 1.1px;
+    line-height: 1.4;
+    text-align: center;
+  }
+  
   }
   
   /* iPads (portrait) ----------- */
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
   /* Styles */
+  .header-title {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 	3.75rem !important; 
+    letter-spacing: 1.1px;
+    line-height: 1.4;
+    text-align: center;
+  }
   }
   /**********
   iPad 3
   **********/
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
   /* Styles */
+  .header-title {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 	3.75rem !important; 
+    letter-spacing: 1.1px;
+    line-height: 1.4;
+    text-align: center;
+  }
   }
   
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
   /* Styles */
+  .header-title {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 	3.75rem !important; 
+    letter-spacing: 1.1px;
+    line-height: 1.4;
+    text-align: center;
+  }
   }
   /* Desktops and laptops ----------- */
   @media only screen  and (min-width : 1224px) {
   /* Styles */
+  .header-title {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 	10.1875rem !important; 
+    letter-spacing: 1.1px;
+    line-height: 1.4;
+    text-align: center;
+  }
   }
   
   /* Large screens ----------- */
   @media only screen  and (min-width : 1824px) {
   /* Styles */
+  .header-title {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 	10.1875rem !important; 
+    letter-spacing: 1.1px;
+    line-height: 1.4;
+    text-align: center;
+  }
   }
   
   /* iPhone 4 ----------- */
@@ -80,6 +143,13 @@
   /* iPhone XS Max, XR ----------- */
   @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
   /* Styles */
+  .header-title {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 	3.75rem !important; 
+    letter-spacing: 1.1px;
+    line-height: 1.4;
+    text-align: center;
+  }
   }
   
   @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
@@ -153,8 +223,8 @@
     text-align: center;
   }
   .header-title {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem !important;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 3.75rem !important;
     letter-spacing: 1.1px;
     line-height: 1.4;
     text-align: center;
@@ -162,7 +232,7 @@
   }
   .header-title-cs {
     font-family: 'Roboto', sans-serif;
-    font-size: 	1rem !important; 
+    font-size: 	1.375rem !important; 
     letter-spacing: .5px;
     text-align: center;
     margin-left: 25%;
@@ -180,7 +250,7 @@
 .callout-text-lg {
   font-size: 1.5rem;
   font-family: 'Roboto Bold', sans-serif;
-  line-height: 2.12;
+  line-height: 1.25;
   letter-spacing: 0.8px;
   text-align: center;
   color: #fff;
@@ -201,7 +271,7 @@
 .callout-text-black {
   font-size: 1.25rem;
   font-family: 'Roboto Bold', sans-serif;
-  line-height: 2;
+  line-height: 1.25;
   letter-spacing: 0.8px;
   text-align: center;
   color: #000;
@@ -215,11 +285,12 @@
 .callout-text {
   font-size: 1.5625rem;
   font-family: 'Roboto', sans-serif;
-  line-height: 2.12;
+  line-height: 1.25;
   font-weight: 700;
   letter-spacing: 0.8px;
   text-align: center;
   color: #000;
+  margin: 20px;
 }
 
 /*******************************
@@ -276,6 +347,8 @@
   "text3" "text4";
   padding: 10px;
 }
+
+
 .card-case-studies {
   -webkit-box-shadow: 0px 2px 1px 1px rgba(0,0,0,0.25); 
   box-shadow: 0px 2px 1px 1px rgba(0,0,0,0.25);
@@ -527,6 +600,7 @@
   justify-content: center;
   margin-left: 10px;
   margin-right: 10px;
+  margin-left: 0%;
 }
 .grid-right-services {
   grid-column: auto;
@@ -703,6 +777,9 @@
 .margin-top-2per {
   margin-top: -2%;
 }
+.margin-top-8per {
+  margin-top: 0%;
+}
 .margin-left-140 {
   margin-left: 10px;
 }
@@ -747,8 +824,14 @@
 .height-60-mobile {
   height: 60px;
 }
-.thin-hr {
-  display: none;
+.margin-top-75 {
+  margin-top: 15px;
+}
+.margin-bottom-75 {
+  margin-bottom: 15px;
+}
+.margin-bottom-100 {
+  margin-bottom: 15px;
 }
 .content-block-services {
   width: 90%;

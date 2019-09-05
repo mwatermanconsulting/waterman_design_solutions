@@ -1,8 +1,5 @@
 import React, { Component } from 'react' ;
 import offerings from '../images/backgrounds/bg-core-studies.png';
-import innovation2 from '../images/ux_process.png';
-import itcss from '../images/graphic-services.svg';
-import casscade from '../images/photos/photo-css-s1.png';
 import offerings3 from '../images/photos/photo-core-offerings-s3.png';
 import offerings1 from '../images/photos/photo-core-offerings-s1.png';
 import offerings2 from '../images/photos/photo-core-offerings-s2.png';
@@ -52,13 +49,13 @@ class core_offerings extends Component {
                         </div>
             </section>
 
-            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+            <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
             <section className="flex-layout-section-full align-items-center flex-layout-column">
-                <div className="subtitle content-block-65">
+                <div className="subtitle content-block-60">
                     Common Business Design Problems
                 </div>
-                <ul className="dashed content-block-65 margin-top-25 content-text-21">
+                <ul className="dashed content-block-60 margin-top-25 content-text-21">
                     <li>Business lost touch with its core values</li>
                     <li>C-Suite not communicating value of design</li>
                     <li>Communication issues between teams - teams working on an island</li>
@@ -72,28 +69,28 @@ class core_offerings extends Component {
                 </ul>
             </section>
 
-            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+            <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
-            <section className="grid-2col-photo-content content-header">
-                <div className="grid-left flex-layout-section-full">
-                    <div className="title text-grey">
+            <section className="float-left align-items-center flex-layout-section-full">
+                <div className="title content-block-60">
                         Communication Workshops and Strategies  
-                    </div>
-                    <div className="subtitle margin-top-15">
-                        If everyone is moving forward together, then success takes care of itself. - Henry Ford 
-                    </div>
-                    <div className="content-block-75 content-text-18 margin-top-15">
-                        <p className="content-text-18"> 
-                        One of the greatest issues facing all companies is communication between teams. Large companies can have teams spread all over the world. Each working on an islands not knowing what the other teams are working on, bringing on issues of not being consistent. WDS has solved communication issues for Motorola, Stubhub.</p>
-                        <p className="content-text-18">
-                        We have communication experts that observe and evaluate  interactions between teams, then provide custom strategies and workshops. Below is a communication strategies case study that we developed for OSI. </p>
-                    </div>
                 </div>
-                <div className="grid-right-css container-image-block">
-                    <img className="photo-container" src={offerings2}  alt="Communication Expertise" /> 
-                </div>     
+                <div className="subtitle margin-top-15 content-block-60">
+                        If everyone is moving forward together, then success takes care of itself. - Henry Ford 
+                </div>
+                <div className="content-block-60 content-text-18 margin-top-15">
+                    <p className="content-text-18">  <div className="float-right">
+                    <img className="photo-container width-100" src={offerings2}  alt="Communication Expertise" /> 
+                    </div> 
+                    One of the greatest issues facing all companies is communication between teams. Large companies can have teams spread all over the world. Teams are working on an islands not communicating what the other teams are working on, bringing on issues of design inconsistencies. WDS has solved communication issues for Motorola, Stubhub, Pfizer and OsiSoft</p> 
+                   
+                    <p className="content-text-18">
+                    We have communication experts that observe and evaluate  interactions between teams, then provide custom communication strategies and workshops. Below is a communication strategies case study that we developed for OSI. </p>
+                </div>
+               
+                   
                 </section>
-               {/* <section className="flex-layout-section-full flex-layout-column padding flex-layout-center-center green margin-top-50">
+                <section className="flex-layout-section-full flex-layout-column padding flex-layout-center-center green margin-top-50">
                     <div className="title text-white">
                             In Context Case Study - UX Steering Team
                     </div>
@@ -109,14 +106,14 @@ class core_offerings extends Component {
                         </p>
 
                         <p className="content-block-65 content-text-21 margin-top-15" style={{width:'85%'}}>
-                            <b>Strategy-</b>
+                            <b>Strategy - </b>
                             In response we proposed the creation of a UX Steering team. In response to the issues the best strategy was to create a design support team within the company. The goal of this team was to set a list of design standards and to have monthly meeting occuring one week before a scrum cycle. The meetings would give a voice to the software engineers to talk to other teams communicating design and coding strategies and providing guidance and support. One of the main goals of this team was to eliminate duplicate feature development. For example two different teams creating the same or worse slightly different data tree view.
                         </p>
 
-                        <p className="content-block-65 content-text-21 margin-top-15" style={{width:'85%'}}>Results
+                        <p className="content-block-65 content-text-21 margin-top-15" style={{width:'85%'}}><b>Results - </b>
                             The UX Steering was a unique strategy for a common problem. It helped with communication issues and provided a forum to talk about design and the user within the company. It also provided a road map to product consistency. WDS also provided CSS Solutions with the creation of helper and global CSS classes, and flexbox responsive design. WDS also developed workshops for CSS, SASS and Responsive development. WDS moved on to the creation and development of the company Style Guides and Design System to support the long time strategy and vision of UX Steering team of product consistency.
                         </p>
-        </section> */}
+            </section>
           
             <section className="float-left align-items-center flex-layout-column margin-top-75">
                 <div className="title content-block-60">
@@ -138,15 +135,15 @@ class core_offerings extends Component {
                 <p className="content-text-21 align-self-center content-block-60"><b>Key Services</b></p>
                     
                     <ul className="dashed align-self-center content-block-60 margin-top-5 content-text-21">
-                    <li>Importance of Design Standards</li>
-                    <li>Design Critique Sessions</li>
-                    <li>Writing Design Requirements </li>
-                    <li>Developer Design Guidance Strategies</li>
-                    <li>Developer Design Support Solutions</li>
-                </ul>
+                        <li>Importance of Design Standards</li>
+                        <li>Design Critique Sessions</li>
+                        <li>Writing Design Requirements </li>
+                        <li>Developer Design Guidance Strategies</li>
+                        <li>Developer Design Support Solutions</li>
+                    </ul>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="float-left align-items-center flex-layout-column">
                 <div className="title content-block-60">
@@ -177,7 +174,7 @@ class core_offerings extends Component {
                 </ul>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="float-left align-items-center flex-layout-column">
                 <div className="title content-block-60">
@@ -207,7 +204,7 @@ class core_offerings extends Component {
                 </ul>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
@@ -217,9 +214,9 @@ class core_offerings extends Component {
                         It's about the customer's journey
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
-                        <div className="float-right">
+                        <div className="float-right margin-top-5per">
                             <img className="photo-container"  src={offerings6}  alt="Customer Experience Solutions" /> 
-                    </div>
+                        </div>
                         <p className="content-text-18"> 
                         Customer experience (CX) is the new competitive battleground for today's companies. WDS will help you find the strategic intersection between your high-value customers and the critical enhancements required at specific touchpoints in your larger customer experience journey. </p>
                     </div>
@@ -237,11 +234,11 @@ class core_offerings extends Component {
                     </ul>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 
 
-                       <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                       <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
@@ -274,7 +271,7 @@ class core_offerings extends Component {
                     </ul>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
@@ -296,7 +293,7 @@ class core_offerings extends Component {
                     </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">

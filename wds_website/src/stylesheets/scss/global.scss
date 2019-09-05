@@ -160,6 +160,7 @@ h1 {
   text-align: center;
   color: $white;
   font-weight: 700;
+  margin: 20px;
 }
 .callout-text-white {
   font-size: 1.25rem;
@@ -432,6 +433,9 @@ input[type=submit]:hover {
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
 }
+:root {
+  font-size: 16px;
+  }
 
 ol {
   display: block;

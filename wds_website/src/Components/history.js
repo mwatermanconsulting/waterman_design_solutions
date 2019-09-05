@@ -131,7 +131,7 @@ class about extends Component {
                              <p className="content-text-18 margin-top-25">     
                              Adding HTML, CSS and Flash skills, the two partners turned their attention to the web to design and develop websites. The goal was to help small business owners to fight off big box business competition by bringing a level of professionalism to their online presence. </p>
 
-                        <section className="grid-cs-card flex-layout-center-center flex-layout-section-full margin-top-50">   
+                        <section className="grid-cs-card-history flex-layout-center-center flex-layout-section-full margin-top-50">   
                             <p className="cs-card-1 margin-top-15 caption"><img className="container-photo-100 margin-top-25 " src={four} alt="411"/><br></br>
                             <i></i>SavTraveler</p>
                             <p className="cs-card-2 margin-top-15 caption"><img className="container-photo-100 margin-top-25 " src={pw} alt="Pearly Whites"/><br></br>
@@ -221,11 +221,11 @@ class about extends Component {
                             Surreal Concepts started to make a name for itself for its design and business solutions. Motorola had a large problem that they could not solve with their modem product line. For years the return rate on their line of modems was rising and call center costs were out of control. After two failed attempts to fix this, Surreal Concepts was contracted for UX design, UI design and development to provide business solutions. This was a complex product user interface and tested the scalability of its UX methodology.  
                         </p>
 
-                        <div className="container-image-block flex-layout-center-center flex-layout-column">
+                            <p className="content-text-18"><a href="../case_study_1">Read full case study</a></p>
+
+                        <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-50">
                             <img className="photo-container-cs-sb1 width-100" src={motorola_beforeafter} alt="Questions"/> 
                         </div>     
-
-                        <p className="content-text-18"><a href="../case_study_3">Read full case study</a></p>
                     </div>
                     </section>
 
@@ -242,9 +242,9 @@ class about extends Component {
                             <p className="content-text-18"> 
                              StubHub faced the same problem as Motorola, wasting time and money on contracted UI developers and not UX designers. They didn't understand that  these  problems can be solved with empathy for the user. StubHub had a problem with user traction and retention on their internal business platform. With one last chance to get it right, StubHub turned to Surreal Concepts for answers.  </p>
                         
-                            <p className="content-text-18"><a href="../case_study_3">Read full case study</a></p> 
+                            <p className="content-text-18"><a href="../case_study_2">Read full case study</a></p> 
 
-                            <img className="photo-container-cs-sb1" src={stubhub_after_4} alt="Show me the Numbers"/>
+                            <img className="photo-container-cs-sb1 margin-top-15" src={stubhub_after_4} alt="Show me the Numbers"/>
                         </div>    
                     </section>
                     
@@ -255,13 +255,11 @@ class about extends Component {
                             Surreal Evolving
                         </div>
                         <div className="subtitle content-block-55 margin-top-15">
-                            Waterman Design Consultants
+                            Waterman Design Solutions
                         </div>
                         <div className="content-block-55 margin-top-15">
                             <p className="content-text-18"> 
                              After 22 years of business Terri and Michael  evolved to the point of outgrowing Surreal Concepts. After 4 years away from the business, Michael knew it was time to share his knowledge, strategies and methodologies with new and old clients. Surreal Concepts no longer fit with the new services offered, and needed to change strategies. The new services include  design,  business strategies, talks and workshops. Michael has navigated successfully to enterprise businesses, and under the new name Waterman Design Solutions, the team looks forward to changing the design perspective for all sized businesses. </p>
-                        
-                            <p className="content-text-18"><a href="../case_study_3">Read full case study</a></p> 
 
                             <img className="photo-container-cs-sb1" src={wds} alt="Show me the Numbers"/>
                         </div>    
@@ -318,14 +316,14 @@ class about extends Component {
                     <div className="title content-block-60">
                         Terri Waterman 
                     </div>
-                    <div className="subtitle content-block-60 margin-top-50">
+                    <div className="subtitle content-block-60 margin-top-15">
                     Art and Creative Director, UX/UI designer, Humorist
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
-                        <div className="float-right">
+                        
+                        <p className="content-text-18"> <b>"I aim to inspire.</b>" <br></br>Terri's perspective is greatly influenced by her hearing loss as a child. Since her outer life became quiet, observations and interpretations were always unique and different. Her observations taught her that following the crowd was never a good idea to foster creativity, which enables her unique approach. Her fine art training has taught her the importance of staying true to herself. <div className="float-right">
                             <img className=""  src={terri}  alt="Terri" /> 
-                        </div>
-                        <p className="content-text-18 margin-top-25"> "I aim to inspire." <br></br>Terri's perspective is greatly influenced by her hearing loss as a child. Since her outer life became quiet, observations and interpretations were always unique and different. Her observations taught her that following the crowd was never a good idea to foster creativity, which enables her unique approach. Her fine art training has taught her the importance of staying true to herself. <br></br>A deep thinker, she has always been curious about how humans behave and respond to life, and how design was about communicating simply. Like the cartooning on this site, the goal was to show you how much WDS values good old fashioned customer service, something that was very prevalent in the 1950s.
+                        </div><br></br>A deep thinker, she has always been curious about how humans behave and respond to life, and how design was about communicating simply. Like the cartooning on this site, the goal was to show you how much WDS values good old fashioned customer service, something that was very prevalent in the 1950s.
                         <br></br>
                         Her experience working with Michael and their clients have taught her that design has a purpose of having empathy, and users ALWAYS embrace designs that take them into consideration. </p><p className="subtitle">Terri's passion for helping others with her talent is what motivates her to be passionate about her clients' goals.</p>
 
