@@ -2164,7 +2164,8 @@ Button:hover {
 
 .grid-cs-card {
   display: grid;
-  grid-gap: 50px;
+  grid-row-gap: 65px;
+  grid-column-gap: 5px;
   grid-template-columns: repeat(2, [col] 700px);
   grid-template-rows: repeat(2, [row] auto); }
 
