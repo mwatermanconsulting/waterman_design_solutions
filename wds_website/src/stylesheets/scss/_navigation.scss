@@ -5,7 +5,6 @@
 
   .menu {
     background-color: $red;
-    font-size: 1.2em;
   }
 
   ul.menu {
@@ -123,4 +122,7 @@
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+  a.menu {
+    color: #fff !important;
   }

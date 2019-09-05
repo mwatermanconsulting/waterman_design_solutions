@@ -2498,8 +2498,7 @@ Button:hover {
            Menu
   *******************************/
 .menu {
-  background-color: #EC1000;
-  font-size: 1.2em; }
+  background-color: #EC1000; }
 
 ul.menu {
   list-style-type: none;
@@ -2603,6 +2602,9 @@ ul.menu > li.dropdown {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block; }
+
+a.menu {
+  color: #fff !important; }
 
 .material-icons {
   font-family: 'Material Icons';
