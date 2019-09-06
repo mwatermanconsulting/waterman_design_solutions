@@ -2741,7 +2741,10 @@ footer {
     font-size: 3.75rem !important;
     letter-spacing: 1.1px;
     line-height: 1.4;
-    text-align: center; } }
+    text-align: center; }
+  .mdl-layout__header {
+    display: block;
+    opacity: 100%; } }
 
 /* iPads (portrait) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
@@ -2782,17 +2785,23 @@ footer {
     font-size: 10.1875rem !important;
     letter-spacing: 1.1px;
     line-height: 1.4;
-    text-align: center; } }
+    text-align: center; }
+  .mdl-layout__header {
+    display: block;
+    opacity: 100%; } }
 
 /* Large screens ----------- */
-@media only screen and (min-width: 1824px) {
+@media only screen and (min-width: 1024px) {
   /* Styles */
   .header-title {
     font-family: 'Mouse Memoirs', sans-serif;
-    font-size: 10.1875rem !important;
+    font-size: 3.75rem !important;
     letter-spacing: 1.1px;
     line-height: 1.4;
-    text-align: center; } }
+    text-align: center; }
+  .mdl-layout__header {
+    display: block !important;
+    opacity: 100%; } }
 
 /* iPhone 4 ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
@@ -3319,6 +3328,8 @@ footer {
     margin-left: 10px; }
   .margin-left-17 {
     margin-left: 10px; }
+  .margin-left-20per {
+    margin-left: -20%; }
   .float-left {
     float: none;
     padding: 5px; }

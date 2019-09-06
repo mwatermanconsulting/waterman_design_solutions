@@ -20,7 +20,6 @@
     text-align: center;
   }
   .container-photo-callout {
-
     width: 100%;
     height: auto;
     border: 2px solid #fff;
@@ -44,6 +43,10 @@
     line-height: 1.4;
     text-align: center;
   }
+  .mdl-layout__header {
+    display: block;
+    opacity: 100%;
+}
   
   }
   
@@ -92,18 +95,30 @@
     line-height: 1.4;
     text-align: center;
   }
+  .mdl-layout__header {
+    display: block;
+    opacity: 100%;
+  }
+  .margin-left-20per {
+    margin-left: -20%;
+  }
   }
   
   /* Large screens ----------- */
-  @media only screen  and (min-width : 1824px) {
+  @media only screen  and (min-width : 1024px) {
   /* Styles */
   .header-title {
     font-family: 'Mouse Memoirs', sans-serif;
-    font-size: 	10.1875rem !important; 
+    font-size: 	3.75rem !important; 
     letter-spacing: 1.1px;
     line-height: 1.4;
     text-align: center;
   }
+  .mdl-layout__header {
+    display: block !important;
+    opacity: 100%;
+  }
+  
   }
   
   /* iPhone 4 ----------- */
@@ -810,6 +825,7 @@
 .margin-left-17 {
   margin-left: 10px;
 }
+
 .float-left {
   float: none;
   padding:  5px;
