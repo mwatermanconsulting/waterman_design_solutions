@@ -91,7 +91,8 @@ class about extends Component {
                         </div>
                        
                         <p className="float-left content-text-18 content-block-55 margin-top-15">
-                            <p className="float-right margin-top-15 caption"><img className="width-100 margin-top-20per" src={wallys} alt="Wally's"/><br></br>
+                            <p className="float-right margin-top-15 caption">
+                                <img className="width-100 margin-top-20per" src={wallys} alt="Wally's"/><br></br>
                             <i>Roos Foods Wally's</i></p>
                             Surreal Concepts was incorporated in 1997 and started out doing graphic design. They developed a partnership with a flexographic label company,  Apogee, designing and  preparing documents for printing press plates. They also introduced a  printing strategy and set up a schedule that supported the client's needs, eliminating most missed deadlines. Clients here included SmithKline and Boiron Homeopathy. </p>
                     </section>
