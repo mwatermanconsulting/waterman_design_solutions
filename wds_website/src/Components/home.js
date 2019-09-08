@@ -29,15 +29,98 @@ class landingPage extends Component {
                     </div> 
                 </div>
                 <section className="flex-layout-section-full flex-layout-column align-items-center">
-                <div className="content-block-60">
-                    <p className="title margin-top-75">
-                    WDS is your partner for experience-driven transformation</p>
-                    <p className="content-text-18">WDS is an end-to-end, experience-driven company that helps organizations navigate complex software transformations. Our team 
-                        brings clarity to better understand customers’ needs and to reveal disconnects in your current customer experience. In doing so, we deliver comprehensive experience 
-                        enhancements to help you exceed your customer experience and targeted business goals.</p>
-                        <p className="content-text-18">We work across verticals and technologies, such as consumer, workplace, financial, healthcare, customer service, mobile development, and ecommerce.</p>
-                </div>
+                    <div className="content-block-60">
+                        <p className="title margin-top-75">
+                            Who is WDS?</p>
+                            <p className="subtitle margin-top-15">
+                            Your Partner in Design</p>
+                        <p className="content-text-18">
+                            WDS is a UX/UI agency that offers empathetic design solutions for websites, web based applications, mobile apps, and products. Our core offerings help your business understand the value of design on a core level, providing training, workshops and mentorship programs. With over 15 years of perfecting our strategies, we have the experience, designers, strategists, skills and scale to deliver sophisticated design solutions. </p>
+                    </div>
+                </section>
+                
+
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+
+                <section className="grid-gallery-2col grid-gap-20 content-header align-self-center justify-items-center margin-bottom-25 width-70">
+                    <div className="gallery-2col-1 container-image-500 align-self-end">
+                    <img className="container-image-300" src={why}  alt="Why WDS" /> 
+                        <div className="content-block-auto ">
+                            <div className="title margin-top-15 margin-bottom-20 content-text-18">Why WDS</div>
+                            <p className="content-text-18">Why design matters to your business and your customers and how we can ease your fears about dealing with a designer.</p>
+                            <button onclick="location.href='./why_wds';" type="button" value="Learn More" className="button font-size-18">Learn More</button>
+                        </div>
+                    </div>     
+                    <div className="gallery-2col-2t container-image-500 align-self-top">
+                    <img className="container-image-300 "  src={binoculars}  alt="Methodology" /> 
+                        <div className="content-block-auto ">
+                            <div className="title  margin-top-15 margin-bottom-20">Methodology</div>
+                            <p className="content-text-18">Our process  works on all size platforms. This makes life easier for your team and those you serve. </p><button onclick="location.href='./methodology';" type="button" value="Learn More" className="button font-size-18">Learn More</button>
+                        </div>
+                    </div>
             </section>
+            <section className="grid-gallery-2col grid-gap-20 align-self-center justify-items-center margin-bottom-50 width-70">
+                    <div className="gallery-2col-1 container-image-500 align-self-end">
+                    <img className="container-image-300"  src={design}  alt="Design Solutions" />
+                        <div className="content-block-auto ">
+                            <div className="title margin-top-15 margin-bottom-20">Design Solutions</div>
+                            <p className="content-text-18">In today's market, design is more critical to your business success. Simple and elegant designs will make a better experience for your users.</p>
+                            <button onclick="location.href='./design_solutions';" type="button" value="Learn More" className="button font-size-18">Learn More</button>
+                        </div>
+                    </div>     
+                    <div className="gallery-2col-2 container-image-500 align-self-end">
+                    <img className="container-image-300 " src={igotyou}  alt="Services" />
+                        <div className="content-block-auto ">
+                            <div className="title  margin-top-15 margin-bottom-20">Services</div>
+                            <p className="content-text-18"> For the past 25 years, we've been working at the leading edge of strategy, design and technology to help clients evolve and thrive.</p>
+                            <button onclick="location.href='./services';" type="button" value="Learn More" className="button font-size-18">Learn More</button>
+                        </div>
+                    </div>
+            </section>
+
+            <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+
+                <section className="flex-layout-section-full flex-layout-column align-items-center">
+                    <div className="content-block-60">
+                        <p className="title">
+                            UX Design </p>
+                            <p className="subtitle margin-top-15">
+                            Understanding Your Users is the Key</p>
+                        <p className="content-text-18">
+                        Our UX strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. </p>
+                    </div>
+                </section>
+
+                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+
+                <section className="flex-layout-section-full flex-layout-column align-items-center">
+                    <div className="content-block-60">
+                        <p className="title">
+                             Simplifying Complex Interfaces</p>
+                            <p className="subtitle margin-top-15">
+                                Empathetic Design
+                            </p>
+                        <p className="content-text-18">
+                        WDS design solutions are being used on incredibly complex applications, such as nuclear plants, oil rigs and energy grids.  Simplifying critical applications takes focus and understanding in order to create a seamless intuitive experience that reduces the chance for human error.</p>
+                    </div>
+                </section>
+
+                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+            <section className="float-left align-items-center flex-layout-column ">
+                    <div className="title content-block-60">
+                            WDS is Your Design Support
+                    </div>
+                        <div className="subtitle content-block-60 margin-top-15">
+                            The Value of Working with Real Designers
+                        </div>
+                        <div className="content-block-60 content-text-18 margin-top-15">
+                            
+                            <p className="content-text-18"> 
+                            WDS has trained designers who can do graphic design, marketing, branding, and social media content. They understand the value of design to create a better experience according to your business needs.  </p>           
+                        </div> 
+                </section>
+
                 
 
             <section className="grid-gallery-2col grid-gap-20 content-header align-self-center justify-items-center margin-bottom-50  margin-top-100 width-70">
@@ -59,53 +142,8 @@ class landingPage extends Component {
                     </div>
                      
             </section>
-            <section className="flex-layout-section-full flex-layout-column align-items-center">
-                <div className="content-block-60">
-                    <p className="title margin-top-75">
-                        Established Methodology and Practices</p>
-                    <p className="content-text-18">We have a unique and established <a href="./methodology" target="_blank">methodology</a> for understanding people in context, revealing unmet needs which drive everything we do. This leads to a clear understanding of the 
-                               customer,  shaping the design and development of new solutions and experiences. </p>
-                            <p className="content-text-18">With over 15 years perfecting our approach, we have the experience, teams, skills and scale to deliver sophisticated software solutions that improve any and all touchpoints across the user journey. 
-                            </p>
-                </div>
-            </section>
 
             <div className="flex-layout-column margin-bottom-50"> 
-            <section className="grid-gallery-2col grid-gap-20 content-header align-self-center justify-items-center margin-bottom-50 width-70">
-                    <div className="gallery-2col-1 container-image-500 align-self-end">
-                    <img className="container-image-300" src={why}  alt="Why WDS" /> 
-                        <div className="content-block-auto ">
-                            <div className="title-homepage margin-top-15 margin-bottom-20">Why WDS</div>
-                            <p className="content-text-18">Why design matters to your business and your customers and how we can ease your fears about dealing with a designer.</p>
-                        </div>
-                    </div>     
-                    <div className="gallery-2col-2 container-image-500 align-self-top">
-                    <img className="container-image-300"  src={binoculars}  alt="Methodology" /> 
-                        <div className="content-block-auto ">
-                            <div className="title-homepage  margin-top-15 margin-bottom-20">Methodology</div>
-                            <p className="content-text-18">Our process  works on all size platforms. This makes life easier for your team and those you serve. </p>
-                        </div>
-                    </div>
-            </section>
-            <section className="grid-gallery-2col grid-gap-20 align-self-center justify-items-center margin-bottom-50 width-70">
-                    <div className="gallery-2col-1 container-image-500 align-self-end">
-                    <img className="container-image-300"  src={design}  alt="Design Solutions" />
-                        <div className="content-block-auto ">
-                            <div className="title-homepage margin-top-15 margin-bottom-20">Design Solutions</div>
-                            <p className="content-text-18">In today's market, design is more critical to your business success. Simple and elegant designs will make a better experience for your users.</p>
-                        </div>
-                    </div>     
-                    <div className="gallery-2col-2 container-image-500 align-self-top">
-                    <img className="container-image " src={igotyou}  alt="Services" />
-                        <div className="content-block-auto ">
-                            <div className="title-homepage  margin-top-15 margin-bottom-20">Services</div>
-                            <p className="content-text-18"> For the past 25 years, we've been working at the leading edge of strategy, design and technology to help clients evolve and thrive.</p>
-                        </div>
-                    </div>
-            </section>
-            
-            
-
 
             <section className="flex-section-fixed-head flex-layout-center-center homepage-bg-starburst  image-background-border-tb">
                     <div className="header-text-center callout-text-lg text-white width-70">
@@ -133,17 +171,19 @@ class landingPage extends Component {
                     <div className="gallery-2col-1 container-image-500 align-self-end">
                         <img className="container-image-500" src={motorola}  alt="All About the User" /> 
                         <div className="content-block-auto ">
-                            <div className="title-homepage">Motorola</div>
-                            <p className="subtitle">Industry: Technology</p>
+                            <div className="subtitle">Motorola</div>
+                            <p className="content-text-21">Industry: Technology</p>
                             <p className="">After two failed attempts by previously hired UX/UI developers, a frustrated management group for Motorola's new product decided they needed a designer to simplify their modem app so it's easier to use.</p>
+                            <button onclick="location.href='./case_study_1';" type="button" value="Learn More" className="button font-size-18">Learn More</button>
                         </div>
                     </div>     
                     <div className="gallery-2col-2 container-image-500 align-self-top">
                         <img className="container-image-500"  src={stubhub}  alt="Business Solutions" /> 
                         <div className="content-block-auto ">
-                            <div className="title-homepage">StubHub</div>
-                            <p className="subtitle">Industry: Entertainment/Sports</p>
+                            <div className="subtitle">StubHub</div>
+                            <p className="content-text-21">Industry: Entertainment/Sports</p>
                             <p className="">The analysts were unhappy with their current data visualization tool. After two failed attempts to fix it, and the threat of dissolving the internal team, WDS came to the rescue.</p>
+                            <button onclick="location.href='./case_study_2';" type="button" value="Learn More" className="button font-size-18">Learn More</button>
                         </div>
                     </div>
                      

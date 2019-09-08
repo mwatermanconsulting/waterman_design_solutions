@@ -112,30 +112,7 @@ class strategy_insight extends Component {
 
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
                     
-                    <section className="grid-callout-2col content-header align-self-center justify-items-center margin-top-50 margin-bottom-50 width-70">
-                    
-                    <div className="gallery-2col-1 container-image-500">
-                        <a href ="./css_solutions"><img className="container-image-500 border-2" src={services8}  alt="CSS Solutions" /> </a>
-                        <div className="content-block-auto ">
-                            <div className="title margin-top-50">
-                                <a href="./css_solutions" className="no-decoration">CSS Solutions</a>
-                            </div>
-                            <p className="content-text-18 content-block-85 margin-top-15">
-                                Taming the specificity beast use to be difficult. Our CSS strategy almost eliminates the specificity problems. In fact, our strategy almost eliminates the need for your developers to write CSS. Our advantage is our past experience working with developers and interviewing and observing them working with CSS.</p>
-                        </div>
-                    </div>     
-                    <div className="gallery-2col-2 container-image-500 align-self-top">
-                    <a href ="./design_systems"> <img className="container-image-500 border-2"  src={services9}  alt="Business Solutions" /> </a>
-                        <div className="content-block-85">
-                            <div className="title margin-top-50">
-                            <a href="./design_systems" className="no-decoration"> Design Systems</a></div>
-                            <p className="content-text-18 margin-top-15">
-                                At WDS, we know and understand the importance of design systems to businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff.</p>
-                        </div>
-                    </div>
-            </section>
-
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                   
 
                     <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
                         <div className="title content-block-60">
