@@ -158,11 +158,11 @@ class core_offerings extends Component {
                     <div className="float-right">
                         <img className="photo-container"  src={offerings4}  alt="C-Suite Business Design Strategies and Workshops" /> 
                     </div>
-                     <p className="content-text-18"> 
-                     Design direction and value begins at the top. Studies have shown that companies that communicate the value of design from the top down, increase their business by 30%. In order to survive in today's digital world, design needs to have the same importance as sales, hr and marketing. WDS can change your change design perspective at its core. </p>
+                        <p className="content-text-18"> 
+                        Design direction and value begins at the top. Studies have shown that companies that communicate the value of design from the top down, increase their business by 30%. In order to survive in today's digital world, design needs to have the same importance as sales, hr and marketing. WDS can change your change design perspective at its core. </p>
  
-                     <p className="content-text-18">The workshops also cover the need for design support and guidance. By Learning how to incorporate design requirements into your backlogs and empowering management to make changes at a core level. Management gets to focus on their weaknesses and WDS will devise action plans to solve those issues. 
-                     </p>
+                        <p className="content-text-18">The workshops also cover the need for design support and guidance. By Learning how to incorporate design requirements into your backlogs and empowering management to make changes at a core level. Management gets to focus on their weaknesses and WDS will devise action plans to solve those issues. 
+                        </p>
                     
                         <p className="content-text-21 align-self-center margin-top-25 content-block-60"><b>Key Services</b></p>
                     </div>

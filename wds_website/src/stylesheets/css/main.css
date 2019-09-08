@@ -1129,7 +1129,7 @@ p {
        Footer
   *******************************/
 .container-footer {
-  height: auto;
+  height: 100%;
   display: flex;
   align-items: center; }
 
@@ -1379,15 +1379,6 @@ Button:hover {
   color: #fff;
   transition-duration: 1s;
   transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
-
-.button {
-  border: #000 solid 1px;
-  white-space: nowrap;
-  margin: 5px;
-  font-weight: 500;
-  font-size: 1.2em;
-  display: inline-block;
-  text-align: center; }
 
 .button-white {
   border: #fff solid 1px;
@@ -1853,7 +1844,7 @@ Button:hover {
 .gallery-2col-2 {
   grid-column: 2/2;
   grid-row: 1/auto;
-  align-self: start; }
+  align-self: end; }
 
 .gallery-2col-2t {
   grid-column: 2/2;
@@ -2862,6 +2853,8 @@ footer {
 @media only screen and (max-width: 1024px) {
   .material-icons {
     opacity: 100%; }
+  .mdl-layout__header-row {
+    height: 0% !important; }
   .content-text-21 {
     font-family: Roboto;
     font-size: 1.3125rem;

@@ -315,7 +315,7 @@ class services extends Component {
                                 Taming the specificity beast use to be difficult. Our CSS strategy almost eliminates the specificity problems. In fact, our strategy almost eliminates the need for your developers to write CSS. Our advantage is our past experience working with developers and interviewing and observing them working with CSS.</p>
                         </div>
                     </div>     
-                    <div className="gallery-2col-2 container-image-500 align-self-top">
+                    <div className="gallery-2col-2t container-image-500 align-self-top">
                     <a href ="./design_systems"> <img className="container-image-500 border-2"  src={services9}  alt="Business Solutions" /> </a>
                         <div className="content-block-85">
                             <div className="title margin-top-50">
