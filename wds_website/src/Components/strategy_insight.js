@@ -112,6 +112,7 @@ class strategy_insight extends Component {
 
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
                     
+
                     <section className="grid-callout-2col content-header align-self-center justify-items-center margin-top-50 margin-bottom-50 width-70">
                     
                     <div className="gallery-2col-1 container-image-500">
@@ -136,6 +137,7 @@ class strategy_insight extends Component {
             </section>
 
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
 
                     <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
                         <div className="title content-block-60">

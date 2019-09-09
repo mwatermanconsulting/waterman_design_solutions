@@ -39,7 +39,7 @@ class clients extends Component {
 
             <section className="content-header flex-layout-center-center flex-layout-column margin-bottom-100">
                 <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-50">
-                    Our client roster includes Motorola, Google, Pfizer, Stubhub, SmithKline, OsiSoft and many 
+                    Waterman Design Solutions client roster includes Motorola, Google, Pfizer, Stubhub, SmithKline, OsiSoft and many 
                 </div>
             </section>
             <section className="flex-layout-section-full flex-layout-center-center">
