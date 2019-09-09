@@ -522,7 +522,7 @@
   width: 100%; 
 }
 
-.container  .mdl-button .mdl-js-button {
+.container .mdl-js-button {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -765,7 +765,7 @@
     }
 
     a {
-      color: $greeny-blue;
+      color: $greeny-blue !important;
     }
 
     li {

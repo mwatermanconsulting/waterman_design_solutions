@@ -1,5 +1,3 @@
-@import url(/css/reset.css);
-@import url(/css/App.css);
 .flex-container100 {
   display: flex;
   flex-direction: column;
@@ -610,7 +608,7 @@ footer {
   justify-content: center;
   width: 100%; }
 
-.container .mdl-button .mdl-js-button {
+.container .mdl-js-button {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -821,7 +819,7 @@ footer {
   color: #fff; }
 
 a {
-  color: #3eaca9; }
+  color: #3eaca9 !important; }
 
 li {
   display: list-item;
@@ -1392,26 +1390,100 @@ Button:hover {
   display: inline-block;
   text-align: center; }
 
-.mdl-button {
-  
-    padding: 12px;
-    border: #000 solid 1px .5;
-    white-space: nowrap;
-    margin: 5px;
-    font-weight: 500;
-    font-size: 1.2rem;
-    text-align: center; 
-    background-color:unset; 
-    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif
-  }
-  .mdl-button:hover {
-    border: #000 solid 3px 1.0;
-    background-color: $lightgreen; 
-    color: #fff;
-    transition-duration: 1s;
-    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-     
-  }
+.button {
+  backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: #fff;
+  border-radius: 1px;
+  border: 1px solid #000000;
+  border-width: 1px 1px 1px 1px;
+  padding: 10px 20px 10px 20px;
+  box-shadow: 0px 1px 0px #ffffff, 0px 1px 3px rgba(0, 0, 0, 0.3);
+  color: #010101;
+  font-size: 16px;
+  font-family: Helvetica Neue;
+  font-weight: 500;
+  font-style: normal;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4); }
+
+.button > div {
+  color: #999;
+  font-size: 10px;
+  font-family: Helvetica Neue;
+  font-weight: initial;
+  font-style: normal;
+  text-align: center;
+  margin: 0px 0px 0px 0px; }
+
+.button > i {
+  font-size: 1em;
+  border-radius: 0px;
+  border: 0px solid transparent;
+  border-width: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  position: static; }
+
+.button a {
+  text-decoration: none;
+  color: black !important; }
+
+.button a:hover {
+  border: #000 solid 3px 1.0;
+  background-color: #87A6AB;
+  color: #fff;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
+
+.button-area {
+  color: #000 !important;
+  margin: 5px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid #000;
+  padding: 10px; }
+
+.button-area:hover {
+  border: #000 solid 3px 1.0;
+  text-decoration: none;
+  background-color: #87A6AB;
+  color: #fff !important;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
+
+.button-area > a {
+  font-size: .9em;
+  color: white;
+  text-decoration: none;
+  flex-grow: 1;
+  text-align: center; }
+
+.button-area-line {
+  margin: 10px auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  max-width: 90%; }
+  .button-area-line a {
+    background: #999;
+    padding: 1em;
+    font-size: .9em;
+    margin: .3em;
+    color: white;
+    text-decoration: none;
+    flex-grow: 1;
+    text-align: center; }
 
 /*  Alighnment   */
 .align-items-center {

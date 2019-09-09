@@ -134,7 +134,7 @@ class strategy_insight extends Component {
                                 At WDS, we know and understand the importance of design systems to businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff.</p>
                         </div>
                     </div>
-            </section>
+                    </section>
 
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
@@ -149,8 +149,7 @@ class strategy_insight extends Component {
                         <div className="content-block-60 margin-top-15">
                             <div className="float-right">
                         <img className="photo-container" src={strategy4}  alt="Affinity Diagram" /> 
-                    </div>     
-               
+                        </div>     
                             <p className="content-text-18"> Data is only as valuable as the meaning  crafted
                                 from it. WDS has tried-and-true methods for moving
                                 from observations to insights. These meaningful
