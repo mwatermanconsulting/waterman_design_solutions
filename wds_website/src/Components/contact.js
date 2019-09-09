@@ -16,6 +16,8 @@ class contact extends Component {
             <div className="flex-layout-section-full flex-layout-center-center flex-layout-column margin-top-100 margin-bottom-100">
             <p className="title">Contact US</p>
             <p className="subtitle">484-477-5193</p>
+            <p className="subtitle ">Email: 
+            <a className="content-text-28" href="mailto: info@watermandesignsolutions.com"> inquiries@watermandesignsolutions.com</a></p>
                
                 
     

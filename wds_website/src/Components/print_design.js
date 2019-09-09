@@ -19,11 +19,11 @@ class print_design extends Component {
             <section className="flex-section-fixed-head-child flex-layout-center-center image-background-border-tb">
                 <div className="header-text-center header-title text-white">
                         Graphic Design</div>
-                <img className="flex-image-container" src={print}  alt="Print Design" /> 
+                <img className="flex-image-container" src={print}  alt="Graphic Design" /> 
             </section>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                        Graphic design for printed collateral will continue to be valuable where there is a physical customer presence.
+                WDS has extensive print experience, including magazines, brochures, business cards, trade show displays, corporate reports, etc.
                 </div>
             </section>
             <section className="grid-2col-photo-content photo-content-color border-bottom-5 height-670"> 
@@ -33,7 +33,7 @@ class print_design extends Component {
                     </div>      
                 </div>
                 <div className="grid-right-photo container-image-block">
-                    <img className="container-photo-callout image-size-100" src={print_s1}  alt="shaking hands" /> 
+                    <img className="container-photo-callout image-size-100" src={print_s1}  alt="Graphic Design" /> 
                 </div>
             </section>
             <section className="flex-layout-section-full flex-layout-column align-items-center margin-top-50">
@@ -43,7 +43,7 @@ class print_design extends Component {
                     </div>
                     <div className="margin-top-25 align-self-center content-block-75">
                         <p className="content-text-24 text-align-center ">
-                            Printed materials help brand your business. It supports your social media and ad word marketing.  It covers a larger audience that respond to these marketing tools differently. We take care of each marketing aspect from web design to corporate identity to tangible materials such as business cards, postcards, annual reports, magazines and more. </p>
+                            Printed materials help brand your business. It supports your social media and ad word marketing.  It covers a larger audience that respond to these marketing tools differently. WDS takes care of each marketing aspect, from web design to corporate identity to tangible materials such as business cards, postcards, annual reports, magazines and more. </p>
                     </div>
                 
             </section>

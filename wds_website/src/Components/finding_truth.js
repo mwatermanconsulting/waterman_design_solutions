@@ -18,7 +18,7 @@ class innovative_solutions extends Component {
             <section className="flex-section-fixed-head flex-layout-center-center image-background-border-tb">
                 <div className="header-text-center header-title text-white">
                         Finding the Truth</div>
-                <img className="flex-image-container width-100" src={finding_truth}  alt="Why WDS background" /> 
+                <img className="flex-image-container width-100" src={finding_truth}  alt="Finding the Truth" /> 
             </section>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
@@ -28,7 +28,7 @@ class innovative_solutions extends Component {
             <section className="grid-2col-photo-content photo-content-color border-bottom-5 height-670" > 
                 <div className="grid-item-b content-block-60 content-header flex-layout-column">
                     <div className="callout-text text-align-left">
-                        Our methodology allows us to connect with users. Our UX designers connect with users by empathizing by observing and interviewing. People will always open up and confide in you if they feel you are on their side and you care about their needs. This is how WDS uncover truths that were unknown. </div>
+                        WDS methodology allows them to connect with users. The UX designers connect with users by observing and interviewing. People will always open up and confide in you if they feel you are on their side and  care about their needs. This is how WDS uncover truths that were unknown. </div>
                              
                 </div>
                 <div className="item-a-nb container-image-block">
@@ -38,13 +38,13 @@ class innovative_solutions extends Component {
     
             <div className="content-header flex-layout-center-center flex-layout-column margin-top-75">
                 <div className="flex-layout-center-center title text-align-center margin-top-75 width-100 content-block-60">
-                    It's the people behind our methodology that makes the difference. 
+                    It's the people behind the methodology that makes the difference. 
                 </div>
                 <div className="content-block-55 margin-top-50">
                     <p className="content-text-24 text-align-center">
                     WDS discovers the patterns and themes that provide actionable, deeper and more valuable perspectives on your customers' wants, needs and motivations.</p>
                     <p className="content-text-24 text-align-center">
-                    The most meaningful insights for experience strategy are developed with a behavior-based understanding of users. Our experience strategists observe people in context - where they work, play or live - to understand their goals, needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve.</p>
+                    The most meaningful insights for experience strategy are developed with a behavior-based understanding of users. WDS strategists observe people in context - where they work, play or live - to understand their goals, needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve.</p>
                 </div>
             </div>
             
@@ -62,7 +62,8 @@ class innovative_solutions extends Component {
                         <img className="photo-container" style={{marginTop: '-5px'}} src={finding}  alt="Establish Business Context" /> 
                     </div>  
                     <p className="content-text-18"> 
-                        At the beginning of an engagement, we set the foundation for success by developing an understanding of the business, the industry, the competition and relevant trends. This becomes the basis for how we approach all subsequent phases. Along with secondary research, we interview stakeholders and subject matter experts. This helps us gain a first-hand awareness of the company context, allowing us to build connections within the business, that contributes to stakeholder alignment. This activity begins to define hypotheses for where the company intends to play in the market, who it intends to serve and how it plans to serve them.
+                    At the beginning of the methodology, WDS sets the foundation for success by developing an
+                            understanding of the business, the industry, the competition and relevant trends. This is the basis for how subsequent phases are approached, which includes secondary research, interviewing stakeholders and subject matter experts in order to gain a first-hand awareness of the company context and build connections within the business. This contributes to stakeholder alignment throughout the engagement and begins to define a hypothesis for where the company intends to play in the market, who it intends to serve and how it plans to serve them. 
                     </p>
                 </div>
                 </section>
@@ -81,10 +82,10 @@ class innovative_solutions extends Component {
                             Great strategies for design solutions are built on rich insight. The most meaningful insights for experience strategy are developed with a deep, behavior-based understanding of users or customers. 
                             <div className="float-right">
                         <img className="photo-container" src={finding_truth3} style={{marginRight:'12%'}} alt=" Field Observation and Interviews" /> 
-                            </div> Our experience strategists observe people in context - where they work, play or live - to understand their goals, needs and aspirations as they go about their daily lives. If a product does not yet exist, this first-hand look helps to identify unmet needs that a product may solve.</p>
+                            </div> WDS experience strategists observe people in context - where they work, play or live - to understand their goals, needs and aspirations as they go about their daily lives. If a product does not yet exist, this first-hand look helps to identify unmet needs that a product may solve.</p>
 
                             <p className="content-text-18">
-                            Using techniques from the fields of anthropology, psychology, product development and design, we use methods such as “contextual inquiry” to observe and record a rich variety of data, including body language, how people interact with their tools and how they construct their environments to be successful in their worlds. 
+                            Using techniques from the fields of anthropology, psychology, product development and design, WDS uses methods such as “contextual inquiry” to observe and record a rich variety of data, including body language, how people interact with their tools and how they construct their environments to be successful in their worlds. 
                             
                               <br></br> The value here is seeing and finding unexpected elements which lead to surprising insights.</p>
 
@@ -105,8 +106,8 @@ class innovative_solutions extends Component {
                         <div className="content-block-60 content-text-18 margin-top-15"><div className="float-right">
                         <img className="photo-container" src={finding_truth4}  alt="Developing a Persona" /> 
                     </div>  
-                            <p className="content-text-18"> Because specific targets are better than vague ones, we create personas - single archetypes that represent a group of people with similar behaviors, attitudes and motivations. Personas keep us focused on real people who exhibit unique sets of characteristics. These behavior-based personas assist us throughout ideation, design and marketing to help teams develop appropriate solutions and messages.</p>
-                            <p className="content-text-18">While personas are a popular technique used by many companies, especially to argue user cases,  WDS personas are far more robust than those created from market research data alone. We develop well-crafted personas grounded in user observations around REAL users instead of simple demographic data. </p>           
+                            <p className="content-text-18"> Since specific targets are better than vague ones, we create personas - single archetypes that represent a group of people with similar behaviors, attitudes and motivations. Personas keep the focus on real people who exhibit unique sets of characteristics, which  assists the team throughout ideation, design and marketing to help them develop appropriate solutions and messages.</p>
+                            <p className="content-text-18">While personas are a popular technique used by many companies, especially to argue use cases,  WDS personas are far more robust than those created from market research data alone. It is developed by well-crafted personas grounded in user observations based on REAL users instead of simple demographic data. </p>           
                         </div> 
                 </section>
 
@@ -114,7 +115,7 @@ class innovative_solutions extends Component {
 
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
-                           Visualize the experience touchpoints
+                           Visualizing  experience touchpoints
                     </div>
                     <div className="subtitle content-block-60 margin-top-15">
                             The User Journey
@@ -123,13 +124,13 @@ class innovative_solutions extends Component {
                        <div className="float-right">
                         <img className="photo-container" src={finding_truth5}  alt=" Visualize the experience touchpoints" /> 
                         </div>      
-                        <p className="content-text-18"> Data is only as valuable as the meaning we derive
-                            from it. We have tried-and-true methods for moving
+                        <p className="content-text-18"> Data is only as valuable as the meaning  derived
+                            from it. WDS has tried-and-true methods for moving
                             from observations to insights. These meaningful
                             insights are the next building block in the process of
                             building an experience strategy.</p>
 
-                        <p className="content-text-18"> We take a comprehensive, rigorous approach to
+                        <p className="content-text-18"> WDS takes a comprehensive, rigorous approach to
                             process data from the field and use it to spark
                             explanations of what is behind the observations.
                             Getting to the deeper understanding that insights
@@ -153,11 +154,11 @@ class innovative_solutions extends Component {
                             </div>they have a picture of the duties employees or customers accomplish in their work lives. </p> 
 
                             <p className="content-text-18"> 
-                            Through the use of a simplified workflow diagram, we see how a user moves through tasks and we extrapolate from here to the various cognitive states a user inhabits while engaged with the solution or process.
-                            These cognitive states represent a model of what is in people’s minds as they do their work: their mental model. This understanding has implications for both design and marketing.</p>
+                            Through the use of a simplified workflow diagram, how a user moves through tasks is revealed and extrapolate from here to the various cognitive states a user inhabits while engaged with the solution or process.
+                            These cognitive states represent a model of what is in people’s minds as they do their work, their mental model. This understanding has implications for both design and marketing.</p>
 
                             <p className="content-text-18"> 
-                            The cognitive states can help to inform the interface for a new way to navigate and complete tasks in a software tool. By aligning with how people think about their work, we produce tools that feel intuitive and easy to use. This understanding also provides an input to marketing, providing marketers with key information for creating a communication plan that resonates with customers. </p>
+                            The cognitive states can help to inform the interface  a new way to navigate and complete tasks in a software tool. By aligning with how people think about their work, WDS produces tools that are intuitive and easy to use. This understanding also provides input to marketing by providing key information for creating a communication plan that resonates with customers. </p>
                         </div>
                 </section>
 
@@ -209,10 +210,10 @@ class innovative_solutions extends Component {
                          
                     <div className="float-right">
                     <img className="photo-container" src={finding_truth7}  alt="Establish an design-driven product roadmap" /> 
-                    </div> We collaborate with product teams to incorporate the understanding and strategy developed in the revealing truth phase into the plan for how to group and sequence capabilities in an application. This includes the selection of features for the minimum viable product – an MVP that users and customers will be eager to adopt because it is developed with their needs in mind.</p>
+                    </div> WDS collaborates with product teams to incorporate the understanding and strategy developed in the revealing truth phase into the plan for how to group and sequence capabilities in an application. This includes the selection of features for the minimum viable product – an MVP that users and customers will be eager to adopt because it is developed with their needs in mind.</p>
                             
                             <p className="content-text-18"> 
-                            An design-driven product roadmap provides a way forward to head in the direction established by the experience strategy. Having deep user understanding enables the cadence of releases to be structured to appeal to users, providing a built-in incentive to update an application. This is how we build a holistic experience that addresses customers’ and business’ goals and positively impacts the company’s value.</p>    
+                            An design-driven product roadmap provides a way forward  in the direction established by the experience strategy. Having deep user understanding enables the cadence of releases to be structured to appeal to users, providing a built-in incentive to update an application. This is how WDS builds a holistic experience that addresses customers’ and business’ goals and positively impacts the company’s value.</p>    
                         </div>
                 </section>
                     
@@ -234,7 +235,7 @@ class innovative_solutions extends Component {
                             One dividend of the investment is that these insights can now feed directly into the strategy for enabling customers to become aware of and engage with the planned experiences, and the organization as a whole.</p>
 
                             <p className="content-text-18"> 
-                            This plan uses user insights, as well as market data, to determine the channels, content, messages and cadences that are right for specific personas at specific points in their journeys. This enables companies to build relationships with their customers that extend beyond transactions to build value. It ensures that great experiences find an audience in a world full of offerings. </p>
+                            This plan includes user insights and market data, to determine the channels, content, messages and cadences that are right for specific personas at specific points in their journeys. This enables companies to build relationships with their customers that extend beyond transactions to build value. It ensures that great experiences find an audience in a world full of offerings. </p>
                         </div>
                     </section>
                 

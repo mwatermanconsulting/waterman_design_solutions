@@ -242,7 +242,7 @@ class services extends Component {
                     <div className="grid-services-4 margin-top-50">
                         <img className="width-25" src={icon_ui}  alt="UI" />
                         <div className="subtitle margin-top-15">
-                            <a href="./ui_design" className="no-decoration"> UI Design & Development </a>
+                            <a href="./ui_design" className="no-decoration"> UI Design and Development </a>
                         </div>
                         <ul className="dashed content-text-16 margin-top-15">
                             <li>Mock-ups</li>
@@ -257,14 +257,14 @@ class services extends Component {
                     <div className="grid-services-5 margin-top-50">
                         <img className="width-25" src={icon_marketing}  alt="Marketing and Analysis" />
                         <div className="subtitle margin-top-15">
-                           <a href="./marketing" className="no-decoration"> Marketing & Analytics</a>
+                           <a href="./marketing" className="no-decoration"> Marketing and Analytics</a>
                         </div>
                         <ul className="dashed content-text-16 margin-top-15">
                             <li>Marketing Strategy</li>
-                            <li>Content Science & Design</li>
-                            <li>Experience Data & Analytics</li>
-                            <li>Social & Influence Strategy</li>
-                            <li>Marketing Technology Design & Strategy</li>
+                            <li>Content Science and Design</li>
+                            <li>Experience Data and Analytics</li>
+                            <li>Social and Influence Strategy</li>
+                            <li>Marketing Technology Design and Strategy</li>
                             <li>Innovation as a Brand</li>       
                         </ul>  
                     </div>

@@ -14,11 +14,11 @@ class video_production extends Component {
             <div className="flex-section-fixed-head-child flex-layout-center-center image-background-border-tb">
                 <div className="header-text-center header-title text-white">
                     Video Production</div>
-                <img className="flex-image-container" src={bg_video}  alt="Why WDS background" /> 
+                <img className="flex-image-container" src={bg_video}  alt="Video Production" /> 
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                    Videos drive action in your marketing strategy on social media
+                    Videos drive action in your marketing strategy on social media.
                 </div>
             </div>
 
@@ -29,7 +29,7 @@ class video_production extends Component {
                     </div>      
                 </div>
                 <div className="grid-right-photo container-image-block">
-                    <img className="container-photo-callout image-size-100" src={video_s1}  alt="shaking hands" /> 
+                    <img className="container-photo-callout image-size-100" src={video_s1}  alt="Video Production" /> 
                 </div>
             </section>
 
@@ -41,7 +41,7 @@ class video_production extends Component {
                 <div className="margin-top-25 content-block-55">
                     <p className="subtitle flex-layout-center-center"> 
                     WDS has a team with extensive post-production knowledge.
-                    Professional video production is the most effective way to get a message across. Whether it is corporate, instructional or marketing videos we know how to tell a story. </p>
+                    Professional video production is the most effective way to get a message across for corporate, instructional or marketing purposes. </p>
                 </div>
             </section>
 
@@ -55,11 +55,11 @@ class video_production extends Component {
                             Videos should tell a story
                         </div>
                         <div className="subtitle margin-top-10">
-                            Make your message have value
+                            Stories add value to your message
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-15">
                             <p className="content-text-18"> 
-                            Video is one of the most versatile and profitable digital marketing tools. It can lead directly to sales. Studies show that 74% of users watching explainer videos actually buy the product. It is one of the highest provider of a good return on investment.</p>
+                            Video is one of the most versatile and profitable  digital marketing tools that can lead directly to sales. Studies show that 74% of users watching explainer videos actually buy the product. It is one of the highest provider of a good return on investment.</p>
                         </div>
                     </div>
                     
@@ -117,7 +117,7 @@ Effective marketing videos have a conversational tone. It creates an individual 
 
                 <section className="flex-layout-section-full flex-layout-center-center">
                 <div className="subtitle margin-top-15">
-                        Small sampling of our video work
+                        Small sampling of video work
                         </div>
                 <div className="align-center align-items-center margin-top-25">
                     <ul className="grid-clients-wrapper align-items-center  width-70">

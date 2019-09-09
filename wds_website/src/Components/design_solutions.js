@@ -16,7 +16,7 @@ class design_solutions extends Component {
             <div className="flex-layout-fixed-head">
                 <div className="image-background-border-tb">
                     <div className="flex-image-container flex-item-bottom">
-                        <img className="flex-image-container container image-size-100" src={design}  alt="Why WDS background" /> 
+                        <img className="flex-image-container container image-size-100" src={design}  alt="Design" /> 
                     </div>
                 </div> 
             </div>
@@ -50,7 +50,11 @@ class design_solutions extends Component {
                         "A consistent experience is a better experience.” - Mark Eberman
                     </p>   
                         <p className="content-text-21 content-block-75 align-self-center text-align-center margin-top-25 margin-bottom-100">
+
+                         Design determines success and understanding the user is paramount. WDS unites your business with  customers and brings an understanding to their needs and expectations. Through design solutions your message will reach them.
+
                         <button onclick="location.href='./services';" type="button" value="Learn More" className="button font-size-18">Learn More</button>
+
                         </p>
                 </div>
             </div>
@@ -64,13 +68,15 @@ class design_solutions extends Component {
                 <div className="content-block-60 content-text-18 margin-top-15">
                     <p className="content-text-18"> 
                 <div className="float-right">
-                    <img className="photo-container" src={design5}  alt="Your Business is Our Joy" /> 
+                    <img className="photo-container" src={design5}  alt="Website Design" /> 
                 </div>
-                    WDS has over 20 years  experience designing websites. Empathetic designs and the ability to connect with users create a positive enjoyable experience, which is critical to new customer acquisition and retaining existing customers. </p>
-            
-                    <p className="content-text-18">WDS websites are always on the cutting edge. They were one of the first companies to build websites from UX research and provide a responsive design. An example of a responsive design solution was for Motorola, developing an enterprise level CSS flexbox solution. </p>
 
-                    <button onclick="location.href='./website_design';" type="button" value="Learn More" className="button font-size-18">Learn More</button>                
+                    WDS has over 20 years of experience designing websites. Empathetic designs and the ability to connect with users create a positive enjoyable experience, which is critical to new customer acquisition and retaining existing customers. </p>
+            
+                    <p className="content-text-18">WDS websites are always on the cutting edge. They were one of the first companies to build websites from UX research, provide responsive design (<a href="../case_study_1">Motorola</a>) and develop an enterprise-level CSS flex box solution (<a href="../case_study_4">OsiSoft</a>). </p>
+
+                    <a href="website_design"><button onclick="location.href='./website_design';" type="button" value="Learn More" className="button margin-top-50 font-size-24">Learn More</button></a>
+
                 </div>  
             </section>
 
@@ -85,9 +91,12 @@ class design_solutions extends Component {
                 <div className="float-right">
                     <img className="photo-container margin-top-8per"  src={design_print}  alt="Graphic Design" /> 
                 </div>  
-                    Print still has a place in today's digital world. WDS can develop a traditional design strategy that compliments your digital campaigns. By designing graphics that are based on research and user personas. Designing for real people helps drive sales and user retention. We have extensive print experience. Over the years we have designed magazine's, brochures, biz cards, trade show displays, corporate reports, etc. </p>
+                    Graphic design always has a place in today's print and digital technology. WDS can develop a traditional design strategy that compliments your digital campaigns by designing graphics that are based on research and user personas. Designing for real people helps drive sales and user retention. WDS has extensive print experience, including magazines, brochures, business cards, trade show displays, corporate reports, etc. </p>
 
-                    <button onclick="location.href='./print_design';" type="button" value="Learn More" className="button font-size-18">Learn More</button>
+
+                    <a href="print_design"><button onclick="location.href='./print_design';" type="button" value="Learn More" className="button margin-top-50 font-size-24">Learn More</button></a>
+
+
                 </div>
             </section>   
 
@@ -102,9 +111,12 @@ class design_solutions extends Component {
                 <div className="float-right" style={{marginTop:'-.5%'}}>
                     <img className="photo-container" src={design3}  alt="Social Media Services" /> 
                 </div>
-                    Our goal is to identify the right approach for your unique target audiences on social media. We plan, develop, and execute innovative social media marketing strategies that build a meaningful experience for your users. Using user research and ad optimization techniques, we leverage your social media platforms to connect your brand, products, or services to the right people. By creating highly targeted advertisements on social media, we help our clients reach an otherwise untapped resource for potential customers. </p>
+                    The goal of WDS is to identify the right approach for your unique target audiences on social media. They plan, develop, and execute innovative social media marketing strategies that build a meaningful experience for your users. User research, ad optimization techniques and social media platforms are leveraged to connect your brand, products and/or services to the right people. By creating highly targeted advertisements on social media, you can reach an otherwise untapped resource for potential customers. </p>
 
-                    <button onclick="location.href='./marketing';" type="button" value="Learn More" className="button font-size-18">Learn More</button>
+                    <a href="marketing"><button onclick="location.href='./marketing';" type="button" value="Learn More" className="button margin-top-50 font-size-24">Learn More</button></a>
+
+                    
+
                 </div>    
             </section>
 
@@ -119,9 +131,11 @@ class design_solutions extends Component {
                         <img className="photo-container" src={design_video}  alt="Video" /> 
                     </div>  
                     <p className="content-text-18 margin-top-15">
-                        WDS produces corporate videos that captivate audiences, inspire action & drive results for businesses & brands. Creating Content that your audience will love. Content that is on message and reaches the customer on a deep level. Video content is engaging and ignites emotions. YouTubers are the most powerful social media figures promoting brands. Effective marketing videos have a conversational tone. It creates an individual approach and more confidence to buy online.</p> 
+                        WDS produces corporate videos that captivate audiences, inspire action and drive results for businesses and brands. Studies show that 74% of users watching explainer videos actually buy the product. It is one of the highest provider of a good return on investment, and works because of the individual approach and  increased confidence to buy online.</p> 
 
-                        <button onclick="location.href='./video_production';" type="button" value="Learn More" className="button font-size-18">Learn More</button>
+
+                        <a href="video_production"> <button onclick="location.href='./video_production';" type="button" value="Learn More" className="button margin-top-50 font-size-24">Learn More</button></a>
+
                 </div>
                     
                            
@@ -133,10 +147,10 @@ class design_solutions extends Component {
         <section className="flex-layout-section-full align-items-center yellow-bg border-top-5">
             <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 margin-bottom-50 " > 
                 <div className="col2-text  grid-placeself-center ">
-                    <div className="content-block">
-                            <p className="content-header"> Our CSS solutions relieves the anxiety that most developers and engineers face when they see CSS in their project requirements. </p>
+                    <div className="content-block text-align-center ">
+                            <p className="callout-text "> WDS CSS solutions relieves anxiety that most developers and engineers face when they see CSS work in their project requirements. </p>
 
-                            <p className="margin-top-25"><i><a  href="./css_solutions" style={{color: '#000000'}}>Learn More</a></i></p>
+                            <a href="css_solutions"><button onclick="location.href='css_solutions';" type="button" value="Learn More" className="button margin-top-50font-size-24">Learn More</button></a>
                     </div>
                 </div>
                 <div className="col2-photo grid-placeself-center">
