@@ -194,11 +194,11 @@ class why_wds extends Component {
                     <p className="content-text-18">
                         WDS takes care of the front-end development, CSS and HTML, working on-site with your team or creating GIT build-packages complete with custom CSS solutions, pattern libraries, style guides, best of practice documentation and design strategies. This ensures and enforces original design and solutions.
                     </p>    
-
-                     <NavLink className='mdl-button  margin-top-50 font-size-24' type="button" to={'ui_design'}>
+                </div> 
+                     <NavLink className="button-area no-decoration" type="button" to={'ui_design'}>
                     Learn More
                     </NavLink>
-                    </div>  
+                     
                 </section>
 
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
