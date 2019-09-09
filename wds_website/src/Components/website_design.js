@@ -5,6 +5,7 @@ import web1 from '../images/photos/photo-web-s1.png';
 import web2 from '../images/photos/photo-web-s2.png';
 import web4 from '../images/photos/photo-web-acd.png';
 import web5 from '../images/photos/photo-web-ww.png';
+import titanic from '../images/graphic-titanic.svg';
 import web6 from '../images/photos/photo-web-kinetix.png';
 import web7 from '../images/photos/photo-web-norwood.png';
 import web8 from '../images/photos/photo-web-pc.png';
@@ -31,7 +32,7 @@ class digital_design extends Component {
                 <div className=" grid-2col-text-photo align-items-center margin-tb-100 width-70">
                     <div className="content-block col2-text ">
                         <div className="callout-text text-align-left">
-                            WDS has been creating design solutions for websites for over 20 years. All of our designs solutions are derived from our UX findings and user personas. We design websites that are as unique as your business.  
+                            WDS has been creating design solutions for websites for over 20 years. All design solutions are derived from  UX findings and user personas. WDS designs websites that are as unique as your business.  
                         </div>      
                     </div>
                 <div className="col2-photo width-100 grid-placeself-center">
@@ -47,10 +48,13 @@ class digital_design extends Component {
                     </div>
                     <div className=" margin-top-50">
                         <p className="content-text-24">
-                            It is easier today than ever to get a website. There are countless template sites that are easy enough for people with limited experience to create a website. The outcome is most websites look the same and the web has become, with every website looking the same.</p> 
+                            It is easier today than ever to get a website. There are countless template sites that are easy to use for people with limited experience to create a website. The outcome is that most websites look the same.</p> 
                             =
                             <p className="content-text-24">   
-                            Your customers have a good design eye and can tell the difference between a template website, and custom website. Customers will notice when a business cares enough about them to create a design that is based on UX research, because the experience will be personal. Customers will always choose the better experience every time. Your business wasn't born from a template and your users deserve more. Don't settle for good enough!</p>
+                            The typical user has a good design eye and can tell the difference between a template website and a custom website. They will notice when a business cares enough about them to create a design that is based on UX research. Customers will always choose the better experience every time. Your business wasn't born from a template and your users deserve more. Don't settle for good enough!</p>
+                            <div className="flex-layout-column width-70 margin-top-25">    
+                        <img className="photo-container" src={titanic} className="align-self-center margin-bottom-20" alt="Good Enough is not good enough"/>
+                    </div>
                     </div>
                 </div>
             </section>

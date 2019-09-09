@@ -1,4 +1,5 @@
 import React, { Component } from 'react' ;
+import { NavLink } from 'react-router-dom';
 import why from '../images/backgrounds/bg-why-wds.svg';
 import whys1 from '../images/photos/photo-why-s1.png';
 import whys2 from '../images/photos/photo-why-s2.png';
@@ -119,7 +120,7 @@ class why_wds extends Component {
                             The Value of Simplicity
                         </div>
                         <div className="content-block-60 content-text-18 margin-top-15"><div className="float-right">
-                        <img className="photo-container" src={whys2}  alt="Your Business is Our Joy" /> 
+                        <img className="photo-container" src={whys2}  alt="Elegant solutions for difficult problems" /> 
                     </div>  
                             <p className="content-text-18"> Our design solutions are being used on incredibly complex applications. Some of our designs are being used by nuclear plants, oil rigs and energy grids. Simplifying critical applications takes focus and understanding in order to create a seamless intuitive experience that reduces the chance for human error. </p>
                             <p className="content-text-18">We understand how easy it is for human error to cause a catastrophe. Our UX designers not only connect with your users on a deep level, but study cognitive psychology. Most mistakes rise out of unconscious human behavior. Understanding the human mind helps us to simplify complex interfaces so those mistakes are avoided at all costs.   </p>           
@@ -166,7 +167,10 @@ class why_wds extends Component {
                 </div>  
                     The best customer experience starts with the Golden Rule — treat customers how you would like to be treated. At the foundation of WDS methodology is observation, watching customers use our clients' products or services. But unlike focus groups or usability laboratories, we conduct our observation and interviews in the customer’s own environment during the course of their everyday routines. In such a context, our researchers gain insight to a host of information that is not accessible through other UX research methods. </p>
 
-                    <button onclick="location.href='./ux_design';" type="button" value="Learn More" className="button margin-top-50 font-size-24">Learn More</button>
+                     <NavLink className='mdl-button  margin-top-50 font-size-24' type="button" to={'/ux_design'}>
+                    Learn More
+                    </NavLink>
+
                  </div>  
                 </section>
 
@@ -180,7 +184,7 @@ class why_wds extends Component {
                         Application, Website and Mobile Design </p>
                     <div className="content-block-60 content-text-18 margin-top-15">
                     <div className="float-right margin-right-5">
-                        <img className="border-3px" src={why_business}  alt="UX Design" /> 
+                        <img className="border-3px" src={why_business}  alt="UI Design" /> 
                     </div>  
                      <p className="content-text-18"> 
                         WDS honed its UI design skills by designing websites in 1998. Over the years we have designed and developed complicated healthcare websites to solving difficult UI problems on critical applications. Our current data visualization designs are being used on oil rigs, nuclear reactors and pharmaceutical drug plants.  
@@ -189,7 +193,9 @@ class why_wds extends Component {
                         WDS takes care of the front-end development, CSS and HTML, working on-site with your team or creating GIT build-packages complete with custom CSS solutions, pattern libraries, style guides, best of practice documentation and design strategies. This ensures and enforces original design and solutions.
                     </p>    
 
-                        <button onclick="location.href='./ux_design';" type="button" value="Learn More" className="button margin-top-50 font-size-24">Learn More</button>
+                     <NavLink className='mdl-button  margin-top-50 font-size-24' type="button" to={'ui_design'}>
+                    Learn More
+                    </NavLink>
                     </div>  
                 </section>
 
@@ -203,12 +209,14 @@ class why_wds extends Component {
                         Establishing Consistency Across all Mediums </p>
                     <div className="content-block-60 content-text-18 margin-top-15">
                     <div className="float-right margin-right-5 margin-top-1">
-                        <img className="border-3px" src={why_enterprise}  alt="UX Design" /> 
+                        <img className="border-3px" src={why_enterprise}  alt=" Design" /> 
                     </div>  
                      <p className="content-text-18"> 
                      A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive, combining components, behaviors, and branding. It also comes with a complete set of design standards, documentation, and strategies to achieve those standards. It must also be flexible and scalable.
                     </p>
-                        <button onclick="location.href='./ux_design';" type="button" value="Learn More" className="button margin-top-50 font-size-24 margin-top-2">Learn More</button>
+                     <NavLink className='mdl-button  margin-top-50 font-size-24' type="button" to={'design_solutions'}>
+                    Learn More
+                    </NavLink>
                     </div>  
                 </section>
 
@@ -226,7 +234,9 @@ class why_wds extends Component {
                 </section>
 
             <div className="flex-layout-center margin-top-50">
-                <button onclick="location.href='./case_studies';" type="button" value="Case Studies" className="button margin-top-100 font-size-24">Check Out Our Success Stories</button>
+             <NavLink className='mdl-button  margin-top-50 font-size-24' type="button" to={'case_studies'}>
+                    Learn More
+                    </NavLink>
             </div>
 
             <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
