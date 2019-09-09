@@ -66,7 +66,7 @@ class why_wds extends Component {
                         <section className="grid-services-3">
                         <a href="./ux_design" ><img className="width-25" src={icon_ux}  alt="UX" /> </a>
                         <div className="subtitle margin-top-25">
-                            <a href="./ux_design" className="no-decoration" style={{marginTop:'2%'}}>
+                            <a href="./ux_design" className="no-decoration holder" style={{marginTop:'2%'}}>
                                 UX Design</a>
                         </div>
                             <ul className="dashed content-text-18 margin-top-15">

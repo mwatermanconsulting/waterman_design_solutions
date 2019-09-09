@@ -1,5 +1,5 @@
 import React, { Component } from 'react' ;
-import { Button } from 'react-mdl';
+import { NavLink } from 'react-router-dom';
 import design from '../images/backgrounds/bg-design.svg';
 import designer from '../images/photos/photo-design-s1.png';
 import design3 from '../images/photos/photo-design-s3.png';
@@ -49,7 +49,7 @@ class design_solutions extends Component {
                     <p className="title text-align-center margin-top-100">
                         "A consistent experience is a better experience.” - Mark Eberman
                     </p>   
-                        <p className="content-text-21 content-block-75 align-self-center text-align-center margin-top-25 margin-bottom-100">
+                        <p className="content-text-21 content-block-75 align-self-center text-align-center margin-top-25 ">
                         <button onclick="location.href='./services';" type="button" value="Learn More" className="button font-size-18">Learn More</button>
                         </p>
                 </div>
@@ -70,7 +70,15 @@ class design_solutions extends Component {
             
                     <p className="content-text-18">WDS websites are always on the cutting edge. They were one of the first companies to build websites from UX research and provide a responsive design. An example of a responsive design solution was for Motorola, developing an enterprise level CSS flexbox solution. </p>
 
-                    <button onclick="location.href='./website_design';" type="button" value="Learn More" className="button font-size-18">Learn More</button>                
+                    <button action="./website_design" method="get" target="_blank" type="button" value="Learn More" className="button font-size-18">Learn More</button> 
+
+                    <NavLink className='mdl-button' type="button" to={'/website_design'}>
+                    Button
+                    </NavLink>
+                    
+                    <input type="button" onclick="window.location.href = 'https://www.w3docs.com';" value="w3docs"/>
+                    <button onclick="window.location.href = 'https://w3docs.com';">Click Here</button>
+           
                 </div>  
             </section>
 
