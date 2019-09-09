@@ -1,5 +1,5 @@
 import React, { Component } from 'react' ;
-import { Button } from 'react-mdl';
+import { NavLink } from 'react-router-dom';
 import design from '../images/backgrounds/bg-design.svg';
 import designer from '../images/photos/photo-design-s1.png';
 import design3 from '../images/photos/photo-design-s3.png';
@@ -49,9 +49,11 @@ class design_solutions extends Component {
                     <p className="title text-align-center margin-top-100">
                         "A consistent experience is a better experience.” - Mark Eberman
                     </p>   
+
                         <p className="content-text-21 content-block-75 align-self-center text-align-center margin-top-25 margin-bottom-100">
 
                          Design determines success and understanding the user is paramount. WDS unites your business with  customers and brings an understanding to their needs and expectations. Through design solutions your message will reach them.
+
 
                         <button onclick="location.href='./services';" type="button" value="Learn More" className="button font-size-18">Learn More</button>
 
@@ -76,6 +78,15 @@ class design_solutions extends Component {
                     <p className="content-text-18">WDS websites are always on the cutting edge. They were one of the first companies to build websites from UX research, provide responsive design (<a href="../case_study_1">Motorola</a>) and develop an enterprise-level CSS flex box solution (<a href="../case_study_4">OsiSoft</a>). </p>
 
                     <a href="website_design"><button onclick="location.href='./website_design';" type="button" value="Learn More" className="button margin-top-50 font-size-24">Learn More</button></a>
+
+
+
+                    <NavLink className='button' type="button" to={'/website_design'}>
+                    Button
+                    </NavLink>
+                    
+                  
+           
 
                 </div>  
             </section>

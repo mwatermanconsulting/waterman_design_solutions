@@ -1,3 +1,5 @@
+@import 'colors';
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   /* Styles */
@@ -19,10 +21,12 @@
     line-height: 1.4;
     text-align: center;
   }
-  .container-photo-callout {
-    width: 100%;
-    height: auto;
-    border: 2px solid #fff;
+
+  
+.container-photo-callout {
+  width: 100%;
+  height: auto;
+  border: 2px solid #fff;
 }
 .grid-left {
   grid-column: auto;
@@ -31,6 +35,45 @@
   margin-right: 10px;
   margin-left: 20%;
 }
+
+.mdl-layout__header {
+  display: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  min-height: 64px;
+  max-height: 1000px;
+  z-index: 3;
+  background-color: rgb(63,81,181);
+  color: rgb(255,255,255);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  transition-duration: 0.2s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: max-height, box-shadow;
+}
+
+.material-icons {
+  opacity: 0.9;
+  display: inline-block;
+  transition-timing-function: ease-out;
+  transition: 0.75s;
+}
+
+.header {
+	background: #ec1000;
+	height: 76px !important;
+  display: none;
+  transition-timing-function: ease-in;
+  transition: 0.75s;
+  display: none;
+}
+
   }
   
   /* iPads (landscape) ----------- */
@@ -43,7 +86,43 @@
     line-height: 1.4;
     text-align: center;
   }
+
+  .mdl-layout__header {
+    display: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    min-height: 64px;
+    max-height: 1000px;
+    z-index: 3;
+    background-color: rgb(63,81,181);
+    color: rgb(255,255,255);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: max-height, box-shadow;
+  }
+
+.material-icons {
+  transition-timing-function: ease-out;
+  transition: 0.75s;
+    opacity: 0.9;
+    display: inline-block;
+}
+
+.header {
+  transition-timing-function: ease-in;
+  transition: 0.75s;
+  display: none;
   
+}
+
   }
   
   /* iPads (portrait) ----------- */
@@ -56,6 +135,42 @@
     line-height: 1.4;
     text-align: center;
   }
+
+  .mdl-layout__header {
+    display: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    min-height: 64px;
+    max-height: 1000px;
+    z-index: 3;
+    background-color: rgb(63,81,181);
+    color: rgb(255,255,255);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: max-height, box-shadow;
+  }
+
+.material-icons {
+    opacity: 0.9;
+    display: inline-block;
+    transition-timing-function: ease-out;
+    transition: 0.75s;
+}
+
+.header {
+  display: none;
+  transition-timing-function: ease-in;
+  transition: 0.75s;
+}
+
   }
   /**********
   iPad 3
@@ -72,6 +187,22 @@
   .margin-top-20per {
     margin-top: 0%;
   }
+
+  .material-icons {
+    opacity: 0.9;
+    display:inline-block;
+    transition-timing-function: ease-out;
+    transition: 0.75s;
+}
+
+.header {
+  background: #ec1000;
+  transition-timing-function: ease-in;
+  transition: 0.75s;
+	height: 76px !important;
+	display: none;
+}
+
   }
   
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
@@ -86,6 +217,21 @@
   .margin-top-20per {
     margin-top: 0%;
   }
+
+
+  .material-icons {
+    opacity: 0.9;
+    display:inline-block;
+    transition-timing-function: ease-out;
+    transition: 0.75s;
+}
+
+.header {
+  display: none;
+  transition-timing-function: ease-in;
+  transition: 0.75s;
+}
+
   }
   /* Desktops and laptops ----------- */
   @media only screen  and (min-width : 1224px) {
@@ -102,56 +248,194 @@
     margin-left: -20%;
   }
 
-  }
-  
-  /* Large screens ----------- */
-  @media only screen  and (min-width : 1024px) {
-  /* Styles */
-  .header-title {
-    font-family: 'Mouse Memoirs', sans-serif;
-    font-size: 	3.75rem !important; 
-    letter-spacing: 1.1px;
-    line-height: 1.4;
-    text-align: center;
-  }
-  
-   
+  .material-icons {
+    opacity: 0.0;
+    display: none;
+    transition-timing-function: ease-out;
+    transition: 0.75s;
+}
 
-  
+.header {
+	background: #ec1000;
+	height: 76px !important;
+  display: 100%;
+  transition-timing-function: ease-in;
+  transition: 0.75s;
+}
+
+.grid-footer {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto;
+  grid-template-areas: 
+  "text1" "text2"
+  "text3" "text4"
+  "text5" "text6";
+  padding: 10px;
+  margin-top: 0%
+}
   }
+  
+
+
   
   /* iPhone 4 ----------- */
   @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
-  /* Styles */
+    .container-footer {
+      background: #ec1000;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0;
+    }
+
+    .grid-footer {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: auto;
+      grid-template-areas: 
+      "text1" "text2"
+      "text3" "text4"
+      "text5" "text6";
+      padding: 30px;
+      margin-top: 15%
+    }
+ 
   }
   
   @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
   /* Styles */
   }
+
+  .container-footer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    background: #ec1000;
+  }
+
+  .grid-footer {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    "text1" "text2"
+    "text3" "text4"
+    "text5" "text6";
+    padding: 30px;
+    margin-top: 15%
+  }
   
 
   /* iPhone 6, 7, 8 ----------- */
   @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-  /* Styles */
+    .container-footer {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0;
+      background: #ec1000;
+    }
+
+    .grid-footer {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: auto;
+      grid-template-areas: 
+      "text1" "text2"
+      "text3" "text4"
+      "text5" "text6";
+      padding: 30px;
+      margin-top: 15%
+    }
+
   }
   
   
   /* iPhone 6+, 7+, 8+ ----------- */
   @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-  /* Styles */
+    .container-footer {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0;
+      background: #ec1000;
+      min-height: 860px;
+    }
+
+    .grid-footer {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: auto;
+      grid-template-areas: 
+      "text1" "text2"
+      "text3" "text4"
+      "text5" "text6";
+      padding: 30px;
+      margin-top: 15%
+    }
+
   }
   
   @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-  /* Styles */
+    .container-footer {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0;
+      background: #ec1000;
+      min-height: 860px;
+    }
   }
   
   /* iPhone X ----------- */
   @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
-  /* Styles */
+    .container-footer {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0;
+      background: #ec1000;
+      min-height: 860px;
+    }
+
+    .grid-footer {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: auto;
+      grid-template-areas: 
+      "text1" "text2"
+      "text3" "text4"
+      "text5" "text6";
+      padding: 30px;
+      margin-top: 15%;
+      min-height: 860px;
+    }
   }
   
   @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
-  /* Styles */
+    .container-footer {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0;
+      background: #ec1000;
+      min-height: 860px;
+    }
+
+    .grid-footer {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: auto;
+      grid-template-areas: 
+      "text1" "text2"
+      "text3" "text4"
+      "text5" "text6";
+      background: #ec1000;
+      padding: 30px;
+      margin-top: 315%
+    }
   }
   
   /* iPhone XS Max, XR ----------- */
@@ -163,47 +447,48 @@
     letter-spacing: 1.1px;
     line-height: 1.4;
     text-align: center;
+    min-height: 860px;
+  }
+
+  .grid-footer {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    "text1" "text2"
+    "text3" "text4"
+    "text5" "text6";
+    padding: 30px;
+    margin-top: 215%;
+    background: #ec1000;
   }
   }
-  
-  @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
-  /* Styles */
-  }
-  
-  /* Samsung Galaxy S3 ----------- */
-  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-  /* Styles */
-  }
-  
-  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-  /* Styles */
-  }
-  
-  /* Samsung Galaxy S4 ----------- */
-  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
-  /* Styles */
-  }
-  
-  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
-  /* Styles */
-  }
-  
-  /* Samsung Galaxy S5 ----------- */
-  @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
-  /* Styles */
-  }
-  
-  @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
-  /* Styles */
-  }
+
   
 
 @media only screen and (max-width: 1024px) {
   .material-icons {
-      opacity: 100%;
+    opacity: 0.9;
+    display: inline-block;
+    transition-timing-function: ease-out;
+    transition: 0.75s;
+  }
+
+  .header {
+    display: none;
+    transition-timing-function: ease-in;
+    transition: 0.75s;
   }
   .mdl-layout__header-row {
-    height: 0% !important;
+    display: none;
+}
+
+.container-footer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  min-height: 860px;
 }
   
  .content-text-21 {
@@ -458,9 +743,7 @@
   .list-right {
     grid-column: 2/1
   }
-  .padding {
-    padding: 10px;
-  }
+
   .col4-text {
     grid-area: text;
   }
@@ -693,7 +976,8 @@
   "text1" "text2"
   "text3" "text4"
   "text5" "text6";
-  padding: 10px;
+  padding: 30px;
+  margin-top: -2%
 }
 .grid-footer-item-1 {
   grid-column: 1/1;
@@ -704,26 +988,31 @@
   grid-column: 1/2;
   grid-row: 2/1;
   grid-area: text2;
+  margin-top: 25px;
 }
 .grid-footer-item-3 {
   grid-column: 1/3;
   grid-row: 3/1;
   grid-area: text3;
+  margin-top: 25px;
 }
 .grid-footer-item-4 {
   grid-column: 1/4;
   grid-row: 4/1;
   grid-area: text4;
+  margin-top: 25px;
 }
 .grid-footer-item-5 {
   grid-column: 1/5;
   grid-row: auto;
   grid-area: text5;
+  margin-top: 25px;
 }
 .grid-footer-item-6 {
   grid-column: 1/6;
   grid-row: auto;
   grid-area: text6;
+  margin-top: 25px;
 }
 
 /*******************************
