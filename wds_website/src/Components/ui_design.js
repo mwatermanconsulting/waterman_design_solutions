@@ -34,10 +34,10 @@ class ui_design extends Component {
             <section className="grid-callout photo-content-color border-bottom-5 height-670"> 
                 <div className="grid-callout-text grid-placeself-center padding content-block-75 content-header flex-layout-column">
                     <div className="callout-title margin-top-15">
-                            The "aha" Moment
+                        The "aha" Moment
                     </div>
                     <div className="callout-text text-align-left margin-top-15" >
-                       WDS lives for the comment, "why didn't we think of that?" usually expressed by stakeholders and managers during the design reveal. Their passion for the last 20 years is solving problems on complex user interfaces and creating simple solutions. 
+                       WDS lives for the comment "why didn't we think of that" commonly expressed by stakeholders and/or managers during the design reveal. 
                     </div>    
                 </div>
                 <div className="grid-callout-photo grid-placeself-center">
@@ -48,8 +48,7 @@ class ui_design extends Component {
                 <p className="title margin-top-75">
                 WDS has provided UI solutions to the some of the world's largest brands</p>
                 <p className="subtitle text-align-center content-block-65  margin-top-15">
-                WDS has a passion for simplifying websites, products and software interfaces.
-                Their designs are used by critical industries such as used energy sector using our designed software to monitor nuclear reactors.
+                Simplifying websites, products and software interfaces is a passion of WDS, and has been used by  industries such as the energy sector  to monitor nuclear reactors.
                 </p>
             </section>
 
@@ -68,7 +67,7 @@ class ui_design extends Component {
                             </div>
                         <div className="margin-top-15">  
                             <p className="content-text-18"> 
-                            WDS honed its UI design skills by designing websites in 1998. Over the years they have designed and developed complicated healthcare websites to solving difficult UI problems on critical applications. The current data visualization designs are being used on oil rigs, nuclear reactors and pharmaceutical drug plants.  
+                            WDS honed its UI design skills by designing websites in 1998. Over the years they have designed and developed complicated healthcare websites to solving difficult UI problems on critical applications. Current data visualization designs are being used on oil rigs, nuclear reactors and pharmaceutical drug plants.  
                             </p>
                             <p className="content-text-18">
                             WDS can take care of the front-end development, including CSS and HTML development, working on-site with your team or creating GIT build-packages complete with custom CSS solutions, patterns libraries, style guides, best of practice documentation and design strategies, ensuring and enforcing original design and solutions.
@@ -174,8 +173,8 @@ class ui_design extends Component {
                             The "aha" Moment
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                            <img className="container-photo-callout margin-top-2per" src={ui_s6}  alt=" Consolidated Workflows" /> 
-                           
+                            <img className="container-photo-callout margin-top-2per" src={ui_s6}  alt="UX" /> 
+                          
                         </div>
                         <div className="margin-top-15">  
                             <p className="content-text-18"> 

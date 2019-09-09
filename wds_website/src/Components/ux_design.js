@@ -66,7 +66,7 @@ class ux_design extends Component {
                                 The Value of Empathy
                         </div>
                         <div className="subtitle content-block-60 margin-top-15">
-                                Empathy Design Sparks Innovations 
+                                Empathic Design Sparks Innovations 
                         </div>
                         <div className="content-block-60 margin-top-15">
                             <p className="content-text-18">
@@ -92,8 +92,8 @@ class ux_design extends Component {
                         </p>
                         <div className="content-block-60 margin-top-15">
                             <p className="content-text-18">
-                                Understanding people as they go about completing a task is essential to producing a positive user experience. Every action of that task is an experience with your product or service. The experience can be positive or negative depending how much of the user was taken into account when designing. 
-                                </p>
+                                Understanding people as they go about completing a task is essential to guaranteeing a positive user experience. Every action of that task is an experience with your product or service. The experience can be positive or negative depending how much of the user was taken into account when designing. 
+                            </p>
                         <div className="float-right callout-photo">
                             <img className="container-photo-callout" src={ux_s4}  alt="UX is the study of people" />
                         </div> 
@@ -117,7 +117,7 @@ class ux_design extends Component {
                     </div>
                     <div className="content-block-60 margin-top-15">
                         <p className="content-text-18">
-                            All of our UX Designers are true designers that not only provide mock-ups, but high fidelity designs. WDS team of UX designers also have an understanding of cognitive psychology and a background in customer service.  All our designers are friendly empathetic people with a passion to simplify the world, one project at a time. </p>
+                        All of our UX Designers are true designers that not only provide mock-ups, but high fidelity designs. The WDS team of UX designers also have an understanding of cognitive psychology and a background in customer service. All of their designers are friendly empathetic people with a passion to simplify the world, one project at a time. </p>
                     
                     </div>
                 </section>
@@ -126,7 +126,7 @@ class ux_design extends Component {
                 
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
                     <div className="flex-layout-center-center subtitle content-block-60">
-                   The most effective way to understand WDS design solutions and methodology is to read a story about it.
+                        The most effective way to understand our design solutions and methodology is to read a story about it.
                     </div>
                 </section>
                 <section className="content-header flex-layout-center-center flex-layout-column margin-top-25">
