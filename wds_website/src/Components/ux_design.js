@@ -29,7 +29,7 @@ class ux_design extends Component {
                              Empathetic Design
                         </div>
                         <div className="callout-text text-align-left margin-top-15" >
-                        The most meaningful insights for design strategy are developed with behavior-based understanding of users. Our UX strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve.
+                        The most meaningful insights for design strategy are developed with a behavior-based understanding of users. WDS UX strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve.
                         </div>
                     </div>
                     <div className="grid-callout-photo grid-placeself-center">
@@ -47,13 +47,13 @@ class ux_design extends Component {
                         </div>
                         <div className="margin-top-15">
                             <p className="content-text-18">
-                                Sometimes customers are so accustomed to current conditions that they don’t think to ask for a new solution, even if they have real needs that could be addressed. As consumers, we create workarounds that become a habit and we may forget that we are being forced to behave that way.
+                                Sometimes customers are so accustomed to current conditions that they don’t think to ask for a new solution, even if they have real needs that could be addressed. As consumers, we create workarounds that become a habit and we may forget that we are being forced to behave that way,
                             <div className="float-right callout-photo grid-placeself-center">
                                  <img className="container-photo-callout" src={ux_s2}  alt="Research and Empathy" /> 
                             </div> in a less-than-optimal fashion. This can make us incapable of telling UX designers what we really want. </p>
 
                                 <p className="content-text-18">
-                                For example, when asked about an editing function in a software package, one customer had no complaints until she sat down to use the program in front of the observer. Then she realized that her work was disrupted when the program did not automatically wrap text around graphics while she edited. Accustomed to working around the problem, she had not mentioned it in earlier interviews. When the observer notices this and points it out, it opens up an important issue that should be dealt with to make her life easier. All the little things add up as big time wasters that need to be eliminated.
+                                For example, when asked about an editing function in a software package, one customer had no complaints until she sat down to use the program in front of the observer. Then she realized that her work was disrupted when the program did not automatically wrap text around graphics while she edited. Accustomed to working around the problem, she had not mentioned it in earlier interviews. When the observer notices this and points it out, it opens up an important issue that should be dealt with to make her life easier. <br></br>All the little things add up as big time wasters that need to be eliminated.
                                 </p>
                         </div>  
                             </div>
@@ -77,7 +77,7 @@ class ux_design extends Component {
                                 <img className="container-photo-callout margin-top-15per" src={ux_s3}  alt="Old school customer service" />   
                             </div>
                             <p className="content-text-18">
-                                Empathy is a very powerful selling tool, because it is human-centric. It’s the new buzz word, but empathy has always been at the heart of WDS. We tell ourselves: <br></br>“Walk in the user’s shoes.” <br></br>“See the problem as if you were experiencing it yourself."<br></br>“Observe their daily routines.” <br></br>All of these mantras and behaviors are empathetic techniques that our UX designers have acquired through years of practice. It is part of their daily lives. 
+                                Empathy is a very powerful selling tool, because it is human-centric. It’s the new buzz word, but empathy has always been at the heart of WDS.  <br></br>“Walk in the user’s shoes.” <br></br>“See the problem as if you were experiencing it yourself."<br></br>“Observe their daily routines.” <br></br>All of these mantras and behaviors are empathetic techniques that our UX designers have acquired through years of practice. It is part of their daily lives. 
                             </p>
                         </div>
                     </section>
@@ -109,7 +109,7 @@ class ux_design extends Component {
  
                 <section className="float-left align-items-center flex-layout-column">
                         <div className="title content-block-60">
-                        Our UX Team is the Difference
+                        WDS UX Team makes the Difference
                     </div>
                     <div className="subtitle margin-top-15
                     flex-layout-center-center title content-block-60">
