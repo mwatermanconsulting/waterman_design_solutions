@@ -7,7 +7,7 @@ import motorola_logo from '../images/motorola_logo.svg'
 import stubhub_logo from '../images/icon-logo-stubhub.svg'
 import stubhub from '../images/photos/photo-stubhub-before-after.png'
 import pfizer_logo from '../images/icon-logo-pfizer.svg'
-import pfizer from '../images/photos/photo-pfizer-before-after.png'
+import pfizer from '../images/photos/photo-pfizer-before.png'
 import osi_logo from '../images/logo-osi.svg'
 import osi from '../images/photos/photo-osi-before-after.png'
 
@@ -18,7 +18,7 @@ class case_studies extends Component {
     render () {
         return(
             <div className="flex-layout-column">
-                <section className="flex-layout-section-fixed yellow flex-layout-center-center image-background-border-tb">
+                <section className="flex-section-fixed-head-child yellow flex-layout-center-center image-background-border-tb">
                     <div className="header-text-center header-title text-white">
                         Case Studies
                     </div>
@@ -40,9 +40,9 @@ class case_studies extends Component {
                     </div>
             </section>
             <section className="grid-cs-card flex-layout-center-center flex-layout-section-full margin-top-50 margin-bottom-100">
-                <div className="cs-card-1 card-case-studies content-header flex-layout-column flex-sh-500"  >
-                    <div className="container-image-block">
-                            <img className="width-100" src={motorola}  alt="motorola before and after" /> 
+                <div className="cs-card-1 card-case-studies content-header flex-layout-column flex-sh-500">
+                        <div className="container-image-block">
+                            <img className="width-100 height-100" src={motorola}  alt="motorola before and after" /> 
                     </div> 
                     <div className="content-block-auto margin-top-10"> 
                         <div className="flex-card-content flex-layout-center-center flex-layout-row flex-layout-justified-sb">
@@ -61,8 +61,8 @@ class case_studies extends Component {
                         </div>
                 </div>
                 <div className="cs-card-2 card-case-studies content-header flex-layout-column flex-sh-500">
-                    <div className="container-image-block">
-                        <img className="width-100" src={stubhub}  alt="StubHub" /> 
+                        <div className="container-image-block">
+                        <img className="width-100 height-100" src={stubhub}  alt="StubHub" /> 
                     </div>
                     <div className="content-block-auto margin-top-10">
                         <div className="flex-card-content flex-layout-center-center flex-layout-row flex-layout-justified-sb">
@@ -74,17 +74,17 @@ class case_studies extends Component {
                             <div className="content-block">
                                 <p><i> Industry: Ecommerce</i></p>
                                     <p className="content-text-18 content-block" >
-                                        StubHub was finding it difficult to gain user traction for their data reporting tool
-                                        After two failed attempts by UX/UI developers, a frustrated management group decided they needed a designer to make their modem app easier to use.</p>
+                                        StubHub was finding it difficult to gain user traction for their data reporting tool.
+                                        Their initial two releases were not successful and after a year of non-use, StubHub needed answers.</p>
                                     <p><a href="./case_study_2"  target="_blank">Read More....</a>  </p> 
                             </div>
                         </div>
                     </div>
                 </div>
                        
-                <div className="cs-card-3 card-case-studies content-header flex-layout-column "> 
-                    <div className="container-image-block">
-                        <img className="width-100" src={pfizer}  alt="Pfizer" /> 
+                <div className="cs-card-3 card-case-studies content-header flex-layout-column flex-sh-500">
+                        <div className="container-image-block">
+                        <img className="width-100 height-100" src={pfizer}  alt="Pfizer" /> 
                     </div>  
                     <div className="content-block-auto margin-top-10">
                         <div className="flex-card-content flex-layout-center-center flex-layout-justified-sb">
@@ -104,7 +104,7 @@ class case_studies extends Component {
                 </div>
                     <div className="cs-card-4 card-case-studies content-header flex-layout-column flex-sh-500">
                         <div className="container-image-block">
-                            <img className="width-100" src={osi}  alt="osi before and after" /> 
+                            <img className="width-100 height-100" src={osi}  alt="Osi before and after" /> 
                         </div>
                         <div className="content-block-auto margin-top-10">
                             <div className="flex-card-content flex-layout-center-center flex-layout-justified-sb">
