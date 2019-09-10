@@ -1,4 +1,5 @@
 import React, { Component } from 'react' ;
+import { NavLink } from 'react-router-dom';
 import CSS from '../images/backgrounds/bg-css.png';
 import didyouknow from '../images/graphic-didyouknow.svg';
 import casscade from '../images/photos/photo-css-s1.png';
@@ -42,8 +43,9 @@ class css_solutions extends Component {
                         <img className="container-photo-callout margin-bottom-20" src={cheer}  alt="Happy developers" /> <br></br>
                         Our solutions are based off our empathy and experiences working with developers. After our design solutions our CSS knowledge and experience is one of the main reasons WDS gets contracted by companies. Our CSS solutions are scalable and customizable to your business requirements. </p>
                 </div>
-                <button type="button" className="margin-top-50 font-size-24"><a href="case_study_4">
-                        OsiSoft CSS Case Study </a></button>
+                <NavLink className='button-area no-decoration' type="button" to={'/case_study_4'}>
+                   OSIsoft Case Study
+                    </NavLink>
             </section>
 
             <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>

@@ -167,13 +167,15 @@ class why_wds extends Component {
                 </div>  
                     The best customer experience starts with the Golden Rule — treat customers how you would like to be treated. At the foundation of WDS methodology is observation, watching customers use the clients' products or services. But unlike focus groups or usability laboratories, WDS conducts observation and interviews in the customer’s own environment during the course of their everyday routines. In such a context,  researchers gain insight to a host of information that is not accessible through other UX research methods. </p>
 
-                     <NavLink className='mdl-button  margin-top-50 font-size-24' type="button" to={'/ux_design'}>
-                    Learn More
-                    </NavLink>
+                    
 
-                 </div>  
-                </section>
-
+                 
+                <div className="align-content-center content-block-55">
+                    <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/ux_design'}>
+                    Learn More 
+                    </NavLink>
+                </div></div>  
+                </section> 
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="float-left align-items-center flex-layout-column ">
@@ -194,11 +196,15 @@ class why_wds extends Component {
                     <p className="content-text-18">
                         WDS takes care of the front-end development, CSS and HTML, working on-site with your team or creating GIT build-packages complete with custom CSS solutions, pattern libraries, style guides, best of practice documentation and design strategies. This ensures and enforces original design and solutions.
                     </p>    
+                
 
-                     <NavLink className='mdl-button  margin-top-50 font-size-24' type="button" to={'ui_design'}>
-                    Learn More
-                    </NavLink>
-                    </div>  
+                <div className="align-content-center content-block-55">
+                    <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/ui_design'}>
+                    Learn More 
+                    </NavLink>
+               </div>  
+               </div>
+                
                 </section>
 
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
@@ -218,9 +224,11 @@ class why_wds extends Component {
                      <p className="content-text-18"> 
                      A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive while combining components, behaviors, and branding. It also comes with a complete set of design standards, documentation, and strategies to achieve those standards. It must also be flexible and scalable.
                     </p>
-                     <NavLink className='mdl-button  margin-top-50 font-size-24' type="button" to={'design_solutions'}>
-                    Learn More
-                    </NavLink>
+                    <div className="align-content-center content-block-55">
+                    <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/design_systems'}>
+                    Learn More 
+                    </NavLink>
+               </div>  
                     </div>  
                 </section>
 
@@ -228,20 +236,22 @@ class why_wds extends Component {
 
                 <section className="flex-layout-section-full align-items-center" >
                        
-                        <p className="subtitle text-align-center content-block-60">
-                            WDS builds emotionally rich, resonant digital solutions that enable users to fully realize technology’s complete potential, by simplifying everything your customers touch and feel.</p>
+                    <p className="subtitle text-align-center content-block-60">
+                        WDS builds emotionally rich, resonant digital solutions that enable users to fully realize technology’s complete potential, by simplifying everything your customers touch and feel.</p>
                
                     <div className="flex-layout-column width-25 margin-top-25">    
-                        <img className="photo-container" src={advocate} className="align-self-center margin-bottom-20" alt="Advocates for the User"/><p className=" text-align-center">
+                        <img className="photo-container" src={advocate} className="align-self-center margin-bottom-20" alt="Advocates for the User"/
+                        ><p className=" text-align-center">
                         Advocating and Designing for the User</p>
                     </div>
-                </section>
+                
 
-            <div className="flex-layout-center margin-top-50">
-             <NavLink className='mdl-button  margin-top-50 font-size-24' type="button" to={'case_studies'}>
-                    Learn More
-                    </NavLink>
-            </div>
+                <div className="align-content-center margin-top-15">
+                    <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/ui_design'}>
+                    Learn More 
+                    </NavLink>
+               </div>  
+           </section>
 
             <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
@@ -285,7 +295,7 @@ class why_wds extends Component {
                         <div className="subtitle">
                            WDS Testimonials
                         </div>
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+              
 
                         <div className="subtitle">
                           StubHub

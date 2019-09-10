@@ -1,12 +1,8 @@
 import React, { Component } from 'react' ;
-import { Button } from 'react-mdl';
 import pfizer_bg from '../images/backgrounds/bg-pfizer.png';
 import pfizer_logo from '../images/icon-logo-pfizer.svg'; 
 import documentum from '../images/documentum.jpg';
 import cms from '../images/CMSheader.jpg';
-import sass from '../images/Sass.jpg';
-import kendo from '../images/kendo.png';
-import design_system from '../images/photos/photo-digital-systems-s3.png';
 import thumbsUp from '../images/thumbsup.svg';
 
 class case_study_3 extends Component {
