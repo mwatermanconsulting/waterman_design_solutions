@@ -26,6 +26,10 @@
   margin-left: 40%;
 }
 
+.marginleft-40per{
+  margin-left: -40%;
+}
+
 .marginleft-minus50{
     margin-left: -50px;
 }
@@ -522,7 +526,7 @@
   width: 100%; 
 }
 
-.container  .mdl-button .mdl-js-button {
+.container .mdl-js-button {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -765,7 +769,7 @@
     }
 
     a {
-      color: $greeny-blue;
+      color: $greeny-blue !important;
     }
 
     li {
@@ -774,9 +778,8 @@
   }
 
   .card-case-studies {
-    -webkit-box-shadow: 0px 2px 1px 1px rgba(0,0,0,0.25); 
-    box-shadow: 0px 2px 1px 1px rgba(0,0,0,0.25);
-    width: 634px;
+   height: auto;
+    width: 100%;
     max-width: 643px;
   }
 

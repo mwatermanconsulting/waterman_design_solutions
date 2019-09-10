@@ -51,7 +51,6 @@ class App extends Component {
                     <a href="./finding_truth">Finding the Truth</a>
                     <a href="./innovative_solutions">Innovative Solutions</a>
                     <a href="./strategy_insight">Strategy and Insight</a>
-                    <a href="./communication_insights">Communication Insights</a> 
                   </div>
                 </div>
                 <div class="dropdown">
@@ -126,6 +125,7 @@ class App extends Component {
               <li><a className="text-black" href="./methodology">Overview</a></li>
               <li><a className="text-black" href="./finding_truth">Finding the Truth</a></li>
               <li><a className="text-black" href="./innovative_solutions">Innovative Solutions</a></li>
+              <a href="./strategy_insight">Strategy and Insight</a>
               </ul>
           </div>
           <div className="grid-footer-item-4 text-white subtitle-menu"> 
@@ -138,7 +138,7 @@ class App extends Component {
               </ul>
           </div> 
           
-            <div className="grid-footer-item-5 subtitle-menu text-white">
+            <div className="grid-footer-item-5 subtitle-menu text-white marginleft-40per">
                 Social Media
               <ul>
               <li><a href="./news_insights">Overview</a></li>

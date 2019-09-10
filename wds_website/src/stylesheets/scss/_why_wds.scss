@@ -163,8 +163,8 @@
 .grid-cs-card {
   display: grid;
   grid-row-gap: 65px;
-  grid-column-gap: 5px;
-  grid-template-columns: repeat(2, [col] 700px ) ;
+  grid-column-gap: 20px;
+  grid-template-columns: repeat(2, [col] auto ) ;
   grid-template-rows: repeat(2, [row] auto  );
 }
 

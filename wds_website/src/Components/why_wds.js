@@ -67,7 +67,7 @@ class why_wds extends Component {
                         <section className="grid-services-3">
                         <a href="./ux_design" ><img className="width-25" src={icon_ux}  alt="UX" /> </a>
                         <div className="subtitle margin-top-25">
-                            <a href="./ux_design" className="no-decoration" style={{marginTop:'2%'}}>
+                            <a href="./ux_design" className="no-decoration holder" style={{marginTop:'2%'}}>
                                 UX Design</a>
                         </div>
                             <ul className="dashed content-text-18 margin-top-15">
@@ -196,6 +196,7 @@ class why_wds extends Component {
                     <p className="content-text-18">
                         WDS takes care of the front-end development, CSS and HTML, working on-site with your team or creating GIT build-packages complete with custom CSS solutions, pattern libraries, style guides, best of practice documentation and design strategies. This ensures and enforces original design and solutions.
                     </p>    
+
                 
 
                 <div className="align-content-center content-block-55">
@@ -205,6 +206,9 @@ class why_wds extends Component {
                </div>  
                </div>
                 
+
+                </div> 
+
                 </section>
 
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>

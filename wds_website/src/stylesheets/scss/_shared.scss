@@ -88,6 +88,11 @@ Button:hover {
   transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
    
 }
+
+.holder {
+  margin-left: 0%;
+  margin-right: 0%
+}
   
   
   .button-white {
@@ -101,33 +106,112 @@ Button:hover {
     text-align: center; 
   }
   
-  .mdl-button {
-    background: #000;
-    opacity: 0.4 !important;
-    border: 1px solid rgba(170, 50, 220, .6) !important; 
-    border-radius: 2px;
-    color: rgb(0,0,0);
-    position: relative;
-    height: 36px;
-    margin: 0;
-    min-width: 64px;
-    padding: 0 16px;
-    display: inline-block;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    text-transform: uppercase;
-    line-height: 1;
-    letter-spacing: 0;
-    overflow: hidden;
-    will-change: box-shadow;
-    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-    outline: none;
-    cursor: pointer;
-    text-decoration: none;
-    text-align: center;
-    line-height: 36px;
-    vertical-align: middle;
+
+  .button {
+    backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: #fff;
+  border-radius: 1px;
+  border: 1px solid #000000;
+  border-width: 1px 1px 1px 1px;
+  padding: 10px 20px 10px 20px;
+  box-shadow: 0px 1px 0px #ffffff,0px 1px 3px rgba(0%,0%,0%,0.3);
+    color: #010101;
+  font-size: 16px;
+  font-family: Helvetica Neue;
+  font-weight: 500;
+  font-style: normal;
+  text-shadow: 0px -1px 0px rgba(0%,0%,0%,0.4)
+  }
+  .button > div {
+    color: #999;
+  font-size: 10px;
+  font-family: Helvetica Neue;
+  font-weight: initial;
+  font-style: normal;
+  text-align: center;
+  margin: 0px 0px 0px 0px
+  }
+  .button > i {
+    font-size: 1em;
+  border-radius: 0px;
+  border: 0px solid transparent;
+  border-width: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  position: static
+  }
+
+
+.button a{
+ text-decoration: none;
+ color: black !important;
+}
+
+  .button a:hover {
+    border: #000 solid 3px 1.0;
+    background-color: $lightgreen; 
+    color: #fff;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+     
+  }
+
+  .button-area {
+    color: #000 !important;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #000;
+    padding:10px;
+  }
+
+    .button-area:hover {
+      border: #000 solid 3px 1.0;
+      text-decoration: none;
+      background-color: $lightgreen; 
+      color: #fff!important;
+      transition-duration: 1s;
+      transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+       
+    }
+
+   .button-area > a {
+      font-size: .9em;
+      color: white;
+      text-decoration: none;
+      flex-grow: 1;
+      text-align: center;
+    }
+
+  
+  .button-area-line {
+    margin: 10px auto;
+    display: -webkit-box;   
+    display: -moz-box;  
+    display: -ms-flexbox; 
+    display: -webkit-flex; 
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    max-width: 90%;
+    a {
+     background: #999;
+      padding: 1em;
+      font-size: .9em;
+      margin: .3em;
+      color: white;
+      text-decoration: none;
+      flex-grow: 1;
+      text-align: center;
+    }
   }
   
  
