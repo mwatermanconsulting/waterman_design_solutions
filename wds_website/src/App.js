@@ -138,7 +138,7 @@ class App extends Component {
               </ul>
           </div> 
           
-            <div className="grid-footer-item-5 subtitle-menu text-white">
+            <div className="grid-footer-item-5 subtitle-menu text-white marginleft-40per">
                 Social Media
               <ul>
               <li><a href="./news_insights">Overview</a></li>

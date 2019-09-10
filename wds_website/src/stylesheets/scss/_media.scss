@@ -6,13 +6,44 @@
   }
   
   
-  /* Smartphones (portrait) ----------- */
-  @media only screen and (max-width : 320px) {
-  /* Styles */
-  }
+
+  @media only screen and (max-width: 900px), 
+  (height: 1024px) and (width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape), 
+  (width: 1024px) and (height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait)
+ {
+    .flex-layout-section-fixed {
+      
+      height: 250px !important;
+    }
+    .grid-cs-card {
+      display: grid;
+      grid-gap: 50px;
+      grid-template-columns: 1fr ;
+      grid-template-rows: auto  ;
+    }
+    .cs-card-1 {
+      grid-column: 1/ 1;
+      grid-row: auto
+    }
+    
+    .cs-card-2 {
+      grid-column: 2/ 1;
+      grid-row: auto
+    }
+    
+    .cs-card-3 {
+      grid-column: 3/ 1;
+      grid-row: auto
+    }
+    
+    .cs-card-4 {
+      grid-column: 2/ 1;
+      grid-row: auto
+    }
+}
   
   /* iPads (portrait and landscape) ----------- */
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  @media only screen and (min-device-width : 1080px) and (max-device-width : 1920px) {
   /* Styles */
   .header-title {
     font-family: 'Mouse Memoirs', sans-serif;
@@ -20,6 +51,23 @@
     letter-spacing: 1.1px;
     line-height: 1.4;
     text-align: center;
+  }
+  .flex-layout-section-fixed {
+    display: -webkit-flex;
+display: flex;
+height: auto;
+  }
+
+  .grid-footer {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    "text1" "text2"
+    "text3" "text4"
+    "text5" "text6";
+    padding: 30px;
+    margin-top: 25%
   }
 
   
@@ -35,29 +83,6 @@
   margin-right: 10px;
   margin-left: 20%;
 }
-
-.mdl-layout__header {
-  display: none;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  box-sizing: border-box;
-  flex-shrink: 0;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  border: none;
-  min-height: 64px;
-  max-height: 1000px;
-  z-index: 3;
-  background-color: rgb(63,81,181);
-  color: rgb(255,255,255);
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-  transition-duration: 0.2s;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: max-height, box-shadow;
-}
-
 .material-icons {
   opacity: 0.9;
   display: inline-block;
@@ -244,6 +269,7 @@
     text-align: center;
   }
 
+
   .margin-left-20per {
     margin-left: -20%;
   }
@@ -272,60 +298,14 @@
   "text3" "text4"
   "text5" "text6";
   padding: 10px;
-  margin-top: 0%
+  margin-top: 0%;
+  margin-left: 13%
 }
   }
   
 
 
   
-  /* iPhone 4 ----------- */
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
-    .container-footer {
-      background: #ec1000;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      padding: 0;
-    }
-
-    .grid-footer {
-      display: grid;
-      grid-gap: 10px;
-      grid-template-columns: auto;
-      grid-template-areas: 
-      "text1" "text2"
-      "text3" "text4"
-      "text5" "text6";
-      padding: 30px;
-      margin-top: 15%
-    }
- 
-  }
-  
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
-  /* Styles */
-  }
-
-  .container-footer {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding: 0;
-    background: #ec1000;
-  }
-
-  .grid-footer {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: auto;
-    grid-template-areas: 
-    "text1" "text2"
-    "text3" "text4"
-    "text5" "text6";
-    padding: 30px;
-    margin-top: 15%
-  }
   
 
   /* iPhone 6, 7, 8 ----------- */
@@ -373,7 +353,7 @@
       "text3" "text4"
       "text5" "text6";
       padding: 30px;
-      margin-top: 15%
+      margin-left: 0%;
     }
 
   }
@@ -411,6 +391,7 @@
       padding: 30px;
       margin-top: 15%;
       min-height: 860px;
+      margin-left: 0%;
     }
   }
   
@@ -423,6 +404,7 @@
       background: #ec1000;
       min-height: 860px;
     }
+
 
     .grid-footer {
       display: grid;
@@ -831,7 +813,7 @@
 .container-grid-cs {
   grid-template-columns:  1fr;
   grid-template-rows: auto;
-  grid-gap: 2px;
+  grid-gap: 20px;
   display: grid;
 }
 .grid-cs-card {
@@ -864,7 +846,7 @@
 }
 
 .cs-card-4 {
-  grid-column: 2/ 1;
+  grid-column: 4/ 1;
   grid-row: auto
 }
 .grid-left-services {
@@ -1007,6 +989,7 @@
   grid-row: auto;
   grid-area: text5;
   margin-top: 25px;
+  margin-left: 0%;
 }
 .grid-footer-item-6 {
   grid-column: 1/6;
