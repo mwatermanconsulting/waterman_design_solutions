@@ -11,11 +11,12 @@ class video_production extends Component {
     render () {
         return(
         <div className="flex-layout-column"> 
-            <div className="flex-section-fixed-head-child flex-layout-center-center image-background-border-tb">
-                <div className="header-text-center header-title text-white">
-                    Video Production</div>
-                <img className="flex-image-container" src={bg_video}  alt="Video Production" /> 
-            </div>
+            <section className="flex-section-fixed-head-child yellow flex-layout-center-center image-background-border-tb">
+                    <div className="header-text-center header-title text-white">
+                        Video Production
+                    </div>
+                        <img className="flex-image-container width-100" src={bg_video}  alt="Case Studies" />     
+                </section>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
                     Videos drive action in your marketing strategy on social media.

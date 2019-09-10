@@ -29,28 +29,21 @@ class methodology extends Component {
                     </div>
                 </div> 
             </div>
-            <section className="flex-layout-section-full align-items-center red border-bottom-5" >
-                    <div className="container-section-1-primary flex-layout-center-center">
-                        <div className="content-header flex-layout-column">    
-                            <div className="content-block">
-                                <div className=" text-white text-align-center">
+            <section className="container-section-1-primary flex-layout-center-center border-bottom-5 red">
+                <div className="callout-text-white">
                                 What is the role of empathy in your business?
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </section>
-                <section className="flex-layout-section-full align-items-center" >
-                    <div className="grid-callout yellow-bg "> 
-                        <div className="grid-callout-text grid-placeself-center  width-70">
-                            <p className="callout-text text-black">
+                <section className="grid-callout yellow-bg"> 
+                <div className="grid-callout-text grid-placeself-center width-70">
+                    <p className="callout-text ">
                             EMPATHY and PASSION are the core of our business and the heart of our methodology.
                             </p>
                         </div>
                         <div className="grid-callout-photo grid-placeself-center">
                             <img className="flex-image-container width-100" src={method1}  alt="Customer Service" /> 
                         </div>
-                    </div>
+                    
                 </section>
 
 

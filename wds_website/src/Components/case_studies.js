@@ -39,7 +39,7 @@ class case_studies extends Component {
                         </div> 
                     </div>
             </section>
-            <section className="grid-cs-card flex-layout-center-center flex-layout-section-full margin-top-50 margin-bottom-100">
+            <section className="grid-cs-card flex-layout-section-full margin-top-50 margin-bottom-100">
                 <div className="cs-card-1 card-case-studies content-header flex-layout-column flex-sh-500">
                         <div className="container-image-block">
                             <img className="width-100 height-100" src={motorola}  alt="motorola before and after" /> 
@@ -87,7 +87,7 @@ class case_studies extends Component {
                         <img className="width-100 height-100" src={pfizer}  alt="Pfizer" /> 
                     </div>  
                     <div className="content-block-auto margin-top-10">
-                        <div className="flex-card-content flex-layout-center-center flex-layout-justified-sb">
+                        <div className="flex-card-content flex-layout-center-center flex-layout-row flex-layout-justified-sb">
                             <p className="subtitle text-black">Pfizer</p>
                                 <img className="width-20" style={{width: '15%'}}  src={pfizer_logo}  alt="pfizer logo" /> 
                         </div>
@@ -115,7 +115,7 @@ class case_studies extends Component {
                                 <div className="content-block">
                                     <p><i> Industry: Gas and Oil</i></p>
                                     <p className="content-text-18 content-block">
-                                        Needed an enterprise level CSS solution for their data visualization SaaS initiative. The solution needed to scale and reduce specificity issues. The CSS solution became the company wide standard and foundation for the...
+                                        OsiSoft needed an enterprise level CSS solution for their data visualization SaaS initiative. The solution needed to scale and reduce specificity issues. The CSS solution became the company wide standard and foundation for the...
                                                  <br/><br/>
                                         <a href="./case_study_4" className="text-black" target="_blank">Read More....</a>   
                                     </p>

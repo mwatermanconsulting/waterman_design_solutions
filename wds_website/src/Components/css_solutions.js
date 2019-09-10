@@ -13,24 +13,28 @@ class css_solutions extends Component {
     render () {
         return(
         <div className="flex-layout-column"> 
-            <div className="flex-section-fixed-head flex-layout-center-center image-background-border-tb">
-                <div className="header-text-center header-title text-white">
-                    CSS Solutions</div>
-                <img className="flex-image-container" src={CSS}  alt="CSS solutions" /> 
-            </div>
+            <section className="flex-section-fixed-head-child yellow flex-layout-center-center image-background-border-tb">
+                    <div className="header-text-center header-title text-white">
+                        CSS Solutions
+                    </div>
+                        <img className="flex-image-container width-100" src={CSS}  alt="Case Studies" />     
+                </section>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
                     Our CSS solutions will have your developers touching CSS 80% less.
                 </div>
             </div>
+
             <section className="grid-callout photo-content-color border-bottom-5 height-670"> 
-                    <div className="grid-callout-text grid-placeself-center content-block-75 content-header flex-layout-column">
-                        Our CSS services include CSS development, strategy, CSS system implementation, mentoring, documentation, and best of practice documentation.
-                    </div>              
-                
-                    <div className="grid-callout-photo grid-placeself-center">
-                        <img className="container-photo-callout" src={casscade}  alt="CSS code" /> 
+                <div className="grid-callout-text grid-placeself-center padding content-block-75 content-header flex-layout-column">
+                    
+                    <div className="callout-text text-align-left margin-top-15" >
+                    Our CSS services include CSS development, strategy, CSS system implementation, mentoring, documentation, and best of practice documentation.
+                    </div>    
                 </div>
+                <div className="grid-callout-photo grid-placeself-center">
+                        <img className="container-photo-callout" src={casscade}  alt="shaking hands" /> 
+                 </div>
             </section>
             <section className="content-header flex-layout-center-center flex-layout-column">
                 <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-50">

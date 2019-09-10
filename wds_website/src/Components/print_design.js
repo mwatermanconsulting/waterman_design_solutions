@@ -16,11 +16,12 @@ class print_design extends Component {
     render () {
         return(
         <div className="flex-layout-column"> 
-            <section className="flex-section-fixed-head-child flex-layout-center-center image-background-border-tb">
-                <div className="header-text-center header-title text-white">
-                        Graphic Design</div>
-                <img className="flex-image-container" src={print}  alt="Graphic Design" /> 
-            </section>
+            <section className="flex-section-fixed-head-child yellow flex-layout-center-center image-background-border-tb">
+                    <div className="header-text-center header-title text-white">
+                        Graphic Design
+                    </div>
+                        <img className="flex-image-container width-100" src={print}  alt="Case Studies" />     
+                </section>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
                 WDS has extensive print experience, including magazines, brochures, business cards, trade show displays, corporate reports, etc.
