@@ -1,4 +1,5 @@
 import React, { Component } from 'react' ;
+import { NavLink } from 'react-router-dom';
 import wdslogofull from '../images/wds-logo-full.svg';
 import method from '../images/backgrounds/bg-methodology.svg';
 import binoculars from '../images/graphic-methodology-binoculars.svg';
@@ -46,34 +47,64 @@ class landingPage extends Component {
                     <div className="gallery-2col-1 container-image-500 align-self-end">
                     <img className="container-image-300" src={why}  alt="Why WDS" /> 
                         <div className="content-block-auto ">
-                            <div className="title margin-top-15 margin-bottom-20 content-text-18">Why WDS</div>
-                            <p className="content-text-18">Why design matters to your business and your customers and how we can ease your fears about dealing with a designer.</p>
-                            <button onclick="location.href='./why_wds';" type="button" value="Learn More" className="button font-size-18">Learn More</button>
-                        </div>
-                    </div>     
+                            <div className="title margin-top-15 margin-bottom-20 content-text-18">
+                                Why WDS</div>
+                            <p className="content-text-18">
+                                Why design matters to your business and your customers and how we can ease your fears about dealing with a designer.</p>
+                          
+                        
+                   </div> </div>
+                    <div className="flex-layout-section-full align-items-center">
+                        <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/case_study_4'}>
+                            Learn More 
+                        </NavLink>
+                   
+                     </div>   
                     <div className="gallery-2col-2t container-image-500 align-self-top">
-                    <img className="container-image-300 "  src={binoculars}  alt="Methodology" /> 
+                        <img className="container-image-300 "  src={binoculars}  alt="Methodology" /> 
                         <div className="content-block-auto ">
-                            <div className="title  margin-top-15 margin-bottom-20">Methodology</div>
-                            <p className="content-text-18">Our process  works on all size platforms. This makes life easier for your team and those you serve. </p><button onclick="location.href='./methodology';" type="button" value="Learn More" className="button font-size-18">Learn More</button>
+                            <div className="title  margin-top-15 margin-bottom-20">
+                                Methodology</div>
+                            <p className="content-text-18">
+                                Our process  works on all size platforms. This makes life easier for your team and those you serve. </p> </div>
                         </div>
+                        <div className="flex-layout-section-full align-items-center">
+                            <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/methodology'}>
+                                Learn More 
+                            </NavLink>
+                  
                     </div>
             </section>
             <section className="grid-gallery-2col grid-gap-20 align-self-center justify-items-center margin-bottom-50 width-70">
-                    <div className="gallery-2col-1 container-image-500 align-self-end">
+                <div className="gallery-2col-1 container-image-500 align-self-end">
                     <img className="container-image-300"  src={design}  alt="Design Solutions" />
-                        <div className="content-block-auto ">
-                            <div className="title margin-top-15 margin-bottom-20">Design Solutions</div>
-                            <p className="content-text-18">In today's market, design is more critical to your business success. Simple and elegant designs will make a better experience for your users.</p>
-                            <button onclick="location.href='./design_solutions';" type="button" value="Learn More" className="button font-size-18">Learn More</button>
-                        </div>
-                    </div>     
+                <div className="content-block-auto ">
+                    <div className="title margin-top-15 margin-bottom-20">
+                        Design Solutions</div>
+                        <p className="content-text-18">
+                        In today's market, design is more critical to your business success. Simple and elegant designs will make a better experience for your users.</p>
+                      
+                 <div className="flex-layout-section-full align-items-center">
+                    <NavLink className='button-area no-decoration float-left margin-top-7per' value="learn more" type="button" to={'/design_solutions'}>
+                    Learn More
+                    </NavLink>
+                 </div>
+                     </div>
+                    </div> 
+                
+                         
                     <div className="gallery-2col-2 container-image-500 align-self-end">
                     <img className="container-image-300 " src={igotyou}  alt="Services" />
                         <div className="content-block-auto ">
                             <div className="title  margin-top-15 margin-bottom-20">Services</div>
                             <p className="content-text-18"> For the past 25 years, we've been working at the leading edge of strategy, design and technology to help clients evolve and thrive.</p>
-                            <button onclick="location.href='./services';" type="button" value="Learn More" className="button font-size-18">Learn More</button>
+
+                            
+                    <div className="flex-layout-section-ful align-items-center">
+                        <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/services'}>
+                            Learn More 
+                        </NavLink>
+                   </div>
                         </div>
                     </div>
             </section>

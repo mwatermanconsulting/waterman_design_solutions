@@ -1,5 +1,4 @@
 import React, { Component } from 'react' ;
-import { Button } from 'react-mdl';
 import didyouknow from '../images/graphic-didyouknow.svg';
 import caseStudies from '../images/backgrounds/bg-casestudies.png';
 import motorola from '../images/photos/photo-motorola-beforeafter.png';

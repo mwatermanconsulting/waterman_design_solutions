@@ -1,4 +1,5 @@
 import React, { Component } from 'react' ;
+import { NavLink } from 'react-router-dom';
 import method from '../images/backgrounds/bg-methodology.svg';
 import stayinlane from '../images/graphic-stayinlane.svg';
 import methodology2 from '../images/photos/photo-methodology-s2.png';
@@ -462,7 +463,13 @@ class methodology extends Component {
                          WDS Methodology Uncovered and Solved Motorola's Design Problems
                     </div>
                         <p className="content-text-18 margin-top-15"> 
-                        A design problem with Motorola Surfboard Cable Modem product line was on the verge of losing money due to high return rate and a high spike in call center calls. After two failed attempts and years of complacency, Motorola stakeholders decided to bring in a consultant with design and UX experience with a proven methodology. </p> <a href= "./case_study_1"><button  type="button" value="Learn More" className="button margin-top-50 font-size-24">Full story</button> </a>
+                        A design problem with Motorola Surfboard Cable Modem product line was on the verge of losing money due to high return rate and a high spike in call center calls. After two failed attempts and years of complacency, Motorola stakeholders decided to bring in a consultant with design and UX experience with a proven methodology. </p>
+                        
+                        <div className="align-content-center content-block-55">
+                            <NavLink className='button-area no-decoration' type="button" value="Full Story" to={'/ui_design'}>
+                                Full Story 
+                            </NavLink>
+                        </div>  
                     </div>
                 </div>     
             </section>
