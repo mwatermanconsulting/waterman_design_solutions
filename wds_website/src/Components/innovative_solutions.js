@@ -13,11 +13,12 @@ class innovative_solutions extends Component {
     render () {
         return(
         <div className="flex-layout-column"> 
-            <section className="flex-section-fixed-head flex-layout-center-center image-background-border-tb">
-                <div className="header-text-center header-title text-white">
-                    Innovative Solutions</div>
-                <img className="flex-image-container" src={innovation}  alt="Innovation" /> 
-            </section>
+            <section className="flex-section-fixed-head-child yellow flex-layout-center-center image-background-border-tb">
+                    <div className="header-text-center header-title text-white">
+                        Innovative Solutions
+                    </div>
+                        <img className="flex-image-container width-100" src={innovation}  alt="Case Studies" />     
+                </section>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-3 callout-color-dark">
                 <div className="callout-text-lg"> 
                  “Every solution to every problem is simple.<br/> It's the distance between the two where the mystery lies.” <br/> ― Derek Landy

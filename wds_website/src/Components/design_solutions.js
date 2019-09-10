@@ -12,37 +12,32 @@ import design_therapy from '../images/photos/photo-design-therapy.png';
 class design_solutions extends Component {
     render () {
         return(
-        <div className="flex-layout-column"> 
-            <div className="flex-layout-fixed-head">
+            <div className="flex-layout-column"> 
+            <div className="flex-section-fixed-head">
                 <div className="image-background-border-tb">
                     <div className="flex-image-container flex-item-bottom">
-                        <img className="flex-image-container container image-size-100" src={design}  alt="Design" /> 
+                        <img className="flex-image-container image-size-100" src={design}  alt="Design" /> 
                     </div>
                 </div> 
             </div>
-            <div className="flex-layout-section-full align-items-center red border-bottom-5" >
-                    <div className="container-section-1-primary flex-layout-center-center">
-                        <div className="content-header align-items-center flex-layout-column">    
-                            <div className="content-block width-75">
-                                <div className=" text-white  text-align-center">
+            <section className="container-section-1-primary flex-layout-center-center border-bottom-5 red">
+                <div className="callout-text-white">
                                 “Good designs come from the heart, not from the brain” -Juan-Carlos Fernandez
-                               </div>
-                            </div>
+                              
+                    </div>
+            </section>
+        
+            <section className="grid-callout yellow-bg"> 
+                <div className="grid-callout-text grid-placeself-center width-70">
+                    <p className="callout-text ">
+                    Customers always look for the better experience. Meeting their expectations of intuitive, elegant and simple designs built around and for the user will earn their loyalty.
+                            </p>
                         </div>
-                    </div>
-            </div>
-
-            <div className="flex-layout-section-full align-items-center" >
-                <div className="grid-callout yellow-bg"> 
-                    <div className="grid-callout-text grid-placeself-center width-70">
-                        <p className="callout-text text-black"> Customers always look for the better experience. Meeting their expectations of intuitive, elegant and simple designs built around and for the user will earn their loyalty.</p>
-                            
-                    </div>
-                    <div className="grid-callout-photo grid-placeself-center">
-                        <img className="flex-image-container width-100" src={designer}  alt="Customers look for better experience" /> 
-                    </div>
-                </div>
-            </div>
+                        <div className="grid-callout-photo grid-placeself-center">
+                            <img className="flex-image-container width-100" src={designer}  alt="Customer Service" /> 
+                        </div>
+                    
+                </section>
 
             <div className="flex-layout-section-full align-items-center" >
                 <div className="content-header flex-layout-column"> 

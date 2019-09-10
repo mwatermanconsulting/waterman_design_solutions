@@ -13,11 +13,12 @@ class style_guide extends Component {
     render () {
         return(
         <div className="flex-layout-column"> 
-            <section className="flex-section-fixed-head-child flex-layout-center-center image-background-border-tb">
-                <div className="header-text-center header-title text-white">
-                    Design Systems</div>
-                <img className="flex-image-container" src={digital_systems}  alt="Why WDS background" /> 
-            </section>
+            <section className="flex-section-fixed-head-child yellow flex-layout-center-center image-background-border-tb">
+                    <div className="header-text-center header-title text-white">
+                        Design Systems
+                    </div>
+                        <img className="flex-image-container width-100" src={digital_systems}  alt="Case Studies" />     
+                </section>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
                 “The more decisions you put off, and the longer you delay them, the more expensive they become.”

@@ -15,21 +15,23 @@ class core_offerings extends Component {
     render () {
         return(
         <div className="flex-layout-column">
-            <div className="flex-layout-section-fixed yellow flex-layout-center-center image-background-border-tb">
-                <div className="header-text-center header-title text-white">Core Offerings</div>
-                <img className="flex-image-container width-100" src={offerings}  alt="Core Offerings" /> 
-            </div>
+            <section className="flex-section-fixed-head-child yellow flex-layout-center-center image-background-border-tb">
+                    <div className="header-text-center header-title text-white">
+                        Core Offerings
+                    </div>
+                        <img className="flex-image-container width-100" src={offerings}  alt="Case Studies" />     
+                </section>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg">
-                        WDS Supports all your Design Needs
+                        WDS supports all your design needs
                 </div>
             </div>
-            <section className="grid-callout photo-content-color border-bottom-5 height-670"> 
-                    <div className="grid-callout-text grid-placeself-center padding content-block-75 content-header flex-layout-column">
-                        <div className="callout-text-black margin-top-15">
+            <section className="grid-callout photo-content-color border-bottom-5" > 
+                <div className="grid-placeself-center content-block-75   flex-layout-column">
+                    <div className="callout-text padding-20 text-align-left margin-top-15" >
+                        
                         The best customer experience starts with the Golden Rule - treat the user the way you would like to be treated.
-                    </div>
-                        <div className="callout-text-black text-align-left margin-top-15">
+                    
                         Too often, companies get attached to the product and lose sight of the people. 
                         </div>
                     </div>
