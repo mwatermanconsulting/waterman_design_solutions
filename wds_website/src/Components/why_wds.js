@@ -205,9 +205,6 @@ class why_wds extends Component {
                     </NavLink>
                </div>  
                </div>
-                
-
-                </div> 
 
                 </section>
 
