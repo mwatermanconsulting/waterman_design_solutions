@@ -73,8 +73,7 @@ class case_studies extends Component {
                             <div className="content-block">
                                 <p><i> Industry: Ecommerce</i></p>
                                     <p className="content-text-18 content-block" >
-                                        StubHub was finding it difficult to gain user traction for their data reporting tool.
-                                        Their initial two releases were not successful and after a year of non-use, StubHub needed answers.</p>
+                                    StubHub was finding it difficult to gain user traction for their data reporting tool. Their initial two releases were not successful and after a year of non-use, StubHub needed answers.</p>
                                     <p><a href="./case_study_2"  target="_blank">Read More....</a>  </p> 
                             </div>
                         </div>
