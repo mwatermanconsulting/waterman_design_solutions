@@ -36,7 +36,7 @@ class landingPage extends Component {
                             <p className="subtitle margin-top-15">
                             Your Partner in Design</p>
                         <p className="content-text-18">
-                            WDS is a UX/UI agency that offers empathetic design solutions for websites, web based applications, mobile apps, and products. Our core offerings help your business understand the value of design on a core level, providing training, workshops and mentorship programs. With over 15 years of perfecting our strategies, we have the experience, designers, strategists, skills and scale to deliver sophisticated design solutions. </p>
+                            WDS is a UX/UI agency that offers empathetic design solutions for websites, web based applications, mobile apps, and products. Our core offerings help your business understand the value of design on a core level, providing training, workshops and mentorship programs. With over 15 years of perfecting our strategies, WDS has the experience, designers, strategists, skills and scale to deliver sophisticated design solutions. </p>
                     </div>
                 </section>
                 
@@ -50,7 +50,7 @@ class landingPage extends Component {
                             <div className="title margin-top-15 margin-bottom-20 content-text-18">
                                 Why WDS</div>
                             <p className="content-text-18">
-                                Why design matters to your business and your customers and how we can ease your fears about dealing with a designer.</p>
+                                Why design matters to your business and your customers and how WDS can ease your fears about dealing with a designer.</p>
                           
                         
                    </div> </div>
@@ -66,7 +66,7 @@ class landingPage extends Component {
                             <div className="title  margin-top-15 margin-bottom-20">
                                 Methodology</div>
                             <p className="content-text-18">
-                                Our process  works on all size platforms. This makes life easier for your team and those you serve. </p> </div>
+                                The WDS process  works on all size platforms. This makes life easier for your team and those you serve. </p> </div>
                         </div>
                         <div className="flex-layout-section-full align-items-center">
                             <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/methodology'}>
@@ -97,7 +97,7 @@ class landingPage extends Component {
                     <img className="container-image-300 " src={igotyou}  alt="Services" />
                         <div className="content-block-auto ">
                             <div className="title  margin-top-15 margin-bottom-20">Services</div>
-                            <p className="content-text-18"> For the past 25 years, we've been working at the leading edge of strategy, design and technology to help clients evolve and thrive.</p>
+                            <p className="content-text-18"> For the past 25 years, WDS has been working on the leading edge of strategy, design and technology to help clients evolve and thrive.</p>
 
                             
                     <div className="flex-layout-section-ful align-items-center">
@@ -118,7 +118,7 @@ class landingPage extends Component {
                             <p className="subtitle margin-top-15">
                             Understanding Your Users is the Key</p>
                         <p className="content-text-18">
-                        Our UX strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. </p>
+                        UX strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. </p>
                     </div>
                 </section>
 
@@ -132,7 +132,7 @@ class landingPage extends Component {
                                 Empathetic Design
                             </p>
                         <p className="content-text-18">
-                        WDS design solutions are being used on incredibly complex applications, such as nuclear plants, oil rigs and energy grids.  Simplifying critical applications takes focus and understanding in order to create a seamless intuitive experience that reduces the chance for human error.</p>
+                        WDS founders have created design solutions being used on incredibly complex applications, such as nuclear plants, oil rigs and energy grids.  Simplifying critical applications takes focus and understanding in order to create a seamless intuitive experience that reduces the chance for human error.</p>
                     </div>
                 </section>
 
@@ -160,7 +160,7 @@ class landingPage extends Component {
                         <div className="content-block-auto ">
                             <div className="title-homepage">It’s all about the user</div>
                             <p className="subtitle">Engage your customers and earn their trust.</p>
-                            <p className="content-text-18">We're firm believers in agile and iterative deployments as experiments, but, with longer enterprise launches and consumer software, there's still valuable data to collect even before that first MVP. Our insights and strategies move you and your team in the right direction, and possibly uncover rewarding new business opportunities.</p>
+                            <p className="content-text-18">We're firm believers in agile and iterative deployments as experiments, but with longer enterprise launches and consumer software, there's still valuable data to collect even before that first MVP. WDS insights and strategies move you and your team in the right direction, and possibly uncover rewarding new business opportunities.</p>
                         </div>
                     </div>     
                     <div className="gallery-2col-2 container-image-500 align-self-end">
@@ -168,7 +168,7 @@ class landingPage extends Component {
                         <div className="content-block-auto ">
                             <div className="title-homepage">Business value of design</div>
                             <p className="subtitle">Design is everybody’s responsibility</p>
-                            <p className="content-text-18">In workplace and enterprise solutions, users know when someone understands their needs, making them feel like experts. They know when there's attention to design details. They know when it's intuitive and visually pleasing. With consumers, if you miss the mark, you'll fail fast … and they’ll let you know it.</p>
+                            <p className="content-text-18">In workplace and enterprise solutions, users know when someone understands their needs and make them feel like experts. They know when there's attention to design details. They know when it's intuitive and visually pleasing. With consumers, if you miss the mark, you'll fail fast … and they’ll let you know it.</p>
                         </div>
                     </div>
                      
@@ -178,7 +178,7 @@ class landingPage extends Component {
 
             <section className="flex-section-fixed-head flex-layout-center-center homepage-bg-starburst  image-background-border-tb">
                     <div className="header-text-center callout-text-lg text-white width-70">
-                    In todays market design is more critical to your business success, competition and user expectations have increased. 
+                    In todays market, design is more critical to your business success. Competition and user expectations have increased. 
                                Your only chance of survival is understanding both your users and competition.
                     </div>
                         <img className="flex-image-container" src={starburst}  alt="McKinsley Report" /> 
@@ -188,11 +188,11 @@ class landingPage extends Component {
                 <div className="content-block-60">
                     <p className="title margin-top-75">
                     About Our Methodology</p>
-                    <p className="subtitle">We design user interfaces that delivers valuable experiences, connecting with people on aspirational and emotional levels</p>
+                    <p className="subtitle">WDS designs user interfaces that delivers valuable experiences, connecting with people on aspirational and emotional levels.</p>
                     <p className="content-text-18">The science of understanding people has developed for centuries, but not enough has been done to integrate these approaches into the process of software design. 
-                        For more than a decade, we have refined a repeatable, flexible methodology that centers on answering questions about customers through direct observational fieldwork 
-                        or through interviews to identify people’s needs, behaviors and aspirations. This provides a perspective on customers that clients typically have never seen.</p>
-                        <p className="content-text-18">The aim of this work is not more data, but for an understanding. We create a strategy for the experience that the software design will provide. 
+                        For more than a decade, WDS has refined a repeatable, flexible methodology that centers on answering questions about customers through direct observational fieldwork 
+                        or  interviews to identify people’s needs, behaviors and aspirations. This provides a perspective on customers that clients typically have never seen.</p>
+                        <p className="content-text-18">The aim of this work is not more data, but for an understanding. WDS creates a strategy for the experience that the software design will provide. 
                         It's a framework that allows developers, designers, marketers and architects to make decisions that support the intended customer experience. Integrated offering takes 
                         insights from the field and manifests them in a designed software user interface that engages customers and improves business results.</p>
                 </div>

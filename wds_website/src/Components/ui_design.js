@@ -24,7 +24,7 @@ class ui_design extends Component {
                     <div className="header-text-center header-title text-white">
                         User Interface Design
                     </div>
-                        <img className="flex-image-container width-100" src={bg_ui}  alt="Case Studies" />     
+                        <img className="flex-image-container width-100" src={bg_ui}  alt=" User Interface Design" />     
                 </section>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
@@ -151,11 +151,11 @@ class ui_design extends Component {
                         <div className="margin-top-15">  
                        
                             <p className="content-text-18"> 
-                            WDS provides design support for businesses. Many of our clients still have developers designing hi-fidelity designs. The WDS team of experienced designers can critique current designs before the testing to help identify design and usability problems.  
+                            WDS provides design support for businesses. Many software businesses still have developers designing hi-fidelity designs. The WDS team of experienced designers can critique current designs before the testing to help identify design and usability problems.  
                             </p>
                             <p className="content-text-18">
                             
-                            The design critique is an expert analyst that examines the current site or application screens in comparison to industry standards and established best practices. This helps to point out areas of opportunity that can be addressed during the design process in an effort to best the competition. This critique results in a presentation of findings that includes both areas of opportunities and concrete recommendations.
+                            The design critique is an expert analysis that examines the current site or application screens in comparison to industry standards and established best practices. This helps to point out areas of opportunity that can be addressed during the design process in an effort to best the competition. This critique results in a presentation of findings that includes both areas of opportunities and concrete recommendations.
                             
                             </p>      
                             
@@ -205,7 +205,7 @@ class ui_design extends Component {
                             <p className="content-text-18">
                             WDS UI Kit solutions are lightweight, containing only the visual elements and CSS needed. The value of a tailored UI kit is that it helps solve the consistency issues businesses face when teams are fractured. These teams need design guidance and support, a solution that will support the developers with a starting point, removing the need to design. WDS provides guidance with a living style guide and design system which includes best pf practice documentation. </p> 
                             <p className="content-text-18"> 
-                             UI kits are comprehensive resource sets that allow you to plan your design’s structure properly without having to sacrifice your creative and original ideas. A UI kit generally contains an assortment of graphic files including UI components (buttons, check boxes, progress bars, etc.) for the purpose of user interface design. This allows developers to create outstanding visuals in a reasonable timeframe. So instead of wasting time figuring out how to implement components, UI kits let you focus on what you do best: creating great products.
+                             UI kits are comprehensive resource sets that allow you to plan your design’s structure properly without having to sacrifice  creative and original ideas. A UI kit generally contains an assortment of graphic files including UI components (buttons, check boxes, progress bars, etc.) for the purpose of user interface design. This allows developers to create outstanding visuals in a reasonable time frame. So instead of wasting time figuring out how to implement components, UI kits let you focus on what you do best: creating great products.
                             </p>    
                             
                             </div>  
@@ -262,7 +262,7 @@ class ui_design extends Component {
                                 Customer Success Spotlight</div>
                         <div className="content-block width-100 margin-top-10">
                             <p className="subtitle text-align-center">
-                                 Our favorite case study stories including the methodology and the solutions that made each project a success</p>
+                                 Favorite case study stories including the methodology and the solutions that made each project a success</p>
                         </div> 
                     </div>
                 </section>
@@ -304,8 +304,8 @@ class ui_design extends Component {
                             <div className="content-block">
                                 <p><i> Industry: Ecommerce</i></p>
                                     <p className="content-text-18 content-block" >
-                                        StubHub was finding it difficult to gain user traction for their data reporting tool
-                                        After two failed attempts by UX/UI developers, a frustrated management group decided they needed a designer to make their modem app easier to use.</p>
+                                    StubHub was finding it difficult to gain user traction for their data reporting tool. Their initial two releases were not successful and after a year of non-use, StubHub needed answers.
+                                        </p>
                                     <p><a href="./case_study_2"  target="_blank">Read More....</a>  </p> 
                             </div>
                         </div>
