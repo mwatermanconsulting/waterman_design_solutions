@@ -199,12 +199,14 @@ class why_wds extends Component {
 
                 
 
+
                     <div className="float-left">
                         <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/ui_design'}>
                         Learn More 
                         </NavLink>
                     </div>  
                 </div>
+
                 </section>
 
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>

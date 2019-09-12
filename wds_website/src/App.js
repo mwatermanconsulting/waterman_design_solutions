@@ -18,8 +18,8 @@ class App extends Component {
             <Header className="header content-text-18 red text-white flex-layout-row" title={<Link style={{textDecoration: 'none',
             color: 'white'}} to="/"><img src={logo} height="65px" alt="header" style={{marginLeft:'4%'}} /></Link>} scroll >
              <div style={{marginRight:'1.5%', marginTop:'.5%'}}>
-                <div class="dropdown">
-                  <button class="dropbtn">Why WDS
+                <div className="dropdown">
+                  <button className="dropbtn">Why WDS
                     
                   </button>
                   <div className="dropdown-content content-text" >
@@ -42,22 +42,22 @@ class App extends Component {
                   </div>
               </div>
               
-              <div class="dropdown">
-                  <button class="dropbtn">Methodology
+              <div className="dropdown">
+                  <button className="dropbtn">Methodology
                     
                   </button>
-                  <div class="dropdown-content content-text">
+                  <div className="dropdown-content content-text">
                     <a href="./methodology">Methodology Overview </a>
                     <a href="./finding_truth">Finding the Truth</a>
                     <a href="./innovative_solutions">Innovative Solutions</a>
                     <a href="./strategy_insight">Strategy and Insight</a>
                   </div>
                 </div>
-                <div class="dropdown">
-                  <button class="dropbtn">Design Solutions
+                <div className="dropdown">
+                  <button className="dropbtn">Design Solutions
                   </button>
                   
-                  <div class="dropdown-content content-text">
+                  <div className="dropdown-content content-text">
                     <a href="./design_solutions">Design Overview</a>
                     <a href="./website_design">Website Design</a>
                     <a href="./print_design">Graphic Design</a>
@@ -66,12 +66,12 @@ class App extends Component {
                 </div>
               </div>
 
-                <div class="dropdown" style={{marginLeft:'-1%', marginTop:'.5%'}}>
-                  <button class="dropbtn"> <a dropbtn href="./contact" className="menu  no-decoration">Contact</a>
+                <div className="dropdown" style={{marginLeft:'-1%', marginTop:'.5%'}}>
+                  <button className="dropbtn"> <a dropbtn href="./contact" className="menu  no-decoration">Contact</a>
 
                    
                   </button>
-                  <div class="dropdown-content">
+                  <div className="dropdown-content">
              
              
                   </div>
