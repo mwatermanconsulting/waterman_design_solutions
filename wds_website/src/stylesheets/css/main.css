@@ -771,6 +771,9 @@ footer {
 .padding {
   padding: 50px; }
 
+.padding-right-10 {
+  padding-right: 10px; }
+
 .content-text {
   font-family: Roboto;
   font-size: 1rem;

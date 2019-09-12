@@ -17,7 +17,7 @@ class style_guide extends Component {
                     <div className="header-text-center header-title text-white">
                         Design Systems
                     </div>
-                        <img className="flex-image-container width-100" src={digital_systems}  alt="Case Studies" />     
+                        <img className="flex-image-container width-100" src={digital_systems}  alt="Design Systems" />     
                 </section>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
@@ -32,7 +32,7 @@ class style_guide extends Component {
                     A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive, combining components, behaviors, and branding. It must also be flexible and scalable.</div>
                 </div>
                     <div className="col2-photo grid-placeself-right">
-                        <img className="container-photo-callout" src={digital_systems1}  alt="Digital Systems" /> 
+                        <img className="container-photo-callout" src={digital_systems1}  alt="Design Systems" /> 
                        
                     </div> 
             </div>
@@ -61,12 +61,12 @@ class style_guide extends Component {
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-25">
                             <p className="content-text-18"> 
-                            Another benefit of using prebuilt and standardized component is less errors. Because you’re copying from a master version, there’s no chance of making a mistake. As long as the components in your design system are accurate, their use in your products will be accurate.
+                            Another benefit of using prebuilt and standardized component is less errors. There’s no chance of making a mistake when you’re copying from a master version. As long as the components in your design system are accurate, their use in your products will be accurate.
                             This is especially good news for developers, who have all the code snippets they need right at their fingertips.</p>
                         </div>
                     </section>
                     <div className="grid-right-css margin-top-50">
-                        <img className="photo-container width-100" src={digital_systems2}  alt="Digital Systems" /> 
+                        <img className="photo-container width-100" src={digital_systems2}  alt=" Less Errors" /> 
                         
                     </div>     
                 </section>
@@ -106,11 +106,11 @@ class style_guide extends Component {
                             <p className="content-text-18"> 
                         
                                 During the initial creation of a design system — and its periodic updates — design systems get the right conversations started. Which logos go with different screen sizes? How do you want to handle the search function? <div className="float-right">
-                            <img className="photo-container width-100" src={digital_systems4}  alt="Digital Systems" /> 
+                            <img className="photo-container width-100" src={digital_systems4}  alt="Enhanced collaboration" /> 
                             
                         </div>What is the best accent color for call-to-action buttons? Simply setting out to make a design system forces your team to answer these questions, and make those answers easily accessible to everyone.</p> 
                             <p className="content-text-18">
-                                Having this kind of master reference guide also helps avoid miscommunication. By offering a definitive protocol and standards for otherwise ambiguous elements, design systems keep everyone on the same page. No guesswork, assumptions, or “going rogue.”Design systems also do wonders for sometimes-problematic dev handoffs. Because technical specs are embedded in the document, there’s less confusion about how to build something in the backend, or whether it can be built at all. Designs systems give designers and developers a shared language.</p>           
+                                Having this kind of master reference guide also helps avoid miscommunication. By offering a definitive protocol and standards for otherwise ambiguous elements, design systems keep everyone on the same page. No guesswork, assumptions, or “going rogue.” Design systems also do wonders for problematic developer handoffs. Technical specs are embedded in the document which creates less confusion about how to build something in the backend, or whether it can be built at all. Design systems give designers and developers a shared language.</p>           
                         </div>   
                 </section>
 
@@ -122,7 +122,7 @@ class style_guide extends Component {
                             No Version Control Problems
                         </div>
                         <div className="content-block-60 content-text-18 margin-top-15">
-                            <p className="content-text-18"> It’s understood that the design system is the official document: every time a change needs to be made, it’s made there. Whenever a bug gets fixed or a new design component is introduced, it’s recorded into the design system so that the next person to use it stays up-to-date automatically. We like to call it a “living document” because it’s always updating.<br></br>
+                            <p className="content-text-18"> It’s understood that the design system is the official document: every time a change needs to be made, it’s made there. Whenever a bug gets fixed or a new design component is introduced, it’s recorded into the design system so that the next person to use it stays up-to-date automatically. WDS likes to call it a “living document” because it’s always updating.<br></br>
                             This format of using only one, agreed-upon master document also ensures that every update gets made to the same file. You never have to merge multiple files that were updated independently of each other by different team members. Whenever you pull from the design system, you know you’re always using the most recent version. This significantly reduces the margin for error.</p>   
                         </div>
                     </div>
@@ -132,7 +132,7 @@ class style_guide extends Component {
                         </div>
                         <div className="content-block-60 content-text-18 margin-top-15">
                             <p className="content-text-18">So much of UX design depends on customer feedback. Different customer groups have different tastes and preferences, and they can be hard to keep track of, especially if your company is targeting more than one group.<br></br>
-                            We set design  standards for a design foundation. We have assimilated design with software development by fostering empathy for the engineers who create software. Asking questions and learning the language helped us bridge the gap between the customer and developer.<br></br>
+                            WDS sets design  standards for a design foundation, assimilating design with software development by fostering empathy for the software engineers. Asking questions and learning the language helps  bridge the gap between the customer and developer.<br></br>
                             Design systems help keep your UX data organized by optimizing patterns. Update the design system and every designer knows it’s the new norm going forward.
                             </p>   
                         </div> 
@@ -150,13 +150,12 @@ class style_guide extends Component {
                             Design System Layouts
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-15">
-                            <p className="content-text-18">  Another subclass in the design system, this static documentation describes the design system itself: how products should look and feel, use cases for UI patterns, correct typographic scales, etc.</p>
-                            <p className="content-text-18">  Find out how we implemented a style guide and design system for OsiSoft.</p>
+                            <p className="content-text-18">  A subclass in the design system, this is the set of design patterns for use across a company. A pattern library, documents all of these ‘patterns’ (also often known as modules) and defines how they behave, what they look like and how they are coded.</p>
 
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container width-100 border-2" src={digital_systems6}  alt="Digital Systems" /> 
+                        <img className="photo-container width-100 border-2" src={digital_systems6}  alt="Pattern Library   " /> 
                     </div>     
                 </section>  
 
@@ -177,7 +176,7 @@ class style_guide extends Component {
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
-                        <img className="photo-container width-100 border-2" src={digital_systems7}  alt="Digital Systems" /> 
+                        <img className="photo-container width-100 border-2" src={digital_systems7}  alt="Style Guides " /> 
                     </div>     
                 </section>       
             </div> 
