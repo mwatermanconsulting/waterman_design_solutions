@@ -1,10 +1,8 @@
 import React, { Component } from 'react' ;
-import { Button } from 'react-mdl';
 import osi_bg from '../images/backgrounds/bg-osi.png';
 import osi_logo from '../images/osilogo.svg'; 
 import osi_s1 from '../images/image-post-flexbox-v2.png';
 import itcss from '../images/ITCSS.png';
-import casscade from '../images/photos/photo-css-s1.png';
 import sass from '../images/Sass.jpg';
 import kendo from '../images/kendo.png';
 import design_system from '../images/photos/photo-digital-systems-s3.png';
