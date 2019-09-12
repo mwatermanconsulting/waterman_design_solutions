@@ -3,6 +3,10 @@ import './stylesheets/css/main.css';
 import { Layout, Button, Header, Navigation, Drawer, Content, Icon } from 'react-mdl';
 import Main from './Components/main';
 import logo from './images/WDS-logo-banner.svg'
+import facebook from './images/icon-logo-fb.svg'
+import twitter from './images/icon-twitter.svg'
+import instagram from './images/icon-instagram.svg'
+import linkedin from './images/icon-linkedin.svg'
 import { Link } from 'react-router-dom';
 
 
@@ -39,6 +43,7 @@ class App extends Component {
                     <a href="./ux_design">UX Design</a>
                     <a href="./ui_design">UI Design</a>
                     <a href="./css_solutions">CSS Solutions</a>
+                    <a href="./design_systems">Design Systems</a>
                   </div>
               </div>
               
@@ -114,7 +119,7 @@ class App extends Component {
               <li><a className="text-black" href="./ux_design">UX Design </a></li>
               <li><a className="text-black" href="./ui_design">UI Design</a></li>
               <li><a className="text-black" href="./css_solutions">CSS Solutions</a></li>
-              <li><a className="text-black" href="./strategy_insight">Strategy and Insights</a></li>
+              
               <li><a className="text-black" href="./design_systems">Design Systems</a></li>
               
               </ul>
@@ -141,9 +146,16 @@ class App extends Component {
             <div className="grid-footer-item-5 subtitle-menu text-white marginleft-40per">
                 Social Media
               <ul>
-              <li><a href="./news_insights">Overview</a></li>
-              <li><a href="./">Blog</a></li>
-              <li><a href="./">News</a></li>
+              <li>
+                <a href="https://www.linkedin.com/company/waterman-design-solutions"><img className=" width-10 padding-right-10 margin-top-15" src={linkedin}  target="_blank"  alt="LinkedIn" /></a> 
+
+                <a href="https://www.instagram.com/watermandesignsolutions"><img className=" width-10 padding-right-10 margin-top-15" src={instagram}  target="_blank"  alt="Instagram" /></a> 
+
+                <a href="https://www.facebook.com/pg/watermandesignsolutions"><img className=" width-10 padding-right-10 margin-top-15" src={facebook}  target="_blank"  alt="Facebook" /></a> 
+
+                <a href="https://twitter.com/WatermanDesign"><img className="width-10 padding-right-10 margin-top-15" src={twitter}  target="_blank"  alt="Twitter" /></a> 
+                
+                </li>
               </ul>
         </div>
     </div>

@@ -18,7 +18,7 @@ class css_solutions extends Component {
                     <div className="header-text-center header-title text-white">
                         CSS Solutions
                     </div>
-                        <img className="flex-image-container width-100" src={CSS}  alt="Case Studies" />     
+                        <img className="flex-image-container width-100" src={CSS}  alt="CSS Solutions" />     
                 </section>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
@@ -34,7 +34,7 @@ class css_solutions extends Component {
                     </div>    
                 </div>
                 <div className="grid-callout-photo grid-placeself-center">
-                        <img className="container-photo-callout" src={casscade}  alt="shaking hands" /> 
+                        <img className="container-photo-callout" src={casscade}  alt="CSS" /> 
                  </div>
             </section>
             <section className="content-header flex-layout-center-center flex-layout-column">
@@ -45,7 +45,7 @@ class css_solutions extends Component {
                 <div className="content-block-50 margin-top-50">
                     <p className="content-text-24 text-align-center">
                         <img className="container-photo-callout margin-bottom-20" src={cheer}  alt="Happy developers" /> <br></br>
-                        Our solutions are based off our empathy and experiences working with developers. After our design solutions our CSS knowledge and experience is one of the main reasons WDS gets contracted by companies. Our CSS solutions are scalable and customizable to your business requirements. </p>
+                        WDS solutions are based on empathy and  working experiences with developers. Their CSS knowledge and experience is one of the main reasons they get contracts.  CSS solutions are scalable and customizable to your business requirements. </p>
                 </div>
                 <NavLink className='button-area no-decoration' type="button" to={'/case_study_4'}>
                    OSIsoft Case Study
@@ -65,11 +65,11 @@ class css_solutions extends Component {
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-15">
                             <p className="content-text-18"> 
-                            Responsive Web design is the approach that suggests that design and development should respond to the user’s behavior and environment based on screen size, platform and orientation. We have made countless responsive websites and applications. We were one of the first companies to build a responsive enterprise application using flexbox. We can consult with your team on how to write better quality responsive User Interfaces </p>
+                            Responsive web design is the approach that suggests that design and development should respond to the user’s behavior and environment based on screen size, platform and orientation. WDS has made countless responsive websites and applications. They were one of the first companies to build a responsive enterprise application using flexbox. WDS can mentor your developers on responsive design best practices, or provide a responsive design <a href="../ui_design">build kit.</a> </p>
                         </div>
                     </div>
                     <div className="grid-right-css container-image-block margin-top-25">
-                        <img className="photo-container width-50 margin-top-15" src={css2}  alt="Stakeholder Interview" /> 
+                        <img className="photo-container width-50 margin-top-15" src={css2}  alt="Experience Matters" /> 
                     </div>     
                 </section>
 
@@ -85,11 +85,11 @@ class css_solutions extends Component {
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-15">
                             <p className="content-text-18"> 
-                            Taming the specificity beast use to be difficult. Our CSS strategy almost eliminates the specificity problems. In fact, our strategy almost eliminates the need for your developers to write CSS. Our advantage is our past experience working with developers and interviewing and observing them working with CSS.  </p>
+                            Taming the specificity beast used to be difficult. WDS CSS strategy almost eliminates the specificity problems. In fact, the strategy almost eliminates the need for your developers to write CSS. The WDS advantage is the  experience of working with developers by interviewing and observing them working with CSS.  </p>
                         </div>
                     </div>
                     <div className="grid-right-css container-image-block">
-                        <img className="photo-container" src={itcss}  alt="Stakeholder Interview" /> 
+                        <img className="photo-container" src={itcss}  alt="Organize and Simplify " /> 
                     </div>     
                 </section>
 
@@ -105,11 +105,11 @@ class css_solutions extends Component {
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-15">
                             <p className="content-text-18"> 
-                            CSS preprocessors are scripting languages that extend the default capabilities of CSS. They enable us to use logic in our CSS code, such as variables, nesting, inheritance, mixins, functions, and mathematical operations. CSS preprocessors make it easy to automate repetitive tasks, reduce the number of errors and code bloat, create reusable code snippets, and ensure backward compatibility.</p>
+                            CSS preprocessors are scripting languages that extend the default capabilities of CSS. They enable us to use logic in our CSS code, such as variables, nesting, inheritance, mixins, functions, and mathematical operations. CSS preprocessors make it easy to automate repetitive tasks, reduce the number of errors and "code bloat," create reusable code snippets, and ensure backward compatibility.</p>
                         </div>
                     </div>
                     <div className="grid-right-css container-image-block margin-top-50">
-                        <img className="photo-container" src={css3}  alt="Stakeholder Interview" /> 
+                        <img className="photo-container" src={css3}  alt=" Reusable CSS" /> 
                     </div>  
                      
                 </section>
@@ -125,12 +125,12 @@ class css_solutions extends Component {
                             Building Scalable Enterprise Solutions
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-15">
-                            <p className="content-text-18"> The best way to communicate a solution through design thinking is with a story. The last company we work for needed an enterprise scalable CSS solution that would greatly diminish their specificity issues. This solution needed to keep in mind the users, the developers and engineers and build a system that could support 70 developers. <a href="../case_study_4"><i>Continue Story</i></a>  </p>
+                            <p className="content-text-18"> The best way to communicate a solution through design thinking is with a story. The last company WDS worked for needed an enterprise level scalable CSS solution that would  diminish their specificity issues. This required observing users,  developers and engineers to build a system that could support 70 developers. <a href="../case_study_4"><i>Continue Story</i></a>  </p>
                             <p className="content-text-18"> </p>           
                         </div>
                     </div>
                     <div className="grid-right-css container-image-block">
-                        <img className="photo-container" src={css4}  alt="Your Business is Our Joy" /> 
+                        <img className="photo-container" src={css4}  alt="WDS Transforms your CSS " /> 
                     </div>     
                 </div>
 
@@ -141,18 +141,18 @@ class css_solutions extends Component {
                         WDS Methodology Works With Your Existing CSS                       
                     </div>
                     <div className="subtitle content-block-75 margin-top-15">
-                            Rebuilding your css to be lean fast and scalable
+                            Rebuilding your CSS to be lean, fast and scalable
                     </div>
                     <div className="content-text-18 content-block-75 margin-top-15">
                             <ul className="content-text-24 dashed margin-bottom-20"  ><b> List of CSS Services</b>
                                 <li className='margin-top-15'>SasS or Less Implementation</li>
-                                <li> Set of Global reusable Classes</li>
-                                <li>Object Oriented CSS</li>
-                                <li>Updated Style Sheets</li>
-                                <li>Contract Work in-house</li>
+                                <li> Set of global reusable classes</li>
+                                <li>Object oriented CSS</li>
+                                <li>Updated style sheets</li>
+                                <li>Contract work in-house</li>
                                 <li>BEM Naming Conventions</li>
-                                <li>Scalable Enterprise CSS solutions</li>
-                                <li>Faster Pages Loads</li>
+                                <li>Scalable enterprise CSS solutions</li>
+                                <li>Faster pages loads</li>
                                 <li>Proven Methodology for seamless integration</li>
                             </ul>
 

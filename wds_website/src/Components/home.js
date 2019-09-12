@@ -36,7 +36,7 @@ class landingPage extends Component {
                             <p className="subtitle margin-top-15">
                             Your Partner in Design</p>
                         <p className="content-text-18">
-                            WDS is a UX/UI agency that offers empathetic design solutions for websites, web based applications, mobile apps, and products. Our core offerings help your business understand the value of design on a core level, providing training, workshops and mentorship programs. With over 15 years of perfecting our strategies, WDS has the experience, designers, strategists, skills and scale to deliver sophisticated design solutions. </p>
+                            WDS is a UX/UI agency that offers empathetic design solutions for websites, web based applications, mobile apps, and products. Core offerings help  businesses understand the value of design on a core level, providing training, workshops and mentorship programs. With over 15 years of perfecting its strategies, WDS has the experience, designers, strategists, skills and scale to deliver sophisticated design solutions. </p>
                     </div>
                 </section>
                 
