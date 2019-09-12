@@ -1,5 +1,4 @@
-import React, { Component } from 'react' ;
-import { Button } from 'react-mdl';
+import React, { Component } from 'react' 
 import stubhub_bg from '../images/backgrounds/bg-stubhub.png';
 import stubhub_logo from '../images/icon-logo-stubhub.svg'; import stubhub_logo_white from '../images/icon-logo-stubhub-white.svg'
 import stubhub_before_s1 from '../images/photos/photo-stubhub-before-2.png';

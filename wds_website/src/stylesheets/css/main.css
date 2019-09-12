@@ -1441,13 +1441,21 @@ Button:hover {
   transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
 
 .button-area {
-  color: #000 !important;
+  font-size: 1.2rem;
+  font-family: 'Roboto';
   margin: 5px auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   border: 1px solid #000;
-  padding: 10px; }
+  padding: 5px 30px 5px 30px;
+  min-height: 25px;
+  max-height: 25px;
+  max-width: 105px;
+  box-shadow: 0px 1px 0px #ffffff, 0px 1px 3px rgba(0, 0, 0, 0.3);
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+  color: #010101 !important;
+  align-items: center; }
 
 .button-area:hover {
   border: #000 solid 3px 1.0;
@@ -2776,6 +2784,7 @@ footer {
     width: 100%; }
   .margin-top-75 {
     margin-top: 40px; }
+  /*******      Typography      ******/
   .subtitle {
     font-size: 1.5rem;
     margin-top: 15px; }
@@ -2808,6 +2817,37 @@ footer {
     grid-template-columns: 1fr;
     grid-template-areas: "text" "photo";
     display: grid; }
+  .grid-services-list {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-areas: "text1" "text2" "text3" "text4" "text5" "text6";
+    grid-row: auto;
+    grid-gap: 20px;
+    display: grid; }
+  .grid-services-1 {
+    grid-column: 1/1;
+    grid-row: auto;
+    grid-area: text1; }
+  .grid-services-2 {
+    grid-column: 2/1;
+    grid-row: auto;
+    grid-area: text2; }
+  .grid-services-3 {
+    grid-column: 3/1;
+    grid-row: auto;
+    grid-area: text3; }
+  .grid-services-4 {
+    grid-column: 4/1;
+    grid-row: auto;
+    grid-area: text4; }
+  .grid-services-5 {
+    grid-column: 5/1;
+    grid-row: auto;
+    grid-area: text5; }
+  .grid-services-6 {
+    grid-column: 6/1;
+    grid-row: auto;
+    grid-area: text6; }
   /*******  footer    *****/
   .container-footer {
     height: 100%;
@@ -2854,7 +2894,7 @@ footer {
     grid-area: text6;
     margin-top: 25px; } }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .grid-2col-text-photo {
     grid-template-columns: 1fr;
     grid-template-areas: "text" "photo";
@@ -2867,6 +2907,32 @@ footer {
     display: grid; }
   .width-70 {
     width: 70%; }
+  /***** grid    *****/
+  .grid-services-list {
+    width: 1200px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-row: auto;
+    grid-gap: 20px;
+    display: grid; }
+  .grid-services-1 {
+    grid-column: 1/1;
+    grid-row: 1; }
+  .grid-services-2 {
+    grid-column: 2/2;
+    grid-row: 1; }
+  .grid-services-3 {
+    grid-column: 3/3;
+    grid-row: 1; }
+  .grid-services-4 {
+    grid-column: 1/2;
+    grid-row: 2; }
+  .grid-services-5 {
+    grid-column: 2/2;
+    grid-row: 2; }
+  .grid-services-6 {
+    grid-column: 3/2;
+    grid-row: 2; }
   .container-footer {
     min-height: fit-content;
     align-items: flex-start; }

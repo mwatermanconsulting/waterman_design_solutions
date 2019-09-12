@@ -26,7 +26,7 @@ class innovative_solutions extends Component {
             </section>
 
             <section className="grid-callout photo-content-color border-bottom-5 height-670"> 
-                    <div className="callout-text grid-placeself-center content-block-75 content-header flex-layout-column">
+            <div className="callout-text text-align-left">
                           WDS has provided solutions to applications used by  energy sectors, including nuclear reactors. They have the focus, insight and experience to solve the most difficult design and business problems on the worlds most intricate products and applications.  
                              
                     </div>

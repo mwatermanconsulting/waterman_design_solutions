@@ -30,6 +30,9 @@
 .margin-top-75 {
   margin-top: 40px;
 }
+
+
+/*******      Typography      ******/
 .subtitle {
   font-size: 1.5rem;
   margin-top: 15px;
@@ -46,6 +49,7 @@
   text-align: center;
   margin-left: 25%;
 }
+
 .logo-cs-mobile {
   width: 10%;
 }
@@ -76,6 +80,52 @@
   grid-template-columns: 1fr;
   grid-template-areas: "text" "photo";
   display: grid;
+}
+.grid-services-list {
+  width: 100%;
+  grid-template-columns: 1fr;
+  grid-template-areas: 
+"text1" "text2"
+"text3" "text4"
+"text5" "text6";
+  grid-row: auto;
+  grid-gap: 20px;
+  display: grid;
+}
+.grid-services-1 {
+  grid-column: 1/1;
+  grid-row: auto;
+  grid-area: text1;
+}
+
+.grid-services-2 {
+  grid-column: 2/1;
+  grid-row: auto;
+  grid-area: text2;
+}
+
+.grid-services-3 {
+  grid-column: 3/1;
+  grid-row: auto;
+  grid-area: text3;
+}
+
+.grid-services-4 {
+  grid-column: 4/1;
+  grid-row: auto;
+  grid-area: text4;
+}
+
+.grid-services-5 {
+  grid-column: 5/1;
+  grid-row: auto;
+  grid-area: text5;
+}
+
+.grid-services-6 {
+  grid-column: 6/1;
+  grid-row: auto;
+  grid-area: text6;
 }
 /*******  footer    *****/
 
@@ -140,7 +190,7 @@ margin-top: 25px;
 @media (min-width: 576px) {  }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
+@media (min-width: 768px) and (max-width: 1024px) { 
 
 
   .grid-2col-text-photo {
@@ -157,6 +207,45 @@ margin-top: 25px;
   }
   .width-70 {
     width: 70%;
+  }
+
+  /***** grid    *****/
+  .grid-services-list {
+    width: 1200px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-row: auto;
+    grid-gap: 20px;
+    display: grid;
+  }
+  .grid-services-1 {
+    grid-column: 1/1;
+    grid-row: 1;
+  }
+
+  .grid-services-2 {
+    grid-column: 2/2;
+    grid-row: 1;
+  }
+
+  .grid-services-3 {
+    grid-column: 3/3;
+    grid-row: 1;
+  }
+
+  .grid-services-4 {
+    grid-column: 1/2;
+    grid-row: 2;
+  }
+
+  .grid-services-5 {
+    grid-column: 2/2;
+    grid-row: 2;
+  }
+
+  .grid-services-6 {
+    grid-column: 3/2;
+    grid-row: 2;
   }
   
   .container-footer {
