@@ -1441,11 +1441,12 @@ Button:hover {
   background-color: #87A6AB;
   color: #fff;
   transition-duration: 1s;
-  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 0.7); }
 
 .button-area {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: 'Roboto';
+  font-weight: 300;
   margin: 5px auto;
   display: flex;
   flex-direction: row;
@@ -1461,11 +1462,11 @@ Button:hover {
   align-items: center; }
 
 .button-area:hover {
-  border: #000 solid 3px 1.0;
+  font-weight: 500;
   text-decoration: none;
   background-color: #87A6AB;
   color: #fff !important;
-  transition-duration: 1s;
+  transition-duration: .50s;
   transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
 
 .button-area > a {
@@ -1498,7 +1499,7 @@ Button:hover {
     flex-grow: 1;
     text-align: center; }
 
-/*  Alighnment   */
+/*  Alignment   */
 .align-items-center {
   align-items: center; }
 
@@ -2548,9 +2549,6 @@ Button:hover {
            Portfolio
   *******************************/
 /*******************************
-           Landing Page
-  *******************************/
-/*******************************
            Portfolio
   *******************************/
 .container-image-dd {
@@ -2606,7 +2604,9 @@ ul.menu > li {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: .875rem; }
+  font-size: .875rem;
+  transition-duration: .50s;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
 
 ul.menu > li.dropdown {
   display: inline-block; }
@@ -2618,6 +2618,8 @@ ul.menu > li.dropdown {
   color: black;
   min-width: 260px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
+  transition-duration: .1s;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
   z-index: 1; }
 
 .dropdown-content a {
@@ -2697,48 +2699,115 @@ ul.menu > li.dropdown {
 a.menu {
   color: #fff !important; }
 
-.lightgreen {
-  background-color: #BDCCD4; }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .grid-2col-text-photo {
+    grid-template-columns: 1fr;
+    grid-template-areas: "text" "photo";
+    grid-column-gap: 50px;
+    display: grid; }
+  .grid-2col-photo-text {
+    grid-template-columns: 1fr;
+    grid-template-areas: "photo" "text";
+    grid-column-gap: 50px;
+    display: grid; }
+  .width-70 {
+    width: 70%; }
+  /***** grid    *****/
+  .grid-services-list {
+    width: 1200px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-row: auto;
+    grid-gap: 20px;
+    display: grid; }
+  .grid-services-1 {
+    grid-column: 1/1;
+    grid-row: 1; }
+  .grid-services-2 {
+    grid-column: 2/2;
+    grid-row: 1; }
+  .grid-services-3 {
+    grid-column: 3/3;
+    grid-row: 1; }
+  .grid-services-4 {
+    grid-column: 1/2;
+    grid-row: 2; }
+  .grid-services-5 {
+    grid-column: 2/2;
+    grid-row: 2; }
+  .grid-services-6 {
+    grid-column: 3/2;
+    grid-row: 2; }
+  .container-footer {
+    min-height: fit-content;
+    align-items: flex-start; }
+  .grid-footer {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "text1 text2 text3 text4 text5";
+    grid-auto-flow: column;
+    width: 100%; }
+  .grid-footer-item-1 {
+    grid-column: 1/5;
+    grid-row: 1/1;
+    grid-area: text1; }
+  .grid-footer-item-2 {
+    grid-column: 2/5;
+    grid-row: 1/1;
+    grid-area: text2; }
+  .grid-footer-item-3 {
+    grid-column: 3/5;
+    grid-row: 1/1;
+    grid-area: text3; }
+  .grid-footer-item-4 {
+    grid-column: 4/5;
+    grid-row: 1/1;
+    grid-area: text4; }
+  .grid-footer-item-5 {
+    grid-column: 5/5;
+    grid-row: 1/1;
+    grid-area: text5; }
+  /**************layout     *****/
+  .marginleft-40per {
+    margin-left: 0%; } }
 
-.purple {
-  background-color: #78738A; }
+@media (min-width: 992px) {
+  .grid-callout {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "text photo";
+    display: grid; }
+  .grid-2col-text-photo {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "text photo";
+    grid-column-gap: 50px;
+    display: grid; }
+  .grid-2col-photo-text {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "photo text";
+    grid-column-gap: 50px;
+    display: grid; }
+  .container-section-1-primary {
+    display: flex;
+    height: 270px;
+    text-align: center; }
+  .header-title {
+    font-size: 3.75rem; } }
 
-.lightpurple {
-  background-color: #b8a9c6; }
+@media (min-width: 1200px) {
+  .material-icons {
+    display: none; }
+  .mdl-layout__drawer-button {
+    display: none !important; }
+  .header {
+    display: block !important;
+    transition-timing-function: ease-in;
+    transition: 0.75s; }
+  .mdl-layout__header-row {
+    display: block; }
+  .header-title {
+    font-size: 5.1875rem; } }
 
-.green {
-  background-color: #87A6AB; }
-
-.yellow-bg {
-  background-color: #e3ce71; }
-
-.blue {
-  background-color: #aadfe7; }
-
-.offwhite {
-  background-color: #E3CEB6; }
-
-.white {
-  background-color: #fff; }
-
-.red {
-  background-color: #EC1000 !important; }
-
-.ltgrey2 {
-  background-color: #e6e6e6 !important; }
-
-.pink {
-  background-color: #daa09a; }
-
-.callout-color-dark {
-  background-color: #6c8086; }
-
-.photo-content-color {
-  background-color: #a6bbc0; }
-
-/*******************************
-         Mixins
-  *******************************/
 /*******************************
          react-overrides
   *******************************/
@@ -2766,13 +2835,7 @@ footer {
 .mdl-layout__header-row {
   padding: 0 40px 0 5px; }
 
-a:any-link {
-  color: -webkit-link;
-  text-decoration: none;
-  cursor: auto;
-  color: #000; }
-
-@media (min-width: 320px) {
+@media (min-width: 479px) {
   .material-icons {
     opacity: 0.9;
     display: inline-block;
@@ -2792,7 +2855,7 @@ a:any-link {
     text-align: center; }
   /********** layout    *********************************/
   .width-70 {
-    width: 100%; }
+    width: 70%; }
   .margin-top-75 {
     margin-top: 40px; }
   .content-block-60 {

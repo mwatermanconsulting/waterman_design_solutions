@@ -88,10 +88,12 @@ class App extends Component {
             Waterman Design Solutions</Link>}>
                 <Navigation>
                   <Link to="/why_wds">Why WDS</Link>
+
                   <nav className="margin-top-15"><a  href="/case_studies">Case Studies</a></nav>
                   <nav><a  href="/clients">Clients</a></nav>
                   <nav><a href="/core_offerings">Core Offerings</a></nav>
                   <nav><a href="/history">History</a></nav>
+
 
                   <Link to="/services">Services</Link>
                   <nav><a className="margin-top-15" href="/ux_design">UX Design</a></nav>

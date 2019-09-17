@@ -1,4 +1,5 @@
 import React, { Component } from 'react' 
+import Helmet from 'react-helmet';
 import stubhub_bg from '../images/backgrounds/bg-stubhub.png';
 import stubhub_logo from '../images/icon-logo-stubhub.svg'; import stubhub_logo_white from '../images/icon-logo-stubhub-white.svg'
 import stubhub_before_s1 from '../images/photos/photo-stubhub-before-2.png';
@@ -20,6 +21,15 @@ import stubhub_s2 from '../images/photos/photo-stubHub-s2.png';
 class case_study_2 extends Component {
     render () {
         return(
+            <div>
+            <Helmet>
+                <meta name="description" content="case studies for motorola, pfizer, osisoft, stubhub. Describes " />
+                <meta name="keywords" cpntent="case studies, WDS, stubhub, motorola" />
+                <meta charSet="utf-8" />
+                <title>Case Study - Motorola</title>
+                <link rel="canonical" href="http://watermandesignsolutions/case_studies_1" />
+            </Helmet>
+            
             <div className="flex-layout-column flex-layout-section-full image-background-border-top">
                 <section className="flex-layout-row height-60-mobile width-100"> 
                     <div className="header-text-left header-title-cs align-self-center text-white">
@@ -29,6 +39,7 @@ class case_study_2 extends Component {
                         <img className="flex-image-container width-100" src={stubhub_bg}  alt="StubHub Case Study " /> 
                          
                 </section> 
+            
                 <section className="container-section padding-20 m border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg">
                         Goal: To design a custom on-demand data reporting tool. 
@@ -383,7 +394,7 @@ class case_study_2 extends Component {
                             <div className="grid-callout-photo grid-placeself-center margin-top-15">
                                 <img src={thumbsUp} alt="Finding the Truth - Business Perspective"/>
                             </div>
-                            
+                        </div> 
                     </div>
                 </div>    
                                               
