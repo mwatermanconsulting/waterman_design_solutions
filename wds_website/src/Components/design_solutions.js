@@ -72,7 +72,7 @@ class design_solutions extends Component {
 
                     WDS has over 20 years of experience designing websites. Empathetic designs and the ability to connect with users create a positive enjoyable experience, which is critical to new customer acquisition and retaining existing customers. </p>
             
-                    <p className="content-text-18">WDS websites are always on the cutting edge. They were one of the first companies to build websites from UX research, provide responsive design (<a href="../case_study_1">Motorola</a>) and develop an enterprise-level CSS flex box solution (<a href="../case_study_4">OsiSoft</a>). </p>
+                    <p className="content-text-18">WDS websites are always on the cutting edge. They were one of the first companies to build websites from UX research, provide responsive design (<a className="greenlink" href="../case_study_1">Motorola</a>) and develop an enterprise-level CSS flex box solution (<a className="greenlink" href="../case_study_4">OsiSoft</a>). </p>
                   
                     
                     <div className="float-left">
@@ -90,7 +90,7 @@ class design_solutions extends Component {
                 <div className="subtitle content-block-60">
                     Graphic Design
                 </div>
-                <div className="content-block-60 margin-top-15">
+                <div className="content-block-60 content-text-18 margin-top-15">
                     <p className="content-text-18"> 
                 <div className="float-right">
                     <img className="photo-container margin-top-8per"  src={design_print}  alt="Graphic Design" /> 

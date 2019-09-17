@@ -85,12 +85,35 @@ class App extends Component {
                 
             </Header>
             <Drawer className="mobile-menu" title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">
-            Waterman Consulting</Link>}>
+            Waterman Design Solutions</Link>}>
                 <Navigation>
                   <Link to="/why_wds">Why WDS</Link>
+                  <nav className="margin-top-15"><a  href="/case_studies">Case Studies</a></nav>
+                  <nav><a  href="/clients">Clients</a></nav>
+                  <nav><a href="/core_offerings">Core Offerings</a><br/><a href="/history">History</a><br/></nav>
+
                   <Link to="/services">Services</Link>
+                  <nav class="mdl-navigation">
+                    <a class="text-black" href="/ux_design">UX Design</a><br/>
+                    <a class="black" href="/ui_design">UI Design</a><br/>
+                    <a class="mdl-navigation__link" href="/css_solutions">CSS Solutions</a><br/>
+                     <a class="mdl-navigation__link" href="/design_systems">Design Systems</a><br/>
+</nav>
                   <Link to="/methodology">Methodology</Link>
+                  <nav class="mdl-navigation">
+                    <a id="submenu" class="mdl-navigation__link" href="/finding_truth">Finding the Truth</a><br></br>
+                    <a class="mdl-navigation__link" href="/innovative_solutions">Innovative Solutions</a>
+                    <a class="mdl-navigation__link" href="/strategy_insight">Strategy and Insight</a>
+                     
+</nav>
                   <Link to="/design_solutions">Design Solutions</Link>
+
+                  <nav class="mdl-navigation">
+                    <a id="submenu" class="mdl-navigation__link" href="/website_design">Website Design</a>
+                    <a class="mdl-navigation__link" href="/print_design">Graphic Design</a>
+                    <a class="mdl-navigation__link" href="/video_production">Video Production</a>
+                    
+</nav>
                   <Link to="/contact">Contact</Link>
                 </Navigation>
             </Drawer>

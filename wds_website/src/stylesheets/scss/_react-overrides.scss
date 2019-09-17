@@ -32,4 +32,10 @@ footer {
 .mdl-layout__header-row {
 	padding: 0 40px 0 5px;
 }
+a:any-link {
+    color: -webkit-link;
+    text-decoration: none;
+    cursor: auto;
+    color: #000;
+    }
 

@@ -65,15 +65,15 @@ h4 {
   justify-items: center;
 }
   
-a {
+a.greenlink {
   color: $greeny-blue !important;
 }
 
-a.black {
-  color: black!important;
+a {
+  color: black ;
 }
 a:hover {
-  color: black!important;
+  color: black ;
 }
 .no-decoration {
   color: none;
