@@ -88,6 +88,12 @@ class App extends Component {
             Waterman Consulting</Link>}>
                 <Navigation>
                   <Link to="/why_wds">Why WDS</Link>
+                  <nav class="mdl-navigation">
+                  <a id="submenu" class="mdl-navigation__link" href="#">Link</a>
+                  <a class="mdl-navigation__link" href="/why_wds">Why</a>
+                  <a class="mdl-navigation__link" href="">Link</a>
+                  <a class="mdl-navigation__link" href="">Link</a>
+                  </nav>
                   <Link to="/services">Services</Link>
                   <Link to="/methodology">Methodology</Link>
                   <Link to="/design_solutions">Design Solutions</Link>

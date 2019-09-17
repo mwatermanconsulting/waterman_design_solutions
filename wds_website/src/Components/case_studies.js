@@ -1,4 +1,5 @@
 import React, { Component } from 'react' ;
+import Helmet from 'react-helmet';
 import didyouknow from '../images/graphic-didyouknow.svg';
 import caseStudies from '../images/backgrounds/bg-casestudies.png';
 import motorola from '../images/photos/photo-motorola-beforeafter.png';
@@ -16,6 +17,15 @@ import osi from '../images/photos/photo-osi-before-after.png'
 class case_studies extends Component {
     render () {
         return(
+             <div className="WDS Website">
+            <Helmet>
+                <meta name="description" content="case studies for motorola, pfizer, osisoft, stubhub" />
+                <meta name="keywords" cpntent="case studies, WDS, stubhub, motorola" />
+                <meta charSet="utf-8" />
+                <title>Case Studies</title>
+                <link rel="canonical" href="http://watermandesignsolutions/case_studies" />
+            </Helmet>
+
             <div className="flex-layout-column">
                 <section className="flex-section-fixed-head-child yellow flex-layout-center-center image-background-border-tb">
                     <div className="header-text-center header-title text-white">
@@ -134,8 +144,10 @@ class case_studies extends Component {
                     </div>
                 </div>
             </section> 
-                  
+           </div>       
     </div>
+
+    
 
 
                         

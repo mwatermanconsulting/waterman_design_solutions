@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Helmet from 'react-helmet';
 import motorola_bg from '../images/backgrounds/bg-motorola.png';
 import motorola_logo from '../images/icon-motorola-white.svg'; 
 import motorola_s1 from '../images/photos/photo-motorola-s1.png';
@@ -19,6 +20,15 @@ import callcenter from '../images/photos/photo-motorola-s2.png';
 class case_study_1 extends Component {
     render () {
         return(
+
+            <div>
+            <Helmet>
+                <meta name="description" content="case studies for motorola, pfizer, osisoft, stubhub. Describes " />
+                <meta name="keywords" cpntent="case studies, WDS, stubhub, motorola" />
+                <meta charSet="utf-8" />
+                <title>Case Study - Motorola</title>
+                <link rel="canonical" href="http://watermandesignsolutions/case_studies_1" />
+            </Helmet>
             <div className="flex-layout-column flex-layout-section-full image-background-border-top">
                 <section className="flex-layout-row height-60-mobile width-100"> 
                     <div className="header-text-left header-title-cs align-self-center text-white">
@@ -32,6 +42,7 @@ class case_study_1 extends Component {
                     Goal: To solve the UI problems that were plaguing Motorola's SurfBoard product line. 
                 </div>
                 </section>
+            
                 <section className="flex-layout-column align-items-center">
                     <div className="margin-top-50 content-block-55 title">
                             Case Study - Motorola
@@ -196,7 +207,6 @@ class case_study_1 extends Component {
                     </section>
 
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
-
                     <section className="flex-layout-section-full align-items-center"> 
                             <div className="title content-block-55">
                                 <a id="solution2"></a> 
@@ -435,6 +445,7 @@ class case_study_1 extends Component {
                         </div>
                     </div>
                     </section>
+             
                    
                     <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
                 <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
@@ -444,7 +455,8 @@ class case_study_1 extends Component {
                         
                         </section>
                     </div>
-                    
+                </div>
+          
                                           
                             )
                         }
