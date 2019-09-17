@@ -2841,6 +2841,8 @@ footer {
     display: inline-block;
     transition-timing-function: ease-out;
     transition: 0.75s; }
+  nav {
+    padding: 5px !important; }
   .header {
     display: none !important; }
   .mdl-layout__header-row {
