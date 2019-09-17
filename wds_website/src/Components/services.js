@@ -118,7 +118,7 @@ class services extends Component {
                     <div className="subtitle content-block-65 margin-top-15">
                          Empathetic Design
                     </div>
-                    <div className="margin-top-15 content-block-65"> <div className="float-right callout-photo grid-placeself-center" style={{marginTop:'-4%'}}>
+                    <div className="margin-top-15 content-block-65"> <div className="float-right callout-photo grid-placeself-center margintop-4per" >
                                 <img className="container-photo-callout" src={services7}  alt="Design Solutions" /> 
                         </div> 
                         <p className="content-text-18  content-block-65"> 
@@ -202,10 +202,11 @@ class services extends Component {
                 </section>
             
             <div className="flex-layout-section-full margin-top-50 grey-blue padding-bottom-50">
-                <section className="grid-services-list flex-section-align-center">
-                    <div className="margin-top-50 margin-bottom-50 grid-services-title title text-align-center margin-right-25">
-                            Services Include: 
+                <div className="margin-top-50 margin-bottom-50 title text-align-center ">
+                            Services
                     </div>
+                <section className="grid-services-list flex-section-align-center">
+                    
                     <div className="grid-services-3">
                         <img className="width-25" src={icon_strategy}  alt="Strategy and Insights" /> 
                         <div className="subtitle margin-top-5">
