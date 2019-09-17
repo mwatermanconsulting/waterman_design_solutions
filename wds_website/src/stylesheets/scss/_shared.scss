@@ -156,13 +156,14 @@ Button:hover {
     background-color: $lightgreen; 
     color: #fff;
     transition-duration: 1s;
-    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 0.7);
      
   }
 
   .button-area {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: 'Roboto';
+    font-weight: 300;
     margin: 5px auto;
     display: flex;
     flex-direction: row;
@@ -178,91 +179,91 @@ Button:hover {
     align-items: center;
   }
 
-    .button-area:hover {
-      border: #000 solid 3px 1.0;
-      text-decoration: none;
-      background-color: $lightgreen; 
-      color: #fff!important;
-      transition-duration: 1s;
-      transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-       
-    }
+  .button-area:hover {
+    
+    font-weight: 500;
+    text-decoration: none;
+    background-color: $lightgreen; 
+    color: #fff!important;
+    transition-duration: .50s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
 
-   .button-area > a {
-      font-size: .9em;
-      color: white;
-      text-decoration: none;
-      flex-grow: 1;
-      text-align: center;
-    }
+.button-area > a {
+    font-size: .9em;
+    color: white;
+    text-decoration: none;
+    flex-grow: 1;
+    text-align: center;
+}
 
   
-  .button-area-line {
-    margin: 10px auto;
-    display: -webkit-box;   
-    display: -moz-box;  
-    display: -ms-flexbox; 
-    display: -webkit-flex; 
-    display: flex;
-    -webkit-flex-direction: row;
-    -moz-flex-direction: row;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    max-width: 90%;
-    a {
-     background: #999;
-      padding: 1em;
-      font-size: .9em;
-      margin: .3em;
-      color: white;
-      text-decoration: none;
-      flex-grow: 1;
-      text-align: center;
-    }
+.button-area-line {
+  margin: 10px auto;
+  display: -webkit-box;   
+  display: -moz-box;  
+  display: -ms-flexbox; 
+  display: -webkit-flex; 
+  display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  max-width: 90%;
+  a {
+  background: #999;
+  padding: 1em;
+  font-size: .9em;
+  margin: .3em;
+  color: white;
+  text-decoration: none;
+  flex-grow: 1;
+  text-align: center;
   }
+}
   
  
   
-  /*  Alighnment   */
-  .align-items-center {
-    align-items: center; }
+  /*  Alignment   */
+.align-items-center {
+  align-items: center; }
   
-  .container-justifyRow-center {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%; }
+.container-justifyRow-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
   
-  .flex-layout-right-center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-  }
+.flex-layout-right-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
   
-  .flex-layout-center {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
+.flex-layout-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
   
+.flex-layout-start {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  height: 768px; 
+}
   
-  .flex-layout-start {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    height: 768px; }
-  
-  .container-image-block-center {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%; 
-  }
+.container-image-block-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%; 
+}
   
   .container-image-block {
     display: flex;

@@ -45,11 +45,11 @@ class design_solutions extends Component {
                         "A consistent experience is a better experience.” - Mark Eberman
                     </p>   
 
-                        <p className="content-text-21 content-block-75 align-self-center text-align-center margin-top-25 margin-bottom-100">
+                        <p className="content-text-21 content-block-75 align-self-center text-align-center margin-top-50 margin-bottom-50">
 
                          Design determines success and understanding the user is paramount. WDS unites your business with  customers and brings an understanding to their needs and expectations. Through design solutions your message will reach them.
                         </p>
-                        <div className="flex-layout-section-full align-items-center margin-top-5per">
+                        <div className="flex-layout-section-full align-items-center">
                             <NavLink className='button-area no-decoration' value="learn more" type="button" to={'/case_study_4'}>
                                 Learn More 
                             </NavLink>

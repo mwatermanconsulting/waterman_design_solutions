@@ -171,7 +171,7 @@ class why_wds extends Component {
 
                  
                 <div className="float-left">
-                    <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/ux_design'}>
+                    <NavLink className='button-area no-decoration' type="button" value="learn more" to='/ux_design'>
                     Learn More 
                     </NavLink>
                 </div></div>  
@@ -227,7 +227,7 @@ class why_wds extends Component {
                      A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive while combining components, behaviors, and branding. It also comes with a complete set of design standards, documentation, and strategies to achieve those standards. It must also be flexible and scalable.
                     </p>
                     <div className="float-left">
-                    <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/design_systems'}>
+                    <NavLink Link to={'/design_systems'} className='button-area no-decoration' type="button" value="learn more" >
                     Learn More 
                     </NavLink>
                </div>  
