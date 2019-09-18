@@ -89,7 +89,7 @@ class App extends Component {
                 <Navigation>
                   <Link to="/why_wds">Why WDS</Link>
 
-                  <nav className="margin-top-15"><a  href="/case_studies">Case Studies</a></nav>
+                  <nav className="margin-top-15"><a  href="/case_studies">Case  Studies</a></nav>
                   <nav><a  href="/clients">Clients</a></nav>
                   <nav><a href="/core_offerings">Core Offerings</a></nav>
                   <nav><a href="/history">History</a></nav>

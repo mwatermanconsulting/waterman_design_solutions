@@ -74,6 +74,7 @@ a {
 }
 a:hover {
   color: black ;
+  cursor: pointer; 
 }
 .no-decoration {
   color: none;
@@ -300,6 +301,7 @@ p {
   height: 100%;
   display: flex;
   align-items: center;
+  min-height: fit-content;
 }
 footer a {
   color: black!important;

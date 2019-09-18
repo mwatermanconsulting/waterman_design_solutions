@@ -65,7 +65,7 @@ class why_wds extends Component {
                 </div>
                     <div className="grid-services-list padding-20 align-self-center margin-top-25" style={{marginLeft:'11%',}}>
                         <section className="grid-services-3">
-                        <a href="./ux_design" ><img className="width-25" src={icon_ux}  alt="UX" /> </a>
+                        <a href="./ux_design" ><img className="width-icon" src={icon_ux}  alt="UX" /> </a>
                         <div className="subtitle margin-top-25">
                             <a href="./ux_design" className="no-decoration holder" style={{marginTop:'2%'}}>
                                 UX Design</a>
@@ -81,7 +81,7 @@ class why_wds extends Component {
                             </ul>
                         </section>
                     <section className="grid-services-1">
-                    <a href="./design_solutions"> <img style={{width:'27%'}} src={icon_design_solutions}  alt="Design Solutions" /></a>
+                    <a href="./design_solutions"> <img className="width-icon" src={icon_design_solutions}  alt="Design Solutions"  /></a>
                         <div className="subtitle margin-top-25">
                             <a href="./design_solutions" className="no-decoration"> Design Solutions</a>
                         </div>
@@ -96,7 +96,7 @@ class why_wds extends Component {
                             </ul>
                     </section>
                     <section className="grid-services-2">
-                    <a href="./core_offerings"><img style={{width:'27%'}} src={icon_design}  alt="Core Offerings" /></a>
+                    <a href="./core_offerings"><img className="width-icon" src={icon_design}  alt="Core Offerings" /></a>
                         <div className="subtitle margin-top-25">
                         <a href="./core_offerings" className="no-decoration">Core Offerings</a></div>
                             <ul className="dashed content-text-18 margin-top-15">
@@ -153,19 +153,17 @@ class why_wds extends Component {
                          Most Popular Design Offerings</p>
                 </section>    
 
-                <section className="float-left align-items-center flex-layout-column margin-top-50">
+                <section className="float-left align-items-center flex-layout-column ">
                     <div className="title content-block-60">
                         UX Design
                     </div>
                         <p className="subtitle content-block-60 margin-top-15"> 
                         Understanding the Users </p>
-                    <div className="content-block-60 content-text-18">
-                        <p className="content-text-18"> 
-                
-                <div className="float-right margin-right-5">
-                    <img className="border-3px width-100" src={why_design}  alt="UX Design" /> 
+                        <div className="content-block-60 content-text-18 margin-top-15">
+                    <div className="float-right margin-right-5">
+                        <img className="border-3px" src={why_design}  alt="UX Design" /> 
                 </div>  
-                    The best customer experience starts with the Golden Rule — treat customers how you would like to be treated. At the foundation of WDS methodology is observation, watching customers use the clients' products or services. But unlike focus groups or usability laboratories, WDS conducts observation and interviews in the customer’s own environment during the course of their everyday routines. In such a context,  researchers gain insight to a host of information that is not accessible through other UX research methods. </p>
+                    <p>The best customer experience starts with the Golden Rule — treat customers how you would like to be treated. At the foundation of WDS methodology is observation, watching customers use the clients' products or services. But unlike focus groups or usability laboratories, WDS conducts observation and interviews in the customer’s own environment during the course of their everyday routines. In such a context,  researchers gain insight to a host of information that is not accessible through other UX research methods. </p>
 
                     
 
@@ -241,9 +239,9 @@ class why_wds extends Component {
                     <p className="subtitle text-align-center content-block-60">
                         WDS builds emotionally rich, resonant digital solutions that enable users to fully realize technology’s complete potential, by simplifying everything your customers touch and feel.</p>
                
-                    <div className="flex-layout-column width-25 margin-top-25">    
-                        <img className="photo-container" src={advocate} className="align-self-center margin-bottom-20" alt="Advocates for the User"/
-                        ><p className=" text-align-center">
+                    <div className="flex-layout-column  margin-top-25">    
+                        <img src={advocate} className="align-self-center container-image-500 margin-bottom-20" alt="Advocates for the User"/>
+                        <p className=" text-align-center">
                         Advocating and Designing for the User</p>
                     </div>
                 
