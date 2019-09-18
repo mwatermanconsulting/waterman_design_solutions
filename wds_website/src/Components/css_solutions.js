@@ -44,7 +44,7 @@ class css_solutions extends Component {
                 </div>
                 <div className="content-block-50 margin-top-50">
                     <p className="content-text-24 text-align-center">
-                        <img className="container-photo-callout margin-bottom-20" src={cheer}  alt="Happy developers" /> <br></br>
+                        <img className="photo-container margin-bottom-20" src={cheer}  alt="Happy developers" /> <br></br>
                         WDS solutions are based on empathy and  working experiences with developers. Their CSS knowledge and experience is one of the main reasons they get contracts.  CSS solutions are scalable and customizable to your business requirements. </p>
                 </div>
                 <NavLink className='button-area no-decoration' type="button" to={'/case_study_4'}>
