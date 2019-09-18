@@ -250,7 +250,7 @@ class communication_insights extends Component {
             </div>
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
                 <div className="width-75 margin-top-50 align-center margin-bottom-50"> 
-                       <a href="../communication_insights"> <img className="flex-image-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
+                       <a href="../communication_insights"> <img className="container-image-500 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
                       
                     <div className="flex-layout-center-center">
                         <p className="content-header text-white flex-layout-column flex-layout-center-center"> No Templates!! We create custom website and application design,  </p>

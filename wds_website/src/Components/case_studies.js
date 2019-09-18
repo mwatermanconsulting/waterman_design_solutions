@@ -127,7 +127,7 @@ class case_studies extends Component {
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
                 <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
-                       <img className="content-block-55 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
+                       <img className="container-image-500 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
                       
                     <div className="flex-layout-center-center">
                     <p className="callout-text text-white text-align-center">  WDS designed and developed a UX information site in 2005 called Web First Aid. </p>

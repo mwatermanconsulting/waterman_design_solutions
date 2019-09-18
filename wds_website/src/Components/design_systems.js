@@ -184,7 +184,7 @@ class style_guide extends Component {
             
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
                 <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
-                       <img className="content-block-55 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
+                       <img className="container-image-500 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
                       
                       <div >
                           <p className="callout-text-white text-align-center">WDS specializes in SaaS design solutions and implementation.<p className="text-align-center margin-top-25" ></p>  </p>

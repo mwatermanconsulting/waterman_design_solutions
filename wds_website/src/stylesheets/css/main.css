@@ -2801,7 +2801,6 @@ a:any-link {
     height: auto; }
   .container-image-block {
     width: 100%;
-    max-width: 550px;
     height: auto; }
   .float-right {
     float: none;
@@ -2875,6 +2874,34 @@ a:any-link {
     grid-column: 6/1;
     grid-row: auto;
     grid-area: text6; }
+  .grid-cs-card {
+    display: grid;
+    grid-row-gap: 65px;
+    grid-column-gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    justify-items: center; }
+  .grid-cs-card-history {
+    display: grid;
+    grid-row-gap: 65px;
+    grid-column-gap: 50px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr); }
+  .cs-card-1 {
+    grid-column: 1;
+    grid-row: 1; }
+  .cs-card-2 {
+    grid-column: 1;
+    grid-row: 2; }
+  .cs-card-3 {
+    grid-column: 1;
+    grid-row: 3; }
+  .cs-card-4 {
+    grid-column: 1;
+    grid-row: 4; }
+  .cs-card-right {
+    grid-column: 2/2;
+    grid-row: auto; }
   /*******  footer    *****/
   .container-footer {
     height: 100%;
@@ -2934,7 +2961,7 @@ a:any-link {
     display: grid; }
   .width-70 {
     width: 70%; }
-  /***** grid    *****/
+  /***** grid    ********************************************/
   .grid-services-list {
     width: 100%;
     grid-template-columns: repeat(3, 1fr);
@@ -2960,6 +2987,33 @@ a:any-link {
   .grid-services-6 {
     grid-column: 2;
     grid-row: 4; }
+  .grid-cs-card {
+    display: grid;
+    grid-row-gap: 65px;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); }
+  .grid-cs-card-history {
+    display: grid;
+    grid-row-gap: 65px;
+    grid-column-gap: 50px;
+    grid-template-columns: repeat(2, [col] 700px);
+    grid-template-rows: repeat(2, [row] auto); }
+  .cs-card-1 {
+    grid-column: 1/ 2;
+    grid-row: 1/2; }
+  .cs-card-2 {
+    grid-column: 2/ 2;
+    grid-row: 1/2; }
+  .cs-card-3 {
+    grid-column: 1/ 2;
+    grid-row: 2/2; }
+  .cs-card-4 {
+    grid-column: 2/ 2;
+    grid-row: 2/2; }
+  .cs-card-right {
+    grid-column: 2/2;
+    grid-row: auto; }
   .container-footer {
     min-height: fit-content;
     align-items: flex-start; }
