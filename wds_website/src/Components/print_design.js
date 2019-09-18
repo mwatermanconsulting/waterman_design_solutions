@@ -127,7 +127,7 @@ class print_design extends Component {
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center       margin-top-100  grey border-top-5">
                     <div className="text-align-center width-75 margin-top-50 align-center margin-bottom-50"> 
                        <a href="../communication_insights"> 
-                       <img className="content-block-55  margin-bottom-50" src={didyouknow}  alt="Did You Know?" /> </a>
+                       <img className="container-image-500  margin-bottom-50" src={didyouknow}  alt="Did You Know?" /> </a>
                       
                     <div className="flex-layout-center-center">
                         <p className="callout-text-white text-align-center">WDS designed and produced a monthly magazine called "Combat Robot"</p>
