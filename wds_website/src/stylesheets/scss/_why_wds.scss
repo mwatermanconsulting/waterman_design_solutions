@@ -165,7 +165,7 @@
   grid-row-gap: 65px;
   grid-column-gap: 20px;
   grid-template-columns: repeat(2, 1fr) ;
-  grid-template-rows: repeat(2,1fr  );
+  grid-template-rows: auto;
 }
 
 .grid-cs-card-history {
@@ -173,7 +173,7 @@
   grid-row-gap: 65px;
   grid-column-gap: 50px;
   grid-template-columns: repeat(2, [col] 700px ) ;
-  grid-template-rows: repeat(2, [row] auto  );
+  grid-template-rows: auto;
 }
 
 .cs-card-1 {
