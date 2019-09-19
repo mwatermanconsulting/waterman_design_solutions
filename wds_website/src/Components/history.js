@@ -98,24 +98,6 @@ class about extends Component {
                             <i>Roos Foods Wally's</i></p>
                             Surreal Concepts was incorporated in 1997 and started out doing graphic design. They developed a partnership with a flexographic label company,  Apogee, designing and  preparing documents for printing press plates. They also introduced a  printing strategy and set up a schedule that supported the client's needs, eliminating most missed deadlines. Clients here included SmithKline and Boiron Homeopathy. </p>
                     </section>
-
-                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
-
-                    <section className="flex-layout-section-full align-items-center">
-                        <div className="title content-block-55">
-                            Animations and Corporate Video
-                        </div>
-                        <div className="subtitle content-block-55 margin-top-15">
-                            Flash, AfterEffects and Video Production
-                        </div>
-                       
-                        <p className="float-left content-size-21 content-block-55 margin-top-15">
-                             <div className="float-right video" >
-                            <iframe className="margin-left-15" style={{marginLeft:'5%'}} width="560" height="315" src="https://www.youtube-nocookie.com/embed/BHQSXijoCVY?rel=0 controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe>
-                        </div>
-                            The number of services grew in 1999 after adding more skills in digital video programs such as Adobe Premiere, Adobe AfterEffects and Apple Final Cut Pro. They developed and designed Flash websites, Flash banner ads, animations  and video compression for the web. They constantly learned new skills to meet the demands of clients like InvestorForce and Altvest, delivering high quality animations, banners ads, products, corporate videos, and marketing material. </p>
-                    </section>
-
                     
                     <div className="thin-hr width-70 align-self-center hrline-spacing"></div> 
 
@@ -143,14 +125,10 @@ class about extends Component {
                             <i>TAWS</i></p>
                             <p className="cs-card-4 margin-top-15 caption"><img className="container-photo-100 margin-top-25" src={norwood} alt="Norwood Construction"></img>
                             <i>Norwood Construction</i></p>
-                            
                        
                         </section>
-
-
                             <p className="align-item-center margin-top-15 caption"><img className="container-photo-100 margin-top-25 " src={before_after} alt="Before and After"/><br></br>
                             <i>Expanding  design solutions to meet  client needs</i></p>
-
                             
                         </div>
                     </section>
@@ -190,12 +168,12 @@ class about extends Component {
                         </div>
                         
                         <div className="content-block-55">
-                        <p className="content-text-18 content-block-55 margin-top-15">
+                        <p className="content-text-18  margin-top-15">
                         
                          The WebFirstAid talks lead to a connection with Pfizer In 2008, and Surreal Concepts embedded Michael into the project.  
                          
                          
-                         <img className="float-right" src={pfizer_logo} style={{width: '40%'}}  alt="StubHub logo" /> 
+                         <img className="float-right visibility width-40" src={pfizer_logo}   alt="Pfizer logo" /> 
                        
                          The project, Pfizer Pro, the largest HCP website at the time. Michael was contracted for the UX Design, developing content strategies, front-end development and bi-weekly updates. During the engagement, Michael's business understanding helped Pfizer by documenting a business problem they had with a vendor. The current CMS program and support was costing Pfizer thousands of dollars a week on lost man hours and extremely poor customer service. This documentation gave Pfizer the knowledge they needed to change vendors and recoup their money.  </p> 
 
