@@ -1,4 +1,5 @@
-import React, { Component } from 'react' ;
+import React, { Component } from 'react';
+import Helmet from 'react-helmet';
 import { NavLink } from 'react-router-dom';
 import CSS from '../images/backgrounds/bg-css.png';
 import didyouknow from '../images/graphic-didyouknow.svg';
@@ -13,6 +14,14 @@ import itcss from '../images/ITCSS.png';
 class css_solutions extends Component {
     render () {
         return(
+            <div>
+            <Helmet>
+                <meta name="description" content="WDS Our CSS services include CSS development, strategy, CSS system implementation, mentoring, documentation, and best of practice documentation." />
+                <meta name="keywords" content="case studies, WDS, stubhub, motorola" />
+                <meta charSet="utf-8" />
+                <title>WDS Case Studies - OsiSoft</title>
+                <link rel="canonical" href="http://watermandesignsolutions/css_solutions" />
+            </Helmet>
         <div className="flex-layout-column"> 
             <section className="flex-section-fixed-head-child yellow flex-layout-center-center image-background-border-tb">
                     <div className="header-text-center header-title text-white">
@@ -172,6 +181,7 @@ class css_solutions extends Component {
                 </div>
             </section>     
             </div>
+        </div>
         )
     }
 }

@@ -27,7 +27,8 @@ class communication_insights extends Component {
             </div>
             <div className="grid-2col-photo-content photo-content-color border-bottom-5 height-670" > 
                 <div className="grid-item-b content-block-60 content-header flex-layout-column">
-                    <div className="callout-text text-align-left text-white">By directly observing people, and going through your own research, we can empathize with their pain points, discovering solutions, simplfying life and connecting with them on an emotional level. We create truth that was unknown until now, using this knowledge to create better decisions based on users, not assumptions. </div>
+                    <div className="callout-text text-align-left text-white">
+                        By directly observing people, WDS learns to empathize with their pain points, discovering solutions, and simplifying their work flows by connecting with them on an emotional level. They uncover the truth by uncovering problems that were previously unknown. WDS uses this knowledge to create design solutions and business strategies based on users, not assumptions. </div>
                              
                 </div>
                 <div className="item-a-nb container-image-block">

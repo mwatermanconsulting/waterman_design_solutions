@@ -17,7 +17,7 @@ import osi from '../images/photos/photo-osi-before-after.png'
 class case_studies extends Component {
     render () {
         return(
-             <div className="WDS Website">
+             <div>
             <Helmet>
                 <meta name="description" content="case studies for motorola, pfizer, osisoft, stubhub" />
                 <meta name="keywords" cpntent="case studies, WDS, stubhub, motorola" />
