@@ -41,11 +41,11 @@ class core_offerings extends Component {
             </section>
             <section className="flex-layout-column flex-layout-center-center margin-top-100">
                     <div className="subtitle content-block-65">
-                        WDS core service offerings ensure your business success by instilling a design solutions at a core level. It has been proven that valuing design and instill a culture of design, from the C-suite down, increases business by 30%. We have a series of strategies and workshops based on empathy for our clients and users to help them achieve lasting success by being responsive to your users needs.    
+                        WDS core service offerings ensure your business success by instilling a design solutions at a core level. 
+                        <p className="content-text-21 margin-top-25"> It has been proven that valuing design and instill a culture of design, from the C-suite down, increases business by 30%. We have a series of strategies and workshops based on empathy for our clients and users to help them achieve lasting success by being responsive to your users needs.    
 
-                    </div>
-                    <div className="content-block-65">
-                        <p className="subtitle margin-top-25"> 
+                    </p>
+                        <p className="content-text-21 margin-top-25"> 
                         WDS can instill a design culture into your company through a series of workshops, talks and business design strategies. Our C-suite workshops provide design data and proven strategies to effectively communicate design into meetings and corporate communications. They can mentor your teams and provide advanced workshops for design strategists.
                         </p>
                     </div>
@@ -240,10 +240,6 @@ class core_offerings extends Component {
                 </section>
 
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
-
-                
-
-                       <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">

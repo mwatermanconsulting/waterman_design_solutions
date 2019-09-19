@@ -1,11 +1,20 @@
 // Small devices (portrait phones, 320px and up)
-@media (min-width: 320px) {  
+@media (min-width: 319px) {  
   .material-icons {
     opacity: 0.9;
     display: inline-block;
     transition-timing-function: ease-out;
     transition: 0.75s;
   }
+
+  .visibility {
+    display: none;
+  }
+
+  .margin-tb-100 {
+    margin: 50px 0 100px;
+  }
+
   .header {
     display: none !important;
   }
@@ -13,7 +22,7 @@
     display: none;
   }
   .mobile-menu {
-    display: 100%;
+    display: block;
   }
   
   .container-section-1-primary {
@@ -81,11 +90,24 @@
     max-width: 550px;
     height: auto;
   }
+
+  .photo-container-cs-sb1{
+    width: 100%;
+    height: auto;
+  }
+
   .container-image-500 {
     width: 100%;
     max-width: 500px;
     height: auto;
   }
+
+  .container-image-650 {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+  }
+
   .container-image-block {
     width: 100%;
     height: auto;
@@ -103,6 +125,19 @@
 
   .height-670 {
     height: auto;
+  }
+
+  .margin-top-5per {
+    margin-top: 0%;
+  }
+
+  .margin-top-20per {
+    margin-top: 0%;
+  }
+    
+  .hrline-spacing {
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
   
   /*******      Typography      ******/
@@ -147,7 +182,7 @@
   }
   .callout-text {
     font-size: 1.25rem;
-    margin: 10px;
+    margin: 20px;
   }
   
   /* GRIDS */
@@ -246,6 +281,49 @@
     grid-row: auto;
   }
 
+  .grid-left {
+    grid-column: 1fr;
+    grid-row: auto;
+    justify-content: center;
+    margin-left: 0%;
+  }
+
+  .grid-right-photo {
+    grid-column: 1;
+    grid-row: auto;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .grid-2col-text-photo {
+    grid-template-columns: 1fr;
+    grid-template-areas: "text" "photo";
+    grid-column-gap: 50px;
+    display: grid;
+  }
+  .grid-2col-photo-text {
+    grid-template-columns: 1fr;
+    grid-template-areas: "photo" "text";
+    grid-column-gap: 50px;
+    display: grid;
+  }
+
+  .grid-2col-photo-content {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 50px;
+    display: grid;
+  }
+
+  .grid-clients-wrapper {
+   
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid-clients-box {
+    width:100%;
+    height: auto;
+  }
+
   
   /*******  footer    *****/
   
@@ -311,23 +389,21 @@
   
   // Medium devices (tablets, 768px and up)
   @media (min-width: 768px)  { 
-  
-  
-    .grid-2col-text-photo {
-      grid-template-columns: 1fr;
-      grid-template-areas: "text" "photo";
-      grid-column-gap: 50px;
-      display: grid;
-    }
-    .grid-2col-photo-text {
-      grid-template-columns: 1fr;
-      grid-template-areas: "photo" "text";
-      grid-column-gap: 50px;
-      display: grid;
-    }
-    .width-70 {
-      width: 70%;
-    }
+
+.width-70 {
+  width: 70%;
+}
+
+.hrline-spacing {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.padding {
+  padding: 10px;
+}
+
+    
   
     /***** grid    ********************************************/
     .grid-services-list {
@@ -408,6 +484,25 @@
       grid-column: 2/2;
       grid-row: auto;
     }
+
+    .callout-text {
+      margin: 20px;
+    }
+
+    .grid-clients-wrapper {
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .grid-clients-box {
+      width:250px;
+      height: 250px;
+      background-color: #e6e6e6;
+      align-items: center;
+    }
+
+
+
     
     .container-footer {
       min-height: fit-content;
@@ -463,59 +558,105 @@
   
   // Large devices (desktops, 992px and up)
   @media (min-width: 992px) { 
-    
-    .float-right {
-      float: right;
-    }
-    .grid-callout {
-      grid-template-columns: 1fr 1fr;
-      grid-template-areas: "text photo";
-      display: grid;
-    }
-  
-    .grid-2col-text-photo {
-      grid-template-columns: 1fr 1fr;
-      grid-template-areas: "text photo";
-      grid-column-gap: 50px;
-      display: grid;
-    }
-    .grid-2col-photo-text {
-      grid-template-columns: 1fr 1fr;
-      grid-template-areas: "photo text";
-      grid-column-gap: 50px;
-      display: grid;
-    }
-    .container-section-1-primary {
-      display: flex;
-      height: 270px;
-      text-align: center;
-    }
-    .header-title {
-      font-size: 	3.75rem ;
-      
-    }
 
-   }
+    
+
+  .material-icons {
+    display: none;
+}
+
+.mdl-layout__drawer-button {
+    display: none !important;
+}
+
+.header {
+    display: block !important;
+    transition-timing-function: ease-in;
+    transition: 0.75s;
+}
+
+.mdl-layout__header-row {
+    display: block;
+}
+
+.float-right {
+  float: right;
+}
+
+.padding {
+  padding: 50px;
+}
+
+.photo-container-cs-sb1{
+  width:900px;
+  height: auto;
+  border: 1px solid $black;
+}
+
+.margin-left-15 {
+  margin-left: 15px;
+}
+.grid-callout {
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "text photo";
+  display: grid;
+}
+  
+.grid-2col-text-photo {
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "text photo";
+  grid-column-gap: 50px;
+  display: grid;
+}
+
+.grid-2col-photo-text {
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "photo text";
+  grid-column-gap: 50px;
+  display: grid;
+}
+
+.grid-2col-photo-content {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  display: grid;
+}
+
+.grid-right-photo {
+  grid-column: 2/2;
+  grid-row: auto;
+  justify-items: center;
+  align-self: center;
+}
+
+.grid-left {
+  grid-column: 1fr;
+  margin-left: 20%;
+}
+
+.container-section-1-primary {
+  display: flex;
+  height: 270px;
+  text-align: center;
+}
+
+.header-title {
+  font-size: 	3.75rem ;
+}
+
+}
   
   // Extra large devices (large desktops, 1200px and up)
   @media (min-width: 1200px) { 
-    .material-icons {
-      display: none;
-    }
-    .mdl-layout__drawer-button {
-      display: none !important;
-    }
-    .header {
-      display: block !important;
-      transition-timing-function: ease-in;
-      transition: 0.75s;
-    }
-    .mdl-layout__header-row {
-      display: block;
+  
+  .visibility {
+    display: block;
   }
+
+
   .header-title {
     font-size: 	5.1875rem ;
-    
   }
 
 
@@ -600,6 +741,13 @@
   .grid-services-6 {
     grid-column: 3;
     grid-row: 3;
+  }
+
+  .grid-left {
+    grid-column: 1fr;
+    grid-row: auto;
+    justify-content: center;
+    margin-left: 7%;
   }
 }
   @media (max-width: 575.98px) {  }
