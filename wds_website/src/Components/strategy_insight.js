@@ -1,4 +1,5 @@
-import React, { Component } from 'react' ;
+import React, { Component } from 'react';
+import Helmet from 'react-helmet';
 import strategy from '../images/backgrounds/bg-strategy.png';
 import didyouknow from '../images/graphic-didyouknow.svg';
 import services7 from '../images/photos/photo-services-s7.png';
@@ -17,6 +18,13 @@ import strategy8 from '../images/photos/photo-strategy-s8.png';
 class strategy_insight extends Component {
     render () {
         return(
+        <div>
+            <Helmet>
+                <meta name="description" content=" WDS understands that the most meaningful insights for design strategy are developed with behavior-based understanding of users. UX strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve." />
+                <meta charSet="utf-8" />
+            <title>Strategy and Insight</title>
+            <link rel="canonical" href="http://watermandesignsolutions/services" />
+            </Helmet>
         <div className="flex-layout-column"> 
             <section className="flex-section-fixed-head flex-layout-center-center image-background-border-tb">
                 <div className="header-text-center header-title text-white">
@@ -53,7 +61,7 @@ class strategy_insight extends Component {
             <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">
                 
                 
-            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+            <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
             </div>
 
                 <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
@@ -67,7 +75,7 @@ class strategy_insight extends Component {
                         <p className="content-text-18"><div className="float-right">
                         <img className="photo-container" src={strategy2}  alt="Stakeholder Interview" /> 
                     </div>  
-                            At the beginning of an engagement, WDS sets the foundation for success by developing an understanding of the business, the industry, the competition and relevant trends. This becomes the basis for how we approach all subsequent phases. Along with secondary research, we interview stakeholders and subject matter experts to gain a firsthand awareness of the company context and to build connections within the business. This keeps stakeholder alignment throughout the engagement. This activity begins to define our understanding of where the company intends to play in the market, who it intends to serve and how it plans to serve them.</p>
+                            At the beginning of an engagement, WDS sets the foundation for success by developing an understanding of the business, the industry, the competition and relevant trends. This becomes the basis for how we approach all subsequent phases. Along with secondary research, they interview stakeholders and subject matter experts to gain a firsthand awareness of the company context and to build connections within the business. This keeps stakeholder alignment throughout the engagement. This activity begins to define our understanding of where the company intends to play in the market, who it intends to serve and how it plans to serve them.</p>
                     </div>          
                 </section>
 
@@ -84,11 +92,11 @@ class strategy_insight extends Component {
                         <img className="photo-container" style={{marginTop:'-4%'}} src={strategy1}  alt="Review" /> 
                     </div>
                         <p className="content-text-18"> 
-                        The design critique is an expert analyst that examines the current site or application screens in comparison to industry standards and established best practices. This helps to point out areas of opportunity that can be addressed during the redesign process in an effort to best the competition. This critique results in a presentation of findings that includes  areas of opportunities and concrete recommendations.</p>
+                        The design critique is an expert analyst that examines the current site or application screens in comparison to industry standards and established best practices. This helps to point out areas of opportunity that can be addressed during the redesign process in an effort to best the competition. This critique results in a presentation of findings that includes areas of opportunities and concrete recommendations.</p>
                     </div>
                 </section>
                         
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
                     <div className="title content-block-60">
@@ -101,19 +109,19 @@ class strategy_insight extends Component {
                         <p className="content-text-18"><div className="float-right">
                         <img className="photo-container" src={strategy3}  alt="Contextual Inquiry" /> 
                     </div>  
-                            When design determines success, understanding the user is paramount. WDS designs to connect people with what matters most to them. </p>
+                            When design determines success, understanding the user is paramount. WDS creates designs that connect people with what matters most to them. </p>
                         <p className="content-text-18">
-                            WDS design experts use experience strategy and insight to define how software functions, and build workflows for the ways that people will experience it. 
+                            WDS team of design experts use experience strategy and insight to define how software functions, and build workflows for the ways that people will experience it. 
                             From inception through launch, WDS obsesses over every detail.</p>
                         <p className="content-text-18">
-                            For the visual representation, WDS creates a uniquely identifiable and recognizable design by incorporating elements like brand, familiar fonts and emotions that resonate with users.</p>
+                            For the visual representation, they will create a uniquely identifiable and recognizable design by incorporating elements like brand, familiar fonts and emotions that resonate with users.</p>
                         </div>                   
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
                     
 
-                    <section className="grid-callout-2col content-header align-self-center justify-items-center margin-top-50 margin-bottom-50 width-70">
+                    <section className="grid-callout-2col content-header align-self-center justify-items-center hrline-spacing width-70">
                     
                     <div className="gallery-2col-1 container-image-500">
                         <a href ="./css_solutions"><img className="container-image-500 border-2" src={services8}  alt="CSS Solutions" /> </a>
@@ -131,12 +139,12 @@ class strategy_insight extends Component {
                             <div className="title margin-top-50">
                             <a href="./design_systems" className="no-decoration"> Design Systems</a></div>
                             <p className="content-text-18 margin-top-15">
-                                At WDS, we know and understand the importance of design systems to businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff.</p>
+                                At WDS, we know and understand the importance of design systems for businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff.</p>
                         </div>
                     </div>
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
 
                     <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
@@ -150,13 +158,16 @@ class strategy_insight extends Component {
                             <div className="float-right">
                         <img className="photo-container" src={strategy4}  alt="Affinity Diagram" /> 
                         </div>     
-                            <p className="content-text-18"> Data is only as valuable as the meaning  crafted
-                                from it. WDS has tried-and-true methods for moving
+                            <p className="content-text-18"> 
+                            Data is only as valuable as the meaning  crafted
+                                from it. WDS has a tried-and-true methods for moving
                                 from observations to insights. These meaningful
                                 insights are the next building block in the process of
                                 building an experience strategy.</p>
 
-                            <p className="content-text-18"> WDS takes a comprehensive, rigorous approach to
+                            <p className="content-text-18"> 
+                            
+                                WDS takes a comprehensive, rigorous approach to
                                 process data from the field and use it to spark
                                 explanations of what is behind the observations.
                                 Getting to the deeper understanding that insights
@@ -165,7 +176,7 @@ class strategy_insight extends Component {
                         </div>
                     </section>
                 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
                         <div className="title content-block-60">
@@ -184,7 +195,7 @@ class strategy_insight extends Component {
                         </div>
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                     <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
                         <div className="title content-block-60">
@@ -198,12 +209,12 @@ class strategy_insight extends Component {
                             <div className="float-right">
                                 <img className="photo-container" src={strategy6}  alt="Consolidated Workflow Diagrams" /> 
                             </div>   
-                            When an engagement centers on a complex tool for the enterprise, the consolidated workflow diagram captures activity across organizational roles, providing stakeholders a single view of all of the work accomplished in and around a tool. This diagram gives stakeholders an “Aha!” moment as, for the first time, they have a picture of the duties that employees or customers accomplish in their work lives. Through the use of a consolidated workflow diagram, it is seen how a user moves through tasks and  extrapolates from there to the various cognitive states a user inhabits while engaged with the solution or process. These cognitive states represent a model of what is in people’s minds as they do their work, a mental model. This understanding has implications for both design and marketing. 
+                            When an engagement centers on a complex tool for the enterprise, the consolidated workflow diagram captures activity across organizational roles, providing stakeholders a single view of all of the work accomplished in and around a tool. This diagram gives stakeholders an “Aha!” moment as, for the first time, they have a picture of the duties that employees or customers accomplish in their work lives. Through the use of a consolidated workflow diagram, shows how a user moves through tasks and  extrapolates from there to the various cognitive states a user inhabits while engaged with the solution or process. These cognitive states represent a model of what is in people’s minds as they do their work, a mental model. This understanding has implications for both design and marketing. 
 </p>
                         </div>
                     </section>
                       
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                     <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
                         <div className="title content-block-60">
@@ -224,7 +235,7 @@ class strategy_insight extends Component {
                     
 
                     
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                     <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
                         <div className="title content-block-60">
@@ -250,6 +261,7 @@ class strategy_insight extends Component {
                 </div>
             </section>
             </div>
+        </div>
         )
     }
 }

@@ -60,7 +60,7 @@ class style_guide extends Component {
             <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">
 
                 <section className="float-left content-header align-items-center flex-layout-column">
-                        <div className="title content-block-60" style={{marginLeft:'-6%'}}>
+                        <div className="title content-block-60 margin-left-6per">
                         Less Errors
                         </div>
 
@@ -68,7 +68,7 @@ class style_guide extends Component {
                             Saving Time
 
                         </div>
-                        <div className="content-block-60 content-text-18 margin-top-25" style={{marginLeft:'-6%'}}>
+                        <div className="content-block-60 content-text-18 margin-top-25 margin-left-6per" >
                             <p className="content-text-18"> 
                             Another benefit of using prebuilt and standardized component is less errors. There’s no chance of making a mistake when you’re copying from a master version. As long as the components in your design system are accurate, their use in your products will be accurate.
                             This is especially good news for developers, who have all the code snippets they need right at their fingertips.
@@ -91,10 +91,10 @@ class style_guide extends Component {
                         <div className="title content-block-60" style={{marginLeft:'-6%'}}>
                         Consistency across the board
                         </div>
-                        <div className="subtitle content-block-60 margin-top-15" style={{marginLeft:'-6%'}}>
+                        <div className="subtitle content-block-60 margin-top-15 margin-left-6per">
                         Building familiarity
                         </div>
-                        <div className="content-block-60 content-text-18 margin-top-25" style={{marginLeft:'-6%'}}>
+                        <div className="content-block-60 content-text-18 margin-top-25 margin-left-6per">
                         <div className="float-right">
                             <img className="photo-container width-100" src={digital_systems3} alt="Style Guides" /> 
                         <p className="caption">Styleguide for OSIsoft </p> </div>
@@ -103,11 +103,13 @@ class style_guide extends Component {
                             Consistency is vital for a pleasant user’s experience, but it can be hard to come by with multiple designers working separately. Design systems allow easy access to universal versions of design assets (and their rules) to keep everyone on the same page, and ensure components remain consistent from one page or section to another.
                             That also holds true for different products. Brands looking to build their identity can use the exact same assets for all their products, giving everything a unified feel and rewarding loyal customers with familiar usability.</p>
                         </div>
-                    
+
+                   
                     <div className="grid-right-ds align-self-baseline">
                         <img className="photo-container width-100" src={digital_systems3}  alt="Style Guides" /> 
                         <p className="caption">Styleguide for OSIsoft </p>
                     </div>      
+
 
                 </section>
                 
@@ -150,9 +152,9 @@ class style_guide extends Component {
                         Data-driven UX
                         </div>
                         <div className="content-block-60  content-text-18 margin-top-15">
-                            <p className="content-text-18">So much of UX design depends on customer feedback. Different customer groups have different tastes and preferences, and they can be hard to keep track of, especially if your company is targeting more than one group.<br></br>
-                            WDS sets design  standards for a design foundation, assimilating design with software development by fostering empathy for the software engineers. Asking questions and learning the language helps  bridge the gap between the customer and developer.<br></br>
-                            Design systems help keep your UX data organized by optimizing patterns. Update the design system and every designer knows it’s the new norm going forward.
+                            <p className="content-text-18">Successful UX design depends on customer feedback. Different user groups have different tastes and preferences, and they can be hard to keep track of, especially if your company is targeting more than one group.<br></br>
+                            WDS sets design standards for a foundation, assimilating design with software development by fostering empathy for the software engineers. Asking questions and learning the language helps bridge the gap between the customer and developer.<br></br>
+                            Design systems help keep your UX data organized by optimizing patterns. When updates occur communicating the updates to the design system so that every designer and developer knows it’s the new norm going forward.
                             </p>   
                         </div> 
                     </div>    
@@ -179,7 +181,8 @@ class style_guide extends Component {
 
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>     
 
-                    <section className="grid-2col-photo-content content-header width-70">
+                <section className="grid-2col-photo-content content-header">
+
                     <div className="grid-left flex-layout-section-full ">
                         <div className="title">
                             Style Guides                        
@@ -188,7 +191,8 @@ class style_guide extends Component {
                             An excellent tool for standards
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-15">
-                            <p className="content-text-18">  Another subclass in the design system, this static documentation describes the design system itself: how products should look and feel, use cases for UI patterns, correct typographic scales, etc.</p>
+                            <p className="content-text-18"> 
+                            Another subclass in the design system, this static documentation describes the design system itself: how products should look and feel, use cases for UI patterns, correct typographic scales, etc.</p>
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
@@ -203,7 +207,8 @@ class style_guide extends Component {
                        <img className="container-image-500 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
                       
                       <div >
-                          <p className="callout-text-white text-align-center">WDS specializes in SaaS design solutions and implementation.</p>
+                          <p className="callout-text-white text-align-center">
+                              WDS specializes in SaaS design solutions and implementation.</p>
                     </div>
                 </div>
             </section> 

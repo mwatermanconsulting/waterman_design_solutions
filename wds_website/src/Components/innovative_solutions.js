@@ -54,7 +54,7 @@ class innovative_solutions extends Component {
                 
             </section>
 
-             <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+             <div className="thin-hr width-70 align-self-center hrline-spacing width-70"></div>
              
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
@@ -74,7 +74,7 @@ class innovative_solutions extends Component {
                         </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing width-70"></div>
 
                 <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
                     <div className="title content-block-60">
@@ -96,7 +96,7 @@ class innovative_solutions extends Component {
                         </div>   
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing width-70"></div>
                 
                 <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
                     <div className="title content-block-60">
@@ -113,7 +113,7 @@ class innovative_solutions extends Component {
                         </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing width-70"></div>
 
                 <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
                     <div className="title content-block-60">
@@ -132,7 +132,7 @@ class innovative_solutions extends Component {
                      </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing width-70"></div>
 
                 <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
                     <div className="title content-block-60">
