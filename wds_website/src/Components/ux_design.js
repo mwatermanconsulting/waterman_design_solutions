@@ -1,4 +1,5 @@
 import React, { Component } from 'react' ;
+import Helmet from 'react-helmet';
 import ux_bg from '../images/backgrounds/bg-ux.png';
 import ux_s1 from '../images/photos/photo-ux-s1.png';
 import ux_s2 from '../images/photos/photo-ux-s2.png';
@@ -11,6 +12,13 @@ import spotlight2 from '../images/photos/photo-ux-uncover-truth.png';
 class ux_design extends Component {
     render () {
         return(
+            <div>
+            <Helmet>
+                <meta name="description" content="The team of WDS UX Designers are true designers that not only provide mock-ups, but high fidelity designs. Their UX designers also have an understanding of cognitive psychology and a background in customer service. All of their designers are friendly empathetic people with a passion to simplify the world, one project at a time. WDS UX designs includes product design for motorola, custom business intelligence platform for StubHub and OsiSoft. " />
+                <meta charSet="utf-8" />
+            <title>UI Design</title>
+            <link rel="canonical" href="http://watermandesignsolutions/ux_design" />
+            </Helmet>
             <div className="flex-layout-column"> 
                 <section className="flex-section-fixed-head flex-layout-center-center image-background-border-tb">
                     <div className="header-text-center header-title text-white">
@@ -77,7 +85,7 @@ class ux_design extends Component {
                                 <img className="container-photo-callout margin-top-15per" src={ux_s3}  alt="Old school customer service" />   
                             </div>
                             <p className="content-text-18">
-                                Empathy is a very powerful selling tool, because it is human-centric. It’s the new buzz word, but empathy has always been at the heart of WDS.  <br></br>“Walk in the user’s shoes.” <br></br>“See the problem as if you were experiencing it yourself."<br></br>“Observe their daily routines.” <br></br>All of these mantras and behaviors are empathetic techniques that our UX designers have acquired through years of practice. It is part of their daily lives. 
+                                Empathy is a very powerful selling tool, because it is human-centric. It’s the new buzz word, but empathy has always been at the heart of WDS designs.  <br></br>“Walk in the user’s shoes.” <br></br>“See the problem as if you were experiencing it yourself."<br></br>“Observe their daily routines.” <br></br>All of these mantras and behaviors are empathetic techniques that their UX designers have acquired through years of practice. It is part of their daily lives. 
                             </p>
                         </div>
                     </section>
@@ -100,7 +108,7 @@ class ux_design extends Component {
                         <p className="content-text-18">User expectations have changed over the years. Simplicity is expected.  </p> 
                                
                         <p className="content-text-18">
-                                The user experience takes many shapes and forms: retail, product development, websites, and applications. The user has a goal to achieve and it's up to you to make it enjoyable and useful. It is critical to your success to have a designer that not only understand and empathizes with people, but understands cognitive psychology. The understanding of unconscious decisions helps reveal solutions on a deeper level.
+                                The user experience takes many shapes and forms: retail, product development, websites, and applications. The user has a goal to achieve and it's up to you to make it enjoyable and simple. It is critical to your success to have a UX designer that not only understand and empathizes with people, but understands cognitive psychology. The understanding of the unconscious mind helps reveal solutions on a deeper level.
                         </p>     
                     </div>
                 </section>
@@ -117,7 +125,7 @@ class ux_design extends Component {
                     </div>
                     <div className="content-block-60 margin-top-15">
                         <p className="content-text-18">
-                        All of our UX Designers are true designers that not only provide mock-ups, but high fidelity designs. The WDS team of UX designers also have an understanding of cognitive psychology and a background in customer service. All of their designers are friendly empathetic people with a passion to simplify the world, one project at a time. </p>
+                        The team of WDS UX Designers are true designers that not only provide mock-ups, but high fidelity designs. Their UX designers also have an understanding of cognitive psychology and a background in customer service. All of their UX designers are friendly empathetic people with a passion to simplify the world, one project at a time. </p>
                     
                     </div>
                 </section>
@@ -188,6 +196,7 @@ class ux_design extends Component {
             </section> 
   
         </div> 
+    </div>
        
         )
     }

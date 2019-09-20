@@ -1,4 +1,5 @@
 import React, { Component } from 'react' ;
+import Helmet from 'react-helmet';
 import design from '../images/backgrounds/bg-digital-design.png';
 import services from '../images/graphic-services.svg';
 import web1 from '../images/photos/photo-web-s1.png';
@@ -14,6 +15,13 @@ import didyouknow from '../images/graphic-didyouknow.svg';
 class digital_design extends Component {
     render () {
         return(
+            <div>
+            <Helmet>
+                <meta name="description" content="  WDS has been creating design solutions for websites for over 20 years. All of the design solutions are derived from UX research and user personas. WDS websites designs are as unique as your business. " />
+                <meta charSet="utf-8" />
+            <title>Website Design</title>
+            <link rel="canonical" href="http://watermandesignsolutions/website_design" />
+            </Helmet>
         <div className="flex-layout-column"> 
             <section className="flex-section-fixed-head-child yellow flex-layout-center-center image-background-border-tb">
                     <div className="header-text-center header-title text-white">
@@ -33,7 +41,7 @@ class digital_design extends Component {
                 <div className=" grid-2col-text-photo align-items-center margin-tb-100 width-70">
                     <div className="content-block col2-text ">
                         <div className="callout-text text-align-left">
-                            WDS has been creating design solutions for websites for over 20 years. All design solutions are derived from  UX findings and user personas. WDS designs websites that are as unique as your business.  
+                            WDS has been creating design solutions for websites for over 20 years. All of the design solutions are derived from UX research and user personas.  WDS websites designs are as unique as your business.  
                         </div>      
                     </div>
                 <div className="col2-photo width-100 grid-placeself-center">
@@ -49,7 +57,7 @@ class digital_design extends Component {
                     </div>
                     <div className=" margin-top-50">
                         <p className="content-text-24">
-                            It is easier today than ever to get a website. There are countless template sites that are easy to use for people with limited experience to create a website. The outcome is that most websites look the same.</p> 
+                            It is easier today than ever for a business to get a website. There are countless template sites that are easy to use for people with limited experience. Your business and customers are unique and your website should reflect that uniqueness, your business deserves to stand out.</p> 
                             =
                             <p className="content-text-24">   
                             The typical user has a good design eye and can tell the difference between a template website and a custom website. They will notice when a business cares enough about them to create a design that is based on UX research. Customers will always choose the better experience every time. Your business wasn't born from a template and your users deserve more. Don't settle for good enough!</p>
@@ -141,7 +149,7 @@ class digital_design extends Component {
                     </div>
                     </div>
                 </section>
-
+            </div>
             </div>
         )
     }

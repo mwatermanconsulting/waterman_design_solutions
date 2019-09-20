@@ -25,7 +25,7 @@ class methodology extends Component {
         return(
             <div>
             <Helmet>
-                <meta name="description" content="EMPATHY and PASSION are the core of our business and the heart of the WDS UX methodology. Our UX methodology produces answers and empathetic designs that connect and resonates with users and uncovers unarticulated user needs that drives business transformation." />
+                <meta name="description" content="EMPATHY and PASSION are the core of our business and the heart of the WDS UX methodology. Our UX methodology produces answers and empathetic designs that connect and resonates with users and uncovers unarticulated user needs that drives business transformation. WDS methodology has been successful for project for Motorola, StubHub and OsiSoft" />
                 <meta charSet="utf-8" />
             <title>Marketing</title>
             <link rel="canonical" href="http://watermandesignsolutions/methodology" />
