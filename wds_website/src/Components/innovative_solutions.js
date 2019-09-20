@@ -1,4 +1,5 @@
-import React, { Component } from 'react' ;
+import React, { Component } from 'react';
+import Helmet from 'react-helmet';
 import innovation from '../images/backgrounds/bg-innovation.png';
 import innovation1 from '../images/photos/photo-innovation-s1.png';
 import innovation2 from '../images/photos/photo-innovation-s2.png';
@@ -12,12 +13,19 @@ import didyouknow from '../images/graphic-didyouknow.svg';
 class innovative_solutions extends Component {
     render () {
         return(
+        <div>
+            <Helmet>
+                <meta name="description" content=" WDS has designed applications used by energy sectors, including nuclear reactors. They have the focus, insight and experience to solve the most difficult design and business problems on the worlds most intricate products and applications user interfaces." />
+                <meta charSet="utf-8" />
+                <title>Innovative Solutions</title>
+                <link rel="canonical" href="http://watermandesignsolutions/innovative_solutions" />
+            </Helmet>
         <div className="flex-layout-column"> 
             <section className="flex-section-fixed-head-child yellow flex-layout-center-center image-background-border-tb">
                     <div className="header-text-center header-title text-white">
                         Innovative Solutions
                     </div>
-                        <img className="flex-image-container width-100" src={innovation}  alt="Case Studies" />     
+                        <img className="flex-image-container width-100" src={innovation}  alt="WDS Innovative Solutions" />     
                 </section>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-3 callout-color-dark">
                 <div className="callout-text-lg"> 
@@ -27,7 +35,7 @@ class innovative_solutions extends Component {
 
             <section className="grid-callout photo-content-color border-bottom-5 height-670"> 
             <div className="callout-text text-align-left">
-                          WDS has provided solutions to applications used by  energy sectors, including nuclear reactors. They have the focus, insight and experience to solve the most difficult design and business problems on the worlds most intricate products and applications.  
+                          WDS has designed applications used by energy sectors, including nuclear reactors. They have the focus, insight and experience to solve the most difficult design and business problems on the worlds most intricate products and applications user interfaces.  
                              
                     </div>
                     <div className="grid-callout-photo grid-placeself-center">
@@ -37,11 +45,11 @@ class innovative_solutions extends Component {
             </section>
     
             <section className="flex-layout-center-center flex-layout-column margin-top-75">
-                <div className="title text-align-center content-block-60 margin-top-75">
-                     Innovative Solutions is the WDS differentiating factor, solving complex problems where others have failed.
+                <div className="title text-align-center content-block-60">
+                     WDS Innovative Solutions are our differentiating factor
                 </div>
                 
-                    <p className="subtitle flex-layout-center-center margin-left-15 margin-top-15"> 
+                    <p className="subtitle text-align-center flex-layout-center-center margin-left-15 content-block-60 margin-top-25"> 
                     WDS solutions are as unique as the business and users that are provided for. It includes three factors: Understanding, Empathy and Experience.  </p>
                 
             </section>
@@ -153,7 +161,7 @@ class innovative_solutions extends Component {
                 </div>
             </section>    
                 
-
+        </div>
                
             </div>
         )

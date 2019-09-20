@@ -66,7 +66,7 @@ class App extends Component {
                     <a href="./design_solutions">Design Overview</a>
                     <a href="./website_design">Website Design</a>
                     <a href="./print_design">Graphic Design</a>
-                    <a href="./video_production">Video Production</a>
+                    <a href="./marketing">Marketing</a>
                   </div>
                 </div>
               </div>
@@ -107,7 +107,7 @@ class App extends Component {
                   <Link to="/design_solutions">Design Solutions</Link>
                   <nav><a class="mdl-navigation__link float-left" href="/website_design">Website Design</a></nav>
                   <nav><a class="mdl-navigation__link" href="/print_design">Graphic Design</a></nav>
-                  <nav><a class="mdl-navigation__link" href="/video_production">Video Production</a>
+                  <nav><a class="mdl-navigation__link" href="/marketing">Marketing</a>
                     
 </nav>
                   <Link to="/contact">Contact</Link>
@@ -158,7 +158,7 @@ class App extends Component {
               <li><a className="text-black" href="./design_solutions">Overview</a></li>
               <li><a className="text-black" href="./website_design">Website Design</a></li>
               <li><a className="text-black" href="./print_design">Graphic Design</a></li>
-              <li><a className="text-black" href="./video_production">Video Production</a></li>
+              <li><a className="text-black" href="./marketing">Marketing</a></li>
               </ul>
           </div> 
           

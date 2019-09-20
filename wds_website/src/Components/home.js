@@ -1,5 +1,6 @@
 import React, { Component } from 'react' ;
 import { NavLink } from 'react-router-dom';
+import Helmet from 'react-helmet';
 import wdslogofull from '../images/wds-logo-full.svg';
 import method from '../images/backgrounds/bg-methodology.svg';
 import binoculars from '../images/graphic-methodology-binoculars.svg';
@@ -21,6 +22,13 @@ import stubhub from '../images/photos/photo-stubhub-before-after.png'
 class landingPage extends Component {
     render () {
         return(
+            <div>
+            <Helmet>
+                <meta name="description" content="WDS is a UX/UI agency that offers empathetic design solutions for websites, web based applications, mobile apps, and products. Core offerings help  businesses understand the value of design on a core level, providing training, workshops and mentorship programs. With over 15 years of perfecting its strategies, WDS has the experience, designers, strategists, skills and scale to deliver sophisticated design solutions." />
+                <meta charSet="utf-8" />
+                <title>Home</title>
+                <link rel="canonical" href="http://watermandesignsolutions/home" />
+            </Helmet>
             <div className="flex-layout-column">
                 <div className="flex-layout-section-full">
                     <div className="image-background-border-tb">
@@ -234,6 +242,7 @@ class landingPage extends Component {
                     </div>
                 </div>
             </section>   
+    </div>
     </div>
 
         )
