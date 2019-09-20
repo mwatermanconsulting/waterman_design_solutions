@@ -174,7 +174,9 @@ class why_wds extends Component {
                     <div className="float-right margin-right-5">
                         <img className="border-3px" src={why_design}  alt="UX Design" /> 
                 </div>  
+
                     <p>The best customer experience starts with the Golden Rule — treat customers how you would like to be treated. At the foundation of WDS methodology is observation, watching customers use the clients' products or services. But unlike focus groups or usability laboratories, WDS conducts observation and interviews in the customer’s own environment during the course of their everyday routines. In such a context,  researchers gain insight to a host of information that is not accessible through other UX research methods. </p>
+
 
                     
 

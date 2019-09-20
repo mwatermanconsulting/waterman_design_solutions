@@ -58,38 +58,50 @@ class style_guide extends Component {
             <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
             <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">
-                <section className="grid-2col-photo-content content-header">
-                    <section className="grid-left flex-layout-section-full">
-                        <div className="title">
-                            Less Errors
+
+                <section className="float-left content-header align-items-center flex-layout-column">
+                        <div className="title content-block-60" style={{marginLeft:'-6%'}}>
+                        Less Errors
                         </div>
+
                         <div className="subtitle margin-top-15">
                             Saving Time
+
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-25">
+                        <div className="content-block-60 content-text-18 margin-top-25" style={{marginLeft:'-6%'}}>
                             <p className="content-text-18"> 
                             Another benefit of using prebuilt and standardized component is less errors. There’s no chance of making a mistake when you’re copying from a master version. As long as the components in your design system are accurate, their use in your products will be accurate.
-                            This is especially good news for developers, who have all the code snippets they need right at their fingertips.</p>
+                            This is especially good news for developers, who have all the code snippets they need right at their fingertips.
+                            </p>
+                        <div className="float-right">
+                            <img className="photo-container width-100" src={digital_systems2}  alt="Less Errors" /> 
                         </div>
-                    </section>
-                    <div className="grid-right-css margin-top-50">
-                        <img className="photo-container width-100" src={digital_systems2}  alt=" Less Errors" /> 
-                        
-                    </div>     
+                        <p className="content-text-18">What is the best accent color for call-to-action buttons? Simply setting out to make a design system forces your team to answer these questions, and make those answers easily accessible to everyone.</p> 
+                            <p className="content-text-18">
+                                Having this kind of master reference guide also helps avoid miscommunication. By offering a definitive protocol and standards for otherwise ambiguous elements, design systems keep everyone on the same page. No guesswork, assumptions, or “going rogue.” Design systems also do wonders for problematic developer handoffs. Technical specs are embedded in the document which creates less confusion about how to build something in the backend, or whether it can be built at all. Design systems give designers and developers a shared language.</p>           
+                        </div>   
                 </section>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="grid-2col-photo-content content-header">
-                    <div className="grid-left flex-layout-section-full">
-                        <div className="title">
-                            Consistency across the board
+                <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">
+                
+
+                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+                <section className="float-left content-header align-items-center flex-layout-column">
+                        <div className="title content-block-60" style={{marginLeft:'-6%'}}>
+                        Consistency across the board
                         </div>
-                        <div className="subtitle margin-top-15">
-                            Building familiarity
+                        <div className="subtitle content-block-60 margin-top-15" style={{marginLeft:'-6%'}}>
+                        Building familiarity
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-15">
+                        <div className="content-block-60 content-text-18 margin-top-25" style={{marginLeft:'-6%'}}>
+                        <div className="float-right">
+                            <img className="photo-container width-100" src={digital_systems3} alt="Style Guides" /> 
+                        <p className="caption">Styleguide for OSIsoft </p> </div>
                             <p className="content-text-18"> 
+
                             Consistency is vital for a pleasant user’s experience, but it can be hard to come by with multiple designers working separately. Design systems allow easy access to universal versions of design assets (and their rules) to keep everyone on the same page, and ensure components remain consistent from one page or section to another.
                             That also holds true for different products. Brands looking to build their identity can use the exact same assets for all their products, giving everything a unified feel and rewarding loyal customers with familiar usability.</p>
                         </div>
@@ -98,10 +110,11 @@ class style_guide extends Component {
                         <img className="photo-container width-100" src={digital_systems3}  alt="Style Guides" /> 
                         <p className="caption">Styleguide for OSIsoft </p>
                     </div>      
+
                 </section>
-
+                
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
-
+                
                 <section className="float-left content-header align-items-center flex-layout-column">
                         <div className="title content-block-60 margin-left-6per">
                         Enhanced collaboration
@@ -111,11 +124,12 @@ class style_guide extends Component {
                         </div>
                         <div className="content-block-60 content-text-18 margin-left-6per margin-top-25">
                             <p className="content-text-18"> 
-                        
-                                During the initial creation of a design system — and its periodic updates — design systems get the right conversations started. Which logos go with different screen sizes? How do you want to handle the search function? <div className="float-right">
+                                During the initial creation of a design system — and its periodic updates — design systems get the right conversations started. Which logos go with different screen sizes? How do you want to handle the search function? 
+                            </p>
+                        <div className="float-right">
                             <img className="photo-container width-100" src={digital_systems4}  alt="Enhanced collaboration" /> 
-                            
-                        </div>What is the best accent color for call-to-action buttons? Simply setting out to make a design system forces your team to answer these questions, and make those answers easily accessible to everyone.</p> 
+                        </div>
+                        <p  className="content-text-18">What is the best accent color for call-to-action buttons? Simply setting out to make a design system forces your team to answer these questions, and make those answers easily accessible to everyone.</p> 
                             <p className="content-text-18">
                                 Having this kind of master reference guide also helps avoid miscommunication. By offering a definitive protocol and standards for otherwise ambiguous elements, design systems keep everyone on the same page. No guesswork, assumptions, or “going rogue.” Design systems also do wonders for problematic developer handoffs. Technical specs are embedded in the document which creates less confusion about how to build something in the backend, or whether it can be built at all. Design systems give designers and developers a shared language.</p>           
                         </div>   
@@ -123,12 +137,12 @@ class style_guide extends Component {
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="grid-2things flex-layout-center-center content-header margin-left-17">
-                    <div className="thing1 flex-layout-section-full">
+                <section className="grid-2things  flex-layout-center-center content-header margin-left-17">
+                    <div className="thing1  flex-layout-section-full">
                         <div className="subtitle">
                             No Version Control Problems
                         </div>
-                        <div className="content-block-60 content-text-18 margin-top-15">
+                        <div className="content-text-18 content-block-60 margin-top-15">
                             <p className="content-text-18"> It’s understood that the design system is the official document: every time a change needs to be made, it’s made there. Whenever a bug gets fixed or a new design component is introduced, it’s recorded into the design system so that the next person to use it stays up-to-date automatically. WDS likes to call it a “living document” because it’s always updating.<br></br>
                             This format of using only one, agreed-upon master document also ensures that every update gets made to the same file. You never have to merge multiple files that were updated independently of each other by different team members. Whenever you pull from the design system, you know you’re always using the most recent version. This significantly reduces the margin for error.</p>   
                         </div>
@@ -137,7 +151,7 @@ class style_guide extends Component {
                         <div className="subtitle">
                         Data-driven UX
                         </div>
-                        <div className="content-block-60 content-text-18 margin-top-15">
+                        <div className="content-block-60  content-text-18 margin-top-15">
                             <p className="content-text-18">So much of UX design depends on customer feedback. Different customer groups have different tastes and preferences, and they can be hard to keep track of, especially if your company is targeting more than one group.<br></br>
                             WDS sets design  standards for a design foundation, assimilating design with software development by fostering empathy for the software engineers. Asking questions and learning the language helps  bridge the gap between the customer and developer.<br></br>
                             Design systems help keep your UX data organized by optimizing patterns. Update the design system and every designer knows it’s the new norm going forward.
@@ -185,18 +199,20 @@ class style_guide extends Component {
                 </section>       
             </div> 
             
-            
+            </div>
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
                 <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
                        <img className="container-image-500 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
                       
                       <div >
-                          <p className="callout-text-white text-align-center">WDS specializes in SaaS design solutions and implementation.<p className="text-align-center margin-top-25" ></p>  </p>
+                          <p className="callout-text-white text-align-center">WDS specializes in SaaS design solutions and implementation.</p>
                     </div>
                 </div>
             </section> 
+
         </div>
     </div>
+
         )
     }
 }

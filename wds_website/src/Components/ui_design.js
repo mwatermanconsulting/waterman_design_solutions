@@ -46,7 +46,7 @@ class ui_design extends Component {
                  </div>
             </section>
             <section className="flex-layout-section-full flex-layout-column align-items-center">
-                <p className="title margin-top-75">
+                <p className="title padding-20 margin-top-75">
                 WDS has provided UI solutions to the some of the world's largest brands</p>
                 <p className="subtitle text-align-center content-block-65  margin-top-15">
                 Simplifying websites, products and software interfaces is a passion of WDS, and has been used by  industries such as the energy sector  to monitor nuclear reactors.
