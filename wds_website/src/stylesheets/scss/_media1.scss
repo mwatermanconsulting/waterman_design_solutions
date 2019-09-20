@@ -84,10 +84,13 @@
     max-width: 650px;
     height: auto;
     border: 2px solid #000;
+    margin-bottom: 50px;
   }
   .photo-container {
     width: 100%;
+    height: auto;
     max-width: 550px;
+    margin: 10px;
   }
 
   .photo-container-cs-sb1{
@@ -134,9 +137,9 @@
     margin-top: 0%;
   }
     
-  .hrline-spacing {
-    margin-top: 25px;
-    margin-bottom: 25px;
+  .hrline-spacing {
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 
   .card-case-studies {
@@ -287,30 +290,31 @@
   }
 
   .grid-left {
-    grid-column: 1fr;
-    grid-row: auto;
+    grid-column: auto;
+    grid-row: 1/2;
     justify-content: center;
     margin-left: 2%;
   }
 
-  .grid-right-photo {
-    grid-column: 1;
-    grid-row: auto;
-    justify-content: center;
-    align-self: center;
-  }
+  
+    .grid-right, .grid-right-css, .grid-right-ds, .grid-right-photo {
+      grid-column: auto;
+      grid-row: 2/2;
+      margin-left: 0;
+    }
+ 
 
   .grid-2col-text-photo {
     grid-template-columns: 1fr;
     grid-template-areas: "text" "photo";
-    grid-column-gap: 50px;
+    grid-gap: 10px;
     display: grid;
     justify-items: center;
   }
   .grid-2col-photo-text {
     grid-template-columns: 1fr;
     grid-template-areas: "photo" "text";
-    grid-column-gap: 50px;
+    grid-gap: 10px;
     display: grid;
     justify-items: center;
   }
@@ -318,7 +322,7 @@
   .grid-2col-photo-content {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-column-gap: 50px;
+    grid-gap: 10px;
     display: grid;
     justify-items: center;
   }
@@ -357,7 +361,8 @@
 
   .grid-2things {
     width: 90%;
-    grid-template-columns: 1;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
     grid-gap: 25px;
     display: grid;  
   }
@@ -605,6 +610,13 @@
   height: auto;
   border: 1px solid $black;
 }
+.container-photo-callout {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  border: 2px solid #000;
+  margin-bottom: 0px;
+}
 
 .margin-left-15 {
   margin-left: 15px;
@@ -640,14 +652,14 @@
 }
 
 .grid-right-photo {
-  grid-column: 2/2;
+  grid-column: 2;
   grid-row: auto;
   justify-items: center;
   align-self: center;
 }
 
 .grid-right-css {
-  grid-column: 2/2;
+  grid-column: 2;
   grid-row: auto;
   margin-left: -4%;
 }
@@ -731,17 +743,20 @@
   
     .grid-2things {
       width: 1200px;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(1, 1fr);
       grid-gap: 25px;
       display: grid;  
     }
 
     .thing1 {
-      grid-column: 1/1;
+      grid-column: 1/2;
+      grid-row: auto;
     }
   
     .thing2 {
-      grid-column: 2/1;
+      grid-column: 2/2;
+      grid-row: auto;
     }
   
   }
@@ -837,7 +852,7 @@
   }
 
   .grid-left {
-    grid-column: 1fr;
+    grid-column: 1;
     grid-row: auto;
     justify-content: center;
     margin-left: 7%;

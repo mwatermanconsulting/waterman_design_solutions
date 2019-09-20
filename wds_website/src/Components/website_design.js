@@ -60,7 +60,7 @@ class digital_design extends Component {
                 </div>
             </section>
             
-            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+            <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
             <section className="flex-layout-section-full flex-layout-center-center">
                 <div className="subtitle">
@@ -89,7 +89,7 @@ class digital_design extends Component {
                 </div>
             </section>
 
-            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+            <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
             <section className="flex-layout-section-full align-self-center">
                 <div className="grid-2col-text-center margin-left-15 width-100" >
