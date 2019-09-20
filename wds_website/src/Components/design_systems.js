@@ -103,7 +103,7 @@ class style_guide extends Component {
                             Consistency is vital for a pleasant user’s experience, but it can be hard to come by with multiple designers working separately. Design systems allow easy access to universal versions of design assets (and their rules) to keep everyone on the same page, and ensure components remain consistent from one page or section to another.
                             That also holds true for different products. Brands looking to build their identity can use the exact same assets for all their products, giving everything a unified feel and rewarding loyal customers with familiar usability.</p>
                         </div>
-                    </div>
+                    
                     <div className="grid-right-ds align-self-baseline">
                         <img className="photo-container width-100" src={digital_systems3}  alt="Style Guides" /> 
                         <p className="caption">Styleguide for OSIsoft </p>
