@@ -1,5 +1,6 @@
 import React, { Component } from 'react' ;
 import { NavLink } from 'react-router-dom';
+import Helmet from 'react-helmet';
 import method from '../images/backgrounds/bg-methodology.svg';
 import stayinlane from '../images/graphic-stayinlane.svg';
 import methodology2 from '../images/photos/photo-methodology-s2.png';
@@ -22,6 +23,13 @@ import uxdiagram from '../images/photos/photo-methodology-ux-diagram.png';
 class methodology extends Component {
     render () {
         return(
+            <div>
+            <Helmet>
+                <meta name="description" content="EMPATHY and PASSION are the core of our business and the heart of the WDS UX methodology. Our UX methodology produces answers and empathetic designs that connect and resonates with users and uncovers unarticulated user needs that drives business transformation." />
+                <meta charSet="utf-8" />
+            <title>Marketing</title>
+            <link rel="canonical" href="http://watermandesignsolutions/methodology" />
+            </Helmet>
         <div className="flex-layout-column"> 
             <div className="flex-section-fixed-head">
                 <div className="image-background-border-tb">
@@ -57,7 +65,7 @@ class methodology extends Component {
                             The science of understanding people has developed for centuries, but not enough has been done to integrate these approaches into the process of UI design. For more than a decade, WDS has refined a scalable, flexible methodology that centers on answering questions about customers.<br></br>This is accomplished by connecting and understanding people, observing their daily workflow,  interviewing and conversing with them, which identifies  needs, behaviors and aspirations. <br></br>WDS provides a perspective on customers that clients typically have never been seen. </p>
 
                         <p className="content-text-21 content-block-75 align-self-center text-align-center">
-                            WDS methodology produces answers and empathetic designs that connect and resonates with users, uncovers unarticulated user needs and drives business transformation. </p>
+                            WDS methodology produces answers and empathetic designs that connect and resonates with users and uncovers unarticulated user needs that drives business transformation. </p>
                     </div>
                 </section>
 
@@ -84,7 +92,7 @@ class methodology extends Component {
                                     
                                 </div> 
                             <p className="content-text-18">
-                                A design review is a process to evaluate and critique current design work. It looks at how specific features have been implemented and/or evaluates a prototype of a project feature or user flow. Design reviews can be modeled after the five elements of the user experience with an evaluation of the elements from abstract concepts to concrete stages.
+                                A design review is a process to evaluate and critique the current design. The review examines specific features that have been implemented and/or evaluates an MVP and the user work flow. Design reviews can be modeled after the five elements of the user experience with an evaluation of these elements from abstract concepts to concrete stages.
 
                                 <ul className="dashed  margin-left-10 margin-top-15" style={{marginTop:'15px'}}>
                                     <li><b>Surface</b> - everything visually the <br/> "Look and Feel"  of the site or app</li>
@@ -116,7 +124,7 @@ class methodology extends Component {
                                 </div> 
                             <p className="content-text-18"> 
                             At the beginning of the methodology, WDS sets the foundation for success by developing an
-                            understanding of the business, the industry, the competition and relevant trends. This is the basis for how subsequent phases are approached, including secondary research, interviewing stakeholders and subject matter experts. </p>
+                            understanding of the business, the industry, competition analysis and relevant trends. This is the basis for how subsequent phases are approached, including secondary research, interviewing stakeholders and subject matter experts. </p>
 
                             <ul className="dashed">
                                 <li>Kickoff Meeting</li>
@@ -151,7 +159,7 @@ class methodology extends Component {
                                     <img className="container-photo-callout" and src={methodology4}  alt="Observation" /> 
                             </div> 
                             <p className="content-text-18 content-block-75">
-                                Observation provides insight beyond the traditional testing methods, with  users  working in real life settings, leading to valuable insights. This is done in a highly unobtrusive way simply by sitting in their offices and video taping how the user is navigating. The goal in this phase is to emphasize with the user as they complete their the users work flows and pain points. Although observation is the first choice, WDS knows that this is not always feasible, but its strategies are sophisticated and empathic enough that they  can see solutions to unarticulated needs.
+                                Observation provides insight beyond the traditional testing methods, watching users working in real life settings, leads to valuable insights. This is done in a highly unobtrusive way simply by sitting in their offices and video taping how the user is navigating the interface. The goal is to empathize with the user as they complete their the users work flows.
                             </p>
 
                             <ul className="dashed content-block-75 content-text-16">
@@ -190,7 +198,7 @@ class methodology extends Component {
                                     <img className="container-photo-callout" and src={methodology5}  alt="Capturing Data" /> 
                             </div> 
                             <p className="content-text-18">
-                            To understand the research WDS needs to understand  people and know how to interpret their actions.  Observers may ask a few very open ended questions, such as, “Why are you doing that?” They carry a list of questions to prompt their own observations: “What problems is the user encountering?” Most of the data is gathered from visual, auditory, and sensory cues, which is done using  videography, audio recordings and notes as tools to begin reflection.
+                            To understand the research WDS needs to understand the users and to interpret their actions.  Observers may ask a few very open ended questions, such as, “Why are you doing that?” They carry a list of questions to prompt their own observations: “What problems is the user encountering?” Most of the data is gathered from visual, auditory, and sensory cues, which is done using videography, audio recordings and notes as tools to begin reflecting on the results.
                             </p>
                         </div>
                         
@@ -213,7 +221,7 @@ class methodology extends Component {
                                     <img className="container-photo-callout" and src={methodology6}  alt="Reflection and Analysis" /> 
                             </div> 
                             <p className="content-text-18"> 
-                            After gathering data in many forms, the UX designers return to reflect on the user and business research and share the data with the team through analysis of workflows, user journeys and pain points. They will ask questions that the team members may or may not be able to answer resulting in sending them out for further observation and research. At this point the team begins to identify all of its customers’ possible problems and needs.</p>
+                            After gathering data in many forms, the UX designers return to reflect on the user and business research and share the data with the team through analysis of workflows, user journeys and pain points. They will ask questions that the team members may or may not be able to answer resulting in  further observation and research. At this point WDS begins to identify all of its customers’ possible problems and needs.</p>
 
                         </div>
                     </div>
@@ -265,7 +273,7 @@ class methodology extends Component {
                                     <img className="container-photo-callout" and src={methodology8}  alt="Final Design Presentation" /> 
                             </div>
                             <p className="content-text-18"> 
-                               The final design incorporates all the research findings and design solutions. WDS understands for a project to be successful it needs to be designed with the business core values and branding that simplifies an effective customer experience. This ensures that the project is designed with empathy and meets the user and business expectations. </p>
+                               The final design incorporates all the research findings and design solutions. WDS understands for a project to be successful the design needs to incorporate the business core values and branding, while simplifying the user experience. This ensures that the project is designed with empathy and meets the user and business expectations. </p>
                             <ul className="dashed">
                                 <li><a href="../design_solutions">Custom Design Solution</a></li>
                                 <li>High fidelity mockup</li>
@@ -295,7 +303,7 @@ class methodology extends Component {
                                     <img className="container-photo-callout" and src={methodology9}  alt="Front-end Development" /> 
                             </div>
                             <p className="content-text-18"> 
-                            This phase works closely with the developers. A team can be embedded or work remotely. Developing a CSS solution and responsive HTML, the WDS team will work seamlessly with developers developing the front-end as they code the back-end working in your agile cycles. </p>
+                            In this phase WDS works closely with the developers. WDS can embedded a team or Michael or work remotely. They Develop a CSS solution along with responsive HTML, the WDS team will work seamlessly with developers, developing the front-end as they code the back-end working in your agile cycles. </p>
                             <ul className="dashed">
                                 <li><a href="../css_solutions">CSS Solutions</a></li>
                                 <li>CSS Development (SaSS and LeSS)</li>
@@ -324,7 +332,7 @@ class methodology extends Component {
                                     <img className="container-photo-callout" and src={methodology10}  alt="User Testing" /> 
                             </div>
                             <p className="content-text-18">
-                            The testing phase reveals whether questions were answered, user pain points were reduced expectations were met. This phase will last the entire development phase and never stop.
+                            The testing phase reveals whether questions were answered, user pain points were reduced and expectations were met. This phase will last the entire development phase and never stop.
                             </p>
 
                             <ul className="dashed">
@@ -422,7 +430,7 @@ class methodology extends Component {
                                     <img className="container-photo-callout" and src={methodology13}  alt="Core Offerings" /> 
                             </div>
                             <p className="content-text-18"> 
-                                The last part of WDS methodology is services to help spread design values to the C-suite. It is critical to company survival to build a culture of empathy and design. </p>
+                                The last part of the WDS methodology is their core offerings designed to help spread the business value to your business through workshops and strategies. It is critical to company survival to build a culture of empathy and design. </p>
 
                             <ul className="dashed">
                                 <li><a href="../strategy_insight"> Strategies and Insight</a></li>
@@ -493,6 +501,7 @@ class methodology extends Component {
                 </div>
             </section>    
             </div>
+        </div>
         )
     }
 }

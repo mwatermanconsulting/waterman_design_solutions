@@ -16,10 +16,9 @@ class css_solutions extends Component {
         return(
             <div>
             <Helmet>
-                <meta name="description" content="WDS Our CSS services include CSS development, strategy, CSS system implementation, mentoring, documentation, and best of practice documentation." />
-                <meta name="keywords" content="case studies, WDS, stubhub, motorola" />
+                <meta name="description" content="The WDS CSS specialists deliver their custom CSS solutions as npm packages or through github. The packages include a developer build kit with custom css, sass or less files, html files and documentation. WDS can refactor your current CSS or develop a customizable CSS solution that will scale as the project matures. " />
                 <meta charSet="utf-8" />
-                <title>WDS Case Studies - OsiSoft</title>
+                <title>CSS Solutions</title>
                 <link rel="canonical" href="http://watermandesignsolutions/css_solutions" />
             </Helmet>
         <div className="flex-layout-column"> 
@@ -31,7 +30,8 @@ class css_solutions extends Component {
                 </section>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                    Our CSS solutions will have your developers touching CSS 80% less.
+                    WDS CSS solutions will have your developers touching the CSS 80% less
+
                 </div>
             </div>
 
@@ -54,7 +54,7 @@ class css_solutions extends Component {
                 <div className="content-block-50 margin-top-50">
                     <p className="content-text-24 text-align-center">
                         <img className="photo-container margin-bottom-20" src={cheer}  alt="Happy developers" /> <br></br>
-                        WDS solutions are based on empathy and  working experiences with developers. Their CSS knowledge and experience is one of the main reasons they get contracts.  CSS solutions are scalable and customizable to your business requirements. </p>
+                        WDS solutions are based on obersverempathy and  working experiences with developers. Their CSS knowledge and experience is one of the main reasons they get contracts.  CSS solutions are scalable and customizable to your business requirements. </p>
                 </div>
                 <NavLink className='button-area no-decoration' type="button" to={'/case_study_4'}>
                    OSIsoft Case Study
@@ -123,6 +123,25 @@ class css_solutions extends Component {
                      
                 </section>
 
+                <section className="grid-2col-photo-content content-header">
+                    <div className="grid-left flex-layout-section-full">
+                        <div className="title">
+                            CSS Solutions Package 
+                        </div>
+                        <div className="subtitle margin-top-15">
+                            NPM and GitHub
+                        </div>
+                        <div className="content-block-75 content-text-18 margin-top-15">
+                            <p className="content-text-18"> 
+                            The WDS CSS specialists deliver their custom CSS solutions as npm packages or through github. The packages includes a developer build kit with the custom css, sass or less files, html files and documentation. WDS can refactor your current CSS or develop a customizable CSS solution that will scale as the project matures.</p>
+                        </div>
+                    </div>
+                    <div className="grid-right-css container-image-block margin-top-50">
+                        <img className="photo-container" src={css3}  alt=" Reusable CSS" /> 
+                    </div>  
+                     
+                </section>
+
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
                 <div className="grid-2col-photo-content content-header">
@@ -144,33 +163,8 @@ class css_solutions extends Component {
                 </div>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75" ></div>
-
-                <section className="flex-layout-section-full margin-bottom-100 margin-left-17">
-                    <div className="title content-block-75">
-                        WDS Methodology Works With Your Existing CSS                       
-                    </div>
-                    <div className="subtitle content-block-75 margin-top-15">
-                            Rebuilding your CSS to be lean, fast and scalable
-                    </div>
-                    <div className="content-text-18 content-block-75 margin-top-15">
-                            <ul className="content-text-24 dashed margin-bottom-20"  ><b> List of CSS Services</b>
-                                <li className='margin-top-15'>SasS or Less Implementation</li>
-                                <li> Set of global reusable classes</li>
-                                <li>Object oriented CSS</li>
-                                <li>Updated style sheets</li>
-                                <li>Contract work in-house</li>
-                                <li>BEM Naming Conventions</li>
-                                <li>Scalable enterprise CSS solutions</li>
-                                <li>Faster pages loads</li>
-                                <li>Proven Methodology for seamless integration</li>
-                            </ul>
-
-                        </div>
-                   
-                </section>
                 </div>
                 
-               
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
                 <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
                        <img className="container-image-500 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 

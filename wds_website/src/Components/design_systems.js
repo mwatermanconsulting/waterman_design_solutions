@@ -1,10 +1,10 @@
-import React, { Component } from 'react' ;
+import React, { Component } from 'react';
+import Helmet from 'react-helmet';
 import digital_systems from '../images/backgrounds/bg-digital-systems.png';
 import digital_systems1 from '../images/photos/photo-digital-systems-s1.png';
 import digital_systems2 from '../images/photos/photo-digital-systems-s2.png';
 import digital_systems3 from '../images/photos/photo-digital-systems-s3.png';
 import digital_systems4 from '../images/photos/photo-digital-systems-s4.png';
-import digital_systems5 from '../images/photos/photo-digital-systems-s5.png';
 import digital_systems6 from '../images/photos/photo-digital-systems-s6.png';
 import digital_systems7 from '../images/photos/photo-digital-systems-s7.png';
 import didyouknow from '../images/graphic-didyouknow.svg';
@@ -12,6 +12,13 @@ import didyouknow from '../images/graphic-didyouknow.svg';
 class style_guide extends Component {
     render () {
         return(
+            <div>
+            <Helmet>
+                <meta name="description" content="A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive, combining components, behaviors, and branding. It must also be flexible and scalable." />
+                <meta charSet="utf-8" />
+                <title>Design Solutions</title>
+                <link rel="canonical" href="http://watermandesignsolutions/design_systems" />
+            </Helmet>
         <div className="flex-layout-column"> 
             <section className="flex-section-fixed-head-child yellow flex-layout-center-center image-background-border-tb">
                     <div className="header-text-center header-title text-white">
@@ -56,8 +63,10 @@ class style_guide extends Component {
                         <div className="title content-block-60" style={{marginLeft:'-6%'}}>
                         Less Errors
                         </div>
-                        <div className="subtitle content-block-60 margin-top-15" style={{marginLeft:'-6%'}}>
-                        Saving time
+
+                        <div className="subtitle margin-top-15">
+                            Saving Time
+
                         </div>
                         <div className="content-block-60 content-text-18 margin-top-25" style={{marginLeft:'-6%'}}>
                             <p className="content-text-18"> 
@@ -90,22 +99,28 @@ class style_guide extends Component {
                             <img className="photo-container width-100" src={digital_systems3} alt="Style Guides" /> 
                         <p className="caption">Styleguide for OSIsoft </p> </div>
                             <p className="content-text-18"> 
-                            Consistency is vital to a user’s experience, but it can be hard to come by with multiple designers working separately. Design systems allow easy access to universal versions of design assets (and their rules) to keep everyone on the same page, and ensure components remain consistent from one page or section to another.
-                            That also holds true for different products. Brands looking to build their identity can use the exact same assets for all their products, giving everything a unified feel and rewarding loyal customers with familiar usability.
-                         </p>        
-                        </div>   
+
+                            Consistency is vital for a pleasant user’s experience, but it can be hard to come by with multiple designers working separately. Design systems allow easy access to universal versions of design assets (and their rules) to keep everyone on the same page, and ensure components remain consistent from one page or section to another.
+                            That also holds true for different products. Brands looking to build their identity can use the exact same assets for all their products, giving everything a unified feel and rewarding loyal customers with familiar usability.</p>
+                        </div>
+                    </div>
+                    <div className="grid-right-ds align-self-baseline">
+                        <img className="photo-container width-100" src={digital_systems3}  alt="Style Guides" /> 
+                        <p className="caption">Styleguide for OSIsoft </p>
+                    </div>      
+
                 </section>
                 
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
                 
                 <section className="float-left content-header align-items-center flex-layout-column">
-                        <div className="title content-block-60" style={{marginLeft:'-6%'}}>
+                        <div className="title content-block-60 margin-left-6per">
                         Enhanced collaboration
                         </div>
-                        <div className="subtitle content-block-60 margin-top-15" style={{marginLeft:'-6%'}}>
+                        <div className="subtitle content-block-60 margin-left-6per margin-top-15">
                             What makes sense for the user
                         </div>
-                        <div className="content-block-60 content-text-18 margin-top-25" style={{marginLeft:'-6%'}}>
+                        <div className="content-block-60 content-text-18 margin-left-6per margin-top-25">
                             <p className="content-text-18"> 
                                 During the initial creation of a design system — and its periodic updates — design systems get the right conversations started. Which logos go with different screen sizes? How do you want to handle the search function? 
                             </p>
@@ -155,7 +170,6 @@ class style_guide extends Component {
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-15">
                             <p className="content-text-18">  A subclass in the design system, this is the set of design patterns for use across a company. A pattern library, documents all of these ‘patterns’ (also often known as modules) and defines how they behave, what they look like and how they are coded.</p>
-
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
@@ -175,8 +189,6 @@ class style_guide extends Component {
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-15">
                             <p className="content-text-18">  Another subclass in the design system, this static documentation describes the design system itself: how products should look and feel, use cases for UI patterns, correct typographic scales, etc.</p>
-                            <p className="content-text-18">  Find out how we implemented a style guide and design system for OsiSoft.</p>
-
                         </div>
                     </div>
                     <div className="grid-right container-image-block">
@@ -195,8 +207,10 @@ class style_guide extends Component {
                     </div>
                 </div>
             </section> 
-            </div>    
-    
+
+        </div>
+    </div>
+
         )
     }
 }
