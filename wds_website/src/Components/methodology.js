@@ -69,7 +69,7 @@ class methodology extends Component {
                     </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="flex-layout-full align-items-center flex-layout-column">
                         <div className="title flex-layout-center"> 
@@ -106,7 +106,7 @@ class methodology extends Component {
                             </div>
                     </section> 
 
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 
                     <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
@@ -142,7 +142,7 @@ class methodology extends Component {
 
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
                     <div className="float-left flex-layout-center-center content-block-60">
@@ -181,7 +181,7 @@ class methodology extends Component {
                        
                 </section>
                 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
                     <div className="float-left flex-layout-center-center content-block-60">
@@ -206,7 +206,7 @@ class methodology extends Component {
                         
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
                     <div className="float-left flex-layout-center-center content-block-60">
@@ -228,7 +228,7 @@ class methodology extends Component {
                         
                 </section>
                 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
                     <div className="float-left flex-layout-center-center content-block-60">
@@ -258,7 +258,7 @@ class methodology extends Component {
                          
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
                     <div className="float-left flex-layout-center-center content-block-60">
@@ -288,7 +288,7 @@ class methodology extends Component {
                         
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
                     <div className="float-left flex-layout-center-center content-block-60">
@@ -316,7 +316,7 @@ class methodology extends Component {
                          
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
                     <div className="float-left flex-layout-center-center content-block-60">
@@ -351,7 +351,7 @@ class methodology extends Component {
                         
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
                     <div className="float-left flex-layout-center-center content-block-60">
@@ -383,7 +383,7 @@ class methodology extends Component {
                        
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
                     <div className="float-left flex-layout-center-center content-block-60">
@@ -415,7 +415,7 @@ class methodology extends Component {
                         
                 </section>
                 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
                     <div className="float-left flex-layout-center-center content-block-60">

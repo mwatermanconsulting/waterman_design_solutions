@@ -51,7 +51,7 @@ class marketing extends Component {
                 </div>
             </section>
 
-            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+            <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
             <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">
                 <div className="grid-2col-photo-content content-header">
@@ -72,7 +72,7 @@ class marketing extends Component {
                     </div>     
                 </div>
 
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
+                <div className="flex-layout-section thin-hr hrline-spacing width-70"> </div>
 
                 <div className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
@@ -93,7 +93,7 @@ class marketing extends Component {
                     </div>     
                 </div>
 
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}>
+                <div className="flex-layout-section thin-hr hrline-spacing width-70">
 </div>
                 <div className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
@@ -114,7 +114,7 @@ class marketing extends Component {
                     </div>    
                 </div>
 
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
+                <div className="flex-layout-section thin-hr hrline-spacing width-70"></div>
 
                 <div className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">

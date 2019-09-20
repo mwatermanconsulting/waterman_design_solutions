@@ -1,4 +1,5 @@
-import React, { Component } from 'react' ;
+import React, { Component } from 'react';
+import Helmet from 'react-helmet';
 import practice from '../images/backgrounds/bg-services.svg';
 import together from '../images/photos/photo-why-wds.png';
 import services2 from '../images/photos/photo-services-s2.png';
@@ -21,6 +22,13 @@ import icon_marketing from '../images/icon-why-marketing.svg';
 class services extends Component {
     render () {
         return(
+            <div>
+            <Helmet>
+                <meta name="description" content="The role of a UX consultant is to listen and connect to the customers. WDS services are a testament to their belief in old fashioned customer service. Their services include: UX Design, UI Design and development, Design Solutions, strategy and insight, CSS solutions, Marketing, Core offerings and website design" />
+                <meta charSet="utf-8" />
+            <title>Services</title>
+            <link rel="canonical" href="http://watermandesignsolutions/services" />
+            </Helmet>
         <div className="flex-layout-column"> 
             <section className="flex-section-fixed-head image-background-border-tb">
                 <div className="flex-image-container flex-item-bottom grey">
@@ -36,11 +44,11 @@ class services extends Component {
             <section className="grid-callout yellow-bg"> 
                 <div className="grid-callout-text grid-placeself-center width-70">
                     <p className="callout-text ">
-                       The role of a UX consultant is to listen to the customers. Our service list is a testament to our belief in old fashioned customer service.
+                       The role of a UX consultant is to listen and connect to the customers. Our service list is a testament to our belief in old fashioned customer service.
                     </p>     
                 </div>
                 <div className="grid-callout-photo grid-placeself-center">
-                    <img className="flex-image-container width-100" src={together}  alt="Services" /> 
+                    <img className="flex-image-container width-100" src={together}  alt="Working together" /> 
                 </div>
             </section>
        
@@ -48,11 +56,11 @@ class services extends Component {
                 <p className="title margin-top-75">
                     WDS Services</p>
                 <p className="subtitle text-align-center  margin-top-15">
-                     Design always determines success, and understanding the user is paramount. <br/> Our team designs with empathy to connect people meeting their needs and expectations. 
+                     Design always determines success, and understanding the user is paramount to that success. <br/> The team of WDS UX designers, design with empathy that connects with people that meets their needs and expectations. 
                 </p>
             </section>
 
-            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+            <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
                     <div className="float-left flex-layout-center-center content-block-65">
@@ -69,7 +77,7 @@ class services extends Component {
                         <p className="content-text-18">
                         
                         <div className="float-right callout-photo grid-placeself-center">
-                        <img className="container-photo-callout" src={services3}  alt="UX" /> 
+                        <img className="container-photo-callout" src={services3}  alt="UX Design" /> 
                         <p className="caption">Photo by Frank on Unsplash</p></div>
 
                             The visual elements, they create will establish your brand as a design leader in your space. By understanding your business, users and competition WDS will ensure that you have a unique presence that include familiar use of fonts, icons with design solutions that has a certain elegance that resonates with your users emotions. </p>
@@ -80,12 +88,9 @@ class services extends Component {
                     </div>
                 </section>
 
-           
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
-
-               
-                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100">
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
                     <div className="float-left flex-layout-center-center content-block-65">
                         <div className="title">
                             UI Design and Development
@@ -94,22 +99,22 @@ class services extends Component {
                             Websites, Products and Applications
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                            <img className="container-photo-callout" src={services2}  alt="UI Design" /> 
+                            <img className="container-photo-callout margin-top-2" src={services2}  alt="UI Design" /> 
                             <p className="caption">Photo by Frank on Unsplash</p>
                             </div>
                         <div className="margin-top-15">  
                             <p className="content-text-18"> 
-                            WDS honed its UI design skills by designing websites in 1998. Over the years we have designed and developed complicated healthcare websites to solving difficult UI problems on critical applications. Our current data visualization designs are being used on oil rigs, nuclear reactors and pharmaceutical drug plants.  
+                            WDS honed its UI design skills by designing websites in 1998. Over the years they have designed and developed large complicated websites to solving difficult UI problems on critical applications. Their current data visualization designs are being used on oil rigs, nuclear reactors and pharmaceutical drug plants.  
                             </p>
                             <p className="content-text-18">
-                            WDS can take care of the front-end development including CSS and HTML development, working on-site with your team or creating GIT build-packages complete with custom CSS solutions, patterns libraries, style guides, best of practice documentation and design strategies, ensuring and enforcing original design and solutions.
+                            WDS can take care of the front-end development including CSS and HTML development, working on-site with your team or creating GIT build-packages complete with custom CSS solutions, patterns libraries, style guides, best of practice documentation and design strategies, ensuring and enforcing the original design.
                             </p>      
                             
                             </div>  
                         </div>
                     </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="float-left flex-layout-section-full flex-layout-column flex-layout-center-center">
                     <div className=" title content-block-65">
@@ -122,7 +127,7 @@ class services extends Component {
                                 <img className="container-photo-callout" src={services7}  alt="Design Solutions" /> 
                         </div> 
                         <p className="content-text-18  content-block-65"> 
-                            Our design solutions include software designs, websites, marketing and print design. Our design solutions provide our clients consistency across all their consumer touchpoints. Consistency breeds brand familiarity and user loyalty</p> 
+                            WDS design solutions include software designs, websites, marketing and print design. Our design solutions provide our clients consistency across all their consumer touchpoints. Consistency breeds brand familiarity and user loyalty</p> 
                             <p className="content-text-18  content-block-65">
                             All of their design solutions are designed with empathy, always focused on the user and business needs.  </p>
                             <p className="content-text-18">
@@ -132,7 +137,7 @@ class services extends Component {
                         </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="float-left flex-layout-section-full flex-layout-column flex-layout-center-center">
                     <div className=" title content-block-65">
@@ -157,7 +162,7 @@ class services extends Component {
                 </section>
 
                
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="float-left flex-layout-section-full flex-layout-column flex-layout-center-center">
                     <div className=" title content-block-65">
@@ -170,9 +175,9 @@ class services extends Component {
                                 <img className="container-photo-callout" src={casscade}  alt="CSS Solutions" /> 
                         </div>  
                         <p className="content-text-18 content-block-65">
-                        Our CSS services include CSS development, Strategy, CSS system implementation, mentoring and documentation, including best of practice documentation.</p> 
+                        WDS provides CSS services that include CSS development, Strategy, CSS system implementation, mentoring and documentation,including best of practice documentation.</p> 
                         <p className="content-text-18 margin-top-15">
-                        Our solutions are based off our empathy and experiences working with developers. After our design solutions our CSS knowledge and experience is one of the main reasons WDS gets contracted by companies. Our CSS solutions are scalable and customizable to your business requirements.
+                        Their solutions are based off our empathy and experiences working with developers. After our design solutions our CSS knowledge and experience is one of the main reasons WDS gets contracted by companies. The CSS solutions are scalable and customizable to your business requirements.
                         </p>
                         <p className="content-text-18">
                         WDS develops lean, scalable solutions, CSS solutions saving your business money and time. Keeping your developers happy and focused on what they do best.</p>
@@ -181,7 +186,7 @@ class services extends Component {
                         </div>
                 </section>
 
-                <div className="flex-layout-section thin-hr margin-top-100 margin-bottom-100" style={{ width: '75%' }}></div>
+                <div className="flex-layout-section thin-hr hrline-spacing width-70"></div>
 
                 <section className="float-left flex-layout-section-full flex-layout-column flex-layout-center-center">
                     <div className=" title content-block-65">
@@ -194,10 +199,10 @@ class services extends Component {
                                 <img className="container-photo-callout" src={services4}  alt="Social Media" /> 
                         </div>  
                         <p className="content-text-18 content-block-65">
-                        WDS understands people on a deep level. Our methodology gives a voice to the your users and customers. Daily lives are effected by the use of your application or product. Your marketing campaign should be a reflect the vision of who you are as a business and tell that story. Every business has a story. We will define a marketing strategy based on research, data with a clear vision that reflects and embraces real human values.</p> 
+                        WDS understands people on a deep level. Their UX methodology gives a voice to the your users. Your marketing campaign should be a reflect the vision of who you are as a business and tell that story. Every business has a story. We will define a marketing strategy based on research, data with a clear vision that reflects and embraces real human values.</p> 
 
                         <p className="content-text-18 content-block-65">
-                        Our goal is to identify the right approach for your unique target audiences on social media. We plan, develop, and execute innovative social media marketing strategies that build a meaningful experience across all marketing material touchpoints.</p> 
+                        WDS main goal is to identify the right approach for your unique target audiences on social media. They plan, develop, and execute innovative social media marketing strategies that build a meaningful experience across all marketing material touchpoints.</p> 
                         </div>
                 </section>
             
@@ -304,7 +309,7 @@ class services extends Component {
                 </section>
             </div>
                 
-                <section className="grid-callout-2col content-header align-self-center justify-items-center margin-top-100 margin-bottom-100 width-70">
+                <section className="grid-callout-2col content-header align-self-center justify-items-center hrline-spacing width-70">
                     <div className="gallery-2col-1 container-image-500">
                         <a href ="./css_solutions"><img className="container-image-500 border-2" src={services8}  alt="CSS Solutions" /> </a>
                         <div className="content-block-auto ">
@@ -323,7 +328,7 @@ class services extends Component {
                             <a href="./design_systems" className="no-decoration"> 
                                 Design Systems</a></div>
                             <p className="content-text-18 margin-top-15">
-                                At WDS, we know and understand the importance of design systems to businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff.</p>
+                                At WDS, they know and understand the importance of design systems to businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff.</p>
                         </div>
                     </div>
             </section>
@@ -337,7 +342,7 @@ class services extends Component {
                                 Many design issues stem from difficult relationships between programmers and designers. </p>
                             <p className="content-text-18 margin-top-15">  
                             
-                                As designers, we have connected with programmers and developers using a methodology of empathy. This includes fitting designers into agile systems so that the project runs things smoothly.</p> 
+                                As designers, WDS has connected with programmers and developers using a methodology of empathy. This includes fitting designers into agile systems so that the project runs things smoothly.</p> 
 
                         </div>
                     </div>              
@@ -347,8 +352,9 @@ class services extends Component {
                     </div>
                 </div>
             </section>
-                 
+                
             </div>
+        </div>
         )
     }
 }
