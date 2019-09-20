@@ -1,4 +1,5 @@
-import React, { Component } from 'react' ;
+import React, { Component } from 'react';
+import Helmet from 'react-helmet';
 import finding_truth from '../images/backgrounds/bg-finding-truth.png';
 import finding from '../images/photos/photo-documentation-s1.png';
 import finding_truth1 from '../images/photos/photo-finding-truth-s1.png';
@@ -14,6 +15,13 @@ import didyouknow from '../images/graphic-didyouknow.svg';
 class innovative_solutions extends Component {
     render () {
         return(
+            <div>
+            <Helmet>
+                <meta name="description" content="WDS UX methodology connects with your users. They connect with users by observing and interviewing them. People will always open up and confide in you if they feel you are on their side especially when you empathize with their needs. This is how WDS uncover truths that were previously unknown." />
+                <meta charSet="utf-8" />
+                <title>Finding the Truth</title>
+                <link rel="canonical" href="http://watermandesignsolutions/finding_the_truth" />
+            </Helmet>
         <div className="flex-layout-column"> 
             <section className="flex-section-fixed-head flex-layout-center-center image-background-border-tb">
                 <div className="header-text-center header-title text-white">
@@ -28,7 +36,7 @@ class innovative_solutions extends Component {
             <section className="grid-2col-photo-content photo-content-color border-bottom-5 height-670" > 
                 <div className="grid-item-b content-block-60 content-header flex-layout-column">
                     <div className="callout-text text-align-left">
-                        WDS methodology allows them to connect with users. The UX designers connect with users by observing and interviewing. People will always open up and confide in you if they feel you are on their side and  care about their needs. This is how WDS uncover truths that were unknown. </div>
+                        WDS UX methodology connects them with your users. They connect with users by observing and interviewing them. People will always open up and confide in you if they feel you are on their side especially when you show you empathize with their needs. This is how WDS uncover truths that were previously unknown. </div>
                              
                 </div>
                 <div className="item-a-nb container-image-block">
@@ -249,6 +257,7 @@ class innovative_solutions extends Component {
                 </div>
             </section>    
             </div>
+        </div>
         )
     }
 }

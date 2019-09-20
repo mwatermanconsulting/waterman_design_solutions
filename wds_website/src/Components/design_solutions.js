@@ -1,5 +1,5 @@
-import React, { Component } from 'react' ;
-import { Button } from 'react-mdl';
+import React, { Component } from 'react';
+import Helmet from 'react-helmet';
 import { NavLink } from 'react-router-dom';
 import design from '../images/backgrounds/bg-design.svg';
 import designer from '../images/photos/photo-design-s1.png';
@@ -12,6 +12,14 @@ import design_therapy from '../images/photos/photo-design-therapy.png';
 class design_solutions extends Component {
     render () {
         return(
+            <div>
+            <Helmet>
+                <meta name="description" content=" Design determines success and understanding the user is paramount. WDS unites your business with  customers and brings an understanding to their needs and expectations. " />
+                <meta name="keywords" content="case studies, stubhub business intelligence platform, WDS, stubhub, motorola" />
+                <meta charSet="utf-8" />
+                <title>Design Solutions</title>
+                <link rel="canonical" href="http://watermandesignsolutions/case_study_2" />
+            </Helmet>
             <div className="flex-layout-column"> 
             <div className="flex-section-fixed-head">
                 <div className="image-background-border-tb">
@@ -22,7 +30,7 @@ class design_solutions extends Component {
             </div>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 red">
                 <div className="callout-text-white">
-                                “Good designs come from the heart, not from the brain” -Juan-Carlos Fernandez
+                    “Good designs come from the heart, not from the brain” -Juan-Carlos Fernandez
                               
                     </div>
             </section>
@@ -30,7 +38,7 @@ class design_solutions extends Component {
             <section className="grid-callout yellow-bg"> 
                 <div className="grid-callout-text grid-placeself-center width-70">
                     <p className="callout-text ">
-                    Customers always look for the better experience. Meeting their expectations of intuitive, elegant and simple designs built around and for the user will earn their loyalty.
+                    Customers always look for the better experience. Meeting their expectations of intuitive, elegant and simple designs built around and for your users will earn their loyalty.
                             </p>
                         </div>
                         <div className="grid-callout-photo grid-placeself-center">
@@ -46,8 +54,7 @@ class design_solutions extends Component {
                     </p>   
 
                         <p className="content-text-21 content-block-75 align-self-center text-align-center margin-top-50 margin-bottom-50">
-
-                         Design determines success and understanding the user is paramount. WDS unites your business with  customers and brings an understanding to their needs and expectations. Through design solutions your message will reach them.
+                         Design determines success and understanding the user is paramount. WDS unites your business with  customers and brings an understanding to their needs and expectations.
                         </p>
                         <div className="flex-layout-section-full align-items-center">
                             <NavLink className='button-area no-decoration' value="learn more" type="button" to={'/case_study_4'}>
@@ -72,7 +79,7 @@ class design_solutions extends Component {
 
                     WDS has over 20 years of experience designing websites. Empathetic designs and the ability to connect with users create a positive enjoyable experience, which is critical to new customer acquisition and retaining existing customers. </p>
             
-                    <p className="content-text-18">WDS websites are always on the cutting edge. They were one of the first companies to build websites from UX research, provide responsive design (<a className="greenlink" href="../case_study_1">Motorola</a>) and develop an enterprise-level CSS flex box solution (<a className="greenlink" href="../case_study_4">OsiSoft</a>). </p>
+                    <p className="content-text-18">WDS websites are on the cutting edge. They were one of the first companies to build websites from UX research, and to provide responsive designs (<a className="greenlink" href="../case_study_1">Motorola</a>) and the first to develop enterprise-level CSS flex box solutions (<a className="greenlink" href="../case_study_4">OsiSoft</a>). </p>
                   
                     
                     <div className="float-left">
@@ -95,11 +102,8 @@ class design_solutions extends Component {
                 <div className="float-right">
                     <img className="photo-container margin-top-8per"  src={design_print}  alt="Graphic Design" /> 
                 </div>  
-                    Graphic design always has a place in today's print and digital technology. WDS can develop a traditional design strategy that compliments your digital campaigns by designing graphics that are based on research and user personas. Designing for real people helps drive sales and user retention. WDS has extensive print experience, including magazines, brochures, business cards, trade show displays, corporate reports, etc. </p>
+                    Graphic design still has a place in today's digital technology. WDS can develop traditional design strategies that compliments your digital campaigns by designing graphics that are based on research and user personas. Designing for real people helps drive sales and user retention. WDS has extensive print experience, including magazines, brochures, business cards, trade show displays, corporate reports, etc. </p>
 
-                   
-               
-            
             <div className="float-left">
                  <NavLink className='button-area no-decoration' value="learn more" type="button" to={'/website_design'}>
                     Learn More
@@ -166,6 +170,7 @@ class design_solutions extends Component {
             </div>
         </section>
     </div>
+</div>
         )
     }
 }

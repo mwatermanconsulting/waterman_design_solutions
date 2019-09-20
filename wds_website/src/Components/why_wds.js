@@ -1,4 +1,5 @@
 import React, { Component } from 'react' ;
+import Helmet from 'react-helmet';
 import { NavLink } from 'react-router-dom';
 import why from '../images/backgrounds/bg-why-wds.svg';
 import whys1 from '../images/photos/photo-why-s1.png';
@@ -20,6 +21,14 @@ import advocate from '../images/graphic-advocate.svg';
 class why_wds extends Component {
     render () {
         return(
+            <div>
+            <Helmet>
+                <meta name="description" content="case studies for motorola, pfizer, osisoft, stubhub. Describes " />
+                <meta name="keywords" cpntent="case studies, WDS, stubhub, motorola" />
+                <meta charSet="utf-8" />
+                <title>Case Study - Motorola</title>
+                <link rel="canonical" href="http://watermandesignsolutions/case_study_1" />
+            </Helmet>
             <div className="flex-layout-column">
                 <section className="flex-section-fixed-head">
                     <div className="image-background-border-tb">
@@ -165,7 +174,7 @@ class why_wds extends Component {
                     <div className="float-right margin-right-5">
                         <img className="border-3px" src={why_design}  alt="UX Design" /> 
                 </div>  
-                    The best customer experience starts with the Golden Rule — treat customers how you would like to be treated. At the foundation of WDS methodology is observation, watching customers use the clients' products or services. But unlike focus groups or usability laboratories, WDS conducts observation and interviews in the customer’s own environment during the course of their everyday routines. In such a context, researchers gain insight to a host of information that is not accessible through other UX research methods. WDs has found the deeper you connect the better chance for a successful design.</p>
+                    <p>The best customer experience starts with the Golden Rule — treat customers how you would like to be treated. At the foundation of WDS methodology is observation, watching customers use the clients' products or services. But unlike focus groups or usability laboratories, WDS conducts observation and interviews in the customer’s own environment during the course of their everyday routines. In such a context,  researchers gain insight to a host of information that is not accessible through other UX research methods. </p>
 
                     
 
@@ -395,7 +404,8 @@ class why_wds extends Component {
                     </div>
                 </div>
             </section>     
-        </div>                                   
+        </div>
+    </div>                                   
                             )
                         }
                     }

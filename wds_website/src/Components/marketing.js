@@ -1,4 +1,5 @@
-import React, { Component } from 'react' ;
+import React, { Component } from 'react';
+import Helmet from 'react-helmet';
 import bg_marketing from '../images/backgrounds/bg-documentation.png';
 import finding from '../images/photos/photo-documentation-s1.png';
 import marketing2 from '../images/photos/photo-marketing-s2.png';
@@ -12,6 +13,13 @@ import didyouknow from '../images/graphic-didyouknow.svg';
 class marketing extends Component {
     render () {
         return(
+            <div>
+                <Helmet>
+                    <meta name="description" content="WDS understands people on a deep level. Their methodology gives a voice to the your users, your customers. Those people whose daily lives are effected by the use of your application or product. Your marketing campaign should be a reflect the vision of who you are as a business and tell that story. Every business has a story. We will define a marketing strategy based on research and data with a clear vision that reflects and embraces real human values." />
+                    <meta charSet="utf-8" />
+                <title>Marketing</title>
+                <link rel="canonical" href="http://watermandesignsolutions/marketing" />
+                </Helmet>
         <div className="flex-layout-column"> 
             <div className="flex-section-fixed-head-child flex-layout-center-center image-background-border-tb">
                 <div className="header-text-center header-title text-white">
@@ -20,7 +28,7 @@ class marketing extends Component {
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                   We will make your customers feel uniquely valued.
+                   WDS will make your customers feel uniquely valued.
                 </div>
             </div>
             <div className="grid-2col-photo-content photo-content-color border-bottom-5 height-670" > 
@@ -39,7 +47,7 @@ class marketing extends Component {
                 </div>
                 <div className="content-block-50 margin-top-50">
                 <p className="content-text-24 text-align-center">
-                        WDS understands people on a deep level. Our methodology gives a voice to the your users, your customers. Those people whose daily lives are effected by the use of your application or product. Your marketing campaign should be a reflect the vision of who you are as a business and tell that story. Every business has a story. We will define a marketing strategy based on research, data with a clear vision that reflects and embraces real human values.</p>
+                        WDS understands people on a deep level. Their methodology gives a voice to the your users, your customers. Those people whose daily lives are effected by the use of your application or product. Your marketing campaign should be a reflect the vision of who you are as a business and tell that story. Every business has a story. We will define a marketing strategy based on research and data with a clear vision that reflects and embraces real human values.</p>
                 </div>
             </section>
 
@@ -56,7 +64,7 @@ class marketing extends Component {
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-15">
                             <p className="content-text-18"> 
-                            Our goal is to identify the right approach for your unique target audiences on social media. We plan, develop, and execute innovative social media marketing strategies that build a meaningful experience across all social media touchpoints.</p>
+                            WDS goal is to identify the right approach for your unique target audiences on social media. We plan, develop, and execute innovative social media marketing strategies that build a meaningful experience across all social media touchpoints.</p>
                         </div>
                     </div>
                     <div className="grid-right-css container-image-block">
@@ -118,7 +126,7 @@ class marketing extends Component {
                         </div>
                     <div className="content-block-75 content-text-18 margin-top-15">
                         <p className="content-text-18"> 
-                        Using user research and ad optimization techniques, we leverage your social media platforms to connect your brand, products, or services to the right people. By creating highly targeted advertisements on social media, we help our clients reach an otherwise untapped resource for potential customers.</p>
+                        Using user research and ad optimization techniques, wds leverages your social media platforms to connect your brand, products, or services to the right people. By creating highly targeted advertisements on social media, we help our clients reach an otherwise untapped resource for potential customers.</p>
                     </div>
                     </div>
                     <div className="grid-right container-image-block">
@@ -138,6 +146,7 @@ class marketing extends Component {
                     </div>
                 </section>
             </div>
+        </div>
         )
     }
 }
