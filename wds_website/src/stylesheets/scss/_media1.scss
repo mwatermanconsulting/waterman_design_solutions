@@ -190,7 +190,7 @@
     margin: 20px;
   }
   
-  /* GRIDS */
+  /* GRIDS ****************************************************/
   
   .grid-callout {
     grid-template-columns: 1fr;
@@ -290,7 +290,7 @@
     grid-column: 1fr;
     grid-row: auto;
     justify-content: center;
-    margin-left: 0%;
+    margin-left: 2%;
   }
 
   .grid-right-photo {
@@ -305,12 +305,14 @@
     grid-template-areas: "text" "photo";
     grid-column-gap: 50px;
     display: grid;
+    justify-items: center;
   }
   .grid-2col-photo-text {
     grid-template-columns: 1fr;
     grid-template-areas: "photo" "text";
     grid-column-gap: 50px;
     display: grid;
+    justify-items: center;
   }
 
   .grid-2col-photo-content {
@@ -318,7 +320,10 @@
     grid-template-rows: auto;
     grid-column-gap: 50px;
     display: grid;
+    justify-items: center;
   }
+
+  
 
   .grid-clients-wrapper {
    
@@ -338,8 +343,37 @@
     display: grid;
   }
 
+  .grid-right-css {
+    grid-column: 1;
+    grid-row: auto;
+    margin-left: 0%;
+  }
+
+  .grid-left-truth {
+    grid-column: 1;
+    grid-row: auto;
+    justify-content: center;
+  }
+
+  .grid-2things {
+    width: 90%;
+    grid-template-columns: 1;
+    grid-gap: 25px;
+    display: grid;  
+  }
+
+  .thing1 {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  .thing2 {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
   
-  /*******  footer    *****/
+  /*******  footer    ****************************************/
   
   .container-footer {
     height: 100%;
@@ -586,6 +620,7 @@
   grid-template-areas: "text photo";
   grid-column-gap: 50px;
   display: grid;
+  justify-items: center;
 }
 
 .grid-2col-photo-text {
@@ -593,6 +628,7 @@
   grid-template-areas: "photo text";
   grid-column-gap: 50px;
   display: grid;
+  justify-items: center;
 }
 
 .grid-2col-photo-content {
@@ -600,6 +636,7 @@
   grid-template-rows: auto;
   grid-gap: 10px;
   display: grid;
+  justify-items: center;
 }
 
 .grid-right-photo {
@@ -607,6 +644,12 @@
   grid-row: auto;
   justify-items: center;
   align-self: center;
+}
+
+.grid-right-css {
+  grid-column: 2/2;
+  grid-row: auto;
+  margin-left: -4%;
 }
 
 .grid-left {
@@ -679,6 +722,31 @@
     grid-column: 2/2;
     grid-row: auto;
   }
+
+  .grid-left-truth {
+    grid-column: 1/2;
+    grid-row: auto;
+    justify-content: center;
+  
+  
+    .grid-2things {
+      width: 1200px;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 25px;
+      display: grid;  
+    }
+
+    .thing1 {
+      grid-column: 1/1;
+    }
+  
+    .thing2 {
+      grid-column: 2/1;
+    }
+  
+  }
+
+
 
   .header-title {
     font-size: 	5.1875rem ;
