@@ -123,17 +123,17 @@ class about extends Component {
                              Adding HTML, CSS and Flash skills, the two partners turned their attention to the web, designing and developing websites. Their goal was to help small business owners through design to fight off big box business competition by bringing a level of professionalism to their online presence. </p>
 
                         <section className="grid-cs-card-history flex-layout-center-center flex-layout-section-full margin-top-50">   
-                            <p className="cs-card-1 margin-top-15 caption"><img className="container-photo-100 margin-top-25 " src={four} alt="411"/><br></br>
+                            <p className="cs-card-1 margin-top-15 caption"><img className="container-photo-callout margin-top-25 " src={four} alt="411"/><br></br>
                             <i></i>SavTraveler</p>
-                            <p className="cs-card-2 margin-top-15 caption"><img className="container-photo-100 margin-top-25 " src={pw} alt="Pearly Whites"/><br></br>
+                            <p className="cs-card-2 margin-top-15 caption"><img className="container-photo-callout margin-top-25 " src={pw} alt="Pearly Whites"/><br></br>
                             <i>Pearly Whites</i></p>
-                            <p className="cs-card-3 margin-top-15 caption"><img className="container-photo-100 margin-top-25 " src={taws} alt="TAWS"/><br></br>
+                            <p className="cs-card-3 margin-top-15 caption"><img className="container-photo-callout margin-top-25 " src={taws} alt="TAWS"/><br></br>
                             <i>TAWS</i></p>
-                            <p className="cs-card-4 margin-top-15 caption"><img className="container-photo-100 margin-top-25" src={norwood} alt="Norwood Construction"></img>
+                            <p className="cs-card-4 margin-top-15 caption"><img className="container-photo-callout margin-top-25" src={norwood} alt="Norwood Construction"></img><br></br>
                             <i>Norwood Construction</i></p>
                        
                         </section>
-                            <p className="align-item-center margin-top-15 caption"><img className="container-photo-100 margin-top-25 " src={before_after} alt="Before and After"/><br></br>
+                            <p className="align-item-center margin-top-15 caption"><img className="container-photo-callout margin-top-25 " src={before_after} alt="Before and After"/><br></br>
                             <i>Expanding  design solutions to meet  client needs</i></p>
                             
                         </div>
@@ -153,7 +153,7 @@ class about extends Component {
                         
                         <div className="margin-top-15">
                             <div className="float-right">
-                                    <img className="container-photo-callout"  src={wfaweb}  alt="Web First Aid" /> 
+                                    <img className="container-photo-100"  src={wfaweb}  alt="Web First Aid" /> 
                             </div>
                             <p className="content-text-18">Surreal Concepts' design solutions were successful. But they starting asking themselves, "What do the people that are interacting with the websites think?" <br></br>"Are our web designs resonating with users?" <br></br>They set out to research how people interacted with websites by asking questions:<br></br> What were their needs and expectations? <br></br>How did people interact with a web page compared to traditional printed materials? <br></br>In 2003, a study was released by B.J. Fogg and his team at Stanford University revealing the first study on human interaction on websites. The study consisted of user observations of eye movements, click behavior and user interactions. This study changed not not only how they designed, but their entire focus. </p>
                         
