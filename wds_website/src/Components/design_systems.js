@@ -55,7 +55,7 @@ class style_guide extends Component {
                 </div>
             </section> 
             
-            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+            <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
             <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">
 
@@ -82,12 +82,10 @@ class style_guide extends Component {
                         </div>   
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
-
-                <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">
+                
                 
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="float-left content-header align-items-center flex-layout-column">
                         <div className="title content-block-60" style={{marginLeft:'-6%'}}>
@@ -105,9 +103,17 @@ class style_guide extends Component {
                             Consistency is vital for a pleasant user’s experience, but it can be hard to come by with multiple designers working separately. Design systems allow easy access to universal versions of design assets (and their rules) to keep everyone on the same page, and ensure components remain consistent from one page or section to another.
                             That also holds true for different products. Brands looking to build their identity can use the exact same assets for all their products, giving everything a unified feel and rewarding loyal customers with familiar usability.</p>
                         </div>
+
+                   
+                    <div className="grid-right-ds align-self-baseline">
+                        <img className="photo-container width-100" src={digital_systems3}  alt="Style Guides" /> 
+                        <p className="caption">Styleguide for OSIsoft </p>
+                    </div>      
+
+
                 </section>
                 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
                 
                 <section className="float-left content-header align-items-center flex-layout-column">
                         <div className="title content-block-60 margin-left-6per">
@@ -129,7 +135,7 @@ class style_guide extends Component {
                         </div>   
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="grid-2things  flex-layout-center-center content-header margin-left-17">
                     <div className="thing1  flex-layout-section-full">
@@ -154,10 +160,10 @@ class style_guide extends Component {
                     </div>    
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
-                <section className="grid-2col-photo-content content-header">
-                    <div className="grid-left flex-layout-section-full ">
+                <section className="grid-2col-photo-content content-header width-70">
+                    <div className="grid-left flex-layout-section-full">
                         <div className="title">
                             Pattern Library                        
                         </div>
@@ -173,9 +179,10 @@ class style_guide extends Component {
                     </div>     
                 </section>  
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>     
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>     
 
                 <section className="grid-2col-photo-content content-header">
+
                     <div className="grid-left flex-layout-section-full ">
                         <div className="title">
                             Style Guides                        
@@ -194,7 +201,7 @@ class style_guide extends Component {
                 </section>       
             </div> 
             
-            </div>
+        
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
                 <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
                        <img className="container-image-500 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
