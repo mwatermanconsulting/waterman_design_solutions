@@ -23,7 +23,7 @@ class strategy_insight extends Component {
                 <meta name="description" content=" WDS understands that the most meaningful insights for design strategy are developed with behavior-based understanding of users. UX strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve." />
                 <meta charSet="utf-8" />
             <title>Strategy and Insight</title>
-            <link rel="canonical" href="http://watermandesignsolutions/services" />
+            <link rel="canonical" href="http://watermandesignsolutions/strategy_insight" />
             </Helmet>
         <div className="flex-layout-column"> 
             <section className="flex-section-fixed-head flex-layout-center-center image-background-border-tb">
@@ -52,9 +52,9 @@ class strategy_insight extends Component {
                     Today, the user’s experience is more important than brand loyalty. A successful strategy is needed to keep  users involved in all business decisions. 
                 </div>
                 <div className="content-block-55 margin-top-25">
-                    <p className="content-text-24 text-align-center">
+                    <p className="content-text-21 text-align-center">
                         WDS discovers the patterns and themes that provide actionable, deeper and more valuable perspectives on your customers' wants, needs and motivations.</p>
-                    <p className="content-text-24 text-align-center">
+                    <p className="content-text-21 text-align-center">
                         The most meaningful insights for design strategy are developed with behavior-based understanding of users.  UX strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve.</p>
                 </div>
             </div>
@@ -133,7 +133,7 @@ class strategy_insight extends Component {
                                 Taming the specificity beast used to be difficult. WDS CSS strategy almost eliminates these problems. In fact, the strategy almost eliminates the need for your developers to write CSS. This advantage comes from past experiences working with developers by interviewing and observing them working with CSS.</p>
                         </div>
                     </div>     
-                    <div className="gallery-2col-2 container-image-500 align-self-top">
+                    <div className="gallery-2col-2 container-image-500 align-self-auto">
                     <a href ="./design_systems"> <img className="container-image-500 border-2"  src={services9}  alt="Business Solutions" /> </a>
                         <div className="content-block-85">
                             <div className="title margin-top-50">

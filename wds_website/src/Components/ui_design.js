@@ -1,4 +1,5 @@
-import React, { Component } from 'react' ;
+import React, { Component } from 'react';
+import Helmet from 'react-helmet';
 import bg_ui from '../images/backgrounds/bg-ui.png';
 import services2 from '../images/photos/photo-services-s2.png';
 import motorola from '../images/photos/photo-motorola-beforeafter.png';
@@ -19,6 +20,13 @@ import ui_s8 from '../images/photos/photo-ui-s8.png';
 class ui_design extends Component {
     render () {
         return(
+        <div>
+            <Helmet>
+                <meta name="description" content=" WDS honed its UI design skills by designing websites in 1998. Over the years they have designed and developed complicated healthcare websites to solving difficult UI problems on critical applications. Current data visualization designs are being used on oil rigs, nuclear reactors and pharmaceutical drug plants. WDS can take care of the front-end development, including CSS and HTML development, working on-site with your team or creating GIT build-packages complete with custom CSS solutions, patterns libraries, style guides, best of practice documentation and design strategies, ensuring and enforcing original design and solutions. WDS UI designs includes product design for motorola, custom business intelligence platform for StubHub and OsiSoft." />
+                <meta charSet="utf-8" />
+            <title>UI Design</title>
+            <link rel="canonical" href="http://watermandesignsolutions/ui_design" />
+            </Helmet>
         <div className="flex-layout-column"> 
             <section className="flex-section-fixed-head-child yellow flex-layout-center-center image-background-border-tb">
                     <div className="header-text-center header-title text-white">
@@ -68,7 +76,7 @@ class ui_design extends Component {
                             </div>
                         <div className="margin-top-15">  
                             <p className="content-text-18"> 
-                            WDS honed its UI design skills by designing websites in 1998. Over the years they have designed and developed complicated healthcare websites to solving difficult UI problems on critical applications. Current data visualization designs are being used on oil rigs, nuclear reactors and pharmaceutical drug plants.  
+                            WDS honed its UI design skills by designing websites in 1998. Over the years they have designed and developed complicated healthcare websites to solving difficult UI problems on critical applications. Their UI designs for data visualization are being used on oil rigs, nuclear reactors and pharmaceutical drug plants.  
                             </p>
                             <p className="content-text-18">
                             WDS can take care of the front-end development, including CSS and HTML development, working on-site with your team or creating GIT build-packages complete with custom CSS solutions, patterns libraries, style guides, best of practice documentation and design strategies, ensuring and enforcing original design and solutions.
@@ -151,7 +159,7 @@ class ui_design extends Component {
                         <div className="margin-top-15">  
                        
                             <p className="content-text-18"> 
-                            WDS provides design support for businesses. Many software businesses still have developers designing hi-fidelity designs. The WDS team of experienced designers can critique current designs before the testing to help identify design and usability problems.  
+                            WDS provides design support for businesses. Many software businesses still have developers designing hi-fidelity designs. The WDS team of experienced designers can critique current designs before usability testing begins to help identify design and usability problems.  
                             </p>
                             <p className="content-text-18">
                             
@@ -179,7 +187,7 @@ class ui_design extends Component {
                         </div>
                         <div className="margin-top-15">  
                             <p className="content-text-18"> 
-                            When an engagement centers on a complex tool for the enterprise, the Consolidated Workflow Diagram captures activity across organizational roles and provides stakeholders a single view of all of the work accomplished in and around a tool. This diagram gives stakeholders an “aha!” moment as, for the first time, they have a picture of the duties employees or customers accomplish in their work lives. Through the use of a consolidated workflow diagram, WDS sees how a user moves through tasks and extrapolates from here to the various cognitive states a user inhabits while engaged with the solution or process. These cognitive states represent a model of what is in people’s minds as they do their work: their mental model. This understanding has implications for both design and marketing.
+                            When an engagement centers on a complex tool for the enterprise, the consolidated workflow captures activity across organizational roles and provides stakeholders a single view of all of the work accomplished in and around a tool. This diagram gives stakeholders an “aha!” moment as, for the first time, they have a picture of the duties employees or customers accomplish in their work lives. Through the use of a consolidated workflow diagram, WDS sees how a user moves through tasks and extrapolates from here to the various cognitive states a user inhabits while engaged with the solution or process. These cognitive states represent a model of what is in people’s minds as they do their work: their mental model. This understanding has implications for both design and marketing.
                             </p> 
                         </div>  
                         </div>
@@ -203,9 +211,9 @@ class ui_design extends Component {
                        
                             
                             <p className="content-text-18">
-                            WDS UI Kit solutions are lightweight, containing only the visual elements and CSS needed. The value of a tailored UI kit is that it helps solve the consistency issues businesses face when teams are fractured. These teams need design guidance and support, a solution that will support the developers with a starting point, removing the need to design. WDS provides guidance with a living style guide and design system which includes best pf practice documentation. </p> 
+                            WDS UI Design Kit solutions are lightweight, containing only the visual elements, HTML and CSS needed. The value of a tailored UI kit is that it helps solve the consistency issues businesses face when teams are fractured. These teams need design guidance and support, and a design solution that will support the developers with a starting point, removing the need to design and go straight to development. WDS provides guidance with a living style guide and design system which includes best pf practice documentation. </p> 
                             <p className="content-text-18"> 
-                             UI kits are comprehensive resource sets that allow you to plan your design’s structure properly without having to sacrifice  creative and original ideas. A UI kit generally contains an assortment of graphic files including UI components (buttons, check boxes, progress bars, etc.) for the purpose of user interface design. This allows developers to create outstanding visuals in a reasonable time frame. So instead of wasting time figuring out how to implement components, UI kits let you focus on what you do best: creating great products.
+                             UI kits are comprehensive resource sets that allow you to plan your design’s structure properly without having to sacrifice creative and original ideas. A UI kit generally contains an assortment of graphic files including UI components (buttons, check boxes, progress bars, etc.) for the purpose of user interface design. This allows developers to create outstanding visuals in a reasonable time frame. So instead of wasting time figuring out how to implement components, UI kits let you focus on what you do best: creating great products.
                             </p>    
                             
                             </div>  
@@ -322,6 +330,7 @@ class ui_design extends Component {
                 </div>
             </section>  
         </div>
+    </div>
         )
     }
 }

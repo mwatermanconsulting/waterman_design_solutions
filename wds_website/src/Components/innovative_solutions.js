@@ -15,7 +15,7 @@ class innovative_solutions extends Component {
         return(
         <div>
             <Helmet>
-                <meta name="description" content=" WDS has designed applications used by energy sectors, including nuclear reactors. They have the focus, insight and experience to solve the most difficult design and business problems on the worlds most intricate products and applications user interfaces." />
+                <meta name="description" content=" WDS has designed applications used by energy sectors, including nuclear reactors. They have the focus, insight and experience to solve the most difficult design and business problems on the worlds most intricate products and applications user interfaces. WDS innovative solutions have been successful for motorola, StubHub and OsiSoft." />
                 <meta charSet="utf-8" />
                 <title>Innovative Solutions</title>
                 <link rel="canonical" href="http://watermandesignsolutions/innovative_solutions" />

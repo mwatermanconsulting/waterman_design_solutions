@@ -23,10 +23,10 @@ class why_wds extends Component {
         return(
             <div>
             <Helmet>
-                <meta name="description" content="case studies for motorola, pfizer, osisoft, stubhub. Describes " />
-                <meta name="keywords" cpntent="case studies, WDS, stubhub, motorola" />
+                <meta name="description" content=" WDS offers empathetic design solutions for websites, applications, mobile apps, and social media. Its core offerings help your business understand the value of design on a core level, providing training, workshops and mentorship programs.
+                With over 15 years of perfecting our design and business strategies, we have the experience, designers, strategists, skills and scale to deliver sophisticated design solutions. WDS services include application design, website design and marketing. Our client list includes, Motorola, StubHub, OsiSoft, and Pfizer " />
                 <meta charSet="utf-8" />
-                <title>Case Study - Motorola</title>
+                <title>Why WDS</title>
                 <link rel="canonical" href="http://watermandesignsolutions/case_study_1" />
             </Helmet>
             <div className="flex-layout-column">

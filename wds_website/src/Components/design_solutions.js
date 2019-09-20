@@ -14,7 +14,7 @@ class design_solutions extends Component {
         return(
             <div>
             <Helmet>
-                <meta name="description" content=" Design determines success and understanding the user is paramount. WDS unites your business with  customers and brings an understanding to their needs and expectations. " />
+                <meta name="description" content=" Design determines success and understanding the user is paramount. WDS unites your business with  customers and brings an understanding to their needs and expectations. WDS unique design solutions have been successful for Motorola, StubHub, Pfizer and OsiSoft." />
                 <meta name="keywords" content="case studies, stubhub business intelligence platform, WDS, stubhub, motorola" />
                 <meta charSet="utf-8" />
                 <title>Design Solutions</title>
