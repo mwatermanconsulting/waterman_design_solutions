@@ -277,7 +277,7 @@ class about extends Component {
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-50">
                         <div className="float-right">
-                            <img className=""  src={mike}  alt="Michael Waterman" /> 
+                            <img className="width-250"  src={mike}  alt="Michael Waterman" /> 
                         </div>
                         <p className="content-text-18"> Michael was raised in a creative family and spent his childhood creating, designing and drawing. As Michael matured he began a career in retail. His friendly and caring nature made him a natural at customer service and he quickly climbed the corporate ladder becoming a regional manager in his early twenties. </p>
 
@@ -309,7 +309,7 @@ class about extends Component {
                     <div className="content-block-60 content-text-18 margin-top-15">
                         
                         <p className="content-text-18"> <b>"I aim to inspire.</b>" <br></br>Terri's perspective is greatly influenced by her hearing loss as a child. Since her outer life became quiet, observations and interpretations were always unique and different. Her observations taught her that following the crowd was never a good idea to foster creativity, which enables her unique approach. Her fine art training has taught her the importance of staying true to herself. <div className="float-right">
-                            <img className=""  src={terri}  alt="Terri" /> 
+                            <img className="width-250"  src={terri}  alt="Terri" /> 
                         </div><br></br>A deep thinker, she has always been curious about how humans behave and respond to life, and how design was about communicating simply. Like the cartooning on this site, the goal was to show you how much WDS values good old fashioned customer service, something that was very prevalent in the 1950s.
                         <br></br>
                         Her experience working with Michael and their clients have taught her that design has a purpose of having empathy, and users ALWAYS embrace designs that take them into consideration. </p><p className="subtitle">Terri's passion for helping others with her talent is what motivates her to be passionate about her clients' goals.</p>

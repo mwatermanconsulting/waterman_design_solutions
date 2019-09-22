@@ -445,6 +445,7 @@
   /*  Alignment   */
 .align-items-center {
   align-items: center; 
+
 }
 
 .align-self-center {
@@ -743,6 +744,7 @@
       font-family: Roboto;
       font-size: 1.2rem;
       line-height: 1.88;
+      min-width: 200px;
     }
     .content-text-24 {
       font-family: 'Roboto', 'sans serif';

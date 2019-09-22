@@ -227,7 +227,9 @@ Button:hover {
   
   /*  Alignment   */
 .align-items-center {
-  align-items: center; }
+  align-items: center;
+  display: flex; 
+}
   
 .container-justifyRow-center {
   display: flex;
