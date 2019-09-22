@@ -43,7 +43,7 @@ class clients extends Component {
                 </div>
             </section>
             <section className="flex-layout-section-full flex-layout-center-center">
-                <div className="align-center align-items-center">
+                <div className="justify-content-center align-items-center">
                 <ul className="grid-clients-wrapper align-items-center content-block-70">
                     <li  className="grid-clients-box">
                         <img className="width-100 height-100" src={motorola}  alt="motorola" /></li>

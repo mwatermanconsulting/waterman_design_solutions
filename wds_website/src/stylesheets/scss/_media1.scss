@@ -37,6 +37,12 @@
     width: 100%;
   }
 
+  .width-250 {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+  }
+
   .width-icon {
     width: 100%;
     max-width: 85px;
@@ -147,7 +153,11 @@
     width: 100%;
     max-width: 643px;
   }
-  
+
+  .justify-content-center {
+  justify-content: center;
+  }
+
   /*******      Typography      ******/
 
   .subtitle {
@@ -297,11 +307,11 @@
   }
 
   
-    .grid-right, .grid-right-css, .grid-right-ds, .grid-right-photo {
+  .grid-right, .grid-right-css, .grid-right-ds, .grid-right-photo {
       grid-column: auto;
       grid-row: 2/2;
       margin-left: 0;
-    }
+  }
  
 
   .grid-2col-text-photo {
@@ -330,8 +340,8 @@
   
 
   .grid-clients-wrapper {
-   
     grid-template-columns: repeat(1, 1fr);
+    align-items: center;
   }
   .grid-clients-box {
     width:100%;
@@ -339,12 +349,26 @@
   }
 
   .grid-2col-text-center-50 {
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "text text";
+    grid-template-columns: 1fr;
+    grid-template-areas: "text" "text";
     grid-template-rows: auto;
     grid-row-gap: 5px;
     width: 100%;
     display: grid;
+  }
+
+  .grid-2col-text-center {
+    grid-template-columns: 1;
+    grid-template-areas: "text" "text";
+    grid-template-rows: auto;
+    grid-row-gap: 5px;
+    width: 100%;
+    display: block;
+  }
+
+  .grid-title {
+    grid-column: auto / span 1;
+    align-items: center;
   }
 
   .grid-right-css {
@@ -447,6 +471,8 @@
   width: 70%;
 }
 
+
+
 .hrline-spacing {
   margin-top: 75px;
   margin-bottom: 75px;
@@ -520,7 +546,27 @@
     width: 634px;
     max-width: 643px;
   }
+  .grid-2col-text-center-50 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "text text";
+    grid-template-rows: auto;
+    grid-row-gap: 5px;
+    width: 50%;
+    display: grid;
+  }
 
+  .grid-2col-text-center {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "text text";
+    grid-template-rows: auto;
+    grid-row-gap: 5px;
+    width: 50%;
+    display: grid;
+  }
+  .grid-title {
+    grid-column: auto / span 2;
+    align-items: center;
+  }
     
     .container-footer {
       min-height: fit-content;
@@ -601,7 +647,6 @@
 
 .float-right {
   float: right;
-  padding: 15px 5px 15px 25px;
 }
 
 .padding {
@@ -700,16 +745,18 @@
   .grid-cs-card {
     display: grid;
     grid-row-gap: 65px;
-    grid-column-gap: 20px;
+    grid-column-gap: 70px;
     grid-template-columns: repeat(2, 1fr) ;
     grid-template-rows: auto;
+    max-width: 1500px;
+    align-self: center;
   }
   
   .grid-cs-card-history {
     display: grid;
     grid-row-gap: 65px;
     grid-column-gap: 50px;
-    grid-template-columns: repeat(2, [col] 700px ) ;
+    grid-template-columns: repeat(2, [col] auto ) ;
     grid-template-rows: repeat(2, [row] auto  );
   }
   
@@ -861,14 +908,7 @@
     margin-left: 7%;
   }
 
-  .grid-2col-text-center-50 {
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "text text";
-    grid-template-rows: auto;
-    grid-row-gap: 5px;
-    width: 50%;
-    display: grid;
-  }
+  
 
   
 }
