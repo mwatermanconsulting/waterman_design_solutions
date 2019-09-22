@@ -96,7 +96,7 @@ class digital_design extends Component {
                     <div className="grid-title subtitle content-text-24 margin-bottom-20">
                             Website Design Services Include: 
                     </div>
-                    <div className="item content-text-18 margin-top-10">
+                    <div className="col2-text content-text-18 margin-top-10">
                             Responsive Design
                     </div>
                     <div className="item content-text-18 margin-top-10">
