@@ -104,12 +104,6 @@ class style_guide extends Component {
                             That also holds true for different products. Brands looking to build their identity can use the exact same assets for all their products, giving everything a unified feel and rewarding loyal customers with familiar usability.</p>
                         </div>
 
-                   
-                    <div className="grid-right-ds align-self-baseline">
-                        <img className="photo-container width-100" src={digital_systems3}  alt="Style Guides" /> 
-                        <p className="caption">Styleguide for OSIsoft </p>
-                    </div>      
-
 
                 </section>
                 

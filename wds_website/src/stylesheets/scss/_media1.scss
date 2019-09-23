@@ -7,6 +7,11 @@
     transition: 0.75s;
   }
 
+
+.margin-left-325 {
+  margin-left: 0px
+}
+
   .visibility {
     display: none;
   }
@@ -56,6 +61,8 @@
   .margin-left-75 {
     margin-left: 10px;
   }
+
+  
 
   .content-block-50 {
     width: 90%;
@@ -304,7 +311,6 @@
     grid-column: auto;
     grid-row: 1/2;
     justify-content: center;
-    margin-left: 2%;
   }
 
   
@@ -372,6 +378,11 @@
     grid-row-gap: 5px;
     width: 100%;
     display: block;
+  }
+
+  .grid-gallery-2col {
+    display: block;
+    margin: 10px;
   }
 
   .grid-title {
@@ -765,7 +776,6 @@
 
 .grid-left {
   grid-column: 1;
-  margin-left: 20%;
 }
 
 .container-section-1-primary {
@@ -956,7 +966,6 @@
     grid-column: 1;
     grid-row: auto;
     justify-content: center;
-    margin-left: 7%;
   }
 
   

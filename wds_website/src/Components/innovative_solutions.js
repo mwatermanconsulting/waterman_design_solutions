@@ -33,16 +33,18 @@ class innovative_solutions extends Component {
                 </div>
             </section>
 
-            <section className="grid-callout photo-content-color border-bottom-5 height-670"> 
-            <div className="callout-text text-align-left">
-                          WDS has designed applications used by energy sectors, including nuclear reactors. They have the focus, insight and experience to solve the most difficult design and business problems on the worlds most intricate products and applications user interfaces.  
-                             
+            <section className="grid-callout photo-content-color border-bottom-5" > 
+                <div className="grid-placeself-center content-block-75   flex-layout-column">
+                    <div className="callout-text padding-20 text-align-left margin-top-15" >
+                    WDS has designed applications used by energy sectors, including nuclear reactors. They have the focus, insight and experience to solve the most difficult design and business problems on the worlds most intricate products and applications user interfaces.  </div>        
                     </div>
-                    <div className="grid-callout-photo grid-placeself-center">
+                    <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
                         <img className="container-photo-callout" src={innovation1}  alt="Innovation" /> 
-                </div>
+                    </div>
                 
             </section>
+
+            
     
             <section className="flex-layout-center-center flex-layout-column margin-top-75">
                 <div className="title text-align-center content-block-60">

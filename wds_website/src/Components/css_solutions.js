@@ -63,8 +63,9 @@ class css_solutions extends Component {
 
             <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-            <div className="flex-layout-section-full flex-layout-column margin-top-25 align-self-center content-block-75"> 
-                <section className="grid-2col-photo-content content-header">
+        <div className="flex-layout-section-full flex-layout-column margin-top-25 align-self-center content-block-75"> 
+                
+            <section className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title">
                             Experience Matters
