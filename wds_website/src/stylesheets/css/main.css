@@ -2266,7 +2266,8 @@ Button:hover {
   color: #000000; }
 
 .photo-container-cs-sb1 {
-  width: 900px;
+  width: 100%;
+  max-width: 900px;
   height: auto;
   border: 1px solid #000; }
 
@@ -2764,7 +2765,7 @@ a:any-link {
   .visibility {
     display: none; }
   .margin-tb-100 {
-    margin: 50px 0 100px; }
+    margin: 50px 0 50px; }
   .header {
     display: none !important; }
   .mdl-layout__header-row {
@@ -2777,7 +2778,7 @@ a:any-link {
     text-align: center; }
   /********** layout    *********/
   .width-70 {
-    width: 100%; }
+    width: 90%; }
   .width-250 {
     width: 100%;
     max-width: 250px;
@@ -2788,6 +2789,8 @@ a:any-link {
     height: auto; }
   .margin-top-75 {
     margin-top: 40px; }
+  .margin-left-75 {
+    margin-left: 10px; }
   .content-block-50 {
     width: 90%; }
   .content-block-55 {
@@ -2807,17 +2810,14 @@ a:any-link {
   .container-photo-callout {
     width: 100%;
     max-width: 650px;
-    height: auto;
-    border: 2px solid #000;
-    margin-bottom: 50px; }
+    height: 100%;
+    border: 2px solid #000; }
   .photo-container {
     width: 100%;
     height: auto;
-    max-width: 550px;
-    margin: 10px; }
-  .photo-container-cs-sb1 {
-    width: 100%;
-    height: auto; }
+    max-width: 550px; }
+  .align-self-start {
+    align-self: self-start; }
   .container-image-500 {
     width: 100%;
     max-width: 500px;
@@ -2969,6 +2969,13 @@ a:any-link {
     grid-gap: 10px;
     display: grid;
     justify-items: center; }
+  .grid-2col-text {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "text text";
+    grid-template-rows: auto;
+    grid-column-gap: 50px;
+    grid-row-gap: 5px;
+    display: block; }
   .grid-clients-wrapper {
     grid-template-columns: repeat(1, 1fr);
     align-items: center; }
@@ -3072,6 +3079,10 @@ a:any-link {
 @media (min-width: 768px) {
   .width-70 {
     width: 70%; }
+  .margin-left-75 {
+    margin-left: 25px; }
+  .margin-top-15per {
+    margin-top: 0%; }
   .hrline-spacing {
     margin-top: 75px;
     margin-bottom: 75px; }
@@ -3110,8 +3121,8 @@ a:any-link {
     grid-gap: 20px;
     grid-template-columns: repeat(2, 1fr); }
   .grid-clients-box {
-    width: 250px;
-    height: 250px;
+    width: 100%;
+    height: auto;
     background-color: #e6e6e6;
     align-items: center; }
   .card-case-studies {
@@ -3131,6 +3142,13 @@ a:any-link {
     grid-template-rows: auto;
     grid-row-gap: 5px;
     width: 50%;
+    display: grid; }
+  .grid-2col-text {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "text text";
+    grid-template-rows: auto;
+    grid-column-gap: 50px;
+    grid-row-gap: 5px;
     display: grid; }
   .grid-title {
     grid-column: auto / span 2;
@@ -3197,16 +3215,11 @@ a:any-link {
     float: right; }
   .padding {
     padding: 50px; }
-  .photo-container-cs-sb1 {
-    width: 900px;
-    height: auto;
-    border: 1px solid #000; }
   .container-photo-callout {
     width: 100%;
     max-width: 650px;
     height: auto;
-    border: 2px solid #000;
-    margin-bottom: 0px; }
+    border: 2px solid #000; }
   .margin-left-15 {
     margin-left: 15px; }
   .grid-callout {

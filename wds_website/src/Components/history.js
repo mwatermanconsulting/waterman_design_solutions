@@ -49,7 +49,7 @@ class about extends Component {
                     </div>
                 </section>
                 <section className="grid-callout photo-content-color border-bottom-5" > 
-                    <div className="grid-placeself-center content-block-55 margin-tb-100  flex-layout-column">
+                    <div className="grid-placeself-center content-block-55   flex-layout-column">
                         <div className="callout-title">
                              Surreal Beginnings
                         </div>
@@ -63,7 +63,7 @@ class about extends Component {
 
                         </div>
                     </div>
-                    <div className="grid-callout-photo grid-placeself-center">
+                    <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
                         <img className="container-photo-callout" src={photo_history}  alt="UX" /> 
                     </div>
                 </section>

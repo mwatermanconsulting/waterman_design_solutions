@@ -450,7 +450,7 @@ class methodology extends Component {
 
 
                 <section className="flex-layout-section-full padding yellow-bg image-background-border-tb margin-top-100">
-                    <div className="content-header flex-layout-center margin-tb-100 width-100">
+                    <div className="content-header flex-layout-center width-100">
                         <div className="callout-text text-black">
                             WDS' process is so efficient that it scales from start-up companies to global enterprises. 
                         </div>

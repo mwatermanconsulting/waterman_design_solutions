@@ -65,12 +65,12 @@ class why_wds extends Component {
                         <p className="content-text-21 content-block-60 margin-top-25 flex-layout-column align-items-center">
                         WDS offers empathetic design solutions for websites, applications, mobile apps, and social media. Its core offerings help your business understand the value of design on a core level, providing training, workshops and mentorship programs.
                         With over 15 years of perfecting our design and business strategies, we have the experience, designers, strategists, skills and scale to deliver sophisticated design solutions. </p>
-                        <p className="subtitle margin-top-50 flex-layout-column align-items-center">
+                        <p className="subtitle margin-top-50 content-block-60 flex-layout-column align-items-center">
                         Our client roster includes Motorola, Pfizer, Stubhub, SmithKline, Google...</p>
                 </section>
 
                 <div className="flex-layout-section-full margin-top-25 grey-blue padding-bottom-50 padding-top-50">
-                <div className="title align-self-center margin-top-50" >
+                <div className="title content-block-60 align-self-center margin-top-50" >
                         Your Complete Design Resource
                 </div>
                     <div className="grid-services-list padding-20 align-self-center margin-top-25" style={{marginLeft:'11%',}}>
@@ -171,11 +171,11 @@ class why_wds extends Component {
                         <p className="subtitle content-block-60 margin-top-15"> 
                         Understanding the Users </p>
                         <div className="content-block-60 content-text-18 margin-top-15">
-                    <div className="float-right margin-right-5">
+                    <div className="float-right container-image-500 margin-right-5">
                         <img className="border-3px" src={why_design}  alt="UX Design" /> 
                 </div>  
 
-                    <p>The best customer experience starts with the Golden Rule — treat customers how you would like to be treated. At the foundation of WDS methodology is observation, watching customers use the clients' products or services. But unlike focus groups or usability laboratories, WDS conducts observation and interviews in the customer’s own environment during the course of their everyday routines. In such a context,  researchers gain insight to a host of information that is not accessible through other UX research methods. </p>
+                    <p className="content-text-18">The best customer experience starts with the Golden Rule — treat customers how you would like to be treated. At the foundation of WDS methodology is observation, watching customers use the clients' products or services. But unlike focus groups or usability laboratories, WDS conducts observation and interviews in the customer’s own environment during the course of their everyday routines. In such a context,  researchers gain insight to a host of information that is not accessible through other UX research methods. </p>
 
 
                     
@@ -196,7 +196,7 @@ class why_wds extends Component {
                         <p className="subtitle content-block-60 margin-top-15"> 
                         Application, Website and Mobile Design </p>
                     <div className="content-block-60 content-text-18 margin-top-15">
-                    <div className="float-right margin-right-5">
+                    <div className="float-right container-image-500 margin-right-5">
 
                         <img className="border-3px" src={why_business}  alt="UI Design" /> 
 
@@ -229,7 +229,7 @@ class why_wds extends Component {
                         <p className="subtitle content-block-60 margin-top-15"> 
                         Establishing Consistency Across all Mediums </p>
                     <div className="content-block-60 content-text-18 margin-top-15">
-                    <div className="float-right margin-right-5 margin-top-1">
+                    <div className="float-right container-image-500 margin-right-5 margin-top-1">
 
                         <img className="border-3px" src={why_enterprise}  alt=" Design" /> 
 
@@ -386,26 +386,27 @@ class why_wds extends Component {
                     </div>
             </section>
 
-            
-           
-            <section className="flex-layout-section-full align-items-center margin-top-100 yellow-bg border-top-5">
-                <div className="grid-2col-text-photo align-self-center width-100  margin-top-50 " > 
-                    <div className="2col-text grid-placeself-center width-70 margin-left-75">
+            <section className="flex-layout-section-full align-items-center yellow-bg border-top-5">
+                <div className="grid-2col-text-photo align-self-center width-70 margin-top-50 margin-bottom-50" > 
+                    <div className="2col-text grid-placeself-center ">
                         <div className="content-block">
-                            <p className="content-header"> 
-                                WDS understands the uncertainty and fear involved with contracting design consultants </p>
-                            <p className="content-text-18 margin-top-15">  
+                            <p className="content-header content-block-60"> 
+                            WDS understands the uncertainty and fear involved with contracting design consultants</p>
+                            <p className="content-text-18 margin-top-15 content-block-60">  
                             
-                                WDS has had the honour of being the third option on a few projects, including the StubHub project. Most failed designs are due to the designers not fully understanding the users, or the solutions were uninspired and  business needs were not met. It's not easy to follow unsuccessful design projects. There is a certain disdain of designers at this point and the developers and stakeholders are on edge. WDS succeeds by having empathy and curiosity. Its methodology provides answers and a deep understanding of the users. This understanding is used to begin connecting with the developers and stakeholders. <br></br>WDS make the experience not only enjoyable, but profitable. Amazing things begin happen when everyone is one the same page.</p> 
+                            Most failed designs are due to misunderstood users, uninspired solutions and  unmet business needs. It's not easy to fix unsuccessful design projects. There is a certain disdain of designers, with developers and stakeholders on edge. WDS succeeds by having empathy and curiosity. The methodology provides answers and a deep understanding of the users, which connects with the developers and stakeholders. <br></br>WDS makes the experience enjoyable and profitable, and amazing things begin to happen when everyone is one the same page.
+                        </p> 
 
                         </div>
                     </div>              
-                    <div className="col2-photo width-50 grid-placeself-center">
-                        <img className="flex-image-container" src={why_handshake}  alt="Thank you WDS!" /> 
+                    <div className="col2-photo grid-placeself-center container-image-500">
+                        <img className="flex-image-container " src={why_handshake}  alt="Thank you WDS!" /> 
                         <p className="caption">Thank you WDS!</p>
                     </div>
                 </div>
-            </section>     
+            </section> 
+           
+                
         </div>
     </div>                                   
                             )

@@ -31,19 +31,23 @@ class marketing extends Component {
                    WDS will make your customers feel uniquely valued.
                 </div>
             </div>
-            <div className="grid-2col-photo-content photo-content-color border-bottom-5 height-670" > 
-                <div className="grid-item-b content-block-60 content-header flex-layout-column">
-                    <div className="callout-text text-align-left">
-                       There has been a big shift in marketing. It use to be all about the product or application. Today's marketing  is now human centric. All about the user and values. WDS applies the same principles and methods to marketing strategies as we do for UX design.   </div>
-                             
+
+            <section className="grid-callout photo-content-color border-bottom-5" > 
+                <div className="grid-placeself-center content-block-75   flex-layout-column">
+                    <div className="callout-text padding-20 text-align-left margin-top-15" >
+                        There has been a big shift in marketing. It use to be all about the product or application, but is now human-centric, all about the user and values. WDS applies the same principles and methods to marketing strategies as UX design. 
+                        </div>      
+                    </div>
+                    <div className="grid-callout-photo grid-placeself-center margin-tb-100">
+                        <img className="container-photo-callout" src={marketing2}  alt="Marketing" /> 
                 </div>
-                <div className="item-a-nb container-image-block">
-                    <img className="container-photo-callout" src={marketing2}  alt="shaking hands" /> 
-                </div>
-            </div>
+                
+            </section>
+
+            
             <section className="content-header flex-layout-center-center flex-layout-column">
                 <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-50">
-                        “Many companies have forgotten they sell to actual people. Humans care about the entire experience, not just the marketing or sales or service. To really win in the modern age, you must solve for humans.” - Dharmesh Shah, CTO & Co-Founder, HubSpot 
+                        “Many companies have forgotten they sell to actual people. Humans care about the entire experience, not just the marketing or sales or service. To really win in the modern age, you must solve for humans.” - Dharmesh Shah, CTO  Co-Founder, HubSpot 
                 </div>
                 <div className="content-block-50 margin-top-50">
                 <p className="content-text-24 text-align-center">
@@ -105,7 +109,7 @@ class marketing extends Component {
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-25">
                             <p className="content-text-18"> 
-                            Our team will develop, manage, and monitor your social media account to increase brand awareness and drive follower engagement. We help position our clients as thought leaders by delivering engaging, relevant content to their individual target audiences.
+                            The WDS team will develop, manage, and monitor your social media account to increase brand awareness and drive follower engagement. They help position  clients as thought leaders by delivering engaging, relevant content to their individual target audiences.
                             </p>           
                         </div>
                     </div>

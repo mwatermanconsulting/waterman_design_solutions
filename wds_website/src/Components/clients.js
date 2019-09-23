@@ -31,7 +31,7 @@ class clients extends Component {
                     <div className="callout-text padding-20 text-align-left margin-top-15" >
                         For over twenty years WDS has worked and partnered with some amazing people and businesses. We hope to see your name in the list below in the near future.</div>        
                     </div>
-                    <div className="grid-callout-photo grid-placeself-center margin-tb-100">
+                    <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
                         <img className="container-photo-callout" src={clients1}  alt="Clients" /> 
                     </div>
                 
