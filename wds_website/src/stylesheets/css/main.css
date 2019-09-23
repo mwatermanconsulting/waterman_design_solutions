@@ -199,6 +199,15 @@ footer {
 .margin-left-6per {
   margin-left: -6px; }
 
+.margin-left-6 {
+  margin-left: 7%; }
+
+.margin-left-5 {
+  margin-left: 5%; }
+
+.margin-left-8 {
+  margin-left: 8%; }
+
 .margin-left-15 {
   margin-left: 15px; }
 
@@ -2743,6 +2752,9 @@ footer {
   background-color: #daa09a !important;
   color: black !important; }
 
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+  color: black !important; }
+
 .header {
   background: #EC1000;
   height: 76px !important; }
@@ -2756,12 +2768,22 @@ a:any-link {
   cursor: pointer;
   color: #000; }
 
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+  padding-left: 20px !important;
+  padding-right: 0px !important;
+  padding-bottom: 0px !important;
+  padding-top: 5px !important; }
+
 @media (min-width: 319px) {
   .material-icons {
     opacity: 0.9;
     display: inline-block;
     transition-timing-function: ease-out;
     transition: 0.75s; }
+  .margin-left-8 {
+    margin-left: 8%; }
+  .margin-top-15per {
+    margin-top: 0%; }
   .visibility {
     display: none; }
   .margin-tb-100 {
@@ -2791,6 +2813,8 @@ a:any-link {
     margin-top: 40px; }
   .margin-left-75 {
     margin-left: 10px; }
+  .margin-left-15per {
+    margin-left: 63%; }
   .content-block-50 {
     width: 90%; }
   .content-block-55 {
@@ -3081,6 +3105,8 @@ a:any-link {
     width: 70%; }
   .margin-left-75 {
     margin-left: 25px; }
+  .margin-left-15per {
+    margin-left: 13%; }
   .margin-top-15per {
     margin-top: 0%; }
   .hrline-spacing {
@@ -3315,6 +3341,8 @@ a:any-link {
     .grid-left-truth .thing2 {
       grid-column: 2/2;
       grid-row: auto; }
+  .margin-left-15per {
+    margin-left: 15%; }
   .header-title {
     font-size: 5.1875rem; }
   .content-block-25 {
