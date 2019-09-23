@@ -28,30 +28,34 @@ class innovative_solutions extends Component {
                         Finding the Truth</div>
                 <img className="flex-image-container width-100" src={finding_truth}  alt="Finding the Truth" /> 
             </section>
+
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
                     "Truth is the torch that gleams through the fog without dispelling it." Claude Adrien
                 </div>
             </section>
-            <section className="grid-2col-photo-content photo-content-color border-bottom-5 height-670" > 
-                <div className="grid-item-b content-block-60 content-header flex-layout-column">
-                    <div className="callout-text text-align-left">
-                        WDS UX methodology connects them with your users. They connect with users by observing and interviewing them. People will always open up and confide in you if they feel you are on their side especially when you show you empathize with their needs. This is how WDS uncover truths that were previously unknown. </div>
-                             
-                </div>
-                <div className="item-a-nb container-image-block">
-                    <img className="container-photo-callout" src={finding_truth2}  alt="Finding Truth" /> 
-                </div>
+
+            <section className="grid-callout photo-content-color border-bottom-5" > 
+                <div className="grid-placeself-center content-block-75   flex-layout-column">
+                    <div className="callout-text padding-20 text-align-left margin-top-15" >
+                    WDS UX methodology connects them with your users. They connect with users by observing and interviewing them. People will always open up and confide in you if they feel you are on their side especially when you show you empathize with their needs. This is how WDS uncover truths that were previously unknown.</div>        
+                    </div>
+                    <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
+                        <img className="container-photo-callout" src={finding_truth2}  alt="Finding Truth" /> 
+                    </div>
+                
             </section>
+
+            
     
             <div className="content-header flex-layout-center-center flex-layout-column margin-top-75">
-                <div className="flex-layout-center-center title text-align-center margin-top-75 width-100 content-block-60">
+                <div className="flex-layout-center-center title  margin-top-75 width-100 content-block-60">
                     It's the people behind the methodology that makes the difference. 
                 </div>
                 <div className="content-block-55 margin-top-50">
-                    <p className="content-text-24 text-align-center">
+                    <p className="content-text-24">
                     WDS discovers the patterns and themes that provide actionable, deeper and more valuable perspectives on your customers' wants, needs and motivations.</p>
-                    <p className="content-text-24 text-align-center">
+                    <p className="content-text-24 ">
                     The most meaningful insights for experience strategy are developed with a behavior-based understanding of users. WDS strategists observe people in context - where they work, play or live - to understand their goals, needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve.</p>
                 </div>
             </div>

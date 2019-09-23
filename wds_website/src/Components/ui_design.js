@@ -32,7 +32,7 @@ class ui_design extends Component {
                     <div className="header-text-center header-title text-white">
                         User Interface Design
                     </div>
-                        <img className="flex-image-container width-100" src={bg_ui}  alt=" User Interface Design" />     
+                        <img className="flex-image-container image-size-100" src={bg_ui}  alt=" User Interface Design" />     
                 </section>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
@@ -279,7 +279,7 @@ class ui_design extends Component {
                 <section className="grid-cs-card flex-layout-center-center flex-layout-section-full margin-top-50 margin-bottom-100">
                 <div className="cs-card-1 card-case-studies content-header flex-layout-column flex-sh-500"  >
                     <div className="container-image-block">
-                            <img className="width-100" src={motorola}  alt="motorola before and after" /> 
+                            <img className="image-size-100" src={motorola}  alt="motorola before and after" /> 
                     </div> 
                     <div className="content-block-auto"> 
                         <div className="flex-card-content flex-layout-center-center flex-layout-row flex-layout-justified-sb">
@@ -300,7 +300,7 @@ class ui_design extends Component {
                 
                 <div className="cs-card-2 card-case-studies content-header align-self-start flex-layout-column flex-sh-500">
                     <div className="container-image-block">
-                        <img className="width-100" src={stubhub}  alt="StubHub" /> 
+                        <img className="image-size-100" src={stubhub}  alt="StubHub" /> 
                     </div>
                     <div className="content-block-auto">
                         <div className="flex-card-content flex-layout-center-center flex-layout-row flex-layout-justified-sb">
