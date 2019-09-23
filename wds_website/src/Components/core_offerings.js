@@ -50,7 +50,7 @@ class core_offerings extends Component {
             </section>
             <section className="flex-layout-column flex-layout-center-center margin-top-100">
                     <div className="subtitle content-block-65">
-                    Understanding your business models and how they support your digital design is paramount to becoming Digital First. Mismatch between the underlying business models and the digital design is often one of the primary reasons for underperforming digital products and services.    
+                    Understanding your business models and how they support your digital design efforts is paramount to becoming Digital First. Mismatch between the underlying business models and the digital design is often one of the primary reasons for underperforming digital products and services.    
 
                     </div>
                     <div className="content-block-65">
@@ -110,7 +110,7 @@ class core_offerings extends Component {
                     </div>
                         <p className="content-text-21 content-block-65 margin-top-15" >
                             <b>Background - </b>
-                            OsiSoft is a data historian company that sells databases and software that provide data insights, called the PI system. Osi was attempting to transition from traditional desktop software to software as a service (SaaS) for their premiere data visualization platform. OsiSoft hired WDS to help with the SaaS transition, and to provide design guidance, <a href ="case_studies.js"> css development</a> and UX design support.
+                            OsiSoft is a data historian company that sells databases and software that provide data insights, called the PI system. Osi was attempting to transition from traditional desktop software to software as a service (SaaS) for their premiere data visualization platform. OsiSoft hired WDS to help with the SaaS transition, and to provide design guidance, <a href ="case_studies.js" className="link-color"> css development</a> and UX design support.
                         </p>
                         <p className="content-text-21 content-block-65 margin-top-15" >
                             <b>Issue Uncovered -</b>
