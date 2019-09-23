@@ -84,33 +84,33 @@ class App extends Component {
               
                 
             </Header>
-            <Drawer className="mobile-menu" title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">
-            Waterman Design Solutions</Link>}>
-                <Navigation>
-                  <Link to="/why_wds">Why WDS</Link>
+            <Drawer className="mobile-menu" title={<Link style={{textDecoration: 'none', color: 'black', marginTop: '2%'}} to="/">
+            WDS</Link>}>
+                <Navigation style={{textDecoration: 'none', marginTop: '-1%'}}>
+                  <Link style={{textDecoration: 'none', fontWeight: 'bold', marginTop: '-8%'}} to="/why_wds">Why WDS</Link>
+                  <nav className="margin-top-5per margin-left-4per" style={{marginTop: '1%', marginLeft: '3%'}}><a  href="/case_studies">Case  Studies</a></nav>
+                  <nav><a href="/clients"style={{marginTop: '1%', marginLeft: '3%'}}>Clients</a></nav>
+                  <nav><a href="/core_offerings"style={{marginTop: '1%', marginLeft: '3%'}}>Core Offerings</a></nav>
+                  <nav><a href="/history"style={{marginTop: '1%', marginLeft: '3%'}}>History</a></nav>
 
-                  <nav className="margin-top-15"><a  href="/case_studies">Case  Studies</a></nav>
-                  <nav><a  href="/clients">Clients</a></nav>
-                  <nav><a href="/core_offerings">Core Offerings</a></nav>
-                  <nav><a href="/history">History</a></nav>
+                  <Link style={{textDecoration: 'none', fontWeight: 'bold', marginTop: '4%'}} to="/services" className="text-bold">Services</Link>
+                  <nav><a style={{marginTop: '1%', marginLeft: '3%'}} href="/ux_design">UX Design</a></nav>
+                  <nav><a style={{marginTop: '1%', marginLeft: '3%'}} href="/ui_design">UI Design</a></nav>
+                  <nav><a style={{marginTop: '1%', marginLeft: '3%'}} href="/css_solutions">CSS Solutions</a></nav>
+                  <nav><a style={{marginTop: '1%', marginLeft: '3%'}} href="/design_systems">Design Systems</a></nav>
 
+                  <Link style={{textDecoration: 'none', fontWeight: 'bold', marginTop: '4%'}} to="/methodology">Methodology</Link>
+                  <nav><a style={{marginTop: '1%', marginLeft: '4%'}} href="/finding_truth">Finding the Truth</a></nav>
+                  <nav><a style={{marginTop: '1%', marginLeft: '4%'}} href="/innovative_solutions">Innovative Solutions</a></nav>
+                  <nav><a style={{marginTop: '1%', marginLeft: '4%'}} href="/strategy_insight">Strategy and Insight</a></nav>
 
-                  <Link to="/services">Services</Link>
-                  <nav><a className="margin-top-15" href="/ux_design">UX Design</a></nav>
-                  <nav><a class="black" href="/ui_design">UI Design</a></nav>
-                  <nav><a class="mdl-navigation__link" href="/css_solutions">CSS Solutions</a></nav>
-                  <nav><a class="mdl-navigation__link" href="/design_systems">Design Systems</a></nav>
-                  <Link to="/methodology">Methodology</Link>
-                  <nav><a class="float-left" href="/finding_truth">Finding the Truth</a></nav>
-                  <nav><a class="mdl-navigation__link" href="/innovative_solutions">Innovative Solutions</a></nav>
-                  <nav><a class="mdl-navigation__link" href="/strategy_insight">Strategy and Insight</a></nav>
-                  <Link to="/design_solutions">Design Solutions</Link>
-                  <nav><a class="mdl-navigation__link float-left" href="/website_design">Website Design</a></nav>
-                  <nav><a class="mdl-navigation__link" href="/print_design">Graphic Design</a></nav>
-                  <nav><a class="mdl-navigation__link" href="/marketing">Marketing</a>
+                  <Link style={{textDecoration: 'none', fontWeight: 'bold', marginTop: '4%'}} to="/design_solutions">Design Solutions</Link>
+                  <nav><a style={{marginTop: '1%', marginLeft: '3%'}} href="/website_design">Website Design</a></nav>
+                  <nav><a style={{marginTop: '1%', marginLeft: '3%'}} href="/print_design">Graphic Design</a></nav>
+                  <nav><a style={{marginTop: '1%', marginLeft: '3%'}} href="/marketing">Marketing</a>
                     
 </nav>
-                  <Link to="/contact">Contact</Link>
+                  <Link style={{textDecoration: 'none', fontWeight: 'bold', marginTop: '4%'}} to="/contact">Contact</Link>
                 </Navigation>
             </Drawer>
       <Content>

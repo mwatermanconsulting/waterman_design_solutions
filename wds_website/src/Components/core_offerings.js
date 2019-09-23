@@ -101,31 +101,31 @@ class core_offerings extends Component {
                
                    
                 </section>
-                <section className="flex-layout-section-full flex-layout-column padding flex-layout-center-center green margin-top-50">
+                <section className="flex-layout-section-full flex-layout-column padding flex-layout-center-center grey margin-top-50">
                     <div className="title text-white">
                             In Context Case Study - UX Steering Team
                     </div>
                         <div className="subtitle text-white margin-top-25">
                             OsiSoft Communication Design Strategy
                     </div>
-                        <p className="content-text-21 content-block-65 margin-top-15" >
+                        <p className="content-text-18 content-block-65 margin-top-15" >
                             <b>Background - </b>
-                            OsiSoft is a data historian company that sells databases and software that provide data insights, called the PI system. Osi was attempting to transition from traditional desktop software to software as a service (SaaS) for their premiere data visualization platform. OsiSoft hired WDS to help with the SaaS transition, and to provide design guidance, <a href ="case_studies.js" className="link-color"> css development</a> and UX design support.
+                            OsiSoft is a data historian company that sells databases and software that provide data insights, called the PI system. Osi was attempting to transition from traditional desktop software to software as a service (SaaS) for their premiere data visualization platform. OsiSoft hired WDS to help with the SaaS transition, and to provide design guidance, <a href ="case_studies.js" className="greenlink content-text-21"> css development</a> and UX design support.
                         </p>
-                        <p className="content-text-21 content-block-65 margin-top-15" >
+                        <p className="content-text-18 content-block-65 margin-top-15" >
                             <b>Issue Uncovered -</b>
                             WDS began their methodology by creating a user journey, followed by a design analysis of the SaaS offering. The user journey uncovered two steps the user needed to complete before accessing the data visualization application. These steps involved database settings and user authentication on two separate applications. WDS conducted design analysis between the three applications. The design analysis revealed major inconsistencies between the visual elements of the applications. They were curious about how this issue occurred. They interviewed the engineers, designers, UX team and team leads for the project, to get an understanding. WDS uncovered a lack of communication between the teams and team leads. Design requirements were missing on each project. The company was missing basic design direction and guidance, leading to design inconsistencies.</p> 
 
-                         <p className="content-text-21 content-block-65 margin-top-15" >   
+                         <p className="content-text-18 content-block-65 margin-top-15" >   
                             The real problem though was the lack of communication between the teams. They were working on an island and didn't even realize the issue. WDS presented the findings to the shareholders, sharing screenshots of the three applications. This was the first time they witnessed a visual design analysis, causing one the stakeholders to state, "I think we have a problem." The shareholders admitted this has been a problem for years, but could never solve the problem.  
                         </p>
 
-                        <p className="content-text-21 content-block-65 margin-top-15">
+                        <p className="content-text-18 content-block-65 margin-top-15">
                             <b>Strategy - </b>
                             WDS knew that the largest problem needed to be solved first, the communication issues. WDS proposed a unique solution, the creation of a design support system named the UX Steering team. WDS would lead the team and would implement a communication strategy to spread the value of design within the company. The goal of this team was to guide and develop design standards and to communicate the value of design to the teams. The team would have monthly meetings occurring the week before a scrum cycle. The meetings would focus on communicating design and coding strategies while providing guidance and support. The team also solved the issue of feature duplication among the teams. 
                         </p>
 
-                        <p className="content-block-65 content-text-21 margin-top-15" ><b>Results - </b>
+                        <p className="content-block-65 content-text-18 margin-top-15" ><b>Results - </b>
                             The UX Steering team provided a unique strategy for a common problem. The team helped bridged the gap between designers, developers and the UX team. By eliminating communication issues and providing a forum to talk about design within the company. The strategy also provided a long term roadmap for the team starting with product consistency and component sharing amongst the teams. WDS championed design consistency and led the movement for design consistency by first developing a CSS Solutions and strategy for the company. The strategy included shared global CSS classes and a custom UI design kit. WDS also developed workshops for CSS, Sass and responsive design and development. Later WDS designed and developed Style Guides and Design System for OsiSoft to support the long time strategy and vision of of UX Steering team of application consistency. After 5 years the UX team still meets, providing design support and guidance for the company. 
                         </p>
             </section>
