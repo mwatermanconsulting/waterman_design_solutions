@@ -6,6 +6,7 @@ import didyouknow from '../images/graphic-didyouknow.svg';
 import casscade from '../images/photos/photo-css-s1.png';
 import css3 from '../images/photos/photo-css-s3.png';
 import css4 from '../images/photos/photo-css-s4.png';
+import css5 from '../images/photos/photo-css-s5.png';
 import css2 from '../images/photos/photo-css-s2.png';
 import cheer from '../images/graphic-css-cheer.svg';
 import itcss from '../images/ITCSS.png';
@@ -35,14 +36,13 @@ class css_solutions extends Component {
                 </div>
             </div>
 
-            <section className="grid-callout photo-content-color border-bottom-5 height-670"> 
-                <div className="grid-callout-text grid-placeself-center padding content-block-75 content-header flex-layout-column">
-                    
-                    <div className="callout-text text-align-left margin-top-15" >
+            <section className="grid-callout photo-content-color border-bottom-5" > 
+                <div className="grid-placeself-center content-block-75   flex-layout-column">
+                    <div className="callout-text padding-20 text-align-left margin-top-15" >
                     Our CSS services include CSS development, strategy, CSS system implementation, mentoring, documentation, and best of practice documentation.
                     </div>    
                 </div>
-                <div className="grid-callout-photo grid-placeself-center">
+                <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
                         <img className="container-photo-callout" src={casscade}  alt="CSS" /> 
                  </div>
             </section>
@@ -63,7 +63,7 @@ class css_solutions extends Component {
 
             <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-            <div className="flex-layout-section-full flex-layout-column margin-top-25"> 
+            <div className="flex-layout-section-full flex-layout-column margin-top-25 align-self-center content-block-75"> 
                 <section className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title">
@@ -72,13 +72,13 @@ class css_solutions extends Component {
                         <div className="subtitle margin-top-15">
                             Responsive Design Solution
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-15">
+                        <div className="content-text-18 margin-top-15">
                             <p className="content-text-18"> 
                             Responsive web design is the approach that suggests that design and development should respond to the user’s behavior and environment based on screen size, platform and orientation. WDS has made countless responsive websites and applications. They were one of the first companies to build a responsive enterprise application using flexbox. WDS can mentor your developers on responsive design best practices, or provide a responsive design <a href="../ui_design">build kit.</a> </p>
                         </div>
                     </div>
                     <div className="grid-right-css container-image-block margin-top-25">
-                        <img className="photo-container width-50 margin-top-15" src={css2}  alt="Experience Matters" /> 
+                        <img className="image-size-100 margin-top-15" src={css2}  alt="Experience Matters" /> 
                     </div>     
                 </section>
 
@@ -92,13 +92,13 @@ class css_solutions extends Component {
                         <div className="subtitle margin-top-15">
                             Strategy to Organize and Reduce Specificity 
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-15">
+                        <div className="content-text-18 margin-top-15">
                             <p className="content-text-18"> 
                             Taming the specificity beast used to be difficult. WDS CSS strategy almost eliminates the specificity problems. In fact, the strategy almost eliminates the need for your developers to write CSS. The WDS advantage is the  experience of working with developers by interviewing and observing them working with CSS.  </p>
                         </div>
                     </div>
-                    <div className="grid-right-css container-image-block">
-                        <img className="photo-container" src={itcss}  alt="Organize and Simplify " /> 
+                    <div className="grid-right-css container-image-block margin-top-25">
+                        <img className=" margin-top-15 image-size-100" src={itcss}  alt="Organize and Simplify " /> 
                     </div>     
                 </section>
 
@@ -112,16 +112,18 @@ class css_solutions extends Component {
                         <div className="subtitle margin-top-15">
                             Reusable CSS
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-15">
+                        <div className="content-text-18 margin-top-15">
                             <p className="content-text-18"> 
                             CSS preprocessors are scripting languages that extend the default capabilities of CSS. They enable us to use logic in our CSS code, such as variables, nesting, inheritance, mixins, functions, and mathematical operations. CSS preprocessors make it easy to automate repetitive tasks, reduce the number of errors and "code bloat," create reusable code snippets, and ensure backward compatibility.</p>
                         </div>
                     </div>
                     <div className="grid-right-css container-image-block margin-top-50">
-                        <img className="photo-container" src={css3}  alt=" Reusable CSS" /> 
+                        <img className="image-size-100" src={css3}  alt=" Reusable CSS" /> 
                     </div>  
                      
                 </section>
+
+                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
                 <section className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
@@ -131,20 +133,20 @@ class css_solutions extends Component {
                         <div className="subtitle margin-top-15">
                             NPM and GitHub
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-15">
+                        <div className=" content-text-18 margin-top-15">
                             <p className="content-text-18"> 
                             The WDS CSS specialists deliver their custom CSS solutions as npm packages or through github. The packages includes a developer build kit with the custom css, sass or less files, html files and documentation. WDS can refactor your current CSS or develop a customizable CSS solution that will scale as the project matures.</p>
                         </div>
                     </div>
                     <div className="grid-right-css container-image-block margin-top-50">
-                        <img className="photo-container" src={css3}  alt=" Reusable CSS" /> 
+                        <img className="image-size-100" src={css4}  alt=" Reusable CSS" /> 
                     </div>  
                      
                 </section>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <div className="grid-2col-photo-content content-header">
+                <section className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title">
                             WDS Transforms your CSS 
@@ -152,17 +154,17 @@ class css_solutions extends Component {
                         <div className="subtitle margin-top-15">
                             Building Scalable Enterprise Solutions
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-15">
+                        <div className=" content-text-18 margin-top-15">
                             <p className="content-text-18"> The best way to communicate a solution through design thinking is with a story. The last company WDS worked for needed an enterprise level scalable CSS solution that would  diminish their specificity issues. This required observing users,  developers and engineers to build a system that could support 70 developers. <a href="../case_study_4"><i>Continue Story</i></a>  </p>
                             <p className="content-text-18"> </p>           
                         </div>
                     </div>
                     <div className="grid-right-css container-image-block">
-                        <img className="photo-container" src={css4}  alt="WDS Transforms your CSS " /> 
+                        <img className="image-size-100" src={css5}  alt="WDS Transforms your CSS " /> 
                     </div>     
-                </div>
+                </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75" ></div>
+                
                 </div>
                 
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">

@@ -254,7 +254,7 @@ class communication_insights extends Component {
                        <a href="../communication_insights"> <img className="container-image-500 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> </a>
                       
                     <div className="flex-layout-center-center">
-                        <p className="content-header text-white flex-layout-column flex-layout-center-center"> No Templates!! We create custom website and application design,  </p>
+                        <p className="callout-text text-white flex-layout-column flex-layout-center-center"> No Templates!! We create custom website and application design,  </p>
                     </div>
                 </div>
             </section>

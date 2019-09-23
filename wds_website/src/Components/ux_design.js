@@ -16,7 +16,7 @@ class ux_design extends Component {
             <Helmet>
                 <meta name="description" content="The team of WDS UX Designers are true designers that not only provide mock-ups, but high fidelity designs. Their UX designers also have an understanding of cognitive psychology and a background in customer service. All of their designers are friendly empathetic people with a passion to simplify the world, one project at a time. WDS UX designs includes product design for motorola, custom business intelligence platform for StubHub and OsiSoft. " />
                 <meta charSet="utf-8" />
-            <title>UI Design</title>
+            <title>UX Design</title>
             <link rel="canonical" href="http://watermandesignsolutions/ux_design" />
             </Helmet>
             <div className="flex-layout-column"> 

@@ -74,7 +74,7 @@ class digital_design extends Component {
                 <div className="subtitle">
                     A Small Sample of Our Custom Websites 
                 </div>
-                <div className="align-center align-items-center margin-top-50">
+                <div className="align-center justify-content-center align-items-center margin-top-50">
                     <ul className="grid-clients-wrapper align-items-center  width-70">
                     
                     <li  className="grid-clients-box image subtitle text-white"  data-content="ACD">
@@ -145,7 +145,7 @@ class digital_design extends Component {
                        <a href="../communication_insights"> 
                        <img className="container-image-500  margin-bottom-50" src={didyouknow}  alt="Did You Know?" /> </a> 
                     <div className="flex-layout-center-center">
-                        <p className="content-header text-white flex-layout-column flex-layout-center-center">WDS does not use templates - custom design only!</p>
+                        <p className="callout-text text-white flex-layout-column flex-layout-center-center">WDS does not use templates - custom design only!</p>
                     </div>
                     </div>
                 </section>

@@ -12,7 +12,7 @@
   }
 
   .margin-tb-100 {
-    margin: 50px 0 100px;
+    margin: 50px 0 50px;
   }
 
   .header {
@@ -34,7 +34,7 @@
   
   
   .width-70 {
-    width: 100%;
+    width: 90%;
   }
 
   .width-250 {
@@ -51,6 +51,10 @@
 
   .margin-top-75 {
     margin-top: 40px;
+  }
+
+  .margin-left-75 {
+    margin-left: 10px;
   }
 
   .content-block-50 {
@@ -88,20 +92,17 @@
   .container-photo-callout {
     width: 100%;
     max-width: 650px;
-    height: auto;
+    height: 100%;
     border: 2px solid #000;
-    margin-bottom: 50px;
   }
   .photo-container {
     width: 100%;
     height: auto;
     max-width: 550px;
-    margin: 10px;
   }
 
-  .photo-container-cs-sb1{
-    width: 100%;
-    height: auto;
+  .align-self-start {
+    align-self: self-start;
   }
 
   .container-image-500 {
@@ -337,7 +338,14 @@
     justify-items: center;
   }
 
-  
+  .grid-2col-text {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "text text";
+    grid-template-rows: auto;
+    grid-column-gap: 50px;
+    grid-row-gap: 5px;
+    display: block;
+  }
 
   .grid-clients-wrapper {
     grid-template-columns: repeat(1, 1fr);
@@ -487,7 +495,13 @@
   width: 70%;
 }
 
+.margin-left-75{
+  margin-left: 25px;
+}
 
+.margin-top-15per {
+  margin-top: 0%;
+}
 
 .hrline-spacing {
   margin-top: 75px;
@@ -551,8 +565,8 @@
       grid-template-columns: repeat(2, 1fr);
     }
     .grid-clients-box {
-      width:250px;
-      height: 250px;
+      width:100%;
+      height: auto;
       background-color: #e6e6e6;
       align-items: center;
     }
@@ -579,6 +593,16 @@
     width: 50%;
     display: grid;
   }
+
+  .grid-2col-text {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "text text";
+    grid-template-rows: auto;
+    grid-column-gap: 50px;
+    grid-row-gap: 5px;
+    display: grid;
+  }
+  
   .grid-title {
     grid-column: auto / span 2;
     align-items: center;
@@ -685,17 +709,12 @@
   padding: 50px;
 }
 
-.photo-container-cs-sb1{
-  width:900px;
-  height: auto;
-  border: 1px solid $black;
-}
+
 .container-photo-callout {
   width: 100%;
   max-width: 650px;
   height: auto;
   border: 2px solid #000;
-  margin-bottom: 0px;
 }
 
 .margin-left-15 {

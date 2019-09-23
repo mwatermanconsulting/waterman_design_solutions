@@ -135,24 +135,7 @@ class design_solutions extends Component {
 
             <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-            <section className="float-left align-items-center flex-layout-column">
-                <div className="subtitle content-block-60">
-                     Video Production
-                </div>
-                <div className="content-block-60">
-                    <div className="float-right">
-                        <img className="photo-container" src={design_video}  alt="Video" /> 
-                    </div>  
-                    <p className="content-text-18 margin-top-15">
-                        WDS produces corporate videos that captivate audiences, inspire action and drive results for businesses and brands. Studies show that 74% of users watching explainer videos actually buy the product. It is one of the highest provider of a good return on investment, and works because of the individual approach and  increased confidence to buy online.</p> 
-                
-                 <div className="float-left">
-                        <NavLink className='button-area no-decoration float-left margin-top-7per' value="learn more" type="button" to={'/marketing'}>
-                    Learn More
-                    </NavLink>
-                    </div>
-                    </div>        
-                </section>
+           
             <div className="thin-hr width-70 align-self-center margin-top-100"></div>            
             
         <section className="flex-layout-section-full align-items-center yellow-bg border-top-5">

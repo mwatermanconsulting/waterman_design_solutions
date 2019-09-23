@@ -44,7 +44,7 @@ class core_offerings extends Component {
                         Too often, companies get attached to the product and lose sight of the people using the product. 
                         </div>
                     </div>
-                    <div className="grid-callout-photo grid-placeself-center">
+                    <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
                         <img className="container-photo-callout" src={offerings1}  alt="Core Offerings" /> 
                     </div>
             </section>
