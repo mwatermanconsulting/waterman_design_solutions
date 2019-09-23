@@ -206,7 +206,7 @@ class services extends Component {
                         </div>
                 </section>
             
-            <div className="flex-layout-section-full margin-top-50 grey-blue padding-bottom-50">
+            <div className="flex-layout-section-full margin-top-50 grey-blue padding-bottom-50 align-items-center">
                 <div className="margin-top-50 margin-bottom-50 title text-align-center ">
                             Services
                     </div>
@@ -323,11 +323,11 @@ class services extends Component {
                     </div>     
                     <div className="gallery-2col-2t container-image-500 align-self-top">
                     <a href ="./design_systems"> <img className="container-image-500 border-2"  src={services9}  alt="Business Solutions" /> </a>
-                        <div className="content-block-85">
-                            <div className="title margin-top-50">
+                        <div className="content-block-85 ">
+                            <div className="title margin-top-50 content-block-auto">
                             <a href="./design_systems" className="no-decoration"> 
                                 Design Systems</a></div>
-                            <p className="content-text-18 margin-top-15">
+                            <p className="content-text-18 margin-top-15 content-block-auto">
                                 At WDS, they know and understand the importance of design systems to businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff.</p>
                         </div>
                     </div>
