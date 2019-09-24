@@ -24,6 +24,10 @@ footer {
     color: black !important;
 }
 
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+    color: black !important;
+}
+
 .header {
   background: #EC1000;
   height: 76px !important;
@@ -37,5 +41,12 @@ a:any-link {
     text-decoration: none;
     cursor: pointer;
     color: #000;
+    }
+
+    .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+        padding-left: 20px !important; 
+        padding-right: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 5px !important;
     }
 
