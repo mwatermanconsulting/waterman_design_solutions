@@ -2,7 +2,6 @@ import React, { Component } from 'react' ;
 import { NavLink } from 'react-router-dom';
 import Helmet from 'react-helmet';
 import wdslogofull from '../images/wds-logo-full.svg';
-import method from '../images/backgrounds/bg-methodology.svg';
 import binoculars from '../images/graphic-methodology-binoculars.svg';
 import why from '../images/graphic-why.svg' ;
 import why2 from '../images/graphic-why-wds.svg' ;
@@ -12,8 +11,6 @@ import theyluvus from '../images/photos/photo-home-theyluvus.png';
 import business from '../images/photos/photo-home-business-design.png';
 import starburst from '../images/photos/photo-home-starburst-red.png';
 import motorola from '../images/photos/photo-motorola-beforeafter.png';
-import motorola_logo from '../images/motorola_logo.svg'
-import stubhub_logo from '../images/icon-logo-stubhub.svg'
 import stubhub from '../images/photos/photo-stubhub-before-after.png'
 
 //import { Grid, Cell } from 'react-mdl';
@@ -53,7 +50,7 @@ class landingPage extends Component {
 
                 <section className="grid-gallery-2col grid-gap-20 content-header align-self-center justify-items-center margin-bottom-25 width-70">
                     <div className="gallery-2col-1 container-image-500 align-self-end">
-                    <img className="container-image-300" src={why}  alt="Why WDS" /> 
+                    <img className="container-image-300  margin-top-50" src={why}  alt="Why WDS" /> 
                         <div className="content-block-auto ">
                             <div className="title margin-top-15 margin-bottom-20 content-text-18">
                                 Why WDS</div>
@@ -69,7 +66,7 @@ class landingPage extends Component {
                    
                      </div>   
                     <div className="gallery-2col-2t container-image-500 align-self-top">
-                        <img className="container-image-300 "  src={binoculars}  alt="Methodology" /> 
+                        <img className="container-image-300 margin-top-50"  src={binoculars}  alt="Methodology" /> 
                         <div className="content-block-auto ">
                             <div className="title  margin-top-15 margin-bottom-20">
                                 Methodology</div>
@@ -85,7 +82,7 @@ class landingPage extends Component {
             </section>
             <section className="grid-gallery-2col grid-gap-20 align-self-center justify-items-center margin-bottom-50 width-70">
                 <div className="gallery-2col-1 container-image-500 align-self-end">
-                    <img className="container-image-300"  src={design}  alt="Design Solutions" />
+                    <img className="container-image-300 margin-top-50"  src={design}  alt="Design Solutions" />
                 <div className="content-block-auto ">
                     <div className="title margin-top-15 margin-bottom-20">
                         Design Solutions</div>
@@ -102,7 +99,7 @@ class landingPage extends Component {
                 
                          
                     <div className="gallery-2col-2 container-image-500 align-self-end">
-                    <img className="container-image-300 " src={igotyou}  alt="Services" />
+                    <img className="container-image-300 margin-top-50" src={igotyou}  alt="Services" />
                         <div className="content-block-auto ">
                             <div className="title  margin-top-15 margin-bottom-20">Services</div>
                             <p className="content-text-18"> For the past 25 years, WDS has been working on the leading edge of strategy, design and technology to help clients evolve and thrive.</p>
@@ -227,18 +224,18 @@ class landingPage extends Component {
                     </div>
                      
             </section>
-            <section className="flex-layout-section-full align-items-center margin-top-100 yellow-bg border-top-5">
-                <div className="grid-2col-text-photo align-self-center width-100  margin-top-50 " > 
-                    <div className="2col-text grid-placeself-center width-70 margin-left-75">
+            <section className="flex-layout-section-full align-items-center yellow-bg border-top-5 margin-top-100">
+                <div className="grid-2col-text-photo align-self-center content-block-60 margin-top-50 margin-bottom-50" > 
+                    <div className="2col-text grid-placeself-center ">
                         <div className="content-block">
-                            <p className="content-header"> 
+                            <p className="content-header content-block-60">  
                             "The good news is that there are more opportunities than ever to pursue user-centric, analytically informed design today." - McKinsley Report</p> 
 
                         </div>
                     </div>              
                     <div className="col2-photo width-50 margin-right-25 grid-placeself-center">
                         <img className="flex-image-container " src={why2}  alt="A miracle!" /> 
-                        <p className="caption">Success is possible!</p>
+                        <p className="caption margin-left-25">Success is possible!</p>
                     </div>
                 </div>
             </section>   

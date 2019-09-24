@@ -40,7 +40,8 @@ class ux_design extends Component {
                         The most meaningful insights for design strategy are developed with a behavior-based understanding of users. WDS UX strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve.
                         </div>
                     </div>
-                    <div className="grid-callout-photo grid-placeself-center">
+                    <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
+                        
                         <img className="container-photo-callout" src={ux_s1}  alt="UX" /> 
                     </div>
                 </section>

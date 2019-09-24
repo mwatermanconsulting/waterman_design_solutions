@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 import finding_truth from '../images/backgrounds/bg-finding-truth.png';
 import finding from '../images/photos/photo-documentation-s1.png';
-import finding_truth1 from '../images/photos/photo-finding-truth-s1.png';
 import finding_truth2 from '../images/photos/photo-finding-truth-s2.png';
 import finding_truth3 from '../images/photos/photo-finding-truth-s3.png';
 import finding_truth4 from '../images/photos/photo-finding-truth-s4.png';
@@ -176,7 +175,7 @@ class innovative_solutions extends Component {
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section className="grid-gallery-2col flex-layout-column">
+                <section className="grid-gallery-2col flex-layout-column content-block-60 align-self-center">
                     <div className="gallery-2col-1 flex-layout-section-full margin-left-325">
                         <div className="title">
                             Develop frameworks                        
@@ -184,7 +183,7 @@ class innovative_solutions extends Component {
                         <div className="subtitle  margin-top-15">
                             Principles for design strategies
                         </div>
-                        <div className="content-text-18 content-block-75 margin-top-15">
+                        <div className="content-text-18  margin-top-15">
                             <p className="content-text-18"> A solid design strategy provides a decision-making framework to drive customer-centered initiatives across the company. After the investment in deep customer understanding, the results can be shared among many departments to increase their value to the company.
                             The framework is a set of principles or questions that guide the development of ideas for solutions as well as the subsequent work performed by multiple teams in developing and marketing those solutions: architects, marketers, designers, branders, etc. This decision-making framework is valuable because it puts to work the understanding of the needs and concerns of the customer group, captured in the field observations. It persists beyond a specific project, providing value long after an engagement.</p>
                         </div>
@@ -196,7 +195,7 @@ class innovative_solutions extends Component {
                         <div className="subtitle  margin-top-15">
                             Envision, prioritize and rank opportunity concepts
                         </div>
-                        <div className=" content-text-18 content-block-50 margin-top-15">
+                        <div className=" content-text-18 margin-top-15">
                             <p className="content-text-18"> 
                             A key value that an experience strategy delivers 
                             is a set of new ideas for serving customers. The information distilled from the previous techniques and the company’s strategic requirements comes together in an Opportunities Matrix that clearly lays out a set of options for improving the experience of the user base to increase their engagement and satisfaction. </p>
