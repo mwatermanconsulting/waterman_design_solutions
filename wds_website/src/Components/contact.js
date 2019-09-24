@@ -13,11 +13,12 @@ class contact extends Component {
                     </div>
                 </div> 
             </div>
-            <div className="flex-layout-section-full flex-layout-center-center flex-layout-column margin-top-100 margin-bottom-100">
-            <p className="title">Contact US</p>
-            <p className="subtitle">484-477-5193</p>
-            <p className="subtitle ">Email: 
-            <a className="content-text-28" href="mailto: info@watermandesignsolutions.com"> inquiries@watermandesignsolutions.com</a></p>
+            <div className="flex-layout-section-full flex-layout-center-center flex-layout-column margin-top-100 margin-bottom-100 padding">
+            <p className="title-homepage text-align-center padding-20">We'd love to hear from you</p>
+            <p className="content-text-21 text-align-center margin-20">Whether you have a question about features, pricing, or would like to get together to explore solutions, we are more than happy to help!</p>
+            <p className="subtitle text-black">484-477-5193</p>
+            <p className="subtitle ">
+            <a className="greenlink " href="mailto: inquiries@watermandesignsolutions.com"> inquiries@watermandesignsolutions.com</a></p>
                
                 
     
