@@ -23,7 +23,7 @@ class case_studies extends Component {
                 <meta name="keywords" cpntent="case studies, WDS, stubhub, motorola" />
                 <meta charSet="utf-8" />
                 <title>Case Studies</title>
-                <link rel="canonical" href="http://watermandesignsolutions/case_studies" />
+                <link rel="canonical" href="http://watermandesignsolutions.com/case_studies" />
             </Helmet>
 
             <div className="flex-layout-column">

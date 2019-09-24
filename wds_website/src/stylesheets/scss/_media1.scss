@@ -718,10 +718,15 @@
     transition: 0.75s;
 }
 
-
-
 .float-right {
   float: right;
+  padding: 5px;
+}
+
+
+.float-left {
+  float: left;
+  padding: 5px;
 }
 
 .padding {

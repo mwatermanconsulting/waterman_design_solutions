@@ -20,7 +20,7 @@ class innovative_solutions extends Component {
                 <meta name="description" content="WDS UX methodology connects with your users. They connect with users by observing and interviewing them. People will always open up and confide in you if they feel you are on their side especially when you empathize with their needs. This is how WDS uncover truths that were previously unknown." />
                 <meta charSet="utf-8" />
                 <title>Finding the Truth</title>
-                <link rel="canonical" href="http://watermandesignsolutions/finding_the_truth" />
+                <link rel="canonical" href="http://watermandesignsolutions.com/finding_the_truth" />
             </Helmet>
         <div className="flex-layout-column"> 
             <section className="flex-section-fixed-head flex-layout-center-center image-background-border-tb">

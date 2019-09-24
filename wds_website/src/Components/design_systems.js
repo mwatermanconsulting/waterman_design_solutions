@@ -17,7 +17,7 @@ class style_guide extends Component {
                 <meta name="description" content="A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive, combining components, behaviors, and branding. It must also be flexible and scalable." />
                 <meta charSet="utf-8" />
                 <title>Design Solutions</title>
-                <link rel="canonical" href="http://watermandesignsolutions/design_systems" />
+                <link rel="canonical" href="http://watermandesignsolutions.com/design_systems" />
             </Helmet>
         <div className="flex-layout-column"> 
             <section className="flex-section-fixed-head-child yellow flex-layout-center-center image-background-border-tb">

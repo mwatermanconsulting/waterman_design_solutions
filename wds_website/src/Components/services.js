@@ -27,7 +27,7 @@ class services extends Component {
                 <meta name="description" content="The role of a UX consultant is to listen and connect to the customers. WDS services are a testament to their belief in old fashioned customer service. Their services include: UX Design, UI Design and development, Design Solutions, strategy and insight, CSS solutions, Marketing, Core offerings and website design" />
                 <meta charSet="utf-8" />
             <title>Services</title>
-            <link rel="canonical" href="http://watermandesignsolutions/services" />
+            <link rel="canonical" href="http://watermandesignsolutions.com/services" />
             </Helmet>
         <div className="flex-layout-column"> 
             <section className="flex-section-fixed-head image-background-border-tb">

@@ -3239,7 +3239,11 @@ a:any-link {
     transition-timing-function: ease-in;
     transition: 0.75s; }
   .float-right {
-    float: right; }
+    float: right;
+    padding: 5px; }
+  .float-left {
+    float: left;
+    padding: 5px; }
   .padding {
     padding: 50px; }
   .container-photo-callout {

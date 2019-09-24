@@ -27,7 +27,7 @@ class why_wds extends Component {
                 With over 15 years of perfecting our design and business strategies, we have the experience, designers, strategists, skills and scale to deliver sophisticated design solutions. WDS services include application design, website design and marketing. Our client list includes, Motorola, StubHub, OsiSoft, and Pfizer " />
                 <meta charSet="utf-8" />
                 <title>Why WDS</title>
-                <link rel="canonical" href="http://watermandesignsolutions/case_study_1" />
+                <link rel="canonical" href="http://watermandesignsolutions.com/why_wds" />
             </Helmet>
             <div className="flex-layout-column">
                 <section className="flex-section-fixed-head">

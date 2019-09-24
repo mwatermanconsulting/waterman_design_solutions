@@ -22,7 +22,7 @@ import marketing_telementry from './marketing_telementry';
 import methodology from './methodology';
 import news_insights from './news_insights';
 import practices from './practices';
-import print_design from './print_design';
+import graphic_design from './graphic_design';
 import project_management from './project_management';
 import Services from './services';
 import strategy_insight from './strategy_insight';
@@ -59,7 +59,7 @@ const Main = () => (
     <Route exact path="/methodology" component={methodology} />
     <Route exact path="/news_insights" component={news_insights} />
     <Route exact path="/practices" component={practices} />
-    <Route exact path="/print_design" component={print_design} />
+    <Route exact path="/graphic_design" component={graphic_design} />
     <Route exact path="/project_management" component={project_management} />
     <Route exact path="/services" component={Services} />
     <Route exact path="/strategy_insight" component={strategy_insight} />

@@ -25,7 +25,7 @@ class ui_design extends Component {
                 <meta name="description" content=" WDS honed its UI design skills by designing websites in 1998. Over the years they have designed and developed complicated healthcare websites to solving difficult UI problems on critical applications. Current data visualization designs are being used on oil rigs, nuclear reactors and pharmaceutical drug plants. WDS can take care of the front-end development, including CSS and HTML development, working on-site with your team or creating GIT build-packages complete with custom CSS solutions, patterns libraries, style guides, best of practice documentation and design strategies, ensuring and enforcing original design and solutions. WDS UI designs includes product design for motorola, custom business intelligence platform for StubHub and OsiSoft." />
                 <meta charSet="utf-8" />
             <title>UI Design</title>
-            <link rel="canonical" href="http://watermandesignsolutions/ui_design" />
+            <link rel="canonical" href="http://watermandesignsolutions.com/ui_design" />
             </Helmet>
         <div className="flex-layout-column"> 
             <section className="flex-section-fixed-head-child yellow flex-layout-center-center image-background-border-tb">

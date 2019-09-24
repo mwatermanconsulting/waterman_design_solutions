@@ -65,13 +65,13 @@ class App extends Component {
                   <div className="dropdown-content content-text">
                     <a href="./design_solutions">Design Overview</a>
                     <a href="./website_design">Website Design</a>
-                    <a href="./print_design">Graphic Design</a>
+                    <a href="./graphic_design">Graphic Design</a>
                     <a href="./marketing">Marketing</a>
                   </div>
                 </div>
               </div>
 
-                <div className="dropdown" style={{marginLeft:'-1%', marginTop:'.5%'}}>
+                <div className="dropdown">
                   <button className="dropbtn"> <a dropbtn href="./contact" className="menu  no-decoration">Contact</a>
 
                    
@@ -157,7 +157,7 @@ class App extends Component {
               <ul>
               <li><a className="text-black" href="./design_solutions">Overview</a></li>
               <li><a className="text-black" href="./website_design">Website Design</a></li>
-              <li><a className="text-black" href="./print_design">Graphic Design</a></li>
+              <li><a className="text-black" href="./graphic_design">Graphic Design</a></li>
               <li><a className="text-black" href="./marketing">Marketing</a></li>
               </ul>
           </div> 
