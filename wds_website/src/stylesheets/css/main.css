@@ -196,6 +196,10 @@ footer {
          Helper Classes
   *******************************/
 /* margins */
+/* margins */
+.margin-left-4per {
+  margin-left: 4%; }
+
 .margin-left-6per {
   margin-left: -6px; }
 
@@ -2779,18 +2783,18 @@ a:any-link {
     display: inline-block;
     transition-timing-function: ease-out;
     transition: 0.75s; }
-
+  .margin-left-8 {
+    margin-left: 8%; }
+  .margin-top-15per {
+    margin-top: 0%; }
   .margin-left-325 {
     margin-left: 0px; }
-
   .visibility {
     display: none; }
   .margin-tb-100 {
     margin: 50px 0 50px; }
   .header {
     display: none !important; }
-  .mdl-layout__header-row {
-    display: none; }
   .mobile-menu {
     display: block; }
   .container-section-1-primary {
@@ -2812,8 +2816,6 @@ a:any-link {
     margin-top: 40px; }
   .margin-left-75 {
     margin-left: 10px; }
-  .margin-left-15per {
-    margin-left: 63%; }
   .content-block-50 {
     width: 90%; }
   .content-block-55 {
@@ -3236,8 +3238,6 @@ a:any-link {
     display: block !important;
     transition-timing-function: ease-in;
     transition: 0.75s; }
-  .mdl-layout__header-row {
-    display: block; }
   .float-right {
     float: right; }
   .padding {

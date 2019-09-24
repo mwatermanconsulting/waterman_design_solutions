@@ -21,7 +21,7 @@ class App extends Component {
         <Layout>
             <Header className="header content-text-18 red text-white flex-layout-row" title={<Link style={{textDecoration: 'none',
             color: 'white'}} to="/"><img src={logo} height="65px" alt="header" style={{marginLeft:'4%'}} /></Link>} scroll >
-             <div style={{marginRight:'1.5%', marginTop:'.5%'}}>
+             <div>
                 <div className="dropdown">
                   <button className="dropbtn">Why WDS
                     

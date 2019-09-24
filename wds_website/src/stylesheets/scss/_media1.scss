@@ -30,9 +30,7 @@
   .header {
     display: none !important;
   }
-  .mdl-layout__header-row {
-    display: none;
-  }
+
   .mobile-menu {
     display: block;
   }
@@ -720,9 +718,7 @@
     transition: 0.75s;
 }
 
-.mdl-layout__header-row {
-    display: block;
-}
+
 
 .float-right {
   float: right;
