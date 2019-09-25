@@ -58,7 +58,7 @@ class ux_design extends Component {
                             <p className="content-text-18">
                                 Sometimes customers are so accustomed to current conditions that they don’t think to ask for a new solution, even if they have real needs that could be addressed. As consumers, we create workarounds that become a habit and we may forget that we are being forced to behave that way,
                             <div className="float-right callout-photo grid-placeself-center">
-                                 <img className="container-photo-callout" src={ux_s2}  alt="Research and Empathy" /> 
+                                 <img className="container-image-500" src={ux_s2}  alt="Research and Empathy" /> 
                             </div> in a less-than-optimal fashion. This can make us incapable of telling UX designers what we really want. </p>
 
                                 <p className="content-text-18">
@@ -83,7 +83,7 @@ class ux_design extends Component {
                             <p className="subtitle"> 
                                 Old school custom service</p> 
                             <div className="float-right callout-photo grid-placeself-center">
-                                <img className="container-photo-callout margin-top-15per" src={ux_s3}  alt="Old school customer service" />   
+                                <img className="container-image-500 margin-top-15per" src={ux_s3}  alt="Old school customer service" />   
                             </div>
                             <p className="content-text-18">
                                 Empathy is a very powerful selling tool, because it is human-centric. It’s the new buzz word, but empathy has always been at the heart of WDS designs.  <br></br>“Walk in the user’s shoes.” <br></br>“See the problem as if you were experiencing it yourself."<br></br>“Observe their daily routines.” <br></br>All of these mantras and behaviors are empathetic techniques that their UX designers have acquired through years of practice. It is part of their daily lives. 
@@ -104,7 +104,7 @@ class ux_design extends Component {
                                 Understanding people as they go about completing a task is essential to guaranteeing a positive user experience. Every action of that task is an experience with your product or service. The experience can be positive or negative depending how much of the user was taken into account when designing. 
                             </p>
                         <div className="float-right callout-photo">
-                            <img className="container-photo-callout" src={ux_s4}  alt="UX is the study of people" />
+                            <img className="container-image-500" src={ux_s4}  alt="UX is the study of people" />
                         </div> 
                         <p className="content-text-18">User expectations have changed over the years. Simplicity is expected.  </p> 
                                
