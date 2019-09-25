@@ -86,7 +86,7 @@ class landingPage extends Component {
                     </div>
                 </div>
             </section>
-            <section className="grid-gallery-2col grid-gap-20 align-self-center margin-left-10per margin-top-50 margin-bottom-50 width-70">
+            <section className="grid-gallery-2col grid-gap-20 align-self-center media-margin margin-left-10per margin-top-50 margin-bottom-50 width-70">
                 <div className="gallery-2col-1 container-image-500 margin-left-10per justify-self-center margin-top-50">
                     <img className="container-image-300 margin-left-5"  src={design}  alt="Design Solutions" />
                 <div className="">
@@ -103,8 +103,8 @@ class landingPage extends Component {
                  
             </div>
             </div>   
-            <div className="gallery-2col-2 container-image-500 align-self-end margin-top-50">
-                <img className="container-image-300 margin-top-75 " src={igotyou}  alt="Services" />
+            <div className="gallery-2col-2 container-image-500 media-left-margin align-self-end margin-top-50">
+                <img className="container-image-300 margin-top-75" src={igotyou}  alt="Services" />
                     <div className="content-block-auto content-block-60 ">
                         <div className="title margin-top-15 margin-bottom-20">Services</div>
                             <p className="content-text-18"> 

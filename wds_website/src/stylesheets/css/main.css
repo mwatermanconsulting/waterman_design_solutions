@@ -772,6 +772,12 @@ footer {
 .margin-bottom-25 {
   margin-bottom: 25px; }
 
+.media-margin {
+  margin-left: 8%; }
+
+.media-left-margin {
+  margin-left: 1%; }
+
 .margin-bottom-50 {
   margin-bottom: 50px; }
 
@@ -1974,7 +1980,8 @@ Button:hover {
 .gallery-2col-2t {
   grid-column: 2/2;
   grid-row: 1/auto;
-  align-self: start; }
+  align-self: start;
+  margin-top: 0px; }
 
 .grid-gallery-4col {
   display: grid;
@@ -2802,6 +2809,10 @@ a:any-link {
     margin-left: 8%; }
   .margin-top-15per {
     margin-top: 0%; }
+  .media-margin {
+    margin-left: -12%; }
+  .media-left-margin {
+    margin-left: 12%; }
   .margin-left-325 {
     margin-left: 0px; }
   .visibility {
@@ -2873,7 +2884,6 @@ a:any-link {
     float: none;
     padding: 5px; }
   .float-left {
-    float: none;
     padding: 5px; }
   .height-670 {
     height: auto; }
@@ -2908,7 +2918,9 @@ a:any-link {
     font-size: 2.12rem;
     line-height: 1.2; }
   .callout-text-lg {
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    line-height: 1.75;
+    padding: 25px; }
   .callout-text-white {
     text-align: center;
     padding: 20px; }
@@ -2968,6 +2980,11 @@ a:any-link {
     grid-column-gap: 50px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(auto, 1fr); }
+  .gallery-2col-2t {
+    grid-column: 2/2;
+    grid-row: 1/auto;
+    align-self: start;
+    margin-top: 5%; }
   .cs-card-1 {
     grid-column: 1;
     grid-row: 1; }
@@ -3116,7 +3133,12 @@ a:any-link {
     grid-column: 1/6;
     grid-row: auto;
     grid-area: text6;
-    margin-top: 25px; } }
+    margin-top: 25px; }
+  .gallery-2col-2t {
+    grid-column: 2/2;
+    grid-row: 1/auto;
+    align-self: start;
+    margin-top: 25%; } }
 
 @media (min-width: 768px) {
   .width-70 {
@@ -3345,6 +3367,11 @@ a:any-link {
   .cs-card-4 {
     grid-column: 2/ 2;
     grid-row: 2/2; }
+  .gallery-2col-2t {
+    grid-column: 2/2;
+    grid-row: 1/auto;
+    align-self: start;
+    margin-top: 0%; }
   .cs-card-right {
     grid-column: 2/2;
     grid-row: auto; }
@@ -3376,6 +3403,10 @@ a:any-link {
     margin-left: 75px; }
   .margin-right-25 {
     margin-right: 25%; }
+  .media-margin {
+    margin-left: 8%; }
+  .media-left-margin {
+    margin-left: 1%; }
   .header-title {
     font-size: 5.1875rem; }
   .content-block-25 {

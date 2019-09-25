@@ -14,6 +14,14 @@
     margin-top: 0%;
   }
 
+  .media-margin {
+    margin-left: -12%;
+  }
+
+  .media-left-margin {
+    margin-left: 12%
+  }
+
 
 .margin-left-325 {
   margin-left: 0px
@@ -139,7 +147,6 @@
   }
 
   .float-left {
-    float: none;
     padding: 5px;
   }
 
@@ -200,6 +207,8 @@
   }
   .callout-text-lg {
     font-size: 1.5rem;
+    line-height: 1.75;
+    padding: 25px;
   }
   .callout-text-white {
     text-align: center;
@@ -285,6 +294,13 @@
     grid-column-gap: 50px;
     grid-template-columns: 1fr ;
     grid-template-rows: repeat(auto, 1fr);
+  }
+
+  .gallery-2col-2t {
+    grid-column: 2/2;
+    grid-row: 1/auto;
+    align-self: start;
+    margin-top: 5%;
   }
   
   .cs-card-1 {
@@ -500,6 +516,13 @@
   grid-row: auto;
   grid-area: text6;
   margin-top: 25px;
+  }
+
+  .gallery-2col-2t {
+    grid-column: 2/2;
+    grid-row: 1/auto;
+    align-self: start;
+    margin-top: 25%;
   }
   }
   
@@ -860,6 +883,13 @@
     grid-column: 2/ 2;
     grid-row: 2/2
   }
+
+  .gallery-2col-2t {
+    grid-column: 2/2;
+    grid-row: 1/auto;
+    align-self: start;
+    margin-top: 0%;
+  }
   
   .cs-card-right {
     grid-column: 2/2;
@@ -915,6 +945,14 @@
 
   .margin-right-25 {
     margin-right: 25%;
+  }
+
+  .media-margin {
+    margin-left: 8%;
+  }
+
+  .media-left-margin {
+    margin-left: 1%
   }
 
 
