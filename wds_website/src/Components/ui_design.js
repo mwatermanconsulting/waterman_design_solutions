@@ -50,7 +50,7 @@ class ui_design extends Component {
                     </div>    
                 </div>
                 <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
-                        <img className="container-photo-callout" src={ui_s1}  alt="The aha Moment" /> 
+                        <img className="container-image-500" src={ui_s1}  alt="The aha Moment" /> 
                  </div>
             </section>
             <section className="flex-layout-section-full flex-layout-column align-items-center">
@@ -72,7 +72,7 @@ class ui_design extends Component {
                             Websites, Products and Applications
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                                 <img className="container-photo-callout" src={ui_s2}  alt="UI" /> 
+                                 <img className="container-image-500" src={ui_s2}  alt="UI" /> 
                             </div>
                         <div className="margin-top-15">  
                             <p className="content-text-18"> 
@@ -97,7 +97,7 @@ class ui_design extends Component {
                             Mock-ups and Wireframes
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                                 <img className="container-photo-callout" src={ui_s3}  alt="Mock-ups and Wireframes" /> 
+                                 <img className="container-image-500" src={ui_s3}  alt="Mock-ups and Wireframes" /> 
                             </div>
                         <div className="margin-top-15">  
                        
@@ -126,7 +126,7 @@ class ui_design extends Component {
                             Representing the Final Product
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                                 <img className="container-photo-callout" src={ui_s4}  alt="Hi-Fidelity Designs" /> 
+                                 <img className="container-image-500" src={ui_s4}  alt="Hi-Fidelity Designs" /> 
                             </div>
                         <div className="margin-top-15">  
                        
@@ -154,7 +154,7 @@ class ui_design extends Component {
                             Ensuring your Design Success
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                            <img className="container-photo-callout" src={ui_s5}  alt="Concept Validation" /> 
+                            <img className="container-image-500" src={ui_s5}  alt="Concept Validation" /> 
                         </div>
                         <div className="margin-top-15">  
                        
@@ -182,7 +182,7 @@ class ui_design extends Component {
                             The "aha" Moment
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                            <img className="container-photo-callout margin-top-2per" src={ui_s6}  alt="Consolidated Workflows" /> 
+                            <img className="container-image-500 margin-top-2per" src={ui_s6}  alt="Consolidated Workflows" /> 
                           
                         </div>
                         <div className="margin-top-15">  
@@ -204,7 +204,7 @@ class ui_design extends Component {
                             Business Tailored UI Design Kits
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                                 <img className="container-photo-callout" src={ui_s7}  alt="HTML and CSS Build-Kits" /> 
+                                 <img className="container-image-500" src={ui_s7}  alt="HTML and CSS Build-Kits" /> 
                                
                             </div>
                         <div className="margin-top-15">  
@@ -231,7 +231,7 @@ class ui_design extends Component {
                             If a picture is worth 1000 words, a prototype is worth 1000 meetings
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                                 <img className="container-photo-callout" src={ui_s8}  alt="Prototypes" /> 
+                                 <img className="container-image-500" src={ui_s8}  alt="Prototypes" /> 
                                
                             </div>
                         <div className="margin-top-15">  

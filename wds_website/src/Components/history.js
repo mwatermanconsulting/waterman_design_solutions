@@ -231,7 +231,10 @@ class about extends Component {
                         
                             <p className="content-text-18"><a href="../case_study_2">Read full case study</a></p> 
 
+                        <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-50">
+
                             <img className="photo-container-cs-sb1 margin-top-15" src={stubhub_after_4} alt="Show me the Numbers"/>
+                        </div>
                         </div>    
                     </section>
                     
@@ -248,9 +251,12 @@ class about extends Component {
                             <p className="content-text-18"> 
                              After 22 years of business Terri and Michael evolved to the point of outgrowing Surreal Concepts. After 4 years away from the business, Michael knew it was time to share his knowledge, strategies and methodologies he gained over the years. Surreal Concepts no longer fit with the new services or todays market. Business needs have changed over the years and competition in the digital space is at an all time high. Businesses today need design support and education on the value of design. Their new services include design, business strategies, talks and workshops. Michael has navigated successfully to enterprise businesses, and under the new name Waterman Design Solutions, the team looks forward to changing the design perspective for all sized businesses. </p>
 
+                             <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-50">
+
                             <img className="photo-container-cs-sb1" src={wds} alt="Show me the Numbers"/>
-                        </div>    
-                    </section>
+                        </div>
+                     </div>   
+                </section>
                 
 
                     <section className="flex-layout-section-full align-items-center">
