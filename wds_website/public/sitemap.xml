@@ -1,102 +1,143 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   <sitemap>
+   <url>
       <loc>http://www.watermandesignsolutions.com/home</loc>
-      <changefreq>weekly</changefreq>
+      <lastmod>2019-09-24</lastmod>
+      <changefreq>monthly</changefreq>
       <priority>1.0</priority>
-   </sitemap>
-   <sitemap>
+   </url>
+   <url>
       <loc>http://www.watermandesignsolutions.com/case_studies</loc>
-      <changefreq>weekly</changefreq>
+      <lastmod>2019-09-24</lastmod>
+      <changefreq>monthly</changefreq>
       <priority>1.0</priority>
-   </sitemap>
-   <sitemap>
+   </url>
+   <url>
       <loc>http://www.watermandesignsolutions.com/case_studies_1</loc>
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-   </sitemap>
-    <sitemap>
+      <lastmod>2019-09-24</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+    <url>
       <loc>http://www.watermandesignsolutions.com/case_studies_2</loc>
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-   </sitemap>
-   <sitemap>
+      <lastmod>2019-09-24</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+   <url>
       <loc>http://www.watermandesignsolutions.com/case_studies_3</loc>
-      <lastmod>2019-8-22T12:00:00-02:00</lastmod>
-   </sitemap>
-   <sitemap>
+      <lastmod>2019-09-24</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+   <url>
       <loc>http://www.watermandesignsolutions.com/case_studies_4</loc>
-      <lastmod>2019-8-22T12:00:00-02:00</lastmod>
-   </sitemap>
-   <sitemap>
+      <lastmod>2019-09-24</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+   <url>
       <loc>http://www.watermandesignsolutions.com/clients</loc>
-      <lastmod>2019-8-22T12:00:00-02:00</lastmod>
-   </sitemap>
-   <sitemap>
-      <loc>http://www.watermandesignsolutions.com/communication_insights</loc>
-      <lastmod>2019-8-22T12:00:00-02:00</lastmod>
-   </sitemap>
-    <sitemap>
+      <lastmod>2019-09-24</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+   </url>
+    <url>
       <loc>http://www.watermandesignsolutions.com/contact</loc>
-      <lastmod>2019-8-22T12:00:00-02:00</lastmod>
-   </sitemap>
-    <sitemap>
+      <lastmod>2019-09-24</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.9</priority>
+   </url>
+    <url>
       <loc>http://www.watermandesignsolutions.com/core_offerings</loc>
-      <lastmod>2019-8-22T12:00:00-02:00</lastmod>
-   </sitemap>
-   <sitemap>
+      <lastmod>2019-09-24</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.9</priority>
+   </url>
+   <url>
       <loc>http://www.watermandesignsolutions.com/css_solutions</loc>
-      <lastmod>2019-8-22T12:00:00-02:00</lastmod>
-   </sitemap>
-    <sitemap>
+      <lastmod>2019-09-24</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+    <url>
       <loc>http://www.watermandesignsolutions.com/design_solutions</loc>
-      <lastmod>2019-8-22T12:00:00-02:00</lastmod>
-   </sitemap>
-    <sitemap>
+      <lastmod>2019-09-24</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.9</priority>
+   </url>
+    <url>
       <loc>http://www.watermandesignsolutions.com/design_systems</loc>
-      <lastmod>2019-8-22T12:00:00-02:00</lastmod>
-   </sitemap>
-    <sitemap>
+      <lastmod>2019-09-24</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+   </url>
+    <url>
       <loc>http://www.watermandesignsolutions.com/finding_truth</loc>
-      <lastmod>2019-8-22T12:00:00-02:00</lastmod>
-   </sitemap>
-    <sitemap>
+      <lastmod>2019-09-24</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+   </url>
+    <url>
       <loc>http://www.watermandesignsolutions.com/graphic_design</loc>
-      <lastmod>2019-8-22T12:00:00-02:00</lastmod>
-   </sitemap>
-    <sitemap>
+      <lastmod>2019-09-24</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+   </url>
+    <url>
       <loc>http://www.watermandesignsolutions.com/history</loc>
-      <lastmod>2019-8-22T12:00:00-02:00</lastmod>
-   </sitemap>
-   <sitemap>
+     <lastmod>2019-09-24</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+   </url>
+   <url>
       <loc>http://www.watermandesignsolutions.com/marketing</loc>
-      <lastmod>2019-8-22T12:00:00-02:00</lastmod>
-   </sitemap>
-    <sitemap>
+     <lastmod>2019-09-24</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+    <url>
       <loc>http://www.watermandesignsolutions.com/services</loc>
-      <lastmod>2019-8-22T12:00:00-02:00</lastmod>
-   </sitemap>
-    <sitemap>
+      <lastmod>2019-09-24</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.9</priority>
+   </url>
+    <url>
       <loc>http://www.watermandesignsolutions.com/strategy_insights</loc>
-      <lastmod>2019-8-22T12:00:00-02:00</lastmod>
-   </sitemap>
-    <sitemap>
+      <lastmod>2019-09-24</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+    <url>
       <loc>http://www.watermandesignsolutions.com/ui_design</loc>
-      <lastmod>2019-8-22T12:00:00-02:00</lastmod>
-   </sitemap>
-    <sitemap>
+      <lastmod>2019-09-24</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.9</priority>
+   </url>
+    <url>
+      <loc>http://www.watermandesignsolutions.com/methodology</loc>
+      <lastmod>2019-09-24</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.9</priority>
+   </url>
+    <url>
       <loc>http://www.watermandesignsolutions.com/ux_design</loc>
-      <lastmod>2019-8-22T12:00:00-02:00</lastmod>
-   </sitemap>
-    <sitemap>
+      <lastmod>2019-09-24</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.9</priority>
+   </url>
+    <url>
       <loc>http://www.watermandesignsolutions.com/website_design</loc>
-      <lastmod>2019-8-22T12:00:00-02:00</lastmod>
-   </sitemap>
-    <sitemap>
+     <lastmod>2019-09-24</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.9</priority>
+   </url>
+    <url>
       <loc>http://www.watermandesignsolutions.com/why_wds</loc>
-      <lastmod>2019-8-22T12:00:00-02:00</lastmod>
-   </sitemap>
-</sitemapindex>
+      <lastmod>2019-09-24</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
 </urlset>
 
