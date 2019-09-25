@@ -191,7 +191,7 @@ class landingPage extends Component {
 
             <section className="float-left align-items-center flex-layout-column">
                     <div className="header-title">
-                            WDS is Your Design Support
+                            WDS is Your Partner in Design
                     </div>
                         <div className="title content-block-65 margin-top-25">
                             The Value of Working with Real Designers
