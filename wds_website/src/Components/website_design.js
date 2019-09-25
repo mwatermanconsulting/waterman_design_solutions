@@ -20,7 +20,7 @@ class digital_design extends Component {
                 <meta name="description" content="  WDS has been creating design solutions for websites for over 20 years. All of the design solutions are derived from UX research and user personas. WDS websites designs are as unique as your business. " />
                 <meta charSet="utf-8" />
             <title>Website Design</title>
-            <link rel="canonical" href="http://watermandesignsolutions/website_design" />
+            <link rel="canonical" href="http://watermandesignsolutions.com/website_design" />
             </Helmet>
         <div className="flex-layout-column"> 
             <section className="flex-section-fixed-head-child yellow flex-layout-center-center image-background-border-tb">

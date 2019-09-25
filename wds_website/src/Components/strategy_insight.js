@@ -23,7 +23,7 @@ class strategy_insight extends Component {
                 <meta name="description" content=" WDS understands that the most meaningful insights for design strategy are developed with behavior-based understanding of users. UX strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve." />
                 <meta charSet="utf-8" />
             <title>Strategy and Insight</title>
-            <link rel="canonical" href="http://watermandesignsolutions/strategy_insight" />
+            <link rel="canonical" href="http://watermandesignsolutions.com/strategy_insight" />
             </Helmet>
         <div className="flex-layout-column"> 
             <section className="flex-section-fixed-head flex-layout-center-center image-background-border-tb">

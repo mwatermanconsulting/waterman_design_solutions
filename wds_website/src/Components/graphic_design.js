@@ -1,7 +1,7 @@
-import React, { Component } from 'react' ;
+import React, { Component } from 'react';
+import Helmet from 'react-helmet';
 import print from '../images/backgrounds/bg-print.png';
 import print_s1 from '../images/photos/photo-print-s1.png';
-import print_s2 from '../images/photos/photo-print-s2.png';
 import wyp from '../images/photos/photo-print-wyp.png';
 import guyuaba from '../images/photos/photo-print-guyuaba.png';
 import ketchhot from '../images/photos/photo-print-ketchhot.png';
@@ -15,6 +15,13 @@ import didyouknow from '../images/graphic-didyouknow.svg';
 class print_design extends Component {
     render () {
         return(
+            <div>
+            <Helmet>
+                <meta name="description" content="EMPATHY and PASSION are the core of our business and the heart of the WDS UX methodology. Our UX methodology produces answers and empathetic designs that connect and resonates with users and uncovers unarticulated user needs that drives business transformation. WDS methodology has been successful for project for Motorola, StubHub and OsiSoft" />
+                <meta charSet="utf-8" />
+            <title>Graphic Design</title>
+            <link rel="canonical" href="http://watermandesignsolutions.com/graphic_design" />
+            </Helmet>
         <div className="flex-layout-column"> 
             <section className="flex-section-fixed-head-child yellow flex-layout-center-center image-background-border-tb">
                     <div className="header-text-center header-title text-white">
@@ -135,6 +142,7 @@ class print_design extends Component {
                     </div>
                 </section>
             </div>
+        </div>
         )
     }
 }

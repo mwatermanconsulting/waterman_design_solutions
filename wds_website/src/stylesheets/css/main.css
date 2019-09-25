@@ -197,6 +197,9 @@ footer {
   *******************************/
 /* margins */
 /* margins */
+.margin-left-1per {
+  margin-left: 1%; }
+
 .margin-left-4per {
   margin-left: 4%; }
 
@@ -324,6 +327,12 @@ footer {
 
 .margin-right-25 {
   margin-right: 25%; }
+
+.margin-right-55 {
+  margin-right: 55%; }
+
+.margin-right-35 {
+  margin-right: 35%; }
 
 .margin-right-5 {
   margin-right: 5%; }
@@ -737,7 +746,8 @@ footer {
   padding-top: 100px; }
 
 .border-2 {
-  border: 2px solid #000; }
+  border: 2px solid #000;
+  box-shadow: 2px 4px 3px #dfdfdf; }
 
 .servicespic {
   max-height: 500px;
@@ -903,6 +913,12 @@ li {
 /*******************************
          Global
   *******************************/
+* {
+  -webkit-overflow-scrolling: touch; }
+
+html {
+  scroll-behavior: smooth; }
+
 body {
   font-size: 16px;
   display: flex;
@@ -3238,7 +3254,11 @@ a:any-link {
     transition-timing-function: ease-in;
     transition: 0.75s; }
   .float-right {
-    float: right; }
+    float: right;
+    padding: 5px; }
+  .float-left {
+    float: left;
+    padding: 5px; }
   .padding {
     padding: 50px; }
   .container-photo-callout {
@@ -3346,6 +3366,16 @@ a:any-link {
       grid-row: auto; }
   .margin-left-15per {
     margin-left: 15%; }
+  .margin-top-75 {
+    margin-top: 75px; }
+  .margin-left-10per {
+    margin-left: 10%; }
+  .margin-left-5 {
+    margin-left: 5%; }
+  .margin-left-75 {
+    margin-left: 75px; }
+  .margin-right-25 {
+    margin-right: 25%; }
   .header-title {
     font-size: 5.1875rem; }
   .content-block-25 {
@@ -3396,4 +3426,8 @@ a:any-link {
   .grid-left {
     grid-column: 1;
     grid-row: auto;
-    justify-content: center; } }
+    justify-content: center; }
+  .grid-gallery-2col {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px; } }

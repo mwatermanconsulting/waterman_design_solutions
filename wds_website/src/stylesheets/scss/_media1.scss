@@ -719,10 +719,15 @@
     transition: 0.75s;
 }
 
-
-
 .float-right {
   float: right;
+  padding: 5px;
+}
+
+
+.float-left {
+  float: left;
+  padding: 5px;
 }
 
 .padding {
@@ -887,9 +892,30 @@
   
   }
 
-.margin-left-15per{
+  .margin-left-15per{
   margin-left: 15%;
-}
+  }
+
+  .margin-top-75{
+    margin-top: 75px;
+
+  }
+
+  .margin-left-10per {
+    margin-left: 10%
+  }
+
+  .margin-left-5 {
+    margin-left: 5%
+  }
+
+  .margin-left-75 {
+    margin-left: 75px;
+  }
+
+  .margin-right-25 {
+    margin-right: 25%;
+  }
 
 
 
@@ -985,6 +1011,12 @@
     grid-column: 1;
     grid-row: auto;
     justify-content: center;
+  }
+
+  .grid-gallery-2col {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
   }
 
   

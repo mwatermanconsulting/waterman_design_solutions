@@ -18,16 +18,11 @@ import website_design from './website_design';
 import finding_truth from './finding_truth';
 import innovative_solutions from './innovative_solutions';
 import marketing from './marketing';
-import marketing_telementry from './marketing_telementry';
 import methodology from './methodology';
-import news_insights from './news_insights';
-import practices from './practices';
-import print_design from './print_design';
-import project_management from './project_management';
+import graphic_design from './graphic_design';
 import Services from './services';
 import strategy_insight from './strategy_insight';
 import design_systems from './design_systems';
-
 import ui_design from './ui_design';
 import ux from './ux_design';
 import video_production from './video_production';
@@ -55,16 +50,11 @@ const Main = () => (
     <Route exact path="/finding_truth" component={finding_truth} />
     <Route exact path="/innovative_solutions" component={innovative_solutions} />
     <Route exact path="/marketing" component={marketing} />
-    <Route exact path="/marketing_telementry" component={marketing_telementry} />
     <Route exact path="/methodology" component={methodology} />
-    <Route exact path="/news_insights" component={news_insights} />
-    <Route exact path="/practices" component={practices} />
-    <Route exact path="/print_design" component={print_design} />
-    <Route exact path="/project_management" component={project_management} />
+    <Route exact path="/graphic_design" component={graphic_design} />
     <Route exact path="/services" component={Services} />
     <Route exact path="/strategy_insight" component={strategy_insight} />
     <Route exact path="/design_systems" component={design_systems} />
-
     <Route exact path="/ux_design" component={ux} />
     <Route exact path="/ui_design" component={ui_design} />
     <Route exact path="/video_production" component={video_production} />

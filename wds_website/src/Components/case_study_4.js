@@ -20,7 +20,7 @@ class case_study_4 extends Component {
                 <meta name="keywords" content="case studies, WDS, stubhub, motorola" />
                 <meta charSet="utf-8" />
                 <title>WDS Case Studies - OsiSoft</title>
-                <link rel="canonical" href="http://watermandesignsolutions/case_study_4" />
+                <link rel="canonical" href="http://watermandesignsolutions.com/case_study_4" />
             </Helmet>
             <div className="flex-layout-column flex-layout-section-full image-background-border-top">
                 <section className="flex-layout-row height-60-mobile width-100"> 

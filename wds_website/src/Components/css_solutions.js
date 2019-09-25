@@ -20,7 +20,7 @@ class css_solutions extends Component {
                 <meta name="description" content="The WDS CSS specialists deliver their custom CSS solutions as npm packages or through github. The packages include a developer build kit with custom css, sass or less files, html files and documentation. WDS can refactor your current CSS or develop a customizable CSS solution that will scale as the project matures. " />
                 <meta charSet="utf-8" />
                 <title>CSS Solutions</title>
-                <link rel="canonical" href="http://watermandesignsolutions/css_solutions" />
+                <link rel="canonical" href="http://watermandesignsolutions.com/css_solutions" />
             </Helmet>
         <div className="flex-layout-column"> 
             <section className="flex-section-fixed-head-child yellow flex-layout-center-center image-background-border-tb">

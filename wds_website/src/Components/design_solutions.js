@@ -18,7 +18,7 @@ class design_solutions extends Component {
                 <meta name="keywords" content="case studies, stubhub business intelligence platform, WDS, stubhub, motorola" />
                 <meta charSet="utf-8" />
                 <title>Design Solutions</title>
-                <link rel="canonical" href="http://watermandesignsolutions/case_study_2" />
+                <link rel="canonical" href="http://watermandesignsolutions.com/design_solutions" />
             </Helmet>
             <div className="flex-layout-column"> 
             <div className="flex-section-fixed-head">

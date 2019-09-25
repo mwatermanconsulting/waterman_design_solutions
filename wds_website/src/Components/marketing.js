@@ -18,7 +18,7 @@ class marketing extends Component {
                     <meta name="description" content="WDS understands people on a deep level. Their methodology gives a voice to the your users, your customers. Those people whose daily lives are effected by the use of your application or product. Your marketing campaign should be a reflect the vision of who you are as a business and tell that story. Every business has a story. We will define a marketing strategy based on research and data with a clear vision that reflects and embraces real human values." />
                     <meta charSet="utf-8" />
                 <title>Marketing</title>
-                <link rel="canonical" href="http://watermandesignsolutions/marketing" />
+                <link rel="canonical" href="http://watermandesignsolutions.com/marketing" />
                 </Helmet>
         <div className="flex-layout-column"> 
             <div className="flex-section-fixed-head-child flex-layout-center-center image-background-border-tb">

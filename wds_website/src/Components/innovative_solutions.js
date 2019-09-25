@@ -18,7 +18,7 @@ class innovative_solutions extends Component {
                 <meta name="description" content=" WDS has designed applications used by energy sectors, including nuclear reactors. They have the focus, insight and experience to solve the most difficult design and business problems on the worlds most intricate products and applications user interfaces. WDS innovative solutions have been successful for motorola, StubHub and OsiSoft." />
                 <meta charSet="utf-8" />
                 <title>Innovative Solutions</title>
-                <link rel="canonical" href="http://watermandesignsolutions/innovative_solutions" />
+                <link rel="canonical" href="http://watermandesignsolutions.com/innovative_solutions" />
             </Helmet>
         <div className="flex-layout-column"> 
             <section className="flex-section-fixed-head-child yellow flex-layout-center-center image-background-border-tb">

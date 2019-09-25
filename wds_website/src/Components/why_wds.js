@@ -27,7 +27,7 @@ class why_wds extends Component {
                 With over 15 years of perfecting our design and business strategies, we have the experience, designers, strategists, skills and scale to deliver sophisticated design solutions. WDS services include application design, website design and marketing. Our client list includes, Motorola, StubHub, OsiSoft, and Pfizer " />
                 <meta charSet="utf-8" />
                 <title>Why WDS</title>
-                <link rel="canonical" href="http://watermandesignsolutions/case_study_1" />
+                <link rel="canonical" href="http://watermandesignsolutions.com/why_wds" />
             </Helmet>
             <div className="flex-layout-column">
                 <section className="flex-section-fixed-head">
@@ -132,8 +132,8 @@ class why_wds extends Component {
                         <div className="content-block-60 content-text-18 margin-top-15"><div className="float-right">
                         <img className="photo-container" src={whys2}  alt="Elegant solutions for difficult problems" /> 
                     </div>  
-                            <p className="content-text-18"> WDS specializes in uncovering complex problems on sophisticated applications. Their design solutions are being used on incredibly complex applications for the energy sectors monitoring energy grids, oil rigs and nuclear plants. To deliver a seamless intuitive experience that reduces the chance for human error takes focus empathy, experience and talent. </p>
-                            <p className="content-text-18">WDS understands how easy it is for human error to cause a catastrophe. Their UX designers not only connect with your users on a deep level, but understands the human mind by studying cognitive psychology. Most mistakes arise out of unconscious human mistakes, our brains are far from perfect. Understanding the human subconscious mind helps them simplify complex interfaces so that those mistakes are avoided at all costs. </p>           
+                            <p className="content-text-18"> WDS specializes in uncovering complex problems on sophisticated applications. Their design solutions are currently in use on incredibly complex data visualization applications for the energy sectors monitoring energy grids, oil rigs and nuclear plants. WDS goal is to deliver a seamless intuitive experience that reduces the chance for human error. </p>
+                            <p className="content-text-18">WDS understands how easy it is for human error to cause a catastrophe. Their UX designers not only connect with your users on a deep level, but understands the human mind by studying cognitive psychology. Most mistakes arise out of unconscious human mistakes, our brains are far from perfect. Understanding the human subconscious mind helps them simplify complex interfaces in order to avoid those mistakes. </p>           
                         </div> 
                 </section>
 

@@ -20,8 +20,8 @@ class core_offerings extends Component {
                 <meta name="description" content="WDS core offerings ensures your business future success by instilling design strategies that reach your employees at a core level. The data shows that the companies that value design and instill a culture of design, increases business by 30%. WDS has a series of design and business strategies and workshops based on empathy that will change your companies design perspective." />
                 <meta name="keywords" content="case studies, WDS, stubhub, motorola" />
                 <meta charSet="utf-8" />
-                <title>WDS Case Studies - OsiSoft</title>
-                <link rel="canonical" href="http://watermandesignsolutions/core_offerings" />
+                <title>Core Offerings</title>
+                <link rel="canonical" href="http://watermandesignsolutions.com/core_offerings" />
             </Helmet>
         <div className="flex-layout-column">
             <section className="flex-section-fixed-head-child yellow flex-layout-center-center image-background-border-tb">

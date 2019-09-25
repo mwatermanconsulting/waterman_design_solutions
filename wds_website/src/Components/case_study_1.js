@@ -27,7 +27,7 @@ class case_study_1 extends Component {
                 <meta name="keywords" cpntent="case studies, WDS, stubhub, motorola" />
                 <meta charSet="utf-8" />
                 <title>Case Study - Motorola</title>
-                <link rel="canonical" href="http://watermandesignsolutions/case_study_1" />
+                <link rel="canonical" href="http://watermandesignsolutions.com/case_study_1" />
             </Helmet>
             <div className="flex-layout-column flex-layout-section-full image-background-border-top">
                 <section className="flex-layout-row height-60-mobile width-100"> 

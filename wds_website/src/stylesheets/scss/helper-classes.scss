@@ -8,11 +8,13 @@
 
 /* margins */
 /* margins */
+.margin-left-1per{
+  margin-left: 1%;
+}
+
 .margin-left-4per{
   margin-left: 4%;
 }
-
-
 
 .margin-left-6per{
   margin-left: -6px;
@@ -174,6 +176,14 @@
 
   .margin-right-25 {
     margin-right: 25%;
+  }
+
+  .margin-right-55 {
+    margin-right: 55%;
+  }
+
+  .margin-right-35 {
+    margin-right: 35%;
   }
 
   .margin-right-5 {
@@ -673,6 +683,7 @@
 
   .border-2 {
     border: 2px solid $black;
+    box-shadow: 2px 4px 3px #dfdfdf;
   }
 
 

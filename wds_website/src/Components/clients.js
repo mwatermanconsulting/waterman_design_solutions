@@ -1,6 +1,5 @@
 import React, { Component } from 'react' ;
-import designer from '../images/photos/photo-design-s1.png';
-import motorola_ba from '../images/photos/photo-motorola-beforeafter.png';
+import Helmet from 'react-helmet';
 import bgclients from '../images/backgrounds/bg-clients.png';
 import motorola from '../images/icon-logo-motorola.svg';
 import osi from '../images/icon-logo-osi.svg';
@@ -16,6 +15,14 @@ import didyouknow from '../images/graphic-didyouknow.svg';
 class clients extends Component {
     render () {
         return(
+            <div>
+            <Helmet>
+                <meta name="description" content="WDS client list includes Motorola, StubHub, Pfizer, OsiSoft and more..." />
+                <meta name="keywords" content="case studies, WDS, stubhub, motorola" />
+                <meta charSet="utf-8" />
+                <title>Clients</title>
+                <link rel="canonical" href="http://watermandesignsolutions.com/clients" />
+            </Helmet>
             <div className="flex-layout-column">
             <section className="flex-section-fixed-head-child yellow flex-layout-center-center image-background-border-tb">
                     <div className="header-text-center header-title text-white">Clients</div>
@@ -76,6 +83,7 @@ class clients extends Component {
                     </div>
                 </div>
             </section> 
+        </div>
        
             
                     
