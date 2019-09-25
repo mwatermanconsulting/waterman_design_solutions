@@ -34,14 +34,14 @@ class print_design extends Component {
                 WDS has extensive print experience, including magazines, brochures, business cards, trade show displays, corporate reports, etc.
                 </div>
             </section>
-            <section className="grid-2col-photo-content photo-content-color border-bottom-5 height-670"> 
-                <div className="grid-left content-block-60 flex-layout-column">
-                    <div className="callout-text text-align-left">
+            <section className="grid-callout photo-content-color border-bottom-5" > 
+                <div className="grid-placeself-center content-block-75   flex-layout-column">
+                    <div className="callout-text padding-20 text-align-left margin-top-15" >
                         Print ads are more effective when they are a complement to your digital campaigns, enticing your audience to interact with your brand online. 
                     </div>      
                 </div>
-                <div className="grid-right-photo container-image-block">
-                    <img className="container-photo-callout image-size-100" src={print_s1}  alt="Graphic Design" /> 
+                <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
+                        <img className="container-photo-callout" src={print_s1}  alt="Graphic Design" /> 
                 </div>
             </section>
             <section className="flex-layout-section-full flex-layout-column align-items-center margin-top-50">

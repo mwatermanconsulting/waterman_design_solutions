@@ -1050,8 +1050,7 @@ h1 {
   letter-spacing: 0.8px;
   text-align: center;
   color: #fff;
-  font-weight: 700;
-  margin: 20px; }
+  font-weight: 700; }
 
 .callout-text-white {
   font-size: 1.25rem;
@@ -2906,7 +2905,8 @@ a:any-link {
   .logo-cs-mobile {
     width: 10%; }
   .title-homepage {
-    font-size: 2.12rem; }
+    font-size: 2.12rem;
+    line-height: 1.2; }
   .callout-text-lg {
     font-size: 1.5rem; }
   .callout-text-white {
@@ -3036,9 +3036,6 @@ a:any-link {
     grid-row-gap: 5px;
     width: 100%;
     display: block; }
-  .grid-gallery-2col {
-    display: block;
-    margin: 10px; }
   .grid-title {
     grid-column: auto / span 1;
     align-items: center; }
@@ -3066,12 +3063,14 @@ a:any-link {
     display: flex;
     align-self: center;
     flex-direction: column; }
+  .grid-gallery-2col {
+    display: block; }
   .gallery-2col-1 {
-    grid-column: 1/2;
-    grid-row: 1/auto; }
+    grid-column: 1/1;
+    grid-row: auto; }
   .gallery-2col-2 {
-    grid-column: 2/2;
-    grid-row: 1/auto;
+    grid-column: 2/1;
+    grid-row: auto;
     align-self: end; }
   /*******  footer    ****************************************/
   .container-footer {
@@ -3307,7 +3306,11 @@ a:any-link {
     height: 270px;
     text-align: center; }
   .header-title {
-    font-size: 3.75rem; } }
+    font-size: 3.75rem; }
+  .grid-gallery-2col {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px; } }
 
 @media (min-width: 1200px) {
   .visibility {

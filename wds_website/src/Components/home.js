@@ -2,7 +2,6 @@ import React, { Component } from 'react' ;
 import { NavLink } from 'react-router-dom';
 import Helmet from 'react-helmet';
 import wdslogofull from '../images/wds-logo-full.svg';
-import method from '../images/backgrounds/bg-methodology.svg';
 import binoculars from '../images/graphic-methodology-binoculars.svg';
 import why from '../images/graphic-why.svg' ;
 import why2 from '../images/graphic-why-wds.svg' ;
@@ -12,8 +11,6 @@ import theyluvus from '../images/photos/photo-home-theyluvus.png';
 import business from '../images/photos/photo-home-business-design.png';
 import starburst from '../images/photos/photo-home-starburst-red.png';
 import motorola from '../images/photos/photo-motorola-beforeafter.png';
-import motorola_logo from '../images/motorola_logo.svg'
-import stubhub_logo from '../images/icon-logo-stubhub.svg'
 import stubhub from '../images/photos/photo-stubhub-before-after.png'
 
 //import { Grid, Cell } from 'react-mdl';
