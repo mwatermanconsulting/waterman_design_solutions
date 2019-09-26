@@ -13,14 +13,12 @@ import wds from '../images/photos/photo-history-wds.png'
 import wfaweb from '../images/photos/photo-history-wfa-web.png'
 import four from '../images/photos/photo-history-411.png'
 import pw from '../images/photos/photo-history-pw.png'
-import rdeb from '../images/photos/photo-history-rdeb.jpg'
 import taws from '../images/photos/photo-history-taws.png'
 import history_3 from '../images/photos/photo-history-s3.png'
 import pfizer_logo from '../images/icon-logo-pfizer.svg'; 
 import time from '../images/WDS-timeline.png'
 import mike from '../images/mike.png';
 import terri from '../images/terri.png';
-import methodology12 from '../images/photos/photo-methodology-s12.png';
 import be from '../images/icon-be-black.svg';
 import instagram from '../images/icon-instagram-black.svg';
 import didyouknow from '../images/graphic-didyouknow.svg';

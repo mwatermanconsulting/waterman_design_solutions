@@ -37,16 +37,16 @@ class core_offerings extends Component {
                 </div>
             </div>
             <section className="grid-callout photo-content-color border-bottom-5" > 
-                <div className="grid-placeself-center content-block-75   flex-layout-column">
-                    <div className="callout-text padding-20 text-align-left margin-top-15" >
+                <div className="grid-placeself-center content-block-75 flex-layout-column">
+                    <div className="callout-text text-align-left margin-top-15 margin-left-30per" >
                         
                         The best customer experience starts with the Golden Rule - treat the user the way you would like to be treated.
                     
                         Too often, companies get attached to the product and lose sight of the people using the product. 
                         </div>
                     </div>
-                    <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
-                        <img className="container-photo-callout" src={offerings1}  alt="Core Offerings" /> 
+                    <div className="grid-callout-photo grid-placeself-center margin-right-35 content-block-75 margin-tb-100">
+                        <img className="container-photo-callout " src={offerings1}  alt="Core Offerings" /> 
                     </div>
             </section>
             <section className="flex-layout-column flex-layout-center-center">
@@ -95,7 +95,7 @@ class core_offerings extends Component {
                 </div>
                 <div className="content-block-60 content-text-18 margin-top-15">
                     <p className="content-text-18">  <div className="float-right">
-                    <img className="photo-container width-100" src={offerings2}  alt="Communication Expertise" /> 
+                    <img className="photo-container width-100 margin-top-2" src={offerings2}  alt="Communication Expertise" /> 
                     </div> 
                         One of the greatest issues facing all companies is communication between teams. Large companies have teams spread all over the world and many times these teams are working on an island, not communicating with other teams. WDS knows and understand these problems and has successfully solved communication issues for Motorola, Stubhub, Pfizer and OsiSoft</p> 
                    
