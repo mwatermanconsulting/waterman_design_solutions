@@ -2842,6 +2842,8 @@ a:any-link {
     margin-top: 40px; }
   .margin-left-75 {
     margin-left: 10px; }
+  .marginleft40per {
+    margin-left: 0%; }
   .content-block-50 {
     width: 90%; }
   .content-block-55 {
@@ -3084,11 +3086,15 @@ a:any-link {
     display: block; }
   .gallery-2col-1 {
     grid-column: 1/1;
-    grid-row: auto; }
+    grid-row: auto;
+    min-height: 500px;
+    margin-bottom: 50px; }
   .gallery-2col-2 {
     grid-column: 2/1;
     grid-row: auto;
-    align-self: end; }
+    align-self: end;
+    min-height: 500px;
+    margin-bottom: 50px; }
   /*******  footer    ****************************************/
   .container-footer {
     height: 100%;
@@ -3278,6 +3284,8 @@ a:any-link {
   .float-right {
     float: right;
     padding: 5px; }
+  .marginleft40per {
+    margin-left: 40%; }
   .float-left {
     float: left;
     padding: 5px; }
