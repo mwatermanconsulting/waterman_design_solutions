@@ -169,28 +169,25 @@ class landingPage extends Component {
 
                 <section className="flex-layout-section-full flex-layout-column align-items-center">
                 <p className="header-title">
-                            UI Design </p>
-                    <div className="content-block-60 margin-top-25">
-                        <p className="title content-block-75">
-                             Simplifying Complex Interfaces</p>
-                            <p className="subtitle margin-top-15 content-block-75">
-                                Empathetic Design
-                            </p>
-                        <p className="content-text-18 content-block-75">
-                        <div className="float-right margin margin-top-1">
+                    UI Design </p>
+                <p className="title content-block-60 margin-top-50">
+                    Simplifying Complex Interfaces</p>
+                <p className="subtitle margin-top-15 content-block-75">
+                    Empathetic Design</p>
+                <p className="content-text-18 content-block-75">
+                    <div className="float-right margin margin-top-1">
                         <img className="photo-container" src={simplify}  alt="UI Design" /> 
-                        </div> 
+                    </div> 
                             WDS founders have created design solutions that are being used on incredibly complex applications, such as nuclear plants, oil rigs and energy grids. Simplifying critical applications takes focus and understanding in order to create a seamless intuitive experience that reduces the chance for human error.</p>
-                    </div>
-                    <div className="content-block-60 margin-top-50">
-                        <p className="title content-block-75">
-                             The "aha Moment"</p>
-                            <p className="subtitle margin-top-15 content-block-75">
-                                Empathetic Design
+                    
+                    <p className="title content-block-60 margin-top-50">
+                        The "aha Moment"</p>
+                    <p className="subtitle margin-top-15 content-block-75">
+                        Empathetic Design
                             </p>
-                        <p className="content-text-18 content-block-75">
+                    <p className="content-text-18 content-block-75">
                         WDS lives for the comment "why didn't we think of that" commonly expressed by stakeholders and/or managers during the design reveal.</p>
-                    </div>
+                    
                 </section>
                 
                 <div className="flex-layout-section-full float-left margin-top-25">
@@ -265,7 +262,7 @@ class landingPage extends Component {
         
         <section className="grid-gallery-2col grid-gap-20 content-header align-self-center justify-items-center margin-top-100 width-70">
        
-                    <div className="gallery-2col-1 container-image-500 align-self-end border-2 margin-top-15">
+                    <div className="gallery-2col-1 container-image-500 align-self-end border-2">
                         <img className="container-image-500" src={motorola}  alt="All About the User" /> 
                         <div className="content-block-auto ">
                             <div className="subtitle">Motorola</div>
