@@ -6,8 +6,11 @@ import binoculars from '../images/graphic-methodology-binoculars.svg';
 import why from '../images/graphic-why.svg' ;
 import why2 from '../images/graphic-why-wds.svg' ;
 import igotyou from '../images/graphic-igotyou.svg';
+import empathy from '../images/photos/photo-home-empathy.png';
 import design from '../images/graphic-design-desk.svg';
 import theyluvus from '../images/photos/photo-home-theyluvus.png';
+import people from '../images/photos/photo-home-people.png';
+import simplify from '../images/photos/photo-home-simplify.png';
 import business from '../images/photos/photo-home-business-design.png';
 import starburst from '../images/photos/photo-home-starburst-red.png';
 import motorola from '../images/photos/photo-motorola-beforeafter.png';
@@ -134,7 +137,10 @@ class landingPage extends Component {
                             Understanding Your Users is the Key
                         </p>
                         <p className="content-text-18 content-block-60">
-                            The most meaningful insights for design strategy are developed with a behavior-based understanding of users. WDS UX strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve. </p>
+                            <div className="float-right margin margin-top-1">
+                        <img className="photo-container" src={people}  alt="UX Design is the study of people" /> 
+                    </div>The most meaningful insights for design strategy are developed with a behavior-based understanding of users. WDS UX strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve. 
+                              </p>
                         
                         <p className="title content-block-60 margin-top-50">
                             The Value of Empathy
@@ -143,7 +149,12 @@ class landingPage extends Component {
                             Empathic Design Sparks Innovations
                         </p>
                         <p className="content-text-18 content-block-60">
-                            What circumstances prompt people to use your product or service? Do your customers turn to your offering in the way you expected? If they don’t, there may be an opportunity for your company to reevaluate previous design decisions.</p>
+                            <div className="float-right margin margin-top-1">
+                        <img className="photo-container" src={empathy}  alt="Value of Empathy" /> 
+                        </div> 
+                        What circumstances prompt people to use your product or service? Do your customers turn to your offering in the way you expected? If they don’t, there may be an opportunity for your company to reevaluate previous design decisions.</p>
+
+                         
                       
                    
                    
@@ -166,6 +177,9 @@ class landingPage extends Component {
                                 Empathetic Design
                             </p>
                         <p className="content-text-18 content-block-75">
+                        <div className="float-right margin margin-top-1">
+                        <img className="photo-container" src={simplify}  alt="UI Design" /> 
+                        </div> 
                             WDS founders have created design solutions that are being used on incredibly complex applications, such as nuclear plants, oil rigs and energy grids. Simplifying critical applications takes focus and understanding in order to create a seamless intuitive experience that reduces the chance for human error.</p>
                     </div>
                     <div className="content-block-60 margin-top-50">
@@ -204,7 +218,7 @@ class landingPage extends Component {
                 </section>
 
             <section className="grid-gallery-2col grid-gap-20 content-header align-self-center justify-items-center margin-bottom-50  margin-top-100 width-70">
-                    <div className="gallery-2col-1 container-image-500 align-self-end">
+                    <div className="gallery-2col-1 container-image-500 align-self-start">
                         <img className="container-image-500" src={theyluvus}  alt="All About the User" /> 
                         <div className="content-block-auto ">
                             <div className="title-homepage">It’s all about the user</div>
@@ -212,7 +226,7 @@ class landingPage extends Component {
                             <p className="content-text-18">We're firm believers in agile and iterative deployments as experiments, but with longer enterprise launches and consumer software, there's still valuable data to collect even before that first MVP. WDS insights and strategies move you and your team in the right direction, and possibly uncover rewarding new business opportunities.</p>
                         </div>
                     </div>     
-                    <div className="gallery-2col-2 container-image-500 align-self-end">
+                    <div className="gallery-2col-2 container-image-500 align-self-start">
                         <img className="container-image-500"  src={business}  alt="Business Solutions" /> 
                         <div className="content-block-auto ">
                             <div className="title-homepage">Business value of design</div>

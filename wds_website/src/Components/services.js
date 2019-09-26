@@ -77,8 +77,8 @@ class services extends Component {
                         <p className="content-text-18">
                         
                         <div className="float-right callout-photo grid-placeself-center">
-                        <img className="container-image-500" src={services3}  alt="UX Design" /> 
-                        <p className="caption">Photo by Frank on Unsplash</p></div>
+                        <img className="container-image-500" src={services3}  alt="UX Design" /> </div>
+                        
 
                             The visual elements, they create will establish your brand as a design leader in your space. By understanding your business, users and competition WDS will ensure that you have a unique presence that include familiar use of fonts, icons with design solutions that has a certain elegance that resonates with your users emotions. </p>
 
