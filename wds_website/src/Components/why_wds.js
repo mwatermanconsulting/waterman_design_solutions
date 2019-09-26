@@ -27,7 +27,7 @@ class why_wds extends Component {
                 With over 15 years of perfecting our design and business strategies, we have the experience, designers, strategists, skills and scale to deliver sophisticated design solutions. WDS services include application design, website design and marketing. Our client list includes, Motorola, StubHub, OsiSoft, and Pfizer " />
                 <meta charSet="utf-8" />
                 <title>Why WDS</title>
-                <link rel="canonical" href="http://watermandesignsolutions.com/why_wds" />
+                <link rel="canonical" href="http://watermandesignsolutions/case_study_1" />
             </Helmet>
             <div className="flex-layout-column">
                 <section className="flex-section-fixed-head">
@@ -73,10 +73,10 @@ class why_wds extends Component {
                 <div className="title align-self-center margin-top-50" >
                         Your Complete Design Resource
                 </div>
-                    <div className="grid-services-list padding-20 align-self-center margin-top-25 margin-left-15per">
+                    <div className="grid-services-list padding-20 align-self-center margin-top-25 margin-left-why-60per">
                         <section className="grid-services-3">
-                        <a href="./ux_design" ><img className="width-icon margin-left-8" src={icon_ux}  alt="UX" /> </a>
-                        <div className="subtitle margin-top-25">
+                        <a href="./ux_design" ><img className="width-icon margin-left-25" src={icon_ux}  alt="UX" /> </a>
+                        <div className="subtitle-why margin-top-25">
                             <a href="./ux_design" className="no-decoration greenlink margin-left-6" style={{marginTop:'2%'}}>
                                 UX Design</a>
                         </div>
@@ -92,7 +92,7 @@ class why_wds extends Component {
                         </section>
                         <section className="grid-services-1 margin-bottom-25">
                             <a href="./design_solutions"> <img className="width-icon margin-left-8" src={icon_design_solutions}  alt="Design Solutions"/></a>
-                        <div className="subtitle margin-top-25">
+                        <div className="subtitle-why margin-top-25">
                             <a href="./design_solutions" className="no-decoration greenlink"> Design Solutions</a>
                         </div>
                             <ul className="dashed content-text-18 margin-top-15">
@@ -107,7 +107,7 @@ class why_wds extends Component {
                     </section>
                     <section className="grid-services-2 margin-bottom-25">
                     <a href="./core_offerings"><img className="width-icon margin-left-8" src={icon_design}  alt="Core Offerings" /></a>
-                        <div className="subtitle margin-top-25">
+                        <div className="subtitle-why margin-top-25">
                         <a href="./core_offerings" className="no-decoration greenlink margin-left-5">Core Offerings</a></div>
                             <ul className="dashed content-text-18 margin-top-15">
                                 <li>Telemetry Strategies</li>
@@ -132,8 +132,8 @@ class why_wds extends Component {
                         <div className="content-block-60 content-text-18 margin-top-15"><div className="float-right">
                         <img className="photo-container" src={whys2}  alt="Elegant solutions for difficult problems" /> 
                     </div>  
-                            <p className="content-text-18"> WDS specializes in uncovering complex problems on sophisticated applications. Their design solutions are currently in use on incredibly complex data visualization applications for the energy sectors monitoring energy grids, oil rigs and nuclear plants. WDS goal is to deliver a seamless intuitive experience that reduces the chance for human error. </p>
-                            <p className="content-text-18">WDS understands how easy it is for human error to cause a catastrophe. Their UX designers not only connect with your users on a deep level, but understands the human mind by studying cognitive psychology. Most mistakes arise out of unconscious human mistakes, our brains are far from perfect. Understanding the human subconscious mind helps them simplify complex interfaces in order to avoid those mistakes. </p>           
+                            <p className="content-text-18"> WDS specializes in uncovering complex problems on sophisticated applications. Their design solutions are being used on incredibly complex applications for the energy sectors monitoring energy grids, oil rigs and nuclear plants. To deliver a seamless intuitive experience that reduces the chance for human error takes focus empathy, experience and talent. </p>
+                            <p className="content-text-18">WDS understands how easy it is for human error to cause a catastrophe. Their UX designers not only connect with your users on a deep level, but understands the human mind by studying cognitive psychology. Most mistakes arise out of unconscious human mistakes, our brains are far from perfect. Understanding the human subconscious mind helps them simplify complex interfaces so that those mistakes are avoided at all costs. </p>           
                         </div> 
                 </section>
 
@@ -146,11 +146,11 @@ class why_wds extends Component {
                         <div className="subtitle content-block-60 margin-top-15">
                             The Business Value of Design
                         </div>
-                        <div className="content-block-60 content-text-18 margin-top-15">
+                        <div className="content-block-60 content-text-18">
                         <div className="float-right margin margin-top-1">
                         <img className="photo-container" src={whys3}  alt="Our Core Offerings" /> 
                     </div>  
-                            <p className="content-text-18"> 
+                            <p className="content-text-18 margin-top-15"> 
                             Empathetic design is critical to your to your future success. WDS has been successfully communicated the value of design to businesses for close to 25 years. Their Design strategies and < a href="core_offerings">core offerings</a> increase revenues and customer loyalty. A recent study on the value of design, by Mckinsey, reported that the companies that value design and focus on their users  have increased their business by 30% compared to the same businesses that do not have the same focus. WDS core offerings are services that provide training, strategies and workshops to align the value of design to the core of your business.</p>         
                         </div> 
                     </section>
@@ -158,34 +158,31 @@ class why_wds extends Component {
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="flex-layout-section-full align-items-center">
-                    <p className="title "> 
+                    <p className="title"> 
                         Design Services</p>
-                    <p className="subtitle"> 
-                         Most Popular Design Offerings</p>
+                    <p className="subtitle margin-top-25per"> 
+                         WDS Most Requested Design Offerings</p>
                 </section>    
 
                 <section className="float-left align-items-center flex-layout-column ">
-                    <div className="title content-block-60">
+                    <div className="title content-block-60 margin-top-25">
                         UX Design
                     </div>
-                        <p className="subtitle content-block-60 margin-top-15"> 
+                        <p className="subtitle content-block-60 margin-top-10"> 
                         Understanding the Users </p>
-                        <div className="content-block-60 content-text-18 margin-top-15">
-                    <div className="float-right margin-right-5">
+                        <div className="content-block-60 content-text-18">
+                    <div className="float-right margin-left-3 photo-container">
                         <img className="border-3px" src={why_design}  alt="UX Design" /> 
                 </div>  
 
-                    <p>The best customer experience starts with the Golden Rule — treat customers how you would like to be treated. At the foundation of WDS methodology is observation, watching customers use the clients' products or services. But unlike focus groups or usability laboratories, WDS conducts observation and interviews in the customer’s own environment during the course of their everyday routines. In such a context,  researchers gain insight to a host of information that is not accessible through other UX research methods. </p>
-
-
-                    
-
-                 
+                    <p className="content-text-18 margin-top-15">
+                        The best customer experience starts with the Golden Rule — treat customers how you would like to be treated. At the foundation of WDS methodology is observation, watching customers use the clients' products or services. But unlike focus groups or usability laboratories, WDS conducts observation and interviews in the customer’s own environment during the course of their everyday routines. In such a context,  researchers gain insight to a host of information that is not accessible through other UX research methods. </p>
                 <div className="float-left">
                     <NavLink className='button-area no-decoration' type="button" value="learn more" to='/ux_design'>
                     Learn More 
                     </NavLink>
-                </div></div>  
+                </div>
+                </div>  
                 </section> 
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
@@ -193,15 +190,15 @@ class why_wds extends Component {
                     <div className="title content-block-60">
                         UI Design and Development
                     </div>
-                        <p className="subtitle content-block-60 margin-top-15"> 
+                        <p className="subtitle content-block-60 margin-top-10"> 
                         Application, Website and Mobile Design </p>
-                    <div className="content-block-60 content-text-18 margin-top-15">
-                    <div className="float-right margin-right-5">
+                    <div className="content-block-60 content-text-18">
+                    <div className="float-right margin-left-3">
 
-                        <img className="border-3px" src={why_business}  alt="UI Design" /> 
+                        <img className="photo-container border-3px" src={why_business}  alt="UI Design" /> 
 
                     </div>  
-                     <p className="content-text-18"> 
+                     <p className="content-text-18 margin-top-15"> 
                         WDS honed its UI design skills by designing websites in 1998. Over the years they have designed and developed complicated healthcare websites to solving difficult UI problems on critical applications. Currently their data visualization designs are being used on oil rigs, nuclear reactors and pharmaceutical drug facilities.  
                     </p>
                     <p className="content-text-18">
@@ -226,15 +223,15 @@ class why_wds extends Component {
                     <div className="title content-block-60">
                         Design Systems
                     </div>
-                        <p className="subtitle content-block-60 margin-top-15"> 
+                        <p className="subtitle content-block-60 margin-top-10"> 
                         Establishing Consistency Across all Mediums </p>
                     <div className="content-block-60 content-text-18 margin-top-15">
-                    <div className="float-right margin-right-5 margin-top-1">
+                    <div className="float-right margin-left-3 photo-container">
 
                         <img className="border-3px" src={why_enterprise}  alt=" Design" /> 
 
                     </div>  
-                     <p className="content-text-18"> 
+                     <p className="content-text-18 margin-top-15"> 
                      A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive while combining components, behaviors, and branding. It also comes with a complete set of design standards, documentation, and strategies to achieve those standards. It must also be flexible and scalable.
                     </p>
                     <div className="float-left">
@@ -306,12 +303,12 @@ class why_wds extends Component {
 
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
                
-                        <div className="subtitle">
-                           WDS Testimonials
+                        <div className="header-title">
+                           Customer Testimonials
                         </div>
               
 
-                        <div className="subtitle">
+                        <div className="title content-block-60 margin-top-2per">
                           StubHub
                         </div>
                         
@@ -327,7 +324,7 @@ class why_wds extends Component {
 
                        <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
-                       <div className="subtitle">
+                       <div className="title content-block-60">
                           David Newman, CSP
                         </div>
 
@@ -338,7 +335,7 @@ class why_wds extends Component {
                         <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                         
-                        <div className="subtitle">
+                        <div className="title content-block-60">
                           Pfizer
                         </div>
 
@@ -390,7 +387,7 @@ class why_wds extends Component {
            
             <section className="flex-layout-section-full align-items-center margin-top-100 yellow-bg border-top-5">
                 <div className="grid-2col-text-photo align-self-center width-100  margin-top-50 " > 
-                    <div className="2col-text grid-placeself-center width-70 margin-left-75">
+                    <div className="2col-text grid-placeself-center width-70 margin-left-50 padding-bottom-50">
                         <div className="content-block">
                             <p className="content-header"> 
                                 WDS understands the uncertainty and fear involved with contracting design consultants </p>
@@ -400,7 +397,7 @@ class why_wds extends Component {
 
                         </div>
                     </div>              
-                    <div className="col2-photo width-50 grid-placeself-center">
+                    <div className="col2-photo width-50 grid-placeself-center margin-right-25">
                         <img className="flex-image-container" src={why_handshake}  alt="Thank you WDS!" /> 
                         <p className="caption">Thank you WDS!</p>
                     </div>
