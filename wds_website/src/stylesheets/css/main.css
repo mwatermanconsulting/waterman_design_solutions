@@ -224,6 +224,9 @@ footer {
 .margin-left-15per {
   margin-left: 15%; }
 
+.margin-left-30per {
+  margin-left: 30%; }
+
 .margin-left-10per {
   margin-left: 10%; }
 
@@ -654,7 +657,8 @@ footer {
   height: 333px;
   padding-bottom: 0px;
   padding-top: 0px;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  padding-left: 0px; }
 
 .container-image-block-center {
   display: flex;
@@ -2862,10 +2866,16 @@ a:any-link {
     margin-left: 0%; }
   .margin-right-25 {
     margin-right: 0%; }
+  .margin-right-35 {
+    margin-right: 0%; }
   .margin-left-3 {
     margin-left: -3%; }
+  .margin-left-30per {
+    margin-left: 0%; }
   .margin-top-15per {
     margin-top: 0%; }
+  .margin-top-2 {
+    margin-top: 2px; }
   .margin-top-25per {
     margin-top: .25%; }
   .margin-top-5 {
@@ -3438,6 +3448,8 @@ a:any-link {
     padding: 15px 5px 15px 25px; }
   .margin-left-why-60per {
     margin-left: 12%; }
+  .margin-top-2 {
+    margin-top: 2px; }
   .card-case-studies {
     box-shadow: 0 2px 1px 1px rgba(0, 0, 0, 0.25);
     width: 634px;
@@ -3502,8 +3514,12 @@ a:any-link {
     margin-top: 25px; }
   .margin-top-75 {
     margin-top: 75px; }
+  .margin-right-35 {
+    margin-right: 35%; }
+  .margin-left-30per {
+    margin-left: 30%; }
   .margin-tb-100 {
-    margin: 50px 50px 50px 50px; }
+    margin: 50px 275px 50px 5px; }
   .margin-top-1per {
     margin-top: -1%; }
   .photo-container {
@@ -3512,7 +3528,8 @@ a:any-link {
     max-width: 550px;
     padding-bottom: 0px;
     padding-top: 0px;
-    margin-bottom: 0px; }
+    margin-bottom: 0px;
+    padding-left: 1px; }
   .title {
     font-family: 'Oswald', sans-serif;
     font-size: 3.05rem;
