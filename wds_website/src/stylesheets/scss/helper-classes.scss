@@ -24,6 +24,10 @@
   margin-left: 7%;
 }
 
+.margin-left-3{
+  margin-left: 0%;
+}
+
 .margin-left-5 {
   margin-left: 5%
 }
@@ -53,6 +57,10 @@
 
 .marginleft-40per{
   margin-left: -40%;
+}
+
+.margin-top-1per{
+  margin-top: -1%;
 }
 .margintop-4per{
   margin-top: -4%;
@@ -156,6 +164,14 @@
 
   .margin-top-2per {
     margin-top: 2%;
+  }
+
+  .margin-top-25per {
+    margin-top: -.25%;
+  }
+
+  .margin-left-50{
+    margin-left: 50%;
   }
 
   .margin-top-20per {
@@ -564,6 +580,14 @@
   align-items: flex-start;
   height: 768px; }
 
+  .photo-container {
+    width: 550px;
+    height:333px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+  }
+
 .container-image-block-center {
   display: flex;
   flex-direction: row;
@@ -783,7 +807,8 @@
     .content-text-21 {
       font-family: Roboto;
       font-size: 1.3125rem;
-      line-height: 1.88
+      line-height: 1.88;
+      text-align: left;
     }
     .content-text-18 {
       font-family: Roboto;

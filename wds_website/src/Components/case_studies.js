@@ -1,5 +1,6 @@
 import React, { Component } from 'react' ;
 import Helmet from 'react-helmet';
+import { NavLink } from 'react-router-dom';
 import didyouknow from '../images/graphic-didyouknow.svg';
 import caseStudies from '../images/backgrounds/bg-casestudies.png';
 import motorola from '../images/photos/photo-motorola-beforeafter.png';
@@ -64,7 +65,12 @@ class case_studies extends Component {
                                 <p><i> Industry: Products</i></p>
                                 <p className="content-text-18 content-block">
                                     High Volume of returns plaguing Motorola Gateway Router Product Line. After two failed attempts by UX/UI developers, a frustrated management group decided they needed a UX designer to solve the problems.</p>
-                                <p><a href="./case_study_1" > Read More....</a> </p>  
+
+                                    <div className="float-left">
+                                        <NavLink className='button-area no-decoration' type="button" value="learn more" to='/case_study_1'>
+                                            Read More 
+                                        </NavLink>
+                                    </div>
                             </div>
                         </div>
                         </div>
@@ -83,8 +89,14 @@ class case_studies extends Component {
                             <div className="content-block">
                                 <p><i> Industry: Ecommerce</i></p>
                                     <p className="content-text-18 content-block" >
-                                    StubHub was finding it difficult to gain user traction for their data reporting tool. Their initial two releases were not successful and after a year of non-use, StubHub needed answers.</p>
-                                    <p><a href="./case_study_2"  target="_blank">Read More....</a>  </p> 
+                                    StubHub had a custom built Business Intelligence Platform that had zero user traction and were searching for answers. Their initial two releases were not successful and after a year of non-use, StubHub needed answers.</p>
+
+                                    <div className="float-left">
+                                        <NavLink className='button-area no-decoration' type="button" value="learn more" to='/case_study_2'>
+                                            Read More 
+                                        </NavLink>
+                                    </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -104,7 +116,13 @@ class case_studies extends Component {
                                 <p><i> Industry: Pharmaceutical</i></p>
                                 <p className="content-text-18 content-block">
                                     WDS noticed major problems with the DMS solution Pfizer choose to manage the 25,000 page pfizer project. WDS independently started to interview developers and document loss time, sitting around watching the....<br/><br/>
-                                    <a href="./case_study_3" className="text-black" target="_blank">Read More....</a> 
+
+                                    <div className="float-left">
+                                        <NavLink className='button-area no-decoration' type="button" value="learn more" to='/case_study_3'>
+                                            Read More 
+                                        </NavLink>
+                                    </div>
+                                    
                                 </p>
                             </div>
                         </div>
@@ -125,7 +143,11 @@ class case_studies extends Component {
                                     <p className="content-text-18 content-block">
                                         OsiSoft needed an enterprise level CSS solution for their data visualization SaaS initiative. The solution needed to scale and reduce specificity issues. The CSS solution became the company wide standard and foundation for the...
                                                  <br/><br/>
-                                        <a href="./case_study_4" className="text-black" target="_blank">Read More....</a>   
+                                                 <div className="float-left">
+                                        <NavLink className='button-area no-decoration' type="button" value="learn more" to='/case_study_4'>
+                                            Read More 
+                                        </NavLink>
+                                    </div>   
                                     </p>
                                 </div>
                             </div>

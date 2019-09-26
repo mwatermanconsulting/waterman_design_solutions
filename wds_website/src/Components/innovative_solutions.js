@@ -27,13 +27,13 @@ class innovative_solutions extends Component {
                     </div>
                         <img className="flex-image-container width-100" src={innovation}  alt="WDS Innovative Solutions" />     
                 </section>
-            <section className="container-section-1-primary flex-layout-center-center border-bottom-3 callout-color-dark">
+            <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
                  “Every solution to every problem is simple.<br/> It's the distance between the two where the mystery lies.” <br/> ― Derek Landy
                 </div>
             </section>
 
-            <section className="grid-callout photo-content-color border-bottom-5" > 
+            <section className="grid-callout photo-content-color border-bottom-5 border-border-top-5" > 
                 <div className="grid-placeself-center content-block-75   flex-layout-column">
                     <div className="callout-text padding-20 text-align-left margin-top-15" >
                     WDS has designed applications used by energy sectors, including nuclear reactors. They have the focus, insight and experience to solve the most difficult design and business problems on the worlds most intricate products and applications user interfaces.  </div>        

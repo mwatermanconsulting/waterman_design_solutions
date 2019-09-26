@@ -119,7 +119,8 @@ li {
   
   ul.dashed > li {
       margin-left: 15px;
-      margin-bottom: 5px;  
+      margin-bottom: 5px; 
+      text-align: left; 
   }
   
   /* Prevent nested li's from getting messed up */
@@ -179,12 +180,14 @@ h1 {
   text-align: left;
   color: #fff;
 }
+
 .title {
   font-family: 'Oswald', sans-serif;
   font-size: 3.05rem;
   line-height: 1.25;
   color: $title-grey;
   opacity: .8;
+  text-align: left;
 }
   
 .title-center {
@@ -204,6 +207,7 @@ h1 {
   color: $title-grey;
   text-align: left;
 }
+
 .height-670 {
   height: 670px;
 }

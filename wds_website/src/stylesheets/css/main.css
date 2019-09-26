@@ -209,6 +209,9 @@ footer {
 .margin-left-6 {
   margin-left: 7%; }
 
+.margin-left-3 {
+  margin-left: 0%; }
+
 .margin-left-5 {
   margin-left: 5%; }
 
@@ -232,6 +235,9 @@ footer {
 
 .marginleft-40per {
   margin-left: -40%; }
+
+.margin-top-1per {
+  margin-top: -1%; }
 
 .margintop-4per {
   margin-top: -4%; }
@@ -312,6 +318,12 @@ footer {
 
 .margin-top-2per {
   margin-top: 2%; }
+
+.margin-top-25per {
+  margin-top: -.25%; }
+
+.margin-left-50 {
+  margin-left: 50%; }
 
 .margin-top-20per {
   margin-top: -20%; }
@@ -637,6 +649,13 @@ footer {
   align-items: flex-start;
   height: 768px; }
 
+.photo-container {
+  width: 550px;
+  height: 333px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px; }
+
 .container-image-block-center {
   display: flex;
   flex-direction: row;
@@ -825,7 +844,8 @@ footer {
 .content-text-21 {
   font-family: Roboto;
   font-size: 1.3125rem;
-  line-height: 1.88; }
+  line-height: 1.88;
+  text-align: left; }
 
 .content-text-18 {
   font-family: Roboto;
@@ -1012,7 +1032,8 @@ ul.dashed {
 
 ul.dashed > li {
   margin-left: 15px;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+  text-align: left; }
 
 /* Prevent nested li's from getting messed up */
 ul.dashed > li::before {
@@ -1072,7 +1093,8 @@ h1 {
   font-size: 3.05rem;
   line-height: 1.25;
   color: #879397;
-  opacity: .8; }
+  opacity: .8;
+  text-align: left; }
 
 .title-center {
   font-family: 'Roboto', sans-serif;
@@ -2178,6 +2200,9 @@ Button:hover {
 .text {
   color: black; }
 
+.margin-left-why-60per {
+  margin-left: 15%; }
+
 .padding-50 {
   padding: 50px; }
 
@@ -2289,6 +2314,14 @@ Button:hover {
   font-family: 'Oswald', sans-serif;
   font-size: 2rem; }
 
+.subtitle-why {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.25;
+  font-family: 'Oswald';
+  color: #879397;
+  text-align: left; }
+
 .intro-text {
   font-family: 'Oswald';
   font-size: 31.3px;
@@ -2352,6 +2385,30 @@ Button:hover {
 .list-right {
   grid-column: 2/2; }
 
+.grid-why-list {
+  width: 1200px;
+  grid-template-columns: repeat(3, 400px);
+  grid-row: auto;
+  grid-gap: 20px;
+  display: grid;
+  margin-left: 0%; }
+
+.grid-why-1 {
+  grid-column: 1/1;
+  grid-row: 2; }
+
+.grid-why-2 {
+  grid-column: 2/2;
+  grid-row: 2; }
+
+.grid-why-3 {
+  grid-column: 3/3;
+  grid-row: 2; }
+
+.grid-why-4 {
+  grid-column: 1/1;
+  grid-row: 3; }
+
 /*******************************
            History
   *******************************/
@@ -2387,10 +2444,6 @@ Button:hover {
   display: flex;
   flex-direction: column;
   flex: 0 0 500px; }
-
-.photo-container {
-  width: 650px;
-  height: 433px; }
 
 .photo-container-xsm {
   width: 127px;
@@ -2467,10 +2520,6 @@ Button:hover {
   grid-column: 1/1;
   grid-row: auto;
   justify-content: center; }
-
-.photo-container {
-  width: 550px;
-  height: 333px; }
 
 .align-self-baseline {
   align-self: baseline; }
@@ -2807,8 +2856,22 @@ a:any-link {
     transition: 0.75s; }
   .margin-left-8 {
     margin-left: 8%; }
+  .margin-left-why-60per {
+    margin-left: 60%; }
+  .margin-left-50 {
+    margin-left: 0%; }
+  .margin-right-25 {
+    margin-right: 0%; }
+  .margin-left-3 {
+    margin-left: -3%; }
   .margin-top-15per {
     margin-top: 0%; }
+  .margin-top-25per {
+    margin-top: .25%; }
+  .margin-top-5 {
+    margin-top: 5px; }
+  .margin-top-100 {
+    margin-top: 10%; }
   .media-margin {
     margin-left: -12%; }
   .media-left-margin {
@@ -2818,7 +2881,7 @@ a:any-link {
   .visibility {
     display: none; }
   .margin-tb-100 {
-    margin: 50px 0 50px; }
+    margin: 0px 50px 50px 50px; }
   .header {
     display: none !important; }
   .mobile-menu {
@@ -2827,6 +2890,18 @@ a:any-link {
     display: flex;
     height: auto;
     text-align: center; }
+  .content-text-21 {
+    font-family: Roboto;
+    font-size: 1.3125rem;
+    line-height: 1.88;
+    text-align: center; }
+  .grid-why-list {
+    width: 1200px;
+    grid-template-columns: repeat(3, 400px);
+    grid-row: auto;
+    grid-gap: 20px;
+    display: grid;
+    margin-left: 60%; }
   /********** layout    *********/
   .width-70 {
     width: 90%; }
@@ -2845,7 +2920,7 @@ a:any-link {
   .content-block-50 {
     width: 90%; }
   .content-block-55 {
-    width: 90%; }
+    width: 83%; }
   .content-block-60 {
     width: 90%; }
   .content-block-65 {
@@ -2866,7 +2941,14 @@ a:any-link {
   .photo-container {
     width: 100%;
     height: auto;
-    max-width: 550px; }
+    max-width: 550px;
+    padding-top: 15px;
+    margin-bottom: 15px; }
+  .photo-container-cs-sb1 {
+    width: 83%;
+    max-width: 900px;
+    height: auto;
+    border: 1px solid #000; }
   .align-self-start {
     align-self: self-start; }
   .container-image-500 {
@@ -2896,16 +2978,23 @@ a:any-link {
     margin-bottom: 25px; }
   .card-case-studies {
     box-shadow: 0 2px 1px 1px rgba(0, 0, 0, 0.25);
-    width: 100%;
-    max-width: 643px; }
+    width: 90%;
+    max-width: 643px;
+    border: 1px solid #000; }
   .justify-content-center {
     justify-content: center; }
   /*******      Typography      ******/
   .subtitle {
     font-size: 1.5rem;
-    margin-top: 15px; }
+    margin-top: 5px;
+    text-align: center; }
+  .subtitle-why {
+    font-size: 1.5rem;
+    margin-top: 15px;
+    text-align: left; }
   .title {
-    font-size: 2.0rem; }
+    font-size: 2.0rem;
+    text-align: center; }
   .header-title {
     font-size: 2.12rem; }
   .header-title-cs {
@@ -3260,6 +3349,13 @@ a:any-link {
     grid-column: 5/5;
     grid-row: 1/1;
     grid-area: text5; }
+  .grid-why-list {
+    width: 1200px;
+    grid-template-columns: repeat(3, 400px);
+    grid-row: auto;
+    grid-gap: 20px;
+    display: grid;
+    margin-left: 0%; }
   /**************layout     *****/
   .marginleft-40per {
     margin-left: 0%; } }
@@ -3337,6 +3433,11 @@ a:any-link {
 @media (min-width: 1200px) {
   .visibility {
     display: block; }
+  .float-right {
+    float: right;
+    padding: 15px 5px 15px 25px; }
+  .margin-left-why-60per {
+    margin-left: 12%; }
   .card-case-studies {
     box-shadow: 0 2px 1px 1px rgba(0, 0, 0, 0.25);
     width: 634px;
@@ -3379,34 +3480,67 @@ a:any-link {
     grid-column: 1/2;
     grid-row: auto;
     justify-content: center; }
-    .grid-left-truth .grid-2things {
-      width: 1200px;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      grid-gap: 25px;
-      display: grid; }
-    .grid-left-truth .thing1 {
-      grid-column: 1/2;
-      grid-row: auto; }
-    .grid-left-truth .thing2 {
-      grid-column: 2/2;
-      grid-row: auto; }
+  .margin-top-5 {
+    margin-top: 5px; }
+  .margin-left-3 {
+    margin-left: 0%; }
+  .grid-2things {
+    width: 1200px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 25px;
+    display: grid; }
+  .thing1 {
+    grid-column: 1/2;
+    grid-row: auto; }
+  .thing2 {
+    grid-column: 2/2;
+    grid-row: auto; }
   .margin-left-15per {
     margin-left: 15%; }
+  .margin-top-25 {
+    margin-top: 25px; }
   .margin-top-75 {
     margin-top: 75px; }
+  .margin-tb-100 {
+    margin: 50px 50px 50px 50px; }
+  .margin-top-1per {
+    margin-top: -1%; }
+  .photo-container {
+    width: 100%;
+    height: auto;
+    max-width: 550px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px; }
+  .title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.05rem;
+    line-height: 1.25;
+    color: #879397;
+    opacity: .8;
+    text-align: left; }
+  .subtitle {
+    font-size: 1.5rem;
+    text-align: left; }
   .margin-left-10per {
     margin-left: 10%; }
+  .margin-top-10 {
+    margin-top: 10px; }
   .margin-left-5 {
     margin-left: 5%; }
   .margin-left-75 {
     margin-left: 75px; }
+  .margin-left-50 {
+    margin-left: 50%; }
   .margin-right-25 {
     margin-right: 25%; }
   .media-margin {
     margin-left: 8%; }
   .media-left-margin {
     margin-left: 1%; }
+  .margin-top-25per {
+    margin-top: -.25%; }
   .header-title {
     font-size: 5.1875rem; }
   .content-block-25 {
@@ -3429,6 +3563,11 @@ a:any-link {
     width: 85%; }
   .content-block-90 {
     width: 90%; }
+  .content-text-21 {
+    font-family: Roboto;
+    font-size: 1.3125rem;
+    line-height: 1.88;
+    text-align: left; }
   .grid-services-list {
     width: 1200px;
     grid-template-columns: repeat(3, 1fr);

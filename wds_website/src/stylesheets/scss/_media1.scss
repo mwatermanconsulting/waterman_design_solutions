@@ -10,8 +10,37 @@
     margin-left: 8%
   }
 
+  .margin-left-why-60per {
+    margin-left: 60%;
+  }
+
+  .margin-left-50{
+    margin-left: 0%;
+  }
+
+  .margin-right-25 {
+    margin-right: 0%;
+  }
+
+  .margin-left-3{
+    margin-left: -3%;
+  }
+
   .margin-top-15per {
     margin-top: 0%;
+  }
+
+.margin-top-25per {
+  margin-top: .25%;
+}
+
+  .margin-top-5{
+    margin-top: 5px;
+  }
+
+
+  .margin-top-100 {
+    margin-top: 10%;
   }
 
   .media-margin {
@@ -32,7 +61,7 @@
   }
 
   .margin-tb-100 {
-    margin: 50px 0 50px;
+    margin: 0px 50px 50px 50px;
   }
 
   .header {
@@ -47,6 +76,22 @@
     display: flex;
     height: auto;
     text-align: center;
+  }
+
+  .content-text-21 {
+    font-family: Roboto;
+    font-size: 1.3125rem;
+    line-height: 1.88;
+    text-align: center;
+  }
+
+  .grid-why-list {
+    width: 1200px;
+    grid-template-columns: repeat(3, 400px);
+    grid-row: auto;
+    grid-gap: 20px;
+    display: grid;
+    margin-left: 60%;
   }
   /********** layout    *********/
   
@@ -81,7 +126,7 @@
   }
 
   .content-block-55 {
-    width: 90%;
+    width: 83%;
   }
 
   .content-block-60 {
@@ -114,10 +159,20 @@
     height: 100%;
     border: 2px solid #000;
   }
+  
   .photo-container {
     width: 100%;
     height: auto;
     max-width: 550px;
+    padding-top: 15px;
+    margin-bottom: 15px
+  }
+
+  .photo-container-cs-sb1{
+    width: 83%;
+    max-width:900px;
+    height: auto;
+    border: 1px solid $black;
   }
 
   .align-self-start {
@@ -169,8 +224,9 @@
 
   .card-case-studies {
     box-shadow: 0 2px 1px 1px rgba(0,0,0,.25);
-    width: 100%;
+    width: 90%;
     max-width: 643px;
+    border: 1px solid #000;
   }
 
   .justify-content-center {
@@ -181,11 +237,19 @@
 
   .subtitle {
     font-size: 1.5rem;
+    margin-top: 5px;
+    text-align: center;
+  }
+
+  .subtitle-why {
+    font-size: 1.5rem;
     margin-top: 15px;
+    text-align: left;
   }
 
   .title {
     font-size: 2.0rem;
+    text-align: center;
   }
 
   .header-title {
@@ -713,6 +777,15 @@
       grid-row: 1/1;
       grid-area: text5;
     }
+
+    .grid-why-list {
+      width: 1200px;
+      grid-template-columns: repeat(3, 400px);
+      grid-row: auto;
+      grid-gap: 20px;
+      display: grid;
+      margin-left: 0%;
+    }
   
     /**************layout     *****/
   
@@ -840,6 +913,15 @@
     display: block;
   }
 
+  .float-right {
+    float: right;
+    padding: 15px 5px 15px 25px;
+   }
+
+   .margin-left-why-60per {
+    margin-left: 12%;
+  }
+
   .card-case-studies {
     box-shadow: 0 2px 1px 1px rgba(0,0,0,.25);
     width: 634px;
@@ -900,6 +982,15 @@
     grid-column: 1/2;
     grid-row: auto;
     justify-content: center;
+  }
+
+  .margin-top-5{
+    margin-top: 5px;
+  }
+
+  .margin-left-3{
+    margin-left: 0%;
+  }
   
   
     .grid-2things {
@@ -920,20 +1011,57 @@
       grid-row: auto;
     }
   
-  }
 
   .margin-left-15per{
   margin-left: 15%;
   }
 
+    .margin-top-25 {
+      margin-top: 25px;
+    }
+
   .margin-top-75{
     margin-top: 75px;
+  }
 
+  .margin-tb-100 {
+    margin: 50px 50px 50px 50px;
+  }
+
+  .margin-top-1per{
+    margin-top: -1%;
+  }
+
+  .photo-container {
+    width: 100%;
+    height: auto;
+    max-width: 550px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.05rem;
+    line-height: 1.25;
+    color: $title-grey;
+    opacity: .8;
+    text-align: left;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+    text-align: left;
   }
 
   .margin-left-10per {
     margin-left: 10%
   }
+
+    .margin-top-10 {
+      margin-top: 10px;
+    }
 
   .margin-left-5 {
     margin-left: 5%
@@ -941,6 +1069,10 @@
 
   .margin-left-75 {
     margin-left: 75px;
+  }
+
+  .margin-left-50{
+    margin-left: 50%;
   }
 
   .margin-right-25 {
@@ -953,6 +1085,10 @@
 
   .media-left-margin {
     margin-left: 1%
+  }
+
+  .margin-top-25per {
+    margin-top: -.25%;
   }
 
 
@@ -980,6 +1116,7 @@
   }
 
 
+
   
 .content-block-60 {
   width: 60%;
@@ -1003,6 +1140,12 @@
 
   .content-block-90 {
     width: 90%;
+  }
+  .content-text-21 {
+    font-family: Roboto;
+    font-size: 1.3125rem;
+    line-height: 1.88;
+    text-align: left;
   }
 
   ////////*****************    grids     *******************************/
