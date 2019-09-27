@@ -25,6 +25,7 @@ import strategy_insight from './strategy_insight';
 import design_systems from './design_systems';
 import ui_design from './ui_design';
 import ux from './ux_design';
+import test_area from './test_area';
 import video_production from './video_production';
 import why_wds from './why_wds';
 
@@ -57,6 +58,7 @@ const Main = () => (
     <Route exact path="/design_systems" component={design_systems} />
     <Route exact path="/ux_design" component={ux} />
     <Route exact path="/ui_design" component={ui_design} />
+    <Route exact path="/test_area" component={test_area} />
     <Route exact path="/video_production" component={video_production} />
     <Route exact path="/why_wds" component={why_wds} />
 
