@@ -230,8 +230,10 @@ footer {
 .margin-left-15per {
   margin-left: 15%; }
 
+
 .margin-left-15sm {
   margin-left: 0%; }
+
 
 .margin-left-30per {
   margin-left: 30%; }
@@ -2906,6 +2908,7 @@ a:any-link {
     margin-left: -3%; }
   .margin-left-30per {
     margin-left: 0%; }
+
   .margin-left-10sm {
     margin-left: 10%; }
   .margin-left-15sm {
@@ -2916,6 +2919,7 @@ a:any-link {
     margin-left: -2%; }
   .margin-left-4sm {
     margin-left: -4%; }
+
   .margin-top-15per {
     margin-top: 0%; }
   .margin-top-2 {
@@ -3572,10 +3576,12 @@ a:any-link {
     margin-right: 35%; }
   .margin-left-30per {
     margin-left: 30%; }
+
   .margin-left-2sm {
     margin-left: 0%; }
   .margin-left-4sm {
     margin-left: 0%; }
+
   .margin-tb-100 {
     margin: 50px 275px 50px 5px; }
   .margin-top-1per {
@@ -3588,6 +3594,7 @@ a:any-link {
     padding-top: 0px;
     margin-bottom: 0px;
     padding-left: 25px; }
+
   .title {
     font-family: 'Oswald', sans-serif;
     font-size: 3.05rem;
