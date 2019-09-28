@@ -1,7 +1,4 @@
 import React, { Component } from 'react' ;
-import wdslogofull from '../images/backgrounds/wds-logo-full.svg';
-import pee from '../images/photos/pee.jpg';
-import woo from '../images/photos/woo1).gif';
 
 
 class test_area extends Component {
@@ -16,14 +13,14 @@ class test_area extends Component {
                <p className="chooch">here some choccy milk becuz your ebic</p>   
               </div>
               <div>
-               <img src={pee} />
+              
               </div>
               
               <div>
                <p className="woo">i'm the ed sheeran of lacrosse  
               
               <div>
-               <img src={woo} />
+               
               </div></p> 
             </div>
                  
