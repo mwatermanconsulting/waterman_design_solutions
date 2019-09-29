@@ -54,9 +54,9 @@ class about extends Component {
 
 
                         <div className="content-text-18 text-bold margin-top-15" >
-                        <p><b>The foundation of everything is Design</b></p>
+                        <p  className="content-text-18"><b>The foundation of everything is Design</b></p>
 
-                        <p>Since 1997, WDS has been evangelizing the value of design under its original name, Surreal Concepts. Started by the husband and wife team, Terri and Michael Waterman, they began with a simple premise and small list of design services. Their business has evolved alongside the digital revolution, adapting and modifying their services to match their client needs. From small businesses to global name brands, each experience help them to grow and expand service offerings. Waterman Design Solutions reflect that growth with a new focus. </p>
+                        <p className="content-text-18">Since 1997, WDS has been evangelizing the value of design under its original name, Surreal Concepts. Started by the husband and wife team, Terri and Michael Waterman, they began with a simple premise and small list of design services. Their business has evolved alongside the digital revolution, adapting and modifying their services to match their client needs. From small businesses to global name brands, each experience help them to grow and expand service offerings. Waterman Design Solutions reflect that growth with a new focus. </p>
 
 
                         </div>
@@ -80,7 +80,7 @@ class about extends Component {
                     <div className="content-block-55">
                         <p className="content-text-18 margin-top-15">
 
-                        The first time they worked on the Amiga 500, Michael and Terri were fascinated with digital design. With the knowledge and skills that they acquired with the digital video software NewTek Video Toaster, they started a business that focused on video production services. One day a client approached them about an Illustrator project for the Franklin Mint, to digitally reproduce portraits of sports figures. They Became experts in Adobe Illustrator and Photoshop and that sparked their entrepreneurial spirit and Surreal Concepts was born.</p>
+                        The first time they worked on the Amiga 500, Michael and Terri were fascinated with digital design. With the knowledge and skills that they acquired with the digital video software NewTek Video Toaster, they started a business that focused on video production services. One day a client approached them about an Illustrator project for the Franklin Mint, to digitally reproduce portraits of sports figures. They became experts in Adobe Illustrator and Photoshop, which sparked their entrepreneurial spirit and Surreal Concepts was born.</p>
   </div>
                 </section>
 
@@ -118,7 +118,7 @@ class about extends Component {
                             </p> 
 
                              <p className="content-text-18 margin-top-25">     
-                             Adding HTML, CSS and Flash skills, the two partners turned their attention to the web, designing and developing websites. Their goal was to help small business owners through design to fight off big box business competition by bringing a level of professionalism to their online presence. </p>
+                             Adding HTML, CSS and Flash skills, the two partners turned their attention to the web, designing and developing websites along with martketing collateral. Their goal was to help small business owners through design to fight off big box business competition by bringing a level of professionalism to their online presence. </p>
 
                         <section className="grid-cs-card-history flex-layout-center-center flex-layout-section-full margin-top-50">   
                             <p className="cs-card-1 margin-top-15 caption"><img className="container-photo-callout margin-top-25 " src={four} alt="411"/><br></br>
