@@ -76,10 +76,10 @@ class ui_design extends Component {
                             </div>
                         <div className="margin-top-15">  
                             <p className="content-text-18"> 
-                            WDS honed its UI design skills by designing websites in 1998. Over the years they have designed and developed complicated healthcare websites to solving difficult UI problems on critical applications. Their UI designs for data visualization are being used on oil rigs, nuclear reactors and pharmaceutical drug plants.  
+                            WDS began its UI design skills by designing websites in 1998. Over the years they have evolved to developing complicated healthcare websites and solving difficult UI problems on critical applications. Their UI designs for data visualization are being used on oil rigs, nuclear reactors and pharmaceutical drug plants.  
                             </p>
                             <p className="content-text-18">
-                            WDS can take care of the front-end development, including CSS and HTML development, working on-site with your team or creating GIT build-packages complete with custom CSS solutions, patterns libraries, style guides, best of practice documentation and design strategies, ensuring and enforcing original design and solutions.
+                            WDS can take care of the front-end development, including CSS and HTML, working on-site with your team or creating GIT build-packages, complete with custom CSS solutions, patterns libraries, style guides, best of practice documentation and design strategies, ensuring and enforcing original design and solutions.
                             </p>      
                             
                             </div>  
@@ -102,10 +102,10 @@ class ui_design extends Component {
                         <div className="margin-top-15">  
                        
                             <p className="content-text-18"> 
-                            Known as low-tech, this is a simple and easy translation of the product and design concepts. It’s used to turn the design ideas into testable and tangible artifacts, collecting and analyzing the user demands at the early stage.
+                            Known as low-tech, this is a simple and easy translation of the product and design concepts. It is used to turn  design ideas into testable and tangible artifacts, collecting and analyzing the user demands at the early stage.
                             </p>
                             <p className="content-text-18">
-                            The low-fidelity prototype focuses on function, structure, process, and provide the most simple framework and elements. In the early stages of product design, it can form a plan quickly, discuss quickly and adjust quickly. Designers can focus on the core of the product structure and frame layer. The biggest advantage of it is time-saving and efficient because of its prototype, so that others do not pay attention to the details of the interface but rather the function.
+                            The low-fidelity prototype focuses on function, structure, process, and provides the simplest framework and elements. In the early stages of product design, it can form a plan, a quick discussion and a quick adjustment. Designers can focus on the core of the product structure and frame layer. The biggest advantage of it is time-saving and efficient because of its prototype, so that others do not pay attention to the details of the interface but rather the function.
                             </p>      
                             <p className="content-text-18">
                             Low fidelity prototyping can help discover the issues of design and get them resolved at the early stage, with much less time and effort. An interesting and proven phenomenon is that the low-fi prototyping has become a preferred choice for both start-ups and giant brands.
@@ -131,12 +131,12 @@ class ui_design extends Component {
                         <div className="margin-top-15">  
                        
                             <p className="content-text-18"> 
-                            High fidelity design are quite close to the final product, with lots of functionality and details included. This is often used in the later usability evaluation to discover the potential issues that may exist in the workflow, interactivity and so on.
+                            High fidelity designs are quite close to the final product, with lots of functionality and details included. This is often used in the later usability evaluation to discover the potential issues that may exist in the workflow, interactivity and so on.
                             </p>
                             <p className="content-text-18">
                             Most low-fidelity wireframes communicate function well, but communicate form poorly. This is especially the case for mobile applications that have standard interface components with a consistent look and feel. A high-fidelity wireframe of a mobile application will communicate the user interface form and function better because the wireframe better resembles the standard interface components that users are familiar with.</p>
 
-                            <p className="content-text-18"> On a high-fidelity wireframe, there’s also no question to clients about what’s a button or text field because the gradient detail on the elements tell them that. Low-fidelity wireframes don’t give the gradient details that clients need to tell what each interface element is and how they function. Both form and function are key to the user experience. Reducing the form of your user interface too much could impact how clients view your wireframes.
+                            <p className="content-text-18"> On a high-fidelity wireframe, there’s also no question to clients about what is a button or text field because of the gradient detail on the elements. Low-fidelity wireframes don’t give the gradient details that clients need to tell what each interface element is and how they function. Both form and function are key to the user experience. Reducing the form of your user interface too much could impact how clients view your wireframes.
                             </p>      
                             
                             </div>  
@@ -187,7 +187,7 @@ class ui_design extends Component {
                         </div>
                         <div className="margin-top-15">  
                             <p className="content-text-18"> 
-                            When an engagement centers on a complex tool for the enterprise, the consolidated workflow captures activity across organizational roles and provides stakeholders a single view of all of the work accomplished in and around a tool. This diagram gives stakeholders an “aha!” moment as, for the first time, they have a picture of the duties employees or customers accomplish in their work lives. Through the use of a consolidated workflow diagram, WDS sees how a user moves through tasks and extrapolates from here to the various cognitive states a user inhabits while engaged with the solution or process. These cognitive states represent a model of what is in people’s minds as they do their work: their mental model. This understanding has implications for both design and marketing.
+                            When an engagement centers on a complex tool for the enterprise, the consolidated workflow captures activity across organizational roles and provides stakeholders a single view of all of the work accomplished in and around a tool. This diagram gives stakeholders an “aha!” moment as, for the first time, they have a picture of the duties employees or customers accomplish in their work lives. Through the use of a consolidated workflow diagram, WDS sees how a user moves through tasks and extrapolates from here to the various cognitive states a user inhabits while engaged with the solution or process. These cognitive states represent a model of what is in people’s minds as they do their work, it's their mental model. This understanding has implications for both design and marketing.
                             </p> 
                         </div>  
                         </div>
@@ -198,7 +198,7 @@ class ui_design extends Component {
                     <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
                     <div className="float-left flex-layout-center-center content-block-65">
                         <div className="title">
-                            HTML and CSS Build-Kits
+                            HTML and CSS Build Kits
                         </div>
                         <div className="subtitle margin-top-15">
                             Business Tailored UI Design Kits
@@ -211,9 +211,9 @@ class ui_design extends Component {
                        
                             
                             <p className="content-text-18">
-                            WDS UI Design Kit solutions are lightweight, containing only the visual elements, HTML and CSS needed. The value of a tailored UI kit is that it helps solve the consistency issues businesses face when teams are fractured. These teams need design guidance and support, and a design solution that will support the developers with a starting point, removing the need to design and go straight to development. WDS provides guidance with a living style guide and design system which includes best pf practice documentation. </p> 
+                            WDS UI Design Build Kit solutions are lightweight, containing only the visual elements, HTML and CSS needed. The value of a tailored UI kit is that it helps solve the consistency issues businesses face when teams are fractured. These teams need design guidance and support, and a design solution that will support the developers with a starting point, removing the need to design and go straight to development. WDS provides guidance with a living style guide and design system which includes best of practice documentation. </p> 
                             <p className="content-text-18"> 
-                             UI kits are comprehensive resource sets that allow you to plan your design’s structure properly without having to sacrifice creative and original ideas. A UI kit generally contains an assortment of graphic files including UI components (buttons, check boxes, progress bars, etc.) for the purpose of user interface design. This allows developers to create outstanding visuals in a reasonable time frame. So instead of wasting time figuring out how to implement components, UI kits let you focus on what you do best: creating great products.
+                             UI kits are a comprehensive resource set that allow you to plan your design’s structure properly without having to sacrifice creative and originality. A UI kit generally contains an assortment of graphic files including UI components (buttons, check boxes, progress bars, etc.) for the purpose of user interface design. This allows developers to create outstanding visuals in a reasonable time frame. So instead of wasting time figuring out how to implement components, UI kits let you focus on what you do best: creating great products.
                             </p>    
                             
                             </div>  

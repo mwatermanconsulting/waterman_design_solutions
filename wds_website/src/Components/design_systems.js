@@ -16,7 +16,7 @@ class style_guide extends Component {
             <Helmet>
                 <meta name="description" content="A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive, combining components, behaviors, and branding. It must also be flexible and scalable." />
                 <meta charSet="utf-8" />
-                <title>Design Solutions</title>
+                <title>Design Systems</title>
                 <link rel="canonical" href="http://watermandesignsolutions.com/design_systems" />
             </Helmet>
         <div className="flex-layout-column"> 
@@ -47,11 +47,11 @@ class style_guide extends Component {
     
             <section className="content-header flex-layout-center-center flex-layout-column">
                 <div className="flex-layout-center-center title text-align-center content-block-60 margin-top-100">
-                    If your product isn’t documented it doesn’t exist
+                    If your product isn’t documented, it doesn’t exist
                 </div>
                 <div className="content-block-55 margin-top-25">
                     <p className="content-text-24 text-align-center">
-                    Style guides and design systems are there to make your lives easier, as simple as that. Among its main benefits, is that it keeps your designs consistent internally and they help your developers be more productive. </p>
+                    Style guides and design systems are there to make your lives easier. It keeps  designs consistent internally and help developers be more productive. </p>
                 </div>
             </section> 
             
@@ -97,37 +97,16 @@ class style_guide extends Component {
                         <div className="content-block-60 content-text-18 margin-top-25 margin-left-6per">
                         <div className="float-right">
                             <img className="photo-container width-100" src={digital_systems3} alt="Style Guides" /> 
-                        <p className="caption">Styleguide for OSIsoft </p> </div>
+                        <p className="caption">Styleguide for OsiSoft </p> </div>
                             <p className="content-text-18"> 
 
-                            Consistency is vital for a pleasant user’s experience, but it can be hard to come by with multiple designers working separately. Design systems allow easy access to universal versions of design assets (and their rules) to keep everyone on the same page, and ensure components remain consistent from one page or section to another.
+                            Consistency is vital for a pleasant user experience, but it can be hard to come by with multiple designers working separately. Design systems allow easy access to universal versions of design assets (and their rules) to keep everyone on the same page and ensure consistency from one page or section to another.
                             That also holds true for different products. Brands looking to build their identity can use the exact same assets for all their products, giving everything a unified feel and rewarding loyal customers with familiar usability.</p>
                         </div>
 
 
                 </section>
-                
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
-                
-                <section className="float-left content-header align-items-center flex-layout-column">
-                        <div className="title content-block-60 margin-left-6per">
-                        Enhanced collaboration
-                        </div>
-                        <div className="subtitle content-block-60 margin-left-6per margin-top-15">
-                            What makes sense for the user
-                        </div>
-                        <div className="content-block-60 content-text-18 margin-left-6per margin-top-25">
-                            <p className="content-text-18"> 
-                                During the initial creation of a design system — and its periodic updates — design systems get the right conversations started. Which logos go with different screen sizes? How do you want to handle the search function? 
-                            </p>
-                        <div className="float-right">
-                            <img className="photo-container width-100" src={digital_systems4}  alt="Enhanced collaboration" /> 
-                        </div>
-                        <p  className="content-text-18">What is the best accent color for call-to-action buttons? Simply setting out to make a design system forces your team to answer these questions, and make those answers easily accessible to everyone.</p> 
-                            <p className="content-text-18">
-                                Having this kind of master reference guide also helps avoid miscommunication. By offering a definitive protocol and standards for otherwise ambiguous elements, design systems keep everyone on the same page. No guesswork, assumptions, or “going rogue.” Design systems also do wonders for problematic developer handoffs. Technical specs are embedded in the document which creates less confusion about how to build something in the backend, or whether it can be built at all. Design systems give designers and developers a shared language.</p>           
-                        </div>   
-                </section>
+
 
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
@@ -165,7 +144,7 @@ class style_guide extends Component {
                             Design System Layouts
                         </div>
                         <div className="content-block-75 content-text-18 margin-top-15">
-                            <p className="content-text-18">  A subclass in the design system, this is the set of design patterns for use across a company. A pattern library, documents all of these ‘patterns’ (also often known as modules) and defines how they behave, what they look like and how they are coded.</p>
+                            <p className="content-text-18">  A subclass in the design system, this is the set of design patterns for use across a company. A pattern library documents all of these ‘patterns’ (also often known as modules) and defines how they behave, what they look like and how they are coded.</p>
                         </div>
                     </div>
                     <div className="grid-right container-image-block">

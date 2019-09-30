@@ -23,7 +23,7 @@ class contact extends Component {
             </div>
             <div className="flex-layout-section-full flex-layout-center-center flex-layout-column margin-top-100 margin-bottom-100 padding">
             <p className="title-homepage text-align-center padding-20">We'd love to hear from you</p>
-            <p className="content-text-21 text-align-center margin-20">Need design support for enterprise level applications, products or websites? Contact us if you would like to hear more about how we can help find design solutions for your business. </p>
+            <p className="content-text-21 text-align-center margin-20">Need design support for enterprise level applications, products or websites? Or are you a startup that wants to incorporate design correctly from the beginning? Contact us if you would like to hear more about design solutions for your business. </p>
             <p className="subtitle text-black">484-477-5193</p>
             <p className="subtitle ">
             <a className="greenlink " href="mailto: inquiries@watermandesignsolutions.com"> inquiries@watermandesignsolutions.com</a></p>

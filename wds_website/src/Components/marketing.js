@@ -132,7 +132,7 @@ class marketing extends Component {
                         </div>
                         <div className="content-text-18 margin-top-15">
                             <p className="content-text-18 margin-right-5"> 
-                            Using user research and ad optimization techniques, wds leverages your social media platforms to connect your brand, products, or services to the right people. By creating highly targeted advertisements on social media, we help our clients reach an otherwise untapped resource for potential customers.</p>
+                            Using user research and ad optimization techniques, wds leverages your social media platforms to connect your brand, products, or services to the right people. By creating highly targeted advertisements on social media, WDS helps clients reach an otherwise untapped resource for potential customers.</p>
                         </div>
                     </div>
                     <div className="grid-right-css container-image-block margin-top-25">

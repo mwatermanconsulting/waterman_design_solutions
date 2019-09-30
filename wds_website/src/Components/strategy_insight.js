@@ -139,7 +139,7 @@ class strategy_insight extends Component {
                             <div className="title margin-top-50">
                             <a href="./design_systems" className="no-decoration"> Design Systems</a></div>
                             <p className="content-text-18 margin-top-15">
-                                At WDS, we know and understand the importance of design systems for businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff.</p>
+                                At WDS it is understood how important a design system is for businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff.</p>
                         </div>
                     </div>
                     </section>
@@ -209,7 +209,7 @@ class strategy_insight extends Component {
                             <div className="float-right">
                                 <img className="photo-container" src={strategy6}  alt="Consolidated Workflow Diagrams" /> 
                             </div>   
-                            When an engagement centers on a complex tool for the enterprise, the consolidated workflow diagram captures activity across organizational roles, providing stakeholders a single view of all of the work accomplished in and around a tool. This diagram gives stakeholders an “Aha!” moment as, for the first time, they have a picture of the duties that employees or customers accomplish in their work lives. Through the use of a consolidated workflow diagram, shows how a user moves through tasks and  extrapolates from there to the various cognitive states a user inhabits while engaged with the solution or process. These cognitive states represent a model of what is in people’s minds as they do their work, a mental model. This understanding has implications for both design and marketing. 
+                            When an engagement centers on a complex tool for the enterprise, the consolidated workflow diagram captures activity across organizational roles, providing stakeholders a single view of all of the work accomplished in and around a tool. This diagram gives stakeholders an “Aha!” moment as, for the first time, they have a picture of the duties that employees or customers accomplish in their work lives. Through the use of a consolidated workflow diagram, it shows how a user moves through tasks and  extrapolates the various cognitive states a user inhabits while engaged with the solution or process. These cognitive states represent a model of what is in people’s minds as they do their work, a mental model. This understanding has implications for both design and marketing. 
 </p>
                         </div>
                     </section>
@@ -247,7 +247,7 @@ class strategy_insight extends Component {
                         <div className="content-block-60 content-text-18 margin-top-25"><div className="float-right">
                         <img className="photo-container" src={strategy8}  alt="Journey Maps " /> 
                     </div>
-                            <p className="content-text-18"> Companies are often so focused on their solutions that they forget it is part of a larger whole: the customer’s life. As the customer interacts with the company or engages in a life process, such as using a banking software, understanding the key activities and experiences the customer has helps determine the most valuable places to focus resources. This ensures that each interaction with the company fits the experience the organization wants to provide. The understanding of the key activities and experiences is built into an informative diagram called a Customer Journey Map. This diagram informs key decisions for business, marketing and design executives, and can shift stakeholders’ thinking about where to engage across the lifecycle of a customer’s journey.
+                            <p className="content-text-18"> Companies are often so focused on their solutions that they forget it is part of a larger whole: the customer’s life. As the customer interacts with the company or engages in a life process, such as using banking software, understanding the key activities and experiences the customer has helps determine the most valuable places to focus resources. This ensures that each interaction with the company fits the experience the organization wants to provide. The understanding of the key activities and experiences is built into an informative diagram called a Customer Journey Map. This diagram informs key decisions for business, marketing and design executives, and can shift stakeholders’ thinking about where to engage across the lifecycle of a customer’s journey.
                             </p>
                         </div>
                     </section>

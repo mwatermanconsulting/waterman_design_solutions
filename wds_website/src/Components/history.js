@@ -312,15 +312,16 @@ class about extends Component {
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
                         
-                        <p className="content-text-18"> <b>"I aim to inspire.</b>" <br></br>Terri's perspective is greatly influenced by her hearing loss as a child. Since her outer life became quiet, observations and interpretations were always unique and different. Her observations taught her that following the crowd was never a good idea to foster creativity, which enables her unique approach. Her fine art training has taught her the importance of staying true to herself. <div className="float-right">
-                            <img className="width-250"  src={terri}  alt="Terri" /> 
-                        </div><br></br>A deep thinker, she has always been curious about how humans behave and respond to life, and how design was about communicating simply. Like the cartooning on this site, the goal was to show you how much WDS values good old fashioned customer service, something that was very prevalent in the 1950s.
+                        <p className="content-text-18"> <b>"I aim to inspire.</b>" <br></br>Terri's perspective is greatly influenced by her hearing loss as a child. When the outer life becomes quiet, observations and interpretations will always be unique. She learned that following the crowd was never a good idea to foster creativity. Fine art talent has taught her the importance of staying true to herself, and she continually finds new ways of expressing herself, whether it be through graphic design, advertising, branding, abstract paintings or multimedia art. <div className="float-right">
+                            <img className="width-250"  src={terri}  alt="Terri" /> <p className="width-250 caption">"Artists have always been leaders in society, helping others to achieve enlightened thinking and problem solving."</p>
+                        </div><br></br>A deep thinker, she has always been curious about how humans behave and respond to life, and how design was about simplifying things to make our lives better. Like the cartooning on this site, the goal was to visibly communicate to you how much WDS values good old fashioned customer service, something that was very prevalent in the 1950s.
                         <br></br>
-                        Her experience working with Michael and their clients have taught her that design has a purpose of having empathy, and users ALWAYS embrace designs that take them into consideration. </p><p className="subtitle">Terri's passion for helping others with her talent is what motivates her to be passionate about her clients' goals.</p>
+                        Her experience working with Michael and their clients has taught her that design has a purpose - empathy, and users ALWAYS embrace designs that take them into consideration. </p>
+                        <p className="subtitle">Terri's passion for helping others with her talent is what motivates her to be passionate about her clients' goals.</p>
 
                            <p className="content-text-18 margin-top-25">As the heart of WDS, Terri's intuitive design skills come from 25+ years of experience in traditional and modern art. This combination of skills has served her well in all her artistic endeavors. 
                             
-                            Serving as a creative advisory to Michael has enabled her to stay ahead of the design trends and competition. There’s always a way, she says, to make every business unique. 
+                            Serving as a creative advisory to Michael has enabled her to stay ahead of the design trends and competition. There’s ABSOLUTELY a way, she says, to make every business unique. 
                             Her personal work has intertwined with her professional work as a designer by evolving into a disciplined UX designer, which led to amazing opportunities as a unique visual communicator. 
                             Her greatest joy is when there is a balance of creative flow along with the discipline of design that creates simplicity and inspiration. </p>
                             <p className="content-text-18 margin-top-25"><i>Bachelor of Fine Arts<br></br>Associates in Visual Communication<br></br>
