@@ -61,7 +61,7 @@ class ui_design extends Component {
                 </p>
             </section>
 
-            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+            <div className="flex-layout-section thin-hr hrline-spacing width-70"></div>
 
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
                     <div className="float-left flex-layout-center-center content-block-65">
@@ -72,7 +72,7 @@ class ui_design extends Component {
                             Websites, Products and Applications
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                                 <img className="container-image-500" src={ui_s2}  alt="UI" /> 
+                                 <img className="container-image-500 margin-top-plus5per" src={ui_s2}  alt="UI" /> 
                             </div>
                         <div className="margin-top-15">  
                             <p className="content-text-18"> 
@@ -86,18 +86,18 @@ class ui_design extends Component {
                         </div>
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                     <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
                     <div className="float-left flex-layout-center-center content-block-65">
                         <div className="title">
                             Low Fidelity Design
                         </div>
-                        <div className="subtitle margin-top-15">
+                        <div className="subtitle margin-top-10">
                             Mock-ups and Wireframes
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                                 <img className="container-image-500" src={ui_s3}  alt="Mock-ups and Wireframes" /> 
+                                 <img className="container-image-500 margin-top-plus5per" src={ui_s3}  alt="Mock-ups and Wireframes" /> 
                             </div>
                         <div className="margin-top-15">  
                        
@@ -115,18 +115,18 @@ class ui_design extends Component {
                         </div>
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                    <div className="flex-layout-section thin-hr hrline-spacing width-70"></div>
 
                     <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
                     <div className="float-left flex-layout-center-center content-block-65">
                         <div className="title">
                             Hi-Fidelity Designs
                         </div>
-                        <div className="subtitle margin-top-15">
+                        <div className="subtitle margin-top-10">
                             Representing the Final Product
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                                 <img className="container-image-500" src={ui_s4}  alt="Hi-Fidelity Designs" /> 
+                                 <img className="container-image-500 margin-top-plus5per" src={ui_s4}  alt="Hi-Fidelity Designs" /> 
                             </div>
                         <div className="margin-top-15">  
                        
@@ -143,18 +143,18 @@ class ui_design extends Component {
                         </div>
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                     <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
                     <div className="float-left flex-layout-center-center content-block-65">
                         <div className="title">
                             Concept Validation
                         </div>
-                        <div className="subtitle margin-top-15">
+                        <div className="subtitle margin-top-10">
                             Ensuring your Design Success
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                            <img className="container-image-500" src={ui_s5}  alt="Concept Validation" /> 
+                            <img className="container-image-500 margin-top-plus5per" src={ui_s5}  alt="Concept Validation" /> 
                         </div>
                         <div className="margin-top-15">  
                        
@@ -171,18 +171,18 @@ class ui_design extends Component {
                         </div>
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                     <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
                     <div className="float-left flex-layout-center-center content-block-65">
                         <div className="title">
                             Consolidated Workflows
                         </div>
-                        <div className="subtitle margin-top-15">
+                        <div className="subtitle margin-top-10">
                             The "aha" Moment
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                            <img className="container-image-500 margin-top-2per" src={ui_s6}  alt="Consolidated Workflows" /> 
+                            <img className="container-image-500 margin-top-2per margin-top-plus5per" src={ui_s6}  alt="Consolidated Workflows" /> 
                           
                         </div>
                         <div className="margin-top-15">  
@@ -193,7 +193,7 @@ class ui_design extends Component {
                         </div>
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                     <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
                     <div className="float-left flex-layout-center-center content-block-65">
@@ -204,7 +204,7 @@ class ui_design extends Component {
                             Business Tailored UI Design Kits
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                                 <img className="container-image-500" src={ui_s7}  alt="HTML and CSS Build-Kits" /> 
+                                 <img className="container-image-500 margin-top-plus5per" src={ui_s7}  alt="HTML and CSS Build-Kits" /> 
                                
                             </div>
                         <div className="margin-top-15">  
@@ -220,18 +220,19 @@ class ui_design extends Component {
                         </div>
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                     <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
+
                     <div className="float-left flex-layout-center-center content-block-65">
                         <div className="title">
                             Prototypes
                         </div>
-                        <div className="subtitle margin-top-15">
+                        <div className="subtitle margin-top-10">
                             If a picture is worth 1000 words, a prototype is worth 1000 meetings
                         </div> 
-                        <div className="float-right callout-photo grid-placeself-center">
-                                 <img className="container-image-500" src={ui_s8}  alt="Prototypes" /> 
+                        <div className="float-right callout-photo grid-placeself-center margin-top-1">
+                                 <img className="container-image-500 margin-top-plus5per" src={ui_s8}  alt="Prototypes" /> 
                                
                             </div>
                         <div className="margin-top-15">  
@@ -247,7 +248,7 @@ class ui_design extends Component {
                         </div>
                     </section>
                 
-                <div className="flex-layout-section thin-hr  margin-tb-100" ></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center ">
                 <div className="float-left content-block-60">
@@ -262,7 +263,7 @@ class ui_design extends Component {
                     </div>
                 </section> 
 
-                <div className="flex-layout-section thin-hr  margin-tb-100" ></div>
+                <div className="flex-layout-section thin-hr align-items-center hrline-spacing" ></div>
 
                 <section className="flex-layout-section-full align-items-center">
                     <div className="flex-layout-column">
@@ -270,13 +271,13 @@ class ui_design extends Component {
                                 Customer Success Spotlight</div>
                         <div className="content-block width-100 margin-top-10">
                             <p className="subtitle text-align-center">
-                                 Favorite case study stories including the methodology and the solutions that made each project a success</p>
+                                WDS case studies that include their UX methodology and the solutions that made each project a success</p>
                         </div> 
                     </div>
                 </section>
 
 
-                <section className="grid-cs-card flex-layout-center-center flex-layout-section-full margin-top-50 margin-bottom-100">
+                <section className="grid-cs-card flex-layout-center-center flex-layout-section-full margin-top-75 margin-bottom-75">
                 <div className="cs-card-1 card-case-studies content-header flex-layout-column flex-sh-500"  >
                     <div className="container-image-block">
                             <img className="image-size-100" src={motorola}  alt="motorola before and after" /> 
@@ -312,7 +313,7 @@ class ui_design extends Component {
                             <div className="content-block">
                                 <p><i> Industry: Ecommerce</i></p>
                                     <p className="content-text-18 content-block" >
-                                    StubHub was finding it difficult to gain user traction for their data reporting tool. Their initial two releases were not successful and after a year of non-use, StubHub needed answers.
+                                    StubHub had built a custom business intelligence platform that failed to gain user traction. Their initial two releases were not successful and after a year of non-use, StubHub needed answers. They turned to WDS ...
                                         </p>
                                     <p><a href="./case_study_2"  target="_blank">Read More....</a>  </p> 
                             </div>

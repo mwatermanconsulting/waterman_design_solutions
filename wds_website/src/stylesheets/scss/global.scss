@@ -152,6 +152,7 @@ h1 {
   color: $black;
 }
 
+
 .callout-text-lg-black {
   font-size: 2rem;
   font-family: 'Oswald', serif;
@@ -191,21 +192,41 @@ h1 {
 }
   
 .title-center {
-  font-family: 'Roboto', sans-serif;
-  font-size: 10.0rem;
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.05rem;
   font-weight: 500;
-  margin-bottom: 15px;
-  line-height: 55.5px;
+  color: $title-grey;
+  opacity: .8;
+  line-height: 1.25px;
+  text-align: center;
+}
+
+.title-center-sm {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: $title-grey;
+  opacity: .8;
+  line-height: 37.75px;
   text-align: center;
 }
 
 .subtitle {
   font-size: 1.8rem;
   font-weight: 700;
-  line-height: 1.25;
+  line-height: 1.45;
   font-family: 'Oswald';
   color: $title-grey;
   text-align: left;
+}
+
+.subtitle-center {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.25;
+  font-family: 'Oswald';
+  color: $title-grey;
+  text-align: center;
 }
 
 .height-670 {

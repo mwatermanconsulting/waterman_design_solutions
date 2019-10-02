@@ -45,27 +45,25 @@ class innovative_solutions extends Component {
                 
             </section>
 
-            
-    
             <div className="content-header flex-layout-center-center flex-layout-column margin-top-75">
-                <div className="flex-layout-center-center title  margin-top-75 width-100 content-block-60">
+                <div className="flex-layout-center-center title-center content-block-60">
                     It's the people behind the methodology that makes the difference. 
                 </div>
-                <div className="content-block-55 margin-top-50">
-                    <p className="content-text-24">
+                <div className="content-block-60 flex-layout-column align-items-center margin-top-50 margin-top-15sm">
+                    <p className="content-text-24 margin-top-15sm">
                     WDS discovers the patterns and themes that provide actionable, deeper and more valuable perspectives on your customers' wants, needs and motivations.</p>
-                    <p className="content-text-24 ">
+                    <p className="content-text-24">
                     The most meaningful insights for experience strategy are developed with a behavior-based understanding of users. WDS strategists observe people in context - where they work, play or live - to understand their goals, needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve.</p>
                 </div>
             </div>
             
-            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+            <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"></div>
 
             <section className="float-left align-items-center flex-layout-column">
                 <div className="title content-block-60">
                         Establish Business Context
                 </div>
-                <div className="subtitle content-block-60 margin-top-15">
+                <div className="subtitle content-block-60 margin-top-10">
                         Defining the Challenge
                 </div>
                 <div className="content-block-60 content-text-18 margin-top-15"> 
@@ -79,13 +77,13 @@ class innovative_solutions extends Component {
                 </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"></div>
 
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
                             Field Observation and Interviews
                     </div>
-                    <div className="subtitle content-block-60 margin-top-15">
+                    <div className="subtitle content-block-60 margin-top-10">
                             Developing insights from observations
                     </div>
                         <div className="content-block-60 content-text-18 margin-top-15">
@@ -105,13 +103,13 @@ class innovative_solutions extends Component {
                         </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"></div>
 
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
                             Developing a Persona
                     </div>
-                        <div className="subtitle content-block-60 margin-top-15">
+                        <div className="subtitle content-block-60 margin-top-10">
                             Introducing the voice of the user
                         </div>
                         <div className="content-block-60 content-text-18 margin-top-15"><div className="float-right">
@@ -122,13 +120,13 @@ class innovative_solutions extends Component {
                         </div> 
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"></div>
 
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
                            Visualizing  experience touchpoints
                     </div>
-                    <div className="subtitle content-block-60 margin-top-15">
+                    <div className="subtitle content-block-60 margin-top-10">
                             The User Journey
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
@@ -149,7 +147,8 @@ class innovative_solutions extends Component {
                             professionals apart from amateurs.</p>   
                     </div>
                 </section>
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+                <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"></div>
 
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
@@ -173,18 +172,19 @@ class innovative_solutions extends Component {
                         </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"></div>
 
-                <section className="grid-gallery-2col flex-layout-column content-block-60 align-self-center">
+                <section className="grid-gallery-2col flex-layout-column content-block-65 align-self-center">
                     <div className="gallery-2col-1 flex-layout-section-full margin-left-325">
                         <div className="title">
                             Develop frameworks                        
                         </div>
-                        <div className="subtitle  margin-top-15">
+                        <div className="subtitle  margin-top-10">
                             Principles for design strategies
                         </div>
-                        <div className="content-text-18  margin-top-15">
-                            <p className="content-text-18"> A solid design strategy provides a decision-making framework to drive customer-centered initiatives across the company. After the investment in deep customer understanding, the results can be shared among many departments to increase their value to the company.
+                        <div className="content-text-18 margin-top-15 content-block-60">
+                            <p className="content-text-18 padding-right-15sm"> 
+                            A solid design strategy provides a decision-making framework to drive customer-centered initiatives across the company. After the investment in deep customer understanding, the results can be shared among many departments to increase their value to the company.
                             The framework is a set of principles or questions that guide the development of ideas for solutions as well as the subsequent work performed by multiple teams in developing and marketing those solutions: architects, marketers, designers, branders, etc. This decision-making framework is valuable because it puts to work the understanding of the needs and concerns of the customer group, captured in the field observations. It persists beyond a specific project, providing value long after an engagement.</p>
                         </div>
                     </div>
@@ -192,10 +192,10 @@ class innovative_solutions extends Component {
                         <div className="title">
                             Design and evaluate                        
                         </div>
-                        <div className="subtitle  margin-top-15">
+                        <div className="subtitle margin-top-10">
                             Envision, prioritize and rank opportunity concepts
                         </div>
-                        <div className=" content-text-18 margin-top-15">
+                        <div className=" content-text-18 margin-top-15 padding-right-15">
                             <p className="content-text-18"> 
                             A key value that an experience strategy delivers 
                             is a set of new ideas for serving customers. The information distilled from the previous techniques and the company’s strategic requirements comes together in an Opportunities Matrix that clearly lays out a set of options for improving the experience of the user base to increase their engagement and satisfaction. </p>
@@ -206,7 +206,7 @@ class innovative_solutions extends Component {
                     </div> 
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"></div>
 
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
@@ -228,7 +228,7 @@ class innovative_solutions extends Component {
                         </div>
                 </section>
                     
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"></div>
 
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">

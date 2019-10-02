@@ -62,7 +62,7 @@ class innovative_solutions extends Component {
                     <div className="title content-block-60">
                             User Scenarios
                     </div>
-                    <div className="subtitle content-block-60 margin-top-15">
+                    <div className="subtitle content-block-60 margin-top-10">
                             Foundation of the backlog
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
@@ -82,7 +82,7 @@ class innovative_solutions extends Component {
                     <div className="title content-block-60">
                             Hypothesis and Concepts                        
                         </div>
-                        <div className="subtitle content-block-60 margin-top-15">
+                        <div className="subtitle content-block-60 margin-top-10">
                             Establish high-level concepts based on user scenarios
                         </div>
 
@@ -104,7 +104,7 @@ class innovative_solutions extends Component {
                     <div className="title content-block-60">
                             Construct an Interaction Model based on users
                     </div>
-                    <div className="subtitle content-block-60 margin-top-15">
+                    <div className="subtitle content-block-60 margin-top-10">
                             Establish Frameworks and Workflow Concepts</div>
                     <div className="content-block-60 content-text-18 "><div className="float-right">
                         <img className="photo-container" src={innovation4}  alt="Construct user model" /> 
@@ -121,7 +121,7 @@ class innovative_solutions extends Component {
                     <div className="title content-block-60">
                             Reinforce Success
                     </div>
-                    <div className="subtitle content-block-60 margin-top-15">
+                    <div className="subtitle content-block-60 margin-top-10">
                             Validate Concepts and Frameworks with Users                        
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15"><div className="float-right">
@@ -140,7 +140,8 @@ class innovative_solutions extends Component {
                     <div className="title content-block-60">
                             Brand - Establish a Product Identity
                     </div>
-                    <div className="subtitle content-block-60 margin-top-15">Establish Frameworks and Workflow concepts</div>
+                    <div className="subtitle content-block-60 margin-top-10">
+                            Establish Frameworks and Workflow concepts</div>
                         <div className="content-block-60 content-text-18 margin-top-15"> <div className="float-right">
                         <img className="photo-container" src={innovation6}  alt=" Brand - Establish a Product Identity" /> 
                     </div>     

@@ -88,14 +88,14 @@ class case_study_4 extends Component {
                         </p> 
                 
                     <ul className="dashed content-text-18 content-block-55 margin-top-15">
-                        <li><a href="#solution1">Responsive solution</a></li>
-                        <li><a href="#solution2">Solution to organizing CSS on an enterprise level</a></li>
-                        <li><a href="#solution4">Faster performance</a></li>
-                        <li><a href="#solution4">Modular CSS solution</a></li>
-                        <li><a href="#solution3">Solving specificity issues</a></li>
-                        <li><a href="#solution6">Shared Set of CSS helper classes</a></li>
-                        <li><a href="#solution7">Consistency across products and services</a></li>
-                        <li><a href="#solution8">Reduce developer time debugging CSS</a></li>
+                        <li><a href="#solution1" className="no-decoration greenlink" >Responsive solution</a></li>
+                        <li><a href="#solution2" className="no-decoration greenlink">Solution to organizing CSS on an enterprise level</a></li>
+                        <li><a href="#solution4" className="no-decoration greenlink">Faster performance</a></li>
+                        <li><a href="#solution4" className="no-decoration greenlink">Modular CSS solution</a></li>
+                        <li><a href="#solution3" className="no-decoration greenlink">Solving specificity issues</a></li>
+                        <li><a href="#solution6" className="no-decoration greenlink">Shared Set of CSS helper classes</a></li>
+                        <li><a href="#solution7" className="no-decoration greenlink">Consistency across products and services</a></li>
+                        <li><a href="#solution8" className="no-decoration greenlink">Reduce developer time debugging CSS</a></li>
                     </ul> 
                 </section>
 

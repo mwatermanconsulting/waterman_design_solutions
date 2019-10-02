@@ -31,18 +31,20 @@ class ux_design extends Component {
                             The best customer experience starts with the Golden Rule — treat customers how you would like to be treated.
                     </div>
                 </section>
-                <section className="grid-callout photo-content-color border-bottom-5 height-670"> 
-                    <div className="grid-callout-text grid-placeself-center padding content-block-75 content-header flex-layout-column">
-                        <div className="callout-title margin-top-15">
+                <section className="flex-layout-section-full photo-content-color height-670 padding"> 
+                    <div className="grid-2col-text-photo align-items-center">
+                        <div className="content-block col2-text">
+                        <div className="subtitle text-black text-align-left"> 
                              Empathetic Design
                         </div>
-                        <div className="callout-text text-align-left margin-top-15" >
+                        <div className="callout-text text-align-left margin-top-25" >
                         The most meaningful insights for design strategy are developed with a behavior-based understanding of users. WDS UX strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve.
                         </div>
                     </div>
-                    <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
+                    <div className="col2-photo grid-placeself-right">
                         
                         <img className="container-photo-callout" src={ux_s1}  alt="UX" /> 
+                    </div>
                     </div>
                 </section>
            
@@ -83,7 +85,7 @@ class ux_design extends Component {
                             <p className="subtitle"> 
                                 Old school custom service</p> 
                             <div className="float-right callout-photo grid-placeself-center">
-                                <img className="container-image-500 margin-top-15per" src={ux_s3}  alt="Old school customer service" />   
+                                <img className="container-image-500 margin-top-15per margin-top-min10per" src={ux_s3}  alt="Old school customer service" />   
                             </div>
                             <p className="content-text-18">
                                 Empathy is a very powerful selling tool, because it is human-centric. It’s the new buzz word, but empathy has always been at the heart of WDS designs.  <br></br>“Walk in the user’s shoes.” <br></br>“See the problem as if you were experiencing it yourself."<br></br>“Observe their daily routines.” <br></br>All of these mantras and behaviors are empathetic techniques that their UX designers have acquired through years of practice. It is part of their daily lives. 
@@ -104,7 +106,7 @@ class ux_design extends Component {
                                 Understanding people as they go about completing a task is essential to guaranteeing a positive user experience. Every action of that task is an experience with your product or service. The experience can be positive or negative depending how much of the user was taken into account when designing. 
                             </p>
                         <div className="float-right callout-photo">
-                            <img className="container-image-500" src={ux_s4}  alt="UX is the study of people" />
+                            <img className="container-image-500 margin-top-min10per" src={ux_s4}  alt="UX is the study of people" />
                         </div> 
                         <p className="content-text-18">User expectations have changed over the years. Simplicity is expected.  </p> 
                                

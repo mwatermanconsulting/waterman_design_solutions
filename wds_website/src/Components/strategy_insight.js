@@ -37,24 +37,24 @@ class strategy_insight extends Component {
                 </div>
             </section>
             <section className="grid-callout photo-content-color border-bottom-5" > 
-                <div className="grid-placeself-center content-block-75   flex-layout-column">
-                <div className="callout-text text-align-left">
+                <div className="grid-placeself-center content-block-60 flex-layout-column">
+                <div className="callout-text text-align-left margin-top-15sm">
                         By directly observing people, WDS gets to the heart of their needs by discovering what drives them,  inspires them and  connects with them on an emotional level. Clients are enlightened with insights and strategies of where to invest resources based on this understanding of what people value.
                     </div>          
                 </div>
                 <div className="grid-callout-photo grid-placeself-center margin-tb-100">
-                        <img className="container-photo-callout"  src={strategy1a}  alt="Strategy" /> 
+                        <img className="container-photo-callout margin-top-15sm"  src={strategy1a}  alt="Strategy" /> 
                 </div>
             </section>
     
             <div className="content-header flex-layout-center-center flex-layout-column">
-                <div className="flex-layout-center-center title text-align-center content-block-75 margin-top-75">
+                <div className="flex-layout-center-center title text-align-center content-block-60 margin-top-75">
                     Today, the user’s experience is more important than brand loyalty. A successful strategy is needed to keep  users involved in all business decisions. 
                 </div>
-                <div className="content-block-55 margin-top-25">
-                    <p className="content-text-21 text-align-center">
+                <div className="content-block-60 margin-top-25">
+                    <p className="content-text-21">
                         WDS discovers the patterns and themes that provide actionable, deeper and more valuable perspectives on your customers' wants, needs and motivations.</p>
-                    <p className="content-text-21 text-align-center">
+                    <p className="content-text-21">
                         The most meaningful insights for design strategy are developed with behavior-based understanding of users.  UX strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve.</p>
                 </div>
             </div>
@@ -65,13 +65,13 @@ class strategy_insight extends Component {
             </div>
 
                 <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
-                    <div className="title content-block-60">
+                    <div className="title content-block-65">
                             Stakeholder Interview
                     </div>
-                    <div className="subtitle content-block-60">
+                    <div className="subtitle content-block-65 margin-top-10">
                             Setting the Foundation
                     </div>
-                    <div className="content-block-60 content-text-18 margin-top-25">
+                    <div className="content-block-65 content-text-18 margin-top-15">
                         <p className="content-text-18"><div className="float-right">
                         <img className="photo-container" src={strategy2}  alt="Stakeholder Interview" /> 
                     </div>  
@@ -79,13 +79,13 @@ class strategy_insight extends Component {
                     </div>          
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
                
                 <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
                     <div className="title content-block-60">
                             Design Critique
                     </div>
-                    <div className="subtitle margin-top-15 content-block-60">
+                    <div className="subtitle margin-top-10 content-block-60">
                             Design Analysis
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15"> <div className="float-right">
@@ -102,12 +102,12 @@ class strategy_insight extends Component {
                     <div className="title content-block-60">
                             Contextual Inquiry
                     </div>
-                    <div className="subtitle margin-top-15 content-block-60">
+                    <div className="subtitle margin-top-10 content-block-60">
                             Empathetic Design
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
                         <p className="content-text-18"><div className="float-right">
-                        <img className="photo-container" src={strategy3}  alt="Contextual Inquiry" /> 
+                        <img className="photo-container" src={strategy3}  alt="Contextual Inquiry"/> 
                     </div>  
                             When design determines success, understanding the user is paramount. WDS creates designs that connect people with what matters most to them. </p>
                         <p className="content-text-18">
@@ -127,7 +127,8 @@ class strategy_insight extends Component {
                         <a href ="./css_solutions"><img className="container-image-500 border-2" src={services8}  alt="CSS Solutions" /> </a>
                         <div className="content-block-auto ">
                             <div className="title margin-top-50">
-                                <a href="./css_solutions" className="no-decoration">CSS Solutions</a>
+                                <a href="./css_solutions" className="no-decoration margin-top-plus5per">
+                                    CSS Solutions</a>
                             </div>
                             <p className="content-text-18 content-block-85 margin-top-15">
                                 Taming the specificity beast used to be difficult. WDS CSS strategy almost eliminates these problems. In fact, the strategy almost eliminates the need for your developers to write CSS. This advantage comes from past experiences working with developers by interviewing and observing them working with CSS.</p>
@@ -135,10 +136,11 @@ class strategy_insight extends Component {
                     </div>     
                     <div className="gallery-2col-2 container-image-500 align-self-auto">
                     <a href ="./design_systems"> <img className="container-image-500 border-2"  src={services9}  alt="Business Solutions" /> </a>
-                        <div className="content-block-85">
+                        <div className="content-block-65 margin-top-plus5per">
                             <div className="title margin-top-50">
-                            <a href="./design_systems" className="no-decoration"> Design Systems</a></div>
-                            <p className="content-text-18 margin-top-15">
+                            <a href="./design_systems" className="no-decoration margin-top-plus5per"> 
+                                    Design Systems</a></div>
+                            <p className="content-text-18 margin-top-15 content-block-65">
                                 At WDS, we know and understand the importance of design systems for businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff.</p>
                         </div>
                     </div>
@@ -151,7 +153,7 @@ class strategy_insight extends Component {
                         <div className="title content-block-60">
                             Affinity Diagram
                         </div>
-                        <div className="subtitle margin-top-15 content-block-60">
+                        <div className="subtitle margin-top-10 content-block-60">
                             Meaningful Insights
                         </div>
                         <div className="content-block-60 margin-top-15">
@@ -182,7 +184,7 @@ class strategy_insight extends Component {
                         <div className="title content-block-60">
                              Personas
                         </div>
-                        <div className="subtitle content-block-60 margin-top-15">
+                        <div className="subtitle content-block-60 margin-top-10">
                              Introducing Your Users
 
                         </div>
@@ -201,7 +203,7 @@ class strategy_insight extends Component {
                         <div className="title content-block-60">
                             Consolidated Workflow Diagrams                        
                         </div>
-                        <div className="subtitle margin-top-15 content-block-60">
+                        <div className="subtitle margin-top-10 content-block-60">
                             The "Aha" Moment                       
                         </div>
                         <div className="content-block-60 content-text-18 margin-top-15">
@@ -220,7 +222,7 @@ class strategy_insight extends Component {
                         <div className="title content-block-60">
                             Looking for Opportunities
                         </div>
-                        <div className="subtitle margin-top-15 content-block-60">
+                        <div className="subtitle margin-top-10 content-block-60">
                             Solutions that Impact the User
                         </div>
                         <div className="content-block-60 content-text-18 margin-top-15">
@@ -241,7 +243,7 @@ class strategy_insight extends Component {
                         <div className="title content-block-60">
                                 Journey Maps                        
                         </div>
-                        <div className="subtitle content-block-60 margin-top-15">
+                        <div className="subtitle content-block-60 margin-top-10">
                                 The Larger Whole                        
                         </div>
                         <div className="content-block-60 content-text-18 margin-top-25"><div className="float-right">

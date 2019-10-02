@@ -16,7 +16,7 @@ class style_guide extends Component {
             <Helmet>
                 <meta name="description" content="A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive, combining components, behaviors, and branding. It must also be flexible and scalable." />
                 <meta charSet="utf-8" />
-                <title>Design Solutions</title>
+                <title>Design Systems</title>
                 <link rel="canonical" href="http://watermandesignsolutions.com/design_systems" />
             </Helmet>
         <div className="flex-layout-column"> 
@@ -32,10 +32,10 @@ class style_guide extends Component {
                 — Craig Villamor
                 </div>
             </section>
-            <section className="flex-layout-section-full photo-content-color align-items-center height-670" > 
-                <div className=" grid-2col-text-photo align-items-center margin-tb-100 width-70">
-                <div className="content-block col2-text ">
-                    <div className="callout-text text-align-left "> 
+            <section className="flex-layout-section-full photo-content-color border-bottom-5 height-670 padding"> 
+                <div className=" grid-2col-text-photo align-items-center">
+                <div className="content-block col2-text">
+                    <div className="callout-text text-align-left"> 
                     A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive, combining components, behaviors, and branding. It must also be flexible and scalable.</div>
                 </div>
                     <div className="col2-photo grid-placeself-right">
@@ -46,7 +46,7 @@ class style_guide extends Component {
             </section>
     
             <section className="content-header flex-layout-center-center flex-layout-column">
-                <div className="flex-layout-center-center title text-align-center content-block-60 margin-top-100">
+                <div className="flex-layout-center-center title text-align-center content-block-60 margin-top-75">
                     If your product isn’t documented it doesn’t exist
                 </div>
                 <div className="content-block-55 margin-top-25">
@@ -64,7 +64,7 @@ class style_guide extends Component {
                         Less Errors
                         </div>
 
-                        <div className="subtitle margin-top-15">
+                        <div className="subtitle margin-top-15 content-block-60 margin-left-6per">
                             Saving Time
 
                         </div>
@@ -131,9 +131,9 @@ class style_guide extends Component {
 
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
-                <section className="grid-2things  flex-layout-center-center content-header margin-left-17">
+                <section className="grid-2things  flex-layout-center-center content-header margin-left-15per">
                     <div className="thing1  flex-layout-section-full">
-                        <div className="subtitle">
+                        <div className="subtitle ">
                             No Version Control Problems
                         </div>
                         <div className="content-text-18 content-block-60 margin-top-15">
@@ -141,8 +141,8 @@ class style_guide extends Component {
                             This format of using only one, agreed-upon master document also ensures that every update gets made to the same file. You never have to merge multiple files that were updated independently of each other by different team members. Whenever you pull from the design system, you know you’re always using the most recent version. This significantly reduces the margin for error.</p>   
                         </div>
                     </div>
-                    <div className="thing2 flex-layout-section-full" style={{marginTop: '-4%'}}>
-                        <div className="subtitle">
+                    <div className="thing2 flex-layout-section-full">
+                        <div className="subtitle margin-left-min15sm">
                         Data-driven UX
                         </div>
                         <div className="content-block-60  content-text-18 margin-top-15">
@@ -156,42 +156,41 @@ class style_guide extends Component {
 
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
-                <section className="grid-2col-photo-content content-header width-70">
-                    <div className="grid-left flex-layout-section-full">
-                        <div className="title">
+                <section className="float-left align-items-center flex-layout-column">
+                   
+                        <div className="title content-block-60">
                             Pattern Library                        
                         </div>
-                        <div className="subtitle margin-top-15">
+                        <div className="subtitle margin-top-15 content-block-60">
                             Design System Layouts
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-15">
-                            <p className="content-text-18">  A subclass in the design system, this is the set of design patterns for use across a company. A pattern library, documents all of these ‘patterns’ (also often known as modules) and defines how they behave, what they look like and how they are coded.</p>
+                        <div className="content-block-60 content-text-18 margin-top-15"> 
+                            <p className="content-text-18"> <div className="float-right">
+                        <img className="photo-container width-100 border-2 margin-top-10per" src={digital_systems6}  alt="Pattern Library   " /> 
+                    </div>   A subclass in the design system, this is the set of design patterns for use across a company. A pattern library, documents all of these ‘patterns’ (also often known as modules) and defines how they behave, what they look like and how they are coded.</p>
                         </div>
-                    </div>
-                    <div className="grid-right container-image-block">
-                        <img className="photo-container width-100 border-2" src={digital_systems6}  alt="Pattern Library   " /> 
-                    </div>     
+                    
+                      
                 </section>  
 
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>     
 
-                <section className="grid-2col-photo-content content-header">
+                <section className="float-left align-items-center flex-layout-section-full content-header">
 
-                    <div className="grid-left flex-layout-section-full ">
-                        <div className="title">
+                        <div className="title content-block-60">
                             Style Guides                        
                         </div>
-                        <div className="subtitle margin-top-15">
+                        <div className="subtitle margin-top-15 content-block-60">
                             An excellent tool for standards
                         </div>
-                        <div className="content-block-75 content-text-18 margin-top-15">
-                            <p className="content-text-18"> 
+                        <div className="content-block-60 content-text-18 margin-top-15">
+                            <p className="content-text-18"> <div className="float-right">
+                        <img className="photo-container width-100 border-2 margin-top-20per" src={digital_systems7}  alt="Style Guides " /> 
+                    </div>
                             Another subclass in the design system, this static documentation describes the design system itself: how products should look and feel, use cases for UI patterns, correct typographic scales, etc.</p>
                         </div>
-                    </div>
-                    <div className="grid-right container-image-block">
-                        <img className="photo-container width-100 border-2" src={digital_systems7}  alt="Style Guides " /> 
-                    </div>     
+                    
+                         
                 </section>       
             </div> 
             
