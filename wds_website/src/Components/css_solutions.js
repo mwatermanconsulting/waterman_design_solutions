@@ -53,15 +53,18 @@ class css_solutions extends Component {
                 </div>
                 <div className="content-block-50 margin-top-50">
                     <p className="content-text-24 text-align-center">
+
                         <img className="photo-container margin-bottom-50" src={cheer}  alt="Happy developers" /> <br></br>
                         WDS solutions are based on empathy and their observed experiences working with developers. Their CSS knowledge and expertise is one of the main reasons they get hired. WDS CSS solutions are scalable and customizable to your business requirements. </p>
+
                 </div>
                 <NavLink className='button-area no-decoration' type="button" to={'/case_study_4'}>
-                   OSIsoft Case Study
+                   OsiSoft Case Study
                     </NavLink>
             </section>
 
         <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+
 
     <div className="flex-layout-section-full flex-layout-column margin-top-25 align-self-center content-block-65"> 
 
@@ -126,7 +129,28 @@ class css_solutions extends Component {
             </div>
         </section>
 
+
         <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+
+                <section className="grid-2col-photo-content content-header">
+                    <div className="grid-left flex-layout-section-full">
+                        <div className="title">
+                            CSS Solutions Package 
+                        </div>
+                        <div className="subtitle margin-top-15">
+                            NPM and GitHub
+                        </div>
+                        <div className=" content-text-18 margin-top-15">
+                            <p className="content-text-18"> 
+                            The WDS CSS specialists deliver their custom CSS solutions as npm packages or through github. The packages include a developer build kit with custom css, Sass or Less files, HTML files and documentation. WDS can refactor your current CSS or develop a customizable CSS solution that will scale as the project matures.</p>
+                        </div>
+                    </div>
+                    <div className="grid-right-css container-image-block margin-top-50">
+                        <img className="image-size-100" src={css4}  alt=" Reusable CSS" /> 
+                    </div>  
+                     
+                </section>
+
 
         <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
             <div className="float-left flex-layout-center-center content-block-65">
@@ -146,6 +170,7 @@ class css_solutions extends Component {
             </div>  
             </div>
         </section> 
+
 
         <div className="thin-hr width-70 align-self-center hrline-spacing"></div> 
 

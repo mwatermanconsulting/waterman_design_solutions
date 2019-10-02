@@ -1,5 +1,5 @@
 import React, { Component } from 'react' ;
-import wdslogofull from '../images/backgrounds/wds-logo-full.svg';
+
 
 
 class test_area extends Component {
@@ -21,7 +21,7 @@ class test_area extends Component {
                <p className="woo">i'm the ed sheeran of lacrosse  
               
               <div>
-              
+
               </div></p> 
             </div>
                  

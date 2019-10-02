@@ -30,14 +30,14 @@ class innovative_solutions extends Component {
 
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                    "Truth is the torch that gleams through the fog without dispelling it." Claude Adrien
+                    "Truth is the torch that gleams through the fog without dispelling it." - Claude Adrien
                 </div>
             </section>
 
             <section className="grid-callout photo-content-color border-bottom-5" > 
                 <div className="grid-placeself-center content-block-75   flex-layout-column">
                     <div className="callout-text padding-20 text-align-left margin-top-15" >
-                    WDS UX methodology connects them with your users. They connect with users by observing and interviewing them. People will always open up and confide in you if they feel you are on their side especially when you show you empathize with their needs. This is how WDS uncover truths that were previously unknown.</div>        
+                    WDS UX methodology connects with users by observing and interviewing. People will always open up and confide in you if they feel you are on their side especially when you show you empathize with their needs. This is how WDS uncover truths that were previously unknown.</div>        
                     </div>
                     <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
                         <img className="container-photo-callout" src={finding_truth2}  alt="Finding Truth" /> 
@@ -115,7 +115,7 @@ class innovative_solutions extends Component {
                         <div className="content-block-60 content-text-18 margin-top-15"><div className="float-right">
                         <img className="photo-container" src={finding_truth4}  alt="Developing a Persona" /> 
                     </div>  
-                            <p className="content-text-18"> Since specific targets are better than vague ones, we create personas - single archetypes that represent a group of people with similar behaviors, attitudes and motivations. Personas keep the focus on real people who exhibit unique sets of characteristics, which  assists the team throughout ideation, design and marketing to help them develop appropriate solutions and messages.</p>
+                            <p className="content-text-18"> Since specific targets are better than vague ones, WDS creates personas - single archetypes that represent a group of people with similar behaviors, attitudes and motivations. Personas keep the focus on real people who exhibit unique sets of characteristics, which  assists the team throughout ideation, design and marketing to help them develop appropriate solutions and messages.</p>
                             <p className="content-text-18">While personas are a popular technique used by many companies, especially to argue use cases,  WDS personas are far more robust than those created from market research data alone. It is developed by well-crafted personas grounded in user observations based on REAL users instead of simple demographic data. </p>           
                         </div> 
                 </section>
@@ -140,7 +140,7 @@ class innovative_solutions extends Component {
                             building an experience strategy.</p>
 
                         <p className="content-text-18"> WDS takes a comprehensive, rigorous approach to
-                            process data from the field and use it to spark
+                            process data from the field and uses it to spark
                             explanations of what is behind the observations.
                             Getting to the deeper understanding that insights
                             provide beyond the raw data is a key step that sets
@@ -164,7 +164,7 @@ class innovative_solutions extends Component {
                             </div>they have a picture of the duties employees or customers accomplish in their work lives. </p> 
 
                             <p className="content-text-18"> 
-                            Through the use of a simplified workflow diagram, how a user moves through tasks is revealed and extrapolate from here to the various cognitive states a user inhabits while engaged with the solution or process.
+                            Through the use of a simplified workflow diagram, how a user moves through tasks is revealed and extrapolated from here to the various cognitive states a user inhabits while engaged with the solution or process.
                             These cognitive states represent a model of what is in people’s minds as they do their work, their mental model. This understanding has implications for both design and marketing.</p>
 
                             <p className="content-text-18"> 
@@ -221,10 +221,10 @@ class innovative_solutions extends Component {
                          
                     <div className="float-right">
                     <img className="photo-container" src={finding_truth7}  alt="Establish an design-driven product roadmap" /> 
-                    </div> WDS collaborates with product teams to incorporate the understanding and strategy developed in the revealing truth phase into the plan for how to group and sequence capabilities in an application. This includes the selection of features for the minimum viable product – an MVP that users and customers will be eager to adopt because it is developed with their needs in mind.</p>
+                    </div> WDS collaborates with product teams to incorporate the understanding and strategy developed in the revealing truth phase into the plan for how to group and sequence capabilities in an application. This includes the selection of features for the minimum viable product  (MVP) that users and customers will be eager to adopt because it is developed with their needs in mind.</p>
                             
                             <p className="content-text-18"> 
-                            An design-driven product roadmap provides a way forward  in the direction established by the experience strategy. Having deep user understanding enables the cadence of releases to be structured to appeal to users, providing a built-in incentive to update an application. This is how WDS builds a holistic experience that addresses customers’ and business’ goals and positively impacts the company’s value.</p>    
+                            A design-driven product roadmap provides a way forward  in the direction established by the experience strategy. Having deep user understanding enables the cadence of releases to be structured to appeal to users, providing a built-in incentive to update an application. This is how WDS builds a holistic experience that addresses customers’ and business’ goals and positively impacts the company’s value.</p>    
                         </div>
                 </section>
                     

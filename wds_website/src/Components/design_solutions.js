@@ -6,7 +6,6 @@ import designer from '../images/photos/photo-design-s1.png';
 import design3 from '../images/photos/photo-design-s3.png';
 import design5 from '../images/photos/photo-design-s5.png';
 import design_print from '../images/photos/photo-design-print.png';
-import design_video from '../images/photos/photo-design-video.png';
 import design_therapy from '../images/photos/photo-design-therapy.png';
 
 class design_solutions extends Component {
@@ -79,7 +78,7 @@ class design_solutions extends Component {
 
                     WDS has over 20 years of experience designing websites. Empathetic designs and the ability to connect with users create a positive enjoyable experience, which is critical to new customer acquisition and retaining existing customers. </p>
             
-                    <p className="content-text-18">WDS websites are on the cutting edge. They were one of the first companies to build websites from UX research, and to provide responsive designs (<a className="greenlink" href="../case_study_1">Motorola</a>) and the first to develop enterprise-level CSS flex box solutions (<a className="greenlink" href="../case_study_4">OsiSoft</a>). </p>
+                    <p className="content-text-18">WDS websites are on the cutting edge. They were one of the first companies to build websites from UX research, and to provide responsive designs (<a className="greenlink" href="../case_study_1">Motorola</a>) and the first to develop enterprise-level CSS Flexbox solutions (<a className="greenlink" href="../case_study_4">OsiSoft</a>). </p>
                   
                     
                     <div className="float-left">
@@ -102,7 +101,7 @@ class design_solutions extends Component {
                 <div className="float-right">
                     <img className="photo-container margin-top-8per"  src={design_print}  alt="Graphic Design" /> 
                 </div>  
-                    Graphic design still has a place in today's digital technology. WDS can develop traditional design strategies that compliments your digital campaigns by designing graphics that are based on research and user personas. Designing for real people helps drive sales and user retention. WDS has extensive print experience, including magazines, brochures, business cards, trade show displays, corporate reports, etc. </p>
+                    Graphic design still has a place in today's digital technology. WDS  develops traditional design strategies that compliments  digital campaigns by designing graphics that are based on research and user personas. Designing for real people helps drive sales and user retention. WDS has extensive print experience, including magazines, brochures, business cards, trade show displays, corporate reports, etc. </p>
 
             <div className="float-left">
                  <NavLink className='button-area no-decoration' value="learn more" type="button" to={'/website_design'}>

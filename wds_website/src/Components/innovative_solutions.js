@@ -109,7 +109,7 @@ class innovative_solutions extends Component {
                     <div className="content-block-60 content-text-18 "><div className="float-right">
                         <img className="photo-container" src={innovation4}  alt="Construct user model" /> 
                     </div> 
-                        <p className="content-text-18 margin-top-15">Technology is dramatically changing the way marketers work. With thousands of software solutionsto assist with automation, personalization and optimization, knowing where to start or how to get the most out of your investments is challenging.</p> 
+                        <p className="content-text-18 margin-top-15">Technology is dramatically changing the way marketers work. With thousands of software solutions to assist with automation, personalization and optimization, knowing where to start or how to get the most out of your investments is challenging.</p> 
 
                             <p className="content-text-18">By understanding your business goals and your users' expectations, the WDS team will help you make the right investments and capture value.</p>
                         </div>
@@ -148,7 +148,7 @@ class innovative_solutions extends Component {
                             <p className="content-text-18"> A key component of any solution is the visual appearance of the interface,  an important representation of the brand, and needs to support three objects of the company: branding, user workflows and interaction models. Collectively, this can be referred to as a company’s design language. </p>
                             
                             <p className="content-text-18">
-                            The design language is needed to drive consistency across applications and touchpoints, delivering a more cohesive and singular experience of the company. To develop a their design language, WDS carries out a visual exploration initiative so the team can iterate on ideas, refine them and determine the final outcome: style guides, pattern libraries and design systems. 
+                            The design language is needed to drive consistency across applications and touchpoints, delivering a more cohesive and singular experience of the company. To develop a design language, WDS carries out a visual exploration initiative so the team can iterate on ideas, refine them and determine the final outcome: style guides, pattern libraries and design systems. 
                             </p>
                         </div>
                 </section>

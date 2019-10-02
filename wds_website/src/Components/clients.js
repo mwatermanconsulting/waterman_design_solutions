@@ -30,13 +30,13 @@ class clients extends Component {
             </section>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg">
-                        Delivering the most outstanding experience for our clients.
+                “People do not care how much you know until they know how much you care.”<br></br>- Teddy Roosevelt
                 </div>
             </div>
             <section className="grid-callout photo-content-color border-bottom-5" > 
                 <div className="grid-placeself-center content-block-75   flex-layout-column">
                     <div className="callout-text padding-20 text-align-left margin-top-15" >
-                        For over twenty years WDS has worked and partnered with some amazing people and businesses. We hope to see your name in the list below in the near future.</div>        
+                        For over twenty years WDS has worked and partnered with some amazing people and businesses. Each client has brought a higher level of skills to WDS services.</div>        
                     </div>
                     <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
                         <img className="container-photo-callout" src={clients1}  alt="Clients" /> 
@@ -46,7 +46,7 @@ class clients extends Component {
 
             <section className="content-header flex-layout-center-center flex-layout-column margin-bottom-100">
                 <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-50">
-                    Waterman Design Solutions client roster includes Motorola, Google, Pfizer, Stubhub, SmithKline, OsiSoft and many 
+                    WDS client roster includes Motorola, Google, Pfizer, Stubhub, SmithKline, OsiSoft and more 
                 </div>
             </section>
             <section className="flex-layout-section-full flex-layout-center-center">

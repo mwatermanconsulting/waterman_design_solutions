@@ -233,6 +233,7 @@ footer {
 .margin-left-15per {
   margin-left: 15%; }
 
+
 .margin-left-15sm {
   margin-left: 0%; }
 
@@ -241,6 +242,11 @@ footer {
 
 .margin-top-35sm {
   margin-top: 0%; }
+
+
+.margin-left-15sm {
+  margin-left: 0%; }
+
 
 .margin-left-30per {
   margin-left: 30%; }
@@ -3015,10 +3021,12 @@ a:any-link {
     margin-left: -3%; }
   .margin-left-30per {
     margin-left: 0%; }
+
   .margin-right-25sm {
     margin-left: 25%; }
   .margin-right-25sm {
     margin-left: 25%; }
+
   .margin-left-10sm {
     margin-left: 10%; }
   .margin-left-15sm {
@@ -3031,6 +3039,7 @@ a:any-link {
     margin-left: -2%; }
   .margin-left-4sm {
     margin-left: -4%; }
+
   .margin-left-min4sm {
     margin-left: -4%; }
   .margin-left-6per {
@@ -3057,6 +3066,7 @@ a:any-link {
     letter-spacing: 1.1px;
     line-height: 1;
     text-align: center; }
+
   .margin-top-15per {
     margin-top: 0%; }
   .margin-top-2 {
@@ -3740,12 +3750,15 @@ a:any-link {
     margin-right: 50%; }
   .margin-left-30per {
     margin-left: 30%; }
+
   .margin-left-2sm {
     margin-left: 0%; }
   .margin-left-4sm {
     margin-left: 0%; }
+
   .margin-left-6per {
     margin-left: -6%; }
+
   .margin-tb-100 {
     margin: 50px 275px 50px 5px; }
   .margin-top-1per {
@@ -3758,6 +3771,7 @@ a:any-link {
     padding-top: 0px;
     margin-bottom: 0px;
     padding-left: 25px; }
+
   .title {
     font-family: 'Oswald', sans-serif;
     font-size: 3.05rem;

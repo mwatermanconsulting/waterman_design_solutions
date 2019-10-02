@@ -27,7 +27,7 @@ class methodology extends Component {
             <Helmet>
                 <meta name="description" content="EMPATHY and PASSION are the core of our business and the heart of the WDS UX methodology. Our UX methodology produces answers and empathetic designs that connect and resonates with users and uncovers unarticulated user needs that drives business transformation. WDS methodology has been successful for project for Motorola, StubHub and OsiSoft" />
                 <meta charSet="utf-8" />
-            <title>UX Methodology</title>
+            <title>Methodology</title>
             <link rel="canonical" href="http://watermandesignsolutions.com/methodology" />
             </Helmet>
         <div className="flex-layout-column"> 
@@ -61,6 +61,7 @@ class methodology extends Component {
                         <div className="title flex-layout-center"> 
                             WDS Goal: Uncovering the Truth
                         </div>
+
                         <p className="content-text-21 content-block-60 align-self-center margin-top-25">
                             The science of understanding people has developed for centuries, but not enough has been done to integrate these approaches into the process of UI design. For more than a decade, WDS has refined a scalable, flexible methodology that centers on answering questions about customers.<br/><br/>This is accomplished by connecting and understanding people, observing their daily workflow,  interviewing and conversing with them, which identifies  needs, behaviors and aspirations. <br></br>WDS provides a perspective on customers that clients typically have never been seen. </p>
 
@@ -88,12 +89,14 @@ class methodology extends Component {
                         </div>
                         <div className="margin-top-15">
                             <div className="float-right">
+
                                 <img className="container-photo-callout" and src={methodology2}  alt="Design Review" />   
                             </div> 
                             <p className="content-text-18 margin-top-15sm">
-                                A design review is a process to evaluate and critique the current design. The review examines specific features that have been implemented and/or evaluates an MVP and the user work flow. Design reviews can be modeled after the five elements of the user experience with an evaluation of these elements from abstract concepts to concrete stages.
 
-                                <ul className="dashed  margin-left-10 margin-top-15" style={{marginTop:'15px'}}>
+                          A design review is a process to evaluate and critique the current design. The review examines specific features that have been implemented and/or evaluates an MVP and the user work flow. Design reviews can be modeled after the five elements of the user experience with an evaluation of these elements from abstract concepts to concrete stages.
+
+                                <ul className="dashed  margin-left-10 margin-top-15 content-text-18" style={{marginTop:'15px'}}>
                                     <li><b>Surface</b> - everything visually the <br/> "Look and Feel"  of the site or app</li>
                                     <li><b>Skeleton</b> - Make structure concrete: <br/>Do the components make sense?</li>
                                     <li><b>Structure</b> - how components fit together and behave </li>
@@ -118,14 +121,14 @@ class methodology extends Component {
                         </div>
                         <div className="margin-top-15">
                         <div className="float-right">
-                                    <img className="container-photo-callout" and src={methodology3}  alt="Research" /> 
+                                    <img className="container-image-500" and src={methodology3}  alt="Research" /> 
                                     
                                 </div> 
                             <p className="content-text-18 margin-top-15sm"> 
                             At the beginning of the methodology, WDS sets the foundation for success by developing an
                             understanding of the business, the industry, competition analysis and relevant trends. This is the basis for how subsequent phases are approached, including secondary research, interviewing stakeholders and subject matter experts. </p>
 
-                            <ul className="dashed">
+                            <ul className="dashed content-text-18">
                                 <li>Kickoff Meeting</li>
                                 <li>Business Requirements</li>
                                 <li>Competition Research</li>
@@ -155,13 +158,15 @@ class methodology extends Component {
                         
                         <div className="margin-top-15" >
                             <div className="float-right">
-                                    <img className="container-photo-callout" and src={methodology4}  alt="Observation" /> 
+                                    <img className="container-image-500" and src={methodology4}  alt="Observation" /> 
                             </div> 
+
                             <p className="content-text-18 margin-top-15sm content-block-60">
                                 Observation provides insight beyond the traditional testing methods, watching users working in real life settings, leads to valuable insights. This is done in a highly unobtrusive way simply by sitting in their offices and video taping how the user is navigating the interface. The goal is to empathize with the user as they complete their the users work flows.
                             </p>
 
                             <ul className="dashed content-block-60 content-text-16">
+
                                 <li>Well chosen observers have deep knowledge of product or service</li>
                                 <li>Observers rely on real actions rather than reported behavior</li>
                                 <li>Understand the users feelings through body language </li>
@@ -194,7 +199,9 @@ class methodology extends Component {
                         
                         <div className="margin-top-15">
                             <div className="float-right">
+
                                     <img className="container-photo-callout margin-top-15sm" and src={methodology5}  alt="Capturing Data" /> 
+
                             </div> 
                             <p className="content-text-18 margin-top-15sm">
                             To understand the research WDS needs to understand the users and to interpret their actions.  Observers may ask a few very open ended questions, such as, “Why are you doing that?” They carry a list of questions to prompt their own observations: “What problems is the user encountering?” Most of the data is gathered from visual, auditory, and sensory cues, which is done using videography, audio recordings and notes as tools to begin reflecting on the results.
@@ -218,6 +225,7 @@ class methodology extends Component {
                             <div className="float-right">
                                 <img className="container-photo-callout margin-top-15sm" and src={methodology6}  
                                 alt="Reflection and Analysis" /> 
+
                             </div> 
                             <p className="content-text-18 margin-top-15sm"> 
                             After gathering data in many forms, the UX designers return to reflect on the user and business research and share the data with the team through analysis of workflows, user journeys and pain points. They will ask questions that the team members may or may not be able to answer resulting in  further observation and research. At this point WDS begins to identify all of its customers’ possible problems and needs.</p>
@@ -237,7 +245,7 @@ class methodology extends Component {
                         </div>
                         <div className="margin-top-15" >
                             <div className="float-right">
-                                    <img className="container-photo-callout" and src={methodology7}  alt="Brainstorming for Solutions" /> 
+                                    <img className="container-image-500" and src={methodology7}  alt="Brainstorming for Solutions" /> 
                             </div>
                             <p className="content-text-18 margin-top-15sm">
                             Brainstorming is a valuable part of any methodology process, used specifically to transform  research into graphic, visual representations of possible solutions. Although brainstorming is generally associated with a creative process, it is not undisciplined. The team needs to follow these rules: </p>
@@ -267,12 +275,14 @@ class methodology extends Component {
                         </div>
                         <div className="margin-top-15">
                             <div className="float-right">
-                                    <img className="container-photo-callout" and src={methodology8}  alt="Final Design Presentation" /> 
+                                    <img className="container-image-500" and src={methodology8}  alt="Final Design Presentation" /> 
                             </div>
+
                             <p className="content-text-18 margin-top-15sm"> 
                                The final design incorporates all the research findings and design solutions. WDS understands for a project to be successful the design needs to incorporate the business core values and branding, while simplifying the user experience. This ensures that the project is designed with empathy and meets the user and business expectations. </p>
                             <ul className="dashed">
-                                <li><a href="../design_solutions">Custom Design Solution</a></li>
+
+              <li><a href="../design_solutions">Custom Design Solution</a></li>
                                 <li>High fidelity mockup</li>
                                 <li>Explanation of design decisions </li>
                                 <li>User interactions</li>
@@ -297,10 +307,12 @@ class methodology extends Component {
                         </div>
                         <div className="margin-top-15">
                             <div className="float-right">
-                                    <img className="container-photo-callout" and src={methodology9}  alt="Front-end Development" /> 
+                                    <img className="container-image-500" and src={methodology9}  alt="Front-end Development" /> 
                             </div>
+
                             <p className="content-text-18 margin-top-15sm"> 
                             In this phase WDS works closely with the developers. WDS can embedded a team or Michael or work remotely. They Develop a CSS solution along with responsive HTML, the WDS team will work seamlessly with developers, developing the front-end as they code the back-end working in your agile cycles. </p>
+
                             <ul className="dashed">
                                 <li><a href="../css_solutions">CSS Solutions</a></li>
                                 <li>CSS Development (SaSS and LeSS)</li>
@@ -326,13 +338,13 @@ class methodology extends Component {
                         
                         <div className="margin-top-15" >
                             <div className="float-right">
-                                    <img className="container-photo-callout" and src={methodology10}  alt="User Testing" /> 
+                                    <img className="container-image-500" and src={methodology10}  alt="User Testing" /> 
                             </div>
                             <p className="content-text-18 margin-top-15sm">
                             The testing phase reveals whether questions were answered, user pain points were reduced and expectations were met. This phase will last the entire development phase and never stop.
                             </p>
 
-                            <ul className="dashed">
+                            <ul className="dashed content-text-18">
 
                             <li>Write scalable, tailored testing plans</li>
                                 <li>User Questions/Interviews</li>
@@ -360,12 +372,12 @@ class methodology extends Component {
                         </div>
                         <div className="margin-top-15">
                             <div className="float-right">
-                                    <img className="container-photo-callout" and src={methodology11}  alt="Launch" /> 
+                                    <img className="container-image-500" and src={methodology11}  alt="Launch" /> 
                             </div>
                             <p className="content-text-18 margin-top-15sm"> 
                                 At the completion of the project it is important to  business ongoing success that a design strategy road-map is provided that will continue the  success with  users in the future.</p>
 
-                            <ul className="dashed">
+                            <ul className="dashed content-text-18">
                                 <li><a href="../strategy_insight">Present Findings - The Truth</a></li>
                                 <li><a href="../strategy_insight">Present Strategies and Insight</a></li>
                                 <li>Use Cases</li>
@@ -393,11 +405,12 @@ class methodology extends Component {
                         
                         <div className="margin-top-15">
                             <div className="float-right">
-                                    <img className="container-photo-callout"  src={methodology12}  alt="Design Support" /> 
+                                    <img className="container-image-500"  src={methodology12}  alt="Design Support" /> 
                             </div>
+
                             <p className="content-text-18 margin-top-15sm">
                                 WDS offers customer experience strategies based off the research findings, offering a full line of design services  that ensures cohesion and consistency in your branding message.
-                            </p>
+          </p>
 
                             <ul className="content-text-18 dashed">
                                 <li><a href="../style_guide">Style Guides and Design Systems</a> </li>
@@ -424,10 +437,10 @@ class methodology extends Component {
                         </div>
                         <div className="margin-top-15">
                             <div className="float-right">
-                                    <img className="container-photo-callout" and src={methodology13}  alt="Core Offerings" /> 
+                                    <img className="container-image-500" and src={methodology13}  alt="Core Offerings" /> 
                             </div>
                             <p className="content-text-18"> 
-                                The last part of the WDS methodology is their core offerings designed to help spread the business value to your business through workshops and strategies. It is critical to company survival to build a culture of empathy and design. </p>
+                                The last part of the WDS methodology is core offerings designed to help spread the business value to your business through workshops and strategies. It is critical to company survival to build a culture of empathy and design. </p>
 
                             <ul className="dashed">
                                 <li><a href="../strategy_insight"> Strategies and Insight</a></li>
@@ -486,7 +499,7 @@ class methodology extends Component {
                                 It's best to keep talent in their own lane </p>
                             <p className="content-text-18 margin-top-15 ">  
                             
-                            A common design practice is having engineers and developers do the design work on apps, products and websites. Forcing them out of their untrained lane will get the most out of your employees by allowing them to concentrate on what they do best. Leave the design work to the WDS specialists.
+                            A common design practice is forcing engineers and developers to design apps, products and websites. Taking them out of their untrained lane will get the most out of your employees by allowing them to concentrate on what they do best. 
 </p> 
 
                         </div>
