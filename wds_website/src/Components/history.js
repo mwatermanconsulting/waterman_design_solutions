@@ -46,15 +46,16 @@ class about extends Component {
 
                     </div>
                 </section>
-                <section className="grid-callout photo-content-color border-bottom-5" > 
-                    <div className="grid-placeself-center content-block-55   flex-layout-column">
-                        <div className="callout-title">
+                <section className="grid-callout photo-content-color border-bottom-5 padding-sm" > 
+                    <div className="grid-placeself-center content-block-55 flex-layout-column">
+                        <div className="callout-title text-align-center-sm">
                              Surreal Beginnings
                         </div>
 
 
-                        <div className="content-text-18 text-bold margin-top-15" >
-                        <p  className="content-text-18"><b>The foundation of everything is Design</b></p>
+                        <div className="content-text-18 text-bold margin-top-10" >
+                        <p  className="content-text-18 text-align-center-sm">
+                            <b>The foundation of everything is Design</b></p>
 
                         <p className="content-text-18">Since 1997, WDS has been evangelizing the value of design under its original name, Surreal Concepts. Started by the husband and wife team, Terri and Michael Waterman, they began with a simple premise and small list of design services. Their business has evolved alongside the digital revolution, adapting and modifying their services to match their client needs. From small businesses to global name brands, each experience help them to grow and expand service offerings. Waterman Design Solutions reflect that growth with a new focus. </p>
 
@@ -73,11 +74,11 @@ class about extends Component {
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="flex-layout-section-full align-items-center">
-                <div className="title content-block-55">
+                <div className="title content-block-65">
                         Our Humble Start</div>
-                    <div className="subtitle margin-top-15 content-block-55">
+                    <div className="subtitle margin-top-10 content-block-65">
                         It Started with an Idea</div>
-                    <div className="content-block-55">
+                    <div className="content-block-65">
                         <p className="content-text-18 margin-top-15">
 
                         The first time they worked on the Amiga 500, Michael and Terri were fascinated with digital design. With the knowledge and skills that they acquired with the digital video software NewTek Video Toaster, they started a business that focused on video production services. One day a client approached them about an Illustrator project for the Franklin Mint, to digitally reproduce portraits of sports figures. They became experts in Adobe Illustrator and Photoshop, which sparked their entrepreneurial spirit and Surreal Concepts was born.</p>
@@ -89,14 +90,14 @@ class about extends Component {
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                     <section className="flex-layout-section-full align-items-center">
-                        <div className="title content-block-55">
+                        <div className="title content-block-65">
                             Graphic Design
                         </div>
-                        <div className="subtitle content-block-55 margin-top-15">
+                        <div className="subtitle content-block-65 margin-top-10">
                             Labels and SmithKline
                         </div>
                        
-                        <p className="float-left content-text-18 content-block-55 margin-top-15">
+                        <p className="float-left content-text-18 content-block-65 margin-top-15">
                             <p className="float-right margin-top-15 caption">
                                 <img className="width-100 margin-top-20per" src={wallys} alt="Wally's"/><br></br>
                             <i>Roos Foods Wally's</i></p>
@@ -106,13 +107,13 @@ class about extends Component {
                     <div className="thin-hr width-70 align-self-center hrline-spacing"></div> 
 
                     <section className="flex-layout-section-full align-items-center">
-                        <div className="title content-block-55">
+                        <div className="title content-block-65">
                             The Digital Age
                         </div>
-                        <div className="subtitle content-block-55 margin-top-15">
+                        <div className="subtitle content-block-65 margin-top-10">
                             Websites, Flash and Digital Design
                         </div>
-                        <div className="content-block-55">
+                        <div className="content-block-65">
                             <p className="content-text-18 margin-top-25"> 
                              Early 2000 was a transition year for Surreal Concepts. The world was changing and nothing was changing faster than marketing with the advent of the Internet. Surreal Concepts fully embraced the digital revolution, becoming experts in everything Adobe, expanding Photoshop and Illustrator skills.
                             </p> 
@@ -141,11 +142,11 @@ class about extends Component {
                     <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
                     
                     <section className="flex-left flex-layout-section-full align-items-center">
-                        <div className="float-left flex-layout-center-center content-block-55">
+                        <div className="float-left flex-layout-center-center content-block-65">
                             <div className="title">
                                 UX Design
                             </div>
-                        <div className="subtitle margin-top-15">
+                        <div className="subtitle margin-top-10">
                             Web First Aid
                         </div>
                         
@@ -167,7 +168,7 @@ class about extends Component {
                         <div className="title content-block-55">
                             UX and Business Design Solutions
                         </div>
-                        <div className="subtitle margin-top-15 content-block-55">
+                        <div className="subtitle margin-top-10 content-block-55">
                             The Pfizer Pro Initiative
                         </div>
                         
@@ -187,20 +188,20 @@ class about extends Component {
 
                     <section className="grid-2col-photo-text align-items-center grey margin-top-50 border-tb-5">
                         
-                              <img src={firemen}  className="col2-photo width-70 justify-self-end margin-tb-50" alt="Wds puts out the fires"/> 
+                              <img src={firemen}  className="col2-photo photo-container width-70 justify-self-end margin-tb-50" alt="Wds puts out the fires"/> 
                               <div className="callout-text-lg text-align-center marginleft-minus300" > 
                             WDS has strategies to put out your business fires!</div>
                         
                     </section>
 
                    <section className="flex-layout-section-full align-items-center  margin-top-100">
-                        <div className="title content-block-55">
+                        <div className="title content-block-65">
                             Product Design
                         </div>
-                        <div className="subtitle content-block-55 margin-top-15">
+                        <div className="subtitle content-block-65 margin-top-10">
                             UX and Business Design Solutions - Motorola
                         </div>
-                    <div className="content-block-55 margin-top-25">
+                    <div className="content-block-65 margin-top-25">
                         
                         <p className="content-text-18">
                             Surreal Concepts started to make a name for itself for its design and business solutions. After the Pfizer contract was completed Surreal was contracted by Motorola.  Motorola had a large problem that they could not solve with their modem product line. For years the return rate on their line of modems was rising and call center costs were out of control. After two failed attempts to fix this, Surreal Concepts was contracted for UX design, UI design and development to provide business solutions. This was a complex product user interface and tested the scalability of its UX methodology.  
@@ -217,17 +218,17 @@ class about extends Component {
                     <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                     <section className="flex-layout-section-full align-items-center">
-                        <div className="title content-block-55">
+                        <div className="title content-block-65">
                             Big Data 
                         </div>
-                        <div className="subtitle content-block-55 margin-top-15">
+                        <div className="subtitle content-block-65 margin-top-10">
                             Data Visualization Applications - StubHub
                         </div>
-                        <div className="content-block-55 margin-top-15">
+                        <div className="content-block-65 margin-top-15">
                             <p className="content-text-18"> 
                              StubHub faced the same problem as Motorola, wasting time and money on contracted UI developers and not UX designers. They didn't understand that  these  problems can be solved with empathy for the user. StubHub had a problem with user traction and retention on their internal business platform. With one last chance to get it right, StubHub turned to Surreal Concepts for answers.  </p>
                         
-                            <p className="content-text-18"><a href="../case_study_2">Read full case study</a></p> 
+                            <p className="content-text-18"><a className="greenlink" href="../case_study_2">Read full case study</a></p> 
 
                         <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-50">
 
@@ -239,13 +240,13 @@ class about extends Component {
                     <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                     <section className="flex-layout-section-full align-items-center">
-                        <div className="title content-block-55">
+                        <div className="title content-block-65">
                             Surreal Evolving
                         </div>
-                        <div className="subtitle content-block-55 margin-top-15">
+                        <div className="subtitle content-block-65 margin-top-10">
                             Waterman Design Solutions
                         </div>
-                        <div className="content-block-55 margin-top-15">
+                        <div className="content-block-65 margin-top-15">
                             <p className="content-text-18"> 
                              After 22 years of business Terri and Michael evolved to the point of outgrowing Surreal Concepts. After 4 years away from the business, Michael knew it was time to share his knowledge, strategies and methodologies he gained over the years. Surreal Concepts no longer fit with the new services or todays market. Business needs have changed over the years and competition in the digital space is at an all time high. Businesses today need design support and education on the value of design. Their new services include design, business strategies, talks and workshops. Michael has navigated successfully to enterprise businesses, and under the new name Waterman Design Solutions, the team looks forward to changing the design perspective for all sized businesses. </p>
 
@@ -258,10 +259,10 @@ class about extends Component {
                 
 
                     <section className="flex-layout-section-full align-items-center">
-                        <div className="title text-align-center content-block-55 margin-top-50">
+                        <div className="title text-align-center margin-top-50 margin-top-50sm">
                             Creating Design Solutions That Matter
                         </div>
-                        <div className="subtitle text-align-center  content-block-55 margin-top-15">
+                        <div className="subtitle text-align-center margin-top-10">
                             Our Accomplishments
                         </div>   
                  </section>       
@@ -273,13 +274,13 @@ class about extends Component {
                 <div className="title margin-bottom-50 ">
                         Our Leaders 
                     </div>
-                    <div className="title content-block-60">
+                    <div className="title content-block-65">
                         Michael Waterman 
                     </div>
-                    <div className="subtitle content-block-60 margin-top-15">
+                    <div className="subtitle content-block-65 margin-top-10">
                     President, Business Consultant, UX/UI designer, Genius
                     </div>
-                    <div className="content-block-60 content-text-18 margin-top-50">
+                    <div className="content-block-65 content-text-18 margin-top-15">
                         <div className="float-right">
                             <img className="width-250"  src={mike}  alt="Michael Waterman" /> 
                         </div>
@@ -304,15 +305,15 @@ class about extends Component {
                     </div>
                 </section>
                 <section className="float-left align-items-center flex-layout-column">
-                    <div className="title content-block-60">
+                    <div className="title content-block-65">
                         Terri Waterman 
                     </div>
-                    <div className="subtitle content-block-60 margin-top-15">
+                    <div className="subtitle content-block-65 margin-top-10">
                     Art and Creative Director, UX/UI designer, Humorist
                     </div>
-                    <div className="content-block-60 content-text-18 margin-top-15">
+                    <div className="content-block-65 content-text-18 margin-top-15">
                         
-                        <p className="content-text-18"> <b>"I aim to inspire.</b>" <br></br>Terri's perspective is greatly influenced by her hearing loss as a child. When the outer life becomes quiet, observations and interpretations will always be unique. She learned that following the crowd was never a good idea to foster creativity. Fine art talent has taught her the importance of staying true to herself, and she continually finds new ways of expressing herself, whether it be through graphic design, advertising, branding, abstract paintings or multimedia art. <div className="float-right">
+                        <p className="content-text-18"> <strong>"I aim to inspire.</strong>" <br></br>Terri's perspective is greatly influenced by her hearing loss as a child. When the outer life becomes quiet, observations and interpretations will always be unique. She learned that following the crowd was never a good idea to foster creativity. Fine art talent has taught her the importance of staying true to herself, and she continually finds new ways of expressing herself, whether it be through graphic design, advertising, branding, abstract paintings or multimedia art. <div className="float-right">
                             <img className="width-250"  src={terri}  alt="Terri" /> <p className="width-250 caption">"Artists have always been leaders in society, helping others to achieve enlightened thinking and problem solving."</p>
                         </div><br></br>A deep thinker, she has always been curious about how humans behave and respond to life, and how design was about simplifying things to make our lives better. Like the cartooning on this site, the goal was to visibly communicate to you how much WDS values good old fashioned customer service, something that was very prevalent in the 1950s.
                         <br></br>

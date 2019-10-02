@@ -212,6 +212,9 @@ footer {
 .margin-left-6 {
   margin-left: 6%; }
 
+.margin-left-6sm {
+  margin-left: 0%; }
+
 .margin-left-3 {
   margin-left: 0%; }
 
@@ -227,12 +230,14 @@ footer {
 .margin-left-4sm {
   margin-left: 0%; }
 
+.margin-left-12per {
+  margin-left: 12%; }
+
 .margin-left-15 {
   margin-left: 15px; }
 
 .margin-left-15per {
   margin-left: 15%; }
-
 
 .margin-left-15sm {
   margin-left: 0%; }
@@ -242,11 +247,6 @@ footer {
 
 .margin-top-35sm {
   margin-top: 0%; }
-
-
-.margin-left-15sm {
-  margin-left: 0%; }
-
 
 .margin-left-30per {
   margin-left: 30%; }
@@ -301,6 +301,9 @@ footer {
 
 .margin-left-2sm {
   margin-left: 0%; }
+
+.margin-left-2 {
+  margin-left: 2%; }
 
 .margin-left-50 {
   margin-left: 50%; }
@@ -1277,6 +1280,9 @@ p {
 
 .text-align-center {
   text-align: center; }
+
+.text-align-center-sm {
+  text-align: none; }
 
 .text-black {
   color: #000; }
@@ -3006,6 +3012,8 @@ a:any-link {
     margin-left: 8%; }
   .margin-left-5 {
     margin-left: 0; }
+  .margin-left-6sm {
+    margin-left: -6%; }
   .margin-left-why-60per {
     margin-left: 60%; }
   .title-center {
@@ -3021,12 +3029,10 @@ a:any-link {
     margin-left: -3%; }
   .margin-left-30per {
     margin-left: 0%; }
-
   .margin-right-25sm {
     margin-left: 25%; }
   .margin-right-25sm {
     margin-left: 25%; }
-
   .margin-left-10sm {
     margin-left: 10%; }
   .margin-left-15sm {
@@ -3039,7 +3045,6 @@ a:any-link {
     margin-left: -2%; }
   .margin-left-4sm {
     margin-left: -4%; }
-
   .margin-left-min4sm {
     margin-left: -4%; }
   .margin-left-6per {
@@ -3052,6 +3057,8 @@ a:any-link {
     margin-top: 5%; }
   .margin-top-10per {
     margin-top: 0%; }
+  .margin-top-10 {
+    margin-top: 5px; }
   .margin-top-10sm {
     margin-top: 10px; }
   .margin-top-15sm {
@@ -3066,7 +3073,6 @@ a:any-link {
     letter-spacing: 1.1px;
     line-height: 1;
     text-align: center; }
-
   .margin-top-15per {
     margin-top: 0%; }
   .margin-top-2 {
@@ -3230,8 +3236,10 @@ a:any-link {
     padding: 20px; }
   .callout-text-black {
     font-size: 1.25rem; }
-  .callout-title {
+  .callout-title-center {
     font-size: 2.0rem;
+    text-align: center; }
+  .text-align-center-sm {
     text-align: center; }
   .callout-text {
     font-size: 1.25rem; }
@@ -3750,15 +3758,12 @@ a:any-link {
     margin-right: 50%; }
   .margin-left-30per {
     margin-left: 30%; }
-
   .margin-left-2sm {
     margin-left: 0%; }
   .margin-left-4sm {
     margin-left: 0%; }
-
   .margin-left-6per {
     margin-left: -6%; }
-
   .margin-tb-100 {
     margin: 50px 275px 50px 5px; }
   .margin-top-1per {
@@ -3771,7 +3776,6 @@ a:any-link {
     padding-top: 0px;
     margin-bottom: 0px;
     padding-left: 25px; }
-
   .title {
     font-family: 'Oswald', sans-serif;
     font-size: 3.05rem;
