@@ -70,12 +70,12 @@ class why_wds extends Component {
                 </section>
 
                 <div className="flex-layout-section-full margin-top-25 grey-blue padding-bottom-50 padding-top-50">
-                <div className="title align-self-center margin-top-50" >
+                <div className="title align-self-center margin-top-50 margin-top-50sm" >
                         Your Complete Design Resource
                 </div>
                     <div className="grid-services-list padding-20 align-self-center margin-top-25 margin-left-why-60per">
                         <section className="grid-services-3">
-                        <a href="./ux_design" ><img className="width-icon margin-left-25" src={icon_ux}  alt="UX" /> </a>
+                        <a href="./ux_design" ><img className="width-icon margin-left-6" src={icon_ux}  alt="UX" /> </a>
                         <div className="subtitle-why margin-top-25">
                             <a href="./ux_design" className="no-decoration greenlink margin-left-6" style={{marginTop:'2%'}}>
                                 UX Design</a>
@@ -91,9 +91,10 @@ class why_wds extends Component {
                             </ul>
                         </section>
                         <section className="grid-services-1 margin-bottom-25">
-                            <a href="./design_solutions"> <img className="width-icon margin-left-8" src={icon_design_solutions}  alt="Design Solutions"/></a>
+                            <a href="./design_solutions"> <img className="width-icon margin-left-6" src={icon_design_solutions}  alt="Design Solutions"/></a>
                         <div className="subtitle-why margin-top-25">
-                            <a href="./design_solutions" className="no-decoration greenlink"> Design Solutions</a>
+                            <a href="./design_solutions" className="no-decoration greenlink margin-left-4"> 
+                                Design Solutions</a>
                         </div>
                             <ul className="dashed content-text-18 margin-top-15">
                                 <li>Website Design</li>
@@ -106,9 +107,10 @@ class why_wds extends Component {
                             </ul>
                     </section>
                     <section className="grid-services-2 margin-bottom-25">
-                    <a href="./core_offerings"><img className="width-icon margin-left-8" src={icon_design}  alt="Core Offerings" /></a>
+                    <a href="./core_offerings"><img className="width-icon margin-left-6" src={icon_design}  alt="Core Offerings" /></a>
                         <div className="subtitle-why margin-top-25">
-                        <a href="./core_offerings" className="no-decoration greenlink margin-left-5">Core Offerings</a></div>
+                        <a href="./core_offerings" className="no-decoration greenlink margin-left-5">
+                                Core Offerings</a></div>
                             <ul className="dashed content-text-18 margin-top-15">
                                 <li>Telemetry Strategies</li>
                                 <li>Design Support</li>
@@ -125,7 +127,7 @@ class why_wds extends Component {
                     <div className="title content-block-60">
                             Elegant solutions for difficult problems
                     </div>
-                        <div className="subtitle content-block-60 margin-top-15">
+                        <div className="subtitle content-block-60 margin-top-10">
                             The Value of Simplicity
                         </div>
                         <div className="content-block-60 content-text-18 margin-top-15"><div className="float-right">
@@ -142,7 +144,7 @@ class why_wds extends Component {
                     <div className="title content-block-60">
                             Our Core Offerings
                     </div>
-                        <div className="subtitle content-block-60 margin-top-15">
+                        <div className="subtitle content-block-60 margin-top-10">
                             The Business Value of Design
                         </div>
                         <div className="content-block-60 content-text-18">
@@ -171,13 +173,15 @@ class why_wds extends Component {
                         Understanding the Users </p>
                         <div className="content-block-60 content-text-18">
                     <div className="float-right margin-left-3 photo-container">
-                        <img className="border-3px" src={why_design}  alt="UX Design" /> 
+                        <img className="border-3px photo-container" src={why_design}  alt="UX Design" /> 
                 </div>  
 
                     <p className="content-text-18">
                         The best customer experience starts with the Golden Rule — treat customers how you would like to be treated. At the foundation of WDS methodology is observation, watching customers use the clients' products or services. But unlike focus groups or usability laboratories, WDS conducts observation and interviews in the customer’s own environment during the course of their everyday routines. In such a context  researchers gain insight to a host of information that is not accessible through other UX research methods. </p>
                 <div className="float-left">
-                    <NavLink className='button-area no-decoration' type="button" value="learn more" to='/ux_design'>
+                    <NavLink className='button-area no-decoration text-align-center
+                    
+                    ' type="button" value="learn more" to='/ux_design'>
                     Learn More 
                     </NavLink>
                 </div>
@@ -225,9 +229,9 @@ class why_wds extends Component {
                         <p className="subtitle content-block-60 margin-top-10"> 
                         Establishing Consistency Across all Mediums </p>
                     <div className="content-block-60 content-text-18 margin-top-15">
-                    <div className="float-right margin-left-3 photo-container">
+                    <div className="float-right margin-left-3">
 
-                        <img className="border-3px" src={why_enterprise}  alt=" Design" /> 
+                        <img className="border-3px photo-container" src={why_enterprise}  alt=" Design" /> 
 
                     </div>  
                      <p className="content-text-18 margin-top-1per"> 
@@ -265,16 +269,16 @@ class why_wds extends Component {
             <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
             <section className="flex-layout-section-full align-items-center width-100 ">
-                <div className="grid-2col-text width-75">
+                <div className="width-75">
                     <div> 
                     <div className="subtitle layout-center-justified">
                         We'll Get There Together
                     </div>
-                    <div className="layout-center-justified "><img src={youcandoit} className="float-right width-50 align-self-center margin-bottom-20" alt="You can do it"/>
+                    <div className="layout-center-justified "><img src={youcandoit} className="float-right width-50 align-self-center margin-bottom-20 photo-container" alt="You can do it"/>
                         <p className="content-text-18 content-block-75 margin-top-10">
                             WDS can embed employees within your teams as contractors (on-site or remote). It has flexibility, experience and knowledge to provide successful design solutions and guidance every step of the way. </p> 
                     </div>
-                    <div className="subtitle margin-top-25">Your users will love you.</div>
+                    <div className="subtitle margin-top-50">Your users will love you.</div>
                     <div className="layout-center-justified ">
                             <p className="content-text-18 content-block-75 margin-top-10">In workplace and at home, users know when someone understands their needs and make them feel like experts. 
                             They know when there's attention to details and when it's intuitive.
@@ -282,14 +286,17 @@ class why_wds extends Component {
                             </div>
                     </div>
                     <div> 
-                    <div className="subtitle margin-top-70 width-75">Measurable Results</div>
-                        <div className="layout-center-justified ">
+                    <div className="subtitle margin-top-50 content-block-75">Measurable Results</div>
+                        <div className="layout-center-justified">
                             <p className="content-text-18 content-block-85 margin-top-10">WDS believes in agile and iterative deployments as experiments, but with longer enterprise launches and  consumer software, there's still valuable data to be collected even before that first MVP. It is critical to measure and track any design to collect data about your users' journeys.  WDS insights and strategies will get you moving in the right direction and possibly uncover rewarding new opportunities. WDS is not afraid to track and measure their design results, they have been designing successful UI solutions for the last 20 years and are confident in their abilities.  </p>
                         </div>
-                       
-                        <div className="subtitle margin-top-25">Lasting Results</div>
-                        <div className="layout-center-justified"> <img src={data_analyst} className="float-right width-70" alt="Data Analyst"/>
-                            <p className="content-text-18 content-block-85 margin-top-10 ">
+                        
+                        <div className="float-right layout-center-justified margin-top-20 margin-left-6per"> 
+                        <div className="text-align-center margin-left-12per">
+                            <p className="subtitle margin-left-2">Lasting Results</p></div>
+                            <img src={data_analyst} className="float-left width-50 photo-container" alt="Data Analyst"/>
+                           
+                            <p className="content-text-18 margin-top-75 margin-left-50 content-block-55">
                                 WDS is here to build and launch great technology solutions and help your team improve your business in tangible ways. 
                                 WDS <a href ="./core_offerings">core offerings </a> 
                             have helped businesses understand the value of design and increased conversion by 200%, reduced operations time by 15%, and increased channel utilization by 75%. It all leads to millions in revenue and cost savings.</p> 
@@ -332,7 +339,6 @@ class why_wds extends Component {
                         </div> 
 
                         <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
-
                         
                         <div className="title content-block-60">
                           Pfizer

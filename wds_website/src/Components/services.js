@@ -207,7 +207,7 @@ class services extends Component {
                 </section>
             
             <div className="flex-layout-section-full margin-top-50 grey-blue padding-bottom-50 align-items-center">
-                <div className="margin-top-50 margin-bottom-50 title text-align-center ">
+                <div className="margin-top-50 margin-bottom-50 margin-left-6per title text-align-center ">
                             Services
                     </div>
                 <section className="grid-services-list flex-section-align-center">

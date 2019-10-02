@@ -38,7 +38,7 @@ class core_offerings extends Component {
             </div>
             <section className="grid-callout photo-content-color border-bottom-5" > 
                 <div className="grid-placeself-center content-block-75 flex-layout-column">
-                    <div className="callout-text text-align-left margin-top-15 margin-left-30per" >
+                    <div className="callout-text text-align-left margin-top-15 margin-left-30per padding-sm">
                         
                         The best customer experience starts with the Golden Rule - treat the user the way you would like to be treated.
                     
@@ -90,7 +90,7 @@ class core_offerings extends Component {
                 <div className="title content-block-60">
                         Communication Workshops and Strategies  
                 </div>
-                <div className="subtitle margin-top-15 content-block-60">
+                <div className="subtitle margin-top-10 content-block-60">
                         If everyone is moving forward together, then success takes care of itself. - Henry Ford 
                 </div>
                 <div className="content-block-60 content-text-18 margin-top-15">
@@ -138,7 +138,7 @@ class core_offerings extends Component {
                 <div className="title content-block-60">
                         Design Solutions
                 </div>
-                <div className="subtitle content-block-60 margin-top-15">
+                <div className="subtitle content-block-60 margin-top-10">
                         Agile Design Solutions
                 </div>
                 <div className="content-block-60 content-text-18 margin-top-15">
@@ -169,7 +169,7 @@ class core_offerings extends Component {
                 <div className="title content-block-60">
                     C-Suite Business Design Strategies and Workshops
                 </div>
-                <div className="subtitle content-block-60 margin-top-15">
+                <div className="subtitle content-block-60 margin-top-10">
                     Design Communication Needs to Begin at the Top
                 </div>
                 <div className="content-block-60 content-text-18 margin-top-15">
@@ -202,7 +202,7 @@ class core_offerings extends Component {
                 <div className="title content-block-60">
                     UX Team Strategies and Workshops 
                 </div>
-                <div className="subtitle content-block-60 margin-top-15">
+                <div className="subtitle content-block-60 margin-top-10">
                     Strategies to ensure the user is involved in every decision
                 </div>
                 <div className="content-block-60 content-text-18 margin-top-15">
@@ -230,7 +230,7 @@ class core_offerings extends Component {
                     <div className="title content-block-60">
                         Customer Experience Solutions 
                     </div>
-                    <div className="subtitle content-block-60 margin-top-15">
+                    <div className="subtitle content-block-60 margin-top-10">
                         It's about the customer's journey
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
@@ -261,7 +261,7 @@ class core_offerings extends Component {
                     <div className="title content-block-60">
                         Telemetry/Analytics 
                     </div>
-                    <div className="subtitle content-block-60 margin-top-15">
+                    <div className="subtitle content-block-60 margin-top-10">
                         Measuring Business Design Value
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
@@ -294,7 +294,7 @@ class core_offerings extends Component {
                     <div className="title content-block-60">
                         Accessibility 
                     </div>
-                    <div className="subtitle content-block-60 margin-top-15">
+                    <div className="subtitle content-block-60 margin-top-10">
                         Increasing your business by 18%
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
@@ -316,7 +316,7 @@ class core_offerings extends Component {
                     <div className="title content-block-60">
                         Engineers Hate CSS
                     </div>
-                    <div className="subtitle content-block-60 margin-top-15">
+                    <div className="subtitle content-block-60 margin-top-10">
                         WDS Solves that Problem
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">

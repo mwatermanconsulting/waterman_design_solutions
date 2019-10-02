@@ -22,7 +22,7 @@ class digital_design extends Component {
             <title>Website Design</title>
             <link rel="canonical" href="http://watermandesignsolutions.com/website_design" />
             </Helmet>
-        <div className="flex-layout-column"> 
+        <div id="#top" className="flex-layout-column"> 
             <section className="flex-section-fixed-head-child yellow flex-layout-center-center image-background-border-tb">
                     <div className="header-text-center header-title text-white">
                         Website Design
@@ -37,10 +37,11 @@ class digital_design extends Component {
                 </div>
             </section>
 
-            <section className="flex-layout-section-full photo-content-color align-items-center"> 
-                <div className=" grid-2col-text-photo align-items-center margin-tb-100 width-70">
+            <section className="flex-layout-section-full photo-content-color flex-layout-center-center
+            "> 
+                <div className=" grid-2col-text-photo align-items-center margin-tb-100 content-block-60">
                     <div className="content-block col2-text ">
-                        <div className="callout-text text-align-left">
+                        <div className="callout-text text-align-left padding-sm">
                             WDS has been creating design solutions for websites for over 20 years. All of the design solutions are derived from UX research and user personas.  WDS websites designs are as unique as your business.  
                         </div>      
                     </div>
@@ -56,13 +57,13 @@ class digital_design extends Component {
                             Custom Designed Websites that Meet Users Expectations
                     </div>
                     <div className=" margin-top-50">
-                        <p className="content-text-24">
+                        <p className="content-text-24 margin-top-15sm">
                             It is easier today than ever for a business to get a website. There are countless template sites that are easy to use for people with limited experience. Your business and customers are unique and your website should reflect that uniqueness, your business deserves to stand out.</p> 
                             =
                             <p className="content-text-24">   
                             The typical user has a good design eye and can tell the difference between a template website and a custom website. They will notice when a business cares enough about them to create a design that is based on UX research. Customers will always choose the better experience every time. Your business wasn't born from a template and your users deserve more. Don't settle for good enough!</p>
-                            <div className="flex-layout-column width-70 margin-top-25">    
-                        <img className="photo-container" src={titanic} className="align-self-center margin-bottom-20" alt="Good Enough is not good enough"/>
+                            <div className="flex-layout-column margin-top-25">    
+                        <img className="photo-container" src={titanic} className="align-items-center margin-bottom-20" alt="Good Enough is not good enough"/>
                     </div>
                     </div>
                 </div>
@@ -71,7 +72,7 @@ class digital_design extends Component {
             <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
             <section className="flex-layout-section-full flex-layout-center-center">
-                <div className="subtitle">
+                <div className="subtitle margin-top-15sm">
                     A Small Sample of Our Custom Websites 
                 </div>
                 <div className="align-center justify-content-center align-items-center margin-top-50">
