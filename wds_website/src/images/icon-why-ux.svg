@@ -1,1 +1,28 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><defs><style>.cls-1{fill:#fff;}.cls-1,.cls-2{stroke:#000;stroke-miterlimit:10;stroke-width:3px;}.cls-2{fill:none;}</style></defs><title>icon-why-ux</title><rect class="cls-1" x="5.43" y="6" width="70.14" height="51.32" rx="11.96"/><rect class="cls-1" x="5.43" y="57.32" width="70.14" height="8.55" rx="4.16"/><rect class="cls-1" x="30.52" y="65.88" width="18.25" height="9.12"/><rect class="cls-2" x="13.7" y="14.27" width="54.17" height="13.12"/><rect class="cls-2" x="13.7" y="35.37" width="23.38" height="14.26"/><rect class="cls-2" x="45.06" y="35.37" width="23.38" height="14.26"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .a {
+        fill: #fff;
+      }
+
+      .a, .b {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .b {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon-why-ux</title>
+  <g>
+    <rect class="a" x="5.43" y="6" width="70.14" height="51.32" rx="11.96"/>
+    <rect class="a" x="5.43" y="57.32" width="70.14" height="8.55" rx="4.16"/>
+    <rect class="a" x="30.52" y="65.88" width="18.25" height="9.12"/>
+    <rect class="b" x="13.7" y="14.27" width="54.17" height="13.12"/>
+    <rect class="b" x="13.7" y="35.37" width="23.38" height="14.26"/>
+    <rect class="b" x="45.06" y="35.37" width="23.38" height="14.26"/>
+  </g>
+</svg>

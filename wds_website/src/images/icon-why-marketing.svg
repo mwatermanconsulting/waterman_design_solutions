@@ -1,1 +1,30 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><defs><style>.cls-1{fill:#fff;stroke-width:3px;}.cls-1,.cls-2{stroke:#000;stroke-miterlimit:10;}.cls-2{fill:none;stroke-linecap:round;stroke-width:6px;}</style></defs><title>icon-why-marketing</title><circle class="cls-1" cx="35.3" cy="36.15" r="28.8"/><rect x="14.5" y="39.87" width="7.27" height="12.72"/><rect x="25.41" y="26.36" width="7.27" height="26.23"/><rect x="36.32" y="31.13" width="7.27" height="21.46"/><rect x="47.23" y="20" width="7.27" height="32.58"/><line class="cls-2" x1="55.7" y1="58.95" x2="75.5" y2="77.55"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .a {
+        fill: #fff;
+        stroke-width: 3px;
+      }
+
+      .a, .b {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .b {
+        fill: none;
+        stroke-linecap: round;
+        stroke-width: 6px;
+      }
+    </style>
+  </defs>
+  <title>icon-why-marketing</title>
+  <g>
+    <circle class="a" cx="35.3" cy="36.15" r="28.8"/>
+    <rect x="14.5" y="39.87" width="7.27" height="12.72"/>
+    <rect x="25.41" y="26.36" width="7.27" height="26.23"/>
+    <rect x="36.32" y="31.13" width="7.27" height="21.46"/>
+    <rect x="47.23" y="20" width="7.27" height="32.58"/>
+    <line class="b" x1="55.7" y1="58.95" x2="75.5" y2="77.55"/>
+  </g>
+</svg>
