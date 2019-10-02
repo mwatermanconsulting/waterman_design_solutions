@@ -44,6 +44,10 @@
   margin-left: 8%;
 }
 
+.margin-left-18{
+  margin-left: 18%;
+}
+
 .margin-left-10sm {
   margin-left: 0%;
 }
@@ -519,11 +523,16 @@
   .flex-layout-row {
       display:flex;
       flex-direction: row;
+      flex-wrap: wrap;
+      align-self: center;
+
+
   }
 
   .flex-layout-row-reverse {
     display:flex;
     flex-direction: row-reverse;
+    
 }
   
   .flex-layout-column{
@@ -572,6 +581,14 @@
   .content-block-auto {
     width: auto;
     margin: 10px;
+  }
+
+  .content-block-10 {
+    width: 10%;
+  }
+
+  .content-block-20 {
+    width: 20%;
   }
 
   .content-block-25 {

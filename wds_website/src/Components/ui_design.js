@@ -251,19 +251,17 @@ class ui_design extends Component {
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center ">
-                <div className="float-left content-block-60">
-                        <div className="title">
-                            Design is not about being pretty or aesthetically pleasing. It is about simplicity.
-                        </div>
-                        <div className="content-text-24 margin-top-25">
-                        WDS has been designing user interfaces for over twenty years. They originally designed user interfaces for websites, but that changed with their first complicated industrial user interface  designed for Motorola. Since then the UI design services expanded to all consumer-facing touchpoints, including software, mobile, SaaS and kiosks. 
-
-                        </div> 
-                   
+                     <div className="title-center content-block-65">
+                            Design is not about being pretty or aesthetically pleasing, <br/> it is about simplicity.
                     </div>
+                    <div className="content-text-24 margin-top-25 content-block-65">
+                        WDS has been designing user interfaces for over twenty years. They originally designed user interfaces for websites, but that changed with their first complicated industrial user interface  designed for Motorola. Since then the UI design services expanded to all consumer-facing touchpoints, including software, mobile, SaaS and kiosks.
+                    </div> 
+                   
+                   
                 </section> 
 
-                <div className="flex-layout-section thin-hr align-items-center hrline-spacing" ></div>
+                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="flex-layout-section-full align-items-center">
                     <div className="flex-layout-column">

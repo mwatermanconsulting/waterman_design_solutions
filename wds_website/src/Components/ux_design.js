@@ -53,7 +53,7 @@ class ux_design extends Component {
                         <div className="title">
                                 Real UX Involves Research and Empathy
                         </div>
-                        <div className="subtitle margin-top-15">
+                        <div className="subtitle margin-top-10">
                                 The Search for the Truth
                         </div>
                         <div className="margin-top-15">
@@ -76,7 +76,7 @@ class ux_design extends Component {
                         <div className="title content-block-60 ">
                                 The Value of Empathy
                         </div>
-                        <div className="subtitle content-block-60 margin-top-15">
+                        <div className="subtitle content-block-60 margin-top-10">
                                 Empathic Design Sparks Innovations 
                         </div>
                         <div className="content-block-60 margin-top-15">
@@ -85,7 +85,7 @@ class ux_design extends Component {
                             <p className="subtitle"> 
                                 Old-school Customer Service</p> 
                             <div className="float-right callout-photo grid-placeself-center">
-                                <img className="container-image-500 margin-top-15per margin-top-min10per" src={ux_s3}  alt="Old school customer service" />   
+                                <img className="container-image-500 margin-top-15per" src={ux_s3}  alt="Old school customer service" />   
                             </div>
                             <p className="content-text-18">
                                 Empathy is a very powerful selling tool, because it is human-centric. It’s the new buzz word, but empathy has always been at the heart of WDS designs.  <br></br>“Walk in the user’s shoes.” <br></br>“See the problem as if you were experiencing it yourself."<br></br>“Observe  daily routines.” <br></br>All of these mantras and behaviors are empathetic techniques that their UX designers have acquired through years of practice. It is part of their daily lives. 
@@ -98,7 +98,7 @@ class ux_design extends Component {
                     <section className="float-left align-items-center flex-layout-column">
                         <div className="title content-block-60">
                             UX Design is the study of people</div>
-                        <p className="subtitle content-block-60 margin-top-15">
+                        <p className="subtitle content-block-60 margin-top-10">
                             Understanding is Key
                         </p>
                         <div className="content-block-60 margin-top-15">
@@ -122,7 +122,7 @@ class ux_design extends Component {
                         <div className="title content-block-60">
                         WDS UX Team makes the Difference
                     </div>
-                    <div className="subtitle margin-top-15
+                    <div className="subtitle margin-top-10
                     flex-layout-center-center title content-block-60">
                         Real Designers Matter
                     </div>

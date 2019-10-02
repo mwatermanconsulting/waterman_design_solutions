@@ -66,18 +66,18 @@ class css_solutions extends Component {
         <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
 
-    <div className="flex-layout-section-full flex-layout-column margin-top-25 align-self-center content-block-65"> 
+    <div className="flex-layout-section-full flex-layout-column margin-top-25 align-self-center"> 
 
         <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
-            <div className="float-left flex-layout-center-center content-block-65">
-                <div className="title content-block-65">
+            <div className="float-left flex-layout-center-center content-block-60">
+                <div className="title content-block-60">
                     Experience Matters
                 </div>
-            <div className="subtitle margin-top-10 content-block-65">
+            <div className="subtitle margin-top-10 content-block-60">
                     Responsive Design Solutions
             </div> 
-            <div className="float-right callout-photo margin-top-1 margin-top-15sm">
-                <img className="container-image-500" src={css2}  alt="Prototypes" /> 
+            <div className="float-right callout-photo margin-top-5">
+                <img className="container-image-500 margin-top-15sm" src={css2}  alt="Prototypes" /> 
             </div>
             <div className="margin-top-15 content-block-65">  
                 <p className="content-text-18">
@@ -90,17 +90,17 @@ class css_solutions extends Component {
         <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
         <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
-            <div className="float-left flex-layout-center-center content-block-65">
+            <div className="float-left flex-layout-center-center content-block-60">
                 <div className="title">
                     Organize and Simplify
                 </div>
-            <div className="subtitle margin-top-10 content-block-65">
+            <div className="subtitle margin-top-10 content-block-60">
                     Strategy to Organize and Reduce Specificity Issues
             </div> 
-            <div className="float-right callout-photo margin-top-15sm">
-                <img className="container-image-500" src={itcss}  alt="Prototypes" /> 
+            <div className="float-right callout-photo ">
+                <img className="container-image-500 margintop-4per margin-top-15sm" src={itcss}  alt="Prototypes" /> 
             </div>
-            <div className="margin-top-15 content-block-65">  
+            <div className="margin-top-15 content-block-60">  
                 <p className="content-text-18">
                     Taming the specificity beast used to be difficult. WDS CSS strategy almost eliminates the specificity problems. In fact, the strategy almost eliminates the need for your developers to write CSS. The WDS advantage is the  experience of working with developers by interviewing and observing them working with CSS.
                 </p>                
@@ -111,18 +111,18 @@ class css_solutions extends Component {
         <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
         <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
-            <div className="float-left flex-layout-center-center content-block-65">
-                <div className="title content-block-65">
+            <div className="float-left flex-layout-center-center content-block-60">
+                <div className="title content-block-60">
                     Modular CSS
                 </div>
-            <div className="subtitle margin-top-10 content-block-65">
+            <div className="subtitle margin-top-10 content-block-60">
                     Reusable CSS
             </div> 
             <div className="float-right callout-photo">
-                <img className="container-image-500" src={css3}  alt="Prototypes" /> 
+                <img className="container-image-500 margin-top-10per margin-top-15sm" src={css3}  alt="Prototypes" /> 
             </div>
             <div className="margin-top-15 margin-top-15sm">  
-                <p className="content-text-18">
+                <p className="content-text-18 ">
                     CSS preprocessors are scripting languages that extend the default capabilities of CSS. They enable us to use logic in our CSS code, such as variables, nesting, inheritance, mixins, functions, and mathematical operations. CSS preprocessors make it easy to automate repetitive tasks, reduce the number of errors and "code bloat," by creating reusable code snippets, that ensures backward compatibility.
                 </p>                
             </div>  
@@ -132,36 +132,36 @@ class css_solutions extends Component {
 
         <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
-                <section className="grid-2col-photo-content content-header">
-                    <div className="grid-left flex-layout-section-full">
-                        <div className="title">
-                            CSS Solutions Package 
-                        </div>
-                        <div className="subtitle margin-top-15">
-                            NPM and GitHub
-                        </div>
-                        <div className=" content-text-18 margin-top-15">
-                            <p className="content-text-18"> 
-                            The WDS CSS specialists deliver their custom CSS solutions as npm packages or through github. The packages include a developer build kit with custom css, Sass or Less files, HTML files and documentation. WDS can refactor your current CSS or develop a customizable CSS solution that will scale as the project matures.</p>
-                        </div>
-                    </div>
-                    <div className="grid-right-css container-image-block margin-top-50">
-                        <img className="image-size-100" src={css4}  alt=" Reusable CSS" /> 
-                    </div>  
-                     
-                </section>
+        <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
+            <div className="float-left flex-layout-center-center content-block-60">
+                <div className="title content-block-60">
+                    Modular CSS
+                </div>
+            <div className="subtitle margin-top-10 content-block-60">
+                    Reusable CSS
+            </div> 
+            <div className="float-right callout-photo">
+                <img className="container-image-500 margin-top-10per margin-top-15sm" src={css3}  alt="Prototypes" /> 
+            </div>
+            <div className="margin-top-15 margin-top-15sm">  
+                <p className="content-text-18 ">
+                    CSS preprocessors are scripting languages that extend the default capabilities of CSS. They enable us to use logic in our CSS code, such as variables, nesting, inheritance, mixins, functions, and mathematical operations. CSS preprocessors make it easy to automate repetitive tasks, reduce the number of errors and "code bloat," by creating reusable code snippets, that ensures backward compatibility.
+                </p>                
+            </div>  
+            </div>
+        </section>
 
 
         <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
-            <div className="float-left flex-layout-center-center content-block-65">
+            <div className="float-left flex-layout-center-center content-block-60">
                 <div className="title content-block-65">
                     CSS Solutions Package
                 </div>
-            <div className="subtitle margin-top-10 content-block-65">
+            <div className="subtitle margin-top-10 content-block-60">
                     NPM and GitHub
             </div> 
             <div className="float-right callout-photo">
-                <img className="container-image-500 margin-top-plus3per" src={css4}  alt="Prototypes" /> 
+                <img className="container-image-500 margin-top-10per margin-top-15sm" src={css4}  alt="Prototypes" /> 
             </div>
             <div className="margin-top-15">  
                 <p className="content-text-18">
