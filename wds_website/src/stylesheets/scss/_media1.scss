@@ -25,7 +25,13 @@
   
  .margin-left-5 {
     margin-left: 0;
+  
   }
+
+  .margin-left-6sm{
+    margin-left: -6%;
+  }
+  
   .margin-left-why-60per {
     margin-left: 60%;
   }
@@ -110,6 +116,10 @@
 
   .margin-top-10per {
     margin-top: 0%;
+  }
+
+  .margin-top-10 {
+    margin-top: 5px;
   }
 
   .margin-top-10sm {
@@ -419,9 +429,13 @@
   .callout-text-black {
     font-size: 1.25rem;
   }
-  .callout-title {
+  .callout-title-center {
       font-size: 2.0rem;
       text-align: center;
+  }
+
+  .text-align-center-sm {
+    text-align: center;
   }
   .callout-text {
     font-size: 1.25rem;
@@ -1258,13 +1272,7 @@
     padding-bottom: 0px;
     padding-top: 0px;
     margin-bottom: 0px;
-<<<<<<< HEAD
     padding-left: 25px;
-=======
-
-    padding-left: 25px;
-
->>>>>>> d60c09d13f054a871ce0777d26236866b75342bf
   }
 
   .title {
@@ -1292,7 +1300,7 @@
     .margin-top-10 {
       margin-top: 10px;
     }
-
+    
   
   .margin-top-5per {
     margin-top: -5%;
