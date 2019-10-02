@@ -12,7 +12,7 @@ import donolow from '../images/photos/photo-print-donolow.png';
 import wtt from '../images/photos/photo-web-wtt.png';
 import didyouknow from '../images/graphic-didyouknow.svg';
 
-class print_design extends Component {
+class graphic_design extends Component {
     render () {
         return(
             <div>
@@ -44,7 +44,8 @@ class print_design extends Component {
                         <img className="container-photo-callout" src={print_s1}  alt="Graphic Design" /> 
                 </div>
             </section>
-            <section className="flex-layout-section-full flex-layout-column align-items-center margin-top-50">
+
+            <section className="flex-layout-section-full flex-layout-column align-items-center margin-top-50 margin-top-50sm">
               
                     <div className="title">
                             The Value of Graphic Design
@@ -56,9 +57,7 @@ class print_design extends Component {
                 
             </section>
 
-            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
-
-             <section className="flex-layout-section-full flex-layout-center-center">
+             <section className="flex-layout-section-full flex-layout-center-center margin-top-50 margin-top-50sm ">
                 <div className="align-center align-items-center">
                     <ul className="grid-clients-wrapper align-items-center">
                     <li  className="grid-clients-box image subtitle text-white"  data-content=" Women's Yellow Pages">
@@ -90,7 +89,7 @@ class print_design extends Component {
                 </div>
             </section>
 
-            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+            <div className="thin-hr width-70 align-self-center hrline-spacing width-70"></div>
 
             <section className="flex-layout-section-full   align-self-center">
                     <div className="grid-2col-text-center margin-left-15 margin-top-25" >
@@ -147,4 +146,4 @@ class print_design extends Component {
     }
 }
 
-export default print_design;
+export default graphic_design;

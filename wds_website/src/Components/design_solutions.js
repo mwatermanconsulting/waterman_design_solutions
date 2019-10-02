@@ -36,7 +36,7 @@ class design_solutions extends Component {
         
             <section className="grid-callout yellow-bg"> 
                 <div className="grid-callout-text grid-placeself-center width-70">
-                    <p className="callout-text ">
+                    <p className="callout-text padding-sm">
                     Customers always look for the better experience. Meeting their expectations of intuitive, elegant and simple designs built around and for your users will earn their loyalty.
                             </p>
                         </div>
@@ -44,15 +44,15 @@ class design_solutions extends Component {
                             <img className="flex-image-container width-100" src={designer}  alt="Customer Service" /> 
                         </div>
                     
-                </section>
+             </section>
 
             <div className="flex-layout-section-full align-items-center" >
-                <div className="content-header flex-layout-column"> 
+                <div className="content-header flex-layout-center-center flex-layout-column"> 
                     <p className="title text-align-center margin-top-100">
                         "A consistent experience is a better experience.” - Mark Eberman
                     </p>   
 
-                        <p className="content-text-21 content-block-75 align-self-center text-align-center margin-top-50 margin-bottom-50">
+                        <p className="content-text-21 content-block-60 flex-layout-center-center margin-top-25 margin-bottom-50">
                          Design determines success and understanding the user is paramount. WDS unites your business with  customers and brings an understanding to their needs and expectations.
                         </p>
                         <div className="flex-layout-section-full align-items-center">
@@ -64,7 +64,7 @@ class design_solutions extends Component {
             </div> 
            
 
-            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+            <div className="thin-hr width-70 align-self-center hrline-spacing width-70"></div>
 
             <section className="float-left align-items-center flex-layout-column">
                 <div className="subtitle content-block-60">
@@ -82,7 +82,7 @@ class design_solutions extends Component {
                   
                     
                     <div className="float-left">
-                        <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/website_design'}>
+                        <NavLink id="top" className='button-area no-decoration' type="button" value="learn more" to={'/website_design'}>
                             Learn More
                         </NavLink>
                     </div>
@@ -90,7 +90,7 @@ class design_solutions extends Component {
             </section>
             
            
-            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+            <div className="thin-hr width-70 align-self-center hrline-spacing width-70"></div>
 
             <section className="float-left align-items-center flex-layout-column">
                 <div className="subtitle content-block-60">
@@ -110,7 +110,8 @@ class design_solutions extends Component {
              </div> 
  </div>
             </section> 
-            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+
+            <div className="thin-hr width-70 align-self-center hrline-spacing width-70"></div>
 
             <section className="float-left align-items-center flex-layout-column">
                 <div className="subtitle content-block-60">
@@ -124,15 +125,15 @@ class design_solutions extends Component {
                     The goal of WDS is to identify the right approach for your unique target audiences on social media. They plan, develop, and execute innovative social media marketing strategies that build a meaningful experience for your users. User research, ad optimization techniques and social media platforms are leveraged to connect your brand, products and/or services to the right people. By creating highly targeted advertisements on social media, you can reach an otherwise untapped resource for potential customers. </p>
              
             
-            <div className="float-left content-block-60">
-            <NavLink className='button-area no-decoration float-left' type="button" value="learn more" to={'/marketing'}>
+            <div className="float-left">
+            <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/marketing'}>
                     Learn More
                     </NavLink>
             </div>   
             </div>
             </section>
 
-            <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+         
 
            
             <div className="thin-hr width-70 align-self-center margin-top-100"></div>            
@@ -140,7 +141,7 @@ class design_solutions extends Component {
         <section className="flex-layout-section-full align-items-center yellow-bg border-top-5">
             <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 margin-bottom-50 " > 
                 <div className="col2-text  grid-placeself-center ">
-                    <div className="content-block text-align-center ">
+                    <div className="content-block text-align-center margin-top-15sm ">
                             <p className="callout-text "> WDS CSS solutions relieves anxiety that most developers and engineers face when they see CSS work in their project requirements. </p>
 
                            

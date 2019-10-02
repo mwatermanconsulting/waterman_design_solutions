@@ -204,10 +204,13 @@ footer {
   margin-left: 4%; }
 
 .margin-left-6per {
-  margin-left: -6px; }
+  margin-left: -6%; }
+
+.margin-left-4sm {
+  margin-left: 0%; }
 
 .margin-left-6 {
-  margin-left: 7%; }
+  margin-left: 6%; }
 
 .margin-left-3 {
   margin-left: 0%; }
@@ -230,22 +233,32 @@ footer {
 .margin-left-15per {
   margin-left: 15%; }
 
-<<<<<<< HEAD
-.margin-left-15sm {
-  margin-left: 0%; }
-
-=======
 
 .margin-left-15sm {
   margin-left: 0%; }
 
+.margin-left-min15sm {
+  margin-left: 0%; }
 
->>>>>>> d60c09d13f054a871ce0777d26236866b75342bf
+.margin-top-35sm {
+  margin-top: 0%; }
+
+
+.margin-left-15sm {
+  margin-left: 0%; }
+
+
 .margin-left-30per {
   margin-left: 30%; }
 
 .margin-left-10per {
   margin-left: 10%; }
+
+.margin-left-20per {
+  margin-left: 20%; }
+
+.margin-left-22per {
+  margin-left: 22%; }
 
 .marginleft30 {
   margin-left: 30px; }
@@ -255,6 +268,9 @@ footer {
 
 .marginleft-40per {
   margin-left: -40%; }
+
+.margin-top-1 {
+  margin-top: 1%; }
 
 .margin-top-1per {
   margin-top: -1%; }
@@ -277,8 +293,35 @@ footer {
 .margin-top-50 {
   margin-top: 50px; }
 
+.margin-top-50sm {
+  margin-top: 0%; }
+
+.margin-top-70 {
+  margin-top: 70px; }
+
 .margin-left-2sm {
   margin-left: 0%; }
+
+.margin-left-50 {
+  margin-left: 50%; }
+
+.margin-left-25sm {
+  margin-left: 0%; }
+
+.margin-left-min25sm {
+  margin-left: 0%; }
+
+.margin-right-50 {
+  margin-right: 50%; }
+
+.margin-right-50 {
+  margin-right: 0%; }
+
+.margin-right-25sm {
+  margin-right: 25%; }
+
+.margin-right-50sm {
+  margin-right: 50%; }
 
 .margin-left-140 {
   margin-left: 140px; }
@@ -315,6 +358,12 @@ footer {
 .margin-top-10 {
   margin-top: 10px; }
 
+.margin-top-10sm {
+  margin-top: 0px; }
+
+.margin-top-15sm {
+  margin-top: 0px; }
+
 .margin-top-50 {
   margin-top: 25px; }
 
@@ -333,8 +382,17 @@ footer {
 .margin-top-5per {
   margin-top: -5%; }
 
+.margin-top-plus5per {
+  margin-top: 0%; }
+
 .margin-top-10per {
   margin-top: -10%; }
+
+.margin-top-plus3per {
+  margin-top: 3%; }
+
+.margin-top-min10per {
+  margin-top: 0%; }
 
 .margin-top-15per {
   margin-top: -15%; }
@@ -353,9 +411,6 @@ footer {
 
 .margin-top-20 {
   margin-top: 20px; }
-
-.margin-top-1 {
-  margin-top: -1%; }
 
 .margin-left-75 {
   margin-left: 75px; }
@@ -391,6 +446,12 @@ footer {
 .margin-tb-50 {
   margin: 50px 0 50px; }
 
+.padding-top-8sm {
+  padding-top: 8%; }
+
+.padding-top-6sm {
+  padding-top: 0%; }
+
 .padding-bottom-50 {
   padding-bottom: 50px; }
 
@@ -423,6 +484,7 @@ footer {
 .flex-section-fixed-head {
   display: flex;
   height: 100%;
+  min-height: 590px;
   background-color: #6c8086; }
 
 .flex-section-fixed-head-child {
@@ -860,8 +922,14 @@ footer {
 .padding {
   padding: 50px; }
 
+.padding-sm {
+  padding: 0px; }
+
 .padding-right-10 {
   padding-right: 10px; }
+
+.padding-right-15 {
+  padding-right: 15%; }
 
 .content-text {
   font-family: Roboto;
@@ -898,6 +966,13 @@ footer {
 .header-title {
   font-family: 'Mouse Memoirs', sans-serif;
   font-size: 10.1875rem;
+  letter-spacing: 1.1px;
+  line-height: 1.4;
+  text-align: center; }
+
+.header-title-sm {
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 3.1875rem;
   letter-spacing: 1.1px;
   line-height: 1.4;
   text-align: center; }
@@ -1124,20 +1199,38 @@ h1 {
   text-align: left; }
 
 .title-center {
-  font-family: 'Roboto', sans-serif;
-  font-size: 10.0rem;
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.05rem;
   font-weight: 500;
-  margin-bottom: 15px;
-  line-height: 55.5px;
+  color: #879397;
+  opacity: .8;
+  line-height: 1.25px;
+  text-align: center; }
+
+.title-center-sm {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: #879397;
+  opacity: .8;
+  line-height: 37.75px;
   text-align: center; }
 
 .subtitle {
   font-size: 1.8rem;
   font-weight: 700;
-  line-height: 1.25;
+  line-height: 1.45;
   font-family: 'Oswald';
   color: #879397;
   text-align: left; }
+
+.subtitle-center {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.25;
+  font-family: 'Oswald';
+  color: #879397;
+  text-align: center; }
 
 .height-670 {
   height: 670px; }
@@ -1363,7 +1456,7 @@ ol {
   margin-left: 25%; }
 
 .margin-left-25sm {
-  margin-left: 0%; }
+  margin-left: 4%; }
 
 .margin-left-17 {
   margin-left: 17%; }
@@ -2312,7 +2405,7 @@ Button:hover {
   *******************************/
 .flex-section-align-center {
   width: 1200px;
-  margin-left: 18.75%; }
+  margin-left: 10%; }
 
 .image-overlay-container {
   text-align: center;
@@ -2900,10 +2993,24 @@ a:any-link {
     display: inline-block;
     transition-timing-function: ease-out;
     transition: 0.75s; }
+  .content-text-24 {
+    font-family: 'Roboto', 'sans serif';
+    font-size: 1.6rem;
+    line-height: 1.25; }
+  .flex-section-fixed-head {
+    display: flex;
+    height: 100%;
+    min-height: auto;
+    background-color: #6c8086; }
   .margin-left-8 {
     margin-left: 8%; }
+  .margin-left-5 {
+    margin-left: 0; }
   .margin-left-why-60per {
     margin-left: 60%; }
+  .title-center {
+    line-height: 50.25px;
+    font-size: 2.0; }
   .margin-left-50 {
     margin-left: 0%; }
   .margin-right-25 {
@@ -2914,32 +3021,70 @@ a:any-link {
     margin-left: -3%; }
   .margin-left-30per {
     margin-left: 0%; }
-<<<<<<< HEAD
-=======
 
->>>>>>> d60c09d13f054a871ce0777d26236866b75342bf
+  .margin-right-25sm {
+    margin-left: 25%; }
+  .margin-right-25sm {
+    margin-left: 25%; }
+
   .margin-left-10sm {
     margin-left: 10%; }
   .margin-left-15sm {
     margin-left: 15%; }
   .margin-left-25sm {
     margin-left: 25%; }
+  .margin-left-min25sm {
+    margin-left: -25%; }
   .margin-left-2sm {
     margin-left: -2%; }
   .margin-left-4sm {
     margin-left: -4%; }
-<<<<<<< HEAD
-=======
 
->>>>>>> d60c09d13f054a871ce0777d26236866b75342bf
+  .margin-left-min4sm {
+    margin-left: -4%; }
+  .margin-left-6per {
+    margin-left: -6px; }
+  .margin-left-min15sm {
+    margin-left: -15%; }
+  .padding-top-6sm {
+    padding-top: 0%; }
+  .margin-top-plus5per {
+    margin-top: 5%; }
+  .margin-top-10per {
+    margin-top: 0%; }
+  .margin-top-10sm {
+    margin-top: 10px; }
+  .margin-top-15sm {
+    margin-top: 15px; }
+  .padding-sm {
+    padding: 20px; }
+  .padding-right-15 {
+    padding: 0; }
+  .header-title-sm {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 3.5875rem;
+    letter-spacing: 1.1px;
+    line-height: 1;
+    text-align: center; }
+
   .margin-top-15per {
     margin-top: 0%; }
   .margin-top-2 {
     margin-top: 2px; }
   .margin-top-25per {
     margin-top: .25%; }
+  .margin-top-min10per {
+    margin-top: -10%; }
   .margin-top-5 {
     margin-top: 5px; }
+  .margin-top-50 {
+    margin-top: 0px; }
+  .margin-top-50sm {
+    margin-top: 50px; }
+  .margin-top-70 {
+    margin-top: 0px; }
+  .margin-top-35sm {
+    margin-top: 35px; }
   .margin-top-100 {
     margin-top: 10%; }
   .media-margin {
@@ -2963,8 +3108,7 @@ a:any-link {
   .content-text-21 {
     font-family: Roboto;
     font-size: 1.3125rem;
-    line-height: 1.88;
-    text-align: center; }
+    line-height: 1.88; }
   .grid-why-list {
     width: 1200px;
     grid-template-columns: repeat(3, 400px);
@@ -3058,7 +3202,6 @@ a:any-link {
   /*******      Typography      ******/
   .subtitle {
     font-size: 1.5rem;
-    margin-top: 5px;
     text-align: center; }
   .subtitle-why {
     font-size: 1.5rem;
@@ -3088,10 +3231,10 @@ a:any-link {
   .callout-text-black {
     font-size: 1.25rem; }
   .callout-title {
-    font-size: 2.0rem; }
+    font-size: 2.0rem;
+    text-align: center; }
   .callout-text {
-    font-size: 1.25rem;
-    margin: 20px; }
+    font-size: 1.25rem; }
   /* GRIDS ****************************************************/
   .grid-callout {
     grid-template-columns: 1fr;
@@ -3252,8 +3395,7 @@ a:any-link {
     grid-column: 2/1;
     grid-row: auto;
     align-self: start;
-    min-height: 500px;
-    margin-bottom: 50px; }
+    min-height: 500px; }
   /*******  footer    ****************************************/
   .container-footer {
     height: 100%;
@@ -3303,7 +3445,7 @@ a:any-link {
     grid-column: 2/2;
     grid-row: 1/auto;
     align-self: start;
-    margin-top: 25%; } }
+    margin-top: 5%; } }
 
 @media (min-width: 768px) {
   .width-70 {
@@ -3314,6 +3456,8 @@ a:any-link {
     margin-left: 13%; }
   .margin-top-15per {
     margin-top: 0%; }
+  .margin-top-min10per {
+    margin-top: -10%; }
   .hrline-spacing {
     margin-top: 75px;
     margin-bottom: 75px; }
@@ -3345,8 +3489,6 @@ a:any-link {
   .grid-services-6 {
     grid-column: 2;
     grid-row: 4; }
-  .callout-text {
-    margin: 20px; }
   .grid-clients-wrapper {
     display: grid;
     grid-gap: 20px;
@@ -3564,6 +3706,10 @@ a:any-link {
     margin-top: 5px; }
   .margin-left-3 {
     margin-left: 0%; }
+  .padding-top-8-sm {
+    padding-top: 8%; }
+  .padding-top-6sm {
+    padding-top: 6%; }
   .grid-2things {
     width: 1200px;
     grid-template-columns: repeat(2, 1fr);
@@ -3582,10 +3728,26 @@ a:any-link {
     margin-left: 0%; }
   .margin-top-25 {
     margin-top: 25px; }
+  .margin-top-70 {
+    margin-top: 70px; }
+  .margin-top-50sm {
+    margin-top: 0px; }
   .margin-top-75 {
     margin-top: 75px; }
+  .margin-top-10per {
+    margin-top: -10%; }
+  .margin-left-min15sm {
+    margin-left: 0%; }
+  .margin-top-20per {
+    margin-top: -20%; }
   .margin-right-35 {
     margin-right: 35%; }
+  .margin-right-25sm {
+    margin-right: 25%; }
+  .margin-right-50 {
+    margin-right: 0%; }
+  .margin-right-50sm {
+    margin-right: 50%; }
   .margin-left-30per {
     margin-left: 30%; }
 
@@ -3593,6 +3755,9 @@ a:any-link {
     margin-left: 0%; }
   .margin-left-4sm {
     margin-left: 0%; }
+
+  .margin-left-6per {
+    margin-left: -6%; }
 
   .margin-tb-100 {
     margin: 50px 275px 50px 5px; }
@@ -3606,10 +3771,7 @@ a:any-link {
     padding-top: 0px;
     margin-bottom: 0px;
     padding-left: 25px; }
-<<<<<<< HEAD
-=======
 
->>>>>>> d60c09d13f054a871ce0777d26236866b75342bf
   .title {
     font-family: 'Oswald', sans-serif;
     font-size: 3.05rem;
@@ -3626,6 +3788,8 @@ a:any-link {
     margin-left: 0%; }
   .margin-top-10 {
     margin-top: 10px; }
+  .margin-top-5per {
+    margin-top: -5%; }
   .margin-left-5 {
     margin-left: 5%; }
   .margin-left-75 {
@@ -3652,6 +3816,10 @@ a:any-link {
     width: 55%; }
   .margin-left-10sm {
     margin-left: 0%; }
+  .margin-top-35sm {
+    margin-top: 0%; }
+  .margin-top-50 {
+    margin-top: 50px; }
   .content-block-60 {
     width: 60%; }
   .content-block-65 {

@@ -70,12 +70,12 @@ class why_wds extends Component {
                 </section>
 
                 <div className="flex-layout-section-full margin-top-25 grey-blue padding-bottom-50 padding-top-50">
-                <div className="title align-self-center margin-top-50" >
+                <div className="title align-self-center margin-top-50 margin-top-50sm" >
                         Your Complete Design Resource
                 </div>
                     <div className="grid-services-list padding-20 align-self-center margin-top-25 margin-left-why-60per">
                         <section className="grid-services-3">
-                        <a href="./ux_design" ><img className="width-icon margin-left-25" src={icon_ux}  alt="UX" /> </a>
+                        <a href="./ux_design" ><img className="width-icon margin-left-6" src={icon_ux}  alt="UX" /> </a>
                         <div className="subtitle-why margin-top-25">
                             <a href="./ux_design" className="no-decoration greenlink margin-left-6" style={{marginTop:'2%'}}>
                                 UX Design</a>
@@ -91,9 +91,10 @@ class why_wds extends Component {
                             </ul>
                         </section>
                         <section className="grid-services-1 margin-bottom-25">
-                            <a href="./design_solutions"> <img className="width-icon margin-left-8" src={icon_design_solutions}  alt="Design Solutions"/></a>
+                            <a href="./design_solutions"> <img className="width-icon margin-left-6" src={icon_design_solutions}  alt="Design Solutions"/></a>
                         <div className="subtitle-why margin-top-25">
-                            <a href="./design_solutions" className="no-decoration greenlink"> Design Solutions</a>
+                            <a href="./design_solutions" className="no-decoration greenlink margin-left-4"> 
+                                Design Solutions</a>
                         </div>
                             <ul className="dashed content-text-18 margin-top-15">
                                 <li>Website Design</li>
@@ -106,9 +107,10 @@ class why_wds extends Component {
                             </ul>
                     </section>
                     <section className="grid-services-2 margin-bottom-25">
-                    <a href="./core_offerings"><img className="width-icon margin-left-8" src={icon_design}  alt="Core Offerings" /></a>
+                    <a href="./core_offerings"><img className="width-icon margin-left-6" src={icon_design}  alt="Core Offerings" /></a>
                         <div className="subtitle-why margin-top-25">
-                        <a href="./core_offerings" className="no-decoration greenlink margin-left-5">Core Offerings</a></div>
+                        <a href="./core_offerings" className="no-decoration greenlink margin-left-5">
+                                Core Offerings</a></div>
                             <ul className="dashed content-text-18 margin-top-15">
                                 <li>Telemetry Strategies</li>
                                 <li>Design Support</li>
@@ -125,7 +127,7 @@ class why_wds extends Component {
                     <div className="title content-block-60">
                             Elegant solutions for difficult problems
                     </div>
-                        <div className="subtitle content-block-60 margin-top-15">
+                        <div className="subtitle content-block-60 margin-top-10">
                             The Value of Simplicity
                         </div>
                         <div className="content-block-60 content-text-18 margin-top-15"><div className="float-right">
@@ -142,7 +144,7 @@ class why_wds extends Component {
                     <div className="title content-block-60">
                             Our Core Offerings
                     </div>
-                        <div className="subtitle content-block-60 margin-top-15">
+                        <div className="subtitle content-block-60 margin-top-10">
                             The Business Value of Design
                         </div>
                         <div className="content-block-60 content-text-18">

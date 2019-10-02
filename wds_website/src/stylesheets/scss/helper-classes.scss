@@ -17,11 +17,15 @@
 }
 
 .margin-left-6per{
-  margin-left: -6px;
+  margin-left: -6%;
+}
+
+.margin-left-4sm{
+  margin-left: 0%;
 }
 
 .margin-left-6{
-  margin-left: 7%;
+  margin-left: 6%;
 }
 
 .margin-left-3{
@@ -56,12 +60,28 @@
   margin-left: 0%;
 }
 
+.margin-left-min15sm {
+  margin-left: 0%;
+}
+
+.margin-top-35sm {
+  margin-top: 0%;
+}
+
 .margin-left-30per {
   margin-left: 30%;
 }
 
 .margin-left-10per {
   margin-left: 10%;
+}
+
+.margin-left-20per {
+  margin-left: 20%;
+}
+
+.margin-left-22per {
+  margin-left: 22%;
 }
 
 .marginleft30{
@@ -73,6 +93,10 @@
 
 .marginleft-40per{
   margin-left: -40%;
+}
+
+.margin-top-1{
+  margin-top: 1%;
 }
 
 .margin-top-1per{
@@ -102,8 +126,43 @@
     margin-top: 50px;
 }
 
+.margin-top-50sm{
+  margin-top: 0%;
+}
+
+.margin-top-70 {
+  margin-top: 70px;
+}
+
 .margin-left-2sm {
   margin-left: 0%;
+}
+.margin-left-50 {
+  margin-left: 50%
+}
+
+.margin-left-25sm {
+  margin-left: 0%;
+}
+
+.margin-left-min25sm {
+  margin-left: 0%;
+}
+
+.margin-right-50 {
+  margin-right: 50%
+}
+
+.margin-right-50 {
+  margin-right: 0%
+}
+
+.margin-right-25sm {
+  margin-right: 25%
+}
+
+.margin-right-50sm {
+  margin-right: 50%;
 }
 
 .margin-left-140{
@@ -148,6 +207,14 @@
     margin-top: 10px;
   }
 
+  .margin-top-10sm {
+    margin-top: 0px;
+  }
+
+  .margin-top-15sm {
+    margin-top: 0px;
+  }
+
   .margin-top-50 {
     margin-top: 25px;
   }
@@ -172,10 +239,21 @@
     margin-top: -5%;
   }
 
+  .margin-top-plus5per {
+    margin-top: 0%;
+  }
 
 
   .margin-top-10per {
     margin-top: -10%;
+  }
+
+  .margin-top-plus3per {
+    margin-top: 3%;
+  }
+
+  .margin-top-min10per {
+    margin-top: 0%;
   }
 
   .margin-top-15per {
@@ -202,9 +280,6 @@
     margin-top: 20px;
   }
 
-  .margin-top-1 {
-    margin-top: -1%;
-  }
 
   .margin-left-75{
     margin-left: 75px;
@@ -251,6 +326,14 @@
     margin: 50px 0 50px;
   }
 
+  .padding-top-8sm {
+    padding-top: 8%;
+  }
+
+  .padding-top-6sm {
+    padding-top: 0%;
+  }
+
   .padding-bottom-50 {
     padding-bottom: 50px;
   }
@@ -262,6 +345,8 @@
   .padding-bottom-150 {
     padding: 150px;
   }
+
+
   
  
 
@@ -292,6 +377,7 @@
   .flex-section-fixed-head {
     display: flex;
     height: 100%;
+    min-height: 590px;
     background-color: $grey;
   }
 
@@ -820,8 +906,16 @@
       padding: 50px;
     }
 
+    .padding-sm {
+      padding: 0px;
+    }
+
     .padding-right-10 {
       padding-right: 10px;
+    }
+
+    .padding-right-15 {
+      padding-right: 15%;
     }
 
     .content-text {
@@ -860,6 +954,14 @@
     .header-title {
       font-family: 'Mouse Memoirs', sans-serif;
       font-size: 	10.1875rem ; 
+      letter-spacing: 1.1px;
+      line-height: 1.4;
+      text-align: center;
+    }
+
+    .header-title-sm {
+      font-family: 'Mouse Memoirs', sans-serif;
+      font-size: 	3.1875rem ; 
       letter-spacing: 1.1px;
       line-height: 1.4;
       text-align: center;
