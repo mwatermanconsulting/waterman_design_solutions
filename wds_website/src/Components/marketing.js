@@ -104,14 +104,14 @@ class marketing extends Component {
             <section className="grid-2col-photo-content content-header">
                     <div className="grid-left flex-layout-section-full">
                         <div className="title text-grey ">
-                        Monitor and Document  
+                        SEO and Documentation  
                         </div>
                         <div className="subtitle margin-top-15">
-                        WDS does all the work
+                        WDS does all the work with SEO services
                         </div>
                         <div className="content-text-18 margin-top-15">
                             <p className="content-text-18 margin-right-5"> 
-                            The WDS team will develop, manage, and monitor your social media account to increase brand awareness and drive follower engagement.  Clients are considered as thought leaders in the process of delivering engaging, relevant content.</p>
+                            The WDS team will develop, manage, and monitor your social media accounts to increase brand awareness and drive follower engagement.  Clients are considered as thought leaders in the process of delivering engaging, relevant content. Plus we'll analyze the insights from customer interaction with your product using Google Analytics, making sure you have all the elements necessary for increased online awareness of your business.</p>
                         </div>
                     </div>
                     <div className="grid-right-css container-image-block margin-top-25">
