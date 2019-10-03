@@ -49,20 +49,20 @@ class ux_design extends Component {
                 </section>
            
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100">
-                    <div className="float-left flex-layout-center-center content-block-60">
+                    <div className="float-left flex-layout-center-center content-block-65">
                         <div className="title">
                                 Real UX Involves Research and Empathy
                         </div>
-                        <div className="subtitle margin-top-15">
+                        <div className="subtitle margin-top-10">
                                 The Search for the Truth
                         </div>
                         <div className="margin-top-15">
                             <p className="content-text-18">
                                 Sometimes customers are so accustomed to current conditions that they don’t think to ask for a new solution, even if they have real needs that could be addressed. As consumers, we create workarounds that become a habit and we may forget that we are being forced to behave that way,
-                            <div className="float-right callout-photo grid-placeself-center">
+                            in a less-than-optimal fashion. This can make us incapable of telling UX designers what we really want. </p>
+                                <div className="float-right callout-photo grid-placeself-center">
                                  <img className="container-image-500" src={ux_s2}  alt="Research and Empathy" /> 
-                            </div> in a less-than-optimal fashion. This can make us incapable of telling UX designers what we really want. </p>
-
+                            </div> 
                                 <p className="content-text-18">
                                 For example, when asked about an editing function in a software package, one customer had no complaints until she sat down to use the program in front of the observer. Then she realized that her work was disrupted when the program did not automatically wrap text around graphics while she edited. Accustomed to working around the problem, she had not mentioned it in earlier interviews. When the observer notices this and points it out, it opens up an important issue that should be dealt with to make her life easier. <br></br>All the little things add up as big time wasters that need to be eliminated.
                                 </p>
@@ -76,7 +76,7 @@ class ux_design extends Component {
                         <div className="title content-block-60 ">
                                 The Value of Empathy
                         </div>
-                        <div className="subtitle content-block-60 margin-top-15">
+                        <div className="subtitle content-block-60 margin-top-10">
                                 Empathic Design Sparks Innovations 
                         </div>
                         <div className="content-block-60 margin-top-15">
@@ -85,7 +85,7 @@ class ux_design extends Component {
                             <p className="subtitle"> 
                                 Old-school Customer Service</p> 
                             <div className="float-right callout-photo grid-placeself-center">
-                                <img className="container-image-500 margin-top-15per margin-top-min10per" src={ux_s3}  alt="Old school customer service" />   
+                                <img className="container-image-500 margin-top-15per" src={ux_s3}  alt="Old school customer service" />   
                             </div>
                             <p className="content-text-18">
                                 Empathy is a very powerful selling tool, because it is human-centric. It’s the new buzz word, but empathy has always been at the heart of WDS designs.  <br></br>“Walk in the user’s shoes.” <br></br>“See the problem as if you were experiencing it yourself."<br></br>“Observe  daily routines.” <br></br>All of these mantras and behaviors are empathetic techniques that their UX designers have acquired through years of practice. It is part of their daily lives. 
@@ -98,7 +98,7 @@ class ux_design extends Component {
                     <section className="float-left align-items-center flex-layout-column">
                         <div className="title content-block-60">
                             UX Design is the study of people</div>
-                        <p className="subtitle content-block-60 margin-top-15">
+                        <p className="subtitle content-block-60 margin-top-10">
                             Understanding is Key
                         </p>
                         <div className="content-block-60 margin-top-15">
@@ -106,7 +106,7 @@ class ux_design extends Component {
                                 Understanding people as they go about completing a task is essential to guaranteeing a positive user experience. Every action of that task is an experience with your product or service. The experience can be positive or negative, depending on how much of the user was taken into account when designing. 
                             </p>
                         <div className="float-right callout-photo">
-                            <img className="container-image-500 margin-top-min10per" src={ux_s4}  alt="UX is the study of people" />
+                            <img className="container-image-500 " src={ux_s4}  alt="UX is the study of people" />
                         </div> 
                         <p className="content-text-18">User expectations have changed over the years. Simplicity is expected.  </p> 
                                
@@ -122,7 +122,7 @@ class ux_design extends Component {
                         <div className="title content-block-60">
                         WDS UX Team makes the Difference
                     </div>
-                    <div className="subtitle margin-top-15
+                    <div className="subtitle margin-top-10
                     flex-layout-center-center title content-block-60">
                         Real Designers Matter
                     </div>
