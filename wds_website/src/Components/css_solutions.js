@@ -110,25 +110,7 @@ class css_solutions extends Component {
 
         <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
-        <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
-            <div className="float-left flex-layout-center-center content-block-60">
-                <div className="title content-block-60">
-                    Modular CSS
-                </div>
-            <div className="subtitle margin-top-10 content-block-60">
-                    Reusable CSS
-            </div> 
-            <div className="float-right callout-photo">
-                <img className="container-image-500 margin-top-10per margin-top-15sm" src={css3}  alt="Prototypes" /> 
-            </div>
-            <div className="margin-top-15 margin-top-15sm">  
-                <p className="content-text-18 ">
-                    CSS preprocessors are scripting languages that extend the default capabilities of CSS. They enable us to use logic in our CSS code, such as variables, nesting, inheritance, mixins, functions, and mathematical operations. CSS preprocessors make it easy to automate repetitive tasks, reduce the number of errors and "code bloat," by creating reusable code snippets, that ensures backward compatibility.
-                </p>                
-            </div>  
-            </div>
-        </section>
-
+        
 
         <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 

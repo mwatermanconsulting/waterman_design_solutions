@@ -123,9 +123,9 @@ class services extends Component {
                     <div className="margin-top-15 content-block-65"> <div className="float-right callout-photo grid-placeself-center margintop-4per" >
                                 <img className="container-image-500 margin-top-20" src={services7}  alt="Design Solutions" /> 
                         </div> 
-                        <p className="content-text-18  content-block-65"> 
+                        <p className="content-text-18 "> 
                             WDS design solutions include software design, websites, marketing and print. WDS design solutions provide our clients consistency across all their consumer touchpoints. </p> 
-                            <p className="content-text-18  content-block-65">
+                            <p className="content-text-18 ">
                             All design solutions are done with empathy, keeping the focus on users and business needs.  </p>
                             <p className="content-text-18">
                              For over twenty years their design solutions have made a difference in peoples lives by helping businesses with difficult design problems and turning them into success stories.  </p>
@@ -146,7 +146,7 @@ class services extends Component {
                     <div className="margin-top-15 content-block-65"> <div className="float-right callout-photo grid-placeself-center">
                                 <img className="container-image-500" src={services5}  alt="Strategy and Insight" /> 
                         </div>  
-                        <p className="content-text-18 content-block-65">
+                        <p className="content-text-18">
                             The most meaningful insights for design strategy are developed with behavior-based understanding of users. WDS experience strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve.</p> 
                         <p className="content-text-18 margin-top-15">
                             By directly observing people, WDS can get to the heart of their needs. Discovering what drives them, what inspires them and what connects with them on an emotional level, WDS enlightens its clients with insights and strategies of where to invest resources based on this research.
