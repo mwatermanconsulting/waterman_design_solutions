@@ -1,5 +1,8 @@
 // Small devices (portrait phones, 320px and up)
 @media (min-width: 319px) {  
+
+
+
   .material-icons {
     opacity: 0.9;
     display: inline-block;
@@ -25,7 +28,6 @@
   
  .margin-left-5 {
     margin-left: 0;
-  
   }
 
   .margin-left-6sm{
@@ -35,6 +37,11 @@
   .margin-left-why-60per {
     margin-left: 60%;
   }
+
+  .padding-sm-20-10 {
+    padding: 20px 20px 5px 10px;
+  }
+
   .title-center {
     line-height: 50.25px;
     font-size: 2.0;
@@ -138,8 +145,10 @@
     padding: 0;
   }
 
-
-
+  .float-right {
+    float: right;
+    padding: 15px 15px 15px 0px;
+  }
 
 
   .header-title-sm {
@@ -283,7 +292,7 @@
   }
 
   .content-block-65 {
-    width: 90%;
+    width: 75%;
   }
 
   .content-block-70 {
@@ -343,15 +352,6 @@
   .container-image-block {
     width: 100%;
     height: auto;
-  }
-
-  .float-right {
-    float: none;
-    padding: 5px;
-  }
-
-  .float-left {
-    padding: 5px;
   }
 
   .height-670 {
@@ -743,7 +743,18 @@
     align-self: start;
     margin-top: 5%;
   }
+
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0;
+    margin-bottom: 15px;
+    padding: 17px;
+    font-family: Roboto;
   }
+  }
+
   
   
   // Medium devices (tablets, 768px and up)
@@ -989,6 +1000,8 @@
   padding: 5px;
 }
 
+
+
 .padding {
   padding: 50px;
 }
@@ -1071,6 +1084,20 @@
   
   // Extra large devices (large desktops, 1200px and up)
   @media (min-width: 1200px) { 
+
+    p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0;
+      margin-bottom: 15px;
+      padding: 1px;
+      font-family: Roboto;
+    }
+
+    .padding-sm {
+      padding: 0px;
+    }
   
   .visibility {
     display: block;

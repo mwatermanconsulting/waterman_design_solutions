@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
+import { NavLink } from 'react-router-dom';
 import bg_ui from '../images/backgrounds/bg-ui.png';
-import services2 from '../images/photos/photo-services-s2.png';
 import motorola from '../images/photos/photo-motorola-beforeafter.png';
 import motorola_logo from '../images/motorola_logo.svg'
 import stubhub_logo from '../images/icon-logo-stubhub.svg'
@@ -42,38 +42,38 @@ class ui_design extends Component {
             </section>
             <section className="grid-callout photo-content-color border-bottom-5 height-670"> 
                 <div className="grid-callout-text grid-placeself-center padding-20 content-block-75 content-header flex-layout-column">
-                    <div className="callout-title margin-top-15">
+                    <div className="callout-title-center margin-top-15">
                         The "aha" Moment
                     </div>
-                    <div className="callout-text text-align-left margin-top-15" >
+                    <div className="callout-text text-align-center margin-top-15 padding-left-4" >
                        WDS lives for the comment "why didn't we think of that" commonly expressed by stakeholders and/or managers during the design reveal. 
                     </div>    
                 </div>
-                <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
+                <div className="grid-callout-photo grid-placeself-center content-block-75">
                         <img className="container-image-500" src={ui_s1}  alt="The aha Moment" /> 
                  </div>
             </section>
             <section className="flex-layout-section-full flex-layout-column align-items-center">
-                <p className="title padding-20 margin-top-75">
+                <p className="title-center margin-top-75 content-block-65">
                 WDS has provided UI solutions to the some of the world's largest brands</p>
-                <p className="subtitle text-align-center content-block-65  margin-top-15">
-                Simplifying websites, products and software interfaces is a passion of WDS, and has been used by  industries such as the energy sector  to monitor nuclear reactors.
+                <p className="subtitle-center text-align-center content-block-60  margin-top-15">
+                Simplifying websites, products and software interfaces is a passion of WDS. Their latest design solutions for data visualization applications are being used in industries such as the energy sector to monitor nuclear reactors.
                 </p>
             </section>
 
-            <div className="flex-layout-section thin-hr hrline-spacing width-70"></div>
+            <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"></div>
 
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
                     <div className="float-left flex-layout-center-center content-block-65">
                         <div className="title">
                             UI Design and Development
                         </div>
-                        <div className="subtitle margin-top-15">
+                        <div className="subtitle margin-top-10">
                             Websites, Products and Applications
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                                 <img className="container-image-500 margin-top-plus5per" src={ui_s2}  alt="UI" /> 
-                            </div>
+                            <img className="container-image-500" src={ui_s2}  alt="UI" /> 
+                        </div>
                         <div className="margin-top-15">  
                             <p className="content-text-18"> 
                             WDS began its UI design skills by designing websites in 1998. Over the years they have evolved to developing complicated healthcare websites and solving difficult UI problems on critical applications. Their UI designs for data visualization are being used on oil rigs, nuclear reactors and pharmaceutical drug plants.  
@@ -97,7 +97,7 @@ class ui_design extends Component {
                             Mock-ups and Wireframes
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                                 <img className="container-image-500 margin-top-plus5per" src={ui_s3}  alt="Mock-ups and Wireframes" /> 
+                                 <img className="container-image-500" src={ui_s3}  alt="Mock-ups and Wireframes" /> 
                             </div>
                         <div className="margin-top-15">  
                        
@@ -126,7 +126,7 @@ class ui_design extends Component {
                             Representing the Final Product
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                                 <img className="container-image-500 margin-top-plus5per" src={ui_s4}  alt="Hi-Fidelity Designs" /> 
+                                 <img className="container-image-500 margin-top-25per" src={ui_s4}  alt="Hi-Fidelity Designs" /> 
                             </div>
                         <div className="margin-top-15">  
                        
@@ -154,7 +154,7 @@ class ui_design extends Component {
                             Ensuring your Design Success
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                            <img className="container-image-500 margin-top-plus5per" src={ui_s5}  alt="Concept Validation" /> 
+                            <img className="container-image-500" src={ui_s5}  alt="Concept Validation" /> 
                         </div>
                         <div className="margin-top-15">  
                        
@@ -182,7 +182,7 @@ class ui_design extends Component {
                             The "aha" Moment
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                            <img className="container-image-500 margin-top-2per margin-top-plus5per" src={ui_s6}  alt="Consolidated Workflows" /> 
+                            <img className="container-image-500 margin-top-2per" src={ui_s6}  alt="Consolidated Workflows" /> 
                           
                         </div>
                         <div className="margin-top-15">  
@@ -200,11 +200,11 @@ class ui_design extends Component {
                         <div className="title">
                             HTML and CSS Build Kits
                         </div>
-                        <div className="subtitle margin-top-15">
+                        <div className="subtitle margin-top-10">
                             Business Tailored UI Design Kits
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                                 <img className="container-image-500 margin-top-plus5per" src={ui_s7}  alt="HTML and CSS Build-Kits" /> 
+                                 <img className="container-image-500" src={ui_s7}  alt="HTML and CSS Build-Kits" /> 
                                
                             </div>
                         <div className="margin-top-15">  
@@ -232,7 +232,7 @@ class ui_design extends Component {
                             If a picture is worth 1000 words, a prototype is worth 1000 meetings
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center margin-top-1">
-                                 <img className="container-image-500 margin-top-plus5per" src={ui_s8}  alt="Prototypes" /> 
+                                 <img className="container-image-500" src={ui_s8}  alt="Prototypes" /> 
                                
                             </div>
                         <div className="margin-top-15">  
@@ -251,14 +251,12 @@ class ui_design extends Component {
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center ">
-                     <div className="title-center content-block-65">
+                     <div className="title-center content-text-36 content-block-65">
                             Design is not about being pretty or aesthetically pleasing, <br/> it is about simplicity.
                     </div>
-                    <div className="content-text-24 margin-top-25 content-block-65">
+                    <div className="content-text-21 margin-top-25 content-block-65">
                         WDS has been designing user interfaces for over twenty years. They originally designed user interfaces for websites, but that changed with their first complicated industrial user interface  designed for Motorola. Since then the UI design services expanded to all consumer-facing touchpoints, including software, mobile, SaaS and kiosks.
                     </div> 
-                   
-                   
                 </section> 
 
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
@@ -291,10 +289,12 @@ class ui_design extends Component {
                                 <p><i> Industry: Products</i></p>
                                 <p className="content-text-18 content-block">
                                     High Volume of returns plaguing Motorola Gateway Router Product Line. After two failed attempts by UX/UI developers, a frustrated management group decided they needed a UX designer to solve the problems.</p>
-                                <p><a href="./case_study_1" > Read More....</a> </p>  
+                                    <NavLink className='button-area no-decoration' type="button" to={'/case_study_2'}>
+                                                Read More...
+                                        </NavLink>  
                             </div>
                         </div>
-                        </div>
+                    </div>
                 </div>
                 
                 <div className="cs-card-2 card-case-studies content-header align-self-start flex-layout-column flex-sh-500">
@@ -313,7 +313,10 @@ class ui_design extends Component {
                                     <p className="content-text-18 content-block" >
                                     StubHub had built a custom business intelligence platform that failed to gain user traction. Their initial two releases were not successful and after a year of non-use, StubHub needed answers. They turned to WDS ...
                                         </p>
-                                    <p><a href="./case_study_2"  target="_blank">Read More....</a>  </p> 
+                                    <NavLink className='button-area no-decoration' type="button" to={'/case_study_2'}>
+                                                Read More...
+                                        </NavLink>
+                                        
                             </div>
                         </div>
                     </div>

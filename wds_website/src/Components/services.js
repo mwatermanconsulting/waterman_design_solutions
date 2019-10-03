@@ -43,7 +43,7 @@ class services extends Component {
             </section>
             <section className="grid-callout yellow-bg"> 
                 <div className="grid-callout-text grid-placeself-center width-70">
-                    <p className="callout-text ">
+                    <p className="callout-text padding-sm-20-10">
                        The role of a UX consultant is to listen and connect to the customers. WDS services are a testament to the belief in old-fashioned customer service.
                     </p>     
                 </div>
@@ -55,30 +55,27 @@ class services extends Component {
             <section className="flex-layout-section-full flex-layout-column align-items-center">
                 <p className="title margin-top-75">
                     WDS Services</p>
-                <p className="subtitle text-align-center  margin-top-15">
+                <p className="subtitle-center margin-top-15 content-block-65">
                      Design always determines success, and understanding the user is paramount to that success. <br/> The team of WDS UX designers design with empathy that connects with people,  meeting their needs and expectations. 
                 </p>
             </section>
 
             <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
-            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
-                    <div className="float-left flex-layout-center-center content-block-65">
-                        <div className="title">
+            <section className="flex-layout-section-full flex-layout-column align-items-center flex-layout-center-center">
+                    <div className="float-left flex-layout-center-center flex-layout-column align-items-center">
+                        <div className="title content-block-65">
                             User Experience Design
                         </div>
-                        <div className="subtitle margin-top-15">
+                        <div className="subtitle margin-top-10 content-block-65">
                            Understanding the User
                         </div>
-                        <div className="margin-top-15">
+                        <div className="margin-top-15 content-block-65">
                             
                             <p className="content-text-18"> 
-                            WDS design experts use research, empathy and insight to define how software functions and build workflows for the ways that people will experience it. From inception to launch, the users' voice is always heard, leaving no detail missed.</p>
-                        <p className="content-text-18">
-                        
-                        <div className="float-right callout-photo grid-placeself-center">
-                        <img className="container-image-500" src={services3}  alt="UX Design" /> </div>
-                        
+                            WDS design experts use research, empathy and insight to define how software functions and build workflows for the ways that people will experience it. From inception to launch, the users' voice is always heard, leaving no detail missed.</p> <div className="float-right callout-photo">
+                        <img src={services3} className="image-size-100"  alt="UX Design" /> </div>
+                        <p className="content-text-18 content-block-65">
 
                             The visual elements, they create will establish your brand as a design leader in your space. By understanding your business, users and competition WDS will ensure that you have a unique presence that include familiar use of fonts, icons with design solutions that has a certain elegance that resonates with your users' emotions. </p>
 
@@ -95,11 +92,11 @@ class services extends Component {
                         <div className="title">
                             UI Design and Development
                         </div>
-                        <div className="subtitle margin-top-15">
+                        <div className="subtitle margin-top-10">
                             Websites, Products and Applications
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center">
-                            <img className="container-image-500 margin-top-2" src={services2}  alt="UI Design" /> 
+                            <img className="container-image-500 margin-top-2 padding-sm-10-20" src={services2}  alt="UI Design" /> 
                             
                             </div>
                         <div className="margin-top-15">  
@@ -124,7 +121,7 @@ class services extends Component {
                          Empathetic Design
                     </div>
                     <div className="margin-top-15 content-block-65"> <div className="float-right callout-photo grid-placeself-center margintop-4per" >
-                                <img className="container-image-500" src={services7}  alt="Design Solutions" /> 
+                                <img className="container-image-500 margin-top-20" src={services7}  alt="Design Solutions" /> 
                         </div> 
                         <p className="content-text-18  content-block-65"> 
                             WDS design solutions include software design, websites, marketing and print. WDS design solutions provide our clients consistency across all their consumer touchpoints. </p> 

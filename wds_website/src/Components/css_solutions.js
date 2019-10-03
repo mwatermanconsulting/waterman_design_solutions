@@ -58,8 +58,8 @@ class css_solutions extends Component {
                         WDS solutions are based on empathy and their observed experiences working with developers. Their CSS knowledge and expertise is one of the main reasons they get hired. WDS CSS solutions are scalable and customizable to your business requirements. </p>
 
                 </div>
-                <NavLink className='button-area no-decoration' type="button" to={'/case_study_4'}>
-                   OsiSoft Case Study
+                    <NavLink className='button-area no-decoration' type="button" to={'/case_study_4'}>
+                        OsiSoft Case Study
                     </NavLink>
             </section>
 

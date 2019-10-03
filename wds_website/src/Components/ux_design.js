@@ -49,7 +49,7 @@ class ux_design extends Component {
                 </section>
            
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100">
-                    <div className="float-left flex-layout-center-center content-block-60">
+                    <div className="float-left flex-layout-center-center content-block-65">
                         <div className="title">
                                 Real UX Involves Research and Empathy
                         </div>
@@ -59,10 +59,10 @@ class ux_design extends Component {
                         <div className="margin-top-15">
                             <p className="content-text-18">
                                 Sometimes customers are so accustomed to current conditions that they don’t think to ask for a new solution, even if they have real needs that could be addressed. As consumers, we create workarounds that become a habit and we may forget that we are being forced to behave that way,
-                            <div className="float-right callout-photo grid-placeself-center">
+                            in a less-than-optimal fashion. This can make us incapable of telling UX designers what we really want. </p>
+                                <div className="float-right callout-photo grid-placeself-center">
                                  <img className="container-image-500" src={ux_s2}  alt="Research and Empathy" /> 
-                            </div> in a less-than-optimal fashion. This can make us incapable of telling UX designers what we really want. </p>
-
+                            </div> 
                                 <p className="content-text-18">
                                 For example, when asked about an editing function in a software package, one customer had no complaints until she sat down to use the program in front of the observer. Then she realized that her work was disrupted when the program did not automatically wrap text around graphics while she edited. Accustomed to working around the problem, she had not mentioned it in earlier interviews. When the observer notices this and points it out, it opens up an important issue that should be dealt with to make her life easier. <br></br>All the little things add up as big time wasters that need to be eliminated.
                                 </p>
@@ -106,7 +106,7 @@ class ux_design extends Component {
                                 Understanding people as they go about completing a task is essential to guaranteeing a positive user experience. Every action of that task is an experience with your product or service. The experience can be positive or negative, depending on how much of the user was taken into account when designing. 
                             </p>
                         <div className="float-right callout-photo">
-                            <img className="container-image-500 margin-top-min10per" src={ux_s4}  alt="UX is the study of people" />
+                            <img className="container-image-500 " src={ux_s4}  alt="UX is the study of people" />
                         </div> 
                         <p className="content-text-18">User expectations have changed over the years. Simplicity is expected.  </p> 
                                

@@ -467,6 +467,12 @@ footer {
 .padding-bottom-150 {
   padding: 150px; }
 
+.padding-left-4 {
+  padding-left: 4%; }
+
+.padding-left-15 {
+  padding-left: 15%; }
+
 .padding-20 {
   padding: 20px; }
 
@@ -939,6 +945,9 @@ footer {
 .padding-sm {
   padding: 0px; }
 
+.padding-sm-20-10 {
+  padding: 0px; }
+
 .padding-right-10 {
   padding-right: 10px; }
 
@@ -1286,7 +1295,8 @@ p {
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0;
-  margin-bottom: 16px;
+  margin-bottom: 15px;
+  padding: 0;
   font-family: Roboto; }
 
 .text-align-center {
@@ -3027,6 +3037,8 @@ a:any-link {
     margin-left: -6%; }
   .margin-left-why-60per {
     margin-left: 60%; }
+  .padding-sm-20-10 {
+    padding: 20px 20px 5px 10px; }
   .title-center {
     line-height: 50.25px;
     font-size: 2.0; }
@@ -3078,6 +3090,9 @@ a:any-link {
     padding: 20px; }
   .padding-right-15 {
     padding: 0; }
+  .float-right {
+    float: right;
+    padding: 15px 15px 15px 0px; }
   .header-title-sm {
     font-family: 'Mouse Memoirs', sans-serif;
     font-size: 3.5875rem;
@@ -3157,7 +3172,7 @@ a:any-link {
   .content-block-60 {
     width: 90%; }
   .content-block-65 {
-    width: 90%; }
+    width: 75%; }
   .content-block-70 {
     width: 90%; }
   .content-block-75 {
@@ -3195,11 +3210,6 @@ a:any-link {
   .container-image-block {
     width: 100%;
     height: auto; }
-  .float-right {
-    float: none;
-    padding: 5px; }
-  .float-left {
-    padding: 5px; }
   .height-670 {
     height: auto; }
   .margin-top-5per {
@@ -3464,7 +3474,15 @@ a:any-link {
     grid-column: 2/2;
     grid-row: 1/auto;
     align-self: start;
-    margin-top: 5%; } }
+    margin-top: 5%; }
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0;
+    margin-bottom: 15px;
+    padding: 17px;
+    font-family: Roboto; } }
 
 @media (min-width: 768px) {
   .width-70 {
@@ -3670,6 +3688,16 @@ a:any-link {
     grid-gap: 20px; } }
 
 @media (min-width: 1200px) {
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0;
+    margin-bottom: 15px;
+    padding: 1px;
+    font-family: Roboto; }
+  .padding-sm {
+    padding: 0px; }
   .visibility {
     display: block; }
   .float-right {
