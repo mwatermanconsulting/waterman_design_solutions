@@ -205,15 +205,15 @@ class services extends Component {
                 </section>
             
             <div className="flex-layout-section-full margin-top-50 grey-blue padding-bottom-50 ">
-                <div className="margin-top-50 margin-bottom-50 title-center">
+                <div className="padding  title-center">
                             Services
                     </div>
 
-                <section className="flex-layout-row flex-layout-justified-sb width-80 width-50sm align-self-center">
-                    
-                    <div className="flex-layout-center-center align-self-center margin-top-25">
-                        <img className="width-100" src={icon_strategy}  alt="Strategy and Insights" /> 
-                        <div className="subtitle-center margin-top-5">
+
+                <section className="flex-layout-row flex-layout-justified-sb width-80 width-50sm align-self-center">        
+                <div className="flex-layout-center-center  flex-items-align-top margin-top-25 width-280px">
+                        
+                        <div className="subtitle-center margin-top-5"><img  className="padding-20"  src={icon_strategy}  alt="Strategy and Insights" /> <br></br>
                             <a href="./strategy_insight" className="no-decoration">
                                 Strategy and Insights</a>
                         </div>
@@ -228,10 +228,10 @@ class services extends Component {
                         <li><a href="./core_offerings" className="no-decoration">Communication Workshops</a></li>
                               
                     </ul>  
-                    </div>
-                    <div className="flex-layout-center-center align-self-center margin-top-50">
-                        <a href="ux_design"><img className="width-100" src={icon_ux}  alt="UX" /> </a>
-                        <div className="subtitle-center margin-top-10">
+                </div>
+                <div className="flex-layout-center-center  flex-items-align-top margin-top-25 width-280px">
+                        
+                        <div className="subtitle-center margin-top-10"><img className="padding-20" src={icon_ux}  alt="UX" /> <br></br>
                            <a href="./ux_design" className="no-decoration">
                                UX Design</a> 
                         </div>
@@ -245,31 +245,31 @@ class services extends Component {
                         <li><a href="./design_systems" className="no-decoration">Style Guides</a></li>
                         <li>Information Architecture</li>
                     </ul>
-                    </div>
-                    <div className="flex-layout-center-center align-self-center margin-top-50">
-                        <img className="width-100" src={icon_ui}  alt="UI" />
-                        <div className="subtitle margin-top-10">
+                </div>
+
+                <div className="flex-layout-center-center  flex-items-align-top margin-top-25 width-280px">
+                        
+                        <div className="subtitle-center margin-top-15"><img className="padding-20"  src={icon_ui}  alt="UI" /><br></br>
                             <a href="./ui_design" className="no-decoration"> 
-                            UI Design and Development </a>
+                            UI Design </a>
                         </div>
                         <ul className="dashed content-text-18 margin-top-15">
-                            <li>Mock-ups</li>
-                            <li>Protyping</li>
                             <li>Hi-Fidelity Designs</li>
                             <li>CSS and HTML Build Kits</li>
                             <li>Concept Validation</li> 
                             <li>Wireframe Key Workflows</li>
+                            <li>Mock-ups</li>
+                            <li>Protyping</li>
                             <li><a href="./css_solutions" className="no-decoration">CSS Solutions</a></li>  
                             </ul>
                     </div>
 
-                </section>
-                <section className="flex-layout-row flex-layout-justified-sb align-self-center width-70">
-                    <div className="flex-layout-center-center align-self-center margin-top-25">
-                        <img className="width-100" src={icon_marketing}  alt="Marketing and Analysis" />
-                        <div className="subtitle-center margin-top-10">
+           
+                    <div className="flex-layout-center-center flex-items-align-top margin-top-25 width-280px">
+                        
+                        <div className="subtitle-center margin-top-15"><img  className="padding-20"  src={icon_marketing}  alt="Marketing and Analysis" /><br></br>
                            <a href="./marketing" className="no-decoration"> 
-                           Marketing and Analytics</a>
+                           Marketing/Analytics</a>
                         </div>
                         <ul className="dashed content-text-18 margin-top-15">
                             <li>Marketing Strategy</li>
@@ -280,13 +280,15 @@ class services extends Component {
                             <li>Innovation as a Brand</li>       
                         </ul>  
                     </div>
-                    <div className="flex-layout-center-center align-self-center margin-top-25">
-                        <img className="width-100" src={icon_design_solutions}  alt="Design Solutions" />
-                        <div className="subtitle-center margin-top-10">
+
+                    <div className="flex-layout-center-center  flex-items-align-top margin-top-25 width-280px">
+                        
+                        <div className="subtitle-center margin-top-15">
+                            <img  className="padding-20" src={icon_design_solutions}  alt="Design Solutions" /><br></br>
                             <a href="./design_solutions" className="no-decoration">
                                 Core Offerings</a>
                         </div>
-                            <ul className="dashed content-text-18 margin-left-10per margin-top-15">
+                            <ul className="dashed content-text-18 margin-top-15">
                                 <li>Business Design Strategies</li>
                                 <li>Empathy Workshops</li>
                                 <li>Communication Strategies</li>
@@ -298,9 +300,10 @@ class services extends Component {
 
                             </ul>
                     </div>
-                    <div className="flex-layout-center-center align-self-center margin-top-25">
-                        <img className="width-100" src={icon_design}  alt="Design" />
-                        <div className="subtitle-center margin-top-15">
+
+                    <div className="flex-layout-center-center  flex-items-align-top margin-top-25 width-280px">
+                       
+                        <div className="subtitle-center margin-top-15"> <img  className="padding-20" src={icon_design}  alt="Design" /><br></br>
                                 <a href="./design_solutions" className="no-decoration">
                                     Design Solutions</a></div>
                             <ul className="dashed content-text-18 margin-top-15">
