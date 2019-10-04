@@ -137,7 +137,7 @@ class case_study_4 extends Component {
                 </section>
                 <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-50">
                     <img className="photo-container-cs-sb1" src={osi_s1} alt="Finding the Truth - Business Perspective"/>
-                    <p className="margin-top-15"><i> Flexbox solved many layout issues</i></p>
+                    <div className="margin-top-15 caption width-70"><i> Flexbox solved many layout issues</i></div>
                 </div>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
@@ -159,7 +159,7 @@ class case_study_4 extends Component {
                 </section>
                     <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-50">
                         <img className="photo-container-cs-sb1" src={sass} alt="Finding the Truth - Business Perspective"/>
-                        <p className="margin-top-15"><i> Making CSS Awesome</i></p>
+                        <div className="margin-top-15 caption width-70"><i> Making CSS Awesome</i></div>
                     </div>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
@@ -180,8 +180,8 @@ class case_study_4 extends Component {
                
                 <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-50">
                     <img className="photo-container-cs-sb1" src={itcss} alt="Finding the Truth - Business Perspective"/>
-                    <p className="margin-top-15">
-                        <i>Credit to Harry Roberts for this excellent solution</i></p>
+                    <div className="margin-top-15 caption width-70">
+                        <i>Credit to Harry Roberts for this excellent solution</i></div>
                 </div>
 
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
@@ -251,8 +251,8 @@ class case_study_4 extends Component {
 
                     <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-50">
                         <img className="photo-container-cs-sb1" src={kendo} alt="Finding the Truth - Business Perspective"/>
-                        <p className="margin-top-15">
-                            <i>Kendo Framework for Angular</i></p>
+                        <div className="margin-top-15 caption width-70">
+                            <i>Kendo Framework for Angular</i></div>
                     </div>
 
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
@@ -273,7 +273,7 @@ class case_study_4 extends Component {
                 </section>
                     <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-25">
                         <img className="photo-container-cs-sb1 width-100" src={design_system} alt="Finding the Truth - Business Perspective"/>
-                        <p className="margin-top-15"><i>Sections of the OsiSoft style guide and design system </i></p>
+                        <div className="margin-top-15 caption width-70"><i>Sections of the OsiSoft style guide and design system </i></div>
                     </div>
 
                     
