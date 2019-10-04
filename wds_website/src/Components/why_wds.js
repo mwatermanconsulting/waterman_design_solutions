@@ -39,7 +39,7 @@ class why_wds extends Component {
                 </section>
                 <div className="container-section-1-primary flex-layout-center-center border-bottom-5 red padding-15sm">
                     <div className="callout-text-lg"> 
-                        WDS knows how to solve complex design problems.
+                        WDS knows how to solve complex design problems
                         
                     </div>
                 </div>
@@ -55,7 +55,7 @@ class why_wds extends Component {
                     </div>
                 </section>
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
-                    <p className="title margin-top-75">
+                    <p className="title margin-top-75 width-65sm">
 
                         WDS Relieves Your Design Fears </p>
 
@@ -66,63 +66,72 @@ class why_wds extends Component {
                         WDS offers empathetic design solutions for websites, applications, mobile apps, and social media. Its core offerings help your business understand the value of design on a core level, providing training, workshops and mentorship programs.
                         With over 15 years of perfecting their design and business strategies, WDS has the experience, designers, strategists and expertise to deliver sophisticated design solutions. </p>
                         <p className="subtitle margin-top-50 margin-bottom-50 content-block-65 flex-layout-column align-items-center">
-                        Our client roster includes Motorola, Pfizer, Stubhub, SmithKline, Google...</p>
+                        Clients include Motorola, Pfizer, StubHub, SmithKline, and Google</p>
                 </section>
 
-                <div className="flex-layout-section-full margin-top-25 grey-blue padding-bottom-50 padding-top-50">
-                <div className="title align-self-center margin-top-50 margin-top-50sm" >
-                        Your Complete Design Resource
-                </div>
-                    <div className="flex-layout-justified-sb align-self-center margin-top-25 width-50">
-                        <section className="align-self-center">
-                        <a href="./ux_design" ><img className="width-icon margin-left-15per margin-left-25sm" src={icon_ux}  alt="UX" /> </a>
-                        <div className="subtitle margin-top-25">
-                            <a href="./ux_design" className="no-decoration greenlink text-align-center margin-left-min10per-sm margin-left-15per">
-                                UX Design</a>
+                <div className="flex-layout-section-full margin-top-50 grey-blue padding-bottom-50 ">
+                <div className="padding  title-center">
+                Your Complete Design Resource
+
+                    </div>
+                <section className="flex-layout-row flex-layout-justified-sb width-70 align-self-center ">
+                    <div className="flex-layout-center-center  flex-items-align-top margin-top-25 width-280px">
+                            
+                            <div className="subtitle-center margin-top-10"><img className="padding-20" src={icon_ux}  alt="UX" /> <br></br>
+                               <a href="./ux_design" className="no-decoration">
+                                   UX Design</a> 
+                            </div>
+                        <ul className="dashed content-text-18 margin-top-15 ">
+                            <li>Interaction Design</li>
+                            <li>Visual Design</li>
+                            <li>Personas</li>
+                            <li>Prototyping</li> 
+                            <li>Consolidated Workflows</li>
+                            <li><a href="./design_systems" className="no-decoration">Design Systems</a></li>
+                            <li><a href="./design_systems" className="no-decoration">Style Guides</a></li>
+                            <li>Information Architecture</li>
+                        </ul>
+                    </div>
+    
+                    <div className="flex-layout-center-center  flex-items-align-top margin-top-25 width-280px">
+                            
+                            <div className="subtitle-center margin-top-15">
+                                <img  className="padding-20" src={icon_design_solutions}  alt="Design Solutions" /><br></br>
+                                <a href="./design_solutions" className="no-decoration">
+                                    Core Offerings</a>
+                            </div>
+                                <ul className="dashed content-text-18 margin-top-15">
+                                    <li>Business Design Strategies</li>
+                                    <li>Empathy Workshops</li>
+                                    <li>Communication Strategies</li>
+                                    <li>Design Solutions</li> 
+                                    <li>C-Suite Workshops</li> 
+                                    <li>Customer Experience Strategies</li>
+                                    <li>Telemetry/Analytics Strategies</li>
+                                    <li>Accessibility Strategies</li>
+    
+                                </ul>
                         </div>
-                            <ul className="dashed content-text-18 margin-bottom-25 margin-top-15">
-                                <li>Interaction Design</li>
-                                <li>UX Business Strategies</li>
-                                <li>Personas</li>
-                                <li>Prototyping</li> 
-                                <li>Concept Validation</li> 
-                                <li>Consolidated Workflows</li>
-                                <li>Pattern Libraries</li>
-                            </ul>
-                        </section>
-                        <section className="align-self-center margin-bottom-25">
-                            <a href="./design_solutions"> <img className="width-icon margin-left-6" src={icon_design_solutions}  alt="Design Solutions"/></a>
-                        <div className="subtitle-why margin-top-25">
-                            <a href="./design_solutions" className="no-decoration greenlink"> 
-                                Design Solutions</a>
+    
+                        <div className="flex-layout-center-center  flex-items-align-top margin-top-25 width-280px">
+                           
+                            <div className="subtitle-center margin-top-15"> <img  className="padding-20" src={icon_design}  alt="Design" /><br></br>
+                                    <a href="./design_solutions" className="no-decoration">
+                                        Design Solutions</a></div>
+                                <ul className="dashed content-text-18 margin-top-15">
+                                    <li>User Interface Design</li>
+                                    <li>Visual Design</li>
+                                    <li>Design Metrics</li>
+                                    <li>Protyping</li> 
+                                    <li>Concept Validation</li> 
+                                    <li>Wireframe Key Workflows</li>
+                                    <li>Design Systems</li>
+                                    <li>Style Guides</li>
+                                </ul>
                         </div>
-                            <ul className="dashed content-text-18 margin-top-15">
-                                <li>Website Design</li>
-                                <li>Branding</li>
-                                <li>Marketing</li> 
-                                <li>Print Design</li> 
-                                <li>Video Production</li>
-                                <li>Design Systems</li>
-                                <li>Style Guides</li>
-                            </ul>
-                    </section>
-                    <section className="align-self-center margin-bottom-25">
-                    <a href="./core_offerings"><img className="width-icon margin-left-17" src={icon_design}  alt="Core Offerings" /></a>
-                        <div className="subtitle-why margin-top-25">
-                        <a href="./core_offerings" className="no-decoration greenlink margin-left-15per margin-left-10sm">
-                                Core Offerings</a></div>
-                            <ul className="dashed content-text-18 margin-top-15">
-                                <li>Telemetry Strategies</li>
-                                <li>Design Support</li>
-                                <li>Design Workshops</li>
-                                <li>Empathy Workshops</li> 
-                                <li>Data Monitoring</li>
-                                <li>UX Agile Integration </li>
-                                <li>Accessibility Strategies</li>
-                            </ul>
                     </section>
                 </div>
-            </div>
+
                 <section className="float-left align-items-center flex-layout-column margin-top-75">
                     <div className="title content-block-60">
                             Elegant solutions for difficult problems
@@ -161,7 +170,7 @@ class why_wds extends Component {
                 <section className="flex-layout-section-full align-items-center">
                     <p className="title"> 
                         Design Services</p>
-                    <p className="subtitle margin-top-25per"> 
+                    <p className="subtitle margin-top-25per  width-65sm"> 
                          WDS Most Requested Design Offerings</p>
                 </section>    
 
@@ -253,9 +262,9 @@ class why_wds extends Component {
                         WDS builds emotionally rich, resonant digital solutions that enable users to fully realize technology’s complete potential by simplifying everything your customers touch and feel.</p>
                
                     <div className="flex-layout-column  margin-top-25">    
-                        <img src={advocate} className="align-self-center container-image-500 margin-bottom-20" alt="Advocates for the User"/>
-                        <p className=" text-align-center">
-                        Advocating and Designing for the User</p>
+                        <img src={advocate} className="align-self-center  width-65sm margin-bottom-20" alt="Advocates for the User"/>
+                        <p className="caption text-align-center">
+                        <i>Advocating and Designing for the User</i></p>
                     </div>
                 
 

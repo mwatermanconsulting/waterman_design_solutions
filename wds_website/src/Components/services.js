@@ -35,7 +35,7 @@ class services extends Component {
                     <img className="flex-image-container image-size-100" src={practice}  alt="Services image" /> 
                 </div> 
             </section>
-            <section className="container-section-1-primary flex-layout-center-center border-bottom-5 red padding-15sm">
+            <section className="container-section-1-primary flex-layout-center-center border-bottom-5 red">
                 <div className="callout-text-white"> 
                 “The role of the designer is that of a good, thoughtful host anticipating the needs of his guests.” – Charles Eames
 
@@ -56,7 +56,8 @@ class services extends Component {
                 <p className="title margin-top-75">
                     WDS Services</p>
                 <p className="subtitle-center margin-top-15 content-block-65">
-                     Design always determines success, and understanding the user is paramount to that success. <br/> The team of WDS UX designers design with empathy that connects with people,  meeting their needs and expectations. 
+                     Design always determines success, and understanding the user is paramount to that success. </p>
+                     <p className="content-text-18 content-block-65"> The team of WDS UX designers design with empathy that connects with people,  meeting their needs and expectations. 
                 </p>
             </section>
 
@@ -75,7 +76,7 @@ class services extends Component {
                             <p className="content-text-18"> 
                             WDS design experts use research, empathy and insight to define how software functions and build workflows for the ways that people will experience it. From inception to launch, the users' voice is always heard, leaving no detail missed.</p> <div className="float-right callout-photo">
                         <img src={services3} className="image-size-100"  alt="UX Design" /> </div>
-                        <p className="content-text-18">
+                        <p className="content-text-18 content-block-65">
 
                             The visual elements, they create will establish your brand as a design leader in your space. By understanding your business, users and competition WDS will ensure that you have a unique presence that include familiar use of fonts, icons with design solutions that has a certain elegance that resonates with your users' emotions. </p>
 
@@ -209,8 +210,8 @@ class services extends Component {
                             Services
                     </div>
 
-
-                <section className="flex-layout-row flex-layout-justified-sb width-80 width-50sm align-self-center">        
+        <section className="flex-layout-row flex-layout-justified-sb width-70 align-self-center">
+                    
                 <div className="flex-layout-center-center  flex-items-align-top margin-top-25 width-280px">
                         
                         <div className="subtitle-center margin-top-5"><img  className="padding-20"  src={icon_strategy}  alt="Strategy and Insights" /> <br></br>
