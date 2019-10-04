@@ -71,8 +71,8 @@ class innovative_solutions extends Component {
                         <img className="photo-container" style={{marginTop: '-5px'}} src={finding}  alt="Establish Business Context" /> 
                     </div>  
                     <p className="content-text-18"> 
-                    At the beginning of the methodology, WDS sets the foundation for success by developing an
-                            understanding of the business, the industry, the competition and relevant trends. This is the basis for how subsequent phases are approached, which includes secondary research, interviewing stakeholders and subject matter experts in order to gain a first-hand awareness of the company context and build connections within the business. This contributes to stakeholder alignment throughout the engagement and begins to define a hypothesis for where the company intends to play in the market, who it intends to serve and how it plans to serve them. 
+                        At the beginning of the methodology, WDS sets the foundation for success by developing an
+                        understanding of the business, the industry, the competition and relevant trends. This is the basis for how subsequent phases are approached, which includes secondary research, interviewing stakeholders and subject matter experts in order to gain a first-hand awareness of the company context and build connections within the business. This contributes to stakeholder alignment throughout the engagement and begins to define a hypothesis for where the company intends to play in the market, who it intends to serve and how it plans to serve them. 
                     </p>
                 </div>
                 </section>
@@ -84,14 +84,15 @@ class innovative_solutions extends Component {
                             Field Observation and Interviews
                     </div>
                     <div className="subtitle content-block-60 margin-top-10">
-                            Developing insights from observations
+                            Developing Insights from Observations
                     </div>
                         <div className="content-block-60 content-text-18 margin-top-15">
                             <p className="content-text-18"> 
                             Great strategies for design solutions are built on rich insight. The most meaningful insights for experience strategy are developed with a deep, behavior-based understanding of users or customers. 
                             <div className="float-right">
                         <img className="photo-container" src={finding_truth3} style={{marginRight:'12%'}} alt=" Field Observation and Interviews" /> 
-                            </div> WDS experience strategists observe people in context - where they work, play or live - to understand their goals, needs and aspirations as they go about their daily lives. If a product does not yet exist, this first-hand look helps to identify unmet needs that a product may solve.</p>
+                            </div> 
+                            WDS experience strategists observe people in context - where they work, play or live - to understand their goals, needs and aspirations as they go about their daily lives. If a product does not yet exist, this first-hand look helps to identify unmet needs that a product may solve.</p>
 
                             <p className="content-text-18">
                             Using techniques from the fields of anthropology, psychology, product development and design, WDS uses methods such as “contextual inquiry” to observe and record a rich variety of data, including body language, how people interact with their tools and how they construct their environments to be successful in their worlds. 
@@ -110,7 +111,7 @@ class innovative_solutions extends Component {
                             Developing a Persona
                     </div>
                         <div className="subtitle content-block-60 margin-top-10">
-                            Introducing the voice of the user
+                            Introducing the Voice of the User
                         </div>
                         <div className="content-block-60 content-text-18 margin-top-15"><div className="float-right">
                         <img className="photo-container" src={finding_truth4}  alt="Developing a Persona" /> 
@@ -124,7 +125,7 @@ class innovative_solutions extends Component {
 
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
-                           Visualizing  experience touchpoints
+                           Visualizing  Experience Touchpoints
                     </div>
                     <div className="subtitle content-block-60 margin-top-10">
                             The User Journey
@@ -154,15 +155,15 @@ class innovative_solutions extends Component {
                     <div className="title content-block-60">
                             Simplified workflow diagram
                     </div>
-                    <div className="subtitle content-block-60 margin-top-15">
+                    <div className="subtitle content-block-60 margin-top-10">
                             Understanding the Cognitive State of the Users
                     </div>
-                        <div className="content-block-60 content-text-18 margin-top-25">
-                            <p className="content-text-18"> 
-                            When an engagement centers on a complex tool for enterprise business, the simplified workflow diagram captures activity across organizational roles and provides stakeholders a single view of all of the work accomplished in and around a tool. This diagram gives stakeholders an “aha!” moment as, for the first time,  <div className="float-right">
+                        <div className="content-block-60 content-text-18 margin-top-25"><div className="float-right">
                                 <img className="photo-container" src={finding_truth6}  alt="Simplified workflow diagram" /> 
-                            </div>they have a picture of the duties employees or customers accomplish in their work lives. </p> 
+                            </div> 
 
+                            <p className="content-text-18"> 
+                            When an engagement centers on a complex tool for enterprise business, the simplified workflow diagram captures activity across organizational roles and provides stakeholders a single view of all of the work accomplished in and around a tool. This diagram gives stakeholders an “aha!” moment as, for the first time,  they have a picture of the duties employees or customers accomplish in their work lives. </p>
                             <p className="content-text-18"> 
                             Through the use of a simplified workflow diagram, how a user moves through tasks is revealed and extrapolated from here to the various cognitive states a user inhabits while engaged with the solution or process.
                             These cognitive states represent a model of what is in people’s minds as they do their work, their mental model. This understanding has implications for both design and marketing.</p>
@@ -174,26 +175,29 @@ class innovative_solutions extends Component {
 
                 <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"></div>
 
-                <section className="grid-gallery-2col flex-layout-column content-block-65 align-self-center">
-                    <div className="gallery-2col-1 flex-layout-section-full margin-left-325">
-                        <div className="title">
-                            Develop frameworks                        
+                <section className="flex-layout-justified-sb flex-layout-row content-block-50">
+                    <div className="flex-layout-section-full">
+                        <div className="title-center">
+                            Develop Frameworks                        
                         </div>
-                        <div className="subtitle  margin-top-10">
-                            Principles for design strategies
+                        <div className="subtitle-center margin-top-10">
+                            Principles for Design Strategies
                         </div>
-                        <div className="content-text-18 margin-top-15 content-block-60">
+                        <div className="content-text-18 margin-top-15">
                             <p className="content-text-18 padding-right-15sm"> 
                             A solid design strategy provides a decision-making framework to drive customer-centered initiatives across the company. After the investment in deep customer understanding, the results can be shared among many departments to increase their value to the company.
                             The framework is a set of principles or questions that guide the development of ideas for solutions as well as the subsequent work performed by multiple teams in developing and marketing those solutions: architects, marketers, designers, branders, etc. This decision-making framework is valuable because it puts to work the understanding of the needs and concerns of the customer group, captured in the field observations. It persists beyond a specific project, providing value long after an engagement.</p>
                         </div>
                     </div>
-                    <div className="gallery-2col-2t">
-                        <div className="title">
-                            Design and evaluate                        
+
+                    <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-100"></div>
+
+                    <div className="flex-layout-section-full">
+                        <div className="title-center">
+                            Design and Evaluate                        
                         </div>
-                        <div className="subtitle margin-top-10">
-                            Envision, prioritize and rank opportunity concepts
+                        <div className="subtitle-center margin-top-10">
+                            Envision, Prioritize and Rank Opportunity Concepts
                         </div>
                         <div className=" content-text-18 margin-top-15 padding-right-15">
                             <p className="content-text-18"> 
@@ -210,18 +214,17 @@ class innovative_solutions extends Component {
 
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
-                            Establish an design-driven product roadmap
+                        Establish an Design-Driven Product Roadmap
                     </div>
-                    <div className="subtitle content-block-60 margin-top-15">
-                            A way forward, with customers in mind
+                    <div className="subtitle content-block-60 margin-top-10">
+                        Keeping Customers in the Loop
                     </div>
-                    <div className="content-block-60 content-text-18 margin-top-15">
+                    <div className="content-block-60 content-text-18 margin-top-15"><div className="float-right">
+                        <img className="photo-container" src={finding_truth7}  alt="Establish an design-driven product roadmap" /> 
+                    </div>
                         <p className="content-text-18"> 
-                         Design-driven product roadmaps give the needs of customers a seat at the table, helping to ensure that what is released is what customers will value.
-                         
-                    <div className="float-right">
-                    <img className="photo-container" src={finding_truth7}  alt="Establish an design-driven product roadmap" /> 
-                    </div> WDS collaborates with product teams to incorporate the understanding and strategy developed in the revealing truth phase into the plan for how to group and sequence capabilities in an application. This includes the selection of features for the minimum viable product  (MVP) that users and customers will be eager to adopt because it is developed with their needs in mind.</p>
+                         Design-driven product roadmaps give the needs of customers a seat at the table, helping to ensure that what is released is what customers will value.  WDS collaborates with product teams to incorporate the understanding and strategy developed in the revealing truth phase into the plan for how to group and sequence capabilities in an application. This includes the selection of features for the minimum viable product  (MVP) that users and customers will be eager to adopt because it is developed with their needs in mind.</p> 
+                    
                             
                             <p className="content-text-18"> 
                             A design-driven product roadmap provides a way forward  in the direction established by the experience strategy. Having deep user understanding enables the cadence of releases to be structured to appeal to users, providing a built-in incentive to update an application. This is how WDS builds a holistic experience that addresses customers’ and business’ goals and positively impacts the company’s value.</p>    
@@ -249,16 +252,16 @@ class innovative_solutions extends Component {
                             This plan includes user insights and market data, to determine the channels, content, messages and cadences that are right for specific personas at specific points in their journeys. This enables companies to build relationships with their customers that extend beyond transactions to build value. It ensures that great experiences find an audience in a world full of offerings. </p>
                         </div>
                     </section>
-                
-                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+
+                    <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
                 <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
-                       <img className="container-image-500 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
-                      
-                      <div >
-                          <p className="callout-text-white text-align-center">WDS offers Empathy Workshops.<p className="text-align-center margin-top-25" ></p>  </p>
+                    <img className="container-image-500 margin-bottom-50 margin-top-50sm" src={didyouknow}  alt="Did You Know?" /> 
+                    <div>
+                        <p className="callout-text-white text-align-center">
+                        WDS offers Empathy Workshops.</p>
                     </div>
                 </div>
-            </section>    
+            </section>
             </div>
         </div>
         )

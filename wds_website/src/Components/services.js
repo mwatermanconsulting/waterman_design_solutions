@@ -35,7 +35,7 @@ class services extends Component {
                     <img className="flex-image-container image-size-100" src={practice}  alt="Services image" /> 
                 </div> 
             </section>
-            <section className="container-section-1-primary flex-layout-center-center border-bottom-5 red">
+            <section className="container-section-1-primary flex-layout-center-center border-bottom-5 red padding-15sm">
                 <div className="callout-text-white"> 
                 “The role of the designer is that of a good, thoughtful host anticipating the needs of his guests.” – Charles Eames
 
@@ -75,7 +75,7 @@ class services extends Component {
                             <p className="content-text-18"> 
                             WDS design experts use research, empathy and insight to define how software functions and build workflows for the ways that people will experience it. From inception to launch, the users' voice is always heard, leaving no detail missed.</p> <div className="float-right callout-photo">
                         <img src={services3} className="image-size-100"  alt="UX Design" /> </div>
-                        <p className="content-text-18 content-block-65">
+                        <p className="content-text-18">
 
                             The visual elements, they create will establish your brand as a design leader in your space. By understanding your business, users and competition WDS will ensure that you have a unique presence that include familiar use of fonts, icons with design solutions that has a certain elegance that resonates with your users' emotions. </p>
 
@@ -209,7 +209,7 @@ class services extends Component {
                             Services
                     </div>
 
-                <section className="flex-layout-row flex-layout-justified-sb width-70 align-self-center">
+                <section className="flex-layout-row flex-layout-justified-sb width-80 width-50sm align-self-center">
                     
                     <div className="flex-layout-center-center align-self-center margin-top-25">
                         <img className="width-100" src={icon_strategy}  alt="Strategy and Insights" /> 

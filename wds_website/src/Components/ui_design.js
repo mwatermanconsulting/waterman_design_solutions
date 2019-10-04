@@ -49,7 +49,7 @@ class ui_design extends Component {
                        WDS lives for the comment "why didn't we think of that" commonly expressed by stakeholders and/or managers during the design reveal. 
                     </div>    
                 </div>
-                <div className="grid-callout-photo grid-placeself-center content-block-75">
+                <div className="grid-callout-photo grid-placeself-center content-block-75 margin-top-15sm">
                         <img className="container-image-500" src={ui_s1}  alt="The aha Moment" /> 
                  </div>
             </section>
@@ -71,7 +71,7 @@ class ui_design extends Component {
                         <div className="subtitle margin-top-10">
                             Websites, Products and Applications
                         </div> 
-                        <div className="float-right callout-photo grid-placeself-center">
+                        <div className="float-right callout-photo grid-placeself-center margin-top-15sm">
                             <img className="container-image-500" src={ui_s2}  alt="UI" /> 
                         </div>
                         <div className="margin-top-15">  
@@ -96,7 +96,7 @@ class ui_design extends Component {
                         <div className="subtitle margin-top-10">
                             Mock-ups and Wireframes
                         </div> 
-                        <div className="float-right callout-photo grid-placeself-center">
+                        <div className="float-right callout-photo grid-placeself-center margin-top-15sm">
                                  <img className="container-image-500" src={ui_s3}  alt="Mock-ups and Wireframes" /> 
                             </div>
                         <div className="margin-top-15">  
@@ -125,7 +125,7 @@ class ui_design extends Component {
                         <div className="subtitle margin-top-10">
                             Representing the Final Product
                         </div> 
-                        <div className="float-right callout-photo grid-placeself-center">
+                        <div className="float-right callout-photo grid-placeself-center margin-top-15sm">
                                  <img className="container-image-500 margin-top-25per" src={ui_s4}  alt="Hi-Fidelity Designs" /> 
                             </div>
                         <div className="margin-top-15">  
@@ -153,7 +153,7 @@ class ui_design extends Component {
                         <div className="subtitle margin-top-10">
                             Ensuring your Design Success
                         </div> 
-                        <div className="float-right callout-photo grid-placeself-center">
+                        <div className="float-right callout-photo grid-placeself-center margin-top-15sm">
                             <img className="container-image-500" src={ui_s5}  alt="Concept Validation" /> 
                         </div>
                         <div className="margin-top-15">  
@@ -181,7 +181,7 @@ class ui_design extends Component {
                         <div className="subtitle margin-top-10">
                             The "aha" Moment
                         </div> 
-                        <div className="float-right callout-photo grid-placeself-center">
+                        <div className="float-right callout-photo grid-placeself-center margin-top-15sm">
                             <img className="container-image-500 margin-top-2per" src={ui_s6}  alt="Consolidated Workflows" /> 
                           
                         </div>
@@ -203,7 +203,7 @@ class ui_design extends Component {
                         <div className="subtitle margin-top-10">
                             Business Tailored UI Design Kits
                         </div> 
-                        <div className="float-right callout-photo grid-placeself-center">
+                        <div className="float-right callout-photo grid-placeself-center margin-top-15sm">
                                  <img className="container-image-500" src={ui_s7}  alt="HTML and CSS Build-Kits" /> 
                                
                             </div>
@@ -231,7 +231,7 @@ class ui_design extends Component {
                         <div className="subtitle margin-top-10">
                             If a picture is worth 1000 words, a prototype is worth 1000 meetings
                         </div> 
-                        <div className="float-right callout-photo grid-placeself-center margin-top-1">
+                        <div className="float-right callout-photo grid-placeself-center margin-top-1 margin-top-15sm">
                                  <img className="container-image-500" src={ui_s8}  alt="Prototypes" /> 
                                
                             </div>

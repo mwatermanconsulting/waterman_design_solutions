@@ -37,7 +37,7 @@ class css_solutions extends Component {
             </div>
 
             <section className="grid-callout photo-content-color border-bottom-5" > 
-                <div className="grid-placeself-center content-block-65  flex-layout-column">
+                <div className="grid-placeself-center content-block-65 flex-layout-column">
                     <div className="callout-text padding-20 text-align-left margin-top-15" >
                     Our CSS services include CSS development, strategy, CSS system implementation, mentoring, documentation, and best of practice documentation.
                     </div>    
@@ -69,17 +69,17 @@ class css_solutions extends Component {
     <div className="flex-layout-section-full flex-layout-column margin-top-25 align-self-center"> 
 
         <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
-            <div className="float-left flex-layout-center-center content-block-60">
-                <div className="title content-block-60">
+            <div className="float-left flex-layout-center-center content-block-65">
+                <div className="title">
                     Experience Matters
                 </div>
-            <div className="subtitle margin-top-10 content-block-60">
+            <div className="subtitle margin-top-10">
                     Responsive Design Solutions
             </div> 
             <div className="float-right callout-photo margin-top-5">
                 <img className="container-image-500 margin-top-15sm" src={css2}  alt="Prototypes" /> 
             </div>
-            <div className="margin-top-15 content-block-65">  
+            <div className="margin-top-15">  
                 <p className="content-text-18">
                     Responsive web design is the approach that suggests that design and development should respond to the user’s behavior and environment based on screen size, platform and orientation. WDS has made countless responsive websites and applications. They were one of the first companies to build a responsive enterprise application using flexbox. WDS can mentor your developers on responsive design best practices, or provide a responsive design <a className="greenlink" href="../ui_design" >build kit.</a>
                 </p>                
@@ -90,17 +90,17 @@ class css_solutions extends Component {
         <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
         <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
-            <div className="float-left flex-layout-center-center content-block-60">
+            <div className="float-left flex-layout-center-center content-block-65">
                 <div className="title">
                     Organize and Simplify
                 </div>
-            <div className="subtitle margin-top-10 content-block-60">
+            <div className="subtitle margin-top-10">
                     Strategy to Organize and Reduce Specificity Issues
             </div> 
             <div className="float-right callout-photo ">
                 <img className="container-image-500 margintop-4per margin-top-15sm" src={itcss}  alt="Prototypes" /> 
             </div>
-            <div className="margin-top-15 content-block-60">  
+            <div className="margin-top-15">  
                 <p className="content-text-18">
                     Taming the specificity beast used to be difficult. WDS CSS strategy almost eliminates the specificity problems. In fact, the strategy almost eliminates the need for your developers to write CSS. The WDS advantage is the  experience of working with developers by interviewing and observing them working with CSS.
                 </p>                
@@ -110,16 +110,12 @@ class css_solutions extends Component {
 
         <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
-        
-
-        <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
-
         <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
-            <div className="float-left flex-layout-center-center content-block-60">
-                <div className="title content-block-60">
+            <div className="float-left flex-layout-center-center content-block-65">
+                <div className="title">
                     Modular CSS
                 </div>
-            <div className="subtitle margin-top-10 content-block-60">
+            <div className="subtitle margin-top-10">
                     Reusable CSS
             </div> 
             <div className="float-right callout-photo">
@@ -135,11 +131,11 @@ class css_solutions extends Component {
 
 
         <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
-            <div className="float-left flex-layout-center-center content-block-60">
-                <div className="title content-block-65">
+            <div className="float-left flex-layout-center-center content-block-65">
+                <div className="title">
                     CSS Solutions Package
                 </div>
-            <div className="subtitle margin-top-10 content-block-60">
+            <div className="subtitle margin-top-10">
                     NPM and GitHub
             </div> 
             <div className="float-right callout-photo">
@@ -158,10 +154,10 @@ class css_solutions extends Component {
 
         <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
             <div className="float-left flex-layout-center-center content-block-65">
-                <div className="title content-block-65">
+                <div className="title">
                     WDS Transforms your CSS 
                 </div>
-            <div className="subtitle margin-top-10 content-block-65">
+            <div className="subtitle margin-top-10">
                     Building Scalable Enterprise Solutions
             </div> 
             <div className="float-right callout-photo margin-top-15sm">

@@ -36,7 +36,8 @@ class innovative_solutions extends Component {
             <section className="grid-callout photo-content-color border-bottom-5 border-border-top-5" > 
                 <div className="grid-placeself-center content-block-75   flex-layout-column">
                     <div className="callout-text padding-20 text-align-left margin-top-15" >
-                    WDS has designed applications used by energy sectors, including nuclear reactors. They have the focus, insight and experience to solve the most difficult design and business problems on the worlds most intricate products and applications user interfaces.  </div>        
+                    WDS has designed applications used by energy sectors, including nuclear reactors. They have the focus, insight and experience to solve the most difficult design and business problems on the worlds most intricate products and applications user interfaces.  
+                    </div>        
                     </div>
                     <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
                         <img className="container-photo-callout" src={innovation1}  alt="Innovation" /> 
@@ -44,16 +45,12 @@ class innovative_solutions extends Component {
                 
             </section>
 
-            
-    
             <section className="flex-layout-center-center flex-layout-column margin-top-75">
                 <div className="title text-align-center content-block-60">
                      WDS Innovative Solutions are our differentiating factor
                 </div>
-                
                     <p className="subtitle text-align-center flex-layout-center-center margin-left-15 content-block-60 margin-top-25"> 
                     WDS solutions are as unique as the business and users that are provided for. It includes three factors: Understanding, Empathy and Experience.  </p>
-                
             </section>
 
              <div className="thin-hr width-70 align-self-center hrline-spacing width-70"></div>
@@ -63,7 +60,7 @@ class innovative_solutions extends Component {
                             User Scenarios
                     </div>
                     <div className="subtitle content-block-60 margin-top-10">
-                            Foundation of the backlog
+                            Foundation of the Backlog
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
                         <p className="content-text-18"> 
@@ -83,7 +80,7 @@ class innovative_solutions extends Component {
                             Hypothesis and Concepts                        
                         </div>
                         <div className="subtitle content-block-60 margin-top-10">
-                            Establish high-level concepts based on user scenarios
+                            Establish High-Level Concepts Based on User Scenarios
                         </div>
 
                         <div className="content-block-60 content-text-18 margin-top-15">
@@ -106,7 +103,8 @@ class innovative_solutions extends Component {
                     </div>
                     <div className="subtitle content-block-60 margin-top-10">
                             Establish Frameworks and Workflow Concepts</div>
-                    <div className="content-block-60 content-text-18 "><div className="float-right">
+                    <div className="content-block-60 content-text-18 ">
+                        <div className="float-right margin-top-15sm">
                         <img className="photo-container" src={innovation4}  alt="Construct user model" /> 
                     </div> 
                         <p className="content-text-18 margin-top-15">Technology is dramatically changing the way marketers work. With thousands of software solutions to assist with automation, personalization and optimization, knowing where to start or how to get the most out of your investments is challenging.</p> 
@@ -141,7 +139,7 @@ class innovative_solutions extends Component {
                             Brand - Establish a Product Identity
                     </div>
                     <div className="subtitle content-block-60 margin-top-10">
-                            Establish Frameworks and Workflow concepts</div>
+                            Establish Frameworks and Workflow Concepts</div>
                         <div className="content-block-60 content-text-18 margin-top-15"> <div className="float-right">
                         <img className="photo-container" src={innovation6}  alt=" Brand - Establish a Product Identity" /> 
                     </div>     
