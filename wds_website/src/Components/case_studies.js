@@ -41,7 +41,7 @@ class case_studies extends Component {
                 </section>
                 <section className="flex-layout-section-full align-items-center">
                     <div className="flex-layout-column margin-top-50">
-                        <div className="title flex-layout-center">
+                        <div className="title flex-layout-center margin-top-25sm">
                                 Customer Success Spotlight</div>
                         <div className="content-block width-100 margin-top-10">
                             <p className="subtitle text-align-center">

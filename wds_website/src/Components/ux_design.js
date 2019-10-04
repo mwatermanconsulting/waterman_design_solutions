@@ -81,12 +81,12 @@ class ux_design extends Component {
                         </div>
                         <div className="content-block-60 margin-top-15">
                             <p className="content-text-18">
-                                What circumstances prompt people to use your product or service? Do your customers turn to your offering in the way you expected?  If they don’t, there may be an opportunity for your company to reevaluate previous design decisions. </p> 
+                                What circumstances prompt people to use your product or service? Do your customers turn to your offering in the way you expected?  If they don’t, there may be an opportunity for your company to reevaluate previous design decisions. </p> <div className="float-right callout-photo grid-placeself-center">
+                                <img className="container-image-500 margin-top-15per" src={ux_s3}  alt="Old school customer service" />   
+                            </div> 
                             <p className="subtitle"> 
                                 Old-school Customer Service</p> 
-                            <div className="float-right callout-photo grid-placeself-center">
-                                <img className="container-image-500 margin-top-15per" src={ux_s3}  alt="Old school customer service" />   
-                            </div>
+                           
                             <p className="content-text-18">
                                 Empathy is a very powerful selling tool, because it is human-centric. It’s the new buzz word, but empathy has always been at the heart of WDS designs.  <br></br>“Walk in the user’s shoes.” <br></br>“See the problem as if you were experiencing it yourself."<br></br>“Observe  daily routines.” <br></br>All of these mantras and behaviors are empathetic techniques that their UX designers have acquired through years of practice. It is part of their daily lives. 
                             </p>

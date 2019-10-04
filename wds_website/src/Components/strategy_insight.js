@@ -85,10 +85,10 @@ class strategy_insight extends Component {
                     <div className="title content-block-60">
                             Design Critique
                     </div>
-                    <div className="subtitle margin-top-10 content-block-60">
+                    <div className="subtitle margin-top-10 content-block-60 margin-bottom-15sm">
                             Design Analysis
                     </div>
-                    <div className="content-block-60 content-text-18 margin-top-15"> <div className="float-right">
+                    <div className="content-block-60 content-text-18 margin-top-15 margin-top-15sm"> <div className="float-right">
                         <img className="photo-container" style={{marginTop:'-4%'}} src={strategy1}  alt="Review" /> 
                     </div>
                         <p className="content-text-18"> 
@@ -136,12 +136,11 @@ class strategy_insight extends Component {
                     </div>     
                     <div className="gallery-2col-2 container-image-500 align-self-auto">
                     <a href ="./design_systems"> <img className="container-image-500 border-2"  src={services9}  alt="Business Solutions" /> </a>
-                        <div className="content-block-65 margin-top-plus5per">
+                        <div className="content-block-auto margin-top-plus5per">
                             <div className="title margin-top-50">
-
                             <a href="./design_systems" className="no-decoration margin-top-plus5per"> 
                                     Design Systems</a></div>
-                            <p className="content-text-18 margin-top-15 content-block-65">
+                            <p className="content-text-18 margin-top-15 content-block-85">
                                 At WDS, we know and understand the importance of design systems for businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff.</p>
 
                         </div>
@@ -164,19 +163,17 @@ class strategy_insight extends Component {
                         </div>     
                             <p className="content-text-18"> 
                             Data is only as valuable as the meaning  crafted
-                                from it. WDS has a tried-and-true methods for moving
-                                from observations to insights. These meaningful
-                                insights are the next building block in the process of
-                                building an experience strategy.</p>
-
-                            <p className="content-text-18"> 
-                            
-                                WDS takes a comprehensive, rigorous approach to
-                                process data from the field and use it to spark
-                                explanations of what is behind the observations.
-                                Getting to the deeper understanding that insights
-                                provide beyond the raw data is a key step that sets
-                                professionals apart from amateurs.</p>   
+                            from it. WDS has a tried-and-true methods for moving
+                            from observations to insights. These meaningful
+                            insights are the next building block in the process of
+                            building an experience strategy.</p>
+                            <p className="content-text-18">
+                            WDS takes a comprehensive, rigorous approach to
+                            process data from the field and use it to spark
+                            explanations of what is behind the observations.
+                            Getting to the deeper understanding that insights
+                            provide beyond the raw data is a key step that sets
+                            professionals apart from amateurs.</p>   
                         </div>
                     </section>
                 
@@ -231,14 +228,14 @@ class strategy_insight extends Component {
                         <div className="float-right">
                         <img className="photo-container" src={strategy7}  alt="Looking for Opportunities" /> 
                         </div>
-                            <p className="content-text-18"> A key value that a design strategy delivers is a set of new ideas for serving customers. The information distilled from the previous techniques and the company’s strategic requirements come together, clearly laying out a set of options for improving the experience of the user base to increase their engagement and loyalty.</p>
-                            <p className="content-text-18">WDS collaborates with product and executive teams to brainstorm concepts for innovation and improvement. Together, the combined team prioritizes the opportunities based on the difficulty of implementation, the feasibility for the business to deliver and the impact that each solution concept may have on users.</p>
+                            <p className="content-text-18"> 
+                                A key value that a design strategy delivers is a set of new ideas for serving customers. The information distilled from the previous techniques and the company’s strategic requirements come together, clearly laying out a set of options for improving the experience of the user base to increase their engagement and loyalty.</p>
+                            <p className="content-text-18">
+                                WDS collaborates with product and executive teams to brainstorm concepts for innovation and improvement. Together, the combined team prioritizes the opportunities based on the difficulty of implementation, the feasibility for the business to deliver and the impact that each solution concept may have on users.</p>
                                            
                         </div>
                     </section>
-                    
 
-                    
                     <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                     <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
@@ -248,10 +245,12 @@ class strategy_insight extends Component {
                         <div className="subtitle content-block-60 margin-top-10">
                                 The Larger Whole                        
                         </div>
-                        <div className="content-block-60 content-text-18 margin-top-25"><div className="float-right">
-                        <img className="photo-container" src={strategy8}  alt="Journey Maps " /> 
-                    </div>
-                            <p className="content-text-18"> Companies are often so focused on their solutions that they forget it is part of a larger whole: the customer’s life. As the customer interacts with the company or engages in a life process, such as using banking software, understanding the key activities and experiences the customer has helps determine the most valuable places to focus resources. This ensures that each interaction with the company fits the experience the organization wants to provide. The understanding of the key activities and experiences is built into an informative diagram called a Customer Journey Map. This diagram informs key decisions for business, marketing and design executives, and can shift stakeholders’ thinking about where to engage across the lifecycle of a customer’s journey.
+                        <div className="content-block-60 content-text-18 margin-top-25">
+                            <div className="float-right">
+                                <img className="photo-container" src={strategy8}  alt="Journey Maps " /> 
+                            </div>
+                            <p className="content-text-18"> 
+                            Companies are often so focused on their solutions that they forget it is part of a larger whole: the customer’s life. As the customer interacts with the company or engages in a life process, such as using banking software, understanding the key activities and experiences the customer has helps determine the most valuable places to focus resources. This ensures that each interaction with the company fits the experience the organization wants to provide. The understanding of the key activities and experiences is built into an informative diagram called a Customer Journey Map. This diagram informs key decisions for business, marketing and design executives, and can shift stakeholders’ thinking about where to engage across the lifecycle of a customer’s journey.
                             </p>
                         </div>
                     </section>

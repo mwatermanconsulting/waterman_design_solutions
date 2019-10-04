@@ -88,6 +88,10 @@
   margin-left: 10%;
 }
 
+.margin-left-min10per-sm {
+  margin-left: 0%;
+}
+
 .margin-left-20per {
   margin-left: 20%;
 }
@@ -184,6 +188,10 @@
 
 .margin-left-140{
   margin-left: 140px;
+}
+
+.margin-top-25sm {
+  margin-top: 0;
 }
 
 .flex-wrap {
@@ -520,6 +528,7 @@
   .flex-layout-justified-sb {
       display: flex;
       justify-content: space-between;
+      flex-wrap: wrap;
   }
 
   .flex-layout-justified-sa {
@@ -815,7 +824,7 @@
   align-items: center; }
 
 .width-70 {
-  width: 70%; }
+  width: 60%; }
 
 .floatleft {
   float: left; }

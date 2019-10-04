@@ -29,21 +29,18 @@ class design_solutions extends Component {
             </div>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 red">
                 <div className="callout-text-white">
-                    “Good designs come from the heart, not from the brain” -Juan-Carlos Fernandez
-                              
-                    </div>
+                    “Good designs come from the heart, not from the brain” -Juan-Carlos Fernandez         
+                </div>
             </section>
         
             <section className="grid-callout yellow-bg"> 
                 <div className="grid-callout-text grid-placeself-center width-70">
                     <p className="callout-text padding-sm">
-                    Customers always look for the better experience. Meeting their expectations of intuitive, elegant and simple designs built around and for your users will earn their loyalty.
-                            </p>
-                        </div>
-                        <div className="grid-callout-photo grid-placeself-center">
-                            <img className="flex-image-container width-100" src={designer}  alt="Customer Service" /> 
-                        </div>
-                    
+                    Customers always look for the better experience. Meeting their expectations of intuitive, elegant and simple designs built around and for your users will earn their loyalty.</p>
+                </div>
+                <div className="grid-callout-photo grid-placeself-center">
+                    <img className="flex-image-container width-100" src={designer}  alt="Customer Service" /> 
+                </div>  
              </section>
 
             <div className="flex-layout-section-full align-items-center" >
@@ -51,19 +48,16 @@ class design_solutions extends Component {
                     <p className="title text-align-center margin-top-100">
                         "A consistent experience is a better experience.” - Mark Eberman
                     </p>   
-
-                        <p className="content-text-21 content-block-60 flex-layout-center-center margin-top-25 margin-bottom-50">
-                         Design determines success and understanding the user is paramount. WDS unites your business with  customers and brings an understanding to their needs and expectations.
-                        </p>
-                        <div className="flex-layout-section-full align-items-center">
-                            <NavLink className='button-area no-decoration' value="learn more" type="button" to={'/case_study_4'}>
-                                Learn More 
-                            </NavLink>
-                        </div>
+                    <p className="content-text-21 content-block-60 flex-layout-center-center margin-top-25 margin-bottom-50">
+                        Design determines success and understanding the user is paramount. WDS unites your business with  customers and brings an understanding to their needs and expectations.</p>
+                <div className="flex-layout-section-full align-items-center">
+                    <NavLink className='button-area no-decoration' value="learn more" type="button" to={'/case_study_4'}>
+                        Learn More 
+                    </NavLink>
+                </div>
                </div> 
             </div> 
            
-
             <div className="thin-hr width-70 align-self-center hrline-spacing width-70"></div>
 
             <section className="float-left align-items-center flex-layout-column">
@@ -75,13 +69,11 @@ class design_solutions extends Component {
                 <div className="float-right">
                     <img className="photo-container" src={design5}  alt="Website Design" /> 
                 </div>
-
-                    WDS has over 20 years of experience designing websites. Empathetic designs and the ability to connect with users create a positive enjoyable experience, which is critical to new customer acquisition and retaining existing customers. </p>
-            
-                    <p className="content-text-18">WDS websites are on the cutting edge. They were one of the first companies to build websites from UX research, and to provide responsive designs (<a className="greenlink" href="../case_study_1">Motorola</a>) and the first to develop enterprise-level CSS Flexbox solutions (<a className="greenlink" href="../case_study_4">OsiSoft</a>). </p>
+                        WDS has over 20 years of experience designing websites. Empathetic designs and the ability to connect with users create a positive enjoyable experience, which is critical to new customer acquisition and retaining existing customers. </p>
+                    <p className="content-text-18">
+                        WDS websites are on the cutting edge. They were one of the first companies to build websites from UX research, and to provide responsive designs (<a className="greenlink" href="../case_study_1">Motorola</a>) and the first to develop enterprise-level CSS Flexbox solutions (<a className="greenlink" href="../case_study_4">OsiSoft</a>). </p>
                   
-                    
-                    <div className="float-left">
+                    <div className="float-left margin-left-25sm">
                         <NavLink id="top" className='button-area no-decoration' type="button" value="learn more" to={'/website_design'}>
                             Learn More
                         </NavLink>
@@ -102,12 +94,11 @@ class design_solutions extends Component {
                     <img className="photo-container margin-top-8per"  src={design_print}  alt="Graphic Design" /> 
                 </div>  
                     Graphic design still has a place in today's digital technology. WDS  develops traditional design strategies that compliments  digital campaigns by designing graphics that are based on research and user personas. Designing for real people helps drive sales and user retention. WDS has extensive print experience, including magazines, brochures, business cards, trade show displays, corporate reports, etc. </p>
-
-            <div className="float-left">
-                 <NavLink className='button-area no-decoration' value="learn more" type="button" to={'/website_design'}>
-                    Learn More
-                </NavLink>  
-             </div> 
+                <div className="float-left margin-left-25sm">
+                    <NavLink className='button-area no-decoration' value="learn more" type="button" to={'/website_design'}>
+                        Learn More
+                    </NavLink>  
+                </div> 
  </div>
             </section> 
 
@@ -123,11 +114,9 @@ class design_solutions extends Component {
                     <img className="photo-container" src={design3}  alt="Social Media Services" /> 
                 </div>
                     The goal of WDS is to identify the right approach for your unique target audiences on social media. They plan, develop, and execute innovative social media marketing strategies that build a meaningful experience for your users. User research, ad optimization techniques and social media platforms are leveraged to connect your brand, products and/or services to the right people. By creating highly targeted advertisements on social media, you can reach an otherwise untapped resource for potential customers. </p>
-             
-            
-            <div className="float-left">
-            <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/marketing'}>
-                    Learn More
+                <div className="float-left margin-left-25sm">
+                    <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/marketing'}>
+                        Learn More
                     </NavLink>
             </div>   
             </div>
@@ -141,7 +130,7 @@ class design_solutions extends Component {
         <section className="flex-layout-section-full align-items-center yellow-bg border-top-5">
             <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 margin-bottom-50 " > 
                 <div className="col2-text  grid-placeself-center ">
-                    <div className="content-block text-align-center margin-top-15sm ">
+                    <div className="content-block text-align-center margin-top-15sm">
                             <p className="callout-text "> WDS CSS solutions relieves anxiety that most developers and engineers face when they see CSS work in their project requirements. </p>
 
                            

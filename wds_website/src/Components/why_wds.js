@@ -37,7 +37,7 @@ class why_wds extends Component {
                          </div>
                     </div> 
                 </section>
-                <div className="container-section-1-primary flex-layout-center-center border-bottom-5 red">
+                <div className="container-section-1-primary flex-layout-center-center border-bottom-5 red padding-15sm">
                     <div className="callout-text-lg"> 
                         WDS knows how to solve complex design problems.
                         
@@ -54,18 +54,18 @@ class why_wds extends Component {
                         </div>
                     </div>
                 </section>
-                <section className="flex-layout-section-full flex-layout-column align-items-center">
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
                     <p className="title margin-top-75">
 
                         WDS Relieves Your Design Fears </p>
 
-                        <p className="content-text-21 content-block-60 margin-top-25 flex-layout-column align-items-center">
+                        <p className="content-text-18 content-block-65 margin-top-15 flex-layout-column align-items-center">
                         WDS understands the fear many companies have with contracting a design firm. They have heard all the stories about designers not paying attention to business requirements and/or direction, designing for design's sake with little thought of the user. These designs fail and frustrate companies, making them  apprehensive about contracting another UX design firm. WDS approaches every project with empathy for the user and the business. They have followed failed designs for large enterprise projects with companies like Motorola and StubHub, turning failure into success and frustration to joy.</p>
                         
-                        <p className="content-text-21 content-block-60 margin-top-25 flex-layout-column align-items-center">
+                        <p className="content-text-18 content-block-65 flex-layout-column align-items-center">
                         WDS offers empathetic design solutions for websites, applications, mobile apps, and social media. Its core offerings help your business understand the value of design on a core level, providing training, workshops and mentorship programs.
                         With over 15 years of perfecting their design and business strategies, WDS has the experience, designers, strategists and expertise to deliver sophisticated design solutions. </p>
-                        <p className="subtitle margin-top-50 flex-layout-column align-items-center">
+                        <p className="subtitle margin-top-50 margin-bottom-50 content-block-65 flex-layout-column align-items-center">
                         Our client roster includes Motorola, Pfizer, Stubhub, SmithKline, Google...</p>
                 </section>
 
@@ -73,11 +73,11 @@ class why_wds extends Component {
                 <div className="title align-self-center margin-top-50 margin-top-50sm" >
                         Your Complete Design Resource
                 </div>
-                    <div className="grid-services-list padding-20 align-self-center margin-top-25 margin-left-why-60per">
-                        <section className="grid-services-3">
-                        <a href="./ux_design" ><img className="width-icon margin-left-6" src={icon_ux}  alt="UX" /> </a>
-                        <div className="subtitle-why margin-top-25">
-                            <a href="./ux_design" className="no-decoration greenlink margin-left-6" style={{marginTop:'2%'}}>
+                    <div className="flex-layout-justified-sb align-self-center margin-top-25 width-50">
+                        <section className="align-self-center">
+                        <a href="./ux_design" ><img className="width-icon margin-left-15per margin-left-25sm" src={icon_ux}  alt="UX" /> </a>
+                        <div className="subtitle margin-top-25">
+                            <a href="./ux_design" className="no-decoration greenlink text-align-center margin-left-min10per-sm margin-left-15per">
                                 UX Design</a>
                         </div>
                             <ul className="dashed content-text-18 margin-bottom-25 margin-top-15">
@@ -90,10 +90,10 @@ class why_wds extends Component {
                                 <li>Pattern Libraries</li>
                             </ul>
                         </section>
-                        <section className="grid-services-1 margin-bottom-25">
+                        <section className="align-self-center margin-bottom-25">
                             <a href="./design_solutions"> <img className="width-icon margin-left-6" src={icon_design_solutions}  alt="Design Solutions"/></a>
                         <div className="subtitle-why margin-top-25">
-                            <a href="./design_solutions" className="no-decoration greenlink margin-left-4"> 
+                            <a href="./design_solutions" className="no-decoration greenlink"> 
                                 Design Solutions</a>
                         </div>
                             <ul className="dashed content-text-18 margin-top-15">
@@ -106,10 +106,10 @@ class why_wds extends Component {
                                 <li>Style Guides</li>
                             </ul>
                     </section>
-                    <section className="grid-services-2 margin-bottom-25">
-                    <a href="./core_offerings"><img className="width-icon margin-left-6" src={icon_design}  alt="Core Offerings" /></a>
+                    <section className="align-self-center margin-bottom-25">
+                    <a href="./core_offerings"><img className="width-icon margin-left-17" src={icon_design}  alt="Core Offerings" /></a>
                         <div className="subtitle-why margin-top-25">
-                        <a href="./core_offerings" className="no-decoration greenlink margin-left-5">
+                        <a href="./core_offerings" className="no-decoration greenlink margin-left-15per margin-left-10sm">
                                 Core Offerings</a></div>
                             <ul className="dashed content-text-18 margin-top-15">
                                 <li>Telemetry Strategies</li>
@@ -178,7 +178,7 @@ class why_wds extends Component {
 
                     <p className="content-text-18">
                         The best customer experience starts with the Golden Rule — treat customers how you would like to be treated. At the foundation of WDS methodology is observation, watching customers use the clients' products or services. But unlike focus groups or usability laboratories, WDS conducts observation and interviews in the customer’s own environment during the course of their everyday routines. In such a context  researchers gain insight to a host of information that is not accessible through other UX research methods. </p>
-                <div className="float-left">
+                <div className="float-left margin-left-25sm">
                     <NavLink className='button-area no-decoration text-align-center
                     
                     ' type="button" value="learn more" to='/ux_design'>
@@ -211,7 +211,7 @@ class why_wds extends Component {
                 
 
 
-                    <div className="float-left">
+                    <div className="float-left margin-left-25sm">
                         <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/ui_design'}>
                         Learn More 
                         </NavLink>
@@ -237,7 +237,7 @@ class why_wds extends Component {
                      <p className="content-text-18 margin-top-1per"> 
                      A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive while combining components, behaviors, and branding. It also comes with a complete set of design standards, documentation, and strategies. It must also be flexible and scalable.
                     </p>
-                    <div className="float-left">
+                    <div className="float-left margin-left-25sm">
                     <NavLink Link to={'/design_systems'} className='button-area no-decoration' type="button" value="learn more" >
                     Learn More 
                     </NavLink>
