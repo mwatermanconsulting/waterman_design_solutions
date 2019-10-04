@@ -288,7 +288,7 @@ class methodology extends Component {
                             </div>
 
                             <p className="content-text-18 margin-top-15sm"> 
-                            In this phase WDS works closely with the developers. WDS can embedded a team or Michael or work remotely. They Develop a CSS solution along with responsive HTML, the WDS team will work seamlessly with developers, developing the front-end as they code the back-end working in your agile cycles. </p>
+                            In this phase WDS works closely with the developers with an embedded team or remotely. A CSS solution is developed with responsive HTML, working seamlessly with developers on the front-end as they code the back-end working in your agile cycles. </p>
 
                             <ul className="dashed">
                                 <li><a href="../css_solutions">CSS Solutions</a></li>

@@ -56,7 +56,7 @@ class case_study_3 extends Component {
                     </div>
                     <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-50">
                     <img className="width-50 margin-top-50" src={cms} alt="Finding the Truth - Business Perspective"/>
-                    <p className="margin-top-15"><i> Custom CMS system issues costing developers time and Pfizer money</i></p>
+                    <div className="margin-top-15 caption width-70"><i> Custom CMS system issues costing developers time and Pfizer money</i></div>
                 </div>   
                 </section>
             
