@@ -44,10 +44,10 @@ class case_study_1 extends Component {
                 </section>
             
                 <section className="flex-layout-column align-items-center">
-                    <div className="margin-top-50 content-block-55 title">
+                    <div className="margin-top-50 content-block-65 title">
                             Case Study - Motorola
                     </div>
-                    <div className="content-block-55 margin-top-25">
+                    <div className="content-block-65 margin-top-25">
                         <p className="content-text-18">
                             WDS was contracted to find solutions to the ongoing problems that Motorola faced with their high-end modem. After two failed attempts they were desperate to find solutions. WDS was hired to design a modern user-centric interface for the the high-end Cable modem the MOTOROLA DOCSIS 3.1, Model MB8600. WDS used their UX methodology to uncover the previously unknown problems. The solutions simplified the interface and  user workflows. The redesign exceeded the stakeholders expectations, surviving two company buyouts. When Google purchased Motorola, WDS and Motorola were required to present to the Google stakeholders to justify the endeavor mid-development. In the end, WDS's design solutions were adopted by both companies and became industry standards.</p>
                              
@@ -64,7 +64,7 @@ class case_study_1 extends Component {
                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
                 
                 <section className="flex-layout-section-full align-items-center">
-                    <div className="content-block-55"> 
+                    <div className="content-block-65"> 
                         <div className="title">
                             Backstory
                         </div>
@@ -89,11 +89,11 @@ class case_study_1 extends Component {
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
                     <section className="flex-layout-column align-items-center margin-bottom-75">
-                        <div className="title content-block-55">
+                        <div className="title content-block-65">
                                 Methodology Begins</div>
-                        <div className="subtitle content-block-55 margin-top-15">
+                        <div className="subtitle content-block-65 margin-top-15">
                                 Finding the Truth - Business Perspective</div>
-                        <div className="content-block-55">
+                        <div className="content-block-65">
                             <p className="content-text-18 margin-top-15">
                                 Understanding the business perspective was the first half of the WDS UX methodology, setting a foundation for the entire project. The goal was to come to a deep understanding of the project by researching the business and the competition. Part of the process is understanding the requirements, interviewing stakeholders and gathering design elements such as marketing materials and style guides. This research forms the foundation of the project. </p>
                             
@@ -102,22 +102,22 @@ class case_study_1 extends Component {
                         </div>
                     </section>
                     <section className="grid-callout grey margin-top-50 border-tb-5">
-                        <div className="callout-text align-self-center justify-self-center content-block-75 text-white" >
+                        <div className="callout-text align-self-center justify-self-center content-block-75 text-white padding" >
                             For the average user, the interface on the Motorola modems was very intimidating. The UI was outdated and unbranded, leaving the user confused and frustrated, keeping the call center very busy.
                         </div>
                         
-                        <div className="grid-callout-photo width-100">
-                              <img src={callcenter} alt="Case Study Image 2"/> 
+                        <div className="container-image-500">
+                              <img className=" width-100" src={callcenter} alt="Case Study Image 2"/> 
                         </div>
                     </section>
                     <section className="flex-layout-section-full align-items-center flex-layout-column margin-top-75">
-                        <div className="content-header content-block-55 title">
+                        <div className="content-header content-block-65 title">
                             UX Plan
                         </div>
-                        <div className="subtitle content-block-55 margin-top-15">
+                        <div className="subtitle content-block-65 margin-top-15">
                             Finding the Truth - Customer Perspective
                         </div>
-                        <div className="content-block-55 margin-top-15">
+                        <div className="content-block-65 margin-top-15">
                             <p className="content-text-18">
                                 Typically, The WDS methodology begins with observing the users in their working environments. Observing users was a problem with Motorola because the user base for their modems was broad. The WDS methodology knows that unhappy customers are the greatest source of learning. The stakeholders were shocked when Michael requested three months of the call center logs, exclaiming "why didn't we think of that". Going through the call center logs began to uncover patterns, and  a numeric based scoring system was used to clearly document the problems on a priority scale. Michael spent time "ghosting" the call center callers listening and empathizing with them as they struggled with simple tasks. </p> 
                             
@@ -131,21 +131,23 @@ class case_study_1 extends Component {
                         <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
                         
                         <section className="content-header align-items-center flex-layout-column">
-                            <div className="title content-block-55">
+                            <div className="title content-block-65">
                                 Master Plan
                             </div>
-                            <div className="subtitle content-block-55 margin-top-5">
+                            <div className="subtitle content-block-65 margin-top-5">
                                 Solving the Problems
                             </div>
-                            <div className="content-block-55">
+                            <div className="content-block-65">
                                 <p className="content-text-18 margin-top-15">
                                     WDS noticed early in the project that the organization of required user inputs did not make sense. When Michael reviewed the interface and made suggested changes, he learned that there was an issue - two distinct set of users. One set was the consumer market, the ones who would purchase the product. The other set of users were the cable operators, such as Comcast, providing home installation. WDS would not be allowed to move ANY input, due to the cable operator familiarity with the interface. Originally WDS thought this requirement was limiting, instead it forced them to adapt and reevaluate their design solutions. This caused them to change course, which opened new possibilities. It also helped the success of final product design, a solution beyond the scope and expectations of the customers and stakeholders.</p> 
                                 
                                  <p className="subtitle text-align-center margin-top-50">This is the road map WDS used to for its design and business solutions</p>
 
-                        <div className="grid-2col-list margin-top-50">    
-                            <div className="list-left"> 
-                                <ul className="dashed content-text-18 margin-left-75">
+            <section className="flex-layout-row flex-layout-justified-sb align-self-center">
+                    
+                    <div className="flex-layout-center-center  flex-items-align-top margin-top-25">
+                            
+                            <ul className="dashed content-text-18 margin-left-75">
                                     <p className="subtitle-case">User Pain Points:</p>
                                     <li><a href="#solution1">Interface Intimidating</a></li>
                                     <li><a href="#solution10">Guidance and Support</a></li>
@@ -158,7 +160,8 @@ class case_study_1 extends Component {
 
                                 </ul> 
                             </div>
-                            <div className="list-right"> 
+                            <div className="flex-layout-center-center  flex-items-align-top margin-top-25">
+
                                 <ul className="dashed content-text-18 margin-left-75">
                                     <p className="subtitle-case">Business Pain Points:</p>
                                     <li><a href="#solution7">Communication Issues Between Teams </a></li>
@@ -169,22 +172,22 @@ class case_study_1 extends Component {
                                     <li><a href="#deploy">Need CSS Solution</a></li> 
                                     <li><a href="#solution1">Competitors UI are better</a></li>
                                     <li><a href="#results">Entire project file size needed to be under 1mb</a></li>
-                                </ul>
-                            </div>    
-                        </div>
-                        </div>
-                    </section>
+                                </ul> 
+                    </div>
+            </section>
+        </div>
+    </section>
 
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+         <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
                     <section className="content-header align-items-center flex-layout-column">
-                        <div className="title content-block-55">
+                        <div className="title content-block-65">
                             Design Solutions
                         </div>
-                        <div className="subtitle content-block-55 margin-top-50">
+                        <div className="subtitle content-block-65 margin-top-50">
                             New Design
                         </div>
-                        <div className="content-block-55 margin-top-15">
+                        <div className="content-block-65 margin-top-15">
 
                             <p className="content-text-18"> 
                             WDS presented a responsive empathetic design that was modern, simple and branded. The design included solutions that would simplify the interface, reduce customer complaints and return consumer loyalty.</p>
@@ -199,24 +202,23 @@ class case_study_1 extends Component {
                         <div className="container-image-block flex-layout-column align-items-center">
                         <a id="solution1"></a> 
                             <img className="photo-container-cs-sb1 width-100" src={motorola_s2} alt="Case Study Image 3"/> 
-                        <div>   
-                            <p className="margin-top-15"><i> Approved Design for the new SURFboard SB8200 DOCSIS 3.1 modem</i>
-                            </p>
+                            <div className="margin-top-15 caption width-70"><i> Approved Design for the new SURFboard SB8200 DOCSIS 3.1 modem</i>
+                           
                         </div>
                         </div>
                     </section>
 
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
                     <section className="flex-layout-section-full align-items-center"> 
-                            <div className="title content-block-55">
+                            <div className="title content-block-65">
                                 <a id="solution2"></a> 
                                     Introduction of "Mary"
                             </div>
-                            <div className="subtitle content-block-55 margin-top-10">
+                            <div className="subtitle content-block-65 margin-top-10">
                                 <a id="solution2"></a> 
                                   Using personas to bridge the gap with developers
                             </div>
-                            <div className="float-left content-block-55 margin-top-15">
+                            <div className="float-left content-block-65 margin-top-15">
                                 <p className="content-text-18">
                                     One of the toughest aspects of being a contractor is communication and acceptance, especially on an established team. These were the developers that originally designed the application and many were not happy that another UX designer was hired. They had already been through two failed attempts and fully expected to the same results with WDS.</p>
 
@@ -228,7 +230,7 @@ class case_study_1 extends Component {
                                 
                                 <p className="content-text-18">The persona of "Mary" was a mother of three who worked a full time job. Her user journey: On the way home from work Mary needed to stop at Best Buy to replace her broken modem. After her purchase she rushed to get home and make dinner for the kids. Her plan was to get dinner started and while it was cooking she would set up the modem. giving her twenty minutes before dinner was ready. This was the first time Mary ever connected a modem, she was not very computer literate and computers intimated her. The challenge to the team was to simplify and guide Mary so she could complete her task. </p>
                             </div>
-                            <div className="content-text-18 content-block-55 margin-top-25">
+                            <div className="content-text-18 content-block-65 margin-top-25">
                                 Mary was well received by Motorola and her persona helped the developers understand the design solution that was being presented to them. Many times during meetings and development of the design solutions the developers and stake holders would push back, questioning the project direction. WDS would only needed to reply, "if we implement this solution; will you get a phone call from Mary?" This caused the developer to stop and think about how the solution solves the problem and to understand that they are developing this redesigned interface for real people, solving the original problem of disconnect between those building the product and those using the product. 
                         </div>
                         </section>
@@ -236,11 +238,11 @@ class case_study_1 extends Component {
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
                     <section className="content-header flex-layout-column align-items-center">
-                        <div className="subtitle content-block-55">
+                        <div className="subtitle content-block-65">
                         <a id="solution2"></a>
                              Start/Home Page
                         </div>
-                        <div className="content-block-55">
+                        <div className="content-block-65">
                             <p className="content-text-18 margin-top-15">
                              A new landing/home page was designed to comfort the users and provide a visual display of their custom settings. The redesign guided the user on a section with global easily recognizable icons portraying the task they wanted to complete. Previously, the customer was dropped in the basic settings page, causing confusion and hesitation. The redesign relieved the confusion, making the user feel comfortable. Once the user has finished setting up the modem the home screen became a data display. </p>
                         </div>
@@ -248,8 +250,8 @@ class case_study_1 extends Component {
                     <section className="flex-layout-column flex-layout-center-center margin-top-50">
                             <div className="container-image-block flex-layout-column align-items-center">
                                 <img className="photo-container-cs-sb1 width-100" src={motorola_s5} alt="Case Study Image 5"/> 
-                            <div>   
-                            <p className="margin-top-15"><i> New home screen and data KPI dashboard.</i></p>
+                              
+                            <div className="margin-top-15 caption width-70"><i> New home screen and data KPI dashboard.</i>
                             </div>
                             </div>
                     </section>
@@ -257,11 +259,11 @@ class case_study_1 extends Component {
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
                     <section className="content-header align-items-center flex-layout-column ">
-                        <div className="subtitle content-block-55 margin-top-15">
+                        <div className="subtitle content-block-65 margin-top-15">
                         <a id="solution3"></a> 
                             WiFi Quick Start
                         </div>
-                    <div className="content-block-55 margin-top-15">
+                    <div className="content-block-65 margin-top-15">
                             <p className="content-text-18">
                             One of the biggest challenges WDS faced was simplifying the WiFi section. Work flows could not be simplified by organizing inputs in a logical order, due to the limitation of two unique users, cable operators and consumers. An approach  needed to be different, with a "WiFi Quick Start" solution. </p>
                             
@@ -274,8 +276,7 @@ class case_study_1 extends Component {
                     <section className="flex-layout-column margin-top-50">
                             <div className="container-image-block flex-layout-column align-items-center">
                                 <img className="photo-container-cs-sb1 width-100" src={motorola_s4} alt="Case Study Image 4"/> 
-                            <div>   
-                            <p className="margin-top-15"><i> Quick start section semi-automated the process for WiFi connection, reducing the user inputs from 9 to 5.</i></p>
+                                <div className="margin-top-15 caption width-70"><i> Quick start section semi-automated the process for WiFi connection, reducing the user inputs from 9 to 5.</i>
                             </div>
                             </div>
                     </section>
@@ -283,10 +284,10 @@ class case_study_1 extends Component {
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
                     <section className="content-header flex-layout-column align-items-center">
-                        <div className="subtitle content-block-55 margin-top-15">
+                        <div className="subtitle content-block-65 margin-top-15">
                         <a id="solution4"></a>In Context Help
                     </div>
-                    <div className="content-block-55">
+                    <div className="content-block-65">
                         <p className="content-text-18 margin-top-15">
                              The most effective design solutions are created from empathy, walking in the users' shoes. WDS knew for this project to be a success, the customer needed to feel supported and guided. A new approach to the help treatment needed to be developed. Competitor research revealed that  no one had a good help section solution that guides the user, especially in-context help. WDS solved this problem elegantly, allowing the user to click on the help link in any user user input to reveal the answers. This solution tested very well.</p>
                     </div>
@@ -295,8 +296,7 @@ class case_study_1 extends Component {
                     <section className="flex-layout-column margin-top-50">
                             <div className="container-image-block flex-layout-column align-items-center">
                                 <img className="photo-container-cs-sb1 width-100" src={motorola_s6} alt="One Click Solution"/> 
-                            <div>   
-                            <p className="margin-top-15"><i> A one click help solution, guiding the user has never been so eloquent!</i></p>
+                                <div className="margin-top-15 caption width-70"><i> A one click help solution, guiding the user has never been so eloquent!</i>
                             </div>
                             </div>
                     </section>
@@ -304,10 +304,10 @@ class case_study_1 extends Component {
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
                     <section className="content-header flex-layout-column align-items-center">
-                        <div className="subtitle margin-top-15 content-block-55">
+                        <div className="subtitle margin-top-15 content-block-65">
                         <a id="solution10"></a>Guidance and Support
                     </div>
-                    <div className="content-block-55">
+                    <div className="content-block-65">
                         <p className="content-text-18 margin-top-15">
                             WDS solutions for guidance and support was  simplifying and understanding any question the user may have while on the interface. WDS understood how the user felt uncared-for. Unfamiliar terms and the use of acronyms  added to the cognitive overload and frustration as they tried to complete their tasks.</p>
                         
@@ -319,8 +319,7 @@ class case_study_1 extends Component {
                     <section className="flex-layout-column margin-top-50">
                         <div className="container-image-block flex-layout-center-center flex-layout-column">
                             <img className="photo-container-cs-sb1 width-100" src={motorola_s3} alt="Page introductions and rollovers for tech terms"/> 
-                        <div>   
-                            <p className="margin-top-15"><i> Page introductions and rollovers for tech terms and acronyms provided the users guidance and support </i></p>
+                        <div className="margin-top-15 caption width-70"><i> Page introductions and rollovers for tech terms and acronyms provided the users guidance and support </i>
                         </div>
                         </div>
                     </section>
@@ -328,11 +327,11 @@ class case_study_1 extends Component {
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
                     <section className="content-header flex-layout-column align-items-center">
-                        <div className="subtitle content-block-55">
+                        <div className="subtitle content-block-65">
                         <a id="solution3"> </a> 
                                 Mobile Application Solution
                         </div>
-                        <div className="content-block-55">
+                        <div className="content-block-65">
                             <p className="content-text-18 margin-top-15">
                                 WDS worked closely with the engineers and challenged the them to develop an algorithm to automate part of the users work flow, specifically the WiFi section. WDS presented the simplified user work flow to the engineers and during the meeting it was  discovered that the proposed algorithm could also be used as a separate application to test the WiFi signal strength. WDS suggested a companion IOS application. The stakeholders were thrilled with the idea of including a free IOS application with the modem. WDS designed and developed the IOS companion application.</p> 
                         </div>
@@ -341,9 +340,8 @@ class case_study_1 extends Component {
                     <section className="flex-layout-column  margin-top-50">
                         <div className="container-image-block flex-layout-center-center flex-layout-column">
                             <img className="photo-container-cs-sb1 width-100" src={motorola_beforeafter} alt="Mobile Design"/> 
-                        <div>   
-                            <p className="margin-top-15"><i> 
-                                A mobile companion application for modem placement and interference  </i></p>
+                            <div className="margin-top-15 caption width-70"><i> 
+                                A mobile companion application for modem placement and interference  </i>
                         </div>
                         </div>
                     </section>
@@ -351,15 +349,15 @@ class case_study_1 extends Component {
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
                     <section className="content-header flex-layout-column align-items-center">
-                            <div className="title content-block-55">
+                            <div className="title content-block-65">
                                 Business Design Solutions
                             </div>
                         <div className="content-header flex-layout-column align-items-center">
-                            <div className="subtitle margin-top-50 content-block-55">
+                            <div className="subtitle margin-top-50 content-block-65">
                             <a id="solution3"> </a>
                                 Communication Issues
                             </div>
-                            <div className="content-block-55">
+                            <div className="content-block-65">
                                 <p className="content-text-18 margin-top-15">
                                 WDS was confused by how a brand name like Motorola would allow such a poorly designed, non-branded user interface on a consumer product go to market. It was mind boggling. That was their first question to the stakeholders, "how did this product UI fall through the cracks?" This issue exposed a large communication issue between the product, marketing and home division teams. WDS solution to this problem was to have meetings every three weeks. The meetings ran the course of the project and established a strong relationship between the teams that was previously non-existent. These meetings helped establish  transparency, allowing the product and marketing teams to understand the business case for the product redesign. </p> 
                             </div>
@@ -369,10 +367,10 @@ class case_study_1 extends Component {
                         <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
                        
                         <section className="content-header flex-layout-column align-items-center">
-                            <div className="subtitle content-block-55">
+                            <div className="subtitle content-block-65">
                              <a id="solution7"></a> Google Buyout
                             </div>
-                                <div className="content-block-55">
+                                <div className="content-block-65">
                                 <p className="content-text-18 margin-top-15">
                                 In the middle of the project, Google purchased Motorola. WDS and stakeholders were notified that the project was under review. Google stakeholders set up a meeting present the project. The presentation was a success and the marketing and product teams attributed the success to the meetings organized by WDS which allowed both teams to fully understand the project. 
                                 </p> 
@@ -389,14 +387,14 @@ class case_study_1 extends Component {
                         <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
                       <section className="content-header flex-layout-column align-items-center">
-                         <div className="title content-block-55">
+                         <div className="title content-block-65">
                             Deployment
                         </div>
                         <a id="deploy"></a>
-                        <div className="subtitle content-block-55 margin-top-25">
+                        <div className="subtitle content-block-65 margin-top-25">
                             Preparing for the Handoff
                         </div>
-                        <div className="content-block-55 margin-top-15">
+                        <div className="content-block-65 margin-top-15">
                             <p className="content-text-18">
                             WDS always uses the golden rule when a project is handed over to the business, to package the project in a way that would be understandable if the client's team didn't look at it for three months. This is done by developing journey maps, use cases and personas.  </p>
                             
@@ -409,39 +407,45 @@ class case_study_1 extends Component {
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-100"></div>
 
                     <section className="content-header flex-layout-column align-items-center"> 
-                        <div className="title content-block-55">
+                        <div className="title content-block-65">
                                 Results
                         </div>
                         <a id="results"></a>
-                            <div className="content-block-55 margin-top-25">
+                            <div className="content-block-65 margin-top-25">
                                 <p className="content-text-18">
                                     One of the issues that surprized WDS the most was the old outdated user interface design. WDS just assumed a global brand such as Motorola would be professional and branded. The problem of product consistency is common and WDS wanted to ensure the problem of was solved  by correcting the communication issues between the teams of marketing, product and home division.  At the start of the project WDS organized monthly and milestone meetings between the teams. Product, marketing and home division communication was still strong well after WDS was finsihed with the project. The approved design was going to be adapted to the rest of the product line. The design today may look different since it is branded under the Arris name, but many of the design solution  implemented are still in use today.
                                 </p>
                                 <p className="content-text-18"> 
                                  WDS design solutions reduced returns by a staggering 40% and call center call were reduced by 70%. The new design was well received by the social media and tech magazines and blogs. CNet reviewed the interface and stated "The Surfboard eXtreme has a robust and self-explanatory Web interface". Self explanatory for a complex setup process was the highest praise for any UX design. 
                                 </p>
-                          <div className="grid-2col-list margin-top-25">     
+                </div>
+                </section>
+
+                <section className="flex-layout-row flex-layout-justified-sb align-self-center width-70">
+                    
+                    <div className="flex-layout-center-center  flex-items-align-top margin-top-25">    
                                         
-                            <ul className="list-left content-text-21">
+                            <ul className="dashed content-text-18 margin-left-75">
                                 <li>Lowered return rate by <b>40%</b></li>
                                 <li>Entire project under 1mb</li>
                                 <li>First css style sheet in Motorola Products </li>
 
                                 <li>Style Guide </li>
                             </ul>
-                            <ul className="list-right content-text-18">
+                    </div>
+                    <div className="flex-layout-center-center  flex-items-align-top margin-top-25"> 
+                            <ul className="dashed content-text-18 margin-left-75">
                                 <li>Reduced Customer Service calls by <b>70%</b></li>
                                 <li>Return rate dropped dramatically in a few months after launch </li>
                                 <li>Positive reviews by <a href="https://www.cnet.com/reviews/motorola-sbg6782-ac-surfboard-extreme-cable-modem-review/" >Cnet</a> and <a href="https://www.youtube.com/watch?v=cqTHxAN6cRwYouTube">YouTube</a> </li> 
                                 <li>Communication between teams improved</li>
                             </ul>      
                         </div>
-                    </div>
                     </section>
              
                    
-                    <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
-                <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
+            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+                <div className=" margin-top-50 content-block-65 margin-bottom-50 text-align-center "> 
                             <p className="callout-text-white text-align-center">
                                 "The Surfboard eXtreme has a robust and self-explanatory Web interface with lots of features, including showing level of interference for its Wi-Fi networks." - CNET review</p><img  src={motorola_cnet} alt="CNET review"/>
                         </div>

@@ -2465,7 +2465,8 @@ Button:hover {
 
 .subtitle-case {
   font-family: 'Oswald', sans-serif;
-  font-size: 2rem; }
+  font-size: 2rem;
+  line-height: 2.25rem; }
 
 .subtitle-why {
   font-size: 1.8rem;
@@ -3173,7 +3174,7 @@ a:any-link {
   .content-block-55 {
     width: 83%; }
   .content-block-60 {
-    width: 90%; }
+    width: 75%; }
   .content-block-65 {
     width: 75%; }
   .content-block-70 {
@@ -3244,8 +3245,7 @@ a:any-link {
     font-size: 3.12rem; }
   .header-title-cs {
     font-size: 1.375rem;
-    text-align: center;
-    margin-left: 25%; }
+    text-align: center; }
   .logo-cs-mobile {
     width: 10%; }
   .title-homepage {

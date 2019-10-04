@@ -1,13 +1,12 @@
 import React, { Component } from 'react' 
 import Helmet from 'react-helmet';
 import stubhub_bg from '../images/backgrounds/bg-stubhub.png';
-import stubhub_logo from '../images/icon-logo-stubhub.svg'; import stubhub_logo_white from '../images/icon-logo-stubhub-white.svg'
+import stubhub_logo_white from '../images/icon-logo-stubhub-white.svg'
 import stubhub_before_s1 from '../images/photos/photo-stubhub-before-2.png';
 import sally from '../images/photos/photo_sally.jpg';
 import stubhub_s1 from '../images/photos/photo-stubhub-s1.png';
 import stubhub_before_2 from '../images/photos/photo-stubhub-before-kpi.png';
 import stubhub_slow from '../images/photos/photo-stubhub-turtle.png';
-import stubhub_before_3 from '../images/photos/photo-stubhub-before-topMetrics.png';
 import stubhub_after_1 from '../images/photos/photo-stubhub-breadth-inventory.png';
 import stubhub_company_kpis from '../images/photos/photo-stubhub-company-kpis.png';
 import stubhub_after_4 from '../images/photos/photo-stubhub-cbt.png';
@@ -26,7 +25,7 @@ class case_study_2 extends Component {
                 <meta name="description" content="case studies for motorola, pfizer, osisoft, stubhub. Describes " />
                 <meta name="keywords" content="case studies, stubhub business intelligence platform, WDS, stubhub, motorola" />
                 <meta charSet="utf-8" />
-                <title>Case Study - Motorola</title>
+                <title>Case Study - StubHub</title>
                 <link rel="canonical" href="http://watermandesignsolutions.com/case_study_2" />
             </Helmet>
             
@@ -54,7 +53,7 @@ class case_study_2 extends Component {
                 <section className="flex-layout-section-full margin-top-50">
                      <div className="container-image-block flex-layout-center-center flex-layout-column">
                         <img className="photo-container-cs-sb1" src={stubhub_s1} alt="Don't make me hover for numbers"/>
-                        <p className="margin-top-15"> <i>I don't want to have to hover over the little dots!</i></p>
+                        <div className="margin-top-15 caption width-70"><i> I don't want to have to hover over the little dots!</i></div>
                     </div>
                 </section>
                 <section className="flex-layout-section-full align-items-center margin-top-100">
@@ -95,7 +94,7 @@ class case_study_2 extends Component {
                 <section className="flex-layout-section-full margin-top-25">
                      <div className="container-image-block flex-layout-center-center flex-layout-column">
                         <img className="photo-container-cs-sb1" src={stubhub_before_s1} alt="Only one user"/>
-                        <p className="margin-top-15"> <i>Old interface design which boasts of having 1 user</i></p>
+                        <div className="margin-top-15 caption width-70"> <i>Old interface design which boasts of having 1 user</i></div>
                     </div>
                 </section>
                 
@@ -151,7 +150,7 @@ class case_study_2 extends Component {
                     <div className="flex-layout-section-full margin-top-25">
                         <div className="container-image-block align-items-center flex-layout-column">
                             <img className="photo-container-cs-sb1" src={stubhub_slow} alt="Understanding the truth"/>
-                            <p className="margin-top-15"><i>3 Minute Wait Time is unacceptable!</i></p>
+                            <div className="margin-top-15 caption width-70"><i>3 Minute Wait Time is unacceptable!</i></div>
                         </div>
                     </div>
 
@@ -167,34 +166,37 @@ class case_study_2 extends Component {
                         <div className="content-block-55 margin-top-15">
                             <p className="content-text-18">
                                 Most failures arise from a disconnect between what the user wants/expects and what they are offered. After the initial research and development of personas, the challenges were met head on. Here are the issues that WDS and StubHub agreed on: </p>
-                        </div>
-                        <div className="grid-2col-list margin-top-25">    
-                            <div className="list-left  margin-left-75">
-                                <span className="subtitle margin-top-15">
-                                    Design Pain Points</span>
-                                <ul className="dashed content-text-18 margin-top-5"> 
+                </div>
+                </section>
+            <section className="flex-layout-row flex-layout-justified-sb align-self-center">
+                    
+                    <div className="flex-layout-center-center  flex-items-align-top margin-top-25">
+                            
+                            <ul className="dashed content-text-18 margin-left-75">
+                                    <p className="subtitle-case">User Pain Points:</p>
+                                
                                     <li><a href="#solution1">Current UI confusing and out of date</a> </li> 
                                     <li><a href="#solution2">Data displays did not show the numbers</a></li>
                                     <li><a href="#solution3">Customizable dashboard </a></li>
                                     <li><a href="#solution4">Too many unused features</a></li>
                                     <li><a href="#solution5">KPI section was unintelligible</a></li>
                                     <li><a href="#solution6">Get more users</a></li>
-                                </ul>
-                                    </div>
-                                    <div className="list-right margin-left-75">
-                                <span className="subtitle">
-                                        Business Pain Points</span>
-                                <ul className="dashed content-text-18 margin-top-5"> 
+                                    </ul> 
+                            </div>
+                            <div className="flex-layout-center-center  flex-items-align-top margin-top-25">
+
+                                <ul className="dashed content-text-18 margin-left-75">
+                                    <p className="subtitle-case">Business Pain Points:</p>
                                     <li><a href="#solution6">One user</a> </li> 
                                     <li><a href="#solution6">WDS needs lead project end-to-end</a></li>
                                     <li><a href="#solution1">Responsive design</a></li>
                                     <li><a href="#solution4">Feature bloat</a></li>
                                     <li><a href="#solution1">Reports are customizable and interface needs to be fluid</a></li>
                                     <li><a href="#solution1">Two sets of users (Analysts and VP's)</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
+                                    </ul> 
+                    </div>
+            </section>
+        
 
                     <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
@@ -217,7 +219,7 @@ class case_study_2 extends Component {
                     </section>
                         <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-25">
                             <img className="photo-container-cs-sb1" src={stubhub_after_1} alt="Stub Hub Newly Design Reporting Tool"/>
-                            <p className="margin-top-15"><i> Approved Design for the New Stubhub Reporting Tool</i></p>
+                            <div className="margin-top-15 caption width-70"><i> Approved Design for the New Stubhub Reporting Tool</i></div>
                         </div>
 
                         <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
@@ -292,7 +294,7 @@ class case_study_2 extends Component {
                         </section>
                         <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-25">
                             <img className="photo-container-cs-sb1" src={stubhub_dashboard} alt="Customizable Dashboard"/>
-                            <p className="margin-top-15"><i>The biggest feature request a simple, customizable data dashboard</i></p>
+                            <div className="margin-top-15 caption width-70"><i>The biggest feature request a simple, customizable data dashboard</i></div>
                         </div>
 
                         <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
@@ -316,7 +318,7 @@ class case_study_2 extends Component {
                         </section>
                         <section className="container-image-block flex-layout-center-center flex-layout-column margin-top-25">
                             <img className="photo-container-cs-sb1" src={stubhub_weekly_metrics} alt="The option button"/>
-                            <p className="margin-top-15"><i>Clicking on the option button, open the option panel</i></p>
+                            <div className="margin-top-15 caption width-70"><i>Clicking on the option button, open the option panel</i></div>
                         </section>
 
                         <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
@@ -338,13 +340,14 @@ class case_study_2 extends Component {
                             </div>
                         </section>
                         <section className="container-image-block flex-layout-center-center flex-layout-column margin-top-25">
-                            <p className="subtitle">The New KPI </p><img className="photo-container-cs-sb1" src={stubhub_company_kpis} alt="The new clean KPI section<"/>
-                            <p className="margin-top-15"><i>The new clean KPI section</i></p>
+                            <p className="subtitle">The New KPI </p>
+                            <img className="photo-container-cs-sb1" src={stubhub_company_kpis} alt="The new clean KPI section<"/>
+                            <div className="margin-top-15 caption width-70"><i>The new clean KPI section</i></div>
                         </section>
                         <section className="container-image-block flex-layout-center-center flex-layout-column margin-top-25">
                         <p className="subtitle">The Old KPI </p>
                             <img className="photo-container-cs-sb1" src={stubhub_before_2} alt="The old KPI section"/>
-                            <p className="margin-top-15"><i>Confusing and incoherent</i></p>
+                            <div className="margin-top-15 caption width-70"><i>Confusing and incoherent</i></div>
                         </section>
 
                         <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
@@ -383,25 +386,34 @@ class case_study_2 extends Component {
                         </section>
                         <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-25 margin-bottom-100">
                             <img className="photo-container-cs-sb1" src={stubhub_results} alt="(8% usage rate in under 5 months "/>
-                            <p className="margin-top-15 text-align-center margin-bottom-100">
-                                <i>StubHub happily emailed WDS this screenshot six months after release </i></p>
+                            <div className="margin-top-15 caption width-70">
+                                <i>StubHub happily emailed WDS this screenshot six months after release </i></div>
                         </div>
                         <div className="container-bottom-callout">
                         
                     </div>
-                    
-                    <div className="grid-callout border-top-5 grey" >
-                          
-                            <div className="grid-callout-text grid-placeself-center width-70" >
-                                <p className="callout-text-white ">A few months later...
-                                <br></br> A follow-up call to StubHub led to an astonishing reveal. There was no need to push for more users because 172 out of the 175 analysts were using the reporting tool, up to 98%, a 97% increase in 5 months. StubHub was thrilled with WDS design solutions and  with the results.
-                                </p>
-                            </div>
+
+        <section className="flex-layout-section-full align-items-center grey border-top-5">
+                <div className="grid-2col-text-photo align-self-center width-70 margin-top-50 margin-bottom-50" > 
+                    <div className="2col-text grid-placeself-center ">
+                        <div className="content-block">
+                            <p className="content-header"> 
+                              A few months later...</p>
+                            <p className="content-text-18 margin-top-15 ">  
                             
-                            <div className="grid-callout-photo grid-placeself-center margin-top-15">
-                                <img src={thumbsUp} alt="97% increase in users in 5 months"/>
-                            </div>
-                        </div> 
+                           
+                                A follow-up call to StubHub led to an astonishing reveal. There was no need to push for more users because 172 out of the 175 analysts were using the reporting tool, up to 98%, a 97% increase in 5 months. StubHub was thrilled with WDS design solutions and  with the results.
+</p> 
+
+                        </div>
+                    </div>              
+                    <div className="col2-photo grid-placeself-center width-100">
+                        <img className="flex-image-container " src={thumbsUp}  alt="StubHub follow up 97% growth in users!" /> 
+                    </div>
+                </div>
+            </section> 
+                    
+                    
                     </div>
                 </div>    
                                               
