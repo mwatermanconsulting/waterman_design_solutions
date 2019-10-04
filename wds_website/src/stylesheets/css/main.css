@@ -1190,7 +1190,7 @@ h1 {
 .callout-title {
   font-size: 2rem;
   font-family: 'Oswald', serif;
-  line-height: 2.12;
+  line-height: 2.25rem;
   letter-spacing: 0.8px;
   font-weight: 700;
   text-align: left;
@@ -3048,6 +3048,8 @@ a:any-link {
     margin-left: -6%; }
   .margin-left-why-60per {
     margin-left: 60%; }
+  .margin-left-140 {
+    margin-left: 40px; }
   .padding-sm-20-10 {
     padding: 20px 20px 5px 10px; }
   .title-center {
@@ -3731,6 +3733,8 @@ a:any-link {
     padding: 15px 5px 15px 25px; }
   .margin-left-why-60per {
     margin-left: 12%; }
+  .margin-left-140 {
+    margin-left: 140px; }
   .margin-top-2 {
     margin-top: 2px; }
   .card-case-studies {
