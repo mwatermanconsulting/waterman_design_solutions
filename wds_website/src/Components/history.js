@@ -55,7 +55,7 @@ class about extends Component {
 
                         <div className="content-text-18 text-bold margin-top-10" >
                         <p  className="content-text-18 text-align-center-sm">
-                            <b>The foundation of everything is Design</b></p>
+                            <b>The Foundation of Everything is Design</b></p>
 
                         <p className="content-text-18">Since 1997, WDS has been evangelizing the value of design under its original name, Surreal Concepts. Started by the husband and wife team, Terri and Michael Waterman, they began with a simple premise and small list of design services. Their business has evolved alongside the digital revolution, adapting and modifying their services to match their client needs. From small businesses to global name brands, each experience help them to grow and expand service offerings. Waterman Design Solutions reflect that growth with a new focus. </p>
 
