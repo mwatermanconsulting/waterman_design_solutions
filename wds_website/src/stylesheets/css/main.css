@@ -3113,6 +3113,8 @@ a:any-link {
     padding: 20px; }
   .padding-right-15 {
     padding: 0; }
+  .width-65sm {
+    width: 65%; }
   .float-right {
     float: right;
     padding: 0px 15px 15px 0px; }
@@ -3720,6 +3722,8 @@ a:any-link {
     font-family: Roboto; }
   .padding-sm {
     padding: 0px; }
+  .width-65sm {
+    width: revert; }
   .visibility {
     display: block; }
   .float-right {

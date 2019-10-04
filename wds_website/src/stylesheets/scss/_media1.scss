@@ -169,6 +169,10 @@
     padding: 0;
   }
 
+  .width-65sm {
+    width: 65%;
+  }
+
   .float-right {
     float: right;
     padding: 0px 15px 15px 0px;
@@ -1120,6 +1124,9 @@
 
     .padding-sm {
       padding: 0px;
+    }
+    .width-65sm {
+      width: revert;
     }
   
   .visibility {
