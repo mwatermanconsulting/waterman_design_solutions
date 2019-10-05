@@ -96,7 +96,7 @@ class ux_design extends Component {
 
                     <section className="float-left align-items-center flex-layout-column">
                         <div className="title content-block-60">
-                            UX Design is the study of people</div>
+                            UX Design is the Study of People</div>
                         <p className="subtitle content-block-60 margin-top-10">
                             Understanding is Key
                         </p>
