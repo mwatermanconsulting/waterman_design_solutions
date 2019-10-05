@@ -1,7 +1,6 @@
 import React, { Component } from 'react' ;
 import Helmet from 'react-helmet';
 import design from '../images/backgrounds/bg-digital-design.png';
-import services from '../images/graphic-services.svg';
 import web1 from '../images/photos/photo-web-s1.png';
 import web2 from '../images/photos/photo-web-s2.png';
 import web4 from '../images/photos/photo-web-acd.png';
@@ -32,7 +31,7 @@ class digital_design extends Component {
 
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                    “Getting a quality website is not an expense but rather an investment.” <br></br> ― Dr. Christopher Dayagdag
+                    “Getting a quality website is not an expense but rather an investment.” <br></br> - Dr. Christopher Dayagdag
 
                 </div>
             </section>
@@ -97,42 +96,42 @@ class digital_design extends Component {
 
             <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
-            <section className="flex-layout-section-full align-self-center">
-                <div className="grid-2col-text-center margin-left-15 width-100" >
-                    <div className="grid-title subtitle-center content-text-24 margin-bottom-20">
-                            Website Design Services Include: 
+            <section className=" align-self-center">
+                <div className="grid-2col-text-center align-self-center width-100" >
+                    <div className="grid-title subtitle-center content-text-24  margin-bottom-20 ">
+                            Website Design Services: 
                     </div>
-                    <div className="item content-text-18">
+                    <div className="item content-text-18 margin-left-15sm">
                             Responsive Design
                     </div>
-                    <div className="item content-text-18 ">
+                    <div className="item content-text-18  margin-left-15sm">
                         <a href ="./core_offerings">
                             Accessibility</a>
                     </div>
-                    <div className="item content-text-18">
+                    <div className="item content-text-18 margin-left-15sm">
                         <a href ="./core_offerings">
                             Telemetry</a>
                         </div>
-                        <div className="item content-text-18">
+                        <div className="item content-text-18 margin-left-15sm">
                             Content Creation
                         </div>
-                        <div className="item content-text-18">
+                        <div className="item content-text-18 margin-left-15sm">
                             Typography 
                         </div>
-                        <div className="item content-text-18">
+                        <div className="item content-text-18 margin-left-15sm">
                             Front-End Development
                         </div>
-                        <div className="item content-text-18">
+                        <div className="item content-text-18 margin-left-15sm">
                             Custom Images
                         </div>
-                        <div className="item content-text-18">
+                        <div className="item content-text-18 margin-left-15sm">
                             Mobile Design
                         </div>
-                        <div className="item content-text-18">
+                        <div className="item content-text-18 margin-left-15sm">
                         <a href ="./core_offerings">
                             Analytic Data Reporting</a>
                         </div>
-                        <div className="item content-text-18">
+                        <div className="item content-text-18 margin-left-15sm">
                             <a href="./design_systems">
                             Pattern Libraries</a>
                         </div>

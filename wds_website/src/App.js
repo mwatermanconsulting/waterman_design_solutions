@@ -120,8 +120,8 @@ class App extends Component {
       <footer className="container-footer red padding border-top-5">
       <div className="grid-footer">
       <div className="grid-footer-item-1">
-          <div className="subtitle-menu text-white">
-               Why
+          <div className="text-white margin-bottom-15">
+               <p className="subtitle-menu">Why</p>
               <ul>
                  <li> <a className="text-black" href="./why_wds">Why WDS</a></li>
                  <li><a className="text-black" href="./case_studies">Case Studies</a></li>
@@ -132,7 +132,7 @@ class App extends Component {
           </div>
         </div>
           <div className="subtitle-menu text-white grid-footer-item-2">
-              Services
+          <p className="subtitle-menu">Services</p>
               <ul className="text-black">
               <li><a className="text-black" href="./services">Overview</a></li>
               <li><a className="text-black" href="./ux_design">UX Design </a></li>
@@ -144,7 +144,7 @@ class App extends Component {
               </ul>
           </div>
           <div className="grid-footer-item-3 text-white subtitle-menu">
-                Methodology
+          <p className="subtitle-menu">Methodology</p>
               <ul>
               <li><a className="text-black" href="./methodology">Overview</a></li>
               <li><a className="text-black" href="./finding_truth">Finding the Truth</a></li>
@@ -153,7 +153,7 @@ class App extends Component {
               </ul>
           </div>
           <div className="grid-footer-item-4 text-white subtitle-menu"> 
-                Design Solutions
+          <p className="subtitle-menu">Design Solutions</p>
               <ul>
               <li><a className="text-black" href="./design_solutions">Overview</a></li>
               <li><a className="text-black" href="./website_design">Website Design</a></li>
@@ -163,7 +163,7 @@ class App extends Component {
           </div> 
           
             <div className="grid-footer-item-5 subtitle-menu text-white marginleft-40per">
-                Social Media
+            <p className="subtitle-menu">Social Media</p>
               <ul>
               <li>
                 <a href="https://www.linkedin.com/company/waterman-design-solutions"><img className=" width-10 padding-right-10 margin-top-15" src={linkedin}  target="_blank"  alt="LinkedIn" /></a> 
