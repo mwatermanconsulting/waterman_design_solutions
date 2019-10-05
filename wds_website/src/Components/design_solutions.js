@@ -6,7 +6,7 @@ import designer from '../images/photos/photo-design-s1.png';
 import design3 from '../images/photos/photo-design-s3.png';
 import design5 from '../images/photos/photo-design-s5.png';
 import design_print from '../images/photos/photo-design-print.png';
-import design_therapy from '../images/photos/photo-design-therapy.png';
+import design_therapy from '../images/graphic-therapy.svg';
 
 class design_solutions extends Component {
     render () {
@@ -29,7 +29,7 @@ class design_solutions extends Component {
             </div>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 red">
                 <div className="callout-text-white">
-                    “Good designs come from the heart, not from the brain” -Juan-Carlos Fernandez         
+                    “Good designs come from the heart, not from the brain” - Juan-Carlos Fernandez         
                 </div>
             </section>
 
@@ -45,8 +45,8 @@ class design_solutions extends Component {
 
             <div className="flex-layout-section-full align-items-center" >
                 <div className="content-header flex-layout-center-center flex-layout-column"> 
-                    <p className="title text-align-center margin-top-75">
-                        "A consistent experience is a better experience.” - Mark Eberman
+                    <p className="title text-align-center margin-top-75 padding-sm">
+                        "A consistent experience is a better experience.” <br></br>- Mark Eberman
                     </p>   
                     <p className="content-text-21 content-block-60 flex-layout-center-center margin-top-25 margin-bottom-50">
                         Design determines success and understanding the user is paramount. WDS unites your business with  customers and brings an understanding to their needs and expectations.</p>
@@ -73,7 +73,7 @@ class design_solutions extends Component {
                     <p className="content-text-18">
                         WDS websites are on the cutting edge. They were one of the first companies to build websites from UX research, and to provide responsive designs (<a className="greenlink" href="../case_study_1">Motorola</a>) and the first to develop enterprise-level CSS Flexbox solutions (<a className="greenlink" href="../case_study_4">OsiSoft</a>). </p>
                   
-                    <div className="float-left margin-left-25sm">
+                    <div className="float-left">
                         <NavLink id="top" className='button-area no-decoration' type="button" value="learn more" to={'/website_design'}>
                             Learn More
                         </NavLink>
@@ -93,7 +93,7 @@ class design_solutions extends Component {
                     <img className="photo-container margin-top-8per"  src={design_print}  alt="Graphic Design" /> 
                 </div>  
                     Graphic design still has a place in today's digital technology. WDS  develops traditional design strategies that compliments  digital campaigns by designing graphics that are based on research and user personas. Designing for real people helps drive sales and user retention. WDS has extensive print experience, including magazines, brochures, business cards, trade show displays, corporate reports, etc. </p>
-                <div className="float-left margin-left-25sm">
+                <div className="float-left ">
                     <NavLink className='button-area no-decoration' value="learn more" type="button" to={'/website_design'}>
                         Learn More
                     </NavLink>  
@@ -113,7 +113,7 @@ class design_solutions extends Component {
                     <img className="photo-container" src={design3}  alt="Social Media Services" /> 
                 </div>
                     The goal of WDS is to identify the right approach for your unique target audiences on social media. They plan, develop, and execute innovative social media marketing strategies that build a meaningful experience for your users. User research, ad optimization techniques and social media platforms are leveraged to connect your brand, products and/or services to the right people. By creating highly targeted advertisements on social media, you can reach an otherwise untapped resource for potential customers. </p>
-                <div className="float-left margin-left-25sm">
+                <div className="float-left ">
                     <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/marketing'}>
                         Learn More
                     </NavLink>
