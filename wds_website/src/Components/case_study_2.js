@@ -241,8 +241,8 @@ class case_study_2 extends Component {
                         </section>
                         <section className="container-image-block flex-layout-center-center flex-layout-column margin-top-25">
                             <img className="photo-container-cs-sb1" src={stubhub_after_4} alt="Show me the Numbers"/>
-                            <p className="margin-top-15"> 
-                                Numbers became an important part of the design. Biggest complaint from analyst was not seeing the numbers clearly.</p>
+                            <div className="margin-top-15 caption width-70">
+                                Numbers became an important part of the design. Biggest complaint from analyst was not seeing the numbers clearly.</div>
                         </section>
 
                         <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
@@ -385,7 +385,7 @@ class case_study_2 extends Component {
                             </div>
                         </section>
                         <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-25 margin-bottom-100">
-                            <img className="photo-container-cs-sb1" src={stubhub_results} alt="(8% usage rate in under 5 months "/>
+                            <img className="photo-container-cs-sb1" src={stubhub_results} alt="98% usage rate in under 5 months "/>
                             <div className="margin-top-15 caption width-70">
                                 <i>StubHub happily emailed WDS this screenshot six months after release </i></div>
                         </div>

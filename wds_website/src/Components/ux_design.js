@@ -86,7 +86,7 @@ class ux_design extends Component {
                                 <img className="container-image-500 margin-top-15per" src={ux_s3}  alt="Old school customer service" />   
                             </div> 
                             <p className="subtitle"> 
-                                Old-school Customer Service</p> 
+                                Old School Customer Service</p> 
                            
                             <p className="content-text-18">
                                 Empathy is a very powerful selling tool, because it is human-centric. It’s the new buzz word, but empathy has always been at the heart of WDS designs.  <br></br>“Walk in the user’s shoes.” <br></br>“See the problem as if you were experiencing it yourself."<br></br>“Observe  daily routines.” <br></br>All of these mantras and behaviors are empathetic techniques that their UX designers have acquired through years of practice. It is part of their daily lives. 
@@ -98,7 +98,7 @@ class ux_design extends Component {
 
                     <section className="float-left align-items-center flex-layout-column">
                         <div className="title content-block-60">
-                            UX Design is the study of people</div>
+                            UX Design is the Study of People</div>
                         <p className="subtitle content-block-60 margin-top-10">
                             Understanding is Key
                         </p>
@@ -122,7 +122,7 @@ class ux_design extends Component {
  
                 <section className="float-left align-items-center flex-layout-column">
                         <div className="title content-block-60">
-                        WDS UX Team makes the Difference
+                        WDS UX Team Makes the Difference
                     </div>
                     <div className="subtitle margin-top-10
                     flex-layout-center-center title content-block-60">
