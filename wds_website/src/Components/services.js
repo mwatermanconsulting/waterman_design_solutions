@@ -41,13 +41,13 @@ class services extends Component {
 
                 </div>
             </section>
-            <section className="grid-callout yellow-bg"> 
-                <div className="grid-callout-text grid-placeself-center width-70">
-                    <p className="callout-text padding-sm-20-10">
+            <section className="grid-callout yellow-bg padding-sm"> 
+                <div className="grid-callout-text grid-placeself-center">
+                    <p className="callout-text content-block-80">
                        The role of a UX consultant is to listen and connect to the customers. WDS services are a testament to the belief in old-fashioned customer service.
                     </p>     
                 </div>
-                <div className="grid-callout-photo grid-placeself-center">
+                <div className="grid-callout-photo grid-placeself-center border-2-sm">
                     <img className="flex-image-container width-100" src={together}  alt="Working together" /> 
                 </div>
             </section>
@@ -56,7 +56,7 @@ class services extends Component {
                 <p className="title margin-top-75">
                     WDS Services</p>
                 <p className="subtitle-center margin-top-15 content-block-65">
-                     Design always determines success, and understanding the user is paramount to that success. <br/> The team of WDS UX designers design with empathy that connects with people,  meeting their needs and expectations. 
+                     Design always determines success, and understanding the user is paramount to that success. <br/> The team of WDS UX designers design with empathy that connects with people,meeting their needs and expectations. 
                 </p>
             </section>
 
@@ -64,15 +64,15 @@ class services extends Component {
 
             <section className="flex-layout-section-full flex-layout-column align-items-center flex-layout-center-center">
                     <div className="float-left flex-layout-center-center flex-layout-column align-items-center">
-                        <div className="title content-block-65">
+                        <div className="title content-block-60">
                             User Experience Design
                         </div>
-                        <div className="subtitle margin-top-10 content-block-65">
+                        <div className="subtitle margin-top-10 content-block-60">
                            Understanding the User
                         </div>
-                        <div className="margin-top-15 content-block-65">
+                        <div className="margin-top-15 content-block-60">
                          <div className="float-right callout-photo">
-                        <img src={services3} className="image-size-100"  alt="UX Design" /> </div>   
+                        <img src={services3} className="container-image-500"  alt="UX Design" /> </div>   
                             <p className="content-text-18"> 
                             WDS design experts use research, empathy and insight to define how software functions and build workflows for the ways that people will experience it. From inception to launch, the users' voice is always heard, leaving no detail missed.</p> 
                         <p className="content-text-18">
@@ -88,7 +88,7 @@ class services extends Component {
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
-                    <div className="float-left flex-layout-center-center content-block-65">
+                    <div className="float-left flex-layout-center-center content-block-60">
                         <div className="title">
                             UI Design and Development
                         </div>
@@ -114,14 +114,14 @@ class services extends Component {
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="float-left flex-layout-section-full flex-layout-column flex-layout-center-center">
-                    <div className=" title content-block-65">
+                    <div className=" title content-block-60">
                          Design Solutions
                     </div>
-                    <div className="subtitle content-block-65 margin-top-10">
+                    <div className="subtitle content-block-60 margin-top-10">
                          Empathetic Design
                     </div>
-                    <div className="margin-top-15 content-block-65"> <div className="float-right callout-photo grid-placeself-center margintop-4per" >
-                                <img className="container-image-500 margin-top-20" src={services7}  alt="Design Solutions" /> 
+                    <div className="margin-top-15 content-block-60"> <div className="float-right callout-photo grid-placeself-center margintop-4per" >
+                                <img className="container-image-500" src={services7}  alt="Design Solutions" /> 
                         </div> 
                         <p className="content-text-18 "> 
                             WDS design solutions include software design, websites, marketing and print. WDS design solutions provide our clients consistency across all their consumer touchpoints. </p> 
@@ -137,13 +137,13 @@ class services extends Component {
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="float-left flex-layout-column flex-layout-section-full  flex-layout-center-center">
-                    <div className="title content-block-65">
+                    <div className="title content-block-60">
                          Strategy and Insight
                     </div>
-                    <div className="subtitle content-block-65 margin-top-10">
+                    <div className="subtitle content-block-60 margin-top-10">
                          Insight through Observations
                     </div>
-                    <div className="margin-top-15 content-block-65"> <div className="float-right callout-photo grid-placeself-center">
+                    <div className="margin-top-15 content-block-60"> <div className="float-right callout-photo grid-placeself-center">
                                 <img className="container-image-500" src={services5}  alt="Strategy and Insight" /> 
                         </div>  
                         <p className="content-text-18">
@@ -162,16 +162,16 @@ class services extends Component {
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="float-left flex-layout-column flex-layout-section-full  flex-layout-center-center">
-                    <div className="title content-block-65">
+                    <div className="title content-block-60">
                             CSS Solutions
                     </div>
-                    <div className="subtitle content-block-65 margin-top-10">
+                    <div className="subtitle content-block-60 margin-top-10">
                             Scalable Enterprise Solutions
                     </div>
-                    <div className="margin-top-15 content-block-65"> <div className="float-right callout-photo grid-placeself-center">
+                    <div className="margin-top-15 content-block-60"> <div className="float-right callout-photo grid-placeself-center">
                                 <img className="container-image-500" src={casscade}  alt="Strategy and Insight" /> 
                         </div>  
-                        <p className="content-text-18 content-block-65">
+                        <p className="content-text-18 content-block-60">
                             WDS provides CSS services that include CSS development, strategy, CSS system implementation, mentoring and documentation,including best of practice.</p> 
                         <p className="content-text-18 margin-top-15">
                             Their solutions are inspired by empathy and experiences working with developers. The CSS solutions are scalable and customizable to your business requirements.
@@ -187,13 +187,13 @@ class services extends Component {
                 <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"></div>
 
                 <section className="float-left flex-layout-section-full flex-layout-column flex-layout-center-center">
-                    <div className=" title content-block-65">
+                    <div className=" title content-block-60">
                          Marketing 
                     </div>
-                    <div className="subtitle content-block-65 margin-top-10">
+                    <div className="subtitle content-block-60 margin-top-10">
                         Social Media Marketing Done Right 
                     </div>
-                    <div className="margin-top-15 content-block-65"> <div className="float-right callout-photo grid-placeself-center">
+                    <div className="margin-top-15 content-block-60"> <div className="float-right callout-photo grid-placeself-center">
                                 <img className="container-image-500" src={services4}  alt="Social Media" /> 
                         </div>  
                         <p className="content-text-18 ">

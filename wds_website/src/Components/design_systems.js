@@ -34,12 +34,12 @@ class style_guide extends Component {
             </section>
 
              <section className="grid-callout photo-content-color border-bottom-5" > 
-                <div className="grid-placeself-center content-block-80 flex-layout-column">
+                <div className="grid-placeself-center content-block-75 flex-layout-column">
                     <div className="callout-text padding-20 text-align-left margin-top-15 margin-left-2" >
                     A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive, combining components, behaviors, and branding. It must also be flexible and scalable.</div>        
                     </div>
                     <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
-                        <img className="container-photo-callout margin-left-12per" src={digital_systems1}  alt="Finding Truth" /> 
+                        <img className="container-photo-callout margin-left-15per" src={digital_systems1}  alt="Finding Truth" /> 
                     </div>
             </section>
     

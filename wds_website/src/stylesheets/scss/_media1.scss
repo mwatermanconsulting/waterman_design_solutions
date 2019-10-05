@@ -12,6 +12,10 @@
     transition: 0.75s;
   }
 
+  .border-2-sm {
+    border: 2px solid rgba(58, 58, 58, 0.838);
+  }
+
   .flex-layout-justified-sa {
     display: flex;
     justify-content: space-around;
@@ -104,6 +108,10 @@
 
   .margintop-4per{
     margin-top: -0%;
+  }
+
+  .margin-left-4per {
+    margin-left: -0%;
   }
 
   .width-76sm {
@@ -1164,6 +1172,10 @@
       font-family: Roboto;
     }
 
+    .border-2-sm {
+      border: 0;
+    }
+
     .padding-sm {
       padding: 0px;
     }
@@ -1248,7 +1260,7 @@
   }
 
   .margin-left-12per {
-    margin-left: 12%;
+    margin-left: 15%;
   }
 
   .margin-top-5{
@@ -1475,6 +1487,10 @@
 
   .margin-left-10sm {
     margin-left: 0%;
+  }
+
+  .margin-left-4per {
+    margin-left: 4%;
   }
 
 

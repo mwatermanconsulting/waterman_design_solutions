@@ -35,12 +35,12 @@ class graphic_design extends Component {
                 </div>
             </section>
             <section className="grid-callout photo-content-color border-bottom-5" > 
-                <div className="grid-placeself-center content-block-80 flex-layout-column">
+                <div className="grid-placeself-center content-block-75 flex-layout-column">
                     <div className="callout-text padding-20 text-align-left margin-top-15 margin-left-2" >
                     Print ads are more effective when they are a complement to your digital campaigns, enticing your audience to interact with your brand online.</div>        
                     </div>
                     <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
-                        <img className="container-photo-callout margin-left-12per" src={print_s1}  alt="Finding Truth" /> 
+                        <img className="container-photo-callout margin-left-15per" src={print_s1}  alt="Finding Truth" /> 
                     </div>
             </section>
 

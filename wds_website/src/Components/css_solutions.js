@@ -37,12 +37,12 @@ class css_solutions extends Component {
             </div>
 
             <section className="grid-callout photo-content-color border-bottom-5" > 
-                <div className="grid-placeself-center content-block-80 flex-layout-column">
+                <div className="grid-placeself-center content-block-75 flex-layout-column">
                     <div className="callout-text padding-20 text-align-left margin-top-15 margin-left-2" >
                     There has been a big shift in marketing. Once it use to be all about the product or application, but now it shifted to human-centric focus. WDS uses UX research to develop marketing strategies. </div>        
                     </div>
                     <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
-                        <img className="container-photo-callout margin-left-12per" src={casscade}  alt="Finding Truth" /> 
+                        <img className="container-photo-callout margin-left-15per" src={casscade}  alt="Finding Truth" /> 
                     </div>
             </section>
 

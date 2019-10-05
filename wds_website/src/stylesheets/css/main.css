@@ -1409,6 +1409,9 @@ footer.link-color {
 .grey-blue {
   background-color: #a6bbc0b3; }
 
+.border-2-sm {
+  border: 0; }
+
 /*******************************
        Global Images
   *******************************/
@@ -3055,6 +3058,8 @@ a:any-link {
     display: inline-block;
     transition-timing-function: ease-out;
     transition: 0.75s; }
+  .border-2-sm {
+    border: 2px solid rgba(58, 58, 58, 0.838); }
   .flex-layout-justified-sa {
     display: flex;
     justify-content: space-around;
@@ -3107,6 +3112,8 @@ a:any-link {
     margin-left: -10%; }
   .margintop-4per {
     margin-top: -0%; }
+  .margin-left-4per {
+    margin-left: -0%; }
   .width-76sm {
     width: 76%; }
   .margin-left-15sm {
@@ -3764,6 +3771,8 @@ a:any-link {
     margin-bottom: 15px;
     padding: 1px;
     font-family: Roboto; }
+  .border-2-sm {
+    border: 0; }
   .padding-sm {
     padding: 0px; }
   .visibility {
@@ -3818,7 +3827,7 @@ a:any-link {
     grid-row: auto;
     justify-content: center; }
   .margin-left-12per {
-    margin-left: 12%; }
+    margin-left: 15%; }
   .margin-top-5 {
     margin-top: 5px; }
   .margin-left-3 {
@@ -3937,6 +3946,8 @@ a:any-link {
     width: 55%; }
   .margin-left-10sm {
     margin-left: 0%; }
+  .margin-left-4per {
+    margin-left: 4%; }
   .margin-top-35sm {
     margin-top: 0%; }
   .margin-top-50 {

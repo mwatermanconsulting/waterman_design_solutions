@@ -38,12 +38,12 @@ class strategy_insight extends Component {
             </section>
 
             <section className="grid-callout photo-content-color border-bottom-5" > 
-                <div className="grid-placeself-center content-block-80 flex-layout-column">
+                <div className="grid-placeself-center content-block-75 flex-layout-column">
                     <div className="callout-text padding-20 text-align-left margin-top-15 margin-left-2" >
                     By directly observing people, WDS gets to the heart of their needs by discovering what drives them,  inspires them and  connects with them on an emotional level. Clients are enlightened with insights and strategies of where to invest resources based on this understanding of what people value.</div>        
                     </div>
                     <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
-                        <img className="container-photo-callout margin-left-12per margin-top-15sm" src={strategy1a}  alt="Finding Truth" /> 
+                        <img className="container-photo-callout margin-left-15per margin-top-15sm" src={strategy1a}  alt="Finding Truth" /> 
                     </div>
             </section>
     
