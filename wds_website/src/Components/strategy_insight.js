@@ -36,19 +36,19 @@ class strategy_insight extends Component {
                     “Strategy is the highest level of a plan” ― Fritz Shoemaker
                 </div>
             </section>
+
             <section className="grid-callout photo-content-color border-bottom-5" > 
-                <div className="grid-placeself-center content-block-60 flex-layout-column">
-                <div className="callout-text text-align-left margin-top-15sm">
-                        By directly observing people, WDS gets to the heart of their needs by discovering what drives them,  inspires them and  connects with them on an emotional level. Clients are enlightened with insights and strategies of where to invest resources based on this understanding of what people value.
-                    </div>          
-                </div>
-                <div className="grid-callout-photo grid-placeself-center margin-tb-100">
-                        <img className="container-photo-callout margin-top-15sm"  src={strategy1a}  alt="Strategy" /> 
-                </div>
+                <div className="grid-placeself-center content-block-80 flex-layout-column">
+                    <div className="callout-text padding-20 text-align-left margin-top-15 margin-left-2" >
+                    By directly observing people, WDS gets to the heart of their needs by discovering what drives them,  inspires them and  connects with them on an emotional level. Clients are enlightened with insights and strategies of where to invest resources based on this understanding of what people value.</div>        
+                    </div>
+                    <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
+                        <img className="container-photo-callout margin-left-12per margin-top-15sm" src={strategy1a}  alt="Finding Truth" /> 
+                    </div>
             </section>
     
             <div className="content-header flex-layout-center-center flex-layout-column">
-                <div className="flex-layout-center-center title text-align-center content-block-60 margin-top-75">
+                <div className="flex-layout-center-center title text-align-center content-block-60 margin-top-75 width-76sm">
                     Today, the user’s experience is more important than brand loyalty. A successful strategy is needed to keep  users involved in all business decisions. 
                 </div>
                 <div className="content-block-60 margin-top-25">
@@ -65,13 +65,13 @@ class strategy_insight extends Component {
             </div>
 
                 <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
-                    <div className="title content-block-65">
+                    <div className="title content-block-60">
                             Stakeholder Interview
                     </div>
-                    <div className="subtitle content-block-65 margin-top-10">
+                    <div className="subtitle content-block-60 margin-top-10">
                             Setting the Foundation
                     </div>
-                    <div className="content-block-65 content-text-18 margin-top-15">
+                    <div className="content-block-60 content-text-18 margin-top-15">
                         <p className="content-text-18"><div className="float-right">
                         <img className="photo-container" src={strategy2}  alt="Stakeholder Interview" /> 
                     </div>  
@@ -81,7 +81,7 @@ class strategy_insight extends Component {
 
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
                
-                <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
+                <section className="float-left flex-layout-section-full align-items-center flex-layout-column margin-top-15sm">
                     <div className="title content-block-60">
                             Design Critique
                     </div>
@@ -98,7 +98,7 @@ class strategy_insight extends Component {
                         
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
-                <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
+                <section className="float-left flex-layout-section-full align-items-center flex-layout-column margin-top-15sm">
                     <div className="title content-block-60">
                             Contextual Inquiry
                     </div>
@@ -121,16 +121,16 @@ class strategy_insight extends Component {
                     <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
                     
 
-                    <section className="grid-callout-2col content-header align-self-center justify-items-center hrline-spacing width-70">
+                    <section className="grid-callout-2col content-header align-self-center justify-items-center width-70">
                     
-                    <div className="gallery-2col-1 container-image-500">
+                    <div className="gallery-2col-1 container-image-500 margin-top-25sm">
                         <a href ="./css_solutions"><img className="container-image-500 border-2" src={services8}  alt="CSS Solutions" /> </a>
-                        <div className="content-block-auto ">
+                        <div className="content-block-auto margin-top-plus5per">
                             <div className="title margin-top-50">
-                                <a href="./css_solutions" className="no-decoration margin-top-plus5per">
+                                <a href="./css_solutions" className="no-decoration margin-top-plus5per margin-top-25sm">
                                     CSS Solutions</a>
                             </div>
-                            <p className="content-text-18 content-block-85 margin-top-15">
+                            <p className="content-text-18 margin-top-15">
                                 Taming the specificity beast used to be difficult. WDS CSS strategy almost eliminates these problems. In fact, the strategy almost eliminates the need for your developers to write CSS. This advantage comes from past experiences working with developers by interviewing and observing them working with CSS.</p>
                         </div>
                     </div>     
@@ -140,7 +140,7 @@ class strategy_insight extends Component {
                             <div className="title margin-top-50">
                             <a href="./design_systems" className="no-decoration margin-top-plus5per"> 
                                     Design Systems</a></div>
-                            <p className="content-text-18 margin-top-15 content-block-85">
+                            <p className="content-text-18 margin-top-15">
                                 At WDS, we know and understand the importance of design systems for businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff.</p>
 
                         </div>
@@ -150,7 +150,7 @@ class strategy_insight extends Component {
                     <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
 
-                    <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
+                    <section className="float-left flex-layout-section-full align-items-center flex-layout-column margin-top-15sm">
                         <div className="title content-block-60">
                             Affinity Diagram
                         </div>
@@ -179,7 +179,7 @@ class strategy_insight extends Component {
                 
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
-                <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
+                <section className="float-left flex-layout-section-full align-items-center flex-layout-column margin-top-15sm">
                         <div className="title content-block-60">
                              Personas
                         </div>
@@ -187,7 +187,7 @@ class strategy_insight extends Component {
                              Introducing Your Users
 
                         </div>
-                        <div className="content-block-60 content-text-18 margin-top-25">
+                        <div className="content-block-60 content-text-18 margin-top-15">
                             <p className="content-text-18"> 
                             <div className="float-right">
                         <img className="photo-container" src={strategy5}  alt="Personas" /> 
@@ -198,7 +198,7 @@ class strategy_insight extends Component {
 
                     <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
-                    <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
+                    <section className="float-left flex-layout-section-full align-items-center flex-layout-column margin-top-15sm">
                         <div className="title content-block-60">
                             Consolidated Workflow Diagrams                        
                         </div>
@@ -210,14 +210,13 @@ class strategy_insight extends Component {
                             <div className="float-right">
                                 <img className="photo-container" src={strategy6}  alt="Consolidated Workflow Diagrams" /> 
                             </div>   
-                            When an engagement centers on a complex tool for the enterprise, the consolidated workflow diagram captures activity across organizational roles, providing stakeholders a single view of all of the work accomplished in and around a tool. This diagram gives stakeholders an “Aha!” moment as, for the first time, they have a picture of the duties that employees or customers accomplish in their work lives. Through the use of a consolidated workflow diagram, it shows how a user moves through tasks and  extrapolates the various cognitive states a user inhabits while engaged with the solution or process. These cognitive states represent a model of what is in people’s minds as they do their work, a mental model. This understanding has implications for both design and marketing. 
-</p>
+                            When an engagement centers on a complex tool for the enterprise, the consolidated workflow diagram captures activity across organizational roles, providing stakeholders a single view of all of the work accomplished in and around a tool. This diagram gives stakeholders an “Aha!” moment as, for the first time, they have a picture of the duties that employees or customers accomplish in their work lives. Through the use of a consolidated workflow diagram, it shows how a user moves through tasks and  extrapolates the various cognitive states a user inhabits while engaged with the solution or process. These cognitive states represent a model of what is in people’s minds as they do their work, a mental model. This understanding has implications for both design and marketing. </p>
                         </div>
                     </section>
                       
                     <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
-                    <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
+                    <section className="float-left flex-layout-section-full align-items-center flex-layout-column margin-top-15sm">
                         <div className="title content-block-60">
                             Looking for Opportunities
                         </div>
@@ -231,21 +230,20 @@ class strategy_insight extends Component {
                             <p className="content-text-18"> 
                                 A key value that a design strategy delivers is a set of new ideas for serving customers. The information distilled from the previous techniques and the company’s strategic requirements come together, clearly laying out a set of options for improving the experience of the user base to increase their engagement and loyalty.</p>
                             <p className="content-text-18">
-                                WDS collaborates with product and executive teams to brainstorm concepts for innovation and improvement. Together, the combined team prioritizes the opportunities based on the difficulty of implementation, the feasibility for the business to deliver and the impact that each solution concept may have on users.</p>
-                                           
-                        </div>
+                                WDS collaborates with product and executive teams to brainstorm concepts for innovation and improvement. Together, the combined team prioritizes the opportunities based on the difficulty of implementation, the feasibility for the business to deliver and the impact that each solution concept may have on users.</p>     
+                         </div>
                     </section>
 
                     <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
-                    <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
+                    <section className="float-left flex-layout-section-full align-items-center flex-layout-column margin-top-15sm">
                         <div className="title content-block-60">
                                 Journey Maps                        
                         </div>
                         <div className="subtitle content-block-60 margin-top-10">
                                 The Larger Whole                        
                         </div>
-                        <div className="content-block-60 content-text-18 margin-top-25">
+                        <div className="content-block-60 content-text-18 margin-top-15">
                             <div className="float-right">
                                 <img className="photo-container" src={strategy8}  alt="Journey Maps " /> 
                             </div>
@@ -254,15 +252,15 @@ class strategy_insight extends Component {
                             </p>
                         </div>
                     </section>
-                    <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
-                <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
-                       <img className="container-image-500 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
-                      
-                    <div className="flex-layout-center-center">
-                    <p className="callout-text text-white text-align-center"> "Pixar considers repeating the formulas of its past commercial successes a much greater threat to its long-term survival than the occasional commercial disappointment."<br></br>- The McKinsey Report</p>
-                    </div>
-                </div>
-            </section>
+
+                    <section className="flex-layout-section-full flex-layout-column flex-layout-center-center padding-top-50 margin-top-50 margin-top-50sm grey border-top-5">
+                        <div className="content-block-65 text-align-center"> 
+                            <img className="container-image-500 padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
+                        <div className="content-block-auto">
+                          <p className="callout-text-white text-align-center">"Pixar considers repeating the formulas of its past commercial successes a much greater threat to its long-term survival than the occasional commercial disappointment."<br></br>- The McKinsey Report</p>
+                        </div>
+                        </div>
+                    </section>      
             </div>
         </div>
         )

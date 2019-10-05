@@ -37,32 +37,29 @@ class digital_design extends Component {
                 </div>
             </section>
 
-            <section className="flex-layout-section-full photo-content-color flex-layout-center-center
-            "> 
-                <div className=" grid-2col-text-photo align-items-center margin-tb-100 content-block-60">
-                    <div className="content-block col2-text ">
-                        <div className="callout-text text-align-left padding-sm">
-                            WDS has been creating design solutions for websites for over 20 years. All of the design solutions are derived from UX research and user personas.  WDS websites designs are as unique as your business.  
-                        </div>      
+            <section className="grid-callout photo-content-color border-bottom-5" > 
+                <div className="grid-placeself-center content-block-80 flex-layout-column">
+                    <div className="callout-text padding-20 text-align-left margin-top-15 margin-left-2" >
+                    WDS has been creating design solutions for websites for over 20 years. All of the design solutions are derived from UX research and user personas.  WDS websites designs are as unique as your business.  </div>        
                     </div>
-                <div className="col2-photo width-100 grid-placeself-center">
-                    <img className="container-photo-callout" src={web1}  alt="Website Design" /> 
-                </div>
-                </div>
+                    <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
+                        <img className="container-photo-callout margin-left-12per" src={web1}  alt="Finding Truth" /> 
+                    </div>
             </section>
 
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100">
-                <div className="float-left flex-layout-center-center content-block-60">
-                    <div className="title">
+                <div className="float-left flex-layout-center-center content-block-65">
+                    <div className="title-center">
                             Custom Designed Websites that Meet Users Expectations
                     </div>
                     <div className=" margin-top-50">
                         <p className="content-text-24 margin-top-15sm">
                             It is easier today than ever for a business to get a website. There are countless template sites that are easy to use for people with limited experience. Your business and customers are unique and your website should reflect that uniqueness, your business deserves to stand out.</p> 
-                            =
+                            
                             <p className="content-text-24">   
                             The typical user has a good design eye and can tell the difference between a template website and a custom website. They will notice when a business cares enough about them to create a design that is based on UX research. Customers will always choose the better experience every time. Your business wasn't born from a template and your users deserve more. Don't settle for good enough!</p>
-                            <div className="flex-layout-column margin-top-25">    
+                    
+                    <div className="flex-layout-column margin-top-50">    
                         <img className="photo-container" src={titanic} className="align-items-center margin-bottom-20" alt="Good Enough is not good enough"/>
                     </div>
                     </div>
@@ -72,10 +69,10 @@ class digital_design extends Component {
             <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
             <section className="flex-layout-section-full flex-layout-center-center">
-                <div className="subtitle margin-top-15sm">
+                <div className="subtitle">
                     A Small Sample of Our Custom Websites 
                 </div>
-                <div className="align-center justify-content-center align-items-center margin-top-50">
+                <div className="align-center justify-content-center align-items-center margin-top-50 margin-top-50sm">
                     <ul className="grid-clients-wrapper align-items-center  width-70">
                     
                     <li  className="grid-clients-box image subtitle text-white"  data-content="ACD">
@@ -102,13 +99,13 @@ class digital_design extends Component {
 
             <section className="flex-layout-section-full align-self-center">
                 <div className="grid-2col-text-center margin-left-15 width-100" >
-                    <div className="grid-title subtitle content-text-24 margin-bottom-20">
+                    <div className="grid-title subtitle-center content-text-24 margin-bottom-20">
                             Website Design Services Include: 
                     </div>
-                    <div className="col2-text content-text-18 margin-top-10">
+                    <div className="item content-text-18">
                             Responsive Design
                     </div>
-                    <div className="item content-text-18 margin-top-10">
+                    <div className="item content-text-18 ">
                         <a href ="./core_offerings">
                             Accessibility</a>
                     </div>
@@ -122,7 +119,7 @@ class digital_design extends Component {
                         <div className="item content-text-18">
                             Typography 
                         </div>
-                        <div className="item- content-text-18">
+                        <div className="item content-text-18">
                             Front-End Development
                         </div>
                         <div className="item content-text-18">
@@ -141,15 +138,16 @@ class digital_design extends Component {
                         </div>
                     </div>
                 </section>
-                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center       margin-top-100  grey border-top-5">
-                    <div className="text-align-center width-75 margin-top-50 align-center margin-bottom-50"> 
-                       <a href="../communication_insights"> 
-                       <img className="container-image-500  margin-bottom-50" src={didyouknow}  alt="Did You Know?" /> </a> 
-                    <div className="flex-layout-center-center">
-                        <p className="callout-text text-white flex-layout-column flex-layout-center-center">WDS does not use templates - custom design only!</p>
+
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center padding-top-50 margin-top-50 margin-top-50sm grey border-top-5">
+                <div className="content-block-65 text-align-center"> 
+                       <img className="container-image-500 padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
+                      
+                      <div className="content-block-auto">
+                          <p className="callout-text-white text-align-center">WDS does not use templates - custom design only!</p>
                     </div>
-                    </div>
-                </section>
+                </div>
+            </section>     
             </div>
             </div>
         )

@@ -32,33 +32,31 @@ class style_guide extends Component {
                 — Craig Villamor
                 </div>
             </section>
-            <section className="flex-layout-section-full photo-content-color border-bottom-5 height-670 padding"> 
-                <div className=" grid-2col-text-photo align-items-center">
-                <div className="content-block col2-text">
-                    <div className="callout-text text-align-left"> 
-                    A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive, combining components, behaviors, and branding. It must also be flexible and scalable.</div>
-                </div>
-                    <div className="col2-photo grid-placeself-right margin-top-15sm">
-                        <img className="container-photo-callout margin-top-15sm" src={digital_systems1}  alt="Design Systems" /> 
-                       
-                    </div> 
-                </div>
+
+             <section className="grid-callout photo-content-color border-bottom-5" > 
+                <div className="grid-placeself-center content-block-80 flex-layout-column">
+                    <div className="callout-text padding-20 text-align-left margin-top-15 margin-left-2" >
+                    A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive, combining components, behaviors, and branding. It must also be flexible and scalable.</div>        
+                    </div>
+                    <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
+                        <img className="container-photo-callout margin-left-12per" src={digital_systems1}  alt="Finding Truth" /> 
+                    </div>
             </section>
     
             <section className="content-header flex-layout-center-center flex-layout-column">
-                <div className="flex-layout-center-center title text-align-center content-block-60 margin-top-75">
+                <div className="flex-layout-center-center title-center  content-block-60 margin-top-75">
                     If your product isn’t documented it doesn’t exist
 
                 </div>
                 <div className="content-block-55 margin-top-25">
-                    <p className="content-text-24 text-align-center">
+                    <p className="content-text-24">
                     Style guides and design systems are there to make your lives easier. It keeps  designs consistent internally and help developers be more productive. </p>
                 </div>
             </section> 
             
             <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
-            <div className="flex-layout-section-full flex-layout-column margin-top-25 align-self-center">
+            <div className="flex-layout-section-full flex-layout-column align-self-center">
                 <section className="float-left align-self-center flex-layout-center-center content-block-60">
                         <div className="title">
                             Less Errors
@@ -68,14 +66,15 @@ class style_guide extends Component {
                             Saving Time
 
                         </div>
-                        <div className="content-text-18 margin-top-25" >
+                        <div className="content-text-18 margin-top-15" >
+                            <div className="float-right">
+                            <img className="photo-container width-100" src={digital_systems2}  alt="Less Errors" /> 
+                        </div>
                             <p className="content-text-18"> 
                             Another benefit of using prebuilt and standardized component is less errors. There’s no chance of making a mistake when you’re copying from a master version. As long as the components in your design system are accurate, their use in your products will be accurate.
                             This is especially good news for developers, who have all the code snippets they need right at their fingertips.
                             </p>
-                        <div className="float-right">
-                            <img className="photo-container width-100" src={digital_systems2}  alt="Less Errors" /> 
-                        </div>
+                        
                         <p className="content-text-18">What is the best accent color for call-to-action buttons? Simply setting out to make a design system forces your team to answer these questions, and make those answers easily accessible to everyone.</p> 
                             <p className="content-text-18">
                                 Having this kind of master reference guide also helps avoid miscommunication. By offering a definitive protocol and standards for otherwise ambiguous elements, design systems keep everyone on the same page. No guesswork, assumptions, or “going rogue.” Design systems also do wonders for problematic developer handoffs. Technical specs are embedded in the document which creates less confusion about how to build something in the backend, or whether it can be built at all. Design systems give designers and developers a shared language.</p>           
@@ -91,7 +90,7 @@ class style_guide extends Component {
                     <div className="subtitle content-block-60 margin-top-10">
                         Building Familiarity
                     </div>
-                    <div className="content-block-60 content-text-18 margin-top-25">
+                    <div className="content-block-60 content-text-18 margin-top-15">
                     <div className="float-right">
                         <img className="photo-container width-100" src={digital_systems3} alt="Style Guides" /> 
                             <p className="caption">Styleguide for OsiSoft </p> </div>
@@ -104,7 +103,7 @@ class style_guide extends Component {
 
                 <div className="thin-hr width-70 content-block-65 align-self-center hrline-spacing"></div>
 
-                <section className="flex-layout-justified-sb flex-layout-row content-block-50">
+                <section className="flex-layout-justified-sb flex-layout-row margin-top-25 content-block-50">
                     <div className="flex-layout-section-full">
                         <div className="subtitle-center">
                             No Version Control Problems
@@ -149,7 +148,7 @@ class style_guide extends Component {
 
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>     
 
-                <section className="float-left align-items-center flex-layout-section-full content-header">
+                <section className="float-left align-items-center flex-layout-section-full margin-bottom-50 content-header">
                     <div className="title content-block-60">
                         Style Guides                        
                     </div>
@@ -164,16 +163,16 @@ class style_guide extends Component {
                     </div>   
                 </section>       
             </div> 
-            
-            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
-                <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
-                    <img className="container-image-500 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
-                    <div>
-                        <p className="callout-text-white text-align-center">
-                        WDS specializes in SaaS design solutions and implementation.</p>
+
+            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center padding-top-50 grey border-top-5">
+                <div className="content-block-55 text-align-center"> 
+                       <img className="container-image-500 padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
+                      
+                      <div >
+                          <p className="callout-text-white text-align-center"> WDS specializes in SaaS design solutions and implementation.</p>
                     </div>
                 </div>
-            </section> 
+            </section>     
         </div>
     </div>
 

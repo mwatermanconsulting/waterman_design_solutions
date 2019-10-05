@@ -32,10 +32,10 @@ class design_solutions extends Component {
                     “Good designs come from the heart, not from the brain” -Juan-Carlos Fernandez         
                 </div>
             </section>
-        
+
             <section className="grid-callout yellow-bg"> 
-                <div className="grid-callout-text grid-placeself-center width-70">
-                    <p className="callout-text padding-sm">
+                <div className="grid-callout-text grid-placeself-center width-70 margin-top-15sm">
+                    <p className="callout-text padding-sm"> 
                     Customers always look for the better experience. Meeting their expectations of intuitive, elegant and simple designs built around and for your users will earn their loyalty.</p>
                 </div>
                 <div className="grid-callout-photo grid-placeself-center">
@@ -45,7 +45,7 @@ class design_solutions extends Component {
 
             <div className="flex-layout-section-full align-items-center" >
                 <div className="content-header flex-layout-center-center flex-layout-column"> 
-                    <p className="title text-align-center margin-top-100">
+                    <p className="title text-align-center margin-top-75">
                         "A consistent experience is a better experience.” - Mark Eberman
                     </p>   
                     <p className="content-text-21 content-block-60 flex-layout-center-center margin-top-25 margin-bottom-50">
@@ -80,8 +80,7 @@ class design_solutions extends Component {
                     </div>
                   </div>
             </section>
-            
-           
+
             <div className="thin-hr width-70 align-self-center hrline-spacing width-70"></div>
 
             <section className="float-left align-items-center flex-layout-column">
@@ -99,7 +98,7 @@ class design_solutions extends Component {
                         Learn More
                     </NavLink>  
                 </div> 
- </div>
+            </div>
             </section> 
 
             <div className="thin-hr width-70 align-self-center hrline-spacing width-70"></div>
@@ -121,23 +120,17 @@ class design_solutions extends Component {
             </div>   
             </div>
             </section>
-
-         
-
-           
-            <div className="thin-hr width-70 align-self-center margin-top-100"></div>            
+          
             
-        <section className="flex-layout-section-full align-items-center yellow-bg border-top-5">
-            <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 margin-bottom-50 " > 
-                <div className="col2-text  grid-placeself-center ">
-                    <div className="content-block text-align-center margin-top-15sm">
+            <section className="flex-layout-section-full align-items-center yellow-bg border-top-5 margin-top-50 margin-top-50sm">
+                <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 margin-bottom-50 " > 
+                    <div className="col2-text  grid-placeself-center ">
+                        <div className="content-block text-align-center margin-top-15sm">
                             <p className="callout-text "> WDS CSS solutions relieves anxiety that most developers and engineers face when they see CSS work in their project requirements. </p>
-
-                           
                     </div>
                 </div>
                 <div className="col2-photo grid-placeself-center">
-                        <img className="flex-image-container width-100" src={design_therapy}  alt="Ux is the best therapy!" /> 
+                    <img className="flex-image-container width-100" src={design_therapy}  alt="Ux is the best therapy!" /> 
                 </div>
             </div>
         </section>

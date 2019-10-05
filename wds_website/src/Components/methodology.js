@@ -97,10 +97,11 @@ class methodology extends Component {
                                     <li><b>Structure</b> - how components fit together and behave </li>
                                     <li><b>Scope</b> -  initial requirements</li>
                                     <li><b>Strategy</b> - where it all begins, the reason for the site/app, what the users want </li> 
-                                </ul></p>
+                                </ul>
+                            </p>
                            
                             </div>  
-                            </div>
+                        </div>
                     </section> 
 
                     <div className="thin-hr width-70 align-self-center hrline-spacing"></div>

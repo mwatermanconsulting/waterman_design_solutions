@@ -21,6 +21,7 @@ class innovative_solutions extends Component {
                 <link rel="canonical" href="http://watermandesignsolutions.com/innovative_solutions" />
             </Helmet>
         <div className="flex-layout-column"> 
+
             <section className="flex-section-fixed-head-child yellow flex-layout-center-center image-background-border-tb">
                     <div className="header-text-center header-title text-white">
                         Innovative Solutions
@@ -29,28 +30,26 @@ class innovative_solutions extends Component {
                 </section>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                 “Every solution to every problem is simple.<br/> It's the distance between the two where the mystery lies.” <br/> ― Derek Landy
+                    “Every solution to every problem is simple.<br/> It's the distance between the two where the mystery lies.” <br/> ― Derek Landy
                 </div>
             </section>
 
-            <section className="grid-callout photo-content-color border-bottom-5 border-border-top-5" > 
-                <div className="grid-placeself-center content-block-75   flex-layout-column">
-                    <div className="callout-text padding-20 text-align-left margin-top-15" >
-                    WDS has designed applications used by energy sectors, including nuclear reactors. They have the focus, insight and experience to solve the most difficult design and business problems on the worlds most intricate products and applications user interfaces.  
-                    </div>        
+            <section className="grid-callout photo-content-color border-bottom-5" > 
+                <div className="grid-placeself-center content-block-80 flex-layout-column">
+                    <div className="callout-text padding-20 text-align-left margin-top-15 ">
+                    WDS has designed applications used by energy sectors, including nuclear reactors. They have the focus, insight and experience to solve the most difficult design and business problems on the worlds most intricate products and applications user interfaces. </div>        
                     </div>
                     <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
-                        <img className="container-photo-callout" src={innovation1}  alt="Innovation" /> 
+                        <img className="container-photo-callout margin-left-12per" src={innovation1}  alt="Finding Truth" /> 
                     </div>
-                
             </section>
 
             <section className="flex-layout-center-center flex-layout-column margin-top-75">
                 <div className="title text-align-center content-block-60">
-                     WDS Innovative Solutions are our differentiating factor
+                     WDS Innovative Solutions is the differentiating factor
                 </div>
-                    <p className="subtitle text-align-center flex-layout-center-center margin-left-15 content-block-60 margin-top-25"> 
-                    WDS solutions are as unique as the business and users that are provided for. It includes three factors: Understanding, Empathy and Experience.  </p>
+                    <p className="content-text-21 content-block-60 margin-top-25"> 
+                    WDS solutions are as unique as the business and users that are provided for. It includes three factors: Understanding, Empathy and Experience. </p>
             </section>
 
              <div className="thin-hr width-70 align-self-center hrline-spacing width-70"></div>
@@ -105,9 +104,10 @@ class innovative_solutions extends Component {
                             Establish Frameworks and Workflow Concepts</div>
                     <div className="content-block-60 content-text-18 ">
                         <div className="float-right margin-top-15sm">
-                        <img className="photo-container" src={innovation4}  alt="Construct user model" /> 
+                        <img className="photo-container margin-top-10" src={innovation4}  alt="Construct user model" /> 
                     </div> 
-                        <p className="content-text-18 margin-top-15">Technology is dramatically changing the way marketers work. With thousands of software solutions to assist with automation, personalization and optimization, knowing where to start or how to get the most out of your investments is challenging.</p> 
+                        <p className="content-text-18 margin-top-15">
+                            Technology is dramatically changing the way marketers work. With thousands of software solutions to assist with automation, personalization and optimization, knowing where to start or how to get the most out of your investments is challenging.</p> 
 
                             <p className="content-text-18">By understanding your business goals and your users' expectations, the WDS team will help you make the right investments and capture value.</p>
                         </div>
@@ -151,20 +151,16 @@ class innovative_solutions extends Component {
                         </div>
                 </section>
 
-             
-                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
-                <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
-                       <img className="container-image-500 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
-                      
-                      <div >
-                          <p className="callout-text-white text-align-center">WDS Specializes in Data Visualization Application Design.<p className="text-align-center margin-top-25" ></p>  </p>
-                    </div>
-                </div>
-            </section>    
-                
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center padding-top-50 margin-top-50 margin-top-50sm grey border-top-5">
+                        <div className="content-block-55 text-align-center"> 
+                            <img className="container-image-500 padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
+                        <div className="content-block-auto">
+                          <p className="callout-text-white text-align-center">WDS Specializes in Data Visualization Application Design. </p>
+                        </div>
+                        </div>
+                </section>       
+            </div>  
         </div>
-               
-            </div>
         )
     }
 }

@@ -72,11 +72,12 @@ class services extends Component {
                            Understanding the User
                         </div>
                         <div className="margin-top-15 content-block-65">
-                            
+                         <div className="float-right callout-photo">
+                        <img src={services3} className="image-size-100"  alt="UX Design" /> </div>   
                             <p className="content-text-18"> 
-                            WDS design experts use research, empathy and insight to define how software functions and build workflows for the ways that people will experience it. From inception to launch, the users' voice is always heard, leaving no detail missed.</p> <div className="float-right callout-photo">
-                        <img src={services3} className="image-size-100"  alt="UX Design" /> </div>
-                        <p className="content-text-18 content-block-65">
+
+                            WDS design experts use research, empathy and insight to define how software functions and build workflows for the ways that people will experience it. From inception to launch, the users' voice is always heard, leaving no detail missed.</p> 
+                        <p className="content-text-18">
 
                             The visual elements, they create will establish your brand as a design leader in your space. By understanding your business, users and competition WDS will ensure that you have a unique presence that include familiar use of fonts, icons with design solutions that has a certain elegance that resonates with your users' emotions. </p>
 
@@ -96,7 +97,7 @@ class services extends Component {
                         <div className="subtitle margin-top-10">
                             Websites, Products and Applications
                         </div> 
-                        <div className="float-right callout-photo grid-placeself-center">
+                        <div className="float-right callout-photo grid-placeself-center margin-top-15sm">
                             <img className="container-image-500 margin-top-2 padding-sm-10-20" src={services2}  alt="UI Design" /> 
                             
                             </div>
@@ -185,22 +186,22 @@ class services extends Component {
                 </section>
 
 
-                <div className="flex-layout-section thin-hr hrline-spacing width-70"></div>
+                <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"></div>
 
                 <section className="float-left flex-layout-section-full flex-layout-column flex-layout-center-center">
                     <div className=" title content-block-65">
                          Marketing 
                     </div>
                     <div className="subtitle content-block-65 margin-top-10">
-                        Social Media marketing and all other forms of media marketing will make your customers feel uniquely valued when done right. 
+                        Social Media Marketing Done Right 
                     </div>
                     <div className="margin-top-15 content-block-65"> <div className="float-right callout-photo grid-placeself-center">
                                 <img className="container-image-500" src={services4}  alt="Social Media" /> 
                         </div>  
-                        <p className="content-text-18 content-block-65">
-                        WDS understands people on a deep level. Their UX methodology gives a voice to the your users. Your marketing campaign should be a reflection of the vision of who you are as a business and tell that story.  We will define a marketing strategy based on research, data with a clear vision that reflects and embraces real human values.</p> 
+                        <p className="content-text-18 ">
+                        Social Media marketing and all other forms of media marketing will make your customers feel uniquely valued when done right. WDS understands people on a deep level. Their UX methodology gives a voice to the your users. Your marketing campaign should be a reflection of the vision of who you are as a business and tell that story.  We will define a marketing strategy based on research, data with a clear vision that reflects and embraces real human values.</p> 
 
-                        <p className="content-text-18 content-block-65">
+                        <p className="content-text-18 ">
                         WDS's main goal is to identify the right approach for your unique target audiences on social media. They plan, develop, and execute innovative social media marketing strategies that build a meaningful experience across all marketing material touchpoints.</p> 
                         </div>
                 </section>
