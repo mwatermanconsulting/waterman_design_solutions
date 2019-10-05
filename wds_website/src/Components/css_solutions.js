@@ -37,28 +37,28 @@ class css_solutions extends Component {
             </div>
 
             <section className="grid-callout photo-content-color border-bottom-5" > 
-                <div className="grid-placeself-center content-block-65 flex-layout-column">
-                    <div className="callout-text padding-20 text-align-left margin-top-15" >
-                    Our CSS services include CSS development, strategy, CSS system implementation, mentoring, documentation, and best of practice documentation.
-                    </div>    
-                </div>
-                <div className="grid-callout-photo grid-placeself-center content-block-65 margin-tb-100">
-                        <img className="container-photo-callout" src={casscade}  alt="CSS" /> 
-                 </div>
+                <div className="grid-placeself-center content-block-80 flex-layout-column">
+                    <div className="callout-text padding-20 text-align-left margin-top-15 margin-left-2" >
+                    There has been a big shift in marketing. Once it use to be all about the product or application, but now it shifted to human-centric focus. WDS uses UX research to develop marketing strategies. </div>        
+                    </div>
+                    <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
+                        <img className="container-photo-callout margin-left-12per" src={casscade}  alt="Finding Truth" /> 
+                    </div>
             </section>
-            <section className="content-header flex-layout-center-center flex-layout-column">
-                <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-50">
+
+            <section className="content-header flex-layout-center-center flex-layout-column margin-top-75">
+                <div className="flex-layout-center-center title-center content-block-50">
                         WDS develops lean scalable CSS solutions, saving your business time and money, while keeping your developers happy.
                         
                 </div>
-                <div className="content-block-50 margin-top-50">
+                <div className="content-block-50">
                     <p className="content-text-24 text-align-center">
 
-                        <img className="photo-container margin-bottom-50" src={cheer}  alt="Happy developers" /> <br></br>
+                        <img className="photo-container" src={cheer}  alt="Happy developers" /> <br></br>
                         WDS solutions are based on empathy and their observed experiences working with developers. Their CSS knowledge and expertise is one of the main reasons they get hired. WDS CSS solutions are scalable and customizable to your business requirements. </p>
 
                 </div>
-                    <NavLink className='button-area no-decoration' type="button" to={'/case_study_4'}>
+                    <NavLink className='button-area no-decoration margin-bottom-25sm' type="button" to={'/case_study_4'}>
                         OsiSoft Case Study
                     </NavLink>
             </section>
@@ -66,10 +66,10 @@ class css_solutions extends Component {
         <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
 
-    <div className="flex-layout-section-full flex-layout-column margin-top-25 align-self-center"> 
+    <div className="flex-layout-section-full flex-layout-column align-self-center"> 
 
         <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
-            <div className="float-left flex-layout-center-center content-block-65">
+            <div className="float-left flex-layout-center-center content-block-60">
                 <div className="title">
                     Experience Matters
                 </div>
@@ -90,19 +90,41 @@ class css_solutions extends Component {
         <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
         <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
-            <div className="float-left flex-layout-center-center content-block-65">
+            <div className="float-left flex-layout-center-center content-block-60">
                 <div className="title">
                     Organize and Simplify
                 </div>
             <div className="subtitle margin-top-10">
                     Strategy to Organize and Reduce Specificity Issues
             </div> 
+           
+         
             <div className="float-right callout-photo ">
-                <img className="container-image-500 margintop-4per margin-top-15sm" src={itcss}  alt="Prototypes" /> 
-            </div>
-            <div className="margin-top-15">  
-                <p className="content-text-18">
+                <img className="container-image-500 margin-top-15sm" src={itcss}  alt="Prototypes" /> 
+            </div>  
+                <p className="content-text-18 margin-top-15">
                     Taming the specificity beast used to be difficult. WDS CSS strategy almost eliminates the specificity problems. In fact, the strategy almost eliminates the need for your developers to write CSS. The WDS advantage is the  experience of working with developers by interviewing and observing them working with CSS.
+                </p>                
+            </div>  
+           
+        </section>
+
+        <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+
+        <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
+            <div className="float-left flex-layout-center-center content-block-60">
+                <div className="title">
+                    Modular CSS
+                </div>
+            <div className="subtitle margin-top-10">
+                    Reusable CSS
+            </div> 
+            <div className="float-right callout-photo margin-top-15sm">
+                <img className="container-image-500" src={css3}  alt="Prototypes" /> 
+            </div>
+            <div className="margin-top-15 margin-top-15">  
+                <p className="content-text-18 ">
+                    CSS preprocessors are scripting languages that extend the default capabilities of CSS. They enable us to use logic in our CSS code, such as variables, nesting, inheritance, mixins, functions, and mathematical operations. CSS preprocessors make it easy to automate repetitive tasks, reduce the number of errors and "code bloat," by creating reusable code snippets, that ensures backward compatibility.
                 </p>                
             </div>  
             </div>
@@ -111,39 +133,20 @@ class css_solutions extends Component {
         <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
         <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
-            <div className="float-left flex-layout-center-center content-block-65">
-                <div className="title">
-                    Modular CSS
-                </div>
-            <div className="subtitle margin-top-10">
-                    Reusable CSS
-            </div> 
-            <div className="float-right callout-photo">
-                <img className="container-image-500 margin-top-10per margin-top-15sm" src={css3}  alt="Prototypes" /> 
-            </div>
-            <div className="margin-top-15 margin-top-15sm">  
-                <p className="content-text-18 ">
-                    CSS preprocessors are scripting languages that extend the default capabilities of CSS. They enable us to use logic in our CSS code, such as variables, nesting, inheritance, mixins, functions, and mathematical operations. CSS preprocessors make it easy to automate repetitive tasks, reduce the number of errors and "code bloat," by creating reusable code snippets, that ensures backward compatibility.
-                </p>                
-            </div>  
-            </div>
-        </section>
-
-
-        <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
-            <div className="float-left flex-layout-center-center content-block-65">
+            <div className="float-left flex-layout-center-center content-block-60">
                 <div className="title">
                     CSS Solutions Package
-                </div>
+                </div> 
+                
             <div className="subtitle margin-top-10">
                     NPM and GitHub
             </div> 
-            <div className="float-right callout-photo">
-                <img className="container-image-500 margin-top-10per margin-top-15sm" src={css4}  alt="Prototypes" /> 
+           <div className="float-right callout-photo margin-top-15sm">
+                <img className="container-image-500" src={css4}  alt="Prototypes" /> 
             </div>
             <div className="margin-top-15">  
                 <p className="content-text-18">
-                    The WDS CSS specialists deliver their custom CSS solutions as npm packages or through github. The packages includes a developer build kit with the custom css, sass or less files, html files and documentation. WDS can refactor your current CSS or develop a customizable CSS solution that will scale as the project matures.
+                    The WDS CSS specialists deliver their custom CSS solutions as npm packages or through github. The packages includes a developer build kit with the custom css, sass or less files, html files and documentation. WDS can refactor your current CSS or develop a customizable CSS solution that will scale as the project matures. They will always keep your team up to date on new releases and make sure all the current version are available.
                 </p>                
             </div>  
             </div>
@@ -153,7 +156,7 @@ class css_solutions extends Component {
         <div className="thin-hr width-70 align-self-center hrline-spacing"></div> 
 
         <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
-            <div className="float-left flex-layout-center-center content-block-65">
+            <div className="float-left flex-layout-center-center content-block-60">
                 <div className="title">
                     WDS Transforms your CSS 
                 </div>
@@ -161,7 +164,7 @@ class css_solutions extends Component {
                     Building Scalable Enterprise Solutions
             </div> 
             <div className="float-right callout-photo margin-top-15sm">
-                <img className="container-image-500 margin-top-5per" src={css5}  alt="Prototypes" /> 
+                <img className="container-image-500" src={css5}  alt="Prototypes" /> 
             </div>
             <div className="margin-top-15">  
                 <p className="content-text-18"> 
@@ -172,16 +175,17 @@ class css_solutions extends Component {
             </div>
         </section>   
         </div>
-                
-            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
-                <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
-                       <img className="container-image-500 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
+
+        <section className="flex-layout-section-full flex-layout-column flex-layout-center-center padding-top-50 margin-top-75 grey border-top-5">
+                <div className="content-block-55 text-align-center"> 
+                       <img className="container-image-500 padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
                       
                       <div >
-                          <p className="callout-text-white text-align-center">WDS Specializes in Application Design for Data Visualization and <br/>Business Intelligence Platforms.<p className="text-align-center margin-top-25" ></p>  </p>
+                          <p className="callout-text-white text-align-center">WDS Specializes in Application Design for Data Visualization and <br/>Business Intelligence Platforms.</p>
                     </div>
                 </div>
             </section>     
+                
             </div>
         </div>
         )

@@ -31,28 +31,25 @@ class marketing extends Component {
                    WDS will make your customers feel uniquely valued.
                 </div>
             </div>
-            
 
             <section className="grid-callout photo-content-color border-bottom-5" > 
-                <div className="grid-placeself-center content-block-75   flex-layout-column">
-                    <div className="callout-text padding-20 text-align-left margin-top-15" >
-                        There has been a big shift in marketing. It use to be all about the product or application, but is now human-centric. WDS uses UX research to set up marketing strategies. 
-                        </div>      
+                <div className="grid-placeself-center content-block-80 flex-layout-column">
+                    <div className="callout-text padding-20 text-align-left margin-top-15 margin-left-2" >
+                    There has been a big shift in marketing. It use to be all about the product or application, but is now human-centric. WDS uses UX research to set up marketing strategies. </div>        
                     </div>
-                    <div className="grid-callout-photo grid-placeself-center margin-tb-100">
-                        <img className="container-photo-callout" src={marketing2}  alt="Marketing" /> 
-                </div>
-                
+                    <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
+                        <img className="container-photo-callout margin-left-12per" src={marketing2}  alt="Finding Truth" /> 
+                    </div>
             </section>
 
-    <div className="flex-layout-section-full flex-layout-column margin-top-25 align-self-center">      
+        <div className="flex-layout-section-full flex-layout-column margin-top-25 align-self-center">      
             
             <section className="content-header flex-layout-center-center flex-layout-column">
-                <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-60">
+                <div className="flex-layout-center-center title content-size-24 text-align-center margin-top-75 content-block-60">
                         “Many companies have forgotten they sell to actual people. Humans care about the entire experience, not just the marketing or sales or service. To really win in the modern age, you must solve for humans.” - Dharmesh Shah, CTO  Co-Founder, HubSpot 
                 </div>
-                <div className="content-block-60 margin-top-50">
-                <p className="content-text-24 text-align-center margin-top-15sm">
+                <div className="content-block-60 margin-top-25">
+                <p className="content-text-24 margin-top-25sm">
                         WDS understands people on a deep level, with a methodology that gives a voice to the users, your customers, whose daily lives are effected by the use of your application or product. <br></br>
                         
                         Every business has a story, and can be told through a marketing strategy based on research and data, with a clear vision that reflects and embraces real human values.</p>
@@ -67,13 +64,13 @@ class marketing extends Component {
                 </div>
                 <div className="subtitle margin-top-10 content-block-60">
                     The Right Approach
+                </div> 
+                
+                <div className="content-block-60 content-text-18 margin-top-15 margin-top-15sm"><
+                    div className="float-right">
+                    <img className="container-image-500 margin-top-5per" src={marketing3}  alt="Website Design" /> 
                 </div>
-                <div className="content-block-60 content-text-18 margin-top-15 margin-top-15sm">
-                    <p className="content-text-18"> 
-                <div className="float-right">
-                    <img className="photo-container margin-top-10per" src={marketing3}  alt="Website Design" /> 
-                </div>
-
+                    <p className="content-text-18 margin-top-15"> 
                     The WDS goal is to identify the right approach for your unique target audiences on social media by planning, developing, and executing innovative social media marketing strategies. This builds a meaningful experience across all social media touch points. </p>
 
                   </div>
@@ -86,7 +83,7 @@ class marketing extends Component {
                     Monitor and Document   
                 </div>
                 <div className="subtitle margin-top-10 content-block-60">
-                    WDS does all the work
+                    WDS Will Handle All the Work
                 </div>
                 <div className="content-block-60 content-text-18 margin-top-15">
                     <p className="content-text-18"> 
@@ -101,12 +98,12 @@ class marketing extends Component {
 
             <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"> </div>
 
-            <section className="float-left align-items-center flex-layout-column">
+            <section className="float-left align-items-center flex-layout-column margin-bottom-50">
                 <div className="title content-block-60">
                     Social Media Marketing Strategies     
                 </div>
                 <div className="subtitle margin-top-10 content-block-60">
-                    It's always about the User
+                    It's Always About the User
                 </div>
                 <div className="content-block-60 content-text-18 margin-top-15">
                     <p className="content-text-18"> 
@@ -118,12 +115,12 @@ class marketing extends Component {
                   </div>
             </section>
         </div> 
-            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
-                <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
-                       <img className="container-image-500 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
+            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center padding-top-50 grey border-top-5">
+                <div className="content-block-55 text-align-center"> 
+                       <img className="container-image-500 padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
                       
                       <div >
-                          <p className="callout-text-white text-align-center">WDS Developed a Telemetry and Data UX Strategy for StubHub.<p className="text-align-center margin-top-25" ></p>  </p>
+                          <p className="callout-text-white text-align-center">WDS Developed a Telemetry and Data UX Strategy for StubHub.</p>
                     </div>
                 </div>
             </section>     

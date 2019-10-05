@@ -59,10 +59,10 @@ class landingPage extends Component {
                     <div className="gallery-2col-1 container-image-500 align-self-top">
                         <img className="container-image-300 margin-left-10sm" src={why}  alt="Why WDS" /> 
                             <div className="content-block-auto ">
-                                <div className="title margin-top-20 margin-left-4sm margin-bottom-20 content-text-18 content-block-60">
+                                <div className="title-center margin-top-20 margin-left-8sm margin-bottom-20 content-text-18 content-block-60">
                                     Why WDS
                                 </div>
-                                <p className="content-text-18 content-block-60">
+                                <p className="content-text-18 content-block-60 margin-left-8sm">
                                     WDS is a full service UX/UI design agency that specializes in creating elegant user experiences on applications, websites and all consumer touchpoints.
                                 </p>
                             
@@ -93,7 +93,7 @@ class landingPage extends Component {
                 <div className="gallery-2col-1 container-image-500 margin-left-10per justify-self-center margin-top-50sm margin-top-50">
                     <img className="container-image-300 margin-left-5 margin-left-15sm"  src={design}  alt="Design Solutions" />
                 <div className="">
-                    <div className="title margin-top-15 margin-left-5 margin-bottom-20 content-block-60">
+                    <div className="title margin-top-15 margin-left-5 margin-bottom-20 content-block-65">
                                 Design Solutions</div>
                         <p className="content-text-18 content-block-60 margin-left-5">
                                 For over 25 years WDS had been providing design solutions for global brands such as Motorola and StubHub. Design services include application design, website design and graphic design.</p>
@@ -109,7 +109,7 @@ class landingPage extends Component {
             <div className="gallery-2col-2 container-image-500 media-left-margin align-self-end margin-top-70">
                 <img className="container-image-300 margin-left-10sm" src={igotyou}  alt="Services" />
                     <div className="content-block-auto content-block-60 margin-top-70">
-                        <div className="title margin-top-15 margin-left-6sm margin-top-70 margin-bottom-20">
+                        <div className="title-center margin-top-15 margin-left-6sm margin-top-50 margin-bottom-20">
                                 Services</div>
                             <p className="content-text-18"> 
                                 WDS has over 25 years of experience with UX design, CSS and UI design and development. Their latest service offering is a highly needed business (CX) solution, using design systems. </p> 
@@ -187,7 +187,7 @@ class landingPage extends Component {
                         Empathetic Design
                             </p>
 
-                    <p className="content-text-18 content-block-75">
+                    <p className="content-text-18 content-block-60">
                         WDS lives for the comment "Why didn't we think of that?" commonly expressed by stakeholders and/or managers during the design reveal.</p>
                     
                 </section>

@@ -106,7 +106,7 @@ class App extends Component {
 
                   <Link style={{textDecoration: 'none', fontWeight: 'bold', marginTop: '4%'}} to="/design_solutions">Design Solutions</Link>
                   <nav><a style={{marginTop: '1%', marginLeft: '3%'}} href="/website_design">Website Design</a></nav>
-                  <nav><a style={{marginTop: '1%', marginLeft: '3%'}} href="/print_design">Graphic Design</a></nav>
+                  <nav><a style={{marginTop: '1%', marginLeft: '3%'}} href="/graphic_design">Graphic Design</a></nav>
                   <nav><a style={{marginTop: '1%', marginLeft: '3%'}} href="/marketing">Marketing</a>
                     
 </nav>

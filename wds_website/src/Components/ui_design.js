@@ -40,19 +40,20 @@ class ui_design extends Component {
 
                 </div>
             </section>
-            <section className="grid-callout photo-content-color border-bottom-5 height-670"> 
-                <div className="grid-callout-text grid-placeself-center padding-20 content-block-75 content-header flex-layout-column">
-                    <div className="callout-title-center margin-top-15">
+
+            <section className="grid-callout photo-content-color border-bottom-5" > 
+                <div className="grid-placeself-center flex-layout-column margin-top-25sm content-block-80">
+                <div className="callout-title-center margin-top-15">
                         The "aha" Moment
                     </div>
-                    <div className="callout-text text-align-center margin-top-15 padding-left-4" >
-                       WDS lives for the comment "why didn't we think of that" commonly expressed by stakeholders and/or managers during the design reveal. 
-                    </div>    
-                </div>
-                <div className="grid-callout-photo grid-placeself-center content-block-75 margin-top-15sm">
-                        <img className="container-image-500" src={ui_s1}  alt="The aha Moment" /> 
-                 </div>
+                    <div className="callout-text padding-20 content-block-75 text-align-left align-self-center margin-top-15 margin-left-2" >
+                    WDS lives for the comment "why didn't we think of that" commonly expressed by stakeholders and/or managers during the design reveal.  </div>        
+                    </div>
+                    <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
+                        <img className="container-photo-callout margin-left-12per" src={ui_s1}  alt="Finding Truth" /> 
+                    </div>
             </section>
+
             <section className="flex-layout-section-full flex-layout-column align-items-center">
                 <p className="title-center margin-top-75 content-block-65">
                 WDS has provided UI solutions to the some of the world's largest brands</p>
@@ -64,7 +65,7 @@ class ui_design extends Component {
             <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"></div>
 
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
-                    <div className="float-left flex-layout-center-center content-block-65">
+                    <div className="float-left flex-layout-center-center content-block-60">
                         <div className="title">
                             UI Design and Development
                         </div>
@@ -89,7 +90,7 @@ class ui_design extends Component {
                     <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                     <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
-                    <div className="float-left flex-layout-center-center content-block-65">
+                    <div className="float-left flex-layout-center-center content-block-60">
                         <div className="title">
                             Low Fidelity Design
                         </div>
@@ -115,10 +116,10 @@ class ui_design extends Component {
                         </div>
                     </section>
 
-                    <div className="flex-layout-section thin-hr hrline-spacing width-70"></div>
+                    <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"></div>
 
                     <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
-                    <div className="float-left flex-layout-center-center content-block-65">
+                    <div className="float-left flex-layout-center-center content-block-60">
                         <div className="title">
                             Hi-Fidelity Designs
                         </div>
@@ -146,7 +147,7 @@ class ui_design extends Component {
                     <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                     <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
-                    <div className="float-left flex-layout-center-center content-block-65">
+                    <div className="float-left flex-layout-center-center content-block-60">
                         <div className="title">
                             Concept Validation
                         </div>
@@ -174,7 +175,7 @@ class ui_design extends Component {
                     <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                     <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
-                    <div className="float-left flex-layout-center-center content-block-65">
+                    <div className="float-left flex-layout-center-center content-block-60">
                         <div className="title">
                             Consolidated Workflows
                         </div>
@@ -196,7 +197,7 @@ class ui_design extends Component {
                     <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                     <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
-                    <div className="float-left flex-layout-center-center content-block-65">
+                    <div className="float-left flex-layout-center-center content-block-60">
                         <div className="title">
                             HTML and CSS Build Kits
                         </div>
@@ -204,12 +205,9 @@ class ui_design extends Component {
                             Business Tailored UI Design Kits
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center margin-top-15sm">
-                                 <img className="container-image-500" src={ui_s7}  alt="HTML and CSS Build-Kits" /> 
-                               
-                            </div>
+                            <img className="container-image-500" src={ui_s7}  alt="HTML and CSS Build-Kits" />  
+                        </div>
                         <div className="margin-top-15">  
-                       
-                            
                             <p className="content-text-18">
                             WDS UI Design Build Kit solutions are lightweight, containing only the visual elements, HTML and CSS needed. The value of a tailored UI kit is that it helps solve the consistency issues businesses face when teams are fractured. These teams need design guidance and support, and a design solution that will support the developers with a starting point, removing the need to design and go straight to development. WDS provides guidance with a living style guide and design system which includes best of practice documentation. </p> 
                             <p className="content-text-18"> 
@@ -224,7 +222,7 @@ class ui_design extends Component {
 
                     <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
 
-                    <div className="float-left flex-layout-center-center content-block-65">
+                    <div className="float-left flex-layout-center-center content-block-60">
                         <div className="title">
                             Prototypes
                         </div>
@@ -232,9 +230,8 @@ class ui_design extends Component {
                             If a picture is worth 1000 words, a prototype is worth 1000 meetings
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center margin-top-1 margin-top-15sm">
-                                 <img className="container-image-500" src={ui_s8}  alt="Prototypes" /> 
-                               
-                            </div>
+                            <img className="container-image-500" src={ui_s8}  alt="Prototypes" />  
+                        </div>
                         <div className="margin-top-15">  
                        
                             <p className="content-text-18"> 
@@ -250,87 +247,24 @@ class ui_design extends Component {
                 
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
-                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center ">
-                     <div className="title-center content-text-36 content-block-65">
-                            Design is not about being pretty or aesthetically pleasing, <br/> it is about simplicity.
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-25sm ">
+                     <div className="title-center content-block-60">
+                            Design is not about being pretty or aesthetically pleasing,  it is about simplicity.
                     </div>
-                    <div className="content-text-21 margin-top-25 content-block-65">
+                    <div className="content-text-21 margin-top-50 margin-top-50sm content-block-65">
                         WDS has been designing user interfaces for over twenty years. They originally designed user interfaces for websites, but that changed with their first complicated industrial user interface  designed for Motorola. Since then the UI design services expanded to all consumer-facing touchpoints, including software, mobile, SaaS and kiosks.
                     </div> 
                 </section> 
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
-
-                <section className="flex-layout-section-full align-items-center">
-                    <div className="flex-layout-column">
-                        <div className="title flex-layout-center">
-                                Customer Success Spotlight</div>
-                        <div className="content-block width-100 margin-top-10">
-                            <p className="subtitle text-align-center">
-                                WDS case studies that include their UX methodology and the solutions that made each project a success</p>
-                        </div> 
-                    </div>
-                </section>
-
-
-                <section className="grid-cs-card flex-layout-center-center flex-layout-section-full margin-top-75 margin-bottom-75">
-                <div className="cs-card-1 card-case-studies content-header flex-layout-column flex-sh-500"  >
-                    <div className="container-image-block">
-                            <img className="image-size-100" src={motorola}  alt="motorola before and after" /> 
-                    </div> 
-                    <div className="content-block-auto"> 
-                        <div className="flex-card-content flex-layout-center-center flex-layout-row flex-layout-justified-sb">
-                            <p className="subtitle text-black" >
-                                Motorola</p>
-                            <img className="width-20" src={motorola_logo}  alt="motorola logo" /> 
-                        </div>
-                        <div className="flex-card-content" >
-                            <div className="content-block">
-                                <p><i> Industry: Products</i></p>
-                                <p className="content-text-18 content-block">
-                                    High Volume of returns plaguing Motorola Gateway Router Product Line. After two failed attempts by UX/UI developers, a frustrated management group decided they needed a UX designer to solve the problems.</p>
-                                    <NavLink className='button-area no-decoration' type="button" to={'/case_study_2'}>
-                                                Read More...
-                                        </NavLink>  
-                            </div>
-                        </div>
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50 margin-top-50sm  grey border-top-5">
+                        <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
+                    <img className="container-image-500 margin-bottom-50 margin-top-50sm" src={didyouknow}  alt="Did You Know?" /> 
+                    <div>
+                        <p className="callout-text-white text-align-center">
+                        WDS designed UI solutions for data display software that worked with nuclear reactors.</p>
                     </div>
                 </div>
-                
-                <div className="cs-card-2 card-case-studies content-header align-self-start flex-layout-column flex-sh-500">
-                    <div className="container-image-block">
-                        <img className="image-size-100" src={stubhub}  alt="StubHub" /> 
-                    </div>
-                    <div className="content-block-auto">
-                        <div className="flex-card-content flex-layout-center-center flex-layout-row flex-layout-justified-sb">
-                            <p className="subtitle text-black" >
-                                StubHub</p>
-                            <img className="width-20" src={stubhub_logo} style={{width: '15%'}}  alt="StubHub logo" /> 
-                        </div>    
-                        <div className="flex-card-content" >
-                            <div className="content-block">
-                                <p><i> Industry: Ecommerce</i></p>
-                                    <p className="content-text-18 content-block" >
-                                    StubHub had built a custom business intelligence platform that failed to gain user traction. Their initial two releases were not successful and after a year of non-use, StubHub needed answers. They turned to WDS ...
-                                        </p>
-                                    <NavLink className='button-area no-decoration' type="button" to={'/case_study_2'}>
-                                                Read More...
-                                        </NavLink>
-                                        
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </section>
-                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
-                <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
-                       <img className="container-image-500 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
-                      
-                      <div >
-                          <p className="callout-text-white text-align-center">  WDS designed UI solutions for data display software that worked with nuclear reactors.   </p>
-                    </div>
-                </div>
-            </section>  
+            </section>
         </div>
     </div>
         )

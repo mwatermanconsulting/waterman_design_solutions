@@ -2,13 +2,21 @@
 @media (min-width: 319px) {  
 
 
-
+  .display-none {
+    display: none;
+  }
   .material-icons {
     opacity: 0.9;
     display: inline-block;
     transition-timing-function: ease-out;
     transition: 0.75s;
   }
+
+  .flex-layout-justified-sa {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
   .content-text-24 {
     font-family: 'Roboto', 'sans serif';
@@ -42,9 +50,17 @@
     padding: 20px 20px 5px 10px;
   }
 
+  .padding-top-50 {
+    padding-top: 25px;
+  }
+
   .title-center {
-    line-height: 50.25px;
+    line-height: 58.25px;
     font-size: 2.0;
+  }  
+  
+  .margin-bottom-25sm {
+    margin-bottom: 25px;
   }
   .margin-left-50{
     margin-left: 0%;
@@ -85,10 +101,16 @@
   .margin-left-min10per-sm {
     margin-left: -10%;
   }
-    
-  .margin-top-25sm {
-    margin-top: 25px;
+
+  .margintop-4per{
+    margin-top: -0%;
   }
+
+  .width-76sm {
+    width: 76%;
+  }
+    
+
 
 
   .margin-left-15sm {
@@ -115,7 +137,16 @@
     margin-left: -4%;
   }
 
- 
+  .margin-left-12per {
+    margin-left: 0%;
+  }
+
+  .flex-layout-justified-sb-nw {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
 
   .margin-left-6per{
     margin-left: -6px;
@@ -193,6 +224,10 @@
 
 .margin-top-25per {
   margin-top: .25%;
+}
+
+.margin-top-25sm{
+  margin-top: 25px;
 }
 
 .margin-top-min10per {
@@ -328,7 +363,7 @@
   }
 
   .content-block-80 {
-    width: 90%;
+    width: 100%;
   }
 
   .content-block-85 {
@@ -1104,6 +1139,17 @@
 }
 
 }
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .margin-top-10per {
+      margin-top: 1%;
+    }
+
+}
   
   // Extra large devices (large desktops, 1200px and up)
   @media (min-width: 1200px) { 
@@ -1201,6 +1247,10 @@
     justify-content: center;
   }
 
+  .margin-left-12per {
+    margin-left: 12%;
+  }
+
   .margin-top-5{
     margin-top: 5px;
   }
@@ -1270,8 +1320,16 @@
     margin-left: 0%;
   }
 
+  .margin-top-15per {
+    margin-top: -15%;
+  }
+
   .margin-top-15sm {
     margin-top: 0px;
+  }
+
+  .margin-top-50 {
+    margin-top: 50px; 
   }
   
 
@@ -1297,6 +1355,9 @@
   .margin-left-30per {
     margin-left: 30%;
   }
+
+  .margin-bottom-50 {
+    margin-bottom: 50px; }
 
   .margin-left-2sm {
     margin-left: 0%;
@@ -1509,6 +1570,10 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
   }
+  .height-670 {
+    height: 400px;
+    min-height: 400px;
+  }
 }
   @media (max-width: 575.98px) {  }
   
@@ -1519,5 +1584,5 @@
   @media (max-width: 991.98px) {  }
   
   // Large devices (desktops, less than 1200px)
-  @media (max-width: 1199.98px) {  }
+ 
   

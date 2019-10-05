@@ -35,23 +35,22 @@ class graphic_design extends Component {
                 </div>
             </section>
             <section className="grid-callout photo-content-color border-bottom-5" > 
-                <div className="grid-placeself-center content-block-75   flex-layout-column">
-                    <div className="callout-text padding-20 text-align-left margin-top-15" >
-                        Print ads are more effective when they are a complement to your digital campaigns, enticing your audience to interact with your brand online. 
-                    </div>      
-                </div>
-                <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
-                        <img className="container-photo-callout" src={print_s1}  alt="Graphic Design" /> 
-                </div>
+                <div className="grid-placeself-center content-block-80 flex-layout-column">
+                    <div className="callout-text padding-20 text-align-left margin-top-15 margin-left-2" >
+                    Print ads are more effective when they are a complement to your digital campaigns, enticing your audience to interact with your brand online.</div>        
+                    </div>
+                    <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
+                        <img className="container-photo-callout margin-left-12per" src={print_s1}  alt="Finding Truth" /> 
+                    </div>
             </section>
 
-            <section className="flex-layout-section-full flex-layout-column align-items-center margin-top-50 margin-top-50sm">
+            <section className="flex-layout-section-full flex-layout-column margin-top-50 margin-top-50sm">
               
-                    <div className="title">
+                    <div className="title-center">
                             The Value of Graphic Design
                     </div>
-                    <div className="margin-top-25 align-self-center content-block-75">
-                        <p className="content-text-24 text-align-center ">
+                    <div className="margin-top-25 align-self-center content-block-65">
+                        <p className="content-text-24 text-align-left">
                             Printed materials help brand your business. It supports your social media and ad word marketing.  It covers a larger audience that respond to these marketing tools differently. WDS takes care of each marketing aspect, from web design to corporate identity to tangible materials such as business cards, postcards, annual reports, magazines and more. </p>
                     </div>
                 
@@ -91,15 +90,15 @@ class graphic_design extends Component {
 
             <div className="thin-hr width-70 align-self-center hrline-spacing width-70"></div>
 
-            <section className="flex-layout-section-full   align-self-center">
-                    <div className="grid-2col-text-center margin-left-15 margin-top-25" >
+            <section className="flex-layout-section-full align-self-center margin-bottom-25sm">
+                    <div className="grid-2col-text-center margin-left-15">
                         <div className="grid-title subtitle content-text-24 margin-bottom-20">
                             Print design services include: 
                         </div>
-                        <div className="item content-text-18 margin-top-10">
+                        <div className="item content-text-18 ">
                             Business Identity
                         </div>
-                        <div className="item content-text-18 margin-top-10">
+                        <div className="item content-text-18">
                             Letterhead 
                         </div>
                         <div className="item content-text-18">
@@ -129,17 +128,16 @@ class graphic_design extends Component {
 
                     </div>
                 </section>
-            
-                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center       margin-top-100  grey border-top-5">
-                    <div className="text-align-center width-75 margin-top-50 align-center margin-bottom-50"> 
-                       <a href="../communication_insights"> 
-                       <img className="container-image-500  margin-bottom-50" src={didyouknow}  alt="Did You Know?" /> </a>
+
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center padding-top-50 margin-top-50 margin-top-25sm grey border-top-5">
+                <div className="content-block-65 text-align-center"> 
+                       <img className="container-image-500 padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
                       
-                    <div className="flex-layout-center-center">
-                        <p className="callout-text-white text-align-center">WDS designed and produced a monthly magazine called "Combat Robot"</p>
+                      <div className="content-block-auto">
+                          <p className="callout-text-white text-align-center">WDS designed and produced a monthly magazine called "Combat Robot Magazine"</p>
                     </div>
-                    </div>
-                </section>
+                </div>
+            </section>     
             </div>
         </div>
         )

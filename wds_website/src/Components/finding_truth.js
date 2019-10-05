@@ -35,14 +35,13 @@ class innovative_solutions extends Component {
             </section>
 
             <section className="grid-callout photo-content-color border-bottom-5" > 
-                <div className="grid-placeself-center content-block-75   flex-layout-column">
-                    <div className="callout-text padding-20 text-align-left margin-top-15" >
+                <div className="grid-placeself-center content-block-80 flex-layout-column">
+                    <div className="callout-text padding-20 text-align-left margin-top-15 margin-left-2" >
                     WDS UX methodology connects with users by observing and interviewing. People will always open up and confide in you if they feel you are on their side especially when you show you empathize with their needs. This is how WDS uncover truths that were previously unknown.</div>        
                     </div>
                     <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
-                        <img className="container-photo-callout" src={finding_truth2}  alt="Finding Truth" /> 
+                        <img className="container-photo-callout margin-left-12per" src={finding_truth2}  alt="Finding Truth" /> 
                     </div>
-                
             </section>
 
             <div className="content-header flex-layout-center-center flex-layout-column margin-top-75">
@@ -79,19 +78,19 @@ class innovative_solutions extends Component {
 
                 <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"></div>
 
-                <section className="float-left align-items-center flex-layout-column">
+                <section className="float-left align-items-center flex-layout-column margin-top25sm">
                     <div className="title content-block-60">
                             Field Observation and Interviews
                     </div>
                     <div className="subtitle content-block-60 margin-top-10">
                             Developing Insights from Observations
                     </div>
-                        <div className="content-block-60 content-text-18 margin-top-15">
+                        <div className="content-block-60 content-text-18 margin-top-15"> <div className="float-right">
+                        <img className="photo-container" src={finding_truth3} style={{marginRight:'12%'}} alt=" Field Observation and Interviews" /> 
+                            </div>
                             <p className="content-text-18"> 
                             Great strategies for design solutions are built on rich insight. The most meaningful insights for experience strategy are developed with a deep, behavior-based understanding of users or customers. 
-                            <div className="float-right">
-                        <img className="photo-container" src={finding_truth3} style={{marginRight:'12%'}} alt=" Field Observation and Interviews" /> 
-                            </div> 
+                            
                             WDS experience strategists observe people in context - where they work, play or live - to understand their goals, needs and aspirations as they go about their daily lives. If a product does not yet exist, this first-hand look helps to identify unmet needs that a product may solve.</p>
 
                             <p className="content-text-18">
@@ -175,7 +174,7 @@ class innovative_solutions extends Component {
 
                 <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"></div>
 
-                <section className="flex-layout-justified-sb flex-layout-row content-block-50">
+                <section className="flex-layout-justified-sb flex-layout-row content-block-50 margin-top-25">
                     <div className="flex-layout-section-full">
                         <div className="title-center">
                             Develop Frameworks                        
@@ -192,7 +191,7 @@ class innovative_solutions extends Component {
 
                     <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-100"></div>
 
-                    <div className="flex-layout-section-full">
+                    <div className="flex-layout-section-full margin-top-25">
                         <div className="title-center">
                             Design and Evaluate                        
                         </div>
@@ -235,10 +234,10 @@ class innovative_solutions extends Component {
 
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
-                            Start Early and establish your project plan                      
+                            Start Early and Establish Your Project Plan                      
                     </div>
                     <div className="subtitle content-block-60 margin-top-15">
-                            Identify how to drive engagement with the design solutions
+                            Identify How to Drive Engagement with the Design Solutions
                     </div>
                         <div className="content-block-60 content-text-18 margin-top-15">
                             <p className="content-text-18"> 
@@ -254,7 +253,7 @@ class innovative_solutions extends Component {
                     </section>
 
                     <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
-                <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
+                        <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
                     <img className="container-image-500 margin-bottom-50 margin-top-50sm" src={didyouknow}  alt="Did You Know?" /> 
                     <div>
                         <p className="callout-text-white text-align-center">
