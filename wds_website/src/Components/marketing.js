@@ -38,7 +38,7 @@ class marketing extends Component {
                     There has been a big shift in marketing. It use to be all about the product or application, but is now human-centric. WDS uses UX research to set up marketing strategies. </div>        
                     </div>
                     <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
-                        <img className="container-photo-callout margin-left-12per" src={marketing2}  alt="Finding Truth" /> 
+                        <img className="container-photo-callout margin-left-15per" src={marketing2}  alt="Finding Truth" /> 
                     </div>
             </section>
 

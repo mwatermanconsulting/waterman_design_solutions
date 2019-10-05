@@ -37,12 +37,12 @@ class digital_design extends Component {
             </section>
 
             <section className="grid-callout photo-content-color border-bottom-5" > 
-                <div className="grid-placeself-center content-block-80 flex-layout-column">
+                <div className="grid-placeself-center content-block-75 flex-layout-column">
                     <div className="callout-text padding-20 text-align-left margin-top-15 margin-left-2" >
                     WDS has been creating design solutions for websites for over 20 years. All of the design solutions are derived from UX research and user personas.  WDS websites designs are as unique as your business.  </div>        
                     </div>
                     <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
-                        <img className="container-photo-callout margin-left-12per" src={web1}  alt="Finding Truth" /> 
+                        <img className="container-photo-callout margin-left-15per" src={web1}  alt="Finding Truth" /> 
                     </div>
             </section>
 

@@ -31,22 +31,20 @@ class ux_design extends Component {
                             The best customer experience starts with the Golden Rule — treat customers how you would like to be treated.
                     </div>
                 </section>
-                <section className="flex-layout-section-full photo-content-color height-670 padding"> 
-                    <div className="grid-2col-text-photo align-items-center">
-                        <div className="content-block col2-text">
-                        <div className="subtitle text-black text-align-left"> 
+
+                   <section className="grid-callout photo-content-color border-bottom-5"> 
+                <div className="grid-placeself-center content-block-80 margin-top-50sm flex-layout-column">
+                    <div className="subtitle-center content-block-80 text-black" > 
                              Empathetic Design
                         </div>
-                        <div className="callout-text text-align-left margin-top-25" >
-                        The most meaningful insights for design strategy are developed with a behavior-based understanding of users. WDS UX strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve.
-                        </div>
+                    <div className="callout-text padding-20 text-align-left margin-left-2" >
+                    The most meaningful insights for design strategy are developed with a behavior-based understanding of users. WDS UX strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve. </div>        
                     </div>
-                    <div className="col2-photo grid-placeself-right">
-                        
-                        <img className="container-photo-callout" src={ux_s1}  alt="UX" /> 
+                    <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
+                        <img className="container-photo-callout margin-left-15per" src={ux_s1}  alt="Finding Truth" /> 
                     </div>
-                    </div>
-                </section>
+            </section>
+               
            
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100">
                     <div className="float-left flex-layout-center-center content-block-65">
@@ -82,11 +80,11 @@ class ux_design extends Component {
                         </div>
                         <div className="content-block-60 margin-top-15">
                             <p className="content-text-18">
-                                What circumstances prompt people to use your product or service? Do your customers turn to your offering in the way you expected?  If they don’t, there may be an opportunity for your company to reevaluate previous design decisions. </p> <div className="float-right callout-photo grid-placeself-center">
-                                <img className="container-image-500 margin-top-15per" src={ux_s3}  alt="Old school customer service" />   
-                            </div> 
+                                What circumstances prompt people to use your product or service? Do your customers turn to your offering in the way you expected?  If they don’t, there may be an opportunity for your company to reevaluate previous design decisions. </p> 
                             <p className="subtitle"> 
-                                Old School Customer Service</p> 
+                                Old-school Customer Service</p> <div className="float-right callout-photo grid-placeself-center">
+                                <img className="container-image-500" src={ux_s3}  alt="Old school customer service" />   
+                            </div> 
                            
                             <p className="content-text-18">
                                 Empathy is a very powerful selling tool, because it is human-centric. It’s the new buzz word, but empathy has always been at the heart of WDS designs.  <br></br>“Walk in the user’s shoes.” <br></br>“See the problem as if you were experiencing it yourself."<br></br>“Observe  daily routines.” <br></br>All of these mantras and behaviors are empathetic techniques that their UX designers have acquired through years of practice. It is part of their daily lives. 
@@ -102,7 +100,7 @@ class ux_design extends Component {
                         <p className="subtitle content-block-60 margin-top-10">
                             Understanding is Key
                         </p>
-                        <div className="content-block-60 margin-top-15"> 
+                        <div className="content-block-60"> 
                         <div className="float-right callout-photo">
                             <img className="container-image-500 " src={ux_s4}  alt="UX is the study of people" />
                         </div> 
@@ -121,12 +119,12 @@ class ux_design extends Component {
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
  
                 <section className="float-left align-items-center flex-layout-column">
-                        <div className="title content-block-60">
-                        WDS UX Team Makes the Difference
+                        <div className="title-center content-block-60">
+                        The WDS UX Team Makes the Difference
                     </div>
-                    <div className="subtitle margin-top-10
-                    flex-layout-center-center title content-block-60">
-                        Real Designers Matter
+                    <div className="subtitle-center margin-top-10
+                    flex-layout-center-center content-block-60">
+                            Professional Designers Matter
                     </div>
                     <div className="content-block-60 margin-top-15">
                         <p className="content-text-18">
@@ -139,7 +137,7 @@ class ux_design extends Component {
                 
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
                     <div className="flex-layout-center-center subtitle content-block-60">
-                        The most effective way to understand our design solutions and methodology is to read a story about it.
+                        The most effective way to communicate their design solutions and UX methodology is through a story.
                     </div>
                 </section>
                 <section className="content-header flex-layout-center-center flex-layout-column margin-top-25">
@@ -190,16 +188,16 @@ class ux_design extends Component {
                                 Design Thinking </div>
                 </div>
             </section>
-            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
-                <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
-                       <img className="container-image-500 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
-                      
-                      <div >
-                          <p className="callout-text text-white text-align-center">  WDS has developed communication strategies for Motorola, Stubhub and OsiSoft.   </p>
+
+            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-75 margin-top-50sm  grey border-top-5">
+                        <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
+                    <img className="container-image-500 margin-bottom-50 margin-top-50sm" src={didyouknow}  alt="Did You Know?" /> 
+                    <div>
+                        <p className="callout-text-white text-align-center">
+                            WDS has developed communication strategies for Motorola, Stubhub and OsiSoft.</p>
                     </div>
                 </div>
-            </section> 
-  
+            </section>
         </div> 
     </div>
        

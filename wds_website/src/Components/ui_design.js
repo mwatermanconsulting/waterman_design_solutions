@@ -42,7 +42,7 @@ class ui_design extends Component {
             </section>
 
             <section className="grid-callout photo-content-color border-bottom-5" > 
-                <div className="grid-placeself-center flex-layout-column margin-top-25sm content-block-80">
+                <div className="grid-placeself-center flex-layout-column margin-top-25sm content-block-75">
                 <div className="callout-title-center margin-top-15">
                         The "aha" Moment
                     </div>
@@ -50,7 +50,7 @@ class ui_design extends Component {
                     WDS lives for the comment "why didn't we think of that" commonly expressed by stakeholders and/or managers during the design reveal.  </div>        
                     </div>
                     <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
-                        <img className="container-photo-callout margin-left-12per" src={ui_s1}  alt="Finding Truth" /> 
+                        <img className="container-photo-callout margin-left-15per" src={ui_s1}  alt="Finding Truth" /> 
                     </div>
             </section>
 
@@ -256,7 +256,7 @@ class ui_design extends Component {
                     </div> 
                 </section> 
 
-                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50 margin-top-50sm  grey border-top-5">
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-75 margin-top-50sm  grey border-top-5">
                         <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
                     <img className="container-image-500 margin-bottom-50 margin-top-50sm" src={didyouknow}  alt="Did You Know?" /> 
                     <div>

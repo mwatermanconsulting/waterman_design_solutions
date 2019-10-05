@@ -35,12 +35,12 @@ class innovative_solutions extends Component {
             </section>
 
             <section className="grid-callout photo-content-color border-bottom-5" > 
-                <div className="grid-placeself-center content-block-80 flex-layout-column">
+                <div className="grid-placeself-center content-block-75 flex-layout-column">
                     <div className="callout-text padding-20 text-align-left margin-top-15 margin-left-2" >
                     WDS UX methodology connects with users by observing and interviewing. People will always open up and confide in you if they feel you are on their side especially when you show you empathize with their needs. This is how WDS uncover truths that were previously unknown.</div>        
                     </div>
                     <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
-                        <img className="container-photo-callout margin-left-12per" src={finding_truth2}  alt="Finding Truth" /> 
+                        <img className="container-photo-callout margin-left-15per" src={finding_truth2}  alt="Finding Truth" /> 
                     </div>
             </section>
 
