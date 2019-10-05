@@ -30,19 +30,19 @@ class about extends Component {
             <Helmet>
                 <meta name="description" content="WDS has been creating amazing design solutions and experiences for products, applications, print and websites for over 20 years." />
                 <meta charSet="utf-8" />
-                <title>The History of WDS</title>
+                <title>History of WDS</title>
                 <link rel="canonical" href="http://watermandesignsolutions/history" />
             </Helmet>
             <div className="flex-layout-column"> 
                 <section className="flex-section-fixed-head-child yellow flex-layout-center-center image-background-border-tb">
                     <div className="header-text-center header-title text-white">
-                        The History of WDS
+                        History of WDS
                     </div>
                         <img className="flex-image-container width-100" src={history}  alt="Case Studies" />     
                 </section>
                 <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                     <div className="callout-text-lg"> 
-                    WDS has been creating amazing design solutions and experiences for products, applications, print and websites for over 20 years.
+                    WDS has created successful design solutions and experiences for products, applications, print and websites for over 20 years.
 
                     </div>
                 </section>
@@ -53,7 +53,7 @@ class about extends Component {
                         </div>
 
 
-                        <div className="content-text-18 text-bold margin-top-10" >
+                        <div className="content-text-18 text-bold margin-top-15" >
                         <p  className="content-text-18 text-align-center-sm">
                             <b>The Foundation of Everything is Design</b></p>
 
@@ -186,13 +186,19 @@ class about extends Component {
                             </div>
                     </section>
 
-                    <section className="grid-2col-photo-text align-items-center grey margin-top-50 border-tb-5">
-                        
-                              <img src={firemen}  className="col2-photo photo-container width-70 justify-self-end margin-tb-50" alt="Wds puts out the fires"/> 
-                              <div className="callout-text-lg text-align-center marginleft-minus300" > 
-                            WDS has strategies to put out your business fires!</div>
-                        
-                    </section>
+                    
+            <section className="flex-layout-section-full align-items-center grey border-tb-5 margin-top-50 margin-top-50sm">
+                <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 margin-bottom-50 " > 
+                    <div className="col2-text  grid-placeself-center ">
+                        <div className="content-block text-align-center margin-top-15sm">
+                            <p className="callout-text-lg "> WDS has strategies to put out your business fires!</p>
+                    </div>
+                </div>
+                <div className="col2-photo grid-placeself-center">
+                    <img className="flex-image-container width-100" src={firemen}  alt="WDS Strategies puts out fires!" /> 
+                </div>
+            </div>
+        </section>
 
                    <section className="flex-layout-section-full align-items-center  margin-top-100">
                         <div className="title content-block-65">

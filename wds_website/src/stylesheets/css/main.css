@@ -989,13 +989,13 @@ footer {
   line-height: 1.88; }
 
 .content-text-21 {
-  font-family: Roboto;
+  font-family: 'Roboto', 'sans serif';
   font-size: 1.3125rem;
   line-height: 1.88;
   text-align: left; }
 
 .content-text-18 {
-  font-family: Roboto;
+  font-family: 'Roboto', 'sans serif';
   font-size: 1.2rem;
   line-height: 1.88;
   min-width: 200px; }
@@ -1297,8 +1297,7 @@ h1 {
 .subtitle-menu {
   font-size: 1.2rem;
   font-weight: bold;
-  line-height: 1.2;
-  margin-bottom: 10px; }
+  line-height: 1.2; }
 
 .subtitle-capital {
   font-size: 2.44375rem;
@@ -3208,7 +3207,7 @@ a:any-link {
     height: auto;
     text-align: center; }
   .content-text-21 {
-    font-family: Roboto;
+    font-family: 'Roboto', 'sans serif';
     font-size: 1.3125rem;
     line-height: 1.88; }
   .grid-why-list {
@@ -3236,7 +3235,7 @@ a:any-link {
   .marginleft40per {
     margin-left: 0%; }
   .content-block-50 {
-    width: 70%; }
+    width: 80%; }
   .content-block-55 {
     width: 83%; }
   .content-block-60 {
@@ -3308,7 +3307,8 @@ a:any-link {
     font-size: 2.0rem;
     text-align: center; }
   .header-title {
-    font-size: 3.12rem; }
+    font-size: 3.12rem;
+    line-height: 3rem; }
   .header-title-cs {
     font-size: 1.375rem;
     text-align: center; }
@@ -3323,7 +3323,7 @@ a:any-link {
     padding: 25px; }
   .callout-text-white {
     text-align: center;
-    padding: 20px; }
+    padding: 0px; }
   .callout-text-black {
     font-size: 1.25rem; }
   .callout-title-center {
@@ -3963,7 +3963,7 @@ a:any-link {
   .content-block-90 {
     width: 90%; }
   .content-text-21 {
-    font-family: Roboto;
+    font-family: 'Roboto' sans-serif;
     font-size: 1.3125rem;
     line-height: 1.88;
     text-align: left; }

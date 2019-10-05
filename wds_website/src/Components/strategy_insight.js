@@ -33,7 +33,7 @@ class strategy_insight extends Component {
             </section>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                    “Strategy is the highest level of a plan” ― Fritz Shoemaker
+                    “Strategy is the highest level of a plan” - Fritz Shoemaker
                 </div>
             </section>
 
