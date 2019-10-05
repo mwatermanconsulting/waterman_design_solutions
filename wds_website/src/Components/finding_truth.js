@@ -257,7 +257,7 @@ class innovative_solutions extends Component {
                     <img className="container-image-500 margin-bottom-50 margin-top-50sm" src={didyouknow}  alt="Did You Know?" /> 
                     <div>
                         <p className="callout-text-white text-align-center">
-                        WDS offers Empathy Workshops.</p>
+                        WDS offers Empathy Workshops</p>
                     </div>
                 </div>
             </section>

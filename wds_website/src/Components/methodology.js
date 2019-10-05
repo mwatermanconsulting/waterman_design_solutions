@@ -39,14 +39,14 @@ class methodology extends Component {
                 </div> 
             </div>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 padding-15sm red">
-                <div className="callout-text-white">
+                <div className="callout-text-lg">
                             What is the role of empathy in your business?
                     </div>
                 </section>
                 <section className="grid-callout yellow-bg"> 
                 <div className="grid-callout-text grid-placeself-center width-70 margin-top-15sm">
                     <p className="callout-text padding-sm">
-                            EMPATHY and PASSION are the core of our business and the heart of our methodology.
+                            EMPATHY and PASSION are the core  values of our business and the heart of our methodology
                             </p>
                         </div>
                         <div className="grid-callout-photo grid-placeself-center">
@@ -452,7 +452,7 @@ class methodology extends Component {
                         <p className="content-text-18 margin-top-15"> 
                         A design problem with Motorola Surfboard Cable Modem product line was on the verge of losing money due to high return rate and a high spike in call center calls. After two failed attempts and years of complacency, Motorola stakeholders decided to bring in a consultant with design and UX experience with a proven methodology. </p>
                         
-                        <div className="float-left margin-left-25sm">
+                        <div className="float-left">
                             <NavLink className='button-area no-decoration' type="button" value="Full Story" to={'ui_design'}>
                                 Full Story 
                             </NavLink>

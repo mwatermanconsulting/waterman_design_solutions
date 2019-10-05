@@ -31,7 +31,7 @@ class css_solutions extends Component {
                 </section>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                    WDS CSS solutions will have your developers touching the CSS 80% less
+                    WDS CSS Solutions reduces time spent on CSS files by 80%
 
                 </div>
             </div>
@@ -181,7 +181,7 @@ class css_solutions extends Component {
                        <img className="container-image-500 padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
                       
                       <div >
-                          <p className="callout-text-white text-align-center">WDS Specializes in Application Design for Data Visualization and <br/>Business Intelligence Platforms.</p>
+                          <p className="callout-text-white text-align-center">WDS Specializes in Application Design for Data Visualization and Business Intelligence Platforms.</p>
                     </div>
                 </div>
             </section>     

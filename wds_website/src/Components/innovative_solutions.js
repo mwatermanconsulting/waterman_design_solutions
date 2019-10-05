@@ -128,7 +128,7 @@ class innovative_solutions extends Component {
                             <p className="content-text-18"> Rather than developing a product that WDS hopes will serve the user at this stage, vast amounts of resources are saved by presenting concepts to users for validation before any building takes place. A set of design concepts are created and ensured that they meet the intended goals. </p>
                             
                             <p className="content-text-18">
-                            Questions asked: <br></br>Does a concept work for the people who will use it? <br></br>Does it appeal to them? <br></br>Where is there room for improvement? <br></br>Is this concept supporting the user on both a practical and emotional level? <br></br>This is how WDS ensures that the design direction is the correct one and will tune it accordingly.</p> 
+                            <b>Questions asked:</b> <br></br>Does a concept work for the people who will use it? <br></br>Does it appeal to them? <br></br>Where is there room for improvement? <br></br>Is this concept supporting the user on both a practical and emotional level? <br></br>This is how WDS ensures that the design direction is the correct one and will tune it accordingly.</p> 
                      </div>
                 </section>
 
@@ -155,7 +155,7 @@ class innovative_solutions extends Component {
                         <div className="content-block-55 text-align-center"> 
                             <img className="container-image-500 padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
                         <div className="content-block-auto">
-                          <p className="callout-text-white text-align-center">WDS Specializes in Data Visualization Application Design. </p>
+                          <p className="callout-text-white text-align-center">WDS Specializes in Data Visualization Application Design </p>
                         </div>
                         </div>
                 </section>       

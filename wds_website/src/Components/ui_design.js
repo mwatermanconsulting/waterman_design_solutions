@@ -30,7 +30,7 @@ class ui_design extends Component {
         <div className="flex-layout-column"> 
             <section className="flex-section-fixed-head-child yellow flex-layout-center-center image-background-border-tb">
                     <div className="header-text-center header-title text-white">
-                        User Interface Design
+                        UI Design
                     </div>
                         <img className="flex-image-container image-size-100" src={bg_ui}  alt=" User Interface Design" />     
                 </section>
