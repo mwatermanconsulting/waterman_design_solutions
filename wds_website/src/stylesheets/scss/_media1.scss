@@ -15,6 +15,14 @@
   .margin-left-min12per {
     margin-left: 0%;
   }
+
+  .title-white {
+    text-align: center;
+  }
+
+  .margin-left-8sm{
+    margin-left: 8%;
+  }
   
 
   .border-2-sm {
@@ -45,6 +53,10 @@
   
  .margin-left-5 {
     margin-left: 0;
+  }
+
+  .margin-left-min30per {
+    margin-left: 0%;
   }
 
   .margin-left-6sm{
@@ -82,6 +94,10 @@
   }
   .margin-left-50{
     margin-left: 0%;
+  }
+
+  .margin-top-50cs{
+    margin-top: 25px;
   }
 
   .margin-right-25 {
@@ -143,6 +159,10 @@
 
   .padding-20 {
     padding: 0px;
+  }
+
+  .margin-bottom-25sm {
+    margin-bottom: 25px;
   }
     
 
@@ -345,7 +365,7 @@
   }
 
   .margin-tb-100 {
-    margin: 0px 50px 50px 50px;
+    margin: 0px 50px 30px 50px;
   }
 
   .header {
@@ -432,7 +452,7 @@
   }
 
   .content-block-80 {
-    width: 100%;
+    width: 80%;
   }
 
   .content-block-85 {
@@ -534,12 +554,13 @@
     
   }
   .header-title-cs {
-    font-size: 	1.375rem; 
+    font-size: 	2.375rem; 
     text-align: center;
   }
   
   .logo-cs-mobile {
-    width: 10%;
+    width: 17%;
+    margin-top: 1%;
   }
   .title-homepage {
     font-size: 	2.12rem ; 
@@ -900,6 +921,10 @@
   margin-left: 13%;
 }
 
+.margin-left-8sm{
+  margin-left: 0%;
+}
+
 
 
 
@@ -1234,6 +1259,15 @@
       font-family: Roboto;
     }
 
+    .title-white {
+      font-family: 'Oswald', sans-serif;
+      font-size: 3.05rem;
+      line-height: 1.25;
+      color: $white;
+      opacity: .8;
+      text-align: left;
+    }
+
     .border-2-sm {
       border: 0;
     }
@@ -1405,7 +1439,11 @@
 
   .margin-top-70 {
       margin-top: 70px;
-  }  
+  } 
+  
+  .margin-left-min30per {
+    margin-left: -30%;
+  }
   
   .margin-top-50sm{
     margin-top: 0px;
@@ -1515,8 +1553,16 @@
     margin-left: 0%;
   }
 
+  .margin-top-50cs{
+    margin-top: 50px;
+  }
+
     .margin-top-10 {
       margin-top: 10px;
+    }
+
+    .margin-bottom-25sm {
+      margin-bottom: 0px;
     }
     
   
@@ -1668,6 +1714,19 @@
   .grid-services-6 {
     grid-column: 3;
     grid-row: 3;
+  }
+
+  .header-title-cs {
+    font-size: 	3.375rem; 
+    text-align: center;
+  }
+
+  .display-none {
+    display: block;
+  }
+
+  .logo-cs-mobile {
+    width: 10%;
   }
 
   .grid-left {

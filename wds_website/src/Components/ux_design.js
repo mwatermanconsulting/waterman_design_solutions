@@ -34,7 +34,7 @@ class ux_design extends Component {
 
                    <section className="grid-callout photo-content-color border-bottom-5"> 
                 <div className="grid-placeself-center content-block-80 margin-top-50sm flex-layout-column">
-                    <div className="subtitle-center content-block-80 text-black" > 
+                    <div className="subtitle-center content-block-80 text-black"> 
                              Empathetic Design
                         </div>
                     <div className="callout-text padding-20 text-align-left margin-left-2" >

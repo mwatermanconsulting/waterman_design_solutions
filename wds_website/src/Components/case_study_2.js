@@ -46,24 +46,26 @@ class case_study_2 extends Component {
                 </section>
                 <section className="flex-layout-section-fixed-sm margin-top-75">
                     <div className="content-header flex-layout-center-center"> 
-                        <div className="content-block-55 margin-bottom-25sm subtitle"> StubHub was developing an internal business intelligence platform. Their initial two releases were not successful and after a year gained little user traction. StubHub turned to WDS for the answers and six months later WDS turned this failure into a success. 
+                        <div className="content-block-65 subtitle"> 
+                        StubHub was developing an internal business intelligence platform. Their initial two releases were not successful and after a year gained little user traction. StubHub turned to WDS for the answers and six months later WDS turned this failure into a success. 
                         </div>
                     </div>
                 </section>  
                 <section className="flex-layout-section-full margin-top-50">
                      <div className="container-image-block flex-layout-center-center flex-layout-column">
-                        <img className="photo-container-cs-sb1" src={stubhub_s1} alt="Don't make me hover for numbers"/>
-                        <div className="margin-top-15 caption width-70"><i> I don't want to have to hover over the little dots!</i></div>
+                        <img className="photo-container-cs-sb1 margin-top-25sm" src={stubhub_s1} alt="Don't make me hover for numbers"/>
+                        <div className="margin-top-15 caption width-70"><i> 
+                            I don't want to have to hover over the little dots!</i></div>
                     </div>
                 </section>
                 <section className="flex-layout-section-full align-items-center margin-top-100">
-                    <div className="title content-block-55">
+                    <div className="title content-block-65">
                         Backstory
                     </div>
-                    <div className="subtitle content-block-55 margin-top-25">
+                    <div className="subtitle content-block-65 margin-top-10">
                         A Small Silo Team
                     </div>
-                    <div className="content-block-55 margin-top-15">
+                    <div className="content-block-65 margin-top-15">
                         <p className="content-text-18">
                              The analysts at StubHub were dissatisfied with the new IBM suite of business intelligence tools that the company recently purchased. They found the platform to be difficult, confusing and cumbersome. One analyst proposed an idea to the CTO that they should internally build their own business intelligence platform. She agreed and told him to hire a team and make it happen. The new manager hired a team of six developers and they developed an MVP (Minimum Viable Product).</p> 
                         <p className="content-text-18"> 
@@ -73,16 +75,16 @@ class case_study_2 extends Component {
                         </div>
                 </section> 
                 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
 
-                <section className="flex-layout-section-full align-items-center" >
-                    <div className="title content-block-55">
+                <section className="flex-layout-section-full align-items-center margin-top-15sm" >
+                    <div className="title content-block-65">
                         Methodology Begins
                     </div>
-                    <div className="subtitle content-block-55 margin-top-15">
+                    <div className="subtitle content-block-65 margin-top-10">
                         Finding the Truth - Business Perspective
                     </div>
-                        <div className="content-block-55 margin-top-15">
+                        <div className="content-block-65 margin-top-15">
                             <p className="content-text-18">
                             The first part of the WDS methodology was to research and fully understanding the business objectives by gathering business requirements, marketing materials and style guides. Then communication is established with strategies and coordinating stakeholder interviews and meetings. During the initial meeting with the stakeholders, WDS asked "how many users are currently on the platform?", the answer was "only one."
                             </p>
@@ -99,13 +101,13 @@ class case_study_2 extends Component {
                 </section>
                 
                 <section className="flex-layout-section-full align-items-center margin-top-100">       
-                    <div className="title content-block-55">
+                    <div className="title content-block-65">
                         UX Plan
                     </div>
-                    <div className="subtitle content-block-55 margin-top-15">
+                    <div className="subtitle content-block-65 margin-top-10">
                         Finding the Truth - User Perspective
                     </div>
-                    <div className="content-block-55 margin-top-15">
+                    <div className="content-block-65 margin-top-15">
                         <p className="content-text-18"> 
                         The easiest way to uncover the truth is by observing users in action. There were two questions that WDS needed an answer to, "Why only one user?" and "What was the underlying issue that caused the analysts to ignore the platform?" WDS was trying to understand how they could observe the users if no one was using the platform. To understand this problem further they focused their attention on the current UI and conducted a design critique, forming a hypothesis on the problems. This hypothesis helped formed a series of interview questions for the analysts. The unique part of StubHub project was that they could interview the users directly, helping them understand their workflows, design and issues they were having with the business intelligence platforms they were using. WDS wanted to understand the problems with the IBM platform as well as the current Stubhub offering. Their goal was to design an application for the analysts, and to reach that goal they needed to understand the users pain points and expectations.
                         </p>
@@ -113,7 +115,7 @@ class case_study_2 extends Component {
                         <p className="content-text-18">
                             A total of 25 analysts from 8 different countries were interviewed. A SUS UI test was also presented to analysts for the current UI. The same analysts would be interviewed on 4 separate testing occasions, keeping the user in the loop throughout the entire process.  </p>
                     </div>     
-                            <ul className="dashed content-text-18 content-block-55">
+                            <ul className="dashed content-text-18 content-block-65">
                                 <p className="text-bold content-text-18">UX Deliverables</p>
                                 <li>UX findings</li>
                                 <li>User Personas</li>
@@ -124,16 +126,16 @@ class case_study_2 extends Component {
                             </ul>
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                    <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
 
                     <section className="flex-layout-section-full align-items-center">   
-                        <div className="title content-block-55">
+                        <div className="title content-block-65">
                             Challenges
                         </div>
-                        <div className="subtitle content-block-55 margin-top-15">
+                        <div className="subtitle content-block-65 margin-top-10">
                             Understanding the Problems
                         </div>
-                        <div className="content-block-55 margin-top-15">
+                        <div className="content-block-65 margin-top-15">
                             <p className="content-text-18">
                                 The discovery phase revealed that the analysts were not using the business intelligence platform for two reasons. The first issue was that the numbers were hidden in the chart displays. They needed to roll over data points to see the numbers. Most analysts need to compare numbers, making the current platform unusable. The second issue was the 3 minute download time for each report. WDS discovered that the analysts' workflow was that the they would request data reports on an array of interests, such as venue analysis. Once the the report was prepared and ready to be consumed the analysts would chose their report from a list and then the report would load the data visually in some form of chart. This process frustrated the analysts, and a 3 minute long download time was unacceptable. This was the largest issue and the reason that only 1 analyst was using the platform. </p>
                                 
@@ -154,25 +156,25 @@ class case_study_2 extends Component {
                         </div>
                     </div>
 
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                    <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
 
                     <section className="flex-layout-section-full align-items-center">   
-                        <div className="title content-block-55">
+                        <div className="title content-block-65">
                             Master Plan
                         </div>
-                        <div className="subtitle content-block-55 margin-top-15">
+                        <div className="subtitle content-block-65 margin-top-10">
                             Solving the Issues
                         </div>
-                        <div className="content-block-55 margin-top-15">
+                        <div className="content-block-65 margin-top-15">
                             <p className="content-text-18">
                                 Most failures arise from a disconnect between what the user wants/expects and what they are offered. After the initial research and development of personas, the challenges were met head on. Here are the issues that WDS and StubHub agreed on: </p>
                 </div>
-                </section>
-            <section className="flex-layout-row flex-layout-justified-sb align-self-center padding margin-top-50">
+                    <div className="flex-layout-row flex-layout-justified-sb content-block-65">
+
                     
-                    <div className="flex-layout-center-center  flex-items-align-top margin-top-25">
+                    <div className="flex-items-align-top margin-top-25 content-block-65">
                             
-                            <ul className="dashed content-text-18 margin-left-75">
+                            <ul className="dashed content-block-65">
                                     <p className="subtitle-case">User Pain Points:</p>
                                 
                                     <li><a href="#solution1">Current UI confusing and out of date</a> </li> 
@@ -183,9 +185,9 @@ class case_study_2 extends Component {
                                     <li><a href="#solution6">Get more users</a></li>
                                     </ul> 
                             </div>
-                            <div className="flex-layout-center-center  flex-items-align-top margin-top-25">
+                            <div className="flex-layout-center-center content-block-65 flex-items-align-top margin-top-25">
 
-                                <ul className="dashed content-text-18 margin-left-75">
+                                <ul className="dashed content-block-65">
                                     <p className="subtitle-case">Business Pain Points:</p>
                                     <li><a href="#solution6">One user</a> </li> 
                                     <li><a href="#solution6">WDS needs lead project end-to-end</a></li>
@@ -194,23 +196,25 @@ class case_study_2 extends Component {
                                     <li><a href="#solution1">Report interface are customizable and fluid</a></li>
                                     <li><a href="#solution1">Two sets of users (Analysts and VP's)</a></li>
                                     </ul> 
-                    </div>
-            </section>
-        
-
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                            </div>
+                        </div>
+                    </section>
+                <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
 
                     <section className="flex-layout-section-full align-items-center">  
-                        <div className="title content-block-55">
-                            Solutions
+                        <div className="title content-block-65">
+                            Design Solutions
                         </div>
-                        <div className="subtitle content-block-55 margin-top-50">
+                        <div className="title content-block-65 margin-top-50">
+                            The New StubHub Design
+                        </div>
+                        <div className="subtitle content-block-65 margin-top-10">
                         <a id="solution1"></a> 
                             The StubHub Intelligence Platform Redesign
                         </div>
-                        <div className="content-block-55 margin-top-15">
+                        <div className="content-block-65 margin-top-15">
                             <p className="content-text-18">
-                             In order to gain user traction, WDS needed to rethink data visualization. Their research showed them that almost all data visualization platforms were cold and sterile. The majority of designs were grey interfaces with crude user interactions. WDS decided to have a unique design, especially for data visualization. When it came time to present to StubHub they were unusually nervous. To their surprise the design was well received and from that point on the CTO called the WDS designer "pretty Michael". WDS explained during the meeting that the design was a modern take on data visualization, the new UI was simple with the StubHub branding. The new design was inviting, bringing a sense of comfort to the user and most importantly the design incorporated larger numbers into the design.
+                             In order to gain user traction, WDS needed to rethink data visualization design. Their research showed them that almost all data visualization platforms were cold and sterile. The majority of designs were grey interfaces with crude user interactions. WDS decided to have a unique design, especially for data visualization. When it came time to present to StubHub they were unusually nervous. To their surprise the design was well received and from that point on the CTO called the WDS designer "pretty Michael". WDS explained during the meeting that the design was a modern take on data visualization, the new UI was simple with the StubHub branding. The new design was inviting, bringing a sense of comfort to the user and most importantly the design incorporated larger numbers into the design.
                              </p>
             
                             <p className="content-text-18">
@@ -222,18 +226,18 @@ class case_study_2 extends Component {
                             <div className="margin-top-15 caption width-70"><i> Approved Design for the New Stubhub Reporting Tool</i></div>
                         </div>
 
-                        <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                        <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
 
                         <section className="flex-layout-section-full align-items-center"> 
-                            <div className="title content-block-55">
+                            <div className="title content-block-65">
                                 <a id="solution2"></a> 
                                 Show me the Numbers
                             </div>
-                            <div className="subtitle content-block-55 margin-top-15">
+                            <div className="subtitle content-block-65 margin-top-10">
                                 <a id="solution2"></a> 
-                                Designing for the Users
+                                Meeting Users Expectations
                             </div>
-                            <div className="content-block-55 margin-top-15">
+                            <div className="content-block-65 margin-top-15">
                                 <p className="content-text-18">
                                 One of the major complaints about the the previous data tool was how the numbers in the charts were displayed. The numbers were not displayed until the analysts hovered over a data point on a chart. Most analysts were frustrated by this feature, because their workflow involved comparing numbers, which was currently impossible. The WDS solution to the problem was to design the interface so that the numbers were dominant and seamless in the design. The numbers were large and prominent allowing it to be the primary design factor. Understanding that analyst only scanned for highs and lows, those numbers were extracted from the chart and displayed in 72 point bold font allowing the primary reporting numbers to be clearly shown. </p>
                             
@@ -245,18 +249,18 @@ class case_study_2 extends Component {
                                 Numbers became an important part of the design. Biggest complaint from analyst was not seeing the numbers clearly.</div>
                         </section>
 
-                        <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                        <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
                     
                         <section className="flex-layout-section-full align-items-center"> 
-                            <div className="title content-block-55">
+                            <div className="title content-block-65">
                                 <a id="solution2"></a> 
                                     The Value of Personas
                             </div>
-                            <div className="subtitle content-block-55 margin-top-10">
+                            <div className="subtitle content-block-65 margin-top-10">
                                 <a id="solution2"></a> 
                                    Targeting the Right Users
                             </div>
-                            <div className="float-left content-block-55 margin-top-15">
+                            <div className="float-left content-block-65 margin-top-15">
                                 <p className="content-text-18">
                                 The WDS team is always excited when they introduce personas to companies. If they nail the persona and the persona story, an understanding begins to take place. For many companies this is the first time they conceptualize someone using their product or service. StubHub was an interesting presentation, as they learned the valuable lesson on making assumptions about their audience. </p>
 
@@ -270,24 +274,24 @@ class case_study_2 extends Component {
                                 <p className="content-text-18">
                                     WDS solved the persona problem by incorporating a data table into a new design. The solution also had to take into account  the data table would not be visible on all the reports. WDS planned from the start to require the design to be responsive and fluid. Adding the data table enhanced the visuals of the design and platform. More importantly, the solution expanded the accessibility of the platform to executives. The extra table made the display accessible to anyone by showing numbers shown in a more granular fashion. The analysts were thrilled that the table was added because it eased the work flow of the analyst, aided by the report creation. </p>
                             </div>
-                            <div className="content-text-18 content-block-55 margin-top-25 border-2 padding">
+                            <div className="content-text-18 content-block-65 margin-top-25 margin-bottom-25sm border-2 padding">
                                 “(WDS) are thoughtful designers who helped transform our reporting project from a technical tool for pulling data into a place where users at all levels of our organization can find insights about our business.”<br/>
                                     -Michael Johnston Stubhub, Impact-Focused Technologist Specializing in Data
                         </div>
                         </section>
                         
-                        <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                        <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
 
                         <section className="flex-layout-section-full align-items-center"> 
-                        <div className="title content-block-55 margin-top-15">
+                        <div className="title content-block-65 margin-top-15">
                             <a id="solution3"></a> 
                                 Customizable Dashboard Design 
                             </div>
-                            <div className="subtitle content-block-55 margin-top-15">
+                            <div className="subtitle content-block-65 margin-top-10">
                             <a id="solution3"></a> 
-                                Meeting Users Expectations 
+                                Designing for the Users 
                             </div>
-                            <div className="content-block-55 margin-top-15">
+                            <div className="content-block-65 margin-top-15">
                                 <p className="content-text-18">
                                  Almost every analyst interviewed requested a customizable dashboard, an area on the platform that they could organize and save reports as a snapshot. Research showed them the implementation of dashboard design solutions by competitors was lacking features and very laborious to the users to build a display. WDS simplified the dashboard creation by developing a one click solution. Now the users just had to right click to add any report to the dashboard page and added drag and drop functionality to allow the dashboard to be fully customizable. </p>  
                             </div>
@@ -297,18 +301,18 @@ class case_study_2 extends Component {
                             <div className="margin-top-15 caption width-70"><i>The biggest feature request a simple, customizable data dashboard</i></div>
                         </div>
 
-                        <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                        <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
 
                         <section className="flex-layout-section-full align-items-center">
-                            <div className="subtitle content-block-55 margin-top-15">
+                            <div className="title content-block-65 margin-top-15">
                             <a id="solution4"></a> 
                                 Organize Features
                             </div>
-                            <div className="subtitle content-block-55 margin-top-15">
+                            <div className="subtitle content-block-65 margin-top-10">
                             <a id="solution4"></a> 
                                 Consolidating User Workflow
                             </div>
-                            <div className="content-block-55 margin-top-15">
+                            <div className="content-block-65 margin-top-15">
                                 <p className="content-text-18">Software bloat is a common issue, especially on mature platforms. Bloat starts from user disconnect and assuming user needs without research, testing, or analytics. A large issue with the old design was dedicating valuable real estate to unused options. A data visualization platform should be clean, allowing the charts and data to to be consumed without being distracted by an options ribbon across the top of the design. After connecting with the analysts WDS discovered these options were only used by power users. </p>
                                 
                                 <p className="content-text-18">The options ribbon was a favorite for many of the stakeholders, including the decision makers. WDS attempted on a few occasions to justify  designs decisions without success. They turned to the analysts for answers with another round of interviews focused on the platform's options. With data in hand they met again with the decision makers, proving to them that under 1% of the analysts were using these options. Another point  made was that the persona Sally would never use these options. The data was able to convince the stakeholders that placing these features in an options button was meeting the needs of majority of users.  </p>
@@ -321,18 +325,18 @@ class case_study_2 extends Component {
                             <div className="margin-top-15 caption width-70"><i>Clicking on the option button, open the option panel</i></div>
                         </section>
 
-                        <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                        <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
 
                         <section className="flex-layout-section-full align-items-center">
-                            <div className="subtitle content-block-55 margin-top-15">
+                            <div className="title content-block-65 margin-top-15">
                             <a id="solution5"></a> 
                                 KPI Section Design
                             </div>
-                            <div className="subtitle content-block-55 margin-top-15">
-                            <a id="solution5"></a> 
+                            <div className="subtitle content-block-65 margin-top-10">
+                             Rising to the Challenge
                                 
                             </div>
-                            <div className="content-block-55 margin-top-15">
+                            <div className="content-block-65 margin-top-15">
                                 <p className="content-text-18">The KPI section is one of the most important features of any data visualization tools, providing key information for the decision makers. The design for this section needed to be clean and provide information that could be consumed at a glance. This section would stay open for hours on end. The issue with the current design was that it was unintelligible and unusable.</p>
 
                         
@@ -350,30 +354,34 @@ class case_study_2 extends Component {
                             <div className="margin-top-15 caption width-70"><i>Confusing and incoherent</i></div>
                         </section>
 
-                        <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                        <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
 
                         <section className="flex-layout-section-full align-items-center">
-                            <div className="subtitle content-block-55 margin-top-15">
+                            <div className="title content-block-65 margin-top-15">
+                            <a id="solution5"></a> 
                                 Telemetry, Analytics and Data
                             </div>
-                            <div className="content-block-55 margin-top-15">
+                            <div className="subtitle content-block-65 margin-top-10">
+                                Keeping Users in the Loop
+                            </div>
+                            <div className="content-block-65 margin-top-15">
                                 <p className="content-text-18">Part of WDS methodology is to evangelize the importance of data. Data can give insights on user behavior that can used to dictate design decisions. </p>
 
                                 <p className="content-text-18">After implementing telemetry tags and cookies the team began to see the importance and power of data. WDS developed a telemetry strategy and worked with StubHub to implement the plan.</p>
                             </div>
                         </section>
 
-                        <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                         <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
 
-                        <section className="flex-layout-section-full align-items-center">
-                            <div className="title content-block-55">
+                        <section className="flex-layout-section-full align-items-center margin-top-15sm">
+                            <div className="title content-block-65">
                             <a id="solution6"></a> 
                                 Results
                             </div>
-                            <div className="subtitle content-block-55 margin-top-15">
+                            <div className="subtitle content-block-65 margin-top-10">
                                 More Users!!
                             </div>
-                            <div className="content-block-55 margin-top-25">
+                            <div className="content-block-65 margin-top-25">
                                 <p className="content-text-18">
                                     The goal: Pull in more users through marketing and communication.</p>
 

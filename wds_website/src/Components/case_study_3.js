@@ -27,28 +27,28 @@ class case_study_3 extends Component {
                         <img className="flex-image-container" src={pfizer_bg}  alt="Stubhub Case Study " />  
                         
                 </section>
-                <section className="flex-layout-section-full align-items-center margin-top-100">
-                    <div className="title content-block-55">
+                <section className="flex-layout-section-full align-items-center margin-top-75">
+                    <div className="title content-block-65">
                             Back Story
                     </div>
-                    <div className="subtitle content-block-55 margin-top-15">
-                            Pfizer for Professional
+                    <div className="subtitle content-block-65 margin-top-10">
+                            Pfizer for Professionals
                     </div>
-                    <div className="content-block-55 margin-top-15">
+                    <div className="content-block-65 margin-top-15">
                         <p className="content-text-18">
                         WDS was contracted for UX consulting and development work for the largest healthcare portal named Pfizer for Professionals, or PFP. At launch the site consisted of 1,400 pages. The website needed to be organized and simplified for the doctors. The contract lasted for almost 40 months.</p> 
                     </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-100 margin-bottom-100"></div>
+                <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
 
-                <section className="flex-layout-section-full align-items-center flex-layout-column">
-                    <div className="title content-block-55">
+                <section className="flex-layout-section-full align-items-center margin-top-15sm">
+                    <div className="title content-block-65 flex-layout-column">
                         Unknown Problems
-                    <p className="subtitle content-block-55 margin-top-15">
-                        Finding the Truth - What is the Problem?
+                    <p className="subtitle margin-top-10">
+                        Finding the Truth
                    </p></div>
-                    <div className="content-block-55 margin-top-15">
+                    <div className="content-block-65 margin-top-15">
                         <p className="content-text-18"> 
                         The WDS method of uncovering business problems is through observation. One day working on the PFP project, WDS observed the developers struggling with the CMS platform provided by Pfizer. Pfizer required every vendor to use the CMS System. The CMS platform was a custom Documentum solution, built by a company in Ohio. The CMS platform was named SiteBuilder. </p>
                         <p className="content-text-18"> 
@@ -60,48 +60,48 @@ class case_study_3 extends Component {
                 </div>   
                 </section>
             
-                <div className="thin-hr width-70 align-self-center margin-top-100 margin-bottom-100"></div>
+                <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
                 
                 <section className="flex-layout-section-full align-items-center"> 
-                    <div className="content-header content-block-55 flex-layout-column" >
+                    <div className="content-header content-block-65 flex-layout-column" >
                         <div className="title">
                         Researching CMS Problems
                     </div>
-                    <div className="subtitle content-block-55 margin-top-15">
+                    <div className="subtitle content-block-65 margin-top-10">
                         Understanding the Issues
                     </div>
                 </div>
-                    <p className="content-block-55 content-text-18 margin-top-15 ">
+                    <p className="content-block-65 content-text-18 margin-top-15 ">
                         WDS started to understand scale of the problem and began documenting the issues, including lost man hours  and overtime costs associated with the developers waiting on the CMS system. They researched the documentation, contracts and emails and uncovered breaches in the contract caused by missing and broken features promised in the contract. Pfizer was unaware of the issues and WDS wanted to make a strong case against this CMS system.
                         </p>
                     <img className="margin-top-50 width-50" src={documentum} alt="Finding the Truth - Business Perspective"/>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-100 margin-bottom-100"></div>
+                <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
                 
                 <section className="flex-layout-section-full align-items-center"> 
-                    <div className="title content-block-55">
+                    <div className="title">
                          Research Findings
                     </div>
-                    <div className="subtitle content-block-55 margin-top-15">
+                    <div className="subtitle margin-top-10">
                          Pfizer Stakeholder Presentation
                     </div>
-                    <div className="content-block-55 margin-top-15">
+                    <div className="content-block-65 margin-top-15">
                         <p className="content-text-18">
                         WDS presented findings to the CTO and many C-suite managers. WDS was questioned heavily on why this meeting was needed and who authorized it. Their team explained that they saw a problem that needed to be solved and this is what their business does, uncovering design and business problems. They described  the developer journey and  work flows, the frustration they experienced everyday and the lost time involved with the simplest of tasks. They focused on two developers in the Philly office. WDS presented that on average the developers wasted 28% of their time due to the buggy nature of the application. Also it was found that the vendor only delivered half the features that were contractually promised.</p> 
                     </div>
                 </section>
 
-            <div className="thin-hr width-70 align-self-center margin-top-100 margin-bottom-100"></div>
+                <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
            
-            <section className="flex-layout-section-full align-items-center">
-                    <div className="title content-block-55">
+                <section className="flex-layout-section-full align-items-center margin-top-15sm">
+                    <div className="title content-block-65">
                         Solutions
                     </div>
-                    <div className="subtitle content-block-55 margin-top-15">
+                    <div className="subtitle content-block-65 margin-top-10">
                         CMS Alternatives
                     </div>
-                    <div className="content-block-55 margin-top-15">
+                    <div className="content-block-65 margin-top-15">
                         <p className="content-text-18">
                         After presenting the CMS issues, Pfizer requested that WDS find some CMS alternatives. Two weeks later  three alternatives were presented with the pros and cons of each. Pfizer choose a Microsoft solution. </p>
                         <p className="content-text-18">
