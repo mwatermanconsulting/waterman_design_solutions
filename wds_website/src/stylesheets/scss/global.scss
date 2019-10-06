@@ -118,9 +118,11 @@ li {
   }
   
   ul.dashed > li {
-      margin-left: 15px;
+      margin-left: 20px;
       margin-bottom: 5px; 
       text-align: left; 
+      font-family: 'Roboto' sans-serif;
+      font-weight: 400;
   }
   
   /* Prevent nested li's from getting messed up */

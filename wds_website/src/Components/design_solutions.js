@@ -27,8 +27,8 @@ class design_solutions extends Component {
                     </div>
                 </div> 
             </div>
-            <section className="container-section-1-primary flex-layout-center-center border-bottom-5 red">
-                <div className="callout-text-white">
+            <section className="container-section-1-primary flex-layout-center-center border-bottom-5 red padding-15sm">
+                    <div className="callout-text-lg"> 
                     “Good designs come from the heart, not from the brain” - Juan-Carlos Fernandez         
                 </div>
             </section>

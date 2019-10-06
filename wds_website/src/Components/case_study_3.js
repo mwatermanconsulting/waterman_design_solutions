@@ -111,27 +111,22 @@ class case_study_3 extends Component {
                     </div>
                
             </section>
-            
-            
-                <div className="grid-callout border-top-5  grey margin-top-100">
-                       <div className="grid-callout-text grid-placeself-center width-70" >
-                       <div className="title align-items-center text-white margin-top-15">
-                         Results
-                    </div>
-                       <div className="subtitle text-white margin-top-15">
-                        Pfizer and the developers were happy
-                    </div>
-                    <div className="content-block-75 margin-top-15">
-                        <p className="content-text-18 text-white">
+            <section className="flex-layout-section-full align-items-center grey border-top-5 margin-top-50 margin-top-50sm">
+                <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 margin-bottom-50 " > 
+                    <div className="col2-text  grid-placeself-center ">
+                        <div className="content-block text-align-center margin-top-15sm">
+                            <p className="callout-text "> Pfizer and the developers were happy </p>
+                            <p className="callout-text">
                         Pfizer quickly froze the project. Needing to refactor 8,000 files from .jsp to .asp, an outside vendor was brought in to help with the transition. Pfizer estimates that WDS saved them close to 250,000 by bringing to light the unseen CMS problems. 
                         </p>
                     </div>
-                            </div>
-                            
-                            <div className="grid-callout-photo grid-placeself-center">
-                                <img src={thumbsUp} alt="Finding the Truth - Business Perspective"/>
-                            </div>     
-                        </div>        
+                </div>
+                <div className="col2-photo grid-placeself-center">
+                    <img className="flex-image-container width-100" src={thumbsUp}  alt="Good job WDS!" /> 
+                </div>
+            </div>
+        </section>
+               
                     </div>
                 </div> 
             
