@@ -206,19 +206,19 @@ class services extends Component {
                 </section>
             
             <div className="flex-layout-section-full margin-top-50 grey-blue padding-bottom-50 ">
-                <div className="padding  title-center">
+                <div className="padding title-center">
                             Services
                     </div>
 
-        <section className="flex-layout-row flex-layout-justified-sb width-70 align-self-center">
+        <section className="flex-layout-row flex-layout-justified-sb width-70 align-self-center padding-bottom-50">
                     
-                <div className="flex-layout-center-center  flex-items-align-top margin-top-25 width-280px">
+                <div className="flex-layout-center-center flex-items-align-top width-280px">
                         
-                        <div className="subtitle-center margin-top-5"><img  className="padding-20"  src={icon_strategy}  alt="Strategy and Insights" /> <br></br>
-                            <a href="./strategy_insight" className="no-decoration">
+                        <div className="subtitle-center margin-top-10"><img  className="padding-20 margin-bottom-10"  src={icon_strategy}  alt="Strategy and Insights " /> <br></br>
+                            <a href="./strategy_insight" className="no-decoration ">
                                 Strategy and Insights</a>
                         </div>
-                    <ul className="dashed content-text-18 margin-top-15 flex-layout-column">
+                    <ul className="dashed content-text-18 margin-top-15 margin-left-10per">
                         <li>Digital Transformation</li>
                         <li>SaaS Transition</li>
                         <li><a href="./core_offerings" className="no-decoration" style={{color:"#000"}}>Strategic Ideation</a></li>
@@ -230,35 +230,35 @@ class services extends Component {
                               
                     </ul>  
                 </div>
-                <div className="flex-layout-center-center  flex-items-align-top margin-top-25 width-280px">
+                <div className="flex-layout-center-center flex-items-align-top width-280px margin-top-10persm">
                         
-                        <div className="subtitle-center margin-top-10"><img className="padding-20" src={icon_ux}  alt="UX" /> <br></br>
+                        <div className="subtitle-center margin-top-10 "><img className="padding-20 margin-bottom-10" src={icon_ux}  alt="UX" /> <br></br>
                            <a href="./ux_design" className="no-decoration">
                                UX Design</a> 
                         </div>
-                    <ul className="dashed content-text-18 margin-top-15 ">
+                    <ul className="dashed content-text-18 margin-top-15 margin-left-30per">
                         <li>Interaction Design</li>
                         <li>Visual Design</li>
                         <li>Personas</li>
-                        <li>Prototyping</li> 
-                        <li>Consolidated Workflows</li>
+                        <li>Prototyping</li>
+                        <li>Journey Maps</li>
                         <li><a href="./design_systems" className="no-decoration">Design Systems</a></li>
                         <li><a href="./design_systems" className="no-decoration">Style Guides</a></li>
                         <li>Information Architecture</li>
                     </ul>
                 </div>
 
-                <div className="flex-layout-center-center  flex-items-align-top margin-top-25 width-280px">
-                        
-                        <div className="subtitle-center margin-top-15"><img className="padding-20"  src={icon_ui}  alt="UI" /><br></br>
+                <div className="flex-layout-center-center flex-items-align-top width-280px margin-top-10persm">
+                    <div className="subtitle-center margin-top-10 "><img className="padding-20 margin-bottom-10"  src={icon_ui}  alt="UI" /><br>
+                    </br>
                             <a href="./ui_design" className="no-decoration"> 
                             UI Design </a>
-                        </div>
-                        <ul className="dashed content-text-18 margin-top-15">
+                    </div>
+                        <ul className="dashed content-text-18 margin-left-30per margin-top-15">
                             <li>Hi-Fidelity Designs</li>
-                            <li>CSS and HTML Build Kits</li>
+                            <li>Design Build Kits</li>
                             <li>Concept Validation</li> 
-                            <li>Wireframe Key Workflows</li>
+                            <li>Wireframe Workflows</li>
                             <li>Mock-ups</li>
                             <li>Protyping</li>
                             <li><a href="./css_solutions" className="no-decoration">CSS Solutions</a></li>  
@@ -266,13 +266,12 @@ class services extends Component {
                     </div>
 
            
-                    <div className="flex-layout-center-center flex-items-align-top margin-top-25 width-280px">
-                        
-                        <div className="subtitle-center margin-top-15"><img  className="padding-20"  src={icon_marketing}  alt="Marketing and Analysis" /><br></br>
+                    <div className="flex-layout-center-center flex-items-align-top margin-top-10persm width-280px">
+                        <div className="subtitle-center margin-top-10"><img  className="padding-20 margin-bottom-10"  src={icon_marketing}  alt="Marketing and Analysis" /><br></br>
                            <a href="./marketing" className="no-decoration"> 
                            Marketing/Analytics</a>
                         </div>
-                        <ul className="dashed content-text-18 margin-top-15">
+                        <ul className="dashed content-text-18 margin-left-10per margin-top-15">
                             <li>Marketing Strategy</li>
                             <li>Content Science and Design</li>
                             <li>Experience Data and Analytics</li>
@@ -282,14 +281,14 @@ class services extends Component {
                         </ul>  
                     </div>
 
-                    <div className="flex-layout-center-center  flex-items-align-top margin-top-25 width-280px">
+                    <div className="flex-layout-center-center flex-items-align-top margin-top-10persm width-280px">
                         
-                        <div className="subtitle-center margin-top-15">
-                            <img  className="padding-20" src={icon_design_solutions}  alt="Design Solutions" /><br></br>
-                            <a href="./design_solutions" className="no-decoration">
+                        <div className="subtitle-center margin-top-10 margin-top-10sm">
+                            <img  className="padding-20 margin-bottom-10" src={icon_design_solutions}  alt="Design Solutions" /><br></br>
+                            <a href="./design_solutions" className="no-decoration ">
                                 Core Offerings</a>
                         </div>
-                            <ul className="dashed content-text-18 margin-top-15">
+                            <ul className="dashed content-text-18 margin-left-25 margin-top-15">
                                 <li>Business Design Strategies</li>
                                 <li>Empathy Workshops</li>
                                 <li>Communication Strategies</li>
@@ -302,12 +301,12 @@ class services extends Component {
                             </ul>
                     </div>
 
-                    <div className="flex-layout-center-center  flex-items-align-top margin-top-25 width-280px">
+                    <div className="flex-layout-center-center m flex-items-align-top margin-top-10persm width-280px">
                        
-                        <div className="subtitle-center margin-top-15"> <img  className="padding-20" src={icon_design}  alt="Design" /><br></br>
-                                <a href="./design_solutions" className="no-decoration">
+                        <div className="subtitle-center margin-top-15"> <img className="padding-20 margin-bottom-10" src={icon_design}  alt="Design" /><br></br>
+                                <a href="./design_solutions" className="no-decoration margin-left-10per">
                                     Design Solutions</a></div>
-                            <ul className="dashed content-text-18 margin-top-15">
+                            <ul className="dashed content-text-18 margin-left-25 margin-top-15">
                                 <li>User Interface Design</li>
                                 <li>Visual Design</li>
                                 <li>Design Metrics</li>
@@ -329,15 +328,15 @@ class services extends Component {
                                 <a href="./css_solutions" className="no-decoration">
                                 CSS Solutions</a>
                             </div>
-                            <p className="content-text-18 content-block-85 margin-top-15">
+                            <p className="content-text-18 content-block-auto margin-top-15">
                                 Taming the specificity beast used to be difficult. WDS CSS strategy almost eliminates the specificity problems. It reduces greatly the need for your developers to write CSS. The advantage is past experience working with developers and interviewing and observing them working with CSS.</p>
                         </div>
                     </div>     
                     <div className="gallery-2col-2t container-image-500 align-self-top">
                     <a href ="./design_systems"> <img className="container-image-500 border-2"  src={services9}  alt="Business Solutions" /> </a>
-                        <div className="content-block-85 ">
-                            <div className="title margin-top-50 content-block-auto">
-                            <a href="./design_systems" className="no-decoration"> 
+                        <div className="content-block-auto ">
+                            <div className="title margin-top-50">
+                            <a href="./design_systems" className="no-decoration margin-top-10persm"> 
                                 Design Systems</a></div>
                             <p className="content-text-18 margin-top-15 content-block-auto">
                                 At WDS, they know and understand the importance of design systems to businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff.</p>
@@ -347,7 +346,7 @@ class services extends Component {
 
             
             <section className="flex-layout-section-full align-items-center yellow-bg border-top-5">
-                <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 margin-bottom-50" > 
+                <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 margin-top-50sm margin-bottom-50" > 
                     <div className="2col-text grid-placeself-center margin-left-75">
                         <div className="content-block">
                             <p className="content-header"> 

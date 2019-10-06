@@ -12,6 +12,11 @@
     transition: 0.75s;
   }
 
+  .margin-left-min12per {
+    margin-left: 0%;
+  }
+  
+
   .border-2-sm {
     border: 2px solid rgba(58, 58, 58, 0.838);
   }
@@ -48,6 +53,11 @@
   
   .margin-left-why-60per {
     margin-left: 60%;
+  }
+
+  .width-280px {
+    width: 90%;
+
   }
 
   .margin-left-140{
@@ -87,7 +97,11 @@
   }
 
   .margin-left-30per {
-    margin-left: 0%;
+    margin-left: 10%;
+  }
+
+  .margin-left-5sm {
+    margin-left: 5%
   }
 
   .margin-right-25sm{
@@ -106,6 +120,11 @@
     margin-left: 10%;
   }
 
+  .margin-left-10sm {
+    margin-left: 47%;
+    margin-top: 50px;
+  }
+
   .margin-left-min10per-sm {
     margin-left: -10%;
   }
@@ -121,12 +140,22 @@
   .width-76sm {
     width: 76%;
   }
+
+  .padding-20 {
+    padding: 0px;
+  }
     
 
-
+  .margin-top-15persm {
+    margin-top: -15%;
+  }
 
   .margin-left-15sm {
     margin-left: 15%;
+  }
+
+  .margin-left-min15sm {
+    margin-left: -15%;
   }
 
   .margin-left-25sm {
@@ -153,11 +182,23 @@
     margin-left: 0%;
   }
 
+  .margin-left-12sm {
+    margin-left: 12%;
+  }
+
   .flex-layout-justified-sb-nw {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
   }
+
+  .flex-layout-row {
+    flex-wrap: wrap;
+}
+
+.margin-left-20per {
+  margin-left: 0%;
+}
 
 
   .margin-left-6per{
@@ -180,6 +221,10 @@
     margin-top: 0%;
   }
 
+  .margin-top-10persm {
+    margin-top: 10%;
+  }
+
   .margin-top-10 {
     margin-top: 5px;
   }
@@ -190,6 +235,10 @@
 
   .margin-top-15sm {
     margin-top: 15px;
+  }
+
+  .margin-left-25 {
+    margin-left: 13%;
   }
 
   .margin-bottom-15sm {
@@ -206,6 +255,10 @@
 
   .padding-sm {
     padding: 20px;
+  }
+
+  .padding-bottom-50 {
+    padding-bottom: 25px;
   }
 
   .padding-right-15 {
@@ -1209,6 +1262,23 @@
     margin-left: 140px;
   }
 
+  .margin-left-min12per {
+    margin-left: -12%;
+  }
+
+  .margin-left-25 {
+    margin-left: 25%;
+  }
+
+  .margin-top-10persm {
+    margin-top: 0%;
+  }
+  
+  .margin-left-20per {
+    margin-left: 20%;
+  }
+  
+
   .margin-top-2 {
     margin-top: 2px;
   }
@@ -1318,6 +1388,11 @@
 
   .margin-left-15per{
   margin-left: 15%;
+  }
+
+  .margin-left-10sm {
+    margin-left: 0%;
+    margin-top: 0px;
   }
 
   .margin-left-15sm {
@@ -1518,9 +1593,13 @@
   margin-top: 50px;
 }
 
+.width-280px {
+  width: 280px;
+}
 
 
-  
+
+
 .content-block-60 {
   width: 60%;
 }

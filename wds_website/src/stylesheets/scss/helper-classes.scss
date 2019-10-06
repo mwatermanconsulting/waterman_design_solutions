@@ -40,6 +40,15 @@
   margin-left: 5%
 }
 
+.margin-left-5sm {
+  margin-left: 0%
+}
+
+.margin-left-10sm {
+  margin-left: 0%;
+  margin-top: 0px;
+}
+
 .margin-left-8{
   margin-left: 8%;
 }
@@ -58,6 +67,10 @@
 
 .margin-left-12per {
   margin-left: 12%;
+}
+
+.margin-left-min12per {
+  margin-left: -12%;
 }
 
 
@@ -95,6 +108,10 @@
 
 .margin-left-min10per-sm {
   margin-left: 0%;
+}
+
+.margin-top-10persm {
+  margin-top: 0%;
 }
 
 .margin-left-20per {
@@ -165,6 +182,10 @@
 
 .margin-left-50 {
   margin-left: 50%
+}
+
+.margin-left-25per {
+  margin-left: -25%;
 }
 
 .margin-left-25sm {
@@ -556,6 +577,7 @@
       display:flex;
       flex-direction: row;
       align-self: center;
+      flex-wrap: nowrap;
 
 
   }
@@ -824,6 +846,9 @@
 .width-280px {
       width: 280px; }
 
+.width-26per {
+  width: 26%; }
+
  .width-40 {
     width: 40%; }
 .width-icon {
@@ -911,9 +936,13 @@
       .marginleft50 {
         margin-left: 50px; }
 
+.margin-bottom-10 {
+     margin-bottom: 10px;
+}
+
    
     .margin-bottom-20 {
-          margin-bottom: 20px;
+      margin-bottom: 20px;
   }
 
   .margin-bottom-25 {
