@@ -29,7 +29,7 @@ class case_study_1 extends Component {
                 <title>Case Study - Motorola</title>
                 <link rel="canonical" href="http://watermandesignsolutions.com/case_study_1" />
             </Helmet>
-            <div className="flex-layout-column flex-layout-section-full image-background-border-top">
+            <div className="flex-layout-column flex-layout-section-full">
                 <section className="flex-layout-row height-60-mobile width-100"> 
                     <div className="header-text-left header-title-cs align-self-center text-white">
                         Case Study - Motorola
@@ -43,8 +43,8 @@ class case_study_1 extends Component {
                 </div>
                 </section>
             
-                <section className="flex-layout-column align-items-center">
-                    <div className="margin-top-50 content-block-65 title">
+                <section className="flex-layout-column align-items-center border-top-5">
+                    <div className="margin-top-25sm margin-top-50cs content-block-65 title">
                             Case Study - Motorola
                     </div>
                     <div className="content-block-65 margin-top-25">
@@ -61,9 +61,9 @@ class case_study_1 extends Component {
                     </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="thin-hr content-block-65 align-self-center hrline-spacing display-none"></div>
                 
-                <section className="flex-layout-section-full align-items-center">
+                <section className="flex-layout-section-full align-items-center margin-top-50sm">
                     <div className="content-block-65"> 
                         <div className="title">
                             Backstory
@@ -86,9 +86,9 @@ class case_study_1 extends Component {
                             </div>
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                    <div className="thin-hr content-block-65 align-self-center hrline-spacing display-none"></div>
 
-                    <section className="flex-layout-column align-items-center margin-bottom-75">
+                    <section className="flex-layout-column align-items-center margin-bottom-75 margin-top-50sm">
                         <div className="title content-block-65">
                                 Methodology Begins</div>
                         <div className="subtitle content-block-65 margin-top-15">
@@ -111,7 +111,7 @@ class case_study_1 extends Component {
                         </div>
                     </section>
                     <section className="flex-layout-section-full align-items-center flex-layout-column margin-top-75">
-                        <div className="content-header content-block-65 title">
+                        <div className="title content-block-65 ">
                             UX Plan
                         </div>
                         <div className="subtitle content-block-65 margin-top-15">
@@ -127,28 +127,25 @@ class case_study_1 extends Component {
                             </div>
                         </section>
 
-
-                        <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                        <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
                         
-                        <section className="content-header align-items-center flex-layout-column">
+                        <section className="content-header align-items-center flex-layout-column margin-bottom-25sm margin-top-15sm">
                             <div className="title content-block-65">
                                 Master Plan
                             </div>
-                            <div className="subtitle content-block-65 margin-top-5">
+                            <div className="subtitle content-block-65 margin-top-10">
                                 Solving the Problems
                             </div>
                             <div className="content-block-65">
-                                <p className="content-text-18 margin-top-15">
+                                <p className="content-text-18 margin-top-15 margin-bottom-25sm">
                                     WDS noticed early in the project that the organization of required user inputs did not make sense. When Michael reviewed the interface and made suggested changes, he learned that there was an issue - two distinct set of users. One set was the consumer market, the ones who would purchase the product. The other set of users were the cable operators, such as Comcast, providing home installation. WDS would not be allowed to move ANY input, due to the cable operator familiarity with the interface. Originally WDS thought this requirement was limiting, instead it forced them to adapt and reevaluate their design solutions. This caused them to change course, which opened new possibilities. It also helped the success of final product design, a solution beyond the scope and expectations of the customers and stakeholders.</p> 
                                 
-                                 <p className="subtitle text-align-center margin-top-50">This is the road map WDS used to for its design and business solutions</p>
+                        <p className="subtitle-center text-align-center margin-top-50 margin-top-25sm">The Design Solutions Roadmap</p>
 
-            <section className="flex-layout-row flex-layout-justified-sb align-self-center">
-                    
-                    <div className="flex-layout-center-center  flex-items-align-top margin-top-25">
-                            
-                            <ul className="dashed content-text-18 margin-left-75">
-                                    <p className="subtitle-case">User Pain Points:</p>
+                        <section className="flex-layout-row flex-layout-justified-sb content-block-75 flex-layout-center-center margin-left-20per">
+                            <div className="flex-layout-center-center flex-items-align-top margin-top-25">
+                                <ul className="dashed content-text-18 align-self-center">
+                                    <p className="subtitle">User Pain Points:</p>
                                     <li><a href="#solution1">Interface Intimidating</a></li>
                                     <li><a href="#solution10">Guidance and Support</a></li>
                                     <li><a href="#solution1">Design Outdated</a></li>
@@ -160,10 +157,10 @@ class case_study_1 extends Component {
 
                                 </ul> 
                             </div>
-                            <div className="flex-layout-center-center  flex-items-align-top margin-top-25">
+                            <div className="flex-layout-center-center flex-items-align-top margin-top-25">
 
-                                <ul className="dashed content-text-18 margin-left-75">
-                                    <p className="subtitle-case">Business Pain Points:</p>
+                                <ul className="dashed  content-text-18 ">
+                                    <p className="subtitle content-text-18">Business Pain Points:</p>
                                     <li><a href="#solution7">Communication Issues Between Teams </a></li>
                                     <li><a href="#solution9">No Mobile Presence </a></li>
                                     <li><a href="#solution1">UI Not Branded</a> </li>
@@ -173,22 +170,24 @@ class case_study_1 extends Component {
                                     <li><a href="#solution1">Competitors UI are better</a></li>
                                     <li><a href="#results">Entire project file size needed to be under 1mb</a></li>
                                 </ul> 
+                            </div>
+                        </section>
                     </div>
-            </section>
-        </div>
-    </section>
+                </section>
 
-         <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                        <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
 
-                    <section className="content-header align-items-center flex-layout-column">
-                        <div className="title content-block-65">
-                            Design Solutions
-                        </div>
-                        <div className="subtitle content-block-65 margin-top-50">
-                            New Design
+                        <section className="content-header align-items-center flex-layout-column">
+                            <div className="title content-block-65">
+                                Design Solutions
+                            </div>
+                            <div className="title content-block-65 margin-top-50 margin-top-50sm">
+                                Updated Design
+                            </div>
+                        <div className="subtitle content-block-65 margin-top-10">
+                                Branded and Simplified UI
                         </div>
                         <div className="content-block-65 margin-top-15">
-
                             <p className="content-text-18"> 
                             WDS presented a responsive empathetic design that was modern, simple and branded. The design included solutions that would simplify the interface, reduce customer complaints and return consumer loyalty.</p>
 
@@ -208,8 +207,9 @@ class case_study_1 extends Component {
                         </div>
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
-                    <section className="flex-layout-section-full align-items-center"> 
+                    <div className="thin-hr content-block-65 align-self-center hrline-spacing display-none"></div>
+
+                    <section className="flex-layout-section-full align-items-center margin-top-50sm"> 
                             <div className="title content-block-65">
                                 <a id="solution2"></a> 
                                     Introduction of "Mary"
@@ -221,10 +221,11 @@ class case_study_1 extends Component {
                             <div className="float-left content-block-65 margin-top-15">
                                 <p className="content-text-18">
                                     One of the toughest aspects of being a contractor is communication and acceptance, especially on an established team. These were the developers that originally designed the application and many were not happy that another UX designer was hired. They had already been through two failed attempts and fully expected to the same results with WDS.</p>
-
-                                <p className="content-text-18"><div className="float-right ">
+                                <div className="float-right ">
                                     <img className="width-100" src={mary} alt="the persona of Mary"/>
                                 </div>
+
+                                <p className="content-text-18">
                                 To open the lines of communication,  a persona named "Mary" was used. During the research phase it was surprising to uncover that a large majority of complaints to the call center were women. The developers were asked if they get phones calls from their mother-in-laws for tech help. Over 75% responded that they do indeed get those type of phones calls.</p>
 
                                 
@@ -235,11 +236,14 @@ class case_study_1 extends Component {
                         </div>
                         </section>
 
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                    <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
 
-                    <section className="content-header flex-layout-column align-items-center">
-                        <div className="subtitle content-block-65">
-                        <a id="solution2"></a>
+                    <section className="content-header flex-layout-column align-items-center margin-top-15sm">
+                        <div className="title content-block-65">
+                            <a id="solution3"></a> 
+                              Visual Settings Display  
+                        </div>
+                        <div className="subtitle content-block-65 margin-top-10">
                              Start/Home Page
                         </div>
                         <div className="content-block-65">
@@ -256,10 +260,14 @@ class case_study_1 extends Component {
                             </div>
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                    <div className="thin-hr content-block-65 align-self-center hrline-spacing display-none"></div>
 
-                    <section className="content-header align-items-center flex-layout-column ">
-                        <div className="subtitle content-block-65 margin-top-15">
+                    <section className="content-header align-items-center flex-layout-column margin-top-50sm ">
+                        <div className="title content-block-65">
+                            <a id="solution3"></a> 
+                            WiFi Solution
+                            </div>
+                        <div className="subtitle content-block-65 margin-top-10">
                         <a id="solution3"></a> 
                             WiFi Quick Start
                         </div>
@@ -281,10 +289,14 @@ class case_study_1 extends Component {
                             </div>
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                    <div className="thin-hr content-block-65 align-self-center hrline-spacing display-none"></div>
 
-                    <section className="content-header flex-layout-column align-items-center">
-                        <div className="subtitle content-block-65 margin-top-15">
+                    <section className="content-header flex-layout-column align-items-center margin-top-50sm">
+                        <div className="title content-block-65">
+                                <a id="solution4"></a> 
+                                    Guiding the Users
+                        </div>
+                        <div className="subtitle content-block-65 margin-top-10">
                         <a id="solution4"></a>In Context Help
                     </div>
                     <div className="content-block-65">
@@ -301,10 +313,14 @@ class case_study_1 extends Component {
                             </div>
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                    <div className="thin-hr content-block-65 align-self-center hrline-spacing display-none"></div>
 
-                    <section className="content-header flex-layout-column align-items-center">
-                        <div className="subtitle margin-top-15 content-block-65">
+                    <section className="content-header flex-layout-column align-items-center margin-top-50sm">
+                        <div className="title content-block-65">
+                                <a id="solution10"></a> 
+                                Meeting Users Expectations
+                        </div>
+                        <div className="subtitle margin-top-10 content-block-65">
                         <a id="solution10"></a>Guidance and Support
                     </div>
                     <div className="content-block-65">
@@ -324,9 +340,13 @@ class case_study_1 extends Component {
                         </div>
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                    <div className="thin-hr content-block-65 align-self-center hrline-spacing display-none"></div>
 
-                    <section className="content-header flex-layout-column align-items-center">
+                    <section className="content-header flex-layout-column align-items-center margin-top-50sm">
+                        <div className="title content-block-65">
+                                <a id="solution4"></a> 
+                                IOS Application
+                        </div>
                         <div className="subtitle content-block-65">
                         <a id="solution3"> </a> 
                                 Mobile Application Solution
@@ -346,9 +366,9 @@ class case_study_1 extends Component {
                         </div>
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                    <div className="thin-hr content-block-65 align-self-center hrline-spacing display-none"></div>
 
-                    <section className="content-header flex-layout-column align-items-center">
+                    <section className="content-header flex-layout-column align-items-center margin-top-50sm">
                             <div className="title content-block-65">
                                 Business Design Solutions
                             </div>
@@ -364,11 +384,14 @@ class case_study_1 extends Component {
                         </div>
                         </section>
 
-                        <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                        <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
                        
-                        <section className="content-header flex-layout-column align-items-center">
+                        <section className="content-header flex-layout-column align-items-center margin-top-15sm">
+                        <div className="title content-block-65">
+                                Google Buyout
+                            </div>
                             <div className="subtitle content-block-65">
-                             <a id="solution7"></a> Google Buyout
+                             <a id="solution7"></a> Presenting to the Google Executives
                             </div>
                                 <div className="content-block-65">
                                 <p className="content-text-18 margin-top-15">
@@ -384,9 +407,9 @@ class case_study_1 extends Component {
                         </div>
                     </section>
 
-                        <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                    <div className="thin-hr content-block-65 align-self-center hrline-spacing display-none"></div>
 
-                      <section className="content-header flex-layout-column align-items-center">
+                      <section className="content-header flex-layout-column align-items-center margin-top-50sm">
                          <div className="title content-block-65">
                             Deployment
                         </div>
@@ -404,9 +427,9 @@ class case_study_1 extends Component {
                         </div>
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-100"></div>
+                    <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
 
-                    <section className="content-header flex-layout-column align-items-center"> 
+                    <section className="content-header flex-layout-column align-items-center margin-top-15sm"> 
                         <div className="title content-block-65">
                                 Results
                         </div>
@@ -425,7 +448,7 @@ class case_study_1 extends Component {
                     
                     <div className="flex-layout-center-center  flex-items-align-top margin-top-25">    
                                         
-                            <ul className="dashed content-text-18 margin-left-75">
+                            <ul className="dashed content-text-18 margin-left-25">
                                 <li>Lowered return rate by <b>40%</b></li>
                                 <li>Entire project under 1mb</li>
                                 <li>First css style sheet in Motorola Products </li>
