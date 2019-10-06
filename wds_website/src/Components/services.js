@@ -35,8 +35,8 @@ class services extends Component {
                     <img className="flex-image-container image-size-100" src={practice}  alt="Services image" /> 
                 </div> 
             </section>
-            <section className="container-section-1-primary flex-layout-center-center border-bottom-5 red">
-                <div className="callout-text-white"> 
+            <section className="container-section-1-primary flex-layout-center-center border-bottom-5 red padding-15sm">
+                    <div className="callout-text-lg"> 
                 “The role of the designer is that of a good, thoughtful host anticipating the needs of his guests.” – Charles Eames
 
                 </div>
