@@ -29,7 +29,7 @@ class style_guide extends Component {
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
                 “The more decisions you put off, and the longer you delay them, the more expensive they become.”
-                — Craig Villamor
+                - Craig Villamor
                 </div>
             </section>
 
