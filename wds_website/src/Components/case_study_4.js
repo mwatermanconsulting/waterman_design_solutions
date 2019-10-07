@@ -297,15 +297,22 @@ class case_study_4 extends Component {
                         </p>
                     </div>         
                 </section>
-                <section className="grid-callout border-top-5 bottom-border grey margin-top-100" style={{height:'450px'}}>
-                    <div className="grid-callout-text grid-placeself-center width-70" style={{padding:'20px'}}>
-                        <p className="callout-text ">The mixture of OOCSS, ITCSS and SaaS was a huge success and scaled with the application, as it matured. The company was so happy with the solution it became a company wide standard. The CSS also became the foundation for the style guide and design system.</p>
-                    </div>
+                
+            <section className="flex-layout-section-full align-items-center grey border-top-5 margin-top-50 margin-top-50sm">
+                <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 margin-bottom-50 " > 
+                    <div className="col2-text  grid-placeself-center ">
+                        <div className="content-block text-align-center margin-top-15sm">
                             
-                    <div className="grid-callout-photo grid-placeself-center">
-                        <img src={thumbsUp} alt="Finding the Truth - Business Perspective"/>
-                     </div>
-                </section>    
+                            <p className="callout-text">
+                            The mixture of OOCSS, ITCSS and SaaS was a huge success and scaled with the application, as it matured. The company was so happy with the solution it became a company wide standard. The CSS also became the foundation for the style guide and design system.
+                        </p>
+                    </div>
+                </div>
+                <div className="col2-photo grid-placeself-center">
+                    <img className="flex-image-container width-100" src={thumbsUp}  alt="Good job WDS!" /> 
+                </div>
+            </div>
+        </section>   
                         
                 </div> 
             </div>   

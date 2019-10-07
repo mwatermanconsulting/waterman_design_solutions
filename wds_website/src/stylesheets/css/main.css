@@ -1220,9 +1220,11 @@ ul.dashed {
   font-family: 'Roboto'; }
 
 ul.dashed > li {
-  margin-left: 15px;
+  margin-left: 20px;
   margin-bottom: 5px;
-  text-align: left; }
+  text-align: left;
+  font-family: 'Roboto' sans-serif;
+  font-weight: 400; }
 
 /* Prevent nested li's from getting messed up */
 ul.dashed > li::before {
@@ -2538,7 +2540,7 @@ Button:hover {
 
 .subtitle-case {
   font-family: 'Oswald', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 2.25rem; }
 
 .subtitle-why {

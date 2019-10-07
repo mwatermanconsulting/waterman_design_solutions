@@ -169,8 +169,8 @@ class case_study_2 extends Component {
                             <p className="content-text-18">
                                 Most failures arise from a disconnect between what the user wants/expects and what they are offered. After the initial research and development of personas, the challenges were met head on. Here are the issues that WDS and StubHub agreed on: </p>
                 </div>
-                
                     <div className="flex-layout-row flex-layout-justified-sb content-block-65">
+
                     
                     <div className="flex-items-align-top margin-top-25 content-block-65">
                             
@@ -193,7 +193,7 @@ class case_study_2 extends Component {
                                     <li><a href="#solution6">WDS needs lead project end-to-end</a></li>
                                     <li><a href="#solution1">Responsive design</a></li>
                                     <li><a href="#solution4">Feature bloat</a></li>
-                                    <li><a href="#solution1">Reports are customizable and interface needs to be fluid</a></li>
+                                    <li><a href="#solution1">Report interface are customizable and fluid</a></li>
                                     <li><a href="#solution1">Two sets of users (Analysts and VP's)</a></li>
                                     </ul> 
                             </div>
@@ -401,25 +401,19 @@ class case_study_2 extends Component {
                         
                     </div>
 
-        <section className="flex-layout-section-full align-items-center grey border-top-5">
-                <div className="grid-2col-text-photo align-self-center width-70 margin-top-50 margin-bottom-50" > 
-                    <div className="2col-text grid-placeself-center ">
-                        <div className="content-block">
-                            <p className="content-header"> 
-                              A few months later...</p>
-                            <p className="content-text-18 margin-top-15 ">  
-                            
-                           
-                                A follow-up call to StubHub led to an astonishing reveal. There was no need to push for more users because 172 out of the 175 analysts were using the reporting tool, up to 98%, a 97% increase in 5 months. StubHub was thrilled with WDS design solutions and  with the results.
-</p> 
-
-                        </div>
-                    </div>              
-                    <div className="col2-photo grid-placeself-center width-100">
-                        <img className="flex-image-container " src={thumbsUp}  alt="StubHub follow up 97% growth in users!" /> 
+         
+            <section className="flex-layout-section-full align-items-center grey border-top-5 margin-top-50 margin-top-50sm">
+                <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 margin-bottom-50 " > 
+                    <div className="col2-text  grid-placeself-center ">
+                        <div className="content-block text-align-center margin-top-15sm">
+                            <p className="callout-text "> A follow-up call to StubHub led to an astonishing reveal. There was no need to push for more users because 172 out of the 175 analysts were using the reporting tool, up to 98%, a 97% increase in 5 months. StubHub was thrilled with WDS design solutions and  with the results. </p>
                     </div>
                 </div>
-            </section> 
+                <div className="col2-photo grid-placeself-center">
+                    <img className="flex-image-container width-100" src={thumbsUp}  alt="Good job WDS!" /> 
+                </div>
+            </div>
+        </section>
                     
                     
                     </div>
