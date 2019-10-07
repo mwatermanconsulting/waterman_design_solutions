@@ -269,7 +269,7 @@ class why_wds extends Component {
                 
 
                 <div className="align-content-center margin-top-15">
-                    <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/ui_design'}>
+                    <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/ux_design'}>
                     Learn More 
                     </NavLink>
                </div>  
