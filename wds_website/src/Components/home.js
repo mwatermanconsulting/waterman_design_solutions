@@ -55,9 +55,9 @@ class landingPage extends Component {
                     </div>
                 </section>
                 
-                <section className="grid-gallery-2col grid-gap-20 align-self-center margin-left-10per margin-top-25">
-                    <div className="gallery-2col-1 container-image-500 align-self-top">
-                        <img className="container-image-300 margin-left-10sm" src={why}  alt="Why WDS" /> 
+                <section className="align-self-center margin-left-10per margin-top-25">
+                    <div className="align-self-top">
+                        <img className="margin-left-10sm" src={why}  alt="Why WDS" /> 
                             <div className="content-block-auto ">
                                 <div className="title-center margin-top-20 margin-left-8sm margin-bottom-20 content-text-18 content-block-60">
                                     Why WDS
@@ -73,12 +73,12 @@ class landingPage extends Component {
                         </div> 
                      </div>
                     </div>   
-                    <div className="gallery-2col-2t container-image-500 align-self-top">
-                        <img className="container-image-300 margin-left-15sm margin-top-15"  src={binoculars}  alt="Methodology" /> 
-                        <div className="content-block-auto ">
+                    <div className="gallery-2col-2t align-self-top">
+                        <img className="margin-left-15sm margin-top-15" src={binoculars}  alt="Methodology" /> 
+                        <div className="">
                             <div className="title margin-left-4sm margin-bottom-20 content-block-60">
                                     Methodology</div>
-                            <p className="content-text-18 content-block-60">
+                            <p className="content-text-18 content-block-60 margin-left-8sm">
                                     WDS has refined a scalable, flexible UX methodology that centers on finding the truth to user issues and answering questions about customers. </p> 
                         </div>
                         
@@ -90,12 +90,12 @@ class landingPage extends Component {
                 </div>
             </section>
             <section className="grid-gallery-2col grid-gap-20 align-self-center media-margin margin-left-10per margin-top-50 margin-bottom-50 width-70">
-                <div className="gallery-2col-1 container-image-500 margin-left-10per justify-self-center margin-top-50sm margin-top-50">
-                    <img className="container-image-300 margin-left-5 margin-left-15sm"  src={design}  alt="Design Solutions" />
+                <div className="gallery-2col-1 margin-left-10per justify-self-center margin-top-50sm margin-top-50">
+                    <img className="margin-left-5 margin-left-8sm"  src={design}  alt="Design Solutions" />
                 <div className="">
-                    <div className="title margin-top-15 margin-left-5 margin-bottom-20 content-block-65">
+                    <div className="title margin-top-15 margin-left-5 margin-left-8sm margin-bottom-20 content-block-65">
                                 Design Solutions</div>
-                        <p className="content-text-18 content-block-60 margin-left-5">
+                        <p className="content-text-18 content-block-60 margin-left-8sm">
                                 For over 25 years WDS had been providing design solutions for global brands such as Motorola and StubHub. Design services include application design, website design and graphic design.</p>
                     </div>
                       
@@ -106,12 +106,12 @@ class landingPage extends Component {
                  
             </div>
             </div>   
-            <div className="gallery-2col-2 container-image-500 media-left-margin align-self-end margin-top-70">
-                <img className="container-image-300 margin-left-10sm" src={igotyou}  alt="Services" />
-                    <div className="content-block-auto content-block-60 margin-top-70">
-                        <div className="title-center margin-top-15 margin-left-6sm margin-top-50 margin-bottom-20">
+            <div className="gallery-2col-2 media-left-margin align-self-end margin-top-70">
+                <img className="margin-left-8sm" src={igotyou}  alt="Services" />
+                    <div className="margin-top-70">
+                        <div className="title-center margin-top-15 margin-left-8sm margin-top-50 margin-bottom-20">
                                 Services</div>
-                            <p className="content-text-18"> 
+                            <p className="content-text-18 margin-left-10sm"> 
                                 WDS has over 25 years of experience with UX design, CSS and UI design and development. Their latest service offering is a highly needed business (CX) solution, using design systems. </p> 
                         </div> 
                     <div className="flex-layout-section-full content-block-50">
