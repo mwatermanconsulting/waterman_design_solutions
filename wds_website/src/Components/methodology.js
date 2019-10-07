@@ -453,7 +453,7 @@ class methodology extends Component {
                         A design problem with Motorola Surfboard Cable Modem product line was on the verge of losing money due to high return rate and a high spike in call center calls. After two failed attempts and years of complacency, Motorola stakeholders decided to bring in a consultant with design and UX experience with a proven methodology. </p>
                         
                         <div className="float-left">
-                            <NavLink className='button-area no-decoration' type="button" value="Full Story" to={'ui_design'}>
+                            <NavLink className='button-area no-decoration' type="button" value="Full Story" to={'case_study_1'}>
                                 Full Story 
                             </NavLink>
                         </div>  

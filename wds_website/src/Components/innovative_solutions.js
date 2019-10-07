@@ -30,7 +30,7 @@ class innovative_solutions extends Component {
                 </section>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                    “Every solution to every problem is simple.<br/> It's the distance between the two where the mystery lies.” <br/> ― Derek Landy
+                    “Every solution to every problem is simple.<br/> It's the distance between the two where the mystery lies.” <br/> - Derek Landy
                 </div>
             </section>
 

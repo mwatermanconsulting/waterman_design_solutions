@@ -50,11 +50,7 @@ class design_solutions extends Component {
                     </p>   
                     <p className="content-text-21 content-block-60 flex-layout-center-center margin-top-25 margin-bottom-50">
                         Design determines success and understanding the user is paramount. WDS unites your business with  customers and brings an understanding to their needs and expectations.</p>
-                <div className="flex-layout-section-full align-items-center">
-                    <NavLink className='button-area no-decoration' value="learn more" type="button" to={'/case_study_4'}>
-                        Learn More 
-                    </NavLink>
-                </div>
+                
                </div> 
             </div> 
            
@@ -94,7 +90,7 @@ class design_solutions extends Component {
                 </div>  
                     Graphic design still has a place in today's digital technology. WDS  develops traditional design strategies that compliments  digital campaigns by designing graphics that are based on research and user personas. Designing for real people helps drive sales and user retention. WDS has extensive print experience, including magazines, brochures, business cards, trade show displays, corporate reports, etc. </p>
                 <div className="float-left ">
-                    <NavLink className='button-area no-decoration' value="learn more" type="button" to={'/website_design'}>
+                    <NavLink className='button-area no-decoration' value="learn more" type="button" to={'/graphic_design'}>
                         Learn More
                     </NavLink>  
                 </div> 

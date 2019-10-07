@@ -273,8 +273,8 @@ class about extends Component {
                         </div>   
                  </section>       
                     
-                <div className="margin-top-50">
-                    <img className="width-100" src={history_3} ></img>
+                <div className="margin-top-50 ">
+                    <img className="width-100 margin-top-25sm" src={history_3} ></img>
                 </div>
                 <section className="float-left align-items-center margin-top-50 flex-layout-column">
                 <div className="title margin-bottom-50 ">
@@ -284,7 +284,7 @@ class about extends Component {
                         Michael Waterman 
                     </div>
                     <div className="subtitle content-block-65 margin-top-10">
-                    President, Business Consultant, UX/UI designer, Genius
+                    President, Business Consultant, UX/UI Designer, Genius
                     </div>
                     <div className="content-block-65 content-text-18 margin-top-15">
                         <div className="float-right">
@@ -315,7 +315,7 @@ class about extends Component {
                         Terri Waterman 
                     </div>
                     <div className="subtitle content-block-65 margin-top-10">
-                    Art and Creative Director, UX/UI designer, Humorist
+                    Art and Creative Director, UX/UI Designer, Humorist
                     </div>
                     <div className="content-block-65 content-text-18 margin-top-15">
                         
@@ -340,9 +340,9 @@ class about extends Component {
                 </section>
                 
            
-            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
-                <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
-                       <img className="container-image-500 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center padding-top-50 margin-top-50 margin-top-50sm grey border-top-5">
+                <div className="content-block-65 text-align-center"> 
+                       <img className="container-image-500 padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
                       
                       <div >
                           <p className="callout-text text-white text-align-center">  Surreal Concepts was always ahead of the trends, using the now-popular branding colors blue and orange in the early 2000s.</p>
