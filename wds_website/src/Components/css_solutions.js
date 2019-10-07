@@ -47,11 +47,11 @@ class css_solutions extends Component {
             </section>
 
             <section className="content-header flex-layout-center-center flex-layout-column margin-top-75">
-                <div className="flex-layout-center-center title-center content-block-50">
+                <div className="flex-layout-center-center title-center content-block-60">
                         WDS develops lean scalable CSS solutions, saving your business time and money, while keeping your developers happy.
                         
                 </div>
-                <div className="content-block-50">
+                <div className="content-block-60">
                     <p className="content-text-24 text-align-center">
 
                         <img className="photo-container" src={cheer}  alt="Happy developers" /> <br></br>
