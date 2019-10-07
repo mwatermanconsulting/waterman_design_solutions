@@ -54,67 +54,73 @@ class landingPage extends Component {
                             WDS is a UX/UI agency that offers empathetic design solutions for websites, web-based applications, mobile apps, and products. They partner with each client, ensuring business and design requirements are met. Their core offerings help businesses understand the value of design by providing training, workshops and mentorship programs.</p>
                     </div>
                 </section>
+
+                <div className="home-container flex-layout-center margin-left-20per">
                 
-                <section className="align-self-center margin-left-10per margin-top-25">
-                    <div className="align-self-top">
-                        <img className="margin-left-10sm" src={why}  alt="Why WDS" /> 
-                            <div className="content-block-auto ">
-                                <div className="title-center margin-top-20 margin-left-8sm margin-bottom-20 content-text-18 content-block-60">
+                <div className="home-item">
+                    <div className="align-self-center">
+                        <img className="" src={why2}  alt="Why WDS" /> 
+                            <div className="content-block-75">
+                                <div className="header-title-sm content-block-55 margin-bottom-20">
                                     Why WDS
                                 </div>
-                                <p className="content-text-18 content-block-60 margin-left-8sm">
+                                <p className="content-text-18 content-block-75">
                                     WDS is a full service UX/UI design agency that specializes in creating elegant user experiences on applications, websites and all consumer touchpoints.
                                 </p>
                             
-                    <div className="flex-layout-section-full content-block-50">
+                    <div className="flex-layout-section-full content-block-55">
                         <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/case_study_4'}>
                             Learn More 
                         </NavLink>
                         </div> 
                      </div>
-                    </div>   
-                    <div className="gallery-2col-2t align-self-top">
-                        <img className="margin-left-15sm margin-top-15" src={binoculars}  alt="Methodology" /> 
-                        <div className="">
-                            <div className="title margin-left-4sm margin-bottom-20 content-block-60">
+                    </div>
+                </div>
+
+                <div className="home-item">
+                    <div className="align-self-center">
+                        <img className="" src={binoculars}  alt="Methodology" /> 
+                        <div className="content-block-75">
+                            <div className="header-title-sm content-block-55 margin-bottom-20">
                                     Methodology</div>
-                            <p className="content-text-18 content-block-60 margin-left-8sm">
+                            <p className="content-text-18 content-block-60">
                                     WDS has refined a scalable, flexible UX methodology that centers on finding the truth to user issues and answering questions about customers. </p> 
                         </div>
                         
-                        <div className="flex-layout-section-full text-align-center content-block-50">
+                        <div className="flex-layout-section-full content-block-40">
                             <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/methodology'}>
                                 Learn More 
                             </NavLink>
                     </div>
                 </div>
-            </section>
-            <section className="grid-gallery-2col grid-gap-20 align-self-center media-margin margin-left-10per margin-top-50 margin-bottom-50 width-70">
-                <div className="gallery-2col-1 margin-left-10per justify-self-center margin-top-50sm margin-top-50">
-                    <img className="margin-left-5 margin-left-8sm"  src={design}  alt="Design Solutions" />
-                <div className="">
-                    <div className="title margin-top-15 margin-left-5 margin-left-8sm margin-bottom-20 content-block-65">
+            </div>
+            <div className="home-item flex-layout-center-center">
+            <div className="align-self-center">
+                    <img className=""  src={design}  alt="Design Solutions" />
+                <div className="content-block-75">
+                    <div className="header-title-sm content-block-65 margin-bottom-20">
                                 Design Solutions</div>
-                        <p className="content-text-18 content-block-60 margin-left-8sm">
+                        <p className="content-text-18 content-block-60">
                                 For over 25 years WDS had been providing design solutions for global brands such as Motorola and StubHub. Design services include application design, website design and graphic design.</p>
                     </div>
                       
-                 <div className="flex-layout-section-full content-block-60">
+                 <div className="flex-layout-section-full text-align-center content-block-40">
                     <NavLink className='button-area no-decoration' value="learn more" type="button" to={'/design_solutions'}>
                     Learn More
                     </NavLink>
-                 
+                 </div>
             </div>
-            </div>   
-            <div className="gallery-2col-2 media-left-margin align-self-end margin-top-70">
-                <img className="margin-left-8sm" src={igotyou}  alt="Services" />
-                    <div className="margin-top-70">
-                        <div className="title-center margin-top-15 margin-left-8sm margin-top-50 margin-bottom-20">
+            </div>
+                <div className="home-item">  
+            <div className="">
+                <img className="" src={igotyou}  alt="Services" />
+                    <div className="content-block-75">
+                        <div className="header-title-sm content-block-55 margin-bottom-20">
                                 Services</div>
-                            <p className="content-text-18 margin-left-10sm"> 
+                            <p className="content-text-18 content-block-60"> 
                                 WDS has over 25 years of experience with UX design, CSS and UI design and development. Their latest service offering is a highly needed business (CX) solution, using design systems. </p> 
                         </div> 
-                    <div className="flex-layout-section-full content-block-50">
+                    <div className="flex-layout-section-full content-block-40">
                         
                         <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/services'}>
                             Learn More 
@@ -122,8 +128,8 @@ class landingPage extends Component {
                    
                     </div>
             </div>
-            </section>
-
+            </div>
+            </div>
             <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="flex-layout-section-full flex-layout-column align-items-center">
@@ -147,7 +153,7 @@ class landingPage extends Component {
                         <p className="title content-block-60 margin-top-75">
                             The Value of Empathy
                         </p>
-                        <p className="subtitle content-block-60 margin-top-15per">
+                        <p className="subtitle content-block-60">
                             Empathic Design Sparks Innovations
                         </p>
                         <p className="content-text-18 content-block-60">
@@ -216,10 +222,10 @@ class landingPage extends Component {
                         </div> 
                 </section>
 
-            <section className="grid-gallery-2col grid-gap-20 content-header align-self-center justify-items-center margin-bottom-50  margin-top-25 width-70">
-                    <div className="gallery-2col-1 container-image-500 align-self-start">
-                        <img className="container-image-500" src={theyluvus}  alt="All About the User" /> 
-                        <div className="content-block-auto ">
+            <section className="grid-gallery-2col grid-gap-20 content-header align-self-center justify-items-center margin-bottom-50  margin-top-25">
+                    <div className="gallery-2col-1 align-self-start">
+                        <img className="" src={theyluvus}  alt="All About the User" /> 
+                        <div className="">
 
                             <div className="title-homepage">
                                 It’s all about the user
@@ -230,12 +236,12 @@ class landingPage extends Component {
                               WDS is a firm believer in agile and iterative deployments as experiments, but with longer enterprise launches and consumer software there's still valuable data to collect even before that first MVP. WDS insights and strategies move you and your team in the right direction, and possibly uncover rewarding new business opportunities.</p>
                         </div>
                     </div>     
-                    <div className="gallery-2col-2 container-image-500 align-self-start">
-                        <img className="container-image-500"  src={business}  alt="Business Solutions" /> 
-                        <div className="content-block-auto ">
+                    <div className="gallery-2col-2  align-self-start">
+                        <img className=""  src={business}  alt="Business Solutions" /> 
+                        <div className="">
 
                             <div className="title-homepage">Business value of design</div>
-                            <p className="subtitle">Design is everybody’s responsibility</p>
+                            <p className="subtitle">Design is everybody ’s responsibility</p>
                             <p className="content-text-18">In workplace and enterprise solutions, users know when someone understands their needs and make them feel like experts. They know when there's attention to design details. They know when it's intuitive and visually pleasing. With consumers, if you miss the mark, you'll fail fast and they’ll let you know it.</p>
                         
                           </div>

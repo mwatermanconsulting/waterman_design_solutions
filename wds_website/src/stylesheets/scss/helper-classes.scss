@@ -660,6 +660,10 @@
     width: 25%;
   }
 
+  .content-block-35 {
+    width: 35%;
+  }
+
   .content-block-40 {
     width: 43%;
   }
@@ -787,7 +791,19 @@
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  height: 768px; }
+ }
+
+ .home-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+ .home-item {
+  flex: 0 50%;
+  height: auto;
+  margin-bottom: 10%; /* (100-32*3)/2 */
+}
 
   .photo-container {
     width: 550px;
