@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
-import digital_systems from '../images/backgrounds/bg-digital-systems.png';
-import digital_systems1 from '../images/photos/photo-digital-systems-s1.png';
-import digital_systems2 from '../images/photos/photo-digital-systems-s2.png';
-import digital_systems3 from '../images/photos/photo-digital-systems-s3.png';
-import digital_systems4 from '../images/photos/photo-digital-systems-s4.png';
-import digital_systems6 from '../images/photos/photo-digital-systems-s6.png';
-import digital_systems7 from '../images/photos/photo-digital-systems-s7.png';
+import design_systems from '../images/backgrounds/bg-design-systems.png';
+import design_systems1 from '../images/photos/photo-design-systems-s1.png';
+import design_systems2 from '../images/photos/photo-design-systems-s2.png';
+import design_systems3 from '../images/photos/photo-design-systems-s3.png';
+import design_systems4 from '../images/photos/photo-design-systems-s4.png';
+import design_systems6 from '../images/photos/photo-design-systems-s6.png';
+import design_systems7 from '../images/photos/photo-design-systems-s7.png';
 import didyouknow from '../images/graphic-didyouknow.svg';
 
 class style_guide extends Component {
@@ -24,7 +24,7 @@ class style_guide extends Component {
                 <div className="header-text-center header-title text-white">
                         Design Systems
                 </div>
-                    <img className="flex-image-container width-100" src={digital_systems}  alt="Design Systems" />     
+                    <img className="flex-image-container width-100" src={design_systems}  alt="Design Systems" />     
             </section>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
@@ -39,7 +39,7 @@ class style_guide extends Component {
                     A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive, combining components, behaviors, and branding. It must also be flexible and scalable.</div>        
                     </div>
                     <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
-                        <img className="container-photo-callout margin-left-15per" src={digital_systems1}  alt="Finding Truth" /> 
+                        <img className="container-photo-callout margin-left-15per" src={design_systems1}  alt="Finding Truth" /> 
                     </div>
             </section>
     
@@ -68,7 +68,7 @@ class style_guide extends Component {
                         </div>
                         <div className="content-text-18 margin-top-15" >
                             <div className="float-right">
-                            <img className="photo-container width-100" src={digital_systems2}  alt="Less Errors" /> 
+                            <img className="photo-container width-100" src={design_systems2}  alt="Less Errors" /> 
                         </div>
                             <p className="content-text-18"> 
                             Another benefit of using prebuilt and standardized component is less errors. There’s no chance of making a mistake when you’re copying from a master version. As long as the components in your design system are accurate, their use in your products will be accurate.
@@ -92,7 +92,7 @@ class style_guide extends Component {
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
                     <div className="float-right">
-                        <img className="photo-container width-100" src={digital_systems3} alt="Style Guides" /> 
+                        <img className="photo-container width-100" src={design_systems3} alt="Style Guides" /> 
                             <p className="caption">Styleguide for OsiSoft </p> </div>
                             <p className="content-text-18"> 
 
@@ -140,7 +140,7 @@ class style_guide extends Component {
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15"> 
                         <p className="content-text-18"> <div className="float-right">
-                        <img className="photo-container width-100 border-2 margin-top-10per" src={digital_systems6}  alt="Pattern Library   " /> 
+                        <img className="photo-container width-100 border-2 margin-top-10per" src={design_systems6}  alt="Pattern Library   " /> 
                     </div>  
                         A subclass in the design system, this is the set of design patterns for use across a company. A pattern library, documents all of these ‘patterns’ (also often known as modules) and defines how they behave, what they look like and how they are coded.</p>
                     </div>  
@@ -157,7 +157,7 @@ class style_guide extends Component {
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
                         <p className="content-text-18"> <div className="float-right">
-                        <img className="photo-container width-100 border-2 margin-top-20per" src={digital_systems7}  alt="Style Guides " /> 
+                        <img className="photo-container width-100 border-2 margin-top-20per" src={design_systems7}  alt="Style Guides " /> 
                     </div>
                         Another subclass in the design system, this static documentation describes the design system itself: how products should look and feel, use cases for UI patterns, correct typographic scales, etc.</p>
                     </div>   
