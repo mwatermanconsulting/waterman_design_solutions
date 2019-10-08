@@ -237,6 +237,9 @@ footer {
 .margin-left-18 {
   margin-left: 18%; }
 
+.margin-left-18per {
+  margin-left: -18%; }
+
 .margin-left-10sm {
   margin-left: 0%; }
 
@@ -489,6 +492,9 @@ footer {
 .padding-top-8sm {
   padding-top: 8%; }
 
+.padding-10 {
+  padding: 10px; }
+
 .padding-top-6sm {
   padding-top: 0%; }
 
@@ -681,8 +687,7 @@ footer {
   width: 50%; }
 
 .content-block-auto {
-  width: auto;
-  margin: 10px; }
+  width: auto; }
 
 .content-block-10 {
   width: 10%; }
@@ -804,17 +809,6 @@ footer {
   flex-direction: row;
   justify-content: center;
   align-items: flex-start; }
-
-.home-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; }
-
-.home-item {
-  flex: 0 50%;
-  height: auto;
-  margin-bottom: 10%;
-  /* (100-32*3)/2 */ }
 
 .photo-container {
   width: 550px;
@@ -1075,7 +1069,7 @@ footer {
   font-size: 3.1875rem;
   letter-spacing: 1.1px;
   line-height: 1.4;
-  text-align: center; }
+  text-align: left; }
 
 .header-title-cs {
   font-family: 'Mouse Memoirs', sans-serif;
@@ -3023,6 +3017,40 @@ ul.menu > li.dropdown {
 a.menu {
   color: #fff !important; }
 
+.home-container-85 {
+  font-size: 18px;
+  margin-top: 15px;
+  width: 85%;
+  margin-left: 15%; }
+
+.home-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-top: 15px;
+  width: 85%;
+  margin-left: 15%; }
+
+.home-item {
+  flex: 0 50%;
+  height: auto;
+  /* (100-32*3)/2 */ }
+
+.home-margin {
+  margin-left: 15%; }
+
+.home-margin-7 {
+  margin-left: 7%; }
+
+.home-callout {
+  width: 100%; }
+
+.home-image-container {
+  width: 100%;
+  max-width: 500px;
+  height: auto; }
+
 /*******************************
          react-overrides
   *******************************/
@@ -3124,6 +3152,14 @@ a:any-link {
     margin-left: 8%; }
   .border-2-sm {
     border: 2px solid rgba(58, 58, 58, 0.838); }
+  .home-item {
+    flex: 1 1 51%;
+    height: auto;
+    /* (100-32*3)/2 */ }
+  .home-image-container {
+    width: 85%;
+    max-width: 500px;
+    height: auto; }
   .flex-layout-justified-sa {
     display: flex;
     justify-content: space-around;
@@ -3873,6 +3909,10 @@ a:any-link {
     margin-bottom: 15px;
     padding: 1px;
     font-family: Roboto; }
+  .home-image-container {
+    width: 100%;
+    max-width: 500px;
+    height: auto; }
   .title-white {
     font-family: 'Oswald', sans-serif;
     font-size: 3.05rem;
@@ -3957,6 +3997,11 @@ a:any-link {
     padding-top: 8%; }
   .padding-top-6sm {
     padding-top: 6%; }
+  .home-item {
+    flex: 0 50%;
+    height: auto;
+    margin-bottom: 10%;
+    /* (100-32*3)/2 */ }
   .grid-2things {
     width: 1200px;
     grid-template-columns: repeat(2, 1fr);

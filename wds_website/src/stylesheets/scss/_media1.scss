@@ -29,6 +29,17 @@
     border: 2px solid rgba(58, 58, 58, 0.838);
   }
 
+  .home-item {
+    flex:1 1 51%;
+    height: auto; /* (100-32*3)/2 */
+  }
+
+  .home-image-container {
+    width: 85%;
+    max-width: 500px;
+    height: auto;
+  }
+
   .flex-layout-justified-sa {
     display: flex;
     justify-content: space-around;
@@ -1257,6 +1268,13 @@
       font-family: Roboto;
     }
 
+
+  .home-image-container {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+
     .title-white {
       font-family: 'Oswald', sans-serif;
       font-size: 3.05rem;
@@ -1395,6 +1413,12 @@
 
   .padding-top-6sm {
     padding-top: 6%;
+  }
+
+  .home-item {
+    flex: 0 50%;
+    height: auto;
+    margin-bottom: 10%; /* (100-32*3)/2 */
   }
 
   
