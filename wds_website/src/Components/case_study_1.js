@@ -11,7 +11,7 @@ import motorola_s5 from '../images/photos/photo-motorola-s5.png';
 import motorola_cnet from '../images/photos/photo-motorola-cnet.png';
 import motorola_google from '../images/photos/photo-motorola-google.png';
 import mary from '../images/photos/photo_mary.jpg';
-import motorola_beforeafter from '../images/photos/photo-motorola-beforeafter.png';
+import motorola_beforeafter from '../images/photos/photo-motorola-before-after.png';
 import motorola_before_basic from '../images/photos//photo-motorola-before-basic.png';
 import motorola_start from '../images/photos/photo-jump-surfboard.png';
 import callcenter from '../images/photos/photo-motorola-s2.png';
@@ -34,7 +34,7 @@ class case_study_1 extends Component {
                     <div className="header-text-left header-title-cs align-self-center text-white">
                         Case Study - Motorola
                     </div>
-                    <img className="header-text-right logo-cs-mobile align-self-center" src={motorola_logo}  alt="Motorola Logo" /> 
+                    
                     <img className="flex-image-container" src={motorola_bg}  alt="Motorola background" /> 
                 </section>
                 <section className="container-section padding-20  border-top-5 border-bottom- callout-color-dark">
@@ -106,7 +106,7 @@ class case_study_1 extends Component {
                             For the average user, the interface on the Motorola modems was very intimidating. The UI was outdated and unbranded, leaving the user confused and frustrated, keeping the call center very busy.
                         </div>
                         
-                        <div className="container-image-500">
+                        <div >
                               <img className=" width-100" src={callcenter} alt="Case Study Image 2"/> 
                         </div>
                     </section>
@@ -444,28 +444,30 @@ class case_study_1 extends Component {
                 </div>
                 </section>
 
-                <section className="flex-layout-row flex-layout-justified-sb align-self-center width-70">
-                    
-                    <div className="flex-layout-center-center  flex-items-align-top margin-top-25">    
-                                        
-                            <ul className="dashed content-text-18 margin-left-25">
+                <section className="flex-layout-row flex-layout-justified-sb content-block-65 flex-layout-center-center ">
+                    <div className="flex-layout-center-center flex-items-align-top margin-top-25">
+                        <ul className="dashed content-text-18 align-self-center">   
+                               
                                 <li>Lowered return rate by <b>40%</b></li>
+                                
+                                <li>Positive reviews by <a href="https://www.cnet.com/reviews/motorola-sbg6782-ac-surfboard-extreme-cable-modem-review/" >Cnet</a> and <a href="https://www.youtube.com/watch?v=cqTHxAN6cRwYouTube">YouTube</a> </li> 
+                                <li>Communication between teams improved</li>
                                 <li>Entire project under 1mb</li>
                                 <li>First css style sheet in Motorola Products </li>
 
                                 <li>Style Guide </li>
                             </ul>
                     </div>
-                    <div className="flex-layout-center-center  flex-items-align-top margin-top-25"> 
-                            <ul className="dashed content-text-18 margin-left-75">
+                    <div className="flex-layout-center-center flex-items-align-top margin-top-25">
+                            <ul className="dashed content-text-18 margin-left-25">
                                 <li>Reduced Customer Service calls by <b>70%</b></li>
-                                <li>Return rate dropped dramatically in a few months after launch </li>
-                                <li>Positive reviews by <a href="https://www.cnet.com/reviews/motorola-sbg6782-ac-surfboard-extreme-cable-modem-review/" >Cnet</a> and <a href="https://www.youtube.com/watch?v=cqTHxAN6cRwYouTube">YouTube</a> </li> 
-                                <li>Communication between teams improved</li>
+                                <li>Return rate dropped dramatically a few months after launch </li>
+                                <li>Entire project under 1mb</li>
+                                <li>First css style sheet in Motorola Products </li>
+                               
                             </ul>      
                         </div>
                     </section>
-             
                    
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
                 <div className=" margin-top-50 content-block-65 margin-bottom-50 text-align-center "> 
