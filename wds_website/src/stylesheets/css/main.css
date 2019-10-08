@@ -2559,6 +2559,11 @@ Button:hover {
   margin-left: 20%;
   margin-top: 15px; }
 
+.why-margin-list-3 {
+  font-size: 18px;
+  margin-left: 20%;
+  margin-top: 15px; }
+
 .content-block-cs {
   width: 1200px;
   height: auto;
@@ -3187,6 +3192,8 @@ a:any-link {
     text-align: center; }
   .margin-left-8sm {
     margin-left: 8%; }
+  .why-margin-list-3 {
+    margin-left: 12%; }
   .border-2-sm {
     border: 2px solid rgba(58, 58, 58, 0.838); }
   .home-item {
@@ -3223,12 +3230,12 @@ a:any-link {
   .margin-left-why-60per {
     margin-left: 60%; }
   .why-margin-list-4 {
-    margin-left: 13%;
+    margin-left: 4%;
     margin-top: 15px; }
   .width-280px {
     width: 90%; }
   .margin-left-140 {
-    margin-left: 40px; }
+    margin-left: 150px; }
   .margin-left-14sm {
     margin-left: 14%; }
   .padding-sm-20-10 {
@@ -3428,7 +3435,7 @@ a:any-link {
   .content-block-75 {
     width: 90%; }
   .content-block-80 {
-    width: 80%; }
+    width: 95%; }
   .content-block-85 {
     width: 90%; }
   .container-photo-callout {
@@ -4158,6 +4165,10 @@ a:any-link {
     margin-left: 50%; }
   .margin-right-25 {
     margin-right: 25%; }
+  .why-margin-list-3 {
+    font-size: 18px;
+    margin-left: 20%;
+    margin-top: 15px; }
   .media-margin {
     margin-left: 8%; }
   .media-left-margin {

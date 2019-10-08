@@ -33,15 +33,15 @@ class ux_design extends Component {
                 </section>
 
                    <section className="grid-callout photo-content-color border-bottom-5"> 
-                <div className="grid-placeself-center content-block-80 margin-top-50sm flex-layout-column">
+                <div className="grid-placeself-center content-block-80  margin-top-50sm flex-layout-column">
                     <div className="subtitle-center content-block-80 text-black"> 
                              Empathetic Design
                         </div>
-                    <div className="callout-text padding-20 text-align-left margin-left-2" >
+                    <div className="callout-text padding-20 margin-top-25 text-align-left margin-left-2" >
                     The most meaningful insights for design strategy are developed with a behavior-based understanding of users. WDS UX strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve. </div>        
                     </div>
                     <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
-                        <img className="container-photo-callout margin-left-15per" src={ux_s1}  alt="Finding Truth" /> 
+                        <img className="container-photo-callout margin-left-15per margin-top-25sm" src={ux_s1}  alt="Finding Truth" /> 
                     </div>
             </section>
                
@@ -155,7 +155,7 @@ class ux_design extends Component {
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
 
                 <section className="flex-layout-section-full flex-layout-center-center"> 
-                        <div className="grid-2col-text-center-50 align-self-center  margin-left-140" >
+                        <div className="grid-2col-text-center-50 align-self-center margin-left-140" >
                             <div className="grid-title content-text-24 margin-bottom-20">
                                 Full List of UX Design Services</div>
                             <div className=" content-text-18">

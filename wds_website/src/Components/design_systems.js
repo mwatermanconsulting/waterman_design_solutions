@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 import design_systems from '../images/backgrounds/bg-design-systems.png';
-import design_systems1 from '../images/photos/photo-design-systems-s1.png';
 import design_systems2 from '../images/photos/photo-design-systems-s2.png';
 import design_systems3 from '../images/photos/photo-design-systems-s3.png';
-import design_systems4 from '../images/photos/photo-design-systems-s4.png';
 import design_systems6 from '../images/photos/photo-design-systems-s6.png';
 import design_systems7 from '../images/photos/photo-design-systems-s7.png';
 import didyouknow from '../images/graphic-didyouknow.svg';
@@ -39,7 +37,7 @@ class style_guide extends Component {
                     A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive, combining components, behaviors, and branding. It must also be flexible and scalable.</div>        
                     </div>
                     <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
-                        <img className="container-photo-callout margin-left-15per" src={design_systems1}  alt="Finding Truth" /> 
+                        <img className="container-photo-callout margin-left-15per" src={design_systems2}  alt="Finding Truth" /> 
                     </div>
             </section>
     
