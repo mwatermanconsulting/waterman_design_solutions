@@ -124,6 +124,33 @@
     @include overlay-color(yellow, $colorone);
   }
 
+  .why-container { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 15px;
+    width: 85%;
+  }
+  
+   .why-item {
+    flex: 0 33%;
+    height: auto; /* (100-32*3)/2 */
+  }
+
+  .why-item {
+    flex: 0 1 25%;
+    height: auto; /* (100-32*3)/2 */
+  }
+
+  .why-margin-list-1 {
+    margin-left: 0%;
+  }
+
+  .why-margin-list-4 {
+   margin-left: 20%;
+   margin-top: 15px;
+  }
+
 
 
 .content-block-cs {

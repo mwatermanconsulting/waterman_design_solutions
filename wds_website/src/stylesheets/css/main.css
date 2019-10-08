@@ -231,6 +231,9 @@ footer {
 .margin-left-8 {
   margin-left: 8%; }
 
+.margin-left-9 {
+  margin-left: 9%; }
+
 .margin-left-8sm {
   margin-left: 0%; }
 
@@ -2532,6 +2535,30 @@ Button:hover {
       background-color: rgba(251, 180, 36, 0);
       cursor: pointer; }
 
+.why-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 15px;
+  width: 85%; }
+
+.why-item {
+  flex: 0 33%;
+  height: auto;
+  /* (100-32*3)/2 */ }
+
+.why-item {
+  flex: 0 1 25%;
+  height: auto;
+  /* (100-32*3)/2 */ }
+
+.why-margin-list-1 {
+  margin-left: 0%; }
+
+.why-margin-list-4 {
+  margin-left: 20%;
+  margin-top: 15px; }
+
 .content-block-cs {
   width: 1200px;
   height: auto;
@@ -3040,6 +3067,9 @@ a.menu {
 .home-margin {
   margin-left: 15%; }
 
+.why-margin-list-1 {
+  margin-left: 18%; }
+
 .home-margin-7 {
   margin-left: 7%; }
 
@@ -3144,6 +3174,13 @@ a:any-link {
     display: inline-block;
     transition-timing-function: ease-out;
     transition: 0.75s; }
+  .why-item {
+    flex: 0 69%;
+    height: auto;
+    margin-bottom: 25px;
+    /* (100-32*3)/2 */ }
+  .why-margin-list-1 {
+    margin-left: 4%; }
   .margin-left-min12per {
     margin-left: 0%; }
   .title-white {
@@ -3181,12 +3218,19 @@ a:any-link {
     margin-left: 0%; }
   .margin-left-6sm {
     margin-left: -6%; }
+  .margin-left-8 {
+    margin-left: 0%; }
   .margin-left-why-60per {
     margin-left: 60%; }
+  .why-margin-list-4 {
+    margin-left: 13%;
+    margin-top: 15px; }
   .width-280px {
     width: 90%; }
   .margin-left-140 {
     margin-left: 40px; }
+  .margin-left-14sm {
+    margin-left: 14%; }
   .padding-sm-20-10 {
     padding: 20px 20px 5px 10px; }
   .padding-top-50 {
@@ -3920,6 +3964,12 @@ a:any-link {
     color: #fff;
     opacity: .8;
     text-align: left; }
+  .why-item {
+    flex: 0 1 21%;
+    height: auto;
+    /* (100-32*3)/2 */ }
+  .margin-left-8 {
+    margin-left: 8%; }
   .border-2-sm {
     border: 0; }
   .padding-sm {
@@ -3999,6 +4049,11 @@ a:any-link {
     padding-top: 6%; }
   .home-item {
     flex: 0 50%;
+    height: auto;
+    margin-bottom: 10%;
+    /* (100-32*3)/2 */ }
+  .why-item {
+    flex: 0 25%;
     height: auto;
     margin-bottom: 10%;
     /* (100-32*3)/2 */ }

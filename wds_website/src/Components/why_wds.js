@@ -70,18 +70,18 @@ class why_wds extends Component {
                 </section>
 
                 <div className="flex-layout-section-full margin-top-50 grey-blue padding-bottom-50 ">
-                <div className="padding  title-center">
-                Your Complete Design Resource
+                <div className="padding title-center">
+                    Your Complete Design Resource
 
                     </div>
-                <section className="flex-layout-row flex-layout-justified-sb width-70 align-self-center ">
-                    <div className="flex-layout-center-center  flex-items-align-top margin-top-25 width-280px">
-                            
-                            <div className="subtitle-center margin-top-10"><img className="padding-20" src={icon_ux}  alt="UX" /> <br></br>
+                <section className="why-container flex-layout-center-center align-self-center">
+                    <div className="why-item">
+                        <div className="subtitle-center">
+                            <img className="margin-bottom-10" src={icon_ux}  alt="UX" /> <br></br>
                                <a href="./ux_design" className="no-decoration">
                                    UX Design</a> 
-                            </div>
-                        <ul className="dashed content-text-18 margin-top-15 ">
+                        </div>
+                        <ul className="dashed margin-left-25 content-text-18 margin-top-15">
                             <li>Interaction Design</li>
                             <li>Visual Design</li>
                             <li>Personas</li>
@@ -93,14 +93,13 @@ class why_wds extends Component {
                         </ul>
                     </div>
     
-                    <div className="flex-layout-center-center  flex-items-align-top margin-top-25 width-280px">
-                            
-                            <div className="subtitle-center margin-top-15">
-                                <img  className="padding-20" src={icon_design_solutions}  alt="Design Solutions" /><br></br>
+                    <div className="why-item">
+                        <div className="subtitle-center">
+                            <img className="margin-bottom-10" src={icon_design_solutions}  alt="Design Solutions" /><br></br>
                                 <a href="./design_solutions" className="no-decoration">
                                     Core Offerings</a>
-                            </div>
-                                <ul className="dashed content-text-18 margin-top-15">
+                        </div>
+                                <ul className="dashed content-text-18 margin-left-18 why-margin-list-1 margin-top-15">
                                     <li>Business Design Strategies</li>
                                     <li>Empathy Workshops</li>
                                     <li>Communication Strategies</li>
@@ -109,16 +108,14 @@ class why_wds extends Component {
                                     <li>Customer Experience Strategies</li>
                                     <li>Telemetry/Analytics Strategies</li>
                                     <li>Accessibility Strategies</li>
-    
                                 </ul>
                         </div>
     
-                        <div className="flex-layout-center-center  flex-items-align-top margin-top-25 width-280px">
-                           
-                            <div className="subtitle-center margin-top-15"> <img  className="padding-20" src={icon_design}  alt="Design" /><br></br>
+                        <div className="flex-layout-center-center why-item  flex-items-align-top">
+                            <div className="subtitle-center "> <img className="margin-bottom-10"  src={icon_design}  alt="Design" /><br></br>
                                     <a href="./design_solutions" className="no-decoration">
                                         Design Solutions</a></div>
-                                <ul className="dashed content-text-18 margin-top-15">
+                                <ul className="dashed content-text-18 why-margin-list-4">
                                     <li>User Interface Design</li>
                                     <li>Visual Design</li>
                                     <li>Design Metrics</li>
@@ -158,7 +155,7 @@ class why_wds extends Component {
                         </div>
                         <div className="content-block-60 content-text-18">
                         <div className="float-right margin margin-top-1">
-                        <img className="photo-container" src={whys3}  alt="Our Core Offerings" /> 
+                        <img className="photo-container margin-top-10sm" src={whys3}  alt="Our Core Offerings" /> 
                     </div>  
                             <p className="content-text-18 margin-top-15"> 
                             Empathetic design is critical to your to your future success. WDS has successfully communicated the value of design to businesses for 25 years. Design strategies and < a href="core_offerings">core offerings</a> increase revenues and customer loyalty. A recent study on the value of design by Mckinsey reported that the companies that value design and focus on their users  have increased their business by 30%. WDS core offerings are services that provide training, strategies and workshops to align the value of design to the core of your business.</p>         
@@ -170,7 +167,7 @@ class why_wds extends Component {
                 <section className="flex-layout-section-full align-items-center">
                     <p className="title"> 
                         Design Services</p>
-                    <p className="subtitle margin-top-25per  width-65sm"> 
+                    <p className="subtitle margin-top-25per width-65sm"> 
                          WDS Most Requested Design Offerings</p>
                 </section>    
 
@@ -217,9 +214,6 @@ class why_wds extends Component {
                         WDS takes care of front-end development, CSS and HTML, working on-site with your team or creating GIT build-packages complete with custom CSS solutions, pattern libraries, style guides, best of practice documentation and design strategies. This ensures and enforces original design and its solutions. They also offer UI design kits complete with custom CSS, images, icons and HTML.
                     </p>    
 
-                
-
-
                     <div className="float-left margin-left-25sm">
                         <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/ui_design'}>
                         Learn More 
@@ -237,13 +231,13 @@ class why_wds extends Component {
                     </div>
                         <p className="subtitle content-block-60 margin-top-10"> 
                         Establishing Consistency Across all Mediums </p>
-                    <div className="content-block-60 content-text-18 margin-top-15">
+                    <div className="content-block-60 content-text-18">
                     <div className="float-right margin-left-3">
 
                         <img className="border-3px photo-container" src={why_enterprise}  alt=" Design" /> 
 
                     </div>  
-                     <p className="content-text-18 margin-top-1per"> 
+                     <p className="content-text-18 margin-top-15"> 
                      A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive while combining components, behaviors, and branding. It also comes with a complete set of design standards, documentation, and strategies. It must also be flexible and scalable.
                     </p>
                     <div className="float-left margin-left-25sm">
@@ -283,7 +277,8 @@ class why_wds extends Component {
                     <div className="subtitle layout-center-justified">
                         We'll Get There Together
                     </div>
-                    <div className="layout-center-justified "><img src={youcandoit} className="float-right width-50 align-self-center margin-bottom-20 photo-container" alt="You can do it"/>
+                    <div className="layout-center-justified ">
+                        <img src={youcandoit} className="float-right margin-top-15sm width-50 align-self-center margin-bottom-20 photo-container" alt="You can do it"/>
                         <p className="content-text-18 content-block-75 margin-top-10">
                             WDS can embed employees within your teams as contractors (on-site or remote). It has flexibility, experience and knowledge to provide successful design solutions and guidance every step of the way. </p> 
                     </div>
@@ -357,11 +352,6 @@ class why_wds extends Component {
                         “Michael was a pleasure to work with his knowledge of UX design, web development and implementation of Omniture Tags across a variety of platforms was highly valuable to the analytics group at Cadient. He worked with me on a full migration of HBX tags into Omniture for a complex web portal for PfizerPro.com. 
 
                         He was also very personable and I enjoyed working with him to meet day to day deliverables."" -John Gautreau </p>
- 
-                        
-                        
-                   
-                   
                 </section> 
                 
                 <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
@@ -403,7 +393,7 @@ class why_wds extends Component {
                 <div className="grid-2col-text-photo align-self-center width-100  margin-top-50 " > 
                     <div className="2col-text grid-placeself-center width-70 margin-left-50 padding-bottom-50">
                         <div className="content-block">
-                            <p className="content-header"> 
+                            <p className="content-header margin-top-25sm"> 
                                 WDS understands the uncertainty and fear involved with contracting design consultants </p>
                             <p className="content-text-18 margin-top-15">  
                             
