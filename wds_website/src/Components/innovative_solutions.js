@@ -52,7 +52,7 @@ class innovative_solutions extends Component {
                     WDS solutions are as unique as the business and users that are provided for. It includes three factors: Understanding, Empathy and Experience. </p>
             </section>
 
-             <div className="thin-hr width-70 align-self-center hrline-spacing width-70"></div>
+             <div className="hr-line width-70"></div>
              
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
@@ -72,7 +72,7 @@ class innovative_solutions extends Component {
                         </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing width-70"></div>
+                <div className="hr-line width-70"></div>
 
                 <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
                     <div className="title content-block-60">
@@ -94,7 +94,7 @@ class innovative_solutions extends Component {
                         </div>   
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing width-70"></div>
+                <div className="hr-line width-70"></div>
                 
                 <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
                     <div className="title content-block-60">
@@ -113,7 +113,7 @@ class innovative_solutions extends Component {
                         </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing width-70"></div>
+                <div className="hr-line width-70"></div>
 
                 <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
                     <div className="title content-block-60">
@@ -132,7 +132,7 @@ class innovative_solutions extends Component {
                      </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing width-70"></div>
+                <div className="hr-line width-70"></div>
 
                 <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
                     <div className="title content-block-60">

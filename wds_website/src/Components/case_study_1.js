@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Helmet from 'react-helmet';
 import motorola_bg from '../images/backgrounds/bg-motorola.png';
-import motorola_logo from '../images/icon-motorola-white.svg'; 
 import motorola_s1 from '../images/photos/photo-motorola-s1.png';
 import motorola_s4 from '../images/photos/photo-motorola-s4.png';
 import motorola_s6 from '../images/photos/photo-motorola-s6.png';
@@ -13,7 +12,6 @@ import motorola_google from '../images/photos/photo-motorola-google.png';
 import mary from '../images/photos/photo_mary.jpg';
 import motorola_beforeafter from '../images/photos/photo-motorola-before-after.png';
 import motorola_before_basic from '../images/photos//photo-motorola-before-basic.png';
-import motorola_start from '../images/photos/photo-jump-surfboard.png';
 import callcenter from '../images/photos/photo-motorola-s2.png';
 
 
@@ -61,7 +59,7 @@ class case_study_1 extends Component {
                     </div>
                 </section>
 
-                <div className="thin-hr content-block-65 align-self-center hrline-spacing display-none"></div>
+                <div className="hr-line-cs"></div>
                 
                 <section className="flex-layout-section-full align-items-center margin-top-50sm">
                     <div className="content-block-65"> 
@@ -86,7 +84,7 @@ class case_study_1 extends Component {
                             </div>
                     </section>
 
-                    <div className="thin-hr content-block-65 align-self-center hrline-spacing display-none"></div>
+                    <div className="hr-line-cs display-none"></div>
 
                     <section className="flex-layout-column align-items-center margin-bottom-75 margin-top-50sm">
                         <div className="title content-block-65">
@@ -107,7 +105,7 @@ class case_study_1 extends Component {
                         </div>
                         
                         <div >
-                              <img className=" width-100" src={callcenter} alt="Case Study Image 2"/> 
+                              <img className=" width-100" src={callcenter} alt="Case Study 2"/> 
                         </div>
                     </section>
                     <section className="flex-layout-section-full align-items-center flex-layout-column margin-top-75">
@@ -127,7 +125,7 @@ class case_study_1 extends Component {
                             </div>
                         </section>
 
-                        <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
+                        <div className="hr-line-cs"></div>
                         
                         <section className="content-header align-items-center flex-layout-column margin-bottom-25sm margin-top-15sm">
                             <div className="title content-block-65">
@@ -175,10 +173,10 @@ class case_study_1 extends Component {
                     </div>
                 </section>
 
-                        <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
+                        <div className="hr-line-cs"></div>
 
                         <section className="content-header align-items-center flex-layout-column">
-                            <div className="title content-block-65">
+                            <div className="header-title-sm content-block-65">
                                 Design Solutions
                             </div>
                             <div className="title content-block-65 margin-top-50 margin-top-50sm">
@@ -207,7 +205,7 @@ class case_study_1 extends Component {
                         </div>
                     </section>
 
-                    <div className="thin-hr content-block-65 align-self-center hrline-spacing display-none"></div>
+                    <div className="hr-line-cs display-none"></div>
 
                     <section className="flex-layout-section-full align-items-center margin-top-50sm"> 
                             <div className="title content-block-65">
@@ -236,7 +234,7 @@ class case_study_1 extends Component {
                         </div>
                         </section>
 
-                    <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
+                    <div className="hr-line-cs"></div>
 
                     <section className="content-header flex-layout-column align-items-center margin-top-15sm">
                         <div className="title content-block-65">
@@ -260,7 +258,7 @@ class case_study_1 extends Component {
                             </div>
                     </section>
 
-                    <div className="thin-hr content-block-65 align-self-center hrline-spacing display-none"></div>
+                    <div className="hr-line-cs display-none"></div>
 
                     <section className="content-header align-items-center flex-layout-column margin-top-50sm ">
                         <div className="title content-block-65">
@@ -289,7 +287,7 @@ class case_study_1 extends Component {
                             </div>
                     </section>
 
-                    <div className="thin-hr content-block-65 align-self-center hrline-spacing display-none"></div>
+                    <div className="hr-line-cs display-none"></div>
 
                     <section className="content-header flex-layout-column align-items-center margin-top-50sm">
                         <div className="title content-block-65">
@@ -313,7 +311,7 @@ class case_study_1 extends Component {
                             </div>
                     </section>
 
-                    <div className="thin-hr content-block-65 align-self-center hrline-spacing display-none"></div>
+                    <div className="hr-line-cs display-none"></div>
 
                     <section className="content-header flex-layout-column align-items-center margin-top-50sm">
                         <div className="title content-block-65">
@@ -340,7 +338,7 @@ class case_study_1 extends Component {
                         </div>
                     </section>
 
-                    <div className="thin-hr content-block-65 align-self-center hrline-spacing display-none"></div>
+                    <div className="hr-line-cs display-none"></div>
 
                     <section className="content-header flex-layout-column align-items-center margin-top-50sm">
                         <div className="title content-block-65">
@@ -366,25 +364,30 @@ class case_study_1 extends Component {
                         </div>
                     </section>
 
-                    <div className="thin-hr content-block-65 align-self-center hrline-spacing display-none"></div>
+                    <div className="hr-line-cs display-none"></div>
 
                     <section className="content-header flex-layout-column align-items-center margin-top-50sm">
-                            <div className="title content-block-65">
+                            <div className="header-title-sm content-block-65">
                                 Business Design Solutions
                             </div>
                         <div className="content-header flex-layout-column align-items-center">
+                        <div className="title margin-top-50 content-block-65">
+                            <a id="solution3" className="subtitle no-decoration margin-top-75 content-block-65">
+                                Communication Issues </a>
                             <div className="subtitle margin-top-50 content-block-65">
-                            <a id="solution3"> </a>
-                                Communication Issues
+                            <a id="solution3" className="subtitle margin-top-75 content-block-65">
+                                Establishing Transparency </a>
+                                
                             </div>
                             <div className="content-block-65">
                                 <p className="content-text-18 margin-top-15">
-                                WDS was confused by how a brand name like Motorola would allow such a poorly designed, non-branded user interface on a consumer product go to market. It was mind boggling. That was their first question to the stakeholders, "how did this product UI fall through the cracks?" This issue exposed a large communication issue between the product, marketing and home division teams. WDS solution to this problem was to have meetings every three weeks. The meetings ran the course of the project and established a strong relationship between the teams that was previously non-existent. These meetings helped establish  transparency, allowing the product and marketing teams to understand the business case for the product redesign. </p> 
+                                WDS was confused by how a brand name like Motorola would allow such a poorly designed, non-branded user interface on a consumer product go to market. It was mind boggling. That was their first question to the stakeholders, "how did this product UI fall through the cracks?" This issue exposed a large communication issue between the product, marketing and home division teams. WDS solution to this problem was to hold meetings at the end of each sprint. The meetings ran the course of the project and established a strong relationship between the teams that was previously non-existent. These meetings helped establish  transparency, allowing the product and marketing teams to understand the business case for the product redesign. </p> 
                             </div>
+                        </div>
                         </div>
                         </section>
 
-                        <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
+                        <div className="hr-line-cs"></div>
                        
                         <section className="content-header flex-layout-column align-items-center margin-top-15sm">
                         <div className="title content-block-65">
@@ -407,7 +410,7 @@ class case_study_1 extends Component {
                         </div>
                     </section>
 
-                    <div className="thin-hr content-block-65 align-self-center hrline-spacing display-none"></div>
+                    <div className="hr-line-cs display-none"></div>
 
                       <section className="content-header flex-layout-column align-items-center margin-top-50sm">
                          <div className="title content-block-65">
@@ -427,7 +430,7 @@ class case_study_1 extends Component {
                         </div>
                     </section>
 
-                    <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
+                    <div className="hr-line-cs"></div>
 
                     <section className="content-header flex-layout-column align-items-center margin-top-15sm"> 
                         <div className="title content-block-65">

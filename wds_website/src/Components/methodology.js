@@ -17,7 +17,6 @@ import methodology12 from '../images/photos/photo-methodology-s12.png';
 import methodology13 from '../images/photos/photo-methodology-s13.png';
 import method1 from '../images/photos/photo-methodology-s1.png';
 import featured from '../images/photos/photo-methodology-featured-motorola.png';
-import uxdiagram from '../images/photos/photo-methodology-ux-diagram.png';
 
 
 class methodology extends Component {
@@ -67,7 +66,7 @@ class methodology extends Component {
                     </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="flex-layout-full align-items-center flex-layout-column">
                         <div className="title text-black flex-layout-center margin-top-25sm"> 
@@ -104,7 +103,7 @@ class methodology extends Component {
                         </div>
                     </section> 
 
-                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                    <div className="hr-line"></div>
 
                     <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
                     <div className="float-left flex-layout-center-center content-block-60">
@@ -134,7 +133,7 @@ class methodology extends Component {
                     </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
                     <div className="float-left flex-layout-center-center content-block-60">
@@ -168,7 +167,7 @@ class methodology extends Component {
                        
                 </section>
                 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
                     <div className="float-left flex-layout-center-center content-block-60">
@@ -192,7 +191,7 @@ class methodology extends Component {
                         
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
                     <div className="float-left flex-layout-center-center content-block-60">
@@ -211,7 +210,7 @@ class methodology extends Component {
                     </div>   
                 </section>
                 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
                     <div className="float-left flex-layout-center-center content-block-60">
@@ -241,7 +240,7 @@ class methodology extends Component {
                          
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
                     <div className="float-left flex-layout-center-center content-block-60">
@@ -273,7 +272,7 @@ class methodology extends Component {
                         
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
                     <div className="float-left flex-layout-center-center content-block-60">
@@ -303,7 +302,7 @@ class methodology extends Component {
                          
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
                     <div className="float-left flex-layout-center-center content-block-60">
@@ -338,7 +337,7 @@ class methodology extends Component {
                         
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
                     <div className="float-left flex-layout-center-center content-block-65">
@@ -370,7 +369,7 @@ class methodology extends Component {
                        
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
                     <div className="float-left flex-layout-center-center content-block-60">
@@ -401,7 +400,7 @@ class methodology extends Component {
                     </div>     
                 </section>
                 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50">
                     <div className="float-left flex-layout-center-center content-block-60">
@@ -440,7 +439,7 @@ class methodology extends Component {
                 <section className="flex-layout-section-full align-items-center margin-tb-100">
                     <div className="grid-2col-photo-text align-self-center width-100 margin-left-15per">
                     <div className="col2-photo width-70 grid-placeself-center margin-top-50sm">
-                       <a href= "./case_study_1"><img src={featured} className="border-3px width-100" alt="Case Study Image 2"/></a> 
+                       <a href= "./case_study_1"><img src={featured} className="border-3px width-100" alt="Case Study 2"/></a> 
                     </div>
                     <div className="2col-text grid-placeself-center width-100">
                     <div className="title margin-top-25sm">

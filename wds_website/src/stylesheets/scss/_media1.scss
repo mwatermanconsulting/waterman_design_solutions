@@ -3,13 +3,29 @@
 
 
   .display-none {
-    display: none;
+    visibility: hidden;
   }
   .material-icons {
     opacity: 0.9;
     display: inline-block;
     transition-timing-function: ease-out;
     transition: 0.75s;
+  }
+
+  .hr-line {
+    display: block;
+    height: 1px;
+    border-top: 1px solid rgba(106, 106, 106, 0.25);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 90%;
+    align-self: center; 
+  }
+
+  .flex-image-container {
+    display: flex;
+    flex-direction: flex-start;
+    flex: 1 0 auto;
   }
 
   .why-item {
@@ -52,6 +68,16 @@
     width: 85%;
     max-width: 500px;
     height: auto;
+  }
+
+  .home-container { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-top: 15px;
+    width: 85%;
+    margin-left: 13%;
   }
 
   .flex-layout-justified-sa {
@@ -106,8 +132,12 @@
 
   }
 
+  .margin-top-1 {
+    margin-top: 0;
+  }
+
   .margin-left-140{
-    margin-left: 150px;
+    margin-left: 75px;
   }
 
   .margin-left-14sm {
@@ -212,7 +242,7 @@
   }
 
   .margin-left-25sm {
-    margin-left: 25%;
+    margin-left: 23%;
   }
 
   .margin-left-min25sm {
@@ -472,7 +502,7 @@
   }
 
   .content-block-60 {
-    width: 80%;
+    width: 90%;
   }
 
   .content-block-65 {
@@ -489,6 +519,10 @@
 
   .content-block-80 {
     width: 95%;
+  }
+
+  .home-content-block-lg {
+    width: 85%;
   }
 
   .content-block-85 {
@@ -1457,10 +1491,24 @@
     margin-bottom: 10%; /* (100-32*3)/2 */
   }
 
+  .home-container { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-top: 15px;
+    width: 85%;
+    margin-left: 15%;
+  }
+
   .why-item {
     flex: 0 25%;
     height: auto;
     margin-bottom: 10%; /* (100-32*3)/2 */
+  }
+
+  .display-none {
+    visibility: visible;
   }
 
   
@@ -1585,6 +1633,10 @@
     margin-top: -1%;
   }
 
+  .home-content-block-lg {
+    width: 80%;
+  }
+
   .photo-container {
     width: 100%;
     height: auto;
@@ -1683,6 +1735,16 @@
     width: 43%;
   }
 
+    .hr-line {
+      display: block;
+      height: 1px;
+      border-top: 1px solid rgba(106, 106, 106, 0.25);
+      margin-top: 75px;
+      margin-bottom: 75px;
+      width: 60%;
+      align-self: center;
+    }
+
 
   .content-block-50 {
     width: 50%;
@@ -1698,6 +1760,10 @@
 
   .margin-left-4per {
     margin-left: 4%;
+  }
+
+  .margin-top-1{
+    margin-top: 1%;
   }
 
 

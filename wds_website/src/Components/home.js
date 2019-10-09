@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom';
 import Helmet from 'react-helmet';
 import wdslogofull from '../images/wds-logo-full.svg';
 import binoculars from '../images/graphic-methodology-binoculars.svg';
-import why from '../images/graphic-why.svg' ;
 import why2 from '../images/graphic-why-wds.svg' ;
 import igotyou from '../images/graphic-igotyou.svg';
 import empathy from '../images/photos/photo-home-empathy.png';
@@ -63,7 +62,7 @@ class landingPage extends Component {
                     <div className="flex-layout-section-full align-self-center flex-layout-center-center ">
                         <img className="content-block-auto margin-left-18per" src={why2}  alt="Why WDS" /> 
                             <div className="">
-                                <div className="header-title-sm content-block-80">
+                                <div className="header-title-sm home-content-block-lg">
                                     Why WDS
                                 </div>
                                 <p className="content-text-18 content-block-75 margin-top-10 text-align-center">
@@ -83,7 +82,7 @@ class landingPage extends Component {
                     <div className="flex-layout-section-full align-self-center flex-layout-center-center ">
                         <img className="content-block-auto margin-left-18per" src={binoculars}  alt="Why WDS" /> 
                             <div className="">
-                                <div className="header-title-sm content-block-80">
+                                <div className="header-title-sm home-content-block-lg">
                                     Methodology
                                 </div>
                                 <p className="content-text-18 content-block-75 margin-top-10 text-align-center">
@@ -102,7 +101,7 @@ class landingPage extends Component {
                     <div className="flex-layout-section-full align-self-center flex-layout-center-center ">
                         <img className="content-block-auto margin-left-18per" src={design}  alt="WDS Design Solutions" /> 
                             <div className="">
-                                <div className="header-title-sm content-block-80">
+                                <div className="header-title-sm home-content-block-lg">
                                     Design Solutions
                                 </div>
                                 <p className="content-text-18 margin-top-10 content-block-75 text-align-center">
@@ -118,11 +117,11 @@ class landingPage extends Component {
                     </div>
                 </div>
                 
-                <div className="home-item width-50 margin-top-50sm margin-bottom-25sm">
+                <div className="home-item width-50 margin-top-50sm">
                     <div className="flex-layout-section-full align-self-center flex-layout-center-center ">
                         <img className="content-block-auto margin-left-18per" src={igotyou}  alt="Why WDS" /> 
                             <div className="">
-                                <div className="header-title-sm content-block-80">
+                                <div className="header-title-sm home-content-block-lg">
                                    Services
                                 </div>
                                 <p className="content-text-18 margin-top-10 content-block-75 text-align-center">
@@ -139,7 +138,7 @@ class landingPage extends Component {
                 </div>
             </div>
 
-            <div className="thin-hr width-70 align-self-center hrline-spacing "></div>
+            <div className="hr-line "></div>
 
                 <section className="flex-layout-section-full flex-layout-column align-items-center">
                     
@@ -188,7 +187,7 @@ class landingPage extends Component {
                         </NavLink>
                 </div>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="float-left flex-layout-section-full flex-layout-column align-items-center">
                 <div className="header-title content-block-60">
@@ -222,7 +221,7 @@ class landingPage extends Component {
                 </div>   
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 
 
@@ -292,7 +291,7 @@ class landingPage extends Component {
                 </div>
             </section>
 
-            <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+            <div className="hr-line"></div>
 
             <p className="title-center  margin-top-25">
                          UX Case Studies</p>

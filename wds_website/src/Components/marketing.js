@@ -56,7 +56,7 @@ class marketing extends Component {
                 </div>
             </section>
 
-            <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+            <div className="hr-line"></div>
 
             <section className="float-left align-items-center flex-layout-column">
                 <div className="title content-block-60">

@@ -71,7 +71,7 @@ class about extends Component {
                         <img className="width-60" src={time} alt="Time Line"/>
                     </image>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="flex-layout-section-full align-items-center">
                 <div className="title content-block-65">
@@ -87,7 +87,7 @@ class about extends Component {
 
                 
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                     <section className="flex-layout-section-full align-items-center">
                         <div className="title content-block-65">
@@ -274,7 +274,7 @@ class about extends Component {
                  </section>       
                     
                 <div className="margin-top-50 ">
-                    <img className="width-100 margin-top-25sm" src={history_3} ></img>
+                    <img className="width-100 margin-top-25sm" src={history_3} alt="The companies history" ></img>
                 </div>
                 <section className="float-left align-items-center margin-top-50 flex-layout-column">
                 <div className="title margin-bottom-50 ">

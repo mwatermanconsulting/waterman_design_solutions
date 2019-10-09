@@ -1,6 +1,5 @@
 import React, { Component } from 'react' ;
 import bg_video from '../images/backgrounds/bg-video.png';
-import services from '../images/graphic-services.svg';
 import video_s1 from '../images/photos/photo-video-s1.png';
 import video_s2 from '../images/photos/photo-video-s2.png';
 import video_s3 from '../images/photos/photo-video-s3.png';
@@ -123,20 +122,20 @@ Effective marketing videos have a conversational tone. It creates an individual 
                 <div className="align-center align-items-center margin-top-25">
                     <ul className="grid-clients-wrapper align-items-center  width-70">
                     <li  className="grid-clients-box "  data-content="ACD">
-                    <iframe className="width-100 height-100" src="https://www.youtube.com/embed/Us_1q7_nbLo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe title="Surreal Video" className="width-100 height-100" src="https://www.youtube.com/embed/Us_1q7_nbLo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </li>
                     <li  className="grid-clients-box "  data-content="White Wolf Consulting"> 
-                    <iframe className="width-100 height-100" src="https://www.youtube.com/embed/2PjgxbyNKdI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe title="White Wolf Consulting" className="width-100 height-100" src="https://www.youtube.com/embed/2PjgxbyNKdI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                        </li>
                     <li  className="grid-clients-box "  data-content="Kinetix">
-                    <iframe className="width-100 height-100" src="https://www.youtube.com/embed/Us_1q7_nbLo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe title="Kinetix" className="width-100 height-100" src="https://www.youtube.com/embed/Us_1q7_nbLo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </li>
                     
                     <li  className="grid-clients-box "  data-content="Norwood Company">
-                    <iframe  className="width-100 height-100" src="https://www.youtube.com/embed/Pr6iJJCwswM" frameborder="0" allow="accelerometer; autoplay;  picture-in-picture" allowfullscreen></iframe>
+                    <iframe title="Norwood"  className="width-100 height-100" src="https://www.youtube.com/embed/Pr6iJJCwswM" frameborder="0" allow="accelerometer; autoplay;  picture-in-picture" allowfullscreen></iframe>
                         </li>
                     <li  className="grid-clients-box "  data-content="Pierre and Carlo">
-                    <iframe className="width-100 height-100" src="https://www.youtube.com/embed/_y_Ut3PQ4_M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe title="Pierre and Carlo" className="width-100 height-100" src="https://www.youtube.com/embed/_y_Ut3PQ4_M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                        </li>
                     
                 </ul>

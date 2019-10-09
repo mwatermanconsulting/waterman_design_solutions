@@ -23,7 +23,7 @@ class case_study_3 extends Component {
                 <div className="header-text-left header-title-cs align-self-center text-white">
                     Case Study - Pfizer
                     </div>
-                        <img className="header-text-right logo-cs-mobile align-self-center width-10" src={pfizer_logo}  alt="Stubhub Case Study Logo Image" /> 
+                        <img className="header-text-right logo-cs-mobile align-self-center width-10" src={pfizer_logo}  alt="Stubhub Case Study Logo" /> 
                         <img className="flex-image-container" src={pfizer_bg}  alt="Stubhub Case Study " />  
                         
                 </section>

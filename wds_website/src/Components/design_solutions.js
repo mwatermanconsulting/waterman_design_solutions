@@ -54,7 +54,7 @@ class design_solutions extends Component {
                </div> 
             </div> 
            
-            <div className="thin-hr width-70 align-self-center hrline-spacing width-70"></div>
+            <div className="hr-line"></div>
 
             <section className="float-left align-items-center flex-layout-column">
                 <div className="subtitle content-block-60">
@@ -77,7 +77,7 @@ class design_solutions extends Component {
                   </div>
             </section>
 
-            <div className="thin-hr width-70 align-self-center hrline-spacing width-70"></div>
+            <div className="hr-line"></div>
 
             <section className="float-left align-items-center flex-layout-column">
                 <div className="subtitle content-block-60">
@@ -97,7 +97,7 @@ class design_solutions extends Component {
             </div>
             </section> 
 
-            <div className="thin-hr width-70 align-self-center hrline-spacing width-70"></div>
+            <div className="hr-line"></div>
 
             <section className="float-left align-items-center flex-layout-column">
                 <div className="subtitle content-block-60">
