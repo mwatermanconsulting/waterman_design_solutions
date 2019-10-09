@@ -1,6 +1,5 @@
 import React, { Component } from 'react' ;
 import Helmet from 'react-helmet';
-import { Layout, Textfield, Header, Navigation, Drawer, Content } from 'react-mdl';
 import contactus from '../images/backgrounds/bg-contact.svg';
 
 class contact extends Component {

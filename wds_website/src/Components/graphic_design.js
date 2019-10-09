@@ -88,7 +88,7 @@ class graphic_design extends Component {
                 </div>
             </section>
 
-            <div className="thin-hr width-70 align-self-center hrline-spacing width-70"></div>
+            <div className="hr-line width-70"></div>
 
             <section className="flex-layout-section-full align-self-center margin-bottom-25sm">
                     <div className="grid-2col-text-center margin-left-15">

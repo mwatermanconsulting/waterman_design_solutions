@@ -65,7 +65,7 @@ class digital_design extends Component {
                 </div>
             </section>
             
-            <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+            <div className="hr-line"></div>
 
             <section className="flex-layout-section-full flex-layout-center-center">
                 <div className="subtitle">
@@ -94,7 +94,7 @@ class digital_design extends Component {
                 </div>
             </section>
 
-            <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+            <div className="hr-line"></div>
 
             <section className=" align-self-center">
                 <div className="grid-2col-text-center align-self-center width-100" >

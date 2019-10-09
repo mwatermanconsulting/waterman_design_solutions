@@ -320,12 +320,24 @@ p {
   text-align: left;
 }
 
-.thin-hr {
+.hr-line {
   display: block;
   height: 1px;
-  border: 0;
   border-top: 1px solid rgba(106, 106, 106, 0.25);
-  padding: 0px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  width: 60%;
+  align-self: center;
+}
+
+.hr-line-cs {
+  display: block;
+  height: 1px;
+  border-top: 1px solid rgba(106, 106, 106, 0.25);
+  margin-top: 75px;
+  margin-bottom: 75px;
+  width: 65%;
+  align-self: center;
 }
 
 .container-card-content {
@@ -470,6 +482,10 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #45a049;
+}
+
+.display-none {
+  visibility: visible;
 }
 
 .material-icons {

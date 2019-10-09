@@ -99,7 +99,7 @@ class why_wds extends Component {
                                 <a href="./design_solutions" className="no-decoration">
                                     Core Offerings</a>
                         </div>
-                                <ul className="dashed why-margin-list-4 content-text-18">
+                                <ul className="dashed content-text-18 margin-left-18 why-margin-list-1 margin-top-15">
                                     <li>Business Design Strategies</li>
                                     <li>Empathy Workshops</li>
                                     <li>Communication Strategies</li>
@@ -115,7 +115,7 @@ class why_wds extends Component {
                             <div className="subtitle-center "> <img className="margin-bottom-10"  src={icon_design}  alt="Design" /><br></br>
                                     <a href="./design_solutions" className="no-decoration">
                                         Design Solutions</a></div>
-                                <ul className="dashed content-text-18 why-margin-list-3">
+                                <ul className="dashed content-text-18 why-margin-list-4">
                                     <li>User Interface Design</li>
                                     <li>Visual Design</li>
                                     <li>Design Metrics</li>

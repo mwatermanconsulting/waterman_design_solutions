@@ -61,7 +61,7 @@ class strategy_insight extends Component {
             <div className="flex-layout-section-full flex-layout-center-center flex-layout-column">
                 
                 
-            <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+            <div className="hr-line"></div>
             </div>
 
                 <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
@@ -79,7 +79,7 @@ class strategy_insight extends Component {
                     </div>          
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
                
                 <section className="float-left flex-layout-section-full align-items-center flex-layout-column margin-top-15sm">
                     <div className="title content-block-60">
@@ -96,7 +96,7 @@ class strategy_insight extends Component {
                     </div>
                 </section>
                         
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="float-left flex-layout-section-full align-items-center flex-layout-column margin-top-15sm">
                     <div className="title content-block-60">
@@ -118,7 +118,7 @@ class strategy_insight extends Component {
                         </div>                   
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                    <div className="hr-line"></div>
                     
 
                     <section className="grid-callout-2col content-header align-self-center justify-items-center width-70">
@@ -147,7 +147,7 @@ class strategy_insight extends Component {
                     </div>
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                    <div className="hr-line"></div>
 
 
                     <section className="float-left flex-layout-section-full align-items-center flex-layout-column margin-top-15sm">
@@ -177,7 +177,7 @@ class strategy_insight extends Component {
                         </div>
                     </section>
                 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="float-left flex-layout-section-full align-items-center flex-layout-column margin-top-15sm">
                         <div className="title content-block-60">
@@ -196,7 +196,7 @@ class strategy_insight extends Component {
                         </div>
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                    <div className="hr-line"></div>
 
                     <section className="float-left flex-layout-section-full align-items-center flex-layout-column margin-top-15sm">
                         <div className="title content-block-60">
@@ -214,7 +214,7 @@ class strategy_insight extends Component {
                         </div>
                     </section>
                       
-                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                    <div className="hr-line"></div>
 
                     <section className="float-left flex-layout-section-full align-items-center flex-layout-column margin-top-15sm">
                         <div className="title content-block-60">
@@ -234,7 +234,7 @@ class strategy_insight extends Component {
                          </div>
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                    <div className="hr-line"></div>
 
                     <section className="float-left flex-layout-section-full align-items-center flex-layout-column margin-top-15sm">
                         <div className="title content-block-60">

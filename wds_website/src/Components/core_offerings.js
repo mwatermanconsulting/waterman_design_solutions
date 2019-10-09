@@ -64,7 +64,7 @@ class core_offerings extends Component {
                     </div>
             </section>
 
-            <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+            <div className="hr-line"></div>
 
             <section className="flex-layout-section-full align-items-center flex-layout-column">
                 <div className="subtitle content-block-60">
@@ -84,7 +84,7 @@ class core_offerings extends Component {
                 </ul>
             </section>
 
-            <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+            <div className="hr-line"></div>
 
             <section className="float-left align-items-center flex-layout-section-full">
                 <div className="title content-block-60">
@@ -163,7 +163,7 @@ class core_offerings extends Component {
                     </ul></div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="float-left align-items-center flex-layout-column">
                 <div className="title content-block-60">
@@ -196,7 +196,7 @@ class core_offerings extends Component {
                     </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="float-left align-items-center flex-layout-column">
                 <div className="title content-block-60">
@@ -224,7 +224,7 @@ class core_offerings extends Component {
                 </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
@@ -255,7 +255,7 @@ class core_offerings extends Component {
                     </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
@@ -288,7 +288,7 @@ class core_offerings extends Component {
                     </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
@@ -310,7 +310,7 @@ class core_offerings extends Component {
                     </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './stylesheets/css/main.css';
-import { Layout, Button, Header, Navigation, Drawer, Content, Icon } from 'react-mdl';
+import { Layout, Header, Navigation, Drawer, Content, } from 'react-mdl';
 import Main from './Components/main';
 import logo from './images/WDS-logo-banner.svg'
 import facebook from './images/icon-logo-fb.svg'

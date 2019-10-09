@@ -60,7 +60,7 @@ class services extends Component {
                 </p>
             </section>
 
-            <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+            <div className="hr-line"></div>
 
             <section className="flex-layout-section-full flex-layout-column align-items-center flex-layout-center-center">
                     <div className="float-left flex-layout-center-center flex-layout-column align-items-center">
@@ -86,7 +86,7 @@ class services extends Component {
                     </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
                     <div className="float-left flex-layout-center-center content-block-60">
@@ -112,7 +112,7 @@ class services extends Component {
                         </div>
                     </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="float-left flex-layout-section-full flex-layout-column flex-layout-center-center">
                     <div className=" title content-block-60">
@@ -135,7 +135,7 @@ class services extends Component {
                         </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="float-left flex-layout-column flex-layout-section-full  flex-layout-center-center">
                     <div className="title content-block-60">
@@ -160,7 +160,7 @@ class services extends Component {
                 </section>
 
                
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="float-left flex-layout-column flex-layout-section-full  flex-layout-center-center">
                     <div className="title content-block-60">

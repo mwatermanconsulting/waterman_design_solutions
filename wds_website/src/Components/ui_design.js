@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
-import { NavLink } from 'react-router-dom';
 import bg_ui from '../images/backgrounds/bg-ui.png';
 import motorola from '../images/photos/photo-motorola-beforeafter.png';
 import motorola_logo from '../images/motorola_logo.svg'
@@ -87,7 +86,7 @@ class ui_design extends Component {
                         </div>
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                    <div className="hr-line"></div>
 
                     <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
                     <div className="float-left flex-layout-center-center content-block-60">
@@ -144,7 +143,7 @@ class ui_design extends Component {
                         </div>
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                    <div className="hr-line"></div>
 
                     <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
                     <div className="float-left flex-layout-center-center content-block-60">
@@ -172,7 +171,7 @@ class ui_design extends Component {
                         </div>
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                    <div className="hr-line"></div>
 
                     <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
                     <div className="float-left flex-layout-center-center content-block-60">
@@ -194,7 +193,7 @@ class ui_design extends Component {
                         </div>
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                    <div className="hr-line"></div>
 
                     <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
                     <div className="float-left flex-layout-center-center content-block-60">
@@ -218,7 +217,7 @@ class ui_design extends Component {
                         </div>
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                    <div className="hr-line"></div>
 
                     <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
 
@@ -245,7 +244,7 @@ class ui_design extends Component {
                         </div>
                     </section>
                 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-25sm ">
                      <div className="title-center content-block-60">

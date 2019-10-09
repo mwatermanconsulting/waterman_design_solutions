@@ -63,7 +63,7 @@ class css_solutions extends Component {
                     </NavLink>
             </section>
 
-        <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+        <div className="hr-line"></div>
 
 
     <div className="flex-layout-section-full flex-layout-column align-self-center"> 
@@ -87,7 +87,7 @@ class css_solutions extends Component {
             </div>
         </section>
             
-        <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+        <div className="hr-line"></div>
 
         <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
             <div className="float-left flex-layout-center-center content-block-60">
@@ -109,7 +109,7 @@ class css_solutions extends Component {
            
         </section>
 
-        <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+        <div className="hr-line"></div>
 
         <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
             <div className="float-left flex-layout-center-center content-block-60">
@@ -130,7 +130,7 @@ class css_solutions extends Component {
             </div>
         </section>
 
-        <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+        <div className="hr-line"></div>
 
         <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
             <div className="float-left flex-layout-center-center content-block-60">
@@ -153,7 +153,7 @@ class css_solutions extends Component {
         </section> 
 
 
-        <div className="thin-hr width-70 align-self-center hrline-spacing"></div> 
+        <div className="hr-line"></div> 
 
         <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
             <div className="float-left flex-layout-center-center content-block-60">

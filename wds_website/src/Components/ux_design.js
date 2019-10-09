@@ -69,7 +69,7 @@ class ux_design extends Component {
                             </div>
                     </section> 
                     
-                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                    <div className="hr-line"></div>
 
                     <section className="float-left align-items-center flex-layout-column">
                         <div className="title content-block-60 ">
@@ -92,7 +92,7 @@ class ux_design extends Component {
                         </div>
                     </section>
 
-                    <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                    <div className="hr-line"></div>
 
                     <section className="float-left align-items-center flex-layout-column">
                         <div className="title content-block-60">
@@ -116,7 +116,7 @@ class ux_design extends Component {
                     </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
  
                 <section className="float-left align-items-center flex-layout-column">
                         <div className="title-center content-block-60">
@@ -135,7 +135,7 @@ class ux_design extends Component {
 
                 <section className="content-header flex-layout-center-center flex-layout-column">
                 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
                     <div className="flex-layout-center-center subtitle content-block-60">
                         The most effective way to communicate their design solutions and UX methodology is through a story.
                     </div>
@@ -152,7 +152,7 @@ class ux_design extends Component {
                 </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="flex-layout-section-full flex-layout-center-center"> 
                         <div className="grid-2col-text-center-50 align-self-center margin-left-140" >
