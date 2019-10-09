@@ -23,7 +23,7 @@ class case_study_3 extends Component {
                 <div className="header-text-left header-title-cs align-self-center text-white">
                     Case Study - Pfizer
                     </div>
-                        <img className="header-text-right logo-cs-mobile align-self-center width-10" src={pfizer_logo}  alt="Stubhub Case Study Logo" /> 
+                        
                         <img className="flex-image-container" src={pfizer_bg}  alt="Stubhub Case Study " />  
                         
                 </section>
@@ -36,7 +36,7 @@ class case_study_3 extends Component {
                     </div>
                     <div className="content-block-65 margin-top-15">
                         <p className="content-text-18">
-                        WDS was contracted for UX consulting and development work for the largest healthcare portal named Pfizer for Professionals, or PFP. At launch the site consisted of 1,400 pages. The website needed to be organized and simplified for the doctors. The contract lasted for almost 40 months.</p> 
+                        WDS was contracted for UX consulting and development work for the largest healthcare portal named Pfizer for Professionals, or PFP. At launch the site consisted of 1400 pages. The website needed to be organized and simplified for the doctors. The contract lasted for almost 40 months.</p> 
                     </div>
                 </section>
 
@@ -56,7 +56,7 @@ class case_study_3 extends Component {
                     </div>
                     <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-50">
                     <img className="width-50 margin-top-50" src={cms} alt="Finding the Truth - Business Perspective"/>
-                    <div className="margin-top-15 caption width-70"><i> Custom CMS system issues costing developers time and Pfizer money</i></div>
+                    <div className="margin-top-15 caption width-70"><i> Custom CMS system issues, costing developers time and Pfizer money</i></div>
                 </div>   
                 </section>
             
@@ -72,7 +72,7 @@ class case_study_3 extends Component {
                     </div>
                 </div>
                     <p className="content-block-65 content-text-18 margin-top-15 ">
-                        WDS started to understand scale of the problem and began documenting the issues, including lost man hours  and overtime costs associated with the developers waiting on the CMS system. They researched the documentation, contracts and emails and uncovered breaches in the contract caused by missing and broken features promised in the contract. Pfizer was unaware of the issues and WDS wanted to make a strong case against this CMS system.
+                        WDS started to understand scale of the problem with the current CMS system and began documenting issues, including lost man hours and overtime costs associated with the developers waiting on the CMS system. They researched the documentation, contracts and emails and uncovered breaches in the contract caused by missing and broken features promised in the contract. Pfizer was unaware of the issues and WDS wanted to make a strong case against this CMS system.
                         </p>
                     <img className="margin-top-50 width-50" src={documentum} alt="Finding the Truth - Business Perspective"/>
                 </section>
@@ -103,11 +103,11 @@ class case_study_3 extends Component {
                     </div>
                     <div className="content-block-65 margin-top-15">
                         <p className="content-text-18">
-                        After presenting the CMS issues, Pfizer requested that WDS find some CMS alternatives. Two weeks later  three alternatives were presented with the pros and cons of each. Pfizer choose a Microsoft solution. </p>
+                        After presenting the CMS issues, Pfizer requested that WDS find some CMS alternatives. Three alternatives were presented and Pfizer chose a Microsoft solution, Sharepoint. </p>
                         <p className="content-text-18">
-                        Interesting story - WDS was overseeing the transition from one CMS system to another. Another consulating firm was hired to refactor all the files and prepare them for the move to the Sharepoint environment. This involved migrating all the HTML files from .jsp to .asp. The consulting firm contacted WDS to get advice on promoting CSS changes on Sitebuilder. WDS learned from experience not to touch the CSS file, with workarounds for styling and gave up on making changes to the CSS file and made all changes CSS changes in-line. They advised them against promoting CSS changes through Sitebuider environment because the system will verify every file and currently there was over 2,000 of them. The last time the changes took over 5 hours to complete. Considering that was at the start of the project, they were told that between 8-11 hours were needed to promote the file.</p>
+                         Another consulting firm was hired to refactor all files and prepare them for the move to the Sharepoint environment. This involved migrating all the HTML files from .jsp to .asp. The consulting firm contacted WDS to get advice on promoting CSS changes on Sitebuilder. WDS had learned from experience not to touch the CSS file, and instead used  workarounds for styling by making all CSS changes in-line. They advised them against promoting CSS changes through Sitebuider environment because the system will verify every file and currently there was over 2,000 of them. The last time it was done the changes took over 5 hours to complete. Considering that was at the start of the project, they were told that between 8-11 hours were needed to promote the file.</p>
                         <p className="content-text-18">
-                         WDS's advice was ignored saying it is crazy that it would take 8-11 hours to promote one file. They explained how unstable the sitebuilder environment was with CSS files. The managers and vendor left confident that it could be completed in under 2 hours. The plan was to push the CSS changes at 6pm and end at 8pm. At 4am WDS received a phone call that began "we will never doubt you again, could you tell us how to force this file onto the server. Its been 10 hours and we don't know if we are any closer than we were during the first hour". WDS explained that they needed to contact the hosting company in NJ and have them directly place the file on the server. We instructed them to go there in person to ensure it will be completed by the start of business. The company bought WDS and the team breakfast all week. </p>
+                         WDS's advice was ignored, saying it is crazy that it would take 8-11 hours to promote one file even though they were told how unstable the sitebuilder environment was with CSS files. The managers and vendor left confident that it could be completed in under 2 hours. The plan was to push the CSS changes at 6pm and end at 8pm. At 4am WDS received a phone call that began with "we will never doubt you again, could you tell us how to force this file onto the server. Its been 10 hours and we don't know if we are any closer than we were during the first hour." WDS explained that they needed to contact the hosting company in NJ and have them directly place the file on the server by going there in person to ensure it will be completed by the start of business. The company bought WDS and the team breakfast all week. </p>
                     </div>
                
             </section>
@@ -115,9 +115,9 @@ class case_study_3 extends Component {
                 <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 margin-bottom-50 " > 
                     <div className="col2-text  grid-placeself-center ">
                         <div className="content-block text-align-center margin-top-15sm">
-                            <p className="callout-text "> Pfizer and the developers were happy </p>
+                            <p className="callout-text-lg "> Pfizer and the developers were happy! </p>
                             <p className="callout-text">
-                        Pfizer quickly froze the project. Needing to refactor 8,000 files from .jsp to .asp, an outside vendor was brought in to help with the transition. Pfizer estimates that WDS saved them close to 250,000 by bringing to light the unseen CMS problems. 
+                        Pfizer quickly froze the project. Needing to refactor 8,000 files from .jsp to .asp, an outside vendor was brought in to help with the transition. Bringing to light the unseen CMS problems saved Pfizer financially. 
                         </p>
                     </div>
                 </div>
