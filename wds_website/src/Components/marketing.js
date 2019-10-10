@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 import bg_marketing from '../images/backgrounds/bg-documentation.png';
-import finding from '../images/photos/photo-documentation-s1.png';
 import marketing2 from '../images/photos/photo-marketing-s2.png';
 import marketing3 from '../images/photos/photo-marketing-s3.png';
-import marketing4 from '../images/photos/photo-marketing-s4.png';
 import marketing5 from '../images/photos/photo-marketing-s5.png';
 
 import marketing6 from '../images/photos/photo-marketing-s6.png';

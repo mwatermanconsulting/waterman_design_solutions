@@ -28,7 +28,6 @@ class case_study_4 extends Component {
                         Case Study - OsiSoft
                     </div>
                         <img className="flex-image-container" src={osi_bg}  alt="Stubhub Case Study " /> 
-                   
                 </section>
                  <section className="container-section padding-20 flex-layout-center-center border-bottom-1 callout-color-dark">
                     <div className="callout-text-lg">
@@ -36,34 +35,34 @@ class case_study_4 extends Component {
                     </div>
                 </section> 
                 <section className="flex-layout-section-full align-items-center margin-top-75">
-                    <div className="title content-block-55">
+                    <div className="title content-block-65">
                             Problem
                     </div>
-                    <div className="subtitle content-block-55 margin-top-15">
+                    <div className="subtitle content-block-65 margin-top-15">
                             Specificity and Scalability Issues
                     </div>
-                    <div className="content-block-55 margin-top-15">
+                    <div className="content-block-65 margin-top-15">
                         <p className="content-text-18">
                             OsiSoft was losing development time being spent debugging their CSS files that was becoming more fragile with age and lack of standards. OsiSoft decided to hire WDS to devise a scalable enterprise CSS solution.
                             </p> 
                     </div>
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="hr-line-cs"></div>
 
                 <section className="flex-layout-section-full align-items-center flex-layout-column">
-                    <div className="title content-block-55">
+                    <div className="title content-block-65">
                             Approach
                     <div className="subtitle   margin-top-15">
                             Finding the Truth - What are the Issues?
                    </div>
                    </div>
-                   <div className="content-block-55 margin-top-15">
+                   <div className="content-block-65 margin-top-15">
                         <p className="content-text-18">
                             WDS approaches each project with the same wonder and excitement, solving complex problems. They are always seeking the truth with an empathetic heart and curious mind. Their methodology is adaptive to  internal business problems, like communication, or CSS issues. User research and approach are always the same for all situations.
                         </p>       
                     </div>
-                    <div className="content-block-55 margin-top-15">
+                    <div className="content-block-65 margin-top-15">
                         <ul className="dashed content-text-21">
                             <li>Critique current CSS</li>
                             <li>Review current CSS code base</li>
@@ -73,20 +72,20 @@ class case_study_4 extends Component {
                     </div>   
                 </section>
             
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="hr-line-cs"></div>
                 
                 <section className="flex-layout-section-full align-items-center">
-                    <div className="title content-block-55">
+                    <div className="title content-block-65">
                         Research CSS Problems
                     </div>
-                    <div className="subtitle content-block-55 margin-top-15">
+                    <div className="subtitle content-block-65 margin-top-15">
                         WDS UX Methodology
                     </div>
-                    <p className="content-text-18 content-block-55 margin-top-15">
+                    <p className="content-text-18 content-block-65 margin-top-15">
                         WDS started this project by applying the UX methodology, observing the developers  as they went about their daily routines, interacting with code, noting body language and workarounds they would invent for themselves. The main problem involved using old CSS standards and methods that included writing it to a single CSS file. 
                         </p> 
                 
-                    <ul className="dashed content-text-18 content-block-55 margin-top-15">
+                    <ul className="dashed content-text-18 content-block-65 margin-top-15">
                         <li><a href="#solution1" className="no-decoration greenlink" >Responsive solution</a></li>
                         <li><a href="#solution2" className="no-decoration greenlink">Organizing CSS on an enterprise level</a></li>
                         <li><a href="#solution4" className="no-decoration greenlink">Faster performance</a></li>
@@ -98,16 +97,16 @@ class case_study_4 extends Component {
                     </ul> 
                 </section>
 
-                 <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="hr-line-cs"></div>
 
                 <section className="flex-layout-section-full align-items-center">
-                    <div className="title content-block-55">
+                    <div className="title content-block-65">
                             Solutions
                     </div>
-                    <div className="subtitle content-block-55 margin-top-15">
+                    <div className="subtitle content-block-65 margin-top-10">
                             Overview
                     </div>
-                    <div className="content-block-55 margin-top-15">
+                    <div className="content-block-65 margin-top-15">
                         <p className="content-text-18">
                             Most CSS issues are very challenging because the problems are not in the code, but how the code is organized. The load order of classes influences specificity. A major suggestion that was adopted  was to implement a new CSS specification, Flexbox. This would be the first enterprise Sass application developed with Flexbox. </p> 
                         <p className="content-text-18"> 
@@ -120,79 +119,78 @@ class case_study_4 extends Component {
                     
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75 "></div>
+                <div className="hr-line-cs"></div>
 
-                <section id="solution1" className="flex-layout-section-full align-items-center">
-                    <div className="title content-block-55">
-                        Responsive Design
-                    </div>
-                    <div className="subtitle content-block-55 margin-top-15">
-                        Flexbox implementation
-                    </div>
-                    <div className="content-block-55 margin-top-15">
-                        <p className="content-text-18">
-                        Flexbox was the first CSS upgrade that allowed  designers to have some real control over their layout. Before Flexbox, CSS files had to be hacked to get a design correct. Flexbox  allowed centering horizontally and vertically, something that was challenging to do before with CSS. WDS jumped at the chance to apply Flexbox on an enterprise level. Going in uncharted territory, they successfully wrote thousands of lines of Flexbox code, building the application layout from scratch. Frustratingly, they learned that it was NOT the solution to the CSS layout issues. But, Flexbox did help in many ways during the course of the application creation. </p>
-                    </div>
-                </section>
-                <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-50">
-                    <img className="photo-container-cs-sb1" src={osi_s1} alt="Finding the Truth - Business Perspective"/>
-                    <div className="margin-top-15 caption width-70"><i> Flexbox solved many layout issues</i></div>
+                <section className="float-left align-items-center flex-layout-column">
+                <div className="title content-block-65">
+                    Responsive Design
                 </div>
+                <div className="subtitle margin-top-10 content-block-65">
+                    Flexbox Implementation
+                </div> 
+                
+                <div className="content-block-65 content-text-18 margin-top-15sm">
+                    <div className="float-right">
+                    <img className="photo-container-cs margin-top-15sm" src={osi_s1}  alt="Website Design" /> 
+                </div>
+                <p className="content-text-18 margin-top-15">
+                    Flexbox was the first CSS upgrade that allowed  designers to have some real control over their layout. Before Flexbox, CSS files had to be hacked to get a design correct. Flexbox  allowed centering horizontally and vertically, something that was challenging to do before with CSS. WDS jumped at the chance to apply Flexbox on an enterprise level. Going in uncharted territory, they successfully wrote thousands of lines of Flexbox code, building the application layout from scratch. Frustratingly, they learned that it was NOT the solution to the CSS layout issues. But, Flexbox did help in many ways during the course of the application creation.</p>   
+                </div>
+            </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="hr-line-cs"></div>
 
-                <section id="solution2" className="flex-layout-section-full align-items-center">
-                    <div className="title content-block-55">
-                        Scalability and Organization
-                    </div>
-                    <div className="subtitle content-block-55 margin-top-15">
-                        Sass - Adding a CSS Preprocssor
-                    </div>
-                    <div className="content-block-55 margin-top-15">
-                        <p className="content-text-18">
+            <section className="float-left align-items-center flex-layout-column">
+                <div className="title content-block-65">
+                    Scalability and Organization
+                </div>
+                <div className="subtitle margin-top-10 content-block-65">
+                    Sass - Adding a CSS Preprocessor
+                </div> 
+                
+                <div className="content-block-65 content-text-18">
+                    <div className="float-right">
+                    <img className="photo-container-cs margin-top-15sm" src={sass}  alt="Website Design" /> 
+                </div>
+                <p className="content-text-18 margin-top-15">
                         The most effective Sass feature for organization was the use of partial files(SCSS). Sass partial files allow you to create separate CSS file for each page or sections of a site or app and compile the separate files into one large master file. For example, the footer file would have a matching SCSS file. These files are then processed by the preprocessor and a full production CSS file is written. The power of the partial files became really beneficial when mixed in with the ITCSS method. </p>
                         
                         <p className="content-text-18">
                         The implementation of SaaS was beneficial as the project progressed and the CSS matured. The use of color variables helped maintain consistency, especially as the style guide and design system were being developed. WDS developed a design system a few years later and the use of Sass mixins was critical as we identified classes within the pattern library to utilize to stylize Angular components for the design system.</p>
-                    </div> 
-                </section>
-                    <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-50">
-                        <img className="photo-container-cs-sb1" src={sass} alt="Finding the Truth - Business Perspective"/>
-                        <div className="margin-top-15 caption width-70"><i> Making CSS Awesome</i></div>
-                    </div>
+                  </div>
+            </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                <section id="solution3" className="flex-layout-section-full align-items-center">
-                    <div className="title content-block-55">
-                        Scalability and Maintainable CSS
-                    </div>
-                    <div className="subtitle content-block-55 margin-top-15">
-                        The ITCSS Method - Taming the Specificity Beast
-                    </div>
-                    <div className="content-block-55 margin-top-15">
-                        <p className="content-text-18">
-                        Organizing and naming conventions are the two most difficult things to solve when writing large amounts of CSS. When you have an entire team writing to one CSS file it can become a specificity nightmare,  an unsustainable situation. This method is a great solution to the problem. Using partial files to load the CSS files in order of importance, global to specific. The most global files load first, then the most specific files last. This method mirrors the how the browser DOM interprets the CSS when it is loaded, loading a nice smooth line instead of a bunch of sharp lines. This is a method created by Harry Roberts and it scales nicely in the real enterprise world.</p>  
-                    </div> 
-                </section>
+                <div className="hr-line-cs"></div>
 
-               
-                <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-50">
-                    <img className="photo-container-cs-sb1" src={itcss} alt="Finding the Truth - Business Perspective"/>
-                    <div className="margin-top-15 caption width-70">
-                        <i>Credit to Harry Roberts for this excellent solution</i></div>
+            <section className="float-left align-items-center flex-layout-column">
+                <div className="title content-block-65">
+                    Scalability and Maintainable CSS 
                 </div>
+                <div className="subtitle margin-top-10 content-block-65">
+                    The ITCSS Method - Taming the Specificity Beast
+                </div> 
+                
+                <div className="content-block-65 content-text-18 margin-top-15sm">
+                    <div className="float-right">
+                    <img className="photo-container-cs margin-top-10 margin-top-15sm" src={itcss}  alt="Website Design" /> 
+                </div>
+                    <p className="content-text-18 margin-top-15"> 
+                    Organizing and naming conventions are the two most difficult things to solve when writing large amounts of CSS. When you have an entire team writing to one CSS file it can become a specificity nightmare,  an unsustainable situation. This method is a great solution to the problem. Using partial files to load the CSS files in order of importance, global to specific. The most global files load first, then the most specific files last. This method mirrors the how the browser DOM interprets the CSS when it is loaded, loading a nice smooth line instead of a bunch of sharp lines. This is a method created by Harry Roberts and it scales nicely in the real enterprise world. </p>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                  </div>
+            </section>
+
+                <div className="hr-line-cs"></div>
 
                 <section className="flex-layout-section-full align-items-center">
-                        <div id="solution4" className="title content-block-55 margin-top-15">
+                        <div id="solution4" className="title content-block-65">
                             Modular CSS
                         </div>
-                        <div className="subtitle content-block-55 margin-top-15">
+                        <div className="subtitle content-block-65 margin-top-10">
                             OOCSS - Object Oriented CSS
                         </div>
-                        <div className="content-block-55 margin-top-15">
+                        <div className="content-block-65 margin-top-15">
                             <p className="content-text-18">
                             
                             OOCSS develops dry, reusable modular chunks of CSS. It’s a speedy approach for writing maintainable CSS that is based on a set of standards, adding a much-needed predictability to CSS. The OOCSS approach creates an intuitive CSS. OOCSS played a large part in this project's success. It is a strange animal, not a framework or methodology, but a philosophical perception. In WDS's experience, the deeper knowledge of CSS, the more value in the OOCSS method. This method was extensively used throughout the project.</p>
@@ -207,85 +205,84 @@ class case_study_4 extends Component {
                     
                 </section>
 
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="hr-line-cs"></div>
 
                 <section className="flex-layout-section-full align-items-center">
-                        <div id="solution6" className="title content-block-55 margin-top-15">
+                        <div id="solution6" className="title content-block-65">
                             Helper Classes
                         </div>
-                        <div className="subtitle content-block-55 margin-top-15">
+                        <div className="subtitle content-block-65 margin-top-10">
                             Relieving the CSS Burden
                         </div>
-                        <div className="content-block-55 margin-top-15">
+                        <div className="content-block-65 margin-top-15">
                             <p className="content-text-18">
                             Helper classes help remove repetition by creating a set of abstract classes that can be used over and over on HTML elements. Each helper class is responsible for doing one job and doing it well. Code becomes more reusable and scalable for many features that will be added in the future. Whenever there's a need to develop a new component, combining several classes together is how to build it. </p>
 
                             <p className="content-text-18">“Treat code like Lego. Break code into the smallest little blocks possible.” — @csswizardry (via @stubbornella) #btconf
 
                             — Smashing Magazine (@smashingmag) May 27, 2013</p>
-                        
-                            
-                        </div>
-                    
+                    </div>
                 </section>
                
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                <div className="hr-line-cs"></div>
 
-                <section className="flex-layout-section-full align-items-center">
-                    <div className="title content-block-55 margin-top-15">
-                            Unforeseen Problems
-                        </div>
-                    <div className="subtitle content-block-55 margin-top-15">
-                            The Kendo Framework
-                    </div>
-                    <div className="content-block-55 margin-top-15">
-                    <p className="content-text-18">
+            <section className="float-left align-items-center flex-layout-column">
+                <div className="title content-block-65">
+                    Unforeseen Problems
+                </div>
+                <div className="subtitle margin-top-10 content-block-65">
+                    The Kendo Framework
+                </div> 
+                
+                <div className="content-block-65 content-text-18 margin-top-15sm">
+                <div className="float-right">
+                    <img className="photo-container-cs margin-top-10 margin-top-15sm" src={kendo}  alt="Website Design" /> 
+                </div>
+                <div className="margin-top-15">
+                    <p className="content-text-18 content-block-65">
                     The decision to add the Kendo UI brought on a whole new set of challenges, not only for WDS, but the entire team. Frameworks are fine components are added to a template or cookie cutter UI. Once it is necessary to customize these frameworks, the nightmare begins. Considering the PI Vision application was completely custom any components would need to be updated for consistency.</p>
-                    <p className="content-text-18">
+                    <p className="content-text-18 content-block">
                     Rollover colors, border colors and most user interactions needed to be updated to match the current application design pattern. But updating a simple CSS class caused unexpected results. Only a CSS expert could understand the complexity of the Kendo CSS file. A plan was needed to provide a set of standards for editing the Kendo CSS to avoid specificity problems. </p>
+                    <p className="content-text-18 content-block">
+                    Working closely with the team, WDS was able to establish a solution involving the partial files and establish a methodology with best practices. Once the team was trained on the framework and methodology the issues dissolved.</p>
+
+                  </div>
+                </div>
+            </section>
+
+                    <div className="hr-line-cs"></div>
+                
+                    <section className="float-left align-items-center flex-layout-column">
+                <div className="title content-block-65">
+                    Application Consistency and Documentation
+                </div>
+                <div className="subtitle margin-top-10 content-block-65">
+                    TThe Creation of a Living Style Guide
+                </div> 
+                
+                <div className="content-block-65 content-text-18 margin-top-15sm">
+                <div className="float-right">
+                    <img className="photo-container-cs margin-top-10 margin-top-15sm" src={design_system}  alt="Website Design" /> 
+                </div>
+                <div className="content-block-65 margin-top-15">
                     <p className="content-text-18">
-                    Working closely with the team, WDS was able to establish a solution involving the partial files and establish a methodology with best practices. Once the team was mentored on the framework and methodology the issues dissolved.</p>
-                    </div>    
-                </section>
+                    Once the development of the CSS was completed, documentation and best practices were composed and became the foundation for the living style guide. The CSS spawned a best practices document that included rules for the global CSS, helper classes and Flexbox classes. A living style guide was created to assist business consistency issues.</p>
 
-                    <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-50">
-                        <img className="photo-container-cs-sb1" src={kendo} alt="Finding the Truth - Business Perspective"/>
-                        <div className="margin-top-15 caption width-70">
-                            <i>Kendo Framework for Angular</i></div>
-                    </div>
+                  </div>
+                </div>
+            </section>
 
-                    <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
 
-                    <section className="flex-layout-section-full align-items-center">
-                        <div className="content-header content-block-55 flex-layout-column">
-                            <div id="solution7" className="title margin-top-15">
-                                Application Consistency and Documentation
-                            </div>
-                        <div className="subtitle content-block-75 margin-top-15">
-                                The Creation of a Living Style Guide
-                        </div>
-                        <div className="margin-top-15">
-                            <p className="content-text-18">
-                                Once the development of the CSS was completed, documentation and best practices were composed and became the foundation for the living style guide. The CSS spawned a best practices document that included rules for the global CSS, helper classes and Flexbox classes. A living style guide was created to assist business consistency issues.</p>
-                        </div>
-                    </div>
-                </section>
-                    <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-25">
-                        <img className="photo-container-cs-sb1 width-100" src={design_system} alt="Finding the Truth - Business Perspective"/>
-                        <div className="margin-top-15 caption width-70"><i>Sections of the OsiSoft style guide and design system </i></div>
-                    </div>
-
-                    
-                <div className="thin-hr width-70 align-self-center margin-top-75 margin-bottom-75"></div>
+                    <div className="hr-line-cs"></div>
 
                 <section className="flex-layout-section-full align-items-center">
-                    <div id="solution8" className="title content-block-55">
+                    <div id="solution8" className="header-title content-block-65">
                         Results
                     </div>
-                    <div className="subtitle content-block-55 margin-top-15">
+                    <div className="subtitle content-block-65 margin-top-75">
                         Issues Solved and More!!
                     </div>
-                    <div className="content-block-55 margin-top-15">
+                    <div className="content-block-65 margin-top-15">
                         <p className="content-text-18">The final results were better than expected. The time taken to debug CSS was almost non-existence. The software engineers were pleased and adapted to the new CSS model and methodology when developing  CSS files. </p>
                         <p className="content-text-18">
                         The CSS scaled beautifully as the project grew. At one point in the project, over 70 engineers simultaneously worked on the CSS with very little issues. During the final phase of the project, engineers were writing very little new CSS classes. </p>
@@ -296,22 +293,22 @@ class case_study_4 extends Component {
                         </p>
                     </div>         
                 </section>
-                
-            <section className="flex-layout-section-full align-items-center grey border-top-5 margin-top-50 margin-top-50sm">
-                <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 margin-bottom-50 " > 
-                    <div className="col2-text  grid-placeself-center ">
-                        <div className="content-block text-align-center margin-top-15sm">
-                            
-                            <p className="callout-text">
-                            The combination of OOCSS, ITCSS and SaaS was a huge success and scaled with the application. It became a company-wide standard, improving user experience and provided consistency. The CSS also became the foundation for the style guide and design system.
-                        </p>
+
+                <section className="flex-layout-section-full align-items-center grey border-top-5 margin-top-50 margin-top-50sm">
+                <div className="grid-2col-text-photo bottom-callout-cs" > 
+                    <div className="col2-text grid-placeself-center ">
+                        
+                        <div className="callout-text margin-top-15">  
+                        The combination of OOCSS, ITCSS and SaaS was a huge success and scaled with the application. It became a company-wide standard, improving user experience and provided consistency. The CSS also became the foundation for the style guide and design system.
+                        </div>
                     </div>
-                </div>
+               
                 <div className="col2-photo grid-placeself-center">
                     <img className="flex-image-container width-100" src={thumbsUp}  alt="Good job WDS!" /> 
                 </div>
             </div>
-        </section>   
+        </section>
+                
                         
                 </div> 
             </div>   

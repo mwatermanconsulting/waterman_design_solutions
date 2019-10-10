@@ -31,8 +31,8 @@ class services extends Component {
             </Helmet>
         <div className="flex-layout-column"> 
             <section className="flex-section-fixed-head image-background-border-tb">
-                <div className="flex-image-container flex-item-bottom grey">
-                    <img className="flex-image-container image-size-100" src={practice}  alt="Services image" /> 
+                <div className="flex-image-container-master flex-item-bottom grey">
+                    <img className="flex-image-container-master image-size-100" src={practice}  alt="Services image" /> 
                 </div> 
             </section>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 red padding-15sm">

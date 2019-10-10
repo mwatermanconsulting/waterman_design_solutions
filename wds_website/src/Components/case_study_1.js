@@ -53,7 +53,7 @@ class case_study_1 extends Component {
                             The design solutions have been adopted and are still in use since 2013. Many of the solutions are now standard across the Arris product line and has been adopted by the competitors. The WDS goal of establishing Motorola as the industry leader was accomplished. Below is the story on how WDS accomplished this feat.</p>
                     </div>
                 </section>
-                <section className="flex-layout-section-full margin-top-75">
+                <section className="flex-layout-section-full margin-top-50">
                      <div className="container-image-block flex-layout-center-center">
                         <img className="photo-container-cs-sb1 width-100" src={motorola_s1} alt="Motorola's confusing interface "/>
                     </div>
@@ -61,12 +61,12 @@ class case_study_1 extends Component {
 
                 <div className="hr-line-cs"></div>
                 
-                <section className="flex-layout-section-full align-items-center margin-top-50sm">
+                <section className="flex-layout-section-full align-items-center">
                     <div className="content-block-65"> 
                         <div className="title">
                             Backstory
                         </div>
-                        <div className="subtitle margin-top-5">
+                        <div className="subtitle margin-top-10">
                             High return rate, losing customer loyalty
                         </div>
                             <div className="content-block-100 margin-top-15"> 
@@ -78,15 +78,15 @@ class case_study_1 extends Component {
                             </div>
                         </div>
                     </section>
-                    <section className="flex-layout-column flex-layout-center-center margin-top-75">
+                    <section className="flex-layout-column flex-layout-center-center margin-top-50">
                             <div className="container-image-block flex-layout-center-center">
                                 <img className="photo-container-cs-sb1 width-100" src={motorola_before_basic} alt="Questions"/> 
                             </div>
                     </section>
 
-                    <div className="hr-line-cs display-none"></div>
+                    <div className="hr-line-cs"></div>
 
-                    <section className="flex-layout-column align-items-center margin-bottom-75 margin-top-50sm">
+                    <section className="flex-layout-column align-items-center margin-bottom-50">
                         <div className="title content-block-65">
                                 Methodology Begins</div>
                         <div className="subtitle content-block-65 margin-top-15">
@@ -205,9 +205,9 @@ class case_study_1 extends Component {
                         </div>
                     </section>
 
-                    <div className="hr-line-cs display-none"></div>
+                    <div className="hr-line-cs"></div>
 
-                    <section className="flex-layout-section-full align-items-center margin-top-50sm"> 
+                    <section className="flex-layout-section-full align-items-center"> 
                             <div className="title content-block-65">
                                 <a id="solution2"></a> 
                                     Introduction of "Mary"
@@ -236,7 +236,7 @@ class case_study_1 extends Component {
 
                     <div className="hr-line-cs"></div>
 
-                    <section className="content-header flex-layout-column align-items-center margin-top-15sm">
+                    <section className="content-header flex-layout-column align-items-center">
                         <div className="title content-block-65">
                             <a id="solution3"></a> 
                               Visual Settings Display  
@@ -258,9 +258,9 @@ class case_study_1 extends Component {
                             </div>
                     </section>
 
-                    <div className="hr-line-cs display-none"></div>
+                    <div className="hr-line-cs"></div>
 
-                    <section className="content-header align-items-center flex-layout-column margin-top-50sm ">
+                    <section className="content-header align-items-center flex-layout-column">
                         <div className="title content-block-65">
                             <a id="solution3"></a> 
                             WiFi Solution
@@ -287,9 +287,9 @@ class case_study_1 extends Component {
                             </div>
                     </section>
 
-                    <div className="hr-line-cs display-none"></div>
+                    <div className="hr-line-cs"></div>
 
-                    <section className="content-header flex-layout-column align-items-center margin-top-50sm">
+                    <section className="content-header flex-layout-column align-items-center">
                         <div className="title content-block-65">
                                 <a id="solution4"></a> 
                                     Guiding the Users
@@ -311,9 +311,9 @@ class case_study_1 extends Component {
                             </div>
                     </section>
 
-                    <div className="hr-line-cs display-none"></div>
+                    <div className="hr-line-cs"></div>
 
-                    <section className="content-header flex-layout-column align-items-center margin-top-50sm">
+                    <section className="content-header flex-layout-column align-items-center">
                         <div className="title content-block-65">
                                 <a id="solution10"></a> 
                                 Meeting Users Expectations
@@ -338,9 +338,9 @@ class case_study_1 extends Component {
                         </div>
                     </section>
 
-                    <div className="hr-line-cs display-none"></div>
+                    <div className="hr-line-cs"></div>
 
-                    <section className="content-header flex-layout-column align-items-center margin-top-50sm">
+                    <section className="content-header flex-layout-column align-items-center">
                         <div className="title content-block-65">
                                 <a id="solution4"></a> 
                                 IOS Application
@@ -364,17 +364,18 @@ class case_study_1 extends Component {
                         </div>
                     </section>
 
-                    <div className="hr-line-cs display-none"></div>
+                    <div className="hr-line-cs"></div>
 
-                    <section className="content-header flex-layout-column align-items-center margin-top-50sm">
+                    <section className="content-header flex-layout-column align-items-center">
                             <div className="header-title-sm content-block-65">
                                 Business Design Solutions
                             </div>
                         <div className="content-header flex-layout-column align-items-center">
-                        <div className="title margin-top-50 content-block-65">
-                            <a id="solution3" className="subtitle no-decoration margin-top-75 content-block-65">
-                                Communication Issues </a>
-                            <div className="subtitle margin-top-50 content-block-65">
+                        <div className="title margin-top-50 margin-top-25sm content-block-65">
+                            Communication Issues</div> 
+                            <a id="solution3" className="subtitle no-decoration content-block-65">
+                                 </a>
+                            <div className="subtitle content-block-65 margin-top-10">
                             <a id="solution3" className="subtitle margin-top-75 content-block-65">
                                 Establishing Transparency </a>
                                 
@@ -383,7 +384,7 @@ class case_study_1 extends Component {
                                 <p className="content-text-18 margin-top-15">
                                 WDS was confused by how a brand name like Motorola would allow such a poorly designed, non-branded user interface on a consumer product go to market. It was mind boggling. That was their first question to the stakeholders, "how did this product UI fall through the cracks?" This issue exposed a large communication issue between the product, marketing and home division teams. WDS solution to this problem was to hold meetings at the end of each sprint. The meetings ran the course of the project and established a strong relationship between the teams that was previously non-existent. These meetings helped establish  transparency, allowing the product and marketing teams to understand the business case for the product redesign. </p> 
                             </div>
-                        </div>
+                       
                         </div>
                         </section>
 
@@ -393,7 +394,7 @@ class case_study_1 extends Component {
                         <div className="title content-block-65">
                                 Google Buyout
                             </div>
-                            <div className="subtitle content-block-65">
+                            <div className="subtitle content-block-65 margin-top-10">
                              <a id="solution7"></a> Presenting to the Google Executives
                             </div>
                                 <div className="content-block-65">
@@ -417,7 +418,7 @@ class case_study_1 extends Component {
                             Deployment
                         </div>
                         <a id="deploy"></a>
-                        <div className="subtitle content-block-65 margin-top-25">
+                        <div className="subtitle content-block-65 margin-top-10">
                             Preparing for the Handoff
                         </div>
                         <div className="content-block-65 margin-top-15">
@@ -433,11 +434,11 @@ class case_study_1 extends Component {
                     <div className="hr-line-cs"></div>
 
                     <section className="content-header flex-layout-column align-items-center margin-top-15sm"> 
-                        <div className="title content-block-65">
+                        <div className="header-title-sm text-align-left content-block-65">
                                 Results
                         </div>
                         <a id="results"></a>
-                            <div className="content-block-65 margin-top-25">
+                            <div className="content-block-65 margin-top-50 margin-top-25sm">
                                 <p className="content-text-18">
                                     One of the issues that surprized WDS the most was the old outdated user interface design. WDS just assumed a global brand such as Motorola would be professional and branded. The problem of product consistency is common and WDS wanted to ensure the problem of was solved  by correcting the communication issues between the teams of marketing, product and home division.  At the start of the project WDS organized monthly and milestone meetings between the teams. Product, marketing and home division communication was still strong well after WDS was finsihed with the project. The approved design was going to be adapted to the rest of the product line. The design today may look different since it is branded under the Arris name, but many of the design solution  implemented are still in use today.
                                 </p>
@@ -448,23 +449,15 @@ class case_study_1 extends Component {
                 </section>
 
                 <section className="flex-layout-row flex-layout-justified-sb content-block-65 flex-layout-center-center ">
-                    <div className="flex-layout-center-center flex-items-align-top margin-top-25">
+                    <div className="flex-layout-center-center flex-items-align-top margin-top-10">
                         <ul className="dashed content-text-18 align-self-center">   
                                
                                 <li>Lowered return rate by <b>40%</b></li>
-                                
+                                <li>Reduced Customer Service calls by <b>70%</b></li>
                                 <li>Positive reviews by <a href="https://www.cnet.com/reviews/motorola-sbg6782-ac-surfboard-extreme-cable-modem-review/" >Cnet</a> and <a href="https://www.youtube.com/watch?v=cqTHxAN6cRwYouTube">YouTube</a> </li> 
                                 <li>Communication between teams improved</li>
-                                <li>Entire project under 1mb</li>
                                 <li>First css style sheet in Motorola Products </li>
-
-                                <li>Style Guide </li>
-                            </ul>
-                    </div>
-                    <div className="flex-layout-center-center flex-items-align-top margin-top-25">
-                            <ul className="dashed content-text-18 margin-left-25">
-                                <li>Reduced Customer Service calls by <b>70%</b></li>
-                                <li>Return rate dropped dramatically a few months after launch </li>
+                                <li>Developed Style Guide and documentation </li>
                                 <li>Entire project under 1mb</li>
                                 <li>First css style sheet in Motorola Products </li>
                                

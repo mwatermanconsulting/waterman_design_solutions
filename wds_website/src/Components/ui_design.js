@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 import bg_ui from '../images/backgrounds/bg-ui.png';
-import motorola from '../images/photos/photo-motorola-beforeafter.png';
-import motorola_logo from '../images/motorola_logo.svg'
-import stubhub_logo from '../images/icon-logo-stubhub.svg'
-import stubhub from '../images/photos/photo-stubhub-before-after.png'
 import didyouknow from '../images/graphic-didyouknow.svg';
 import ui_s1 from '../images/photos/photo-ui-s1.png';
 import ui_s2 from '../images/photos/photo-ui-s2.png';
