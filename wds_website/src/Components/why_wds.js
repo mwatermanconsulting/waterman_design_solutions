@@ -115,7 +115,7 @@ class why_wds extends Component {
                             <div className="subtitle-center "> <img className="margin-bottom-10"  src={icon_design}  alt="Design" /><br></br>
                                     <a href="./design_solutions" className="no-decoration">
                                         Design Solutions</a></div>
-                                <ul className="dashed content-text-18 why-margin-list-4">
+                                <ul className="dashed content-text-18 margin-left-18 why-margin-list-4">
                                     <li>User Interface Design</li>
                                     <li>Visual Design</li>
                                     <li>Design Metrics</li>
@@ -162,7 +162,7 @@ class why_wds extends Component {
                         </div> 
                     </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line-cs"></div>
 
                 <section className="flex-layout-section-full align-items-center">
                     <p className="title"> 
@@ -192,8 +192,9 @@ class why_wds extends Component {
                     </NavLink>
                 </div>
                 </div>  
-                </section> 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                </section>
+                 
+                <div className="hr-line-cs"></div>
 
                 <section className="float-left align-items-center flex-layout-column ">
                     <div className="title content-block-60">
@@ -223,7 +224,7 @@ class why_wds extends Component {
 
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line-cs"></div>
 
                 <section className="float-left align-items-center flex-layout-column ">
                     <div className="title content-block-60">
@@ -248,7 +249,7 @@ class why_wds extends Component {
                     </div>  
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line-cs"></div>
 
                 <section className="flex-layout-section-full align-items-center" >
                        
@@ -269,7 +270,7 @@ class why_wds extends Component {
                </div>  
            </section>
 
-            <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+           <div className="hr-line-cs"></div>
 
             <section className="flex-layout-section-full align-items-center width-100 ">
                 <div className="width-75">
@@ -309,7 +310,7 @@ class why_wds extends Component {
                 </div>
             </section>
 
-            <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+            <div className="hr-line-cs"></div>
 
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
                
@@ -354,7 +355,7 @@ class why_wds extends Component {
                         He was also very personable and I enjoyed working with him to meet day to day deliverables."" -John Gautreau </p>
                 </section> 
                 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line-cs"></div>
 
                 <section className="flex-layout-section-full align-items-center width-100">
                     <div className="subtitle layout-center-justified">

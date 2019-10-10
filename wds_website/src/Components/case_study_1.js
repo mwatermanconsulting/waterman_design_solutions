@@ -214,17 +214,18 @@ class case_study_1 extends Component {
                             </div>
                             <div className="subtitle content-block-65 margin-top-10">
                                 <a id="solution2"></a> 
-                                  Using personas to bridge the gap with developers
+                                  Using Personas to Bridge the Communication Gap 
                             </div>
-                            <div className="float-left content-block-65 margin-top-15">
+                            <div className="float-left content-block-65 margin-top-15"> 
+                            <div className="float-right ">
+                                    <img className="photo-container margin-left-min10per" src={mary} alt="the persona of Mary"/>
+                                </div>
                                 <p className="content-text-18">
                                     One of the toughest aspects of being a contractor is communication and acceptance, especially on an established team. These were the developers that originally designed the application and many were not happy that another UX designer was hired. They had already been through two failed attempts and fully expected to the same results with WDS.</p>
-                                <div className="float-right ">
-                                    <img className="width-100" src={mary} alt="the persona of Mary"/>
-                                </div>
+                               
 
                                 <p className="content-text-18">
-                                To open the lines of communication,  a persona named "Mary" was used. During the research phase it was surprising to uncover that a large majority of complaints to the call center were women. The developers were asked if they get phones calls from their mother-in-laws for tech help. Over 75% responded that they do indeed get those type of phones calls.</p>
+                                To open the lines of communication, a persona named "Mary" was used. During the research phase it was surprising to uncover that a large majority of complaints to the call center were women. The developers were asked if they get phones calls from their mother-in-laws for tech help. Over 75% responded that they do indeed get those type of phones calls.</p>
 
                                 
                                 <p className="content-text-18">The persona of "Mary" was a mother of three who worked a full time job. Her user journey: On the way home from work Mary needed to stop at Best Buy to replace her broken modem. After her purchase she rushed to get home and make dinner for the kids. Her plan was to get dinner started and while it was cooking she would set up the modem. giving her twenty minutes before dinner was ready. This was the first time Mary ever connected a modem, she was not very computer literate and computers intimated her. The challenge to the team was to simplify and guide Mary so she could complete her task. </p>
@@ -258,7 +259,7 @@ class case_study_1 extends Component {
                             </div>
                     </section>
 
-                    <div className="hr-line-cs"></div>
+                    <div className="hr-line-cs display-none"></div>
 
                     <section className="content-header align-items-center flex-layout-column">
                         <div className="title content-block-65">
@@ -287,7 +288,7 @@ class case_study_1 extends Component {
                             </div>
                     </section>
 
-                    <div className="hr-line-cs"></div>
+                    <div className="hr-line-cs display-none"></div>
 
                     <section className="content-header flex-layout-column align-items-center">
                         <div className="title content-block-65">
@@ -311,7 +312,7 @@ class case_study_1 extends Component {
                             </div>
                     </section>
 
-                    <div className="hr-line-cs"></div>
+                    <div className="hr-line-cs display-none"></div>
 
                     <section className="content-header flex-layout-column align-items-center">
                         <div className="title content-block-65">
@@ -338,7 +339,7 @@ class case_study_1 extends Component {
                         </div>
                     </section>
 
-                    <div className="hr-line-cs"></div>
+                    <div className="hr-line-cs display-none"></div>
 
                     <section className="content-header flex-layout-column align-items-center">
                         <div className="title content-block-65">
@@ -364,7 +365,7 @@ class case_study_1 extends Component {
                         </div>
                     </section>
 
-                    <div className="hr-line-cs"></div>
+                    <div className="hr-line-cs display-none"></div>
 
                     <section className="content-header flex-layout-column align-items-center">
                             <div className="header-title-sm content-block-65">

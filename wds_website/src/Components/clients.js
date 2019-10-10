@@ -34,7 +34,7 @@ class clients extends Component {
                 </div>
             </div>
             <section className="grid-callout photo-content-color border-bottom-5" > 
-                <div className="grid-placeself-center content-block-75   flex-layout-column">
+                <div className="grid-placeself-center content-block-75 flex-layout-column">
                     <div className="callout-text padding-20 text-align-left margin-top-15" >
                         For over twenty years WDS has worked and partnered with some amazing people and businesses. Each client has brought a higher level of skills to WDS services.</div>        
                     </div>
