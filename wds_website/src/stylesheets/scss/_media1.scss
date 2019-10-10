@@ -5,6 +5,14 @@
   .display-none {
     visibility: hidden;
   }
+
+
+
+  .float-left {
+    float: left;
+    padding: 0;
+   }
+
   .material-icons {
     opacity: 0.9;
     display: inline-block;
@@ -26,7 +34,7 @@
     padding-bottom: 0px;
     padding-top: 0px;
     margin-bottom: 0px;
-    margin-left: -8%;
+    margin-left: -22%;
   }
 
   .hr-line {
@@ -317,6 +325,8 @@
     margin-left: 0%;
   }
 
+
+
   .margin-left-12sm {
     margin-left: 12%;
   }
@@ -431,6 +441,10 @@
 
 .margin-top-25per {
   margin-top: .25%;
+}
+
+.margin-left-18{
+  margin-left: 0%;
 }
 
 
@@ -592,13 +606,13 @@
   }
   
   .photo-container {
-    width: 110%;
+    width: 116%;
     height: auto;
     max-width: 550px;
     min-width: 330px;
     padding-top: 0px;
     margin-bottom: 0px;
-    margin-left: -3%;
+    margin-left: -7%;
   }
 
   .photo-container-cs-sb1{
@@ -626,7 +640,7 @@
   }
 
   .container-image-block {
-    width: 200%;
+    width: 100%;
     height: auto;
   }
 
@@ -898,7 +912,9 @@
     display: block;
   }
 
- 
+  .margin-left-min10per {
+    margin-left: -10%;
+  }
   
 
   .grid-title {
@@ -1391,6 +1407,11 @@
       font-family: Roboto;
     }
 
+    .float-left {
+      float: left;
+      padding: 15px 5px 15px 15px;
+     }
+
 
   .home-image-container {
     width: 100%;
@@ -1458,6 +1479,10 @@
   
   .margin-left-20per {
     margin-left: 20%;
+  }
+
+  .margin-left-18{
+    margin-left: 18%;
   }
   
 
@@ -1534,6 +1559,10 @@
 
   .margin-left-12per {
     margin-left: 15%;
+  }
+
+  .margin-left-min10per {
+    margin-left: -0%;
   }
 
   .margin-top-5{
@@ -1647,6 +1676,7 @@
       padding-bottom: 0px;
       padding-top: 0px;
       margin-bottom: 0px;
+      margin-left: 0;
       padding-left: 0px;
     }
 
@@ -1749,6 +1779,7 @@
     padding-bottom: 0px;
     padding-top: 0px;
     margin-bottom: 0px;
+    margin-left: 0px;
     padding-left: 0px;
   }
 

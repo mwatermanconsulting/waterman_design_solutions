@@ -250,14 +250,14 @@ class case_study_4 extends Component {
                 </div>
             </section>
 
-                    <div className="hr-line-cs"></div>
+                <div className="hr-line-cs"></div>
                 
                     <section className="float-left align-items-center flex-layout-column">
                 <div className="title content-block-65">
                     Application Consistency and Documentation
                 </div>
                 <div className="subtitle margin-top-10 content-block-65">
-                    TThe Creation of a Living Style Guide
+                    The Creation of a Living Style Guide
                 </div> 
                 
                 <div className="content-block-65 content-text-18 margin-top-15sm">
