@@ -32,8 +32,8 @@ class why_wds extends Component {
             <div className="flex-layout-column">
                 <section className="flex-section-fixed-head">
                     <div className="image-background-border-tb">
-                        <div className="flex-image-container flex-item-bottom">
-                            <img className="flex-image-container image-size-100" src={why}  alt="Why WDS" /> 
+                        <div className="flex-image-container-master flex-item-bottom">
+                            <img className="flex-image-container-master image-size-100" src={why}  alt="Why WDS" /> 
                          </div>
                     </div> 
                 </section>

@@ -15,11 +15,28 @@
   margin-left: 15%;
 }
 
+.home-container-callout { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-top: 15px;
+  width: 85%;
+  margin-left: 8%;
+}
+
  .home-item {
   flex: 0 50%;
   height: auto; /* (100-32*3)/2 */
 }
-
+.callout-content-block{
+  width: 95%;
+  align-self: center;
+  font-family: 'Roboto', 'sans serif';
+  font-size: 1.2rem;
+  line-height: 1.58;
+  margin-left: 6%;
+}
 .home-content-block-lg {
   width: 80%;
 }
@@ -44,6 +61,15 @@
   width: 100%;
   max-width: 500px;
   height: auto;
+  border: none;
+  margin-left: 0;
+}
+
+.home-image-container-callout {
+  width: 118%;
+  max-width: 500px;
+  height: auto;
+  margin-left: 0;
 }
 
 

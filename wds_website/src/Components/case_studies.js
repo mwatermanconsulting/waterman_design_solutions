@@ -54,7 +54,7 @@ class case_studies extends Component {
                         <div className="container-image-block">
                             <img className="width-100 height-100" src={motorola}  alt="motorola before and after" /> 
                     </div> 
-                    <div className="content-block-auto margin-top-10"> 
+                    <div className="content-block-full margin-top-10"> 
                         <div className="flex-card-content flex-layout-center-center flex-layout-row flex-layout-justified-sb">
                             <p className="subtitle text-black" >
                                 Motorola</p>
@@ -63,7 +63,7 @@ class case_studies extends Component {
                         <div className="flex-card-content">
                             <div className="content-block">
                                 <p><i> Industry: Products</i></p>
-                                <p className="content-text-18 content-block">
+                                <p className="content-text-18 content-block-full">
                                     High Volume of returns plaguing Motorola Gateway Router Product Line. After two failed attempts by UX/UI developers, a frustrated management group decided they needed a UX designer to solve the problems.</p>
 
                                     <div className="float-left">
@@ -79,7 +79,7 @@ class case_studies extends Component {
                         <div className="container-image-block">
                         <img className="width-100 height-100" src={stubhub}  alt="StubHub" /> 
                     </div>
-                    <div className="content-block-auto margin-top-10">
+                    <div className="content-block-full margin-top-10">
                         <div className="flex-card-content flex-layout-center-center flex-layout-row flex-layout-justified-sb">
                             <p className="subtitle text-black" >
                                 StubHub</p>
@@ -106,7 +106,7 @@ class case_studies extends Component {
                         <div className="container-image-block">
                         <img className="width-100 height-100" src={pfizer}  alt="Pfizer" /> 
                     </div>  
-                    <div className="content-block-auto margin-top-10">
+                    <div className="content-block-full margin-top-10">
                         <div className="flex-card-content flex-layout-center-center flex-layout-row flex-layout-justified-sb">
                             <p className="subtitle text-black">Pfizer</p>
                                 <img className="width-20" style={{width: '15%'}}  src={pfizer_logo}  alt="pfizer logo" /> 
@@ -115,15 +115,15 @@ class case_studies extends Component {
                             <div className="content-block">
                                 <p><i> Industry: Pharmaceutical</i></p>
                                 <p className="content-text-18 content-block">
-                                    WDS noticed major problems with the DMS solution that Pfizer chose to manage its 25,000 page project. WDS independently  interviewed developers and documented lost time, sitting around watching the....<br/><br/>
-
-                                    <div className="float-left">
+                                    WDS noticed major problems with the DMS solution that Pfizer chose to manage its 25,000 page project. WDS independently  interviewed developers and documented lost time, sitting around watching the spinner...
+                                </p>
+                                    <div className="float-left margin-top-15">
                                         <NavLink className='button-area no-decoration' type="button" value="learn more" to='/case_study_3'>
                                             Read More 
                                         </NavLink>
                                     </div>
                                     
-                                </p>
+                                
                             </div>
                         </div>
                     </div>   
@@ -132,7 +132,7 @@ class case_studies extends Component {
                         <div className="container-image-block">
                             <img className="width-100 height-100" src={osi}  alt="Osi before and after" /> 
                         </div>
-                        <div className="content-block-auto margin-top-10">
+                        <div className="content-block-full margin-top-10">
                             <div className="flex-card-content flex-layout-center-center flex-layout-justified-sb">
                                 <p className="subtitle text-black">OSI</p>
                                 <img className="width-20"  style={{width: '20%'}} src={osi_logo}  alt="osi logo" /> 

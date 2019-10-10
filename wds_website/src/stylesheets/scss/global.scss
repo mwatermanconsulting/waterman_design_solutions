@@ -360,11 +360,10 @@ p {
   *******************************/
 
 .container-footer {
-  height: 100%;
   display: flex;
-  align-items: center;
-  min-height: fit-content;
+  align-items: center; 
 }
+
 footer a {
   color: white!important;
   text-decoration: none;

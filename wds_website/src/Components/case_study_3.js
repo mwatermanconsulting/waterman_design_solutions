@@ -11,8 +11,7 @@ class case_study_3 extends Component {
         return(
             <div>
             <Helmet>
-            <meta name="description" content="Waterman Design Solutions case study for Pfizer. Find out how WDS, a UX/UI design firm helped Pfizer by uncovering unknown problems on their healthcare portal Pfizer for Professionals." />
-               
+            <meta name="description" content="Waterman Design Solutions case study for Pfizer. Find out how WDS, a UX/UI design firm helped             Pfizer by uncovering unknown problems on their healthcare portal Pfizer for Professionals." />
                 <meta name="keywords" content="case studies, WDS, stubhub, motorola" />
                 <meta charSet="utf-8" />
                 <title>WDS Case Studies - Pfizer</title>
@@ -23,9 +22,7 @@ class case_study_3 extends Component {
                 <div className="header-text-left header-title-cs align-self-center text-white">
                     Case Study - Pfizer
                     </div>
-                        
-                        <img className="flex-image-container" src={pfizer_bg}  alt="Stubhub Case Study " />  
-                        
+                        <img className="flex-image-container" src={pfizer_bg}  alt="Stubhub Case Study " />      
                 </section>
                 <section className="flex-layout-section-full align-items-center margin-top-75">
                     <div className="title content-block-65">
@@ -40,14 +37,15 @@ class case_study_3 extends Component {
                     </div>
                 </section>
 
-                <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
+                <div className="hr-line-cs"></div>
 
-                <section className="flex-layout-section-full align-items-center margin-top-15sm">
+                <section className="flex-layout-section-full align-items-center">
                     <div className="title content-block-65 flex-layout-column">
-                        Unknown Problems
-                    <p className="subtitle margin-top-10">
+                        Unknown Problems 
+                    </div>
+                    <div className="subtitle content-block-65 margin-top-10">
                         Finding the Truth
-                   </p></div>
+                    </div>
                     <div className="content-block-65 margin-top-15">
                         <p className="content-text-18"> 
                         The WDS method of uncovering business problems is through observation. One day working on the PFP project, WDS observed the developers struggling with the CMS platform provided by Pfizer. Pfizer required every vendor to use the CMS System. The CMS platform was a custom Documentum solution, built by a company in Ohio. The CMS platform was named SiteBuilder. </p>
@@ -55,12 +53,12 @@ class case_study_3 extends Component {
                          WDS started interviewing the developers and discovered the system was extremely buggy. Working on the system, they found the system crashing during check ins, pushes and builds. The system rarely gave meaningful error messages and many times developers sat there for hours watching a spinning icon, wondering if the application crashed or was processing. Stopping the process while it was processing increased chances that all work would be lost. They observed times when only partial changes made up to the server and there was no consistency to the errors. What worked one day didn't work the next. The developers strategically created workarounds for the most basic tasks. Customer support was extremely poor.</p>
                     </div>
                     <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-50">
-                    <img className="width-50 margin-top-50" src={cms} alt="Finding the Truth - Business Perspective"/>
+                    <img className="width-50 margin-top-50" src={cms} alt="Finding the Truth - Business Perspective"/></div> 
                     <div className="margin-top-15 caption width-70"><i> Custom CMS system issues, costing developers time and Pfizer money</i></div>
-                </div>   
+                  
                 </section>
             
-                <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
+                <div className="hr-line-cs"></div>
                 
                 <section className="flex-layout-section-full align-items-center"> 
                     <div className="content-header content-block-65 flex-layout-column" >
@@ -77,7 +75,7 @@ class case_study_3 extends Component {
                     <img className="margin-top-50 width-50" src={documentum} alt="Finding the Truth - Business Perspective"/>
                 </section>
 
-                <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
+                <div className="hr-line-cs"></div>
                 
                 <section className="flex-layout-section-full align-items-center"> 
                     <div className="title">
@@ -92,9 +90,9 @@ class case_study_3 extends Component {
                     </div>
                 </section>
 
-                <div className="thin-hr content-block-65 align-self-center hrline-spacing"></div>
+                <div className="hr-line-cs"></div>
            
-                <section className="flex-layout-section-full align-items-center margin-top-15sm">
+                <section className="flex-layout-section-full align-items-center">
                     <div className="title content-block-65">
                         Solutions
                     </div>
@@ -112,13 +110,13 @@ class case_study_3 extends Component {
                
             </section>
             <section className="flex-layout-section-full align-items-center grey border-top-5 margin-top-50 margin-top-50sm">
-                <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 margin-bottom-50 " > 
-                    <div className="col2-text  grid-placeself-center ">
-                        <div className="content-block text-align-center margin-top-15sm">
-                            <p className="callout-text-lg "> Pfizer and the developers were happy! </p>
-                            <p className="callout-text">
-                        Pfizer quickly froze the project. Needing to refactor 8,000 files from .jsp to .asp, an outside vendor was brought in to help with the transition. Bringing to light the unseen CMS problems saved Pfizer financially. 
-                        </p>
+                <div className="grid-2col-text-photo bottom-callout-cs" > 
+                    <div className="col2-text grid-placeself-center ">
+                        <div className="text-align-center callout-text-lg">
+                             Pfizer and the developers were happy! 
+                        <div className="callout-text margin-top-15">  
+                         Bringing to light the unseen CMS problems saved Pfizer financially and the documentation helped them get out of a bad contract. 
+                        </div>
                     </div>
                 </div>
                 <div className="col2-photo grid-placeself-center">
