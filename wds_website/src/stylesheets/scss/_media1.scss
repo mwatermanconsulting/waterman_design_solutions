@@ -135,6 +135,15 @@
     height: auto; /* (100-32*3)/2 */
   }
 
+  .cs-item {
+    flex:1 1 51%;
+    height: auto; /* (100-32*3)/2 */
+  }
+
+  .cs-margin {
+    margin-left: 12%;
+  }
+
   .home-image-container {
     width: 85%;
     max-width: 500px;
