@@ -41,16 +41,17 @@ class services extends Component {
 
                 </div>
             </section>
-            <section className="grid-callout yellow-bg padding-sm"> 
-                <div className="grid-callout-text grid-placeself-center">
-                    <p className="callout-text content-block-80">
-                       The role of a UX consultant is to listen and connect to the customers. WDS services are a testament to the belief in old-fashioned customer service.
-                    </p>     
-                </div>
-                <div className="grid-callout-photo grid-placeself-center border-2-sm">
-                    <img className="flex-image-container width-100" src={together}  alt="Working together" /> 
-                </div>
-            </section>
+            <section className="grid-callout yellow-bg"> 
+                <div className="grid-callout-text grid-placeself-center width-70 margin-top-15sm">
+                    <p className="callout-text">
+                    The role of a UX consultant is to listen and connect to the customers. WDS services are a testament to the belief in old-fashioned customer service
+                            </p>
+                        </div>
+                        <div className="grid-callout-photo grid-placeself-center margin-top-15sm">
+                            <img className="flex-image-container width-100" src={together}  alt="Customer Service" /> 
+                        </div>
+                    
+                </section>
        
             <section className="flex-layout-section-full flex-layout-column align-items-center">
                 <p className="title margin-top-75">
@@ -72,16 +73,13 @@ class services extends Component {
                         </div>
                         <div className="margin-top-15 content-block-60">
                          <div className="float-right callout-photo">
-                        <img src={services3} className="container-image-500"  alt="UX Design" /> </div>   
+                        <img src={services3} className="photo-container"  alt="UX Design" /> </div>   
                             <p className="content-text-18"> 
-
-                            WDS design experts use research, empathy and insight to define how software functions and build workflows for the ways that people will experience it. From inception to launch, the users' voice is always heard, leaving no detail missed.</p> 
-                        <p className="content-text-18">
-
-                            The visual elements, they create will establish your brand as a design leader in your space. By understanding your business, users and competition WDS will ensure that you have a unique presence that include familiar use of fonts, icons with design solutions that has a certain elegance that resonates with your users' emotions. </p>
-
+                                WDS design experts use research, empathy and insight to define how software functions and build workflows for the ways that people will use and experience it. From inception to launch, the users' voice is always heard, leaving no detail missed.</p> 
                             <p className="content-text-18">
-                            For example, when asked about a user input for a security setting during WI-FI installation, one customer had no complaints until she sat down to use the program in front of the observer. Then she was confused when the program did not automatically select a security option. Not accustomed to the problem, she consistently made the incorrect decision. During the interview process this was never talked about because people want to appear smart and knowledgeable. Observing this issue and providing a simple solution, such as provide recommended security settings, saves her time and is empowering. All the little things add up as big time wasters and need to be eliminated.</p>
+                                The visual elements, they create will establish your brand as a design leader in your space. By understanding your business, users and competition WDS will ensure that you have a unique presence that include familiar use of fonts, icons with design solutions that has a certain elegance that resonates with your users' emotions. </p>
+                            <p className="content-text-18">
+                                For example, when asked about a user input for a security setting during WI-FI installation, one customer had no complaints until she sat down to use the program in front of the observer. Then she was confused when the program did not automatically select a security option. Not accustomed to the problem, she consistently made the incorrect decision. During the interview process this was never talked about because people want to appear smart and knowledgeable. Observing this issue and providing a simple solution, such as provide recommended security settings, saves her time and is empowering. All the little things add up as big time wasters and need to be eliminated.</p>
                         </div>  
                     </div>
                 </section>
@@ -97,7 +95,7 @@ class services extends Component {
                             Websites, Products and Applications
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center margin-top-15sm">
-                            <img className="container-image-500 margin-top-2 padding-sm-10-20" src={services2}  alt="UI Design" /> 
+                            <img className="photo-container margin-top-2 padding-sm-10-20" src={services2}  alt="UI Design" /> 
                             
                             </div>
                         <div className="margin-top-15">  
@@ -122,7 +120,7 @@ class services extends Component {
                          Empathetic Design
                     </div>
                     <div className="margin-top-15 content-block-60"> <div className="float-right callout-photo grid-placeself-center margintop-4per" >
-                                <img className="container-image-500" src={services7}  alt="Design Solutions" /> 
+                                <img className="photo-container" src={services7}  alt="Design Solutions" /> 
                         </div> 
                         <p className="content-text-18 "> 
                             WDS design solutions include software design, websites, marketing and print. WDS design solutions provide our clients consistency across all their consumer touchpoints. </p> 
@@ -145,7 +143,7 @@ class services extends Component {
                          Insight through Observations
                     </div>
                     <div className="margin-top-15 content-block-60"> <div className="float-right callout-photo grid-placeself-center">
-                                <img className="container-image-500" src={services5}  alt="Strategy and Insight" /> 
+                                <img className="photo-container" src={services5}  alt="Strategy and Insight" /> 
                         </div>  
                         <p className="content-text-18">
                             The most meaningful insights for design strategy are developed with behavior-based understanding of users. WDS experience strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve.</p> 
@@ -170,7 +168,7 @@ class services extends Component {
                             Scalable Enterprise Solutions
                     </div>
                     <div className="margin-top-15 content-block-60"> <div className="float-right callout-photo grid-placeself-center">
-                                <img className="container-image-500" src={casscade}  alt="Strategy and Insight" /> 
+                                <img className="photo-container" src={casscade}  alt="Strategy and Insight" /> 
                         </div>  
                         <p className="content-text-18 content-block-60">
                             WDS provides CSS services that include CSS development, strategy, CSS system implementation, mentoring and documentation,including best of practice.</p> 
@@ -185,7 +183,7 @@ class services extends Component {
                 </section>
 
 
-                <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"></div>
+                <div className="hr-line"></div>
 
                 <section className="float-left flex-layout-section-full flex-layout-column flex-layout-center-center">
                     <div className=" title content-block-60">
@@ -195,7 +193,7 @@ class services extends Component {
                         Social Media Marketing Done Right 
                     </div>
                     <div className="margin-top-15 content-block-60"> <div className="float-right callout-photo grid-placeself-center">
-                                <img className="container-image-500" src={services4}  alt="Social Media" /> 
+                                <img className="photo-container" src={services4}  alt="Social Media" /> 
                         </div>  
                         <p className="content-text-18 ">
                         Social Media marketing and all other forms of media marketing will make your customers feel uniquely valued when done right. WDS understands people on a deep level. Their UX methodology gives a voice to the your users. Your marketing campaign should be a reflection of the vision of who you are as a business and tell that story.  We will define a marketing strategy based on research, data with a clear vision that reflects and embraces real human values.</p> 
@@ -236,7 +234,7 @@ class services extends Component {
                            <a href="./ux_design" className="no-decoration">
                                UX Design</a> 
                         </div>
-                    <ul className="dashed content-text-18 margin-top-15 margin-left-30per">
+                    <ul className="dashed content-text-18 list1">
                         <li>Interaction Design</li>
                         <li>Visual Design</li>
                         <li>Personas</li>
@@ -254,7 +252,7 @@ class services extends Component {
                             <a href="./ui_design" className="no-decoration"> 
                             UI Design </a>
                     </div>
-                        <ul className="dashed content-text-18 margin-left-30per margin-top-15">
+                        <ul className="dashed content-text-18 list1">
                             <li>Hi-Fidelity Designs</li>
                             <li>Design Build Kits</li>
                             <li>Concept Validation</li> 
@@ -288,7 +286,7 @@ class services extends Component {
                             <a href="./design_solutions" className="no-decoration ">
                                 Core Offerings</a>
                         </div>
-                            <ul className="dashed content-text-18 margin-left-25 margin-top-15">
+                            <ul className="dashed content-text-18 list1">
                                 <li>Business Design Strategies</li>
                                 <li>Empathy Workshops</li>
                                 <li>Communication Strategies</li>
@@ -306,7 +304,7 @@ class services extends Component {
                         <div className="subtitle-center margin-top-15"> <img className="padding-20 margin-bottom-10" src={icon_design}  alt="Design" /><br></br>
                                 <a href="./design_solutions" className="no-decoration margin-left-10per">
                                     Design Solutions</a></div>
-                            <ul className="dashed content-text-18 margin-left-25 margin-top-15">
+                            <ul className="dashed content-text-18 list1">
                                 <li>User Interface Design</li>
                                 <li>Visual Design</li>
                                 <li>Design Metrics</li>
@@ -321,24 +319,24 @@ class services extends Component {
             </div>
                 
                 <section className="grid-callout-2col content-header align-self-center justify-items-center hrline-spacing width-70">
-                    <div className="gallery-2col-1 container-image-500">
-                        <a href ="./css_solutions"><img className="container-image-500 border-2" src={services8}  alt="CSS Solutions" /> </a>
-                        <div className="content-block-auto ">
-                            <div className="title margin-top-50">
+                    <div className="gallery-2col-1">
+                        <a href ="./css_solutions"><img className="photo-container-callout border-2" src={services8}  alt="CSS Solutions" /> </a>
+                        <div className="content-block">
+                            <div className="title-center margin-top-25">
                                 <a href="./css_solutions" className="no-decoration">
                                 CSS Solutions</a>
                             </div>
-                            <p className="content-text-18 content-block-auto margin-top-15">
+                            <p className="content-text-18 content-block margin-top-15">
                                 Taming the specificity beast used to be difficult. WDS CSS strategy almost eliminates the specificity problems. It reduces greatly the need for your developers to write CSS. The advantage is past experience working with developers and interviewing and observing them working with CSS.</p>
                         </div>
                     </div>     
-                    <div className="gallery-2col-2t container-image-500 align-self-top">
-                    <a href ="./design_systems"> <img className="container-image-500 border-2"  src={services9}  alt="Business Solutions" /> </a>
-                        <div className="content-block-auto ">
-                            <div className="title margin-top-50">
-                            <a href="./design_systems" className="no-decoration margin-top-10persm"> 
+                    <div className="gallery-2col-2t align-self-top">
+                    <a href ="./design_systems"> <img className="photo-container-callout border-2 margin-top-min50per-sm"  src={services9}  alt="Business Solutions" /> </a>
+                        <div className="content-block">
+                            <div className="title-center margin-top-25 ">
+                            <a href="./design_systems" className="no-decoration"> 
                                 Design Systems</a></div>
-                            <p className="content-text-18 margin-top-15 content-block-auto">
+                            <p className="content-text-18 margin-top-15 content-block">
                                 At WDS, they know and understand the importance of design systems to businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff.</p>
                         </div>
                     </div>

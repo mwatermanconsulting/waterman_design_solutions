@@ -45,7 +45,7 @@ class ui_design extends Component {
                     WDS lives for the comment "why didn't we think of that" commonly expressed by stakeholders and/or managers during the design reveal.  </div>        
                     </div>
                     <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
-                        <img className="container-photo-callout margin-left-15per" src={ui_s1}  alt="Finding Truth" /> 
+                        <img className="container-photo-callout margin-left-5per margin-top-25sm" src={ui_s1}  alt="Finding Truth" /> 
                     </div>
             </section>
 
@@ -57,7 +57,7 @@ class ui_design extends Component {
                 </p>
             </section>
 
-            <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"></div>
+            <div className="hr-line"></div>
 
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
                     <div className="float-left flex-layout-center-center content-block-60">
@@ -67,16 +67,17 @@ class ui_design extends Component {
                         <div className="subtitle margin-top-10">
                             Websites, Products and Applications
                         </div> 
-                        <div className="float-right callout-photo grid-placeself-center margin-top-15sm">
-                            <img className="container-image-500" src={ui_s2}  alt="UI" /> 
-                        </div>
+                       
                         <div className="margin-top-15">  
                             <p className="content-text-18"> 
-                            WDS began its UI design skills by designing websites in 1998. Over the years they have evolved to developing complicated healthcare websites and solving difficult UI problems on critical applications. Their UI designs for data visualization are being used on oil rigs, nuclear reactors and pharmaceutical drug plants.  
-                            </p>
-                            <p className="content-text-18">
-                            WDS can take care of the front-end development, including CSS and HTML, working on-site with your team or creating GIT build-packages, complete with custom CSS solutions, patterns libraries, style guides, best of practice documentation and design strategies, ensuring and enforcing original design and solutions.
-                            </p>      
+                                <div className="float-right callout-photo grid-placeself-center">
+                                    <img className="photo-container" src={ui_s2}  alt="UI" /> 
+                                </div> 
+                                WDS began its UI design skills by designing websites in 1998. Over the years they have evolved to developing complicated healthcare websites and solving difficult UI problems on critical applications. Their UI designs for data visualization are being used on oil rigs, nuclear reactors and pharmaceutical drug plants.  
+                                </p>
+                                <p className="content-text-18 margin-top-15">
+                                WDS can take care of the front-end development, including CSS and HTML, working on-site with your team or creating GIT build-packages, complete with custom CSS solutions, patterns libraries, style guides, best of practice documentation and design strategies, ensuring and enforcing original design and solutions.
+                                </p>      
                             
                             </div>  
                         </div>
@@ -92,12 +93,12 @@ class ui_design extends Component {
                         <div className="subtitle margin-top-10">
                             Mock-ups and Wireframes
                         </div> 
-                        <div className="float-right callout-photo grid-placeself-center margin-top-15sm">
-                                 <img className="container-image-500" src={ui_s3}  alt="Mock-ups and Wireframes" /> 
-                            </div>
-                        <div className="margin-top-15">  
                        
+                        <div className="margin-top-15">  
                             <p className="content-text-18"> 
+                             <div className="float-right callout-photo">
+                                 <img className="photo-container" src={ui_s3}  alt="Mock-ups and Wireframes" /> 
+                            </div>
                             Known as low-tech, this is a simple and easy translation of the product and design concepts. It is used to turn  design ideas into testable and tangible artifacts, collecting and analyzing the user demands at the early stage.
                             </p>
                             <p className="content-text-18">
@@ -106,33 +107,31 @@ class ui_design extends Component {
                             <p className="content-text-18">
                             Low fidelity prototyping can help discover the issues of design and get them resolved at the early stage, with much less time and effort. An interesting and proven phenomenon is that the low-fi prototyping has become a preferred choice for both start-ups and giant brands.
                             </p>      
-                            
                             </div>  
                         </div>
                     </section>
 
-                    <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"></div>
+                    <div className="hr-line"></div>
 
                     <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
-                    <div className="float-left flex-layout-center-center content-block-60">
-                        <div className="title">
-                            Hi-Fidelity Designs
-                        </div>
-                        <div className="subtitle margin-top-10">
-                            Representing the Final Product
-                        </div> 
-                        <div className="float-right callout-photo grid-placeself-center margin-top-15sm">
-                                 <img className="container-image-500 margin-top-25per" src={ui_s4}  alt="Hi-Fidelity Designs" /> 
+                        <div className="float-left flex-layout-center-center content-block-60">
+                            <div className="title">
+                                Hi-Fidelity Designs
                             </div>
+                        <div className="subtitle margin-top-10">
+                               Representing the Final Product
+                        </div> 
                         <div className="margin-top-15">  
-                       
                             <p className="content-text-18"> 
-                            High fidelity designs are quite close to the final product, with lots of functionality and details included. This is often used in the later usability evaluation to discover the potential issues that may exist in the workflow, interactivity and so on.
+                                <div className="float-right callout-photo grid-placeself-center margin-top-15sm">
+                                    <img className="photo-container" src={ui_s4}  alt="Hi-Fidelity Designs" /> 
+                                </div>
+                                High fidelity designs are quite close to the final product, with lots of functionality and details included. This is often used in the later usability evaluation to discover the potential issues that may exist in the workflow, interactivity and so on.
                             </p>
                             <p className="content-text-18">
-                            Most low-fidelity wireframes communicate function well, but communicate form poorly. This is especially the case for mobile applications that have standard interface components with a consistent look and feel. A high-fidelity wireframe of a mobile application will communicate the user interface form and function better because the wireframe better resembles the standard interface components that users are familiar with.</p>
+                                Most low-fidelity wireframes communicate function well, but communicate form poorly. This is especially the case for mobile applications that have standard interface components with a consistent look and feel. A high-fidelity wireframe of a mobile application will communicate the user interface form and function better because the wireframe better resembles the standard interface components that users are familiar with.</p>
 
-                            <p className="content-text-18"> On a high-fidelity wireframe, there’s also no question to clients about what is a button or text field because of the gradient detail on the elements. Low-fidelity wireframes don’t give the gradient details that clients need to tell what each interface element is and how they function. Both form and function are key to the user experience. Reducing the form of your user interface too much could impact how clients view your wireframes.
+                            <p className="content-text-18"> On a high-fidelity wireframe, there’s also no question to clients about what is a        button or text field because of the gradient detail on the elements. Low-fidelity wireframes don’t give the          gradient details that clients need to tell what each interface element is and how they function. Both form and       function are key to the user experience. Reducing the form of your user interface too much could impact how          clients view your wireframes.
                             </p>      
                             
                             </div>  
@@ -149,18 +148,17 @@ class ui_design extends Component {
                         <div className="subtitle margin-top-10">
                             Ensuring your Design Success
                         </div> 
-                        <div className="float-right callout-photo grid-placeself-center margin-top-15sm">
-                            <img className="container-image-500" src={ui_s5}  alt="Concept Validation" /> 
-                        </div>
+                        
                         <div className="margin-top-15">  
                        
                             <p className="content-text-18"> 
-                            WDS provides design support for businesses. Many software businesses still have developers designing hi-fidelity designs. The WDS team of experienced designers can critique current designs before usability testing begins to help identify design and usability problems.  
+                                <div className="float-right callout-photo grid-placeself-center margin-top-15sm">
+                                    <img className="photo-container" src={ui_s5}  alt="Concept Validation" /> 
+                                </div> 
+                                WDS provides design support for businesses. Many software businesses still have developers designing hi-fidelity designs. The WDS team of experienced designers can critique current designs before usability testing begins to help identify design and usability problems.  
                             </p>
                             <p className="content-text-18">
-                            
-                            The design critique is an expert analysis that examines the current site or application screens in comparison to industry standards and established best practices. This helps to point out areas of opportunity that can be addressed during the design process in an effort to best the competition. This critique results in a presentation of findings that includes both areas of opportunities and concrete recommendations.
-                            
+                                The design critique is an expert analysis that examines the current site or application screens in comparison to industry standards and established best practices. This helps to point out areas of opportunity that can be addressed during the design process in an effort to best the competition. This critique results in a presentation of findings that includes both areas of opportunities and concrete recommendations.
                             </p>      
                             
                             </div>  
@@ -177,12 +175,12 @@ class ui_design extends Component {
                         <div className="subtitle margin-top-10">
                             The "aha" Moment
                         </div> 
-                        <div className="float-right callout-photo grid-placeself-center margin-top-15sm">
-                            <img className="container-image-500 margin-top-2per" src={ui_s6}  alt="Consolidated Workflows" /> 
-                          
-                        </div>
+                       
                         <div className="margin-top-15">  
                             <p className="content-text-18"> 
+                                <div className="float-right callout-photo grid-placeself-center">
+                                    <img className="photo-container" src={ui_s6}  alt="Consolidated Workflows" /> 
+                                </div>
                             When an engagement centers on a complex tool for the enterprise, the consolidated workflow captures activity across organizational roles and provides stakeholders a single view of all of the work accomplished in and around a tool. This diagram gives stakeholders an “aha!” moment as, for the first time, they have a picture of the duties employees or customers accomplish in their work lives. Through the use of a consolidated workflow diagram, WDS sees how a user moves through tasks and extrapolates from here to the various cognitive states a user inhabits while engaged with the solution or process. These cognitive states represent a model of what is in people’s minds as they do their work, it's their mental model. This understanding has implications for both design and marketing.
                             </p> 
                         </div>  
@@ -200,7 +198,7 @@ class ui_design extends Component {
                             Business Tailored UI Design Kits
                         </div> 
                         <div className="float-right callout-photo grid-placeself-center margin-top-15sm">
-                            <img className="container-image-500" src={ui_s7}  alt="HTML and CSS Build-Kits" />  
+                            <img className="photo-container" src={ui_s7}  alt="HTML and CSS Build-Kits" />  
                         </div>
                         <div className="margin-top-15">  
                             <p className="content-text-18">
@@ -224,12 +222,13 @@ class ui_design extends Component {
                         <div className="subtitle margin-top-10">
                             If a picture is worth 1000 words, a prototype is worth 1000 meetings
                         </div> 
-                        <div className="float-right callout-photo grid-placeself-center margin-top-1 margin-top-15sm">
-                            <img className="container-image-500" src={ui_s8}  alt="Prototypes" />  
-                        </div>
+                        
                         <div className="margin-top-15">  
                        
-                            <p className="content-text-18"> 
+                            <p className="content-text-18">
+                                <div className="float-right callout-photo grid-placeself-center margin-top-15sm">
+                                    <img className="photo-container" src={ui_s8}  alt="Prototypes" />  
+                                </div> 
                                 Testing before development begins is crucial to the success of any project. Observing users actions on the prototype can provide insight into what's working and what needs to be discarded or rethought.
                             </p>
                             <p className="content-text-18">
@@ -242,24 +241,25 @@ class ui_design extends Component {
                 
                 <div className="hr-line"></div>
 
-                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-25sm ">
+                <section className="flex-layout-section-full flex-layout-column margin-bottom-75 flex-layout-center-center">
                      <div className="title-center content-block-60">
                             Design is not about being pretty or aesthetically pleasing,  it is about simplicity.
                     </div>
                     <div className="content-text-21 margin-top-50 margin-top-50sm content-block-65">
                         WDS has been designing user interfaces for over twenty years. They originally designed user interfaces for websites, but that changed with their first complicated industrial user interface  designed for Motorola. Since then the UI design services expanded to all consumer-facing touchpoints, including software, mobile, SaaS and kiosks.
                     </div> 
-                </section> 
+                </section>
 
-                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-75 margin-top-50sm  grey border-top-5">
-                        <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
-                    <img className="container-image-500 margin-bottom-50 margin-top-50sm" src={didyouknow}  alt="Did You Know?" /> 
-                    <div>
-                        <p className="callout-text-white text-align-center">
-                        WDS designed UI solutions for data display software that worked with nuclear reactors.</p>
+                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center padding-top-50 grey border-top-5">
+                <div className="content-block-55 text-align-center"> 
+                       <img className="container-image-500 padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
+                      
+                      <div >
+                          <p className="callout-text-white text-align-center">
+                              Need a new one here.</p>
                     </div>
                 </div>
-            </section>
+            </section>      
         </div>
     </div>
         )

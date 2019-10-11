@@ -38,15 +38,12 @@ class core_offerings extends Component {
             </div>
             <section className="grid-callout photo-content-color border-bottom-5" > 
                 <div className="grid-placeself-center content-block-75 flex-layout-column">
-                    <div className="callout-text text-align-left margin-top-15 margin-left-30per padding-sm">
-                        
-                        The best customer experience starts with the Golden Rule - treat the user the way you would like to be treated.
-                    
-                        Too often, companies get attached to the product and lose sight of the people using it. 
-                        </div>
+                    <div className="callout-text padding-20 text-align-left margin-top-15 margin-left-2" >
+                    The best customer experience starts with the Golden Rule - treat the user the way you would like to be treated.
+                    Too often, companies get attached to the product and lose sight of the people using it.  </div>        
                     </div>
-                    <div className="grid-callout-photo grid-placeself-center margin-right-35 content-block-75 margin-tb-100">
-                        <img className="container-photo-callout " src={offerings1}  alt="Core Offerings" /> 
+                    <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
+                        <img className="container-photo-callout margin-left-15per margin-top-15sm" src={offerings1}  alt="Finding Truth" /> 
                     </div>
             </section>
             <section className="flex-layout-column flex-layout-center-center">
@@ -58,7 +55,7 @@ class core_offerings extends Component {
 
                     </div>
                     <div className="content-block-65">
-                        <p className="content-text-18 margin-top-25"> 
+                        <p className="content-text-18 margin-top-25 content-block-65"> 
                         WDS instills a culture of design into your company through a series of workshops, talks and business design strategies. Their C-suite workshops provide design data and proven strategies to effectively communicate design into meetings and corporate communications. They can mentor your teams and provide advanced workshops for design strategies.
                         </p>
                     </div>
@@ -70,7 +67,7 @@ class core_offerings extends Component {
                 <div className="subtitle content-block-60">
                     Common Business Design Problems
                 </div>
-                <ul className="dashed content-block-60 margin-top-25 content-text-21">
+                <ul className="dashed content-block-60 margin-top-15 content-text-21">
                     <li>Business losing touch with its core values</li>
                     <li>C-Suite not communicating value of design</li>
                     <li>Communication issues between teams - teams working on an island</li>
@@ -91,7 +88,7 @@ class core_offerings extends Component {
                         Communication Workshops and Strategies  
                 </div>
                 <div className="subtitle margin-top-10 content-block-60">
-                        If everyone is moving forward together, then success takes care of itself. - Henry Ford 
+                        If everyone is moving forward together, then success takes care of itself.<br/> - Henry Ford 
                 </div>
                 <div className="content-block-60 content-text-18 margin-top-15">
                     <p className="content-text-18">  <div className="float-right">
@@ -234,7 +231,7 @@ class core_offerings extends Component {
                         It's about the customer's journey
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
-                        <div className="float-right margin-top-5per">
+                        <div className="float-right">
                             <img className="photo-container"  src={offerings6}  alt="Customer Experience Solutions" /> 
                         </div>
                         <p className="content-text-18"> 

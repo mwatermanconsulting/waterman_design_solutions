@@ -37,7 +37,7 @@ class style_guide extends Component {
                     A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive, combining components, behaviors, and branding. It must also be flexible and scalable.</div>        
                     </div>
                     <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
-                        <img className="container-photo-callout margin-left-15per" src={design_systems2}  alt="Finding Truth" /> 
+                        <img className="container-photo-callout margin-left-15per margin-top-25sm" src={design_systems2}  alt="Finding Truth" /> 
                     </div>
             </section>
     
@@ -47,12 +47,12 @@ class style_guide extends Component {
 
                 </div>
                 <div className="content-block-55 margin-top-25">
-                    <p className="content-text-24">
+                    <p className="content-text-21">
                     Style guides and design systems are there to make your lives easier. It keeps  designs consistent internally and help developers be more productive. </p>
                 </div>
             </section> 
             
-            <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+            <div className="hr-line"></div>
 
             <div className="flex-layout-section-full flex-layout-column align-self-center">
                 <section className="float-left align-self-center flex-layout-center-center content-block-60">
@@ -66,7 +66,7 @@ class style_guide extends Component {
                         </div>
                         <div className="content-text-18 margin-top-15" >
                             <div className="float-right">
-                            <img className="photo-container width-100" src={design_systems2}  alt="Less Errors" /> 
+                            <img className="photo-container" src={design_systems2}  alt="Less Errors" /> 
                         </div>
                             <p className="content-text-18"> 
                             Another benefit of using prebuilt and standardized component is less errors. There’s no chance of making a mistake when you’re copying from a master version. As long as the components in your design system are accurate, their use in your products will be accurate.
@@ -79,7 +79,7 @@ class style_guide extends Component {
                         </div>   
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="float-left content-header align-items-center flex-layout-column">
                     <div className="title content-block-60">
@@ -99,9 +99,9 @@ class style_guide extends Component {
                         </div>
                 </section>
 
-                <div className="thin-hr width-70 content-block-65 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
-                <section className="flex-layout-justified-sb flex-layout-row margin-top-25 content-block-50">
+                <section className="flex-layout-justified-sb flex-layout-row content-block-50">
                     <div className="flex-layout-section-full">
                         <div className="subtitle-center">
                             No Version Control Problems
@@ -112,7 +112,7 @@ class style_guide extends Component {
                         </div>
                     </div>
 
-                    <div className="thin-hr width-100 align-self-center hrline-spacing"></div> 
+                    <div className="hr-line"></div>
 
                     <div className="flex-layout-section-full margin-top-25">
                         <div className="subtitle-center">
@@ -127,7 +127,7 @@ class style_guide extends Component {
                     </div>    
                 </section>
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>
+                <div className="hr-line"></div>
 
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
@@ -144,7 +144,7 @@ class style_guide extends Component {
                     </div>  
                 </section>  
 
-                <div className="thin-hr width-70 align-self-center hrline-spacing"></div>     
+                <div className="hr-line"></div>    
 
                 <section className="float-left align-items-center flex-layout-section-full margin-bottom-50 content-header">
                     <div className="title content-block-60">
