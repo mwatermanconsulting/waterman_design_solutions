@@ -35,38 +35,39 @@ class clients extends Component {
             </div>
             <section className="grid-callout photo-content-color border-bottom-5" > 
                 <div className="grid-placeself-center content-block-75 flex-layout-column">
-                    <div className="callout-text padding-20 text-align-left margin-top-15" >
+                    <div className="callout-text padding-20 text-align-left margin-top-15 margin-top-10sm" >
                         For over twenty years WDS has worked and partnered with some amazing people and businesses. Each client has brought a higher level of skills to WDS services.</div>        
                     </div>
-                    <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
+                    <div className="grid-callout-photo grid-placeself-center content-block-75 margin-top-25sm margin-tb-100">
                         <img className="container-photo-callout" src={clients1}  alt="Clients" /> 
                     </div>
                 
             </section>
 
-            <section className="content-header flex-layout-center-center flex-layout-column margin-bottom-100">
-                <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-50">
-                    WDS client roster includes Motorola, Google, Pfizer, Stubhub, SmithKline, OsiSoft and more 
+            <section className="flex-layout-center-center flex-layout-column margin-top-75">
+                <div className="title-center content-block-65">
+                    WDS has a client roster that includes Motorola, Google, Pfizer, Stubhub, SmithKline,
                 </div>
             </section>
-            <section className="flex-layout-section-full flex-layout-center-center">
+            <section className="flex-layout-section-full flex-layout-center-center margin-top-75">
                 <div className="justify-content-center align-items-center">
-                <ul className="grid-clients-wrapper align-items-center content-block-70">
-                    <li  className="grid-clients-box">
-                        <img className="width-100 height-100" src={motorola}  alt="motorola" /></li>
-                    <li  className="grid-clients-box">
-                        <img className="width-100 height-100" src={osi}  alt="osi" />
-                    </li>
-                    <li  className="grid-clients-box">
-                        <img className="width-100 height-100" src={pfizer}  alt="pfizer" /></li>
-                    <li  className="grid-clients-box">
-                        <img className="width-100 height-100" src={ketchhot}  alt="ketchhot" /></li>
-                    <li  className="grid-clients-box">
-                        <img className="width-100 height-100" src={pii}  alt="pii" /></li>
-                    <li  className="grid-clients-box">
-                        <img className="width-100 height-100" src={smithkline}  alt="smithkline" /></li>
-                    <li  className="grid-clients-box">
-                        <img className="width-100 height-100" src={investorforce}  alt="investorforce" /></li>
+                    <ul className="grid-clients-wrapper align-items-center content-block-65">
+                        <li  className="grid-clients-box">
+                            <img className="width-100 height-100" src={pfizer}  alt="pfizer" /></li>
+                        <li  className="grid-clients-box">
+                            <img className="width-100 height-75" src={osi}  alt="osi" />
+                        </li>
+                   
+                        <li  className="grid-clients-box">
+                            <img className="width-100 height-100" src={motorola}  alt="motorola" /></li>
+                        <li  className="grid-clients-box">
+                            <img className="width-100 height-100" src={ketchhot}  alt="ketchhot" /></li>
+                        <li  className="grid-clients-box">
+                            <img className="width-100 height-100" src={pii}  alt="pii" /></li>
+                        <li  className="grid-clients-box">
+                            <img className="width-100 height-100" src={smithkline}  alt="smithkline" /></li>
+                        <li  className="grid-clients-box">
+                            <img className="width-100 height-100" src={investorforce}  alt="investorforce" /></li>
                     <li  className="grid-clients-box">
                         <img className="width-100 height-100" src={stubhub}  alt="stubhub" /></li>
                 </ul>
@@ -78,7 +79,7 @@ class clients extends Component {
                        <img className="container-image-500 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
                       
                       <div >
-                          <p className="callout-text-white text-align-center">  WDS data visualizations design solutions are being used by the world’s largest brands.</p> 
+                          <p className="callout-text-white text-align-center"> WDS design solutions for data visualizations applications are being used by the world’s largest brands.</p> 
                         
                     </div>
                 </div>

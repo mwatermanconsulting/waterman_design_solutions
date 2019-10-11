@@ -8,6 +8,11 @@
 
 /* margins */
 /* margins */
+
+.margin-bottom-min15 {
+  margin-bottom: -15px;
+}
+
 .margin-left-1per{
   margin-left: 1%;
 }
@@ -122,6 +127,10 @@
   margin-left: -32%;
 }
 
+.margin-left-32persm {
+  margin-left: 0%;
+}
+
 .margin-left-10per {
   margin-left: 10%;
 }
@@ -200,6 +209,11 @@
   margin-left: 0%;
 }
 
+
+.margin-left-2persm {
+  margin-left: 0%;
+}
+
 .margin-left-min2sm {
   margin-left: -2%;
 }
@@ -245,6 +259,10 @@
 }
 
 .margin-top-25sm {
+  margin-top: 0;
+}
+
+.margin-top-30sm {
   margin-top: 0;
 }
 
@@ -338,6 +356,10 @@
 
   .margin-top-min10per {
     margin-top: 0%;
+  }
+
+  .margin-top-min25sm {
+    margin-top: 0px;
   }
 
   .margin-top-15per {
@@ -519,7 +541,7 @@
 
    .float-right {
     float: right;
-    padding: 15px 5px 15px 25px;
+    padding: 15px 7px 15px 30px;
    }
 
   .float-left {
@@ -825,8 +847,27 @@
   align-items: flex-start;
  }
 
-
   .photo-container {
+    width: 100%;
+    height: auto;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .photo-container-cheer {
+    width: 550px;
+    height:333px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .photo-container-callout {
     width: 550px;
     height:333px;
     padding-bottom: 0px;
@@ -996,7 +1037,7 @@
       .marginleft50 {
         margin-left: 50px; }
 
-.margin-bottom-10 {
+.margin-bottom-10sm {
      margin-bottom: 10px;
 }
 
@@ -1020,7 +1061,15 @@
 .media-left-margin {
   margin-left: 1%
 }
+
+.list1 {
+  margin-top: 15px;
+  margin-left: 19%;
+}
     
+.margin-top-min50per-sm{
+  margin-top: 0%;
+}
     .margin-bottom-50 {
       margin-bottom: 50px;
     }
@@ -1040,6 +1089,11 @@
     .margin-top-15 {
       margin-top: 15px;
     }
+
+    .margin-top-min15 {
+      margin-top: -15px;
+    }
+    
     
     .margin-top-25 {
       margin-top: 25px;

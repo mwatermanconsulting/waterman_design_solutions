@@ -197,6 +197,9 @@ footer {
   *******************************/
 /* margins */
 /* margins */
+.margin-bottom-min15 {
+  margin-bottom: -15px; }
+
 .margin-left-1per {
   margin-left: 1%; }
 
@@ -282,6 +285,9 @@ footer {
 .margin-left-32 {
   margin-left: -32%; }
 
+.margin-left-32persm {
+  margin-left: 0%; }
+
 .margin-left-10per {
   margin-left: 10%; }
 
@@ -342,6 +348,9 @@ footer {
 .margin-left-2sm {
   margin-left: 0%; }
 
+.margin-left-2persm {
+  margin-left: 0%; }
+
 .margin-left-min2sm {
   margin-left: -2%; }
 
@@ -376,6 +385,9 @@ footer {
   margin-left: 140px; }
 
 .margin-top-25sm {
+  margin-top: 0; }
+
+.margin-top-30sm {
   margin-top: 0; }
 
 .flex-wrap {
@@ -448,6 +460,9 @@ footer {
 
 .margin-top-min10per {
   margin-top: 0%; }
+
+.margin-top-min25sm {
+  margin-top: 0px; }
 
 .margin-top-15per {
   margin-top: -15%; }
@@ -582,7 +597,7 @@ footer {
 
 .float-right {
   float: right;
-  padding: 15px 5px 15px 25px; }
+  padding: 15px 7px 15px 30px; }
 
 .float-left {
   float: left;
@@ -828,6 +843,24 @@ footer {
   align-items: flex-start; }
 
 .photo-container {
+  width: 100%;
+  height: auto;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-left: 0px; }
+
+.photo-container-cheer {
+  width: 550px;
+  height: 333px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-left: 0px; }
+
+.photo-container-callout {
   width: 550px;
   height: 333px;
   padding-bottom: 0px;
@@ -983,7 +1016,7 @@ footer {
 .marginleft50 {
   margin-left: 50px; }
 
-.margin-bottom-10 {
+.margin-bottom-10sm {
   margin-bottom: 10px; }
 
 .margin-bottom-20 {
@@ -1001,6 +1034,13 @@ footer {
 .media-left-margin {
   margin-left: 1%; }
 
+.list1 {
+  margin-top: 15px;
+  margin-left: 19%; }
+
+.margin-top-min50per-sm {
+  margin-top: 0%; }
+
 .margin-bottom-50 {
   margin-bottom: 50px; }
 
@@ -1015,6 +1055,9 @@ footer {
 
 .margin-top-15 {
   margin-top: 15px; }
+
+.margin-top-min15 {
+  margin-top: -15px; }
 
 .margin-top-25 {
   margin-top: 25px; }
@@ -1281,6 +1324,7 @@ h1 {
   font-weight: 700;
   letter-spacing: 0.8px;
   text-align: center;
+  margin-top: 0px;
   color: #000; }
 
 .callout-title {
@@ -1536,7 +1580,12 @@ footer.link-color {
 .container-photo-callout {
   width: 650px;
   height: 450px;
-  border: 2px solid #fff; }
+  margin-left: 0%; }
+
+.photo-callout-top {
+  width: 650px;
+  height: 450px;
+  margin-left: 0%; }
 
 .container-photo-50px {
   width: 50px;
@@ -3123,6 +3172,12 @@ a.menu {
   width: 85%;
   margin-left: 8%; }
 
+.width-250 {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  margin-left: 0%; }
+
 .home-item {
   flex: 0 50%;
   height: auto;
@@ -3252,6 +3307,10 @@ a:any-link {
 @media (min-width: 319px) {
   .display-none {
     visibility: hidden; }
+  .caption {
+    text-align: center;
+    font-size: .875rem;
+    font-style: italic; }
   .float-left {
     float: left;
     padding: 0; }
@@ -3260,6 +3319,14 @@ a:any-link {
     display: inline-block;
     transition-timing-function: ease-out;
     transition: 0.75s; }
+  .photo-container-callout {
+    width: 142%;
+    height: auto;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-left: -22%;
+    padding-left: 0px; }
   .photo-container-cs-sb2 {
     width: 100%;
     max-width: 400px;
@@ -3320,6 +3387,8 @@ a:any-link {
     margin-left: 8%; }
   .why-margin-list-3 {
     margin-left: 12%; }
+  .margin-top-30sm {
+    margin-top: -30px; }
   .border-2-sm {
     border: 2px solid rgba(58, 58, 58, 0.838); }
   .home-item {
@@ -3383,12 +3452,18 @@ a:any-link {
   .title-center {
     line-height: 58.25px;
     font-size: 2.0; }
+  .margin-top-min25sm {
+    margin-top: -25px; }
   .margin-bottom-25sm {
     margin-bottom: 25px; }
   .margin-left-50 {
     margin-left: 0%; }
   .margin-top-50cs {
     margin-top: 25px; }
+  .margin-left-2 {
+    margin-left: 0%; }
+  .margin-top-min50per-sm {
+    margin-top: -50%; }
   .margin-right-25 {
     margin-right: 0%; }
   .margin-right-35 {
@@ -3396,7 +3471,7 @@ a:any-link {
   .margin-left-3 {
     margin-left: -3%; }
   .margin-left-30per {
-    margin-left: 10%; }
+    margin-left: -7%; }
   .margin-left-5sm {
     margin-left: 5%; }
   .margin-right-25sm {
@@ -3431,6 +3506,8 @@ a:any-link {
     margin-left: -25%; }
   .margin-left-2sm {
     margin-left: -2%; }
+  .margin-left-2persm {
+    margin-left: 2%; }
   .margin-left-min2 {
     margin-left: 0%; }
   .margin-left-4sm {
@@ -3449,12 +3526,20 @@ a:any-link {
     flex-wrap: wrap; }
   .margin-left-20per {
     margin-left: 0%; }
+  .container-photo-callout {
+    width: 116%;
+    max-width: 650px;
+    height: auto;
+    border: 2px solid #000;
+    margin-left: -7%; }
   .margin-left-6per {
     margin-left: -6px; }
   .margin-left-min15sm {
     margin-left: -15%; }
   .padding-top-6sm {
     padding-top: 0%; }
+  .margin-left-10per {
+    margin-left: 10%; }
   .margin-top-plus5per {
     margin-top: 5%; }
   .margin-top-10per {
@@ -3469,8 +3554,10 @@ a:any-link {
     margin-top: 15px; }
   .margin-left-25 {
     margin-left: 0%; }
-  .margin-bottom-15sm {
+  .margin-bottom-15 {
     margin-bottom: 15px; }
+  .margin-bottom-min15 {
+    margin-bottom: 10px; }
   .margin-bottom-100 {
     margin-bottom: 50px; }
   .padding-15sm {
@@ -3520,6 +3607,8 @@ a:any-link {
     margin-left: -12%; }
   .media-left-margin {
     margin-left: 12%; }
+  .margin-left-32persm {
+    margin-left: 32%; }
   .margin-left-325 {
     margin-left: 0px; }
   .visibility {
@@ -3549,9 +3638,15 @@ a:any-link {
   .width-70 {
     width: 70%; }
   .width-250 {
+    width: 110%;
+    max-width: 500px;
+    height: auto;
+    margin-left: -6%; }
+  .michael-image {
     width: 100%;
-    max-width: 250px;
-    height: auto; }
+    max-width: 500px;
+    height: auto;
+    margin-left: 2%; }
   .width-icon {
     width: 100%;
     max-width: 85px;
@@ -3583,11 +3678,20 @@ a:any-link {
     width: 85%; }
   .content-block-85 {
     width: 90%; }
-  .container-photo-callout {
-    width: 100%;
+  .photo-container-cheer {
+    width: 107%;
+    height: auto;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-left: -3%;
+    padding-left: 0px; }
+  .photo-callout-top {
+    width: 116%;
     max-width: 650px;
-    height: 100%;
-    border: 2px solid #000; }
+    height: auto;
+    border: 1px solid #000;
+    margin-left: -7%; }
   .photo-container {
     width: 116%;
     height: auto;
@@ -3596,6 +3700,22 @@ a:any-link {
     padding-top: 0px;
     margin-bottom: 0px;
     margin-left: -7%; }
+  .photo-container-ux {
+    width: 110%;
+    height: auto;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-left: -3%;
+    padding-left: 0px; }
+  .photo-container-cs {
+    width: 100%;
+    height: auto;
+    max-width: 550px;
+    min-width: 330px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0%; }
   .photo-container-cs-sb1 {
     width: 100%;
     max-width: 900px;
@@ -3669,7 +3789,10 @@ a:any-link {
   .text-align-center-sm {
     text-align: center; }
   .callout-text {
-    font-size: 1.25rem; }
+    font-size: 1.25rem;
+    text-align: center;
+    margin-top: 25px;
+    width: 98%; }
   /* GRIDS ****************************************************/
   .grid-callout {
     grid-template-columns: 1fr;
@@ -3889,7 +4012,7 @@ a:any-link {
     line-height: 26px;
     letter-spacing: 0;
     margin-bottom: 15px;
-    padding: 17px;
+    padding: 1px;
     font-family: Roboto; } }
 
 @media (min-width: 768px) {
@@ -4042,16 +4165,33 @@ a:any-link {
     padding: 5px; }
   .marginleft40per {
     margin-left: 40%; }
+  .margin-top-25sm {
+    margin-top: 0px; }
   .float-left {
     float: left;
     padding: 5px; }
+  .photo-container-cheer {
+    width: 550px;
+    height: 333px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-left: 0px; }
   .padding {
     padding: 50px; }
   .container-photo-callout {
     width: 100%;
     max-width: 650px;
     height: auto;
-    border: 2px solid #000; }
+    border: 2px solid #000;
+    margin-left: 0%; }
+  .container-photo-top {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    border: 2px solid #000;
+    margin-left: 0%; }
   .margin-left-15 {
     margin-left: 15px; }
   .grid-callout {
@@ -4137,6 +4277,16 @@ a:any-link {
     padding: 0px; }
   .width-65sm {
     width: revert; }
+  .width-250 {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin-left: 0%; }
+  .michael-image {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin-left: 0%; }
   .visibility {
     display: block; }
   .float-right {
@@ -4144,12 +4294,16 @@ a:any-link {
     padding: 15px 5px 15px 25px; }
   .margin-left-why-60per {
     margin-left: 12%; }
+  .margin-bottom-75 {
+    margin-bottom: 75px; }
   .margin-left-140 {
     margin-left: 140px; }
   .margin-left-min12per {
     margin-left: -12%; }
   .margin-left-25 {
     margin-left: 25%; }
+  .margin-top-min50per-sm {
+    margin-top: 0%; }
   .margin-top-10persm {
     margin-top: 0%; }
   .margin-left-20per {
@@ -4203,6 +4357,8 @@ a:any-link {
     grid-column: 1/2;
     grid-row: auto;
     justify-content: center; }
+  .margin-top-min10per {
+    margin-top: 0%; }
   .margin-left-12per {
     margin-left: 15%; }
   .margin-left-min10per {
@@ -4269,6 +4425,10 @@ a:any-link {
     margin-left: 0%; }
   .margin-top-25 {
     margin-top: 25px; }
+  .margin-top-30sm {
+    margin-top: 0; }
+  .margin-left-32persm {
+    margin-left: 0%; }
   .photo-container-cs-sb2 {
     width: 100%;
     max-width: 680px;
@@ -4282,6 +4442,14 @@ a:any-link {
     padding-top: 0px;
     margin-bottom: 0px;
     margin-left: 0;
+    padding-left: 0px; }
+  .photo-container-callout {
+    width: 550px;
+    height: 333px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
     padding-left: 0px; }
   .margin-top-70 {
     margin-top: 70px; }
@@ -4319,6 +4487,8 @@ a:any-link {
     margin-bottom: 50px; }
   .margin-left-2sm {
     margin-left: 0%; }
+  .margin-left-2persm {
+    margin-left: 0%; }
   .margin-left-4sm {
     margin-left: 0%; }
   .margin-left-6per {
@@ -4333,6 +4503,14 @@ a:any-link {
     width: 100%;
     height: auto;
     max-width: 550px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-left: 0px; }
+  .photo-container-ux {
+    width: 550px;
+    height: 333px;
     padding-bottom: 0px;
     padding-top: 0px;
     margin-bottom: 0px;

@@ -25,6 +25,13 @@
   margin-left: 8%;
 }
 
+.width-250 {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  margin-left: 0%;
+}
+
  .home-item {
   flex: 0 50%;
   height: auto; /* (100-32*3)/2 */
