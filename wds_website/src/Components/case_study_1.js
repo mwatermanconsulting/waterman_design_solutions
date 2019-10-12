@@ -10,7 +10,7 @@ import motorola_s5 from '../images/photos/photo-motorola-s5.png';
 import motorola_cnet from '../images/photos/photo-motorola-cnet.png';
 import motorola_google from '../images/photos/photo-motorola-google.png';
 import mary from '../images/photos/photo_mary.jpg';
-import motorola_beforeafter from '../images/photos/photo-motorola-before-after.png';
+import motorola_beforeafter from '../images/photos/photo-motorola-before-after-900.png';
 import motorola_before_basic from '../images/photos//photo-motorola-before-basic.png';
 import callcenter from '../images/photos/photo-motorola-s2.png';
 
@@ -27,6 +27,8 @@ class case_study_1 extends Component {
                 <title>Case Study - Motorola</title>
                 <link rel="canonical" href="http://watermandesignsolutions.com/case_study_1" />
             </Helmet>
+
+            
             <div className="flex-layout-column flex-layout-section-full">
                 <section className="flex-layout-row height-60-mobile width-100"> 
                     <div className="header-text-left header-title-cs align-self-center text-white">

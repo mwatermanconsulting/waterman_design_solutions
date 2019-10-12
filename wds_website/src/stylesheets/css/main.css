@@ -1172,11 +1172,6 @@ footer {
   line-height: 1.4;
   text-align: left; }
 
-.header-title-cs {
-  font-family: 'Mouse Memoirs', sans-serif;
-  font-size: 5.1875rem;
-  letter-spacing: 1.1px; }
-
 .title-homepage {
   font-family: 'Mouse Memoirs', sans-serif;
   font-size: 2.12rem;
@@ -1191,8 +1186,8 @@ li {
 
 .card-case-studies {
   box-shadow: 0 2px 1px 1px rgba(0, 0, 0, 0.25);
-  width: 634px;
-  max-width: 643px; }
+  width: 100%;
+  max-width: 650px; }
 
 .lightgreen {
   background-color: #BDCCD4; }
@@ -3460,6 +3455,12 @@ a:any-link {
     flex: 1 1 51%;
     height: auto;
     /* (100-32*3)/2 */ }
+  .cs-item {
+    flex: 1 1 51%;
+    height: auto;
+    /* (100-32*3)/2 */ }
+  .cs-margin {
+    margin-left: 12%; }
   .home-image-container {
     width: 85%;
     max-width: 500px;
