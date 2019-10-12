@@ -140,7 +140,7 @@ class digital_design extends Component {
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center padding-top-50 margin-top-50 margin-top-50sm grey border-top-5">
                 <div className="content-block-65 text-align-center"> 
-                       <img className="container-image-500 padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
+                       <img className="photo-container padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
                       
                       <div className="content-block-auto">
                           <p className="callout-text-white text-align-center">WDS does not use templates - custom design only!</p>

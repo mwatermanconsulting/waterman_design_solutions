@@ -56,7 +56,7 @@ class ux_design extends Component {
                         </div>
                         <div className="margin-top-15">
                             <div className="float-right callout-photo grid-placeself-center">
-                                 <img className="photo-container-ux" src={ux_s2}  alt="Research and Empathy" /> 
+                                 <img className="photo-container" src={ux_s2}  alt="Research and Empathy" /> 
                             </div> 
                                 <p className="content-text-18">
                                 Sometimes customers are so accustomed to current conditions that they don’t think to ask for a new solution, even if they have real needs that could be addressed. As consumers, we create workarounds that become a habit and we may forget that we are being forced to behave that way,
@@ -65,8 +65,8 @@ class ux_design extends Component {
                             <p className="content-text-18 margin-bottom-min15">
                                 For example, when asked about an editing function in a software package, one customer had no complaints until she sat down to use the program in front of the observer. Then she realized that her work was disrupted when the program did not automatically wrap text around graphics while she edited. Accustomed to working around the problem, she had not mentioned it in earlier interviews. When the observer notices this and points it out, it opens up an important issue that should be dealt with to make her life easier. All the little things add up as big time wasters that need to be eliminated.</p>
                                 
-                        </div>  
-                            </div>
+                            </div>  
+                        </div>
                     </section> 
                     
                     <div className="hr-line"></div>
@@ -83,7 +83,7 @@ class ux_design extends Component {
                                 What circumstances prompt people to use your product or service? Do your customers turn to your offering in the way you expected?  If they don’t, there may be an opportunity for your company to reevaluate previous design decisions. </p> 
                             <p className="subtitle"> 
                                 Old-school Customer Service</p> <div className="float-right callout-photo grid-placeself-center">
-                                <img className="photo-container-ux" src={ux_s3}  alt="Old school customer service" />   
+                                <img className="photo-container" src={ux_s3}  alt="Old school customer service" />   
                             </div> 
                            
                             <div className="content-text-18">
@@ -102,7 +102,7 @@ class ux_design extends Component {
                         </p>
                         <div className="content-block-60"> 
                         <div className="float-right callout-photo">
-                            <img className="photo-container-ux" src={ux_s4}  alt="UX is the study of people" />
+                            <img className="photo-container" src={ux_s4}  alt="UX is the study of people" />
                         </div> 
                             <p className="content-text-18">
                                 Understanding people as they go about completing a task is essential to guaranteeing a positive user experience. Every action of that task is an experience with your product or service. The experience can be positive or negative, depending on how much of the user was taken into account when designing. 

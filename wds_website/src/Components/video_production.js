@@ -173,7 +173,7 @@ Effective marketing videos have a conversational tone. It creates an individual 
                 </section>
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
                 <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
-                       <img className="container-image-500 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
+                       <img className="photo-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
                       
                     <div className="flex-layout-center-center">
                     <p className="callout-text text-white text-align-center"> The first video WDS produced was created on the Amiga 4000 and Video Toaster!</p>

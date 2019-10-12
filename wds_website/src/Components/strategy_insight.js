@@ -72,7 +72,8 @@ class strategy_insight extends Component {
                             Setting the Foundation
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
-                        <p className="content-text-18"><div className="float-right">
+                        <p className="content-text-18">
+                            <div className="float-right">
                         <img className="photo-container" src={strategy2}  alt="Stakeholder Interview" /> 
                     </div>  
                             At the beginning of an engagement, WDS sets the foundation for success by developing an understanding of the business, the industry, the competition and relevant trends. This becomes the basis for how we approach all subsequent phases. Along with secondary research, they interview stakeholders and subject matter experts to gain a firsthand awareness of the company context and to build connections within the business. This keeps stakeholder alignment throughout the engagement. This activity begins to define our understanding of where the company intends to play in the market, who it intends to serve and how it plans to serve them.</p>
@@ -81,24 +82,25 @@ class strategy_insight extends Component {
 
                 <div className="hr-line"></div>
                
-                <section className="float-left flex-layout-section-full align-items-center flex-layout-column margin-top-15sm">
+                <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
                     <div className="title content-block-60">
                             Design Critique
                     </div>
                     <div className="subtitle margin-top-10 content-block-60 margin-bottom-15sm">
                             Design Analysis
                     </div>
-                    <div className="content-block-60 content-text-18 margin-top-15 margin-top-15sm"> <div className="float-right">
-                        <img className="photo-container" style={{marginTop:'-4%'}} src={strategy1}  alt="Review" /> 
-                    </div>
+                    <div className="content-block-60 content-text-18 margin-top-15 margin-top-15sm"> 
                         <p className="content-text-18"> 
+                            <div className="float-right">
+                                <img className="photo-container" src={strategy1}  alt="Review" /> 
+                            </div>
                         The design critique is an expert analyst that examines the current site or application screens in comparison to industry standards and established best practices. This helps to point out areas of opportunity that can be addressed during the redesign process in an effort to best the competition. This critique results in a presentation of findings that includes areas of opportunities and concrete recommendations.</p>
                     </div>
                 </section>
                         
                 <div className="hr-line"></div>
 
-                <section className="float-left flex-layout-section-full align-items-center flex-layout-column margin-top-15sm">
+                <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
                     <div className="title content-block-60">
                             Contextual Inquiry
                     </div>
@@ -106,7 +108,8 @@ class strategy_insight extends Component {
                             Empathetic Design
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
-                        <p className="content-text-18"><div className="float-right">
+                        <p className="content-text-18">
+                            <div className="float-right">
                         <img className="photo-container" src={strategy3}  alt="Contextual Inquiry"/> 
                     </div>  
                             When design determines success, understanding the user is paramount. WDS creates designs that connect people with what matters most to them. </p>
@@ -120,35 +123,32 @@ class strategy_insight extends Component {
 
                     <div className="hr-line"></div>
                     
-
-                    <section className="grid-callout-2col content-header align-self-center justify-items-center width-70">
-                    
-                    <div className="gallery-2col-1 container-image-500 margin-top-25sm">
-                        <a href ="./css_solutions"><img className="container-image-500 border-2" src={services8}  alt="CSS Solutions" /> </a>
-                        <div className="content-block-auto margin-top-plus5per">
-                            <div className="title margin-top-50">
-                                <a href="./css_solutions" className="no-decoration margin-top-plus5per margin-top-25sm">
-                                    CSS Solutions</a>
+                    <section className="grid-callout-2col content-header align-self-center justify-items-center margin-top-25 width-70">
+                    <div className="gallery-2col-1">
+                        <a href ="./css_solutions"><img className="photo-container-callout border-2" src={services8}  alt="CSS Solutions" /> </a>
+                        <div className="content-block">
+                            <div className="title-center margin-top-25">
+                                <a href="./css_solutions" className="no-decoration">
+                                CSS Solutions</a>
                             </div>
-                            <p className="content-text-18 margin-top-15">
-                                Taming the specificity beast used to be difficult. WDS CSS strategy almost eliminates these problems. In fact, the strategy almost eliminates the need for your developers to write CSS. This advantage comes from past experiences working with developers by interviewing and observing them working with CSS.</p>
+                            <p className="content-text-18 content-block margin-top-15">
+                                Taming the specificity beast used to be difficult. WDS CSS strategy almost eliminates the specificity problems. It reduces greatly the need for your developers to write CSS. The advantage is past experience working with developers and interviewing and observing them working with CSS.</p>
                         </div>
                     </div>     
-                    <div className="gallery-2col-2 container-image-500 align-self-auto">
-                    <a href ="./design_systems"> <img className="container-image-500 border-2"  src={services9}  alt="Business Solutions" /> </a>
-                        <div className="content-block-auto margin-top-plus5per">
-                            <div className="title margin-top-50">
-                            <a href="./design_systems" className="no-decoration margin-top-plus5per"> 
-                                    Design Systems</a></div>
-                            <p className="content-text-18 margin-top-15">
-                                At WDS, we know and understand the importance of design systems for businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff.</p>
-
+                    <div className="gallery-2col-2t">
+                    <a href ="./design_systems"> 
+                    <img className="photo-container-callout border-2 margin-top-min50per-sm"  src={services9}  alt="Business Solutions" /> </a>
+                        <div className="content-block">
+                            <div className="title-center margin-top-25">
+                            <a href="./design_systems" className="no-decoration"> 
+                                Design Systems</a></div>
+                            <p className="content-text-18 margin-top-15 content-block">
+                                At WDS, they know and understand the importance of design systems to businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff.</p>
                         </div>
                     </div>
                     </section>
 
                     <div className="hr-line"></div>
-
 
                     <section className="float-left flex-layout-section-full align-items-center flex-layout-column margin-top-15sm">
                         <div className="title content-block-60">
@@ -179,7 +179,7 @@ class strategy_insight extends Component {
                 
                 <div className="hr-line"></div>
 
-                <section className="float-left flex-layout-section-full align-items-center flex-layout-column margin-top-15sm">
+                <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
                         <div className="title content-block-60">
                              Personas
                         </div>
@@ -198,7 +198,7 @@ class strategy_insight extends Component {
 
                     <div className="hr-line"></div>
 
-                    <section className="float-left flex-layout-section-full align-items-center flex-layout-column margin-top-15sm">
+                    <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
                         <div className="title content-block-60">
                             Consolidated Workflow Diagrams                        
                         </div>
@@ -216,7 +216,7 @@ class strategy_insight extends Component {
                       
                     <div className="hr-line"></div>
 
-                    <section className="float-left flex-layout-section-full align-items-center flex-layout-column margin-top-15sm">
+                    <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
                         <div className="title content-block-60">
                             Looking for Opportunities
                         </div>
@@ -236,7 +236,7 @@ class strategy_insight extends Component {
 
                     <div className="hr-line"></div>
 
-                    <section className="float-left flex-layout-section-full align-items-center flex-layout-column margin-top-15sm">
+                    <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
                         <div className="title content-block-60">
                                 Journey Maps                        
                         </div>
@@ -253,14 +253,15 @@ class strategy_insight extends Component {
                         </div>
                     </section>
 
-                    <section className="flex-layout-section-full flex-layout-column flex-layout-center-center padding-top-50 margin-top-50 margin-top-50sm grey border-top-5">
-                        <div className="content-block-65 text-align-center"> 
-                            <img className="container-image-500 padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
-                        <div className="content-block-auto">
-                          <p className="callout-text-white text-align-center">"Pixar considers repeating the formulas of its past commercial successes a much greater threat to its long-term survival than the occasional commercial disappointment."<br></br>- The McKinsey Report</p>
-                        </div>
-                        </div>
-                    </section>      
+                    <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+                        <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
+                    <img className="photo-container margin-bottom-50 margin-top-50sm" src={didyouknow}  alt="Did You Know?" /> 
+                    <div>
+                        <p className="callout-text-white text-align-center">
+                        "Pixar considers repeating the formulas of its past commercial successes a much greater threat to its long-term survival than the occasional commercial disappointment."<br></br>- The McKinsey Report</p>
+                    </div>
+                    </div>
+                </section>
             </div>
         </div>
         )

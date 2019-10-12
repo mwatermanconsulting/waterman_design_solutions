@@ -66,7 +66,7 @@ class marketing extends Component {
                 
                 <div className="content-block-60 content-text-18 margin-top-15 margin-top-15sm"><
                     div className="float-right">
-                    <img className="container-image-500 margin-top-5per" src={marketing3}  alt="Website Design" /> 
+                    <img className="photo-container margin-top-5per" src={marketing3}  alt="Website Design" /> 
                 </div>
                     <p className="content-text-18 margin-top-15"> 
                     The WDS goal is to identify the right approach for your unique target audiences on social media by planning, developing, and executing innovative social media marketing strategies. This builds a meaningful experience across all social media touch points. </p>
@@ -74,7 +74,7 @@ class marketing extends Component {
                   </div>
             </section>
 
-            <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"> </div>
+            <div className="hr-line"> </div>
 
             <section className="float-left align-items-center flex-layout-column">
                 <div className="title content-block-60">
@@ -94,7 +94,7 @@ class marketing extends Component {
             </section>
 
 
-            <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"> </div>
+            <div className="hr-line"> </div>
 
             <section className="float-left align-items-center flex-layout-column margin-bottom-50">
                 <div className="title content-block-60">
@@ -115,7 +115,7 @@ class marketing extends Component {
         </div> 
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center padding-top-50 grey border-top-5">
                 <div className="content-block-55 text-align-center"> 
-                       <img className="container-image-500 padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
+                       <img className="photo-container padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
                       
                       <div >
                           <p className="callout-text-white text-align-center">WDS Developed a Telemetry and Data UX Strategy for StubHub.</p>

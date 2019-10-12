@@ -328,7 +328,7 @@ class about extends Component {
                 </section>           
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center padding-top-50 padding-bottom-50 margin-top-50 margin-top-50sm grey border-top-5">
                 <div className="content-block-65 text-align-center"> 
-                       <img className="container-image-500 padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
+                       <img className="photo-container padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
                       
                       <div >
                           <p className="callout-text text-white text-align-center">  Surreal Concepts was always ahead of the trends, using the now-popular branding colors blue and orange in the early 2000s.</p>

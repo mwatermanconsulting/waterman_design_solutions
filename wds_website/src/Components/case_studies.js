@@ -49,6 +49,7 @@ class case_studies extends Component {
                         </div> 
                     </div>
             </section>
+
         
         <div className="cs-container flex-layout-center margin-top-75 flex-layout-justified-sa content-block-80 align-self-center ">
                 <div className="cs-item width-50 margin-top-75 card-case-studies">
@@ -57,6 +58,7 @@ class case_studies extends Component {
                         <div className="width-100 ">
                             <div className="header-title-sm margin-top-15 ">
                                     Motorola
+
                             </div>
                                 <p className="content-text-18 margin-top-10 text-align-center"><i> Industry: Products</i></p>
                                 <p className="content-text-18 padding-10">
@@ -71,6 +73,7 @@ class case_studies extends Component {
                         </div> 
                      </div>
                 </div>
+
 
                 <div className="cs-item width-50 margin-top-75 card-case-studies">
                     <div className="flex-layout-section-full container-image-650 align-self-center flex-layout-center-center ">
@@ -140,8 +143,9 @@ class case_studies extends Component {
             
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
-                <div className=" margin-top-75 content-block-55 margin-bottom-50 text-align-center "> 
-                       <img className="container-image-500 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
+                <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
+                       <img className="photo-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
+
                       
                     <div className="flex-layout-center-center">
                     <p className="callout-text text-white text-align-center">  WDS designed and developed a UX information site in 2005 called Web First Aid </p>

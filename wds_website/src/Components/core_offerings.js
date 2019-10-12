@@ -324,7 +324,7 @@ class core_offerings extends Component {
                          WDS CSS solutions are based on empathy from their experiences of working with developers. WDs is known for their design solutions, CSS knowledge and experience. Their CSS solutions are based on business requirements and are scalable and customizable. </p>
                         <p className="content-text-18"> WDS CSS strategies almost eliminates the need for your developers to write CSS. </p>
                         <p className="content-text-18">The CSS strategies include CSS development, CSS system implementation, mentoring, and best of practice documentation.</p>
-                        <div className="flex-layout-section-full float-left ">
+                        <div className="flex-layout-section-full float-left-np ">
                         
                         <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/css_solutions'}>
                             Learn More 
@@ -335,7 +335,7 @@ class core_offerings extends Component {
 
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
                 <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
-                       <img className="container-image-500 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
+                       <img className="photo-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
                       
                       <div>
                           <p className="callout-text text-white text-align-center">  There are 3 levels of empathy: cognitive, emotional and compassionate.</p>

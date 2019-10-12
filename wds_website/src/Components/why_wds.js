@@ -45,7 +45,7 @@ class why_wds extends Component {
                 </div>
                 <section className="flex-layout-section-full align-items-center" >
                     <div className="grid-callout yellow-bg "> 
-                        <div className="grid-callout-text grid-placeself-center padding width-70">
+                        <div className="grid-callout-text grid-placeself-center padding content-block-65">
                             <p className="callout-text text-black">
                             WDS is a full service UX/UI design agency that specializes in creating elegant user experiences on applications, websites and all consumer touch points.</p>
                         </div>
@@ -184,7 +184,7 @@ class why_wds extends Component {
 
                     <p className="content-text-18">
                         The best customer experience starts with the Golden Rule — treat customers how you would like to be treated. At the foundation of WDS methodology is observation, watching customers use the clients' products or services. But unlike focus groups or usability laboratories, WDS conducts observation and interviews in the customer’s own environment during the course of their everyday routines. In such a context  researchers gain insight to a host of information that is not accessible through other UX research methods. </p>
-                <div className="float-left margin-left-25sm">
+                <div className="float-left-np">
                     <NavLink className='button-area no-decoration text-align-center
                     
                     ' type="button" value="learn more" to='/ux_design'>
@@ -215,7 +215,7 @@ class why_wds extends Component {
                         WDS takes care of front-end development, CSS and HTML, working on-site with your team or creating GIT build-packages complete with custom CSS solutions, pattern libraries, style guides, best of practice documentation and design strategies. This ensures and enforces original design and its solutions. They also offer UI design kits complete with custom CSS, images, icons and HTML.
                     </p>    
 
-                    <div className="float-left margin-left-25sm">
+                    <div className="float-left-np">
                         <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/ui_design'}>
                         Learn More 
                         </NavLink>
@@ -241,7 +241,7 @@ class why_wds extends Component {
                      <p className="content-text-18 margin-top-15"> 
                      A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive while combining components, behaviors, and branding. It also comes with a complete set of design standards, documentation, and strategies. It must also be flexible and scalable.
                     </p>
-                    <div className="float-left margin-left-25sm">
+                    <div className="float-left-np">
                     <NavLink Link to={'/design_systems'} className='button-area no-decoration' type="button" value="learn more" >
                     Learn More 
                     </NavLink>
