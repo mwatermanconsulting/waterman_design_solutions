@@ -66,7 +66,7 @@ class case_studies extends Component {
                                 <p className="content-text-18 content-block-full">
                                     High Volume of returns plaguing Motorola Gateway Router Product Line. After two failed attempts by UX/UI developers, a frustrated management group decided they needed a UX designer to solve the problems.</p>
 
-                                    <div className="float-left">
+                                    <div className="float-left-np">
                                         <NavLink className='button-area no-decoration' type="button" value="learn more" to='/case_study_1'>
                                             Read More 
                                         </NavLink>
@@ -91,7 +91,7 @@ class case_studies extends Component {
                                     <p className="content-text-18 content-block" >
                                     StubHub had a custom built Business Intelligence Platform that had zero user traction and were searching for answers. Their initial two releases were not successful and after a year of non-use, StubHub needed answers.</p>
 
-                                    <div className="float-left">
+                                    <div className="float-left-np">
                                         <NavLink className='button-area no-decoration' type="button" value="learn more" to='/case_study_2'>
                                             Read More 
                                         </NavLink>
@@ -117,7 +117,7 @@ class case_studies extends Component {
                                 <p className="content-text-18 content-block">
                                     WDS noticed major problems with the DMS solution that Pfizer chose to manage its 25,000 page project. WDS independently  interviewed developers and documented lost time, sitting around watching the spinner...
                                 </p>
-                                    <div className="float-left margin-top-15">
+                                    <div className="float-left-np margin-top-15">
                                         <NavLink className='button-area no-decoration' type="button" value="learn more" to='/case_study_3'>
                                             Read More 
                                         </NavLink>
@@ -143,7 +143,7 @@ class case_studies extends Component {
                                     <p className="content-text-18 content-block">
                                         OsiSoft needed an enterprise level CSS solution for their data visualization SaaS initiative. The solution needed to scale and reduce specificity issues. The CSS solution became the company wide standard and foundation for the...
                                                  <br/><br/>
-                                                 <div className="float-left">
+                                                 <div className="float-left-np">
                                         <NavLink className='button-area no-decoration' type="button" value="learn more" to='/case_study_4'>
                                             Read More 
                                         </NavLink>
@@ -159,7 +159,7 @@ class case_studies extends Component {
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
                 <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
-                       <img className="container-image-500 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
+                       <img className="photo-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
                       
                     <div className="flex-layout-center-center">
                     <p className="callout-text text-white text-align-center">  WDS designed and developed a UX information site in 2005 called Web First Aid. </p>

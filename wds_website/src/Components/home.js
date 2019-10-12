@@ -180,7 +180,7 @@ class landingPage extends Component {
                 </div>
                 </section>  
 
-                <div className="flex-layout-section-full float-left margin-top-25">
+                <div className="flex-layout-section-full float-left-np margin-top-25">
                         <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/ux_design'}>
                             Learn More 
                         </NavLink>
@@ -299,7 +299,7 @@ class landingPage extends Component {
         
         <section className="grid-gallery-2col grid-gap-20 content-header align-self-center justify-items-center margin-top-50 width-70">
                     <div className="gallery-2col-1 align-self-end border-2">
-                        <img className="container-image-500" src={motorola}  alt="All About the User" /> 
+                        <img className="photo-container" src={motorola}  alt="All About the User" /> 
                         <div className="content-block-auto padding-10">
                             <div className="subtitle">
                                 Motorola</div>
@@ -308,7 +308,7 @@ class landingPage extends Component {
                                 Industry: Technology</p>
                             <p className="">
                                 After two failed attempts by previously hired UX/UI developers, a frustrated management group for Motorola's new product decided they needed a designer to simplify their modem app.</p>
-                            <div className="float-left content-block-55 margin-left-6per">
+                            <div className="float-left-np content-block-55 margin-left-6per">
                                 <NavLink className='button-area no-decoration width-50' type="button" value="learn more" to='/case_study_1'>
                                     Learn More 
                                 </NavLink>
@@ -317,14 +317,14 @@ class landingPage extends Component {
                         </div>
                     </div>     
                     <div className="gallery-2col-2  align-self-top border-2">
-                        <img className="container-image-500"  src={stubhub}  alt="Business Solutions" /> 
+                        <img className="photo-container"  src={stubhub}  alt="Business Solutions" /> 
                         <div className="content-block-auto padding-10">
                             <div className="subtitle">StubHub</div>
                             <div className="flex-layout-section-full">
                             <p className="content-text-21">Industry: Entertainment/Sports</p>
                             <p className="">The analysts were unhappy with their current data visualization tool. After two failed attempts to fix it, and the threat of dissolving the internal team, WDS came to the rescue.</p>
 
-                            <div className="float-left content-block-55 margin-left-6per">
+                            <div className="float-left-np content-block-55 margin-left-6per">
                                 <NavLink className='button-area no-decoration width-50' type="button" value="learn more" to='/case_study_2'>
                                     Learn More 
                                 </NavLink>

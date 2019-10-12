@@ -151,14 +151,15 @@ class innovative_solutions extends Component {
                         </div>
                 </section>
 
-                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center padding-top-50 margin-top-50 margin-top-50sm grey border-top-5">
-                        <div className="content-block-55 text-align-center"> 
-                            <img className="container-image-500 padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
-                        <div className="content-block-auto">
-                          <p className="callout-text-white text-align-center">WDS Specializes in Data Visualization Application Design </p>
-                        </div>
-                        </div>
-                </section>       
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+                        <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
+                    <img className="photo-container margin-bottom-50 margin-top-50sm" src={didyouknow}  alt="Did You Know?" /> 
+                    <div>
+                        <p className="callout-text-white text-align-center">
+                        WDS Specializes in Data Visualization Application Design</p>
+                    </div>
+                    </div>
+                </section>
             </div>  
         </div>
         )

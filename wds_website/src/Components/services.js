@@ -42,16 +42,14 @@ class services extends Component {
                 </div>
             </section>
             <section className="grid-callout yellow-bg"> 
-                <div className="grid-callout-text grid-placeself-center width-70 margin-top-15sm">
+                <div className="grid-callout-text grid-placeself-center content-block-65 margin-top-15sm">
                     <p className="callout-text">
-                    The role of a UX consultant is to listen and connect to the customers. WDS services are a testament to the belief in old-fashioned customer service
-                            </p>
-                        </div>
-                        <div className="grid-callout-photo grid-placeself-center margin-top-15sm">
-                            <img className="flex-image-container width-100" src={together}  alt="Customer Service" /> 
-                        </div>
-                    
-                </section>
+                    The role of a UX consultant is to listen and connect to the customers. WDS services are a testament to the belief in old-fashioned customer service </p>
+                </div>
+                    <div className="grid-callout-photo grid-placeself-center margin-top-15sm">
+                        <img className="flex-image-container width-100" src={together}  alt="Customer Service" /> 
+                    </div>
+            </section>
        
             <section className="flex-layout-section-full flex-layout-column align-items-center">
                 <p className="title margin-top-75">
@@ -340,7 +338,7 @@ class services extends Component {
                                 At WDS, they know and understand the importance of design systems to businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff.</p>
                         </div>
                     </div>
-            </section>
+                </section>
 
             
             <section className="flex-layout-section-full align-items-center yellow-bg border-top-5">

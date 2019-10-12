@@ -1,3 +1,38 @@
 /*******************************
            Portfolio
   *******************************/
+
+  .method-callout-image {
+    width: 60%;
+    margin-left: 17%;
+    place-self: center;
+  }
+
+  .container-method-callout {
+    align-self: center;
+    width: 100%;
+    margin-left: 36%;
+  }
+
+  .strat-container-callout { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-top: 15px;
+    width: 85%;
+    margin-left: 8%;
+  }
+
+  .strat-item {
+    flex: 0 50%;
+    height: auto; /* (100-32*3)/2 */
+  }
+
+  .container-text-callout-top {
+    width: 60%;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+

@@ -49,6 +49,10 @@
   margin-left: 0%
 }
 
+.margin-left-min5sm {
+  margin-left: 0%
+}
+
 .margin-left-10sm {
   margin-left: 0%;
   margin-top: 0px;
@@ -81,6 +85,8 @@
 .margin-left-4sm {
   margin-left: 0%;
 }
+
+
 
 .margin-left-12per {
   margin-left: 12%;
@@ -145,6 +151,10 @@
 
 .margin-left-20per {
   margin-left: 20%;
+}
+
+.margin-left-min20per {
+  margin-left: -20%;
 }
 
 .margin-left-22per {
@@ -220,6 +230,10 @@
 
 .margin-left-2 {
   margin-left: 2%;
+}
+
+.margin-left-min40 {
+  margin-left: -40%
 }
 
 .margin-left-50 {
@@ -548,6 +562,11 @@
     float: left;
     padding: 15px 5px 15px 15px;
    }
+
+   .float-left-np {
+    float: left;
+    padding: 0px;
+   }
   
 
    .flex-item-bottom {
@@ -819,6 +838,8 @@
   display: flex;
   flex-direction: flex-start;
   flex: 1 1 420px;
+  border-top: none;
+  border-bottom: none; 
 }
 
 .flex-image-container-master {
@@ -869,7 +890,7 @@
 
   .photo-container-callout {
     width: 550px;
-    height:333px;
+    height: auto;
     padding-bottom: 0px;
     padding-top: 0px;
     margin-bottom: 0px;
@@ -927,6 +948,9 @@
 /*  Layers and Sizes   */
 .width-100 {
   width: 100%; }
+
+  .width-110 {
+    width: 110%; }
 
   .width-76sm {
     width: 0;
@@ -1187,6 +1211,14 @@
     .header-title {
       font-family: 'Mouse Memoirs', sans-serif;
       font-size: 	10.1875rem ; 
+      letter-spacing: 1.1px;
+      line-height: 1.4;
+      text-align: center;
+    }
+
+    .header-title-sm-center {
+      font-family: 'Mouse Memoirs', sans-serif;
+      font-size: 	3.1875rem ; 
       letter-spacing: 1.1px;
       line-height: 1.4;
       text-align: center;

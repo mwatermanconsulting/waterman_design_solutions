@@ -53,6 +53,19 @@
     margin-left: -22%;
   }
 
+
+  .method-callout-image {
+    width: 135%;
+    margin-left: -35%;
+    align-self: center;
+  }
+
+  .container-method-callout {
+    align-self: center;
+    width: 100%;
+    margin-left: 36%;
+  }
+
   .hr-line {
     display: block;
     height: 1px;
@@ -100,6 +113,9 @@
     height: auto;
     margin-bottom: 25px; /* (100-32*3)/2 */
   }
+
+  .width-110 {
+    width: 118%; }
 
   .why-margin-list-1 {
     margin-left: 4%;
@@ -178,6 +194,10 @@
     margin-left: 0;
   }
 
+  .margin-left-min5sm {
+    margin-left: -5%
+  }
+
   .margin-top-100sm {
     margin-top: 100px;
   }
@@ -232,6 +252,12 @@
     line-height: 58.25px;
     font-size: 2.0;
   } 
+
+  .float-left-np {
+    float: left;
+    padding: 0px 0px 0px 110px;
+   }
+  
   
   .margin-top-min25sm {
     margin-top: -25px;
@@ -635,7 +661,7 @@
   }
 
   .content-block-60 {
-    width: 95%;
+    width: 92%;
   }
 
   .content-block-65 {
@@ -1079,9 +1105,10 @@
   
   .container-footer {
     display: flex;
+    flex: 1 0 auto;
     align-items: flex-start;
     padding: 0;
-    }
+  }
 
   .grid-footer {
   display: grid;
@@ -1414,6 +1441,10 @@
   padding-left: 0px;
 }
 
+.margin-left-min5sm {
+  margin-left: 0%
+}
+
 
 
 .padding {
@@ -1533,6 +1564,18 @@
       float: left;
       padding: 15px 5px 15px 15px;
      }
+
+     .width-70 {
+      width: 70%;
+    }
+
+    .flex-image-container {
+      display: flex;
+      flex-direction: flex-start;
+      flex: 1 1 420px;
+      border-top: none;
+      border-bottom: none; 
+    }
 
 
   .home-image-container {
@@ -1695,6 +1738,10 @@
     grid-row: auto;
   }
 
+  .header-title-sm {
+    text-align: left;
+  }
+
   .grid-left-truth {
     grid-column: 1/2;
     grid-row: auto;
@@ -1710,7 +1757,7 @@
   }
 
   .margin-left-min10per {
-    margin-left: -0%;
+    margin-left: -10%;
   }
 
   .margin-top-5{
@@ -1839,13 +1886,26 @@
 
     .photo-container-callout {
       width: 550px;
-      height:333px;
+      height: auto;
       padding-bottom: 0px;
       padding-top: 0px;
       margin-bottom: 0px;
       margin-left: 0px;
       padding-left: 0px;
     }
+
+    .method-callout-image {
+      width: 60%;
+      margin-left: 17%;
+      align-self: center;
+    }
+  
+    .container-method-callout {
+      align-self: center;
+      width: 100%;
+      margin-left: 36%;
+    }
+  
 
   .margin-top-70 {
       margin-top: 70px;
@@ -1943,6 +2003,15 @@
   .home-content-block-lg {
     width: 80%;
   }
+
+  .float-left-np {
+    float: left;
+    padding: 0px;
+   }
+  
+
+  .width-110 {
+    width: 110%; }
 
   .photo-container {
     width: 100%;

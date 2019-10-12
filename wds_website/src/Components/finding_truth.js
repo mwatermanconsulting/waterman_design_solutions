@@ -39,7 +39,7 @@ class innovative_solutions extends Component {
                     <div className="callout-text padding-20 text-align-left margin-top-15 margin-left-2" >
                     WDS UX methodology connects with users by observing and interviewing. People will always open up and confide in you if they feel you are on their side especially when you show you empathize with their needs. This is how WDS uncover truths that were previously unknown.</div>        
                     </div>
-                    <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
+                    <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100 margin-top-25sm">
                         <img className="container-photo-callout margin-left-15per" src={finding_truth2}  alt="Finding Truth" /> 
                     </div>
             </section>
@@ -56,7 +56,7 @@ class innovative_solutions extends Component {
                 </div>
             </div>
             
-            <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"></div>
+            <div className="hr-line"></div>
 
             <section className="float-left align-items-center flex-layout-column">
                 <div className="title content-block-60">
@@ -76,9 +76,9 @@ class innovative_solutions extends Component {
                 </div>
                 </section>
 
-                <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"></div>
+                <div className="hr-line"></div>
 
-                <section className="float-left align-items-center flex-layout-column margin-top25sm">
+                <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
                             Field Observation and Interviews
                     </div>
@@ -103,7 +103,7 @@ class innovative_solutions extends Component {
                         </div>
                 </section>
 
-                <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"></div>
+                <div className="hr-line"></div>
 
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
@@ -120,7 +120,7 @@ class innovative_solutions extends Component {
                         </div> 
                 </section>
 
-                <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"></div>
+                <div className="hr-line"></div>
 
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
@@ -148,7 +148,7 @@ class innovative_solutions extends Component {
                     </div>
                 </section>
 
-                <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"></div>
+                <div className="hr-line"></div>
 
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
@@ -172,9 +172,9 @@ class innovative_solutions extends Component {
                         </div>
                 </section>
 
-                <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"></div>
+                <div className="hr-line"></div>
 
-                <section className="flex-layout-justified-sb flex-layout-row content-block-50 margin-top-25">
+                <section className="flex-layout-justified-sb flex-layout-row content-block-50 ">
                     <div className="flex-layout-section-full">
                         <div className="title-center">
                             Develop Frameworks                        
@@ -189,9 +189,9 @@ class innovative_solutions extends Component {
                         </div>
                     </div>
 
-                    <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-100"></div>
+                    <div className="hr-line"></div>
 
-                    <div className="flex-layout-section-full margin-top-25">
+                    <div className="flex-layout-section-full">
                         <div className="title-center">
                             Design and Evaluate                        
                         </div>
@@ -209,7 +209,7 @@ class innovative_solutions extends Component {
                     </div> 
                 </section>
 
-                <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"></div>
+                <div className="hr-line"></div>
 
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
@@ -230,13 +230,13 @@ class innovative_solutions extends Component {
                         </div>
                 </section>
                     
-                <div className="flex-layout-section align-self-center thin-hr hrline-spacing width-70"></div>
+                <div className="hr-line"></div>
 
                 <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
                             Start Early and Establish Your Project Plan                      
                     </div>
-                    <div className="subtitle content-block-60 margin-top-15">
+                    <div className="subtitle content-block-60 margin-top-10">
                             Identify How to Drive Engagement with the Design Solutions
                     </div>
                         <div className="content-block-60 content-text-18 margin-top-15">
@@ -254,13 +254,13 @@ class innovative_solutions extends Component {
 
                     <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
                         <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
-                    <img className="container-image-500 margin-bottom-50 margin-top-50sm" src={didyouknow}  alt="Did You Know?" /> 
+                    <img className="photo-container margin-bottom-50 margin-top-50sm" src={didyouknow}  alt="Did You Know?" /> 
                     <div>
                         <p className="callout-text-white text-align-center">
                         WDS offers Empathy Workshops</p>
                     </div>
-                </div>
-            </section>
+                    </div>
+                </section>
             </div>
         </div>
         )

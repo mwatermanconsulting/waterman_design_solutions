@@ -76,7 +76,7 @@ class clients extends Component {
             
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
                 <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
-                       <img className="container-image-500 margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
+                       <img className="photo-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
                       
                       <div >
                           <p className="callout-text-white text-align-center"> WDS design solutions for data visualizations applications are being used by the world’s largest brands.</p> 
