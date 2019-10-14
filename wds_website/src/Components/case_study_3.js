@@ -53,7 +53,7 @@ class case_study_3 extends Component {
                          WDS started interviewing the developers and discovered the system was extremely buggy. Working on the system, they found the system crashing during check ins, pushes and builds. The system rarely gave meaningful error messages and many times developers sat there for hours watching a spinning icon, wondering if the application crashed or was processing. Stopping the process while it was processing increased chances that all work would be lost. They observed times when only partial changes made up to the server and there was no consistency to the errors. What worked one day didn't work the next. The developers strategically created workarounds for the most basic tasks. Customer support was extremely poor.</p>
                     </div>
                     <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-50">
-                    <img className="width-50 margin-top-50" src={cms} alt="Finding the Truth - Business Perspective"/></div> 
+                    <img className="photo-container-cs margin-top-50" src={cms} alt="Finding the Truth - Business Perspective"/></div> 
                     <div className="margin-top-15 caption width-70"><i> Custom CMS system issues, costing developers time and Pfizer money</i></div>
                   
                 </section>
@@ -72,7 +72,7 @@ class case_study_3 extends Component {
                     <p className="content-block-65 content-text-18 margin-top-15 ">
                         WDS started to understand scale of the problem with the current CMS system and began documenting issues, including lost man hours and overtime costs associated with the developers waiting on the CMS system. They researched the documentation, contracts and emails and uncovered breaches in the contract caused by missing and broken features promised in the contract. Pfizer was unaware of the issues and WDS wanted to make a strong case against this CMS system.
                         </p>
-                    <img className="margin-top-50 width-50" src={documentum} alt="Finding the Truth - Business Perspective"/>
+                    <img className="photo-container-cs margin-top-50" src={documentum} alt="Finding the Truth - Business Perspective"/>
                 </section>
 
                 <div className="hr-line-cs"></div>
