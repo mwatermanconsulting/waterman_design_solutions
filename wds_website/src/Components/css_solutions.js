@@ -39,7 +39,7 @@ class css_solutions extends Component {
             <section className="grid-callout photo-content-color border-bottom-5" > 
                 <div className="grid-placeself-center content-block-75 flex-layout-column">
                     <div className="callout-text padding-20 text-align-left margin-top-15 margin-left-2 margin-left-3" >
-                        There has been a big shift in marketing. Once it use to be all about the product or application, but now it shifted to human-centric focus. WDS uses UX research to develop marketing strategies. </div>        
+                        WDS understands specificity issues. </div>        
                     </div>
                     <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
                         <img className="container-photo-callout margin-left-15per margin-top-25sm" src={casscade}  alt="Finding Truth" /> 
@@ -137,7 +137,7 @@ class css_solutions extends Component {
                 <img className="photo-container" src={css4}  alt="Prototypes" /> 
             </div>
             <div className="margin-top-15 content-text-18">  
-                    The WDS CSS specialists deliver their custom CSS solutions as npm packages or through github. The packages includes a developer build kit with the custom css, sass or less files, html files and documentation. WDS can refactor your current CSS or develop a customizable CSS solution that will scale as the project matures. They will always keep your team up to date on new releases and make sure all the current version are available.            
+                    The WDS CSS specialists deliver their custom CSS solutions as npm packages or through github. The packages includes a developer build kit with the custom CSS, Sass or Less files, html files and documentation. WDS can refactor your current CSS or develop a customizable CSS solution that will scale as the project matures. They will always keep your team up to date on new releases and make sure all the current version are available.            
             </div>  
             </div>
         </section> 
