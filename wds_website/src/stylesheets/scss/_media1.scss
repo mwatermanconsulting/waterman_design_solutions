@@ -684,7 +684,7 @@
   }
 
   .content-block-65 {
-    width: 95%;
+    width: 90%;
   }
 
   .content-block-70 {
@@ -747,13 +747,13 @@
 
 
   .photo-container-cs {
-    width: 100%;
+    width: 113%;
     height: auto;
     max-width: 550px;
     min-width: 330px;
     padding-top: 0px;
     margin-bottom: 0px;
-    margin-left: 0%;
+    margin-left: -6%;
   }
 
   .photo-container-cs-sb1{
@@ -1196,6 +1196,29 @@
   }
   }
 
+  @media only screen and (min-width : 480px) {
+
+    .container-photo-callout {
+      width: 100%;
+      max-width: 650px;
+      height: auto;
+      border: 2px solid #000;
+      margin-left: 0%;
+    }
+
+    .photo-container {
+      width: 95%;
+      height: auto;
+      max-width: 550px;
+      padding-bottom: 0px;
+      padding-top: 10px;
+      margin-bottom: 0px;
+      margin-left: 4%;
+      padding-left: 0px;
+    }
+ 
+  }
+
   
   
   // Medium devices (tablets, 768px and up)
@@ -1221,6 +1244,14 @@
   margin-top: 0;
 }
 
+.container-photo-callout {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  border: 2px solid #000;
+  margin-left: 13%;
+}
+
 
 
 .margin-top-15per {
@@ -1238,6 +1269,17 @@
 
 .padding {
   padding: 10px;
+}
+
+.photo-container {
+  width: 100%;
+  height: auto;
+  max-width: 550px;
+  padding-bottom: 0px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-left: 25px;
 }
 
     
@@ -1418,6 +1460,17 @@
   align-self: auto;
 }
 
+.photo-container {
+  width: 100%;
+  height: auto;
+  max-width: 550px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
 .material-icons {
     display: none;
 }
@@ -1432,10 +1485,20 @@
     transition: 0.75s;
 }
 
+.container-photo-callout {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  border: 2px solid #000;
+  margin-left: 0%;
+}
+
 .float-right {
   float: right;
   padding: 5px;
 }
+
+
 
 .marginleft40per{
   margin-left: 40%;
@@ -1462,6 +1525,10 @@
 
 .margin-left-min5sm {
   margin-left: 0%
+}
+
+.margin-tb-100 {
+  margin: 50px 75px 50px 5px;
 }
 
 
