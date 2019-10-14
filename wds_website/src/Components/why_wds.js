@@ -60,10 +60,10 @@ class why_wds extends Component {
                         WDS Relieves Your Design Fears </p>
 
                         <p className="content-text-18 content-block-65 margin-top-15 flex-layout-column align-items-center">
-                        WDS understands the fear many companies have with contracting a design firm. They have heard all the stories about designers not paying attention to business requirements and/or direction, designing for design's sake with little thought of the user. These designs fail and frustrate companies, making them  apprehensive about contracting another UX design firm. WDS approaches every project with empathy for the user and the business. They have followed failed designs for large enterprise projects with companies like Motorola and StubHub, turning failure into success and frustration to joy.</p>
+                        WDS understands the fear many companies have with contracting a design firm. They have heard all the stories about designers not paying attention to business requirements/direction and designing for design's sake with little thought of the user. These designers fail and frustrate companies, making them  apprehensive about contracting another UX design firm. WDS approaches every project with empathy for the user and business. They have fixed unsuccessful designs for large enterprise projects like Motorola and StubHub, turning failure into success and frustration into joy.</p>
                         
                         <p className="content-text-18 content-block-65 flex-layout-column align-items-center">
-                        WDS offers empathetic design solutions for websites, applications, mobile apps, and social media. Its core offerings help your business understand the value of design on a core level, providing training, workshops and mentorship programs.
+                        WDS offers empathetic design solutions for websites, applications, mobile apps and social media. Its core offerings help your business understand the value of design on a core level, providing training, workshops and mentorship programs.
                         With over 15 years of perfecting their design and business strategies, WDS has the experience, designers, strategists and expertise to deliver sophisticated design solutions. </p>
                         <p className="subtitle margin-top-50 margin-bottom-50 content-block-65 flex-layout-column align-items-center">
                         Clients include Motorola, Pfizer, StubHub, SmithKline, and Google</p>
@@ -87,8 +87,8 @@ class why_wds extends Component {
                             <li>Personas</li>
                             <li>Prototyping</li> 
                             <li>Consolidated Workflows</li>
-                            <li><a href="./design_systems" className="no-decoration">Design Systems</a></li>
-                            <li><a href="./design_systems" className="no-decoration">Style Guides</a></li>
+                            <li><a href="./design_systems" className="no-decoration greenlink">Design Systems</a></li>
+                            <li><a href="./design_systems" className="no-decoration greenlink">Style Guides</a></li>
                             <li>Information Architecture</li>
                         </ul>
                     </div>
@@ -131,7 +131,7 @@ class why_wds extends Component {
 
                 <section className="float-left align-items-center flex-layout-column margin-top-75">
                     <div className="title content-block-60">
-                            Elegant solutions for difficult problems
+                            Elegant Solutions for Difficult Problems
                     </div>
                         <div className="subtitle content-block-60 margin-top-10">
                             The Value of Simplicity
@@ -139,7 +139,7 @@ class why_wds extends Component {
                         <div className="content-block-60 content-text-18 margin-top-15"><div className="float-right">
                         <img className="photo-container" src={whys2}  alt="Elegant solutions for difficult problems" /> 
                     </div>  
-                            <p className="content-text-18"> WDS specializes in uncovering complex problems on sophisticated applications. Their design solutions are being used on incredibly complex applications for  energy sectors, monitoring energy grids, oil rigs and nuclear plants. To deliver a seamless intuitive experience that reduces the chance for human error takes focus, empathy, experience and talent. </p>
+                            <p className="content-text-18"> WDS specializes in uncovering complex problems on sophisticated applications. Their design solutions are being used on complex applications for energy sectors, monitoring energy grids, oil rigs and nuclear plants. To deliver a seamless intuitive experience that reduces the chance for human error takes focus, empathy, experience and talent. </p>
                             <p className="content-text-18">WDS understands how easy it is for human error to cause a catastrophe. Their UX designers connect with your users on a deep level by understanding the human mind through cognitive psychology. Most mistakes arise out of unconscious human mistakes. Understanding the human subconscious mind helps WDS simplify complex interfaces so that those mistakes are avoided at all costs. </p>           
                         </div> 
                 </section>
@@ -158,7 +158,7 @@ class why_wds extends Component {
                         <img className="photo-container margin-top-10sm" src={whys3}  alt="Our Core Offerings" /> 
                     </div>  
                             <p className="content-text-18 margin-top-15"> 
-                            Empathetic design is critical to your to your future success. WDS has successfully communicated the value of design to businesses for 25 years. Design strategies and < a href="core_offerings">core offerings</a> increase revenues and customer loyalty. A recent study on the value of design by Mckinsey reported that the companies that value design and focus on their users  have increased their business by 30%. WDS core offerings are services that provide training, strategies and workshops to align the value of design to the core of your business.</p>         
+                            Empathetic design is critical to your to your future success. WDS has successfully communicated the value of design to businesses for 25 years. Design strategies and < a href="core_offerings" className="no-decoration greenlink">core offerings</a> increase revenues and customer loyalty. A recent study on the value of design by Mckinsey reported that the companies that value design and focus on their users  have increased their business by 30%. WDS core offerings are services that provide training, strategies and workshops to align the value of design to the core of your business.</p>         
                         </div> 
                     </section>
 
@@ -209,7 +209,7 @@ class why_wds extends Component {
 
                     </div>  
                      <p className="content-text-18"> 
-                        WDS started User Interface design skills   in 1998 on website design. Over the years they have designed and developed complicated healthcare websites and solved difficult UI problems. Currently their data visualization designs are being used on oil rigs, nuclear reactors and pharmaceutical drug facilities.  
+                        WDS aquired User Interface design skills   in 1998 with website design, starting with intranet healthcare websites at Astrazeneca. Today, data visualization designs are being used on oil rigs, nuclear reactors and pharmaceutical drug facilities.  
                     </p>
                     <p className="content-text-18">
                         WDS takes care of front-end development, CSS and HTML, working on-site with your team or creating GIT build-packages complete with custom CSS solutions, pattern libraries, style guides, best of practice documentation and design strategies. This ensures and enforces original design and its solutions. They also offer UI design kits complete with custom CSS, images, icons and HTML.
@@ -259,7 +259,7 @@ class why_wds extends Component {
                     <div className="flex-layout-column  margin-top-25">    
                         <img src={advocate} className="align-self-center  width-65sm margin-bottom-20" alt="Advocates for the User"/>
                         <p className="caption text-align-center">
-                        <i>Advocating and Designing for the User</i></p>
+                        <i>Advocating and designing for the user!</i></p>
                     </div>
                 
 
@@ -281,7 +281,7 @@ class why_wds extends Component {
                     <div className="layout-center-justified ">
                         <img src={youcandoit} className="float-right margin-top-15sm width-50 align-self-center margin-bottom-20 photo-container" alt="You can do it"/>
                         <p className="content-text-18 content-block-75 margin-top-10">
-                            WDS can embed employees within your teams as contractors (on-site or remote). It has flexibility, experience and knowledge to provide successful design solutions and guidance every step of the way. </p> 
+                            WDS can embed employees within your teams as contractors (on-site or remote). There is flexibility, experience and knowledge to provide successful design solutions and guidance every step of the way. </p> 
                     </div>
                     <div className="subtitle margin-top-50">Your users will love you.</div>
                     <div className="layout-center-justified ">
@@ -303,7 +303,7 @@ class why_wds extends Component {
                            
                             <p className="content-text-18 margin-top-75 margin-left-50 content-block-55">
                                 WDS is here to build and launch great technology solutions and help your team improve your business in tangible ways. 
-                                WDS <a href ="./core_offerings">core offerings </a> 
+                                WDS <a href ="./core_offerings" className="no-decoration greenlink">core offerings </a> 
                             have helped businesses understand the value of design and increased conversion by 200%, reduced operations time by 15%, and increased channel utilization by 75%. It all leads to millions in revenue and cost savings.</p> 
                         </div> 
                     </div> 
@@ -368,7 +368,7 @@ class why_wds extends Component {
 
                             <li>2. WDS knows the value of design</li>
 
-                            <li>3. WDS knows how to communicate, <a href ="./contact.jsp"> call us today</a></li>
+                            <li>3. WDS knows how to communicate, <a href ="./contact.jsp" className="no-decoration greenlink"> contact us today</a></li>
 
                             <li>4. WDS knows business</li>
 

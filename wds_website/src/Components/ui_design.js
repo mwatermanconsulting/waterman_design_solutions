@@ -256,7 +256,8 @@ class ui_design extends Component {
                       
                       <div >
                           <p className="callout-text-white text-align-center">
-                              Need a new one here.</p>
+                          Curiosity is the seed of empathy.
+</p>
                     </div>
                 </div>
             </section>      

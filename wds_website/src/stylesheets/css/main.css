@@ -1172,6 +1172,11 @@ footer {
   line-height: 1.4;
   text-align: left; }
 
+.header-title-cs {
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 5.1875rem;
+  letter-spacing: 1.1px; }
+
 .title-homepage {
   font-family: 'Mouse Memoirs', sans-serif;
   font-size: 2.12rem;
@@ -3473,6 +3478,14 @@ a:any-link {
     margin-top: 15px;
     width: 85%;
     margin-left: 13%; }
+  .cs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-top: 15px;
+    width: 85%;
+    margin-left: 13%; }
   .flex-layout-justified-sa {
     display: flex;
     justify-content: space-around;
@@ -3771,6 +3784,13 @@ a:any-link {
     padding-top: 0px;
     margin-bottom: 0px;
     margin-left: -7%; }
+  .photo-container-history {
+    width: 106%;
+    height: auto;
+    max-width: 550px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0%; }
   .photo-container-ux {
     width: 110%;
     height: auto;
