@@ -197,11 +197,12 @@ class ui_design extends Component {
                         <div className="subtitle margin-top-10">
                             Business Tailored UI Design Kits
                         </div> 
+                       
+                        <div className="margin-top-15">  
+                            <p className="content-text-18"> 
                         <div className="float-right callout-photo grid-placeself-center margin-top-15sm">
                             <img className="photo-container" src={ui_s7}  alt="HTML and CSS Build-Kits" />  
                         </div>
-                        <div className="margin-top-15">  
-                            <p className="content-text-18">
                             WDS UI Design Build Kit solutions are lightweight, containing only the visual elements, HTML and CSS needed. The value of a tailored UI kit is that it helps solve the consistency issues businesses face when teams are fractured. These teams need design guidance and support, and a design solution that will support the developers with a starting point, removing the need to design and go straight to development. WDS provides guidance with a living style guide and design system which includes best of practice documentation. </p> 
                             <p className="content-text-18"> 
                              UI kits are a comprehensive resource set that allow you to plan your design’s structure properly without having to sacrifice creative and originality. A UI kit generally contains an assortment of graphic files including UI components (buttons, check boxes, progress bars, etc.) for the purpose of user interface design. This allows developers to create outstanding visuals in a reasonable time frame. So instead of wasting time figuring out how to implement components, UI kits let you focus on what you do best: creating great products.
@@ -256,7 +257,7 @@ class ui_design extends Component {
                       
                       <div >
                           <p className="callout-text-white text-align-center">
-                              Need a new one here.</p>
+                          50 percent of companies admit they have no clear way to link design to business health, senior leaders are often reluctant to divert scarce resources to design functions. </p>
                     </div>
                 </div>
             </section>      
