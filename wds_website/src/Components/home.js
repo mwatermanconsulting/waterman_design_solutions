@@ -62,7 +62,7 @@ class landingPage extends Component {
                     <div className="flex-layout-section-full align-self-center flex-layout-center-center ">
                         <img className="content-block-auto margin-left-18per margin-top-10per" src={why2}  alt="Why WDS" /> 
                             <div className="">
-                                <div className="header-title-sm home-content-block-lg">
+                                <div className="header-title-sm-center home-content-block-lg">
                                     Why WDS
                                 </div>
                                 <p className="content-text-18 content-block-75 margin-top-10 text-align-center">
@@ -78,18 +78,18 @@ class landingPage extends Component {
                     </div>
                 </div>
 
-                <div className="home-item width-50 margin-top-100sm">
-                    <div className="flex-layout-section-full align-self-center flex-layout-center-center ">
+                <div className="home-item width-50 margin-top-50sm">
+                    <div className="flex-layout-section-full align-self-center flex-layout-center-center margin-top-50sm ">
                         <img className="content-block-auto margin-left-18per" src={binoculars}  alt="Why WDS" /> 
                             <div className="">
-                                <div className="header-title-sm home-content-block-lg margin-top-15">
+                                <div className="header-title-sm-center home-content-block-lg margin-top-15">
                                     Methodology
                                 </div>
                                 <p className="content-text-18 content-block-75 margin-top-10 text-align-center">
                                 WDS has refined a scalable, flexible UX methodology that centers on finding the truth to user issues and answering questions about customers.
                                 </p>
                             
-                    <div className="flex-layout-section-full content-block-75">
+                    <div className="flex-layout-section-full content-block-75 margin-top">
                         <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/case_study_4'}>
                             Learn More 
                         </NavLink>
@@ -98,10 +98,10 @@ class landingPage extends Component {
                     </div>
                 </div>
                 <div className="home-item width-50 margin-top-50sm margin-top-50">
-                    <div className="flex-layout-section-full align-self-center flex-layout-center-center ">
+                    <div className="flex-layout-section-full align-self-center flex-layout-center-center margin-top-50sm ">
                         <img className="content-block-auto margin-left-18per margin-top-7per" src={design}  alt="WDS Design Solutions" /> 
                             <div className="">
-                                <div className="header-title-sm home-content-block-lg">
+                                <div className="header-title-sm-center home-content-block-lg">
                                     Design Solutions
                                 </div>
                                 <p className="content-text-18 margin-top-10 content-block-75 text-align-center">
@@ -118,10 +118,10 @@ class landingPage extends Component {
                 </div>
                 
                 <div className="home-item width-50 margin-top-50sm">
-                    <div className="flex-layout-section-full align-self-center flex-layout-center-center ">
+                    <div className="flex-layout-section-full align-self-center flex-layout-center-center margin-top-50sm ">
                         <img className="content-block-auto margin-left-18per" src={igotyou}  alt="Why WDS" /> 
                             <div className="">
-                                <div className="header-title-sm home-content-block-lg">
+                                <div className="header-title-sm-center home-content-block-lg">
                                    Services
                                 </div>
                                 <p className="content-text-18 margin-top-10 content-block-75 text-align-center">
@@ -171,7 +171,7 @@ class landingPage extends Component {
                         </div>
                         <div className="margin-top-15 content-block-60">
                         <p className="content-text-18 ">
-                            <div className="float-right margin margin-top-1">
+                            <div className="float-right">
                                 <img className="photo-container" src={empathy}  alt="Value of Empathy" /> 
                             </div> 
                         What circumstances prompt people to use your product or service? Do your customers turn to your offering in the way you expected? If they don’t, there may be an opportunity for your company to reevaluate previous design decisions. <br/><br/>
@@ -180,7 +180,7 @@ class landingPage extends Component {
                 </div>
                 </section>  
 
-                <div className="flex-layout-section-full float-left-np margin-top-25">
+                <div className="float-left-np margin-top-25">
                         <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/ux_design'}>
                             Learn More 
                         </NavLink>
@@ -212,7 +212,7 @@ class landingPage extends Component {
                         WDS lives for the comment "Why didn't we think of that?" commonly expressed by stakeholders and/or managers during the design reveal.</p>
                
                 
-                <div className="flex-layout-section-full margin-top-25">
+                <div className="float-left-np margin-top-25">
                         <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/ui_design'}>
                             Learn More 
                         </NavLink>
@@ -241,7 +241,7 @@ class landingPage extends Component {
                     <div className="home-item flex-layout-section-column align-items-center flex-layout-section-full">
                         <img className="border-2 home-image-container-callout" src={theyluvus}  alt="All About the User" /> 
                         <div className="flex-layout-section-full content-block-80">
-                            <div className="header-title-sm text-align-center margin-top-15">
+                            <div className="header-title-sm-center text-align-center margin-top-15">
                                 It’s All About the User
                             </div>
                             <div className="subtitle-center  text-align-center margin-top-10">
@@ -254,7 +254,7 @@ class landingPage extends Component {
                     <div className="home-item flex-layout-section-column align-items-center flex-layout-section-full">  
                         <img className="border-2 home-image-container-callout"  src={business}  alt="Business Solutions" /> 
                         <div className="flex-layout-section-full content-block-80">
-                            <div className="header-title-sm margin-top-10">
+                            <div className="header-title-sm-center margin-top-10">
                                 Business Value of Design</div>
                             <div className="subtitle-center text-align-center margin-top-10">
                                 Design is Everybody’s Responsibility</div>
@@ -299,7 +299,8 @@ class landingPage extends Component {
         
         <section className="grid-gallery-2col grid-gap-20 content-header align-self-center justify-items-center margin-top-50 width-70">
                     <div className="gallery-2col-1 align-self-end border-2">
-                        <img className="photo-container" src={motorola}  alt="All About the User" /> 
+                        <div className="flex-layout-section-full">
+                        <img className="image-size-100" src={motorola}  alt="All About the User" /> 
                         <div className="content-block-auto padding-10">
                             <div className="subtitle">
                                 Motorola</div>
@@ -308,23 +309,24 @@ class landingPage extends Component {
                                 Industry: Technology</p>
                             <p className="">
                                 After two failed attempts by previously hired UX/UI developers, a frustrated management group for Motorola's new product decided they needed a designer to simplify their modem app.</p>
-                            <div className="float-left-np content-block-55 margin-left-6per">
+                            <div className="float-left content-block-55 margin-left-6per">
                                 <NavLink className='button-area no-decoration width-50' type="button" value="learn more" to='/case_study_1'>
                                     Learn More 
                                 </NavLink>
                             </div>
                             </div>
+                            </div>
                         </div>
                     </div>     
                     <div className="gallery-2col-2  align-self-top border-2">
-                        <img className="photo-container"  src={stubhub}  alt="Business Solutions" /> 
+                        <img className="image-size-100"  src={stubhub}  alt="Business Solutions" /> 
                         <div className="content-block-auto padding-10">
                             <div className="subtitle">StubHub</div>
                             <div className="flex-layout-section-full">
                             <p className="content-text-21">Industry: Entertainment/Sports</p>
                             <p className="">The analysts were unhappy with their current data visualization tool. After two failed attempts to fix it, and the threat of dissolving the internal team, WDS came to the rescue.</p>
 
-                            <div className="float-left-np content-block-55 margin-left-6per">
+                            <div className="float-left content-block-55 margin-left-6per">
                                 <NavLink className='button-area no-decoration width-50' type="button" value="learn more" to='/case_study_2'>
                                     Learn More 
                                 </NavLink>
