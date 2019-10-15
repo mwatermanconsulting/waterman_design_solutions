@@ -3822,6 +3822,13 @@ a:any-link {
     padding-top: 0px;
     margin-bottom: 0px;
     margin-left: -7%; }
+  .photo-container-history {
+    width: 106%;
+    height: auto;
+    max-width: 550px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0%; }
   .photo-container-ux {
     width: 110%;
     height: auto;
