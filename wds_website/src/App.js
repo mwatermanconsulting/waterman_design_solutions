@@ -123,7 +123,7 @@ class App extends Component {
           <div className="text-white margin-bottom-15">
                <p className="subtitle-menu">Why</p>
               <ul>
-                 <li> <a className="text-black" href="./why_wds">Why WDS</a></li>
+                 <li className="margin-top-min10"> <a className="text-black" href="./why_wds">Why WDS</a></li>
                  <li><a className="text-black" href="./case_studies">Case Studies</a></li>
                  <li><a className="text-black" href="./clients">Clients</a></li>
                  <li><a className="text-black" href="./core_offerings">Core Offerings</a></li>
@@ -134,7 +134,7 @@ class App extends Component {
           <div className="subtitle-menu text-white grid-footer-item-2">
           <p className="subtitle-menu">Services</p>
               <ul className="text-black">
-              <li><a className="text-black" href="./services">Overview</a></li>
+              <li className="margin-top-min10"><a className="text-black" href="./services">Overview</a></li>
               <li><a className="text-black" href="./ux_design">UX Design </a></li>
               <li><a className="text-black" href="./ui_design">UI Design</a></li>
               <li><a className="text-black" href="./css_solutions">CSS Solutions</a></li>
@@ -146,7 +146,7 @@ class App extends Component {
           <div className="grid-footer-item-3 text-white subtitle-menu">
           <p className="subtitle-menu">Methodology</p>
               <ul>
-              <li><a className="text-black" href="./methodology">Overview</a></li>
+              <li className="margin-top-min10"><a className="text-black" href="./methodology">Overview</a></li>
               <li><a className="text-black" href="./finding_truth">Finding the Truth</a></li>
               <li><a className="text-black" href="./innovative_solutions">Innovative Solutions</a></li>
               <a href="./strategy_insight">Strategy and Insight</a>
@@ -155,7 +155,7 @@ class App extends Component {
           <div className="grid-footer-item-4 text-white subtitle-menu"> 
           <p className="subtitle-menu">Design Solutions</p>
               <ul>
-              <li><a className="text-black" href="./design_solutions">Overview</a></li>
+              <li className="margin-top-min10"><a className="text-black" href="./design_solutions">Overview</a></li>
               <li><a className="text-black" href="./website_design">Website Design</a></li>
               <li><a className="text-black" href="./graphic_design">Graphic Design</a></li>
               <li><a className="text-black" href="./marketing">Marketing</a></li>

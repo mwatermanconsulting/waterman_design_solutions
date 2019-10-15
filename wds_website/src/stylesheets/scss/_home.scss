@@ -12,7 +12,17 @@
   font-size: 18px;
   margin-top: 15px;
   width: 85%;
-  margin-left: 15%;
+  margin-left: 12%;
+}
+
+.flex-layout-space-between { 
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-top: 75px;
+  width: 85%;
+  margin-left: 7%;
 }
 
 .home-container-callout { 
@@ -34,8 +44,22 @@
 
  .home-item {
   flex: 0 50%;
+  flex-direction: column;
+  justify-items: center;
   height: auto; /* (100-32*3)/2 */
 }
+
+.cs-callout-item {
+  flex: 0 45%;
+  flex-direction: column;
+  justify-items: center;
+  height: auto;
+  max-height: 560px;
+  min-width: 425px;
+  margin-bottom: 25px; /* (100-32*3)/2 */
+}
+
+
 .callout-content-block{
   width: 95%;
   align-self: center;

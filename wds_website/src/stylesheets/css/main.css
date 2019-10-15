@@ -470,6 +470,9 @@ footer {
 .margin-top-min10per {
   margin-top: 0%; }
 
+.margin-top-75sm {
+  margin-top: 0px; }
+
 .margin-top-min25sm {
   margin-top: 0px; }
 
@@ -1070,6 +1073,9 @@ footer {
 
 .margin-top-10 {
   margin-top: 10px; }
+
+.margin-top-min10 {
+  margin-top: -14px; }
 
 .margin-top-15 {
   margin-top: 15px; }
@@ -1881,7 +1887,7 @@ Button:hover {
   padding: 5px 30px 5px 30px;
   min-height: 25px;
   max-height: 25px;
-  max-width: 145px;
+  max-width: 100px;
   box-shadow: 0px 1px 0px #ffffff, 0px 1px 3px rgba(0, 0, 0, 0.3);
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
   color: #010101 !important;
@@ -3216,7 +3222,16 @@ a.menu {
   font-size: 18px;
   margin-top: 15px;
   width: 85%;
-  margin-left: 15%; }
+  margin-left: 12%; }
+
+.flex-layout-space-between {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-top: 75px;
+  width: 85%;
+  margin-left: 7%; }
 
 .home-container-callout {
   display: flex;
@@ -3235,7 +3250,19 @@ a.menu {
 
 .home-item {
   flex: 0 50%;
+  flex-direction: column;
+  justify-items: center;
   height: auto;
+  /* (100-32*3)/2 */ }
+
+.cs-callout-item {
+  flex: 0 45%;
+  flex-direction: column;
+  justify-items: center;
+  height: auto;
+  max-height: 560px;
+  min-width: 425px;
+  margin-bottom: 25px;
   /* (100-32*3)/2 */ }
 
 .callout-content-block {
@@ -3359,6 +3386,7 @@ a:any-link {
 .image-size-20 {
   width: 20%; }
 
+/*****************************************319 break****************************************/
 @media (min-width: 319px) {
   .display-none {
     visibility: hidden; }
@@ -3477,7 +3505,15 @@ a:any-link {
     font-size: 18px;
     margin-top: 15px;
     width: 85%;
-    margin-left: 13%; }
+    margin-left: 5%; }
+  .flex-layout-space-between {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-top: 75px;
+    width: 85%;
+    margin-left: 7%; }
   .cs-container {
     display: flex;
     flex-wrap: wrap;
@@ -3637,7 +3673,7 @@ a:any-link {
   .margin-top-15sm {
     margin-top: 15px; }
   .margin-left-25 {
-    margin-left: 0%; }
+    margin-left: 25%; }
   .margin-bottom-15 {
     margin-bottom: 15px; }
   .margin-bottom-min15 {
@@ -3737,6 +3773,8 @@ a:any-link {
     height: auto; }
   .margin-top-75 {
     margin-top: 40px; }
+  .margin-top-75sm {
+    margin-top: 75px; }
   .margin-left-75 {
     margin-left: 10px; }
   .marginleft40per {
@@ -3759,7 +3797,7 @@ a:any-link {
   .content-block-80 {
     width: 95%; }
   .home-content-block-lg {
-    width: 85%; }
+    width: 75%; }
   .content-block-85 {
     width: 90%; }
   .photo-container-cheer {
@@ -4042,7 +4080,7 @@ a:any-link {
   .gallery-2col-1 {
     grid-column: 1/1;
     grid-row: auto;
-    min-height: 500px;
+    min-height: 0px;
     margin-bottom: 50px; }
   .gallery-2col-2 {
     grid-column: 2/1;
@@ -4107,6 +4145,7 @@ a:any-link {
     padding: 1px;
     font-family: Roboto; } }
 
+/*****************************************480 break****************************************/
 @media only screen and (min-width: 480px) {
   .container-photo-callout {
     width: 100%;
@@ -4124,7 +4163,8 @@ a:any-link {
     margin-left: 4%;
     padding-left: 0px; } }
 
-@media (min-width: 768px) {
+/*****************************************768 break****************************************/
+@media only screen and (min-width: 768px) {
   .width-70 {
     width: 60%; }
   .margin-left-75 {
@@ -4140,7 +4180,7 @@ a:any-link {
     max-width: 650px;
     height: auto;
     border: 2px solid #000;
-    margin-left: 13%; }
+    margin-left: 3%; }
   .margin-top-15per {
     margin-top: 0%; }
   .margin-top-min10per {
@@ -4273,7 +4313,16 @@ a:any-link {
   .marginleft-40per {
     margin-left: 0%; } }
 
-@media (min-width: 992px) {
+@media only screen and (min-width: 900px) {
+  .container-photo-callout {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    border: 2px solid #000;
+    margin-left: 9%; } }
+
+/*****************************************1024 break****************************************/
+@media (min-width: 1024px) {
   .align-self-auto {
     align-self: auto; }
   .photo-container {
@@ -4370,6 +4419,40 @@ a:any-link {
     margin-left: -4%; }
   .grid-left {
     grid-column: 1; }
+  .grid-footer {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "text1 text2 text3 text4 text5";
+    grid-auto-flow: column;
+    width: 100%; }
+  .grid-footer-item-1 {
+    grid-column: 1/5;
+    grid-row: 1/1;
+    grid-area: text1; }
+  .grid-footer-item-2 {
+    grid-column: 2/5;
+    grid-row: 1/1;
+    grid-area: text2; }
+  .grid-footer-item-3 {
+    grid-column: 3/5;
+    grid-row: 1/1;
+    grid-area: text3; }
+  .grid-footer-item-4 {
+    grid-column: 4/5;
+    grid-row: 1/1;
+    grid-area: text4; }
+  .grid-footer-item-5 {
+    grid-column: 5/5;
+    grid-row: 1/1;
+    grid-area: text5; }
+  .grid-why-list {
+    width: 1200px;
+    grid-template-columns: repeat(3, 400px);
+    grid-row: auto;
+    grid-gap: 20px;
+    display: grid;
+    margin-left: 0%; }
   .container-section-1-primary {
     display: flex;
     height: 270px;
@@ -4381,10 +4464,7 @@ a:any-link {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px; } }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
-  .margin-top-10per {
-    margin-top: 1%; } }
-
+/*****************************************1200 break****************************************/
 @media (min-width: 1200px) {
   p {
     font-size: 18px;
@@ -4536,7 +4616,15 @@ a:any-link {
     font-size: 18px;
     margin-top: 15px;
     width: 85%;
-    margin-left: 15%; }
+    margin-left: 13%; }
+  .flex-layout-space-between {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-top: 75px;
+    width: 85%;
+    margin-left: 7%; }
   .why-item {
     flex: 0 25%;
     height: auto;
@@ -4640,6 +4728,8 @@ a:any-link {
     margin-right: 25%; }
   .margin-right-50 {
     margin-right: 0%; }
+  .margin-top-75sm {
+    margin-top: 0px; }
   .margin-right-50sm {
     margin-right: 50%; }
   .margin-left-30per {
@@ -4702,6 +4792,8 @@ a:any-link {
     margin-top: 10px; }
   .margin-bottom-25sm {
     margin-bottom: 0px; }
+  .header-title-sm-center {
+    text-align: center; }
   .margin-top-5per {
     margin-top: -5%; }
   .margin-left-5 {
