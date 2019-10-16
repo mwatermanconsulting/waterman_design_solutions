@@ -843,13 +843,15 @@
   flex-direction: flex-start;
   flex: 1 1 420px;
   border-top: none;
-  border-bottom: none; 
+  border-bottom: none;
+  min-height:  
 }
 
 .flex-image-container-master {
   display: flex;
   flex-direction: flex-start;
   flex: 1 1 420px;
+  min-height: 575px;
 }
 
 .flex-image-container-child {
@@ -952,6 +954,9 @@
 /*  Layers and Sizes   */
 .width-100 {
   width: 100%; }
+
+  .width-93 {
+    width: 93%; }
 
   .width-110 {
     width: 110%; }

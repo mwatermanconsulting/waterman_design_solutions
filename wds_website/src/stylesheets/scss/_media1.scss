@@ -194,7 +194,7 @@
     font-size: 18px;
     margin-top: 15px;
     width: 85%;
-    margin-left: 13%;
+    margin-left: 16%;
   }
 
 
@@ -648,9 +648,9 @@
 
   .width-250 {
     width: 110%;
-    max-width: 500px;
+    max-width: auto;
     height: auto;
-    margin-left: -6%;
+    margin-left: 0%;
   }
 
   .michael-image {
@@ -1086,6 +1086,7 @@
   
 
   .grid-title {
+    font-weight: 700;
     grid-column: auto / span 1;
     align-items: center;
   }
@@ -1279,7 +1280,7 @@
   max-width: 650px;
   height: auto;
   border: 2px solid #000;
-  margin-left: 3%;
+  margin-left: 13%;
 }
 
 
@@ -1728,6 +1729,10 @@
       font-family: Roboto;
     }
 
+    .padding-20 {
+      padding: 20px;
+    }
+
     .float-left {
       float: left;
       padding: 15px 5px 15px 15px;
@@ -1743,6 +1748,11 @@
       flex: 1 1 420px;
       border-top: none;
       border-bottom: none; 
+    }
+
+    .cs-item {
+      flex:1 1 43%;
+      height: auto; /* (100-32*3)/2 */
     }
 
 
@@ -2050,6 +2060,16 @@
       height: auto;
       border: 1px solid $black;
       margin-top: 0px;
+    }
+
+    .cs-container { 
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      font-size: 18px;
+      margin-top: 15px;
+      width: 100%;
+      margin-left: 5%;
     }
 
     .photo-container-cs {

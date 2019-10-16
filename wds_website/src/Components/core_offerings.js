@@ -103,10 +103,10 @@ class core_offerings extends Component {
                    
             </section>
             <section className="flex-layout-section-full flex-layout-column padding flex-layout-center-center ltgrey2 border-top-1 border-bottom-1 margin-top-50">
-                <div className="title text-black">
+                <div className="header-title-sm text-black">
                         In Context Case Study - UX Steering Team
                 </div>
-                <div className="subtitle text-black margin-top-25">
+                <div className="subtitle text-black margin-top-15">
                         OsiSoft Communication Design Strategy
                 </div>
                     <p className="content-text-18 content-block-65 margin-top-15" >

@@ -50,7 +50,7 @@ class ui_design extends Component {
             </section>
 
             <section className="flex-layout-section-full flex-layout-column align-items-center">
-                <p className="title-center margin-top-75 content-block-65">
+                <p className="header-title-sm-center margin-top-75 content-block-75">
                 WDS has provided UI solutions to the some of the world's largest brands</p>
                 <p className="subtitle-center text-align-center content-block-60  margin-top-15">
                 Simplifying websites, products and software interfaces is a passion of WDS. Their latest design solutions for data visualization applications are being used in industries such as the energy sector to monitor nuclear reactors.
@@ -243,25 +243,25 @@ class ui_design extends Component {
                 <div className="hr-line"></div>
 
                 <section className="flex-layout-section-full flex-layout-column margin-bottom-75 flex-layout-center-center">
-                     <div className="title-center content-block-60">
+                     <div className="header-title-sm-center content-block-75">
                             Design is not about being pretty or aesthetically pleasing,  it is about simplicity.
                     </div>
-                    <div className="content-text-21 margin-top-50 margin-top-50sm content-block-65">
+                    <div className="content-text-21 margin-top-25 margin-top-50sm content-block-65">
                         WDS has been designing user interfaces for over twenty years. They originally designed user interfaces for websites, but that changed with their first complicated industrial user interface  designed for Motorola. Since then the UI design services expanded to all consumer-facing touchpoints, including software, mobile, SaaS and kiosks.
                     </div> 
                 </section>
 
                  <section className="flex-layout-section-full flex-layout-column flex-layout-center-center padding-top-50 grey border-top-5">
-                <div className="content-block-55 text-align-center"> 
+                    <div className="content-block-55 text-align-center"> 
                        <img className="photo-container padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
                       
-                      <div >
+                      <div>
                           <p className="callout-text-white text-align-center">
                           50 percent of companies admit they have no clear way to link design to business health, senior leaders are often reluctant to divert scarce resources to design functions. </p>
 
                     </div>
-                </div>
-            </section>      
+                    </div>
+                </section>      
         </div>
     </div>
         )

@@ -934,6 +934,9 @@ footer {
 .width-100 {
   width: 100%; }
 
+.width-93 {
+  width: 93%; }
+
 .width-110 {
   width: 110%; }
 
@@ -3215,6 +3218,11 @@ a.menu {
   width: 85%;
   margin-left: 15%; }
 
+.cs-item {
+  flex: 1 1 43%;
+  height: auto;
+  margin-right: 75px; }
+
 .home-container {
   display: flex;
   flex-wrap: wrap;
@@ -3260,7 +3268,7 @@ a.menu {
   flex-direction: column;
   justify-items: center;
   height: auto;
-  max-height: 560px;
+  max-height: 600px;
   min-width: 425px;
   margin-bottom: 25px;
   /* (100-32*3)/2 */ }
@@ -3300,6 +3308,15 @@ a.menu {
   max-width: 500px;
   height: auto;
   margin-left: 0; }
+
+.cs-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-top: 15px;
+  width: 100%;
+  margin-left: 5%; }
 
 /*******************************
          react-overrides
@@ -3521,7 +3538,7 @@ a:any-link {
     font-size: 18px;
     margin-top: 15px;
     width: 85%;
-    margin-left: 13%; }
+    margin-left: 16%; }
   .flex-layout-justified-sa {
     display: flex;
     justify-content: space-around;
@@ -3759,9 +3776,9 @@ a:any-link {
     width: 70%; }
   .width-250 {
     width: 110%;
-    max-width: 500px;
+    max-width: auto;
     height: auto;
-    margin-left: -6%; }
+    margin-left: 0%; }
   .michael-image {
     width: 100%;
     max-width: 500px;
@@ -4049,6 +4066,7 @@ a:any-link {
   .margin-left-min10per {
     margin-left: -10%; }
   .grid-title {
+    font-weight: 700;
     grid-column: auto / span 1;
     align-items: center; }
   .grid-right-css {
@@ -4180,7 +4198,7 @@ a:any-link {
     max-width: 650px;
     height: auto;
     border: 2px solid #000;
-    margin-left: 3%; }
+    margin-left: 13%; }
   .margin-top-15per {
     margin-top: 0%; }
   .margin-top-min10per {
@@ -4474,6 +4492,8 @@ a:any-link {
     margin-bottom: 15px;
     padding: 1px;
     font-family: Roboto; }
+  .padding-20 {
+    padding: 20px; }
   .float-left {
     float: left;
     padding: 15px 5px 15px 15px; }
@@ -4485,6 +4505,10 @@ a:any-link {
     flex: 1 1 420px;
     border-top: none;
     border-bottom: none; }
+  .cs-item {
+    flex: 1 1 43%;
+    height: auto;
+    /* (100-32*3)/2 */ }
   .home-image-container {
     width: 100%;
     max-width: 500px;
@@ -4676,6 +4700,14 @@ a:any-link {
     height: auto;
     border: 1px solid #000;
     margin-top: 0px; }
+  .cs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-top: 15px;
+    width: 100%;
+    margin-left: 5%; }
   .photo-container-cs {
     width: 550px;
     height: 333px;

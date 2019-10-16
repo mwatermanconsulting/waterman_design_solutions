@@ -28,7 +28,7 @@ class App extends Component {
                   </button>
                   <div className="dropdown-content content-text" >
                     <a href="./why_wds">Why WDS</a>
-                    <a href="./case_studies">Success Stories (Case Studies)</a>
+                    <a href="./case_studies">Case Studies</a>
                     <a href="./clients">Clients</a>
                     <a href="./core_offerings">Core Offerings</a>
                     <a href="./history">History</a>

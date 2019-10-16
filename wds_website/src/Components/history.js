@@ -48,7 +48,7 @@ class about extends Component {
                 </section>
                 <section className="grid-callout photo-content-color border-bottom-5 padding-sm" > 
                     <div className="grid-placeself-center content-block-55 flex-layout-column">
-                        <div className="callout-title text-align-center-sm">
+                        <div className="callout-title text-align-center-sm margin-top-25">
                              Surreal Beginnings
                         </div>
                         <div className="content-text-18 text-bold margin-top-15" >
@@ -269,7 +269,7 @@ class about extends Component {
                     </div>
                     <div className="content-block-65 content-text-18 margin-top-15 margin-top-25sm">
                         
-                        <p className="content-text-18"><div className="float-right">
+                        <p className="content-text-18 margin-top-15"><div className="float-right">
                             <img className="michael-image"  src={mike}  alt="Michael Waterman"/> 
                         </div> Michael was raised in a creative family and spent his childhood creating, designing and drawing. As Michael matured he began a career in retail. His friendly and caring nature made him a natural at customer service and he quickly climbed the corporate ladder becoming a regional manager in his early twenties. </p>
 
@@ -304,11 +304,14 @@ class about extends Component {
                    
                     <div className="content-block-65 content-text-18 margin-top-15"> 
                         <p className="content-text-18 align-self-center margin-left-32persm"> <strong>"I aim to inspire.</strong>" </p>
-                        <p className="content-text-18 content-block-65"><div className="float-right">
-                            <img className="width-250 padding-sm margin-left-min10per-sm margin-top"  src={terri}  alt="Terri" /> <p className="width-250 caption">"Artists have always been leaders in society, helping others to achieve enlightened thinking and problem solving."</p>
+                        <p className="content-text-18 content-block-auto">
+                            <div className="float-right">
+                            <img className="width-250 margin-left-min10per-sm margin-top"  src={terri}  alt="Terri" /> 
+                            <p className="width-250 caption">"Artists have always been leaders in society, helping others to achieve enlightened thinking and problem solving."</p>
                         </div>
-                            Terri's perspective is greatly influenced by her hearing loss as a child. When the outer life becomes quiet, observations and interpretations will always be unique. She learned that following the crowd was never a good idea to foster creativity. Fine art talent has taught her the importance of staying true to herself, and she continually finds new ways of expressing herself, whether it be through graphic design, advertising, branding, abstract paintings or multimedia art. <br></br>A deep thinker, she has always been curious about how humans behave and respond to life, and how design was about simplifying things to make our lives better. Like the cartooning on this site, the goal was to visibly communicate to you how much WDS values good old fashioned customer service, something that was very prevalent in the 1950s.
+                            Terri's perspective is greatly influenced by her hearing loss as a child. When the outer life becomes quiet, observations and interpretations will always be unique. She learned that following the crowd was never a good idea to foster creativity. Fine art talent has taught her the importance of staying true to herself, and she continually finds new ways of expressing herself, whether it be through graphic design, advertising, branding, abstract paintings or multimedia art. <br></br>A deep thinker, she has always been curious about how humans behave and respond to life, and how design was about simplifying things to make our lives better. Like the cartooning on this site, the goal was to visibly communicate to you how much WDS values good old fashioned customer service, something that was very prevalent in the 1950s. </p>
                         <br></br>
+                        <p className="content-text-18 content-block-65">
                             Her experience working with Michael and their clients has taught her that design has a purpose - empathy, and users ALWAYS embrace designs that take them into consideration. </p>
                         <p className="subtitle">
                             Terri's passion for helping others with her talent is what motivates her to be passionate about her clients' goals.
