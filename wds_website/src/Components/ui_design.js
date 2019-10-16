@@ -38,7 +38,7 @@ class ui_design extends Component {
 
             <section className="grid-callout photo-content-color border-bottom-5" > 
                 <div className="grid-placeself-center flex-layout-column margin-top-25sm content-block-75">
-                <div className="callout-title-center margin-top-15">
+                <div className="callout-title margin-top-15">
                         The "aha" Moment
                     </div>
                     <div className="callout-text padding-20 content-block-75 text-align-left align-self-center margin-top-15 margin-left-2" >
@@ -52,7 +52,7 @@ class ui_design extends Component {
             <section className="flex-layout-section-full flex-layout-column align-items-center">
                 <p className="header-title-sm-center margin-top-75 content-block-75">
                 WDS has provided UI solutions to the some of the world's largest brands</p>
-                <p className="subtitle-center text-align-center content-block-60  margin-top-15">
+                <p className="subtitle-center text-align-center content-block-60  margin-top-10">
                 Simplifying websites, products and software interfaces is a passion of WDS. Their latest design solutions for data visualization applications are being used in industries such as the energy sector to monitor nuclear reactors.
                 </p>
             </section>

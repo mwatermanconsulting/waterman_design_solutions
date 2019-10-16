@@ -39,7 +39,7 @@ class css_solutions extends Component {
             <section className="grid-callout photo-content-color border-bottom-5" > 
                 <div className="grid-placeself-center content-block-75 flex-layout-column">
                     <div className="callout-text padding-20 text-align-left margin-top-15 margin-left-2 margin-left-3" >
-                        WDS understands specificity issues. </div>        
+                    Our CSS services include CSS development, strategy, CSS system implementation, mentoring, documentation, and best of practice documentation. </div>        
                     </div>
                     <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
                         <img className="container-photo-callout margin-left-15per margin-top-25sm" src={casscade}  alt="Finding Truth" /> 
@@ -47,7 +47,7 @@ class css_solutions extends Component {
             </section>
 
             <section className="content-header flex-layout-center-center flex-layout-column margin-top-75">
-                <div className="flex-layout-center-center title-center content-block-60">
+                <div className="header-title-center text-align-center content-block-60">
                         WDS develops lean scalable CSS solutions, saving your business time and money, while keeping your developers happy.
                         
                 </div>
@@ -56,8 +56,8 @@ class css_solutions extends Component {
                         <img className="photo-container-cheer" src={cheer}  alt="Happy developers" /> <br></br>
                         WDS solutions are based on empathy and their observed experiences working with developers. Their CSS knowledge and expertise is one of the main reasons they get hired. WDS CSS solutions are scalable and customizable to your business requirements. </p>
                 </div>
-                    <NavLink className='button-area no-decoration margin-top-25 margin-bottom-25sm' type="button" to={'/case_study_4'}>
-                        OsiSoft Case Study
+                    <NavLink className='button-area no-decoration margin-top-15 margin-bottom-25sm' type="button" to={'/case_study_4'}>
+                       <strong>Case Study</strong>
                     </NavLink>
             </section>
 
@@ -66,23 +66,20 @@ class css_solutions extends Component {
 
     <div className="flex-layout-section-full flex-layout-column align-self-center"> 
 
-        <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
-            <div className="float-left flex-layout-center-center content-block-60">
-                <div className="title">
-                    Experience Matters
-                </div>
-            <div className="subtitle margin-top-10">
-                    Responsive Design Solutions
-            </div> 
-           <div className="float-right callout-photo">
-                <img className="photo-container margin-top-15sm" src={css2}  alt="Prototypes" /> 
-            </div>
-            <div className="margin-top-15 content-text-18"> 
-                    Responsive web design is the approach that suggests that design and development should respond to the user’s behavior and environment based on screen size, platform and orientation. WDS has made countless responsive websites and applications. They were one of the first companies to build a responsive enterprise application using flexbox. WDS can mentor your developers on responsive design best practices, or provide a responsive design <a className="greenlink" href="../ui_design" >build kit.</a>            
-            </div>  
-            </div>
-        </section>
-            
+    <section className="float-left flex-layout-column flex-layout-section-full  flex-layout-center-center">
+                    <div className="title content-block-60">
+                        Experience Matters
+                    </div>
+                    <div className="subtitle content-block-60 margin-top-10">
+                        Responsive Design Solutions
+                    </div>
+                    <div className="margin-top-15 content-block-60"> <div className="float-right callout-photo grid-placeself-center">
+                                <img className="photo-container" src={css2}  alt="Strategy and Insight" /> 
+                        </div>  
+                        <p className="content-text-18">
+                        Responsive web design is the approach that suggests that design and development should respond to the user’s behavior and environment based on screen size, platform and orientation. WDS has made countless responsive websites and applications. They were one of the first companies to build a responsive enterprise application using flexbox. WDS can mentor your developers on responsive design best practices, or provide a responsive design <a className="greenlink" href="../ui_design" >build kit.</a> </p>            
+                    </div>
+                </section>
         <div className="hr-line"></div>
 
         <section className="flex-layout-section-full flex-layout-column flex-layout-center-center">
@@ -113,11 +110,13 @@ class css_solutions extends Component {
             <div className="subtitle margin-top-10">
                 Reusable CSS
             </div> 
-            <div className="float-right callout-photo margin-top-15sm">
-                <img className="photo-container" src={css3}  alt="Prototypes" /> 
-            </div>
-            <div className="margin-top-15 content-text-18 margin-top-15">  
-                CSS preprocessors are scripting languages that extend the default capabilities of CSS. They enable us to use logic in our CSS code, such as variables, nesting, inheritance, mixins, functions, and mathematical operations. CSS preprocessors make it easy to automate repetitive tasks, reduce the number of errors and "code bloat," by creating reusable code snippets, that ensures backward compatibility.              
+           
+            <div className="margin-top-15  margin-top-15"> 
+            <p className="content-text-18"> 
+                <div className="float-right callout-photo margin-top-15sm">
+                    <img className="photo-container" src={css3}  alt="Prototypes" /> 
+                </div>
+                CSS preprocessors are scripting languages that extend the default capabilities of CSS. They enable us to use logic in our CSS code, such as variables, nesting, inheritance, mixins, functions, and mathematical operations. CSS preprocessors make it easy to automate repetitive tasks, reduce the number of errors and "code bloat," by creating reusable code snippets, that ensures backward compatibility. </p>              
             </div>  
             </div>
         </section>
@@ -133,11 +132,14 @@ class css_solutions extends Component {
             <div className="subtitle margin-top-10">
                     NPM and GitHub
             </div> 
-           <div className="float-right callout-photo margin-top-15sm">
-                <img className="photo-container" src={css4}  alt="Prototypes" /> 
-            </div>
-            <div className="margin-top-15 content-text-18">  
-                    The WDS CSS specialists deliver their custom CSS solutions as npm packages or through github. The packages includes a developer build kit with the custom CSS, Sass or Less files, html files and documentation. WDS can refactor your current CSS or develop a customizable CSS solution that will scale as the project matures. They will always keep your team up to date on new releases and make sure all the current version are available.            
+           
+            <div className="margin-top-15 content-text-18">
+                <p className="content-text-18">
+                    <div className="float-right callout-photo margin-top-15 margin-top-15sm">
+                        <img className="photo-container" src={css4}  alt="Prototypes" /> 
+                    </div>   
+                    The WDS CSS specialists deliver their custom CSS solutions as npm packages or through github. The packages includes a developer build kit with the custom CSS, Sass or Less files, html files and documentation. WDS can refactor your current CSS or develop a customizable CSS solution that will scale as the project matures. They will always keep your team up to date on new releases and make sure all the current version are available.  </p>
+
             </div>  
             </div>
         </section> 
@@ -153,11 +155,12 @@ class css_solutions extends Component {
             <div className="subtitle margin-top-10">
                     Building Scalable Enterprise Solutions
             </div> 
-            <div className="float-right callout-photo margin-top-15sm">
-                <img className="photo-container" src={css5}  alt="Prototypes" /> 
-            </div>
+            
             <div className="margin-top-15">  
-                <p className="content-text-18"> 
+                <p className="content-text-18">
+                    <div className="float-right callout-photo margin-top-15sm">
+                        <img className="photo-container" src={css5}  alt="Prototypes" /> 
+                    </div> 
                     The best way to communicate a design or business solution is with a story. The previous company that WDS worked for required an enterprise level, scalable CSS solution that would diminish their specificity issues. To understand the issues and to find the truth required observing the developers and engineers and to find a CSS solution that would support 70 developers <a className="no-decoration greenlink" href="../case_study_4"><i>continue Story...</i></a>  </p>           
             </div>  
             </div>
