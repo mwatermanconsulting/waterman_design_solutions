@@ -34,7 +34,7 @@ class ux_design extends Component {
 
                    <section className="grid-callout photo-content-color border-bottom-5"> 
                 <div className="grid-placeself-center content-block-80  margin-top-50sm flex-layout-column">
-                    <div className="subtitle-center content-block-80 text-black"> 
+                    <div className="subtitle-center width-93 text-black"> 
                              Empathetic Design
                         </div>
                     <div className="callout-text padding-20 margin-top-25 text-align-left margin-left-2" >
@@ -119,9 +119,9 @@ class ux_design extends Component {
                 <div className="hr-line"></div>
 
                 <section className="flex-layout-section-full flex-layout-column align-items-center">
-                <div className="title">
+                <div className="header-title">
                     The WDS UX Team Makes the Difference</div>
-                <div className="subtitle-center margin-top-10 flex-layout-center-center content-block-60">
+                <div className="subtitle-center margin-top-25 flex-layout-center-center content-block-60">
                     Professional Designers Matter
                 </div>
                 <div className="content-text-18 content-block-60 margin-top-15">
@@ -131,8 +131,8 @@ class ux_design extends Component {
                 <section className="content-header flex-layout-center-center flex-layout-column">
                 
                 <div className="hr-line"></div>
-                    <div className="flex-layout-center-center subtitle content-block-60">
-                        The most effective way to communicate their design solutions and UX methodology is through a story.
+                    <div className="flex-layout-center-center header-title-sm-center content-block-60">
+                        Spotlight on WDS UX Methodology
                     </div>
                 </section>
                 <section className="content-header flex-layout-center-center flex-layout-column margin-top-25">
@@ -149,50 +149,51 @@ class ux_design extends Component {
 
                 <div className="hr-line"></div>
 
-                <section className="flex-layout-section-full flex-layout-center-center"> 
+                <section className="flex-layout-section-full flex-layout-center-center margin-bottom-75"> 
                         <div className="grid-2col-text-center-50 align-self-center margin-left-140" >
                             <div className="grid-title content-text-24 margin-bottom-20">
                                 Full List of UX Design Services</div>
                             <div className=" content-text-18">
-                                Interaction Design</div>
+                                - Interaction Design</div>
                             <div className=" content-text-18">
-                                User Interface Design</div>
+                                - User Interface Design</div>
                             <div className=" content-text-18">
-                                Visual Design</div>
+                                - Visual Design</div>
                             <div className=" content-text-18">
-                                Journey Maps</div>
+                                - Journey Maps</div>
                             <div className="- content-text-18">
-                                Personas and User Stories </div>
+                                - Personas and User Stories </div>
                             <div className=" content-text-18">
-                                Concept Validation</div>
+                                - Concept Validation</div>
                             <div className="item content-text-18">
-                                Wireframes</div>
+                                - Wireframes</div>
                             <div className=" content-text-18">
-                                User Workflows</div>
+                                - User Workflows</div>
                             <div className=" content-text-18">
-                            Design Systems and Style Guides</div>
+                            - Design Systems and Style Guides</div>
                             <div className=" content-text-18">
-                            Prototyping</div>
+                            - Prototyping</div>
                             <div className=" content-text-18">
-                            Information Architecture</div>
+                            - Information Architecture</div>
                             <div className=" content-text-18">
-                                Usability studies</div>
+                                - Usability studies</div>
                             <div className=" content-text-18">
-                                Research</div>
+                                - Research</div>
                             <div className=" content-text-18">
-                                Design Thinking </div>
+                                - Design Thinking </div>
                 </div>
             </section>
 
-            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-75 margin-top-50sm  grey border-top-5">
-                        <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
-                    <img className="photo-container-ux margin-bottom-50 margin-top-50sm" src={didyouknow}  alt="Did You Know?" /> 
-                    <div>
-                        <p className="callout-text-white text-align-center">
-                            WDS has developed communication strategies for Motorola, Stubhub and OsiSoft.</p>
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center padding-top-50 grey border-top-5">
+                    <div className="content-block-55 text-align-center"> 
+                       <img className="photo-container padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
+                      
+                      <div>
+                          <p className="callout-text-white text-align-center">
+                          WDS has developed communication strategies for Motorola, Stubhub and OsiSoft </p>
                     </div>
-                </div>
-            </section>
+                    </div>
+                </section>      
         </div> 
     </div>
        

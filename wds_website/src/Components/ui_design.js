@@ -252,15 +252,15 @@ class ui_design extends Component {
                 </section>
 
                  <section className="flex-layout-section-full flex-layout-column flex-layout-center-center padding-top-50 grey border-top-5">
-                <div className="content-block-55 text-align-center"> 
+                    <div className="content-block-55 text-align-center"> 
                        <img className="photo-container padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
                       
-                      <div >
+                      <div>
                           <p className="callout-text-white text-align-center">
                           50 percent of companies admit they have no clear way to link design to business health, senior leaders are often reluctant to divert scarce resources to design functions. </p>
                     </div>
-                </div>
-            </section>      
+                    </div>
+                </section>      
         </div>
     </div>
         )
