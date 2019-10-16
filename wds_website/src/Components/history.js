@@ -54,7 +54,7 @@ class about extends Component {
                         <div className="content-text-18 text-bold margin-top-15" >
                         <p  className="content-text-18 text-align-center-sm">
                             <b>The Foundation of Everything is Design</b></p>
-                        <p className="content-text-18">Since 1997, WDS has been evangelizing the value of design under its original name, Surreal Concepts. Started by the husband and wife team, Terri and Michael Waterman, they began with a simple premise and small list of design services. Their business has evolved alongside the digital revolution, adapting and modifying their services to match their client needs. From small businesses to global name brands, each experience help them to grow and expand service offerings. Waterman Design Solutions reflect that growth with a new focus. </p>
+                        <p className="content-text-18">Since 1997, WDS has been evangelizing the value of design under its original name, Surreal Concepts. Started by the husband and wife team, Terri and Michael Waterman, it begun with a simple premise and small list of design services. Their business has evolved alongside the digital revolution, adapting and modifying their services to match their client needs.  </p>
                         </div>
                     </div>
                         <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
@@ -63,7 +63,7 @@ class about extends Component {
                 </section>
                 
                     <image className="flex-layout-section-full flex-layout-center-center margin-top-75">
-                        <img className="width-60" src={time} alt="Time Line"/>
+                        <img className="width-75" src={time} alt="Time Line"/>
                     </image>
 
                 <div className="hr-line-cs"></div>
@@ -143,7 +143,7 @@ class about extends Component {
                         
                         <div className="margin-top-15">
                             <div className="float-right">
-                                    <img className="photo-container-ux"  src={wfaweb}  alt="Web First Aid" /> 
+                                    <img className="photo-container-ux border-2"  src={wfaweb}  alt="Web First Aid" /> 
                             </div>
                             <p className="content-text-18">Surreal Concepts' design solutions were successful. But they starting asking themselves, "What do the people that are interacting with the websites think?" <br></br>"Are our web designs resonating with users?" <br></br>They set out to research how people interacted with websites by asking questions:<br></br> What were their needs and expectations? <br></br>How did people interact with a web page compared to traditional printed materials? <br></br>In 2003, a study was released by B.J. Fogg and his team at Stanford University revealing the first study on human interaction on websites. The study consisted of user observations of eye movements, click behavior and user interactions. This study changed not not only how they designed, but their entire focus. </p>
                         

@@ -41,17 +41,13 @@ class style_guide extends Component {
                         <img className="container-photo-callout margin-left-15per margin-top-25sm" src={design_systems1}  alt="Design Systems" /> 
                     </div>
             </section>
-    
-            <section className="content-header flex-layout-center-center flex-layout-column">
-                <div className="flex-layout-center-center title-center  content-block-60 margin-top-75">
-                    If your product isn’t documented it doesn’t exist
 
-                </div>
-                <div className="content-block-55 margin-top-25">
-                    <p className="content-text-21">
+            <section className="flex-layout-section-full flex-layout-column align-items-center">
+                <p className="header-title-sm-center margin-top-75 content-block-75">
+                    If your product isn’t documented it doesn’t exist</p>
+                <p className="subtitle-center text-align-center content-block-60  margin-top-10">
                     Style guides and design systems are there to make your lives easier. It keeps  designs consistent internally and help developers be more productive. </p>
-                </div>
-            </section> 
+            </section>
             
             <div className="hr-line"></div>
 
@@ -91,7 +87,7 @@ class style_guide extends Component {
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
                     <div className="float-right">
-                        <img className="photo-container-history width-100" src={design_systems3} alt="Style Guides" /> 
+                        <img className="photo-container width-100" src={design_systems3} alt="Style Guides" /> 
                             <p className="caption">Styleguide for OsiSoft </p> </div>
                             <p className="content-text-18"> 
 
@@ -104,7 +100,7 @@ class style_guide extends Component {
 
                 <section className="flex-layout-justified-sb flex-layout-row content-block-60">
                     <div className="flex-layout-section-full">
-                        <div className="subtitle-center">
+                        <div className="header-title-sm-center">
                             No Version Control Problems
                         </div>
                         <div className="content-text-18 margin-top-15">
@@ -116,7 +112,7 @@ class style_guide extends Component {
                     <div className="hr-line"></div>
 
                     <div className="flex-layout-section-full margin-top-25">
-                        <div className="subtitle-center">
+                        <div className="header-title-sm-center">
                             Data-driven UX
                         </div>
                         <div className="  content-text-18 margin-top-15">
@@ -139,7 +135,7 @@ class style_guide extends Component {
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15"> 
                         <p className="content-text-18"> <div className="float-right">
-                        <img className="photo-container-history width-100 border-2 margin-top-10per" src={design_systems6}  alt="Pattern Library   " /> 
+                        <img className="photo-container width-100 border-2" src={design_systems6}  alt="Pattern Library   " /> 
                     </div>  
                         A subclass in the design system, this is the set of design patterns for use across a company. A pattern library, documents all of these ‘patterns’ (also often known as modules) and defines how they behave, what they look like and how they are coded.</p>
                     </div>  
@@ -156,7 +152,7 @@ class style_guide extends Component {
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
                         <p className="content-text-18"> <div className="float-right">
-                        <img className="photo-container-history width-100 border-2 margin-top-20per" src={design_systems7}  alt="Style Guides " /> 
+                        <img className="photo-container border-2" src={design_systems7}  alt="Style Guides " /> 
                     </div>
                         Another subclass in the design system, this static documentation describes the design system itself: how products should look and feel, use cases for UI patterns, correct typographic scales, etc.</p>
                     </div>   

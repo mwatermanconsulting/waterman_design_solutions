@@ -887,6 +887,15 @@ footer {
   margin-left: 0px;
   padding-left: 0px; }
 
+.photo-container-feature {
+  width: 550px;
+  height: auto;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-left: 0px; }
+
 .photo-container-cs {
   width: 550px;
   height: 333px;
@@ -1433,7 +1442,7 @@ h1 {
 
 .subtitle {
   font-size: 1.8rem;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.45;
   font-family: 'Oswald';
   color: #879397;
@@ -3223,6 +3232,12 @@ a.menu {
   height: auto;
   margin-right: 75px; }
 
+.cs-item-callout {
+  flex: 0 0 43%;
+  height: auto;
+  margin-right: 125px;
+  margin-bottom: 0px; }
+
 .home-container {
   display: flex;
   flex-wrap: wrap;
@@ -3476,6 +3491,11 @@ a:any-link {
     display: flex;
     flex-direction: flex-start;
     flex: 1 0 auto; }
+  .cs-item-callout {
+    flex: 0 0 52%;
+    height: auto;
+    margin-right: 0px;
+    margin-bottom: 400px; }
   .flex-image-container-master {
     display: flex;
     flex-direction: flex-start;
@@ -3539,6 +3559,14 @@ a:any-link {
     margin-top: 15px;
     width: 85%;
     margin-left: 16%; }
+  .photo-container-feature {
+    width: 100%;
+    height: auto;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-left: 0px; }
   .flex-layout-justified-sa {
     display: flex;
     justify-content: space-around;
@@ -4179,6 +4207,14 @@ a:any-link {
     padding-top: 10px;
     margin-bottom: 0px;
     margin-left: 4%;
+    padding-left: 0px; }
+  .photo-container-feature {
+    width: 100%;
+    height: auto;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
     padding-left: 0px; } }
 
 /*****************************************768 break****************************************/
@@ -4356,6 +4392,11 @@ a:any-link {
     display: none; }
   .mdl-layout__drawer-button {
     display: none !important; }
+  .cs-item-callout {
+    flex: 0 0 43%;
+    height: auto;
+    margin-right: 125px;
+    margin-bottom: 0px; }
   .header {
     display: block !important;
     transition-timing-function: ease-in;
@@ -4476,7 +4517,8 @@ a:any-link {
     height: 270px;
     text-align: center; }
   .header-title {
-    font-size: 3.75rem; }
+    font-size: 3.75rem;
+    line-height: 1.0; }
   .grid-gallery-2col {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -4505,9 +4547,22 @@ a:any-link {
     flex: 1 1 420px;
     border-top: none;
     border-bottom: none; }
+  .flex-layout-space-between {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-top: 75px;
+    width: 85%;
+    margin-left: -11%; }
   .cs-item {
     flex: 1 1 43%;
     height: auto;
+    /* (100-32*3)/2 */ }
+  .cs-item-callout {
+    flex: 1 1 43%;
+    height: auto;
+    margin-right: 50px;
     /* (100-32*3)/2 */ }
   .home-image-container {
     width: 100%;
@@ -4641,14 +4696,6 @@ a:any-link {
     margin-top: 15px;
     width: 85%;
     margin-left: 13%; }
-  .flex-layout-space-between {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    font-size: 18px;
-    margin-top: 75px;
-    width: 85%;
-    margin-left: 7%; }
   .why-item {
     flex: 0 25%;
     height: auto;
@@ -4826,6 +4873,11 @@ a:any-link {
     margin-bottom: 0px; }
   .header-title-sm-center {
     text-align: center; }
+  .cs-item-callout {
+    flex: 0 0 50%;
+    height: auto;
+    margin-right: 50px;
+    margin-bottom: 0px; }
   .margin-top-5per {
     margin-top: -5%; }
   .margin-left-5 {
