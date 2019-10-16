@@ -3218,6 +3218,11 @@ a.menu {
   width: 85%;
   margin-left: 15%; }
 
+.cs-item {
+  flex: 1 1 43%;
+  height: auto;
+  margin-right: 75px; }
+
 .home-container {
   display: flex;
   flex-wrap: wrap;
@@ -3303,6 +3308,15 @@ a.menu {
   max-width: 500px;
   height: auto;
   margin-left: 0; }
+
+.cs-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-top: 15px;
+  width: 100%;
+  margin-left: 5%; }
 
 /*******************************
          react-overrides
@@ -3524,7 +3538,7 @@ a:any-link {
     font-size: 18px;
     margin-top: 15px;
     width: 85%;
-    margin-left: 13%; }
+    margin-left: 16%; }
   .flex-layout-justified-sa {
     display: flex;
     justify-content: space-around;
@@ -3762,9 +3776,9 @@ a:any-link {
     width: 70%; }
   .width-250 {
     width: 110%;
-    max-width: 500px;
+    max-width: auto;
     height: auto;
-    margin-left: -6%; }
+    margin-left: 0%; }
   .michael-image {
     width: 100%;
     max-width: 500px;
@@ -4471,6 +4485,8 @@ a:any-link {
     margin-bottom: 15px;
     padding: 1px;
     font-family: Roboto; }
+  .padding-20 {
+    padding: 20px; }
   .float-left {
     float: left;
     padding: 15px 5px 15px 15px; }
@@ -4482,6 +4498,10 @@ a:any-link {
     flex: 1 1 420px;
     border-top: none;
     border-bottom: none; }
+  .cs-item {
+    flex: 1 1 43%;
+    height: auto;
+    /* (100-32*3)/2 */ }
   .home-image-container {
     width: 100%;
     max-width: 500px;
@@ -4673,6 +4693,14 @@ a:any-link {
     height: auto;
     border: 1px solid #000;
     margin-top: 0px; }
+  .cs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-top: 15px;
+    width: 100%;
+    margin-left: 5%; }
   .photo-container-cs {
     width: 550px;
     height: 333px;

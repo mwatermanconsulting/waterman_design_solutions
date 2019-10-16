@@ -4,16 +4,9 @@ import { NavLink } from 'react-router-dom';
 import didyouknow from '../images/graphic-didyouknow.svg';
 import caseStudies from '../images/backgrounds/bg-casestudies.png';
 import motorola from '../images/photos/photo-motorola-before-after.png';
-import motorola_logo from '../images/motorola_logo.svg'
-import stubhub_logo from '../images/icon-logo-stubhub.svg'
 import stubhub from '../images/photos/photo-stubhub-before-after.png'
-import pfizer_logo from '../images/icon-logo-pfizer.svg'
 import pfizer from '../images/photos/photo-pfizer-before.png'
-import osi_logo from '../images/logo-osi.svg'
 import osi from '../images/photos/photo-osi-before-after.png'
-
-
-
 
 class case_studies extends Component {
     render () {
@@ -51,16 +44,17 @@ class case_studies extends Component {
             </section>
 
         
-        <div className="cs-container flex-layout-center margin-top-75 flex-layout-justified-sa content-block-80 align-self-center ">
+            <div className="cs-container flex-layout-center margin-top-75 content-block-80 align-self-center ">
                 <div className="cs-item width-50 margin-top-75 card-case-studies">
-                    <div className="flex-layout-section-full container-image-650 align-self-center flex-layout-center-center ">
+                    <div className="flex-layout-section-full container-image-650 flex-layout-center-center ">
                         <img className="width-100" src={motorola}  alt="Motorola" /> 
-                        <div className="width-100 ">
-                            <div className="header-title-sm margin-top-15 ">
+                        <div className="width-100">
+                            <div className="header-title-sm padding-10 margin-top-15">
                                     Motorola
 
                             </div>
-                                <p className="content-text-18 margin-top-10 text-align-center"><i> Industry: Products</i></p>
+                                <p className="content-text-18 padding-10">
+                                    <i> Industry: Products</i></p>
                                 <p className="content-text-18 padding-10">
                                     High Volume of returns plaguing Motorola Gateway Router Product Line. After two failed attempts by UX/UI developers, a frustrated management group decided they needed a UX designer to solve the problems.</p>
                         </div>
@@ -79,10 +73,11 @@ class case_studies extends Component {
                     <div className="flex-layout-section-full container-image-650 align-self-center flex-layout-center-center ">
                         <img className="width-100" src={stubhub}  alt="StubHub" /> 
                         <div className="width-100">
-                            <div className="header-title-sm margin-top-15 ">
+                            <div className="header-title-sm padding-10 margin-top-15 ">
                                     StubHub
                             </div>
-                                <p className="content-text-18 margin-top-10 text-align-center"><i> Industry: Products</i></p>
+                                <p className="content-text-18  padding-10">
+                                    <i> Industry: Products</i></p>
                                 <p className="content-text-18 padding-10">
                                     High Volume of returns plaguing Motorola Gateway Router Product Line. After two failed attempts by UX/UI developers, a frustrated management group decided they needed a UX designer to solve the problems.</p>
                         </div>
@@ -100,10 +95,10 @@ class case_studies extends Component {
                     <div className="flex-layout-section-full container-image-650 align-self-center flex-layout-center-center ">
                         <img className="width-100" src={pfizer}  alt="Pfizer" /> 
                         <div className="width-100 ">
-                            <div className="header-title-sm margin-top-15 ">
+                            <div className="header-title-sm padding-10 margin-top-15 ">
                                     Pfizer
                             </div>
-                                <p className="content-text-18 margin-top-10 text-align-center"><i> Industry: Pharmaceuticals</i></p>
+                                <p className="content-text-18 padding-10"><i> Industry: Pharmaceuticals</i></p>
                                 <p className="content-text-18 padding-10">
                                 WDS noticed major problems with the DMS solution that Pfizer chose to manage its 25,000 page project. WDS independently  interviewed developers and documented lost time, sitting around watching the spinner...</p>
                         </div>
@@ -121,10 +116,10 @@ class case_studies extends Component {
                     <div className="flex-layout-section-full container-image-650 align-self-center flex-layout-center-center  ">
                         <img className="width-100" src={osi}  alt="OsiSoft" /> 
                         <div className="width-100">
-                            <div className="header-title-sm margin-top-15 ">
+                            <div className="header-title-sm padding-10 margin-top-15 ">
                                     OsiSoft
                             </div>
-                                <p className="content-text-18 margin-top-10 text-align-center"><i> Industry: Gas and Oil</i></p>
+                                <p className="content-text-18 padding-10"><i> Industry: Gas and Oil</i></p>
                                 <p className="content-text-18 padding-10">
                                 OsiSoft needed an enterprise level CSS solution for their data visualization SaaS initiative. The solution needed to scale and reduce specificity issues. The CSS solution became the company wide standard and foundation for the...</p>
                         </div>

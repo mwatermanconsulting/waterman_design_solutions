@@ -52,7 +52,7 @@ class services extends Component {
             </section>
        
             <section className="flex-layout-section-full flex-layout-column align-items-center">
-                <p className="title margin-top-75">
+                <p className="header-title margin-top-75">
                     WDS Services</p>
                 <p className="subtitle-center margin-top-15 content-block-65">
                      Design always determines success, and understanding the user is paramount to that success. <br/> The team of WDS UX designers design with empathy that connects with people,meeting their needs and expectations. 
@@ -202,11 +202,11 @@ class services extends Component {
                 </section>
             
             <div className="flex-layout-section-full margin-top-50 grey-blue padding-bottom-50 ">
-                <div className="padding title-center">
+                <div className="padding header-title-sm-center">
                             Services
                     </div>
 
-        <section className="flex-layout-row flex-layout-justified-sb width-70 align-self-center padding-bottom-50">
+        <section className="flex-layout-row flex-layout-justified-sb width-60 align-self-center padding-bottom-50">
                     
                 <div className="flex-layout-center-center flex-items-align-top width-280px">
                         
