@@ -258,6 +258,7 @@ class ui_design extends Component {
                       <div>
                           <p className="callout-text-white text-align-center">
                           50 percent of companies admit they have no clear way to link design to business health, senior leaders are often reluctant to divert scarce resources to design functions. </p>
+
                     </div>
                     </div>
                 </section>      

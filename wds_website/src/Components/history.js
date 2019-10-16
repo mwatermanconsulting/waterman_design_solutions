@@ -111,20 +111,20 @@ class about extends Component {
                             </p> 
 
                              <p className="content-text-18">     
-                             Adding HTML, CSS and Flash skills, the two partners turned their attention to the web, designing and developing websites along with martketing collateral. Their goal was to help small business owners through design to fight off big box business competition by bringing a level of professionalism to their online presence. </p>
+                             Adding HTML, CSS and Flash skills, the partners turned their attention to the web, designing and developing websites along with martketing collateral. Their goal was to help small business owners through design to fight off big box business competition by bringing a level of professionalism to their online presence. </p>
 
                         <section className="grid-cs-card-history flex-layout-center-center flex-layout-section-full margin-top-50">   
-                            <p className="cs-card-1 margin-top-15 caption"><img className="container-photo-callout margin-top-25 " src={four} alt="411"/><br></br>
+                            <p className="cs-card-1 margin-top-15 caption"><img className="photo-container-history margin-top-25 " src={four} alt="411"/><br></br>
                             <i></i>SavTraveler</p>
-                            <p className="cs-card-2 margin-top-15 caption"><img className="container-photo-callout margin-top-25 " src={pw} alt="Pearly Whites"/><br></br>
+                            <p className="cs-card-2 margin-top-15 caption"><img className="photo-container-history margin-top-25 " src={pw} alt="Pearly Whites"/><br></br>
                             <i>Pearly Whites</i></p>
-                            <p className="cs-card-3 margin-top-15 caption"><img className="container-photo-callout margin-top-25 " src={taws} alt="TAWS"/><br></br>
+                            <p className="cs-card-3 margin-top-15 caption"><img className="photo-container-history margin-top-25 " src={taws} alt="TAWS"/><br></br>
                             <i>TAWS</i></p>
-                            <p className="cs-card-4 margin-top-15 caption"><img className="container-photo-callout margin-top-25" src={norwood} alt="Norwood Construction"></img><br></br>
+                            <p className="cs-card-4 margin-top-15 caption"><img className="photo-container-history margin-top-25" src={norwood} alt="Norwood Construction"></img><br></br>
                             <i>Norwood Construction</i></p>
                        
                         </section>
-                            <p className="align-item-center margin-top-15 caption"><img className="container-photo-callout margin-top-25 " src={before_after} alt="Before and After"/><br></br>
+                            <p className="align-item-center margin-top-15 caption"><img className="photo-container-history margin-top-25 " src={before_after} alt="Before and After"/><br></br>
                             <i>Expanding  design solutions to meet  client needs</i></p>
                             
                         </div>
@@ -143,7 +143,7 @@ class about extends Component {
                         
                         <div className="margin-top-15">
                             <div className="float-right">
-                                    <img className="photo-container"  src={wfaweb}  alt="Web First Aid" /> 
+                                    <img className="photo-container-ux"  src={wfaweb}  alt="Web First Aid" /> 
                             </div>
                             <p className="content-text-18">Surreal Concepts' design solutions were successful. But they starting asking themselves, "What do the people that are interacting with the websites think?" <br></br>"Are our web designs resonating with users?" <br></br>They set out to research how people interacted with websites by asking questions:<br></br> What were their needs and expectations? <br></br>How did people interact with a web page compared to traditional printed materials? <br></br>In 2003, a study was released by B.J. Fogg and his team at Stanford University revealing the first study on human interaction on websites. The study consisted of user observations of eye movements, click behavior and user interactions. This study changed not not only how they designed, but their entire focus. </p>
                         
@@ -166,7 +166,7 @@ class about extends Component {
                             The WebFirstAid talks lead to a connection with Pfizer In 2008, and Surreal Concepts embedded Michael into the project.  
                             <img className="float-right visibility width-40" src={pfizer_logo}   alt="Pfizer logo" /> 
                             The project, Pfizer Pro, was the largest HCP website at the time. Michael was contracted for the UX Design,  content strategies, front-end development and bi-weekly updates. During the engagement, Michael's business understanding helped Pfizer by documenting a business problem they had with a vendor. The current CMS program and support was costing Pfizer thousands of dollars a week on lost man hours. This documentation gave Pfizer the knowledge they needed to change vendors and recoup their money.  </p>
-                        <p className="content-text-18"><a href="../case_study_4">Read full case study</a></p>
+                        <p className="content-text-18"><a href="../case_study_4" className="no-decoration greenlink">Read full case study</a></p>
                             </div>
                     </section>
                     <section className="flex-layout-section-full align-items-center grey border-tb-5 margin-top-50 margin-top-50sm">
@@ -194,7 +194,7 @@ class about extends Component {
                             Surreal Concepts started to make a name for itself for its design and business solutions. After the Pfizer contract was completed Surreal was contracted by Motorola.  Motorola had a large problem that they could not solve with their modem product line. For years the return rate on their line of modems was rising and call center costs were out of control. After two failed attempts to fix this, Surreal Concepts was contracted for UX design, UI design and development to provide business solutions. This was a complex product user interface and tested the scalability of its UX methodology.  
                         </p>
 
-                        <p className="content-text-18"><a href="../case_study_1">
+                        <p className="content-text-18"><a href="../case_study_1" className="no-decoration greenlink">
                             Read full case study</a></p>
 
                         <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-50">
@@ -329,8 +329,9 @@ class about extends Component {
                             </p>
                     </div>
                 </section>           
-                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center padding-top-50 padding-bottom-50 margin-top-50 margin-top-50sm grey border-top-5">
-                <div className="content-block-65 text-align-center"> 
+              
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center padding-top-50 margin-top-75 grey border-top-5">
+                <div className="content-block-55 text-align-center"> 
                        <img className="photo-container padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
                       
                       <div >

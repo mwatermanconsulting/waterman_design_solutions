@@ -72,10 +72,10 @@ class core_offerings extends Component {
                     <li>C-Suite not communicating value of design</li>
                     <li>Communication issues between teams - teams working on an island</li>
                     <li>UX teams not aligned with programmers</li> 
-                    <li>Lack of Developer Design Guidance</li>
-                    <li>Lack of Developer Design Support</li>
-                    <li>Lack of Design Valuation or Metrics</li>
-                    <li>No Consistency between offerings</li> 
+                    <li>Lack of developer design guidance</li>
+                    <li>Lack of developer design support</li>
+                    <li>Lack of design valuation or metrics</li>
+                    <li>No consistency between offerings</li> 
                     <li>Programmers designing interfaces </li>
 
                 </ul>
@@ -94,7 +94,7 @@ class core_offerings extends Component {
                     <p className="content-text-18">  <div className="float-right">
                     <img className="photo-container width-100 margin-top-2" src={offerings2}  alt="Communication Expertise" /> 
                     </div> 
-                        One of the greatest issues facing all companies is communication between teams. Large companies have teams spread all over the world and many times these teams are working on an island. WDS knows and understand these problems and has successfully solved communication issues for Motorola, Stubhub, Pfizer and OsiSoft.</p> 
+                        One of the greatest issues facing all companies is communication between teams. Large companies have teams spread all over the world and many times these teams are working on an island. WDS knows and understands these problems and has successfully solved communication issues for Motorola, Stubhub, Pfizer and OsiSoft.</p> 
                    
                     <p className="content-text-18">
                         WDS communication experts observe and evaluate interactions between teams, providing custom communication strategies and workshops. Below is a communication case study they provided for OsiSoft. </p>
@@ -115,7 +115,7 @@ class core_offerings extends Component {
                     </p>
                     <p className="content-text-18 content-block-65 margin-top-15" >
                         <b>Issue Uncovered -</b>
-                        WDS began their methodology by developing a user journey, followed by a design analysis of their SaaS offering. The user journey uncovered two steps the user needed to complete before accessing the data visualization application. These steps involved database settings and user authentication on two separate applications. WDS conducted design analysis between the three applications. The design analysis revealed major inconsistencies between the visual elements of the applications. They were curious about how this design problem occurred. Engineers, designers, UX team and team leads were interviewed to bring clarity to the problems. WDS uncovered a lack of communication between the teams and team leads. Design requirements were missing on each of the projects. The company was missing basic design direction and guidance, leading to design inconsistencies.</p> 
+                        WDS began their methodology by developing a user journey, followed by a design analysis of their SaaS offering. The user journey uncovered two steps the user needed to complete before accessing the data visualization application, which involved database settings and user authentication on two separate applications. WDS conducted design analysis between the three applications. The design analysis revealed major inconsistencies between the visual elements of the applications. They were curious about how this design problem occurred. Engineers, designers, UX team and team leads were interviewed to bring clarity to the problems. WDS uncovered a lack of communication between the teams and team leads. Design requirements were missing on each of the projects. The company was missing basic design direction and guidance, leading to design inconsistencies.</p> 
 
                     <p className="content-text-18 content-block-65 margin-top-15" >   
                         The real problem  was the lack of communication between the teams. Each team was working on an island and didn't  realize there were design issues. WDS presented the findings to the stakeholders, sharing screenshots of the three applications in comparison to one another. This was the first time they witnessed a visual design analysis, causing one the stakeholders to state, "I think we have a problem." The stakeholders admitted this has been a problem for years, but could never solve the problem.  
@@ -127,7 +127,7 @@ class core_offerings extends Component {
                     </p>
 
                     <p className="content-block-65 content-text-18 margin-top-15" ><b>Results - </b>
-                        The UX Steering team provided a unique strategy for a common problem. The team helped bridged the gap between designers, developers and the UX team by eliminating communication issues and providing a forum to talk about design within the company. The strategy also provided a long term road-map for the team, starting with product consistency and component sharing amongst the teams. WDS championed design consistency and led the movement for it by first developing a CSS Solutions and strategy for the company. The strategy included shared global CSS classes and a custom UI design kit. WDS also developed workshops for CSS, Sass and responsive design and development. Later WDS designed and developed Style Guides and Design Systems for OsiSoft to support the long time strategy and vision of of UX Steering team of application consistency. After 5 years the UX team still meets, providing design support and guidance for the company. 
+                        The UX Steering team provided a unique strategy for a common problem. The team helped bridged the gap between designers, developers and the UX team by eliminating communication issues and providing a forum to talk about design within the company. The strategy also provided a long term road-map for the team, starting with product consistency and component sharing amongst the teams. WDS championed design consistency and led the movement for it by first developing CSS solutions and a strategy for the company. The strategy included shared global CSS classes and a custom UI design kit. WDS also developed workshops for CSS, Sass, responsive design and development. Later WDS designed and developed style guides and design systems for OsiSoft to support the long time strategy and vision of UX Steering team for application consistency. After 5 years the UX team still meets, providing design support and guidance for the company. 
                     </p>
             </section>
           
@@ -151,12 +151,12 @@ class core_offerings extends Component {
                     
                 <p className="content-text-21 align-self-center content-block-60 margin-top-15"><strong>Key Services</strong></p>
                     <ul className="dashed align-self-center content-block-60 content-text-18 margin-top-1per">
-                        <li>Importance of Design Standards</li>
-                        <li>Empathy Workshops</li>
-                        <li>Design Critique Sessions</li>
-                        <li>Writing Design Requirements </li>
-                        <li>Developer Design Guidance Strategies</li>
-                        <li>Developer Design Support Solutions</li>
+                        <li>Importance of design standards</li>
+                        <li>Empathy workshops</li>
+                        <li>Design critique sessions</li>
+                        <li>Writing design requirements </li>
+                        <li>Developer design guidance strategies</li>
+                        <li>Developer design support solutions</li>
                     </ul></div>
                 </section>
 
@@ -174,7 +174,7 @@ class core_offerings extends Component {
                         <img className="photo-container"  src={offerings4}  alt="C-Suite Business Design Strategies and Workshops" /> 
                     </div>
                         <p className="content-text-18"> 
-                        Design direction begins at the C-level. Studies have shown that companies that communicate the value of design from the top down, increase their business by 30%. In order to survive in today's digital world, design must have the same importance as sales, HR and marketing. WDS can change your change design perspective at its core. </p>
+                        Design direction begins at the C-level. Studies have shown that companies that communicate the value of design from the top down increase their business by 30%. In order to survive in today's digital world, design must have the same importance as sales, HR and marketing. WDS can change your change design perspective at its core. </p>
  
                         <p className="content-text-18">
                             The workshops also cover the need for design support and guidance by learning how to incorporate design requirements into  backlogs and empowering management to make changes at a core level. Management gets to focus on their weaknesses and WDS will devise action plans to solve those issues. 
@@ -188,7 +188,7 @@ class core_offerings extends Component {
                             <li>5yr, 10yr design and UX strategies</li>
                             <li>Empathy and your customers</li>
                             <li>Knowing your enemies</li>
-                            <li>Revising your Purpose and Values</li>
+                            <li>Revising your purpose and values</li>
                         </ul>
                     </div>
                 </section>
@@ -280,7 +280,7 @@ class core_offerings extends Component {
                             <li>Uncover user pain points</li>
                             <li>Reduce software bloat</li>
                             <li>Provide monthly reports</li>
-                            <li>Keeps users apart of the design decision process</li>
+                            <li>Keeps users involved in the design decision process</li>
                         </ul>
                     </div>
                 </section>
@@ -321,7 +321,7 @@ class core_offerings extends Component {
                             <img className="photo-container"  src={offerings9}  alt="CSS Strategies" /> 
                         </div>
                         <p className="content-text-18"> 
-                         WDS CSS solutions are based on empathy from their experiences of working with developers. WDs is known for their design solutions, CSS knowledge and experience. Their CSS solutions are based on business requirements and are scalable and customizable. </p>
+                         WDS CSS solutions are based on empathy from their experiences of working with developers. WDS is known for their design solutions, CSS knowledge and experience. Their CSS solutions are based on business requirements and are scalable and customizable. </p>
                         <p className="content-text-18"> WDS CSS strategies almost eliminates the need for your developers to write CSS. </p>
                         <p className="content-text-18">The CSS strategies include CSS development, CSS system implementation, mentoring, and best of practice documentation.</p>
                         <div className="flex-layout-section-full float-left-np ">

@@ -29,7 +29,7 @@ class case_studies extends Component {
                 </section>
                 <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                     <div className="callout-text-lg">
-                        Every great design begins with a great story.
+                        Every great design begins with a great story
                     </div>
                 </section>
                 <section className="flex-layout-section-full align-items-center">
@@ -133,9 +133,6 @@ class case_studies extends Component {
                      </div>
                 </div>
             </div>
-        
-
-            
 
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
                 <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
