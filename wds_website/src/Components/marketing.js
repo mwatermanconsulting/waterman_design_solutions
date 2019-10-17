@@ -43,11 +43,11 @@ class marketing extends Component {
         <div className="flex-layout-section-full flex-layout-column margin-top-25 align-self-center">      
             
             <section className="content-header flex-layout-center-center flex-layout-column">
-                <div className="flex-layout-center-center title content-size-24 text-align-center margin-top-75 content-block-60">
-                        “Many companies have forgotten they sell to actual people. Humans care about the entire experience, not just the marketing or sales or service. To really win in the modern age, you must solve for humans.” - Dharmesh Shah, CTO  Co-Founder, HubSpot 
+                <div className="flex-layout-center-center subtitle-center text-align-center margin-top-75 content-block-60">
+                        “Many companies have forgotten they sell to actual people. Humans care about the entire experience, not just the marketing or sales or service. To really win in the modern age, you must solve for humans.” <br></br> Dharmesh Shah, CTO  Co-Founder, HubSpot 
                 </div>
                 <div className="content-block-60 margin-top-25">
-                <p className="content-text-24 margin-top-25sm">
+                <p className="content-text-21 margin-top-25sm">
                         WDS understands people on a deep level, with a methodology that gives a voice to the users, your customers, whose daily lives are effected by the use of your application or product. <br></br>
                         
                         Every business has a story, and can be told through a marketing strategy based on research and data, with a clear vision that reflects and embraces real human values.</p>
@@ -85,12 +85,12 @@ class marketing extends Component {
                 </div>
                 <div className="content-block-60 content-text-18 margin-top-15">
                     <p className="content-text-18"> 
-                <div className="float-right">
-                    <img className="photo-container margin-top-10per" src={marketing5}  alt="Website Design" /> 
-                </div>
+                    <div className="float-right">
+                        <img className="photo-container margin-top-10per" src={marketing5}  alt="Website Design" /> 
+                    </div>
                     The WDS team will develop, manage, and monitor your social media account to increase brand awareness and drive follower engagement.  Clients are considered as thought leaders in the process of delivering engaging, relevant content.</p>
 
-                  </div>
+                </div>
             </section>
 
 

@@ -334,8 +334,8 @@ class core_offerings extends Component {
                 </section>
 
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
-                <div className=" margin-top-50 content-block-55 margin-bottom-50 text-align-center "> 
-                       <img className="photo-container margin-bottom-50 " src={didyouknow}  alt="Did You Know?" /> 
+                <div className="content-block-55  text-align-center "> 
+                       <img className="photo-container  " src={didyouknow}  alt="Did You Know?" /> 
                       
                       <div>
                           <p className="callout-text text-white text-align-center">  There are 3 levels of empathy: cognitive, emotional and compassionate.</p>

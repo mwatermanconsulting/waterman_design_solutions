@@ -120,9 +120,9 @@ class ux_design extends Component {
 
                 <section className="flex-layout-section-full flex-layout-column align-items-center">
                 <div className="header-title">
-                    The WDS UX Team Makes the Difference</div>
+                     Professional Designers Matter</div>
                 <div className="subtitle-center margin-top-25 flex-layout-center-center content-block-60">
-                    Professional Designers Matter
+                   The WDS UX Team Makes the Difference
                 </div>
                 <div className="content-text-18 content-block-60 margin-top-15">
                     The team of WDS UX Designers are true designers that not only provide mock-ups, but high fidelity designs. Their UX designers also have an understanding of cognitive psychology and a background in customer service. All of their UX designers are friendly empathetic people with a passion to simplify the world, one project at a time.

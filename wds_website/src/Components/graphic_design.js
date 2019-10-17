@@ -44,13 +44,13 @@ class graphic_design extends Component {
                     </div>
             </section>
 
-            <section className="flex-layout-section-full flex-layout-column margin-top-50 margin-top-50sm">
+            <section className="flex-layout-section-full flex-layout-column margin-top-75 margin-top-50sm">
               
                     <div className="title-center">
                             The Value of Graphic Design
                     </div>
                     <div className="margin-top-25 align-self-center content-block-65">
-                        <p className="content-text-24 text-align-left">
+                        <p className="content-text-21 text-align-left">
                             Printed materials help brand your business. It supports your social media and ad word marketing.  It covers a larger audience that respond to these marketing tools differently. WDS takes care of each marketing aspect, from web design to corporate identity to tangible materials such as business cards, postcards, annual reports, magazines and more. </p>
                     </div>
                 
@@ -78,10 +78,10 @@ class graphic_design extends Component {
                     <li  className="grid-clients-box image subtitle text-white"  data-content="HCNRG">
                         <img className="width-100 height-100" src={hcnrg}  alt="HCNRG" />
                        </li>
-                    <li  className="grid-clients-box image subtitle text-white"  data-content="HCNRG">
+                    <li  className="grid-clients-box image subtitle text-white"  data-content="Donolow Database">
                         <img className="width-100 height-100" src={donolow}  alt="Donolow Database" />
                        </li>
-                    <li  className="grid-clients-box image subtitle text-white"  data-content="HCNRG">
+                    <li  className="grid-clients-box image subtitle text-white"  data-content="World Team Tennis">
                         <img className="width-100 height-100" src={wtt}  alt="World Team Tennis" />
                        </li>
                 </ul>
@@ -129,12 +129,12 @@ class graphic_design extends Component {
                     </div>
                 </section>
 
-                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center padding-top-50 margin-top-50 margin-top-25sm grey border-top-5">
-                <div className="content-block-65 text-align-center"> 
-                       <img className="photo-container padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+                <div className="content-block-55  text-align-center "> 
+                       <img className="photo-container  " src={didyouknow}  alt="Did You Know?" /> 
                       
-                      <div className="content-block-auto">
-                          <p className="callout-text-white text-align-center">WDS designed and produced a monthly magazine called "Combat Robot Magazine"</p>
+                      <div>
+                          <p className="callout-text text-white text-align-center">  WDS designed and produced a monthly magazine called "Combat Robot Magazine"</p>
                     </div>
                 </div>
             </section>     

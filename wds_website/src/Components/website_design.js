@@ -52,10 +52,10 @@ class digital_design extends Component {
                             Custom Designed Websites that Meet Users Expectations
                     </div>
                     <div className=" margin-top-50">
-                        <p className="content-text-24 margin-top-15sm">
+                        <p className="content-text-21 margin-top-15sm">
                             It is easier today than ever for a business to get a website. There are countless template sites that are easy to use for people with limited experience. Your business and customers are unique and your website should reflect that uniqueness, your business deserves to stand out.</p> 
                             
-                            <p className="content-text-24">   
+                            <p className="content-text-21">   
                             The typical user has a good design eye and can tell the difference between a template website and a custom website. They will notice when a business cares enough about them to create a design that is based on UX research. Customers will always choose the better experience every time. Your business wasn't born from a template and your users deserve more. Don't settle for good enough!</p>
                     
                     <div className="flex-layout-column margin-top-50">    
@@ -138,12 +138,12 @@ class digital_design extends Component {
                     </div>
                 </section>
 
-                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center padding-top-50 margin-top-50 margin-top-50sm grey border-top-5">
-                <div className="content-block-65 text-align-center"> 
-                       <img className="photo-container padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
+                <div className="content-block-55  text-align-center "> 
+                       <img className="photo-container" src={didyouknow}  alt="Did You Know?" /> 
                       
-                      <div className="content-block-auto">
-                          <p className="callout-text-white text-align-center">WDS does not use templates - custom design only!</p>
+                      <div>
+                          <p className="callout-text text-white text-align-center">  WDS does not use templates - custom design only!</p>
                     </div>
                 </div>
             </section>     

@@ -86,10 +86,10 @@ class style_guide extends Component {
                         Building Familiarity
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
-                    <div className="float-right">
+                   
+                            <p className="content-text-18">  <div className="float-right">
                         <img className="photo-container width-100" src={design_systems3} alt="Style Guides" /> 
                             <p className="caption">Styleguide for OsiSoft </p> </div>
-                            <p className="content-text-18"> 
 
                             Consistency is vital for a pleasant user experience, but it can be hard to come by with multiple designers working separately. Design systems allow easy access to universal versions of design assets (and their rules) to keep everyone on the same page and ensure consistency from one page or section to another.
                             That also holds true for different products. Brands looking to build their identity can use the exact same assets for all their products, giving everything a unified feel and rewarding loyal customers with familiar usability.</p>
