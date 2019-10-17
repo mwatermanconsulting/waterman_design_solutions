@@ -38,7 +38,7 @@ class ui_design extends Component {
 
             <section className="grid-callout photo-content-color border-bottom-5" > 
                 <div className="grid-placeself-center flex-layout-column margin-top-25sm content-block-75">
-                <div className="callout-title margin-top-15">
+                <div className="callout-title-center margin-top-15">
                         The "aha" Moment
                     </div>
                     <div className="callout-text padding-20 content-block-75 text-align-left align-self-center margin-top-15 margin-left-2" >
