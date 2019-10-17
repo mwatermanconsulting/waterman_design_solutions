@@ -105,11 +105,11 @@ class digital_design extends Component {
                             Responsive Design
                     </div>
                     <div className="item content-text-18  margin-left-15sm">
-                        <a href ="./core_offerings">
+                        <a href ="./core_offerings" className="no-decoration greenlink">
                             Accessibility</a>
                     </div>
                     <div className="item content-text-18 margin-left-15sm">
-                        <a href ="./core_offerings">
+                        <a href ="./core_offerings" className="no-decoration greenlink">
                             Telemetry</a>
                         </div>
                         <div className="item content-text-18 margin-left-15sm">
@@ -128,11 +128,11 @@ class digital_design extends Component {
                             Mobile Design
                         </div>
                         <div className="item content-text-18 margin-left-15sm">
-                        <a href ="./core_offerings">
+                        <a href ="./core_offerings" className="no-decoration greenlink">
                             Analytic Data Reporting</a>
                         </div>
                         <div className="item content-text-18 margin-left-15sm">
-                            <a href="./design_systems">
+                            <a href="./design_systems" className="no-decoration greenlink">
                             Pattern Libraries</a>
                         </div>
                     </div>

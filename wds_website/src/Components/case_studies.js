@@ -60,7 +60,7 @@ class case_studies extends Component {
                         </div>
                             
                         <div className="flex-layout-section-full content-block-75 padding-10">
-                        <NavLink className='button-area no-decoration ' type="button" value="learn more" to={'/case_study_4'}>
+                        <NavLink className='button-area no-decoration ' type="button" value="learn more" to={'/case_study_1'}>
                             Learn More 
                         </NavLink>
 
@@ -83,7 +83,7 @@ class case_studies extends Component {
                         </div>
                             
                         <div className="flex-layout-section-full content-block-75 padding-10">
-                        <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/case_study_4'}>
+                        <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/case_study_2'}>
                             Learn More 
                         </NavLink>
 
@@ -104,7 +104,7 @@ class case_studies extends Component {
                         </div>
                             
                         <div className="flex-layout-section-full content-block-75 padding-10">
-                        <NavLink className='button-area no-decoration ' type="button" value="learn more" to={'/case_study_4'}>
+                        <NavLink className='button-area no-decoration ' type="button" value="learn more" to={'/case_study_3'}>
                             Learn More 
                         </NavLink>
 

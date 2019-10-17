@@ -260,7 +260,7 @@ class methodology extends Component {
                                The final design incorporates all the research findings and design solutions. WDS understands for a project to be successful the design needs to incorporate the business core values and branding, while simplifying the user experience. This ensures that the project is designed with empathy and meets the user and business expectations. </p>
                             <ul className="dashed content-text-18">
 
-                                <li><a href="../design_solutions">Custom Design Solution</a></li>
+                                <li><a href="../design_solutions" className="no-decoration greenlink">Custom Design Solution</a></li>
                                 <li>High fidelity mockup</li>
                                 <li>Explanation of design decisions </li>
                                 <li>User interactions</li>
@@ -291,7 +291,7 @@ class methodology extends Component {
                             In this phase WDS works closely with the developers with an embedded team or remotely. A CSS solution is developed with responsive HTML, working seamlessly with developers on the front-end as they code the back-end working in your agile cycles. </p>
 
                             <ul className="dashed content-text-18">
-                                <li><a href="../css_solutions">CSS Solutions</a></li>
+                                <li><a href="../css_solutions" className="no-decoration greenlink">CSS Solutions</a></li>
                                 <li>CSS Development (SaSS and LeSS)</li>
                                 <li>HTML development</li>
                                 <li>Accessibility Implementation </li>
@@ -326,7 +326,7 @@ class methodology extends Component {
 
                             <li>Write scalable, tailored testing plans</li>
                                 <li>User Questions/Interviews</li>
-                                <li><a href="./finding_truth">Observational Fieldwork</a></li>
+                                <li><a href="./finding_truth" className="no-decoration greenlink">Observational Fieldwork</a></li>
                                 <li>Establish testing relationship with vendors</li>
                                 <li>Establish testing relationship with stakeholders</li>
                                 <li>Continue testing relationship with users</li>
@@ -357,8 +357,8 @@ class methodology extends Component {
                                 At the completion of the project it is important to  business ongoing success that a design strategy road-map is provided that will continue the  success with  users in the future.</p>
 
                             <ul className="dashed content-text-18">
-                                <li><a href="../strategy_insight">Present Findings - The Truth</a></li>
-                                <li><a href="../strategy_insight">Present Strategies and Insight</a></li>
+                                <li><a href="../strategy_insight" className="no-decoration greenlink">Present Findings - The Truth</a></li>
+                                <li><a href="../strategy_insight" className="no-decoration greenlink">Present Strategies and Insight</a></li>
                                 <li>Use Cases</li>
                                 <li>Current Work Flows</li>
                                 <li>Document problems</li>
@@ -391,11 +391,10 @@ class methodology extends Component {
                             </p>
 
                             <ul className="content-text-18 dashed">
-                                <li><a href="../style_guide">Style Guides and Design Systems</a> </li>
-                                <li><a href="../style_guide">Website Design</a></li>
-                                <li><a href="../style_guide">Graphic Design</a></li>
-                                <li><a href="../style_guide">Marketing</a></li>
-                                <li><a href="../style_guide">Video</a></li>
+                                <li><a href="../design_systems" className="no-decoration greenlink">Style Guides and Design Systems</a> </li>
+                                <li><a href="../website_design" className="no-decoration greenlink">Website Design</a></li>
+                                <li><a href="../graphic_design" className="no-decoration greenlink">Graphic Design</a></li>
+                                <li><a href="../marketing" className="no-decoration greenlink">Marketing</a></li>
                             </ul>
                         </div>
                     </div>     
@@ -420,7 +419,7 @@ class methodology extends Component {
                                 The last part of the WDS methodology is core offerings designed to help spread the business value to your business through workshops and strategies. It is critical to company survival to build a culture of empathy and design. </p>
 
                             <ul className="dashed content-text-18">
-                                <li><a href="../strategy_insight"> Strategies and Insight</a></li>
+                                <li><a href="../strategy_insight" className="no-decoration greenlink"> Strategies and Insight</a></li>
                                 <li>Telemetry</li>
                                 <li>Accessibility</li>
                                 <li>Business Design Strategies</li>
@@ -431,6 +430,9 @@ class methodology extends Component {
                         </div>
                     </div> 
                 </section>
+
+                
+
                 <section className="flex-layout-section-full padding yellow-bg image-background-border-tb margin-top-100">
                     <div className="content-header flex-layout-center width-100">
                         <div className="callout-text text-black">
@@ -438,35 +440,37 @@ class methodology extends Component {
                         </div>
                     </div> 
                 </section>
-                <section className="flex-layout-section-full align-items-center margin-tb-100">
-                    <div className="grid-2col-photo-text container-method-callout">
-                    <div className="col2-photo margin-top-50sm">
-                       <a href= "./case_study_1">
-                           <img src={featured} className="border-3px method-callout-image" alt="Case Study 2"/></a> 
-                    </div>
-                    <div className="2col-text grid-placeself-center margin-left-min40 content-block-85">
-                    <div className="header-title-sm text-align-left margin-top-25sm">
-                         The WDS Methodology
-                    </div>
-                    <div className="subtitle margin-top-10">
-                        How WDS Methodology Uncovered and Solved Motorola's Design Problems
-                    </div>
-                        <div className="content-text-18 margin-top-15"> 
-                        A design problem with Motorola Surfboard Cable Modem product line was on the verge of losing money due to high return rate. After two failed attempts and years of complacency, the Motorola stakeholders decided to bring in a consultant with design and UX experience with a proven methodology. </div>
+
+                <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-50sm margin-bottom-50sm">
+                    <div className="float-left flex-layout-center-center content-block-75">
+                        <div className="float-left margin-right-5">
+                                    <img className="photo-container-border border-3px " and src={featured}  alt="Motorola" /> 
+                            </div>
+                        <div className="margin-top-50sm margin-top-50">
+                            <div className="header-title-sm text-align-left ">
+                                The WDS Methodology
+                            </div>
+                            <div className="subtitle margin-top-10">
+                            How WDS Methodology Uncovered and Solved Motorola's Design Problems
+                            </div>
+                            <div className="content-text-18 margin-top-15"> 
+                            A design problem with Motorola Surfboard Cable Modem product line was on the verge of losing money due to high return rate. After two failed attempts and years of complacency, the Motorola stakeholders decided to bring in a consultant with design and UX experience with a proven methodology. </div>
                         
-                        <div className="float-left-np margin-top-15">
+                            <div className="float-left-np margin-top-15">
                             <NavLink className='button-area no-decoration' type="button" value="Full Story" to={'case_study_1'}>
                                 Full Story 
                             </NavLink>
-                        </div>  
-                    </div>
-                </div>     
-            </section>
+                            </div>  
+                        </div>
+                    </div> 
+                </section>
+
+                
             <section className="flex-layout-section-full align-items-center yellow-bg border-top-5">
                 <div className="grid-2col-text-photo align-self-center width-70 margin-top-50 margin-top-50sm margin-bottom-50" > 
                     <div className="2col-text grid-placeself-center ">
                         <div className="content-block">
-                            <p className="content-header"> 
+                            <p className="callout-text"> 
                                 It's best to keep talent in their own lane </p>
                             <p className="content-text-18 margin-top-15 ">  
                             

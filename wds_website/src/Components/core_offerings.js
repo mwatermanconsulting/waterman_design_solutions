@@ -50,12 +50,12 @@ class core_offerings extends Component {
                 <div className="title margin-top-75">
                     The Business Value of Design
                 </div>
-                    <div className="content-text-18 content-block-65 margin-top-25">
+                    <div className="content-text-18 content-block-60 margin-top-25">
                     Understanding your business model and how they support digital design efforts is paramount to becoming Digital First. Mismatches between the underlying business model and  digital design is often one of the primary reasons for underperforming digital products and services.    
 
                     </div>
-                    <div className="content-block-65">
-                        <p className="content-text-18 margin-top-25 content-block-65"> 
+                    <div className="content-block-60">
+                        <p className="content-text-18 margin-top-25"> 
                         WDS instills a culture of design into your company through a series of workshops, talks and business design strategies. Their C-suite workshops provide design data and proven strategies to effectively communicate design into meetings and corporate communications. They can mentor your teams and provide advanced workshops for design strategies.
                         </p>
                     </div>
