@@ -318,7 +318,7 @@ class services extends Component {
                 <div className="grid-2col-text-photo align-self-center width-70  margin-top-50 margin-top-50sm margin-bottom-50" > 
                     <div className="2col-text grid-placeself-center margin-left-75">
                         <div className="content-block">
-                            <p className="content-header"> 
+                            <p className="callout-text"> 
                                 Many design issues stem from difficult relationships between programmers and designers. </p>
                             <p className="content-text-18 margin-top-15">  
                             

@@ -177,7 +177,7 @@ class case_study_2 extends Component {
 
                     
                     <div className="flex-items-align-top margin-top-25 content-block-65">
-                        <ul className="dashed content-block-65">
+                        <ul className="dashed content-block-65 content-text-18">
                                 <p className="subtitle-case">User Pain Points:</p>
                                 <li><a href="#solution1">Current UI confusing and out of date</a> </li> 
                                 <li><a href="#solution2">Data displays did not show the numbers</a></li>
@@ -188,7 +188,7 @@ class case_study_2 extends Component {
                                 </ul> 
                     </div>
                     <div className="flex-layout-center-center content-block-65 flex-items-align-top margin-top-25">
-                        <ul className="dashed content-block-65">
+                        <ul className="dashed content-block-65 content-text-18">
                             <p className="subtitle-case">Business Pain Points:</p>
                             <li><a href="#solution6">One user</a> </li> 
                             <li><a href="#solution6">WDS needs lead project end-to-end</a></li>

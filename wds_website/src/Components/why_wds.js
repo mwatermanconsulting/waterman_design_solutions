@@ -254,7 +254,7 @@ class why_wds extends Component {
 
                 <section className="flex-layout-section-full align-items-center" >
                        
-                    <p className="header-title-sm text-align-center content-block-60">
+                    <p className="subtitle-center text-align-center content-block-60">
                         WDS builds emotionally rich, resonant digital solutions that enable users to fully realize technology’s complete potential by simplifying everything your customers touch and feel.</p>
                
                     <div className="flex-layout-column margin-top-50">    
@@ -395,7 +395,7 @@ class why_wds extends Component {
                 <div className="grid-2col-text-photo align-self-center width-100  margin-top-50 " > 
                     <div className="2col-text grid-placeself-center width-70 margin-left-50 padding-bottom-50">
                         <div className="content-block">
-                            <p className="content-header margin-top-25sm"> 
+                            <p className="callout-text margin-top-25sm"> 
                              
                             Less than 50% of businesses interact with their users.
                             Where there are user problems, there are business problems. WDS will connect you with your users and solve your business problems.
