@@ -168,8 +168,8 @@ class why_wds extends Component {
                 <section className="flex-layout-section-full align-items-center">
                     <p className="header-title"> 
                         Design Services</p>
-                    <p className="subtitle margin-top-25 width-65sm"> 
-                         The Most Requested Design Offerings</p>
+                    <div className="subtitle margin-top-25 width-65sm"> 
+                         The Most Requested Design Offerings</div>
                 </section>    
 
                 <section className="float-left align-items-center flex-layout-column ">
@@ -254,7 +254,7 @@ class why_wds extends Component {
 
                 <section className="flex-layout-section-full align-items-center" >
                        
-                    <p className="subtitle-center text-align-center content-block-60">
+                    <p className="header-title-sm text-align-center content-block-60">
                         WDS builds emotionally rich, resonant digital solutions that enable users to fully realize technology’s complete potential by simplifying everything your customers touch and feel.</p>
                
                     <div className="flex-layout-column margin-top-50">    
