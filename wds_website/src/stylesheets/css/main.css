@@ -3042,7 +3042,7 @@ Button:hover {
            Portfolio
   *******************************/
 .method-callout-image {
-  width: 60%;
+  width: 100%;
   margin-left: 17%;
   place-self: center; }
 
@@ -4208,6 +4208,8 @@ a:any-link {
     margin-bottom: 0px;
     margin-left: 4%;
     padding-left: 0px; }
+  .margin-top-50 {
+    margin-top: 25px; }
   .photo-container-feature {
     width: 100%;
     height: auto;
@@ -4237,6 +4239,8 @@ a:any-link {
     margin-left: 13%; }
   .margin-top-15per {
     margin-top: 0%; }
+  .margin-top-50 {
+    margin-top: 25px; }
   .margin-top-min10per {
     margin-top: -10%; }
   .hrline-spacing {
@@ -4320,6 +4324,8 @@ a:any-link {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 100px; }
+  .margin-top-50 {
+    margin-top: 25px; }
   .gallery-2col-1 {
     grid-column: 1/2;
     grid-row: 1/auto; }
@@ -4379,6 +4385,8 @@ a:any-link {
 @media (min-width: 1024px) {
   .align-self-auto {
     align-self: auto; }
+  .margin-top-50 {
+    margin-top: 25px; }
   .photo-container {
     width: 100%;
     height: auto;
@@ -4409,7 +4417,7 @@ a:any-link {
     margin-left: 0%; }
   .float-right {
     float: right;
-    padding: 5px; }
+    padding: 15px 7px 15px 30px; }
   .marginleft40per {
     margin-left: 40%; }
   .margin-top-25sm {
@@ -4554,7 +4562,7 @@ a:any-link {
     font-size: 18px;
     margin-top: 75px;
     width: 85%;
-    margin-left: -11%; }
+    margin-left: 7%; }
   .cs-item {
     flex: 1 1 43%;
     height: auto;
@@ -4772,7 +4780,7 @@ a:any-link {
     margin-left: 0px;
     padding-left: 0px; }
   .method-callout-image {
-    width: 60%;
+    width: 100%;
     margin-left: 17%;
     align-self: center; }
   .container-method-callout {

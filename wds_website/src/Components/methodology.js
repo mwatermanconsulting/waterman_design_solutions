@@ -69,7 +69,7 @@ class methodology extends Component {
                 <div className="hr-line"></div>
 
                 <section className="flex-layout-full align-items-center flex-layout-column">
-                        <div className="header-title text-black flex-layout-center"> 
+                        <div className="header-title-sm-center text-black flex-layout-center"> 
                             The WDS UX Methodology
                         </div>
                     

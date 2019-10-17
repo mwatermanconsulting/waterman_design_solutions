@@ -114,17 +114,17 @@ class about extends Component {
                              Adding HTML, CSS and Flash skills, the partners turned their attention to the web, designing and developing websites along with martketing collateral. Their goal was to help small business owners through design to fight off big box business competition by bringing a level of professionalism to their online presence. </p>
 
                         <section className="grid-cs-card-history flex-layout-center-center flex-layout-section-full margin-top-50">   
-                            <p className="cs-card-1 margin-top-15 caption"><img className="photo-container-history margin-top-25 " src={four} alt="411"/><br></br>
+                            <p className="cs-card-1 margin-top-15 caption"><img className="photo-container margin-top-25 " src={four} alt="411"/><br></br>
                             <i></i>SavTraveler</p>
-                            <p className="cs-card-2 margin-top-15 caption"><img className="photo-container-history margin-top-25 " src={pw} alt="Pearly Whites"/><br></br>
+                            <p className="cs-card-2 margin-top-15 caption"><img className="photo-container margin-top-25 " src={pw} alt="Pearly Whites"/><br></br>
                             <i>Pearly Whites</i></p>
-                            <p className="cs-card-3 margin-top-15 caption"><img className="photo-container-history margin-top-25 " src={taws} alt="TAWS"/><br></br>
+                            <p className="cs-card-3 margin-top-15 caption"><img className="photo-container margin-top-25 " src={taws} alt="TAWS"/><br></br>
                             <i>TAWS</i></p>
-                            <p className="cs-card-4 margin-top-15 caption"><img className="photo-container-history margin-top-25" src={norwood} alt="Norwood Construction"></img><br></br>
+                            <p className="cs-card-4 margin-top-15 caption"><img className="photo-container margin-top-25" src={norwood} alt="Norwood Construction"></img><br></br>
                             <i>Norwood Construction</i></p>
                        
                         </section>
-                            <p className="align-item-center margin-top-15 caption"><img className="photo-container-history margin-top-25 " src={before_after} alt="Before and After"/><br></br>
+                            <p className="align-item-center margin-top-15 caption"><img className="photo-container margin-top-25 " src={before_after} alt="Before and After"/><br></br>
                             <i>Expanding  design solutions to meet  client needs</i></p>
                             
                         </div>
@@ -143,7 +143,7 @@ class about extends Component {
                         
                         <div className="margin-top-15">
                             <div className="float-right">
-                                    <img className="photo-container-ux border-2"  src={wfaweb}  alt="Web First Aid" /> 
+                                    <img className="photo-container border-2"  src={wfaweb}  alt="Web First Aid" /> 
                             </div>
                             <p className="content-text-18">Surreal Concepts' design solutions were successful. But they starting asking themselves, "What do the people that are interacting with the websites think?" <br></br>"Are our web designs resonating with users?" <br></br>They set out to research how people interacted with websites by asking questions:<br></br> What were their needs and expectations? <br></br>How did people interact with a web page compared to traditional printed materials? <br></br>In 2003, a study was released by B.J. Fogg and his team at Stanford University revealing the first study on human interaction on websites. The study consisted of user observations of eye movements, click behavior and user interactions. This study changed not not only how they designed, but their entire focus. </p>
                         
@@ -161,7 +161,7 @@ class about extends Component {
                         <div className="subtitle margin-top-10 content-block-55">
                             The Pfizer Pro Initiative
                         </div>
-                        <div className="content-block-55">
+                        <div className="content-block-60">
                             <p className="content-text-18  margin-top-15">
                             The WebFirstAid talks lead to a connection with Pfizer In 2008, and Surreal Concepts embedded Michael into the project.  
                             <img className="float-right visibility width-40" src={pfizer_logo}   alt="Pfizer logo" /> 
@@ -270,7 +270,7 @@ class about extends Component {
                     <div className="content-block-65 content-text-18 margin-top-15 margin-top-25sm">
                         
                         <p className="content-text-18 margin-top-15"><div className="float-right">
-                            <img className="michael-image"  src={mike}  alt="Michael Waterman"/> 
+                            <img className="width-250"  src={mike}  alt="Michael Waterman"/> 
                         </div> Michael was raised in a creative family and spent his childhood creating, designing and drawing. As Michael matured he began a career in retail. His friendly and caring nature made him a natural at customer service and he quickly climbed the corporate ladder becoming a regional manager in his early twenties. </p>
 
                             <p className="content-text-18">
@@ -304,14 +304,14 @@ class about extends Component {
                    
                     <div className="content-block-65 content-text-18 margin-top-15"> 
                         <p className="content-text-18 align-self-center margin-left-32persm"> <strong>"I aim to inspire.</strong>" </p>
-                        <p className="content-text-18 content-block-auto">
+                        <p className="content-text-18">
                             <div className="float-right">
-                            <img className="width-250 margin-left-min10per-sm margin-top"  src={terri}  alt="Terri" /> 
+                            <img className="width-250 "  src={terri}  alt="Terri" /> 
                             <p className="width-250 caption">"Artists have always been leaders in society, helping others to achieve enlightened thinking and problem solving."</p>
                         </div>
                             Terri's perspective is greatly influenced by her hearing loss as a child. When the outer life becomes quiet, observations and interpretations will always be unique. She learned that following the crowd was never a good idea to foster creativity. Fine art talent has taught her the importance of staying true to herself, and she continually finds new ways of expressing herself, whether it be through graphic design, advertising, branding, abstract paintings or multimedia art. <br></br>A deep thinker, she has always been curious about how humans behave and respond to life, and how design was about simplifying things to make our lives better. Like the cartooning on this site, the goal was to visibly communicate to you how much WDS values good old fashioned customer service, something that was very prevalent in the 1950s. </p>
                         <br></br>
-                        <p className="content-text-18 content-block-65">
+                        <p className="content-text-18">
                             Her experience working with Michael and their clients has taught her that design has a purpose - empathy, and users ALWAYS embrace designs that take them into consideration. </p>
                         <p className="subtitle">
                             Terri's passion for helping others with her talent is what motivates her to be passionate about her clients' goals.
