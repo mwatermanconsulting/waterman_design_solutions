@@ -46,7 +46,7 @@ class graphic_design extends Component {
 
             <section className="flex-layout-section-full flex-layout-column margin-top-75 margin-top-50sm">
               
-                    <div className="title-center">
+                    <div className="header-title-sm-center">
                             The Value of Graphic Design
                     </div>
                     <div className="margin-top-25 align-self-center content-block-65">
@@ -90,40 +90,40 @@ class graphic_design extends Component {
 
             <div className="hr-line width-70"></div>
 
-            <section className="flex-layout-section-full align-self-center margin-bottom-25sm">
-                    <div className="grid-2col-text-center margin-left-15">
-                        <div className="grid-title subtitle content-text-24 margin-bottom-20">
+            <section className="flex-layout-section-full">
+                <div className="grid-2col-text-center width-75 align-self-center">
+                        <div className="grid-title header-title-sm-center content-text-24 margin-bottom-20">
                             Print design services include: 
                         </div>
-                        <div className="item content-text-18 ">
-                            Business Identity
+                        <div className="item-web content-text-18 ">
+                            - Business Identity
                         </div>
                         <div className="item content-text-18">
-                            Letterhead 
+                            - Letterhead 
+                        </div>
+                        <div className="item-web content-text-18">
+                            - Business cards
                         </div>
                         <div className="item content-text-18">
-                            Business cards
+                            - Logo design 
+                        </div>
+                        <div className="item-web content-text-18">
+                            - Postcards
                         </div>
                         <div className="item content-text-18">
-                            Logo design 
+                            - Brochures
                         </div>
-                        <div className="item- content-text-18">
-                            Postcards
-                        </div>
-                        <div className="item content-text-18">
-                            Brochures
+                        <div className="item-web content-text-18">
+                            - Promotional products
                         </div>
                         <div className="item content-text-18">
-                            Promotional products
+                            - Publications
+                        </div>
+                        <div className="item-web content-text-18">
+                            - Trade show marketing materials
                         </div>
                         <div className="item content-text-18">
-                            Publications
-                        </div>
-                        <div className="item content-text-18">
-                            Trade show marketing materials
-                        </div>
-                        <div className="item content-text-18">
-                            Catalogues
+                            - Catalogues
                         </div>
 
                     </div>

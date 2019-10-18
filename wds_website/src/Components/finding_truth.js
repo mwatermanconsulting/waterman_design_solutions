@@ -45,8 +45,8 @@ class innovative_solutions extends Component {
             </section>
 
             <div className="content-header flex-layout-center-center flex-layout-column margin-top-75">
-                <div className="flex-layout-center-center title-center content-block-60">
-                    It's the people behind the methodology that makes the difference. 
+                <div className="flex-layout-center-center header-title-sm-center content-block-60">
+                    It's the people behind the methodology that makes the difference 
                 </div>
                 <div className="content-block-60 flex-layout-column align-items-center margin-top-50 margin-top-15sm">
                     <p className="content-text-24 margin-top-15sm">
@@ -176,7 +176,7 @@ class innovative_solutions extends Component {
 
                 <section className="flex-layout-justified-sb flex-layout-row content-block-50 ">
                     <div className="flex-layout-section-full">
-                        <div className="title-center">
+                        <div className="header-title-sm-center">
                             Develop Frameworks                        
                         </div>
                         <div className="subtitle-center margin-top-10">
@@ -192,7 +192,7 @@ class innovative_solutions extends Component {
                     <div className="hr-line"></div>
 
                     <div className="flex-layout-section-full">
-                        <div className="title-center">
+                        <div className="header-title-sm-center">
                             Design and Evaluate                        
                         </div>
                         <div className="subtitle-center margin-top-10">

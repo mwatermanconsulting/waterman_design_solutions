@@ -62,11 +62,11 @@ class about extends Component {
                         </div>
                 </section>
                 
-                    <image className="flex-layout-section-full flex-layout-center-center margin-top-75">
+                    <image className="flex-layout-section-full flex-layout-center-center margin-top-75 display-remove">
                         <img className="width-75" src={time} alt="Time Line"/>
                     </image>
 
-                <div className="hr-line-cs"></div>
+                <div className="hr-line-cs display-none"></div>
 
                 <section className="flex-layout-section-full align-items-center">
                 <div className="title content-block-65">
@@ -155,10 +155,10 @@ class about extends Component {
 
                     <div className="hr-line"></div>
                     <section className="flex-left flex-layout-section-full align-items-center">
-                        <div className="title content-block-55">
+                        <div className="title content-block-60">
                             UX and Business Design Solutions
                         </div>
-                        <div className="subtitle margin-top-10 content-block-55">
+                        <div className="subtitle margin-top-10 content-block-60">
                             The Pfizer Pro Initiative
                         </div>
                         <div className="content-block-60">
@@ -166,7 +166,7 @@ class about extends Component {
                             The WebFirstAid talks lead to a connection with Pfizer In 2008, and Surreal Concepts embedded Michael into the project.  
                             <img className="float-right visibility width-40" src={pfizer_logo}   alt="Pfizer logo" /> 
                             The project, Pfizer Pro, was the largest HCP website at the time. Michael was contracted for the UX Design,  content strategies, front-end development and bi-weekly updates. During the engagement, Michael's business understanding helped Pfizer by documenting a business problem they had with a vendor. The current CMS program and support was costing Pfizer thousands of dollars a week on lost man hours. This documentation gave Pfizer the knowledge they needed to change vendors and recoup their money.  </p>
-                        <p className="content-text-18"><a href="../case_study_4" className="no-decoration greenlink">Read full case study</a></p>
+                        <p className="content-text-18"><a href="../case_study_3" className="no-decoration greenlink">Read full case study</a></p>
                             </div>
                     </section>
                     <section className="flex-layout-section-full align-items-center grey border-tb-5 margin-top-50 margin-top-50sm">

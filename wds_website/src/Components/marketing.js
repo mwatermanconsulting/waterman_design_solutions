@@ -43,8 +43,8 @@ class marketing extends Component {
         <div className="flex-layout-section-full flex-layout-column margin-top-25 align-self-center">      
             
             <section className="content-header flex-layout-center-center flex-layout-column">
-                <div className="flex-layout-center-center subtitle-center text-align-center margin-top-75 content-block-60">
-                        “Many companies have forgotten they sell to actual people. Humans care about the entire experience, not just the marketing or sales or service. To really win in the modern age, you must solve for humans.” <br></br> Dharmesh Shah, CTO  Co-Founder, HubSpot 
+                <div className="flex-layout-center-center header-title-sm-center text-align-center margin-top-75 content-block-60">
+                        “Many companies have forgotten they sell to actual people. Humans care about the entire experience, not just the marketing or sales or service. To really win in the modern age, you must solve for humans.” <br/> - Dharmesh Shah, CTO  Co-Founder, HubSpot 
                 </div>
                 <div className="content-block-60 margin-top-25">
                 <p className="content-text-21 margin-top-25sm">
@@ -64,8 +64,8 @@ class marketing extends Component {
                     The Right Approach
                 </div> 
                 
-                <div className="content-block-60 content-text-18 margin-top-15 margin-top-15sm"><
-                    div className="float-right">
+                <div className="content-block-60 content-text-18 margin-top-15 margin-top-15sm">
+                    <div className="float-right">
                     <img className="photo-container margin-top-5per" src={marketing3}  alt="Website Design" /> 
                 </div>
                     <p className="content-text-18 margin-top-15"> 

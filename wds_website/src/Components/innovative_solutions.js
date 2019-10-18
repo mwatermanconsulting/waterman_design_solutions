@@ -45,11 +45,11 @@ class innovative_solutions extends Component {
             </section>
 
             <section className="flex-layout-center-center flex-layout-column margin-top-75">
-                <div className="title text-align-center content-block-60">
-                     WDS Innovative Solutions is the differentiating factor
+                <div className="flex-layout-center-center header-title content-block-60">
+                     WDS Innovative Solutions is their differentiating factor
                 </div>
-                    <p className="content-text-21 content-block-60 margin-top-25"> 
-                    WDS solutions are as unique as the business and users that are provided for. It includes three factors: Understanding, Empathy and Experience. </p>
+                    <div className="subtitle-center text-align-center content-block-55 margin-top-25"> 
+                    WDS solutions are as unique as the business and its users. Their solutions are composed of three factors: Understanding, Empathy and Experience. </div>
             </section>
 
              <div className="hr-line width-70"></div>
@@ -104,7 +104,7 @@ class innovative_solutions extends Component {
                             Establish Frameworks and Workflow Concepts</div>
                     <div className="content-block-60 content-text-18 ">
                         <div className="float-right margin-top-15sm">
-                        <img className="photo-container margin-top-10" src={innovation4}  alt="Construct user model" /> 
+                        <img className="photo-container margin-top-7per" src={innovation4}  alt="Construct user model" /> 
                     </div> 
                         <p className="content-text-18 margin-top-15">
                             Technology is dramatically changing the way marketers work. With thousands of software solutions to assist with automation, personalization and optimization, knowing where to start or how to get the most out of your investments is challenging.</p> 

@@ -46,9 +46,9 @@ class digital_design extends Component {
                     </div>
             </section>
 
-            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100">
+            <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-75">
                 <div className="float-left flex-layout-center-center content-block-65">
-                    <div className="title-center">
+                    <div className="header-title-sm-center">
                             Custom Designed Websites that Meet Users Expectations
                     </div>
                     <div className=" margin-top-50">
@@ -58,8 +58,8 @@ class digital_design extends Component {
                             <p className="content-text-21">   
                             The typical user has a good design eye and can tell the difference between a template website and a custom website. They will notice when a business cares enough about them to create a design that is based on UX research. Customers will always choose the better experience every time. Your business wasn't born from a template and your users deserve more. Don't settle for good enough!</p>
                     
-                    <div className="flex-layout-column margin-top-50">    
-                        <img className="photo-container" src={titanic} className="align-items-center margin-bottom-20" alt="Good Enough is not good enough"/>
+                    <div className="flex-layout-column flex-layout-center-center margin-top-50 align-self-center">    
+                        <img src={titanic} className="photo-container" alt="Good Enough is not good enough"/>
                     </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ class digital_design extends Component {
             <div className="hr-line"></div>
 
             <section className="flex-layout-section-full flex-layout-center-center">
-                <div className="subtitle">
+                <div className="header-title-sm">
                     A Small Sample of Our Custom Websites 
                 </div>
                 <div className="align-center justify-content-center align-items-center margin-top-50 margin-top-50sm">
@@ -96,44 +96,44 @@ class digital_design extends Component {
 
             <div className="hr-line"></div>
 
-            <section className=" align-self-center">
-                <div className="grid-2col-text-center align-self-center width-100" >
-                    <div className="grid-title subtitle-center content-text-24  margin-bottom-20 ">
+            <section className="flex-layout-section-full">
+                <div className="grid-2col-text-center width-75 align-self-center">
+                    <div className="grid-title header-title-sm-center content-text-24 margin-bottom-20 ">
                             Website Design Services: 
                     </div>
-                    <div className="item content-text-18 margin-left-15sm">
-                            Responsive Design
+                    <div className="item-web content-text-18">
+                            - Responsive Design
                     </div>
-                    <div className="item content-text-18  margin-left-15sm">
+                    <div className="item content-text-18">
                         <a href ="./core_offerings" className="no-decoration greenlink">
-                            Accessibility</a>
+                            - Accessibility</a>
                     </div>
-                    <div className="item content-text-18 margin-left-15sm">
+                    <div className="item-web content-text-18">
                         <a href ="./core_offerings" className="no-decoration greenlink">
-                            Telemetry</a>
+                            - Telemetry</a>
                         </div>
-                        <div className="item content-text-18 margin-left-15sm">
-                            Content Creation
+                        <div className="item content-text-18">
+                            - Content Creation
                         </div>
-                        <div className="item content-text-18 margin-left-15sm">
-                            Typography 
+                        <div className="item-web content-text-18">
+                            - Typography 
                         </div>
-                        <div className="item content-text-18 margin-left-15sm">
-                            Front-End Development
+                        <div className="item content-text-18">
+                            - Front-End Development
                         </div>
-                        <div className="item content-text-18 margin-left-15sm">
-                            Custom Images
+                        <div className="item-web content-text-18">
+                            - Custom Images
                         </div>
-                        <div className="item content-text-18 margin-left-15sm">
-                            Mobile Design
+                        <div className="item content-text-18">
+                            - Mobile Design
                         </div>
-                        <div className="item content-text-18 margin-left-15sm">
+                        <div className="item-web content-text-18 width-100 ">
                         <a href ="./core_offerings" className="no-decoration greenlink">
-                            Analytic Data Reporting</a>
+                            - Analytic Data Reporting</a>
                         </div>
-                        <div className="item content-text-18 margin-left-15sm">
+                        <div className="item content-text-18">
                             <a href="./design_systems" className="no-decoration greenlink">
-                            Pattern Libraries</a>
+                            - Pattern Libraries</a>
                         </div>
                     </div>
                 </section>
