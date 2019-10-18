@@ -7,10 +7,23 @@
     visibility: hidden;
   }
 
+  .display-remove {
+    display: none;
+  }
+
   .caption {
     text-align: center;
     font-size: .875rem;
     font-style: italic;
+  }
+
+  .item-web {
+    margin-left: 37%;
+  }
+
+  .item {
+    width: 100%;
+    margin-left: 37%;
   }
 
 
@@ -1876,6 +1889,15 @@
       border-bottom: none; 
     }
 
+    .item-web {
+      margin-left: 60%;
+    }
+  
+    .item {
+      width: 100%;
+      margin-left: 0;
+    }
+
     .flex-layout-space-between { 
       display: flex;
       flex-wrap: nowrap;
@@ -2283,7 +2305,7 @@
   }
 
   .margin-top-75{
-    margin-top: 25px;
+    margin-top: 75px;
   }
 
   .margin-top-10per {
@@ -2649,6 +2671,9 @@
   .height-670 {
     height: 400px;
     min-height: 400px;
+  }
+  .display-remove {
+    display: flex;
   }
 }
 

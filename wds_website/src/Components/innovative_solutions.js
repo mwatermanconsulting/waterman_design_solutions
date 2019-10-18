@@ -45,11 +45,11 @@ class innovative_solutions extends Component {
             </section>
 
             <section className="flex-layout-center-center flex-layout-column margin-top-75">
-                <div className="title text-align-center content-block-60">
-                     WDS Innovative Solutions is the differentiating factor
+                <div className="flex-layout-center-center header-title content-block-60">
+                     WDS Innovative Solutions is their differentiating factor
                 </div>
-                    <p className="content-text-21 content-block-60 margin-top-25"> 
-                    WDS solutions are as unique as the business and users that are provided for. It includes three factors: Understanding, Empathy and Experience. </p>
+                    <div className="subtitle-center text-align-center content-block-55 margin-top-25"> 
+                    WDS solutions are as unique as the business and its users. Their solutions are composed of three factors: Understanding, Empathy and Experience. </div>
             </section>
 
              <div className="hr-line width-70"></div>

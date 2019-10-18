@@ -166,9 +166,9 @@ class why_wds extends Component {
                 <div className="hr-line-cs"></div>
 
                 <section className="flex-layout-section-full align-items-center">
-                    <p className="header-title"> 
-                        Design Services</p>
-                    <div className="subtitle margin-top-25 width-65sm"> 
+                    <div className="header-title"> 
+                        Design Services</div>
+                    <div className="subtitle margin-top-15 width-65sm"> 
                          The Most Requested Design Offerings</div>
                 </section>    
 
@@ -176,14 +176,15 @@ class why_wds extends Component {
                     <div className="title content-block-60 margin-top-25">
                         UX Design
                     </div>
-                        <p className="subtitle content-block-60 margin-top-10"> 
-                        Understanding the Users </p>
+                        <div className="subtitle content-block-60 margin-top-10"> 
+                        Understanding the Users </div>
                         <div className="content-block-60 content-text-18">
-                    <div className="float-right margin-left-3 photo-container">
-                        <img className="border-3px photo-container" src={why_design}  alt="UX Design" /> 
-                </div>  
+                     
 
-                    <p className="content-text-18">
+                    <p className="content-text-18 margin-top-15">
+                        <div className="float-right margin-left-3 photo-container">
+                            <img className="border-3px photo-container" src={why_design}  alt="UX Design" /> 
+                        </div> 
                         The best customer experience starts with the Golden Rule — treat customers how you would like to be treated. At the foundation of WDS methodology is observation, watching customers use the clients' products or services. But unlike focus groups or usability laboratories, WDS conducts observation and interviews in the customer’s own environment during the course of their everyday routines. In such a context  researchers gain insight to a host of information that is not accessible through other UX research methods. </p>
                 <div className="float-left-np">
                     <NavLink className='button-area no-decoration text-align-center
@@ -201,15 +202,14 @@ class why_wds extends Component {
                     <div className="title content-block-60">
                         UI Design and Development
                     </div>
-                        <p className="subtitle content-block-60 margin-top-10"> 
-                        Application, Website and Mobile Design </p>
+                        <div className="subtitle content-block-60 margin-top-10"> 
+                        Application, Website and Mobile Design </div>
                     <div className="content-block-60 content-text-18">
-                    <div className="float-right margin-left-3">
-
-                        <img className="photo-container border-3px" src={why_business}  alt="UI Design" /> 
-
-                    </div>  
-                     <p className="content-text-18"> 
+                      
+                     <p className="content-text-18 margin-top-15">
+                         <div className="float-right margin-left-3">
+                            <img className="photo-container border-3px" src={why_business}  alt="UI Design" />
+                        </div> 
                         WDS aquired User Interface design skills   in 1998 with website design, starting with intranet healthcare websites at Astrazeneca. Today, data visualization designs are being used on oil rigs, nuclear reactors and pharmaceutical drug facilities.  
                     </p>
                     <p className="content-text-18">
@@ -235,11 +235,10 @@ class why_wds extends Component {
                         Establishing Consistency Across all Mediums </div>
                     <div className="content-block-60 content-text-18">
                    
-                     <p className="content-text-18 margin-top-15">  <div className="float-right margin-left-3">
-
-                        <img className="border-3px photo-container" src={why_enterprise}  alt=" Design" /> 
-
-                    </div>  
+                     <p className="content-text-18 margin-top-15">  
+                        <div className="float-right margin-left-3">
+                            <img className="border-3px photo-container" src={why_enterprise}  alt=" Design" /> 
+                        </div>  
                      A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive while combining components, behaviors, and branding. It also comes with a complete set of design standards, documentation, and strategies. It must also be flexible and scalable.
                     </p>
                     <div className="float-left-np">
@@ -302,7 +301,7 @@ class why_wds extends Component {
                             <p className="subtitle margin-left-2">Lasting Results</p></div>
                             <img src={data_analyst} className="float-left width-50 photo-container" alt="Data Analyst"/>
                            
-                            <p className="content-text-18 margin-top-75 margin-left-50 content-block-55">
+                            <p className="content-text-18 margin-top-75 margin-left-50 content-block-35">
                                 WDS is here to build and launch great technology solutions and help your team improve your business in tangible ways. 
                                 WDS <a href ="./core_offerings" className="no-decoration greenlink">core offerings </a> 
                             have helped businesses understand the value of design and increased conversion by 200%, reduced operations time by 15%, and increased channel utilization by 75%. It all leads to millions in revenue and cost savings.</p> 

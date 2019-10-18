@@ -39,7 +39,7 @@ class css_solutions extends Component {
             <section className="grid-callout photo-content-color border-bottom-5" > 
                 <div className="grid-placeself-center content-block-75 flex-layout-column">
                     <div className="callout-text padding-20 text-align-left margin-top-15 margin-left-2 margin-left-3" >
-                    Our CSS services include CSS development, strategy, CSS system implementation, mentoring, documentation, and best of practice documentation. </div>        
+                    Our CSS services include CSS development, strategy, CSS system implementation, mentoring, documentation, and best of practice documentation </div>        
                     </div>
                     <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
                         <img className="container-photo-callout margin-left-15per margin-top-25sm" src={casscade}  alt="Finding Truth" /> 
@@ -48,7 +48,7 @@ class css_solutions extends Component {
 
             <section className="content-header flex-layout-center-center flex-layout-column margin-top-75">
                 <div className="header-title-center text-align-center content-block-60">
-                        WDS develops lean scalable CSS solutions, saving your business time and money, while keeping your developers happy.
+                        WDS develops lean scalable CSS solutions, saving your business time and money, while keeping your developers happy
                         
                 </div>
                 <div className="content-block-60">
@@ -172,7 +172,7 @@ class css_solutions extends Component {
                        <img className="photo-container padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
                       
                       <div >
-                          <p className="callout-text-white text-align-center">WDS Specializes in Application Design for Data Visualization and Business Intelligence Platforms.</p>
+                          <p className="callout-text-white text-align-center">WDS Specializes in Application Design for Data Visualization and Business Intelligence Platforms</p>
                     </div>
                 </div>
             </section>     
