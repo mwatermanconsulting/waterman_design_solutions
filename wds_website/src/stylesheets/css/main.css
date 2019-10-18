@@ -3482,7 +3482,15 @@ a:any-link {
     margin-bottom: 0px;
     margin-left: -22%; }
   .photo-container-border {
-    width: 100%; }
+
+    width: 100%;
+    height: auto;
+    max-width: 550px;
+    min-width: 330px; }
+  .max-min-330-550 {
+    max-width: 550px;
+    min-width: 330px; }
+
   .cs-callout-item {
     flex: 0 1 45%;
     flex-direction: column;
@@ -3490,6 +3498,7 @@ a:any-link {
     min-width: 350px;
     margin-bottom: 25px;
     margin-left: 0%; }
+
   .method-callout-image {
     width: 135%;
     margin-left: -35%;
@@ -4829,7 +4838,10 @@ a:any-link {
     border: 1px solid #000;
     margin-top: 0px; }
   .photo-container-border {
-    width: 100%; }
+    width: 100%;
+    height: auto;
+    max-width: 550px;
+    min-width: 330px; }
   .grid-2things {
     width: 1200px;
     grid-template-columns: repeat(2, 1fr);

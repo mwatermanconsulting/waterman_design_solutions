@@ -123,30 +123,45 @@ class strategy_insight extends Component {
 
                     <div className="hr-line"></div>
                     
-                    <section className="grid-callout-2col content-header align-self-center justify-items-center margin-top-25 width-70">
-                    <div className="gallery-2col-1">
-                        <a href ="./css_solutions"><img className="photo-container-callout border-2" src={services8}  alt="CSS Solutions" /> </a>
-                        <div className="content-block">
-                            <div className="title-center margin-top-25">
-                                <a href="./css_solutions" className="no-decoration">
+                    
+            <section className="flex-layout-row  margin-top-50sm margin-bottom-50sm flex-layout-space-between content-block-75 justify-content-center">
+                    <div className="max-min-330-550">
+                        <div className=" ">
+                                    <img className="photo-container-border border-3px margin-left-4sm" and src={services8}  alt="CSS" /> 
+                            
+                        <div className="margin-top-50sm margin-bottom-50sm margin-top-50">
+                            <div className="header-title-sm text-align-left ">
+                            <a href="./css_solutions" className="no-decoration greenlink">
                                 CSS Solutions</a>
                             </div>
-                            <p className="content-text-18 content-block margin-top-15">
-                                Taming the specificity beast used to be difficult. WDS CSS strategy almost eliminates the specificity problems. It reduces greatly the need for your developers to write CSS. The advantage is past experience working with developers and interviewing and observing them working with CSS.</p>
+                        
+                            <div className="content-text-18 margin-top-15"> 
+                            Taming the specificity beast used to be difficult. WDS CSS strategy almost eliminates the specificity problems. It reduces greatly the need for your developers to write CSS. The advantage is past experience working with developers and interviewing and observing them working with CSS.</div>
+                        
+                            
+                            </div>  
                         </div>
-                    </div>     
-                    <div className="gallery-2col-2t">
-                    <a href ="./design_systems"> 
-                    <img className="photo-container-callout border-2 margin-top-min50per-sm"  src={services9}  alt="Business Solutions" /> </a>
-                        <div className="content-block">
-                            <div className="title-center margin-top-25">
-                            <a href="./design_systems" className="no-decoration"> 
-                                Design Systems</a></div>
-                            <p className="content-text-18 margin-top-15 content-block">
-                                At WDS, they know and understand the importance of design systems to businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff.</p>
+                    </div> 
+                    <div className="max-min-330-550">
+                        <div className="">
+                                    <img className="photo-container-border border-3px margin-left-4sm" and src={services9}  alt="Design Systems" /> 
+                            
+                        <div className="margin-top-50sm margin-top-50">
+                            <div className="header-title-sm text-align-left ">
+                            <a href="./css_solutions" className="no-decoration greenlink">
+                                Design Systems</a>
+                            </div>
+                        
+                            <div className="content-text-18 margin-top-15"> 
+                            At WDS, they know and understand the importance of design systems to businesses. They provide several tangible benefits, such as enforcing visual and interaction consistency, and letting software teams focus on solving tough problems instead of the small stuff.</div>
+                        
+                            
+                            </div>  
                         </div>
-                    </div>
-                    </section>
+                    </div> 
+                </section>
+                    
+                    
 
                     <div className="hr-line"></div>
 
