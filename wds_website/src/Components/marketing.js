@@ -43,7 +43,7 @@ class marketing extends Component {
         <div className="flex-layout-section-full flex-layout-column margin-top-25 align-self-center">      
             
             <section className="content-header flex-layout-center-center flex-layout-column">
-                <div className="flex-layout-center-center header-title-sm-center text-align-center margin-top-75 content-block-60">
+                <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-60">
                         “Many companies have forgotten they sell to actual people. Humans care about the entire experience, not just the marketing or sales or service. To really win in the modern age, you must solve for humans.” <br/> - Dharmesh Shah, CTO  Co-Founder, HubSpot 
                 </div>
                 <div className="content-block-60 margin-top-25">

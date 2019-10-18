@@ -35,7 +35,7 @@ class style_guide extends Component {
              <section className="grid-callout photo-content-color border-bottom-5" > 
                 <div className="grid-placeself-center content-block-75 flex-layout-column">
                     <div className="callout-text padding-20 text-align-left margin-top-15 margin-left-2" >
-                    A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive, combining components, behaviors, and branding. It must also be flexible and scalable</div>        
+                    A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive, combining components, behaviors, and branding. It must also be flexible and scalable.</div>        
                     </div>
                     <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
                         <img className="container-photo-callout margin-left-15per margin-top-25sm" src={design_systems1}  alt="Design Systems" /> 
@@ -165,7 +165,7 @@ class style_guide extends Component {
                        <img className="photo-container padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
                       
                       <div >
-                          <p className="callout-text-white text-align-center"> WDS specializes in SaaS design solutions and implementation.</p>
+                          <p className="callout-text-white text-align-center"> WDS specializes in SaaS design solutions and implementation</p>
                     </div>
                 </div>
             </section>     
