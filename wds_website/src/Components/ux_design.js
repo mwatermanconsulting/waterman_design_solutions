@@ -121,7 +121,7 @@ class ux_design extends Component {
                 <section className="flex-layout-section-full flex-layout-column align-items-center">
                 <div className="header-title">
                      Professional Designers Matter</div>
-                <div className="subtitle-center margin-top-25 flex-layout-center-center content-block-60">
+                <div className="subtitle-center margin-top-15 flex-layout-center-center content-block-60">
                    The WDS UX Team Makes the Difference
                 </div>
                 <div className="content-text-18 content-block-60 margin-top-15">

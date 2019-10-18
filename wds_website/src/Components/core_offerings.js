@@ -64,7 +64,7 @@ class core_offerings extends Component {
             <div className="hr-line"></div>
 
             <section className="flex-layout-section-full align-items-center flex-layout-column">
-                <div className="subtitle content-block-60">
+                <div className="header-title-sm content-block-60">
                     Common Business Design Problems
                 </div>
                 <ul className="dashed content-block-60 margin-top-15 content-text-21">
@@ -231,10 +231,11 @@ class core_offerings extends Component {
                         It's about the customer's journey
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
+                        
+                        <p className="content-text-18"> 
                         <div className="float-right">
                             <img className="photo-container"  src={offerings6}  alt="Customer Experience Solutions" /> 
                         </div>
-                        <p className="content-text-18"> 
                         Customer experience (CX) is the new competitive battleground for today's businesses. WDS will help you find the strategic intersection between your high-value customers and the critical enhancements required at specific touchpoints in your larger customer experience journey. </p>
                     
                         <p className="content-text-21 align-self-center content-block-60" ><b>Key Services</b></p>
@@ -262,10 +263,11 @@ class core_offerings extends Component {
                         Measuring Business Design Value
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
-                        <div className="float-right">
+                      
+                     <p className="content-text-18">   
+                     <div className="float-right">
                             <img className="photo-container"  src={offerings7}  alt="Telemetry/Analytics" /> 
                         </div>
-                     <p className="content-text-18"> 
                         Design solutions are no longer an invisible, unknown entity. WDS has seen the results of its designs over the years because they care about results. By implementing telemetry, design results can be tracked and measured. WDS has analytics experts that can provide monthly reports and business design strategies based on real data. 
                         </p>
 

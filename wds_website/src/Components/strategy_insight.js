@@ -48,11 +48,11 @@ class strategy_insight extends Component {
             </section>
     
             <div className="content-header flex-layout-center-center flex-layout-column">
-                <div className="flex-layout-center-center title text-align-center content-block-60 margin-top-75 width-76sm">
+                <div className="header-title-sm-center text-align-center content-block-60 margin-top-75 width-76sm">
                     Today, the user’s experience is more important than brand loyalty. A successful strategy is needed to keep  users involved in all business decisions. 
                 </div>
-                <div className="content-block-60 margin-top-25">
-                    <p className="content-text-21">
+                <div className="content-block-60 text-align-center margin-top-25">
+                    <p className="content-text-21 text-align-center">
                         WDS discovers the patterns and themes that provide actionable, deeper and more valuable perspectives on your customers' wants, needs and motivations.</p>
                     <p className="content-text-21">
                         The most meaningful insights for design strategy are developed with behavior-based understanding of users.  UX strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve.</p>
