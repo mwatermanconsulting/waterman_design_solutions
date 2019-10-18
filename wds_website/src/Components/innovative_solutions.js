@@ -104,7 +104,7 @@ class innovative_solutions extends Component {
                             Establish Frameworks and Workflow Concepts</div>
                     <div className="content-block-60 content-text-18 ">
                         <div className="float-right margin-top-15sm">
-                        <img className="photo-container margin-top-10" src={innovation4}  alt="Construct user model" /> 
+                        <img className="photo-container margin-top-7per" src={innovation4}  alt="Construct user model" /> 
                     </div> 
                         <p className="content-text-18 margin-top-15">
                             Technology is dramatically changing the way marketers work. With thousands of software solutions to assist with automation, personalization and optimization, knowing where to start or how to get the most out of your investments is challenging.</p> 

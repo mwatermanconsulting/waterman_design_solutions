@@ -3563,6 +3563,8 @@ a:any-link {
     margin-left: 12%; }
   .margin-top-30sm {
     margin-top: -30px; }
+  .margin-top-7per {
+    margin-top: 0%; }
   .border-2-sm {
     border: 2px solid rgba(58, 58, 58, 0.838); }
   .home-item {
@@ -4248,6 +4250,8 @@ a:any-link {
     height: auto;
     border: 2px solid #000;
     margin-left: 0%; }
+  .margin-top-7per {
+    margin-top: 0%; }
   .photo-container {
     width: 95%;
     height: auto;
@@ -4276,6 +4280,8 @@ a:any-link {
 @media only screen and (min-width: 768px) {
   .width-70 {
     width: 60%; }
+  .margin-top-7per {
+    margin-top: 0%; }
   .margin-left-75 {
     margin-left: 25px; }
   .margin-left-15per {
@@ -4449,6 +4455,8 @@ a:any-link {
     width: 60%; }
   .margin-top-50 {
     margin-top: 25px; }
+  .margin-top-7per {
+    margin-top: 0%; }
   .margin-top-75 {
     margin-top: 25px; }
   .photo-container {
@@ -4717,6 +4725,8 @@ a:any-link {
     margin-left: 12%; }
   .margin-bottom-75 {
     margin-bottom: 75px; }
+  .margin-top-7per {
+    margin-top: -7%; }
   .margin-left-140 {
     margin-left: 140px; }
   .margin-left-min12per {
@@ -4897,8 +4907,6 @@ a:any-link {
     margin-left: 36%; }
   .margin-top-70 {
     margin-top: 70px; }
-  .margin-top-7per {
-    margin-top: -7%; }
   .margin-left-min30per {
     margin-left: -30%; }
   .margin-top-50sm {

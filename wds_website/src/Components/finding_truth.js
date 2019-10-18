@@ -45,7 +45,7 @@ class innovative_solutions extends Component {
             </section>
 
             <div className="content-header flex-layout-center-center flex-layout-column margin-top-75">
-                <div className="flex-layout-center-center title-center content-block-60">
+                <div className="flex-layout-center-center header-title-sm-center content-block-60">
                     It's the people behind the methodology that makes the difference 
                 </div>
                 <div className="content-block-60 flex-layout-column align-items-center margin-top-50 margin-top-15sm">
