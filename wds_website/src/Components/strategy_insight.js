@@ -123,7 +123,7 @@ class strategy_insight extends Component {
 
                     <div className="hr-line"></div>
                     
-                    
+        {/*            
             <section className="flex-layout-row  margin-top-50sm margin-bottom-50sm flex-layout-space-between content-block-75 justify-content-center">
                     <div className="max-min-330-550">
                         <div className=" ">
@@ -161,9 +161,9 @@ class strategy_insight extends Component {
                     </div> 
                 </section>
                     
-                    
+                     
 
-                    <div className="hr-line"></div>
+                    <div className="hr-line"></div>  */}
 
                     <section className="float-left flex-layout-section-full align-items-center flex-layout-column margin-top-15sm">
                         <div className="title content-block-60">
