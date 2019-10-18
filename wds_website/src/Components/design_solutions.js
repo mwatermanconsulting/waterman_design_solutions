@@ -117,7 +117,7 @@ class design_solutions extends Component {
                 </div>
                 <div className="content-block-60 content-text-18 margin-top-15">
                     <p className="content-text-18"> 
-                <div className="float-right" style={{marginTop:'-.5%'}}>
+                <div className="float-right">
                     <img className="photo-container" src={design3}  alt="Social Media Services" /> 
                 </div>
                     The goal of WDS is to identify the right approach for your unique target audiences on social media. They plan, develop, and execute innovative social media marketing strategies that build a meaningful experience for your users. User research, ad optimization techniques and social media platforms are leveraged to connect your brand, products and/or services to the right people. By creating highly targeted advertisements on social media, you can reach an otherwise untapped resource for potential customers. </p>

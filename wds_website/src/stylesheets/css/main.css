@@ -369,6 +369,9 @@ footer {
 .margin-left-50 {
   margin-left: 50%; }
 
+.margin-left-60per {
+  margin-left: 60%; }
+
 .margin-left-25per {
   margin-left: -25%; }
 
@@ -749,6 +752,9 @@ footer {
 
 .content-block-40-co {
   width: 40%; }
+
+.content-block-45 {
+  width: 45%; }
 
 .content-block-50 {
   width: 50%; }
@@ -1665,6 +1671,9 @@ input[type=submit]:hover {
 
 .display-none {
   visibility: visible; }
+
+.display-remove {
+  display: flex; }
 
 .material-icons {
   margin-top: 20px;
@@ -3108,6 +3117,13 @@ Button:hover {
   grid-column: 3/3;
   grid-row: 2/auto; }
 
+.item-web {
+  margin-left: 60%; }
+
+.item {
+  width: 100%;
+  margin-left: 0; }
+
 /*******************************
            Menu
   *******************************/
@@ -3425,10 +3441,17 @@ a:any-link {
 @media (min-width: 319px) {
   .display-none {
     visibility: hidden; }
+  .display-remove {
+    display: none; }
   .caption {
     text-align: center;
     font-size: .875rem;
     font-style: italic; }
+  .item-web {
+    margin-left: 37%; }
+  .item {
+    width: 100%;
+    margin-left: 37%; }
   .float-left {
     float: none;
     padding: 0; }
@@ -4604,6 +4627,11 @@ a:any-link {
     flex: 1 1 420px;
     border-top: none;
     border-bottom: none; }
+  .item-web {
+    margin-left: 60%; }
+  .item {
+    width: 100%;
+    margin-left: 0; }
   .flex-layout-space-between {
     display: flex;
     flex-wrap: nowrap;
@@ -4866,7 +4894,7 @@ a:any-link {
   .margin-bottom-50sm {
     margin-bottom: 0px; }
   .margin-top-75 {
-    margin-top: 25px; }
+    margin-top: 75px; }
   .margin-top-10per {
     margin-top: -10%; }
   .margin-left-min15sm {
@@ -5073,4 +5101,6 @@ a:any-link {
     grid-gap: 50px; }
   .height-670 {
     height: 400px;
-    min-height: 400px; } }
+    min-height: 400px; }
+  .display-remove {
+    display: flex; } }

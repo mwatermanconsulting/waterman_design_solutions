@@ -35,7 +35,7 @@ class style_guide extends Component {
              <section className="grid-callout photo-content-color border-bottom-5" > 
                 <div className="grid-placeself-center content-block-75 flex-layout-column">
                     <div className="callout-text padding-20 text-align-left margin-top-15 margin-left-2" >
-                    A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive, combining components, behaviors, and branding. It must also be flexible and scalable.</div>        
+                    A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive, combining components, behaviors, and branding. It must also be flexible and scalable</div>        
                     </div>
                     <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
                         <img className="container-photo-callout margin-left-15per margin-top-25sm" src={design_systems1}  alt="Design Systems" /> 
@@ -46,7 +46,7 @@ class style_guide extends Component {
                 <p className="header-title-sm-center margin-top-75 content-block-75">
                     If your product isn’t documented it doesn’t exist</p>
                 <p className="subtitle-center text-align-center content-block-60  margin-top-10">
-                    Style guides and design systems are there to make your lives easier. It keeps  designs consistent internally and help developers be more productive. </p>
+                    Style guides and design systems are there to make your lives easier. It keeps  designs consistent internally and help developers be more productive </p>
             </section>
             
             <div className="hr-line"></div>
@@ -134,9 +134,10 @@ class style_guide extends Component {
                         Design System Layouts
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15"> 
-                        <p className="content-text-18"> <div className="float-right">
+                        <p className="content-text-18"> 
+                        <div className="float-right">
                         <img className="photo-container width-100 border-2" src={design_systems6}  alt="Pattern Library   " /> 
-                    </div>  
+                        </div>  
                         A subclass in the design system, this is the set of design patterns for use across a company. A pattern library, documents all of these ‘patterns’ (also often known as modules) and defines how they behave, what they look like and how they are coded.</p>
                     </div>  
                 </section>  

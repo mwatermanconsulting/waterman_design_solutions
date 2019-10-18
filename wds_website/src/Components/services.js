@@ -54,8 +54,8 @@ class services extends Component {
             <section className="flex-layout-section-full flex-layout-column align-items-center">
                 <div className="header-title margin-top-75">
                     WDS Services</div>
-                <p className="subtitle-center margin-top-15 content-block-65">
-                     Design always determines success, and understanding the user is paramount to that success. <br/> The team of WDS UX designers design with empathy that connects with people,meeting their needs and expectations. 
+                <p className="subtitle-center margin-top-15 content-block-35">
+                     Design always determines success, and understanding the user is paramount to that success. The team of WDS UX designers design with empathy that connects with people,meeting their needs and expectations. 
                 </p>
             </section>
 
@@ -70,9 +70,11 @@ class services extends Component {
                            Understanding the User
                         </div>
                         <div className="margin-top-15 content-block-60">
-                         <div className="float-right callout-photo">
-                        <img src={services3} className="photo-container"  alt="UX Design" /> </div>   
+                        
                             <p className="content-text-18"> 
+                                <div className="float-right callout-photo">
+                                    <img src={services3} className="photo-container"  alt="UX Design" /> 
+                                </div>    
                                 WDS design experts use research, empathy and insight to define how software functions and build workflows for the ways that people will use and experience it. From inception to launch, the users' voice is always heard, leaving no detail missed.</p> 
                             <p className="content-text-18">
                                 The visual elements, they create will establish your brand as a design leader in your space. By understanding your business, users and competition WDS will ensure that you have a unique presence that include familiar use of fonts, icons with design solutions that has a certain elegance that resonates with your users' emotions. </p>
@@ -92,12 +94,13 @@ class services extends Component {
                         <div className="subtitle margin-top-10">
                             Websites, Products and Applications
                         </div> 
-                        <div className="float-right callout-photo grid-placeself-center margin-top-15sm">
-                            <img className="photo-container margin-top-2 padding-sm-10-20" src={services2}  alt="UI Design" /> 
-                            
-                            </div>
+                        
                         <div className="margin-top-15">  
-                            <p className="content-text-18"> 
+                            <p className="content-text-18">
+                                <div className="float-right callout-photo grid-placeself-center margin-top-15sm">
+                            <img className="photo-container margin-top-2 padding-sm-10-20" src={services2}  alt="UI Design" /> 
+                        </div> 
+                            
                             WDS honed its UI design skills by designing websites in 1998. Over the years they have designed and developed large complicated websites to solve difficult UI problems on critical applications. Their current data visualization designs are being used on oil rigs, nuclear reactors and pharmaceutical drug plants.  
                             </p>
                             <p className="content-text-18">
@@ -117,10 +120,12 @@ class services extends Component {
                     <div className="subtitle content-block-60 margin-top-10">
                          Empathetic Design
                     </div>
-                    <div className="margin-top-15 content-block-60"> <div className="float-right callout-photo grid-placeself-center margintop-4per" >
+                        <div className="margin-top-15 content-block-60"> 
+                       
+                        <p className="content-text-18 ">
+                            <div className="float-right callout-photo grid-placeself-center">
                                 <img className="photo-container" src={services7}  alt="Design Solutions" /> 
-                        </div> 
-                        <p className="content-text-18 "> 
+                            </div>  
                             WDS design solutions include software design, websites, marketing and print. WDS design solutions provide our clients consistency across all their consumer touchpoints. </p> 
                             <p className="content-text-18 ">
                             All design solutions are done with empathy, keeping the focus on users and business needs.  </p>
@@ -140,10 +145,12 @@ class services extends Component {
                     <div className="subtitle content-block-60 margin-top-10">
                          Insight through Observations
                     </div>
-                    <div className="margin-top-15 content-block-60"> <div className="float-right callout-photo grid-placeself-center">
-                                <img className="photo-container" src={services5}  alt="Strategy and Insight" /> 
-                        </div>  
+                        <div className="margin-top-15 content-block-60"> 
+                        
                         <p className="content-text-18">
+                            <div className="float-right callout-photo grid-placeself-center">
+                                <img className="photo-container" src={services5}  alt="Strategy and Insight" /> 
+                            </div>  
                             The most meaningful insights for design strategy are developed with behavior-based understanding of users. WDS experience strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve.</p> 
                         <p className="content-text-18 margin-top-15">
                             By directly observing people, WDS can get to the heart of their needs. Discovering what drives them, what inspires them and what connects with them on an emotional level, WDS enlightens its clients with insights and strategies of where to invest resources based on this research.
@@ -165,7 +172,8 @@ class services extends Component {
                     <div className="subtitle content-block-60 margin-top-10">
                             Scalable Enterprise Solutions
                     </div>
-                    <div className="margin-top-15 content-block-60"> <div className="float-right callout-photo grid-placeself-center">
+                    <div className="margin-top-15 content-block-60"> 
+                    <div className="float-right callout-photo grid-placeself-center">
                                 <img className="photo-container" src={casscade}  alt="Strategy and Insight" /> 
                         </div>  
                         <p className="content-text-18 content-block-60">
@@ -188,10 +196,12 @@ class services extends Component {
                     <div className="subtitle content-block-60 margin-top-10">
                         Social Media Marketing Done Right 
                     </div>
-                    <div className="margin-top-15 content-block-60"> <div className="float-right callout-photo grid-placeself-center">
-                                <img className="photo-container" src={services4}  alt="Social Media" /> 
-                        </div>  
-                        <p className="content-text-18 ">
+                    <div className="margin-top-15 content-block-60"> 
+                         
+                        <p className="content-text-18 "> 
+                        <div className="float-right callout-photo grid-placeself-center">
+                            <img className="photo-container" src={services4}  alt="Social Media" /> 
+                        </div>
                         Social Media marketing and all other forms of media marketing will make your customers feel uniquely valued when done right. WDS understands people on a deep level. Their UX methodology gives a voice to the your users. Your marketing campaign should be a reflection of the vision of who you are as a business and tell that story.  We will define a marketing strategy based on research, data with a clear vision that reflects and embraces real human values.</p> 
 
                         <p className="content-text-18 ">

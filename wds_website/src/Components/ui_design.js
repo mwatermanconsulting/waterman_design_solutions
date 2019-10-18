@@ -41,7 +41,7 @@ class ui_design extends Component {
                 <div className="callout-title-center margin-top-15">
                         The "aha" Moment
                     </div>
-                    <div className="callout-text padding-20 content-block-75 text-align-left align-self-center margin-top-15 margin-left-2" >
+                    <div className="callout-text padding-20 content-block-75 text-align-left align-self-center margin-left-2" >
                     WDS lives for the comment "why didn't we think of that" commonly expressed by stakeholders and/or managers during the design reveal.  </div>        
                     </div>
                     <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
@@ -243,10 +243,10 @@ class ui_design extends Component {
                 <div className="hr-line"></div>
 
                 <section className="flex-layout-section-full flex-layout-column margin-bottom-75 flex-layout-center-center">
-                     <div className="header-title-sm-center content-block-75">
-                            Design is not about being pretty or aesthetically pleasing,  it is about simplicity.
+                     <div className="header-title-sm-center content-block-45">
+                            Design is not about being pretty or aesthetically pleasing, it is about simplicity.
                     </div>
-                    <div className="content-text-21 margin-top-25 margin-top-50sm content-block-65">
+                    <div className="content-text-21 margin-top-40 margin-top-50sm content-block-55">
                         WDS has been designing user interfaces for over twenty years. They originally designed user interfaces for websites, but that changed with their first complicated industrial user interface  designed for Motorola. Since then the UI design services expanded to all consumer-facing touchpoints, including software, mobile, SaaS and kiosks.
                     </div> 
                 </section>
