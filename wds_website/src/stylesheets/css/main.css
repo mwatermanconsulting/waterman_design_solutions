@@ -3482,7 +3482,6 @@ a:any-link {
     margin-bottom: 0px;
     margin-left: -22%; }
   .photo-container-border {
-
     width: 100%;
     height: auto;
     max-width: 550px;
@@ -3490,7 +3489,6 @@ a:any-link {
   .max-min-330-550 {
     max-width: 550px;
     min-width: 330px; }
-
   .cs-callout-item {
     flex: 0 1 45%;
     flex-direction: column;
@@ -3498,7 +3496,6 @@ a:any-link {
     min-width: 350px;
     margin-bottom: 25px;
     margin-left: 0%; }
-
   .method-callout-image {
     width: 135%;
     margin-left: -35%;
@@ -3948,6 +3945,8 @@ a:any-link {
     margin-top: 20px; }
   .align-self-start {
     align-self: self-start; }
+  .content-block-35 {
+    width: 90%; }
   .container-image-500 {
     width: 100%;
     max-width: 500px;
@@ -4280,6 +4279,8 @@ a:any-link {
 @media only screen and (min-width: 768px) {
   .width-70 {
     width: 60%; }
+  .content-block-35 {
+    width: 90%; }
   .margin-top-7per {
     margin-top: 0%; }
   .margin-left-75 {
@@ -4449,6 +4450,8 @@ a:any-link {
 @media (min-width: 1024px) {
   .align-self-auto {
     align-self: auto; }
+  .content-block-35 {
+    width: 90%; }
   .cs-container {
     margin-left: 27%; }
   .content-block-80 {

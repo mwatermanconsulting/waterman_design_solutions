@@ -4,6 +4,7 @@ import Helmet from 'react-helmet';
 import wdslogofull from '../images/wds-logo-full.svg';
 import binoculars from '../images/graphic-methodology-binoculars.svg';
 import why2 from '../images/graphic-why-wds.svg' ;
+import gasp from '../images/graphic-why-gasp.svg' ;
 import igotyou from '../images/graphic-igotyou.svg';
 import empathy from '../images/photos/photo-home-empathy.png';
 import design from '../images/graphic-design-desk.svg';
@@ -45,7 +46,7 @@ class landingPage extends Component {
             </div>
                 <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-bottom-50">
                     <div className="content-block-60">
-                        <p className="title-center margin-top-75 text-align-center">
+                        <p className="header-title-sm-center margin-top-75 text-align-center">
                             Who is WDS?</p>
                             <p className="subtitle-center text-align-center margin-top-10">
                             Your Partner in Design</p>
@@ -297,8 +298,8 @@ class landingPage extends Component {
             <p className="header-title-sm-center">
                          UX Case Studies</p>
         
-        <section className="flex-layout-space-between">
-                    <div className="cs-callout-item flex-layout-row">
+        <section className="flex-layout-space-between flex-layout-row">
+                    <div className="cs-callout-item">
                         <div className="flex-layout-section-full border-2">
                         <img className="image-size-100" src={motorola}  alt="All About the User" /> 
                         <div className="content-block-auto padding-10">
@@ -318,8 +319,8 @@ class landingPage extends Component {
                             </div>
                         </div>
                     </div>     
-                    <div className="cs-callout-item border-2">
-                        <div className="flex-layout-section-full">
+                    <div className="cs-callout-item">
+                        <div className="flex-layout-section-full border-2">
                             <img className="image-size-100"  src={stubhub}  alt="Business Solutions" />
                             <div className="content-block-auto padding-10">
                             <div className="subtitle">
@@ -350,7 +351,7 @@ class landingPage extends Component {
                         </div>
                     </div>              
                     <div className="col2-photo width-50 margin-right-50 margin-left-min25sm align-center margin-bottom-35">
-                        <img className="flex-image-container " src={why2}  alt="A miracle!" /> 
+                        <img className="flex-image-container " src={gasp}  alt="A miracle!" /> 
                         <p className="caption margin-left-25">Success is possible!</p>
                     </div>
                 </div>

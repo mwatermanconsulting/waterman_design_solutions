@@ -58,7 +58,7 @@ class about extends Component {
                         </div>
                     </div>
                         <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
-                            <img className="container-photo-callout" src={photo_history}  alt="UX" /> 
+                            <img className="container-photo-callout margin-left-15per margin-top-15sm" src={photo_history}  alt="UX" /> 
                         </div>
                 </section>
                 
