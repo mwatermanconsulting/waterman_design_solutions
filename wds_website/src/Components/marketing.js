@@ -26,7 +26,7 @@ class marketing extends Component {
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                   WDS will make your customers feel uniquely valued.
+                   WDS will make your customers feel uniquely valued
                 </div>
             </div>
 
@@ -43,7 +43,7 @@ class marketing extends Component {
         <div className="flex-layout-section-full flex-layout-column margin-top-25 align-self-center">      
             
             <section className="content-header flex-layout-center-center flex-layout-column">
-                <div className="flex-layout-center-center header-title-sm-center text-align-center margin-top-75 content-block-60">
+                <div className="flex-layout-center-center title text-align-center margin-top-75 content-block-60">
                         “Many companies have forgotten they sell to actual people. Humans care about the entire experience, not just the marketing or sales or service. To really win in the modern age, you must solve for humans.” <br/> - Dharmesh Shah, CTO  Co-Founder, HubSpot 
                 </div>
                 <div className="content-block-60 margin-top-25">
@@ -118,7 +118,7 @@ class marketing extends Component {
                        <img className="photo-container padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
                       
                       <div >
-                          <p className="callout-text-white text-align-center">WDS Developed a Telemetry and Data UX Strategy for StubHub.</p>
+                          <p className="callout-text-white text-align-center">WDS Developed a Telemetry and Data UX Strategy for StubHub</p>
                     </div>
                 </div>
             </section>     
