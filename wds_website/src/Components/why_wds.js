@@ -75,14 +75,14 @@ class why_wds extends Component {
                     Your Complete Design Resource
 
                     </div>
-                <section className="why-container flex-layout-center-center align-self-center">
+                <section className="why-container  align-self-center">
                     <div className="why-item">
                         <div className="subtitle-center">
                             <img className="margin-bottom-10" src={icon_ux}  alt="UX" /> <br></br>
                                <a href="./ux_design" className="no-decoration">
                                    UX Design</a> 
                         </div>
-                        <ul className="dashed margin-left-25 content-text-18 margin-top-15">
+                        <ul className="dashed content-text-18 margin-left-18 why-margin-list-1 margin-top-15">
                             <li>Interaction Design</li>
                             <li>Visual Design</li>
                             <li>Personas</li>

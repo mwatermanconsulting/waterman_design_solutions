@@ -26,7 +26,7 @@ class marketing extends Component {
             </div>
             <div className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                   WDS will make your customers feel uniquely valued.
+                   WDS will make your customers feel uniquely valued
                 </div>
             </div>
 
@@ -118,7 +118,7 @@ class marketing extends Component {
                        <img className="photo-container padding-bottom-25" src={didyouknow}  alt="Did You Know?" /> 
                       
                       <div >
-                          <p className="callout-text-white text-align-center">WDS Developed a Telemetry and Data UX Strategy for StubHub.</p>
+                          <p className="callout-text-white text-align-center">WDS Developed a Telemetry and Data UX Strategy for StubHub</p>
                     </div>
                 </div>
             </section>     

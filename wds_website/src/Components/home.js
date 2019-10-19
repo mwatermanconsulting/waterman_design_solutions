@@ -61,7 +61,7 @@ class landingPage extends Component {
                 
                 <div className="home-item align-items-center content-block-60">
                     
-                        <img  src={why2}  alt="Why WDS" /> 
+                        <img className="margin-top-50" src={why2}  alt="Why WDS" /> 
                             <div className="flex-align-center-center">
                                 <div className="header-title-sm-center">
                                     Why WDS
