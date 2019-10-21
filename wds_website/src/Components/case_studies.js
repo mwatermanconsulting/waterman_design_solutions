@@ -56,7 +56,7 @@ class case_studies extends Component {
                                 <p className="content-text-18 padding-10">
                                     <i> Industry: Products</i></p>
                                 <p className="content-text-18 padding-10">
-                                    High Volume of returns plaguing Motorola Gateway Router Product Line. After two failed attempts by UX/UI developers, a frustrated management group decided they needed a UX designer to solve the problems.</p>
+                                After two failed attempts by previously hired UX/UI developers, a frustrated management group for Motorola's new product decided they needed a designer to simplify their modem app.</p>
                         </div>
                             
                         <div className="flex-layout-section-full content-block-75 padding-10">
@@ -77,9 +77,9 @@ class case_studies extends Component {
                                     StubHub
                             </div>
                                 <p className="content-text-18  padding-10">
-                                    <i> Industry: Products</i></p>
+                                    <i> Industry: Entertainment/Sports</i></p>
                                 <p className="content-text-18 padding-10">
-                                    High Volume of returns plaguing Motorola Gateway Router Product Line. After two failed attempts by UX/UI developers, a frustrated management group decided they needed a UX designer to solve the problems.</p>
+                                The analysts were unhappy with their current data visualization tool. After two failed attempts to fix it, and the threat of dissolving the internal team, WDS came to the rescue.</p>
                         </div>
                             
                         <div className="flex-layout-section-full content-block-75 padding-10">
@@ -100,7 +100,7 @@ class case_studies extends Component {
                             </div>
                                 <p className="content-text-18 padding-10"><i> Industry: Pharmaceuticals</i></p>
                                 <p className="content-text-18 padding-10">
-                                WDS noticed major problems with the DMS solution that Pfizer chose to manage its 25,000 page project. WDS independently  interviewed developers and documented lost time, sitting around watching the spinner...</p>
+                                WDS noticed major problems with the DMS solution that Pfizer chose to manage its 25,000 page project. WDS independently  interviewed developers and documented lost time, saving Pfizer's bottom line.</p>
                         </div>
                             
                         <div className="flex-layout-section-full content-block-75 padding-10">
@@ -121,7 +121,7 @@ class case_studies extends Component {
                             </div>
                                 <p className="content-text-18 padding-10"><i> Industry: Gas and Oil</i></p>
                                 <p className="content-text-18 padding-10">
-                                OsiSoft needed an enterprise level CSS solution for their data visualization SaaS initiative. The solution needed to scale and reduce specificity issues. The CSS solution became the company wide standard and foundation for the...</p>
+                                OsiSoft needed an enterprise level CSS solution for their data visualization SaaS initiative. The solution had to scale and reduce specificity issues. The CSS solution became the standard and foundation for the company.</p>
                         </div>
                             
                         <div className="flex-layout-section-full content-block-75 padding-10">
