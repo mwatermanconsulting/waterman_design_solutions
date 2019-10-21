@@ -123,7 +123,7 @@ class landingPage extends Component {
                                  Services
                             </div>
                                 <p className="content-text-18 margin-top-10 width-50 margin-left-25 text-align-center">
-                                WDS has over 25 years of experience with UX design, user interface design and CSS solutions development. Their latest service offering is a highly needed business (CX) solution,  design systems. 
+                                WDS has over 25 years of experience with UX design, user interface design and CSS solutions development. The latest service offering is business (CX) solutions, which include design systems. 
                                 </p>
 
                                 <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/core_offerings'}>
@@ -247,7 +247,7 @@ class landingPage extends Component {
                             <div className="subtitle-center  text-align-center margin-top-10">
                                 Engage Your Customers </div>
                             <div className="callout-content-block margin-top-15">
-                              WDS is a firm believer in agile and iterative deployments as experiments, but with longer enterprise launches and consumer software there's still valuable data to collect even before that first MVP. WDS insights and strategies move you and your team in the right direction, and possibly uncover rewarding new business opportunities.</div>
+                              WDS is a firm believer in agile and iterative deployments as experiments. But with longer enterprise launches and consumer software there's still valuable data to collect, even before that first MVP. WDS insights and strategies move you and your team in the right direction, and possibly uncover rewarding new business opportunities.</div>
                         </div>
                     </div>     
                     <div className="home-item">
@@ -259,7 +259,7 @@ class landingPage extends Component {
                             <div className="subtitle-center text-align-center margin-top-10">
                                 Design is Everybody’s Responsibility</div>
                             <div className="callout-content-block margin-top-15">
-                                In workplace and enterprise solutions, users know when someone understands their needs and make them feel like experts. They know when there's attention to design details. They know when it's intuitive and visually pleasing. With consumers, if you miss the mark, you'll fail fast and they’ll let you know it.</div>
+                                In workplace and enterprise solutions, users know when someone understands their needs and makes them feel like experts. They know when there's attention to design details. They know when it's intuitive and visually pleasing. With consumers, if you miss the mark, you'll fail fast and they’ll let you know it.</div>
                         </div>
                         
                           </div>
@@ -271,7 +271,7 @@ class landingPage extends Component {
 
             <section className="flex-section-fixed-head flex-layout-center-center homepage-bg-starburst margin-top-25 image-background-border-tb">
                     <div className="header-text-center callout-text-lg text-white width-70">
-                        In today's market, design is more critical to your business success. Competition and user expectations have increased. Your only chance of survival is understanding both your users and competition.
+                        In today's market, design is more critical to your business success. Competition and user expectations have increased. Your only chance of survival is understanding both your users and your competition.
                     </div>
                         <img className="flex-image-container" src={starburst}  alt="McKinsley Report" /> 
             </section>
@@ -281,7 +281,7 @@ class landingPage extends Component {
                     <div className="header-title">
                         About the WDS Methodology</div>
                     <div className="subtitle-center margin-top-25 flex-layout-center-center">
-                        WDS designs user interfaces that delivers valuable experiences<br/> by connecting with people on aspirational and emotional levels.</div>
+                        WDS designs user interfaces that deliver valuable experiences<br/> by connecting with people on aspirational and emotional levels.</div>
                         <div className="flex-layout-section-full align-items-center">
                         <p className="content-text-18 content-block-80 flex-layout-center-center margin-top-25">
                         The science of understanding people has developed for centuries, but not enough has been done to integrate these approaches into the process of software design. 
