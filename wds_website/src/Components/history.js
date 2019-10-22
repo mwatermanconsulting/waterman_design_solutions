@@ -54,7 +54,7 @@ class about extends Component {
                         <div className="content-text-18 text-bold margin-top-15" >
                         <p  className="content-text-18 text-align-center-sm">
                             <b>The Foundation of Everything is Design</b></p>
-                        <p className="content-text-18">Since 1997, WDS has been evangelizing the value of design under its original name, Surreal Concepts. Started by the husband and wife team, Terri and Michael Waterman, it begun with a simple premise and small list of design services. Their business has evolved alongside the digital revolution, adapting and modifying their services to match their client needs.  </p>
+                        <p className="content-text-18">Since 1997, WDS has been evangelizing the value of design under its original name, Surreal Concepts. Started by the husband and wife team, Terri and Michael Waterman, it began with a simple premise and small list of design services. Their business has evolved with the digital revolution, adapting and modifying their services to match their client needs.  </p>
                         </div>
                     </div>
                         <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
@@ -93,7 +93,7 @@ class about extends Component {
                             <p className="float-right margin-top-15 caption">
                                 <img className="width-100 margin-top-20per" src={wallys} alt="Wally's"/><br></br>
                             <i>Roos Foods Wally's</i></p>
-                            Surreal Concepts was incorporated in 1997. They developed a partnership with a flexographic label company, Apogee Industries, designing and preparing documents for the printing press. They also introduced a printing strategy implementing a schedule that supported the client's needs and eliminating missed deadlines. Clients supported at Apogee included SmithKline and Boiron Homeopathy. </p>
+                            Surreal Concepts was incorporated in 1997. It developed a partnership with a flexographic label company, Apogee Industries, designing and preparing documents for the printing press. A printing strategy was introduced to implement a schedule that supported the client's needs and eliminating missed deadlines. Clients supported at Apogee included SmithKline and Boiron Homeopathy. </p>
                     </section>
                     
                     <div className="hr-line-cs"></div>
