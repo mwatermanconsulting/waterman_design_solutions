@@ -127,7 +127,7 @@ class core_offerings extends Component {
                     </p>
 
                     <p className="content-block-65 content-text-18 margin-top-15" ><b>Results - </b>
-                        The UX Steering team provided a unique strategy for a common problem. The team helped bridged the gap between designers, developers and the UX team by eliminating communication issues and providing a forum to talk about design within the company. The strategy also provided a long term road-map for the team, starting with product consistency and component sharing amongst the teams. WDS championed design consistency and led the movement for it by first developing CSS solutions and a strategy for the company. The strategy included shared global CSS classes and a custom UI design kit. WDS also developed workshops for CSS, Sass, responsive design and development. Later WDS designed and developed style guides and design systems for OsiSoft to support the long time strategy and vision of UX Steering team for application consistency. After 5 years the UX team still meets, providing design support and guidance for the company. 
+                        The UX Steering team provided a unique strategy for a common problem. The team helped bridge the gap between designers, developers and the UX team by eliminating communication issues and providing a forum to talk about design within the company. The strategy also provided a long term road-map for the team, starting with product consistency and component sharing among the teams. WDS championed design consistency and led the movement for it by first developing CSS solutions and a strategy for the company. This included shared global CSS classes and a custom UI design kit. WDS also developed workshops for CSS, Sass, responsive design and development. Later WDS designed and developed style guides and design systems for OsiSoft to support the long time strategy and vision of UX Steering team for application consistency. After 5 years the UX team still meets, providing design support and guidance for the company. 
                     </p>
             </section>
           
@@ -146,12 +146,12 @@ class core_offerings extends Component {
                         WDS design workshops are built with empathy for engineers and developers. It is a common business practice to place the design burden on engineers and developers. The results are unprofessional designs that are never tested. This is the "good enough syndrome."  Features and time constraints factor in more than design and testing, resulting in a failed product offering. WDS strategies and workshops teach  teams how to incorporate design requirements during sprint cycles. </p>
                             
                     <p className="content-text-18"> 
-                        WDS core offerings ensure your company never deliver designs to your customers that are just good enough. They believe designs should meet and exceed your customers expectations. Their strategies and workshops will keep your developers focused on what they do best, coding, while leaving the designs to professional designers. </p>
+                        WDS core offerings ensure that your company never delivers designs to your customers that are just good enough. They believe designs should meet and exceed your customers expectations. Their strategies and workshops will keep your developers focused on what they do best, coding, while leaving the designs to professional designers. </p>
                 
                     
                 <p className="content-text-21 align-self-center content-block-60 margin-top-15"><strong>Key Services</strong></p>
                     <ul className="dashed align-self-center content-block-60 content-text-18 margin-top-1per">
-                        <li>Importance of design standards</li>
+                        <li>Design standards</li>
                         <li>Empathy workshops</li>
                         <li>Design critique sessions</li>
                         <li>Writing design requirements </li>
@@ -187,7 +187,7 @@ class core_offerings extends Component {
                             <li>Long term design solutions</li>
                             <li>5yr, 10yr design and UX strategies</li>
                             <li>Empathy and your customers</li>
-                            <li>Knowing your enemies</li>
+                            <li>Knowing your competitors</li>
                             <li>Revising your purpose and values</li>
                         </ul>
                     </div>
@@ -207,7 +207,7 @@ class core_offerings extends Component {
                         <img className="photo-container"  src={offerings5}  alt="UX Team Strategies and Workshops" /> 
                     </div>
                      <p className="content-text-18">
-                         UX team mentoring helps companies to embrace the user across all their design and development teams. WDS offers insights and a structured change-management program that establishes experience research, design and development, and best practices across your organization. </p>
+                         UX team mentoring helps companies to embrace the user across all their design and development teams. WDS offers insights and a structured change-management program that establishes user experience research, design and development, and best practices across your organization. </p>
                     
                     <p className="content-text-21 align-self-center margin-top-25"><b>Key Services</b></p>
                     
@@ -282,7 +282,7 @@ class core_offerings extends Component {
                             <li>Uncover user pain points</li>
                             <li>Reduce software bloat</li>
                             <li>Provide monthly reports</li>
-                            <li>Keeps users involved in the design decision process</li>
+                            <li>Involve users in the design decision process</li>
                         </ul>
                     </div>
                 </section>
@@ -305,7 +305,7 @@ class core_offerings extends Component {
                     
                         <p className="content-text-18"> The impact of disability has radically changed on the Web because barriers are removed that prevent communication and interaction that many people face in the physical world. However, when websites, applications, technologies, or tools are badly designed, they can create barriers that exclude people.</p>
     
-                        <p className="content-text-18">Accessibility affect up to 18% of your users. WDS accessibility strategies helps implementing a plan that defines and provides solutions, increasing your bottom line.</p>
+                        <p className="content-text-18">Accessibility affects up to 18% of your users. WDS accessibility strategies help implement a plan that defines and provides solutions, increasing your bottom line.</p>
                     </div>
                 </section>
 
@@ -324,7 +324,7 @@ class core_offerings extends Component {
                         </div>
                         <p className="content-text-18"> 
                          WDS CSS solutions are based on empathy from their experiences of working with developers. WDS is known for their design solutions, CSS knowledge and experience. Their CSS solutions are based on business requirements and are scalable and customizable. </p>
-                        <p className="content-text-18"> WDS CSS strategies almost eliminates the need for your developers to write CSS. </p>
+                        <p className="content-text-18"> WDS CSS strategies almost eliminate the need for your developers to write CSS. </p>
                         <p className="content-text-18">The CSS strategies include CSS development, CSS system implementation, mentoring, and best of practice documentation.</p>
                         <div className="flex-layout-section-full float-left-np ">
                         
