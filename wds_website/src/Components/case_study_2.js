@@ -21,7 +21,7 @@ class case_study_2 extends Component {
         return(
             <div>
             <Helmet>
-                <meta name="description" content="case studies for motorola, pfizer, osisoft, stubhub. Describes " />
+                <meta name="description" content="  StubHub planned to develop an internal business intelligence platform. Their two initial releases were not successful and after a year gained little user traction. They turned to WDS for answers and six months later this failure turned into a success.  " />
                 <meta name="keywords" content="case studies, stubhub business intelligence platform, WDS, stubhub, motorola" />
                 <meta charSet="utf-8" />
                 <title>Case Study - StubHub</title>
@@ -46,7 +46,7 @@ class case_study_2 extends Component {
                 <section className="flex-layout-section-fixed-sm margin-top-50">
                     <div className="content-header flex-layout-center-center"> 
                         <div className="content-block-65 subtitle margin-top-25sm"> 
-                        StubHub plan was to develope an internal business intelligence platform. Their two initial releases were not successful and after a year gained little user traction. StubHub turned to WDS for the answers and six months later WDS turned this failure into a success. 
+                        StubHub planned to develop an internal business intelligence platform. Their two initial releases were not successful and after a year gained little user traction. They turned to WDS for answers and six months later this failure turned into a success. 
                         </div>
                     </div>
                 </section>  
@@ -88,7 +88,7 @@ class case_study_2 extends Component {
                     </div>
                         <div className="content-block-65 margin-top-15">
                             <p className="content-text-18">
-                            The first part of the WDS methodology was to research and fully understanding the business objectives by gathering business requirements, marketing materials and style guides. Then communication is established with strategies and coordinating stakeholder interviews and meetings. During the initial meeting with the stakeholders, WDS asked "how many users are currently on the platform?", the answer was "only one."
+                            The first part of the WDS methodology was to research and fully understand the business objectives by gathering business requirements, marketing materials and style guides. Then communication was established with strategies, coordinating stakeholder interviews and holding meetings. During the initial meeting with the stakeholders, WDS asked "how many users are currently on the platform?", the answer was "only one."
                             </p>
                             
                             <p className="content-text-18">The answer to how many analysts were using the tool? One.</p>
@@ -113,7 +113,7 @@ class case_study_2 extends Component {
                     </div>
                     <div className="content-block-65 margin-top-15">
                         <p className="content-text-18"> 
-                        The easiest way to uncover the truth is by observing users in action. There were two questions that WDS needed an answer to, "Why only one user?" and "What was the underlying issue that caused the analysts to ignore the platform?" WDS was trying to understand how they could observe the users if no one was using the platform. To understand this problem further they focused their attention on the current UI and conducted a design critique, forming a hypothesis on the problems. This hypothesis helped formed a series of interview questions for the analysts. The unique part of StubHub project was that they could interview the users directly, helping them understand their workflows, design and issues they were having with the business intelligence platforms they were using. WDS wanted to understand the problems with the IBM platform as well as the current Stubhub offering. Their goal was to design an application for the analysts, and to reach that goal they needed to understand the users pain points and expectations.
+                        The easiest way to uncover the truth is observing users in action. There were two questions: "Why only one user?" and "What was the underlying issue that caused the analysts to ignore the platform?" WDS was trying to understand how they could observe the users if no one was using the platform. To understand this problem further attention was focused on the current UI and a design critique was done, forming a hypothesis on the problems. This hypothesis helped formed a series of interview questions for the analysts. The unique part of StubHub project was interviewing users directly, helping them understand their workflows and issues they were having with the business intelligence platforms. WDS wanted to understand the problems with the IBM platform as well as the current Stubhub offering. Their goal was to design an application for the analysts by understanding their pain points and expectations.
                         </p>
             
                         <p className="content-text-18">
@@ -141,10 +141,10 @@ class case_study_2 extends Component {
                         </div>
                         <div className="content-block-65 margin-top-15">
                             <p className="content-text-18">
-                                The discovery phase revealed that the analysts were not using the business intelligence platform for two reasons. The first issue was that the numbers were hidden in the chart displays. They needed to roll over data points to see the numbers. Most analysts need to compare numbers, making the current platform unusable. The second issue was the 3 minute download time for each report. WDS discovered that the analysts' workflow was that the they would request data reports on an array of interests, such as venue analysis. Once the the report was prepared and ready to be consumed the analysts would chose their report from a list and then the report would load the data visually in some form of chart. This process frustrated the analysts, and a 3 minute long download time was unacceptable. This was the largest issue and the reason that only 1 analyst was using the platform. </p>
+                                The discovery phase revealed that the analysts were not using the business intelligence platform for two reasons. The first was that the numbers were hidden in the chart displays (they needed to roll over data points to see the numbers). Most analysts need to compare numbers, which made the current platform unusable. The second issue was the 3 minute download time for each report. WDS discovered through  analysts' workflow that they would request data reports on an array of interests, such as venue analysis. Once the the report was prepared and ready to be consumed, the analysts would choose their report from a list and then the report would load the data visually in a chart. This process frustrated the analysts, and a 3 minute long download time was unacceptable. This was the largest issue and the reason that only 1 analyst was using the platform. </p>
                                 
                                 <p className="content-text-18">
-                               WDS understood that if the team could not get the download time to under a minute, the project would be a failure. WDS met with the team explaining that we could design the most unique elegant business intelligence platform and no one will use it with a 3 minute download time. The engineers must solve the download time problem. They challenged the team to find an answer to the download time if they wanted WDS to continue working on the project. The team accepted the challenge and completely refactored the backend to be fast, efficient and secure, reducing the download time from 3 minutes to under 30 seconds. </p>
+                               WDS understood that if the team could not get the download time to under a minute, the project would be a failure. WDS explained to the team that no one will use it with a 3 minute download time. The engineers must solve the download time problem. The team accepted the challenge and completely refactored the backend to be fast, efficient and secure, reducing the download time from 3 minutes to under 30 seconds. </p>
                             <p className="subtitle">Other issues:</p>
                             <p className="content-text-18">- Need for evangelization to market the newly designed reporting tool</p>
                             <p className="content-text-18">- Project lead goes on a six week sabbatical leave</p>
@@ -184,17 +184,16 @@ class case_study_2 extends Component {
                                 <li><a href="#solution3">Customizable dashboard </a></li>
                                 <li><a href="#solution4">Too many unused features</a></li>
                                 <li><a href="#solution5">KPI section was unintelligible</a></li>
-                                <li><a href="#solution6">Get more users</a></li>
+                                <li><a href="#solution6">Needed more users</a></li>
                                 </ul> 
                     </div>
                     <div className="flex-layout-center-center content-block-65 flex-items-align-top margin-top-25">
                         <ul className="dashed content-block-65 content-text-18">
                             <p className="subtitle-case">Business Pain Points:</p>
-                            <li><a href="#solution6">One user</a> </li> 
-                            <li><a href="#solution6">WDS needs lead project end-to-end</a></li>
-                            <li><a href="#solution1">Responsive design</a></li>
+                            <li><a href="#solution6">Only one user</a> </li> 
+                            <li><a href="#solution1">No responsive design</a></li>
                             <li><a href="#solution4">Feature bloat</a></li>
-                            <li><a href="#solution1">Report interface are customizable and fluid</a></li>
+                            <li><a href="#solution1">Report interface not customizable or fluid</a></li>
                             <li><a href="#solution1">Two sets of users (Analysts and VP's)</a></li>
                         </ul> 
                     </div>
@@ -216,11 +215,11 @@ class case_study_2 extends Component {
                         </div>
                         <div className="content-block-65 margin-top-15">
                             <p className="content-text-18">
-                             In order to gain user traction, WDS needed to rethink data visualization design. Their research showed them that almost all data visualization platforms were cold and sterile. The majority of designs were grey interfaces with crude user interactions. WDS decided to have a unique design, especially for data visualization. When it came time to present to StubHub they were unusually nervous. To their surprise the design was well received and from that point on the CTO called the WDS designer "pretty Michael". WDS explained during the meeting that the design was a modern take on data visualization, the new UI was simple with the StubHub branding. The new design was inviting, bringing a sense of comfort to the user and most importantly the design incorporated larger numbers into the design.
+                             In order to gain user traction, WDS needed to rethink data visualization design. Research showed  that almost all data visualization platforms were cold and sterile. The majority of designs were grey interfaces with crude user interactions. WDS decided to have a unique design, especially for data visualization. To their surprise the design was well received. WDS explained during the meeting that the design was a modern take on data visualization, the new UI was simple with  StubHub branding. The new design was inviting, bringing a sense of comfort to the user and most importantly the design incorporated larger numbers into the design.
                              </p>
             
                             <p className="content-text-18">
-                                This design incorporated three elements: the user, the business and the current climate. The climate and the need to get user attention quickly led to a fully responsive design and branded with the StubHub colors. </p>  
+                                This design incorporated three elements: the user,  business and  current climate. The climate and the need to get user attention quickly led to a fully responsive design and branded with the StubHub colors. </p>  
                         </div>
                     </section>
                         <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-25">
@@ -241,7 +240,7 @@ class case_study_2 extends Component {
                             </div>
                             <div className="content-block-65 margin-top-15">
                                 <p className="content-text-18">
-                                One of the major complaints about the the previous data tool was how the numbers in the charts were displayed. The numbers were not displayed until the analysts hovered over a data point on a chart. Most analysts were frustrated by this feature, because their workflow involved comparing numbers, which was currently impossible. The WDS solution to the problem was to design the interface so that the numbers were dominant and seamless in the design. The numbers were large and prominent allowing it to be the primary design factor. Understanding that analyst only scanned for highs and lows, those numbers were extracted from the chart and displayed in 72 point bold font allowing the primary reporting numbers to be clearly shown. </p>
+                                One of the major complaints about the the previous data tool was how the numbers in the charts were displayed. The numbers were not displayed until the analysts hovered over a data point on a chart. Most analysts were frustrated by this feature, because their workflow involved comparing numbers, which was currently impossible. The WDS solution to the problem was to design the interface so that the numbers were dominant and seamless in the design. The numbers were large and prominent allowing it to be the primary design factor. Understanding that analyst only scanned for highs and lows, those numbers were extracted from the chart and displayed in a 72 point bold font, allowing the primary reporting numbers to be clearly shown. </p>
                             
                             </div>
                         </section>
@@ -264,17 +263,17 @@ class case_study_2 extends Component {
                             </div>
                             <div className="float-left content-block-65 margin-top-15">
                                 <p className="content-text-18">
-                                The WDS team is always excited when they introduce personas to companies. If they nail the persona and the persona story, an understanding begins to take place. For many companies this is the first time they conceptualize someone using their product or service. StubHub was an interesting presentation, as they learned the valuable lesson on making assumptions about their audience. </p>
+                                The WDS team is always excited when they introduce personas to companies. If they nail the persona and the persona story, an understanding begins to take place. For many companies this is the first time they conceptualize someone using their product or service. StubHub was an interesting presentation, they learned the valuable lesson on making assumptions about their audience. </p>
 
                                 <p className="content-text-18"><div className="float-right ">
                                     <img className="width-100" src={sally} alt="The value of Personas"/>
                                 </div>
-                                When WDS made their persona presentation to StubHub, they were surprised by the teams reaction. They fully expected them to choose one of the analyst personas. Instead StubHub chose the executive  named "Sally."  WDS began to ask questions to get an understanding of what the workflows were between the analysts and Sally. They discovered that the analysts prepared monthly reports for the executives. The reports contained data analysis along with excel data, and charts were rarely included.
-                                This insight made WDS realize that the current design was not meeting Sally's needs or expectations. The approved design was originally designed for the analysts. They needed to rethink the design, possibly even a redesign was in order. </p>
+                                When WDS made their persona presentation to StubHub, they were surprised by the reaction. They fully expected them to choose one of the analyst personas. Instead StubHub chose the executive persona  named "Sally."  WDS began to ask questions to get an understanding of what the workflows were between the analysts and Sally. They discovered that the analysts prepared monthly reports for the executives. The reports contained data analysis along with excel data, and charts were rarely included.
+                                This insight made WDS realize that the current design was not meeting Sally's needs or expectations. The approved design was originally designed for the analysts. They needed to rethink the design. </p>
 
                                 
                                 <p className="content-text-18">
-                                    WDS solved the persona problem by incorporating a data table into a new design. The solution also had to take into account  the data table would not be visible on all the reports. WDS planned from the start to require the design to be responsive and fluid. Adding the data table enhanced the visuals of the design and platform. More importantly, the solution expanded the accessibility of the platform to executives. The extra table made the display accessible to anyone by showing numbers shown in a more granular fashion. The analysts were thrilled that the table was added because it eased the work flow of the analyst, aided by the report creation. </p>
+                                    WDS solved the persona problem by incorporating a data table into a new design. The solution also had to take into account that the data table would not be visible on all the reports. WDS planned from the start to require the design to be responsive and fluid. Adding the data table enhanced the visuals of the design and platform. More importantly, the solution expanded the accessibility of the platform to executives. The extra table made the display accessible to anyone by showing numbers shown in a more granular fashion. The analysts were thrilled that the table was added because it eased the work flow of the analyst, aided by the report creation. </p>
                             </div>
                             <div className="content-text-18 content-block-65 margin-top-25 margin-bottom-25sm border-2 padding">
                                 <p className="subtitle">StubHub Testimonial</p>
@@ -296,7 +295,7 @@ class case_study_2 extends Component {
                             </div>
                             <div className="content-block-65 margin-top-15">
                                 <p className="content-text-18">
-                                 Almost every analyst interviewed requested a customizable dashboard, an area on the platform that they could organize and save reports as a snapshot. Research showed them the implementation of dashboard design solutions by competitors was lacking features and very laborious to the users to build a display. WDS simplified the dashboard creation by developing a one click solution. Now the users just had to right click to add any report to the dashboard page and added drag and drop functionality to allow the dashboard to be fully customizable. </p>  
+                                 Almost every analyst interviewed requested a customizable dashboard, an area on the platform that they could organize and save reports as a snapshot. Research showed them the implementation of dashboard design solutions by competitors was lacking features and very laborious to the users to build a display. WDS simplified the dashboard creation by developing a one-click solution. Now the users just had to right click to add any report to the dashboard page and added drag and drop functionality to allow the dashboard to be fully customizable. </p>  
                             </div>
                         </section>
                         <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-25">
@@ -317,9 +316,9 @@ class case_study_2 extends Component {
                                 Consolidating User Workflow
                             </div>
                             <div className="content-block-65 margin-top-15">
-                                <p className="content-text-18">Software bloat is a common issue, especially on mature platforms. Bloat starts from user disconnect and assuming user needs without research, testing, or analytics. A large issue with the old design was dedicating valuable real estate to unused options. A data visualization platform should be clean, allowing the charts and data to to be consumed without being distracted by an options ribbon across the top of the design. After connecting with the analysts WDS discovered these options were only used by power users. </p>
+                                <p className="content-text-18">Software bloat is a common issue, especially on mature platforms. Bloat starts from user disconnect and assuming user needs without research, testing, or analytics. A large issue with the old design was dedicating valuable real estate to unused options. A data visualization platform should be clean, allowing the charts and data to to be consumed without being distracted by an options bar across the top of the design. After connecting with the analysts WDS discovered these options were only used by power users. </p>
                                 
-                                <p className="content-text-18">The options ribbon was a favorite for many of the stakeholders, including the decision makers. WDS attempted on a few occasions to justify  designs decisions without success. They turned to the analysts for answers with another round of interviews focused on the platform's options. With data in hand they met again with the decision makers, proving to them that under 1% of the analysts were using these options. Another point  made was that the persona Sally would never use these options. The data was able to convince the stakeholders that placing these features in an options button was meeting the needs of majority of users.  </p>
+                                <p className="content-text-18">The options bar was a favorite for many of the stakeholders, including the decision makers. WDS attempted on a few occasions to justify  designs decisions without success. They turned to the analysts for answers with another round of interviews focused on the platform's options. With data in hand they met again with the decision makers, proving to them that under 1% of the analysts were using these options. Another point  made was that the persona Sally would never use these options. The data was able to convince the stakeholders that placing these features in an options button was meeting the needs of majority of users.  </p>
                                 <p className="subtitle">A key to a good data visualization displays is removing the clutter!! </p>  
                             </div> 
                         </section>
@@ -340,7 +339,7 @@ class case_study_2 extends Component {
                                 
                             </div>
                             <div className="content-block-65 margin-top-15">
-                                <p className="content-text-18">The KPI section is one of the most important features of any data visualization tools, providing key information for the decision makers. The design for this section needed to be clean and provide information that could be consumed at a glance. This section would stay open for hours on end. The issue with the current design was that it was unintelligible and unusable.</p>
+                                <p className="content-text-18">The KPI section is one of the most important features of any data visualization tools, providing key information for the decision makers. The design for this section needed to be clean and provide information that could be consumed at a glance. This section would stay open for hours. The issue with the current design was that it was unintelligible and unusable.</p>
 
                                 <p className="content-text-18">The design solution for this section simmered in the WDS team creative subconsciousness for weeks. How can this page be laid out logically and still contain all the relevant information? Then one day Michael from WDS was taking a walk in the city the layout appeared to him in a flash of creativity. </p>
                             </div>
@@ -387,7 +386,7 @@ class case_study_2 extends Component {
                                 <p className="content-text-18">
                                     <strong>The goal: Increase active users through marketing and communication strategies.</strong></p>
                                 <p className="content-text-18">
-                                    WDS suggested to the team to start a monthly blog and newsletter. WDS provided email templates and content suggestions of story telling. Lines of communication were opened between the analysts by including them in milestone meetings and testing sessions. The team was mentored on the importance of talking and conversing with the analysts. WDs and StubHub were impressed with the final results. </p>
+                                    WDS suggested to the team to start a monthly blog and newsletter. WDS provided email templates and content suggestions of story telling. Lines of communication were opened between the analysts by including them in milestone meetings and testing sessions. The team was mentored on the importance of talking and conversing with the analysts. WDS and StubHub were impressed with the final results. </p>
                                 <p className="content-text-18">
                                     A few months after completing the project, WDS contacted StubHub to make sure they were still doing the blog and emails. They said there was no need to push for more users, they currently had 172 users using the platform out of 175 analysts in the company. In 5 months the reporting tool went from a 1% total usage to 98% and the team couldn't be happier.  </p>
                             </div>
