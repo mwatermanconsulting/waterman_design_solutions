@@ -7,9 +7,9 @@ class contact extends Component {
         return(
             <div>
             <Helmet>
-                <meta name="description" content="Waterman Design Solutions is located at 331 York Ave. Lansdale Pa. Waterman Design contact is Terri and Michael Waterman offers design services for website design, application design, UX Design and graphic design. WDS is located in the Philadelphia suburbs. Waterman Design works nationally and globally. We can reached at 484-477-5193."  />
+                <meta name="description" content="Waterman Design Solutions is located at 331 York Ave. Lansdale Pa. WDS services the Philadelphia, New York, Chicago, San Francisco area. Waterman Design Solutions offers design services for website design, application design, UX Design and graphic design. WDS is located in the Philadelphia suburbs. Waterman Design works nationally and globally. We can reached at 484-477-5193." />
                 <meta charSet="utf-8" />
-                <title>Finding the Truth</title>
+                <title>Contact: 484-477-5193</title>
                 <link rel="canonical" href="http://watermandesignsolutions.com/finding_the_truth" />
             </Helmet>
             <div className="flex-layout-column"> 
@@ -22,18 +22,16 @@ class contact extends Component {
             </div>
             <div className="flex-layout-section-full flex-layout-center-center flex-layout-column margin-top-100 margin-bottom-100 padding">
             <p className="title-homepage text-align-center padding-20">We'd love to hear from you</p>
-            <p className="content-text-21 text-align-center margin-20">Need design support for enterprise level applications, products or websites? Or are you a startup that wants to incorporate design correctly from the beginning? Contact us if you would like to hear more about design solutions for your business. </p>
+            <p className="content-text-21 text-align-center margin-20">
+                Need design support for enterprise level applications, products or websites? Or are you a startup that wants to incorporate design correctly from the beginning? Contact us if you would like to hear more about design solutions for your business. WDS is your design partner. </p>
             <p className="subtitle text-black">484-477-5193</p>
-            <p className="subtitle ">
-            <a className="greenlink " href="mailto: inquiries@watermandesignsolutions.com"> inquiries@watermandesignsolutions.com</a></p>
-               
-                
-    
-  </div>
+            <p className="subtitle">
+            <a className="greenlink " href="mailto: inquiries@watermandesignsolutions.com"> inquiries@watermandesignsolutions.com</a></p>      
+        </div>
     </div>
-    </div>
-        )
-    }
+</div>
+)
+}
 }
 
 export default contact;
