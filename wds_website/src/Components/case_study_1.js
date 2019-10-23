@@ -52,7 +52,7 @@ class case_study_1 extends Component {
                             WDS was contracted to find solutions to the ongoing problems that Motorola faced with their high-end modem. After two failed attempts they were desperate to find solutions. WDS was hired to design a modern user-centric interface for the the high-end Cable modem the MOTOROLA DOCSIS 3.1, Model MB8600. WDS used their UX methodology to uncover the previously unknown problems. The solutions simplified the interface and  user workflows. The redesign exceeded the stakeholders expectations, surviving two company buyouts. When Google purchased Motorola, WDS and Motorola were required to present to the Google stakeholders to justify the endeavor mid-development. In the end, WDS's design solutions were adopted by both companies and became industry standards.</p>
                              
                         <p className="content-text-18"> 
-                            The design solutions have been adopted and are still in use since 2013. Many of the solutions are now standard across the Arris product line and has been adopted by the competitors. The WDS goal of establishing Motorola as the industry leader was accomplished. Below is the story on how WDS accomplished this feat.</p>
+                            The design solutions have been adopted and are still in use since 2013. Many of the solutions are now standard across the Arris product line and have been adopted by the competitors. The WDS goal of establishing Motorola as the industry leader was accomplished. Below is the story on how WDS accomplished this feat.</p>
                     </div>
                 </section>
                 <section className="flex-layout-section-full margin-top-50">
@@ -74,7 +74,7 @@ class case_study_1 extends Component {
                             <div className="content-block-100 margin-top-15"> 
                             <p className="content-text-18">
                             Motorola was facing a high return rate on a modem product line and their call center costs were out of control. 
-                            The home division of Motorola was facing pressure from the stakeholders to release the new DOCSIS 3.1 tech on the SurfBoard product line. The product managers understood that if they released the new tech without solving the current problems with the interface, the product line would lose money. Motorola attempted to solve their UI problems by contracting two different UX designers over an 18 month period. Unhappy with the results from both UX designers, the pressure was high on the home division to release the product before their competitors. WDS was hired to  detail its UX methodology. Michael was embedded on the Motorola team to work closely with the engineers, product, marketing and stakeholders.
+                            The home division of Motorola was facing pressure from the stakeholders to release the new DOCSIS 3.1 tech on the SurfBoard product line. The product managers understood that if they released the new tech without solving the current problems with the interface, the product line would lose money. Motorola attempted to solve their UI problems by contracting two different UX designers over an 18 month period. Unhappy with the results from both UX designers, the pressure was high on the home division to release the product before their competitors. WDS was hired to  detail its UX methodology and embedded in the Motorola team to work closely with the engineers, product, marketing and stakeholders.
                             
                             </p>
                             </div>
@@ -95,10 +95,10 @@ class case_study_1 extends Component {
                                 Finding the Truth - Business Perspective</div>
                         <div className="content-block-65">
                             <p className="content-text-18 margin-top-15">
-                                Understanding the business perspective was the first half of the WDS UX methodology, setting a foundation for the entire project. The goal was to come to a deep understanding of the project by researching the business and the competition. Part of the process is understanding the requirements, interviewing stakeholders and gathering design elements such as marketing materials and style guides. This research forms the foundation of the project. </p>
+                                Understanding the business perspective was the first half of the WDS UX methodology, setting a foundation for the entire project. The goal was to come to a deep understanding of the project by researching the business and the competition. Part of the process is understanding the requirements, interviewing stakeholders and gathering design elements such as marketing materials and style guides. This research formed the foundation for the project. </p>
                             
                             <p className="content-text-18">
-                                WDS first requested that Motorola  purchase all their competitors' modems. This was the first time Motorola was presented with a competitor comparison study. This is a common business problem with  clients - ignoring their competition. The competitors comparison study is one of the highlights of the methodology, because it enlightens the stakeholders. WDS revisits the competitors research as solutions begin to materialize. The WDS goal for all clients is to be the industry leader. Being a leader requires knowledge of your competition, which is not possible without first knowing your competition.</p>
+                                WDS first requested that Motorola  purchase all their competitors' modems. This was the first time Motorola was presented with a competitor comparison study. This is a common business problem with  clients - ignoring their competition. The competitor comparison study is one of the highlights of the methodology because it enlightens the stakeholders. WDS revisited competition analysis as solutions began to materialize.</p>
                         </div>
                     </section>
                     <section className="grid-callout grey margin-top-50 border-tb-5">
@@ -119,10 +119,10 @@ class case_study_1 extends Component {
                         </div>
                         <div className="content-block-65 margin-top-15">
                             <p className="content-text-18">
-                                Typically, The WDS methodology begins with observing the users in their working environments. Observing users was a problem with Motorola because the user base for their modems was broad. The WDS methodology knows that unhappy customers are the greatest source of learning. The stakeholders were shocked when Michael requested three months of the call center logs, exclaiming "why didn't we think of that". Going through the call center logs began to uncover patterns, and  a numeric based scoring system was used to clearly document the problems on a priority scale. Michael spent time "ghosting" the call center callers listening and empathizing with them as they struggled with simple tasks. </p> 
+                                Typically, The WDS methodology begins with observing the users in their working environments. Observing users was a problem with Motorola because the user base for their modems was broad. The WDS methodology knows that unhappy customers are the greatest source of learning. The stakeholders were shocked when WDS requested three months of the call center logs, exclaiming "why didn't we think of that". Going through the call center logs began to uncover patterns. A numeric-based scoring system was used to clearly document the problems on a priority scale. Time was spent "ghosting" the call center callers, listening and empathizing with them as they struggled with simple tasks. </p> 
                             
                             <p className="content-text-18">
-                                As WDS uncovered the truth about users, a connection developed and personalities traits began to take shape and take form into personas and journey maps. A customer/user persona would be needed for this project to be a success. A bridge of empathy between the user and Motorola's developers formed, and the persona of "Mary" was born.  
+                                As WDS uncovered the truth about users, a connection developed and personality traits began to take shape and take form into personas and journey maps. A customer/user persona would be needed for this project to be a success. A bridge of empathy between the user and Motorola's developers formed, and the persona labelled "Mary" was created.  
                             </p>
                             </div>
                         </section>
@@ -138,7 +138,7 @@ class case_study_1 extends Component {
                             </div>
                             <div className="content-block-65">
                                 <p className="content-text-18 margin-top-15 margin-bottom-25sm">
-                                    WDS noticed early in the project that the organization of required user inputs did not make sense. When Michael reviewed the interface and made suggested changes, he learned that there was an issue - two distinct set of users. One set was the consumer market, the ones who would purchase the product. The other set of users were the cable operators, such as Comcast, providing home installation. WDS would not be allowed to move ANY input, due to the cable operator familiarity with the interface. Originally WDS thought this requirement was limiting, instead it forced them to adapt and reevaluate their design solutions. This caused them to change course, which opened new possibilities. It also helped the success of final product design, a solution beyond the scope and expectations of the customers and stakeholders.</p> 
+                                    WDS noticed early in the project that the organization of required user inputs did not make sense. When Michael reviewed the interface and made suggested changes, he learned that there was an issue - two distinct set of users. One set was the consumer market,  purchasers the product. The other set was cable operators, such as Comcast, providing home installation. WDS would not be allowed to move ANY input, due to the cable operator familiarity with the interface. Originally, WDS thought this requirement was limiting. Instead, it forced them to adapt and reevaluate their design solutions. This caused them to change course, which opened new possibilities. It also helped the success of final product design, a solution beyond the scope and expectations of the customers and stakeholders.</p> 
                                 
                         <p className="subtitle-center text-align-center margin-top-50 margin-top-25sm">The Design Solutions Roadmap</p>
 
@@ -147,12 +147,12 @@ class case_study_1 extends Component {
                                 <ul className="dashed content-text-18 align-self-center">
                                     <p className="subtitle">User Pain Points:</p>
                                     <li><a href="#solution1">Interface Intimidating</a></li>
-                                    <li><a href="#solution10">Guidance and Support</a></li>
+                                    <li><a href="#solution10">Lack of Guidance and Support</a></li>
                                     <li><a href="#solution1">Design Outdated</a></li>
                                     <li><a href="#solution2">Starting Point Confusing</a></li>
                                     <li><a href="#solution3">WiFi Section Main Issue</a></li> 
                                     <li><a href="#solution10">Terms and Acronyms Confusing</a></li> 
-                                    <li><a href="#solution1">Responsive Design Solution</a></li> 
+                                    <li><a href="#solution1">Responsive Design Solutions Lacking</a></li> 
                                     <li><a href="#solution10">Cognitive Overload</a></li>
 
                                 </ul> 
@@ -167,7 +167,7 @@ class case_study_1 extends Component {
                                     <li><a href="#solution8">Google Buyout</a></li> 
                                     <li><a href="#user">Disconnection with the User</a></li>
                                     <li><a href="#deploy">Need CSS Solution</a></li> 
-                                    <li><a href="#solution1">Competitors UI are better</a></li>
+                                    
                                     <li><a href="#results">Entire project file size needed to be under 1mb</a></li>
                                 </ul> 
                             </div>
@@ -223,17 +223,17 @@ class case_study_1 extends Component {
                                     <img className="photo-container margin-left-min10per" src={mary} alt="the persona of Mary"/>
                                 </div>
                                 <p className="content-text-18">
-                                    One of the toughest aspects of being a contractor is communication and acceptance, especially on an established team. These were the developers that originally designed the application and many were not happy that another UX designer was hired. They had already been through two failed attempts and fully expected to the same results with WDS.</p>
+                                    One of the toughest aspects of being a contractor is communication and acceptance, especially on an established team. These were the developers that originally designed the application and many were not happy that another UX designer was hired. They had already been through two failed attempts and fully expected to have the same results with WDS.</p>
                                
 
                                 <p className="content-text-18">
-                                To open the lines of communication, a persona named "Mary" was used. During the research phase it was surprising to uncover that a large majority of complaints to the call center were women. The developers were asked if they get phones calls from their mother-in-laws for tech help. Over 75% responded that they do indeed get those type of phones calls.</p>
+                                To open the lines of communication, a persona named "Mary" was introduced. During the research phase it was surprising to discover that a large majority of complaints to the call center were women. The developers were asked if they get phones calls from their mother-in-laws for tech help. Over 75% responded that they do receive those type of phone calls.</p>
 
                                 
-                                <p className="content-text-18">The persona of "Mary" was a mother of three who worked a full time job. Her user journey: On the way home from work Mary needed to stop at Best Buy to replace her broken modem. After her purchase she rushed to get home and make dinner for the kids. Her plan was to get dinner started and while it was cooking she would set up the modem. giving her twenty minutes before dinner was ready. This was the first time Mary ever connected a modem, she was not very computer literate and computers intimated her. The challenge to the team was to simplify and guide Mary so she could complete her task. </p>
+                                <p className="content-text-18">The persona of "Mary" was a mother of three who worked a full time job. Her user journey: On the way home from work Mary needed to stop at Best Buy to replace her broken modem. After her purchase, she comes home to make dinner for the kids. Her plan is to get dinner started and set up the modem, giving her twenty minutes before dinner was ready. This was the first time Mary ever connected a modem, she was not very computer literate and computers intimated her. The challenge to the team was to simplify and guide Mary so she could complete her task. </p>
                             </div>
                             <div className="content-text-18 content-block-65 margin-top-25">
-                                Mary was well received by Motorola and her persona helped the developers understand the design solution that was being presented to them. Many times during meetings and development of the design solutions the developers and stake holders would push back, questioning the project direction. WDS would only needed to reply, "if we implement this solution; will you get a phone call from Mary?" This caused the developer to stop and think about how the solution solves the problem and to understand that they are developing this redesigned interface for real people, solving the original problem of disconnect between those building the product and those using the product. 
+                                Mary was well received by Motorola and her persona helped the developers understand the design solution that was being presented to them. Many times during meetings and development of the design solutions, the developers and stakeholders would push back, questioning the project direction. WDS would only need to reply, "if we implement this solution, will you get a phone call from Mary?" This caused the developer to stop and think about how the solution solves the problem and to understand that they are developing this redesigned interface for real people, solving the original problem of disconnect between those building the product and those using the product. 
                         </div>
                         </section>
 
@@ -249,7 +249,7 @@ class case_study_1 extends Component {
                         </div>
                         <div className="content-block-65">
                             <p className="content-text-18 margin-top-15">
-                             A new landing/home page was designed to comfort the users and provide a visual display of their custom settings. The redesign guided the user on a section with global easily recognizable icons portraying the task they wanted to complete. Previously, the customer was dropped in the basic settings page, causing confusion and hesitation. The redesign relieved the confusion, making the user feel comfortable. Once the user has finished setting up the modem the home screen became a data display. </p>
+                             A new landing/home page was designed to comfort the users and provide a visual display of their custom settings. The redesign guided the user on a section with global icons portraying the task they wanted to complete. Previously, the customer was dropped into the basic settings page, causing confusion and hesitation. The redesign relieved the confusion, making the user feel comfortable. Once the user had finished setting up the modem, the home screen became a data display. </p>
                         </div>
                     </section>
                     <section className="flex-layout-column flex-layout-center-center margin-top-50">
@@ -276,7 +276,7 @@ class case_study_1 extends Component {
                             <p className="content-text-18">
                             One of the biggest challenges WDS faced was simplifying the WiFi section. Work flows could not be simplified by organizing inputs in a logical order, due to the limitation of two unique users, cable operators and consumers. An approach  needed to be different, with a "WiFi Quick Start" solution. </p>
                             
-                            <p className="content-text-18">Working closely with developers, WDS attempted to reduce the number of questions the user needed to answer to set up their WI-FI. Currently the user needed to fill out nine inputs to complete the task. The goal was to reduce the user inputs from 9 to 5 and eliminate the need to input a 12 digit mac number (losing this number was a common issue). WDS solved this issue by challenging the developers to create an algorithm that automated the mac number and reduce the number of WI-FI user inputs down to 5.</p>
+                            <p className="content-text-18">Working closely with developers, WDS attempted to reduce the number of questions to set up their WI-FI. Currently the user needed to fill out nine inputs to complete the task. The goal was to reduce the user inputs from 9 to 5 and eliminate the need to input a 12 digit mac number (losing this number was a common issue). WDS solved this issue by challenging the developers to create an algorithm that automated the mac number and reduce the number of WI-FI user inputs down to 5.</p>
 
                             <p className="content-text-18">The quick start idea was game changing, and  the industry adopted this approach within a year.</p>  
                     </div>
@@ -302,7 +302,7 @@ class case_study_1 extends Component {
                     </div>
                     <div className="content-block-65">
                         <p className="content-text-18 margin-top-15">
-                             The most effective design solutions are created from empathy, walking in the users' shoes. WDS knew for this project to be a success, the customer needed to feel supported and guided. A new approach to the help treatment needed to be developed. Competitor research revealed that  no one had a good help section solution that guides the user, especially in-context help. WDS solved this problem elegantly, allowing the user to click on the help link in any user user input to reveal the answers. This solution tested very well.</p>
+                             The most effective design solutions are created from empathy, walking in the users' shoes. WDS knew for this project to be a success, the customer needed to feel supported and guided. A new approach to the help treatment needed to be developed. Competitor research revealed that  no one had a good help section solution that guided the user, especially in-context help. WDS solved this problem elegantly, allowing the user to click on the help link in any user input to reveal the answers. This solution tested very well.</p>
                     </div>
                     </section>
 
@@ -326,10 +326,10 @@ class case_study_1 extends Component {
                     </div>
                     <div className="content-block-65">
                         <p className="content-text-18 margin-top-15">
-                            WDS solutions for guidance and support was  simplifying and understanding any question the user may have while on the interface. WDS understood how the user felt uncared-for. Unfamiliar terms and the use of acronyms  added to the cognitive overload and frustration as they tried to complete their tasks.</p>
+                            WDS solutions for guidance and support was  simplifying and understanding any question the user may have while on the interface.  Unfamiliar terms and the use of acronyms  added to the cognitive overload and frustration as they tried to complete their tasks.</p>
                         
                             <p className="content-text-18 margin-top-15">
-                            WDS solutions for the guidance and support started with the help section. Next, page introductions were placed to each section presenting to the users an overview and instructions. The issues of terms and acronyms our solution was solved with rollovers.  </p>
+                            WDS solutions for the guidance and support started with the help section. Next, page introductions were placed to each section presenting to the users an overview and instructions. The issues of terms and acronyms were solved with rollovers.  </p>
                     </div>
                     </section>
 
@@ -354,7 +354,7 @@ class case_study_1 extends Component {
                         </div>
                         <div className="content-block-65">
                             <p className="content-text-18 margin-top-15">
-                                WDS worked closely with the engineers and challenged the them to develop an algorithm to automate part of the users work flow, specifically the WiFi section. WDS presented the simplified user work flow to the engineers and during the meeting it was  discovered that the proposed algorithm could also be used as a separate application to test the WiFi signal strength. WDS suggested a companion IOS application. The stakeholders were thrilled with the idea of including a free IOS application with the modem. WDS designed and developed the IOS companion application.</p> 
+                                WDS worked closely with the engineers and challenged them to develop an algorithm to automate part of the users work flow, specifically the WiFi section. WDS presented the simplified user work flow to the engineers and during the meeting it was  discovered that the proposed algorithm could also be used as a separate application to test the WiFi signal strength. WDS suggested a companion IOS application. The stakeholders were thrilled with the idea of including a free IOS application with the modem. WDS designed and developed the IOS companion application.</p> 
                         </div>
                     </section>
                    
@@ -385,7 +385,7 @@ class case_study_1 extends Component {
                             </div>
                             <div className="content-block-65">
                                 <p className="content-text-18 margin-top-15">
-                                WDS was confused by how a brand name like Motorola would allow such a poorly designed, non-branded user interface on a consumer product go to market. It was mind boggling. That was their first question to the stakeholders, "how did this product UI fall through the cracks?" This issue exposed a large communication issue between the product, marketing and home division teams. WDS solution to this problem was to hold meetings at the end of each sprint. The meetings ran the course of the project and established a strong relationship between the teams that was previously non-existent. These meetings helped establish  transparency, allowing the product and marketing teams to understand the business case for the product redesign. </p> 
+                                WDS was confused by how a brand name like Motorola would allow such a poorly designed, non-branded user interface on a consumer product go to market. That was their first question to the stakeholders, "how did this product UI fall through the cracks?" This issue exposed a large communication issue between the product, marketing and home division teams. WDS solution to this problem was to hold meetings at the end of each sprint. The meetings ran the course of the project and established a strong relationship between the teams that was previously non-existent. These meetings helped establish  transparency, allowing the product and marketing teams to understand the business case for the product redesign. </p> 
                             </div>
                        
                         </div>
@@ -402,7 +402,7 @@ class case_study_1 extends Component {
                             </div>
                                 <div className="content-block-65">
                                 <p className="content-text-18 margin-top-15">
-                                In the middle of the project, Google purchased Motorola. WDS and stakeholders were notified that the project was under review. Google stakeholders set up a meeting present the project. The presentation was a success and the marketing and product teams attributed the success to the meetings organized by WDS which allowed both teams to fully understand the project. 
+                                In the middle of the project, Google purchased Motorola. WDS and stakeholders were notified that the project was under review. Google stakeholders set up a meeting to present the project. The presentation was a success and the marketing/product teams attributed the results to  meetings organized by WDS. 
                                 </p> 
                                 </div>
                            
@@ -443,10 +443,10 @@ class case_study_1 extends Component {
                         <a id="results"></a>
                             <div className="content-block-65 margin-top-50 margin-top-25sm">
                                 <p className="content-text-18">
-                                    One of the issues that surprized WDS the most was the old outdated user interface design. WDS just assumed a global brand such as Motorola would be professional and branded. The problem of product consistency is common and WDS wanted to ensure the problem of was solved  by correcting the communication issues between the teams of marketing, product and home division.  At the start of the project WDS organized monthly and milestone meetings between the teams. Product, marketing and home division communication was still strong well after WDS was finsihed with the project. The approved design was going to be adapted to the rest of the product line. The design today may look different since it is branded under the Arris name, but many of the design solution  implemented are still in use today.
+                                    One of the issues that surprised WDS the most was the old outdated user interface design. WDS just assumed a global brand such as Motorola would be professional and branded. The problem of product consistency is common and WDS wanted to ensure the problem was solved  by correcting the communication issues between the marketing, product and home division teams.  At the start of the project, WDS organized monthly and milestone meetings. Product, marketing, and home division communication were still strong, well after WDS was finished with the project. The approved design was adapted to the rest of the product line. The design today may look different since it is branded under the Arris name, but many of the design solution  implemented are still in use today.
                                 </p>
                                 <p className="content-text-18"> 
-                                 WDS design solutions reduced returns by a staggering 40% and call center call were reduced by 70%. The new design was well received by the social media and tech magazines and blogs. CNet reviewed the interface and stated "The Surfboard eXtreme has a robust and self-explanatory Web interface". Self explanatory for a complex setup process was the highest praise for any UX design. 
+                                 WDS design solutions reduced returns by a staggering 40% and call center complaints were reduced by 70%. The new design was well received by  social media, tech magazines, and blogs. CNet reviewed the interface and stated "The Surfboard eXtreme has a robust and self-explanatory Web interface". Self explanatory for a complex setup process was the highest praise for any UX design. 
                                 </p>
                 </div>
                 </section>
@@ -457,12 +457,11 @@ class case_study_1 extends Component {
                                
                                 <li>Lowered return rate by <b>40%</b></li>
                                 <li>Reduced Customer Service calls by <b>70%</b></li>
-                                <li>Positive reviews by <a href="https://www.cnet.com/reviews/motorola-sbg6782-ac-surfboard-extreme-cable-modem-review/" >Cnet</a> and <a href="https://www.youtube.com/watch?v=cqTHxAN6cRwYouTube">YouTube</a> </li> 
-                                <li>Communication between teams improved</li>
-                                <li>First css style sheet in Motorola Products </li>
+                                <li>Reviewed positively by <a href="https://www.cnet.com/reviews/motorola-sbg6782-ac-surfboard-extreme-cable-modem-review/" >Cnet</a> and <a href="https://www.youtube.com/watch?v=cqTHxAN6cRwYouTube">YouTube</a> </li> 
+                                <li>Improved communication between teams </li>
                                 <li>Developed Style Guide and documentation </li>
-                                <li>Entire project under 1mb</li>
-                                <li>First css style sheet in Motorola Products </li>
+                                <li>Created entire project under 1mb</li>
+                                <li>Created first CSS style sheet in Motorola Products </li>
                                
                             </ul>      
                         </div>

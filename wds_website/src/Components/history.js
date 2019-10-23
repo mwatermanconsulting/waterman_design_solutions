@@ -93,7 +93,7 @@ class about extends Component {
                             <p className="float-right margin-top-15 caption">
                                 <img className="width-100 margin-top-20per" src={wallys} alt="Wally's"/><br></br>
                             <i>Roos Foods Wally's</i></p>
-                            Surreal Concepts was incorporated in 1997. It developed a partnership with a flexographic label company, Apogee Industries, designing and preparing documents for the printing press. A printing strategy was introduced to implement a schedule that supported the client's needs and eliminating missed deadlines. Clients supported at Apogee included SmithKline and Boiron Homeopathy. </p>
+                            Surreal Concepts was incorporated in 1997. It developed a partnership with a flexographic label company, Apogee Industries, designing and preparing documents for the printing press. A printing strategy was introduced to implement a schedule that supported the client's needs, eliminating missed deadlines. Clients supported at Apogee included SmithKline and Boiron Homeopathy. </p>
                     </section>
                     
                     <div className="hr-line-cs"></div>
@@ -107,7 +107,7 @@ class about extends Component {
                         </div>
                         <div className="content-block-65">
                             <p className="content-text-18 margin-top-15"> 
-                             Early 2000 was a transition year for Surreal Concepts. The world was changing and nothing was changing faster than marketing with the advent of the Internet. Surreal Concepts fully embraced the digital revolution, becoming experts in everything Adobe, expanding Photoshop and Illustrator skills.
+                             Early 2000 was a transition year for Surreal Concepts. The world was changing and nothing was changing faster than marketing with the advent of the Internet. Surreal Concepts fully embraced the digital revolution, becoming experts in  Adobe products.
                             </p> 
 
                              <p className="content-text-18">     
@@ -145,10 +145,10 @@ class about extends Component {
                             <div className="float-right">
                                     <img className="photo-container border-2"  src={wfaweb}  alt="Web First Aid" /> 
                             </div>
-                            <p className="content-text-18">Surreal Concepts' design solutions were successful. But they starting asking themselves, "What do the people that are interacting with the websites think?" <br></br>"Are our web designs resonating with users?" <br></br>They set out to research how people interacted with websites by asking questions:<br></br> What were their needs and expectations? <br></br>How did people interact with a web page compared to traditional printed materials? <br></br>In 2003, a study was released by B.J. Fogg and his team at Stanford University revealing the first study on human interaction on websites. The study consisted of user observations of eye movements, click behavior and user interactions. This study changed not not only how they designed, but their entire focus. </p>
+                            <p className="content-text-18">Surreal Concepts' design solutions were successful. But they started asking themselves, "What do the people that are interacting with the websites think?" <br></br>"Are our web designs resonating with users?" <br></br>They set out to research how people interacted with websites by asking questions:<br></br> What were their needs and expectations? <br></br>How did people interact with a web page compared to traditional printed materials? <br></br>In 2003, a study was released by B.J. Fogg and his team at Stanford University revealing the first study on human interaction on websites. The study consisted of user observations of eye movements, click behavior and user interactions. This study changed not only how they designed, but their entire focus. </p>
                         
 
-                            <p className="content-text-18">In early 2005, Surreal Concepts released a website called WebFirstAid, based on research done by Stanford University, providing a friendly version of the high level educational information contained in the Stanford study. Writing in a user friendly style with bright colors, the goal was to enlighten and inspire businesses about the value of UX through the eyes of the user. Michael repurposed all the information for a series of talks on UX and Design. </p> 
+                            <p className="content-text-18">In early 2005, Surreal Concepts released a website called WebFirstAid, based on research done by Stanford University, providing a friendly version of the high level educational information contained in the Stanford study. Writing in a user friendly style with bright colors, the goal was to enlighten and inspire businesses about the value of UX through the eyes of the user. Information was repurposed for a series of talks on UX and Design. </p> 
                         </div> 
                     </div>  
                     </section>
@@ -214,7 +214,7 @@ class about extends Component {
                         </div>
                         <div className="content-block-65 margin-top-15">
                             <p className="content-text-18"> 
-                             StubHub faced the same problem as Motorola, wasting time and money on contracted UI developers and not UX designers. They didn't understand that  these  problems can be solved with empathy for the user. StubHub had a problem with user traction and retention on their internal business platform. With one last chance to get it right, StubHub turned to Surreal Concepts for answers.  </p>
+                             StubHub faced the same problem as Motorola, wasting time and money on contracted UI developers and not UX designers. They didn't understand that  these  problems can be solved with empathy for the user. StubHub had a problem with user traction and retention on their internal business platform. With one last chance to get it right, StubHub turned to WDS for answers.  </p>
                         
                             <p className="content-text-18"><a className="greenlink" href="../case_study_2">
                                 Read full case study</a></p> 
@@ -229,14 +229,14 @@ class about extends Component {
 
                     <section className="flex-layout-section-full align-items-center margin-top-min25sm">
                         <div className="title content-block-65">
-                            Surreal Evolving
+                            Surreal Evolution
                         </div>
                         <div className="subtitle content-block-65 margin-top-10">
                             Waterman Design Solutions
                         </div>
                         <div className="content-block-65 margin-top-15">
                             <p className="content-text-18"> 
-                             After 22 years of business Terri and Michael evolved to the point of outgrowing Surreal Concepts. After 4 years away from the business, Michael knew it was time to share his knowledge, strategies and methodologies he gained over the years. Surreal Concepts no longer fit with the new services or todays market. Business needs have changed over the years and competition in the digital space is at an all time high. Businesses today need design support and education on the value of design. Their new services include design, business strategies, talks and workshops. Michael has navigated successfully to enterprise businesses, and under the new name Waterman Design Solutions, the team looks forward to changing the design perspective for all sized businesses. </p>
+                             After 22 years of business Terri and Michael evolved to the point of outgrowing Surreal Concepts. After 4 years away from the business, Michael knew it was time to share his knowledge, strategies and methodologies he gained over the years. Surreal Concepts no longer fit with the new services or todays market. Business needs have changed over the years and competition in the digital space is at an all time high. Businesses today need design support and education on the value of design. WDS services include design, business strategies, talks and workshops. Michael has navigated successfully to enterprise businesses, and under the new name Waterman Design Solutions, the team looks forward to changing the design perspective for all sized businesses. </p>
 
                              <div className="container-image-block flex-layout-center-center flex-layout-column margin-top-50">
 
@@ -271,24 +271,24 @@ class about extends Component {
                         
                         <p className="content-text-18 margin-top-15"><div className="float-right">
                             <img className="width-250"  src={mike}  alt="Michael Waterman"/> 
-                        </div> Michael was raised in a creative family and spent his childhood creating, designing and drawing. As Michael matured he began a career in retail. His friendly and caring nature made him a natural at customer service and he quickly climbed the corporate ladder becoming a regional manager in his early twenties. </p>
+                        </div> Michael was raised in a creative family and spent his childhood creating, designing and drawing. Later he began a career in retail. His friendly and caring nature made him a natural at customer service and quickly climbed the corporate ladder, becoming a regional manager in his early twenties. </p>
 
                             <p className="content-text-18">
                             Life changed after he married Terri. She thought Michael’s talents were being wasted in retail and being an artist herself she inspired him to revisit his creativity.</p>
 
                             <p className="content-text-18">
-                            In the early nineties, Michael left retail and took a year off to learn computers and digital design and video editing. He gained skills in Photoshop v. 3.5, Illustrator and video editing. Michael, having the entrepreneurial spirit, wanted to start his own design company. Along with Terri they choose a name that was very fitting for them at the time, Surreal Concepts. The name was chosen to portray the message that our designs are different and will help you stand out. </p>
+                            In the early nineties, Michael left retail and taught himself computers, digital design,and video editing. He gained skills in Photoshop v. 3.5, Illustrator and video editing. His entrepreneurial spirit led him to start his own design company. Along with Terri they choose a name that was very fitting for them at the time, Surreal Concepts. The name was chosen to portray the message that the designs are different enough to help businesses stand out from the competition. </p>
 
-                            <p className="content-text-18"> Michael then created a series of "penny saver" mailer coupons, creating fictitious names, logos and designs for a dozen coupons to develop a portfolio. His first interview he got a job as a subcontractor under the Surreal Concepts name. This was the start of his design career.
+                            <p className="content-text-18"> Michael then created a series of "penny saver" mailer coupons, creating fictitious names, logos and designs for a dozen coupons to develop a portfolio. His first interview landed him a job at a printing agency as a subcontractor under the Surreal Concepts name. This was the start of his design career.
                             </p>
 
-                            <p className="content-text-18">As soon as the internet boom occurred, Michael learned how to code in HTML, CSS and Flash and Surreal Concepts shifted its focus to website design. One day while looking at a client site they recently designed a thought occurred to him, "Do people enjoy the client websites we designed? Are they having a enjoyable experience?" He began researching about user expectations and the ideal website experience. He took his research and new found knowledge and designed, wrote and developed a website call WebFirstAid.</p> 
+                            <p className="content-text-18">As soon as the internet boom occurred, Michael learned how to code in HTML, CSS and Flash and shifted his focus to website design. One day while looking at a client site they recently designed a thought occurred to him, "Do people enjoy the client websites we designed? Are they having a enjoyable experience?" He began researching about user expectations and the ideal website experience. He took his research and  knowledge to design, write and develop a website call WebFirstAid.</p> 
 
-                            <p className="content-text-18">WebFirstAid was an information site written for the average user. The goal for the site was to composed and design the site for the average user. They developed webfirstaid website before UX was a thing. The only other proponent of the user experience was Nielson Norman Group, who’s idea of a website back then was just text on a white background. The creation of web first aid opened new opportunities for Surreal Concepts that lead to a contract with Pfizer. </p>
+                            <p className="content-text-18">WebFirstAid was an information site written for the average user. Webfirstaid was a UX concept before UX was a thing. The only other proponent of the user experience was Nielson Norman Group, who’s idea of a website back then was just text on a white background. The creation of WebFirstAid opened new opportunities that lead to a contract with Pfizer. </p>
 
-                            <p className="content-text-18">The Pfizer name gave Michael and Surreal Concepts the credibility needed to land the other big names such as <a href="/case_studies_1" className="no-decoration greenlink">Motorola</a> and <a href="/case_studies_1" className="no-decoration greenlink">StubHub</a>. In 2014 Michael left the company to pursue a full time position with OsiSoft as the lead UX/UI designer. </p>
+                            <p className="content-text-18">The Pfizer name gave Michael and Surreal Concepts the credibility needed to land the other big names such as <a href="/case_studies_1" className="no-decoration greenlink">Motorola</a> and <a href="/case_studies_1" className="no-decoration greenlink">StubHub</a>. </p>
 
-                            <p className="content-text-18">Michael's entrepreneurial spirit got the best of him and he left in  2018 to rebrand Surreal Concepts to Waterman Design Solutions, applying  his experiences to help, guide and support businesses with their design needs. He brings his successful design strategies and UX methodology to reach all businesses. Michael has witnessed the design needs in large companies, and has developed strategies that are beneficial and necessary for success. Michael believes that now is the best time for the new business because empathic design are more critical to business survival than ever before. <br></br>Michael has a vision and renewed passion that will make WDS the design leader. </p>
+                            <p className="content-text-18">Michael, along with Terri, rebranded Surreal Concepts in 2019 to Waterman Design Solutions, applying their experiences to help, guide and support businesses with their design needs. Michael brings his successful design strategies and UX methodology to reach all businesses. He has witnessed the design needs in large companies and has developed strategies that are beneficial and necessary for success. Michael believes that now is the best time for the new business because empathetic design solutions are more critical to business survival than ever before. <br></br>Michael has a vision and renewed passion that will make WDS the design leader. </p>
                     </div>
                 </section>
 
@@ -309,17 +309,17 @@ class about extends Component {
                             <img className="width-250 "  src={terri}  alt="Terri" /> 
                             <p className="width-250 caption">"Artists have always been leaders in society, helping others to achieve enlightened thinking and problem solving."</p>
                         </div>
-                            Terri's perspective is greatly influenced by her hearing loss as a child. When the outer life becomes quiet, observations and interpretations will always be unique. She learned that following the crowd was never a good idea to foster creativity. Fine art talent has taught her the importance of staying true to herself, and she continually finds new ways of expressing herself, whether it be through graphic design, advertising, branding, abstract paintings or multimedia art. <br></br>A deep thinker, she has always been curious about how humans behave and respond to life, and how design was about simplifying things to make our lives better. Like the cartooning on this site, the goal was to visibly communicate to you how much WDS values good old fashioned customer service, something that was very prevalent in the 1950s. </p>
+                            Terri's perspective is greatly influenced by her hearing loss as a child. With a quiet outer life, her observations and interpretations were always unique.  Fine art talent has taught her to find new ways of expression through graphic design, advertising, branding, abstract paintings and multimedia art. <br></br>As a deep thinker, she has always been curious about how humans behave and respond to life. Design is about simplifying things to make life better. The cartooning on this site  visibly communicates how much WDS values good old-fashion customer service, something that was very prevalent in the 1950s. </p>
                         <br></br>
                         <p className="content-text-18">
-                            Her experience working with Michael and their clients has taught her that design has a purpose - empathy, and users ALWAYS embrace designs that take them into consideration. </p>
+                            Her experience working with Michael and their clients has taught her that design has a purpose - empathy. Users will always embrace designs that take them into consideration. </p>
                         <p className="subtitle">
                             Terri's passion for helping others with her talent is what motivates her to be passionate about her clients' goals.
                             </p>
 
-                           <p className="content-text-18 margin-top-25">As the heart of WDS, Terri's intuitive design skills come from 25+ years    of experience in traditional and modern art. This combination of skills has served her well in all her artistic       endeavors. 
+                           <p className="content-text-18 margin-top-25">At the heart of WDS, Terri's intuitive design skills come from 25+ years    of experience in traditional and modern art. This combination of skills has served her well in all her artistic       endeavors. 
                             
-                                Serving as a creative advisory to Michael has enabled her to stay ahead of the design trends and competition. There’s ABSOLUTELY a way, she says, to make every business unique. 
+                                Serving as a creative advisor to Michael has enabled her to stay ahead of design trends and competition. 
                                 Her personal work has intertwined with her professional work as a designer by evolving into a disciplined UX designer, which led to amazing opportunities as a unique visual communicator. 
                                 Her greatest joy is when there is a balance of creative flow along with the discipline of design that creates simplicity and inspiration. </p>
                             <p className="content-text-18 margin-top-25"><i>Bachelor of Fine Arts<br></br>Associates in Visual Communication<br></br>
