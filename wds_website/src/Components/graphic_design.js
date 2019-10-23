@@ -17,7 +17,7 @@ class graphic_design extends Component {
         return(
             <div>
             <Helmet>
-                <meta name="description" content="EMPATHY and PASSION are the core of our business and the heart of the WDS UX methodology. Our UX methodology produces answers and empathetic designs that connect and resonates with users and uncovers unarticulated user needs that drives business transformation. WDS methodology has been successful for project for Motorola, StubHub and OsiSoft" />
+                <meta name="description" content="Printed materials help brand your business. It supports your social media and ad word marketing.  It covers a larger audience that respond to these marketing tools differently. WDS takes care of each marketing aspect, from web design to corporate identity to tangible materials such as business cards, postcards, annual reports, magazines and more." />
                 <meta charSet="utf-8" />
             <title>Graphic Design</title>
             <link rel="canonical" href="http://watermandesignsolutions.com/graphic_design" />
@@ -27,7 +27,7 @@ class graphic_design extends Component {
                     <div className="header-text-center header-title text-white">
                         Graphic Design
                     </div>
-                        <img className="flex-image-container width-100" src={print}  alt="Case Studies" />     
+                        <img className="flex-image-container width-100" src={print}  alt="Graphic Design" />     
                 </section>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 

@@ -13,8 +13,8 @@ class case_studies extends Component {
         return(
              <div>
             <Helmet>
-                <meta name="description" content="case studies for motorola, pfizer, osisoft, stubhub" />
-                <meta name="keywords" cpntent="case studies, WDS, stubhub, motorola" />
+                <meta name="description" content="See our favorite case study stories and the solutions that made each a success. Including Motorola, Pfizer, OsiSoft, and StubHub" />
+                <meta name="keywords" content="case studies, WDS, stubhub, motorola" />
                 <meta charSet="utf-8" />
                 <title>Case Studies</title>
                 <link rel="canonical" href="http://watermandesignsolutions.com/case_studies" />

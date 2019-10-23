@@ -31,14 +31,14 @@ class about extends Component {
                 <meta name="description" content="WDS has been creating amazing design solutions and experiences for products, applications, print and websites for over 20 years." />
                 <meta charSet="utf-8" />
                 <title>History of WDS</title>
-                <link rel="canonical" href="http://watermandesignsolutions/history" />
+                <link rel="canonical" href="http://watermandesignsolutions.com/history" />
             </Helmet>
             <div className="flex-layout-column"> 
                 <section className="flex-section-fixed-head-child yellow flex-layout-center-center image-background-border-tb">
                     <div className="header-text-center header-title text-white">
                         History of WDS
                     </div>
-                        <img className="flex-image-container width-100" src={history}  alt="Case Studies" />     
+                        <img className="flex-image-container width-100" src={history}  alt="History of WDS" />     
                 </section>
                 <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                     <div className="callout-text-lg"> 

@@ -24,10 +24,10 @@ class why_wds extends Component {
             <div>
             <Helmet>
                 <meta name="description" content=" WDS offers empathetic design solutions for websites, applications, mobile apps, and social media. Its core offerings help your business understand the value of design on a core level, providing training, workshops and mentorship programs.
-                With over 15 years of perfecting our design and business strategies, we have the experience, designers, strategists, skills and scale to deliver sophisticated design solutions. WDS services include application design, website design and marketing. Our client list includes, Motorola, StubHub, OsiSoft, and Pfizer " />
+                With over 15 years of perfecting our design and business strategies, we have the experience, designers, strategists, skills and scale to deliver sophisticated design solutions. WDS services include application design, website design and marketing. Our client list includes, Motorola, StubHub, OsiSoft, and Pfizer" />
                 <meta charSet="utf-8" />
                 <title>Why WDS</title>
-                <link rel="canonical" href="http://watermandesignsolutions/case_study_1" />
+                <link rel="canonical" href="http://watermandesignsolutions.com/why_wds" />
             </Helmet>
             <div className="flex-layout-column">
                 <section className="flex-section-fixed-head">
@@ -47,7 +47,7 @@ class why_wds extends Component {
                     <div className="grid-callout yellow-bg "> 
                         <div className="grid-callout-text grid-placeself-center padding content-block-65">
                             <p className="callout-text text-black">
-                            WDS is a full service UX/UI design agency that specializes in creating elegant user experiences on applications, websites and all consumer touch points.</p>
+                            WDS is a full service UX/UI design agency that specializes in creating elegant user experiences on applications, websites and all consumer touchpoints.</p>
                         </div>
                         <div className="grid-callout-photo">
                             <img className="flex-image-container width-100" src={whys1}  alt="Customer Service" /> 

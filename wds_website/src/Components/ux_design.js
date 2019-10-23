@@ -14,7 +14,7 @@ class ux_design extends Component {
         return(
             <div>
             <Helmet>
-                <meta name="description" content="The team of WDS UX Designers are true designers that not only provide mock-ups, but high fidelity designs. Their UX designers also have an understanding of cognitive psychology and a background in customer service. All of their designers are friendly empathetic people with a passion to simplify the world, one project at a time. WDS UX designs includes product design for motorola, custom business intelligence platform for StubHub and OsiSoft. " />
+                <meta name="description" content="The team of WDS UX Designers are true designers that not only provide mock-ups, but high fidelity designs. The UX designers  have an understanding of cognitive psychology with a background in customer service. All of the designers are friendly, empathetic people with a passion to simplify the world, one project at a time. WDS UX designs includes product design for Motorola, and custom business intelligence platforms for StubHub and OsiSoft. " />
                 <meta charSet="utf-8" />
             <title>User Exeperience Design</title>
             <link rel="canonical" href="http://watermandesignsolutions.com/ux_design" />
@@ -63,7 +63,7 @@ class ux_design extends Component {
                             in a less-than-optimal fashion. This can make us incapable of telling UX designers what we really want. </p>
                                 
                             <p className="content-text-18 margin-bottom-min15">
-                                For example, when asked about an editing function in a software package, one customer had no complaints until she sat down to use the program in front of the observer. Then she realized that her work was disrupted when the program did not automatically wrap text around graphics while she edited. Accustomed to working around the problem, she had not mentioned it in earlier interviews. When the observer notices this and points it out, it opens up an important issue that should be dealt with to make her life easier. All the little things add up as big time wasters that need to be eliminated.</p>
+                                For example, when asked about an editing function in a software package, one customer had no complaints until she sat down to use the program in front of the observer. Then she realized that her work was disrupted when the program did not automatically wrap text around graphics while she edited. Accustomed to working around the problem, she had not mentioned it in earlier interviews. When the observer notices this and points it out, it opens up an important issue that needs to be dealt with to make her life easier. </p>
                                 
                             </div>  
                         </div>
@@ -87,7 +87,7 @@ class ux_design extends Component {
                             </div> 
                            
                             <div className="content-text-18">
-                                Empathy is a very powerful selling tool, because it is human-centric. It’s the new buzz word, but empathy has always been at the heart of WDS designs.  <br></br>“Walk in the user’s shoes.” <br></br>“See the problem as if you were experiencing it yourself."<br></br>“Observe  daily routines.” <br></br>All of these mantras and behaviors are empathetic techniques that their UX designers have acquired through years of practice. It is part of their daily lives. 
+                                Empathy is a very powerful selling tool, because it is human-centric. It’s the new buzzword, but empathy has always been at the heart of WDS designs.  <br></br>“Walk in the user’s shoes.” <br></br>“See the problem as if you were experiencing it yourself."<br></br>“Observe  daily routines.” <br></br>All of these mantras and behaviors are empathetic techniques that their UX designers have acquired through years of practice. It is part of their daily lives. 
                             </div>
                         </div>
                     </section>
@@ -105,7 +105,7 @@ class ux_design extends Component {
                             <img className="photo-container" src={ux_s4}  alt="UX is the study of people" />
                         </div> 
                             <p className="content-text-18">
-                                Understanding people as they go about completing a task is essential to guaranteeing a positive user experience. Every action of that task is an experience with your product or service. The experience can be positive or negative, depending on how much of the user was taken into account when designing. 
+                                Understanding people as they go about completing a task is essential to guarantee a positive user experience. Every action of that task is an experience with your product or service. The experience can be positive or negative, depending on how much of the user was taken into account when designing. 
                             </p>
                        
                         <p className="content-text-18">User expectations have changed over the years. Simplicity is expected.  </p> 
