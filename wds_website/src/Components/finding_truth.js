@@ -16,7 +16,7 @@ class innovative_solutions extends Component {
         return(
             <div>
             <Helmet>
-                <meta name="description" content="WDS UX methodology connects with your users. They connect with users by observing and interviewing them. People will always open up and confide in you if they feel you are on their side especially when you empathize with their needs. This is how WDS uncover truths that were previously unknown." />
+                <meta name="description" content="WDS UX methodology connects with your users by observing and interviewing them. People will always open up and confide in you if they feel you are on their side especially when you empathize with their needs. This is how WDS uncover truths that were previously unknown." />
                 <meta charSet="utf-8" />
                 <title>Finding the Truth</title>
                 <link rel="canonical" href="http://watermandesignsolutions.com/finding_the_truth" />
@@ -71,7 +71,7 @@ class innovative_solutions extends Component {
                     </div>  
                     <p className="content-text-18"> 
                         At the beginning of the methodology, WDS sets the foundation for success by developing an
-                        understanding of the business, the industry, the competition and relevant trends. This is the basis for how subsequent phases are approached, which includes secondary research, interviewing stakeholders and subject matter experts in order to gain a first-hand awareness of the company context and build connections within the business. This contributes to stakeholder alignment throughout the engagement and begins to define a hypothesis for where the company intends to play in the market, who it intends to serve and how it plans to serve them. 
+                        understanding of the business, the industry, the competition and relevant trends. This is the basis for how subsequent phases are approached, which includes secondary research, interviewing stakeholders and subject matter experts in order to gain awareness of the company context and build connections within the business. This contributes to stakeholder alignment throughout the engagement and begins to define a hypothesis for where the company intends to play in the market, who it intends to serve and how it plans to serve them. 
                     </p>
                 </div>
                 </section>
@@ -94,7 +94,7 @@ class innovative_solutions extends Component {
                             WDS experience strategists observe people in context - where they work, play or live - to understand their goals, needs and aspirations as they go about their daily lives. If a product does not yet exist, this first-hand look helps to identify unmet needs that a product may solve.</p>
 
                             <p className="content-text-18">
-                            Using techniques from the fields of anthropology, psychology, product development and design, WDS uses methods such as “contextual inquiry” to observe and record a rich variety of data, including body language, how people interact with their tools and how they construct their environments to be successful in their worlds. 
+                            Using techniques from the fields of anthropology, psychology, product development and design, WDS uses methods such as “contextual inquiry” to observe and record a rich variety of data, including body language, how people interact with their tools and how they construct their environments to be successful. 
                             
                               <br></br> The value here is seeing and finding unexpected elements which lead to surprising insights.</p>
 
@@ -162,7 +162,7 @@ class innovative_solutions extends Component {
                             </div> 
 
                             <p className="content-text-18"> 
-                            When an engagement centers on a complex tool for enterprise business, the simplified workflow diagram captures activity across organizational roles and provides stakeholders a single view of all of the work accomplished in and around a tool. This diagram gives stakeholders an “aha!” moment as, for the first time,  they have a picture of the duties employees or customers accomplish in their work lives. </p>
+                            When an engagement centers on a complex tool for enterprise businesses, the simplified workflow diagram captures activity across organizational roles and provides stakeholders a single view of all of the work accomplished in and around a tool. This diagram gives stakeholders an “aha!” moment as, for the first time,  they have a picture of the duties employees or customers accomplish in their work lives. </p>
                             <p className="content-text-18"> 
                             Through the use of a simplified workflow diagram, how a user moves through tasks is revealed and extrapolated from here to the various cognitive states a user inhabits while engaged with the solution or process.
                             These cognitive states represent a model of what is in people’s minds as they do their work, their mental model. This understanding has implications for both design and marketing.</p>

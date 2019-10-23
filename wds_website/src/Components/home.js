@@ -25,10 +25,10 @@ class landingPage extends Component {
         return(
             <div>
             <Helmet>
-                <meta name="description" content="WDS is a UX/UI agency that offers empathetic design solutions for websites, applications, SaaS applications, mobile apps, anything with a user interface. Waterman Design core offerings enlighten businesses on the value of design, providing training, workshops and mentorship programs. WDS design services include application design, website design and graphic design." />
+                <meta name="description" content="WDS is a UX/UI agency based in Lansdale, PA offering empathetic design solutions for websites, applications, SaaS applications, mobile apps, and anything with a user interface. WDS core offerings enlighten businesses on the value of design, providing training, workshops and mentorship programs. WDS design services include application design, website design and graphic design for the Philadelphia, New York, and California." />
                 <meta charSet="utf-8" />
                 <title>Your Partner in Design</title>
-                <link rel="canonical" href="http://watermandesignsolutions/home" />
+                <link rel="canonical" href="http://watermandesignsolutions.com/home" />
             </Helmet>
             <div className="flex-layout-column">
                 <div className="flex-layout-section-full">

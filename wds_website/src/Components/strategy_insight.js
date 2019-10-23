@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 import strategy from '../images/backgrounds/bg-strategy.png';
 import didyouknow from '../images/graphic-didyouknow.svg';
-import services7 from '../images/photos/photo-services-s7.png';
-import services8 from '../images/photos/photo-services-s8.png';
-import services9 from '../images/photos/photo-services-s9.png';
 import strategy1 from '../images/photos/photo-strategy-s1.png';
 import strategy1a from '../images/photos/photo-strategy-s1a.png';
 import strategy2 from '../images/photos/photo-strategy-s2.png';
@@ -20,7 +17,7 @@ class strategy_insight extends Component {
         return(
         <div>
             <Helmet>
-                <meta name="description" content=" WDS understands that the most meaningful insights for design strategy are developed with behavior-based understanding of users. UX strategists observe people in context - where they work, play or live - to understand their goals, their needs and aspirations as they go about their daily lives. If a product does not yet exist, this firsthand look helps to identify unmet needs that a product may solve." />
+                <meta name="description" content="By directly observing people, WDS gets to the heart of their needs by discovering what drives them,  inspires them and  connects with them on an emotional level. Clients are enlightened with insights and strategies of where to invest resources based on this understanding of what people value." />
                 <meta charSet="utf-8" />
             <title>Strategy and Insight</title>
             <link rel="canonical" href="http://watermandesignsolutions.com/strategy_insight" />
@@ -76,7 +73,7 @@ class strategy_insight extends Component {
                             <div className="float-right">
                         <img className="photo-container" src={strategy2}  alt="Stakeholder Interview" /> 
                     </div>  
-                            At the beginning of an engagement, WDS sets the foundation for success by developing an understanding of the business, the industry, the competition and relevant trends. This becomes the basis for how we approach all subsequent phases. Along with secondary research, they interview stakeholders and subject matter experts to gain a firsthand awareness of the company context and to build connections within the business. This keeps stakeholder alignment throughout the engagement. This activity begins to define our understanding of where the company intends to play in the market, who it intends to serve and how it plans to serve them.</p>
+                            At the beginning of an engagement, WDS sets the foundation for success by developing an understanding of the business, the industry, the competition and relevant trends. This becomes the basis for how it approaches all subsequent phases. Along with secondary research, stakeholders  and subject matter experts are interviewed to gain a firsthand awareness of the company context and to build connections within the business. This keeps stakeholder alignment throughout the engagement. This activity begins to define understanding of where the company intends to play in the market, who it intends to serve and how it plans to serve them.</p>
                     </div>          
                 </section>
 
@@ -114,10 +111,10 @@ class strategy_insight extends Component {
                     </div>  
                             When design determines success, understanding the user is paramount. WDS creates designs that connect people with what matters most to them. </p>
                         <p className="content-text-18">
-                            WDS team of design experts use experience strategy and insight to define how software functions, and build workflows for the ways that people will experience it. 
+                            The WDS team of design experts use experience strategy and insight to define how software functions, and build workflows for the ways that people will experience it. 
                             From inception through launch, WDS obsesses over every detail.</p>
                         <p className="content-text-18">
-                            For the visual representation, they will create a uniquely identifiable and recognizable design by incorporating elements like brand, familiar fonts and emotions that resonate with users.</p>
+                            For the visual representation,  a uniquely identifiable and recognizable design will be created by incorporating elements like brand, familiar fonts and emotions that resonate with users.</p>
                         </div>                   
                     </section>
 

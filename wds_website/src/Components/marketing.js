@@ -13,7 +13,7 @@ class marketing extends Component {
         return(
             <div>
                 <Helmet>
-                    <meta name="description" content="Social Media Strategy. The Right Approach. The WDS goal is to identify the right approach for your unique target audiences on social media by planning, developing, and executing innovative social media marketing strategies. This builds a meaningful experience across all social media touch points. " />
+                    <meta name="description" content="Social Media Strategy. The Right Approach. The WDS goal is to identify the right approach for your unique target audiences on social media by planning, developing, and executing innovative social media marketing strategies. This builds a meaningful experience across all social media touchpoints. " />
                     <meta charSet="utf-8" />
                 <title>Marketing</title>
                 <link rel="canonical" href="http://watermandesignsolutions.com/marketing" />
@@ -69,7 +69,7 @@ class marketing extends Component {
                     <img className="photo-container margin-top-5per" src={marketing3}  alt="Website Design" /> 
                 </div>
                     <p className="content-text-18 margin-top-15"> 
-                    The WDS goal is to identify the right approach for your unique target audiences on social media by planning, developing, and executing innovative social media marketing strategies. This builds a meaningful experience across all social media touch points. </p>
+                    The WDS goal is to identify the right approach for your unique target audiences on social media by planning, developing, and executing innovative social media marketing strategies. This builds a meaningful experience across all social media touchpoints. </p>
 
                   </div>
             </section>
@@ -108,7 +108,7 @@ class marketing extends Component {
                 <div className="float-right">
                     <img className="photo-container margin-top-10per" src={marketing6}  alt="Website Design" /> 
                 </div>
-                Using user research and ad optimization techniques, wds leverages your social media platforms to connect your brand, products, or services to the right people. By creating highly targeted advertisements on social media, we help our clients reach an otherwise untapped resource for potential customers.</p>
+                Using user research and ad optimization techniques, WDS leverages your social media platforms to connect your brand, products, or services to the right people. By creating highly targeted advertisements on social media, clients reach an otherwise untapped resource for potential customers.</p>
 
                   </div>
             </section>

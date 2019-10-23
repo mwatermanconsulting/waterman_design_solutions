@@ -17,7 +17,7 @@ class css_solutions extends Component {
         return(
             <div>
             <Helmet>
-                <meta name="description" content="The WDS CSS specialists deliver their custom CSS solutions as npm packages or through github. The packages include a developer build kit with custom css, sass or less files, html files and documentation. WDS can refactor your current CSS or develop a customizable CSS solution that will scale as the project matures. " />
+                <meta name="description" content="WDS CSS specialists deliver custom CSS solutions as npm packages or through github. Packages include a developer build kit with custom CSS, Sass or Less files, HTML files and documentation. WDS can refactor your current CSS or develop a customizable CSS solution that will scale as the project matures. " />
                 <meta charSet="utf-8" />
                 <title>CSS Solutions</title>
                 <link rel="canonical" href="http://watermandesignsolutions.com/css_solutions" />
@@ -54,7 +54,7 @@ class css_solutions extends Component {
                 <div className="content-block-60">
                     <p className="content-text-24 text-align-center">
                         <img className="photo-container-cheer" src={cheer}  alt="Happy developers" /> <br></br>
-                        WDS solutions are based on empathy and their observed experiences working with developers. Their CSS knowledge and expertise is one of the main reasons they get hired. WDS CSS solutions are scalable and customizable to your business requirements. </p>
+                        WDS solutions are based on empathy and  observed experiences working with developers. CSS knowledge and expertise is one of the main reasons they get hired. They are scalable and customizable to your business requirements. </p>
                 </div>
                     <NavLink className='button-area no-decoration margin-top-15 margin-bottom-25sm' type="button" to={'/case_study_4'}>
                        <strong>Case Study</strong>
@@ -77,7 +77,7 @@ class css_solutions extends Component {
                                 <img className="photo-container" src={css2}  alt="Strategy and Insight" /> 
                         </div>  
                         <p className="content-text-18">
-                        Responsive web design is the approach that suggests that design and development should respond to the user’s behavior and environment based on screen size, platform and orientation. WDS has made countless responsive websites and applications. They were one of the first companies to build a responsive enterprise application using flexbox. WDS can mentor your developers on responsive design best practices, or provide a responsive design <a className="greenlink" href="../ui_design" >build kit.</a> </p>            
+                        Responsive web design is the approach that  design and development should respond to the user’s behavior and environment based on screen size, platform and orientation. WDS has made countless responsive websites and applications, being one of the first companies to build a responsive enterprise application using Flexbox. WDS can mentor developers on responsive design best practices, or provide a responsive design <a className="greenlink" href="../ui_design" >build kit.</a> </p>            
                     </div>
                 </section>
         <div className="hr-line"></div>
@@ -94,7 +94,7 @@ class css_solutions extends Component {
                 <p className="content-text-18 margin-top-15"><div className="float-right callout-photo ">
                 <img className="photo-container margin-top-15sm" src={itcss}  alt="Prototypes" /> 
             </div>  
-                    Taming the specificity beast used to be difficult. WDS CSS strategy almost eliminates the specificity problems. In fact, the strategy almost eliminates the need for your developers to write CSS. The WDS advantage is the  experience of working with developers by interviewing and observing them working with CSS.
+                    Taming the specificity beast used to be difficult. WDS CSS strategy almost eliminates the specificity problems and the need for your developers to write CSS. The WDS advantage is the  experience of working with developers by interviewing and observing them working with CSS.
                 </p>                
             </div>  
            
@@ -116,7 +116,7 @@ class css_solutions extends Component {
                 <div className="float-right callout-photo margin-top-15sm">
                     <img className="photo-container" src={css3}  alt="Prototypes" /> 
                 </div>
-                CSS preprocessors are scripting languages that extend the default capabilities of CSS. They enable us to use logic in our CSS code, such as variables, nesting, inheritance, mixins, functions, and mathematical operations. CSS preprocessors make it easy to automate repetitive tasks, reduce the number of errors and "code bloat," by creating reusable code snippets, that ensures backward compatibility. </p>              
+                CSS preprocessors are scripting languages that extend the default capabilities of CSS. They enable the use of logic in CSS code, such as variables, nesting, inheritance, mixins, functions, and mathematical operations. CSS preprocessors make it easy to automate repetitive tasks, reduce the number of errors and "code bloat," by creating reusable code snippets, that ensures backward compatibility. </p>              
             </div>  
             </div>
         </section>
@@ -138,7 +138,7 @@ class css_solutions extends Component {
                     <div className="float-right callout-photo margin-top-15 margin-top-15sm">
                         <img className="photo-container" src={css4}  alt="Prototypes" /> 
                     </div>   
-                    The WDS CSS specialists deliver their custom CSS solutions as npm packages or through github. The packages includes a developer build kit with the custom CSS, Sass or Less files, html files and documentation. WDS can refactor your current CSS or develop a customizable CSS solution that will scale as the project matures. They will always keep your team up to date on new releases and make sure all the current version are available.  </p>
+                    The WDS CSS specialists deliver custom CSS solutions as npm packages or through github. The packages includes a developer build kit with the custom CSS, Sass or Less files, HTML files and documentation. WDS can refactor your current CSS or develop a customizable CSS solution that will scale as the project matures. They will always keep your team up to date on new releases and make sure all the current version are available.  </p>
 
             </div>  
             </div>
@@ -161,7 +161,7 @@ class css_solutions extends Component {
                     <div className="float-right callout-photo margin-top-15sm">
                         <img className="photo-container" src={css5}  alt="Prototypes" /> 
                     </div> 
-                    The best way to communicate a design or business solution is with a story. The previous company that WDS worked for required an enterprise level, scalable CSS solution that would diminish their specificity issues. To understand the issues and to find the truth required observing the developers and engineers and to find a CSS solution that would support 70 developers <a className="no-decoration greenlink" href="../case_study_4"><i>continue Story...</i></a>  </p>           
+                    The best way to communicate a design or business solution is with a story. WDS worked for a company that required an enterprise level, scalable CSS solution to diminish specificity issues. To understand the issues and find the truth required observing the developers and engineers to find a CSS solution that would support 70 developers <a className="no-decoration greenlink" href="../case_study_4"><i>Read more</i></a>  </p>           
             </div>  
             </div>
         </section>   

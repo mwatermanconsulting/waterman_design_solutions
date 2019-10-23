@@ -26,7 +26,7 @@ class digital_design extends Component {
                     <div className="header-text-center header-title text-white">
                         Website Design
                     </div>
-                        <img className="flex-image-container width-100" src={design}  alt="Case Studies" />     
+                        <img className="flex-image-container width-100" src={design}  alt="Website Design" />     
                 </section>
 
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">

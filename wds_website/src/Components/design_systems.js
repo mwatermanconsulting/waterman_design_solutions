@@ -13,7 +13,7 @@ class style_guide extends Component {
         return(
             <div>
             <Helmet>
-                <meta name="description" content="A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive, combining components, behaviors, and branding. It must also be flexible and scalable." />
+                <meta name="description" content="A design system is a continuously evolving single source of truth that establishes rules of visual narration and interaction. It must be comprehensive by combining components, behaviors, and branding. It must also be flexible and scalable." />
                 <meta charSet="utf-8" />
                 <title>Design Systems</title>
                 <link rel="canonical" href="http://watermandesignsolutions.com/design_systems" />
@@ -46,7 +46,7 @@ class style_guide extends Component {
                 <p className="header-title-sm-center margin-top-75 content-block-75">
                     If your product isn’t documented it doesn’t exist</p>
                 <p className="subtitle-center text-align-center content-block-60  margin-top-10">
-                    Style guides and design systems are there to make your lives easier. It keeps  designs consistent internally and help developers be more productive </p>
+                    Style guides and design systems are there to make your life easier. It keeps  designs consistent internally and help developers be more productive </p>
             </section>
             
             <div className="hr-line"></div>
@@ -66,7 +66,7 @@ class style_guide extends Component {
                             <img className="photo-container" src={design_systems2}  alt="Less Errors" /> 
                         </div>
                             <p className="content-text-18"> 
-                            Another benefit of using prebuilt and standardized component is less errors. There’s no chance of making a mistake when you’re copying from a master version. As long as the components in your design system are accurate, their use in your products will be accurate.
+                            Another benefit of using prebuilt and standardized component is less errors. There’s no chance of making a mistake when copying from a master version. As long as the components in the design system are accurate, their use in the products will be accurate.
                             This is especially good news for developers, who have all the code snippets they need right at their fingertips.
                             </p>
                         
@@ -118,7 +118,7 @@ class style_guide extends Component {
                         <div className="  content-text-18 margin-top-15">
                             <p className="content-text-18">Successful UX design depends on customer feedback. Different user groups have different tastes and preferences, and they can be hard to keep track of, especially if your company is targeting more than one group.<br></br>
                             WDS sets design standards for a foundation, assimilating design with software development by fostering empathy for the software engineers. Asking questions and learning the language helps bridge the gap between the customer and developer.<br></br>
-                            Design systems help keep your UX data organized by optimizing patterns. When updates occur communicating the updates to the design system so that every designer and developer knows it’s the new norm going forward.
+                            Design systems help keep UX data organized by optimizing patterns. When updates occur, communicating the updates to the design system ensures that every designer and developer knows it’s the new norm going forward.
                             </p>   
                         </div> 
                     </div>    
@@ -138,7 +138,7 @@ class style_guide extends Component {
                         <div className="float-right">
                         <img className="photo-container width-100 border-2" src={design_systems6}  alt="Pattern Library   " /> 
                         </div>  
-                        A subclass in the design system, this is the set of design patterns for use across a company. A pattern library, documents all of these ‘patterns’ (also often known as modules) and defines how they behave, what they look like and how they are coded.</p>
+                        A subclass in the design system, this is the set of design patterns for use across a company. A pattern library documents all of these ‘patterns’ (also often known as modules) and defines how they behave, what they look like and how they are coded.</p>
                     </div>  
                 </section>  
 

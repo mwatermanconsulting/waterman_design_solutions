@@ -17,7 +17,7 @@ class ui_design extends Component {
         return(
         <div>
             <Helmet>
-                <meta name="description" content=" WDS honed its UI design skills by designing websites in 1998. Over the years they have designed and developed complicated healthcare websites to solving difficult UI problems on critical applications. Current data visualization designs are being used on oil rigs, nuclear reactors and pharmaceutical drug plants. WDS can take care of the front-end development, including CSS and HTML development, working on-site with your team or creating GIT build-packages complete with custom CSS solutions, patterns libraries, style guides, best of practice documentation and design strategies, ensuring and enforcing original design and solutions. WDS UI designs includes product design for motorola, custom business intelligence platform for StubHub and OsiSoft." />
+                <meta name="description" content="Over the years WDS has designed and developed complicated healthcare websites and solved difficult UI problems on critical applications. Current data visualization designs are being used on oil rigs, nuclear reactors and pharmaceutical drug plants. WDS can take care of the front-end development, including CSS and HTML development, working on-site with your team or creating GIT build-packages complete with custom CSS solutions, patterns libraries, style guides, best of practice documentation and design strategies, ensuring and enforcing original design and solutions. " />
                 <meta charSet="utf-8" />
             <title>UI Design</title>
             <link rel="canonical" href="http://watermandesignsolutions.com/ui_design" />
@@ -53,7 +53,7 @@ class ui_design extends Component {
                 <p className="header-title-sm-center margin-top-75 content-block-75">
                 WDS has provided UI solutions to the some of the world's largest brands</p>
                 <p className="subtitle-center text-align-center content-block-60  margin-top-10">
-                Simplifying websites, products and software interfaces is a passion of WDS. Their latest design solutions for data visualization applications are being used in industries such as the energy sector to monitor nuclear reactors.
+                Simplifying websites, products and software interfaces is a passion of WDS. The latest design solutions for data visualization applications are being used in industries such as the energy sector to monitor nuclear reactors.
                 </p>
             </section>
 
@@ -73,7 +73,7 @@ class ui_design extends Component {
                                 <div className="float-right callout-photo grid-placeself-center">
                                     <img className="photo-container" src={ui_s2}  alt="UI" /> 
                                 </div> 
-                                WDS began its UI design skills by designing websites in 1998. Over the years they have evolved to developing complicated healthcare websites and solving difficult UI problems on critical applications. Their UI designs for data visualization are being used on oil rigs, nuclear reactors and pharmaceutical drug plants.  
+                                WDS began its UI design skills by designing websites in 1998. Over the years they have evolved, developing complicated healthcare websites and solving difficult UI problems on critical applications. Their UI designs for data visualization are being used on oil rigs, nuclear reactors and pharmaceutical drug plants.  
                                 </p>
                                 <p className="content-text-18 margin-top-15">
                                 WDS can take care of the front-end development, including CSS and HTML, working on-site with your team or creating GIT build-packages, complete with custom CSS solutions, patterns libraries, style guides, best of practice documentation and design strategies, ensuring and enforcing original design and solutions.
@@ -102,7 +102,7 @@ class ui_design extends Component {
                             Known as low-tech, this is a simple and easy translation of the product and design concepts. It is used to turn  design ideas into testable and tangible artifacts, collecting and analyzing the user demands at the early stage.
                             </p>
                             <p className="content-text-18">
-                            The low-fidelity prototype focuses on function, structure, process, and provides the simplest framework and elements. In the early stages of product design, it can form a plan, a quick discussion and a quick adjustment. Designers can focus on the core of the product structure and frame layer. The biggest advantage of it is time-saving and efficient because of its prototype, so that others do not pay attention to the details of the interface but rather the function.
+                            The low-fidelity prototype focuses on function, structure, process, and provides the simplest framework and elements. In the early stages of product design, it can form a plan, a quick discussion and adjustment. Designers can focus on the core of the product structure and frame layer. The biggest advantage of it is time-saving and efficient because of its prototype, so that others do not pay attention to the details of the interface but rather the function.
                             </p>      
                             <p className="content-text-18">
                             Low fidelity prototyping can help discover the issues of design and get them resolved at the early stage, with much less time and effort. An interesting and proven phenomenon is that the low-fi prototyping has become a preferred choice for both start-ups and giant brands.
@@ -126,12 +126,12 @@ class ui_design extends Component {
                                 <div className="float-right callout-photo grid-placeself-center margin-top-15sm">
                                     <img className="photo-container" src={ui_s4}  alt="Hi-Fidelity Designs" /> 
                                 </div>
-                                High fidelity designs are quite close to the final product, with lots of functionality and details included. This is often used in the later usability evaluation to discover the potential issues that may exist in the workflow, interactivity and so on.
+                                High fidelity designs are close to the final product, with lots of functionality and details included. This is often used in the later usability evaluation to discover the potential issues that may exist in the workflow, interactivity and so on.
                             </p>
                             <p className="content-text-18">
                                 Most low-fidelity wireframes communicate function well, but communicate form poorly. This is especially the case for mobile applications that have standard interface components with a consistent look and feel. A high-fidelity wireframe of a mobile application will communicate the user interface form and function better because the wireframe better resembles the standard interface components that users are familiar with.</p>
 
-                            <p className="content-text-18"> On a high-fidelity wireframe, there’s also no question to clients about what is a        button or text field because of the gradient detail on the elements. Low-fidelity wireframes don’t give the          gradient details that clients need to tell what each interface element is and how they function. Both form and       function are key to the user experience. Reducing the form of your user interface too much could impact how          clients view your wireframes.
+                            <p className="content-text-18"> On a high-fidelity wireframe, there’s also no question to clients about what is a        button or text field because of the gradient detail on the elements. Low-fidelity wireframes don’t give the          gradient details that clients need to tell what each interface element is and how they function. Both form and       function are key to the user experience. Reducing the form of a user interface too much could impact how          clients view  wireframes.
                             </p>      
                             
                             </div>  
@@ -205,7 +205,7 @@ class ui_design extends Component {
                         </div>
                             WDS UI Design Build Kit solutions are lightweight, containing only the visual elements, HTML and CSS needed. The value of a tailored UI kit is that it helps solve the consistency issues businesses face when teams are fractured. These teams need design guidance and support, and a design solution that will support the developers with a starting point, removing the need to design and go straight to development. WDS provides guidance with a living style guide and design system which includes best of practice documentation. </p> 
                             <p className="content-text-18"> 
-                             UI kits are a comprehensive resource set that allow you to plan your design’s structure properly without having to sacrifice creative and originality. A UI kit generally contains an assortment of graphic files including UI components (buttons, check boxes, progress bars, etc.) for the purpose of user interface design. This allows developers to create outstanding visuals in a reasonable time frame. So instead of wasting time figuring out how to implement components, UI kits let you focus on what you do best: creating great products.
+                             UI kits are a comprehensive resource set that allow you to plan design structure properly without having to sacrifice creative and originality. A UI kit generally contains an assortment of graphic files, including UI components (buttons, check boxes, progress bars, etc.) for the purpose of user interface design. This allows developers to create outstanding visuals in a reasonable time frame. So instead of wasting time figuring out how to implement components, UI kits let you focus on what you do best - creating great products.
                             </p>    
                             
                             </div>  
@@ -233,7 +233,7 @@ class ui_design extends Component {
                                 Testing before development begins is crucial to the success of any project. Observing users actions on the prototype can provide insight into what's working and what needs to be discarded or rethought.
                             </p>
                             <p className="content-text-18">
-                            One of the most important aspect of the product building process is to gather feedback. With prototyping you can observe the user, test the work flow consolidation and collect reviews at every stage of developing the product. Prototypes are extremely helpful when adding new features or redesigning parts of the product. Test what is working for the audience and what is not.
+                            One of the most important aspects of the product building process is gathering feedback. With prototyping the user can be observed, testing the work flow consolidation and collecting reviews at every stage of product development. Prototypes are extremely helpful when adding new features or redesigning parts of the product. It involves testing what is working and what is not.
                             </p>      
                             
                             </div>  
@@ -247,7 +247,7 @@ class ui_design extends Component {
                             Design is not about being pretty or aesthetically pleasing, it is about simplicity
                     </div>
                     <div className="content-text-21 margin-top-40 margin-top-50sm content-block-55">
-                        WDS has been designing user interfaces for over twenty years. They originally designed user interfaces for websites, but that changed with their first complicated industrial user interface  designed for Motorola. Since then the UI design services expanded to all consumer-facing touchpoints, including software, mobile, SaaS and kiosks.
+                        WDS has been designing user interfaces for over twenty years. It originally designed for websites, and evolved with the first complicated industrial user interface designed for Motorola. Since then the UI design services expanded to all consumer-facing touchpoints, including software, mobile, SaaS and kiosks.
                     </div> 
                 </section>
 
