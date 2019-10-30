@@ -98,7 +98,7 @@ class innovative_solutions extends Component {
                 
                 <section className="float-left flex-layout-section-full align-items-center flex-layout-column">
                     <div className="title content-block-60">
-                            Construct an Interaction Model based on users
+                            Construct an Interaction Model Based on Users
                     </div>
                     <div className="subtitle content-block-60 margin-top-10">
                             Establish Frameworks and Workflow Concepts</div>

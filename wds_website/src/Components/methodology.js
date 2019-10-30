@@ -200,7 +200,7 @@ class methodology extends Component {
                             Reflection and Analysis
                         </div>
                         <div className="subtitle margin-top-10">
-                            Empathizing with Users 
+                            Identifying User Issues 
                         </div>
                             <p className="content-text-18 margin-top-15">
                                  <div className="float-right">
@@ -310,7 +310,7 @@ class methodology extends Component {
                             User Testing
                         </div>
                         <div className="subtitle margin-top-10">
-                            Always keeping the customer in the loop
+                            Keeping the Customer in the Loop
                         </div>
                         
                         <div className="margin-top-15" >

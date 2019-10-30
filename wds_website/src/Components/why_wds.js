@@ -384,7 +384,7 @@ class why_wds extends Component {
 
                             <li><strong>9.</strong> WDS knows how simplify complex problems</li>
 
-                            <li><strong>10.</strong>10. WDS knows how to produce results</li>
+                            <li><strong>10.</strong> WDS knows how to produce results</li>
 
                         </ul>
                     </div>

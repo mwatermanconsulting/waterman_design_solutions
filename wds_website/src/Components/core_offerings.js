@@ -316,7 +316,7 @@ class core_offerings extends Component {
                         Engineers Hate CSS
                     </div>
                     <div className="subtitle content-block-60 margin-top-10">
-                        WDS Solves that Problem
+                        WDS solves that problem
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
                         <div className="float-right">

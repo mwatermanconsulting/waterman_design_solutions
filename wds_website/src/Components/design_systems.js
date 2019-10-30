@@ -44,7 +44,7 @@ class style_guide extends Component {
 
             <section className="flex-layout-section-full flex-layout-column align-items-center">
                 <p className="header-title-sm-center margin-top-75 content-block-75">
-                    If your product isn’t documented it doesn’t exist</p>
+                    If your product isn’t documented, it doesn’t exist</p>
                 <p className="subtitle-center text-align-center content-block-60  margin-top-10">
                     Style guides and design systems are there to make your life easier. It keeps  designs consistent internally and help developers be more productive </p>
             </section>
