@@ -76,7 +76,7 @@ class ux_design extends Component {
                                 The Value of Empathy
                         </div>
                         <div className="subtitle content-block-60 margin-top-10">
-                                Empathic Design Sparks Innovations 
+                                Empathetic Design Sparks Innovations 
                         </div>
                         <div className="content-block-60 margin-top-15">
                             <p className="content-text-18">
