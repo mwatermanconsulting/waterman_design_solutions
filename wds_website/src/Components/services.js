@@ -143,7 +143,7 @@ class services extends Component {
                          Strategy and Insight
                     </div>
                     <div className="subtitle content-block-60 margin-top-10">
-                         Insight through Observations
+                         Insight Through Observations
                     </div>
                         <div className="margin-top-15 content-block-60"> 
                         

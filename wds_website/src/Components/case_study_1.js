@@ -15,6 +15,7 @@ import motorola_before_basic from '../images/photos//photo-motorola-before-basic
 import callcenter from '../images/photos/photo-motorola-s2.png';
 
 
+
 class case_study_1 extends Component {
     render () {
         return(

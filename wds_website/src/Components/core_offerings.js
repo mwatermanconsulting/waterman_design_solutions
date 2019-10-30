@@ -47,7 +47,7 @@ class core_offerings extends Component {
                     </div>
             </section>
             <section className="flex-layout-column flex-layout-center-center">
-                <div className="title margin-top-75">
+                <div className="header-title-sm-center margin-top-75">
                     The Business Value of Design
                 </div>
                     <div className="content-text-18 content-block-60 margin-top-25">
@@ -316,7 +316,7 @@ class core_offerings extends Component {
                         Engineers Hate CSS
                     </div>
                     <div className="subtitle content-block-60 margin-top-10">
-                        WDS Solves that Problem
+                        WDS solves that problem
                     </div>
                     <div className="content-block-60 content-text-18 margin-top-15">
                         <div className="float-right">

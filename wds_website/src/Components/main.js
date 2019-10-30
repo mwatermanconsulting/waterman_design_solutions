@@ -28,11 +28,16 @@ import ux from './ux_design';
 import test_area from './test_area';
 import video_production from './video_production';
 import why_wds from './why_wds';
+import ScrollToTop from './Utils';
+
 
 
 
 const Main = () => (
   <Switch>
+     
+)
+<ScrollToTop>
     <Route exact path="/" component={home} />
     <Route exact path="/history" component={history} /> 
     <Route exact path="/branding" component={branding} />
@@ -61,6 +66,7 @@ const Main = () => (
     <Route exact path="/test_area" component={test_area} />
     <Route exact path="/video_production" component={video_production} />
     <Route exact path="/why_wds" component={why_wds} />
+  </ScrollToTop>
 
   </Switch>
 )

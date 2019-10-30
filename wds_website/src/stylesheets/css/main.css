@@ -482,6 +482,9 @@ footer {
 .margin-top-15per {
   margin-top: -15%; }
 
+.margin-top-14per {
+  margin-top: 14%; }
+
 .margin-top-2per {
   margin-top: 2%; }
 
@@ -3452,6 +3455,8 @@ a:any-link {
   .item {
     width: 100%;
     margin-left: 37%; }
+  .margin-top-14per {
+    margin-top: 0%; }
   .float-left {
     float: none;
     padding: 0; }
@@ -4451,7 +4456,7 @@ a:any-link {
   .align-self-auto {
     align-self: auto; }
   .content-block-35 {
-    width: 90%; }
+    width: 35%; }
   .cs-container {
     margin-left: 27%; }
   .content-block-80 {
@@ -4730,6 +4735,8 @@ a:any-link {
     margin-bottom: 75px; }
   .margin-top-7per {
     margin-top: -7%; }
+  .margin-top-14per {
+    margin-top: 14%; }
   .margin-left-140 {
     margin-left: 140px; }
   .margin-left-min12per {
