@@ -7,6 +7,10 @@ import 'react-mdl/extra/material.js';
 import { BrowserRouter } from 'react-router-dom';
 import TagManager from 'react-gtm-module'
 
+
+
+
+
 const tagManagerArgs = {
     gtmId: 'GTM-NGNHC8R'
 }
@@ -14,9 +18,15 @@ const tagManagerArgs = {
 TagManager.initialize(tagManagerArgs)
 
 
+
+
 ReactDOM.render(
     <BrowserRouter>
+     
+         
+  
     <App />
+  
     </BrowserRouter>
 
 
@@ -26,4 +36,8 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA
 serviceWorker.register();
+
+
+
+
 

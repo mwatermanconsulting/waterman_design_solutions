@@ -16,6 +16,7 @@ import starburst from '../images/photos/photo-home-starburst-red.png';
 import motorola from '../images/photos/photo-motorola-beforeafter.png';
 import stubhub from '../images/photos/photo-stubhub-before-after.png'
 
+
 //import { Grid, Cell } from 'react-mdl';
 
 
@@ -71,7 +72,7 @@ class landingPage extends Component {
                                 </p>
                             
                     
-                        <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/case_study_4'}>
+                        <NavLink className='button-area no-decoration' type="button" value="learn more"  to={'/why_wds'}>
                             Learn More 
                         </NavLink>
                         </div> 
@@ -80,7 +81,7 @@ class landingPage extends Component {
                 </div>
 
                 <div className="home-item align-items-center content-block-60 margin-top-75sm">
-                        <img className="margin-top-50" src={binoculars}  alt="Why WDS" /> 
+                        <img className="margin-top-14per" src={binoculars}  alt="Why WDS" /> 
                             <div className="">
                                 <div className="header-title-sm-center">
                                     Methodology
@@ -90,7 +91,7 @@ class landingPage extends Component {
                                 </p>
                             
                    
-                        <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/case_study_4'}>
+                        <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/methodology'}>
                             Learn More 
                         </NavLink>
                         
@@ -109,7 +110,7 @@ class landingPage extends Component {
                                 </p>
                             
                     
-                        <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/design'}>
+                        <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/design_solutions'}>
                             Learn More 
                         </NavLink>
                       
@@ -124,7 +125,7 @@ class landingPage extends Component {
                                  Services
                             </div>
                                 <p className="content-text-18 margin-top-10 width-50 margin-left-25 text-align-center">
-                                WDS has over 25 years of experience with UX design, user interface design and CSS solutions development. The latest service offering is business (CX) solutions, which include design systems. 
+                                WDS has over 25 years of experience with UX design, user interface design and CSS solutions development. Their latest service offering is business (CX) solutions, which include design systems. 
                                 </p>
 
                                 <NavLink className='button-area no-decoration' type="button" value="learn more" to={'/core_offerings'}>

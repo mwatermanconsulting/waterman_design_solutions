@@ -55,14 +55,14 @@ class methodology extends Component {
                 </section>
                 <section className="content-header flex-layout-section-full flex-layout-column align-items-center">
                     <div className="content-header flex-layout-column content-block-60">    
-                        <div className="header-title margin-top-75"> 
+                        <div className="header-title-sm-center margin-top-75"> 
                             WDS Goal: Uncovering the Truth
                         </div>
                         <p className="content-text-21 content-block-75 align-self-center margin-top-50">
                             The science of understanding people has developed for centuries, but not enough has been done to integrate these approaches into the process of UI design. For more than a decade, WDS has refined a scalable, flexible methodology that centers on answering questions about customers.<br/><br/>This is accomplished by connecting and understanding people, observing their daily workflow,  interviewing and conversing with them, which identifies  needs, behaviors and aspirations. <br></br>WDS provides a perspective on customers that clients typically have never seen. </p>
 
                         <p className="content-text-21 content-block-75 align-self-center">
-                            WDS methodology produces answers and empathetic designs that connect and resonates with users and uncovers unarticulated user needs that drives business transformation. </p>
+                            WDS methodology produces answers and empathetic designs that connect and resonates with users, while uncovering unarticulated user needs that drives business transformation. </p>
                     </div>
                 </section>
 

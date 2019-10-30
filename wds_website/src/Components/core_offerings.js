@@ -47,7 +47,7 @@ class core_offerings extends Component {
                     </div>
             </section>
             <section className="flex-layout-column flex-layout-center-center">
-                <div className="title margin-top-75">
+                <div className="header-title-sm-center margin-top-75">
                     The Business Value of Design
                 </div>
                     <div className="content-text-18 content-block-60 margin-top-25">

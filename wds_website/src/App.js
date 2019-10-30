@@ -11,12 +11,13 @@ import { Link } from 'react-router-dom';
 
 
 
+
 class App extends Component {
   render() {
     return (
 
       //Header //
-
+      
       <div className="container-grid">
         <Layout>
             <Header className="header content-text-18 red text-white flex-layout-row" title={<Link style={{textDecoration: 'none',
@@ -83,7 +84,7 @@ class App extends Component {
                 </div> 
               
                 
-            </Header>
+            </Header> 
             <Drawer className="mobile-menu" title={<Link style={{textDecoration: 'none', color: 'black', marginTop: '2%'}} to="/">
             WDS</Link>}>
                 <Navigation style={{textDecoration: 'none', marginTop: '-1%'}}>
