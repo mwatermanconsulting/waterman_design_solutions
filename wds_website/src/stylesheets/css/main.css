@@ -4298,12 +4298,18 @@ a:any-link {
     margin-top: 0; }
   .cs-container {
     margin-left: 16%; }
+  .margin-top-15sm {
+    margin-top: 8%; }
   .container-photo-callout {
     width: 100%;
     max-width: 650px;
     height: auto;
     border: 2px solid #000;
-    margin-left: 13%; }
+    margin-left: 2%; }
+  .margin-left-18 {
+    margin-left: 28%; }
+  .margin-tb-100 {
+    margin: 20px 0px 50px 0px; }
   .margin-top-15per {
     margin-top: 0%; }
   .margin-top-50 {
@@ -4323,7 +4329,13 @@ a:any-link {
     padding-top: 10px;
     margin-bottom: 0px;
     margin-left: 0px;
-    padding-left: 25px; }
+    padding-left: 0px; }
+  .float-right {
+    float: right;
+    padding: 0 50px 5px 25px; }
+  .float-left-np {
+    float: left;
+    padding: 0px 0px 0px 375px; }
   /***** grid    ********************************************/
   .grid-services-list {
     width: 100%;
@@ -4467,6 +4479,8 @@ a:any-link {
     margin-top: 0%; }
   .margin-top-75 {
     margin-top: 25px; }
+  .content-block-35 {
+    width: 80%; }
   .photo-container {
     width: 100%;
     height: auto;

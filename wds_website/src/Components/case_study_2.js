@@ -400,12 +400,11 @@ class case_study_2 extends Component {
                         <section className="flex-layout-section-full align-items-center grey border-top-5 margin-top-50 margin-top-50sm">
                             <div className="grid-2col-text-photo bottom-callout-cs" > 
                             <div className="col2-text grid-placeself-center ">
-                        <div className="text-align-center callout-text-lg">
-                             Pfizer and the developers were happy! 
+                        
                         <div className="callout-text margin-top-15">  
-                         Bringing to light the unseen CMS problems saved Pfizer financially and the documentation helped them get out of a bad contract. 
+                        <p className="callout-text "> A follow-up call to StubHub led to an astonishing reveal. There was no need to push for more users because 172 out of the 175 analysts were using the reporting tool, up to 98%, a 97% increase in 5 months. StubHub was thrilled with WDS design solutions and  with the results. </p>
                         </div>
-                    </div>
+                    
                 </div>
                 <div className="col2-photo grid-placeself-center">
                     <img className="flex-image-container width-100" src={thumbsUp}  alt="Good job WDS!" /> 
