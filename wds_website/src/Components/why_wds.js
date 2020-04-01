@@ -327,7 +327,7 @@ class why_wds extends Component {
                         
                         <div className="content-text-18 margin-top-25 align- content-block-60">
                         “(WDS) are thoughtful designers who helped transform our reporting project from a technical tool for pulling data into a place where users at all levels of our organization can find insights about our business.”<br/>
-                            <i>-Michael Johnston Stubhub, Impact-Focused Technologist Specializing in Data</i>
+                            <i>-Michael Johnston Stubhub, RobotoCondensed-Bold-Focused Technologist Specializing in Data</i>
                         </div>
 
                         <div className="content-text-18 margin-top-25 content-block-60">

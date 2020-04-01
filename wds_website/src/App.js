@@ -66,7 +66,7 @@ class App extends Component {
                   <div className="dropdown-content content-text">
                     <a href="./design_solutions">Design Overview</a>
                     <a href="./website_design">Website Design</a>
-                    <a href="./graphic_design">Graphic Design</a>
+                    <a href="./digital_design">Digital Design</a>
                     <a href="./marketing">Marketing</a>
                   </div>
                 </div>
@@ -107,7 +107,7 @@ class App extends Component {
 
                   <Link style={{textDecoration: 'none', fontWeight: 'bold', marginTop: '4%'}} to="/design_solutions">Design Solutions</Link>
                   <nav><a style={{marginTop: '1%', marginLeft: '3%'}} href="/website_design">Website Design</a></nav>
-                  <nav><a style={{marginTop: '1%', marginLeft: '3%'}} href="/graphic_design">Graphic Design</a></nav>
+                  <nav><a style={{marginTop: '1%', marginLeft: '3%'}} href="/digital_design">Digital Design</a></nav>
                   <nav><a style={{marginTop: '1%', marginLeft: '3%'}} href="/marketing">Marketing</a>
                     
 </nav>
@@ -158,7 +158,7 @@ class App extends Component {
               <ul>
               <li className="text-white margin-top-15sm"><a className="text-black" href="./design_solutions">Overview</a></li>
               <li className="text-white margin-top-15sm"><a className="text-black" href="./website_design">Website Design</a></li>
-              <li className="text-white margin-top-15sm"><a className="text-black" href="./graphic_design">Graphic Design</a></li>
+              <li className="text-white margin-top-15sm"><a className="text-black" href="./digital_design">Digital Design</a></li>
               <li className="text-white margin-top-15sm"><a className="text-black" href="./marketing">Marketing</a></li>
               </ul>
           </div> 

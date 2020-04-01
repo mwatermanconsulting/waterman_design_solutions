@@ -101,33 +101,33 @@ class digital_design extends Component {
                     <div className="grid-title header-title-sm-center content-text-24 margin-bottom-20 ">
                             Website Design Services: 
                     </div>
-                    <div className="item-web content-text-18">
+                    <div className="item content-text-18">
                             - Responsive Design
                     </div>
                     <div className="item content-text-18">
                         <a href ="./core_offerings" className="no-decoration greenlink">
                             - Accessibility</a>
                     </div>
-                    <div className="item-web content-text-18">
+                    <div className="item content-text-18">
                         <a href ="./core_offerings" className="no-decoration greenlink">
                             - Telemetry</a>
                         </div>
                         <div className="item content-text-18">
                             - Content Creation
                         </div>
-                        <div className="item-web content-text-18">
+                        <div className="item content-text-18">
                             - Typography 
                         </div>
                         <div className="item content-text-18">
                             - Front-End Development
                         </div>
-                        <div className="item-web content-text-18">
+                        <div className="item content-text-18">
                             - Custom Images
                         </div>
                         <div className="item content-text-18">
                             - Mobile Design
                         </div>
-                        <div className="item-web content-text-18 width-100 ">
+                        <div className="item content-text-18 width-100 ">
                         <a href ="./core_offerings" className="no-decoration greenlink">
                             - Analytic Data Reporting</a>
                         </div>

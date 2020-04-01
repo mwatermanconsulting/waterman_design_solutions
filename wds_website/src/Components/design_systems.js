@@ -78,7 +78,7 @@ class style_guide extends Component {
 
                 <div className="hr-line"></div>
 
-                <section className="float-left content-header align-items-center flex-layout-column">
+                <section className="float-left align-items-center flex-layout-column">
                     <div className="title content-block-60">
                         Consistency Across the Board
                     </div>
@@ -144,7 +144,7 @@ class style_guide extends Component {
 
                 <div className="hr-line"></div>    
 
-                <section className="float-left align-items-center flex-layout-section-full margin-bottom-50 content-header">
+                <section className="float-left align-items-center flex-layout-section-full margin-bottom-50 ">
                     <div className="title content-block-60">
                         Style Guides                        
                     </div>

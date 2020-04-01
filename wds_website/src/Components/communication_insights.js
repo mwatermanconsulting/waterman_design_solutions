@@ -198,7 +198,7 @@ class communication_insights extends Component {
                             is a set of new ideas for serving customers. The information distilled from the previous techniques and the company’s strategic requirements comes together in an Opportunities Matrix that clearly lays out a set of options for improving the experience of the user base to increase their engagement and satisfaction. </p>
 
                             <p className="content-text-18">
-                            To generate the ideas, WDS teams collaborate with product and executive teams to brainstorm concepts for innovation and improvement. Together, the combined team prioritizes the opportunities based on the difficulty of implementation, the feasibility for the business to deliver and the impact that each solution concept may have on users.</p>
+                            To generate the ideas, WDS teams collaborate with product and executive teams to brainstorm concepts for innovation and improvement. Together, the combined team prioritizes the opportunities based on the difficulty of implementation, the feasibility for the business to deliver and the RobotoCondensed-Bold that each solution concept may have on users.</p>
                         </div>
                     </div>     
                 </div>
@@ -218,7 +218,7 @@ class communication_insights extends Component {
                             Experience-Driven Product Roadmaps give the needs of customers a seat at the table, helping to ensure that what is released is what customers will value. We collaborate with product teams to incorporate the understanding and strategy developed in the Revealing Reality phase into the plan for how to group and sequence capabilities in an application. This includes the selection of features for the minimum viable product – an MVP that users and customers will be eager to adopt because it is developed with their needs in mind.</p>
                             
                             <p className="content-text-18"> 
-                            An Experience-Driven Product Roadmap provides a way forward to head in the direction established by the experience strategy. Having deep user understanding enables the cadence of releases to be structured to appeal to users, providing a built-in incentive to update an application. This is how we build a holistic experience that addresses customers’ and business’ goals and positively impacts the company’s value.</p>    
+                            An Experience-Driven Product Roadmap provides a way forward to head in the direction established by the experience strategy. Having deep user understanding enables the cadence of releases to be structured to appeal to users, providing a built-in incentive to update an application. This is how we build a holistic experience that addresses customers’ and business’ goals and positively RobotoCondensed-Bolds the company’s value.</p>    
                         </div>
                     </div>
                     <div className="grid-right container-image-block">

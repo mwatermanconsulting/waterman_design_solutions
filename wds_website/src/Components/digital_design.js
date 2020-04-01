@@ -12,32 +12,32 @@ import donolow from '../images/photos/photo-print-donolow.png';
 import wtt from '../images/photos/photo-web-wtt.png';
 import didyouknow from '../images/graphic-didyouknow.svg';
 
-class graphic_design extends Component {
+class digital_design extends Component {
     render () {
         return(
             <div>
             <Helmet>
                 <meta name="description" content="Printed materials help brand your business. It supports your social media and ad word marketing.  It covers a larger audience that respond to these marketing tools differently. WDS takes care of each marketing aspect, from web design to corporate identity to tangible materials such as business cards, postcards, annual reports, magazines and more." />
                 <meta charSet="utf-8" />
-            <title>Graphic Design</title>
-            <link rel="canonical" href="http://watermandesignsolutions.com/graphic_design" />
+            <title>Digital Design</title>
+            <link rel="canonical" href="http://watermandesignsolutions.com/digital_design" />
             </Helmet>
         <div className="flex-layout-column"> 
             <section className="flex-section-fixed-head-child yellow flex-layout-center-center image-background-border-tb">
                     <div className="header-text-center header-title text-white">
-                        Graphic Design
+                        Digital Design
                     </div>
                         <img className="flex-image-container width-100" src={print}  alt="Graphic Design" />     
                 </section>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                WDS has extensive print experience, including magazines, brochures, business cards, trade show displays, corporate reports, etc.
+                WDS has extensive digital design experience, including branding, online advertising, as well as print media in magazines, brochures, business cards, trade show displays, corporate reports, etc.
                 </div>
             </section>
             <section className="grid-callout photo-content-color border-bottom-5" > 
                 <div className="grid-placeself-center content-block-75 flex-layout-column">
                     <div className="callout-text padding-20 text-align-left margin-top-15 margin-left-2" >
-                    Print ads are more effective when they are a complement to your digital campaigns, enticing your audience to interact with your brand online.</div>        
+                    Ads are more effective when they are a complement to your digital campaigns, enticing your audience to interact with your brand online.</div>        
                     </div>
                     <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
                         <img className="container-photo-callout margin-left-15per margin-top-25sm" src={print_s1}  alt="Finding Truth" /> 
@@ -47,11 +47,11 @@ class graphic_design extends Component {
             <section className="flex-layout-section-full flex-layout-column margin-top-75 margin-top-50sm">
               
                     <div className="header-title-sm-center">
-                            The Value of Graphic Design
+                            The Value of Digital Design
                     </div>
                     <div className="margin-top-25 align-self-center content-block-65">
                         <p className="content-text-21 text-align-left">
-                            Printed materials help brand your business. It supports your social media and ad word marketing.  It covers a larger audience that respond to these marketing tools differently. WDS takes care of each marketing aspect, from web design to corporate identity to tangible materials such as business cards, postcards, annual reports, magazines and more. </p>
+                            Digital design supports your marketing campaign in social media and advertising, covering a larger audience that responds to various marketing tools differently. WDS takes care of each marketing aspect, from web design to corporate identity to tangible printed collateral. </p>
                     </div>
                 
             </section>
@@ -93,38 +93,28 @@ class graphic_design extends Component {
             <section className="flex-layout-section-full">
                 <div className="grid-2col-text-center width-75 align-self-center">
                         <div className="grid-title header-title-sm-center content-text-24 margin-bottom-20">
-                            Print design services include: 
+                            Digital design services include: 
                         </div>
-                        <div className="item-web content-text-18 ">
+                        <div className="item content-text-18 ">
                             - Business Identity
                         </div>
                         <div className="item content-text-18">
-                            - Letterhead 
+                            - High Fidelity prototypes 
                         </div>
-                        <div className="item-web content-text-18">
-                            - Business cards
-                        </div>
+                        
                         <div className="item content-text-18">
                             - Logo design 
                         </div>
-                        <div className="item-web content-text-18">
-                            - Postcards
-                        </div>
                         <div className="item content-text-18">
-                            - Brochures
-                        </div>
-                        <div className="item-web content-text-18">
                             - Promotional products
                         </div>
                         <div className="item content-text-18">
                             - Publications
                         </div>
-                        <div className="item-web content-text-18">
+                        <div className="item content-text-18">
                             - Trade show marketing materials
                         </div>
-                        <div className="item content-text-18">
-                            - Catalogues
-                        </div>
+                       
 
                     </div>
                 </section>
@@ -144,4 +134,4 @@ class graphic_design extends Component {
     }
 }
 
-export default graphic_design;
+export default digital_design;

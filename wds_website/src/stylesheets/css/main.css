@@ -726,7 +726,7 @@ footer {
   min-width: 500px; }
 
 .content-header {
-  font-family: Oswald, Arial, Helvetica, sans-serif;
+  font-family: Roboto Condensed, Arial, Helvetica, sans-serif;
   font-size: 2rem;
   font-weight: 700;
   line-height: 1.5;
@@ -1179,33 +1179,33 @@ footer {
   line-height: 1.5; }
 
 .header-title {
-  font-family: 'Mouse Memoirs', sans-serif;
+  font-family: 'RobotoCondensed-Bold', sans-serif;
   font-size: 10.1875rem;
   letter-spacing: 1.1px;
   line-height: 1.4;
   text-align: center; }
 
 .header-title-sm-center {
-  font-family: 'Mouse Memoirs', sans-serif;
-  font-size: 3.1875rem;
+  font-family: 'RobotoCondensed-Bold', sans-serif;
+  font-size: 2.75rem;
   letter-spacing: 1.1px;
   line-height: 1.4;
   text-align: center; }
 
 .header-title-sm {
-  font-family: 'Mouse Memoirs', sans-serif;
+  font-family: 'RobotoCondensed-Bold', sans-serif;
   font-size: 3.1875rem;
   letter-spacing: 1.1px;
   line-height: 1.4;
   text-align: left; }
 
 .header-title-cs {
-  font-family: 'Mouse Memoirs', sans-serif;
-  font-size: 5.1875rem;
+  font-family: 'RobotoCondensed-Bold', sans-serif;
+  font-size: 3.75rem;
   letter-spacing: 1.1px; }
 
 .title-homepage {
-  font-family: 'Mouse Memoirs', sans-serif;
+  font-family: 'RobotoCondensed-Bold', sans-serif;
   font-size: 2.12rem;
   letter-spacing: 1.1px; }
 
@@ -1367,7 +1367,7 @@ ul.dashed > li::before {
   margin-left: -15px; }
 
 h1 {
-  font-family: 'Mouse Momoirs', sans-serif; }
+  font-family: 'RobotoCondensed-Bold', sans-serif; }
 
 .callout-text {
   font-size: 1.5625rem;
@@ -1381,7 +1381,7 @@ h1 {
 
 .callout-title {
   font-size: 2rem;
-  font-family: 'Oswald', serif;
+  font-family: 'Roboto Condensed', serif;
   line-height: 2.25rem;
   letter-spacing: 0.8px;
   font-weight: 700;
@@ -1390,7 +1390,7 @@ h1 {
 
 .callout-text-lg-black {
   font-size: 2rem;
-  font-family: 'Oswald', serif;
+  font-family: 'Roboto Condensed', serif;
   line-height: 2.12;
   letter-spacing: 0.8px;
   font-weight: 700;
@@ -1399,7 +1399,7 @@ h1 {
 
 .callout-text-lg {
   font-size: 2rem;
-  font-family: 'Oswald', serif;
+  font-family: 'Roboto Condensed', serif;
   line-height: 2.12;
   letter-spacing: 0.8px;
   text-align: center;
@@ -1416,7 +1416,7 @@ h1 {
   color: #fff; }
 
 .title {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 3.05rem;
   line-height: 1.25;
   color: #879397;
@@ -1424,7 +1424,7 @@ h1 {
   text-align: left; }
 
 .title-white {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 3.05rem;
   line-height: 1.25;
   color: #fff;
@@ -1432,7 +1432,7 @@ h1 {
   text-align: left; }
 
 .title-center {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 3.05rem;
   font-weight: 500;
   color: #879397;
@@ -1441,7 +1441,7 @@ h1 {
   text-align: center; }
 
 .title-center-sm {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.75rem;
   font-weight: 500;
   color: #879397;
@@ -1453,15 +1453,14 @@ h1 {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.45;
-  font-family: 'Oswald';
+  font-family: 'Roboto Condensed';
   color: #879397;
   text-align: left; }
 
 .subtitle-center {
   font-size: 1.8rem;
-  font-weight: 700;
   line-height: 1.25;
-  font-family: 'Oswald';
+  font-family: 'Roboto Condensed';
   color: #879397;
   text-align: center; }
 
@@ -2719,13 +2718,13 @@ Button:hover {
   overflow-wrap: normal; }
 
 .title-case {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.6rem;
   color: #354346b3;
   font-weight: bold; }
 
 .subtitle-case {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.5rem;
   line-height: 2.25rem; }
 
@@ -2733,12 +2732,12 @@ Button:hover {
   font-size: 1.8rem;
   font-weight: 700;
   line-height: 1.25;
-  font-family: 'Oswald';
+  font-family: 'Roboto Condensed';
   color: #879397;
   text-align: left; }
 
 .intro-text {
-  font-family: 'Oswald';
+  font-family: 'Roboto Condensed';
   font-size: 31.3px;
   font-weight: bold;
   font-style: normal;
@@ -3401,7 +3400,7 @@ a:any-link {
            Practices
   *******************************/
 .choo {
-  font-family: 'Mouse Memoirs', sans-serif;
+  font-family: 'RobotoCondensed-Bold', sans-serif;
   font-size: 420px;
   color: purple;
   text-align: center;
@@ -3409,7 +3408,7 @@ a:any-link {
   margin-top: 125px; }
 
 .lewie {
-  font-family: 'Mouse Memoirs', sans-serif;
+  font-family: 'RobotoCondensed-Bold', sans-serif;
   font-size: 280px;
   color: #d334ff;
   background-color: chartreuse;
@@ -3419,7 +3418,7 @@ a:any-link {
   padding: 300px; }
 
 .chooch {
-  font-family: 'Mouse Memoirs', sans-serif;
+  font-family: 'RobotoCondensed-Bold', sans-serif;
   font-size: 180px;
   color: blue;
   background-color: #ff95f3;
@@ -3789,8 +3788,8 @@ a:any-link {
     float: right;
     padding: 0px 15px 15px 0px; }
   .header-title-sm {
-    font-family: 'Mouse Memoirs', sans-serif;
-    font-size: 3.5875rem;
+    font-family: 'RobotoCondensed-Bold', sans-serif;
+    font-size: 2.75rem;
     letter-spacing: 1.1px;
     line-height: 1;
     text-align: center; }
@@ -3991,7 +3990,7 @@ a:any-link {
     font-size: 2.0rem;
     text-align: center; }
   .header-title {
-    font-family: 'Mouse Memoirs', sans-serif;
+    font-family: 'RobotoCondensed-Bold', sans-serif;
     font-size: 3.12rem;
     line-height: 3rem; }
   .header-title-cs {
@@ -4699,7 +4698,7 @@ a:any-link {
     /* (100-32*3)/2 */ }
   .callout-title-center {
     font-size: 2rem;
-    font-family: 'Oswald', serif;
+    font-family: 'Roboto Condensed', serif;
     line-height: 2.25rem;
     letter-spacing: 0.8px;
     font-weight: 700;
@@ -4710,7 +4709,7 @@ a:any-link {
     max-width: 500px;
     height: auto; }
   .title-white {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 3.05rem;
     line-height: 1.25;
     color: #fff;
@@ -5002,7 +5001,7 @@ a:any-link {
     margin-left: 0px;
     padding-left: 0px; }
   .title {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 3.05rem;
     line-height: 1.25;
     color: #879397;
@@ -5049,7 +5048,7 @@ a:any-link {
   .margin-top-25per {
     margin-top: -.25%; }
   .header-title {
-    font-size: 5.1875rem; }
+    font-size: 3.75rem; }
   .content-block-25 {
     width: 25%; }
   .content-block-40 {

@@ -45,9 +45,7 @@ class case_study_1 extends Component {
                 </section>
             
                 <section className="flex-layout-column align-items-center border-top-5">
-                    <div className="margin-top-25sm margin-top-50cs content-block-65 title">
-                            Case Study - Motorola
-                    </div>
+                    
                     <div className="content-block-65 margin-top-25">
                         <p className="content-text-18">
                             WDS was contracted to find solutions to the ongoing problems that Motorola faced with their high-end modem. After two failed attempts they were desperate to find solutions. WDS was hired to design a modern user-centric interface for the the high-end Cable modem the MOTOROLA DOCSIS 3.1, Model MB8600. WDS used their UX methodology to uncover the previously unknown problems. The solutions simplified the interface and  user workflows. The redesign exceeded the stakeholders expectations, surviving two company buyouts. When Google purchased Motorola, WDS and Motorola were required to present to the Google stakeholders to justify the endeavor mid-development. In the end, WDS's design solutions were adopted by both companies and became industry standards.</p>
@@ -471,7 +469,7 @@ class case_study_1 extends Component {
             <section className="flex-layout-section-full flex-layout-column flex-layout-center-center margin-top-100  grey border-top-5">
                 <div className=" margin-top-50 content-block-65 margin-bottom-50 text-align-center "> 
                             <p className="callout-text-white text-align-center">
-                                "The Surfboard eXtreme has a robust and self-explanatory Web interface with lots of features, including showing level of interference for its Wi-Fi networks." - CNET review</p><img  src={motorola_cnet} alt="CNET review"/>
+                                "The Surfboard eXtreme has a robust and self-explanatory Web interface with lots of features, including showing level of interference for its Wi-Fi networks." <br></br>- CNET review</p><img  src={motorola_cnet} alt="CNET review"/>
                         </div>
                         
                         </section>

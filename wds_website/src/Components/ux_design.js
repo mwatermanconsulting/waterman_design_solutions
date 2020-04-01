@@ -161,11 +161,11 @@ class ux_design extends Component {
                                 - Visual Design</div>
                             <div className=" content-text-18">
                                 - Journey Maps</div>
-                            <div className="- content-text-18">
+                            <div className="content-text-18">
                                 - Personas and User Stories </div>
                             <div className=" content-text-18">
                                 - Concept Validation</div>
-                            <div className="item content-text-18">
+                            <div className=" content-text-18">
                                 - Wireframes</div>
                             <div className=" content-text-18">
                                 - User Workflows</div>
