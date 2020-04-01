@@ -204,7 +204,7 @@ class innovative_solutions extends Component {
                             is a set of new ideas for serving customers. The information distilled from the previous techniques and the company’s strategic requirements comes together in an Opportunities Matrix that clearly lays out a set of options for improving the experience of the user base to increase their engagement and satisfaction. </p>
 
                             <p className="content-text-18">
-                            To generate the ideas, WDS teams collaborate with product and executive teams to brainstorm concepts for innovation and improvement. Together, the combined team prioritizes the opportunities based on the difficulty of implementation, the feasibility for the business to deliver and the impact that each solution concept may have on users.</p>
+                            To generate the ideas, WDS teams collaborate with product and executive teams to brainstorm concepts for innovation and improvement. Together, the combined team prioritizes the opportunities based on the difficulty of implementation, the feasibility for the business to deliver and the RobotoCondensed-Bold that each solution concept may have on users.</p>
                         </div>
                     </div> 
                 </section>
@@ -226,7 +226,7 @@ class innovative_solutions extends Component {
                     
                             
                             <p className="content-text-18"> 
-                            A design-driven product roadmap provides a way forward  in the direction established by the experience strategy. Having deep user understanding enables the cadence of releases to be structured to appeal to users, providing a built-in incentive to update an application. This is how WDS builds a holistic experience that addresses customers’ and business’ goals and positively impacts the company’s value.</p>    
+                            A design-driven product roadmap provides a way forward  in the direction established by the experience strategy. Having deep user understanding enables the cadence of releases to be structured to appeal to users, providing a built-in incentive to update an application. This is how WDS builds a holistic experience that addresses customers’ and business’ goals and positively RobotoCondensed-Bolds the company’s value.</p>    
                         </div>
                 </section>
                     

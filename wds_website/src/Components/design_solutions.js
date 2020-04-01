@@ -87,19 +87,19 @@ class design_solutions extends Component {
 
             <section className="float-left align-items-center flex-layout-column">
                 <div className="title content-block-60">
-                    Graphic Design
+                    Digital Design
                 </div>
                 <div className="subtitle content-block-60 margin-top-10">
-                    Traditional Design Strategies
+                    Design Strategies
                 </div>
                 <div className="content-block-60 content-text-18 margin-top-15">
                     <p className="content-text-18"> 
                 <div className="float-right">
                     <img className="photo-container margin-top-8per"  src={design_print}  alt="Graphic Design" /> 
                 </div>  
-                    Graphic design still has a place in today's digital technology. WDS develops traditional design strategies that compliments  digital campaigns by designing graphics that are based on research and user personas. Designing for real people helps drive sales and user retention. WDS has extensive print experience, including magazines, brochures, business cards, trade show displays, corporate reports, etc. </p>
+                    WDS develops design strategies for marketing campaigns by designing graphics that are based on research and user personas. Designing for real people helps drive sales and user retention. </p>
                 <div className="float-left-np ">
-                    <NavLink className='button-area no-decoration' value="learn more" type="button" to={'/graphic_design'}>
+                    <NavLink className='button-area no-decoration' value="learn more" type="button" to={'/digital_design'}>
                         Learn More
                     </NavLink>  
                 </div> 

@@ -233,7 +233,7 @@ class strategy_insight extends Component {
                             Looking for Opportunities
                         </div>
                         <div className="subtitle margin-top-10 content-block-60">
-                            Solutions that Impact the User
+                            Solutions that RobotoCondensed-Bold the User
                         </div>
                         <div className="content-block-60 content-text-18 margin-top-15">
                         <div className="float-right">
@@ -242,7 +242,7 @@ class strategy_insight extends Component {
                             <p className="content-text-18"> 
                                 A key value that a design strategy delivers is a set of new ideas for serving customers. The information distilled from the previous techniques and the company’s strategic requirements come together, clearly laying out a set of options for improving the experience of the user base to increase their engagement and loyalty.</p>
                             <p className="content-text-18">
-                                WDS collaborates with product and executive teams to brainstorm concepts for innovation and improvement. Together, the combined team prioritizes the opportunities based on the difficulty of implementation, the feasibility for the business to deliver and the impact that each solution concept may have on users.</p>     
+                                WDS collaborates with product and executive teams to brainstorm concepts for innovation and improvement. Together, the combined team prioritizes the opportunities based on the difficulty of implementation, the feasibility for the business to deliver and the RobotoCondensed-Bold that each solution concept may have on users.</p>     
                          </div>
                     </section>
 

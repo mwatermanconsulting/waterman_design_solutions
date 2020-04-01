@@ -393,7 +393,7 @@ class methodology extends Component {
                             <ul className="content-text-18 dashed">
                                 <li><a href="../design_systems" className="no-decoration greenlink">Style Guides and Design Systems</a> </li>
                                 <li><a href="../website_design" className="no-decoration greenlink">Website Design</a></li>
-                                <li><a href="../graphic_design" className="no-decoration greenlink">Graphic Design</a></li>
+                                <li><a href="../digital_design" className="no-decoration greenlink">Digital Design</a></li>
                                 <li><a href="../marketing" className="no-decoration greenlink">Marketing</a></li>
                             </ul>
                         </div>

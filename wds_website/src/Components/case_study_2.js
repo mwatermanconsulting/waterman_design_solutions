@@ -278,7 +278,7 @@ class case_study_2 extends Component {
                             <div className="content-text-18 content-block-65 margin-top-25 margin-bottom-25sm border-2 padding">
                                 <p className="subtitle">StubHub Testimonial</p>
                                 “(WDS) are thoughtful designers who helped transform our reporting project from a technical tool for pulling data into a place where users at all levels of our organization can find insights about our business.”<br/>
-                                    -Michael Johnston Stubhub, Impact-Focused Technologist Specializing in Data
+                                    -Michael Johnston Stubhub, RobotoCondensed-Bold-Focused Technologist Specializing in Data
                         </div>
                         </section>
                         

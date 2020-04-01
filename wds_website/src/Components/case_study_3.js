@@ -61,7 +61,7 @@ class case_study_3 extends Component {
                 <div className="hr-line-cs"></div>
                 
                 <section className="flex-layout-section-full align-items-center"> 
-                    <div className="content-header content-block-65 flex-layout-column" >
+                    <div className="content-block-65 flex-layout-column" >
                         <div className="title">
                         Researching CMS Problems
                     </div>

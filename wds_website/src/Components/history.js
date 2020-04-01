@@ -155,13 +155,13 @@ class about extends Component {
 
                     <div className="hr-line"></div>
                     <section className="flex-left flex-layout-section-full align-items-center">
-                        <div className="title content-block-60">
+                        <div className="title content-block-65">
                             UX and Business Design Solutions
                         </div>
-                        <div className="subtitle margin-top-10 content-block-60">
+                        <div className="subtitle margin-top-10 content-block-65">
                             The Pfizer Pro Initiative
                         </div>
-                        <div className="content-block-60">
+                        <div className="content-block-65">
                             <p className="content-text-18  margin-top-15">
                             The WebFirstAid talks lead to a connection with Pfizer In 2008, and Surreal Concepts embedded Michael into the project.  
                             <img className="float-right visibility width-40" src={pfizer_logo}   alt="Pfizer logo" /> 

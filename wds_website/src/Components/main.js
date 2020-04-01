@@ -19,7 +19,7 @@ import finding_truth from './finding_truth';
 import innovative_solutions from './innovative_solutions';
 import marketing from './marketing';
 import methodology from './methodology';
-import graphic_design from './graphic_design';
+import digital_design from './digital_design';
 import Services from './services';
 import strategy_insight from './strategy_insight';
 import design_systems from './design_systems';
@@ -57,7 +57,7 @@ const Main = () => (
     <Route exact path="/innovative_solutions" component={innovative_solutions} />
     <Route exact path="/marketing" component={marketing} />
     <Route exact path="/methodology" component={methodology} />
-    <Route exact path="/graphic_design" component={graphic_design} />
+    <Route exact path="/digital_design" component={digital_design} />
     <Route exact path="/services" component={Services} />
     <Route exact path="/strategy_insight" component={strategy_insight} />
     <Route exact path="/design_systems" component={design_systems} />
