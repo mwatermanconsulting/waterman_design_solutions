@@ -31,13 +31,13 @@ class digital_design extends Component {
                 </section>
             <section className="container-section-1-primary flex-layout-center-center border-bottom-5 callout-color-dark">
                 <div className="callout-text-lg"> 
-                WDS has extensive digital design experience, including branding, online advertising, as well as print media in magazines, brochures, business cards, trade show displays, corporate reports, etc.
+                WDS has extensive digital design experience, including branding, online advertising, social media content, and print media.
                 </div>
             </section>
             <section className="grid-callout photo-content-color border-bottom-5" > 
                 <div className="grid-placeself-center content-block-75 flex-layout-column">
                     <div className="callout-text padding-20 text-align-left margin-top-15 margin-left-2" >
-                    Ads are more effective when they are a complement to your digital campaigns, enticing your audience to interact with your brand online.</div>        
+                    How does a company visually communicate to show that their users are valued? Empathy will uncover small details that make a big difference, and this is where the designer comes in.</div>        
                     </div>
                     <div className="grid-callout-photo grid-placeself-center content-block-75 margin-tb-100">
                         <img className="container-photo-callout margin-left-15per margin-top-25sm" src={print_s1}  alt="Finding Truth" /> 
@@ -51,7 +51,7 @@ class digital_design extends Component {
                     </div>
                     <div className="margin-top-25 align-self-center content-block-65">
                         <p className="content-text-21 text-align-left">
-                            Digital design supports your marketing campaign in social media and advertising, covering a larger audience that responds to various marketing tools differently. WDS takes care of each marketing aspect, from web design to corporate identity to tangible printed collateral. </p>
+                            Digital design is a support for marketing campaigns. Branding provides a comfort and familiarity, putting your users at ease with visuals that tell a story. WDS takes care of each marketing aspect, from web design to corporate identity to tangible printed collateral. </p>
                     </div>
                 
             </section>
