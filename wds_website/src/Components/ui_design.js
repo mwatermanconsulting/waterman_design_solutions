@@ -50,7 +50,7 @@ class ui_design extends Component {
             </section>
 
             <section className="flex-layout-section-full flex-layout-column align-items-center">
-                <p className="header-title-sm-center margin-top-75 content-block-75">
+                <p className="class=header-title-center margin-top-75 content-block-75">
                 WDS has provided UI solutions to the some of the world's largest brands</p>
                 <p className="subtitle-center text-align-center content-block-60  margin-top-10">
                 Simplifying websites, products and software interfaces is a passion of WDS. The latest design solutions for data visualization applications are being used in industries such as the energy sector to monitor nuclear reactors.
@@ -131,7 +131,7 @@ class ui_design extends Component {
                             <p className="content-text-18">
                                 Most low-fidelity wireframes communicate function well, but communicate form poorly. This is especially the case for mobile applications that have standard interface components with a consistent look and feel. A high-fidelity wireframe of a mobile application will communicate the user interface form and function better because the wireframe better resembles the standard interface components that users are familiar with.</p>
 
-                            <p className="content-text-18"> On a high-fidelity wireframe, there’s also no question to clients about what is a        button or text field because of the gradient detail on the elements. Low-fidelity wireframes don’t give the          gradient details that clients need to tell what each interface element is and how they function. Both form and       function are key to the user experience. Reducing the form of a user interface too much could RobotoCondensed-Bold how          clients view  wireframes.
+                            <p className="content-text-18"> On a high-fidelity wireframe, there’s also no question to clients about what is a button or text field because of the gradient detail on the elements. Low-fidelity wireframes don’t give the gradient details that clients need to tell what each interface element is and how they function. Both form and function are key to the user experience. Reducing the form of a user interface too much could effect how clients view wireframes.
                             </p>      
                             
                             </div>  

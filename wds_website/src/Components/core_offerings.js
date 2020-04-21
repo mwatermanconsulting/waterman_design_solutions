@@ -303,7 +303,7 @@ class core_offerings extends Component {
                         <p className="content-text-18"> 
                         The Web is fundamentally designed to work for all people, whatever their hardware, software, language, location, or ability. When the Web meets this goal, it is accessible to people with a diverse range of hearing, movement, sight, and cognitive ability.</p>
                     
-                        <p className="content-text-18"> The RobotoCondensed-Bold of disability has radically changed on the Web because barriers are removed that prevent communication and interaction that many people face in the physical world. However, when websites, applications, technologies, or tools are badly designed, they can create barriers that exclude people.</p>
+                        <p className="content-text-18"> The challenge of dealing with disability has radically changed on the Web because barriers are removed that prevent communication and interaction that many people face in the physical world. However, when websites, applications, technologies, or tools are badly designed, they can create barriers that exclude people.</p>
     
                         <p className="content-text-18">Accessibility affects up to 18% of your users. WDS accessibility strategies help implement a plan that defines and provides solutions, increasing your bottom line.</p>
                     </div>
