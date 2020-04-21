@@ -159,7 +159,7 @@ class why_wds extends Component {
                         <img className="photo-container margin-top-10sm" src={whys3}  alt="Our Core Offerings" /> 
                     </div>  
                             <p className="content-text-18 margin-top-15"> 
-                            Empathetic design is critical to your to your future success. WDS has successfully communicated the value of design to businesses for 25 years. Design strategies and < a href="core_offerings" className="no-decoration greenlink">core offerings</a> increase revenues and customer loyalty. A recent study on the value of design by Mckinsey reported that the companies that value design and focus on their users  have increased their business by 30%. WDS core offerings are services that provide training, strategies and workshops to align the value of design to the core of your business.</p>         
+                            Empathetic design is critical to your future success. WDS has successfully communicated the value of design to businesses for 25 years. Design strategies and < a href="core_offerings" className="no-decoration greenlink">core offerings</a> increase revenues and customer loyalty. A recent study on the value of design by Mckinsey reported that the companies that value design and focus on their users  have increased their business by 30%. WDS core offerings are services that provide training, strategies and workshops to align the value of design to the core of your business.</p>         
                         </div> 
                     </section>
 
@@ -257,7 +257,7 @@ class why_wds extends Component {
                         WDS builds emotionally rich, resonant digital design solutions that enable users to fully realize technology’s complete potential by simplifying everything your customers touch and feel.</p>
                
                     <div className="flex-layout-column margin-top-50">    
-                        <img src={advocate} className="align-self-center  width-65sm margin-bottom-20" alt="Advocates for the User"/>
+                        <img src={advocate} className="align-self-center  width-85sm margin-bottom-20" alt="Advocates for the User"/>
                         <p className="caption text-align-center">
                         <i>Advocating and designing for the user!</i></p>
                     </div>
@@ -276,7 +276,7 @@ class why_wds extends Component {
                 <div className="width-75">
                     <div> 
                     <div className="header-title-sm layout-center-justified">
-                        We'll Get There Together
+                        We'll get there together.
                     </div>
                     <div className="layout-center-justified ">
                         <img src={youcandoit} className="float-right margin-top-15sm width-50 align-self-center margin-bottom-20 photo-container" alt="You can do it"/>

@@ -116,7 +116,7 @@ class css_solutions extends Component {
                 <div className="float-right callout-photo margin-top-15sm">
                     <img className="photo-container" src={css3}  alt="Prototypes" /> 
                 </div>
-                CSS preprocessors are scripting languages that extend the default capabilities of CSS. They enable the use of logic in CSS code, such as variables, nesting, inheritance, mixins, functions, and mathematical operations. CSS preprocessors make it easy to automate repetitive tasks, reduce the number of errors and "code bloat," by creating reusable code snippets, that ensures backward compatibility. </p>              
+                CSS preprocessors are scripting languages that extend the default capabilities of CSS. They enable the use of logic in CSS code, such as variables, nesting, inheritance, mixins, functions, and mathematical operations. CSS preprocessors make it easy to automate repetitive tasks, reduce the number of errors and "code bloat," by creating reusable code snippets that ensure backward compatibility. </p>              
             </div>  
             </div>
         </section>
@@ -138,7 +138,7 @@ class css_solutions extends Component {
                     <div className="float-right callout-photo margin-top-15 margin-top-15sm">
                         <img className="photo-container" src={css4}  alt="Prototypes" /> 
                     </div>   
-                    The WDS CSS specialists deliver custom CSS solutions as npm packages or through github. The packages includes a developer build kit with the custom CSS, Sass or Less files, HTML files and documentation. WDS can refactor your current CSS or develop a customizable CSS solution that will scale as the project matures. They will always keep your team up to date on new releases and make sure all the current version are available.  </p>
+                    The WDS CSS specialists deliver custom CSS solutions as npm packages or through github. The package includes a developer build kit with the custom CSS, Sass or Less files, HTML files and documentation. WDS can refactor your current CSS or develop a customizable CSS solution that will scale as the project matures. They will always keep your team up to date on new releases and make sure all the current version are available.  </p>
 
             </div>  
             </div>
