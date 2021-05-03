@@ -233,7 +233,7 @@ class landingPage extends Component {
                         <div className="title-center-sm content-block-65 margin-top-25">
                             Real Designers Increase Loyalty and Profits
                         </div>
-                        <div className="content-block-65 content-text-18 margin-top-25">
+                        <div className="content-block-50 content-text-18 margin-top-25">
                     
                             WDS has trained designers who are experts in graphic design, marketing, branding and social media content. They understand the value of design to create a better experience according to your business and users' needs.          
                         </div> 
