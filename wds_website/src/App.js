@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './stylesheets/css/main.css';
 import { Layout, Header, Navigation, Drawer, Content, } from 'react-mdl';
-import Main from './Components/main';
+import Main from './Components/main.js';
 import logo from './images/WDS-logo-banner.svg'
 import facebook from './images/icon-logo-fb.svg'
 import twitter from './images/icon-twitter.svg'

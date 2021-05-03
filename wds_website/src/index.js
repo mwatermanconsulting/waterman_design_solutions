@@ -5,17 +5,17 @@ import * as serviceWorker from './serviceWorker';
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
 import { BrowserRouter } from 'react-router-dom';
-import TagManager from 'react-gtm-module'
+// import TagManager from 'react-gtm-module'
 
 
 
 
 
-const tagManagerArgs = {
-    gtmId: 'GTM-NGNHC8R'
-}
+// const tagManagerArgs = {
+//     gtmId: 'GTM-NGNHC8R'
+// }
 
-TagManager.initialize(tagManagerArgs)
+// TagManager.initialize(tagManagerArgs)
 
 
 
